@@ -1,0 +1,92 @@
+{
+  "storage": {
+    "last": "킹드라",
+    "cards": {
+      "킹드라": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "scenes": {
+          "casual": {
+            "cat": "travel_exploration",
+            "ex": "travel_trail",
+            "expr": "curious",
+            "pose": "checking_map",
+            "orient": "low_angle",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "randomized": {
+              "orient": "leaning_back",
+              "frame": "waist_up",
+              "lens": "documentary35"
+            },
+            "adjustments": [
+              {
+                "key": "orient",
+                "to": "low_angle",
+                "reason": "지도 확인 중 균형 있게 서는 장면이라 뒤로 기우는 방향을 피함"
+              },
+              {
+                "key": "frame",
+                "to": "full_body",
+                "reason": "숲길에서 지도 확인과 등산화를 함께 읽히게 전신을 선택"
+              },
+              {
+                "key": "lens",
+                "to": "portrait85",
+                "reason": "작은 시냇가 뒤 배경을 압축해 지도와 얼굴을 읽히게 함"
+              }
+            ],
+            "axesReasons": {
+              "action_level": "갈림길에서 지도를 펴는 가벼운 활동",
+              "source_influence": "작은 소용돌이 잠금과 청백색 옷 배색 두 단서",
+              "separates_preference": "소매 셔츠·반바지·오픈 베스트 분리층"
+            },
+            "aspect": "2:3",
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            },
+            "scene": "On a mossy forest trail after a summer shower, checking a plain unlettered folding route map beside a small stream in late-afternoon sunbeams.",
+            "outfit": "A cobalt V-neck short-sleeve hiking shirt with a tied cropped hem, white pleated shorts and ankle boots, worn with a light open sleeveless rain vest; tiny spiral map clasp.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Use only a tiny white fin-shaped barrette at the ponytail base instead of the tall spiked head ornament.",
+            "exampleText": "Pausing at a forest trail junction to compare a folded map with a trail marker, wearing a light travel pack.",
+            "directInputs": [
+              {
+                "field": "scene",
+                "content": "On a mossy forest trail after a summer shower, checking a plain unlettered folding route map beside a small stream in late-afternoon sunbeams.",
+                "reason": "숲길 갈림길 예시에 비온 뒤 시냇가와 늦은 햇빛을 추가"
+              },
+              {
+                "field": "outfit",
+                "content": "A cobalt V-neck short-sleeve hiking shirt with a tied cropped hem, white pleated shorts and ankle boots, worn with a light open sleeveless rain vest; tiny spiral map clasp.",
+                "reason": "예시에 배낭만 있으므로 V목선·반소매·반바지·오픈 베스트를 구체화"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 생성 도구에 별도 크기 인자가 없어 세로 2:3 문구를 사용"
+              },
+              {
+                "field": "custom",
+                "content": "Use only a tiny white fin-shaped barrette at the ponytail base instead of the tall spiked head ornament.",
+                "reason": "숲길 결과에 키 큰 머리 장식이 남아 작은 흰 바레트로 부분 교정"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "storage_source": "실제 생성기 UI에서 선택한 값과 잠김 버튼 표시를 DOM으로 읽어 기록한 투영본; 브라우저 localStorage 원문을 읽은 것으로 주장하지 않음",
+  "prompt": "CHARACTER: the same woman as the attached image — Kingdra (킹드라) personified, water / dragon type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: one brow raised higher, head tilted, eyes wide and attentive, lips slightly parted\nPose: Hold a folded-out route map in both hands while checking the surroundings.\nOrientation: camera below subject looking upward; obey selected framing\nScene: On a mossy forest trail after a summer shower, checking a plain unlettered folding route map beside a small stream in late-afternoon sunbeams.\nOutfit and props: A cobalt V-neck short-sleeve hiking shirt with a tied cropped hem, white pleated shorts and ankle boots, worn with a light open sleeveless rain vest; tiny spiral map clasp.\nCategory: Show travel or peaceful field exploration in the Pokémon world, with useful travel clothing and a specific activity. Let the environment support the woman without overwhelming her or turning the scene into combat.\nExample scene: Pausing at a forest trail junction to compare a folded map with a trail marker, wearing a light travel pack.\nNote: Use only a tiny white fin-shaped barrette at the ponytail base instead of the tall spiked head ornament.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra."
+}
