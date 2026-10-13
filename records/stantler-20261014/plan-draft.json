@@ -1,0 +1,89 @@
+{
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "qipao_silk_set",
+      "expr": "pensive",
+      "pose": "standing_formal",
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "scene": "A quiet lacquer dressing room at twilight; adjusting a small frog-button closure beside a silk screen.",
+      "outfit": "Cream opaque silk with brown edging and a small black orb brooch; the cropped top has short cap sleeves, with matching high-waisted bottoms and no robe.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "slot": "casual1",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      }
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_coast",
+      "expr": "curious",
+      "pose": "squatting",
+      "orient": "crouching",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "scene": "On a pale pebble beach after dawn; one hand places a spiral shell beside an open unlettered notebook while the other makes a quick pencil sketch.",
+      "outfit": "Brown open-collar short-sleeve safari shirt ending at the waist over cream mid-thigh shorts, no jacket; sturdy sandals and a tiny black bead bracelet.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "slot": "casual2",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      }
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "bookstore",
+      "expr": "soft_smile",
+      "pose": "reading_book",
+      "orient": "front_3q",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "Inside a warm used-book shop on a winter evening; reading an open illustrated volume with plain unlettered covers among softly lit shelves.",
+      "outfit": "Cream V-neck long-sleeve cardigan ending at the hip, worn open over a brown scoop-neck top and brown knee-length skirt; small antler-shaped buttons and black round earrings.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "slot": "casual3",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      }
+    }
+  ],
+  "compared": [
+    "직구리",
+    "킹드라",
+    "헬가",
+    "폴리곤2"
+  ],
+  "note": "Planned before image generation; each will be selected and inspected in the actual UI."
+}

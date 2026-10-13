@@ -1,0 +1,1035 @@
+{
+  "character": "노라키",
+  "style": "glossy_promo",
+  "faceReason": "큰 뿔과 긴 목의 선을 긴 얼굴 및 긴 콧대로 해석한다.",
+  "faceEvidence": [
+    "data/face-design.json",
+    "data/source-appearance.json"
+  ],
+  "faceCompared": [
+    "직구리",
+    "킹드라",
+    "헬가",
+    "폴리곤2"
+  ],
+  "comparison": [
+    {
+      "character": "linoone",
+      "record": "pkm-atelier-img-2/records/linoone-20261013/plan.json",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "proud",
+          "pose": "mid_stride",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "scene": "Sunlit aviation museum event on a glass departure bridge, carrying a small unlettered service case.",
+          "outfit": "Ivory twill jacket with elbow-length sleeves and brown longitudinal piping, short brown scarf, matching tailored above-knee skirt and cream pumps; tiny stripe-shaped clasp.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "aspect": "2:3",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "example_text": "a retro flight-attendant-inspired costume with a fitted jacket, scarf, and original airline-style trim, at a themed event",
+          "random_adjustments": {
+            "orient": {
+              "draw": "front_3q",
+              "final": "low_angle",
+              "reason": "flight_attendant needs readable face, activity and props; avoid recently used orientation/crop pairs."
+            },
+            "frame": {
+              "draw": "three_quarter",
+              "final": "environmental",
+              "reason": "flight_attendant needs readable face, activity and props; avoid recently used orientation/crop pairs."
+            },
+            "lens": {
+              "draw": "natural50",
+              "final": "documentary35",
+              "reason": "flight_attendant needs readable face, activity and props; avoid recently used orientation/crop pairs."
+            }
+          },
+          "axis_reasons": {
+            "action_level": "flight_attendant: mid_stride is the selected activity timing, with Sunlit aviation museum event on a glass departure bridge, carrying a small unlettered service case.",
+            "source_influence": "This scene carries motifs via Ivory twill jacket with elbow-length sleeves and brown longitudinal piping, short brown scarf, matching tailored above-knee skirt and cream pumps; tiny stripe-shaped clasp.",
+            "separates_preference": "The specified silhouette is Ivory twill jacket with elbow-length sleeves and brown longitudinal piping, short brown scarf, matching tailored above-knee skirt and cream pumps; tiny stripe-shaped clasp."
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Sunlit aviation museum event on a glass departure bridge, carrying a small unlettered service case.",
+              "reason": "The example 'a retro flight-attendant-inspired costume with a fitted jacket, scarf, and original airline-style trim, at a themed event' omits the chosen weather/time and activity details: Sunlit aviation museum event on a glass departure bridge, carrying a small unlettered service case."
+            },
+            {
+              "field": "outfit",
+              "content": "Ivory twill jacket with elbow-length sleeves and brown longitudinal piping, short brown scarf, matching tailored above-knee skirt and cream pumps; tiny stripe-shaped clasp.",
+              "reason": "The example 'a retro flight-attendant-inspired costume with a fitted jacket, scarf, and original airline-style trim, at a themed event' omits the chosen color, fabric and neckline/sleeve/hem/layer silhouette: Ivory twill jacket with elbow-length sleeves and brown longitudinal piping, short brown scarf, matching tailored above-knee skirt and cream pumps; tiny stripe-shaped clasp."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size argument; provide vertical 2:3."
+            }
+          ]
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "focused",
+          "pose": "watering",
+          "orient": "leaning_forward",
+          "frame": "full_body",
+          "lens": "natural50",
+          "scene": "Rain-speckled kitchen windowsill at dawn, with terracotta seedling pots and folded gardening scissors on a tray.",
+          "outfit": "V-neck cream linen shirt with rolled elbow-length sleeves and a cropped tied hem, brown striped high-waist shorts, no outer layer; small wooden stripe hair clip.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "aspect": "2:3",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "example_text": "Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.",
+          "random_adjustments": {
+            "orient": {
+              "draw": "walking_away",
+              "final": "leaning_forward",
+              "reason": "hobby_gardening needs readable face, activity and props; avoid recently used orientation/crop pairs."
+            },
+            "frame": {
+              "draw": "three_quarter",
+              "final": "full_body",
+              "reason": "hobby_gardening needs readable face, activity and props; avoid recently used orientation/crop pairs."
+            }
+          },
+          "axis_reasons": {
+            "action_level": "hobby_gardening: watering is the selected activity timing, with Rain-speckled kitchen windowsill at dawn, with terracotta seedling pots and folded gardening scissors on a tray.",
+            "source_influence": "This scene carries motifs via V-neck cream linen shirt with rolled elbow-length sleeves and a cropped tied hem, brown striped high-waist shorts, no outer layer; small wooden stripe hair clip.",
+            "separates_preference": "The specified silhouette is V-neck cream linen shirt with rolled elbow-length sleeves and a cropped tied hem, brown striped high-waist shorts, no outer layer; small wooden stripe hair clip."
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Rain-speckled kitchen windowsill at dawn, with terracotta seedling pots and folded gardening scissors on a tray.",
+              "reason": "The example 'Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.' omits the chosen weather/time and activity details: Rain-speckled kitchen windowsill at dawn, with terracotta seedling pots and folded gardening scissors on a tray."
+            },
+            {
+              "field": "outfit",
+              "content": "V-neck cream linen shirt with rolled elbow-length sleeves and a cropped tied hem, brown striped high-waist shorts, no outer layer; small wooden stripe hair clip.",
+              "reason": "The example 'Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.' omits the chosen color, fabric and neckline/sleeve/hem/layer silhouette: V-neck cream linen shirt with rolled elbow-length sleeves and a cropped tied hem, brown striped high-waist shorts, no outer layer; small wooden stripe hair clip."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size argument; provide vertical 2:3."
+            }
+          ]
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "hardware_store",
+          "expr": "curious",
+          "pose": "carrying_something",
+          "orient": "looking_away",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "scene": "Warm neighborhood hardware shop at dusk; examining one small brass hinge in a shallow parts box held near her chest, plain unlabeled wooden bins behind her.",
+          "outfit": "Square-neck caramel short-sleeve cotton midi dress with a fitted waist, no outer layer, small ivory stud earrings.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "aspect": "2:3",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "example_text": "Hardware / Home-improvement Store",
+          "random_adjustments": {
+            "orient": {
+              "draw": "reclining",
+              "final": "looking_away",
+              "reason": "hardware_store needs readable face, activity and props; avoid recently used orientation/crop pairs."
+            },
+            "frame": {
+              "draw": "chest_up",
+              "final": "three_quarter",
+              "reason": "hardware_store needs readable face, activity and props; avoid recently used orientation/crop pairs."
+            },
+            "lens": {
+              "draw": "telephoto135",
+              "final": "portrait85",
+              "reason": "hardware_store needs readable face, activity and props; avoid recently used orientation/crop pairs."
+            }
+          },
+          "axis_reasons": {
+            "action_level": "hardware_store: carrying_something is the selected activity timing, with Warm neighborhood hardware shop at dusk; examining one small brass hinge in a shallow parts box held near her chest, plain unlabeled wooden bins behind her.",
+            "source_influence": "This scene carries motifs via Square-neck caramel short-sleeve cotton midi dress with a fitted waist, no outer layer, small ivory stud earrings.",
+            "separates_preference": "The specified silhouette is Square-neck caramel short-sleeve cotton midi dress with a fitted waist, no outer layer, small ivory stud earrings."
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Warm neighborhood hardware shop at dusk; examining one small brass hinge in a shallow parts box held near her chest, plain unlabeled wooden bins behind her.",
+              "reason": "The example 'Hardware / Home-improvement Store' omits the chosen weather/time and activity details: Warm neighborhood hardware shop at dusk; examining one small brass hinge in a shallow parts box held near her chest, plain unlabeled wooden bins behind her."
+            },
+            {
+              "field": "outfit",
+              "content": "Square-neck caramel short-sleeve cotton midi dress with a fitted waist, no outer layer, small ivory stud earrings.",
+              "reason": "The example 'Hardware / Home-improvement Store' omits the chosen color, fabric and neckline/sleeve/hem/layer silhouette: Square-neck caramel short-sleeve cotton midi dress with a fitted waist, no outer layer, small ivory stud earrings."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size argument; provide vertical 2:3."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character": "kingdra",
+      "record": "pkm-atelier-img-2/records/kingdra-20261013/plan.json",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "masquerade",
+          "expr": "proud",
+          "pose": "contrapposto",
+          "orient": "high_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "randomized": {
+            "orient": "high_angle",
+            "frame": "environmental",
+            "lens": "wide24"
+          },
+          "axesReasons": {
+            "action_level": "가면 리본을 점검하는 잠깐 멈춘 준비 장면",
+            "source_influence": "청백색 드레스와 작은 소용돌이 브로치로 두 색상·모티프 표현",
+            "separates_preference": "구조적 보디스와 긴 치마를 하나의 무도회 복장으로 구성"
+          },
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "scene": "A blue-hour glass ballroom before the guests arrive; holding a feathered eye mask by its handle while checking its ribbon.",
+          "outfit": "Opaque pearl-white satin bodice and full cobalt skirt with a high side slit, silver piping and a small spiral brooch; the eye mask echoes thin white fins.",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "Replace the long rigid hair spines with a single small spiral hairpin; keep the ponytail styling and earrings.",
+          "exampleText": "a masquerade costume with a feathered eye mask, a structured bodice, and a full skirt",
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "A blue-hour glass ballroom before the guests arrive; holding a feathered eye mask by its handle while checking its ribbon.",
+              "reason": "예시는 무도회 복장만 있으므로 손에 든 가면 리본 확인과 푸른 저녁 유리홀을 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Opaque pearl-white satin bodice and full cobalt skirt with a high side slit, silver piping and a small spiral brooch; the eye mask echoes thin white fins.",
+              "reason": "보디스·긴 치마라는 예시 의상의 새틴 소재·청백 배색·슬릿을 구체화"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 생성 도구에 별도 크기 인자가 없어 세로 2:3 문구를 사용"
+            },
+            {
+              "field": "custom",
+              "content": "Replace the long rigid hair spines with a single small spiral hairpin; keep the ponytail styling and earrings.",
+              "reason": "기존 일상 결과에 큰 머리 가시가 남아 작은 나선핀으로 부분 교정"
+            }
+          ]
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_tea",
+          "expr": "focused",
+          "pose": "preparing_food",
+          "orient": "leaning_forward",
+          "frame": "three_quarter",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "randomized": {
+            "orient": "leaning_forward",
+            "frame": "chest_up",
+            "lens": "telephoto135"
+          },
+          "adjustments": [
+            {
+              "key": "frame",
+              "from": "chest_up",
+              "to": "waist_up",
+              "reason": "같은 설정으로 두 번 다시 만들어도 골반까지 나와 좁은 프레임과 찻잔 동작이 어긋남"
+            },
+            {
+              "key": "frame",
+              "from": "waist_up",
+              "to": "three_quarter",
+              "reason": "재생성과 부분 교정에도 허리에서 끊기지 않아 손동작을 담는 무릎 위로 다시 기획·생성함"
+            }
+          ],
+          "axesReasons": {
+            "action_level": "주전자에서 찻잔으로 액체가 흐르는 진행중 동작",
+            "source_influence": "청백색 분리 의상과 푸른 소용돌이 자수로 특징을 분명히 표현",
+            "separates_preference": "매듭 블라우스와 무릎 길이 치마의 분리 구조"
+          },
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "scene": "At a raised kitchen tea counter on a rainy morning, pouring steaming berry tea from a clear glass pot into a small cup; both utensils are held at sternum height, above the raised counter.",
+          "outfit": "A deep-V white cotton blouse with rolled short sleeves, a cropped knotted hem, worn separately over a cobalt knee-length high-waist skirt; blue spiral cuff embroidery and one tiny silver barrette.",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "",
+          "exampleText": "Pouring warm berry tea into a cup at a small kitchen table with a teapot and sliced fruit.",
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "At a raised kitchen tea counter on a rainy morning, pouring steaming berry tea from a clear glass pot into a small cup; both utensils are held at sternum height, above the raised counter.",
+              "reason": "예시의 작은 주방에 비오는 아침과 열매차 도구를 들 위치를 구체화"
+            },
+            {
+              "field": "outfit",
+              "content": "A deep-V white cotton blouse with rolled short sleeves, a cropped knotted hem, worn separately over a cobalt knee-length high-waist skirt; blue spiral cuff embroidery and one tiny silver barrette.",
+              "reason": "예시에는 옷이 없으므로 V목선·반소매·매듭기장·분리 치마를 선택"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 생성 도구에 별도 크기 인자가 없어 세로 2:3 문구를 사용"
+            }
+          ]
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_trail",
+          "expr": "curious",
+          "pose": "checking_map",
+          "orient": "low_angle",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "randomized": {
+            "orient": "leaning_back",
+            "frame": "waist_up",
+            "lens": "documentary35"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "to": "low_angle",
+              "reason": "지도 확인 중 균형 있게 서는 장면이라 뒤로 기우는 방향을 피함"
+            },
+            {
+              "key": "frame",
+              "to": "full_body",
+              "reason": "숲길에서 지도 확인과 등산화를 함께 읽히게 전신을 선택"
+            },
+            {
+              "key": "lens",
+              "to": "portrait85",
+              "reason": "작은 시냇가 뒤 배경을 압축해 지도와 얼굴을 읽히게 함"
+            }
+          ],
+          "axesReasons": {
+            "action_level": "갈림길에서 지도를 펴는 가벼운 활동",
+            "source_influence": "작은 소용돌이 잠금과 청백색 옷 배색 두 단서",
+            "separates_preference": "소매 셔츠·반바지·오픈 베스트 분리층"
+          },
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "scene": "On a mossy forest trail after a summer shower, checking a plain unlettered folding route map beside a small stream in late-afternoon sunbeams.",
+          "outfit": "A cobalt V-neck short-sleeve hiking shirt with a tied cropped hem, white pleated shorts and ankle boots, worn with a light open sleeveless rain vest; tiny spiral map clasp.",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "Use only a tiny white fin-shaped barrette at the ponytail base instead of the tall spiked head ornament.",
+          "exampleText": "Pausing at a forest trail junction to compare a folded map with a trail marker, wearing a light travel pack.",
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "On a mossy forest trail after a summer shower, checking a plain unlettered folding route map beside a small stream in late-afternoon sunbeams.",
+              "reason": "숲길 갈림길 예시에 비온 뒤 시냇가와 늦은 햇빛을 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "A cobalt V-neck short-sleeve hiking shirt with a tied cropped hem, white pleated shorts and ankle boots, worn with a light open sleeveless rain vest; tiny spiral map clasp.",
+              "reason": "예시에 배낭만 있으므로 V목선·반소매·반바지·오픈 베스트를 구체화"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 생성 도구에 별도 크기 인자가 없어 세로 2:3 문구를 사용"
+            },
+            {
+              "field": "custom",
+              "content": "Use only a tiny white fin-shaped barrette at the ponytail base instead of the tall spiked head ornament.",
+              "reason": "숲길 결과에 키 큰 머리 장식이 남아 작은 흰 바레트로 부분 교정"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character": "houndoom",
+      "record": "pkm-atelier-img-2/records/houndoom-20261013/plan.json",
+      "cuts": [
+        {
+          "cat": "occupation_basic",
+          "ex": "observatory_engineer",
+          "expr": "serious",
+          "pose": "standing_formal",
+          "orient": "front",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "outfit": "Sleeveless charcoal tailored vest over rust-orange fitted top, ivory high-waist straight trousers, tiny horn-shaped hairpin.",
+          "scene": "Dusk nocturnal ecology observation station; checking a small acoustic recorder with a blank screen.",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "randomized": [],
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "Dusk nocturnal ecology observation station; checking a small acoustic recorder with a blank screen.",
+              "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+            },
+            {
+              "field": "outfit",
+              "content": "Sleeveless charcoal tailored vest over rust-orange fitted top, ivory high-waist straight trousers, tiny horn-shaped hairpin.",
+              "reason": "Clothing absent in selected example or supplement material/color only."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Tool has no separate size argument."
+            }
+          ]
+        },
+        {
+          "cat": "lingerie",
+          "ex": "slip_lingerie",
+          "expr": "pensive",
+          "pose": "perched_seat",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "outfit": "Opaque rust satin with black lace trim and tiny ivory fastening.",
+          "scene": "Warm amber dressing room at midnight; gently arranging a pair of small earrings on a low vanity tray.",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "randomized": [],
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "Warm amber dressing room at midnight; gently arranging a pair of small earrings on a low vanity tray.",
+              "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+            },
+            {
+              "field": "outfit",
+              "content": "Opaque rust satin with black lace trim and tiny ivory fastening.",
+              "reason": "Clothing absent in selected example or supplement material/color only."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Tool has no separate size argument."
+            }
+          ]
+        },
+        {
+          "cat": "active",
+          "ex": "climbing_warmup",
+          "expr": "determined",
+          "pose": "stretching",
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "documentary35",
+          "outfit": "Black performance fabric, burnt-orange panels and ivory seam piping.",
+          "scene": "Sunlit bouldering hall; warming forearms beside matte colorful climbing holds.",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "randomized": [],
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "Sunlit bouldering hall; warming forearms beside matte colorful climbing holds.",
+              "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+            },
+            {
+              "field": "outfit",
+              "content": "Black performance fabric, burnt-orange panels and ivory seam piping.",
+              "reason": "Clothing absent in selected example or supplement material/color only."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Tool has no separate size argument."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character": "porygon2",
+      "record": "pkm-atelier-img-2/records/porygon2-20261014/plan.json",
+      "cuts": [
+        {
+          "expr": "laughing_open",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "scene": "Clear summer morning on a quiet riverside dock; dipping her toes in the water and holding a folded striped towel.",
+          "outfit": "Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp.",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "",
+          "cat": "swimwear",
+          "catCustom": "",
+          "ex": "river_dock",
+          "exCustom": "",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "action": {},
+          "randomLocks": {
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true
+          },
+          "slot": "casual1",
+          "exampleText": "in swimwear on a wooden river dock, feet over the edge above the water",
+          "randomized": {
+            "orient": "looking_down",
+            "frame": "face_close",
+            "lens": "documentary35"
+          },
+          "axesReasons": {
+            "action_level": "Dock rest is a paused moment with a towel, not swimming motion.",
+            "source_influence": "Magenta suit and blue trim echo both source colors.",
+            "separates_preference": "The wide-strap one-piece is one garment."
+          },
+          "randomAdjustments": {
+            "orient": {
+              "from": "looking_down",
+              "to": "seated_twist",
+              "reason": "Dock feet require a complete seated view."
+            },
+            "frame": {
+              "from": "face_close",
+              "to": "full_body",
+              "reason": "Dock feet require a complete seated view."
+            }
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "Clear summer morning on a quiet riverside dock; dipping her toes in the water and holding a folded striped towel.",
+              "reason": "The dock example lacks time, water-contact activity and towel."
+            },
+            {
+              "field": "outfit",
+              "content": "Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp.",
+              "reason": "Swimwear example leaves construction and colors unspecified."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Tool has no size field, so the allowed 2:3 size sentence is used."
+            }
+          ]
+        },
+        {
+          "expr": "focused",
+          "pose": "leaning_furniture",
+          "orient": "leaning_forward",
+          "scene": "At a small craft workbench under a cool task lamp after sunset; threading one blue oval bead onto a cord, with plain tools in shallow trays.",
+          "outfit": "White boat-neck elbow-sleeve cotton blouse ending at the hips, worn over blue straight trousers without an outer layer; one small magenta hair clip.",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "",
+          "cat": "hobbies_leisure",
+          "catCustom": "",
+          "ex": "hobby_craft",
+          "exCustom": "",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "action": {},
+          "randomLocks": {
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true
+          },
+          "slot": "casual2",
+          "exampleText": "Threading beads into a small Pokémon-inspired travel charm at a hobby table with tidy craft tools.",
+          "randomized": {
+            "orient": "reaching_up",
+            "frame": "environmental",
+            "lens": "wide24"
+          },
+          "axesReasons": {
+            "action_level": "Threading the cord through a bead is an ongoing fine-motor action.",
+            "source_influence": "Small hair clip provides a restrained identity cue.",
+            "separates_preference": "Elbow-sleeve blouse and trousers are separate pieces."
+          },
+          "randomAdjustments": {
+            "orient": {
+              "from": "reaching_up",
+              "to": "leaning_forward",
+              "reason": "Bead threading requires a supported forward torso and close readable hands."
+            },
+            "frame": {
+              "from": "environmental",
+              "to": "waist_up",
+              "reason": "Bead threading requires a supported forward torso and close readable hands."
+            },
+            "lens": {
+              "from": "wide24",
+              "to": "portrait85",
+              "reason": "Bead threading requires a supported forward torso and close readable hands."
+            }
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "At a small craft workbench under a cool task lamp after sunset; threading one blue oval bead onto a cord, with plain tools in shallow trays.",
+              "reason": "The craft example lacks the evening task light and oval bead."
+            },
+            {
+              "field": "outfit",
+              "content": "White boat-neck elbow-sleeve cotton blouse ending at the hips, worn over blue straight trousers without an outer layer; one small magenta hair clip.",
+              "reason": "Craft example does not specify neckline, elbow sleeves, hem or trousers."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Tool has no size field, so the allowed 2:3 size sentence is used."
+            }
+          ]
+        },
+        {
+          "expr": "mildly_annoyed",
+          "pose": "walking",
+          "orient": "side",
+          "scene": "A rainy brick arcade at midday; stepping around a puddle with a clear umbrella held in one hand, dark wet pavement reflecting the canopy.",
+          "outfit": "Blue knee-length trench dress with a notched V collar and long sleeves, buttoned over an unseen base layer; low ankle boots and one tiny magenta belt bead.",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "",
+          "cat": "everyday_basic",
+          "catCustom": "",
+          "ex": "rain_walk",
+          "exCustom": "",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "action": {},
+          "randomLocks": {
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true
+          },
+          "slot": "casual3",
+          "exampleText": "Rainy Day Walk",
+          "randomized": {
+            "orient": "side",
+            "frame": "three_quarter",
+            "lens": "natural50"
+          },
+          "axesReasons": {
+            "action_level": "Walking around a puddle is gentle movement.",
+            "source_influence": "Only the small magenta belt bead accents the blue dress.",
+            "separates_preference": "The buttoned trench dress is a single outer garment."
+          },
+          "randomAdjustments": {},
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "A rainy brick arcade at midday; stepping around a puddle with a clear umbrella held in one hand, dark wet pavement reflecting the canopy.",
+              "reason": "Rain walk has no specified street material, umbrella or puddle activity."
+            },
+            {
+              "field": "outfit",
+              "content": "Blue knee-length trench dress with a notched V collar and long sleeves, buttoned over an unseen base layer; low ankle boots and one tiny magenta belt bead.",
+              "reason": "Rain walk has no coat construction, sleeves or dress hem."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Tool has no size field, so the allowed 2:3 size sentence is used."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "casual_plan": [
+    {
+      "expr": "pensive",
+      "pose": "standing_formal",
+      "orient": "looking_away",
+      "scene": "A quiet lacquer dressing room at twilight; adjusting a small frog-button closure beside a silk screen.",
+      "outfit": "Cream opaque silk with brown edging and a small black orb brooch; the cropped top has short cap sleeves, with matching high-waisted bottoms and no robe.",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "cat": "lingerie",
+      "catCustom": "",
+      "ex": "qipao_silk_set",
+      "exCustom": "",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "action": {},
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "slot": "casual1",
+      "exampleText": "a qipao-inspired silk lingerie set with a mandarin collar and frog-button closures",
+      "randomized": {
+        "orient": "crouching",
+        "frame": "chest_up",
+        "lens": "documentary35"
+      },
+      "randomAdjustments": [
+        {
+          "key": "orient",
+          "from": "crouching",
+          "to": "looking_away",
+          "reason": "Costume hat and boot silhouette need an upright full portrait."
+        },
+        {
+          "key": "lens",
+          "from": "documentary35",
+          "to": "telephoto135",
+          "reason": "Costume hat and boot silhouette need an upright full portrait."
+        }
+      ],
+      "axesReasons": {
+        "action_level": "Frog-button adjustment is a paused dressing moment.",
+        "source_influence": "Cream silk, brown edging, black orb and antler embroidery emphasize original cues.",
+        "separates_preference": "The cropped qipao top and high-waisted bottoms are two garments."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A quiet lacquer dressing room at twilight; adjusting a small frog-button closure beside a silk screen.",
+          "reason": "Add the twilight lacquer screen and closure-adjustment activity not defined by the costume example."
+        },
+        {
+          "field": "outfit",
+          "content": "Cream opaque silk with brown edging and a small black orb brooch; the cropped top has short cap sleeves, with matching high-waisted bottoms and no robe.",
+          "reason": "Specify opaque cream silk color, cap sleeves, top hem and separate bottoms."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no separate size field; use the allowed 2:3 sentence."
+        }
+      ]
+    },
+    {
+      "expr": "curious",
+      "pose": "squatting",
+      "orient": "crouching",
+      "scene": "On a pale pebble beach after dawn; one hand places a spiral shell beside an open unlettered notebook while the other makes a quick pencil sketch.",
+      "outfit": "Brown open-collar short-sleeve safari shirt ending at the waist over cream mid-thigh shorts, no jacket; sturdy sandals and a tiny black bead bracelet.",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "For this local correction, remove the tiny handwriting strokes from the notebook pages while retaining the shell and track drawings. Keep the rest of the attached beach image unchanged.",
+      "cat": "travel_exploration",
+      "catCustom": "",
+      "ex": "travel_coast",
+      "exCustom": "",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "action": {},
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "slot": "casual2",
+      "exampleText": "Examining shells and small tracks on a beach while making a quick sketch in a travel notebook.",
+      "randomized": {
+        "orient": "reaching_up",
+        "frame": "waist_up",
+        "lens": "documentary35"
+      },
+      "randomAdjustments": [
+        {
+          "key": "orient",
+          "from": "reaching_up",
+          "to": "crouching",
+          "reason": "Small handwork must leave face visible while showing the table or lap."
+        },
+        {
+          "key": "frame",
+          "from": "waist_up",
+          "to": "full_body",
+          "reason": "Small handwork must leave face visible while showing the table or lap."
+        }
+      ],
+      "axesReasons": {
+        "action_level": "Pencil actively sketches while the other hand places the shell.",
+        "source_influence": "Small black bead bracelet is a restrained source accent.",
+        "separates_preference": "Short safari shirt and mid-thigh shorts are separate travel pieces."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "On a pale pebble beach after dawn; one hand places a spiral shell beside an open unlettered notebook while the other makes a quick pencil sketch.",
+          "reason": "Add the dawn pebble shore and concrete spiral-shell sketch activity."
+        },
+        {
+          "field": "outfit",
+          "content": "Brown open-collar short-sleeve safari shirt ending at the waist over cream mid-thigh shorts, no jacket; sturdy sandals and a tiny black bead bracelet.",
+          "reason": "Travel example does not define shirt collar, sleeve length, shorts hem or layering."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no separate size field; use the allowed 2:3 sentence."
+        },
+        {
+          "field": "custom",
+          "content": "For this local correction, remove the tiny handwriting strokes from the notebook pages while retaining the shell and track drawings. Keep the rest of the attached beach image unchanged.",
+          "reason": "Notebook result contained tiny handwriting-like strokes beside shell drawings; remove those only."
+        }
+      ]
+    },
+    {
+      "expr": "soft_smile",
+      "pose": "reading_book",
+      "orient": "front_3q",
+      "scene": "Inside a warm used-book shop on a winter evening; reading an open illustrated volume with plain unlettered covers among softly lit shelves.",
+      "outfit": "Cream V-neck long-sleeve cardigan ending at the hip, worn open over a brown scoop-neck top and brown knee-length skirt; small antler-shaped buttons and black round earrings.",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "For this local correction, remove all printed letters and fake labels from the book covers, spines and pages, replacing them with plain unlettered surfaces. Keep the rest of the attached bookstore image unchanged.",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "bookstore",
+      "exCustom": "",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "action": {},
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "slot": "casual3",
+      "exampleText": "Bookstore Browsing",
+      "randomized": {
+        "orient": "leaning_forward",
+        "frame": "detail",
+        "lens": "wide24"
+      },
+      "randomAdjustments": [
+        {
+          "key": "orient",
+          "from": "leaning_forward",
+          "to": "front_3q",
+          "reason": "The selected book or batter handwork needs both hands and room context."
+        },
+        {
+          "key": "frame",
+          "from": "detail",
+          "to": "waist_up",
+          "reason": "The selected book or batter handwork needs both hands and room context."
+        },
+        {
+          "key": "lens",
+          "from": "wide24",
+          "to": "natural50",
+          "reason": "The selected book or batter handwork needs both hands and room context."
+        }
+      ],
+      "axesReasons": {
+        "action_level": "Turning and reading a book is gentle movement.",
+        "source_influence": "Cream/brown layered colors, antler buttons and black round earrings are multiple species cues.",
+        "separates_preference": "Cardigan, inner top and skirt make three separate layers."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Inside a warm used-book shop on a winter evening; reading an open illustrated volume with plain unlettered covers among softly lit shelves.",
+          "reason": "Bookstore title has no specific activity or winter evening light; define reading a volume."
+        },
+        {
+          "field": "outfit",
+          "content": "Cream V-neck long-sleeve cardigan ending at the hip, worn open over a brown scoop-neck top and brown knee-length skirt; small antler-shaped buttons and black round earrings.",
+          "reason": "Define cardigan neckline, long sleeves, hip hem and inner top/skirt layers."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no separate size field; use the allowed 2:3 sentence."
+        },
+        {
+          "field": "custom",
+          "content": "For this local correction, remove all printed letters and fake labels from the book covers, spines and pages, replacing them with plain unlettered surfaces. Keep the rest of the attached bookstore image unchanged.",
+          "reason": "Remove the observed fake labels from this bookstore result only."
+        }
+      ]
+    }
+  ],
+  "comparedActualImages": "Recent three anchors and all nine casuals viewed in comparison.jpg; Porygon2 nine viewed at native size; the other new character reviewed alongside in pending.jpg.",
+  "diversityEvidence": "No matching orientation/framing pairs or three-axis composition; new direction or framing used; distinct cloth silhouettes with short, elbow and long sleeves rather than repeated sleeveless tops.",
+  "regeneration": [
+    {
+      "slot": "casual1",
+      "failed": "Original and two unchanged retries retained three-quarter body instead of selected profile_close.",
+      "change": {
+        "orient": {
+          "from": "profile_close",
+          "to": "looking_away"
+        }
+      },
+      "reason": "Replan button-adjustment as an off-camera dressing moment. New looking_away/chest_up pair differs from all compared cuts and remaining two Stantler directions."
+    },
+    {
+      "slot": "light",
+      "reason": "Antler tips clipped in first and second renders; third used explicit top/ground margins before anchor confirmation.",
+      "input": "camera: full figure including antlers occupies 78% of height with 12% empty sky and 10% ground."
+    },
+    {
+      "slot": "casual2",
+      "reason": "Notebook had tiny writing-like strokes; local correction removed these only.",
+      "references": [
+        "casual2 result",
+        "light anchor"
+      ]
+    },
+    {
+      "slot": "casual3",
+      "reason": "Books had fake labels; local correction removed all lettering only.",
+      "references": [
+        "casual3 result",
+        "light anchor"
+      ]
+    }
+  ],
+  "faceComparisonEvidence": "Longer narrow cheek-to-chin shape and slimmer horizontal eyes differ from Porygon2 round eyes and Smeargle softer jaw; original recent Linoone, Kingdra and Houndoom anchors also inspected."
+}
