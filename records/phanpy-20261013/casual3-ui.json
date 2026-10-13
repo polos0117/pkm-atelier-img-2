@@ -1,0 +1,94 @@
+{
+  "storage": {
+    "last": "코코리",
+    "cards": {
+      "코코리": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "hair color": "blue",
+          "hairstyle": "bob",
+          "body type": "soft-figured",
+          "eye color": "amber"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A sunlit river-stone training pavilion with an earthen floor and pale-blue structural beams.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "gentle",
+            "pose": "watering",
+            "orient": "looking_down",
+            "scene": "At a kitchen windowsill 1.4 metres above the floor during golden late-afternoon light, watering a miniature terracotta berry seedling and trimming one dry leaf with blunt pruning scissors; the seedling pot and both tools are beside her upper torso.",
+            "outfit": "Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer.",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "A broad opaque wood counter crosses immediately in front of her waist; the counter front fills the lower foreground. Keep the plant pot and both hands on the tabletop above that edge; replace broad temple ornaments with tiny orange hair clips.",
+            "aspect": "2:3",
+            "cat": "hobbies_leisure",
+            "catCustom": "",
+            "ex": "hobby_gardening",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Phanpy (코코리) personified, ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: softly lowered brows, warm relaxed eyes, faint closed-lip smile, no tension anywhere\nPose: Tilt a small watering can toward plants with a clear grip and believable balance.\nOrientation: gaze directed downward; camera height unchanged\nScene: At a kitchen windowsill 1.4 metres above the floor during golden late-afternoon light, watering a miniature terracotta berry seedling and trimming one dry leaf with blunt pruning scissors; the seedling pot and both tools are beside her upper torso.\nOutfit and props: Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer.\nCategory: Show a personal hobby or restful leisure moment with a specific action and relevant objects. Pokémon motifs may appear naturally in the activity, without requiring armor, a uniform or a companion.\nExample scene: Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.\nNote: A broad opaque wood counter crosses immediately in front of her waist; the counter front fills the lower foreground. Keep the plant pot and both hands on the tabletop above that edge; replace broad temple ornaments with tiny orange hair clips.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra."
+}
