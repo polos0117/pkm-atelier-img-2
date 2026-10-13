@@ -3,7 +3,7 @@
   "slug": "hitmontop",
   "no": 237,
   "hair": "brown",
-  "style": "short bob",
+  "style": "glossy_promo",
   "eyes": "blue",
   "body": "athletic",
   "motifs": "Brown, ivory and cobalt-blue plates; the single conical horn becomes a small pointed crest headpiece, the blue sphere is echoed in rounded hip plates, the brown triangle is painted on her breastplate, the narrow tail becomes a short flexible belt sash.",
@@ -508,7 +508,7 @@
           "ex": "grocery_run",
           "expr": "curious",
           "pose": "carrying_something",
-          "orient": "profile_close",
+          "orient": "looking_away",
           "frame": "waist_up",
           "lens": "natural50",
           "axes": {
@@ -527,7 +527,7 @@
     {
       "slot": "light",
       "issue": "첫 결과의 들어 올린 발끝이 상단 프레임에 걸림",
-      "changes": "실제 UI 자세 반듯하게 서기; 인물 80% 크기와 위아래 여백",
+      "changes": "실제 UI 카메라: 인물 80% 크기와 위아래 여백을 지정. 재생성은 머리·두 발이 들어오는 격투 가드로 나왔다.",
       "rejectedOriginal": "generated_images/hitmontop-light-first.png"
     }
   ],
@@ -543,5 +543,7 @@
     "루주라"
   ],
   "faceComparisonEvidence": "배루키보다 갸름한 타원 윤곽·가로로 좁은 눈·길게 휜 눈썹, 시라소몬의 긴 코/중안부와 홍수몬의 더 날카로운 작은 눈과 다름.",
-  "generationTool": "built-in image_gen"
+  "generationTool": "built-in image_gen",
+  "requestedHairOption": "short bob",
+  "hairstyleSelectionNote": "제안한 헤어 키는 선택 목록에 없어 선택하지 않았으며, 기준 경장의 높은 묶음 머리가 후속 정본이다."
 }
