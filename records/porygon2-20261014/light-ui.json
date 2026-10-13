@@ -1,0 +1,124 @@
+{
+  "input": {
+    "mech": "폴리곤2",
+    "sourceName": "Porygon2",
+    "series": "normal",
+    "sourceAppearance": {
+      "name": "폴리곤2",
+      "en": "Porygon2",
+      "color": "red",
+      "shape": "legs",
+      "features": [
+        {
+          "part": "body",
+          "detail": "rounded magenta artificial bird"
+        },
+        {
+          "part": "bill",
+          "detail": "flat blue bill"
+        },
+        {
+          "part": "leg",
+          "detail": "blue ovoid legs"
+        },
+        {
+          "part": "tail",
+          "detail": "blue tail widening at middle"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Porygon2_%28Pok%C3%A9mon%29",
+      "revision": 4630314,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "9b546992bb694be19c8b82eb1518589e14d32105c02b34799b8fcdb663e279a2",
+      "method": "source-checked-correction",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "faceDesign": {
+      "name": "폴리곤2",
+      "en": "Porygon2",
+      "line": "폴리곤",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "large",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "close-set eyes",
+        "eyebrows": "short rounded brows",
+        "nose character": "rounded soft tip",
+        "lips": "small mouth"
+      },
+      "why": "매끈해진 가상 몸의 곡면을 둥근 모서리의 타원 얼굴과 원형 눈으로 구분한다.",
+      "cues": [
+        "‘rounded magenta artificial bird’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+        "‘rounded magenta artificial bird’ → 눈매 큰 눈",
+        "몸 형태 legs → 눈 간격 눈 사이가 가까운",
+        "‘rounded magenta artificial bird’ → 눈썹 짧고 둥근",
+        "‘rounded magenta artificial bird’ → 코 코끝이 둥근",
+        "‘rounded magenta artificial bird’ → 입술 입이 작은"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 중간 두께의 직선 → 짧고 둥근"
+    },
+    "faceDesignOn": true,
+    "style": "glossy_promo",
+    "outputMode": "action",
+    "identityMode": "create",
+    "form": "light",
+    "baseForm": "light",
+    "params": [
+      [
+        "apparent age",
+        "20s"
+      ]
+    ],
+    "camera": "Vertical 2:3 portrait (1024×1536)."
+  },
+  "prompt": "INPUT: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\n\nSOURCE: Porygon2 (폴리곤2), normal type.\n\nPALETTE: magenta, blue.\n\nSTYLE: Premium glossy anime-mecha promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized hard-surface detail. Match the face and armor at the same polished rendering intensity.\n\nSUBJECT: A female mecha personification character with Porygon2 as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\n\nWEAR: the blue tail widening at middle becomes a long sash hanging from the back of her belt, in the same shape and colors.\n\nFACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; open rounded eyes, medium size, level outer corners, close-set; short rounded brows; rounded soft tip nose; small mouth.\n\nFORM — LIGHT: one close-fitting armor layer: slim plates at the shoulders, forearms, hips and shins over a fitted undersuit, joints free, a slim readable outline. No helmet; at most a slim headband or temple sensor.\n\nOUTPUT: one dynamic action image that is also this form's card art. Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion, face toward the camera (front or three-quarter, never a back view). Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\n\nChosen settings below override the default stance and camera; her identity and form stay fixed.\nCamera: Vertical 2:3 portrait (1024×1536).\n\nIDENTITY (chosen details override the automatic look)\napparent age: 20s — adult woman in her twenties\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra. Gloves are full-finger and close-fitting, never fingerless; plates, water, sparks and effects stay off the fingers.",
+  "origin": "actual UI selected; repository engine reproduces inspected UI output",
+  "storage": {
+    "last": "폴리곤2",
+    "cards": {
+      "폴리곤2": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "cat": "",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "aspect": "2:3",
+            "axes": {},
+            "action": {},
+            "randomLocks": {}
+          }
+        }
+      }
+    }
+  }
+}

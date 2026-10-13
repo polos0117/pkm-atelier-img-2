@@ -1,0 +1,155 @@
+{
+  "input": {
+    "mech": "폴리곤2",
+    "sourceName": "Porygon2",
+    "series": "normal",
+    "sourceAppearance": {
+      "name": "폴리곤2",
+      "en": "Porygon2",
+      "color": "red",
+      "shape": "legs",
+      "features": [
+        {
+          "part": "body",
+          "detail": "rounded magenta artificial bird"
+        },
+        {
+          "part": "bill",
+          "detail": "flat blue bill"
+        },
+        {
+          "part": "leg",
+          "detail": "blue ovoid legs"
+        },
+        {
+          "part": "tail",
+          "detail": "blue tail widening at middle"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Porygon2_%28Pok%C3%A9mon%29",
+      "revision": 4630314,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "9b546992bb694be19c8b82eb1518589e14d32105c02b34799b8fcdb663e279a2",
+      "method": "source-checked-correction",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "faceDesign": {
+      "name": "폴리곤2",
+      "en": "Porygon2",
+      "line": "폴리곤",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "large",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "close-set eyes",
+        "eyebrows": "short rounded brows",
+        "nose character": "rounded soft tip",
+        "lips": "small mouth"
+      },
+      "why": "매끈해진 가상 몸의 곡면을 둥근 모서리의 타원 얼굴과 원형 눈으로 구분한다.",
+      "cues": [
+        "‘rounded magenta artificial bird’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+        "‘rounded magenta artificial bird’ → 눈매 큰 눈",
+        "몸 형태 legs → 눈 간격 눈 사이가 가까운",
+        "‘rounded magenta artificial bird’ → 눈썹 짧고 둥근",
+        "‘rounded magenta artificial bird’ → 코 코끝이 둥근",
+        "‘rounded magenta artificial bird’ → 입술 입이 작은"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 중간 두께의 직선 → 짧고 둥근"
+    },
+    "faceDesignOn": true,
+    "style": "glossy_promo",
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "form": "casual1",
+    "baseForm": "casual1",
+    "params": [
+      [
+        "apparent age",
+        "20s"
+      ]
+    ],
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "cat": "swimwear",
+    "ex": "river_dock",
+    "expr": "laughing_open",
+    "pose": "sitting",
+    "orient": "seated_twist",
+    "frame": "full_body",
+    "lens": "documentary35",
+    "scene": "Clear summer morning on a quiet riverside dock; dipping her toes in the water and holding a folded striped towel.",
+    "outfit": "Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp.",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "randomLocks": {
+      "aspect": true,
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Porygon2 (폴리곤2) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: mouth open wide in a laugh with teeth showing and cheeks raised, but the eyes stay open and engaged — lids only slightly narrowed, gaze still readable rather than squeezed shut\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: seated with supported pelvis and a natural torso twist\nScene: Clear summer morning on a quiet riverside dock; dipping her toes in the water and holding a folded striped towel.\nOutfit and props: Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: in swimwear on a wooden river dock, feet over the edge above the water\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "origin": "actual UI selected; repository engine reproduces inspected UI output",
+  "storage": {
+    "last": "폴리곤2",
+    "cards": {
+      "폴리곤2": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "casual1",
+        "baseForm": "casual1",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "laughing_open",
+            "pose": "sitting",
+            "orient": "seated_twist",
+            "scene": "Clear summer morning on a quiet riverside dock; dipping her toes in the water and holding a folded striped towel.",
+            "outfit": "Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "river_dock",
+            "exCustom": "",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

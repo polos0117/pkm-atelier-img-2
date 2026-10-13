@@ -1,0 +1,124 @@
+{
+  "input": {
+    "mech": "폴리곤2",
+    "sourceName": "Porygon2",
+    "series": "normal",
+    "sourceAppearance": {
+      "name": "폴리곤2",
+      "en": "Porygon2",
+      "color": "red",
+      "shape": "legs",
+      "features": [
+        {
+          "part": "body",
+          "detail": "rounded magenta artificial bird"
+        },
+        {
+          "part": "bill",
+          "detail": "flat blue bill"
+        },
+        {
+          "part": "leg",
+          "detail": "blue ovoid legs"
+        },
+        {
+          "part": "tail",
+          "detail": "blue tail widening at middle"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Porygon2_%28Pok%C3%A9mon%29",
+      "revision": 4630314,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "9b546992bb694be19c8b82eb1518589e14d32105c02b34799b8fcdb663e279a2",
+      "method": "source-checked-correction",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "faceDesign": {
+      "name": "폴리곤2",
+      "en": "Porygon2",
+      "line": "폴리곤",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "large",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "close-set eyes",
+        "eyebrows": "short rounded brows",
+        "nose character": "rounded soft tip",
+        "lips": "small mouth"
+      },
+      "why": "매끈해진 가상 몸의 곡면을 둥근 모서리의 타원 얼굴과 원형 눈으로 구분한다.",
+      "cues": [
+        "‘rounded magenta artificial bird’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+        "‘rounded magenta artificial bird’ → 눈매 큰 눈",
+        "몸 형태 legs → 눈 간격 눈 사이가 가까운",
+        "‘rounded magenta artificial bird’ → 눈썹 짧고 둥근",
+        "‘rounded magenta artificial bird’ → 코 코끝이 둥근",
+        "‘rounded magenta artificial bird’ → 입술 입이 작은"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 중간 두께의 직선 → 짧고 둥근"
+    },
+    "faceDesignOn": true,
+    "style": "glossy_promo",
+    "outputMode": "action",
+    "identityMode": "reference",
+    "form": "overdrive",
+    "baseForm": "mobility",
+    "params": [
+      [
+        "apparent age",
+        "20s"
+      ]
+    ],
+    "camera": "Vertical 2:3 portrait (1024×1536)."
+  },
+  "prompt": "INPUT: attach this character's mobility-form card image (the closed state). If a second image fits, add her approved light-form image for the face.\n\nSOURCE: Porygon2 (폴리곤2), normal type.\n\nSTYLE: Premium glossy anime-mecha promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized hard-surface detail. Match the face and armor at the same polished rendering intensity.\n\nOUTPUT: the OPENED (overdrive) state of the attached image. Keep its camera, pose, framing, subject scale, face, hair, body and every armor piece exactly. Change only this: the fanned panels spread further and their thruster covers open, revealing the inner frame, and a warm white-gold light shows through the gaps, lighting the undersides of the opened plates; her eyes keep their color with only a glint of that light, and her expression tightens with the strain. No new armor, no new helmet, no weapon. The pair must read as the same picture before and after she opens up.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nHANDS: keep both hands exactly as in the attached image — one thumb and four fingers each, clearly separated, never merged, doubled or extra; the glow and spray stay off the fingers.",
+  "origin": "actual UI selected; repository engine reproduces inspected UI output",
+  "storage": {
+    "last": "폴리곤2",
+    "cards": {
+      "폴리곤2": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "cat": "",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "aspect": "2:3",
+            "axes": {},
+            "action": {},
+            "randomLocks": {}
+          }
+        }
+      }
+    }
+  }
+}
