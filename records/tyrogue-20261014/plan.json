@@ -1,0 +1,495 @@
+{
+  "name": "배루키",
+  "slug": "tyrogue",
+  "no": 236,
+  "hair": "lavender",
+  "style": "pixie",
+  "eyes": "amber",
+  "body": "athletic",
+  "motifs": "Pale lavender slim plates with white wrist and ankle bands; three blunt crown protrusions become three small geometric crest tabs. A fighter’s sleeveless waist-length fitted breastplate and tapered greaves retain the species compact training silhouette.",
+  "faceEvidence": {
+    "name": "배루키",
+    "en": "Tyrogue",
+    "line": "배루키",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "angular",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "square broad jaw",
+      "eye shape": "almond",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "thick low brows",
+      "nose character": "balanced nose",
+      "lips": "medium lips"
+    },
+    "why": "싸움꾼의 짧고 단단한 윤곽을 짧은 중안부와 굵은 직선 눈썹으로 해석한다.",
+    "cues": [
+      "격투 타입 → 턱선 · 턱끝 넓고 각진 사각 턱",
+      "격투 타입 → 눈썹 굵고 눈 가까이 낮은"
+    ],
+    "adjusted": "같은 계열 홍수몬와 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 각지고 또렷한 턱 → 넓고 각진 사각 턱, 코 작고 여린 코 → 보통"
+  },
+  "sourceEvidence": {
+    "name": "배루키",
+    "en": "Tyrogue",
+    "color": "purple",
+    "shape": "humanoid",
+    "features": [
+      {
+        "part": "body",
+        "detail": "predominantly pale purple body"
+      },
+      {
+        "part": "band",
+        "detail": "white bands"
+      },
+      {
+        "part": "protrusion",
+        "detail": "three blunt protrusions"
+      },
+      {
+        "part": "limb",
+        "detail": "thin limbs"
+      },
+      {
+        "part": "eye",
+        "detail": "yellow eyes"
+      },
+      {
+        "part": "finger",
+        "detail": "three fingers"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Tyrogue_%28Pok%C3%A9mon%29",
+    "revision": 4630315,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "e5e1153c02526d55c7b840a466868eda61b35df42d7fa8442c0f42152ee21b67",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; square broad jaw; almond eyes, large size, level outer corners, average spacing; thick low brows; balanced nose; medium lips.",
+  "casual_plan": [
+    {
+      "cat": "active",
+      "ex": "boxing_fitness",
+      "expr": "determined",
+      "pose": "mid_action",
+      "orient": "front_3q",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "scene": "Late-afternoon skylight in a brick boxing studio; completing a shadowboxing straight punch with empty hands, feet grounded on a training mat.",
+      "outfit": "A lavender scoop-neck racerback sports crop top, white high-waisted fitted training shorts, no outer layer; lavender ankle wraps.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "randomized": {
+        "orient": "walking_away",
+        "frame": "detail",
+        "lens": "telephoto135"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "walking_away",
+          "to": "front_3q",
+          "reason": "boxing_fitness 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "frame",
+          "from": "detail",
+          "to": "full_body",
+          "reason": "boxing_fitness 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "lens",
+          "from": "telephoto135",
+          "to": "documentary35",
+          "reason": "boxing_fitness 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Boxing Fitness Styling",
+      "axesReasons": {
+        "action_level": "boxing_fitness의 진행 중 활동: Late-afternoon skylight in a brick boxing studio; completing a shadowboxing straight punch with empty hands, feet grounded on a training mat.",
+        "source_influence": "이 컷의 원작 단서는 의상에 있는 A lavender scoop-neck racerback sports crop top, white high-waisted fitted training shorts, no outer layer; lavender ankle wraps.",
+        "separates_preference": "이 컷의 의상 층과 상하 분리는 A lavender scoop-neck racerback sports crop top, white high-waisted fitted training shorts, no outer layer; lavender ankle wraps."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Late-afternoon skylight in a brick boxing studio; completing a shadowboxing straight punch with empty hands, feet grounded on a training mat.",
+          "reason": "고른 예시 Boxing Fitness Styling에 없는 시간·조명과 읽히는 손 활동을 boxing_fitness 장소 안에서 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "A lavender scoop-neck racerback sports crop top, white high-waisted fitted training shorts, no outer layer; lavender ankle wraps.",
+          "reason": "boxing_fitness 예시에 없는 이 컷 배색·소재와 목선·소매·기장·겹침을 지정: A lavender scoop-neck racerback sports crop top, white high-waisted fitted training shorts, no outer layer; lavender ankle wraps."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        }
+      ]
+    },
+    {
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "scene": "At a vintage motor-racing costume presentation beside a track barrier in hard midday sun; holding a plain folded event flag at her side.",
+      "outfit": "White cropped team jacket with long sleeves and lavender piping, black fitted shorts and white calf-high boots, a small lavender three-bar enamel clasp.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "randomized": {
+        "orient": "crouching",
+        "frame": "chest_up",
+        "lens": "natural50"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "crouching",
+          "to": "low_angle",
+          "reason": "retro_racer 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "frame",
+          "from": "chest_up",
+          "to": "three_quarter",
+          "reason": "retro_racer 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "lens",
+          "from": "natural50",
+          "to": "telephoto135",
+          "reason": "retro_racer 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier",
+      "axesReasons": {
+        "action_level": "retro_racer의 진행 중 활동: At a vintage motor-racing costume presentation beside a track barrier in hard midday sun; holding a plain folded event flag at her side.",
+        "source_influence": "이 컷의 원작 단서는 의상에 있는 White cropped team jacket with long sleeves and lavender piping, black fitted shorts and white calf-high boots, a small lavender three-bar enamel clasp.",
+        "separates_preference": "이 컷의 의상 층과 상하 분리는 White cropped team jacket with long sleeves and lavender piping, black fitted shorts and white calf-high boots, a small lavender three-bar enamel clasp."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a vintage motor-racing costume presentation beside a track barrier in hard midday sun; holding a plain folded event flag at her side.",
+          "reason": "고른 예시 a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier에 없는 시간·조명과 읽히는 손 활동을 retro_racer 장소 안에서 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "White cropped team jacket with long sleeves and lavender piping, black fitted shorts and white calf-high boots, a small lavender three-bar enamel clasp.",
+          "reason": "retro_racer 예시에 없는 이 컷 배색·소재와 목선·소매·기장·겹침을 지정: White cropped team jacket with long sleeves and lavender piping, black fitted shorts and white calf-high boots, a small lavender three-bar enamel clasp."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        }
+      ]
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "grocery_run",
+      "expr": "curious",
+      "pose": "carrying_something",
+      "orient": "looking_away",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "Inside a neighborhood produce shop at blue-hour evening; comparing one ripe pear in her hand with the pears in a shopping basket supported by her other arm.",
+      "outfit": "Lavender V-neck short-sleeve blouse ending at the waist over separate white tailored trousers, no outer layer; three tiny white button earrings.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "three_quarter_back",
+        "frame": "waist_up",
+        "lens": "portrait85"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "three_quarter_back",
+          "to": "profile_close",
+          "reason": "grocery_run 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "lens",
+          "from": "portrait85",
+          "to": "natural50",
+          "reason": "grocery_run 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "orient",
+          "from": "profile_close",
+          "to": "looking_away",
+          "reason": "측면 각도 재생성 두 번 실패; 과일을 보며 고르는 생활 장면에 맞게 시선을 밖으로 두는 방향을 선택, 최근 짝 겹침 없음"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Grocery Run",
+      "axesReasons": {
+        "action_level": "grocery_run의 진행 중 활동: Inside a neighborhood produce shop at blue-hour evening; comparing one ripe pear in her hand with the pears in a shopping basket supported by her other arm.",
+        "source_influence": "이 컷의 원작 단서는 의상에 있는 Lavender V-neck short-sleeve blouse ending at the waist over separate white tailored trousers, no outer layer; three tiny white button earrings.",
+        "separates_preference": "이 컷의 의상 층과 상하 분리는 Lavender V-neck short-sleeve blouse ending at the waist over separate white tailored trousers, no outer layer; three tiny white button earrings."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Inside a neighborhood produce shop at blue-hour evening; comparing one ripe pear in her hand with the pears in a shopping basket supported by her other arm.",
+          "reason": "고른 예시 Grocery Run에 없는 시간·조명과 읽히는 손 활동을 grocery_run 장소 안에서 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Lavender V-neck short-sleeve blouse ending at the waist over separate white tailored trousers, no outer layer; three tiny white button earrings.",
+          "reason": "grocery_run 예시에 없는 이 컷 배색·소재와 목선·소매·기장·겹침을 지정: Lavender V-neck short-sleeve blouse ending at the waist over separate white tailored trousers, no outer layer; three tiny white button earrings."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "phanpy-20261013",
+    "porygon2-20261014",
+    "silcoon-20261013"
+  ],
+  "previousInBatch": [],
+  "comparison": [
+    {
+      "record": "phanpy-20261013",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "playful",
+          "pose": "walking",
+          "orient": "turning_midmotion",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Navy tailored jacket with full-length sleeves over an ivory open-collar blouse, pale-blue trim and an orange neck scarf, with a matching above-knee skirt and low court shoes; a tiny curved enamel brooch."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "laundry",
+          "expr": "candid",
+          "pose": "carrying_something",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Coral-orange wide scoop-neck cotton tee with elbow-length sleeves and a waist-length hem, separate ivory drawstring shorts, no outer layer; one small blue button bracelet."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "looking_down",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer."
+        }
+      ]
+    },
+    {
+      "record": "porygon2-20261014",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "laughing_open",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "focused",
+          "pose": "leaning_furniture",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White boat-neck elbow-sleeve cotton blouse ending at the hips, worn over blue straight trousers without an outer layer; one small magenta hair clip."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "mildly_annoyed",
+          "pose": "walking",
+          "orient": "side",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Blue knee-length trench dress with a notched V collar and long sleeves, buttoned over an unseen base layer; low ankle boots and one tiny magenta belt bead."
+        }
+      ]
+    },
+    {
+      "record": "silcoon-20261013",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "juban_inspired",
+          "expr": "sleepy",
+          "pose": "side_sitting",
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque pearl silk with fine crimson seam embroidery and elbow-length flowing sleeves, straight above-knee hem."
+        },
+        {
+          "cat": "festivals_contests",
+          "ex": "fest_ribbon",
+          "expr": "amused",
+          "pose": "leaning_furniture",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A wide boat-neck pearl blouse with fitted long sleeves and a cropped straight hem, deep-red tailored knee-length culottes, no outer layer; tiny silk-knot pendant."
+        },
+        {
+          "cat": "everyday_sensual",
+          "ex": "balcony_plants",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "reaching_up",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A cream square-neck sleeveless fitted rib-knit midi dress with crimson hem stitching, no outer layer; small round white hairpin."
+        }
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "slot": "casual3",
+      "issue": "원본 및 같은 설정 재생성 2회가 모두 측면 90도가 아닌 앞 3/4에 머묾",
+      "change": "생성 전에 UI 방향 looking_away로 변경하고 재검증; 표정과 주 활동은 유지",
+      "rejectedOriginals": [
+        "exec-a3ff868d-5f44-4545-b3eb-e5e843c2f7b4.png",
+        "exec-438a40fb-4801-4a5a-bae2-9464684f0da8.png",
+        "exec-27da7785-28f4-4376-a0a7-9b3eed7b16a8.png"
+      ]
+    }
+  ],
+  "faceComparedActual": [
+    "배루키",
+    "카포에라",
+    "뽀뽀라",
+    "코코리",
+    "폴리곤2",
+    "실쿤",
+    "시라소몬",
+    "홍수몬",
+    "루주라"
+  ],
+  "faceComparisonEvidence": "가로 폭 있는 각진 턱·낮고 굵은 눈썹·강한 아몬드 눈은 최근 코코리 둥근 눈/볼, 폴리곤2 유연한 타원, 실쿤 얇은 눈매와 구분됨. 시라소몬의 작은 입·길쭉한 중안부 및 홍수몬의 갸름한 턱과 다름.",
+  "generationTool": "built-in image_gen"
+}
