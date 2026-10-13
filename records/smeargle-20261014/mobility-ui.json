@@ -1,0 +1,132 @@
+{
+  "input": {
+    "mech": "루브도",
+    "sourceName": "Smeargle",
+    "series": "normal",
+    "sourceAppearance": {
+      "name": "루브도",
+      "en": "Smeargle",
+      "color": "white",
+      "shape": "upright",
+      "features": [
+        {
+          "part": "collar",
+          "detail": "brown collar"
+        },
+        {
+          "part": "tail",
+          "detail": "long tail"
+        },
+        {
+          "part": "fur",
+          "detail": "white and brown fur"
+        },
+        {
+          "part": "ear",
+          "detail": "floppy, brown ears"
+        },
+        {
+          "part": "band",
+          "detail": "two brown bands"
+        },
+        {
+          "part": "structure",
+          "detail": "round structure"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Smeargle_%28Pok%C3%A9mon%29",
+      "revision": 4628888,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "799903e4a79f4eec3477aae5b337dfcd3f65ccdff926d99f080959c8afd097cb",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "faceDesign": {
+      "name": "루브도",
+      "en": "Smeargle",
+      "line": "루브도",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "almond",
+        "eye size": "medium",
+        "eye tilt": "downturned outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "fine soft arches",
+        "nose character": "rounded soft tip",
+        "lips": "wide mouth"
+      },
+      "why": "그림장이의 느긋하고 유연한 이미지를 완만한 눈매와 넓은 입으로 해석한다.",
+      "cues": [
+        "몸 형태 upright → 얼굴형 균형 잡힌 타원형",
+        "‘round structure’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+        "‘floppy, brown ears’ → 눈꼬리 각도 처진 눈꼬리",
+        "‘round structure’ → 눈썹 가늘고 완만한 곡선",
+        "‘round structure’ → 코 코끝이 둥근"
+      ],
+      "adjusted": ""
+    },
+    "faceDesignOn": true,
+    "style": "glossy_promo",
+    "outputMode": "action",
+    "identityMode": "reference",
+    "form": "mobility",
+    "baseForm": "mobility",
+    "params": [
+      [
+        "apparent age",
+        "20s"
+      ]
+    ],
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "formOverride": "Continuous full-coverage brown utility undersuit from high collar through sleeves and legs, with the swept white armor panels worn over it."
+  },
+  "prompt": "INPUT: the attached image is the approved character; keep her.\n\nSOURCE: Smeargle (루브도), normal type.\n\nSTYLE: Premium glossy anime-mecha promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized hard-surface detail. Match the face and armor at the same polished rendering intensity.\n\nFORM — MOBILITY: the thin plates split and fan outward and back from the shoulders, hips and calves into a swept, open silhouette with air between the panels and compact thrusters; joints stay free. Slim sensor fins sweep back from the temples; no helmet, no giant wings.\nFORM NOTE: Continuous full-coverage brown utility undersuit from high collar through sleeves and legs, with the swept white armor panels worn over it.\n\nOUTPUT: the MOBILITY form of the woman in the attached image, as a new card image. Keep her face, eye and hair colors, haircut, skin tone, body proportions, palette and the species features she wears as costume; change only her armor, as FORM says. Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion, face toward the camera (front or three-quarter, never a back view). A new card-ready pose is fine; motion, effects and setting may be dramatic while her design stays readable.\n\nChosen settings below override the default stance and camera; her identity and form stay fixed.\nCamera: Vertical 2:3 portrait (1024×1536).\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra. Her hands keep the same gloves or bare hands as in the attached image; effects stay off the fingers.",
+  "origin": "actual UI selected; repository engine reproduces inspected UI output",
+  "storage": {
+    "last": "루브도",
+    "cards": {
+      "루브도": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "mobility",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "Continuous full-coverage brown utility undersuit from high collar through sleeves and legs, with the swept white armor panels worn over it.",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "cat": "",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "aspect": "2:3",
+            "axes": {},
+            "action": {},
+            "randomLocks": {}
+          }
+        }
+      }
+    }
+  }
+}

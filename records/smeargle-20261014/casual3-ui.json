@@ -1,0 +1,164 @@
+{
+  "input": {
+    "mech": "루브도",
+    "sourceName": "Smeargle",
+    "series": "normal",
+    "sourceAppearance": {
+      "name": "루브도",
+      "en": "Smeargle",
+      "color": "white",
+      "shape": "upright",
+      "features": [
+        {
+          "part": "collar",
+          "detail": "brown collar"
+        },
+        {
+          "part": "tail",
+          "detail": "long tail"
+        },
+        {
+          "part": "fur",
+          "detail": "white and brown fur"
+        },
+        {
+          "part": "ear",
+          "detail": "floppy, brown ears"
+        },
+        {
+          "part": "band",
+          "detail": "two brown bands"
+        },
+        {
+          "part": "structure",
+          "detail": "round structure"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Smeargle_%28Pok%C3%A9mon%29",
+      "revision": 4628888,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "799903e4a79f4eec3477aae5b337dfcd3f65ccdff926d99f080959c8afd097cb",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "faceDesign": {
+      "name": "루브도",
+      "en": "Smeargle",
+      "line": "루브도",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "almond",
+        "eye size": "medium",
+        "eye tilt": "downturned outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "fine soft arches",
+        "nose character": "rounded soft tip",
+        "lips": "wide mouth"
+      },
+      "why": "그림장이의 느긋하고 유연한 이미지를 완만한 눈매와 넓은 입으로 해석한다.",
+      "cues": [
+        "몸 형태 upright → 얼굴형 균형 잡힌 타원형",
+        "‘round structure’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+        "‘floppy, brown ears’ → 눈꼬리 각도 처진 눈꼬리",
+        "‘round structure’ → 눈썹 가늘고 완만한 곡선",
+        "‘round structure’ → 코 코끝이 둥근"
+      ],
+      "adjusted": ""
+    },
+    "faceDesignOn": true,
+    "style": "glossy_promo",
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "form": "casual3",
+    "baseForm": "casual3",
+    "params": [
+      [
+        "apparent age",
+        "20s"
+      ]
+    ],
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "cat": "food_berries",
+    "ex": "food_poffin",
+    "expr": "amused",
+    "pose": "preparing_food",
+    "orient": "high_angle",
+    "frame": "waist_up",
+    "lens": "wide24",
+    "scene": "A bright tiled kitchen in late morning; stirring a bowl of berry batter with a wooden spoon, plain berry bowls and a baking tray on the counter.",
+    "outfit": "Cream sleeveless high-neck top with a hip-length straight hem, brown culottes and a short green apron layered over them; tiny brown banded collar detail.",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "strongly prefer separates"
+    },
+    "slot": "casual3",
+    "aspect": "2:3",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Smeargle (루브도) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: crinkled lower eyelids, closed-lip smile pushing the cheeks up, brows relaxed\nPose: Work at a kitchen counter, stirring a bowl or arranging ingredients with clearly separated hands and utensils.\nOrientation: camera above subject looking downward; obey selected framing\nScene: A bright tiled kitchen in late morning; stirring a bowl of berry batter with a wooden spoon, plain berry bowls and a baking tray on the counter.\nOutfit and props: Cream sleeveless high-neck top with a hip-length straight hem, brown culottes and a short green apron layered over them; tiny brown banded collar detail.\nCategory: Show a specific everyday cooking, berry-growing or picnic activity in the Pokémon world. Use readable hands, utensils and ingredients; favor ordinary personal life over professional workwear.\nExample scene: Mixing Poffin batter in a bowl at a home kitchen counter, with berries and a baking tray nearby.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "origin": "actual UI selected; repository engine reproduces inspected UI output",
+  "storage": {
+    "last": "루브도",
+    "cards": {
+      "루브도": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "heavy",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "amused",
+            "pose": "preparing_food",
+            "orient": "high_angle",
+            "scene": "A bright tiled kitchen in late morning; stirring a bowl of berry batter with a wooden spoon, plain berry bowls and a baking tray on the counter.",
+            "outfit": "Cream sleeveless high-neck top with a hip-length straight hem, brown culottes and a short green apron layered over them; tiny brown banded collar detail.",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "cat": "food_berries",
+            "catCustom": "",
+            "ex": "food_poffin",
+            "exCustom": "",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "circus_ringmaster",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "scene": "A sunlit empty striped circus tent before a costume performance; checking the tilt of a top hat with her free hand beside a low stage.",
+      "outfit": "Ivory tailcoat with brown lapels and long sleeves over a cream fitted one-piece, brown knee-high boots and a matching top hat; small green embroidered cuff accents.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "slot": "casual1",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      }
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_sketch",
+      "expr": "serious",
+      "pose": "sitting",
+      "orient": "looking_down",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "scene": "An autumn city park bench at noon; drawing leaf shapes and small tracks on an unlettered sketchbook with a graphite pencil.",
+      "outfit": "Brown square-neck short-sleeve cotton blouse ending at the waist, cream ankle-length loose trousers and no outer layer; a small green thread bracelet.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "slot": "casual2",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      }
+    },
+    {
+      "cat": "food_berries",
+      "ex": "food_jam",
+      "expr": "amused",
+      "pose": "preparing_food",
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "lens": "wide24",
+      "scene": "A bright tiled kitchen in late morning; spreading red berry jam on toast with a small butter knife, plain jars on the counter.",
+      "outfit": "Cream sleeveless high-neck top with a hip-length straight hem, brown culottes and a short green apron layered over them; tiny brown banded collar detail.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates"
+      },
+      "slot": "casual3",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      }
+    }
+  ],
+  "compared": [
+    "직구리",
+    "킹드라",
+    "헬가",
+    "폴리곤2"
+  ],
+  "note": "Planned before image generation; each will be selected and inspected in the actual UI."
+}
