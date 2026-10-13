@@ -1,0 +1,148 @@
+{
+  "name": "무장조",
+  "slug": "skarmory",
+  "wear": "Silver steel slim plates with cobalt joint trim and red lining; sharp blade-shaped wings become a narrow split shoulder cape swept behind the arms, a triangular silver crest headband, and a red feather collar. The silver armored bird motif is worn as clothing.",
+  "hair": "silver",
+  "hairstyle": "sleek bob",
+  "scene": "High-altitude aircraft maintenance hall with silver structural ribs, cold dawn sunlight and distant mountains.",
+  "style": "glossy_promo",
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "leaning_wall",
+      "orient": "front_3q",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "outfit": "Silver stretch satin with cobalt piping and red zip accents; tiny triangular silver hair clip.",
+      "scene": "Empty vintage racing exhibition pit at golden sunset; resting driving gloves in one relaxed hand.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "randomized": [],
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Empty vintage racing exhibition pit at golden sunset; resting driving gloves in one relaxed hand.",
+          "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+        },
+        {
+          "field": "outfit",
+          "content": "Silver stretch satin with cobalt piping and red zip accents; tiny triangular silver hair clip.",
+          "reason": "Clothing absent in selected example or supplement material/color only."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate size argument."
+        }
+      ]
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "pottery_class",
+      "expr": "focused",
+      "pose": "sitting",
+      "orient": "side",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "outfit": "Sleeveless navy linen wrap blouse, ivory wide trousers and a short red waist apron.",
+      "scene": "Daylit terracotta studio; gently shaping the lip of one low bowl on a slow pottery wheel.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "randomized": [],
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Daylit terracotta studio; gently shaping the lip of one low bowl on a slow pottery wheel.",
+          "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+        },
+        {
+          "field": "outfit",
+          "content": "Sleeveless navy linen wrap blouse, ivory wide trousers and a short red waist apron.",
+          "reason": "Clothing absent in selected example or supplement material/color only."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate size argument."
+        }
+      ]
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_lookout",
+      "expr": "relieved",
+      "pose": "standing_relaxed",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "outfit": "Red sleeveless fitted hiking vest, silver-gray pleated skort and dark hiking boots; tiny wing pendant.",
+      "scene": "Windy basalt observation deck at blue morning light; compact binoculars lowered beside the body.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "randomized": [],
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Windy basalt observation deck at blue morning light; compact binoculars lowered beside the body.",
+          "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+        },
+        {
+          "field": "outfit",
+          "content": "Red sleeveless fitted hiking vest, silver-gray pleated skort and dark hiking boots; tiny wing pendant.",
+          "reason": "Clothing absent in selected example or supplement material/color only."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate size argument."
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "대포무노",
+    "딜리버드",
+    "만타인"
+  ],
+  "previousInBatch": [],
+  "faceEvidence": [
+    "data/face-design.json",
+    "data/source-appearance.json"
+  ],
+  "faceReason": "강철 날개와 뾰족한 부리를 긴 윤곽과 긴 직선 콧대로 옮긴다."
+}
