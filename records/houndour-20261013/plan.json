@@ -1,0 +1,161 @@
+{
+  "name": "델빌",
+  "slug": "houndour",
+  "wear": "Black plates and charcoal undersuit with burnt-orange breastplate; white bone-shaped narrow ridges form collar and back trim, white cuff bands, a small stylized skull brooch and short ear-shaped hair clips. All motifs are worn costume details.",
+  "hair": "black",
+  "hairstyle": "short ponytail",
+  "scene": "Urban night rescue garage, charcoal steel and warm amber rim lighting.",
+  "style": "glossy_promo",
+  "casual_plan": [
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_music",
+      "expr": "amused",
+      "pose": "cross_legged",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "natural50",
+      "outfit": "Burnt-orange sleeveless ribbed tank, loose black drawstring shorts and small white skull pendant.",
+      "scene": "Late afternoon music room with floor cushions; practicing a small ukulele beside a plain unlettered music stand.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "randomized": [],
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Late afternoon music room with floor cushions; practicing a small ukulele beside a plain unlettered music stand.",
+          "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+        },
+        {
+          "field": "outfit",
+          "content": "Burnt-orange sleeveless ribbed tank, loose black drawstring shorts and small white skull pendant.",
+          "reason": "Clothing absent in selected example or supplement material/color only."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate size argument."
+        }
+      ]
+    },
+    {
+      "cat": "swimwear",
+      "ex": "outdoor_shower",
+      "expr": "surprised",
+      "pose": "standing_relaxed",
+      "orient": "side",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "outfit": "Opaque black swim fabric with burnt-orange piping and a small white clasp.",
+      "scene": "Warm stone resort rinse alcove at bright noon; one hand turns a plain shower tap, a cool splash catching her shoulder.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "randomized": [],
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Warm stone resort rinse alcove at bright noon; one hand turns a plain shower tap, a cool splash catching her shoulder.",
+          "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque black swim fabric with burnt-orange piping and a small white clasp.",
+          "reason": "Clothing absent in selected example or supplement material/color only."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate size argument."
+        }
+      ]
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "record_store",
+      "expr": "curious",
+      "pose": "leaning_furniture",
+      "orient": "front_3q",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "outfit": "Black halter-neck knit top, burnt-orange high waist cargo trousers, white narrow bracelet.",
+      "scene": "Rainy evening vintage vinyl shop; looking through plain blank record sleeves under warm shelf lighting.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "randomized": [],
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Rainy evening vintage vinyl shop; looking through plain blank record sleeves under warm shelf lighting.",
+          "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+        },
+        {
+          "field": "outfit",
+          "content": "Black halter-neck knit top, burnt-orange high waist cargo trousers, white narrow bracelet.",
+          "reason": "Clothing absent in selected example or supplement material/color only."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate size argument."
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "대포무노",
+    "딜리버드",
+    "만타인"
+  ],
+  "previousInBatch": [
+    "무장조"
+  ],
+  "faceEvidence": [
+    "data/face-design.json",
+    "data/source-appearance.json"
+  ],
+  "faceReason": "작은 사냥개의 날카로운 골격 선을 타원 얼굴와 뾰족한 사람 코끝으로 해석한다.",
+  "faceComparisonActual": [
+    "대포무노",
+    "딜리버드",
+    "만타인",
+    "무장조",
+    "델빌",
+    "헬가"
+  ],
+  "faceComparisonMethod": "Viewed individual light images and scratch face crops; comparison crops are inspection aids, not new generated sheets.",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; sharp eyes, medium size, upturned outer corners, wide-set; angled brows; balanced nose; thin lips.",
+  "casualComparisonActual": "Recent 3 images were viewed in recent-qa.jpg; Skarmory current 3 viewed in skarmory-qa.jpg. Houndoom will additionally compare all Houndour actual casual images after completion."
+}
