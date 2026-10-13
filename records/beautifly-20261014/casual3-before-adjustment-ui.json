@@ -1,0 +1,96 @@
+{
+  "storage": {
+    "last": "뷰티플라이",
+    "cards": {
+      "뷰티플라이": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "black",
+          "hairstyle": "wavy",
+          "hair length": "long",
+          "eye color": "blue",
+          "body type": "slender"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "Bright botanical flight hangar with tall translucent windows and a warm pollen-gold floor.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536). Head-to-boots figure occupies approximately 90% of image height, with both hands fully visible.",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "nostalgic",
+            "pose": "perched_seat",
+            "orient": "looking_away",
+            "scene": "An open cafe terrace at blue twilight; the scrapbook has blank pages and the loose photographs show only unlettered foliage.",
+            "outfit": "Cream high crew-neck cable-knit pullover with full-length sleeves and a hip-length hem, separate charcoal tailored shorts, no outer layer; a tiny gold spiral pendant.",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Reference 1 supplies the approved identity. Reference 2 is the album-table image: erase the small white fake brand letters on the black camera and any lens markings, leaving a clean plain black nameplate. Preserve the photographs, fingers, knit neckline, gaze, face, body, setting and all other pixels.",
+            "aspect": "2:3",
+            "cat": "hobbies_leisure",
+            "catCustom": "",
+            "ex": "hobby_photo",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Beautifly (뷰티플라이) personified, bug / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: soft distant gaze past the camera, faint wistful half-smile, brows gently raised at the inner ends\nPose: Perch on a low ledge or bench with the feet resting naturally below.\nOrientation: gaze off-camera; body orientation independent\nScene: An open cafe terrace at blue twilight; the scrapbook has blank pages and the loose photographs show only unlettered foliage.\nOutfit and props: Cream high crew-neck cable-knit pullover with full-length sleeves and a hip-length hem, separate charcoal tailored shorts, no outer layer; a tiny gold spiral pendant.\nCategory: Show a personal hobby or restful leisure moment with a specific action and relevant objects. Pokémon motifs may appear naturally in the activity, without requiring armor, a uniform or a companion.\nExample scene: Sorting printed habitat photographs beside a camera and a travel scrapbook at a cafe table.\nNote: Reference 1 supplies the approved identity. Reference 2 is the album-table image: erase the small white fake brand letters on the black camera and any lens markings, leaving a clean plain black nameplate. Preserve the photographs, fingers, knit neckline, gaze, face, body, setting and all other pixels.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra."
+}
