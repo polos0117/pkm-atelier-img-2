@@ -1,0 +1,45 @@
+{
+  "tool": "built-in imagegen",
+  "anchor": {
+    "source": "/workspace/scratch/62d9204d5610/generated_images/exec-9fcc7f22-00c4-48de-b618-f58e51195b03.png",
+    "card": "헬가",
+    "slot": "light",
+    "style": "glossy_promo",
+    "styleEvidence": "actual generator UI selection",
+    "reference": "/workspace/scratch/62d9204d5610/generated_images/exec-9fcc7f22-00c4-48de-b618-f58e51195b03.png",
+    "file": "헬가_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "sha256": "0a4d5b097f1cce3ede1fee25d10e47e2203189731e144a0ba2e60db197100ae0"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; narrow eyes, medium size, level outer corners, wide-set; thick low brows; balanced nose; thin lips.",
+  "faceComparisonActual": [
+    "대포무노",
+    "딜리버드",
+    "만타인",
+    "무장조",
+    "델빌",
+    "헬가"
+  ],
+  "forms": "Three closed forms and each matching open pair reviewed individually and on 9-image contact sheet; same face/hair/body and full-body scale, with plate stacking/split thrusters clearly different. Camera, pose and scale retained in open pairs.",
+  "casualComparisonActual": [
+    "대포무노",
+    "딜리버드",
+    "만타인",
+    "무장조",
+    "델빌"
+  ],
+  "casualQA": "Actual recent images and both current completed characters viewed; Houndoom 3 reviewed side by side. Standing acoustic recorder work in vest+turtleneck+trousers, seated evening earrings in satin slip, side-on wrist warmup in strappy sportswear+climbing trousers are visibly distinct in activity, outfit silhouette, place and crop.",
+  "correction": {
+    "slot": "casual1",
+    "original": "/workspace/scratch/62d9204d5610/generated_images/exec-99982bc8-ffbf-479d-8130-91239e1fe582.png",
+    "target": "Device lettering and worksheet writing only removed; person/hand pose/clothing/scene preserved",
+    "submittedPrompt": "casual1-text-correction.txt",
+    "final": "/workspace/scratch/62d9204d5610/generated_images/exec-7e54db20-8eef-4914-95c8-94355e3ff0f6.png"
+  },
+  "anatomyQA": "Hands individually reviewed in armor, recorder grasp, earrings and wrist warmup. No extra limbs or unnatural neck angles.",
+  "status": "9/9 visual QA passed"
+}

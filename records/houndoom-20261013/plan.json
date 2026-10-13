@@ -1,0 +1,162 @@
+{
+  "name": "헬가",
+  "slug": "houndoom",
+  "wear": "Black sculpted plates with burnt-orange torso inset, three ivory rib-like bands across the upper back and sides, white cuff bands; long curved gray horns become a sculptural headband, and a slender triangular-ended tail becomes a narrow belt sash. Human face and normal hands.",
+  "hair": "black",
+  "hairstyle": "long straight",
+  "scene": "Volcanic geothermal power hangar with black basalt walls and amber accent light.",
+  "style": "glossy_promo",
+  "casual_plan": [
+    {
+      "cat": "occupation_basic",
+      "ex": "observatory_engineer",
+      "expr": "serious",
+      "pose": "standing_formal",
+      "orient": "front",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "outfit": "Sleeveless charcoal tailored vest over rust-orange fitted top, ivory high-waist straight trousers, tiny horn-shaped hairpin.",
+      "scene": "Dusk nocturnal ecology observation station; checking a small acoustic recorder with a blank screen.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "randomized": [],
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Dusk nocturnal ecology observation station; checking a small acoustic recorder with a blank screen.",
+          "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+        },
+        {
+          "field": "outfit",
+          "content": "Sleeveless charcoal tailored vest over rust-orange fitted top, ivory high-waist straight trousers, tiny horn-shaped hairpin.",
+          "reason": "Clothing absent in selected example or supplement material/color only."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate size argument."
+        }
+      ]
+    },
+    {
+      "cat": "lingerie",
+      "ex": "slip_lingerie",
+      "expr": "pensive",
+      "pose": "perched_seat",
+      "orient": "front_3q",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "outfit": "Opaque rust satin with black lace trim and tiny ivory fastening.",
+      "scene": "Warm amber dressing room at midnight; gently arranging a pair of small earrings on a low vanity tray.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "randomized": [],
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Warm amber dressing room at midnight; gently arranging a pair of small earrings on a low vanity tray.",
+          "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque rust satin with black lace trim and tiny ivory fastening.",
+          "reason": "Clothing absent in selected example or supplement material/color only."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate size argument."
+        }
+      ]
+    },
+    {
+      "cat": "active",
+      "ex": "climbing_warmup",
+      "expr": "determined",
+      "pose": "stretching",
+      "orient": "side",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "outfit": "Black performance fabric, burnt-orange panels and ivory seam piping.",
+      "scene": "Sunlit bouldering hall; warming forearms beside matte colorful climbing holds.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "randomized": [],
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Sunlit bouldering hall; warming forearms beside matte colorful climbing holds.",
+          "reason": "Selected example does not specify this time, lighting and concrete activity detail."
+        },
+        {
+          "field": "outfit",
+          "content": "Black performance fabric, burnt-orange panels and ivory seam piping.",
+          "reason": "Clothing absent in selected example or supplement material/color only."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate size argument."
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "대포무노",
+    "딜리버드",
+    "만타인"
+  ],
+  "previousInBatch": [
+    "무장조",
+    "델빌"
+  ],
+  "faceEvidence": [
+    "data/face-design.json",
+    "data/source-appearance.json"
+  ],
+  "faceReason": "큰 뿔과 사냥개의 긴 주둥이를 긴 얼굴과 굵은 사선 눈썹으로 구분한다.",
+  "faceComparisonActual": [
+    "대포무노",
+    "딜리버드",
+    "만타인",
+    "무장조",
+    "델빌",
+    "헬가"
+  ],
+  "faceComparisonMethod": "Viewed individual light images and scratch face crops; comparison crops are inspection aids, not new generated sheets.",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; narrow eyes, medium size, level outer corners, wide-set; thick low brows; balanced nose; thin lips.",
+  "casualComparisonActual": "Recent 3 and actual Skarmory/Houndour casual trios compared. Final Houndoom trio viewed side by side; research/earring styling/wrist warmup differ in place, activity, garment silhouette and crop."
+}
