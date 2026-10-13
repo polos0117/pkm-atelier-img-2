@@ -1,0 +1,952 @@
+{
+  "name": "코리갑",
+  "slug": "donphan",
+  "style": "glossy_promo",
+  "faceEvidence": {
+    "name": "코리갑",
+    "en": "Donphan",
+    "line": "코코리",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "wide",
+      "jaw & chin": "wide heavy chin",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "thick low brows",
+      "nose character": "balanced nose",
+      "lips": "medium lips"
+    },
+    "why": "장갑과 바퀴 같은 단단한 몸을 넓은 하관과 낮고 굵은 눈썹으로 구분한다.",
+    "cues": [
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 입술 입이 넓은 → 보통"
+  },
+  "sourceEvidence": {
+    "name": "코리갑",
+    "en": "Donphan",
+    "color": "gray",
+    "shape": "quadruped",
+    "features": [
+      {
+        "part": "trunk",
+        "detail": "long trunk"
+      },
+      {
+        "part": "band",
+        "detail": "thick, black band"
+      },
+      {
+        "part": "leg",
+        "detail": "four short legs"
+      },
+      {
+        "part": "toe",
+        "detail": "three toes"
+      },
+      {
+        "part": "armor",
+        "detail": "vulnerable armor"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Donphan_%28Pok%C3%A9mon%29",
+    "revision": 4610801,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "2ab6abf8b665d87b529beaa3d8fbfb9a71f87a18282494e51df304a784e70609",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "faceReason": "두터운 검은 띠와 단단한 장갑 체적을 넓고 무거운 턱·좁은 눈·낮고 굵은 눈썹으로 해석. 코코리보다 세 얼굴 묶음이 실제로 구분되는지 비교.",
+  "recentCompared": [
+    "kingdra-20261013",
+    "houndoom-20261013",
+    "houndour-20261013"
+  ],
+  "previousInBatch": [
+    "phanpy-20261013"
+  ],
+  "comparison": [
+    {
+      "record": "kingdra-20261013",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "masquerade",
+          "expr": "proud",
+          "pose": "contrapposto",
+          "orient": "high_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque pearl-white satin bodice and full cobalt skirt with a high side slit, silver piping and a small spiral brooch; the eye mask echoes thin white fins."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_tea",
+          "expr": "focused",
+          "pose": "preparing_food",
+          "orient": "leaning_forward",
+          "frame": "three_quarter",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A deep-V white cotton blouse with rolled short sleeves, a cropped knotted hem, worn separately over a cobalt knee-length high-waist skirt; blue spiral cuff embroidery and one tiny silver barrette."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_trail",
+          "expr": "curious",
+          "pose": "checking_map",
+          "orient": "low_angle",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A cobalt V-neck short-sleeve hiking shirt with a tied cropped hem, white pleated shorts and ankle boots, worn with a light open sleeveless rain vest; tiny spiral map clasp."
+        }
+      ]
+    },
+    {
+      "record": "houndoom-20261013",
+      "cuts": [
+        {
+          "cat": "occupation_basic",
+          "ex": "observatory_engineer",
+          "expr": "serious",
+          "pose": "standing_formal",
+          "orient": "front",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Sleeveless charcoal tailored vest over rust-orange fitted top, ivory high-waist straight trousers, tiny horn-shaped hairpin."
+        },
+        {
+          "cat": "lingerie",
+          "ex": "slip_lingerie",
+          "expr": "pensive",
+          "pose": "perched_seat",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque rust satin with black lace trim and tiny ivory fastening."
+        },
+        {
+          "cat": "active",
+          "ex": "climbing_warmup",
+          "expr": "determined",
+          "pose": "stretching",
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Black performance fabric, burnt-orange panels and ivory seam piping."
+        }
+      ]
+    },
+    {
+      "record": "houndour-20261013",
+      "cuts": [
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_music",
+          "expr": "amused",
+          "pose": "cross_legged",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Burnt-orange sleeveless ribbed tank, loose black drawstring shorts and small white skull pendant."
+        },
+        {
+          "cat": "swimwear",
+          "ex": "outdoor_shower",
+          "expr": "surprised",
+          "pose": "standing_relaxed",
+          "orient": "side",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque black swim fabric with burnt-orange piping and a small white clasp."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "record_store",
+          "expr": "curious",
+          "pose": "leaning_furniture",
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Black halter-neck knit top, burnt-orange high waist cargo trousers, white narrow bracelet."
+        }
+      ]
+    },
+    {
+      "record": "phanpy-20261013",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "playful",
+          "pose": "walking",
+          "orient": "turning_midmotion",
+          "frame": "environmental",
+          "lens": "wide24",
+          "scene": "At an empty aviation-themed garden costume event in clear morning light, carrying a small tray with two plain porcelain cups past flowering planters.",
+          "outfit": "Navy tailored jacket with full-length sleeves over an ivory open-collar blouse, pale-blue trim and an orange neck scarf, with a matching above-knee skirt and low court shoes; a tiny curved enamel brooch.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "randomized": {
+            "orient": "profile_close",
+            "frame": "detail",
+            "lens": "documentary35"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "profile_close",
+              "to": "turning_midmotion",
+              "reason": "최근 컷 방향·프레임 짝을 피하며 adult_maid에 맞춰 선택"
+            },
+            {
+              "key": "frame",
+              "from": "detail",
+              "to": "environmental",
+              "reason": "장면의 손동작을 읽히게 adult_maid에 맞춰 선택"
+            },
+            {
+              "key": "lens",
+              "from": "documentary35",
+              "to": "wide24",
+              "reason": "배경과 도구를 읽히게 adult_maid에 맞춰 선택"
+            },
+            {
+              "key": "custom",
+              "from": "",
+              "to": "Replace only the broad ear-shaped temple ornaments with two tiny orange barrette pins; preserve the remaining image exactly.",
+              "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "a retro flight-attendant-inspired costume with a fitted jacket, scarf, and original airline-style trim, at a themed event",
+          "axesReasons": {
+            "action_level": "정원 행사장에서 컵 쟁반을 운반하는 가벼운 보행",
+            "source_influence": "파란 재킷·주황 스카프와 작은 곡선 브로치에만 코코리 단서를 표현",
+            "separates_preference": "재킷·스커트가 하나의 유니폼풍 행사 의상으로 읽힘"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "At an empty aviation-themed garden costume event in clear morning light, carrying a small tray with two plain porcelain cups past flowering planters.",
+              "reason": "승무원풍 예시는 의상과 행사만 정하므로 정원 행사장의 오전 햇빛과 컵 쟁반 운반을 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Navy tailored jacket with full-length sleeves over an ivory open-collar blouse, pale-blue trim and an orange neck scarf, with a matching above-knee skirt and low court shoes; a tiny curved enamel brooch.",
+              "reason": "예시의 재킷과 스카프를 유지하며 긴소매·열린 목선 블라우스·무릎 위 치마·연청/주황 배색을 정함"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+            },
+            {
+              "field": "custom",
+              "content": "Replace only the broad ear-shaped temple ornaments with two tiny orange barrette pins; preserve the remaining image exactly.",
+              "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+            }
+          ],
+          "custom": "Replace only the broad ear-shaped temple ornaments with two tiny orange barrette pins; preserve the remaining image exactly."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "laundry",
+          "expr": "candid",
+          "pose": "carrying_something",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "scene": "In a tiled apartment laundry nook at overcast noon, lifting a folded bath towel from a wicker basket at a raised countertop.",
+          "outfit": "Coral-orange wide scoop-neck cotton tee with elbow-length sleeves and a waist-length hem, separate ivory drawstring shorts, no outer layer; one small blue button bracelet.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "randomized": {
+            "orient": "front",
+            "frame": "waist_up",
+            "lens": "documentary35"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "front",
+              "to": "high_angle",
+              "reason": "최근 컷 방향·프레임 짝을 피하며 laundry에 맞춰 선택"
+            },
+            {
+              "key": "lens",
+              "from": "documentary35",
+              "to": "natural50",
+              "reason": "배경과 도구를 읽히게 laundry에 맞춰 선택"
+            },
+            {
+              "key": "frame",
+              "from": "waist_up",
+              "to": "three_quarter",
+              "reason": "두 차례 재생성 후에도 기존 프레임에서 끊기지 않아 새 선택값으로 다시 기획·생성"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Laundry / Folding Clothes",
+          "axesReasons": {
+            "action_level": "바구니에서 접힌 수건을 들어 옮기는 동작이 장면 중심",
+            "source_influence": "작은 파란 단추 팔찌만 원작 단서로 남김",
+            "separates_preference": "티셔츠와 반바지는 분리된 생활복"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "In a tiled apartment laundry nook at overcast noon, lifting a folded bath towel from a wicker basket at a raised countertop.",
+              "reason": "Laundry / Folding Clothes라는 제목만 있어서 타일 세탁 공간의 정오와 바구니에서 접힌 수건을 들어 옮기는 활동을 명시"
+            },
+            {
+              "field": "outfit",
+              "content": "Coral-orange wide scoop-neck cotton tee with elbow-length sleeves and a waist-length hem, separate ivory drawstring shorts, no outer layer; one small blue button bracelet.",
+              "reason": "빨래 예시에는 옷이 없어 스쿱넥·팔꿈치 소매·허리 기장 티와 분리된 반바지·겉옷 없음으로 생활복을 정함"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+            }
+          ]
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "looking_down",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "scene": "At a kitchen windowsill 1.4 metres above the floor during golden late-afternoon light, watering a miniature terracotta berry seedling and trimming one dry leaf with blunt pruning scissors; the seedling pot and both tools are beside her upper torso.",
+          "outfit": "Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "randomized": {
+            "orient": "crouching",
+            "frame": "chest_up",
+            "lens": "telephoto135"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "crouching",
+              "to": "looking_down",
+              "reason": "최근 컷 방향·프레임 짝을 피하며 hobby_gardening에 맞춰 선택"
+            },
+            {
+              "key": "lens",
+              "from": "telephoto135",
+              "to": "portrait85",
+              "reason": "배경과 도구를 읽히게 hobby_gardening에 맞춰 선택"
+            },
+            {
+              "key": "frame",
+              "from": "chest_up",
+              "to": "waist_up",
+              "reason": "두 차례 재생성 후에도 기존 프레임에서 끊기지 않아 새 선택값으로 다시 기획·생성"
+            },
+            {
+              "key": "scene",
+              "from": "At a kitchen windowsill during golden late-afternoon light, a miniature terracotta berry seedling sits on a raised shelf; a tiny watering can and blunt pruning scissors are held close beside its dry leaf.",
+              "to": "At a high kitchen windowsill during golden late-afternoon light, a miniature terracotta berry seedling sits level with her collarbone; watering it and trimming one dry leaf with blunt pruning scissors, the tools immediately beside the high pot.",
+              "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+            },
+            {
+              "key": "outfit",
+              "from": "Pale-blue square-neck linen blouse with short gathered sleeves and a cropped hem, a separate orange wrap midi skirt, no outer layer; ivory curved embroidery at the sleeve edge.",
+              "to": "Pale-blue square-neck linen blouse with short gathered sleeves, a cropped hem and ivory curved sleeve-edge embroidery, no outer layer; a separate orange wrap skirt continues below its waist tie.",
+              "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+            },
+            {
+              "key": "scene",
+              "from": "At a high kitchen windowsill during golden late-afternoon light, a miniature terracotta berry seedling sits level with her collarbone; watering it and trimming one dry leaf with blunt pruning scissors, the tools immediately beside the high pot.",
+              "to": "At a kitchen windowsill 1.4 metres above the floor during golden late-afternoon light, watering a miniature terracotta berry seedling and trimming one dry leaf with blunt pruning scissors; the seedling pot and both tools are beside her upper torso.",
+              "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+            },
+            {
+              "key": "outfit",
+              "from": "Pale-blue square-neck linen blouse with short gathered sleeves, a cropped hem and ivory curved sleeve-edge embroidery, no outer layer; a separate orange wrap skirt continues below its waist tie.",
+              "to": "Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer.",
+              "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+            },
+            {
+              "key": "custom",
+              "from": "",
+              "to": "A broad opaque wood counter crosses immediately in front of her waist; the counter front fills the lower foreground. Keep the plant pot and both hands on the tabletop above that edge; replace broad temple ornaments with tiny orange hair clips.",
+              "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.",
+          "axesReasons": {
+            "action_level": "작은 물뿌리개로 물을 주고 마른 잎을 살피는 가벼운 돌봄",
+            "source_influence": "연청·주황·상아색 배색과 휘어진 소매 자수로 코코리 단서를 선명하게 표현",
+            "separates_preference": "짧은 블라우스와 미디 랩스커트의 분리 실루엣을 강조"
+          },
+          "directInputs": [
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+            },
+            {
+              "field": "scene",
+              "content": "At a kitchen windowsill 1.4 metres above the floor during golden late-afternoon light, watering a miniature terracotta berry seedling and trimming one dry leaf with blunt pruning scissors; the seedling pot and both tools are beside her upper torso.",
+              "reason": "창가 화분 물주기와 마른 잎 손질 활동을 유지하고 높은 창턱과 늦은 오후 광원으로 도구 위치를 보완"
+            },
+            {
+              "field": "outfit",
+              "content": "Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer.",
+              "reason": "원예 예시에 옷이 없어 스퀘어넥·짧은 퍼프소매·허리기장 블라우스·겉옷 없음과 주황 리본으로 정함"
+            },
+            {
+              "field": "custom",
+              "content": "A broad opaque wood counter crosses immediately in front of her waist; the counter front fills the lower foreground. Keep the plant pot and both hands on the tabletop above that edge; replace broad temple ornaments with tiny orange hair clips.",
+              "reason": "원예 결과의 하단에 골반이 넓게 남아 전면 카운터로 하단을 가리고, 큰 귀 장식이 남아 작은 클립으로 교정"
+            }
+          ],
+          "custom": "A broad opaque wood counter crosses immediately in front of her waist; the counter front fills the lower foreground. Keep the plant pot and both hands on the tabletop above that edge; replace broad temple ornaments with tiny orange hair clips."
+        }
+      ]
+    }
+  ],
+  "casual_plan": [
+    {
+      "cat": "occupation_basic",
+      "ex": "demolition_planner",
+      "expr": "focused",
+      "pose": "squatting",
+      "orient": "crouching",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "scene": "At a sunlit sandstone excavation shelter, brushing loose ochre sediment from a fossil in the raised gridded tray; squares are unlettered.",
+      "outfit": "Charcoal V-neck short-sleeve fitted field shirt with a waist-length hem, separate tan cargo shorts, an unfastened slate-gray utility vest over the shirt; ivory curved clasp and a narrow black tire-tread woven belt.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "randomized": {
+        "orient": "leaning_back",
+        "frame": "full_body",
+        "lens": "natural50"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "leaning_back",
+          "to": "crouching",
+          "reason": "최근 컷 방향·프레임 짝을 피하며 demolition_planner에 맞춰 선택"
+        },
+        {
+          "key": "frame",
+          "from": "full_body",
+          "to": "waist_up",
+          "reason": "장면의 손동작을 읽히게 demolition_planner에 맞춰 선택"
+        },
+        {
+          "key": "lens",
+          "from": "natural50",
+          "to": "documentary35",
+          "reason": "배경과 도구를 읽히게 demolition_planner에 맞춰 선택"
+        },
+        {
+          "key": "frame",
+          "from": "waist_up",
+          "to": "environmental",
+          "reason": "生成前に 발굴 트레이·두 부츠·그늘막·지면 격자를 함께 보여주는 환경 중심 와이드를 선택"
+        },
+        {
+          "key": "custom",
+          "from": "",
+          "to": "Replace only the ivory tusk-shaped temple guard with one tiny ivory barrette; preserve the rest of the second reference image exactly.",
+          "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+        },
+        {
+          "key": "axis-source_influence",
+          "from": "",
+          "to": "strong",
+          "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+        },
+        {
+          "key": "outfit",
+          "from": "Charcoal V-neck short-sleeve fitted field shirt with a waist-length hem, separate tan cargo shorts, an unfastened sleeveless utility vest over the shirt; a small ivory curved clasp.",
+          "to": "Charcoal V-neck short-sleeve fitted field shirt with a waist-length hem, separate tan cargo shorts, an unfastened slate-gray utility vest over the shirt; ivory curved clasp and a narrow black tire-tread woven belt.",
+          "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+        },
+        {
+          "key": "custom",
+          "from": "Replace only the ivory tusk-shaped temple guard with one tiny ivory barrette; preserve the rest of the second reference image exactly.",
+          "to": "Apply the selected outfit colour refinement to the sleeveless vest in the second reference image; retain the rest of that image, including the tiny ivory barrette.",
+          "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+        }
+      ],
+      "aspect": "2:3",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Pokémon fossil excavator gently brushing sediment from a fossil beside a gridded excavation tray.",
+      "axesReasons": {
+        "action_level": "퇴적물을 털어내는 붓질이 진행 중인 발굴 활동",
+        "source_influence": "흑색 티와 회색 베스트·상아색 잠금·작은 타이어 홈 벨트로 코리갑의 흑회 배색과 대표 무늬를 분명히 드러냄",
+        "separates_preference": "소매 셔츠·짧은 작업바지·열린 베스트의 분리 층"
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a sunlit sandstone excavation shelter, brushing loose ochre sediment from a fossil in the raised gridded tray; squares are unlettered.",
+          "reason": "화석 발굴 예시의 붓질을 유지하며 햇빛 드는 사암 발굴장과 글자 없는 지면 격자 트레이를 구체화"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Charcoal V-neck short-sleeve fitted field shirt with a waist-length hem, separate tan cargo shorts, an unfastened slate-gray utility vest over the shirt; ivory curved clasp and a narrow black tire-tread woven belt.",
+          "reason": "발굴 예시에 옷이 없어 V목선·반소매·허리기장 티·반바지·회색 열린 베스트와 타이어 홈 벨트를 지정"
+        },
+        {
+          "field": "custom",
+          "content": "Apply the selected outfit colour refinement to the sleeveless vest in the second reference image; retain the rest of that image, including the tiny ivory barrette.",
+          "reason": "앞선 결과의 베스트가 황갈색으로 남아 선택한 회색으로 색만 교정"
+        }
+      ],
+      "custom": "Apply the selected outfit colour refinement to the sleeveless vest in the second reference image; retain the rest of that image, including the tiny ivory barrette."
+    },
+    {
+      "cat": "adult_roleplay",
+      "ex": "ceremonial_instructor",
+      "expr": "relieved",
+      "pose": "stretching",
+      "orient": "looking_away",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "scene": "At an empty desert-oasis festival amphitheater in clear morning light, doing a gentle shoulder stretch before a costume presentation; a folded spare sash rests on a low stone bench.",
+      "outfit": "Slate-gray belted jacket with a high ivory collar, full-length sleeves and an upper-thigh hem, charcoal gloves, high boots and an original ivory diagonal decorative sash with a plain geometric clasp.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "randomized": {
+        "orient": "walking_away",
+        "frame": "environmental",
+        "lens": "natural50"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "walking_away",
+          "to": "looking_away",
+          "reason": "최근 컷 방향·프레임 짝을 피하며 wrap_swim에 맞춰 선택"
+        },
+        {
+          "key": "frame",
+          "from": "environmental",
+          "to": "full_body",
+          "reason": "장면의 손동작을 읽히게 wrap_swim에 맞춰 선택"
+        },
+        {
+          "key": "lens",
+          "from": "natural50",
+          "to": "telephoto135",
+          "reason": "배경과 도구를 읽히게 wrap_swim에 맞춰 선택"
+        },
+        {
+          "key": "custom",
+          "from": "",
+          "to": "Replace only the ivory tusk-shaped temple guard with a tiny gray hair clip; keep the rest of the second reference image unchanged.",
+          "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+        },
+        {
+          "key": "custom",
+          "from": "Replace only the ivory tusk-shaped temple guard with a tiny gray hair clip; keep the rest of the second reference image unchanged.",
+          "to": "A tiny gray hair clip replaces the ivory temple guard. During the shoulder stretch, one hand gently holds the opposite wrist above her head; both complete hands are visible against the sky with clearly separate natural fingers.",
+          "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+        },
+        {
+          "key": "category",
+          "from": "",
+          "to": "adult_roleplay",
+          "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+        },
+        {
+          "key": "example",
+          "from": "",
+          "to": "ceremonial_instructor",
+          "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+        },
+        {
+          "key": "scene",
+          "from": "At a quiet stone-rimmed desert oasis after a morning swim, doing a relaxed shoulder stretch on the dry pool deck; towels sit on a low bench.",
+          "to": "At an empty desert-oasis festival amphitheater in clear morning light, doing a gentle shoulder stretch before a costume presentation; a folded spare sash rests on a low stone bench.",
+          "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+        },
+        {
+          "key": "outfit",
+          "from": "Opaque slate-gray matte swim fabric with a small ivory waist tie and charcoal curved seam bands.",
+          "to": "Slate-gray belted jacket with a high ivory collar, full-length sleeves and an upper-thigh hem, charcoal gloves, high boots and an original ivory diagonal decorative sash with a plain geometric clasp.",
+          "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+        },
+        {
+          "key": "custom",
+          "from": "A tiny gray hair clip replaces the ivory temple guard. During the shoulder stretch, one hand gently holds the opposite wrist above her head; both complete hands are visible against the sky with clearly separate natural fingers.",
+          "to": "Both gloved hands are visible above the shoulders; one gently holds the opposite wrist during the stretch, with clearly separate fingers and no overlap at the fingertips.",
+          "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+        },
+        {
+          "key": "custom",
+          "from": "Both gloved hands are visible above the shoulders; one gently holds the opposite wrist during the stretch, with clearly separate fingers and no overlap at the fingertips.",
+          "to": "Replace the broad ivory tusk-shaped temple guard with one tiny slate-gray barrette; preserve the wrist-stretch hand gesture and all clothing. Leave a thin strip of clear sky above the two gloved hands so their fingertips do not meet the upper edge.",
+          "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+        }
+      ],
+      "aspect": "2:3",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "a ceremonial instructor costume with a belted jacket, gloves, and a decorative sash",
+      "axesReasons": {
+        "action_level": "행사 의상 발표 전에 어깨와 손목을 가볍게 늘이는 준비 동작",
+        "source_influence": "작은 상아색 기하 잠금 장식 한 가지로만 코리갑 단서를 남김",
+        "separates_preference": "벨트재킷과 장갑·부츠가 하나의 행사 의상 실루엣을 이룸"
+      },
+      "directInputs": [
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        },
+        {
+          "field": "scene",
+          "content": "At an empty desert-oasis festival amphitheater in clear morning light, doing a gentle shoulder stretch before a costume presentation; a folded spare sash rests on a low stone bench.",
+          "reason": "인스트럭터 행사 의상 예시에 장소와 활동이 없어 빈 오아시스 축제장에서 발표 전 어깨 스트레칭을 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Slate-gray belted jacket with a high ivory collar, full-length sleeves and an upper-thigh hem, charcoal gloves, high boots and an original ivory diagonal decorative sash with a plain geometric clasp.",
+          "reason": "예시의 벨트재킷·장갑·띠를 유지하며 높은 칼라·긴소매·허벅지 위 기장·높은 부츠와 흑회색 소재를 구체화"
+        },
+        {
+          "field": "custom",
+          "content": "Replace the broad ivory tusk-shaped temple guard with one tiny slate-gray barrette; preserve the wrist-stretch hand gesture and all clothing. Leave a thin strip of clear sky above the two gloved hands so their fingertips do not meet the upper edge.",
+          "reason": "큰 상아색 관자놀이 가드가 남아 작은 바레트로 교정하고 손끝이 화면 끝에 닿지 않게 하늘 여백을 추가"
+        }
+      ],
+      "custom": "Replace the broad ivory tusk-shaped temple guard with one tiny slate-gray barrette; preserve the wrist-stretch hand gesture and all clothing. Leave a thin strip of clear sky above the two gloved hands so their fingertips do not meet the upper edge."
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "hardware_store",
+      "expr": "curious",
+      "pose": "carrying_something",
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "At a neighborhood hardware shop in blue evening light, holding a small plain metal hinge near eye level to compare with the sample hinges on an upper shelf; no price tags or readable signs.",
+      "outfit": "Ivory cropped pointed-collar shirt with rolled long sleeves over a charcoal camisole, with a small gray cuff tab and black tread-pattern cuff button.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "front",
+        "frame": "chest_up",
+        "lens": "natural50"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "front",
+          "to": "low_angle",
+          "reason": "최근 컷 방향·프레임 짝을 피하며 hardware_store에 맞춰 선택"
+        },
+        {
+          "key": "frame",
+          "from": "chest_up",
+          "to": "three_quarter",
+          "reason": "장면의 손동작을 읽히게 hardware_store에 맞춰 선택"
+        },
+        {
+          "key": "frame",
+          "from": "three_quarter",
+          "to": "chest_up",
+          "reason": "생성 전 눈높이 경첩 비교 장면의 상반신을 읽히게 가슴 위를 선택; 이후 실제 결과 실패로 허리 위 재기획"
+        },
+        {
+          "key": "pose",
+          "from": "hand_on_hip",
+          "to": "carrying_something",
+          "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+        },
+        {
+          "key": "scene",
+          "from": "At a neighborhood hardware shop in blue evening light, comparing a small plain metal hinge with the sample hinges on a low display; no price tags or readable signs.",
+          "to": "At a neighborhood hardware shop in blue evening light, holding a small plain metal hinge near eye level to compare with the sample hinges on an upper shelf; no price tags or readable signs.",
+          "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+        },
+        {
+          "key": "outfit",
+          "from": "Ivory cropped pointed-collar shirt with rolled long sleeves over a charcoal camisole, separate graphite knee-length pencil skirt; a small black tread-pattern belt buckle.",
+          "to": "Ivory cropped pointed-collar shirt with rolled long sleeves over a charcoal camisole, with a small gray cuff tab and black tread-pattern cuff button.",
+          "reason": "높은 창턱의 손·도구 위치를 구체화해 생활 활동의 가독성 확보"
+        },
+        {
+          "key": "frame",
+          "from": "chest_up",
+          "to": "waist_up",
+          "reason": "두 차례 재생성 후에도 기존 프레임에서 끊기지 않아 새 선택값으로 다시 기획·생성"
+        },
+        {
+          "key": "custom",
+          "from": "",
+          "to": "A solid wooden checkout counter stands immediately in front of her waist; its front occupies the lower foreground, with the shopping basket on top. Replace the broad ivory temple guard with one tiny slate-gray barrette. All shelf bins are plain metal without stickers or price tags.",
+          "reason": "일상 결과에 큰 종족 머리 장식이 남아 특정 부품만 작은 장신구로 교정"
+        }
+      ],
+      "aspect": "2:3",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Hardware / Home-improvement Store",
+      "axesReasons": {
+        "action_level": "한 손에 경첩을 들고 샘플과 대조하며 멈춘 장면",
+        "source_influence": "회색·상아색·검은색 배색과 작은 타이어 홈 버클이 단서를 분명히 보임",
+        "separates_preference": "롤업 소매 셔츠·캐미솔·펜슬스커트의 서로 구분되는 옷 층"
+      },
+      "directInputs": [
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        },
+        {
+          "field": "scene",
+          "content": "At a neighborhood hardware shop in blue evening light, holding a small plain metal hinge near eye level to compare with the sample hinges on an upper shelf; no price tags or readable signs.",
+          "reason": "철물점이라는 제목 예시에 활동이 없어 눈높이 경첩을 상단 진열 경첩과 비교하는 일을 지정"
+        },
+        {
+          "field": "outfit",
+          "content": "Ivory cropped pointed-collar shirt with rolled long sleeves over a charcoal camisole, with a small gray cuff tab and black tread-pattern cuff button.",
+          "reason": "철물점 예시에 옷이 없어 뾰족 칼라·롤업 긴소매·짧은 셔츠와 안쪽 캐미솔·작은 홈 무늬 커프 단추를 정함"
+        },
+        {
+          "field": "custom",
+          "content": "A solid wooden checkout counter stands immediately in front of her waist; its front occupies the lower foreground, with the shopping basket on top. Replace the broad ivory temple guard with one tiny slate-gray barrette. All shelf bins are plain metal without stickers or price tags.",
+          "reason": "원본에 큰 관자놀이 가드·진열 라벨과 넓은 하단이 남아 작은 핀·라벨 없는 금속 통·전면 계산대로 교정"
+        }
+      ],
+      "custom": "A solid wooden checkout counter stands immediately in front of her waist; its front occupies the lower foreground, with the shopping basket on top. Replace the broad ivory temple guard with one tiny slate-gray barrette. All shelf bins are plain metal without stickers or price tags."
+    }
+  ],
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; narrow eyes, medium size, level outer corners, wide-set; thick low brows; balanced nose; medium lips.",
+  "revisions": [
+    {
+      "slot": "casual1",
+      "changes": {
+        "frame": "environmental"
+      },
+      "previousPrompt": "casual1-before-adjustment.txt"
+    },
+    {
+      "slot": "casual3",
+      "changes": {
+        "frame": "chest_up",
+        "pose": "carrying_something",
+        "scene": "At a neighborhood hardware shop in blue evening light, holding a small plain metal hinge near eye level to compare with the sample hinges on an upper shelf; no price tags or readable signs.",
+        "outfit": "Ivory cropped pointed-collar shirt with rolled long sleeves over a charcoal camisole, with a small gray cuff tab and black tread-pattern cuff button."
+      },
+      "previousPrompt": "casual3-before-adjustment.txt"
+    },
+    {
+      "slot": "casual1",
+      "changes": {
+        "custom": "Replace only the ivory tusk-shaped temple guard with one tiny ivory barrette; preserve the rest of the second reference image exactly."
+      },
+      "previousPrompt": "casual1-before-adjustment.txt"
+    },
+    {
+      "slot": "casual2",
+      "changes": {
+        "custom": "Replace only the ivory tusk-shaped temple guard with a tiny gray hair clip; keep the rest of the second reference image unchanged."
+      },
+      "previousPrompt": "casual2-before-adjustment.txt"
+    },
+    {
+      "slot": "casual3",
+      "changes": {
+        "frame": "waist_up",
+        "custom": "A solid wooden checkout counter stands immediately in front of her waist; its front occupies the lower foreground, with the shopping basket on top. Replace the broad ivory temple guard with one tiny slate-gray barrette. All shelf bins are plain metal without stickers or price tags."
+      },
+      "previousPrompt": "casual3-before-adjustment.txt"
+    },
+    {
+      "slot": "casual2",
+      "changes": {
+        "custom": "A tiny gray hair clip replaces the ivory temple guard. During the shoulder stretch, one hand gently holds the opposite wrist above her head; both complete hands are visible against the sky with clearly separate natural fingers."
+      },
+      "previousPrompt": "casual2-before-adjustment.txt"
+    },
+    {
+      "slot": "casual2",
+      "changes": {
+        "category": "adult_roleplay",
+        "example": "ceremonial_instructor",
+        "scene": "At an empty desert-oasis festival amphitheater in clear morning light, doing a gentle shoulder stretch before a costume presentation; a folded spare sash rests on a low stone bench.",
+        "outfit": "Slate-gray belted jacket with a high ivory collar, full-length sleeves and an upper-thigh hem, charcoal gloves, high boots and an original ivory diagonal decorative sash with a plain geometric clasp.",
+        "custom": "Both gloved hands are visible above the shoulders; one gently holds the opposite wrist during the stretch, with clearly separate fingers and no overlap at the fingertips."
+      },
+      "previousPrompt": "casual2-before-adjustment.txt"
+    },
+    {
+      "slot": "casual2",
+      "reason": "Input moderation rejected nonsexual hand-correction edit, request 0bd74db1-89aa-46e7-a0ed-53e7dbe2ec00; replaced optional swimwear scene with ceremonial event fashion.",
+      "prior_category": "swimwear",
+      "prior_example": "wrap_swim"
+    },
+    {
+      "slot": "casual2",
+      "changes": {
+        "custom": "Replace the broad ivory tusk-shaped temple guard with one tiny slate-gray barrette; preserve the wrist-stretch hand gesture and all clothing. Leave a thin strip of clear sky above the two gloved hands so their fingertips do not meet the upper edge."
+      },
+      "previousPrompt": "casual2-before-adjustment.txt"
+    },
+    {
+      "slot": "casual1",
+      "changes": {
+        "axis-source_influence": "strong",
+        "outfit": "Charcoal V-neck short-sleeve fitted field shirt with a waist-length hem, separate tan cargo shorts, an unfastened slate-gray utility vest over the shirt; ivory curved clasp and a narrow black tire-tread woven belt."
+      },
+      "previousPrompt": "casual1-before-adjustment.txt"
+    },
+    {
+      "slot": "casual1",
+      "reason": "Before publication, detected source-axis composition duplicated Phanpy; selected strong source influence and small tire-tread belt, then regenerated with anchor and edit target."
+    },
+    {
+      "slot": "casual1",
+      "changes": {
+        "custom": "Apply the selected outfit colour refinement to the sleeveless vest in the second reference image; retain the rest of that image, including the tiny ivory barrette."
+      },
+      "previousPrompt": "casual1-before-adjustment.txt"
+    }
+  ],
+  "faceComparisonActual": "코리갑은 길고 넓은 하관, 수평에 가까운 좁은 눈, 두꺼운 눈썹이 보인다. 코코리의 짧고 둥근 턱과 넓은 둥근 눈, 킹드라의 가늘고 긴 눈꼬리, 델빌의 작은 V턱·헬가의 길고 날렵한 하관과 구분된다.",
+  "faceComparisonMethod": "최근 경장/일상 비교 이미지 recent-compare.jpg·kingdra-compare.jpg와 실제 생성 원본을 확인. 별도 얼굴 시트를 생성하지 않음.",
+  "casualComparisonActual": "코리갑은 지면에서 쪼그려 붓질하는 발굴 와이드·높은 부츠/벨트재킷 행사 복장으로 팔을 올린 전신·금속 선반 앞 경첩을 든 계산대 상반신이다. 코코리의 컵 쟁반 보행·빨래 수건 운반·창가 물주기와 장소·활동·의상·몸 실루엣이 다르며, 최근 세 명의 무도회·차·지도/관측·슬립·클라이밍/악기·샤워·레코드 장면과도 구분됨."
+}
