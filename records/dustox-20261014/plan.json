@@ -1,0 +1,1296 @@
+{
+  "name": "독케일",
+  "no": 269,
+  "style": "glossy_promo",
+  "generation": "built-in image_gen; actual Preact UI via repository DOM harness",
+  "faceEvidence": {
+    "name": "독케일",
+    "en": "Dustox",
+    "line": "개무소",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "heart-shaped",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "large",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "short rounded brows",
+      "nose character": "rounded soft tip",
+      "lips": "full lips"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 bug-wings → 얼굴형 이마가 넓고 턱이 가는 하트형",
+      "몸 형태 bug-wings → 턱선 · 턱끝 아래로 갈수록 좁아지는 턱끝",
+      "‘purple, egg-shaped body’ → 눈매 큰 눈",
+      "몸 형태 bug-wings → 눈 크기 큰 눈",
+      "‘purple, egg-shaped body’ → 눈썹 짧고 둥근",
+      "‘purple, egg-shaped body’ → 코 코끝이 둥근"
+    ],
+    "adjusted": "같은 계열 실쿤와 겹쳐 원작 단서의 다음 후보로 옮김 — 입술 얇은 입술 → 도톰한 입술"
+  },
+  "sourceEvidence": {
+    "name": "독케일",
+    "en": "Dustox",
+    "color": "green",
+    "shape": "bug-wings",
+    "features": [
+      {
+        "part": "wing",
+        "detail": "tattered, green wings"
+      },
+      {
+        "part": "marking",
+        "detail": "red markings"
+      },
+      {
+        "part": "body",
+        "detail": "purple, egg-shaped body"
+      },
+      {
+        "part": "line",
+        "detail": "darker green line"
+      },
+      {
+        "part": "leg",
+        "detail": "stubby legs"
+      },
+      {
+        "part": "eye",
+        "detail": "stylized compound eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Dustox_%28Pok%C3%A9mon%29",
+    "revision": 4622207,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "10f41de398291e0cf6cfc79d2da8ff343e273a5bdac6c3a7b6015e5b8c475beb",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "faceReason": "넓은 날개와 타원형 몸통은 하트형 윤곽, 큰 눈·둥근 눈썹·코끝·도톰한 입술로 해석하여 뷰티플라이의 작은 코·수평 아몬드 눈과 구분.",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): heart-shaped face, balanced length, medium width; narrow tapered chin; open rounded eyes, large size, level outer corners, average spacing; short rounded brows; rounded soft tip nose; full lips.",
+  "casual_plan": [
+    {
+      "cat": "swimwear",
+      "ex": "shoreline_walk",
+      "expr": "relieved",
+      "pose": "mid_stride",
+      "orient": "looking_away",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "scene": "A quiet public volcanic shore in early sunrise, a light breeze and a shallow band of clear surf; carrying a rolled small towel low beside one hip.",
+      "outfit": "Opaque emerald high-neck one-piece with a supportive racerback, violet side panels and small muted-red circular seam motifs.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "randomized": {
+        "orient": "leaning_back",
+        "frame": "chest_up",
+        "lens": "wide24"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "leaning_back",
+          "to": "looking_away",
+          "reason": "shoreline_walk 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+        },
+        {
+          "key": "frame",
+          "from": "chest_up",
+          "to": "full_body",
+          "reason": "shoreline_walk 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+        },
+        {
+          "key": "lens",
+          "from": "wide24",
+          "to": "documentary35",
+          "reason": "shoreline_walk 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+        }
+      ],
+      "aspect": "2:3",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "walking along a wet shoreline in swimwear, wet sand and shallow surf underfoot",
+      "axesReasons": {
+        "action_level": "젖은 모래 위를 걷는 가벼운 보행",
+        "source_influence": "녹색과 보라 패널을 중심으로 붉은 무늬를 작게 두어 모티프를 중간 강도로 표현",
+        "separates_preference": "한 벌의 하이넥 원피스 수영복"
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A quiet public volcanic shore in early sunrise, a light breeze and a shallow band of clear surf; carrying a rolled small towel low beside one hip.",
+          "reason": "shoreline_walk 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque emerald high-neck one-piece with a supportive racerback, violet side panels and small muted-red circular seam motifs.",
+          "reason": "shoreline_walk 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+        }
+      ],
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": ""
+    },
+    {
+      "cat": "occupation_basic",
+      "ex": "field_surveyor",
+      "expr": "serious",
+      "pose": "squatting",
+      "orient": "crouching",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "A mossy forest trail after dusk; a low lantern illuminates shallow tracks and blank sketchbook pages with only simple diagrams.",
+      "outfit": "Olive pointed-collar field shirt with long rolled sleeves and a hip-length hem, separate charcoal cargo shorts, no outer layer; a violet shoulder yoke, dark-green seam bands and two small red circular cuff buttons.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "randomized": {
+        "orient": "high_angle",
+        "frame": "three_quarter",
+        "lens": "wide24"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "high_angle",
+          "to": "crouching",
+          "reason": "field_surveyor 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+        },
+        {
+          "key": "frame",
+          "from": "three_quarter",
+          "to": "waist_up",
+          "reason": "field_surveyor 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+        },
+        {
+          "key": "lens",
+          "from": "wide24",
+          "to": "natural50",
+          "reason": "field_surveyor 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+        }
+      ],
+      "aspect": "2:3",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Pokémon field ecologist examining tracks with a magnifier and sketchbook beside a forest trail.",
+      "axesReasons": {
+        "action_level": "발자국을 확대경으로 조사하는 실질적인 현장 동작",
+        "source_influence": "녹색 셔츠와 보라 어깨 요크·붉은 원형 단추로 나방 색면을 선명히 해석",
+        "separates_preference": "긴 소매 셔츠와 짧은 카고 바지를 분리하여 실무 복장"
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A mossy forest trail after dusk; a low lantern illuminates shallow tracks and blank sketchbook pages with only simple diagrams.",
+          "reason": "field_surveyor 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Olive pointed-collar field shirt with long rolled sleeves and a hip-length hem, separate charcoal cargo shorts, no outer layer; a violet shoulder yoke, dark-green seam bands and two small red circular cuff buttons.",
+          "reason": "field_surveyor 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+        },
+        {
+          "field": "custom",
+          "content": "Use reference 1 for identity and reference 2 as the forest survey edit target. Remove the two projecting golden leaf-shaped head ornaments from image 2, replacing their area with hair or the forest background as appropriate; leave the small dark hair clasp, magnifier, notebook drawings, hands, clothes, crouching pose, face and lighting unchanged.",
+          "reason": "이 컷 원본에서 발견한 카메라 명판·책 인쇄·큰 머리 장식 가운데 프롬프트가 명시한 대상만 국소 편집"
+        }
+      ],
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "Use reference 1 for identity and reference 2 as the forest survey edit target. Remove the two projecting golden leaf-shaped head ornaments from image 2, replacing their area with hair or the forest background as appropriate; leave the small dark hair clasp, magnifier, notebook drawings, hands, clothes, crouching pose, face and lighting unchanged."
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "bookstore",
+      "expr": "amused",
+      "pose": "carrying_something",
+      "orient": "low_angle",
+      "frame": "environmental",
+      "lens": "portrait85",
+      "scene": "An old neighborhood bookstore at warm late-evening closing time, comparing two unlettered botanical picture books from a waist-high cart.",
+      "outfit": "Violet square-neck fitted top with elbow-length sleeves and a waist-length hem, separate forest-green knee-length pleated skirt, a short open dark-green cardigan over the top; tiny red circle embroidery at the cuffs.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "front",
+        "frame": "face_close",
+        "lens": "wide24"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "front",
+          "to": "low_angle",
+          "reason": "bookstore 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+        },
+        {
+          "key": "frame",
+          "from": "face_close",
+          "to": "chest_up",
+          "reason": "bookstore 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+        },
+        {
+          "key": "lens",
+          "from": "wide24",
+          "to": "portrait85",
+          "reason": "bookstore 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+        }
+      ],
+      "aspect": "2:3",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Bookstore Browsing",
+      "axesReasons": {
+        "action_level": "두 그림책을 들고 비교하면서 잠시 멈춘 장면",
+        "source_influence": "보라·녹색과 붉은 원형 자수가 나방의 색면을 강하게 반영",
+        "separates_preference": "상의·주름치마·열린 카디건의 분리 층"
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "An old neighborhood bookstore at warm late-evening closing time, comparing two unlettered botanical picture books from a waist-high cart.",
+          "reason": "bookstore 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Violet square-neck fitted top with elbow-length sleeves and a waist-length hem, separate forest-green knee-length pleated skirt, a short open dark-green cardigan over the top; tiny red circle embroidery at the cuffs.",
+          "reason": "bookstore 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+        },
+        {
+          "field": "custom",
+          "content": "The second reference shows the bookstore result, with the first reference as the identity guide. Clean every printed word, number and scribbled label from the held books, shelf book spines, picture-frame edges and pages; keep their botanical drawings and blank decorative paper. Do not alter her two-book comparison, clothing, hands, low viewpoint, smile or room.",
+          "reason": "이 컷 원본에서 발견한 카메라 명판·책 인쇄·큰 머리 장식 가운데 프롬프트가 명시한 대상만 국소 편집"
+        }
+      ],
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "The second reference shows the bookstore result, with the first reference as the identity guide. Clean every printed word, number and scribbled label from the held books, shelf book spines, picture-frame edges and pages; keep their botanical drawings and blank decorative paper. Do not alter her two-book comparison, clothing, hands, low viewpoint, smile or room."
+    }
+  ],
+  "recentCompared": [
+    "porygon2-20261014",
+    "phanpy-20261013",
+    "silcoon-20261013"
+  ],
+  "previousInBatch": [
+    "beautifly-20261014",
+    "cascoon-20261014"
+  ],
+  "comparison": [
+    {
+      "record": "porygon2-20261014",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "laughing_open",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "focused",
+          "pose": "leaning_furniture",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White boat-neck elbow-sleeve cotton blouse ending at the hips, worn over blue straight trousers without an outer layer; one small magenta hair clip."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "mildly_annoyed",
+          "pose": "walking",
+          "orient": "side",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Blue knee-length trench dress with a notched V collar and long sleeves, buttoned over an unseen base layer; low ankle boots and one tiny magenta belt bead."
+        }
+      ]
+    },
+    {
+      "record": "phanpy-20261013",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "playful",
+          "pose": "walking",
+          "orient": "turning_midmotion",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Navy tailored jacket with full-length sleeves over an ivory open-collar blouse, pale-blue trim and an orange neck scarf, with a matching above-knee skirt and low court shoes; a tiny curved enamel brooch."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "laundry",
+          "expr": "candid",
+          "pose": "carrying_something",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Coral-orange wide scoop-neck cotton tee with elbow-length sleeves and a waist-length hem, separate ivory drawstring shorts, no outer layer; one small blue button bracelet."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "looking_down",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer."
+        }
+      ]
+    },
+    {
+      "record": "silcoon-20261013",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "juban_inspired",
+          "expr": "sleepy",
+          "pose": "side_sitting",
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque pearl silk with fine crimson seam embroidery and elbow-length flowing sleeves, straight above-knee hem."
+        },
+        {
+          "cat": "festivals_contests",
+          "ex": "fest_ribbon",
+          "expr": "amused",
+          "pose": "leaning_furniture",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A wide boat-neck pearl blouse with fitted long sleeves and a cropped straight hem, deep-red tailored knee-length culottes, no outer layer; tiny silk-knot pendant."
+        },
+        {
+          "cat": "everyday_sensual",
+          "ex": "balcony_plants",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "reaching_up",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A cream square-neck sleeveless fitted rib-knit midi dress with crimson hem stitching, no outer layer; small round white hairpin."
+        }
+      ]
+    },
+    {
+      "record": "beautifly-20261014",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "circus_ringmaster",
+          "expr": "proud",
+          "pose": "standing_formal",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Black velvet with orange-gold lapel facing, pale-blue piping, full-length fitted sleeves and knee-length split tails; a tiny red enamel butterfly clasp at the throat."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_market",
+          "expr": "curious",
+          "pose": "preparing_food",
+          "orient": "leaning_forward",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Pale-blue pointed-collar shirt with elbow-length rolled sleeves and a waist-length tied hem, separate orange calf-length A-line skirt, no outer layer; tiny black-and-red butterfly earrings."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_photo",
+          "expr": "nostalgic",
+          "pose": "perched_seat",
+          "orient": "profile_close",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Cream boat-neck knit pullover with full-length sleeves and a hip-length hem, separate charcoal tailored shorts, no outer layer; a tiny gold spiral pendant."
+        }
+      ]
+    },
+    {
+      "record": "cascoon-20261014",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "open_shirt_lingerie",
+          "expr": "sleepy",
+          "pose": "stretching",
+          "orient": "leaning_back",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Opaque violet satin with wide supportive straps and matching high-waist bottoms under a pearl-gray shirt with long loose sleeves and a mid-thigh hem; a tiny crimson fastening bead."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Soft lavender V-neck cotton wrap blouse with short sleeves and a waist-length hem, separate plum knee-length skirt, no apron or outer layer; diagonal pale seam bands and two tiny crimson cuff beads."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_station",
+          "expr": "bored",
+          "pose": "one_knee_up",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Gray mock-neck ribbed sweater with full-length sleeves and a cropped hem, separate violet wide-leg trousers, an unbuttoned charcoal sleeveless travel vest over the sweater; a small red circular bag clasp."
+        }
+      ]
+    }
+  ],
+  "visualComparisonBeforeGeneration": "폴리곤2 선착장/공예/비 산책, 코코리 행사 승무원/빨래/창가 식물, 실쿤 실크 휴식/리본/발코니의 실제 이미지 9장을 나란히 확인. 공연 텐트·열매 시장·사진 앨범으로 첫 묶음의 장소·활동·옷 실루엣을 바꿈.",
+  "revisions": [
+    {
+      "slot": "casual1",
+      "control": "motifs",
+      "value": "",
+      "reason": "경장 생성기 상태를 일상으로 전환하면서 남은 WEAR 직접 입력을 비워 후속 생성에 외형 문장을 재전송하지 않도록 수정",
+      "references": [
+        "light",
+        "casual1-candidate"
+      ]
+    },
+    {
+      "slot": "casual2",
+      "control": "motifs",
+      "value": "",
+      "reason": "경장 생성기 상태를 일상으로 전환하면서 남은 WEAR 직접 입력을 비워 후속 생성에 외형 문장을 재전송하지 않도록 수정",
+      "references": [
+        "light",
+        "casual2-candidate"
+      ]
+    },
+    {
+      "slot": "casual3",
+      "control": "motifs",
+      "value": "",
+      "reason": "경장 생성기 상태를 일상으로 전환하면서 남은 WEAR 직접 입력을 비워 후속 생성에 외형 문장을 재전송하지 않도록 수정",
+      "references": [
+        "light",
+        "casual3-candidate"
+      ]
+    },
+    {
+      "slot": "casual3",
+      "control": "frame",
+      "value": "environmental",
+      "reason": "뷰티플라이 재기획 후 프레이밍 묶음이 같아져 서점 공간과 책 수레가 보이는 환경 중심으로 다시 선택",
+      "references": [
+        "light",
+        "casual3-candidate"
+      ]
+    },
+    {
+      "slot": "casual2",
+      "control": "custom",
+      "value": "Use reference 1 for identity and reference 2 as the forest survey edit target. Remove the two projecting golden leaf-shaped head ornaments from image 2, replacing their area with hair or the forest background as appropriate; leave the small dark hair clasp, magnifier, notebook drawings, hands, clothes, crouching pose, face and lighting unchanged.",
+      "reason": "생성 결과에서 확인한 큰 머리 장식 또는 가짜 라벨만 국소적으로 교정",
+      "references": [
+        "light",
+        "casual2-candidate"
+      ]
+    },
+    {
+      "slot": "casual3",
+      "control": "custom",
+      "value": "The second reference shows the bookstore result, with the first reference as the identity guide. Clean every printed word, number and scribbled label from the held books, shelf book spines, picture-frame edges and pages; keep their botanical drawings and blank decorative paper. Do not alter her two-book comparison, clothing, hands, low viewpoint, smile or room.",
+      "reason": "생성 결과에서 확인한 큰 머리 장식 또는 가짜 라벨만 국소적으로 교정",
+      "references": [
+        "light",
+        "casual3-candidate"
+      ]
+    }
+  ],
+  "faceComparedActual": [
+    "뷰티플라이",
+    "카스쿤",
+    "독케일",
+    "실쿤",
+    "개무소",
+    "폴리곤2",
+    "코코리"
+  ],
+  "faceReview": "실제 경장 얼굴을 나란히 확인. 뷰티플라이의 좁은 하트 턱·수평 아몬드 눈·여린 코, 카스쿤의 둥근 볼·넓은 눈 간격·가느다란 입, 독케일의 더 큰 눈·둥근 코끝·도톰한 입술을 대조. 머리색 외에도 눈과 코·입의 비율이 구분됨.",
+  "comparisonFinal": [
+    {
+      "record": "porygon2-20261014",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "laughing_open",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "focused",
+          "pose": "leaning_furniture",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White boat-neck elbow-sleeve cotton blouse ending at the hips, worn over blue straight trousers without an outer layer; one small magenta hair clip."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "mildly_annoyed",
+          "pose": "walking",
+          "orient": "side",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Blue knee-length trench dress with a notched V collar and long sleeves, buttoned over an unseen base layer; low ankle boots and one tiny magenta belt bead."
+        }
+      ]
+    },
+    {
+      "record": "phanpy-20261013",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "playful",
+          "pose": "walking",
+          "orient": "turning_midmotion",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Navy tailored jacket with full-length sleeves over an ivory open-collar blouse, pale-blue trim and an orange neck scarf, with a matching above-knee skirt and low court shoes; a tiny curved enamel brooch."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "laundry",
+          "expr": "candid",
+          "pose": "carrying_something",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Coral-orange wide scoop-neck cotton tee with elbow-length sleeves and a waist-length hem, separate ivory drawstring shorts, no outer layer; one small blue button bracelet."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "looking_down",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer."
+        }
+      ]
+    },
+    {
+      "record": "silcoon-20261013",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "juban_inspired",
+          "expr": "sleepy",
+          "pose": "side_sitting",
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque pearl silk with fine crimson seam embroidery and elbow-length flowing sleeves, straight above-knee hem."
+        },
+        {
+          "cat": "festivals_contests",
+          "ex": "fest_ribbon",
+          "expr": "amused",
+          "pose": "leaning_furniture",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A wide boat-neck pearl blouse with fitted long sleeves and a cropped straight hem, deep-red tailored knee-length culottes, no outer layer; tiny silk-knot pendant."
+        },
+        {
+          "cat": "everyday_sensual",
+          "ex": "balcony_plants",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "reaching_up",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A cream square-neck sleeveless fitted rib-knit midi dress with crimson hem stitching, no outer layer; small round white hairpin."
+        }
+      ]
+    },
+    {
+      "record": "beautifly-20261014",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "circus_ringmaster",
+          "expr": "proud",
+          "pose": "standing_formal",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "scene": "At an empty spring charity performance tent before the afternoon show, testing the smooth swing of the tailcoat hem with one open hand while the other steadies the top hat brim.",
+          "outfit": "Black velvet with orange-gold lapel facing, pale-blue piping, full-length fitted sleeves and knee-length split tails; a tiny red enamel butterfly clasp at the throat.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "randomized": {
+            "orient": "over_shoulder",
+            "frame": "detail",
+            "lens": "telephoto135"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "over_shoulder",
+              "to": "front",
+              "reason": "circus_ringmaster 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "frame",
+              "from": "detail",
+              "to": "full_body",
+              "reason": "circus_ringmaster 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "a circus ringmaster costume with a tailcoat, high boots, and a top hat, under a tent canopy",
+          "axesReasons": {
+            "action_level": "공연 전에 반듯이 서서 옷의 자락과 모자 착용감을 확인하는 정지 활동",
+            "source_influence": "검정·주황·연청 날개 배색과 작은 나비 잠금이 모티프를 명확히 보여 줌",
+            "separates_preference": "재킷과 반바지·부츠가 서로 구분되는 무대 의상"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "At an empty spring charity performance tent before the afternoon show, testing the smooth swing of the tailcoat hem with one open hand while the other steadies the top hat brim.",
+              "reason": "circus_ringmaster 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Black velvet with orange-gold lapel facing, pale-blue piping, full-length fitted sleeves and knee-length split tails; a tiny red enamel butterfly clasp at the throat.",
+              "reason": "circus_ringmaster 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+            },
+            {
+              "field": "custom",
+              "content": "Reference image 1 is the approved identity; reference image 2 is the edit target. In image 2 remove only the two long curved black antenna ornaments above the hair and hat; retain the small butterfly hair clips, hat, coat, hands, face, pose, garment tailoring, lighting and entire composition pixel-for-pixel wherever possible.",
+              "reason": "이 컷 원본에서 발견한 카메라 명판·책 인쇄·큰 머리 장식 가운데 프롬프트가 명시한 대상만 국소 편집"
+            }
+          ],
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "Reference image 1 is the approved identity; reference image 2 is the edit target. In image 2 remove only the two long curved black antenna ornaments above the hair and hat; retain the small butterfly hair clips, hat, coat, hands, face, pose, garment tailoring, lighting and entire composition pixel-for-pixel wherever possible."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_market",
+          "expr": "curious",
+          "pose": "preparing_food",
+          "orient": "leaning_forward",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "scene": "A covered village market stall in fresh early-morning light; the paper bag and shallow berry basket sit on a raised counter with plain unmarked edges.",
+          "outfit": "Pale-blue pointed-collar shirt with elbow-length rolled sleeves and a waist-length tied hem, separate orange calf-length A-line skirt, no outer layer; tiny black-and-red butterfly earrings.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "randomized": {
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "lens": "portrait85"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "seated_twist",
+              "to": "leaning_forward",
+              "reason": "food_market 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "frame",
+              "from": "waist_up",
+              "to": "chest_up",
+              "reason": "food_market 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Choosing fresh berries at a village market stall and placing them into a paper shopping bag.",
+          "axesReasons": {
+            "action_level": "열매를 골라 종이봉투에 담는 손의 동작이 중심",
+            "source_influence": "연청·주황 배색과 검정·빨강 작은 귀걸이가 나비 색면을 강하게 반영",
+            "separates_preference": "매듭 셔츠와 긴 A라인 치마가 뚜렷한 분리형 실루엣"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "A covered village market stall in fresh early-morning light; the paper bag and shallow berry basket sit on a raised counter with plain unmarked edges.",
+              "reason": "food_market 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Pale-blue pointed-collar shirt with elbow-length rolled sleeves and a waist-length tied hem, separate orange calf-length A-line skirt, no outer layer; tiny black-and-red butterfly earrings.",
+              "reason": "food_market 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+            },
+            {
+              "field": "custom",
+              "content": "The second reference is the berry-market image to correct, and the first reference supplies her identity. Retouch the two tall black antenna stalks into empty background, preserving the tiny gold butterfly hairpins; keep every other part of the berry picking, bag, blouse, face and setting unchanged.",
+              "reason": "이 컷 원본에서 발견한 카메라 명판·책 인쇄·큰 머리 장식 가운데 프롬프트가 명시한 대상만 국소 편집"
+            }
+          ],
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "The second reference is the berry-market image to correct, and the first reference supplies her identity. Retouch the two tall black antenna stalks into empty background, preserving the tiny gold butterfly hairpins; keep every other part of the berry picking, bag, blouse, face and setting unchanged."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_photo",
+          "expr": "nostalgic",
+          "pose": "perched_seat",
+          "orient": "looking_away",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "scene": "An open cafe terrace at blue twilight; the scrapbook has blank pages and the loose photographs show only unlettered foliage.",
+          "outfit": "Cream high crew-neck cable-knit pullover with full-length sleeves and a hip-length hem, separate charcoal tailored shorts, no outer layer; a tiny gold spiral pendant.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "randomized": {
+            "orient": "reclining",
+            "frame": "detail",
+            "lens": "documentary35"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "reclining",
+              "to": "profile_close",
+              "reason": "hobby_photo 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "frame",
+              "from": "detail",
+              "to": "three_quarter",
+              "reason": "hobby_photo 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "lens",
+              "from": "documentary35",
+              "to": "natural50",
+              "reason": "hobby_photo 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Sorting printed habitat photographs beside a camera and a travel scrapbook at a cafe table.",
+          "axesReasons": {
+            "action_level": "사진을 고르며 의자 끝에 멈추어 앉아 회상하는 장면",
+            "source_influence": "작은 나선 펜던트만 남기고 의상은 일반 배색",
+            "separates_preference": "긴 니트와 짧은 바지가 분리된 생활복"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "An open cafe terrace at blue twilight; the scrapbook has blank pages and the loose photographs show only unlettered foliage.",
+              "reason": "hobby_photo 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Cream high crew-neck cable-knit pullover with full-length sleeves and a hip-length hem, separate charcoal tailored shorts, no outer layer; a tiny gold spiral pendant.",
+              "reason": "hobby_photo 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+            },
+            {
+              "field": "custom",
+              "content": "Retouch reference image 2 only, using reference 1 as an identity check. The prism nameplate immediately above the lens still has a row of tiny engraved glyphs. Replace that entire trapezoidal nameplate surface with uniformly smooth unmarked black metal, with no engraving, embossing, characters, dots or icons. Keep the camera itself and every other pixel unchanged.",
+              "reason": "이 컷 원본에서 발견한 카메라 명판·책 인쇄·큰 머리 장식 가운데 프롬프트가 명시한 대상만 국소 편집"
+            }
+          ],
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "Retouch reference image 2 only, using reference 1 as an identity check. The prism nameplate immediately above the lens still has a row of tiny engraved glyphs. Replace that entire trapezoidal nameplate surface with uniformly smooth unmarked black metal, with no engraving, embossing, characters, dots or icons. Keep the camera itself and every other pixel unchanged."
+        }
+      ]
+    },
+    {
+      "record": "cascoon-20261014",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "open_shirt_lingerie",
+          "expr": "sleepy",
+          "pose": "standing_relaxed",
+          "orient": "leaning_back",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "scene": "A quiet hotel dressing room in soft dawn light; checking a pearl-gray shirt cuff fastening beside a low upholstered stool and folded linens.",
+          "outfit": "Opaque violet satin with wide supportive straps and matching high-waist bottoms under a pearl-gray shirt with long loose sleeves and a mid-thigh hem; a tiny crimson fastening bead.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "randomized": {
+            "orient": "low_angle",
+            "frame": "full_body",
+            "lens": "portrait85"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "low_angle",
+              "to": "leaning_back",
+              "reason": "open_shirt_lingerie 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "frame",
+              "from": "full_body",
+              "to": "environmental",
+              "reason": "open_shirt_lingerie 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "lens",
+              "from": "portrait85",
+              "to": "documentary35",
+              "reason": "open_shirt_lingerie 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "a tailored oversized shirt worn open over a matching satin lingerie set",
+          "axesReasons": {
+            "action_level": "호텔 탈의실에서 셔츠 커프스 잠금을 확인하는 가벼운 손 동작",
+            "source_influence": "보라색 새틴과 작은 붉은 단추로 번데기 두 단서를 남김",
+            "separates_preference": "상하 란제리와 긴 셔츠의 세 옷 조각이 분리되어 보임"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "A quiet hotel dressing room in soft dawn light; checking a pearl-gray shirt cuff fastening beside a low upholstered stool and folded linens.",
+              "reason": "오픈 셔츠 의상 예시에 활동과 방 모습이 없어 새벽 호텔 탈의실에서 소매 잠금을 확인하는 활동을 결정"
+            },
+            {
+              "field": "outfit",
+              "content": "Opaque violet satin with wide supportive straps and matching high-waist bottoms under a pearl-gray shirt with long loose sleeves and a mid-thigh hem; a tiny crimson fastening bead.",
+              "reason": "open_shirt_lingerie 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+            }
+          ],
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": ""
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "scene": "At a high home kitchen table on a rainy noon, the mixing bowl rests on a checked towel beside a plain baking tray.",
+          "outfit": "Soft lavender V-neck cotton wrap blouse with short sleeves and a waist-length hem, separate plum knee-length skirt, no apron or outer layer; diagonal pale seam bands and two tiny crimson cuff beads.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "randomized": {
+            "orient": "seated_twist",
+            "frame": "detail",
+            "lens": "natural50"
+          },
+          "adjustments": [
+            {
+              "key": "frame",
+              "from": "detail",
+              "to": "chest_up",
+              "reason": "food_poffin 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "lens",
+              "from": "natural50",
+              "to": "portrait85",
+              "reason": "food_poffin 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Mixing Poffin batter in a bowl at a home kitchen counter, with berries and a baking tray nearby.",
+          "axesReasons": {
+            "action_level": "반죽을 섞는 동작이 중심이고 상체를 볼 쪽으로 돌림",
+            "source_influence": "자주·연보라 배색과 사선 이음선·붉은 구슬 두 개가 번데기 특징을 강조",
+            "separates_preference": "짧은 랩 블라우스와 스커트가 분명히 분리됨"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "At a high home kitchen table on a rainy noon, the mixing bowl rests on a checked towel beside a plain baking tray.",
+              "reason": "food_poffin 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Soft lavender V-neck cotton wrap blouse with short sleeves and a waist-length hem, separate plum knee-length skirt, no apron or outer layer; diagonal pale seam bands and two tiny crimson cuff beads.",
+              "reason": "food_poffin 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+            }
+          ],
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": ""
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_station",
+          "expr": "bored",
+          "pose": "one_knee_up",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "wide24",
+          "scene": "A rural brick railway platform in late-afternoon autumn light; the route card shows abstract colored line segments with no lettering, a plain wrapped snack partly opened.",
+          "outfit": "Gray mock-neck ribbed sweater with full-length sleeves and a cropped hem, separate violet wide-leg trousers, an unbuttoned charcoal sleeveless travel vest over the sweater; a small red circular bag clasp.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "randomized": {
+            "orient": "front",
+            "frame": "face_close",
+            "lens": "documentary35"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "front",
+              "to": "side",
+              "reason": "travel_station 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "frame",
+              "from": "face_close",
+              "to": "full_body",
+              "reason": "travel_station 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "lens",
+              "from": "documentary35",
+              "to": "wide24",
+              "reason": "travel_station 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Waiting on a rural station bench with a travel bag, holding a snack and checking a route card.",
+          "axesReasons": {
+            "action_level": "열차를 기다리며 간식과 노선 카드를 들고 앉아 멈춘 상태",
+            "source_influence": "보라 바지와 빨간 가방 잠금으로 두 가지 원작 단서",
+            "separates_preference": "긴팔 스웨터·넓은 바지·열린 여행 베스트의 옷 층"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "A rural brick railway platform in late-afternoon autumn light; the route card shows abstract colored line segments with no lettering, a plain wrapped snack partly opened.",
+              "reason": "travel_station 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Gray mock-neck ribbed sweater with full-length sleeves and a cropped hem, separate violet wide-leg trousers, an unbuttoned charcoal sleeveless travel vest over the sweater; a small red circular bag clasp.",
+              "reason": "travel_station 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+            }
+          ],
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": ""
+        }
+      ]
+    }
+  ]
+}
