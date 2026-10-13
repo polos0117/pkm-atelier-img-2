@@ -1,0 +1,547 @@
+{
+  "name": "카포에라",
+  "slug": "hitmontop",
+  "no": 237,
+  "hair": "brown",
+  "style": "short bob",
+  "eyes": "blue",
+  "body": "athletic",
+  "motifs": "Brown, ivory and cobalt-blue plates; the single conical horn becomes a small pointed crest headpiece, the blue sphere is echoed in rounded hip plates, the brown triangle is painted on her breastplate, the narrow tail becomes a short flexible belt sash.",
+  "faceEvidence": {
+    "name": "카포에라",
+    "en": "Hitmontop",
+    "line": "배루키",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "long arched brows",
+      "nose character": "balanced nose",
+      "lips": "medium lips"
+    },
+    "why": "회전과 균형의 리듬을 타원 윤곽과 균형 잡힌 눈 간격으로 해석한다.",
+    "cues": [
+      "몸 형태 upright → 얼굴형 균형 잡힌 타원형",
+      "‘single keratinous horn’ → 턱선 · 턱끝 각지고 또렷한 턱",
+      "‘single keratinous horn’ → 눈매 가늘고 날카로운 눈"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 부드럽고 둥근 턱 → 각지고 또렷한 턱"
+  },
+  "sourceEvidence": {
+    "name": "카포에라",
+    "en": "Hitmontop",
+    "color": "brown",
+    "shape": "upright",
+    "features": [
+      {
+        "part": "tail",
+        "detail": "skinny brown retractable tail"
+      },
+      {
+        "part": "patch",
+        "detail": "brown triangular patch"
+      },
+      {
+        "part": "horn",
+        "detail": "single keratinous horn"
+      },
+      {
+        "part": "band",
+        "detail": "white bands"
+      },
+      {
+        "part": "sphere",
+        "detail": "blue sphere"
+      },
+      {
+        "part": "body",
+        "detail": "main body"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Hitmontop_%28Pok%C3%A9mon%29",
+    "revision": 4610992,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "43f708650292d398acb037f70aee715b87db88976c61d7d77fe685d97edacd2f",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; angular defined jaw; narrow eyes, medium size, level outer corners, average spacing; long arched brows; balanced nose; medium lips.",
+  "casual_plan": [
+    {
+      "cat": "active",
+      "ex": "dance_transition",
+      "expr": "playful",
+      "pose": "dance_step",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "wide24",
+      "scene": "At an empty mirrored dance studio at sunrise; transitioning through a capoeira ginga step, feet apart, arms open in rhythm.",
+      "outfit": "Cobalt-blue square-neck cropped top with short fitted sleeves and separate flowing brown ankle-length dance trousers, white waist cord, no outer layer.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "randomized": {
+        "orient": "three_quarter_back",
+        "frame": "waist_up",
+        "lens": "telephoto135"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "three_quarter_back",
+          "to": "turning_midmotion",
+          "reason": "dance_transition 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "frame",
+          "from": "waist_up",
+          "to": "full_body",
+          "reason": "dance_transition 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "lens",
+          "from": "telephoto135",
+          "to": "wide24",
+          "reason": "dance_transition 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Dance Practice Transition",
+      "axesReasons": {
+        "action_level": "dance_transition의 진행 중 활동: At an empty mirrored dance studio at sunrise; transitioning through a capoeira ginga step, feet apart, arms open in rhythm.",
+        "source_influence": "이 컷의 원작 단서는 의상에 있는 Cobalt-blue square-neck cropped top with short fitted sleeves and separate flowing brown ankle-length dance trousers, white waist cord, no outer layer.",
+        "separates_preference": "이 컷의 의상 층과 상하 분리는 Cobalt-blue square-neck cropped top with short fitted sleeves and separate flowing brown ankle-length dance trousers, white waist cord, no outer layer."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At an empty mirrored dance studio at sunrise; transitioning through a capoeira ginga step, feet apart, arms open in rhythm.",
+          "reason": "고른 예시 Dance Practice Transition에 없는 시간·조명과 읽히는 손 활동을 dance_transition 장소 안에서 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Cobalt-blue square-neck cropped top with short fitted sleeves and separate flowing brown ankle-length dance trousers, white waist cord, no outer layer.",
+          "reason": "dance_transition 예시에 없는 이 컷 배색·소재와 목선·소매·기장·겹침을 지정: Cobalt-blue square-neck cropped top with short fitted sleeves and separate flowing brown ankle-length dance trousers, white waist cord, no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        }
+      ]
+    },
+    {
+      "cat": "lingerie",
+      "ex": "open_shirt_lingerie",
+      "expr": "calm",
+      "pose": "leaning_wall",
+      "orient": "leaning_back",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "scene": "In a warm amber-lit dressing room at dusk; testing a small blue perfume bottle cap between two hands near her chest.",
+      "outfit": "Ivory oversized collared shirt with rolled long sleeves and a hip-length open hem over opaque brown satin lingerie with cobalt seam trim and high-waisted bottoms.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "low_angle",
+        "frame": "environmental",
+        "lens": "telephoto135"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "low_angle",
+          "to": "leaning_back",
+          "reason": "open_shirt_lingerie 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "frame",
+          "from": "environmental",
+          "to": "three_quarter",
+          "reason": "open_shirt_lingerie 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "lens",
+          "from": "telephoto135",
+          "to": "portrait85",
+          "reason": "open_shirt_lingerie 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "a tailored oversized shirt worn open over a matching satin lingerie set",
+      "axesReasons": {
+        "action_level": "open_shirt_lingerie의 진행 중 활동: In a warm amber-lit dressing room at dusk; testing a small blue perfume bottle cap between two hands near her chest.",
+        "source_influence": "이 컷의 원작 단서는 의상에 있는 Ivory oversized collared shirt with rolled long sleeves and a hip-length open hem over opaque brown satin lingerie with cobalt seam trim and high-waisted bottoms.",
+        "separates_preference": "이 컷의 의상 층과 상하 분리는 Ivory oversized collared shirt with rolled long sleeves and a hip-length open hem over opaque brown satin lingerie with cobalt seam trim and high-waisted bottoms."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "In a warm amber-lit dressing room at dusk; testing a small blue perfume bottle cap between two hands near her chest.",
+          "reason": "고른 예시 a tailored oversized shirt worn open over a matching satin lingerie set에 없는 시간·조명과 읽히는 손 활동을 open_shirt_lingerie 장소 안에서 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Ivory oversized collared shirt with rolled long sleeves and a hip-length open hem over opaque brown satin lingerie with cobalt seam trim and high-waisted bottoms.",
+          "reason": "open_shirt_lingerie 예시에 없는 이 컷 배색·소재와 목선·소매·기장·겹침을 지정: Ivory oversized collared shirt with rolled long sleeves and a hip-length open hem over opaque brown satin lingerie with cobalt seam trim and high-waisted bottoms."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        }
+      ]
+    },
+    {
+      "cat": "food_berries",
+      "ex": "food_poffin",
+      "expr": "amused",
+      "pose": "preparing_food",
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "scene": "In a home kitchen under warm evening pendant lamps; mixing Poffin batter in a bowl with a wooden spoon, whole berries and an unmarked baking tray on the counter.",
+      "outfit": "Brown shawl-collar hip-length button shirt with short cuffed sleeves, a cobalt-blue waist apron over separate white wide-leg culottes, tiny pointed ivory pendant.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "looking_away",
+        "frame": "chest_up",
+        "lens": "documentary35"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "looking_away",
+          "to": "side",
+          "reason": "food_market 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "frame",
+          "from": "chest_up",
+          "to": "waist_up",
+          "reason": "food_market 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "reason": "배루키 장보기 컷과 유사한 시장·과일 선택·짧은 블라우스 실루엣을 피하도록 주방·반죽 젓기·셔츠와 앞치마·내려다보는 구도로 네 항목을 변경"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Mixing Poffin batter in a bowl at a home kitchen counter, with berries and a baking tray nearby.",
+      "axesReasons": {
+        "action_level": "주걱으로 반죽을 젓는 가벼운 주방 움직임",
+        "source_influence": "갈색 셔츠·파랑 앞치마·흰 하의와 뾰족한 작은 펜던트로 원작 배색과 뿔 단서를 드러냄",
+        "separates_preference": "셔츠·앞치마·분리된 와이드 큐롯이 층을 이룸"
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "In a home kitchen under warm evening pendant lamps; mixing Poffin batter in a bowl with a wooden spoon, whole berries and an unmarked baking tray on the counter.",
+          "reason": "포핀 반죽과 볼·열매·트레이를 유지하며 저녁 펜던트 조명과 무문자 트레이로 구체화"
+        },
+        {
+          "field": "outfit",
+          "content": "Brown shawl-collar hip-length button shirt with short cuffed sleeves, a cobalt-blue waist apron over separate white wide-leg culottes, tiny pointed ivory pendant.",
+          "reason": "포핀 만들기 예시에는 의상이 없어 쇼칼라·반소매·힙기장 셔츠와 허리앞치마·분리 큐롯을 지정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "phanpy-20261013",
+    "porygon2-20261014",
+    "silcoon-20261013"
+  ],
+  "previousInBatch": [
+    "tyrogue-20261014"
+  ],
+  "comparison": [
+    {
+      "record": "phanpy-20261013",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "playful",
+          "pose": "walking",
+          "orient": "turning_midmotion",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Navy tailored jacket with full-length sleeves over an ivory open-collar blouse, pale-blue trim and an orange neck scarf, with a matching above-knee skirt and low court shoes; a tiny curved enamel brooch."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "laundry",
+          "expr": "candid",
+          "pose": "carrying_something",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Coral-orange wide scoop-neck cotton tee with elbow-length sleeves and a waist-length hem, separate ivory drawstring shorts, no outer layer; one small blue button bracelet."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "looking_down",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer."
+        }
+      ]
+    },
+    {
+      "record": "porygon2-20261014",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "laughing_open",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "focused",
+          "pose": "leaning_furniture",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White boat-neck elbow-sleeve cotton blouse ending at the hips, worn over blue straight trousers without an outer layer; one small magenta hair clip."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "mildly_annoyed",
+          "pose": "walking",
+          "orient": "side",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Blue knee-length trench dress with a notched V collar and long sleeves, buttoned over an unseen base layer; low ankle boots and one tiny magenta belt bead."
+        }
+      ]
+    },
+    {
+      "record": "silcoon-20261013",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "juban_inspired",
+          "expr": "sleepy",
+          "pose": "side_sitting",
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque pearl silk with fine crimson seam embroidery and elbow-length flowing sleeves, straight above-knee hem."
+        },
+        {
+          "cat": "festivals_contests",
+          "ex": "fest_ribbon",
+          "expr": "amused",
+          "pose": "leaning_furniture",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A wide boat-neck pearl blouse with fitted long sleeves and a cropped straight hem, deep-red tailored knee-length culottes, no outer layer; tiny silk-knot pendant."
+        },
+        {
+          "cat": "everyday_sensual",
+          "ex": "balcony_plants",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "reaching_up",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A cream square-neck sleeveless fitted rib-knit midi dress with crimson hem stitching, no outer layer; small round white hairpin."
+        }
+      ]
+    },
+    {
+      "record": "tyrogue-20261014",
+      "cuts": [
+        {
+          "cat": "active",
+          "ex": "boxing_fitness",
+          "expr": "determined",
+          "pose": "mid_action",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A lavender scoop-neck racerback sports crop top, white high-waisted fitted training shorts, no outer layer; lavender ankle wraps."
+        },
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "hand_on_hip",
+          "orient": "low_angle",
+          "frame": "three_quarter",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White cropped team jacket with long sleeves and lavender piping, black fitted shorts and white calf-high boots, a small lavender three-bar enamel clasp."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "grocery_run",
+          "expr": "curious",
+          "pose": "carrying_something",
+          "orient": "profile_close",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Lavender V-neck short-sleeve blouse ending at the waist over separate white tailored trousers, no outer layer; three tiny white button earrings."
+        }
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "slot": "light",
+      "issue": "첫 결과의 들어 올린 발끝이 상단 프레임에 걸림",
+      "changes": "실제 UI 자세 반듯하게 서기; 인물 80% 크기와 위아래 여백",
+      "rejectedOriginal": "generated_images/hitmontop-light-first.png"
+    }
+  ],
+  "faceComparedActual": [
+    "배루키",
+    "카포에라",
+    "뽀뽀라",
+    "코코리",
+    "폴리곤2",
+    "실쿤",
+    "시라소몬",
+    "홍수몬",
+    "루주라"
+  ],
+  "faceComparisonEvidence": "배루키보다 갸름한 타원 윤곽·가로로 좁은 눈·길게 휜 눈썹, 시라소몬의 긴 코/중안부와 홍수몬의 더 날카로운 작은 눈과 다름.",
+  "generationTool": "built-in image_gen"
+}
