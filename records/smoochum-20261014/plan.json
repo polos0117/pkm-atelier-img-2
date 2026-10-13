@@ -1,0 +1,608 @@
+{
+  "name": "뽀뽀라",
+  "slug": "smoochum",
+  "no": 238,
+  "hair": "blonde",
+  "style": "glossy_promo",
+  "eyes": "teal",
+  "body": "curvy",
+  "motifs": "Pink and cream plates with delicate gold edging; the blonde tufts become a small fan-shaped hair ornament, the cream chest patch becomes a cream breastplate and the pink lip motif becomes a small heart-shaped clasp.",
+  "faceEvidence": {
+    "name": "뽀뽀라",
+    "en": "Smoochum",
+    "line": "뽀뽀라",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "heart-shaped",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "large",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "small delicate nose",
+      "lips": "full lips"
+    },
+    "why": "큰 청록 눈과 두드러진 분홍 입술을 넓은 상안면과 도톰한 입술로 해석한다.",
+    "cues": [],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운"
+  },
+  "sourceEvidence": {
+    "name": "뽀뽀라",
+    "en": "Smoochum",
+    "color": "pink",
+    "shape": "humanoid",
+    "features": [
+      {
+        "part": "chest",
+        "detail": "cream-colored chest"
+      },
+      {
+        "part": "lip",
+        "detail": "large, pink lips"
+      },
+      {
+        "part": "head",
+        "detail": "large head"
+      },
+      {
+        "part": "hair",
+        "detail": "blonde hair"
+      },
+      {
+        "part": "tuft",
+        "detail": "several tufts"
+      },
+      {
+        "part": "eye",
+        "detail": "large, blue-green eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Smoochum_%28Pok%C3%A9mon%29",
+    "revision": 4630404,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "ac15d9ad5998a33b71a40c5104db7018f9e0e9365cd695c50eefc108e33b2d27",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): heart-shaped face, balanced length, medium width; narrow tapered chin; open rounded eyes, large size, level outer corners, close-set; long arched brows; small delicate nose; full lips.",
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "casino_dealer",
+      "expr": "smug",
+      "pose": "mid_action",
+      "orient": "leaning_forward",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "scene": "At a themed casino-costume party in ruby evening light; sliding a plain red-backed playing card across green felt with blank-faced cards stacked nearby.",
+      "outfit": "Cream fitted waistcoat with pink satin lapels over a sleeveless white high-neck blouse. The blouse has one continuous opaque satin front from its fastened collar to the natural waist, with no chest opening or cutout; separate pink tailored shorts, a gold bow tie and small gold cuffs, and one tiny heart hair clip.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "randomized": {
+        "orient": "reaching_up",
+        "frame": "three_quarter",
+        "lens": "portrait85"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "reaching_up",
+          "to": "leaning_forward",
+          "reason": "casino_dealer 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "frame",
+          "from": "three_quarter",
+          "to": "chest_up",
+          "reason": "casino_dealer 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "lens",
+          "from": "portrait85",
+          "to": "telephoto135",
+          "reason": "casino_dealer 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "a casino dealer costume with a fitted waistcoat, bow tie, and cuffs, at a card table",
+      "axesReasons": {
+        "action_level": "테이블 위에서 플레이 카드를 밀어 나누는 진행 중 손동작",
+        "source_influence": "핑크 라펠과 작은 하트핀 두 단서로 원작 표현은 중간",
+        "separates_preference": "조끼·블라우스·반바지의 분리된 세 겹 딜러 의상"
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a themed casino-costume party in ruby evening light; sliding a plain red-backed playing card across green felt with blank-faced cards stacked nearby.",
+          "reason": "고른 예시 a casino dealer costume with a fitted waistcoat, bow tie, and cuffs, at a card table에 없는 시간·조명과 읽히는 손 활동을 casino_dealer 장소 안에서 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Cream fitted waistcoat with pink satin lapels over a sleeveless white high-neck blouse. The blouse has one continuous opaque satin front from its fastened collar to the natural waist, with no chest opening or cutout; separate pink tailored shorts, a gold bow tie and small gold cuffs, and one tiny heart hair clip.",
+          "reason": "딜러 예시에는 조끼·보타이·커프스만 있어 크림/핑크 배색과 하이넥 블라우스의 연결된 앞판, 소매 없음·허리기장·분리 반바지를 지정; 큰 머리장식을 작은 하트핀으로 보충"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        }
+      ]
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_music",
+      "expr": "pensive",
+      "pose": "sitting_floor",
+      "orient": "seated_twist",
+      "frame": "environmental",
+      "lens": "wide24",
+      "scene": "In a cozy attic music room on a rainy afternoon; practicing a small acoustic ukulele beside a blank music sheet on a stand, a floor cushion at her hip.",
+      "outfit": "Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "randomized": {
+        "orient": "walking_away",
+        "frame": "detail",
+        "lens": "documentary35"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "walking_away",
+          "to": "seated_twist",
+          "reason": "hobby_music 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "frame",
+          "from": "detail",
+          "to": "environmental",
+          "reason": "hobby_music 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "lens",
+          "from": "documentary35",
+          "to": "wide24",
+          "reason": "hobby_music 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Practicing a small acoustic instrument in a cozy room with a music stand and a resting cushion nearby.",
+      "axesReasons": {
+        "action_level": "hobby_music의 진행 중 활동: In a cozy attic music room on a rainy afternoon; practicing a small acoustic ukulele beside a blank music sheet on a stand, a floor cushion at her hip.",
+        "source_influence": "이 컷의 원작 단서는 의상에 있는 Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer.",
+        "separates_preference": "이 컷의 의상 층과 상하 분리는 Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "In a cozy attic music room on a rainy afternoon; practicing a small acoustic ukulele beside a blank music sheet on a stand, a floor cushion at her hip.",
+          "reason": "고른 예시 Practicing a small acoustic instrument in a cozy room with a music stand and a resting cushion nearby.에 없는 시간·조명과 읽히는 손 활동을 hobby_music 장소 안에서 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer.",
+          "reason": "hobby_music 예시에 없는 이 컷 배색·소재와 목선·소매·기장·겹침을 지정: Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        }
+      ]
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_coast",
+      "expr": "curious",
+      "pose": "kneeling",
+      "orient": "crouching",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "scene": "On a quiet pebble beach in cool morning sea mist; examining shells and drawing one shell outline in a small travel notebook with an unprinted cover.",
+      "outfit": "Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "rear_3q",
+        "frame": "chest_up",
+        "lens": "portrait85"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "rear_3q",
+          "to": "crouching",
+          "reason": "travel_coast 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "frame",
+          "from": "chest_up",
+          "to": "three_quarter",
+          "reason": "travel_coast 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        },
+        {
+          "key": "lens",
+          "from": "portrait85",
+          "to": "documentary35",
+          "reason": "travel_coast 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Examining shells and small tracks on a beach while making a quick sketch in a travel notebook.",
+      "axesReasons": {
+        "action_level": "travel_coast의 진행 중 활동: On a quiet pebble beach in cool morning sea mist; examining shells and drawing one shell outline in a small travel notebook with an unprinted cover.",
+        "source_influence": "이 컷의 원작 단서는 의상에 있는 Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp.",
+        "separates_preference": "이 컷의 의상 층과 상하 분리는 Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "On a quiet pebble beach in cool morning sea mist; examining shells and drawing one shell outline in a small travel notebook with an unprinted cover.",
+          "reason": "고른 예시 Examining shells and small tracks on a beach while making a quick sketch in a travel notebook.에 없는 시간·조명과 읽히는 손 활동을 travel_coast 장소 안에서 추가"
+        },
+        {
+          "field": "outfit",
+          "content": "Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp.",
+          "reason": "travel_coast 예시에 없는 이 컷 배색·소재와 목선·소매·기장·겹침을 지정: Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "phanpy-20261013",
+    "porygon2-20261014",
+    "silcoon-20261013"
+  ],
+  "previousInBatch": [
+    "tyrogue-20261014",
+    "hitmontop-20261014"
+  ],
+  "comparison": [
+    {
+      "record": "phanpy-20261013",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "playful",
+          "pose": "walking",
+          "orient": "turning_midmotion",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Navy tailored jacket with full-length sleeves over an ivory open-collar blouse, pale-blue trim and an orange neck scarf, with a matching above-knee skirt and low court shoes; a tiny curved enamel brooch."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "laundry",
+          "expr": "candid",
+          "pose": "carrying_something",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Coral-orange wide scoop-neck cotton tee with elbow-length sleeves and a waist-length hem, separate ivory drawstring shorts, no outer layer; one small blue button bracelet."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "looking_down",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Pale-blue square-neck linen blouse with short gathered sleeves, a waist-length hem and ivory curved sleeve-edge embroidery; a small orange ribbon fastening, no outer layer."
+        }
+      ]
+    },
+    {
+      "record": "porygon2-20261014",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "laughing_open",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Magenta scoop-neck one-piece with wide shoulder straps, high-leg cut and blue piping, no cover-up; small blue oval clasp."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "focused",
+          "pose": "leaning_furniture",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White boat-neck elbow-sleeve cotton blouse ending at the hips, worn over blue straight trousers without an outer layer; one small magenta hair clip."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "mildly_annoyed",
+          "pose": "walking",
+          "orient": "side",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Blue knee-length trench dress with a notched V collar and long sleeves, buttoned over an unseen base layer; low ankle boots and one tiny magenta belt bead."
+        }
+      ]
+    },
+    {
+      "record": "silcoon-20261013",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "juban_inspired",
+          "expr": "sleepy",
+          "pose": "side_sitting",
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque pearl silk with fine crimson seam embroidery and elbow-length flowing sleeves, straight above-knee hem."
+        },
+        {
+          "cat": "festivals_contests",
+          "ex": "fest_ribbon",
+          "expr": "amused",
+          "pose": "leaning_furniture",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A wide boat-neck pearl blouse with fitted long sleeves and a cropped straight hem, deep-red tailored knee-length culottes, no outer layer; tiny silk-knot pendant."
+        },
+        {
+          "cat": "everyday_sensual",
+          "ex": "balcony_plants",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "reaching_up",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A cream square-neck sleeveless fitted rib-knit midi dress with crimson hem stitching, no outer layer; small round white hairpin."
+        }
+      ]
+    },
+    {
+      "record": "tyrogue-20261014",
+      "cuts": [
+        {
+          "cat": "active",
+          "ex": "boxing_fitness",
+          "expr": "determined",
+          "pose": "mid_action",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A lavender scoop-neck racerback sports crop top, white high-waisted fitted training shorts, no outer layer; lavender ankle wraps."
+        },
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "hand_on_hip",
+          "orient": "low_angle",
+          "frame": "three_quarter",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White cropped team jacket with long sleeves and lavender piping, black fitted shorts and white calf-high boots, a small lavender three-bar enamel clasp."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "grocery_run",
+          "expr": "curious",
+          "pose": "carrying_something",
+          "orient": "looking_away",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Lavender V-neck short-sleeve blouse ending at the waist over separate white tailored trousers, no outer layer; three tiny white button earrings."
+        }
+      ]
+    },
+    {
+      "record": "hitmontop-20261014",
+      "cuts": [
+        {
+          "cat": "active",
+          "ex": "dance_transition",
+          "expr": "playful",
+          "pose": "dance_step",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Cobalt-blue square-neck cropped top with short fitted sleeves and separate flowing brown ankle-length dance trousers, white waist cord, no outer layer."
+        },
+        {
+          "cat": "lingerie",
+          "ex": "open_shirt_lingerie",
+          "expr": "calm",
+          "pose": "leaning_wall",
+          "orient": "leaning_back",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Ivory oversized collared shirt with rolled long sleeves and a hip-length open hem over opaque brown satin lingerie with cobalt seam trim and high-waisted bottoms."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "amused",
+          "pose": "preparing_food",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Brown shawl-collar hip-length button shirt with short cuffed sleeves, a cobalt-blue waist apron over separate white wide-leg culottes, tiny pointed ivory pendant."
+        }
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "slot": "casual1",
+      "issue": "원본과 같은 설정 재생성 두 번 모두 하이넥 블라우스의 앞판이 열리거나 절개됨",
+      "change": "고른 하이넥 의상을 유지하며 UI 의상칸에 목부터 허리까지 이어지는 불투명 앞판 구조를 구체화하고 작은 하트핀 지정",
+      "rejectedOriginals": [
+        "exec-7f2e4010-3703-4cfb-a825-8d3ee2a67431.png",
+        "exec-1423d942-11e0-49d1-a383-a331b93b6109.png",
+        "exec-5a905d2e-d41a-44cd-8272-55304f3486b6.png"
+      ]
+    }
+  ],
+  "faceComparedActual": [
+    "배루키",
+    "카포에라",
+    "뽀뽀라",
+    "코코리",
+    "폴리곤2",
+    "실쿤",
+    "시라소몬",
+    "홍수몬",
+    "루주라"
+  ],
+  "faceComparisonEvidence": "넓은 위 얼굴에서 좁게 모인 턱·큰 둥근 눈·짧고 작은 코·도톰한 입술은 루주라의 긴 얼굴과 더 좁은 눈·긴 코 및 최근 셋과 구분됨.",
+  "generationTool": "built-in image_gen",
+  "requestedHairOption": "bob"
+}
