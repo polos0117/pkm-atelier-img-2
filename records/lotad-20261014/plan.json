@@ -1,0 +1,507 @@
+{
+  "name": "연꽃몬",
+  "slug": "lotad",
+  "no": 270,
+  "hair": "blue",
+  "hairstyle": "bob",
+  "eyes": "amber",
+  "body": "soft-figured",
+  "reason": "큰 둥근 눈과 넓은 노란 입을 큰 원형 눈과 넓은 사람 입으로, 낮고 넓은 몸을 넓은 턱으로 해석한다.",
+  "wear": "Blue and yellow slim plates with leaf-green trim. The large flat lily pad becomes a shallow leaf-shaped shoulder mantle and a small leaf-pattern headband; the blue plant body becomes blue breastplate and greaves, the broad yellow mouth becomes a yellow breastplate clasp. Two human arms and two human legs.",
+  "scene": "A quiet wetland training platform with diffuse morning light.",
+  "faceEvidence": {
+    "name": "연꽃몬",
+    "en": "Lotad",
+    "line": "연꽃몬",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "square broad jaw",
+      "eye shape": "large",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "angled brows",
+      "nose character": "small delicate nose",
+      "lips": "wide mouth"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 armor → 턱선 · 턱끝 넓고 각진 사각 턱",
+      "‘large eyes’ → 눈매 큰 눈",
+      "‘large eyes’ → 눈 크기 큰 눈"
+    ],
+    "adjusted": ""
+  },
+  "sourceEvidence": {
+    "name": "연꽃몬",
+    "en": "Lotad",
+    "color": "green",
+    "shape": "armor",
+    "features": [
+      {
+        "part": "plant",
+        "detail": "small, blue plant"
+      },
+      {
+        "part": "leaf",
+        "detail": "large leaf"
+      },
+      {
+        "part": "leg",
+        "detail": "six stubby legs"
+      },
+      {
+        "part": "mouth",
+        "detail": "wide, yellow mouth"
+      },
+      {
+        "part": "eye",
+        "detail": "large eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Lotad_%28Pok%C3%A9mon%29",
+    "revision": 4611075,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "c5c94b69c060fcd05162b6ff4effeeffa5a5b156963fd03b8dcac4a3f1b59e75",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; square broad jaw; open rounded eyes, large size, level outer corners, average spacing; angled brows; small delicate nose; wide mouth.",
+  "casual_plan": [
+    {
+      "cat": "swimwear",
+      "ex": "thermal_spa",
+      "expr": "relieved",
+      "pose": "standing_relaxed",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "scene": "Early dawn at a stone-edged spa; warm mist rises around her ankles as she tests the water temperature with one lowered hand.",
+      "outfit": "Fully lined blue one-shoulder one-piece swimsuit with a diagonal neckline, sleeveless construction and high leg line, no cover layer; green leaf piping and a small yellow waist clasp.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "randomized": {
+        "orient": "walking_away",
+        "frame": "full_body",
+        "lens": "telephoto135"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "walking_away",
+          "to": "front",
+          "reason": "thermal_spa의 활동 Early dawn at a stone-edged spa; warm mist rises around her ankles as she tests the water temperature with one lowered hand.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "full_body",
+          "to": "full_body",
+          "reason": "thermal_spa의 활동 Early dawn at a stone-edged spa; warm mist rises around her ankles as she tests the water temperature with one lowered hand.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "telephoto135",
+          "to": "portrait85",
+          "reason": "thermal_spa의 활동 Early dawn at a stone-edged spa; warm mist rises around her ankles as she tests the water temperature with one lowered hand.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "in swimwear at a modern thermal spa pool, steam rising off the water",
+      "axesReasons": {
+        "action_level": "Early dawn at a stone-edged spa; warm mist rises around her ankles as she tests the water temperature with one lowered hand.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Fully lined blue one-shoulder one-piece swimsuit with a diagonal neckline, sleeveless construction and high leg line, no cover layer; green leaf piping and a small yellow waist clasp.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Fully lined blue one-shoulder one-piece swimsuit with a diagonal neckline, sleeveless construction and high leg line, no cover layer; green leaf piping and a small yellow waist clasp.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Early dawn at a stone-edged spa; warm mist rises around her ankles as she tests the water temperature with one lowered hand.",
+          "reason": "예시 “in swimwear at a modern thermal spa pool, steam rising off the water”가 지정하지 않은 시간·날씨·소품의 모습: Early dawn at a stone-edged spa; warm mist rises around her ankles as she tests the water temperature with one lowered hand."
+        },
+        {
+          "field": "outfit",
+          "content": "Fully lined blue one-shoulder one-piece swimsuit with a diagonal neckline, sleeveless construction and high leg line, no cover layer; green leaf piping and a small yellow waist clasp.",
+          "reason": "예시 “in swimwear at a modern thermal spa pool, steam rising off the water”의 의상 조건을 유지하며 명시되지 않은 배색·목선·소매·기장·겹침 추가: Fully lined blue one-shoulder one-piece swimsuit with a diagonal neckline, sleeveless construction and high leg line, no cover layer; green leaf piping and a small yellow waist clasp."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정 항목이 없어서 세로 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cat": "occupation_basic",
+      "ex": "water_plant",
+      "expr": "focused",
+      "pose": "mid_action",
+      "orient": "leaning_forward",
+      "frame": "environmental",
+      "lens": "wide24",
+      "scene": "At a reed-lined conservation boardwalk under a grey noon sky; clear water-testing vial in one hand, long litter tongs in the other, reusable collection sack nearby.",
+      "outfit": "Green stand-collar short-sleeve waist-length field shirt over a yellow base layer, separate blue mid-thigh cargo shorts and rubber ankle boots; tiny leaf badge without lettering.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "randomized": {
+        "orient": "side",
+        "frame": "detail",
+        "lens": "natural50"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "side",
+          "to": "leaning_forward",
+          "reason": "water_plant의 활동 At a reed-lined conservation boardwalk under a grey noon sky; clear water-testing vial in one hand, long litter tongs in the other, reusable collection sack nearby.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "detail",
+          "to": "environmental",
+          "reason": "water_plant의 활동 At a reed-lined conservation boardwalk under a grey noon sky; clear water-testing vial in one hand, long litter tongs in the other, reusable collection sack nearby.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "natural50",
+          "to": "wide24",
+          "reason": "water_plant의 활동 At a reed-lined conservation boardwalk under a grey noon sky; clear water-testing vial in one hand, long litter tongs in the other, reusable collection sack nearby.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Pokémon wetland conservation worker testing water and collecting litter with tongs beside a reed-lined path.",
+      "axesReasons": {
+        "action_level": "At a reed-lined conservation boardwalk under a grey noon sky; clear water-testing vial in one hand, long litter tongs in the other, reusable collection sack nearby.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Green stand-collar short-sleeve waist-length field shirt over a yellow base layer, separate blue mid-thigh cargo shorts and rubber ankle boots; tiny leaf badge without lettering.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Green stand-collar short-sleeve waist-length field shirt over a yellow base layer, separate blue mid-thigh cargo shorts and rubber ankle boots; tiny leaf badge without lettering.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a reed-lined conservation boardwalk under a grey noon sky; clear water-testing vial in one hand, long litter tongs in the other, reusable collection sack nearby.",
+          "reason": "예시 “Pokémon wetland conservation worker testing water and collecting litter with tongs beside a reed-lined path.”가 지정하지 않은 시간·날씨·소품의 모습: At a reed-lined conservation boardwalk under a grey noon sky; clear water-testing vial in one hand, long litter tongs in the other, reusable collection sack nearby."
+        },
+        {
+          "field": "outfit",
+          "content": "Green stand-collar short-sleeve waist-length field shirt over a yellow base layer, separate blue mid-thigh cargo shorts and rubber ankle boots; tiny leaf badge without lettering.",
+          "reason": "예시 “Pokémon wetland conservation worker testing water and collecting litter with tongs beside a reed-lined path.”의 의상 조건을 유지하며 명시되지 않은 배색·목선·소매·기장·겹침 추가: Green stand-collar short-sleeve waist-length field shirt over a yellow base layer, separate blue mid-thigh cargo shorts and rubber ankle boots; tiny leaf badge without lettering."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정 항목이 없어서 세로 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_reading",
+      "expr": "pensive",
+      "pose": "reading_book",
+      "orient": "front_3q",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "scene": "A rain-darkened window in an old wooden reading room at twilight; she turns a thick full-page botanical painting plate in a plain cloth-bound field guide with an uninterrupted matte green cover and smooth solid-green spine, and the tea cup is plain porcelain.",
+      "outfit": "Yellow wide boat-neck fine-knit pullover with elbow-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "seated_twist",
+        "frame": "three_quarter",
+        "lens": "documentary35"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "seated_twist",
+          "to": "profile_close",
+          "reason": "hobby_reading의 활동 A rain-darkened window in an old wooden reading room at twilight; the field guide contains only botanical illustrations, and the tea cup is plain porcelain.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "three_quarter",
+          "to": "chest_up",
+          "reason": "hobby_reading의 활동 A rain-darkened window in an old wooden reading room at twilight; the field guide contains only botanical illustrations, and the tea cup is plain porcelain.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "documentary35",
+          "to": "telephoto135",
+          "reason": "hobby_reading의 활동 A rain-darkened window in an old wooden reading room at twilight; the field guide contains only botanical illustrations, and the tea cup is plain porcelain.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Turning a page of an illustrated Pokémon field guide while seated by a window with a cup of tea.",
+      "axesReasons": {
+        "action_level": "A rain-darkened window in an old wooden reading room at twilight; the field guide contains only botanical illustrations, and the tea cup is plain porcelain.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Yellow boat-neck fine-knit pullover with wrist-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Yellow boat-neck fine-knit pullover with wrist-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A rain-darkened window in an old wooden reading room at twilight; the field guide contains only botanical illustrations, and the tea cup is plain porcelain.",
+          "reason": "예시 “Turning a page of an illustrated Pokémon field guide while seated by a window with a cup of tea.”가 지정하지 않은 시간·날씨·소품의 모습: A rain-darkened window in an old wooden reading room at twilight; the field guide contains only botanical illustrations, and the tea cup is plain porcelain."
+        },
+        {
+          "field": "outfit",
+          "content": "Yellow boat-neck fine-knit pullover with wrist-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings.",
+          "reason": "예시 “Turning a page of an illustrated Pokémon field guide while seated by a window with a cup of tea.”의 의상 조건을 유지하며 명시되지 않은 배색·목선·소매·기장·겹침 추가: Yellow boat-neck fine-knit pullover with wrist-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정 항목이 없어서 세로 2:3 픽셀 크기를 보충한다."
+        }
+      ],
+      "custom": "Edit target is the second attached image. Replace only the tiny caption-like marks surrounding the botanical paintings with blank ivory paper; keep the paintings, face, hands, clothing, pose, lighting and composition unchanged."
+    }
+  ],
+  "recentCompared": [
+    "elekid-20261014",
+    "magby-20261014",
+    "miltank-20261014"
+  ],
+  "previousInBatch": [],
+  "comparison": [
+    {
+      "record": "elekid-20261014",
+      "cuts": [
+        {
+          "cat": "everyday_basic",
+          "ex": "hardware_store",
+          "expr": "curious",
+          "pose": "carrying_something",
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A black square-neck cotton top with elbow-length sleeves and a waist-length hem, separate mustard-yellow pleated shorts, no outer layer; a tiny lightning-shaped pendant."
+        },
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "relieved",
+          "pose": "walking",
+          "orient": "high_angle",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "An opaque yellow racerback one-piece swimsuit with a high neckline and thin black side stripes, no cover-up; small black lightning earrings."
+        },
+        {
+          "cat": "active",
+          "ex": "roller_skating",
+          "expr": "laughing_open",
+          "pose": "mid_stride",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A white high-neck sleeveless ribbed athletic top ending at the waist, separate black flared skating shorts, yellow knee pads and four-wheel roller skates, no outer layer; a tiny plug-shaped zipper charm."
+        }
+      ]
+    },
+    {
+      "record": "magby-20261014",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "lab_roleplay",
+          "expr": "pensive",
+          "pose": "carrying_something",
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "The white coat has a notched collar and full-length sleeves over an opaque red square-neck fitted dress; yellow seam piping and a tiny flame-shaped decorative badge."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_camp",
+          "expr": "candid",
+          "pose": "squatting",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A cream collarless long-sleeve linen shirt with a hip-length hem and rolled cuffs, separate olive knee-length hiking shorts, no outer layer; a single tiny red flame-shaped bracelet charm."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "pottery_class",
+          "expr": "amused",
+          "pose": "mid_action",
+          "orient": "seated_twist",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A periwinkle boat-neck blouse with loose elbow-length sleeves and a waist-length hem, separate cream calf-length A-line skirt, no outer layer; a tiny red flame pendant."
+        }
+      ]
+    },
+    {
+      "record": "miltank-20261014",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "slip_lingerie",
+          "expr": "sleepy",
+          "pose": "leaning_furniture",
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque cream satin with blush-pink edge piping, a small black geometric embroidery at the neckline and a tiny bell-shaped pendant; no robe or extra layer."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_tea",
+          "expr": "gentle",
+          "pose": "mid_action",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A pale-blue pointed-collar blouse with short puff sleeves and a waist-length hem, separate cream knee-length wrap skirt, no outer layer; a single tiny black bell clasp."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "greenhouse",
+          "expr": "curious",
+          "pose": "watering",
+          "orient": "turning_midmotion",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A soft-pink V-neck long-sleeve cotton blouse with a hip-length hem, separate black wide-leg trousers, no outer layer; a pale-yellow belt clasp and small angular black stitching on the cuffs."
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "slot": "casual3",
+      "changedInputs": {
+        "scene": "A rain-darkened window in an old wooden reading room at twilight; the field guide uses full-page uncaptioned botanical paintings with an unadorned green cloth binding, and the tea cup is plain porcelain.",
+        "outfit": "Yellow boat-neck fine-knit pullover with unrolled wrist-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings."
+      },
+      "reason": "첫 결과와 같은 설정 재생성에서 모두 책 문자 및 말린 소매 발생: 책 재질·삽화와 소매 끝 보충.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    },
+    {
+      "slot": "casual3",
+      "changedInputs": {
+        "orient": "front_3q",
+        "scene": "A rain-darkened window in an old wooden reading room at twilight; she turns a thick full-page botanical painting plate in a plain cloth-bound field guide with an uninterrupted matte green cover and smooth solid-green spine, and the tea cup is plain porcelain.",
+        "outfit": "Yellow wide boat-neck fine-knit pullover with elbow-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings."
+      },
+      "reason": "여러 생성에서 가까운 측면이 앞 3/4로 수렴하고 긴소매가 팔꿈치까지 올라갔다. 방향·소매 선택을 명시적으로 바꿔 새 결과를 다시 검수하며 책 표지·책등의 구조도 구체화.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    },
+    {
+      "slot": "casual3",
+      "changedInputs": {
+        "custom": "Edit target is the second attached image. Replace only the tiny caption-like marks surrounding the botanical paintings with blank ivory paper; keep the paintings, face, hands, clothing, pose, lighting and composition unchanged."
+      },
+      "reason": "최종 독서 컷의 페이지 문자 흔적만 부분 수정. ①과 수정 대상 함께 첨부.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    }
+  ],
+  "faceComparedActual": [
+    "에레키드",
+    "마그비",
+    "밀탱크"
+  ],
+  "faceComparisonEvidence": "연꽃몬은 둥근 큰 눈·짧은 작은 코·넓은 입과 넓은 하안면, 에레키드는 더 길고 좁은 눈·턱, 마그비는 더 도톰한 입·길게 꺾인 눈, 밀탱크는 더 가는 턱·길게 뻗은 눈으로 실제 경장 이미지를 비교함.",
+  "generationTool": "built-in image_gen",
+  "casualDiversityActual": "온천에서 정면으로 물을 만지는 원숄더 수영복, 갈대 수변에서 상체를 기울여 집게·검사병을 다루는 반소매 작업복과 쇼츠, 창가 의자에서 책장을 넘기는 3/4 니트와 긴 치마는 서로 활동·옷·구도가 다름. 최근 에레키드의 상점·해변 걷기·스케이트, 마그비의 실험 이벤트·캠프·도예, 밀탱크의 슬립·차 우리기·온실과 조합이 겹치지 않음."
+}
