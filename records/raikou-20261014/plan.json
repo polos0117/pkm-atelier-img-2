@@ -1,0 +1,259 @@
+{
+  "casual_plan": [
+    {
+      "cat": "swimwear",
+      "ex": "rooftop_infinity_pool",
+      "expr": "relieved",
+      "pose": "contrapposto",
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "scene": "A high rooftop infinity pool at late sunset with an empty skyline terrace; resting both palms on a narrow pool-edge rail behind her after a swim.",
+      "outfit": "Opaque golden-yellow bikini fabric with black stripe edging, a light-blue waist tie and a small purple hair ribbon.",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "style": "glossy_promo",
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "seated_twist",
+          "frame": "full_body",
+          "lens": "telephoto135"
+        },
+        "final": {
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "lens": "telephoto135"
+        },
+        "reason": "Pool rail needs a supported backward lean and feet/water visible; retain drawn telephoto compression."
+      },
+      "axis_reasons": {
+        "action_level": "Resting after swimming is a held contrapposto.",
+        "source_influence": "Yellow-black stripes, blue tie and violet ribbon give strong palette echoes.",
+        "separates_preference": "Bikini has separate top and bottom."
+      },
+      "input_reasons": {
+        "scene": "Example omits sunset time and narrow rail.",
+        "outfit": "Rooftop example specifies swimwear but not golden fabric/striped trim.",
+        "camera": "Image tool lacks size parameter; vertical 1024×1536 requested here."
+      },
+      "example_text": "in swimwear at a rooftop infinity pool with the city skyline behind her",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A high rooftop infinity pool at late sunset with an empty skyline terrace; resting both palms on a narrow pool-edge rail behind her after a swim.",
+          "reason": "Example omits sunset time and narrow rail."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque golden-yellow bikini fabric with black stripe edging, a light-blue waist tie and a small purple hair ribbon.",
+          "reason": "Rooftop example specifies swimwear but not golden fabric/striped trim."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool lacks size parameter; vertical 1024×1536 requested here."
+        }
+      ]
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_station",
+      "expr": "mildly_annoyed",
+      "pose": "sitting",
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "lens": "wide24",
+      "scene": "A rural glass-roof railway platform on a rainy morning; an unlettered route card, wrapped snack and travel bag are beside the wooden bench.",
+      "outfit": "A pale-violet pointed-collar short-sleeve shirt with a hip-length hem, separate charcoal high-waist mid-thigh tailored shorts and ankle boots, no outer layer; a small gold zigzag buckle.",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "style": "glossy_promo",
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "profile_close",
+          "frame": "waist_up",
+          "lens": "portrait85"
+        },
+        "final": {
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "wide24"
+        },
+        "reason": "Overhead seated travel view separates it from previous pottery and camp scenes; wide lens establishes rainy platform."
+      },
+      "axis_reasons": {
+        "action_level": "Seated waiting on a platform is a paused activity.",
+        "source_influence": "Violet shirt and gold buckle are a few palette clues.",
+        "separates_preference": "Button shirt and shorts are separate garments."
+      },
+      "input_reasons": {
+        "scene": "Example omits rain and glass-roof platform.",
+        "outfit": "Station example does not specify shirt collar, sleeves, hem or shorts.",
+        "camera": "Image tool lacks size parameter; vertical 1024×1536 requested here."
+      },
+      "example_text": "Waiting on a rural station bench with a travel bag, holding a snack and checking a route card.",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A rural glass-roof railway platform on a rainy morning; an unlettered route card, wrapped snack and travel bag are beside the wooden bench.",
+          "reason": "Example omits rain and glass-roof platform."
+        },
+        {
+          "field": "outfit",
+          "content": "A pale-violet pointed-collar short-sleeve shirt with a hip-length hem, separate charcoal high-waist mid-thigh tailored shorts and ankle boots, no outer layer; a small gold zigzag buckle.",
+          "reason": "Station example does not specify shirt collar, sleeves, hem or shorts."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool lacks size parameter; vertical 1024×1536 requested here."
+        }
+      ]
+    },
+    {
+      "cat": "active",
+      "ex": "dance_transition",
+      "expr": "determined",
+      "pose": "dance_step",
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "scene": "An empty rehearsal studio at night with amber floor lamps and opaque charcoal walls, practicing a sharp dance transition without an audience.",
+      "outfit": "A black high-neck sleeveless fitted athletic top ending at the waist, separate yellow high-waist stretch dance shorts, purple seam accents and flat dance shoes, no outer layer.",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "style": "glossy_promo",
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "lens": "telephoto135"
+        },
+        "final": {
+          "orient": "low_angle",
+          "frame": "waist_up",
+          "lens": "portrait85"
+        },
+        "reason": "Low upward view suits forceful dance transition, avoids repeated downward gaze and keeps wrist motion readable."
+      },
+      "axis_reasons": {
+        "action_level": "Dance transition is ongoing body and arm movement.",
+        "source_influence": "Black/yellow active separates and purple piping give several color cues.",
+        "separates_preference": "Athletic top and dance shorts must remain separate."
+      },
+      "input_reasons": {
+        "scene": "Example title omits room, night and lamp illumination.",
+        "outfit": "Dance example gives no active outfit, neckline or garment lengths.",
+        "camera": "Image tool lacks size parameter; vertical 1024×1536 requested here."
+      },
+      "example_text": "Dance Practice Transition",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "An empty rehearsal studio at night with amber floor lamps and opaque charcoal walls, practicing a sharp dance transition without an audience.",
+          "reason": "Example title omits room, night and lamp illumination."
+        },
+        {
+          "field": "outfit",
+          "content": "A black high-neck sleeveless fitted athletic top ending at the waist, separate yellow high-waist stretch dance shorts, purple seam accents and flat dance shoes, no outer layer.",
+          "reason": "Dance example gives no active outfit, neckline or garment lengths."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool lacks size parameter; vertical 1024×1536 requested here."
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    "blissey-20261014",
+    "miltank-20261014",
+    "magby-20261014"
+  ],
+  "faceCompared": [
+    "해피너스",
+    "밀탱크",
+    "마그비"
+  ],
+  "faceComparison": "Raikou's longer angular lower face, high outer eye corners, wider eye spacing and strong low eyebrows distinguish the broad softer Blissey, rounder Miltank and fuller-lipped Magby.",
+  "wearReason": "Source body color is yellow, but extraction palette initially omitted it; explicit UI wear restores golden-yellow black tiger pattern, purple cloud mantle and blue tail sash.",
+  "retries": [
+    {
+      "slot": "casual2-correction",
+      "reason": "Tiny map labels erased with anchor and target attached; seated pose, hands and rain retained."
+    }
+  ],
+  "diversityReview": "Swimwear leaning at sunset pool, short-sleeve shirt/shorts seated at rainy railway bench, black high-neck athletic separates in active dance studio; compared side-by-side to the nine latest casual images.",
+  "character": "라이코",
+  "style": "glossy_promo",
+  "faceEvidence": {
+    "name": "라이코",
+    "en": "Raikou",
+    "line": "라이코",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "sharp",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "sharp",
+      "eye size": "medium",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "thick low brows",
+      "nose character": "balanced nose",
+      "lips": "wide mouth"
+    },
+    "why": "번개 줄무늬와 큰 고양잇과의 긴장을 높은 광대와 강한 사선 눈썹으로 해석한다.",
+    "cues": [
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은"
+    ],
+    "adjusted": ""
+  },
+  "faceSource": "data/source-appearance.json",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): sharp face, balanced length, medium width; narrow tapered chin; sharp eyes, medium size, upturned outer corners, wide-set; thick low brows; balanced nose; wide mouth."
+}
