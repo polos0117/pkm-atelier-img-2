@@ -1,0 +1,492 @@
+{
+  "name": "마기라스",
+  "slug": "tyranitar",
+  "no": 248,
+  "hair": "green",
+  "hairstyle": "ponytail",
+  "eyes": "red",
+  "body": "athletic",
+  "reason": "거대한 장갑과 가시의 직선은 또렷한 각진 턱, 작고 가는 눈, 낮은 굵은 눈썹에 대응한다. 넓은 낮은 콧대와 넓은 입으로 유선형의 루기아와 구별한다.",
+  "wear": "Sage-green independent armor plates over charcoal flexible joints, a slate-grey diamond-shaped breastplate inset and black triangular vent markings. Jagged spikes become short triangular plate edges and an angular green crest headpiece; the heavy tail becomes a tapered segmented waist sash. Five human fingers on each fitted glove, no claw substitution.",
+  "scene": "A basalt mountain training terrace in clear late-afternoon light.",
+  "faceEvidence": {
+    "name": "마기라스",
+    "en": "Tyranitar",
+    "line": "애버라스",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "angular",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "narrow",
+      "eye size": "small",
+      "eye tilt": "level outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "thick low brows",
+      "nose character": "broad low bridge",
+      "lips": "wide mouth"
+    },
+    "why": "거대한 장갑과 뾰족한 윤곽을 각진 하관과 작고 강한 눈매로 구분한다.",
+    "cues": [
+      "‘several spikes’ → 얼굴형 각지고 선명한 얼굴형",
+      "‘several spikes’ → 턱선 · 턱끝 각지고 또렷한 턱",
+      "‘several spikes’ → 눈매 가늘고 날카로운 눈",
+      "‘several spikes’ → 눈썹 굵고 눈 가까이 낮은",
+      "무게 202kg → 코 콧대가 낮고 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운, 코 보통 → 콧대가 낮고 넓은"
+  },
+  "sourceEvidence": {
+    "name": "마기라스",
+    "en": "Tyranitar",
+    "color": "green",
+    "shape": "upright",
+    "features": [
+      {
+        "part": "spike",
+        "detail": "several spikes"
+      },
+      {
+        "part": "patch",
+        "detail": "gray, diamond-shaped patch"
+      },
+      {
+        "part": "tooth",
+        "detail": "pointed teeth"
+      },
+      {
+        "part": "hole",
+        "detail": "two triangular holes"
+      },
+      {
+        "part": "claw",
+        "detail": "three claws"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Tyranitar_%28Pok%C3%A9mon%29",
+    "revision": 4614035,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "7167043a250e911febf726064c6813ccc97a00f9890c157c7671adaa95aa6e90",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; narrow eyes, small size, level outer corners, close-set; thick low brows; broad low bridge nose; wide mouth.",
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "front",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "scene": "At a dusk costume motorsport event beside a track barrier and parked unbranded vintage car; her free hand holds a plain leather driving glove.",
+      "outfit": "Sage-green fitted racing costume with open stand collar, long sleeves and waist-length cropped jacket, charcoal separate high-waist short shorts, no outer layer; grey diamond zip pull.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "randomized": {
+        "orient": "side",
+        "frame": "detail",
+        "lens": "wide24"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "side",
+          "to": "front",
+          "reason": "retro_racer의 활동 At a dusk costume motorsport event beside a track barrier and parked unbranded vintage car; her free hand holds a plain leather driving glove.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "detail",
+          "to": "waist_up",
+          "reason": "retro_racer의 활동 At a dusk costume motorsport event beside a track barrier and parked unbranded vintage car; her free hand holds a plain leather driving glove.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "wide24",
+          "to": "portrait85",
+          "reason": "retro_racer의 활동 At a dusk costume motorsport event beside a track barrier and parked unbranded vintage car; her free hand holds a plain leather driving glove.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier",
+      "axesReasons": {
+        "action_level": "At a dusk costume motorsport event beside a track barrier and parked unbranded vintage car; her free hand holds a plain leather driving glove.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Sage-green fitted racing costume with open stand collar, long sleeves and waist-length cropped jacket, charcoal separate high-waist short shorts, no outer layer; grey diamond zip pull.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Sage-green fitted racing costume with open stand collar, long sleeves and waist-length cropped jacket, charcoal separate high-waist short shorts, no outer layer; grey diamond zip pull.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a dusk costume motorsport event beside a track barrier and parked unbranded vintage car; her free hand holds a plain leather driving glove.",
+          "reason": "retro_racer 예시에 없는 구체사항: At a dusk costume motorsport event beside a track barrier and parked unbranded vintage car; her free hand holds a plain leather driving glove."
+        },
+        {
+          "field": "outfit",
+          "content": "Sage-green fitted racing costume with open stand collar, long sleeves and waist-length cropped jacket, charcoal separate high-waist short shorts, no outer layer; grey diamond zip pull.",
+          "reason": "retro_racer 예시에 없는 구체사항: Sage-green fitted racing costume with open stand collar, long sleeves and waist-length cropped jacket, charcoal separate high-waist short shorts, no outer layer; grey diamond zip pull."
+        }
+      ]
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_trail",
+      "expr": "focused",
+      "pose": "checking_map",
+      "orient": "side",
+      "frame": "environmental",
+      "lens": "wide24",
+      "scene": "At a pine-forest trail junction on a basalt mountain ridge at noon, a plain unlettered wooden trail marker stands nearby; the paper route map has only contour drawings.",
+      "outfit": "Charcoal scoop-neck short-sleeve waist-length hiking tee over a sage-green sports layer, separate grey mid-thigh cargo shorts and ankle boots; small diamond pendant.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "leaning_back",
+        "frame": "environmental",
+        "lens": "natural50"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "leaning_back",
+          "to": "looking_down",
+          "reason": "travel_trail의 활동 A dry basalt ridge at noon with a paper trail map bearing only contour drawings, no words; she studies the map held in both hands.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "environmental",
+          "to": "environmental",
+          "reason": "travel_trail의 활동 A dry basalt ridge at noon with a paper trail map bearing only contour drawings, no words; she studies the map held in both hands.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "natural50",
+          "to": "wide24",
+          "reason": "travel_trail의 활동 A dry basalt ridge at noon with a paper trail map bearing only contour drawings, no words; she studies the map held in both hands.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "orient",
+          "from": "looking_down",
+          "to": "side",
+          "reason": "최초 및 같은 설정 재생성 두 번 모두 카메라 시선으로 실패. 측면으로 변경."
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Pausing at a forest trail junction to compare a folded map with a trail marker, wearing a light travel pack.",
+      "axesReasons": {
+        "action_level": "A dry basalt ridge at noon with a paper trail map bearing only contour drawings, no words; she studies the map held in both hands.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Charcoal scoop-neck short-sleeve waist-length hiking tee over a sage-green sports layer, separate grey mid-thigh cargo shorts and ankle boots; small diamond pendant.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Charcoal scoop-neck short-sleeve waist-length hiking tee over a sage-green sports layer, separate grey mid-thigh cargo shorts and ankle boots; small diamond pendant.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a pine-forest trail junction on a basalt mountain ridge at noon, a plain unlettered wooden trail marker stands nearby; the paper route map has only contour drawings.",
+          "reason": "travel_trail 예시에 없는 구체사항: At a pine-forest trail junction on a basalt mountain ridge at noon, a plain unlettered wooden trail marker stands nearby; the paper route map has only contour drawings."
+        },
+        {
+          "field": "outfit",
+          "content": "Charcoal scoop-neck short-sleeve waist-length hiking tee over a sage-green sports layer, separate grey mid-thigh cargo shorts and ankle boots; small diamond pendant.",
+          "reason": "travel_trail 예시에 없는 구체사항: Charcoal scoop-neck short-sleeve waist-length hiking tee over a sage-green sports layer, separate grey mid-thigh cargo shorts and ankle boots; small diamond pendant."
+        }
+      ]
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "pottery_class",
+      "expr": "amused",
+      "pose": "sitting",
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "scene": "In a warm evening ceramic studio she turns a freshly shaped plain clay bowl on a tabletop wheel using her fingertips.",
+      "outfit": "Sage-green V-neck wrap blouse with elbow-length sleeves and waist-length hem, charcoal separate knee-length skirt under a grey waist apron; no jacket.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "randomized": {
+        "orient": "reclining",
+        "frame": "detail",
+        "lens": "natural50"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "reclining",
+          "to": "seated_twist",
+          "reason": "pottery_class의 활동 In a warm evening ceramic studio she turns a freshly shaped plain clay bowl on a tabletop wheel using her fingertips.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "detail",
+          "to": "three_quarter",
+          "reason": "pottery_class의 활동 In a warm evening ceramic studio she turns a freshly shaped plain clay bowl on a tabletop wheel using her fingertips.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "natural50",
+          "to": "natural50",
+          "reason": "pottery_class의 활동 In a warm evening ceramic studio she turns a freshly shaped plain clay bowl on a tabletop wheel using her fingertips.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Pottery / Craft Class",
+      "axesReasons": {
+        "action_level": "In a warm evening ceramic studio she turns a freshly shaped plain clay bowl on a tabletop wheel using her fingertips.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Sage-green V-neck wrap blouse with elbow-length sleeves and waist-length hem, charcoal separate knee-length skirt under a grey waist apron; no jacket.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Sage-green V-neck wrap blouse with elbow-length sleeves and waist-length hem, charcoal separate knee-length skirt under a grey waist apron; no jacket.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "In a warm evening ceramic studio she turns a freshly shaped plain clay bowl on a tabletop wheel using her fingertips.",
+          "reason": "pottery_class 예시에 없는 구체사항: In a warm evening ceramic studio she turns a freshly shaped plain clay bowl on a tabletop wheel using her fingertips."
+        },
+        {
+          "field": "outfit",
+          "content": "Sage-green V-neck wrap blouse with elbow-length sleeves and waist-length hem, charcoal separate knee-length skirt under a grey waist apron; no jacket.",
+          "reason": "pottery_class 예시에 없는 구체사항: Sage-green V-neck wrap blouse with elbow-length sleeves and waist-length hem, charcoal separate knee-length skirt under a grey waist apron; no jacket."
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "lotad-20261014",
+    "lombre-20261014",
+    "ludicolo-20261014"
+  ],
+  "previousInBatch": [],
+  "comparison": [
+    {
+      "record": "lotad-20261014",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "thermal_spa",
+          "expr": "relieved",
+          "pose": "standing_relaxed",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Fully lined blue one-shoulder one-piece swimsuit with a diagonal neckline, sleeveless construction and high leg line, no cover layer; green leaf piping and a small yellow waist clasp."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "water_plant",
+          "expr": "focused",
+          "pose": "mid_action",
+          "orient": "leaning_forward",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Green stand-collar short-sleeve waist-length field shirt over a yellow base layer, separate blue mid-thigh cargo shorts and rubber ankle boots; tiny leaf badge without lettering."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_reading",
+          "expr": "pensive",
+          "pose": "reading_book",
+          "orient": "front_3q",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Yellow wide boat-neck fine-knit pullover with elbow-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings."
+        }
+      ]
+    },
+    {
+      "record": "lombre-20261014",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "ceremonial_instructor",
+          "expr": "confident",
+          "pose": "hand_on_hip",
+          "orient": "low_angle",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A charcoal-green lapel-neck belted jacket with long sleeves and a hip-length peplum, blue decorative sash, fitted matching shorts, gloves and no additional outer layer; a tiny red enamel clip."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_picnic",
+          "expr": "amused",
+          "pose": "side_sitting",
+          "orient": "side",
+          "frame": "chest_up",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Blue square-neck sleeveless blouse with a waist-length hem, separate green knee-length pleated skirt, red narrow belt, no outer layer; leaf-pattern picnic cloth."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "laundry",
+          "expr": "mildly_annoyed",
+          "pose": "mid_action",
+          "orient": "reaching_up",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Green scoop-neck jersey T-shirt with elbow-length sleeves and a cropped straight hem, separate loose blue ankle-length trousers with red drawcord, no outer layer."
+        }
+      ]
+    },
+    {
+      "record": "ludicolo-20261014",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "embroidered_corset",
+          "expr": "proud",
+          "pose": "leaning_wall",
+          "orient": "leaning_back",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Opaque yellow satin corset with a sweetheart neckline, sleeveless construction, waist-length boned bodice and brown zigzag folk embroidery over matching green high-waisted opaque bottoms, no outer layer."
+        },
+        {
+          "cat": "active",
+          "ex": "dance_transition",
+          "expr": "laughing_open",
+          "pose": "dance_step",
+          "orient": "turning_midmotion",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Green crew-neck short-sleeve fitted dance top with a waist-length hem, separate yellow flared above-knee skirt with brown zigzag hem trim, no outer layer and flat dance shoes."
+        },
+        {
+          "cat": "festivals_contests",
+          "ex": "fest_ribbon",
+          "expr": "curious",
+          "pose": "carrying_something",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Cream V-neck linen wrap dress with flutter elbow-length sleeves and a below-knee hem, narrow brown sash, no outer layer; one tiny green leaf brooch."
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "slot": "casual2",
+      "changedInputs": {
+        "orient": "side"
+      },
+      "reason": "looking_down을 유지한 재생성 두 번에도 시선이 카메라에 남아 측면 방향으로 변경, 비교 대상 side/environmental 짝 없음.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    },
+    {
+      "slot": "casual2",
+      "changedInputs": {
+        "scene": "At a pine-forest trail junction on a basalt mountain ridge at noon, a plain unlettered wooden trail marker stands nearby; the paper route map has only contour drawings."
+      },
+      "reason": "travel_trail 예시의 숲길 갈림길과 표지판을 보존하고 현무암 능선·시간대만 구체화.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    }
+  ],
+  "actualFaceComparison": {
+    "characters": [
+      "애버라스",
+      "연꽃몬",
+      "로토스",
+      "로파파"
+    ],
+    "unavailable": [
+      "데기라스 아직 원격 경장 없음"
+    ],
+    "evidence": "애버라스의 둥글고 짧은 턱·큰 눈, 연꽃몬의 원형 눈, 로토스의 가는 타원 얼굴, 로파파의 부드러운 턱과 대조. 마기라스는 넓고 각진 하관·낮은 굵은 눈썹·작고 긴 눈으로 구별된다."
+  }
+}
