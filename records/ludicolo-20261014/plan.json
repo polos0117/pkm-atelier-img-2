@@ -1,0 +1,663 @@
+{
+  "name": "로파파",
+  "slug": "ludicolo",
+  "no": 272,
+  "hair": "brown",
+  "hairstyle": "wavy",
+  "eyes": "green",
+  "body": "curvy",
+  "reason": "넓은 주황 부리의 형태를 넓은 사람 입과 낮고 넓은 콧대로 바꾸고, 중간 크기 아몬드 눈과 평균 눈 간격으로 로토스의 눈 간격·코·입과 구별한다.",
+  "wear": "Yellow plates with bold brown zigzag bands, green edges and a small orange clasp. The lily-pad silhouette becomes a broad leaf-patterned shallow brim headpiece; the brown stem becomes a small crest on its crown, shaggy yellow fur becomes a short layered yellow collar, large green hands become fitted green gloves with five human digits.",
+  "scene": "A tropical training courtyard with filtered golden daylight.",
+  "faceEvidence": {
+    "name": "로파파",
+    "en": "Ludicolo",
+    "line": "연꽃몬",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "angled brows",
+      "nose character": "broad low bridge",
+      "lips": "wide mouth"
+    },
+    "why": "",
+    "cues": [
+      "‘orange bill’ → 코 콧대가 낮고 넓은",
+      "‘orange bill’ → 입술 입이 넓은"
+    ],
+    "adjusted": ""
+  },
+  "sourceEvidence": {
+    "name": "로파파",
+    "en": "Ludicolo",
+    "color": "green",
+    "shape": "humanoid",
+    "features": [
+      {
+        "part": "stripe",
+        "detail": "several zigzagging brown stripes"
+      },
+      {
+        "part": "plant",
+        "detail": "bipedal plant"
+      },
+      {
+        "part": "stem",
+        "detail": "short brown stem"
+      },
+      {
+        "part": "bill",
+        "detail": "orange bill"
+      },
+      {
+        "part": "fur",
+        "detail": "shaggy yellow fur"
+      },
+      {
+        "part": "hand",
+        "detail": "large green hands"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Ludicolo_%28Pok%C3%A9mon%29",
+    "revision": 4611078,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "cdbea5d44e7edf8f9db3c7fab076e9760b9f6416bef748aa46719f6b9f9c47f8",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; narrow tapered chin; almond eyes, medium size, level outer corners, average spacing; angled brows; broad low bridge nose; wide mouth.",
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "embroidered_corset",
+      "expr": "proud",
+      "pose": "leaning_wall",
+      "orient": "leaning_back",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "scene": "An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist.",
+      "outfit": "Opaque yellow satin corset with a sweetheart neckline, sleeveless construction, waist-length boned bodice and brown zigzag folk embroidery over matching green high-waisted opaque bottoms, no outer layer.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "randomized": {
+        "orient": "turning_midmotion",
+        "frame": "detail",
+        "lens": "wide24"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "turning_midmotion",
+          "to": "leaning_back",
+          "reason": "embroidered_corset의 활동 An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "detail",
+          "to": "chest_up",
+          "reason": "embroidered_corset의 활동 An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "wide24",
+          "to": "portrait85",
+          "reason": "embroidered_corset의 활동 An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "a folk-embroidered corset with structured boning and colourful thread work over a matching piece",
+      "axesReasons": {
+        "action_level": "An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Opaque yellow satin corset with a sweetheart neckline, sleeveless construction, waist-length boned bodice and brown zigzag folk embroidery over matching green high-waisted opaque bottoms, no outer layer.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Opaque yellow satin corset with a sweetheart neckline, sleeveless construction, waist-length boned bodice and brown zigzag folk embroidery over matching green high-waisted opaque bottoms, no outer layer.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist.",
+          "reason": "예시 “a folk-embroidered corset with structured boning and colourful thread work over a matching piece”가 지정하지 않은 시간·날씨·소품의 모습: An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque yellow satin corset with a sweetheart neckline, sleeveless construction, waist-length boned bodice and brown zigzag folk embroidery over matching green high-waisted opaque bottoms, no outer layer.",
+          "reason": "예시 “a folk-embroidered corset with structured boning and colourful thread work over a matching piece”의 의상 조건을 유지하며 명시되지 않은 배색·목선·소매·기장·겹침 추가: Opaque yellow satin corset with a sweetheart neckline, sleeveless construction, waist-length boned bodice and brown zigzag folk embroidery over matching green high-waisted opaque bottoms, no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정 항목이 없어서 세로 2:3 픽셀 크기를 보충한다."
+        }
+      ],
+      "custom": "Edit target is the second attached image. Make a substantially closer waist-up composition: enlarge the woman so her head, shoulders, corset and seam-smoothing hands fill the frame, ending immediately below the corset waist seam. Her pelvis and legs must be outside the image. Keep the same identity, outfit design, supported backward lean, steady closed-mouth expression, hand anatomy and amber wardrobe alcove. Output portrait 1024 by 1536."
+    },
+    {
+      "cat": "active",
+      "ex": "dance_transition",
+      "expr": "laughing_open",
+      "pose": "dance_step",
+      "orient": "turning_midmotion",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "scene": "At an open-air community dance pavilion in bright morning light, transitioning through a lively samba step with bent knees and swinging arms.",
+      "outfit": "Green crew-neck short-sleeve fitted dance top with a waist-length hem, separate yellow flared above-knee skirt with brown zigzag hem trim, no outer layer and flat dance shoes.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "leaning_forward",
+        "frame": "environmental",
+        "lens": "telephoto135"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "leaning_forward",
+          "to": "turning_midmotion",
+          "reason": "dance_transition의 활동 At an open-air community dance pavilion in bright morning light, transitioning through a lively samba step with bent knees and swinging arms.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "environmental",
+          "to": "environmental",
+          "reason": "dance_transition의 활동 At an open-air community dance pavilion in bright morning light, transitioning through a lively samba step with bent knees and swinging arms.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "telephoto135",
+          "to": "documentary35",
+          "reason": "dance_transition의 활동 At an open-air community dance pavilion in bright morning light, transitioning through a lively samba step with bent knees and swinging arms.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Dance Practice Transition",
+      "axesReasons": {
+        "action_level": "At an open-air community dance pavilion in bright morning light, transitioning through a lively samba step with bent knees and swinging arms.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Green crew-neck short-sleeve fitted dance top with a waist-length hem, separate yellow flared above-knee skirt with brown zigzag hem trim, no outer layer and flat dance shoes.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Green crew-neck short-sleeve fitted dance top with a waist-length hem, separate yellow flared above-knee skirt with brown zigzag hem trim, no outer layer and flat dance shoes.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At an open-air community dance pavilion in bright morning light, transitioning through a lively samba step with bent knees and swinging arms.",
+          "reason": "예시 “Dance Practice Transition”가 지정하지 않은 시간·날씨·소품의 모습: At an open-air community dance pavilion in bright morning light, transitioning through a lively samba step with bent knees and swinging arms."
+        },
+        {
+          "field": "outfit",
+          "content": "Green crew-neck short-sleeve fitted dance top with a waist-length hem, separate yellow flared above-knee skirt with brown zigzag hem trim, no outer layer and flat dance shoes.",
+          "reason": "예시 “Dance Practice Transition”의 의상 조건을 유지하며 명시되지 않은 배색·목선·소매·기장·겹침 추가: Green crew-neck short-sleeve fitted dance top with a waist-length hem, separate yellow flared above-knee skirt with brown zigzag hem trim, no outer layer and flat dance shoes."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정 항목이 없어서 세로 2:3 픽셀 크기를 보충한다."
+        }
+      ],
+      "custom": "Edit target is the second attached image. Change only the green shirt to a proper crew-neck short-sleeve fitted dance top whose lower edge reaches the waist, with no midriff gap. Keep both flat-soled dance shoes, foot and hand positions, expression, skirt, hair, leaf color motif and pavilion background unchanged."
+    },
+    {
+      "cat": "festivals_contests",
+      "ex": "fest_ribbon",
+      "expr": "curious",
+      "pose": "carrying_something",
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "scene": "Behind a riverside festival stage in cool blue-hour light; comparing two unlettered satin ribbons beside a plain small accessory case.",
+      "outfit": "Cream V-neck linen wrap dress with flutter elbow-length sleeves and a below-knee hem, narrow brown sash, no outer layer; one tiny green leaf brooch.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "randomized": {
+        "orient": "front",
+        "frame": "face_close",
+        "lens": "wide24"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "front",
+          "to": "high_angle",
+          "reason": "fest_ribbon의 활동 Behind a riverside festival stage in cool blue-hour light; comparing two unlettered satin ribbons beside a plain small accessory case.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "face_close",
+          "to": "three_quarter",
+          "reason": "fest_ribbon의 활동 Behind a riverside festival stage in cool blue-hour light; comparing two unlettered satin ribbons beside a plain small accessory case.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "wide24",
+          "to": "natural50",
+          "reason": "fest_ribbon의 활동 Behind a riverside festival stage in cool blue-hour light; comparing two unlettered satin ribbons beside a plain small accessory case.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Comparing decorative ribbons at a Pokémon Contest preparation table beside a compact accessory case.",
+      "axesReasons": {
+        "action_level": "Behind a riverside festival stage in cool blue-hour light; comparing two unlettered satin ribbons beside a plain small accessory case.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Cream V-neck linen wrap dress with flutter elbow-length sleeves and a below-knee hem, narrow brown sash, no outer layer; one tiny green leaf brooch.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Cream V-neck linen wrap dress with flutter elbow-length sleeves and a below-knee hem, narrow brown sash, no outer layer; one tiny green leaf brooch.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Behind a riverside festival stage in cool blue-hour light; comparing two unlettered satin ribbons beside a plain small accessory case.",
+          "reason": "예시 “Comparing decorative ribbons at a Pokémon Contest preparation table beside a compact accessory case.”가 지정하지 않은 시간·날씨·소품의 모습: Behind a riverside festival stage in cool blue-hour light; comparing two unlettered satin ribbons beside a plain small accessory case."
+        },
+        {
+          "field": "outfit",
+          "content": "Cream V-neck linen wrap dress with flutter elbow-length sleeves and a below-knee hem, narrow brown sash, no outer layer; one tiny green leaf brooch.",
+          "reason": "예시 “Comparing decorative ribbons at a Pokémon Contest preparation table beside a compact accessory case.”의 의상 조건을 유지하며 명시되지 않은 배색·목선·소매·기장·겹침 추가: Cream V-neck linen wrap dress with flutter elbow-length sleeves and a below-knee hem, narrow brown sash, no outer layer; one tiny green leaf brooch."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정 항목이 없어서 세로 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "elekid-20261014",
+    "magby-20261014",
+    "miltank-20261014"
+  ],
+  "previousInBatch": [
+    "lotad-20261014",
+    "lombre-20261014"
+  ],
+  "comparison": [
+    {
+      "record": "elekid-20261014",
+      "cuts": [
+        {
+          "cat": "everyday_basic",
+          "ex": "hardware_store",
+          "expr": "curious",
+          "pose": "carrying_something",
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A black square-neck cotton top with elbow-length sleeves and a waist-length hem, separate mustard-yellow pleated shorts, no outer layer; a tiny lightning-shaped pendant."
+        },
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "relieved",
+          "pose": "walking",
+          "orient": "high_angle",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "An opaque yellow racerback one-piece swimsuit with a high neckline and thin black side stripes, no cover-up; small black lightning earrings."
+        },
+        {
+          "cat": "active",
+          "ex": "roller_skating",
+          "expr": "laughing_open",
+          "pose": "mid_stride",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A white high-neck sleeveless ribbed athletic top ending at the waist, separate black flared skating shorts, yellow knee pads and four-wheel roller skates, no outer layer; a tiny plug-shaped zipper charm."
+        }
+      ]
+    },
+    {
+      "record": "magby-20261014",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "lab_roleplay",
+          "expr": "pensive",
+          "pose": "carrying_something",
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "The white coat has a notched collar and full-length sleeves over an opaque red square-neck fitted dress; yellow seam piping and a tiny flame-shaped decorative badge."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_camp",
+          "expr": "candid",
+          "pose": "squatting",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A cream collarless long-sleeve linen shirt with a hip-length hem and rolled cuffs, separate olive knee-length hiking shorts, no outer layer; a single tiny red flame-shaped bracelet charm."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "pottery_class",
+          "expr": "amused",
+          "pose": "mid_action",
+          "orient": "seated_twist",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A periwinkle boat-neck blouse with loose elbow-length sleeves and a waist-length hem, separate cream calf-length A-line skirt, no outer layer; a tiny red flame pendant."
+        }
+      ]
+    },
+    {
+      "record": "miltank-20261014",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "slip_lingerie",
+          "expr": "sleepy",
+          "pose": "leaning_furniture",
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque cream satin with blush-pink edge piping, a small black geometric embroidery at the neckline and a tiny bell-shaped pendant; no robe or extra layer."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_tea",
+          "expr": "gentle",
+          "pose": "mid_action",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A pale-blue pointed-collar blouse with short puff sleeves and a waist-length hem, separate cream knee-length wrap skirt, no outer layer; a single tiny black bell clasp."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "greenhouse",
+          "expr": "curious",
+          "pose": "watering",
+          "orient": "turning_midmotion",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A soft-pink V-neck long-sleeve cotton blouse with a hip-length hem, separate black wide-leg trousers, no outer layer; a pale-yellow belt clasp and small angular black stitching on the cuffs."
+        }
+      ]
+    },
+    {
+      "record": "lotad-20261014",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "thermal_spa",
+          "expr": "relieved",
+          "pose": "standing_relaxed",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Fully lined blue one-shoulder one-piece swimsuit with a diagonal neckline, sleeveless construction and high leg line, no cover layer; green leaf piping and a small yellow waist clasp."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "water_plant",
+          "expr": "focused",
+          "pose": "mid_action",
+          "orient": "leaning_forward",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Green stand-collar short-sleeve waist-length field shirt over a yellow base layer, separate blue mid-thigh cargo shorts and rubber ankle boots; tiny leaf badge without lettering."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_reading",
+          "expr": "pensive",
+          "pose": "reading_book",
+          "orient": "front_3q",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Yellow wide boat-neck fine-knit pullover with elbow-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings."
+        }
+      ]
+    },
+    {
+      "record": "lombre-20261014",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "ceremonial_instructor",
+          "expr": "confident",
+          "pose": "hand_on_hip",
+          "orient": "low_angle",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A charcoal-green lapel-neck belted jacket with long sleeves and a hip-length peplum, blue decorative sash, fitted matching shorts, gloves and no additional outer layer; a tiny red enamel clip."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_picnic",
+          "expr": "amused",
+          "pose": "side_sitting",
+          "orient": "side",
+          "frame": "chest_up",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Blue square-neck sleeveless blouse with a waist-length hem, separate green knee-length pleated skirt, red narrow belt, no outer layer; leaf-pattern picnic cloth."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "laundry",
+          "expr": "mildly_annoyed",
+          "pose": "mid_action",
+          "orient": "reaching_up",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Green scoop-neck jersey T-shirt with elbow-length sleeves and a cropped straight hem, separate loose blue ankle-length trousers with red drawcord, no outer layer."
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "slot": "light",
+      "changedInputs": {
+        "camera": "Vertical 2:3 portrait (1024×1536). The complete head-to-toe silhouette including the tallest crown crest fills 80 percent of the frame height, with clear empty space above the crest and below both feet."
+      },
+      "reason": "첫 결과의 모자 꼭대기 장식이 상단에 걸려 경장을 확정하지 않음. 생성기 카메라 입력에서 인물·모자 전체 높이와 여백을 보충해 신규 경장 재생성."
+    },
+    {
+      "slot": "light",
+      "changedInputs": {
+        "pose": "standing_formal",
+        "camera": "Vertical 2:3 portrait (1024×1536). Wide full-body card composition from a greater camera distance: the entire woman including her tall leaf crown occupies only 70 percent of the image height. Leave 180 pixels of visible background above the crown and 180 pixels below both soles."
+      },
+      "reason": "두번째 결과도 관모 꼭대기가 상단에 너무 가까움. 반듯한 서기와 전체 관모 포함 높이 70%, 위아래 배경 여백을 실제 UI에서 선택·보충."
+    },
+    {
+      "slot": "heavy",
+      "changedInputs": {
+        "camera": "Vertical 2:3 portrait (1024×1536). Keep the attached approved full-body silhouette scale and camera distance, with visible background above the entire leaf crown and below both soles."
+      },
+      "reason": "정본 경장과 전신 배율을 맞추고 큰 관모가 잘리지 않도록 동일 기준 여백 사용."
+    },
+    {
+      "slot": "mobility",
+      "changedInputs": {
+        "camera": "Vertical 2:3 portrait (1024×1536). Keep the attached approved full-body silhouette scale and camera distance, with visible background above the entire leaf crown and below both soles."
+      },
+      "reason": "정본 경장과 전신 배율을 맞추고 큰 관모가 잘리지 않도록 동일 기준 여백 사용."
+    },
+    {
+      "slot": "casual2",
+      "changedInputs": {
+        "custom": "Edit target is the second attached image. Replace only both heeled shoes with soft flat-soled green-and-yellow dance shoes, keeping the foot positions, ankle ribbons and leaf embellishments. Preserve all other details of the image."
+      },
+      "reason": "선택한 flat dance shoes와 달리 굽 있는 구두가 생성되어 신발 두 개만 부분 수정. 경장 ①과 수정 대상 컷 함께 첨부.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    },
+    {
+      "slot": "casual1",
+      "changedInputs": {
+        "frame": "waist_up",
+        "custom": "Edit target is the second attached image. Reframe to a waist-up portrait ending at the waist, preserving the same woman, supported backward lean, face, expression, corset, warm wardrobe background and seam-smoothing hand activity. Both hands remain naturally readable near the waist. No legs in this portrait."
+      },
+      "reason": "상체 컷에서 손의 허리 솔기 동작이 읽히도록 프레이밍을 허리 위로 실제 선택하고 기존 컷의 구도만 부분 수정.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    },
+    {
+      "slot": "casual2",
+      "changedInputs": {
+        "custom": "Edit target is the second attached image. Change only the green shirt to a proper crew-neck short-sleeve fitted dance top whose lower edge reaches the waist, with no midriff gap. Keep both flat-soled dance shoes, foot and hand positions, expression, skirt, hair, leaf color motif and pavilion background unchanged."
+      },
+      "reason": "선택한 crew-neck과 waist-length 대신 깊은 둥근 목선·크롭 상의가 나와 상의 목선과 기장만 수정. 경장과 수정대상 첨부.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    },
+    {
+      "slot": "casual1",
+      "changedInputs": {
+        "custom": "Edit target is the second attached image. Make a substantially closer waist-up composition: enlarge the woman so her head, shoulders, corset and seam-smoothing hands fill the frame, ending immediately below the corset waist seam. Her pelvis and legs must be outside the image. Keep the same identity, outfit design, supported backward lean, steady closed-mouth expression, hand anatomy and amber wardrobe alcove. Output portrait 1024 by 1536."
+      },
+      "reason": "허리 위 재구도 결과가 여전히 골반·허벅지를 포함해 더 근거리로 재구도. 얼굴부터 솔기 손동작까지 보존하고 다리는 프레임 밖.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    }
+  ],
+  "generationTool": "built-in image_gen",
+  "faceComparedActual": [
+    "연꽃몬",
+    "로토스",
+    "에레키드",
+    "마그비",
+    "밀탱크"
+  ],
+  "faceComparisonEvidence": "실제 그림을 대조: 갈색 웨이브·초록 눈·낮은 콧대와 넓은 입의 로파파는 푸른 단발·큰 둥근 눈의 연꽃몬, 초록 단발·가로로 긴 눈과 좁은 턱의 로토스와 구별됨. 최근 3종도 확대 없이 비교 이미지의 얼굴을 대조함.",
+  "casualDiversityActual": "세 컷과 최근 3종 및 연꽃몬·로토스의 실제 이미지를 6행 비교 이미지로 검수. 벽에 기댄 코르셋 솔기 손질의 근거리 상체, 발과 팔이 움직이는 파빌리온 춤의 전신, 위에서 본 강변 축제 준비의 리본 비교가 장소·활동·의상 실루엣·구도에서 구분됨. 춤 상의는 crew-neck/waist-length를 복원하여 코르셋과 랩드레스와도 구별."
+}
