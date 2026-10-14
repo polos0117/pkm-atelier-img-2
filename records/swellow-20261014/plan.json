@@ -1,0 +1,447 @@
+{
+  "name": "스왈로",
+  "slug": "swellow",
+  "no": 277,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "navy",
+    "hairstyle": "high ponytail",
+    "hair length": "long",
+    "eye color": "brown",
+    "body type": "tall and lean"
+  },
+  "scene": "A high rocky ridge beneath bright moving clouds.",
+  "wear": "Long swept navy shoulder cape panels, crimson chevron throat and chest trim, clean white belly breastplate, two long forked swallow-tail sash streamers, red boot guards with black talon-shaped armor edges and small yellow brow accents. All source shapes are worn as armor or cloth.",
+  "casual_plan": [
+    {
+      "cat": "swimwear",
+      "ex": "shoreline_walk",
+      "expr": "relieved",
+      "pose": "walking",
+      "orient": "side",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "scene": "A quiet black-sand coastline at sunset with small waves over her ankles; walking along the surf with hands relaxed apart and a clearly visible side profile.",
+      "outfit": "Opaque crimson deep-V halter one-piece swimsuit with white waist trim and a tiny navy swallow clasp; no cover-up.",
+      "reason": "Walking profile in warm surf replaces the recent seated pier and corset profile; sunset coastline, moving activity and one-piece halter differ.",
+      "input_reasons": {
+        "scene": "Example shoreline_walk leaves these details unset: A quiet black-sand coastline at sunset with small waves over her ankles; walking along the surf with hands relaxed apart and a clearly visible side profile.",
+        "outfit": "Example shoreline_walk is retained; the missing garment construction and source accents are specified: Opaque crimson deep-V halter one-piece swimsuit with white waist trim and a tiny navy swallow clasp; no cover-up.",
+        "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+      },
+      "axis_reasons": {
+        "action_level": "balanced fits the walking activity in shoreline_walk.",
+        "source_influence": "subtle matches the motif scope specified in this shoreline_walk outfit.",
+        "separates_preference": "balanced matches the garment layers in this shoreline_walk outfit."
+      },
+      "random_draws": {
+        "orient": "reaching_up",
+        "frame": "full_body",
+        "lens": "wide24"
+      },
+      "random_final": {
+        "orient": "side",
+        "frame": "three_quarter",
+        "lens": "documentary35"
+      },
+      "random_adjustment_reason": "Walking profile in warm surf replaces the recent seated pier and corset profile; sunset coastline, moving activity and one-piece halter differ. These angles keep the activity visible and avoid the previous comparison pairs."
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "hardware_store",
+      "expr": "curious",
+      "pose": "bending_over",
+      "orient": "leaning_forward",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "scene": "A bright home-improvement shop aisle in morning light; examining a plain metal hinge in one hand and measuring it with a small ruler in the other. Blank packages and shelf edges.",
+      "outfit": "White shallow-V short-sleeve rib knit tee tucked into separate navy high-waist straight-leg jeans, crimson waist-length utility vest layered over it; tiny swallow zipper charm.",
+      "reason": "Forward leaning inspection gives clear two-handed technical work and curious face; tools aisle and utility vest replace fruit market and craft scenes.",
+      "input_reasons": {
+        "scene": "Example hardware_store leaves these details unset: A bright home-improvement shop aisle in morning light; examining a plain metal hinge in one hand and measuring it with a small ruler in the other. Blank packages and shelf edges.",
+        "outfit": "Example hardware_store is retained; the missing garment construction and source accents are specified: White shallow-V short-sleeve rib knit tee tucked into separate navy high-waist straight-leg jeans, crimson waist-length utility vest layered over it; tiny swallow zipper charm.",
+        "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+      },
+      "axis_reasons": {
+        "action_level": "mostly active fits the bending_over activity in hardware_store.",
+        "source_influence": "subtle matches the motif scope specified in this hardware_store outfit.",
+        "separates_preference": "strongly prefer separates matches the garment layers in this hardware_store outfit."
+      },
+      "random_draws": {
+        "orient": "over_shoulder",
+        "frame": "three_quarter",
+        "lens": "documentary35"
+      },
+      "random_final": {
+        "orient": "leaning_forward",
+        "frame": "waist_up",
+        "lens": "natural50"
+      },
+      "random_adjustment_reason": "Forward leaning inspection gives clear two-handed technical work and curious face; tools aisle and utility vest replace fruit market and craft scenes. These angles keep the activity visible and avoid the previous comparison pairs."
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_music",
+      "expr": "pensive",
+      "pose": "sitting",
+      "orient": "seated_twist",
+      "frame": "environmental",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "A quiet loft at blue hour; seated diagonally on a piano stool with torso turned toward camera while playing a small acoustic mandolin. A blank music stand and cushion nearby.",
+      "outfit": "Crimson open-collar elbow-sleeve satin blouse ending at waist, separate white below-knee flowing skirt, no outer layer; small navy swallow earrings.",
+      "reason": "Seated twist shows both picking and fretting hands; instrument practice, loft and flowing skirt distinguish it from the prior seated charm-making.",
+      "input_reasons": {
+        "scene": "Example hobby_music leaves these details unset: A quiet loft at blue hour; seated diagonally on a piano stool with torso turned toward camera while playing a small acoustic mandolin. A blank music stand and cushion nearby.",
+        "outfit": "Example hobby_music is retained; the missing garment construction and source accents are specified: Crimson open-collar elbow-sleeve satin blouse ending at waist, separate white below-knee flowing skirt, no outer layer; small navy swallow earrings.",
+        "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+      },
+      "axis_reasons": {
+        "action_level": "mostly active fits the sitting activity in hobby_music.",
+        "source_influence": "balanced matches the motif scope specified in this hobby_music outfit.",
+        "separates_preference": "prefer separates matches the garment layers in this hobby_music outfit."
+      },
+      "random_draws": {
+        "orient": "front",
+        "frame": "chest_up",
+        "lens": "wide24"
+      },
+      "random_final": {
+        "orient": "seated_twist",
+        "frame": "environmental",
+        "lens": "telephoto135"
+      },
+      "random_adjustment_reason": "Seated twist shows both picking and fretting hands; instrument practice, loft and flowing skirt distinguish it from the prior seated charm-making. These angles keep the activity visible and avoid the previous comparison pairs."
+    }
+  ],
+  "recentCompared": [
+    "seedot-20261014",
+    "nuzleaf-20261014",
+    "shiftry-20261014"
+  ],
+  "previousInBatch": [
+    "taillow-20261014"
+  ],
+  "faceEvidence": {
+    "name": "스왈로",
+    "en": "Swellow",
+    "line": "테일로",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "elongated",
+      "face length": "long",
+      "face width": "narrow",
+      "jaw & chin": "long chin with defined jaw",
+      "eye shape": "narrow",
+      "eye size": "small",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "thin straight brows",
+      "nose character": "straight slender bridge",
+      "lips": "thin lips"
+    },
+    "why": "계열의 가늘고 올라간 눈은 공유하되 길어진 제비 실루엣과 뾰족한 부리는 긴 얼굴·분명한 턱·곧고 긴 콧대로 해석했다. 가는 직선 눈썹과 얇은 입술로 별개의 성인 인물을 구분한다.",
+    "cues": [
+      "‘small, narrow eyes’ → 눈매 가늘고 날카로운 눈",
+      "몸 형태 wings → 눈꼬리 각도 올라간 눈꼬리",
+      "‘pointed, yellow beak’ → 코 곧고 가는 콧대"
+    ],
+    "adjusted": ""
+  },
+  "sourceEvidence": {
+    "name": "스왈로",
+    "en": "Swellow",
+    "color": "blue",
+    "shape": "wings",
+    "features": [
+      {
+        "part": "beak",
+        "detail": "pointed, yellow beak"
+      },
+      {
+        "part": "foot",
+        "detail": "red feet"
+      },
+      {
+        "part": "talon",
+        "detail": "black talons"
+      },
+      {
+        "part": "eye",
+        "detail": "small, narrow eyes"
+      },
+      {
+        "part": "toe",
+        "detail": "three forward-facing toes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Swellow_%28Pok%C3%A9mon%29",
+    "revision": 4611423,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "b90971e2a4f73879393f4201f023a6b2115b869c4e6b6282c7ae5e8e43cc6709",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; narrow eyes, small size, upturned outer corners, average spacing; thin straight brows; straight slender bridge nose; thin lips.",
+  "comparisonScope": "Viewed actual recent light and casual images in recent-comparison.jpg. Prior batch characters will be visually reviewed before accepting subsequent sets.",
+  "comparisonTable": [
+    {
+      "name": "도토링",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "adult_librarian",
+          "expr": "proud",
+          "pose": "standing_formal",
+          "orient": "low_angle",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Cream square-neck short-sleeve fitted blouse with a chestnut underbust waistcoat and a separate high-waist mid-thigh pleated skirt; small acorn brooch. No large head ornament."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "focused",
+          "pose": "preparing_food",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Sage scoop-neck short-sleeve tee ending at the waist, separate cream shorts, short chestnut waist apron layered over them; tiny acorn-shaped apron clasp. No large head ornament."
+        },
+        {
+          "cat": "active",
+          "ex": "roller_skating",
+          "expr": "playful",
+          "pose": "mid_stride",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Ivory round-neck sleeveless sports tank with chestnut side stripes and separate sage mid-thigh athletic shorts, wrist and knee protection, no outer layer; tiny acorn charm. No large head ornament."
+        }
+      ]
+    },
+    {
+      "name": "잎새코",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "relieved",
+          "pose": "perched_seat",
+          "orient": "leaning_back",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque brown and cream leaf-trimmed one-piece swimsuit with a green leaf-shaped clasp at the shoulder; no outer layer or armor headpiece."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "curious",
+          "pose": "cross_legged",
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Beige V-neck elbow-sleeve linen blouse ending at the waist, separate olive knee-length wrap skirt; no jacket, a small leaf earring. No armor headpiece."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "wistful",
+          "pose": "walking",
+          "orient": "looking_away",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Cream crew-neck long-sleeve top, separate chestnut high-waist shorts and calf-high rain boots, an open olive hip-length raincoat layered over the top; small leaf pull tab. No armor headpiece."
+        }
+      ]
+    },
+    {
+      "name": "다탱구",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "embroidered_corset",
+          "expr": "cold_smile",
+          "pose": "leaning_furniture",
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Opaque ivory folk-embroidered corset with brown leaf stitching and separate matching high-waist lingerie bottoms; tiny green clasp, no robe or armor headpiece."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_lookout",
+          "expr": "determined",
+          "pose": "standing_relaxed",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Brown open-collar long-sleeve cropped field shirt with sleeves rolled to elbows, separate cream knee-length hiking shorts, boots, a green leaf-pattern scarf layered at the collar. No armor headpiece."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_market",
+          "expr": "amused",
+          "pose": "carrying_something",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Cream boat-neck half-sleeve cotton blouse ending at waist, separate brown below-knee A-line skirt, a short green waist apron layered over the skirt; tiny leaf clasp, no armor headpiece."
+        }
+      ]
+    },
+    {
+      "name": "테일로",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "carrying_something",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Navy and white cropped zip racing jacket with long sleeves, a red fitted inner top, separate mid-thigh navy shorts, yellow ankle boots; tiny swallow badge without letters."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "White square-neck short-sleeve cotton blouse ending at waist, separate denim shorts, short red waist apron layered on top; little swallow-shaped apron clasp."
+        },
+        {
+          "cat": "active",
+          "ex": "track_sprint",
+          "expr": "determined",
+          "pose": "mid_action",
+          "orient": "crouching",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Crimson round-neck sleeveless fitted sprint top and separate navy mid-thigh running shorts, plain white track shoes, no outer layer; tiny yellow swallow hair clip."
+        }
+      ]
+    }
+  ],
+  "identity_review": {
+    "reference": "img/스왈로_light_glossy_promo_f.webp",
+    "sha256": "31737b740213832fe016a60a265fea573575ca6dd258c06f6da4efab43a5bf96",
+    "actualCompared": [
+      "테일로",
+      "도토링",
+      "잎새코",
+      "다탱구"
+    ],
+    "evidence": "얼굴 대조 이미지에서 테일로보다 길고 좁은 얼굴·긴 턱·가늘고 긴 콧대와 얇은 입술이 보인다. 도토링의 큰 둥근 눈, 잎새코의 넓은 아몬드 눈과 입술, 다탱구의 각진 하관과도 구분된다."
+  },
+  "final_comparison": "Viewed swellow-review.jpg against taillow-review.jpg and recent-comparison.jpg. Rechecked Taillow after gardening framing revision; Swellow pairs and direction/frame sets remain distinct."
+}
