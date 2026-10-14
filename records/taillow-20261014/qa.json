@@ -168,14 +168,15 @@
       },
       "hands": {
         "status": "일치",
-        "evidence": "물뿌리개를 쥔 손가락과 잎을 집은 손의 엄지·손가락 관절 분리, 추가 손가락 없음."
+        "evidence": "물뿌리개 손잡이의 엄지와 굽힌 네 손가락, 마른 잎을 집은 손의 집게·엄지와 세 굽힌 손가락이 구분된다."
       },
       "text": {
         "status": "일치",
         "evidence": "물뿌리개·도구·화분·앞치마는 문자 없음."
       },
       "framing": {
-        "actual": "허벅지 위"
+        "actual": "허벅지 위",
+        "note": "Changed UI framing to waist_up before regenerating; actual width may differ per framing exception."
       }
     },
     "casual3": {
@@ -215,5 +216,6 @@
   "diversity": {
     "status": "일치",
     "evidence": "레이싱의 긴소매 재킷+쇼츠와 헬멧·정면 선 자세, 창가의 반소매 블라우스+앞치마와 물뿌리개·위 시점, 트랙의 민소매 스포츠 상하의·낮게 웅크린 출발은 장소·활동·실루엣·구도가 구분된다. 최근 도토링/잎새코/다탱구의 도서관·주방·스케이트·데크·공예·우산·드레서·전망대·시장과 나란히 비교했다."
-  }
+  },
+  "revision": "프레이밍 묶음이 다탱구와 같아 창가 컷을 waist_up으로 다시 계획·생성. 원래 프롬프트와 첫 결과 해시는 보존."
 }
