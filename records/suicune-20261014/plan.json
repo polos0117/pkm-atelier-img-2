@@ -1,0 +1,456 @@
+{
+  "character": "스이쿤",
+  "casual_plan": [
+    {
+      "cat": "swimwear",
+      "ex": "shoreline_walk",
+      "expr": "wistful",
+      "pose": "mid_stride",
+      "orient": "low_angle",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "scene": "An empty pale-sand coast just before sunset, with a thin wash of sea foam and cool wind.",
+      "outfit": "An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer.",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "leaning_forward",
+          "frame": "full_body",
+          "lens": "documentary35"
+        },
+        "final": {
+          "orient": "low_angle",
+          "frame": "full_body",
+          "lens": "documentary35"
+        },
+        "reason": "The wet shoreline mid-stride needs an upright walking torso; a low shoreline view exposes the surf and keeps the pair unlike earlier low-angle waist-up dance."
+      },
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "style": "glossy_promo",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "input_reasons": {
+        "scene": "The example omits these specific weather, time and environmental details: An empty pale-sand coast just before sunset, with a thin wash of sea foam and cool wind.",
+        "outfit": "The example omits this specific neckline, sleeve, hem and layers: An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer.",
+        "camera": "Image tool has no size argument; required vertical 1024x1536 is stated here."
+      },
+      "axis_reasons": {
+        "action_level": "Walking through shallow surf.",
+        "source_influence": "The specific garment colors and small markings: An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer.",
+        "separates_preference": "One-piece swimsuit construction."
+      },
+      "example_text": "walking along a wet shoreline in swimwear, wet sand and shallow surf underfoot",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "An empty pale-sand coast just before sunset, with a thin wash of sea foam and cool wind.",
+          "reason": "The example omits these specific weather, time and environmental details: An empty pale-sand coast just before sunset, with a thin wash of sea foam and cool wind."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer.",
+          "reason": "The example omits this specific neckline, sleeve, hem and layers: An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; required vertical 1024x1536 is stated here."
+        }
+      ]
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_sketch",
+      "expr": "focused",
+      "pose": "sitting",
+      "orient": "looking_down",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "scene": "A stone-edged botanical park after rain, with fern fronds and tiny animal tracks visible beside the bench.",
+      "outfit": "A white crew-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer.",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "style": "glossy_promo",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "input_reasons": {
+        "scene": "The example omits these specific weather, time and environmental details: A stone-edged botanical park after rain, with fern fronds and tiny animal tracks visible beside the bench.",
+        "outfit": "The example omits this specific neckline, sleeve, hem and layers: A white boat-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer.",
+        "camera": "Image tool has no size argument; required vertical 1024x1536 is stated here."
+      },
+      "axis_reasons": {
+        "action_level": "Pencil actively sketching plant outlines.",
+        "source_influence": "The specific garment colors and small markings: A white boat-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer.",
+        "separates_preference": "A white boat-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer. uses separate top and bottom."
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "crouching",
+          "frame": "waist_up",
+          "lens": "wide24"
+        },
+        "final": {
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "lens": "natural50"
+        },
+        "reason": "After two same-settings retries, downward-gaze orientation directly supports notebook drawing; above-knee framing avoids the earlier looking-down waist crop."
+      },
+      "example_text": "Sketching habitat plants and Pokémon tracks in a notebook on a park bench.",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A stone-edged botanical park after rain, with fern fronds and tiny animal tracks visible beside the bench.",
+          "reason": "The example omits these specific weather, time and environmental details: A stone-edged botanical park after rain, with fern fronds and tiny animal tracks visible beside the bench."
+        },
+        {
+          "field": "outfit",
+          "content": "A white crew-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer.",
+          "reason": "The example omits this specific neckline, sleeve, hem and layers: A white boat-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; required vertical 1024x1536 is stated here."
+        }
+      ]
+    },
+    {
+      "cat": "occupation_basic",
+      "ex": "water_plant",
+      "expr": "curious",
+      "pose": "mid_action",
+      "orient": "turning_midmotion",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "scene": "A protected wetland reed path at blue hour; a clear unlabelled sample vial and a plain litter sack are within reach.",
+      "outfit": "A cerulean pointed-collar short-sleeve work shirt ending at the hips and separate ivory full-length utility trousers; white diamond cuff edging and a small violet lanyard, no outer layer.",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "style": "glossy_promo",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "input_reasons": {
+        "scene": "The example omits these specific weather, time and environmental details: A protected wetland reed path at blue hour; a clear unlabelled sample vial and a plain litter sack are within reach.",
+        "outfit": "The example omits this specific neckline, sleeve, hem and layers: A cerulean pointed-collar short-sleeve work shirt ending at the hips and separate ivory full-length utility trousers; white diamond cuff edging and a small violet lanyard, no outer layer.",
+        "camera": "Image tool has no size argument; required vertical 1024x1536 is stated here."
+      },
+      "axis_reasons": {
+        "action_level": "Actively testing water and lifting litter with tongs.",
+        "source_influence": "The specific garment colors and small markings: A cerulean pointed-collar short-sleeve work shirt ending at the hips and separate ivory full-length utility trousers; white diamond cuff edging and a small violet lanyard, no outer layer.",
+        "separates_preference": "A cerulean pointed-collar short-sleeve work shirt ending at the hips and separate ivory full-length utility trousers; white diamond cuff edging and a small violet lanyard, no outer layer. uses separate top and bottom."
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "leaning_forward",
+          "frame": "detail",
+          "lens": "portrait85"
+        },
+        "final": {
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "lens": "portrait85"
+        },
+        "reason": "After two unchanged retries missed the profile, choose a mid-turn gesture compatible with lifting the vial and collecting litter; this direction was absent from the recent comparison cuts."
+      },
+      "example_text": "Pokémon wetland conservation worker testing water and collecting litter with tongs beside a reed-lined path.",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A protected wetland reed path at blue hour; a clear unlabelled sample vial and a plain litter sack are within reach.",
+          "reason": "The example omits these specific weather, time and environmental details: A protected wetland reed path at blue hour; a clear unlabelled sample vial and a plain litter sack are within reach."
+        },
+        {
+          "field": "outfit",
+          "content": "A cerulean pointed-collar short-sleeve work shirt ending at the hips and separate ivory full-length utility trousers; white diamond cuff edging and a small violet lanyard, no outer layer.",
+          "reason": "The example omits this specific neckline, sleeve, hem and layers: A cerulean pointed-collar short-sleeve work shirt ending at the hips and separate ivory full-length utility trousers; white diamond cuff edging and a small violet lanyard, no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; required vertical 1024x1536 is stated here."
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "character": "해피너스",
+      "record": "pkm-atelier-img-2/records/blissey-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "adult_nurse",
+          "expr": "gentle",
+          "pose": "standing_formal",
+          "orient": "front",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "White opaque tailored short-sleeve nurse costume with pink piping and a small egg-shaped clasp; plain unlettered cap."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "focused",
+          "pose": "preparing_food",
+          "orient": "leaning_forward",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A cream scoop-neck short-sleeve cotton blouse ending at the waist, a separate blush calf-length pleated skirt, and a short white apron tied over it; small oval pink earrings."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_reading",
+          "expr": "pensive",
+          "pose": "reading_book",
+          "orient": "looking_down",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A lilac crew-neck elbow-sleeve waist-length knit top and a separate ivory ankle-length skirt, no outer layer; one tiny oval pink bracelet charm."
+        }
+      ],
+      "images_reviewed": "recent-comparison.jpg shows all three original off-duty images and their anchors"
+    },
+    {
+      "character": "라이코",
+      "record": "pkm-atelier-img-2/records/raikou-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "rooftop_infinity_pool",
+          "expr": "relieved",
+          "pose": "contrapposto",
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "Opaque golden-yellow bikini fabric with black stripe edging, a light-blue waist tie and a small purple hair ribbon."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_station",
+          "expr": "mildly_annoyed",
+          "pose": "sitting",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "wide24",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A pale-violet pointed-collar short-sleeve shirt with a hip-length hem, separate charcoal high-waist mid-thigh tailored shorts and ankle boots, no outer layer; a small gold zigzag buckle."
+        },
+        {
+          "cat": "active",
+          "ex": "dance_transition",
+          "expr": "determined",
+          "pose": "dance_step",
+          "orient": "low_angle",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A black high-neck sleeveless fitted athletic top ending at the waist, separate yellow high-waist stretch dance shorts, purple seam accents and flat dance shoes, no outer layer."
+        }
+      ],
+      "images_reviewed": "recent-comparison.jpg shows all three original off-duty images and their anchors"
+    },
+    {
+      "character": "앤테이",
+      "record": "pkm-atelier-img-2/records/entei-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "bralette_highwaist",
+          "expr": "sleepy",
+          "pose": "stretching",
+          "orient": "reaching_up",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "Opaque icy-blue knit fabric with a tiny golden crest-shaped clasp and charcoal edging; matching high-waist bottom, no robe or outer layer."
+        },
+        {
+          "cat": "traditional",
+          "ex": "yukata_daily",
+          "expr": "proud",
+          "pose": "walking",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "Sky-blue cotton with a bronze obi and a restrained small gold flame pattern near one sleeve hem."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "midnight_laundromat",
+          "expr": "amused",
+          "pose": "mid_action",
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A charcoal crew-neck long-sleeve cotton sweatshirt ending at the waist, separate cream full-length wide-leg trousers, no outer layer; a tiny yellow stitch motif on one cuff."
+        }
+      ],
+      "images_reviewed": "recent-comparison.jpg shows all three original off-duty images and their anchors"
+    }
+  ],
+  "faceCompared": [
+    "해피너스",
+    "라이코",
+    "앤테이"
+  ],
+  "faceComparison": "Recent actual anchors compared: Suicune has a narrower longer lower face, long low-tipped nose, flatter thinner lip line than rounded Blissey, sharp Raikou and broad angular Entei.",
+  "wearReason": "Purple mane collar, white two-part sash, blue geometric crest and white diamond armor paint are source-appearance-derived clothing.",
+  "stage": "Six combat images created; three distinct off-duty cuts planned before generation",
+  "retries": [
+    {
+      "slot": "casual2",
+      "attempts": [
+        "exec-9cbb956f-1bb6-4292-9f5b-c23ca2a4a667.png",
+        "exec-6677c898-2e6f-4f29-af52-538d20a75be2.png",
+        "exec-035dce20-006b-420d-9f48-e14aeac0da18.png"
+      ],
+      "problem": "Eyes directed toward camera and off-shoulder neckline instead of focused sketching and boat neckline",
+      "changed_inputs": {
+        "orient": "looking_down",
+        "frame": "three_quarter",
+        "outfit": "boat-neck replaced with crew-neck"
+      },
+      "reference": "original light anchor only"
+    },
+    {
+      "slot": "casual3",
+      "attempts": [
+        "exec-fc853bb1-44cb-4d7e-a8e5-6b2f39773623.png",
+        "exec-4ba0a525-804b-418d-bfdc-1bc721d39676.png",
+        "exec-3434dbc2-897f-4944-bdc5-53610c306ccc.png"
+      ],
+      "problem": "Frontal and front-three-quarter head direction despite profile selection",
+      "changed_inputs": {
+        "orient": "turning_midmotion"
+      },
+      "reference": "original light anchor only"
+    }
+  ],
+  "diversityReview": "Compared actual recent nine cuts plus current three: shoreline walking one-piece, wet bench sketch in sleeved blouse, and wetland tongs activity in utility separates have distinct locations, activities, silhouettes and poses.",
+  "style": "glossy_promo",
+  "faceEvidence": {
+    "name": "스이쿤",
+    "en": "Suicune",
+    "line": "스이쿤",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "elongated",
+      "face length": "long",
+      "face width": "narrow",
+      "jaw & chin": "long chin with defined jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "feathered full brows",
+      "nose character": "long nose with low tip",
+      "lips": "thin lips"
+    },
+    "why": "오로라처럼 흐르는 선과 긴 주둥이를 긴 얼굴 및 완만한 긴 눈매로 해석한다.",
+    "cues": [
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은",
+      "‘thick, purple mane’ → 눈썹 숱 많고 결이 보이는"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 길고 바깥 아치가 선명한 → 숱 많고 결이 보이는"
+  },
+  "faceSource": "data/source-appearance.json",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; almond eyes, medium size, downturned outer corners, wide-set; feathered full brows; long nose with low tip; thin lips."
+}

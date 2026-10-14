@@ -1,0 +1,125 @@
+{
+  "state_capture": "Reconstructed from observed live UI controls; browser localStorage is not exposed. Submitted prompt reproduced by the same engine and compared with the visible textarea.",
+  "input": {
+    "cat": "hobbies_leisure",
+    "ex": "hobby_sketch",
+    "expr": "focused",
+    "pose": "sitting",
+    "orient": "looking_down",
+    "frame": "three_quarter",
+    "lens": "natural50",
+    "scene": "A stone-edged botanical park after rain, with fern fronds and tiny animal tracks visible beside the bench.",
+    "outfit": "A white crew-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer.",
+    "axes": {
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "style": "glossy_promo",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    },
+    "input_reasons": {
+      "scene": "The example omits these specific weather, time and environmental details: A stone-edged botanical park after rain, with fern fronds and tiny animal tracks visible beside the bench.",
+      "outfit": "The example omits this specific neckline, sleeve, hem and layers: A white boat-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer.",
+      "camera": "Image tool has no size argument; required vertical 1024x1536 is stated here."
+    },
+    "axis_reasons": {
+      "action_level": "Pencil actively sketching plant outlines.",
+      "source_influence": "The specific garment colors and small markings: A white boat-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer.",
+      "separates_preference": "A white boat-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer. uses separate top and bottom."
+    },
+    "random_adjustments": {
+      "draw": {
+        "orient": "crouching",
+        "frame": "waist_up",
+        "lens": "wide24"
+      },
+      "final": {
+        "orient": "looking_down",
+        "frame": "three_quarter",
+        "lens": "natural50"
+      },
+      "reason": "After two same-settings retries, downward-gaze orientation directly supports notebook drawing; above-knee framing avoids the earlier looking-down waist crop."
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Suicune (스이쿤) personified, water type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: gaze directed downward; camera height unchanged\nScene: A stone-edged botanical park after rain, with fern fronds and tiny animal tracks visible beside the bench.\nOutfit and props: A white crew-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer.\nCategory: Show a personal hobby or restful leisure moment with a specific action and relevant objects. Pokémon motifs may appear naturally in the activity, without requiring armor, a uniform or a companion.\nExample scene: Sketching habitat plants and Pokémon tracks in a notebook on a park bench.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "스이쿤",
+    "cards": {
+      "스이쿤": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "purple",
+          "hairstyle": "wavy",
+          "hair length": "long",
+          "bangs": "curtain bangs"
+        },
+        "locks": {},
+        "scenes": {
+          "casual": {
+            "expr": "focused",
+            "pose": "sitting",
+            "orient": "looking_down",
+            "scene": "A stone-edged botanical park after rain, with fern fronds and tiny animal tracks visible beside the bench.",
+            "outfit": "A white crew-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer.",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "hobbies_leisure",
+            "catCustom": "",
+            "ex": "hobby_sketch",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          },
+          "action": {
+            "expr": "calm",
+            "pose": "",
+            "orient": "",
+            "scene": "Clear mountain shallows under pale dawn light, with a gentle breeze moving the water.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "axes": {},
+            "action": {},
+            "randomLocks": {}
+          }
+        }
+      }
+    }
+  }
+}

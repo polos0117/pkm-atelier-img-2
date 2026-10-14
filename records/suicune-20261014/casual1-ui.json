@@ -1,0 +1,125 @@
+{
+  "state_capture": "Reconstructed from observed live UI controls; browser localStorage is not exposed. Submitted prompt reproduced by the same engine and compared with the visible textarea.",
+  "input": {
+    "cat": "swimwear",
+    "ex": "shoreline_walk",
+    "expr": "wistful",
+    "pose": "mid_stride",
+    "orient": "low_angle",
+    "frame": "full_body",
+    "lens": "documentary35",
+    "scene": "An empty pale-sand coast just before sunset, with a thin wash of sea foam and cool wind.",
+    "outfit": "An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer.",
+    "axes": {
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "random_adjustments": {
+      "draw": {
+        "orient": "leaning_forward",
+        "frame": "full_body",
+        "lens": "documentary35"
+      },
+      "final": {
+        "orient": "low_angle",
+        "frame": "full_body",
+        "lens": "documentary35"
+      },
+      "reason": "The wet shoreline mid-stride needs an upright walking torso; a low shoreline view exposes the surf and keeps the pair unlike earlier low-angle waist-up dance."
+    },
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "style": "glossy_promo",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    },
+    "input_reasons": {
+      "scene": "The example omits these specific weather, time and environmental details: An empty pale-sand coast just before sunset, with a thin wash of sea foam and cool wind.",
+      "outfit": "The example omits this specific neckline, sleeve, hem and layers: An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer.",
+      "camera": "Image tool has no size argument; required vertical 1024x1536 is stated here."
+    },
+    "axis_reasons": {
+      "action_level": "Walking through shallow surf.",
+      "source_influence": "The specific garment colors and small markings: An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer.",
+      "separates_preference": "One-piece swimsuit construction."
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Suicune (스이쿤) personified, water type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: gaze softened and directed slightly upward or away, faint sad smile, inner brows raised\nPose: Capture a clear mid-stride step with believable weight transfer.\nOrientation: camera below subject looking upward; obey selected framing\nScene: An empty pale-sand coast just before sunset, with a thin wash of sea foam and cool wind.\nOutfit and props: An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: walking along a wet shoreline in swimwear, wet sand and shallow surf underfoot\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "스이쿤",
+    "cards": {
+      "스이쿤": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "purple",
+          "hairstyle": "wavy",
+          "hair length": "long",
+          "bangs": "curtain bangs"
+        },
+        "locks": {},
+        "scenes": {
+          "casual": {
+            "expr": "wistful",
+            "pose": "mid_stride",
+            "orient": "low_angle",
+            "scene": "An empty pale-sand coast just before sunset, with a thin wash of sea foam and cool wind.",
+            "outfit": "An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "shoreline_walk",
+            "exCustom": "",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          },
+          "action": {
+            "expr": "calm",
+            "pose": "",
+            "orient": "",
+            "scene": "Clear mountain shallows under pale dawn light, with a gentle breeze moving the water.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "axes": {},
+            "action": {},
+            "randomLocks": {}
+          }
+        }
+      }
+    }
+  }
+}
