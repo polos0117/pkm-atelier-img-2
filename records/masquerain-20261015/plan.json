@@ -55,7 +55,7 @@
       "expr": "serious",
       "pose": "mid_action",
       "orient": "high_angle",
-      "frame": "three_quarter",
+      "frame": "full_body",
       "lens": "documentary35",
       "aspect": "2:3",
       "axes": {
@@ -72,7 +72,7 @@
         "source_influence": "Blue side panels and coral diamond cuff embroidery recall the moth palette and wings.",
         "separates_preference": "The ankle-length jumpsuit is one continuous garment."
       },
-      "random_adjustment_reason": "Use high_angle/three_quarter to make the observatory_engineer activity readable and avoid all comparison direction/frame pairs.",
+      "random_adjustment_reason": "High-angle full body avoids Surskit high-angle waist-up and all comparison frame multisets; preserve observable telescope task.",
       "input_reasons": {
         "scene": "The observatory_engineer example leaves time of day and the specified object interaction unset.",
         "outfit": "The observatory_engineer example leaves the specified colors, materials, neckline, sleeve length and hems unset.",
@@ -443,6 +443,25 @@
         "casual3 initial"
       ],
       "discarded": "exec-2a1cf77e-3fe8-4541-ad1f-dec3988c4f74.png"
+    },
+    {
+      "slot": "casual2",
+      "reason": "Original frame selection multiset matched Gardevoir.",
+      "changed": "Generator frame: three_quarter to full_body; waist_up candidate rejected before generation because Surskit used high-angle/waist-up.",
+      "references": [
+        "approved recovered light"
+      ],
+      "discarded": "exec-0b2b71f6-2d16-4cd4-afc4-48f203f6b2ec.png"
+    },
+    {
+      "slot": "casual2",
+      "reason": "Full-body regeneration retained large eye-pattern ornaments.",
+      "changed": "Custom field removes only large hair ornaments from observatory image.",
+      "references": [
+        "approved recovered light",
+        "casual2 full body before cleanup"
+      ],
+      "discarded": "exec-d8e9966e-584c-4233-a29a-8d149bbdc215.png"
     }
   ]
 }
