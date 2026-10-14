@@ -64,7 +64,7 @@
         "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Crisp ivory knee-length laboratory coat with long sleeves and a notched collar over a moss-green square-neck fitted mid-thigh dress, plain cream pumps and one small mushroom enamel pin; no lettering.",
         "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
       },
-      "random_adjustment_reason": "실제 랜덤 후보를 확인 후 해당 활동에 맞는 방향·프레임·화각으로 조정. 최근 비교 대상 및 이번 앞선 컷의 방향/프레임 짝을 피함.",
+      "random_adjustment_reason": "정면 표본 전시로 코트 앞섶과 밀봉 병을 보여 줌. 무릎 위 범위는 긴 코트와 짧은 드레스의 층을 비교하기 좋음.",
       "random_draws": {
         "orientation": "back_to_camera",
         "frame": "three_quarter",
@@ -75,6 +75,26 @@
         "axes.overall_intensity",
         "axes.skin_exposure",
         "aspect"
+      ],
+      "random_adjustments": [
+        {
+          "field": "orientation",
+          "drawn": "back_to_camera",
+          "final": "front",
+          "reason": "정면 표본 전시로 코트 앞섶과 밀봉 병을 보여 줌. 무릎 위 범위는 긴 코트와 짧은 드레스의 층을 비교하기 좋음."
+        },
+        {
+          "field": "frame",
+          "drawn": "three_quarter",
+          "final": "three_quarter",
+          "reason": "정면 표본 전시로 코트 앞섶과 밀봉 병을 보여 줌. 무릎 위 범위는 긴 코트와 짧은 드레스의 층을 비교하기 좋음."
+        },
+        {
+          "field": "lens",
+          "drawn": "portrait85",
+          "final": "portrait85",
+          "reason": "정면 표본 전시로 코트 앞섶과 밀봉 병을 보여 줌. 무릎 위 범위는 긴 코트와 짧은 드레스의 층을 비교하기 좋음."
+        }
       ]
     },
     {
@@ -105,7 +125,7 @@
         "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Cream boat-neck short-sleeve linen blouse ending at the waist, separate forest-green knee-length flared skirt with scalloped hem, a tan short waist apron and flat lace-up shoes; tiny green-spotted mushroom earrings.",
         "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
       },
-      "random_adjustment_reason": "실제 랜덤 후보를 확인 후 해당 활동에 맞는 방향·프레임·화각으로 조정. 최근 비교 대상 및 이번 앞선 컷의 방향/프레임 짝을 피함.",
+      "random_adjustment_reason": "열매를 향해 위로 뻗은 손과 가지·바구니를 높은 시점의 과수원 환경에서 함께 보여 줌.",
       "random_draws": {
         "orientation": "back",
         "frame": "detail",
@@ -116,6 +136,26 @@
         "axes.overall_intensity",
         "axes.skin_exposure",
         "aspect"
+      ],
+      "random_adjustments": [
+        {
+          "field": "orientation",
+          "drawn": "back",
+          "final": "high_angle",
+          "reason": "열매를 향해 위로 뻗은 손과 가지·바구니를 높은 시점의 과수원 환경에서 함께 보여 줌."
+        },
+        {
+          "field": "frame",
+          "drawn": "detail",
+          "final": "environmental",
+          "reason": "열매를 향해 위로 뻗은 손과 가지·바구니를 높은 시점의 과수원 환경에서 함께 보여 줌."
+        },
+        {
+          "field": "lens",
+          "drawn": "portrait85",
+          "final": "wide24",
+          "reason": "열매를 향해 위로 뻗은 손과 가지·바구니를 높은 시점의 과수원 환경에서 함께 보여 줌."
+        }
       ]
     },
     {
@@ -146,7 +186,7 @@
         "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Rust-brown V-neck elbow-sleeve loose knit pullover ending at the hips and separate cream ankle-length wide trousers, bare feet, no outer layer; a tiny green bead ring.",
         "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
       },
-      "random_adjustment_reason": "실제 랜덤 후보를 확인 후 해당 활동에 맞는 방향·프레임·화각으로 조정. 최근 비교 대상 및 이번 앞선 컷의 방향/프레임 짝을 피함.",
+      "random_adjustment_reason": "바닥 책상다리를 지지하고 몸통만 낮은 공예 테이블 쪽으로 비틀어 손의 비즈 작업과 긴바지 양발을 담음.",
       "random_draws": {
         "orientation": "leaning_forward",
         "frame": "chest_up",
@@ -157,6 +197,26 @@
         "axes.overall_intensity",
         "axes.skin_exposure",
         "aspect"
+      ],
+      "random_adjustments": [
+        {
+          "field": "orientation",
+          "drawn": "leaning_forward",
+          "final": "seated_twist",
+          "reason": "바닥 책상다리를 지지하고 몸통만 낮은 공예 테이블 쪽으로 비틀어 손의 비즈 작업과 긴바지 양발을 담음."
+        },
+        {
+          "field": "frame",
+          "drawn": "chest_up",
+          "final": "full_body",
+          "reason": "바닥 책상다리를 지지하고 몸통만 낮은 공예 테이블 쪽으로 비틀어 손의 비즈 작업과 긴바지 양발을 담음."
+        },
+        {
+          "field": "lens",
+          "drawn": "natural50",
+          "final": "natural50",
+          "reason": "바닥 책상다리를 지지하고 몸통만 낮은 공예 테이블 쪽으로 비틀어 손의 비즈 작업과 긴바지 양발을 담음."
+        }
       ]
     }
   ],
@@ -361,5 +421,6 @@
     }
   ],
   "face_prompt": "(her own structure, not the style's default face): short length; soft rounded jaw; almond eyes, level outer corners, close-set; small delicate nose; bow-shaped upper lip.",
-  "actual_face_comparison": "갈색 보브·짧은 부드러운 턱과 눈 간격은 금발 패리퍼 및 랄토스·킬리아의 좁고 뾰족한 턱, 긴 눈꼬리와 구별. 버섯모는 생성 후 계열 비교 예정."
+  "actual_face_comparison": "갈색 보브·짧은 부드러운 턱과 눈 간격은 금발 패리퍼 및 랄토스·킬리아의 좁고 뾰족한 턱, 긴 눈꼬리와 구별. 버섯모는 생성 후 계열 비교 예정.",
+  "final_actual_diversity_review": "패리퍼·랄토스·킬리아 및 이번 버섯꼬·버섯모·게을로의 최종 일상 18장을 나란히 대조. 카테고리·장소·주 활동·소매/기장/겹침·자세·실제 화면 구도가 구별됨. 갈색/녹색/금발 얼굴 역시 각 경장 및 일상에서 동일 인물로 유지."
 }
