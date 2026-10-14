@@ -1,0 +1,728 @@
+{
+  "name": "파이숭이",
+  "slug": "monferno",
+  "no": 391,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "orange",
+    "hairstyle": "high ponytail",
+    "hair length": "medium",
+    "eye color": "amber",
+    "body type": "athletic"
+  },
+  "scene": "An old red-brick martial-arts courtyard in clear afternoon light.",
+  "wear": "Orange and brown glossy armor, cream white ruff as a short raised collar, blue brow trim above a human face, red wrist rings, narrow flame-ended orange waist sash. A short swept orange tuft becomes a small hair clip. Human skin and anatomy throughout.",
+  "casual_plan": [
+    {
+      "cat": "swimwear",
+      "ex": "thermal_spa",
+      "expr": "relieved",
+      "pose": "leaning_wall",
+      "orient": "leaning_back",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "An outdoor basalt thermal spa at blue hour, water at hip level and steam drifting past the stone wall; fingertips resting on its dry edge.",
+      "outfit": "Opaque orange high-neck sleeveless one-piece swimsuit with a blue upper panel, white collar piping and a small red ring clasp.",
+      "reason": "Rest against a basalt spa wall with steam contrasts the wet beach walk and recumbent bedroom; the high-neck one-piece carries orange, white and blue source motifs.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "input_reasons": {
+        "scene": "맞는 선택지 없음 — 선택한 thermal_spa는 세부 시간대·광원·도구의 구체 배치를 정하지 않아 장면의 해당 요소만 보충.",
+        "outfit": "맞는 선택지 없음 — 별도 의상 선택기가 없어 thermal_spa의 의상 지시를 유지하며 목선·소매·기장·겹침과 색을 보충.",
+        "camera": "이미지 도구에 크기 항목이 없어 규칙에 허용된 2:3 문장만 추가."
+      },
+      "axis_reasons": {
+        "action_level": "Rest against a basalt spa wall with steam contrasts the wet beach walk and recumbent bedroom; the high-neck one-piece carries orange, white and blue source motifs.",
+        "source_influence": "Opaque orange high-neck sleeveless one-piece swimsuit with a blue upper panel, white collar piping and a small red ring clasp.에 적힌 모티프 범위에 맞춰 strong 선택.",
+        "separates_preference": "주 의상이 한 벌로 이어지는 구조라 균형 선택."
+      },
+      "random_draws": {
+        "orient": "front",
+        "frame": "three_quarter",
+        "lens": "portrait85"
+      },
+      "random_final": {
+        "orient": "leaning_back",
+        "frame": "waist_up",
+        "lens": "natural50"
+      },
+      "random_adjustment_reason": "Rest against a basalt spa wall with steam contrasts the wet beach walk and recumbent bedroom; the high-neck one-piece carries orange, white and blue source motifs. These angles keep the activity visible and avoid the previous comparison pairs."
+    },
+    {
+      "cat": "active",
+      "ex": "parkour_stairs",
+      "expr": "determined",
+      "pose": "mid_action",
+      "orient": "turning_midmotion",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "scene": "An empty concrete stair plaza in crisp morning light; a vault transition past a low parapet, no signs or safety labels.",
+      "outfit": "Orange round-neck short-sleeve cropped athletic tee, separate blue knee-length loose training shorts and white trainers, no outer layer; red wrist bands.",
+      "reason": "Turning movement between concrete stairs suits agile Monferno; athletic shorts, open plaza and vault activity replace all recent quiet domestic and beach scenes.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "input_reasons": {
+        "scene": "맞는 선택지 없음 — 선택한 parkour_stairs는 세부 시간대·광원·도구의 구체 배치를 정하지 않아 장면의 해당 요소만 보충.",
+        "outfit": "맞는 선택지 없음 — 별도 의상 선택기가 없어 parkour_stairs의 의상 지시를 유지하며 목선·소매·기장·겹침과 색을 보충.",
+        "camera": "이미지 도구에 크기 항목이 없어 규칙에 허용된 2:3 문장만 추가."
+      },
+      "axis_reasons": {
+        "action_level": "Turning movement between concrete stairs suits agile Monferno; athletic shorts, open plaza and vault activity replace all recent quiet domestic and beach scenes.",
+        "source_influence": "Orange round-neck short-sleeve cropped athletic tee, separate blue knee-length loose training shorts and white trainers, no outer layer; red wrist bands.에 적힌 모티프 범위에 맞춰 strong 선택.",
+        "separates_preference": "상의와 하의가 분리되어 그 구조에 맞는 분리형 강도를 선택."
+      },
+      "random_draws": {
+        "orient": "front",
+        "frame": "environmental",
+        "lens": "natural50"
+      },
+      "random_final": {
+        "orient": "turning_midmotion",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "random_adjustment_reason": "Turning movement between concrete stairs suits agile Monferno; athletic shorts, open plaza and vault activity replace all recent quiet domestic and beach scenes. These angles keep the activity visible and avoid the previous comparison pairs."
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_craft",
+      "expr": "pensive",
+      "pose": "sitting",
+      "orient": "seated_twist",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "scene": "A small workshop under a warm desk lamp at night; threading red and cream beads onto a thin cord beside a shallow tray.",
+      "outfit": "Deep blue round-neck long-sleeve calf-length jersey dress with a short open cream cardigan layered over it; tiny orange bead charm.",
+      "reason": "The seated twist keeps bead work and face readable, with long sleeves and single dress rather than recent tee-and-shorts or instrument blouse.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "input_reasons": {
+        "scene": "맞는 선택지 없음 — 선택한 hobby_craft는 세부 시간대·광원·도구의 구체 배치를 정하지 않아 장면의 해당 요소만 보충.",
+        "outfit": "맞는 선택지 없음 — 별도 의상 선택기가 없어 hobby_craft의 의상 지시를 유지하며 목선·소매·기장·겹침과 색을 보충.",
+        "camera": "이미지 도구에 크기 항목이 없어 규칙에 허용된 2:3 문장만 추가."
+      },
+      "axis_reasons": {
+        "action_level": "The seated twist keeps bead work and face readable, with long sleeves and single dress rather than recent tee-and-shorts or instrument blouse.",
+        "source_influence": "Deep blue round-neck long-sleeve calf-length jersey dress with a short open cream cardigan layered over it; tiny orange bead charm.에 적힌 모티프 범위에 맞춰 subtle 선택.",
+        "separates_preference": "주 의상이 한 벌로 이어지는 구조라 균형 선택."
+      },
+      "random_draws": {
+        "orient": "back_to_camera",
+        "frame": "detail",
+        "lens": "wide24"
+      },
+      "random_final": {
+        "orient": "seated_twist",
+        "frame": "chest_up",
+        "lens": "telephoto135"
+      },
+      "random_adjustment_reason": "The seated twist keeps bead work and face readable, with long sleeves and single dress rather than recent tee-and-shorts or instrument blouse. These angles keep the activity visible and avoid the previous comparison pairs."
+    }
+  ],
+  "faceEvidence": {
+    "name": "파이숭이",
+    "en": "Monferno",
+    "line": "불꽃숭이",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "sharp",
+      "eye size": "medium",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "angled brows",
+      "nose character": "small delicate nose",
+      "lips": "wide mouth"
+    },
+    "why": "더 민첩해진 원숭이의 선을 타원 윤곽과 올라간 눈으로 구분한다.",
+    "cues": [
+      "몸 형태 upright → 얼굴형 균형 잡힌 타원형",
+      "불꽃 타입 → 눈꼬리 각도 올라간 눈꼬리"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 하나 너비 안팎 → 눈 사이가 넓은"
+  },
+  "sourceEvidence": {
+    "name": "파이숭이",
+    "en": "Monferno",
+    "color": "brown",
+    "shape": "upright",
+    "features": [
+      {
+        "part": "ruff",
+        "detail": "white ruff"
+      },
+      {
+        "part": "tail",
+        "detail": "long tail"
+      },
+      {
+        "part": "fur",
+        "detail": "orange fur"
+      },
+      {
+        "part": "ring",
+        "detail": "red ring"
+      },
+      {
+        "part": "tuft",
+        "detail": "small tuft"
+      },
+      {
+        "part": "tooth",
+        "detail": "two small, pointed teeth"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Monferno_%28Pok%C3%A9mon%29",
+    "revision": 4611138,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "b9903b3832e3b9d6097a1105c40249029f34528a1a5d316f6186885d12e85011",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "recentCompared": [
+    "taillow",
+    "swellow",
+    "wingull",
+    "chimchar"
+  ],
+  "comparisonTable": [
+    {
+      "name": "테일로",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "carrying_something",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "scene": "At a quiet racing circuit barrier in bright noon sun, holding a plain closed-face racing helmet at her hip. Empty grandstands with no banners.",
+          "outfit": "Navy and white cropped zip racing jacket with long sleeves, a red fitted inner top, separate mid-thigh navy shorts, yellow ankle boots; tiny swallow badge without letters.",
+          "reason": "Straight front view makes the racing uniform and carried helmet clear; changes venue, activity, sleeves and upright frontal composition from the recent librarian.",
+          "input_reasons": {
+            "scene": "Example retro_racer leaves these details unset: At a quiet racing circuit barrier in bright noon sun, holding a plain closed-face racing helmet at her hip. Empty grandstands with no banners.",
+            "outfit": "Example retro_racer is retained; the missing garment construction and source accents are specified: Navy and white cropped zip racing jacket with long sleeves, a red fitted inner top, separate mid-thigh navy shorts, yellow ankle boots; tiny swallow badge without letters.",
+            "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+          },
+          "axis_reasons": {
+            "action_level": "mostly posed fits the carrying_something activity in retro_racer.",
+            "source_influence": "strong matches the motif scope specified in this retro_racer outfit.",
+            "separates_preference": "prefer separates matches the garment layers in this retro_racer outfit."
+          },
+          "random_draws": {
+            "orient": "front",
+            "frame": "three_quarter",
+            "lens": "portrait85"
+          },
+          "random_final": {
+            "orient": "front",
+            "frame": "full_body",
+            "lens": "natural50"
+          },
+          "random_adjustment_reason": "Straight front view makes the racing uniform and carried helmet clear; changes venue, activity, sleeves and upright frontal composition from the recent librarian. These angles keep the activity visible and avoid the previous comparison pairs."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "scene": "A high apartment windowsill in soft late-afternoon light; one hand pouring from a small yellow watering can, the other lifting a dry leaf from a berry seedling.",
+          "outfit": "White square-neck short-sleeve cotton blouse ending at waist, separate denim shorts, short red waist apron layered on top; little swallow-shaped apron clasp.",
+          "reason": "High angle shows watering can and seedlings and gentle care expression; no cooking bowl, standing windowsill rather than seated crafts.",
+          "input_reasons": {
+            "scene": "Example hobby_gardening leaves these details unset: A high apartment windowsill in soft late-afternoon light; one hand pouring from a small yellow watering can, the other lifting a dry leaf from a berry seedling.",
+            "outfit": "Example hobby_gardening is retained; the missing garment construction and source accents are specified: White square-neck short-sleeve cotton blouse ending at waist, separate denim shorts, short red waist apron layered on top; little swallow-shaped apron clasp.",
+            "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+          },
+          "axis_reasons": {
+            "action_level": "balanced fits the watering activity in hobby_gardening.",
+            "source_influence": "balanced matches the motif scope specified in this hobby_gardening outfit.",
+            "separates_preference": "strongly prefer separates matches the garment layers in this hobby_gardening outfit."
+          },
+          "random_draws": {
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "lens": "documentary35"
+          },
+          "random_final": {
+            "orient": "high_angle",
+            "frame": "waist_up",
+            "lens": "portrait85"
+          },
+          "random_adjustment_reason": "High angle shows watering can and seedlings and gentle care expression; no cooking bowl, standing windowsill rather than seated crafts. These angles keep the activity visible and avoid the previous comparison pairs.",
+          "revisionReason": "Final comparison found the three-frame set duplicated Shiftry. Choose waist_up instead of chest_up and regenerate; retain the original submitted records."
+        },
+        {
+          "cat": "active",
+          "ex": "track_sprint",
+          "expr": "determined",
+          "pose": "mid_action",
+          "orient": "crouching",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "scene": "At an empty red athletics track under cool dawn floodlights, fingertips on the starting line and rear knee raised, preparing for a sprint. No lettering or lane numerals.",
+          "outfit": "Crimson round-neck sleeveless fitted sprint top and separate navy mid-thigh running shorts, plain white track shoes, no outer layer; tiny yellow swallow hair clip.",
+          "reason": "Crouched launch stance expresses the small swallow determination and differs from skating curve; dawn track, running outfit and crouched wide composition are all new.",
+          "input_reasons": {
+            "scene": "Example track_sprint leaves these details unset: At an empty red athletics track under cool dawn floodlights, fingertips on the starting line and rear knee raised, preparing for a sprint. No lettering or lane numerals.",
+            "outfit": "Example track_sprint is retained; the missing garment construction and source accents are specified: Crimson round-neck sleeveless fitted sprint top and separate navy mid-thigh running shorts, plain white track shoes, no outer layer; tiny yellow swallow hair clip.",
+            "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+          },
+          "axis_reasons": {
+            "action_level": "mostly active fits the mid_action activity in track_sprint.",
+            "source_influence": "subtle matches the motif scope specified in this track_sprint outfit.",
+            "separates_preference": "prefer separates matches the garment layers in this track_sprint outfit."
+          },
+          "random_draws": {
+            "orient": "leaning_forward",
+            "frame": "full_body",
+            "lens": "documentary35"
+          },
+          "random_final": {
+            "orient": "crouching",
+            "frame": "environmental",
+            "lens": "wide24"
+          },
+          "random_adjustment_reason": "Crouched launch stance expresses the small swallow determination and differs from skating curve; dawn track, running outfit and crouched wide composition are all new. These angles keep the activity visible and avoid the previous comparison pairs."
+        }
+      ]
+    },
+    {
+      "name": "스왈로",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "relieved",
+          "pose": "walking",
+          "orient": "side",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "scene": "A quiet black-sand coastline at sunset with small waves over her ankles; walking along the surf with hands relaxed apart and a clearly visible side profile.",
+          "outfit": "Opaque crimson deep-V halter one-piece swimsuit with white waist trim and a tiny navy swallow clasp; no cover-up.",
+          "reason": "Walking profile in warm surf replaces the recent seated pier and corset profile; sunset coastline, moving activity and one-piece halter differ.",
+          "input_reasons": {
+            "scene": "Example shoreline_walk leaves these details unset: A quiet black-sand coastline at sunset with small waves over her ankles; walking along the surf with hands relaxed apart and a clearly visible side profile.",
+            "outfit": "Example shoreline_walk is retained; the missing garment construction and source accents are specified: Opaque crimson deep-V halter one-piece swimsuit with white waist trim and a tiny navy swallow clasp; no cover-up.",
+            "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+          },
+          "axis_reasons": {
+            "action_level": "balanced fits the walking activity in shoreline_walk.",
+            "source_influence": "subtle matches the motif scope specified in this shoreline_walk outfit.",
+            "separates_preference": "balanced matches the garment layers in this shoreline_walk outfit."
+          },
+          "random_draws": {
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "lens": "wide24"
+          },
+          "random_final": {
+            "orient": "side",
+            "frame": "three_quarter",
+            "lens": "documentary35"
+          },
+          "random_adjustment_reason": "Walking profile in warm surf replaces the recent seated pier and corset profile; sunset coastline, moving activity and one-piece halter differ. These angles keep the activity visible and avoid the previous comparison pairs."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "hardware_store",
+          "expr": "curious",
+          "pose": "bending_over",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "scene": "A bright home-improvement shop aisle in morning light; examining a plain metal hinge in one hand and measuring it with a small ruler in the other. Blank packages and shelf edges.",
+          "outfit": "White shallow-V short-sleeve rib knit tee tucked into separate navy high-waist straight-leg jeans, crimson waist-length utility vest layered over it; tiny swallow zipper charm.",
+          "reason": "Forward leaning inspection gives clear two-handed technical work and curious face; tools aisle and utility vest replace fruit market and craft scenes.",
+          "input_reasons": {
+            "scene": "Example hardware_store leaves these details unset: A bright home-improvement shop aisle in morning light; examining a plain metal hinge in one hand and measuring it with a small ruler in the other. Blank packages and shelf edges.",
+            "outfit": "Example hardware_store is retained; the missing garment construction and source accents are specified: White shallow-V short-sleeve rib knit tee tucked into separate navy high-waist straight-leg jeans, crimson waist-length utility vest layered over it; tiny swallow zipper charm.",
+            "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+          },
+          "axis_reasons": {
+            "action_level": "mostly active fits the bending_over activity in hardware_store.",
+            "source_influence": "subtle matches the motif scope specified in this hardware_store outfit.",
+            "separates_preference": "strongly prefer separates matches the garment layers in this hardware_store outfit."
+          },
+          "random_draws": {
+            "orient": "over_shoulder",
+            "frame": "three_quarter",
+            "lens": "documentary35"
+          },
+          "random_final": {
+            "orient": "leaning_forward",
+            "frame": "waist_up",
+            "lens": "natural50"
+          },
+          "random_adjustment_reason": "Forward leaning inspection gives clear two-handed technical work and curious face; tools aisle and utility vest replace fruit market and craft scenes. These angles keep the activity visible and avoid the previous comparison pairs."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_music",
+          "expr": "pensive",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "scene": "A quiet loft at blue hour; seated diagonally on a piano stool with torso turned toward camera while playing a small acoustic mandolin. A blank music stand and cushion nearby.",
+          "outfit": "Crimson open-collar elbow-sleeve satin blouse ending at waist, separate white below-knee flowing skirt, no outer layer; small navy swallow earrings.",
+          "reason": "Seated twist shows both picking and fretting hands; instrument practice, loft and flowing skirt distinguish it from the prior seated charm-making.",
+          "input_reasons": {
+            "scene": "Example hobby_music leaves these details unset: A quiet loft at blue hour; seated diagonally on a piano stool with torso turned toward camera while playing a small acoustic mandolin. A blank music stand and cushion nearby.",
+            "outfit": "Example hobby_music is retained; the missing garment construction and source accents are specified: Crimson open-collar elbow-sleeve satin blouse ending at waist, separate white below-knee flowing skirt, no outer layer; small navy swallow earrings.",
+            "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+          },
+          "axis_reasons": {
+            "action_level": "mostly active fits the sitting activity in hobby_music.",
+            "source_influence": "balanced matches the motif scope specified in this hobby_music outfit.",
+            "separates_preference": "prefer separates matches the garment layers in this hobby_music outfit."
+          },
+          "random_draws": {
+            "orient": "front",
+            "frame": "chest_up",
+            "lens": "wide24"
+          },
+          "random_final": {
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "lens": "telephoto135"
+          },
+          "random_adjustment_reason": "Seated twist shows both picking and fretting hands; instrument practice, loft and flowing skirt distinguish it from the prior seated charm-making. These angles keep the activity visible and avoid the previous comparison pairs."
+        }
+      ]
+    },
+    {
+      "name": "갈모매",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "morning_lingerie",
+          "expr": "sleepy",
+          "pose": "leaning_furniture",
+          "orient": "reclining",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "scene": "A sea-view bedroom at dawn with rumpled white sheets, a bed headboard and a plain mug on a bedside table; one hand at the blanket edge and the other on the mattress.",
+          "outfit": "Opaque white cotton triangle bra and separate pale-blue high-waist briefs, no robe; delicate blue stripe piping and a small orange shell clasp.",
+          "reason": "Reclined morning cotton set differs from evening standing corset, with bedroom sheets and sleepy face instead of dresser presentation.",
+          "input_reasons": {
+            "scene": "Example morning_lingerie leaves these details unset: A sea-view bedroom at dawn with rumpled white sheets, a bed headboard and a plain mug on a bedside table; one hand at the blanket edge and the other on the mattress.",
+            "outfit": "Example morning_lingerie is retained; the missing garment construction and source accents are specified: Opaque white cotton triangle bra and separate pale-blue high-waist briefs, no robe; delicate blue stripe piping and a small orange shell clasp.",
+            "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+          },
+          "axis_reasons": {
+            "action_level": "mostly posed fits the leaning_furniture activity in morning_lingerie.",
+            "source_influence": "strong matches the motif scope specified in this morning_lingerie outfit.",
+            "separates_preference": "prefer separates matches the garment layers in this morning_lingerie outfit."
+          },
+          "random_draws": {
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "lens": "portrait85"
+          },
+          "random_final": {
+            "orient": "reclining",
+            "frame": "full_body",
+            "lens": "portrait85"
+          },
+          "random_adjustment_reason": "Reclined morning cotton set differs from evening standing corset, with bedroom sheets and sleepy face instead of dresser presentation. These angles keep the activity visible and avoid the previous comparison pairs."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_station",
+          "expr": "amused",
+          "pose": "checking_map",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "scene": "A rural coastal station in sunny midday light; a navy travel bag and a berry snack in plain wrapping. The route card has only simple abstract color blocks, no words or numerals.",
+          "outfit": "Orange scoop-neck short-sleeve tee ending at waist, separate pale-blue knee-length cargo shorts, open white hip-length light jacket layered over top; a small gull-shaped bag charm.",
+          "reason": "High view shows snack and route card on the waiting bench; station seating, travel layers and bright midday setting contrast the earlier standing lookout.",
+          "input_reasons": {
+            "scene": "Example travel_station leaves these details unset: A rural coastal station in sunny midday light; a navy travel bag and a berry snack in plain wrapping. The route card has only simple abstract color blocks, no words or numerals.",
+            "outfit": "Example travel_station is retained; the missing garment construction and source accents are specified: Orange scoop-neck short-sleeve tee ending at waist, separate pale-blue knee-length cargo shorts, open white hip-length light jacket layered over top; a small gull-shaped bag charm.",
+            "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+          },
+          "axis_reasons": {
+            "action_level": "balanced fits the checking_map activity in travel_station.",
+            "source_influence": "balanced matches the motif scope specified in this travel_station outfit.",
+            "separates_preference": "prefer separates matches the garment layers in this travel_station outfit."
+          },
+          "random_draws": {
+            "orient": "side",
+            "frame": "three_quarter",
+            "lens": "wide24"
+          },
+          "random_final": {
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "documentary35"
+          },
+          "random_adjustment_reason": "High view shows snack and route card on the waiting bench; station seating, travel layers and bright midday setting contrast the earlier standing lookout. These angles keep the activity visible and avoid the previous comparison pairs."
+        },
+        {
+          "cat": "homewear",
+          "ex": "laundry_lounge",
+          "expr": "soft_smile",
+          "pose": "turning_back",
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "scene": "A tiled home laundry room in soft evening lamplight; folding a plain white towel on a counter beside neatly stacked blue linen.",
+          "outfit": "Pale-blue scoop-neck half-sleeve cotton tee cropped at waist, separate orange soft lounge shorts, no outer layer; tiny white gull pendant.",
+          "reason": "Gentle turn back while folding a towel provides visible face and hands; domestic laundry, half-sleeve lounge clothes and turned torso avoid all earlier activities.",
+          "input_reasons": {
+            "scene": "Example laundry_lounge leaves these details unset: A tiled home laundry room in soft evening lamplight; folding a plain white towel on a counter beside neatly stacked blue linen.",
+            "outfit": "Example laundry_lounge is retained; the missing garment construction and source accents are specified: Pale-blue scoop-neck half-sleeve cotton tee cropped at waist, separate orange soft lounge shorts, no outer layer; tiny white gull pendant.",
+            "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+          },
+          "axis_reasons": {
+            "action_level": "mostly active fits the turning_back activity in laundry_lounge.",
+            "source_influence": "strong matches the motif scope specified in this laundry_lounge outfit.",
+            "separates_preference": "strongly prefer separates matches the garment layers in this laundry_lounge outfit."
+          },
+          "random_draws": {
+            "orient": "front_3q",
+            "frame": "chest_up",
+            "lens": "wide24"
+          },
+          "random_final": {
+            "orient": "over_shoulder",
+            "frame": "waist_up",
+            "lens": "natural50"
+          },
+          "random_adjustment_reason": "Gentle turn back while folding a towel provides visible face and hands; domestic laundry, half-sleeve lounge clothes and turned torso avoid all earlier activities. These angles keep the activity visible and avoid the previous comparison pairs."
+        }
+      ]
+    },
+    {
+      "name": "불꽃숭이",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "cheer_costume",
+          "expr": "laughing_open",
+          "pose": "dance_step",
+          "orient": "reaching_up",
+          "frame": "environmental",
+          "lens": "wide24",
+          "scene": "A sunlit gym floor during a solo rehearsal; lifting two plain soft pom-poms through a small practice beat, with empty wooden bleachers.",
+          "outfit": "Cream and orange opaque cheer top with a shallow V neckline and fitted short sleeves covering both shoulders and the upper arms, separate knee-length pleated red skirt with opaque undershorts, no outer layer; tiny flame clasp, no team lettering.",
+          "reason": "Cheer motion, pleated skirt and a gym replace recent racing shorts, shoreline swimsuit and bedroom cotton set; low view retains face while showing the gym.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "input_reasons": {
+            "scene": "맞는 선택지 없음 — 선택한 cheer_costume는 세부 시간대·광원·도구의 구체 배치를 정하지 않아 장면의 해당 요소만 보충.",
+            "outfit": "맞는 선택지 없음 — 별도 의상 선택기가 없어 cheer_costume의 의상 지시를 유지하며 목선·소매·기장·겹침과 색을 보충.",
+            "camera": "이미지 도구에 크기 항목이 없어 규칙에 허용된 2:3 문장만 추가."
+          },
+          "axis_reasons": {
+            "action_level": "Cheer motion, pleated skirt and a gym replace recent racing shorts, shoreline swimsuit and bedroom cotton set; low view retains face while showing the gym.",
+            "source_influence": "Cream and orange opaque cheer top with a shallow V neckline and short cap sleeves, separate mid-thigh pleated red skirt, no outer layer; tiny flame clasp, no team lettering.에 적힌 모티프 범위에 맞춰 balanced 선택.",
+            "separates_preference": "상의와 하의가 분리되어 그 구조에 맞는 분리형 강도를 선택."
+          },
+          "random_draws": {
+            "orient": "turning_midmotion",
+            "frame": "face_close",
+            "lens": "documentary35"
+          },
+          "random_final": {
+            "orient": "reaching_up",
+            "frame": "environmental",
+            "lens": "wide24"
+          },
+          "random_adjustment_reason": "Cheer motion, pleated skirt and a gym replace recent racing shorts, shoreline swimsuit and bedroom cotton set; low view retains face while showing the gym. These angles keep the activity visible and avoid the previous comparison pairs."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "focused",
+          "pose": "preparing_food",
+          "orient": "front_3q",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "scene": "Early evening in a tiled domestic kitchen; berry batter and a bare metal baking tray, with sunset reflected in a mixing bowl.",
+          "outfit": "Rust-orange square-neck short-sleeve knee-length cotton dress with a cream full bib apron layered over it; small red flame pin.",
+          "reason": "Batter mixing needs close hand visibility; square neckline, short sleeves and a one-piece dress differ from recent utility vest, casual shorts and linen folding.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "input_reasons": {
+            "scene": "맞는 선택지 없음 — 선택한 food_poffin는 세부 시간대·광원·도구의 구체 배치를 정하지 않아 장면의 해당 요소만 보충.",
+            "outfit": "맞는 선택지 없음 — 별도 의상 선택기가 없어 food_poffin의 의상 지시를 유지하며 목선·소매·기장·겹침과 색을 보충.",
+            "camera": "이미지 도구에 크기 항목이 없어 규칙에 허용된 2:3 문장만 추가."
+          },
+          "axis_reasons": {
+            "action_level": "Batter mixing needs close hand visibility; square neckline, short sleeves and a one-piece dress differ from recent utility vest, casual shorts and linen folding.",
+            "source_influence": "Rust-orange square-neck short-sleeve knee-length cotton dress with a cream full bib apron layered over it; small red flame pin.에 적힌 모티프 범위에 맞춰 balanced 선택.",
+            "separates_preference": "주 의상이 한 벌로 이어지는 구조라 균형 선택."
+          },
+          "random_draws": {
+            "orient": "turning_midmotion",
+            "frame": "environmental",
+            "lens": "natural50"
+          },
+          "random_final": {
+            "orient": "front_3q",
+            "frame": "chest_up",
+            "lens": "portrait85"
+          },
+          "random_adjustment_reason": "Batter mixing needs close hand visibility; square neckline, short sleeves and a one-piece dress differ from recent utility vest, casual shorts and linen folding. These angles keep the activity visible and avoid the previous comparison pairs."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "pottery_class",
+          "expr": "curious",
+          "pose": "sitting",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "scene": "A ceramic workshop on a cloudy afternoon; shaping a small clay bowl on a low pottery wheel, unglazed cups drying behind her.",
+          "outfit": "Brown open-collar elbow-sleeve linen shirt buttoned through the chest and ending at hip, fully covering both shoulders, separate cream ankle-length wide trousers, a red waist apron layered over them; tiny flame earring.",
+          "reason": "Side view follows the clay bowl and wheel; linen trousers and elbow sleeves distinguish this seated craft from the prior seated music and morning lingerie.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "input_reasons": {
+            "scene": "맞는 선택지 없음 — 선택한 pottery_class는 세부 시간대·광원·도구의 구체 배치를 정하지 않아 장면의 해당 요소만 보충.",
+            "outfit": "맞는 선택지 없음 — 별도 의상 선택기가 없어 pottery_class의 의상 지시를 유지하며 목선·소매·기장·겹침과 색을 보충.",
+            "camera": "이미지 도구에 크기 항목이 없어 규칙에 허용된 2:3 문장만 추가."
+          },
+          "axis_reasons": {
+            "action_level": "Side view follows the clay bowl and wheel; linen trousers and elbow sleeves distinguish this seated craft from the prior seated music and morning lingerie.",
+            "source_influence": "Brown boat-neck elbow-sleeve linen shirt ending at hip, separate cream ankle-length wide trousers, a red waist apron layered over them; tiny flame earring.에 적힌 모티프 범위에 맞춰 subtle 선택.",
+            "separates_preference": "상의와 하의가 분리되어 그 구조에 맞는 분리형 강도를 선택."
+          },
+          "random_draws": {
+            "orient": "front",
+            "frame": "environmental",
+            "lens": "documentary35"
+          },
+          "random_final": {
+            "orient": "side",
+            "frame": "full_body",
+            "lens": "documentary35"
+          },
+          "random_adjustment_reason": "Side view follows the clay bowl and wheel; linen trousers and elbow sleeves distinguish this seated craft from the prior seated music and morning lingerie. These angles keep the activity visible and avoid the previous comparison pairs."
+        }
+      ]
+    }
+  ],
+  "fixedLocked": [
+    "axis-overall_intensity",
+    "axis-skin_exposure",
+    "aspect"
+  ],
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; sharp eyes, medium size, upturned outer corners, wide-set; angled brows; small delicate nose; wide mouth.",
+  "identity_review": {
+    "reference": "img/파이숭이_light_glossy_promo_f.webp",
+    "sha256": "11f498431d521ff78e9beaaf0c3e17ef5ca2787774ab8aa8d4e24df264bc89ef",
+    "actualCompared": [
+      "테일로",
+      "스왈로",
+      "갈모매"
+    ],
+    "reason": "더 민첩해진 원숭이의 선을 타원 윤곽과 올라간 눈으로 구분한다.",
+    "검수": "최근 얼굴과 장식을 제외한 얼굴 윤곽·눈·코·입 비율을 실제 비교함."
+  }
+}
