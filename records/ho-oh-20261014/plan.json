@@ -1,0 +1,612 @@
+{
+  "name": "칠색조",
+  "slug": "ho-oh",
+  "no": 250,
+  "hair": "red",
+  "hairstyle": "wavy",
+  "eyes": "amber",
+  "body": "curvy",
+  "reason": "장중한 무지개 새의 곡선은 타원 얼굴과 부드러운 턱, 긴 아치형 눈썹, 도톰한 사람 입술로 해석한다. 마기라스의 각진 턱과 루기아의 길고 좁은 얼굴과 구별한다.",
+  "wear": "Crimson armor with ivory breastplate, gold edges and emerald-green bands. Golden crest becomes a feather-shaped crown, great red-green wings become a split layered shoulder cape, golden tail feathers become a fan of waist-sash panels. Small black ring markings decorate ankle guards; yellow beak is a small gold collar clasp, human nose and mouth stay natural.",
+  "scene": "A high temple training courtyard with red pillars and soft sunrise clouds.",
+  "faceEvidence": {
+    "name": "칠색조",
+    "en": "Ho-Oh",
+    "line": "칠색조",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "balanced nose",
+      "lips": "full lips"
+    },
+    "why": "무지개 깃의 펼침과 장중한 새의 위용을 긴 곡선 눈썹과 선명한 입술로 해석한다.",
+    "cues": [
+      "몸 형태 wings → 눈 간격 눈 사이가 가까운"
+    ],
+    "adjusted": ""
+  },
+  "sourceEvidence": {
+    "name": "칠색조",
+    "en": "Ho-Oh",
+    "color": "red",
+    "shape": "wings",
+    "features": [
+      {
+        "part": "stripe",
+        "detail": "green stripe"
+      },
+      {
+        "part": "beak",
+        "detail": "yellow beak"
+      },
+      {
+        "part": "crest",
+        "detail": "feathered, yellow crest"
+      },
+      {
+        "part": "feather",
+        "detail": "yellow tail-feathers"
+      },
+      {
+        "part": "underside",
+        "detail": "white underside"
+      },
+      {
+        "part": "ring",
+        "detail": "black rings"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_%28Pok%C3%A9mon%29",
+    "revision": 4628451,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "5b6b6041e381fb3abc4f37ba7d4c0d8028e6398b493c1d1ac6466f26bb607681",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; narrow eyes, medium size, level outer corners, close-set; long arched brows; balanced nose; full lips.",
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "slip_lingerie",
+      "expr": "sensual",
+      "pose": "leaning_furniture",
+      "orient": "leaning_forward",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "scene": "At a warm lamp-lit oak vanity before an evening fashion presentation, she chooses a small golden feather clasp from a shallow plain accessory tray with her free hand.",
+      "outfit": "Opaque ivory bias-cut satin lingerie slip with a soft V neckline, narrow straps, sleeveless construction and straight mid-thigh hem, no outer layer; a tiny golden feather pendant.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "randomized": {
+        "orient": "back",
+        "frame": "three_quarter",
+        "lens": "natural50"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "back",
+          "to": "profile_close",
+          "reason": "slip_lingerie의 활동 In a warm lamp-lit dressing room before a fashion presentation, she smooths a satin seam beside a plain oak vanity.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "three_quarter",
+          "to": "chest_up",
+          "reason": "slip_lingerie의 활동 In a warm lamp-lit dressing room before a fashion presentation, she smooths a satin seam beside a plain oak vanity.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "natural50",
+          "to": "portrait85",
+          "reason": "slip_lingerie의 활동 In a warm lamp-lit dressing room before a fashion presentation, she smooths a satin seam beside a plain oak vanity.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "orient",
+          "from": "profile_close",
+          "to": "leaning_forward",
+          "reason": "최초 및 동일 설정 재생성 두 번 모두 앞 3/4로 어긋나 화장대에 기댄 자세의 앞으로 기울임으로 변경."
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "a bias-cut satin lingerie slip with narrow straps and a straight hem",
+      "axesReasons": {
+        "action_level": "In a warm lamp-lit dressing room before a fashion presentation, she smooths a satin seam beside a plain oak vanity.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Opaque ivory bias-cut satin lingerie slip with a soft V neckline, narrow straps, sleeveless construction and straight mid-thigh hem, no outer layer; a tiny golden feather pendant.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Opaque ivory bias-cut satin lingerie slip with a soft V neckline, narrow straps, sleeveless construction and straight mid-thigh hem, no outer layer; a tiny golden feather pendant.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a warm lamp-lit oak vanity before an evening fashion presentation, she chooses a small golden feather clasp from a shallow plain accessory tray with her free hand.",
+          "reason": "슬립 예시에는 장소·활동이 없어 화장대의 깃 장신구 고르기를 추가."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque ivory bias-cut satin lingerie slip with a soft V neckline, narrow straps, sleeveless construction and straight mid-thigh hem, no outer layer; a tiny golden feather pendant.",
+          "reason": "bias-cut satin slip·narrow straps·straight hem을 유지하며 백색·V넥·허벅지 기장·작은 깃 장식 구체화."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 세로 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cat": "traditional",
+      "ex": "kimono_formal",
+      "expr": "nostalgic",
+      "pose": "turning_back",
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "lens": "wide24",
+      "scene": "At a hilltop temple approach under soft sunset light, she pauses near the stone gate while holding a small plain fabric pouch.",
+      "outfit": "Crimson formal kimono with crossed wrap neckline, wide wrist-length sleeves and ankle-length straight hem over a visible ivory inner collar, emerald obi with woven gold feather patterns; no coat.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "randomized": {
+        "orient": "high_angle",
+        "frame": "full_body",
+        "lens": "telephoto135"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "high_angle",
+          "to": "rear_3q",
+          "reason": "kimono_formal의 활동 At a hilltop temple approach under soft sunset light, she pauses near the stone gate while holding a small plain fabric pouch.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "full_body",
+          "to": "environmental",
+          "reason": "kimono_formal의 활동 At a hilltop temple approach under soft sunset light, she pauses near the stone gate while holding a small plain fabric pouch.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "telephoto135",
+          "to": "wide24",
+          "reason": "kimono_formal의 활동 At a hilltop temple approach under soft sunset light, she pauses near the stone gate while holding a small plain fabric pouch.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Kimono — Formal",
+      "axesReasons": {
+        "action_level": "At a hilltop temple approach under soft sunset light, she pauses near the stone gate while holding a small plain fabric pouch.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "Crimson formal kimono with crossed wrap neckline, wide wrist-length sleeves and ankle-length straight hem over a visible ivory inner collar, emerald obi with woven gold feather patterns; no coat.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "Crimson formal kimono with crossed wrap neckline, wide wrist-length sleeves and ankle-length straight hem over a visible ivory inner collar, emerald obi with woven gold feather patterns; no coat.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a hilltop temple approach under soft sunset light, she pauses near the stone gate while holding a small plain fabric pouch.",
+          "reason": "예시 “Kimono — Formal”가 지정하지 않은 시간·날씨·소품의 모습: At a hilltop temple approach under soft sunset light, she pauses near the stone gate while holding a small plain fabric pouch."
+        },
+        {
+          "field": "outfit",
+          "content": "Crimson formal kimono with crossed wrap neckline, wide wrist-length sleeves and ankle-length straight hem over a visible ivory inner collar, emerald obi with woven gold feather patterns; no coat.",
+          "reason": "예시 “Kimono — Formal”의 의상 조건을 유지하며 명시되지 않은 배색·목선·소매·기장·겹침 추가: Crimson formal kimono with crossed wrap neckline, wide wrist-length sleeves and ankle-length straight hem over a visible ivory inner collar, emerald obi with woven gold feather patterns; no coat."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정 항목이 없어서 세로 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_gardening",
+      "expr": "curious",
+      "pose": "squatting",
+      "orient": "crouching",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "At a low sunroom window on a clear morning, berry seedlings sit on the sill; she waters one seedling with a plain small can while checking a leaf with the other hand.",
+      "outfit": "White sweetheart-neck short-sleeve cropped blouse with a tied waist, separate emerald knee-length A-line skirt; gold seed-shaped buttons, no outer layer.",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomized": {
+        "orient": "turning_midmotion",
+        "frame": "three_quarter",
+        "lens": "telephoto135"
+      },
+      "adjustments": [
+        {
+          "key": "orient",
+          "from": "turning_midmotion",
+          "to": "crouching",
+          "reason": "hobby_gardening의 활동 At a low sunroom window on a clear morning, berry seedlings sit on the sill; she waters one seedling with a plain small can while checking a leaf with the other hand.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "frame",
+          "from": "three_quarter",
+          "to": "waist_up",
+          "reason": "hobby_gardening의 활동 At a low sunroom window on a clear morning, berry seedlings sit on the sill; she waters one seedling with a plain small can while checking a leaf with the other hand.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        },
+        {
+          "key": "lens",
+          "from": "telephoto135",
+          "to": "natural50",
+          "reason": "hobby_gardening의 활동 At a low sunroom window on a clear morning, berry seedlings sit on the sill; she waters one seedling with a plain small can while checking a leaf with the other hand.를 보이게 하고 비교 대상의 방향·프레임 짝을 피한 선택"
+        }
+      ],
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "exampleText": "Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.",
+      "axesReasons": {
+        "action_level": "At a low sunroom window on a clear morning, berry seedlings sit on the sill; she waters one seedling with a plain small can while checking a leaf with the other hand.에서 진행 중인 손동작과 몸 움직임의 정도를 선택했다.",
+        "source_influence": "White sweetheart-neck short-sleeve cropped blouse with a tied waist, separate emerald knee-length A-line skirt; gold seed-shaped buttons, no outer layer.에 남긴 원작 모티프의 크기와 선명도에 맞춘 값이다.",
+        "separates_preference": "White sweetheart-neck short-sleeve cropped blouse with a tied waist, separate emerald knee-length A-line skirt; gold seed-shaped buttons, no outer layer.의 상하의 분리와 겹침 구조에 맞췄다."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a low sunroom window on a clear morning, berry seedlings sit on the sill; she waters one seedling with a plain small can while checking a leaf with the other hand.",
+          "reason": "예시 “Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.”가 지정하지 않은 시간·날씨·소품의 모습: At a low sunroom window on a clear morning, berry seedlings sit on the sill; she waters one seedling with a plain small can while checking a leaf with the other hand."
+        },
+        {
+          "field": "outfit",
+          "content": "White sweetheart-neck short-sleeve cropped blouse with a tied waist, separate emerald knee-length A-line skirt; gold seed-shaped buttons, no outer layer.",
+          "reason": "예시 “Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.”의 의상 조건을 유지하며 명시되지 않은 배색·목선·소매·기장·겹침 추가: White sweetheart-neck short-sleeve cropped blouse with a tied waist, separate emerald knee-length A-line skirt; gold seed-shaped buttons, no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정 항목이 없어서 세로 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "lotad-20261014",
+    "lombre-20261014",
+    "ludicolo-20261014",
+    "tyranitar-20261014",
+    "lugia-20261014"
+  ],
+  "previousInBatch": [],
+  "comparison": [
+    {
+      "record": "lotad-20261014",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "thermal_spa",
+          "expr": "relieved",
+          "pose": "standing_relaxed",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Fully lined blue one-shoulder one-piece swimsuit with a diagonal neckline, sleeveless construction and high leg line, no cover layer; green leaf piping and a small yellow waist clasp."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "water_plant",
+          "expr": "focused",
+          "pose": "mid_action",
+          "orient": "leaning_forward",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Green stand-collar short-sleeve waist-length field shirt over a yellow base layer, separate blue mid-thigh cargo shorts and rubber ankle boots; tiny leaf badge without lettering."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_reading",
+          "expr": "pensive",
+          "pose": "reading_book",
+          "orient": "front_3q",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Yellow wide boat-neck fine-knit pullover with elbow-length sleeves and a cropped hem over a blue camisole, separate green midi skirt; tiny leaf earrings."
+        }
+      ]
+    },
+    {
+      "record": "lombre-20261014",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "ceremonial_instructor",
+          "expr": "confident",
+          "pose": "hand_on_hip",
+          "orient": "low_angle",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A charcoal-green lapel-neck belted jacket with long sleeves and a hip-length peplum, blue decorative sash, fitted matching shorts, gloves and no additional outer layer; a tiny red enamel clip."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_picnic",
+          "expr": "amused",
+          "pose": "side_sitting",
+          "orient": "side",
+          "frame": "chest_up",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Blue square-neck sleeveless blouse with a waist-length hem, separate green knee-length pleated skirt, red narrow belt, no outer layer; leaf-pattern picnic cloth."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "laundry",
+          "expr": "mildly_annoyed",
+          "pose": "mid_action",
+          "orient": "reaching_up",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Green scoop-neck jersey T-shirt with elbow-length sleeves and a cropped straight hem, separate loose blue ankle-length trousers with red drawcord, no outer layer."
+        }
+      ]
+    },
+    {
+      "record": "ludicolo-20261014",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "embroidered_corset",
+          "expr": "proud",
+          "pose": "leaning_wall",
+          "orient": "leaning_back",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Opaque yellow satin corset with a sweetheart neckline, sleeveless construction, waist-length boned bodice and brown zigzag folk embroidery over matching green high-waisted opaque bottoms, no outer layer."
+        },
+        {
+          "cat": "active",
+          "ex": "dance_transition",
+          "expr": "laughing_open",
+          "pose": "dance_step",
+          "orient": "turning_midmotion",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Green crew-neck short-sleeve fitted dance top with a waist-length hem, separate yellow flared above-knee skirt with brown zigzag hem trim, no outer layer and flat dance shoes."
+        },
+        {
+          "cat": "festivals_contests",
+          "ex": "fest_ribbon",
+          "expr": "curious",
+          "pose": "carrying_something",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Cream V-neck linen wrap dress with flutter elbow-length sleeves and a below-knee hem, narrow brown sash, no outer layer; one tiny green leaf brooch."
+        }
+      ]
+    },
+    {
+      "record": "tyranitar-20261014",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "hand_on_hip",
+          "orient": "front",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Sage-green fitted racing costume with open stand collar, long sleeves and waist-length cropped jacket, charcoal separate high-waist short shorts, no outer layer; grey diamond zip pull."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_trail",
+          "expr": "focused",
+          "pose": "checking_map",
+          "orient": "side",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Charcoal scoop-neck short-sleeve waist-length hiking tee over a sage-green sports layer, separate grey mid-thigh cargo shorts and ankle boots; small diamond pendant."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "pottery_class",
+          "expr": "amused",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Sage-green V-neck wrap blouse with elbow-length sleeves and waist-length hem, charcoal separate knee-length skirt under a grey waist apron; no jacket."
+        }
+      ]
+    },
+    {
+      "record": "lugia-20261014",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "gentle",
+          "pose": "walking",
+          "orient": "looking_away",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque pearl-white scoop-neck sleeveless one-piece swimsuit with high leg line and cobalt piping, no cover layer; a tiny navy feather hair clip."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_music",
+          "expr": "pensive",
+          "pose": "sitting_floor",
+          "orient": "reclining",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White square-neck camisole with waist-length hem under a cobalt open cardigan with wrist-length sleeves, separate white soft mid-thigh shorts; no further layer."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "calm",
+          "pose": "mid_stride",
+          "orient": "front_3q",
+          "frame": "three_quarter",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Navy open-collar long-sleeve hip-length rain jacket over a white V-neck top, separate blue knee-length pleated skirt and simple rain boots; tiny feather zipper pull."
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "slot": "casual1",
+      "changedInputs": {
+        "orient": "leaning_forward",
+        "scene": "At a warm lamp-lit oak vanity before an evening fashion presentation, she chooses a small golden feather clasp from a shallow plain accessory tray with her free hand."
+      },
+      "reason": "profile_close 최초+동일 설정 재생성 두 번 모두 앞 3/4로 어긋남. 화장대에 기댄 장면에 맞는 leaning_forward로 바꾸고 손 활동을 작은 장신구 고르기로 명료화.",
+      "references": "light ①; partial fixes may additionally attach edit target"
+    }
+  ],
+  "actualFaceComparison": {
+    "characters": [
+      "연꽃몬",
+      "로토스",
+      "로파파",
+      "마기라스",
+      "루기아"
+    ],
+    "evidence": "칠색조는 부드러운 타원 윤곽·긴 아치 눈썹·중간 크기 좁은 눈·도톰한 입술. 루기아의 긴 좁은 턱과 처진 아몬드 눈, 마기라스의 각진 하관과 낮은 굵은 눈썹, 로파파의 둥근 눈과 짧은 턱과 구별됨."
+  }
+}
