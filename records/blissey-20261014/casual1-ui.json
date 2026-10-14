@@ -1,0 +1,81 @@
+{
+  "state_capture": "Selected in live deployed UI; state reconstructed from observed DOM controls, prompt reproduced by same repository engine and compared to visible output",
+  "input": {
+    "cat": "adult_roleplay",
+    "ex": "adult_nurse",
+    "expr": "gentle",
+    "pose": "standing_formal",
+    "orient": "front",
+    "frame": "chest_up",
+    "lens": "portrait85",
+    "scene": "At a pastel charity costume fair in a bright atrium, holding a small blank white first-aid pouch near her chest.",
+    "outfit": "White opaque tailored short-sleeve nurse costume with pink piping and a small egg-shaped clasp; plain unlettered cap.",
+    "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "style": "glossy_promo",
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Blissey (해피너스) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: softly lowered brows, warm relaxed eyes, faint closed-lip smile, no tension anywhere\nPose: Stand upright with a balanced stance and a composed posture.\nOrientation: torso and pelvis face the camera; gaze is independent\nScene: At a pastel charity costume fair in a bright atrium, holding a small blank white first-aid pouch near her chest.\nOutfit and props: White opaque tailored short-sleeve nurse costume with pink piping and a small egg-shaped clasp; plain unlettered cap.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a fictional retro nurse-inspired costume at a theatrical costume event, using original decorative symbols rather than authentic hospital identification\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "해피너스",
+    "cards": {
+      "해피너스": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "scenes": {
+          "casual": {
+            "expr": "gentle",
+            "pose": "standing_formal",
+            "orient": "front",
+            "scene": "At a pastel charity costume fair in a bright atrium, holding a small blank white first-aid pouch near her chest.",
+            "outfit": "White opaque tailored short-sleeve nurse costume with pink piping and a small egg-shaped clasp; plain unlettered cap.",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "adult_nurse",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

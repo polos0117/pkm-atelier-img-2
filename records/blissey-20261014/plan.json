@@ -1,0 +1,245 @@
+{
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "adult_nurse",
+      "expr": "gentle",
+      "pose": "standing_formal",
+      "orient": "front",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "scene": "At a pastel charity costume fair in a bright atrium, holding a small blank white first-aid pouch near her chest.",
+      "outfit": "White opaque tailored short-sleeve nurse costume with pink piping and a small egg-shaped clasp; plain unlettered cap.",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "style": "glossy_promo",
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "orient": "over_shoulder",
+        "frame": "environmental",
+        "lens": "wide24"
+      },
+      "random_adjustment_reasons": "Nurse event styling is best legible from the front; the full venue is secondary to the clasp and pouch.",
+      "axis_reasons": {
+        "action_level": "Held upright pouch presentation at the costume event.",
+        "source_influence": "Pink edging and an egg clasp make a few clear Blissey echoes.",
+        "separates_preference": "The nurse costume is a single tailored dress."
+      },
+      "input_reasons": {
+        "scene": "Example omits the charity atrium and the pouch prop.",
+        "outfit": "Example defines nurse costume, but not pink trim and egg clasp.",
+        "camera": "Image tool has no size parameter; required vertical 1024×1536."
+      },
+      "example_text": "a fictional retro nurse-inspired costume at a theatrical costume event, using original decorative symbols rather than authentic hospital identification",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a pastel charity costume fair in a bright atrium, holding a small blank white first-aid pouch near her chest.",
+          "reason": "Example omits the charity atrium and the pouch prop."
+        },
+        {
+          "field": "outfit",
+          "content": "White opaque tailored short-sleeve nurse costume with pink piping and a small egg-shaped clasp; plain unlettered cap.",
+          "reason": "Example defines nurse costume, but not pink trim and egg clasp."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required vertical 1024×1536."
+        }
+      ]
+    },
+    {
+      "cat": "food_berries",
+      "ex": "food_poffin",
+      "expr": "focused",
+      "pose": "preparing_food",
+      "orient": "leaning_forward",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "scene": "A sunlit berry kitchen with bowls of pink berry puree and fresh dough on a wooden worktop.",
+      "outfit": "A cream scoop-neck short-sleeve cotton blouse ending at the waist, a separate blush calf-length pleated skirt, and a short white apron tied over it; small oval pink earrings.",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "style": "glossy_promo",
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "orient": "leaning_forward",
+        "frame": "face_close",
+        "lens": "telephoto135"
+      },
+      "random_adjustment_reasons": "Face close-up hides the bowl and hands; wider framing includes the cooking worktop.",
+      "axis_reasons": {
+        "action_level": "Batter mixing is an ongoing utensil action.",
+        "source_influence": "Pink berry dough, skirt and oval jewelry emphasize a recognizable palette.",
+        "separates_preference": "The blouse and pleated skirt are separate garments with an apron."
+      },
+      "input_reasons": {
+        "scene": "Example lacks time, berry colors and wooden countertop.",
+        "outfit": "Example defines cooking activity, not the blouse neck, sleeves, skirt length or apron.",
+        "camera": "Image tool has no size parameter; required vertical 1024×1536."
+      },
+      "example_text": "Mixing Poffin batter in a bowl at a home kitchen counter, with berries and a baking tray nearby.",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A sunlit berry kitchen with bowls of pink berry puree and fresh dough on a wooden worktop.",
+          "reason": "Example lacks time, berry colors and wooden countertop."
+        },
+        {
+          "field": "outfit",
+          "content": "A cream scoop-neck short-sleeve cotton blouse ending at the waist, a separate blush calf-length pleated skirt, and a short white apron tied over it; small oval pink earrings.",
+          "reason": "Example defines cooking activity, not the blouse neck, sleeves, skirt length or apron."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required vertical 1024×1536."
+        }
+      ]
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_reading",
+      "expr": "pensive",
+      "pose": "reading_book",
+      "orient": "looking_down",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "A quiet attic reading nook at blue dusk, an unlettered illustrated field guide open across her hands.",
+      "outfit": "A lilac crew-neck elbow-sleeve waist-length knit top and a separate ivory ankle-length skirt, no outer layer; one tiny oval pink bracelet charm.",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "style": "glossy_promo",
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "orient": "profile_close",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "random_adjustment_reasons": "Profile crop obscures both-page grip; after two repeated failures the gaze now follows the book downward.",
+      "axis_reasons": {
+        "action_level": "Turning a page is a quiet, paused reading activity.",
+        "source_influence": "Only a small pink bracelet echoes the armor palette.",
+        "separates_preference": "Crew-neck knit and long skirt are visibly separate pieces."
+      },
+      "input_reasons": {
+        "scene": "Example lacks attic setting, blue dusk and unlettered guide.",
+        "outfit": "Example specifies reading, not knit neckline, sleeve length and separate skirt.",
+        "camera": "Image tool has no size parameter; required vertical 1024×1536."
+      },
+      "example_text": "Turning a page of an illustrated Pokémon field guide while seated by a window with a cup of tea.",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A quiet attic reading nook at blue dusk, an unlettered illustrated field guide open across her hands.",
+          "reason": "Example lacks attic setting, blue dusk and unlettered guide."
+        },
+        {
+          "field": "outfit",
+          "content": "A lilac crew-neck elbow-sleeve waist-length knit top and a separate ivory ankle-length skirt, no outer layer; one tiny oval pink bracelet charm.",
+          "reason": "Example specifies reading, not knit neckline, sleeve length and separate skirt."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required vertical 1024×1536."
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    "magby-20261014",
+    "elekid-20261014",
+    "smoochum-20261014"
+  ],
+  "faceCompared": [
+    "마그비",
+    "에레키드",
+    "뽀뽀라",
+    "럭키"
+  ],
+  "faceComparison": "Blissey has a longer, softer lower face and descending outer eye corners; Smoochum is short heart-faced with wide teal eyes, Elekid has an angular slanted gaze, Magby fuller lips and raised outer eyes; Chansey's blue eyes and shorter rounded lower face differ.",
+  "diversityReview": "Event nurse blouse/dress with pouch upright, full-body kitchen mixing in short sleeves and skirt, seated attic reading in elbow sleeves. Unlike recent hardware shopping / shoreline walking / skating, lab event / camp / pottery, dealer event / instrument / shoreline study.",
+  "retries": [
+    {
+      "slot": "casual3",
+      "rejected": [
+        "exec-b4050cd0-da89-4ace-9fe7-fca3a9909ff0.png",
+        "exec-038cfe4a-9bf5-4074-87bc-b17e60fba8ca.png",
+        "exec-9730daf7-1c96-4b85-8b4c-163f10e81e8b.png"
+      ],
+      "reason": "Gaze stayed at camera; second retry also introduced a third hand. Changed expression/orientation/outfit after two unsuccessful repeats."
+    },
+    {
+      "slot": "casual3-correction",
+      "reason": "Final downward-gaze image had tiny book print; erased only printing with anchor and target attached."
+    }
+  ],
+  "character": "해피너스",
+  "style": "glossy_promo",
+  "faceEvidence": {
+    "name": "해피너스",
+    "en": "Blissey",
+    "line": "핑복",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "wide",
+      "jaw & chin": "wide heavy chin",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "rounded soft tip",
+      "lips": "medium lips"
+    },
+    "why": "행복과 돌봄의 전승 및 큰 알형 몸을 넓고 완만한 얼굴로 구분한다.",
+    "cues": [],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운, 입술 도톰한 입술 → 보통"
+  },
+  "faceSource": "data/source-appearance.json",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; almond eyes, medium size, downturned outer corners, close-set; long arched brows; rounded soft tip nose; medium lips."
+}

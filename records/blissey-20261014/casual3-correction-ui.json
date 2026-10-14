@@ -1,0 +1,33 @@
+{
+  "state_capture": "Selected in live deployed UI; state reconstructed from observed DOM controls, prompt reproduced by same repository engine and compared to visible output",
+  "input": {
+    "cat": "hobbies_leisure",
+    "ex": "hobby_reading",
+    "expr": "pensive",
+    "pose": "reading_book",
+    "orient": "looking_down",
+    "frame": "waist_up",
+    "lens": "natural50",
+    "scene": "A quiet attic reading nook at blue dusk, an unlettered illustrated field guide open across her hands.",
+    "outfit": "A lilac crew-neck elbow-sleeve waist-length knit top and a separate ivory ankle-length skirt, no outer layer; one tiny oval pink bracelet charm.",
+    "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "strongly prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "style": "glossy_promo",
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    },
+    "custom": "Partial correction target: the second attached image. Erase the tiny printed marks on the open book pages and leave only botanical color illustrations. Preserve every other pixel-level feature, including the two hands, face, downward gaze, sleeves, composition and lighting."
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Blissey (해피너스) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: gaze angled down and away, slightly furrowed brow, lips lightly pressed or touched\nPose: Hold an open book with readable finger placement and look toward its pages.\nOrientation: gaze directed downward; camera height unchanged\nScene: A quiet attic reading nook at blue dusk, an unlettered illustrated field guide open across her hands.\nOutfit and props: A lilac crew-neck elbow-sleeve waist-length knit top and a separate ivory ankle-length skirt, no outer layer; one tiny oval pink bracelet charm.\nCategory: Show a personal hobby or restful leisure moment with a specific action and relevant objects. Pokémon motifs may appear naturally in the activity, without requiring armor, a uniform or a companion.\nExample scene: Turning a page of an illustrated Pokémon field guide while seated by a window with a cup of tea.\nNote: Partial correction target: the second attached image. Erase the tiny printed marks on the open book pages and leave only botanical color illustrations. Preserve every other pixel-level feature, including the two hands, face, downward gaze, sleeves, composition and lighting.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra."
+}
