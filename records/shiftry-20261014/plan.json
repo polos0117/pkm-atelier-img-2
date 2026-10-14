@@ -548,5 +548,179 @@
       "reason": "Initial skirt high-low front too short, neckline too low; corrected even below-knee skirt and shallow boat neck."
     }
   ],
-  "actualFaceComparison": "Shiftry has a longer angular jaw/cheek plane, long projecting human nose, horizontal narrow eyes and firmer broad mouth. Seedot is compact and round-eyed; Nuzleaf has softer tapered chin, upturned almond eyes and thinner lips. White hair is supplemental, not the sole difference."
+  "actualFaceComparison": "Shiftry has a longer angular jaw/cheek plane, long projecting human nose, horizontal narrow eyes and firmer broad mouth. Seedot is compact and round-eyed; Nuzleaf has softer tapered chin, upturned almond eyes and thinner lips. White hair is supplemental, not the sole difference.",
+  "final_selected_value_comparison": [
+    {
+      "cat": "swimwear",
+      "ex": "river_dock",
+      "expr": "relieved",
+      "pose": "perched_seat",
+      "orient": "leaning_back",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "scene": "A quiet wooden lake pier in noon sunlight; seated on the edge with both hands behind her on the boards, head turned gently toward camera.",
+      "outfit": "Opaque brown and cream leaf-trimmed one-piece swimsuit with a green leaf-shaped clasp at the shoulder; no outer layer or armor headpiece.",
+      "reason": "Leaning back on a pier shows a relaxed water break and distinguishes active rink and work scenes.",
+      "input_reasons": {
+        "scene": "river_dock defines the pier but not seated water rest in noon light.",
+        "outfit": "The example does not specify opaque one-piece, brown/cream leaf trim or the small clasp.",
+        "camera": "Image tool has no size argument; explicit vertical 1024×1536 request."
+      },
+      "random_draws": {
+        "orient": "crouching",
+        "frame": "detail",
+        "lens": "natural50"
+      },
+      "random_final": {
+        "orient": "leaning_back",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "random_adjustment_reason": "Leaning back on a pier shows a relaxed water break and distinguishes active rink and work scenes. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "axis_reasons": {
+        "action_level": "Seated lake rest with supporting hands is stationary.",
+        "source_influence": "Green leaf seams and brown/cream color make the source motif clear without armor.",
+        "separates_preference": "The swimsuit is one garment."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A quiet wooden lake pier in noon sunlight; seated on the edge with both hands behind her on the boards, head turned gently toward camera.",
+          "reason": "river_dock defines the pier but not seated water rest in noon light."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque brown and cream leaf-trimmed one-piece swimsuit with a green leaf-shaped clasp at the shoulder; no outer layer or armor headpiece.",
+          "reason": "The example does not specify opaque one-piece, brown/cream leaf trim or the small clasp."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; explicit vertical 1024×1536 request."
+        }
+      ]
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_craft",
+      "expr": "curious",
+      "pose": "cross_legged",
+      "orient": "front_3q",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "Sitting cross-legged on a broad floor cushion beside a low hobby table, threading green and wood beads into a small leaf travel charm under soft rainy-afternoon window light.",
+      "outfit": "Beige V-neck elbow-sleeve linen blouse ending at the waist, separate olive knee-length wrap skirt; no jacket, a small leaf earring. No armor headpiece.",
+      "reason": "Front three-quarter view keeps bead threading hands and cross-legged posture legible.",
+      "input_reasons": {
+        "scene": "hobby_craft sets bead threading; floor cushion and rainy window light supplement it.",
+        "outfit": "The example has no V-neck elbow-sleeve linen blouse or knee-length skirt.",
+        "camera": "Image tool has no size argument; explicit vertical 1024×1536 request."
+      },
+      "random_draws": {
+        "orient": "reclining",
+        "frame": "detail",
+        "lens": "wide24"
+      },
+      "random_final": {
+        "orient": "front_3q",
+        "frame": "waist_up",
+        "lens": "portrait85"
+      },
+      "random_adjustment_reason": "Front three-quarter view keeps bead threading hands and cross-legged posture legible. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "axis_reasons": {
+        "action_level": "Threading beads is the active two-hand activity.",
+        "source_influence": "Green/brown beads and leaf charm foreground the species motif in everyday craft.",
+        "separates_preference": "Blouse and skirt are separate but no stronger default is needed with explicit outfit; adjusted to avoid previous active/strong/strongly-prefer triple."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Sitting cross-legged on a broad floor cushion beside a low hobby table, threading green and wood beads into a small leaf travel charm under soft rainy-afternoon window light.",
+          "reason": "hobby_craft sets bead threading; floor cushion and rainy window light supplement it."
+        },
+        {
+          "field": "outfit",
+          "content": "Beige V-neck elbow-sleeve linen blouse ending at the waist, separate olive knee-length wrap skirt; no jacket, a small leaf earring. No armor headpiece.",
+          "reason": "The example has no V-neck elbow-sleeve linen blouse or knee-length skirt."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; explicit vertical 1024×1536 request."
+        }
+      ]
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "rain_walk",
+      "expr": "wistful",
+      "pose": "walking",
+      "orient": "looking_away",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "A residential cobbled lane at blue hour after rain; walking with a plain clear umbrella held in one hand while the other hand brushes a hanging branch gently, gaze across the lane.",
+      "outfit": "Cream crew-neck long-sleeve top, separate chestnut high-waist shorts and calf-high rain boots, an open olive hip-length raincoat layered over the top; small leaf pull tab. No armor headpiece.",
+      "reason": "Looking across the lane preserves visible face while the walking raincoat silhouette differs from seated craft.",
+      "input_reasons": {
+        "scene": "rain_walk gives rain walking but no blue-hour lane, clear umbrella or branch touch.",
+        "outfit": "No outfit menu offers crew-neck long sleeves, shorts, hip coat and tall boots.",
+        "camera": "Image tool has no size argument; explicit vertical 1024×1536 request."
+      },
+      "random_draws": {
+        "orient": "low_angle",
+        "frame": "environmental",
+        "lens": "portrait85"
+      },
+      "random_final": {
+        "orient": "looking_away",
+        "frame": "chest_up",
+        "lens": "natural50"
+      },
+      "random_adjustment_reason": "Original three-quarter frame duplicated Tyranitar frame-set combination; chest-up keeps umbrella grip, branch-touching hand and expression visible while the three-frame set is now distinct.",
+      "axis_reasons": {
+        "action_level": "Walking under umbrella is gentle movement.",
+        "source_influence": "Only leaf pull tab and restrained olive accents remain.",
+        "separates_preference": "Top and shorts are separate under an open raincoat."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A residential cobbled lane at blue hour after rain; walking with a plain clear umbrella held in one hand while the other hand brushes a hanging branch gently, gaze across the lane.",
+          "reason": "rain_walk gives rain walking but no blue-hour lane, clear umbrella or branch touch."
+        },
+        {
+          "field": "outfit",
+          "content": "Cream crew-neck long-sleeve top, separate chestnut high-waist shorts and calf-high rain boots, an open olive hip-length raincoat layered over the top; small leaf pull tab. No armor headpiece.",
+          "reason": "No outfit menu offers crew-neck long sleeves, shorts, hip coat and tall boots."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; explicit vertical 1024×1536 request."
+        }
+      ]
+    }
+  ],
+  "final_diversity_verification": "Final selected values verified after Nuzleaf preference/frame revisions. All pair/set/source-count/triple conditions now pass; actual final images remain visually different in task/outfit/pose."
 }

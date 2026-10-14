@@ -13,7 +13,15 @@
   ],
   "reference": "img/도토링_light_glossy_promo_f.webp",
   "referenceSha256": "e2044784ce9ac431b468b25ad21160a13c9b4bce341db5bdc5c73d048a666125",
-  "remote": "Included in this character commit on main; git log -- img/도토링_light_glossy_promo_f.webp locates the exact commit.",
+  "remote": {
+    "repository": "polos0117/pkm-atelier-img-2",
+    "mainImageCommit": "3ede7598d50525966b24abcc023069afae2c0bbe",
+    "finalImageRevisionCommit": null,
+    "codeCommit": "a20b5075002a74b316ab3cf6de154ac952add7d2",
+    "registrationCommit": "dcf317ac2faa2ae56b5ec8f3cc9c44af66372c48",
+    "status": "27-image batch complete; all character images and thumbnails on main, all slots registered"
+  },
   "durableReference": "https://github.com/polos0117/pkm-atelier-img-2/blob/main/img/도토링_light_glossy_promo_f.webp",
-  "validation": "register-images.py --check passed with 9 new entries; closed repository tree checked for duplicate names. Old image files are not checked out locally and are never pruned."
+  "validation": "register-images.py --check passed with 9 new entries; closed repository tree checked for duplicate names. Old image files are not checked out locally and are never pruned.",
+  "verification": "All 27 decoded at 1024x1536, actual UI prompts recorded, current remote blob SHA matched final files, all thumbnails present, 6 form slots + 3 casual slots per character in data/img.json, where=1; all pre-task registered filenames preserved."
 }
