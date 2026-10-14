@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "images": 9,
+  "format": "WEBP",
+  "size": [
+    1024,
+    1536
+  ],
+  "identity": "All nine retain long brown/olive hair, heavy brows, broad jaw, green eyes and statuesque build from approved light anchor; compared against earlier Turtwig/Grotle faces.",
+  "forms": "Light single layer; Heavy broad second plates and open face helmet; Mobility swept segmented panels with compact thrusters. Three opened pairs keep head/hand/foot positions and camera while widening existing plate seams with green inner-frame emission.",
+  "casuals": [
+    {
+      "slot": "casual1",
+      "evidence": "High zipped green sports one-piece, ivory branch panels, full head and bare feet, one raised hand under stream and opposite hand washing forearm; fingertips separated and hands outside hair. Relaxed half-closed eyes and open exhale mouth."
+    },
+    {
+      "slot": "casual2",
+      "evidence": "Flexed knees at low gridded fossil tray, short rolled sleeves and tied collared ivory shirt, brown cargo shorts. Brush touching sediment near spiral fossil; opposite hand bracing tray. Furrowed steady serious gaze; fingers follow brush and tray contacts."
+    },
+    {
+      "slot": "casual3",
+      "evidence": "Complete standing figure and large mountain valley, side body and readable face profile at compact binoculars. Both hands at barrels, long green sleeves, open brown waistcoat, separate wide ivory trousers, folded map. Slight furrow and pressed mouth; twilight stars and lantern visible."
+    }
+  ],
+  "diversity": "Viewed torterra-review.jpg against recent-torterra/review.jpg, turtwig-review.jpg and grotle-review.jpg: sports rinse, crouched geological brushing and standing valley observation differ in location, task, silhouette, sleeves, framing and hand action. No repeated direction/frame pair in recorded comparison set.",
+  "negative": "No visible text, logos, watermark, second person, creature, weapons or additional limbs.",
+  "checks": [
+    "register-images.py --check: nine new slots, existing slots preserved; partial local image checkout warnings retained without prune",
+    "tests/forms.cjs: pass",
+    "tests/img-shards.cjs: pass"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "state_capture": "Selected in live deployed UI; state reconstructed from observed DOM controls, prompt reproduced by same repository engine and compared to visible output",
+  "input": {
+    "style": "glossy_promo",
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axis:overall_intensity": true,
+      "axis:skin_exposure": true,
+      "aspect": true
+    },
+    "cat": "swimwear",
+    "ex": "sport_onepiece",
+    "expr": "relieved",
+    "pose": "mid_action",
+    "orient": "reaching_up",
+    "frame": "full_body",
+    "lens": "documentary35",
+    "scene": "Late morning at a quiet resort rinse station with an unlabelled stone wall, she washes one forearm with her other hand under the overhead stream after swimming; droplets catch the sunlight.",
+    "outfit": "A fully lined forest-green sporty one-piece swimsuit with a secure high zip neckline, broad shoulder straps, ivory oak-branch side panels and a standard leg line; a small leaf hair clip.",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+    },
+    "custom": "Both hands remain separate from hair and shower hardware, with clear silhouettes against the sky."
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Torterra (토대부기) personified, grass / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: reach upward with natural shoulder articulation\nScene: Late morning at a quiet resort rinse station with an unlabelled stone wall, she washes one forearm with her other hand under the overhead stream after swimming; droplets catch the sunlight.\nOutfit and props: A fully lined forest-green sporty one-piece swimsuit with a secure high zip neckline, broad shoulder straps, ivory oak-branch side panels and a standard leg line; a small leaf hair clip.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: a sporty one-piece swimsuit with a racerback and a high neckline in solid performance fabric\nNote: Both hands remain separate from hair and shower hardware, with clear silhouettes against the sky.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "actual_ui_selection_confirmed": true,
+  "capture_method": "Observed deployed generator DOM controls, selected values, locked buttons and prompt-output; localStorage is unavailable in browser read-only scope.",
+  "storage_reconstruction": {
+    "scenes": {
+      "casual": {
+        "expr": "relieved",
+        "pose": "mid_action",
+        "orient": "reaching_up",
+        "scene": "Late morning at a quiet resort rinse station with an unlabelled stone wall, she washes one forearm with her other hand under the overhead stream after swimming; droplets catch the sunlight.",
+        "outfit": "A fully lined forest-green sporty one-piece swimsuit with a secure high zip neckline, broad shoulder straps, ivory oak-branch side panels and a standard leg line; a small leaf hair clip.",
+        "frame": "full_body",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "Both hands remain separate from hair and shower hardware, with clear silhouettes against the sky.",
+        "aspect": "2:3",
+        "cat": "swimwear",
+        "ex": "sport_onepiece",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "randomLocks": {
+          "axis:overall_intensity": true,
+          "axis:skin_exposure": true,
+          "aspect": true
+        }
+      }
+    }
+  }
+}
