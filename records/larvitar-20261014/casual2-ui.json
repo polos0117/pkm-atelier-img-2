@@ -1,0 +1,110 @@
+{
+  "state_capture": "Reconstructed from observed live UI controls; localStorage not exposed. Exact submitted prompt matched visible output.",
+  "input": {
+    "cat": "travel_exploration",
+    "ex": "travel_camp",
+    "expr": "relieved",
+    "pose": "kneeling",
+    "orient": "over_shoulder",
+    "frame": "environmental",
+    "lens": "documentary35",
+    "scene": "A rocky pine-forest campsite in cool morning mist; the blanket is plain rust-colored canvas.",
+    "outfit": "A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer.",
+    "axes": {
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "style": "glossy_promo",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    },
+    "input_reasons": {
+      "scene": "The chosen example omits these distinct setting details: A rocky pine-forest campsite in cool morning mist; the blanket is plain rust-colored canvas.",
+      "outfit": "Chosen example does not set this garment cut, sleeve, hem and layers: A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer.",
+      "camera": "Image tool has no size parameter; required vertical 1024x1536."
+    },
+    "axis_reasons": {
+      "action_level": "Hands actively fold a camping blanket beside the tent.",
+      "source_influence": "Only a tiny red zipper charm remains from the original motif.",
+      "separates_preference": "A long-sleeve thermal shirt and full hiking trousers are separate practical garments."
+    },
+    "random_adjustments": {
+      "draw": {
+        "orient": "rear_3q",
+        "frame": "detail",
+        "lens": "portrait85"
+      },
+      "final": {
+        "orient": "over_shoulder",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "reason": "Hands-only crop hides identity and tent; supported kneeling with a small natural look-back allows a full forest-camp task and avoids the earlier laundry side view."
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Larvitar (애버라스) personified, rock / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened\nPose: Kneel in a stable supported position suited to a low task or interaction.\nOrientation: body turned away, head looking back over a shoulder\nScene: A rocky pine-forest campsite in cool morning mist; the blanket is plain rust-colored canvas.\nOutfit and props: A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer.\nCategory: Show travel or peaceful field exploration in the Pokémon world, with useful travel clothing and a specific activity. Let the environment support the woman without overwhelming her or turning the scene into combat.\nExample scene: Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "애버라스",
+    "cards": {
+      "애버라스": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "green",
+          "hairstyle": "wolf cut",
+          "hair length": "short",
+          "bangs": "choppy bangs"
+        },
+        "locks": {},
+        "scenes": {
+          "casual": {
+            "expr": "relieved",
+            "pose": "kneeling",
+            "orient": "over_shoulder",
+            "scene": "A rocky pine-forest campsite in cool morning mist; the blanket is plain rust-colored canvas.",
+            "outfit": "A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer.",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "travel_exploration",
+            "catCustom": "",
+            "ex": "travel_camp",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

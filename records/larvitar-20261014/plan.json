@@ -1,0 +1,484 @@
+{
+  "character": "애버라스",
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "natural50",
+      "scene": "A quiet vintage motorsport festival paddock at noon, behind an unlettered white track barrier.",
+      "outfit": "A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots.",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "style": "glossy_promo",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "input_reasons": {
+        "scene": "The chosen example omits these distinct setting details: A quiet vintage motorsport festival paddock at noon, behind an unlettered white track barrier.",
+        "outfit": "Chosen example does not set this garment cut, sleeve, hem and layers: A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots.",
+        "camera": "Image tool has no size parameter; required vertical 1024x1536."
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "lens": "telephoto135"
+        },
+        "final": {
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "natural50"
+        },
+        "reason": "Track-barrier grid styling uses an upright forward torso and shows the cropped jacket and boots; avoid prior leaning-back full-body bikini composition."
+      },
+      "axis_reasons": {
+        "action_level": "A hand-on-hip grid-costume presentation is held, not moving.",
+        "source_influence": "Sage jacket and red diamond shorts provide a few original-color cues.",
+        "separates_preference": "Cropped jacket over fitted top and separate shorts need clearly separate layers."
+      },
+      "example_text": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A quiet vintage motorsport festival paddock at noon, behind an unlettered white track barrier.",
+          "reason": "The chosen example omits these distinct setting details: A quiet vintage motorsport festival paddock at noon, behind an unlettered white track barrier."
+        },
+        {
+          "field": "outfit",
+          "content": "A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots.",
+          "reason": "Chosen example does not set this garment cut, sleeve, hem and layers: A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required vertical 1024x1536."
+        }
+      ]
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_camp",
+      "expr": "relieved",
+      "pose": "kneeling",
+      "orient": "over_shoulder",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "scene": "A rocky pine-forest campsite in cool morning mist; the blanket is plain rust-colored canvas.",
+      "outfit": "A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer.",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "style": "glossy_promo",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "input_reasons": {
+        "scene": "The chosen example omits these distinct setting details: A rocky pine-forest campsite in cool morning mist; the blanket is plain rust-colored canvas.",
+        "outfit": "Chosen example does not set this garment cut, sleeve, hem and layers: A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer.",
+        "camera": "Image tool has no size parameter; required vertical 1024x1536."
+      },
+      "axis_reasons": {
+        "action_level": "Hands actively fold a camping blanket beside the tent.",
+        "source_influence": "Only a tiny red zipper charm remains from the original motif.",
+        "separates_preference": "A long-sleeve thermal shirt and full hiking trousers are separate practical garments."
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "rear_3q",
+          "frame": "detail",
+          "lens": "portrait85"
+        },
+        "final": {
+          "orient": "over_shoulder",
+          "frame": "environmental",
+          "lens": "documentary35"
+        },
+        "reason": "Hands-only crop hides identity and tent; supported kneeling with a small natural look-back allows a full forest-camp task and avoids the earlier laundry side view."
+      },
+      "example_text": "Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite.",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A rocky pine-forest campsite in cool morning mist; the blanket is plain rust-colored canvas.",
+          "reason": "The chosen example omits these distinct setting details: A rocky pine-forest campsite in cool morning mist; the blanket is plain rust-colored canvas."
+        },
+        {
+          "field": "outfit",
+          "content": "A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer.",
+          "reason": "Chosen example does not set this garment cut, sleeve, hem and layers: A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required vertical 1024x1536."
+        }
+      ]
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "record_store",
+      "expr": "mildly_annoyed",
+      "pose": "mid_action",
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "scene": "An old brick record shop under amber evening pendant lights; sliding one blank cream record sleeve halfway out of a waist-high wooden bin.",
+      "outfit": "A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer.",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "style": "glossy_promo",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "input_reasons": {
+        "scene": "The chosen example omits these distinct setting details: An old brick record shop under amber evening pendant lights; sliding one blank cream record sleeve halfway out of a waist-high wooden bin.",
+        "outfit": "Chosen example does not set this garment cut, sleeve, hem and layers: A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer.",
+        "camera": "Image tool has no size parameter; required vertical 1024x1536."
+      },
+      "axis_reasons": {
+        "action_level": "She slides a record sleeve out of a bin in a continuous hand action.",
+        "source_influence": "Green waist belt and red diamond earrings echo the original palette.",
+        "separates_preference": "A midi dress is one garment, so one-piece and separates remain balanced."
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "looking_away",
+          "frame": "full_body",
+          "lens": "portrait85"
+        },
+        "final": {
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "portrait85"
+        },
+        "reason": "Overhead view makes the bin and sliding record sleeve readable while keeping facial expression; unlike the earlier high-angle knees-up railway wait."
+      },
+      "example_text": "Vinyl Record Store",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "An old brick record shop under amber evening pendant lights; sliding one blank cream record sleeve halfway out of a waist-high wooden bin.",
+          "reason": "The chosen example omits these distinct setting details: An old brick record shop under amber evening pendant lights; sliding one blank cream record sleeve halfway out of a waist-high wooden bin."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer.",
+          "reason": "Chosen example does not set this garment cut, sleeve, hem and layers: A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required vertical 1024x1536."
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "character": "해피너스",
+      "record": "pkm-atelier-img-2/records/blissey-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "adult_nurse",
+          "expr": "gentle",
+          "pose": "standing_formal",
+          "orient": "front",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "White opaque tailored short-sleeve nurse costume with pink piping and a small egg-shaped clasp; plain unlettered cap."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "focused",
+          "pose": "preparing_food",
+          "orient": "leaning_forward",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A cream scoop-neck short-sleeve cotton blouse ending at the waist, a separate blush calf-length pleated skirt, and a short white apron tied over it; small oval pink earrings."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_reading",
+          "expr": "pensive",
+          "pose": "reading_book",
+          "orient": "looking_down",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A lilac crew-neck elbow-sleeve waist-length knit top and a separate ivory ankle-length skirt, no outer layer; one tiny oval pink bracelet charm."
+        }
+      ]
+    },
+    {
+      "character": "라이코",
+      "record": "pkm-atelier-img-2/records/raikou-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "rooftop_infinity_pool",
+          "expr": "relieved",
+          "pose": "contrapposto",
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "Opaque golden-yellow bikini fabric with black stripe edging, a light-blue waist tie and a small purple hair ribbon."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_station",
+          "expr": "mildly_annoyed",
+          "pose": "sitting",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "wide24",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A pale-violet pointed-collar short-sleeve shirt with a hip-length hem, separate charcoal high-waist mid-thigh tailored shorts and ankle boots, no outer layer; a small gold zigzag buckle."
+        },
+        {
+          "cat": "active",
+          "ex": "dance_transition",
+          "expr": "determined",
+          "pose": "dance_step",
+          "orient": "low_angle",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A black high-neck sleeveless fitted athletic top ending at the waist, separate yellow high-waist stretch dance shorts, purple seam accents and flat dance shoes, no outer layer."
+        }
+      ]
+    },
+    {
+      "character": "앤테이",
+      "record": "pkm-atelier-img-2/records/entei-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "bralette_highwaist",
+          "expr": "sleepy",
+          "pose": "stretching",
+          "orient": "reaching_up",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "Opaque icy-blue knit fabric with a tiny golden crest-shaped clasp and charcoal edging; matching high-waist bottom, no robe or outer layer."
+        },
+        {
+          "cat": "traditional",
+          "ex": "yukata_daily",
+          "expr": "proud",
+          "pose": "walking",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "Sky-blue cotton with a bronze obi and a restrained small gold flame pattern near one sleeve hem."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "midnight_laundromat",
+          "expr": "amused",
+          "pose": "mid_action",
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A charcoal crew-neck long-sleeve cotton sweatshirt ending at the waist, separate cream full-length wide-leg trousers, no outer layer; a tiny yellow stitch motif on one cuff."
+        }
+      ]
+    },
+    {
+      "character": "스이쿤",
+      "record": "pkm-atelier-img-2/records/suicune-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "wistful",
+          "pose": "mid_stride",
+          "orient": "low_angle",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_sketch",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A white crew-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "water_plant",
+          "expr": "curious",
+          "pose": "mid_action",
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A cerulean pointed-collar short-sleeve work shirt ending at the hips and separate ivory full-length utility trousers; white diamond cuff edging and a small violet lanyard, no outer layer."
+        }
+      ]
+    }
+  ],
+  "faceCompared": [
+    "라이코",
+    "앤테이",
+    "스이쿤"
+  ],
+  "faceComparison": "Larvitar has compact angular lower face, sharply tilted eyes, small rounded nose tip and thin short mouth, distinct from Suicune long narrow face and long nose, Raikou longer eyes, Entei broad lower face.",
+  "wearReason": "Source green rocky skin and red diamond belly are missing from extracted palette; the UI wear override restores sage faceted plates, black motifs, red chest diamond and blunt horn ornament.",
+  "retries": [],
+  "diversityReview": "Actual three images compared against the recent Entei, Raikou, Suicune and Blissey cuts: front-facing race grid jacket and shorts, kneeling look-back forest campsite with long sleeves and trousers, high-angle record-bin gesture in a one-piece long-sleeve dress differ in setting, action, outfit and posture.",
+  "style": "glossy_promo",
+  "faceEvidence": {
+    "name": "애버라스",
+    "en": "Larvitar",
+    "line": "애버라스",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "sharp",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "sharp",
+      "eye size": "medium",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "angled brows",
+      "nose character": "rounded soft tip",
+      "lips": "thin lips"
+    },
+    "why": "바위 같은 면과 짧은 주둥이를 높은 광대와 짧은 사람 코로 옮긴다.",
+    "cues": [
+      "‘blunt spike’ → 얼굴형 턱선과 골격이 날카로운 얼굴형",
+      "‘blunt spike’ → 턱선 · 턱끝 각지고 또렷한 턱",
+      "‘blunt spike’ → 눈매 강하게 치켜올라간 눈",
+      "‘blunt spike’ → 눈꼬리 각도 올라간 눈꼬리",
+      "‘blunt spike’ → 눈썹 바깥에서 꺾이는 사선",
+      "‘short, rounded snout’ → 코 코끝이 둥근"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 작고 여린 코 → 코끝이 둥근"
+  },
+  "faceSource": "data/source-appearance.json",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): sharp face, balanced length, medium width; angular defined jaw; sharp eyes, medium size, upturned outer corners, average spacing; angled brows; rounded soft tip nose; thin lips."
+}

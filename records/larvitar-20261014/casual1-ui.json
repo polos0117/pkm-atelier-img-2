@@ -1,0 +1,110 @@
+{
+  "state_capture": "Reconstructed from observed live UI controls; localStorage not exposed. Exact submitted prompt matched visible output.",
+  "input": {
+    "cat": "adult_roleplay",
+    "ex": "retro_racer",
+    "expr": "confident",
+    "pose": "hand_on_hip",
+    "orient": "front",
+    "frame": "full_body",
+    "lens": "natural50",
+    "scene": "A quiet vintage motorsport festival paddock at noon, behind an unlettered white track barrier.",
+    "outfit": "A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots.",
+    "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "strongly prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "style": "glossy_promo",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    },
+    "input_reasons": {
+      "scene": "The chosen example omits these distinct setting details: A quiet vintage motorsport festival paddock at noon, behind an unlettered white track barrier.",
+      "outfit": "Chosen example does not set this garment cut, sleeve, hem and layers: A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots.",
+      "camera": "Image tool has no size parameter; required vertical 1024x1536."
+    },
+    "random_adjustments": {
+      "draw": {
+        "orient": "leaning_back",
+        "frame": "full_body",
+        "lens": "telephoto135"
+      },
+      "final": {
+        "orient": "front",
+        "frame": "full_body",
+        "lens": "natural50"
+      },
+      "reason": "Track-barrier grid styling uses an upright forward torso and shows the cropped jacket and boots; avoid prior leaning-back full-body bikini composition."
+    },
+    "axis_reasons": {
+      "action_level": "A hand-on-hip grid-costume presentation is held, not moving.",
+      "source_influence": "Sage jacket and red diamond shorts provide a few original-color cues.",
+      "separates_preference": "Cropped jacket over fitted top and separate shorts need clearly separate layers."
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Larvitar (애버라스) personified, rock / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed\nPose: Place one hand on the hip and let the other arm rest naturally or support the scene's prop.\nOrientation: torso and pelvis face the camera; gaze is independent\nScene: A quiet vintage motorsport festival paddock at noon, behind an unlettered white track barrier.\nOutfit and props: A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "애버라스",
+    "cards": {
+      "애버라스": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "green",
+          "hairstyle": "wolf cut",
+          "hair length": "short",
+          "bangs": "choppy bangs"
+        },
+        "locks": {},
+        "scenes": {
+          "casual": {
+            "expr": "confident",
+            "pose": "hand_on_hip",
+            "orient": "front",
+            "scene": "A quiet vintage motorsport festival paddock at noon, behind an unlettered white track barrier.",
+            "outfit": "A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots.",
+            "frame": "full_body",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "retro_racer",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

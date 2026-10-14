@@ -1,0 +1,110 @@
+{
+  "state_capture": "Reconstructed from observed live UI controls; localStorage not exposed. Exact submitted prompt matched visible output.",
+  "input": {
+    "cat": "everyday_basic",
+    "ex": "record_store",
+    "expr": "mildly_annoyed",
+    "pose": "mid_action",
+    "orient": "high_angle",
+    "frame": "waist_up",
+    "lens": "portrait85",
+    "scene": "An old brick record shop under amber evening pendant lights; sliding one blank cream record sleeve halfway out of a waist-high wooden bin.",
+    "outfit": "A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer.",
+    "axes": {
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "style": "glossy_promo",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    },
+    "input_reasons": {
+      "scene": "The chosen example omits these distinct setting details: An old brick record shop under amber evening pendant lights; sliding one blank cream record sleeve halfway out of a waist-high wooden bin.",
+      "outfit": "Chosen example does not set this garment cut, sleeve, hem and layers: A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer.",
+      "camera": "Image tool has no size parameter; required vertical 1024x1536."
+    },
+    "axis_reasons": {
+      "action_level": "She slides a record sleeve out of a bin in a continuous hand action.",
+      "source_influence": "Green waist belt and red diamond earrings echo the original palette.",
+      "separates_preference": "A midi dress is one garment, so one-piece and separates remain balanced."
+    },
+    "random_adjustments": {
+      "draw": {
+        "orient": "looking_away",
+        "frame": "full_body",
+        "lens": "portrait85"
+      },
+      "final": {
+        "orient": "high_angle",
+        "frame": "waist_up",
+        "lens": "portrait85"
+      },
+      "reason": "Overhead view makes the bin and sliding record sleeve readable while keeping facial expression; unlike the earlier high-angle knees-up railway wait."
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Larvitar (애버라스) personified, rock / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: inner brows drawn together, one eye slightly narrowed, mouth pressed flat to one side\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: camera above subject looking downward; obey selected framing\nScene: An old brick record shop under amber evening pendant lights; sliding one blank cream record sleeve halfway out of a waist-high wooden bin.\nOutfit and props: A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer.\nCategory: Create candid ordinary personal-life moments. The scene should feel lived-in, believable, and visually specific rather than staged. Use normal contemporary clothing with clear character personality. Avoid glamour-shoot posing, professional work, and costume styling.\nExample scene: Vinyl Record Store\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "애버라스",
+    "cards": {
+      "애버라스": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "green",
+          "hairstyle": "wolf cut",
+          "hair length": "short",
+          "bangs": "choppy bangs"
+        },
+        "locks": {},
+        "scenes": {
+          "casual": {
+            "expr": "mildly_annoyed",
+            "pose": "mid_action",
+            "orient": "high_angle",
+            "scene": "An old brick record shop under amber evening pendant lights; sliding one blank cream record sleeve halfway out of a waist-high wooden bin.",
+            "outfit": "A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer.",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "record_store",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
