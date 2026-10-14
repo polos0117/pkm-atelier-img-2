@@ -1,5 +1,5 @@
 {
-  "phase": "9/9 visual QA and hashes verified; publication pending",
+  "phase": "9/9 registered and thumbnails verified",
   "anchor": {
     "slot": "light",
     "source": "/workspace/scratch/0a1c8551f5e0/generated_images/exec-cfd3e88b-ef26-4752-883d-1977b6ba2af4.png",
@@ -24,6 +24,19 @@
   ],
   "image_repo": "polos0117/pkm-atelier-img-2",
   "code_repo": "polos0117/pkm-atelier",
-  "pushed": false,
-  "unapproved_slots": []
+  "pushed": true,
+  "unapproved_slots": [],
+  "image_commit": "071cdfa043eba821074f742eece42907b25852a6",
+  "thumbnail_commit": "e59dd49a26e3f304d48ba27c213eaa6bb6208e80",
+  "code_commit": "b930c8ef15db213f83c5f042bb1df166d7b8c294",
+  "workflow": {
+    "thumbnails": {
+      "id": 38655262530,
+      "conclusion": "success"
+    },
+    "registration": {
+      "id": 38655393918,
+      "conclusion": "success"
+    }
+  }
 }

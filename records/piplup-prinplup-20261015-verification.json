@@ -1,0 +1,34 @@
+{
+  "characters": {
+    "팽도리": {
+      "images": 9,
+      "image_commit": "f09e9fd77db6709127645f52911215e1210d1f35",
+      "thumbnail_commit": "6b6afdc",
+      "registration_commit": "4fb7799795dc8781acdb49c0fd6d976cb97e0dd4",
+      "thumbnail_run": 38653755645,
+      "registration_run": 38653889603
+    },
+    "팽태자": {
+      "images": 9,
+      "image_commit": "071cdfa043eba821074f742eece42907b25852a6",
+      "thumbnail_commit": "e59dd49a26e3f304d48ba27c213eaa6bb6208e80",
+      "registration_commit": "b930c8ef15db213f83c5f042bb1df166d7b8c294",
+      "thumbnail_run": 38655262530,
+      "registration_run": 38655393918
+    }
+  },
+  "total_images": 18,
+  "workflow_results": "all thumbnail and registration runs succeeded",
+  "verification": [
+    "WebP 1024x1536, SHA256 manifests verified",
+    "remote Git blobs equal local selected assets for all 18",
+    "18/18 registered in data/img.json with where=1",
+    "18/18 thumbnails are WebP with long edge 512",
+    "actual UI settings and three fixed locks checked for all six casual cuts"
+  ],
+  "publication_method": "Connected GitHub Git data API with force=false and expected previous main SHA; local git push failed because credentials were unavailable; no force push or deletion.",
+  "repositories": [
+    "polos0117/pkm-atelier-img-2",
+    "polos0117/pkm-atelier"
+  ]
+}
