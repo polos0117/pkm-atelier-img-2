@@ -50,7 +50,14 @@
         "frame": "full_body",
         "lens": "portrait85"
       },
-      "random_adjustment_reason": "Reclined morning cotton set differs from evening standing corset, with bedroom sheets and sleepy face instead of dresser presentation. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Reclined morning cotton set differs from evening standing corset, with bedroom sheets and sleepy face instead of dresser presentation. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "aspect": "2:3",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "example_text": "a simple cotton lingerie set in morning window light, sheets and a mug nearby"
     },
     {
       "cat": "travel_exploration",
@@ -90,7 +97,14 @@
         "frame": "three_quarter",
         "lens": "documentary35"
       },
-      "random_adjustment_reason": "High view shows snack and route card on the waiting bench; station seating, travel layers and bright midday setting contrast the earlier standing lookout. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "High view shows snack and route card on the waiting bench; station seating, travel layers and bright midday setting contrast the earlier standing lookout. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "aspect": "2:3",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "example_text": "Waiting on a rural station bench with a travel bag, holding a snack and checking a route card."
     },
     {
       "cat": "homewear",
@@ -130,7 +144,14 @@
         "frame": "waist_up",
         "lens": "natural50"
       },
-      "random_adjustment_reason": "Gentle turn back while folding a towel provides visible face and hands; domestic laundry, half-sleeve lounge clothes and turned torso avoid all earlier activities. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Gentle turn back while folding a towel provides visible face and hands; domestic laundry, half-sleeve lounge clothes and turned torso avoid all earlier activities. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "aspect": "2:3",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "example_text": "Laundry / Bedding Lounge Scene"
     }
   ],
   "recentCompared": [
@@ -504,5 +525,6 @@
     ],
     "evidence": "final-faces.jpg와 최근 얼굴 대조에서 테일로의 응축된 짧은 얼굴·작은 코와 달리 갈모매는 넓은 윗볼·길고 볼록한 콧대·수평의 큰 가는 눈과 긴 곡선 눈썹. 스왈로의 좁고 긴 턱·작게 올라간 눈과도 구분된다. 흰 머리와 푸른 눈은 부차 단서로만 대조했다."
   },
-  "final_comparison": "Viewed wingull-review.jpg against taillow-review.jpg, swellow-review.jpg and recent-comparison.jpg. Final 3 scenes distinguish location, activity, neckline, sleeves, hem, layers, pose and composition. Close inspection of machine panel and route map confirmed no text."
+  "final_comparison": "Viewed wingull-review.jpg against taillow-review.jpg, swellow-review.jpg and recent-comparison.jpg. Final 3 scenes distinguish location, activity, neckline, sleeves, hem, layers, pose and composition. Close inspection of machine panel and route map confirmed no text.",
+  "fixed_value_validation": "Verified actual storage.cards[character].scenes.casual randomLocks and the selected values against this plan; all three fixed values locked on all three cuts."
 }

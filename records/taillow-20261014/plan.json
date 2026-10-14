@@ -51,7 +51,14 @@
         "frame": "full_body",
         "lens": "natural50"
       },
-      "random_adjustment_reason": "Straight front view makes the racing uniform and carried helmet clear; changes venue, activity, sleeves and upright frontal composition from the recent librarian. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Straight front view makes the racing uniform and carried helmet clear; changes venue, activity, sleeves and upright frontal composition from the recent librarian. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "aspect": "2:3",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "example_text": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier"
     },
     {
       "cat": "hobbies_leisure",
@@ -92,7 +99,14 @@
         "lens": "portrait85"
       },
       "random_adjustment_reason": "High angle shows watering can and seedlings and gentle care expression; no cooking bowl, standing windowsill rather than seated crafts. These angles keep the activity visible and avoid the previous comparison pairs.",
-      "revisionReason": "Final comparison found the three-frame set duplicated Shiftry. Choose waist_up instead of chest_up and regenerate; retain the original submitted records."
+      "revisionReason": "Final comparison found the three-frame set duplicated Shiftry. Choose waist_up instead of chest_up and regenerate; retain the original submitted records.",
+      "aspect": "2:3",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "example_text": "Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors."
     },
     {
       "cat": "active",
@@ -132,7 +146,14 @@
         "frame": "environmental",
         "lens": "wide24"
       },
-      "random_adjustment_reason": "Crouched launch stance expresses the small swallow determination and differs from skating curve; dawn track, running outfit and crouched wide composition are all new. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Crouched launch stance expresses the small swallow determination and differs from skating curve; dawn track, running outfit and crouched wide composition are all new. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "aspect": "2:3",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "example_text": "Track Sprint Start"
     }
   ],
   "recentCompared": [
@@ -387,5 +408,7 @@
   "sources_checked": [
     "https://www.pokemon.com/uk/pokedex/taillow",
     "https://www.pokemon.com/uk/pokedex/wingull"
-  ]
+  ],
+  "fixed_value_validation": "Verified actual storage.cards[character].scenes.casual randomLocks and the selected values against this plan; all three fixed values locked on all three cuts.",
+  "byte_repair": "Gardening replacement briefly uploaded empty; restored by atomic conversion from its exact generated original and matched recorded SHA256. Normal thumbnail workflow resumed successfully."
 }

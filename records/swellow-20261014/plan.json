@@ -51,7 +51,14 @@
         "frame": "three_quarter",
         "lens": "documentary35"
       },
-      "random_adjustment_reason": "Walking profile in warm surf replaces the recent seated pier and corset profile; sunset coastline, moving activity and one-piece halter differ. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Walking profile in warm surf replaces the recent seated pier and corset profile; sunset coastline, moving activity and one-piece halter differ. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "aspect": "2:3",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "example_text": "walking along a wet shoreline in swimwear, wet sand and shallow surf underfoot"
     },
     {
       "cat": "everyday_basic",
@@ -91,7 +98,14 @@
         "frame": "waist_up",
         "lens": "natural50"
       },
-      "random_adjustment_reason": "Forward leaning inspection gives clear two-handed technical work and curious face; tools aisle and utility vest replace fruit market and craft scenes. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Forward leaning inspection gives clear two-handed technical work and curious face; tools aisle and utility vest replace fruit market and craft scenes. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "aspect": "2:3",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "example_text": "Hardware / Home-improvement Store"
     },
     {
       "cat": "hobbies_leisure",
@@ -131,7 +145,14 @@
         "frame": "environmental",
         "lens": "telephoto135"
       },
-      "random_adjustment_reason": "Seated twist shows both picking and fretting hands; instrument practice, loft and flowing skirt distinguish it from the prior seated charm-making. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Seated twist shows both picking and fretting hands; instrument practice, loft and flowing skirt distinguish it from the prior seated charm-making. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "aspect": "2:3",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "example_text": "Practicing a small acoustic instrument in a cozy room with a music stand and a resting cushion nearby."
     }
   ],
   "recentCompared": [
@@ -443,5 +464,6 @@
     ],
     "evidence": "얼굴 대조 이미지에서 테일로보다 길고 좁은 얼굴·긴 턱·가늘고 긴 콧대와 얇은 입술이 보인다. 도토링의 큰 둥근 눈, 잎새코의 넓은 아몬드 눈과 입술, 다탱구의 각진 하관과도 구분된다."
   },
-  "final_comparison": "Viewed swellow-review.jpg against taillow-review.jpg and recent-comparison.jpg. Rechecked Taillow after gardening framing revision; Swellow pairs and direction/frame sets remain distinct."
+  "final_comparison": "Viewed swellow-review.jpg against taillow-review.jpg and recent-comparison.jpg. Rechecked Taillow after gardening framing revision; Swellow pairs and direction/frame sets remain distinct.",
+  "fixed_value_validation": "Verified actual storage.cards[character].scenes.casual randomLocks and the selected values against this plan; all three fixed values locked on all three cuts."
 }
