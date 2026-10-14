@@ -1,0 +1,269 @@
+{
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "bralette_highwaist",
+      "expr": "sleepy",
+      "pose": "stretching",
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "scene": "Early morning light through frosted skylights in an empty dressing lounge, with folded linen on a wooden wardrobe shelf.",
+      "outfit": "Opaque icy-blue knit fabric with a tiny golden crest-shaped clasp and charcoal edging; matching high-waist bottom, no robe or outer layer.",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "style": "glossy_promo",
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "reclining",
+          "frame": "waist_up",
+          "lens": "wide24"
+        },
+        "final": {
+          "orient": "reaching_up",
+          "frame": "three_quarter",
+          "lens": "portrait85"
+        },
+        "reason": "Morning stretch requires raised hands and reaching-up orientation; avoid previous reclining slip composition."
+      },
+      "axis_reasons": {
+        "action_level": "Gentle waking stretch is light movement.",
+        "source_influence": "Only tiny gold clasp echoes Entei; icy-blue knit has no large crest.",
+        "separates_preference": "Supportive bralette and matching high-waist bottom are separate."
+      },
+      "input_reasons": {
+        "scene": "Example defines bralette garment but not skylight morning lounge.",
+        "outfit": "Example gives supportive straps/high waist but not opaque knit, blue color or clasp.",
+        "camera": "Tool has no size argument; vertical 1024×1536 requested in camera field."
+      },
+      "example_text": "a soft-cup bralette with wide supportive straps and matching high-waisted lingerie bottoms",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Early morning light through frosted skylights in an empty dressing lounge, with folded linen on a wooden wardrobe shelf.",
+          "reason": "Example defines bralette garment but not skylight morning lounge."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque icy-blue knit fabric with a tiny golden crest-shaped clasp and charcoal edging; matching high-waist bottom, no robe or outer layer.",
+          "reason": "Example gives supportive straps/high waist but not opaque knit, blue color or clasp."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no size argument; vertical 1024×1536 requested in camera field."
+        }
+      ]
+    },
+    {
+      "cat": "traditional",
+      "ex": "yukata_daily",
+      "expr": "proud",
+      "pose": "walking",
+      "orient": "front_3q",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "scene": "A riverside lantern promenade at summer dusk; holding a small folded paper fan with a blank ivory surface while passing warm hanging lanterns.",
+      "outfit": "Sky-blue cotton with a bronze obi and a restrained small gold flame pattern near one sleeve hem.",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "style": "glossy_promo",
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "telephoto135"
+        },
+        "final": {
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "documentary35"
+        },
+        "reason": "Walking yukata silhouette reads from front three-quarter with environment visible; unlike prior turning waist-up greenhouse."
+      },
+      "axis_reasons": {
+        "action_level": "Strolling on a promenade is gentle continuous movement.",
+        "source_influence": "Bronze obi and small gold flame motif echo Entei colors.",
+        "separates_preference": "Yukata is a wrapped garment with obi; no separate casual top required."
+      },
+      "input_reasons": {
+        "scene": "Example title does not define river setting, dusk, lanterns or folded fan.",
+        "outfit": "Example indicates yukata; blue cotton, bronze obi and small gold sleeve motif supplement.",
+        "camera": "Tool has no size argument; vertical 1024×1536 requested in camera field."
+      },
+      "example_text": "Yukata — Summer Casual",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A riverside lantern promenade at summer dusk; holding a small folded paper fan with a blank ivory surface while passing warm hanging lanterns.",
+          "reason": "Example title does not define river setting, dusk, lanterns or folded fan."
+        },
+        {
+          "field": "outfit",
+          "content": "Sky-blue cotton with a bronze obi and a restrained small gold flame pattern near one sleeve hem.",
+          "reason": "Example indicates yukata; blue cotton, bronze obi and small gold sleeve motif supplement."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no size argument; vertical 1024×1536 requested in camera field."
+        }
+      ]
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "midnight_laundromat",
+      "expr": "amused",
+      "pose": "mid_action",
+      "orient": "side",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "An empty neighborhood laundromat after midnight under soft cyan ceiling lights; folding a plain gray cotton towel on a counter beside an unlabeled dryer.",
+      "outfit": "A charcoal crew-neck long-sleeve cotton sweatshirt ending at the waist, separate cream full-length wide-leg trousers, no outer layer; a tiny yellow stitch motif on one cuff.",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "style": "glossy_promo",
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "wide24"
+        },
+        "final": {
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "natural50"
+        },
+        "reason": "Retain drawn side/waist view for towel folding; natural lens keeps hands unexaggerated."
+      },
+      "axis_reasons": {
+        "action_level": "Folding a towel is an active two-handed task.",
+        "source_influence": "Only tiny yellow cuff stitch carries source motif.",
+        "separates_preference": "Cotton sweatshirt and wide-leg trousers are separate garments."
+      },
+      "input_reasons": {
+        "scene": "Example title lacks towel-folding action and cyan light.",
+        "outfit": "Example names laundromat only, so crew neck, long sleeves, waist hem and full-length separate trousers specified.",
+        "camera": "Tool has no size argument; vertical 1024×1536 requested in camera field."
+      },
+      "example_text": "Midnight Laundromat",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "An empty neighborhood laundromat after midnight under soft cyan ceiling lights; folding a plain gray cotton towel on a counter beside an unlabeled dryer.",
+          "reason": "Example title lacks towel-folding action and cyan light."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal crew-neck long-sleeve cotton sweatshirt ending at the waist, separate cream full-length wide-leg trousers, no outer layer; a tiny yellow stitch motif on one cuff.",
+          "reason": "Example names laundromat only, so crew neck, long sleeves, waist hem and full-length separate trousers specified."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no size argument; vertical 1024×1536 requested in camera field."
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    "raikou-20261014",
+    "blissey-20261014",
+    "miltank-20261014"
+  ],
+  "faceCompared": [
+    "라이코",
+    "해피너스",
+    "밀탱크"
+  ],
+  "faceComparison": "Entei has wider lower jaw, nearly horizontal narrow eyes and firmer wider mouth. Compared with Raikou's sharper taper and rising outer corners, Blissey's softer descending eyes and narrower mouth, and Miltank's rounder eyes and fuller lips; brown wolf-cut silhouette reinforces but is not sole basis.",
+  "retries": [
+    {
+      "slot": "casual1-correction",
+      "reason": "Removed large head crest; separated ambiguous overlapping hands while preserving raised stretch."
+    },
+    {
+      "slot": "casual1-hands-correction",
+      "reason": "Brought all fingertips below top border without changing framing or face."
+    },
+    {
+      "slot": "casual2-correction",
+      "reason": "Removed large head crest and folded opened fan to match scene prop."
+    }
+  ],
+  "diversityReview": "Blue knit lounge set stretching, long wrapped yukata walking at lantern riverside, long-sleeve sweatshirt with trousers folding laundry in cyan-lit shop; actual nine comparison images viewed.",
+  "character": "앤테이",
+  "style": "glossy_promo",
+  "faceEvidence": {
+    "name": "앤테이",
+    "en": "Entei",
+    "line": "앤테이",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "wide",
+      "jaw & chin": "square broad jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "thick low brows",
+      "nose character": "balanced nose",
+      "lips": "wide mouth"
+    },
+    "why": "화산 같은 체적과 큰 갈기의 위용을 넓고 단단한 하관으로 해석한다.",
+    "cues": [
+      "무게 198kg → 얼굴 폭 넓은 얼굴",
+      "‘gray plates’ → 턱선 · 턱끝 넓고 각진 사각 턱",
+      "‘gray plates’ → 눈매 가늘고 날카로운 눈",
+      "‘gray plates’ → 눈썹 굵고 눈 가까이 낮은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 넓고 묵직한 턱끝 → 넓고 각진 사각 턱, 눈 간격 눈 사이가 넓은 → 눈 사이가 가까운"
+  },
+  "faceSource": "data/source-appearance.json",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, wide width; square broad jaw; narrow eyes, medium size, level outer corners, close-set; thick low brows; balanced nose; wide mouth."
+}

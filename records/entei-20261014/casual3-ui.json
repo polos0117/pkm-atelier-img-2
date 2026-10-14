@@ -1,0 +1,114 @@
+{
+  "state_capture": "Reconstructed from observed UI controls; browser localStorage is not exposed. Prompt matches live output. Full inactive action state retained.",
+  "input": {
+    "cat": "everyday_basic",
+    "ex": "midnight_laundromat",
+    "expr": "amused",
+    "pose": "mid_action",
+    "orient": "side",
+    "frame": "waist_up",
+    "lens": "natural50",
+    "scene": "An empty neighborhood laundromat after midnight under soft cyan ceiling lights; folding a plain gray cotton towel on a counter beside an unlabeled dryer.",
+    "outfit": "A charcoal crew-neck long-sleeve cotton sweatshirt ending at the waist, separate cream full-length wide-leg trousers, no outer layer; a tiny yellow stitch motif on one cuff.",
+    "axes": {
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "strongly prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "style": "glossy_promo",
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Entei (앤테이) personified, fire type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: crinkled lower eyelids, closed-lip smile pushing the cheeks up, brows relaxed\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: side body profile, approximately 90 degrees to camera\nScene: An empty neighborhood laundromat after midnight under soft cyan ceiling lights; folding a plain gray cotton towel on a counter beside an unlabeled dryer.\nOutfit and props: A charcoal crew-neck long-sleeve cotton sweatshirt ending at the waist, separate cream full-length wide-leg trousers, no outer layer; a tiny yellow stitch motif on one cuff.\nCategory: Create candid ordinary personal-life moments. The scene should feel lived-in, believable, and visually specific rather than staged. Use normal contemporary clothing with clear character personality. Avoid glamour-shoot posing, professional work, and costume styling.\nExample scene: Midnight Laundromat\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "앤테이",
+    "cards": {
+      "앤테이": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "brown",
+          "hairstyle": "wolf cut",
+          "hair length": "medium"
+        },
+        "locks": {},
+        "scenes": {
+          "action": {
+            "expr": "serious",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "amused",
+            "pose": "mid_action",
+            "orient": "side",
+            "scene": "An empty neighborhood laundromat after midnight under soft cyan ceiling lights; folding a plain gray cotton towel on a counter beside an unlabeled dryer.",
+            "outfit": "A charcoal crew-neck long-sleeve cotton sweatshirt ending at the waist, separate cream full-length wide-leg trousers, no outer layer; a tiny yellow stitch motif on one cuff.",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "midnight_laundromat",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
