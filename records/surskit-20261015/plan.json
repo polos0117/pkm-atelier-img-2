@@ -1,0 +1,441 @@
+{
+  "name": "비구술",
+  "slug": "surskit",
+  "no": 283,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "blue",
+    "hairstyle": "bob",
+    "hair length": "short",
+    "eye color": "black",
+    "body type": "petite"
+  },
+  "scene": "A clear reed-lined pond at dawn, circular ripples around her boots and soft golden mist.",
+  "casual_plan": [
+    {
+      "cat": "swimwear",
+      "ex": "river_dock",
+      "expr": "relieved",
+      "pose": "perched_seat",
+      "orient": "reclining",
+      "frame": "full_body",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "source_influence": "strong",
+        "action_level": "mostly posed",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "On a weathered dock beside still blue water in late afternoon, a folded yellow towel supports her shoulders and her feet hang over the water.",
+      "outfit": "Pale-blue opaque halter bikini top and separate high-waist swim bottoms with yellow edging and tiny pink semicircle embroidery, no outer layer.",
+      "axis_reasons": {
+        "action_level": "The dock supports a relaxed still resting pose.",
+        "source_influence": "The pink semicircle stitching and yellow edging echo the skater markings.",
+        "separates_preference": "Bikini top and bottoms are separate pieces."
+      },
+      "input_reasons": {
+        "scene": "The river_dock example does not specify this setting's time, props and material surfaces.",
+        "outfit": "The river_dock example leaves the specified neckline, sleeves, hems, colors and small ornament unspecified.",
+        "camera": "The image tool has no size field; request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "Selected reclining/full_body to show the river_dock hand activity while avoiding all comparison direction/frame pairs.",
+      "random_draws": {
+        "orient": "walking_away",
+        "frame": "environmental",
+        "lens": "telephoto135"
+      },
+      "exampleText": "in swimwear on a wooden river dock, feet over the edge above the water"
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "greenhouse",
+      "expr": "curious",
+      "pose": "watering",
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "source_influence": "strong",
+        "action_level": "balanced",
+        "separates_preference": "balanced"
+      },
+      "scene": "At a misty glass plant shop in morning light, she tips a small plain watering can over a tray of tiny aquatic seedlings.",
+      "outfit": "Blue square-neck short-sleeve knee-length cotton dress with yellow waist piping, no outer layer; a small pink droplet pendant.",
+      "axis_reasons": {
+        "action_level": "A lightly tilted watering can makes a gentle working motion.",
+        "source_influence": "Yellow piping and a pink drop retain the bright water-skater palette.",
+        "separates_preference": "The cotton dress is a single shaped garment."
+      },
+      "input_reasons": {
+        "scene": "The greenhouse example does not specify this setting's time, props and material surfaces.",
+        "outfit": "The greenhouse example leaves the specified neckline, sleeves, hems, colors and small ornament unspecified.",
+        "camera": "The image tool has no size field; request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "Selected high_angle/waist_up to show the greenhouse hand activity while avoiding all comparison direction/frame pairs.",
+      "random_draws": {
+        "orient": "reaching_up",
+        "frame": "chest_up",
+        "lens": "documentary35"
+      },
+      "exampleText": "Greenhouse / Plant Shop"
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_trail",
+      "expr": "determined",
+      "pose": "checking_map",
+      "orient": "leaning_forward",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "source_influence": "balanced",
+        "action_level": "balanced",
+        "separates_preference": "strongly prefer separates"
+      },
+      "scene": "At a mossy forest trail fork on an overcast day, the map has only unlabelled river lines and the trail marker is a blank color stripe.",
+      "outfit": "Yellow open-collar long-sleeve hiking shirt ending at waist, separate navy mid-thigh cargo shorts, open pale-blue hip-length rain vest layered over it and a small pink zipper bead.",
+      "axis_reasons": {
+        "action_level": "Reading a folded map is a pause with small hand movement.",
+        "source_influence": "The zipper bead and blue-yellow layering modestly recall Surskit.",
+        "separates_preference": "Shirt, shorts and rain vest are three separately constructed garments."
+      },
+      "input_reasons": {
+        "scene": "The travel_trail example does not specify this setting's time, props and material surfaces.",
+        "outfit": "The travel_trail example leaves the specified neckline, sleeves, hems, colors and small ornament unspecified.",
+        "camera": "The image tool has no size field; request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "Selected leaning_forward/three_quarter to show the travel_trail hand activity while avoiding all comparison direction/frame pairs.",
+      "random_draws": {
+        "orient": "back",
+        "frame": "full_body",
+        "lens": "telephoto135"
+      },
+      "exampleText": "Pausing at a forest trail junction to compare a folded map with a trail marker, wearing a light travel pack."
+    }
+  ],
+  "recentCompared": [
+    "pelipper-20261015",
+    "ralts-20261015",
+    "kirlia-20261015",
+    "gardevoir-20261015"
+  ],
+  "comparisonTable": [
+    {
+      "name": "패리퍼",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "confident",
+          "pose": "standing_formal",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White fitted jacket with elbow sleeves and sharp blue lapels ending at the waist, separate royal-blue mid-thigh pencil skirt, yellow neck scarf and a tiny wing-shaped pin; plain blue pumps."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "pottery_class",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A blue V-neck short-sleeve knee-length work dress under a full white bib apron tied at the waist; a small yellow bead earring."
+        },
+        {
+          "cat": "active",
+          "ex": "surf_prep",
+          "expr": "playful",
+          "pose": "mid_action",
+          "orient": "reaching_up",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White cropped long-sleeve zip rashguard over a yellow swim top, separate blue square-cut swim shorts; blue-and-white wave piping and a small yellow zipper pull."
+        }
+      ]
+    },
+    {
+      "name": "랄토스",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "qipao_silk_set",
+          "expr": "pensive",
+          "pose": "leaning_furniture",
+          "orient": "looking_away",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque ivory silk mini lingerie chemise with mandarin collar and red frog-button closures, short cap sleeves and upper-thigh hem; tiny green stone stud earrings, no outer layer."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "bookstore",
+          "expr": "curious",
+          "pose": "reading_book",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Ivory round-neck long-sleeve blouse tucked into a separate pale-green ankle-length pleated skirt; a cropped dusty-red cardigan worn open and a tiny green hair slide."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_sketch",
+          "expr": "focused",
+          "pose": "perched_seat",
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Red square-neck elbow-sleeve fitted top ending at waist, separate ivory knee-length culottes, green thin belt; no outer layer and a small red diamond pin."
+        }
+      ]
+    },
+    {
+      "name": "킬리아",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "moonlit_pool",
+          "expr": "calm",
+          "pose": "leaning_wall",
+          "orient": "leaning_back",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque white high-neck racerback one-piece athletic swimsuit with broad green side panels and a small crimson gem clasp at the collar; no cover-up."
+        },
+        {
+          "cat": "active",
+          "ex": "dance_transition",
+          "expr": "determined",
+          "pose": "dance_step",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Ivory scoop-neck short-sleeve dance wrap top ending at the waist, separate green chiffon knee-length wrap skirt over crimson fitted dance shorts and soft pale ballet shoes; tiny red stud earrings."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "record_store",
+          "expr": "amused",
+          "pose": "mid_action",
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Crimson boat-neck long-sleeve rib-knit sweater ending at waist, separate ivory high-waist straight trousers, open green hip-length vest layered on top; a small silver diamond pendant."
+        }
+      ]
+    },
+    {
+      "name": "가디안",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "ceremonial_instructor",
+          "expr": "proud",
+          "pose": "standing_formal",
+          "orient": "front",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "strong",
+            "action_level": "mostly posed",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Ivory deep-V fitted belted jacket with long sleeves ending at the waist, separate emerald upper-thigh skirt, short fitted white gloves and a narrow crimson sash; small red crystal clasp."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "rescue_paramedic",
+          "expr": "gentle",
+          "pose": "kneeling",
+          "orient": "high_angle",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "balanced",
+            "action_level": "mostly active",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Mint scoop-neck short-sleeve knee-length jersey work dress with a white half apron layered over the waist, flat white shoes and a tiny red heart pin."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "subtle",
+            "action_level": "mostly active",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Ivory boat-neck elbow-sleeve linen blouse ending at the waist, separate charcoal knee-length culottes, no outer layer; one small green stud earring."
+        }
+      ]
+    }
+  ],
+  "faceEvidence": {
+    "name": "비구술",
+    "en": "Surskit",
+    "line": "비구술",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "short rounded brows",
+      "nose character": "rounded soft tip",
+      "lips": "thin lips"
+    },
+    "why": "",
+    "cues": [
+      "‘round body’ → 얼굴형 부드럽고 둥근 얼굴형",
+      "‘round body’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "‘round body’ → 눈매 큰 눈",
+      "‘dark, circular eyes’ → 눈꼬리 각도 수평",
+      "‘round body’ → 눈썹 짧고 둥근",
+      "‘round body’ → 코 코끝이 둥근"
+    ],
+    "adjusted": ""
+  },
+  "sourceEvidence": {
+    "name": "비구술",
+    "en": "Surskit",
+    "color": "blue",
+    "shape": "armor",
+    "features": [
+      {
+        "part": "marking",
+        "detail": "semicircular pink markings"
+      },
+      {
+        "part": "cap",
+        "detail": "yellow cap"
+      },
+      {
+        "part": "antenna",
+        "detail": "single antenna"
+      },
+      {
+        "part": "body",
+        "detail": "round body"
+      },
+      {
+        "part": "leg",
+        "detail": "four long, skinny legs"
+      },
+      {
+        "part": "eye",
+        "detail": "dark, circular eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Surskit_%28Pok%C3%A9mon%29",
+    "revision": 4611417,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "68dff913b29b6980e4930b54241c3cf37725f27d697b582535e7cbe1159db257",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "faceRationale": "The round blue body and circular dark eyes support a rounded human contour, rounded short brows and a soft nose; the long slender legs are interpreted as a compact adult silhouette, never extra limbs.",
+  "comparison_actual_images": [
+    "recent-comparison.jpg"
+  ],
+  "planning_decision": "Changed place, activity, garment silhouettes and direction/frame pairs from the inspected recent images; each character has three distinct categories, expressions, poses, directions and frames.",
+  "wear": "Blue close-fitting plates with semicircular pink markings; a small yellow cap-shaped headpiece with one slim antenna ornament. The water-skating leg motif becomes narrow sweeping shin guards, never extra limbs.",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): softly rounded face, balanced length, medium width; soft rounded jaw; open rounded eyes, medium size, level outer corners, average spacing; short rounded brows; rounded soft tip nose; thin lips.",
+  "faceComparison": "Compared actual light pictures with Gardevoir, Pelipper, Ralts and Kirlia: Surskit has wider round eyes, shorter round jaw, shorter brows and rounded nose; facial proportions were judged apart from hair and head ornaments.",
+  "revisions": [
+    {
+      "slot": "light",
+      "reason": "First attempt cut off antenna tip.",
+      "changed": "Camera field requests clear space above antenna.",
+      "discarded": "exec-13a90b11-fd4c-40c3-b0f5-1bc1a70e57ad.png"
+    }
+  ]
+}
