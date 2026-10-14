@@ -15,7 +15,7 @@
       "reference": null,
       "style": "glossy_promo",
       "style_evidence": "light-ui.json",
-      "status": "visually inspected; not yet pushed"
+      "status": "remote main verified; registered with thumbnail"
     },
     {
       "slot": "heavy",
@@ -32,7 +32,7 @@
       "reference": "light",
       "style": "glossy_promo",
       "style_evidence": "heavy-ui.json",
-      "status": "visually inspected; not yet pushed"
+      "status": "remote main verified; registered with thumbnail"
     },
     {
       "slot": "mobility",
@@ -49,7 +49,7 @@
       "reference": "light",
       "style": "glossy_promo",
       "style_evidence": "mobility-ui.json",
-      "status": "visually inspected; not yet pushed"
+      "status": "remote main verified; registered with thumbnail"
     },
     {
       "slot": "light_overdrive",
@@ -66,7 +66,7 @@
       "reference": "light",
       "style": "glossy_promo",
       "style_evidence": "light_overdrive-ui.json",
-      "status": "visually inspected; not yet pushed"
+      "status": "remote main verified; registered with thumbnail"
     },
     {
       "slot": "heavy_overdrive",
@@ -83,7 +83,7 @@
       "reference": "heavy",
       "style": "glossy_promo",
       "style_evidence": "heavy_overdrive-ui.json",
-      "status": "visually inspected; not yet pushed"
+      "status": "remote main verified; registered with thumbnail"
     },
     {
       "slot": "mobility_overdrive",
@@ -100,7 +100,7 @@
       "reference": "mobility",
       "style": "glossy_promo",
       "style_evidence": "mobility_overdrive-ui.json",
-      "status": "visually inspected; not yet pushed"
+      "status": "remote main verified; registered with thumbnail"
     },
     {
       "slot": "casual1",
@@ -117,7 +117,7 @@
       "reference": "light",
       "style": "glossy_promo",
       "style_evidence": "casual1-ui.json",
-      "status": "visually inspected; not yet pushed"
+      "status": "remote main verified; registered with thumbnail"
     },
     {
       "slot": "casual2",
@@ -134,7 +134,7 @@
       "reference": "light",
       "style": "glossy_promo",
       "style_evidence": "casual2-ui.json",
-      "status": "visually inspected; not yet pushed"
+      "status": "remote main verified; registered with thumbnail"
     },
     {
       "slot": "casual3",
@@ -151,7 +151,7 @@
       "reference": "light",
       "style": "glossy_promo",
       "style_evidence": "casual3-ui.json",
-      "status": "visually inspected; not yet pushed"
+      "status": "remote main verified; registered with thumbnail"
     }
   ],
   "canonical": {
@@ -169,8 +169,36 @@
     "reference": null,
     "style": "glossy_promo",
     "style_evidence": "light-ui.json",
-    "status": "visually inspected; not yet pushed"
+    "status": "remote main verified; registered with thumbnail"
   },
   "image_repository": "polos0117/pkm-atelier-img-2",
-  "generation_tool": "built-in image_gen"
+  "generation_tool": "built-in image_gen",
+  "publication": {
+    "name": "밀탱크",
+    "image_commit": "1d0aa6cf987bd6a3b4b5b3d2163a428361342171",
+    "thumbnail_commit": "0dad602d527c653070405fc1c82a9170ea6409c3",
+    "registry_commit": "1b82cf67c2a158f9e9b524bf8a3643af4d4cf71a",
+    "status": "registered",
+    "image_count": 9,
+    "thumbnail_count": 9,
+    "registry_count": 9,
+    "shard": 1,
+    "image_repository": "polos0117/pkm-atelier-img-2",
+    "registry_repository": "polos0117/pkm-atelier",
+    "verified_date": "2026-10-14",
+    "push_mode": "fast-forward, force=false",
+    "validation": "All 27 remote original files decoded and matched local SHA-256; all remote thumbnails decoded with longest edge 512; data/img.json contained 6 form and 3 casual slots per character."
+  },
+  "face_design_checkpoint": {
+    "reason": "젖소의 둥글고 넉넉한 체적을 넓은 볼과 부드러운 수평 눈매로 해석한다.",
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Miltank_%28Pok%C3%A9mon%29",
+    "final_face_prompt": "FACE (her own structure, not the style's default face): angular face, balanced length, wide width; wide heavy chin; almond eyes, medium size, downturned outer corners, average spacing; fine soft arches; rounded soft tip nose; full lips.",
+    "actual_comparison": [
+      "마그비",
+      "에레키드",
+      "뽀뽀라"
+    ],
+    "canonical_repository_path": "img/밀탱크_light_glossy_promo_f.webp",
+    "canonical_sha256": "60623c174465ec6e7bf880227ea1a39b2bc7eb0d79faf403584d552bc63b3fdb"
+  }
 }
