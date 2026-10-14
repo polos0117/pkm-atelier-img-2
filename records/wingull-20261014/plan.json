@@ -1,0 +1,508 @@
+{
+  "name": "갈모매",
+  "slug": "wingull",
+  "no": 278,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "white",
+    "hairstyle": "side part",
+    "hair length": "medium",
+    "eye color": "blue",
+    "body type": "slender"
+  },
+  "scene": "A breezy white-stone coastal terrace in afternoon sunshine.",
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "morning_lingerie",
+      "expr": "sleepy",
+      "pose": "leaning_furniture",
+      "orient": "reclining",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "A sea-view bedroom at dawn with rumpled white sheets, a bed headboard and a plain mug on a bedside table; one hand at the blanket edge and the other on the mattress.",
+      "outfit": "Opaque white cotton triangle bra and separate pale-blue high-waist briefs, no robe; delicate blue stripe piping and a small orange shell clasp.",
+      "reason": "Reclined morning cotton set differs from evening standing corset, with bedroom sheets and sleepy face instead of dresser presentation.",
+      "input_reasons": {
+        "scene": "Example morning_lingerie leaves these details unset: A sea-view bedroom at dawn with rumpled white sheets, a bed headboard and a plain mug on a bedside table; one hand at the blanket edge and the other on the mattress.",
+        "outfit": "Example morning_lingerie is retained; the missing garment construction and source accents are specified: Opaque white cotton triangle bra and separate pale-blue high-waist briefs, no robe; delicate blue stripe piping and a small orange shell clasp.",
+        "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+      },
+      "axis_reasons": {
+        "action_level": "mostly posed fits the leaning_furniture activity in morning_lingerie.",
+        "source_influence": "strong matches the motif scope specified in this morning_lingerie outfit.",
+        "separates_preference": "prefer separates matches the garment layers in this morning_lingerie outfit."
+      },
+      "random_draws": {
+        "orient": "reaching_up",
+        "frame": "full_body",
+        "lens": "portrait85"
+      },
+      "random_final": {
+        "orient": "reclining",
+        "frame": "full_body",
+        "lens": "portrait85"
+      },
+      "random_adjustment_reason": "Reclined morning cotton set differs from evening standing corset, with bedroom sheets and sleepy face instead of dresser presentation. These angles keep the activity visible and avoid the previous comparison pairs."
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_station",
+      "expr": "amused",
+      "pose": "checking_map",
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "A rural coastal station in sunny midday light; a navy travel bag and a berry snack in plain wrapping. The route card has only simple abstract color blocks, no words or numerals.",
+      "outfit": "Orange scoop-neck short-sleeve tee ending at waist, separate pale-blue knee-length cargo shorts, open white hip-length light jacket layered over top; a small gull-shaped bag charm.",
+      "reason": "High view shows snack and route card on the waiting bench; station seating, travel layers and bright midday setting contrast the earlier standing lookout.",
+      "input_reasons": {
+        "scene": "Example travel_station leaves these details unset: A rural coastal station in sunny midday light; a navy travel bag and a berry snack in plain wrapping. The route card has only simple abstract color blocks, no words or numerals.",
+        "outfit": "Example travel_station is retained; the missing garment construction and source accents are specified: Orange scoop-neck short-sleeve tee ending at waist, separate pale-blue knee-length cargo shorts, open white hip-length light jacket layered over top; a small gull-shaped bag charm.",
+        "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+      },
+      "axis_reasons": {
+        "action_level": "balanced fits the checking_map activity in travel_station.",
+        "source_influence": "balanced matches the motif scope specified in this travel_station outfit.",
+        "separates_preference": "prefer separates matches the garment layers in this travel_station outfit."
+      },
+      "random_draws": {
+        "orient": "side",
+        "frame": "three_quarter",
+        "lens": "wide24"
+      },
+      "random_final": {
+        "orient": "high_angle",
+        "frame": "three_quarter",
+        "lens": "documentary35"
+      },
+      "random_adjustment_reason": "High view shows snack and route card on the waiting bench; station seating, travel layers and bright midday setting contrast the earlier standing lookout. These angles keep the activity visible and avoid the previous comparison pairs."
+    },
+    {
+      "cat": "homewear",
+      "ex": "laundry_lounge",
+      "expr": "soft_smile",
+      "pose": "turning_back",
+      "orient": "over_shoulder",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "scene": "A tiled home laundry room in soft evening lamplight; folding a plain white towel on a counter beside neatly stacked blue linen.",
+      "outfit": "Pale-blue scoop-neck half-sleeve cotton tee cropped at waist, separate orange soft lounge shorts, no outer layer; tiny white gull pendant.",
+      "reason": "Gentle turn back while folding a towel provides visible face and hands; domestic laundry, half-sleeve lounge clothes and turned torso avoid all earlier activities.",
+      "input_reasons": {
+        "scene": "Example laundry_lounge leaves these details unset: A tiled home laundry room in soft evening lamplight; folding a plain white towel on a counter beside neatly stacked blue linen.",
+        "outfit": "Example laundry_lounge is retained; the missing garment construction and source accents are specified: Pale-blue scoop-neck half-sleeve cotton tee cropped at waist, separate orange soft lounge shorts, no outer layer; tiny white gull pendant.",
+        "camera": "Tool has no image-size argument, so camera field requests vertical 1024×1536."
+      },
+      "axis_reasons": {
+        "action_level": "mostly active fits the turning_back activity in laundry_lounge.",
+        "source_influence": "strong matches the motif scope specified in this laundry_lounge outfit.",
+        "separates_preference": "strongly prefer separates matches the garment layers in this laundry_lounge outfit."
+      },
+      "random_draws": {
+        "orient": "front_3q",
+        "frame": "chest_up",
+        "lens": "wide24"
+      },
+      "random_final": {
+        "orient": "over_shoulder",
+        "frame": "waist_up",
+        "lens": "natural50"
+      },
+      "random_adjustment_reason": "Gentle turn back while folding a towel provides visible face and hands; domestic laundry, half-sleeve lounge clothes and turned torso avoid all earlier activities. These angles keep the activity visible and avoid the previous comparison pairs."
+    }
+  ],
+  "recentCompared": [
+    "seedot-20261014",
+    "nuzleaf-20261014",
+    "shiftry-20261014"
+  ],
+  "previousInBatch": [
+    "taillow-20261014",
+    "swellow-20261014"
+  ],
+  "faceEvidence": {
+    "name": "갈모매",
+    "en": "Wingull",
+    "line": "갈모매",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "long",
+      "face width": "wide",
+      "jaw & chin": "balanced jawline",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "aquiline nose with convex bridge",
+      "lips": "straight even lips"
+    },
+    "why": "길고 납작한 날개의 수평선은 넓은 광대·넓은 눈 간격·수평의 가는 눈, 갈고리형 부리 끝은 완만히 볼록한 사람 콧대로 옮긴다. 바닷바람 활공은 긴 곡선 눈썹과 차분한 입술로 해석한다.",
+    "cues": [
+      "‘hooked, black tip’ → 코 콧대가 볼록한 매부리코"
+    ],
+    "adjusted": ""
+  },
+  "sourceEvidence": {
+    "name": "갈모매",
+    "en": "Wingull",
+    "color": "white",
+    "shape": "wings",
+    "features": [
+      {
+        "part": "stripe",
+        "detail": "light blue stripes"
+      },
+      {
+        "part": "wing",
+        "detail": "long, flat wings"
+      },
+      {
+        "part": "tip",
+        "detail": "hooked, black tip"
+      },
+      {
+        "part": "bone",
+        "detail": "hollow bones"
+      },
+      {
+        "part": "eye",
+        "detail": "thin, simplistic eyes"
+      },
+      {
+        "part": "toe",
+        "detail": "two webbed toes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Wingull_%28Pok%C3%A9mon%29",
+    "revision": 4611521,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "1e85eca4fd74fa691e833871d27223585795c22f7a087d43ddb983820f4bccbf",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, long length, wide width; balanced jawline; narrow eyes, medium size, level outer corners, wide-set; long arched brows; aquiline nose with convex bridge; straight even lips.",
+  "comparisonScope": "Viewed actual recent light and casual images in recent-comparison.jpg. Prior batch characters will be visually reviewed before accepting subsequent sets.",
+  "comparisonTable": [
+    {
+      "name": "도토링",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "adult_librarian",
+          "expr": "proud",
+          "pose": "standing_formal",
+          "orient": "low_angle",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Cream square-neck short-sleeve fitted blouse with a chestnut underbust waistcoat and a separate high-waist mid-thigh pleated skirt; small acorn brooch. No large head ornament."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "focused",
+          "pose": "preparing_food",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Sage scoop-neck short-sleeve tee ending at the waist, separate cream shorts, short chestnut waist apron layered over them; tiny acorn-shaped apron clasp. No large head ornament."
+        },
+        {
+          "cat": "active",
+          "ex": "roller_skating",
+          "expr": "playful",
+          "pose": "mid_stride",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Ivory round-neck sleeveless sports tank with chestnut side stripes and separate sage mid-thigh athletic shorts, wrist and knee protection, no outer layer; tiny acorn charm. No large head ornament."
+        }
+      ]
+    },
+    {
+      "name": "잎새코",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "relieved",
+          "pose": "perched_seat",
+          "orient": "leaning_back",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque brown and cream leaf-trimmed one-piece swimsuit with a green leaf-shaped clasp at the shoulder; no outer layer or armor headpiece."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "curious",
+          "pose": "cross_legged",
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Beige V-neck elbow-sleeve linen blouse ending at the waist, separate olive knee-length wrap skirt; no jacket, a small leaf earring. No armor headpiece."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "wistful",
+          "pose": "walking",
+          "orient": "looking_away",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Cream crew-neck long-sleeve top, separate chestnut high-waist shorts and calf-high rain boots, an open olive hip-length raincoat layered over the top; small leaf pull tab. No armor headpiece."
+        }
+      ]
+    },
+    {
+      "name": "다탱구",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "embroidered_corset",
+          "expr": "cold_smile",
+          "pose": "leaning_furniture",
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Opaque ivory folk-embroidered corset with brown leaf stitching and separate matching high-waist lingerie bottoms; tiny green clasp, no robe or armor headpiece."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_lookout",
+          "expr": "determined",
+          "pose": "standing_relaxed",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Brown open-collar long-sleeve cropped field shirt with sleeves rolled to elbows, separate cream knee-length hiking shorts, boots, a green leaf-pattern scarf layered at the collar. No armor headpiece."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_market",
+          "expr": "amused",
+          "pose": "carrying_something",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Cream boat-neck half-sleeve cotton blouse ending at waist, separate brown below-knee A-line skirt, a short green waist apron layered over the skirt; tiny leaf clasp, no armor headpiece."
+        }
+      ]
+    },
+    {
+      "name": "테일로",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "carrying_something",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Navy and white cropped zip racing jacket with long sleeves, a red fitted inner top, separate mid-thigh navy shorts, yellow ankle boots; tiny swallow badge without letters."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "White square-neck short-sleeve cotton blouse ending at waist, separate denim shorts, short red waist apron layered on top; little swallow-shaped apron clasp."
+        },
+        {
+          "cat": "active",
+          "ex": "track_sprint",
+          "expr": "determined",
+          "pose": "mid_action",
+          "orient": "crouching",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Crimson round-neck sleeveless fitted sprint top and separate navy mid-thigh running shorts, plain white track shoes, no outer layer; tiny yellow swallow hair clip."
+        }
+      ]
+    },
+    {
+      "name": "스왈로",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "relieved",
+          "pose": "walking",
+          "orient": "side",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque crimson deep-V halter one-piece swimsuit with white waist trim and a tiny navy swallow clasp; no cover-up."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "hardware_store",
+          "expr": "curious",
+          "pose": "bending_over",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "White shallow-V short-sleeve rib knit tee tucked into separate navy high-waist straight-leg jeans, crimson waist-length utility vest layered over it; tiny swallow zipper charm."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_music",
+          "expr": "pensive",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Crimson open-collar elbow-sleeve satin blouse ending at waist, separate white below-knee flowing skirt, no outer layer; small navy swallow earrings."
+        }
+      ]
+    }
+  ],
+  "wear": "White streamlined plates, light-blue wing stripes, black edges, orange bill as a small brow ornament. Missing appearance extraction colors filled through actual motifs UI before first generation.",
+  "pre_submission_refinement": "Removed repeated pose/orientation wording from scene fields before generation; those values come solely from actual UI selectors.",
+  "identity_review": {
+    "reference": "img/갈모매_light_glossy_promo_f.webp",
+    "sha256": "6b00c9a31484ef49d409d3560bc2a797829371e721b61b528bab3b7773dea8b8",
+    "actualCompared": [
+      "테일로",
+      "스왈로",
+      "도토링",
+      "잎새코",
+      "다탱구"
+    ],
+    "evidence": "final-faces.jpg와 최근 얼굴 대조에서 테일로의 응축된 짧은 얼굴·작은 코와 달리 갈모매는 넓은 윗볼·길고 볼록한 콧대·수평의 큰 가는 눈과 긴 곡선 눈썹. 스왈로의 좁고 긴 턱·작게 올라간 눈과도 구분된다. 흰 머리와 푸른 눈은 부차 단서로만 대조했다."
+  },
+  "final_comparison": "Viewed wingull-review.jpg against taillow-review.jpg, swellow-review.jpg and recent-comparison.jpg. Final 3 scenes distinguish location, activity, neckline, sleeves, hem, layers, pose and composition. Close inspection of machine panel and route map confirmed no text."
+}
