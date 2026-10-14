@@ -1,6 +1,6 @@
 {
   "character": "로파파",
-  "stage": "9 images QA passed; awaiting remote commit",
+  "stage": "final casual1 framing correction QA passed",
   "assets": [
     {
       "card": "로파파",
@@ -101,7 +101,7 @@
     {
       "card": "로파파",
       "slot": "casual1",
-      "source": "/workspace/scratch/5d4583f333ae/generated_images/exec-855b0bf0-ad32-4603-b9d9-54cfc4d99af7.png",
+      "source": "/workspace/scratch/5d4583f333ae/generated_images/exec-cb24c0c3-b189-4f2a-a246-28272e24692e.png",
       "file": "로파파_glossy_promo_f_casual1.webp",
       "path": "/workspace/scratch/5d4583f333ae/pkm-atelier-img-2/img/로파파_glossy_promo_f_casual1.webp",
       "size": [
@@ -109,7 +109,7 @@
         1536
       ],
       "format": "WEBP",
-      "sha256": "6326c0fa9a116896a57fec9f2bf8cfef79b9761401037d84527a25610b43db08",
+      "sha256": "b2bc92cae6cabcad742e0a9fb7b76fdc19b97c172df6827d2007bb30fa1f827e",
       "style": "glossy_promo",
       "styleEvidence": "actual Preact UI selection",
       "reference": "로파파_light_glossy_promo_f.webp",
@@ -117,7 +117,17 @@
         "source": "/workspace/scratch/5d4583f333ae/generated_images/exec-2ed951e7-89c1-49bc-a16b-55ebdf8f2c70.png",
         "sha256": "2aeefc0a914c11823272311044daad025be9cccc148de39cfbc5793cf48ea07f"
       },
-      "editTarget": "/workspace/scratch/5d4583f333ae/generated_images/exec-2ed951e7-89c1-49bc-a16b-55ebdf8f2c70.png"
+      "editTarget": "/workspace/scratch/5d4583f333ae/generated_images/exec-855b0bf0-ad32-4603-b9d9-54cfc4d99af7.png",
+      "priorDrafts": [
+        {
+          "source": "/workspace/scratch/5d4583f333ae/generated_images/exec-2ed951e7-89c1-49bc-a16b-55ebdf8f2c70.png",
+          "sha256": "2aeefc0a914c11823272311044daad025be9cccc148de39cfbc5793cf48ea07f"
+        },
+        {
+          "source": "/workspace/scratch/5d4583f333ae/generated_images/exec-855b0bf0-ad32-4603-b9d9-54cfc4d99af7.png",
+          "sha256": "6326c0fa9a116896a57fec9f2bf8cfef79b9761401037d84527a25610b43db08"
+        }
+      ]
     },
     {
       "card": "로파파",
@@ -157,5 +167,10 @@
       "reference": "로파파_light_glossy_promo_f.webp"
     }
   ],
-  "remote": "not yet pushed"
+  "remote": {
+    "initial_images_commit": "744a513e6e7b44e6217fa4f78a2579857192ced6",
+    "thumbnail_run": 38548640683,
+    "thumbnail_result": "success",
+    "final_casual1_correction": "pending"
+  }
 }

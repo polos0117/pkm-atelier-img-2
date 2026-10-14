@@ -82,9 +82,9 @@
       "expr": "proud",
       "pose": "leaning_wall",
       "orient": "leaning_back",
-      "frame": "waist_up",
+      "frame": "chest_up",
       "lens": "portrait85",
-      "scene": "An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist.",
+      "scene": "An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the upper bodice.",
       "outfit": "Opaque yellow satin corset with a sweetheart neckline, sleeveless construction, waist-length boned bodice and brown zigzag folk embroidery over matching green high-waisted opaque bottoms, no outer layer.",
       "aspect": "2:3",
       "axes": {
@@ -133,8 +133,8 @@
       "directInputs": [
         {
           "field": "scene",
-          "content": "An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist.",
-          "reason": "예시 “a folk-embroidered corset with structured boning and colourful thread work over a matching piece”가 지정하지 않은 시간·날씨·소품의 모습: An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the waist."
+          "content": "An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the upper bodice.",
+          "reason": "의상 예시에 없는 준비 동작. 가슴 위 프레이밍에 맞게 코르셋 위 솔기 자수를 손질하는 활동 위치를 보충."
         },
         {
           "field": "outfit",
@@ -145,9 +145,14 @@
           "field": "camera",
           "content": "Vertical 2:3 portrait (1024×1536).",
           "reason": "이미지 도구에 크기 설정 항목이 없어서 세로 2:3 픽셀 크기를 보충한다."
+        },
+        {
+          "field": "custom",
+          "content": "Edit target is the second attached image. Change to a chest-up portrait of her face, shoulders and upper bodice, ending just below the bust line. Raise both hands naturally to smooth the embroidery near the upper corset seam so the complete hands remain visible within this close framing. The waist, hips and legs are outside the frame. Preserve her identity, outfit construction, supported backward lean, expression and amber wardrobe background.",
+          "reason": "기존 컷의 허리·골반을 빼고 위 솔기 손질을 두 손과 함께 근거리로 보이는 부분 수정."
         }
       ],
-      "custom": "Edit target is the second attached image. Make a substantially closer waist-up composition: enlarge the woman so her head, shoulders, corset and seam-smoothing hands fill the frame, ending immediately below the corset waist seam. Her pelvis and legs must be outside the image. Keep the same identity, outfit design, supported backward lean, steady closed-mouth expression, hand anatomy and amber wardrobe alcove. Output portrait 1024 by 1536."
+      "custom": "Edit target is the second attached image. Change to a chest-up portrait of her face, shoulders and upper bodice, ending just below the bust line. Raise both hands naturally to smooth the embroidery near the upper corset seam so the complete hands remain visible within this close framing. The waist, hips and legs are outside the frame. Preserve her identity, outfit construction, supported backward lean, expression and amber wardrobe background."
     },
     {
       "cat": "active",
@@ -648,6 +653,16 @@
       },
       "reason": "허리 위 재구도 결과가 여전히 골반·허벅지를 포함해 더 근거리로 재구도. 얼굴부터 솔기 손동작까지 보존하고 다리는 프레임 밖.",
       "references": "light ①; partial fixes may additionally attach edit target"
+    },
+    {
+      "slot": "casual1",
+      "changedInputs": {
+        "frame": "chest_up",
+        "scene": "An amber-lit wardrobe alcove before an evening folk-fashion presentation; smoothing one embroidered seam near the upper bodice.",
+        "custom": "Edit target is the second attached image. Change to a chest-up portrait of her face, shoulders and upper bodice, ending just below the bust line. Raise both hands naturally to smooth the embroidery near the upper corset seam so the complete hands remain visible within this close framing. The waist, hips and legs are outside the frame. Preserve her identity, outfit construction, supported backward lean, expression and amber wardrobe background."
+      },
+      "reason": "허리 위로 수정한 세 컷 프레이밍 묶음이 마그비와 같아져 원래 가슴 위 선택으로 복원. 허리 솔기 대신 상단 솔기 손질로 같은 활동의 위치만 바꾸어 두 손을 가슴 위 구도에 포함.",
+      "references": "light ①; partial fixes may additionally attach edit target"
     }
   ],
   "generationTool": "built-in image_gen",
@@ -659,5 +674,5 @@
     "밀탱크"
   ],
   "faceComparisonEvidence": "실제 그림을 대조: 갈색 웨이브·초록 눈·낮은 콧대와 넓은 입의 로파파는 푸른 단발·큰 둥근 눈의 연꽃몬, 초록 단발·가로로 긴 눈과 좁은 턱의 로토스와 구별됨. 최근 3종도 확대 없이 비교 이미지의 얼굴을 대조함.",
-  "casualDiversityActual": "세 컷과 최근 3종 및 연꽃몬·로토스의 실제 이미지를 6행 비교 이미지로 검수. 벽에 기댄 코르셋 솔기 손질의 근거리 상체, 발과 팔이 움직이는 파빌리온 춤의 전신, 위에서 본 강변 축제 준비의 리본 비교가 장소·활동·의상 실루엣·구도에서 구분됨. 춤 상의는 crew-neck/waist-length를 복원하여 코르셋과 랩드레스와도 구별."
+  "casualDiversityActual": "세 컷과 최근 3종 및 연꽃몬·로토스의 실제 이미지를 6행 비교 이미지로 검수. 벽에 기댄 코르셋 솔기 손질의 근거리 상체, 발과 팔이 움직이는 파빌리온 춤의 전신, 위에서 본 강변 축제 준비의 리본 비교가 장소·활동·의상 실루엣·구도에서 구분됨. 춤 상의는 crew-neck/waist-length를 복원하여 코르셋과 랩드레스와도 구별. 최종 코르셋 컷은 가슴 위 프레이밍과 상단 자수 솔기를 다듬는 두 손으로 조정하여 마그비의 허리 위·환경·무릎 위 묶음과 구별됨."
 }
