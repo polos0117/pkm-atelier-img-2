@@ -1,0 +1,448 @@
+{
+  "name": "비나방",
+  "slug": "masquerain",
+  "no": 284,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "white",
+    "hairstyle": "wavy",
+    "hair length": "medium",
+    "eye color": "black",
+    "body type": "tall and lean"
+  },
+  "wear": "Four pale-blue rhombus-shaped wing motifs become a split shoulder cape with fine white lines; large eye-pattern antenna motifs become compact coral-and-cream hair ornaments above the temples, her face remains human.",
+  "scene": "An airy garden terrace at blue hour with pale blue wind trails and drifting pink petals.",
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "embroidered_corset",
+      "expr": "wistful",
+      "pose": "leaning_furniture",
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "At a quiet antique dressing table in cool dawn light, one hand rests beside a plain round mirror base.",
+      "outfit": "Opaque coral satin corset with blue-and-ivory folk embroidery, strapless sweetheart neckline and long boned waist, separate high-waist ivory briefs; no outer layer and a tiny diamond earring.",
+      "axis_reasons": {
+        "action_level": "Resting at the dressing table is a still contemplative fashion scene.",
+        "source_influence": "Coral, blue and ivory diamond embroidery strongly echoes the cape within ordinary textiles.",
+        "separates_preference": "Corset and matching briefs are separate garments."
+      },
+      "random_adjustment_reason": "Use profile_close/chest_up to make the embroidered_corset activity readable and avoid all comparison direction/frame pairs.",
+      "input_reasons": {
+        "scene": "The embroidered_corset example leaves time of day and the specified object interaction unset.",
+        "outfit": "The embroidered_corset example leaves the specified colors, materials, neckline, sleeve length and hems unset.",
+        "camera": "Image tool has no size field; request vertical 2:3 at 1024×1536."
+      },
+      "random_draws": {
+        "orient": "profile_close",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "exampleText": "a folk-embroidered corset with structured boning and colourful thread work over a matching piece"
+    },
+    {
+      "cat": "occupation_basic",
+      "ex": "observatory_engineer",
+      "expr": "serious",
+      "pose": "mid_action",
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "scene": "At a stone observatory terrace before sunrise, she rotates a plain telescope focus ring beside open sketches of wing silhouettes without labels.",
+      "outfit": "Cream V-neck long-sleeve ankle-length fitted jumpsuit with pale-blue side panels and coral diamond embroidery at the cuffs, no outer layer; one small pink pendant.",
+      "axis_reasons": {
+        "action_level": "Rotating the focus ring visibly adjusts the telescope.",
+        "source_influence": "Blue side panels and coral diamond cuff embroidery recall the moth palette and wings.",
+        "separates_preference": "The ankle-length jumpsuit is one continuous garment."
+      },
+      "random_adjustment_reason": "Use high_angle/three_quarter to make the observatory_engineer activity readable and avoid all comparison direction/frame pairs.",
+      "input_reasons": {
+        "scene": "The observatory_engineer example leaves time of day and the specified object interaction unset.",
+        "outfit": "The observatory_engineer example leaves the specified colors, materials, neckline, sleeve length and hems unset.",
+        "camera": "Image tool has no size field; request vertical 2:3 at 1024×1536."
+      },
+      "random_draws": {
+        "orient": "seated_twist",
+        "frame": "waist_up",
+        "lens": "telephoto135"
+      },
+      "exampleText": "Nocturnal Pokémon researcher adjusting a telescope and reviewing field sketches at a quiet night observatory."
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "festival_daily",
+      "expr": "laughing_open",
+      "pose": "waving",
+      "orient": "over_shoulder",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "At an empty lantern festival lane at sunset, plain paper lanterns hang above cobblestones and her free hand holds a small unprinted paper fan.",
+      "outfit": "Pink round-neck short puff-sleeve blouse ending at waist, separate pale-blue calf-length A-line skirt with a plain hem, short open ivory vest layered over it and a tiny diamond clasp.",
+      "axis_reasons": {
+        "action_level": "A little wave during a festival pause is gentle movement.",
+        "source_influence": "The tiny diamond clasp is the single moth-wing symbol in ordinary festival clothes.",
+        "separates_preference": "Blouse, A-line skirt and vest form separate garments."
+      },
+      "random_adjustment_reason": "Use over_shoulder/environmental to make the festival_daily activity readable and avoid all comparison direction/frame pairs.",
+      "input_reasons": {
+        "scene": "The festival_daily example leaves time of day and the specified object interaction unset.",
+        "outfit": "The festival_daily example leaves the specified colors, materials, neckline, sleeve length and hems unset.",
+        "camera": "Image tool has no size field; request vertical 2:3 at 1024×1536."
+      },
+      "random_draws": {
+        "orient": "three_quarter_back",
+        "frame": "full_body",
+        "lens": "portrait85"
+      },
+      "exampleText": "Local Festival Day"
+    }
+  ],
+  "recentCompared": [
+    "slakoth-20261015",
+    "breloom-20261015",
+    "surskit-20261015"
+  ],
+  "additionalCompared": [
+    "gardevoir-20261015"
+  ],
+  "comparisonTable": [
+    {
+      "name": "게을로",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "knit_lingerie",
+          "expr": "sleepy",
+          "pose": "stretching",
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Opaque oatmeal rib-knit wide-strap bralette and separate matching high-waist briefs with chocolate edge binding; tiny pink circular pendant, no robe."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "midnight_laundromat",
+          "expr": "bored",
+          "pose": "leaning_wall",
+          "orient": "side",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Chocolate scoop-neck long-sleeve cotton tee with two beige stripe bands, a long hem extending below the waistband to the upper hips and covering the midriff, separate pale-pink calf-length straight skirt and flat beige sandals; no outer layer."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_tea",
+          "expr": "gentle",
+          "pose": "kneeling",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Dusty-pink square-neck short-sleeve calf-length soft linen dress, chocolate narrow sash and one tiny beige ring pendant, no outer layer."
+        }
+      ]
+    },
+    {
+      "name": "버섯모",
+      "cuts": [
+        {
+          "cat": "active",
+          "ex": "boxing_fitness",
+          "expr": "determined",
+          "pose": "mid_action",
+          "orient": "low_angle",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Cream high-neck sleeveless athletic top ending at waist and separate dark-green loose knee-length boxing shorts with red waistband, plain red training shoes; a small cap-shaped zipper tab, no outer layer."
+        },
+        {
+          "cat": "swimwear",
+          "ex": "rashguard_set",
+          "expr": "relieved",
+          "pose": "standing_relaxed",
+          "orient": "front_3q",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Opaque forest-green long-sleeve zip-front rashguard ending at the hips, worn over separate fully lined beige mid-thigh square-cut swim shorts, simple green water shoes and a tiny terracotta cap-shaped zipper tab."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "mobility_tuner",
+          "expr": "focused",
+          "pose": "perched_seat",
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Beige mandarin-collar long-sleeve work shirt with sleeves rolled to forearms, separate red straight trousers, hip-length green bib work apron layered over both; tiny mushroom pin on the apron strap."
+        }
+      ]
+    },
+    {
+      "name": "비구술",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "relieved",
+          "pose": "perched_seat",
+          "orient": "reclining",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "strong",
+            "action_level": "mostly posed",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Pale-blue opaque halter bikini top and separate high-waist swim bottoms with yellow edging and tiny pink semicircle embroidery, no outer layer."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "greenhouse",
+          "expr": "curious",
+          "pose": "watering",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "strong",
+            "action_level": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Blue square-neck short-sleeve knee-length cotton dress with yellow waist piping, no outer layer; a small pink droplet pendant."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_trail",
+          "expr": "determined",
+          "pose": "checking_map",
+          "orient": "leaning_forward",
+          "frame": "three_quarter",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "balanced",
+            "action_level": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Yellow open-collar long-sleeve hiking shirt ending at waist, separate navy mid-thigh cargo shorts, open pale-blue hip-length rain vest layered over it and a small pink zipper bead."
+        }
+      ]
+    },
+    {
+      "name": "가디안",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "ceremonial_instructor",
+          "expr": "proud",
+          "pose": "standing_formal",
+          "orient": "front",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "strong",
+            "action_level": "mostly posed",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Ivory deep-V fitted belted jacket with long sleeves ending at the waist, separate emerald upper-thigh skirt, short fitted white gloves and a narrow crimson sash; small red crystal clasp."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "rescue_paramedic",
+          "expr": "gentle",
+          "pose": "kneeling",
+          "orient": "high_angle",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "balanced",
+            "action_level": "mostly active",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Mint scoop-neck short-sleeve knee-length jersey work dress with a white half apron layered over the waist, flat white shoes and a tiny red heart pin."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "subtle",
+            "action_level": "mostly active",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Ivory boat-neck elbow-sleeve linen blouse ending at the waist, separate charcoal knee-length culottes, no outer layer; one small green stud earring."
+        }
+      ]
+    }
+  ],
+  "faceEvidence": {
+    "name": "비나방",
+    "en": "Masquerain",
+    "line": "비구술",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "heart-shaped",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "large",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "long arched brows",
+      "nose character": "straight slender bridge",
+      "lips": "small mouth"
+    },
+    "why": "마름모 날개와 큰 눈처럼 보이는 더듬이를 넓은 상안면과 큰 사람 눈으로 해석한다.",
+    "cues": [
+      "몸 형태 bug-wings → 얼굴형 이마가 넓고 턱이 가는 하트형",
+      "몸 형태 bug-wings → 턱선 · 턱끝 아래로 갈수록 좁아지는 턱끝",
+      "몸 형태 bug-wings → 눈 크기 큰 눈"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 작고 여린 코 → 곧고 가는 콧대"
+  },
+  "sourceEvidence": {
+    "name": "비나방",
+    "en": "Masquerain",
+    "color": "blue",
+    "shape": "bug-wings",
+    "features": [
+      {
+        "part": "wing",
+        "detail": "rhombus-shaped wings"
+      },
+      {
+        "part": "antenna",
+        "detail": "large antenna"
+      },
+      {
+        "part": "face",
+        "detail": "pink face"
+      },
+      {
+        "part": "line",
+        "detail": "white lines"
+      },
+      {
+        "part": "antennae",
+        "detail": "white antennae"
+      },
+      {
+        "part": "eye",
+        "detail": "black eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Masquerain_%28Pok%C3%A9mon%29",
+    "revision": 4611115,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "a1174089db6223c9948c3cf6012009324279570b56614beb3b2d93fe53234fc4",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "recovery": {
+    "anchor_library_file_id": "libfile_f6468d8002488191902d31b6ef0e9d56",
+    "anchor": "recovery/pkm-atelier/푸른 정원의 비나방 메카.png",
+    "note": "Recovered exact approved light pixels. Heavy source and old captures were removed by automated scratch maintenance; recaptured generator UI and regenerate heavy from recovered light. No identity redesign."
+  },
+  "comparison_actual_images": [
+    "recent-comparison.jpg"
+  ],
+  "planning_decision": "Recent three at resume are Slakoth, Breloom and Surskit; Gardevoir is also included from this batch. Telescope direction/frame changed to high-angle/three-quarter to avoid Breloom boxing; source values and separates preference adjusted to avoid repeated multisets/triples. Profile-close is new among comparison cuts.",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): heart-shaped face, balanced length, medium width; narrow tapered chin; open rounded eyes, large size, level outer corners, average spacing; long arched brows; straight slender bridge nose; small mouth.",
+  "faceComparison": "Compared recovered light with actual Slakoth, Breloom, Surskit and Gardevoir light images: wider forehead, tapered small chin, larger level eyes and slender nose distinguish the face independently of white waves and eye ornaments.",
+  "revisions": [
+    {
+      "slot": "casual3",
+      "reason": "Initial festival result had a third arm grasping the skirt.",
+      "changed": "Custom field requests local removal of third arm, natural wave/fan shoulder connections; other details preserved.",
+      "references": [
+        "approved recovered light",
+        "casual3 initial"
+      ],
+      "discarded": "exec-2a1cf77e-3fe8-4541-ad1f-dec3988c4f74.png"
+    }
+  ]
+}

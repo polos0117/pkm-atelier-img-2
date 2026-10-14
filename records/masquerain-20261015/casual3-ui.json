@@ -1,0 +1,97 @@
+{
+  "storage": {
+    "last": "비나방",
+    "cards": {
+      "비나방": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "white",
+          "hairstyle": "wavy",
+          "hair length": "medium",
+          "eye color": "black",
+          "body type": "tall and lean"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "An airy garden terrace at blue hour with pale blue wind trails and drifting pink petals.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "laughing_open",
+            "pose": "waving",
+            "orient": "over_shoulder",
+            "scene": "At an empty lantern festival lane at sunset, plain paper lanterns hang above cobblestones and her free hand holds a small unprinted paper fan.",
+            "outfit": "Pink round-neck short puff-sleeve blouse ending at waist, separate pale-blue calf-length A-line skirt with a plain hem, short open ivory vest layered over it and a tiny diamond clasp.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Local anatomy correction to the supplied festival image: remove the extra third arm and hand that reaches down on image-left to grip the skirt. Rebuild the two shoulder-to-hand connections naturally: one arm makes the existing small wave and the other holds the paper fan. Preserve the existing face, clothing, lantern setting, body direction and framing.",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "festival_daily",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Masquerain (비나방) personified, bug / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: mouth open wide in a laugh with teeth showing and cheeks raised, but the eyes stay open and engaged — lids only slightly narrowed, gaze still readable rather than squeezed shut\nPose: Raise one hand near shoulder height in a friendly small wave.\nOrientation: body turned away, head looking back over a shoulder\nScene: At an empty lantern festival lane at sunset, plain paper lanterns hang above cobblestones and her free hand holds a small unprinted paper fan.\nOutfit and props: Pink round-neck short puff-sleeve blouse ending at waist, separate pale-blue calf-length A-line skirt with a plain hem, short open ivory vest layered over it and a tiny diamond clasp.\nCategory: Create candid ordinary personal-life moments. The scene should feel lived-in, believable, and visually specific rather than staged. Use normal contemporary clothing with clear character personality. Avoid glamour-shoot posing, professional work, and costume styling.\nExample scene: Local Festival Day\nNote: Local anatomy correction to the supplied festival image: remove the extra third arm and hand that reaches down on image-left to grip the skirt. Rebuild the two shoulder-to-hand connections naturally: one arm makes the existing small wave and the other holds the paper fan. Preserve the existing face, clothing, lantern setting, body direction and framing.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "errors": []
+}
