@@ -1,0 +1,957 @@
+{
+  "name": "마그비",
+  "slug": "magby",
+  "style": "glossy_promo",
+  "faceEvidence": {
+    "name": "마그비",
+    "en": "Magby",
+    "line": "마그비",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "fine soft arches",
+      "nose character": "prominent defined nose",
+      "lips": "full lips"
+    },
+    "why": "둥근 노란 부리와 작은 불씨의 체적을 둥근 코끝과 도톰한 입술로 해석한다.",
+    "cues": [
+      "‘rounded, yellow beak’ → 코 크고 또렷한 코"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 코끝이 둥근 → 크고 또렷한 코"
+  },
+  "sourceEvidence": {
+    "name": "마그비",
+    "en": "Magby",
+    "color": "red",
+    "shape": "upright",
+    "features": [
+      {
+        "part": "marking",
+        "detail": "yellow, flame-shaped marking"
+      },
+      {
+        "part": "collar",
+        "detail": "black collar"
+      },
+      {
+        "part": "beak",
+        "detail": "rounded, yellow beak"
+      },
+      {
+        "part": "spike",
+        "detail": "single spike"
+      },
+      {
+        "part": "tail",
+        "detail": "tapered tail"
+      },
+      {
+        "part": "body",
+        "detail": "red body"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Magby_%28Pok%C3%A9mon%29",
+    "revision": 4611091,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "02494de5583776c25bc2cbbaf390a671bcf314e9976cf00a8bd88154d6d97ea9",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; soft rounded jaw; open rounded eyes, medium size, level outer corners, average spacing; fine soft arches; prominent defined nose; full lips.",
+  "faceComparedActual": [
+    "마그마",
+    "에레키드",
+    "뽀뽀라",
+    "카스쿤"
+  ],
+  "faceComparisonEvidence": "마그비는 짧고 둥근 볼과 넓은 입술·또렷한 코, 밀탱크는 더 긴 윤곽과 넓은 턱·처진 눈꼬리, 에레키드는 큰 수평 눈매와 얇은 입술, 뽀뽀라는 둥근 큰 눈과 작은 턱. 원본 그림을 나란히 확인했다.",
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "lab_roleplay",
+      "expr": "pensive",
+      "pose": "carrying_something",
+      "orient": "looking_down",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "scene": "At a science-fiction costume exhibition with amber glass tubes and a red-lit laboratory display behind her; holding a small unlettered sample vial.",
+      "outfit": "The white coat has a notched collar and full-length sleeves over an opaque red square-neck fitted dress; yellow seam piping and a tiny flame-shaped decorative badge.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "orient": {
+          "draw": "three_quarter_back",
+          "final": "profile_close",
+          "reason": "Side profile displays rounded nose and lips at the science exhibition; differs from earlier costume-table and stage directions."
+        },
+        "frame": {
+          "draw": "environmental",
+          "final": "chest_up",
+          "reason": "Focus on face, vial and laboratory costume collar, different from Elekid skating wide view."
+        },
+        "lens": {
+          "draw": "wide24",
+          "final": "telephoto135",
+          "reason": "Compress amber tube display behind the profile."
+        }
+      },
+      "revision": {
+        "reason": "Initial and two unchanged retries rendered thigh crops and three-quarter views instead of chest crop/profile. Re-planned vial pose still rendered too wide and an open mouth, so selected three-quarter portrait and pensive expression before a new generation.",
+        "changed": [
+          "pose: hand_on_hip → carrying_something",
+          "orientation: profile_close → looking_down",
+          "outfit: remove hem detail outside requested crop",
+          "frame: chest_up → three_quarter",
+          "expression: focused → pensive"
+        ],
+        "attempts": 3
+      },
+      "example_text": "a laboratory-themed costume with a crisp white coat over a fitted dress, using original decorative badges",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "axis_reasons": {
+        "action_level": "전시 이벤트에서 작은 샘플 병을 들고 잠시 관찰하는 순간이다.",
+        "source_influence": "흰 코트 아래 붉은 드레스와 노랑 선·불꽃 배지로 원작 팔레트를 읽힌다.",
+        "separates_preference": "코트 아래 드레스 한 벌을 입는 예시라 분리형을 강제하지 않는다."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "At a science-fiction costume exhibition with amber glass tubes and a red-lit laboratory display behind her; holding a small unlettered sample vial.",
+          "reason": "lab_roleplay 예시에 없는 시간대·구체 장소·주변 물건을 정한다: At a science-fiction costume exhibition with amber glass tubes and a red-lit laboratory display behind her; holding a small unlettered sample vial."
+        },
+        {
+          "field": "outfit",
+          "content": "The white coat has a notched collar and full-length sleeves over an opaque red square-neck fitted dress; yellow seam piping and a tiny flame-shaped decorative badge.",
+          "reason": "lab_roleplay 예시에 없는 색·소재·목선·소매와 작은 종 모티프를 정한다: The white coat has a notched collar and full-length sleeves over an opaque red square-neck fitted dress; yellow seam piping and a tiny flame-shaped decorative badge."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "해상도 인자가 없는 도구에서 세로 2:3 크기를 지정한다."
+        }
+      ]
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_camp",
+      "expr": "candid",
+      "pose": "squatting",
+      "orient": "front_3q",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "scene": "Early morning at a rocky highland campsite, a moss-green tent and a compact copper kettle beside neatly stacked pans.",
+      "outfit": "A cream collarless long-sleeve linen shirt with a hip-length hem and rolled cuffs, separate olive knee-length hiking shorts, no outer layer; a single tiny red flame-shaped bracelet charm.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "orient": {
+          "draw": "front_3q",
+          "final": "front_3q",
+          "reason": "Campsite blanket work is readable from three-quarter, unlike recent close waist-up store view."
+        },
+        "frame": {
+          "draw": "environmental",
+          "final": "environmental",
+          "reason": "Tent, blanket and grounded cookware need environmental context."
+        },
+        "lens": {
+          "draw": "portrait85",
+          "final": "documentary35",
+          "reason": "A grounded campsite and full crouched figure need moderate spatial depth."
+        }
+      },
+      "example_text": "Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite.",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "axis_reasons": {
+        "action_level": "작은 텐트 곁에서 캠핑 담요를 실제로 접는 손 작업이다.",
+        "source_influence": "크림 셔츠·올리브 반바지에 작은 불꽃 팔찌만 남긴다.",
+        "separates_preference": "린넨 긴소매 셔츠와 하이킹 반바지를 분리한다."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Early morning at a rocky highland campsite, a moss-green tent and a compact copper kettle beside neatly stacked pans.",
+          "reason": "travel_camp 예시에 없는 시간대·구체 장소·주변 물건을 정한다: Early morning at a rocky highland campsite, a moss-green tent and a compact copper kettle beside neatly stacked pans."
+        },
+        {
+          "field": "outfit",
+          "content": "A cream collarless long-sleeve linen shirt with a hip-length hem and rolled cuffs, separate olive knee-length hiking shorts, no outer layer; a single tiny red flame-shaped bracelet charm.",
+          "reason": "travel_camp 예시에 없는 색·소재·목선·소매와 작은 종 모티프를 정한다: A cream collarless long-sleeve linen shirt with a hip-length hem and rolled cuffs, separate olive knee-length hiking shorts, no outer layer; a single tiny red flame-shaped bracelet charm."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "해상도 인자가 없는 도구에서 세로 2:3 크기를 지정한다."
+        }
+      ]
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "pottery_class",
+      "expr": "amused",
+      "pose": "mid_action",
+      "orient": "seated_twist",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "An evening pottery studio with shelves of pale ceramic bowls, shaping a small clay cup at a low wheel.",
+      "outfit": "A periwinkle boat-neck blouse with loose elbow-length sleeves and a waist-length hem, separate cream calf-length A-line skirt, no outer layer; a tiny red flame pendant.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "random_adjustments": {
+        "orient": {
+          "draw": "low_angle",
+          "final": "seated_twist",
+          "reason": "A seated pottery wheel operation needs supported torso and accessible clay, unlike skating from below."
+        },
+        "frame": {
+          "draw": "face_close",
+          "final": "waist_up",
+          "reason": "Face-close removes hands, wheel and clay cup."
+        },
+        "lens": {
+          "draw": "portrait85",
+          "final": "natural50",
+          "reason": "Keep fingers and cup proportionally readable."
+        }
+      },
+      "example_text": "Pottery / Craft Class",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "axis_reasons": {
+        "action_level": "낮은 물레에서 찰흙 컵을 부드럽게 빚는 동작이다.",
+        "source_influence": "보라·크림 생활복에 붉은 작은 불꽃 목걸이만 둔다.",
+        "separates_preference": "팔꿈치 소매 블라우스와 A라인 치마를 따로 입는다."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "An evening pottery studio with shelves of pale ceramic bowls, shaping a small clay cup at a low wheel.",
+          "reason": "pottery_class 예시에 없는 시간대·구체 장소·주변 물건을 정한다: An evening pottery studio with shelves of pale ceramic bowls, shaping a small clay cup at a low wheel."
+        },
+        {
+          "field": "outfit",
+          "content": "A periwinkle boat-neck blouse with loose elbow-length sleeves and a waist-length hem, separate cream calf-length A-line skirt, no outer layer; a tiny red flame pendant.",
+          "reason": "pottery_class 예시에 없는 색·소재·목선·소매와 작은 종 모티프를 정한다: A periwinkle boat-neck blouse with loose elbow-length sleeves and a waist-length hem, separate cream calf-length A-line skirt, no outer layer; a tiny red flame pendant."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "해상도 인자가 없는 도구에서 세로 2:3 크기를 지정한다."
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "character": "에레키드",
+      "record": "pkm-atelier-img-2/records/elekid-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "everyday_basic",
+          "ex": "hardware_store",
+          "expr": "curious",
+          "pose": "carrying_something",
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "scene": "In a bright electrical-supply aisle, comparing two unlettered plug adaptors held separately in her hands.",
+          "outfit": "A black square-neck cotton top with elbow-length sleeves and a waist-length hem, separate mustard-yellow pleated shorts, no outer layer; a tiny lightning-shaped pendant.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "random_adjustments": {
+            "orient": {
+              "draw": "front",
+              "final": "front_3q",
+              "reason": "Recent Beautifly front/full-body composition avoided; adaptor comparison reads at a three-quarter counter view."
+            },
+            "frame": {
+              "draw": "face_close",
+              "final": "waist_up",
+              "reason": "Face-close hides the hands and cannot show adaptor comparison."
+            },
+            "lens": {
+              "draw": "natural50",
+              "final": "natural50",
+              "reason": "Preserves hand and adaptor proportions."
+            }
+          },
+          "axis_reasons": {
+            "action_level": "두 어댑터를 비교하는 손 움직임을 부드럽게 담는다.",
+            "source_influence": "검정 상의·노랑 반바지와 번개 목걸이로 전기 모티프를 보인다.",
+            "separates_preference": "면 상의와 플리츠 반바지가 분리된 옷이다."
+          },
+          "aspect": "2:3",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "In a bright electrical-supply aisle, comparing two unlettered plug adaptors held separately in her hands.",
+              "reason": "예시 제목에는 전기용품과 비교 동작이 없어서 구체화한다."
+            },
+            {
+              "field": "outfit",
+              "content": "A black square-neck cotton top with elbow-length sleeves and a waist-length hem, separate mustard-yellow pleated shorts, no outer layer; a tiny lightning-shaped pendant.",
+              "reason": "예시에는 상의 목선·소매·기장과 분리된 하의가 없어 명시한다."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "해상도 지정 도구가 없어 세로 2:3 크기를 요청한다."
+            }
+          ]
+        },
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "relieved",
+          "pose": "walking",
+          "orient": "high_angle",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "scene": "Late afternoon on a quiet volcanic-sand beach, dark basalt rocks and a small yellow beach towel folded on a distant bench.",
+          "outfit": "An opaque yellow racerback one-piece swimsuit with a high neckline and thin black side stripes, no cover-up; small black lightning earrings.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "random_adjustments": {
+            "orient": {
+              "draw": "rear_3q",
+              "final": "reaching_up",
+              "reason": "Shower rinse and gentle shoulder stretch need visible face and raised hands."
+            },
+            "frame": {
+              "draw": "full_body",
+              "final": "full_body",
+              "reason": "Full-body retains shower, arms and poolside tiles."
+            },
+            "lens": {
+              "draw": "documentary35",
+              "final": "portrait85",
+              "reason": "Distance keeps raised limbs in natural proportion."
+            }
+          },
+          "revision": {
+            "previous_example": "outdoor_shower",
+            "reason": "Image generation rejected the shower result at output moderation; re-planned as ordinary shoreline walk.",
+            "changed": [
+              "example",
+              "scene",
+              "pose",
+              "orientation"
+            ]
+          },
+          "axis_reasons": {
+            "action_level": "물가 산책은 가벼운 걸음과 팔의 자연스러운 움직임이다.",
+            "source_influence": "노랑 한 벌 수영복에 검정 옆선을 넣는다.",
+            "separates_preference": "레이서백 원피스 수영복 한 벌이다."
+          },
+          "aspect": "2:3",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Late afternoon on a quiet volcanic-sand beach, dark basalt rocks and a small yellow beach towel folded on a distant bench.",
+              "reason": "해변 예시에는 시간대·검은 모래 지형이 없어서 덧붙인다."
+            },
+            {
+              "field": "outfit",
+              "content": "An opaque yellow racerback one-piece swimsuit with a high neckline and thin black side stripes, no cover-up; small black lightning earrings.",
+              "reason": "수영복 예시에 없는 색·검정 옆선·원피스 구조를 정한다."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "해상도 지정 도구가 없어 세로 2:3 크기를 요청한다."
+            }
+          ]
+        },
+        {
+          "cat": "active",
+          "ex": "roller_skating",
+          "expr": "laughing_open",
+          "pose": "mid_stride",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "scene": "Roller skating across a seaside promenade at sunrise, palm shadows stretching across the smooth pavement.",
+          "outfit": "A white high-neck sleeveless ribbed athletic top ending at the waist, separate black flared skating shorts, yellow knee pads and four-wheel roller skates, no outer layer; a tiny plug-shaped zipper charm.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "random_adjustments": {
+            "orient": {
+              "draw": "looking_down",
+              "final": "low_angle",
+              "reason": "Promenade skating reads with rolling wheels and open horizon."
+            },
+            "frame": {
+              "draw": "detail",
+              "final": "environmental",
+              "reason": "Detail would remove face and obscure skating activity."
+            },
+            "lens": {
+              "draw": "telephoto135",
+              "final": "wide24",
+              "reason": "Wide environmental view reveals pavement and seaside."
+            }
+          },
+          "axis_reasons": {
+            "action_level": "바퀴를 굴리는 중간 걸음을 중심으로 한다.",
+            "source_influence": "흰 운동복과 검정 하의에 작은 플러그 장식만 둔다.",
+            "separates_preference": "리브 상의와 플레어 스케이팅 반바지가 분리되어 있다."
+          },
+          "aspect": "2:3",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Roller skating across a seaside promenade at sunrise, palm shadows stretching across the smooth pavement.",
+              "reason": "롤러스케이트 예시에는 실제 활동 장소와 시간대가 없어서 해변 산책로를 정한다."
+            },
+            {
+              "field": "outfit",
+              "content": "A white high-neck sleeveless ribbed athletic top ending at the waist, separate black flared skating shorts, yellow knee pads and four-wheel roller skates, no outer layer; a tiny plug-shaped zipper charm.",
+              "reason": "활동 예시에 없는 운동복 목선·소매·기장·보호구·바퀴 신발을 정한다."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "해상도 지정 도구가 없어 세로 2:3 크기를 요청한다."
+            }
+          ]
+        }
+      ],
+      "actual_images_inspected": true
+    },
+    {
+      "character": "뽀뽀라",
+      "record": "pkm-atelier-img-2/records/smoochum-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "casino_dealer",
+          "expr": "smug",
+          "pose": "mid_action",
+          "orient": "leaning_forward",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "scene": "At a themed casino-costume party in ruby evening light; sliding a plain red-backed playing card across green felt with blank-faced cards stacked nearby.",
+          "outfit": "Cream fitted waistcoat with pink satin lapels over a sleeveless white high-neck blouse. The blouse has one continuous opaque satin front from its fastened collar to the natural waist, with no chest opening or cutout; separate pink tailored shorts, a gold bow tie and small gold cuffs, and one tiny heart hair clip.",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "randomized": {
+            "orient": "reaching_up",
+            "frame": "three_quarter",
+            "lens": "portrait85"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "reaching_up",
+              "to": "leaning_forward",
+              "reason": "casino_dealer 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+            },
+            {
+              "key": "frame",
+              "from": "three_quarter",
+              "to": "chest_up",
+              "reason": "casino_dealer 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+            },
+            {
+              "key": "lens",
+              "from": "portrait85",
+              "to": "telephoto135",
+              "reason": "casino_dealer 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+            }
+          ],
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "a casino dealer costume with a fitted waistcoat, bow tie, and cuffs, at a card table",
+          "axesReasons": {
+            "action_level": "테이블 위에서 플레이 카드를 밀어 나누는 진행 중 손동작",
+            "source_influence": "핑크 라펠과 작은 하트핀 두 단서로 원작 표현은 중간",
+            "separates_preference": "조끼·블라우스·반바지의 분리된 세 겹 딜러 의상"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "At a themed casino-costume party in ruby evening light; sliding a plain red-backed playing card across green felt with blank-faced cards stacked nearby.",
+              "reason": "고른 예시 a casino dealer costume with a fitted waistcoat, bow tie, and cuffs, at a card table에 없는 시간·조명과 읽히는 손 활동을 casino_dealer 장소 안에서 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Cream fitted waistcoat with pink satin lapels over a sleeveless white high-neck blouse. The blouse has one continuous opaque satin front from its fastened collar to the natural waist, with no chest opening or cutout; separate pink tailored shorts, a gold bow tie and small gold cuffs, and one tiny heart hair clip.",
+              "reason": "딜러 예시에는 조끼·보타이·커프스만 있어 크림/핑크 배색과 하이넥 블라우스의 연결된 앞판, 소매 없음·허리기장·분리 반바지를 지정; 큰 머리장식을 작은 하트핀으로 보충"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+            }
+          ]
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_music",
+          "expr": "pensive",
+          "pose": "sitting_floor",
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "lens": "wide24",
+          "scene": "In a cozy attic music room on a rainy afternoon; practicing a small acoustic ukulele beside a blank music sheet on a stand, a floor cushion at her hip.",
+          "outfit": "Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer.",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "randomized": {
+            "orient": "walking_away",
+            "frame": "detail",
+            "lens": "documentary35"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "walking_away",
+              "to": "seated_twist",
+              "reason": "hobby_music 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+            },
+            {
+              "key": "frame",
+              "from": "detail",
+              "to": "environmental",
+              "reason": "hobby_music 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+            },
+            {
+              "key": "lens",
+              "from": "documentary35",
+              "to": "wide24",
+              "reason": "hobby_music 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+            }
+          ],
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Practicing a small acoustic instrument in a cozy room with a music stand and a resting cushion nearby.",
+          "axesReasons": {
+            "action_level": "hobby_music의 진행 중 활동: In a cozy attic music room on a rainy afternoon; practicing a small acoustic ukulele beside a blank music sheet on a stand, a floor cushion at her hip.",
+            "source_influence": "이 컷의 원작 단서는 의상에 있는 Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer.",
+            "separates_preference": "이 컷의 의상 층과 상하 분리는 Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer."
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "In a cozy attic music room on a rainy afternoon; practicing a small acoustic ukulele beside a blank music sheet on a stand, a floor cushion at her hip.",
+              "reason": "고른 예시 Practicing a small acoustic instrument in a cozy room with a music stand and a resting cushion nearby.에 없는 시간·조명과 읽히는 손 활동을 hobby_music 장소 안에서 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer.",
+              "reason": "hobby_music 예시에 없는 이 컷 배색·소재와 목선·소매·기장·겹침을 지정: Pink sweetheart-neck short-sleeve fitted knit top ending at the waist, separate cream ankle-length flowing skirt with fine gold hem embroidery, no outer layer."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+            }
+          ]
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_coast",
+          "expr": "curious",
+          "pose": "kneeling",
+          "orient": "crouching",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "scene": "On a quiet pebble beach in cool morning sea mist; examining shells and drawing one shell outline in a small travel notebook with an unprinted cover.",
+          "outfit": "Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp.",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "randomized": {
+            "orient": "rear_3q",
+            "frame": "chest_up",
+            "lens": "portrait85"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "rear_3q",
+              "to": "crouching",
+              "reason": "travel_coast 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+            },
+            {
+              "key": "frame",
+              "from": "chest_up",
+              "to": "three_quarter",
+              "reason": "travel_coast 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+            },
+            {
+              "key": "lens",
+              "from": "portrait85",
+              "to": "documentary35",
+              "reason": "travel_coast 장면의 활동과 최근 비교컷의 방향·프레임 겹침을 확인해 이 값으로 선택"
+            }
+          ],
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Examining shells and small tracks on a beach while making a quick sketch in a travel notebook.",
+          "axesReasons": {
+            "action_level": "travel_coast의 진행 중 활동: On a quiet pebble beach in cool morning sea mist; examining shells and drawing one shell outline in a small travel notebook with an unprinted cover.",
+            "source_influence": "이 컷의 원작 단서는 의상에 있는 Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp.",
+            "separates_preference": "이 컷의 의상 층과 상하 분리는 Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp."
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "On a quiet pebble beach in cool morning sea mist; examining shells and drawing one shell outline in a small travel notebook with an unprinted cover.",
+              "reason": "고른 예시 Examining shells and small tracks on a beach while making a quick sketch in a travel notebook.에 없는 시간·조명과 읽히는 손 활동을 travel_coast 장소 안에서 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp.",
+              "reason": "travel_coast 예시에 없는 이 컷 배색·소재와 목선·소매·기장·겹침을 지정: Cream zip-neck long-sleeve cropped windbreaker over a pink camisole, separate pink mid-thigh travel shorts, gold trim and teal shell clasp."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 설정이 없어서 2:3 크기 문장 추가"
+            }
+          ]
+        }
+      ],
+      "actual_images_inspected": true
+    },
+    {
+      "character": "카스쿤",
+      "record": "pkm-atelier-img-2/records/cascoon-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "open_shirt_lingerie",
+          "expr": "sleepy",
+          "pose": "standing_relaxed",
+          "orient": "leaning_back",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "scene": "A quiet hotel dressing room in soft dawn light; checking a pearl-gray shirt cuff fastening beside a low upholstered stool and folded linens.",
+          "outfit": "Opaque violet satin with wide supportive straps and matching high-waist bottoms under a pearl-gray shirt with long loose sleeves and a mid-thigh hem; a tiny crimson fastening bead.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "randomized": {
+            "orient": "low_angle",
+            "frame": "full_body",
+            "lens": "portrait85"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "low_angle",
+              "to": "leaning_back",
+              "reason": "open_shirt_lingerie 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "frame",
+              "from": "full_body",
+              "to": "environmental",
+              "reason": "open_shirt_lingerie 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "lens",
+              "from": "portrait85",
+              "to": "documentary35",
+              "reason": "open_shirt_lingerie 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "a tailored oversized shirt worn open over a matching satin lingerie set",
+          "axesReasons": {
+            "action_level": "호텔 탈의실에서 셔츠 커프스 잠금을 확인하는 가벼운 손 동작",
+            "source_influence": "보라색 새틴과 작은 붉은 단추로 번데기 두 단서를 남김",
+            "separates_preference": "상하 란제리와 긴 셔츠의 세 옷 조각이 분리되어 보임"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "A quiet hotel dressing room in soft dawn light; checking a pearl-gray shirt cuff fastening beside a low upholstered stool and folded linens.",
+              "reason": "오픈 셔츠 의상 예시에 활동과 방 모습이 없어 새벽 호텔 탈의실에서 소매 잠금을 확인하는 활동을 결정"
+            },
+            {
+              "field": "outfit",
+              "content": "Opaque violet satin with wide supportive straps and matching high-waist bottoms under a pearl-gray shirt with long loose sleeves and a mid-thigh hem; a tiny crimson fastening bead.",
+              "reason": "open_shirt_lingerie 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+            }
+          ],
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": ""
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "scene": "At a high home kitchen table on a rainy noon, the mixing bowl rests on a checked towel beside a plain baking tray.",
+          "outfit": "Soft lavender V-neck cotton wrap blouse with short sleeves and a waist-length hem, separate plum knee-length skirt, no apron or outer layer; diagonal pale seam bands and two tiny crimson cuff beads.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "randomized": {
+            "orient": "seated_twist",
+            "frame": "detail",
+            "lens": "natural50"
+          },
+          "adjustments": [
+            {
+              "key": "frame",
+              "from": "detail",
+              "to": "chest_up",
+              "reason": "food_poffin 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "lens",
+              "from": "natural50",
+              "to": "portrait85",
+              "reason": "food_poffin 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Mixing Poffin batter in a bowl at a home kitchen counter, with berries and a baking tray nearby.",
+          "axesReasons": {
+            "action_level": "반죽을 섞는 동작이 중심이고 상체를 볼 쪽으로 돌림",
+            "source_influence": "자주·연보라 배색과 사선 이음선·붉은 구슬 두 개가 번데기 특징을 강조",
+            "separates_preference": "짧은 랩 블라우스와 스커트가 분명히 분리됨"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "At a high home kitchen table on a rainy noon, the mixing bowl rests on a checked towel beside a plain baking tray.",
+              "reason": "food_poffin 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Soft lavender V-neck cotton wrap blouse with short sleeves and a waist-length hem, separate plum knee-length skirt, no apron or outer layer; diagonal pale seam bands and two tiny crimson cuff beads.",
+              "reason": "food_poffin 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+            }
+          ],
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": ""
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_station",
+          "expr": "bored",
+          "pose": "one_knee_up",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "wide24",
+          "scene": "A rural brick railway platform in late-afternoon autumn light; the route card shows abstract colored line segments with no lettering, a plain wrapped snack partly opened.",
+          "outfit": "Gray mock-neck ribbed sweater with full-length sleeves and a cropped hem, separate violet wide-leg trousers, an unbuttoned charcoal sleeveless travel vest over the sweater; a small red circular bag clasp.",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "randomized": {
+            "orient": "front",
+            "frame": "face_close",
+            "lens": "documentary35"
+          },
+          "adjustments": [
+            {
+              "key": "orient",
+              "from": "front",
+              "to": "side",
+              "reason": "travel_station 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "frame",
+              "from": "face_close",
+              "to": "full_body",
+              "reason": "travel_station 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            },
+            {
+              "key": "lens",
+              "from": "documentary35",
+              "to": "wide24",
+              "reason": "travel_station 활동의 손·얼굴 가독성과 최근 방향·프레임 짝을 대조하여 선택"
+            }
+          ],
+          "aspect": "2:3",
+          "randomLocks": {
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "aspect": true
+          },
+          "exampleText": "Waiting on a rural station bench with a travel bag, holding a snack and checking a route card.",
+          "axesReasons": {
+            "action_level": "열차를 기다리며 간식과 노선 카드를 들고 앉아 멈춘 상태",
+            "source_influence": "보라 바지와 빨간 가방 잠금으로 두 가지 원작 단서",
+            "separates_preference": "긴팔 스웨터·넓은 바지·열린 여행 베스트의 옷 층"
+          },
+          "directInputs": [
+            {
+              "field": "scene",
+              "content": "A rural brick railway platform in late-afternoon autumn light; the route card shows abstract colored line segments with no lettering, a plain wrapped snack partly opened.",
+              "reason": "travel_station 예시의 장소·활동에 없는 시간대·날씨와 표면 및 도구 세부를 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "Gray mock-neck ribbed sweater with full-length sleeves and a cropped hem, separate violet wide-leg trousers, an unbuttoned charcoal sleeveless travel vest over the sweater; a small red circular bag clasp.",
+              "reason": "travel_station 예시가 정하지 않은 소재·색·소매 끝·옷 길이·작은 장식만 명시; 의상이 없는 예시는 목선·겹침도 결정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 설정이 없어 2:3 픽셀 문장 추가"
+            }
+          ],
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": ""
+        }
+      ],
+      "actual_images_inspected": true
+    }
+  ],
+  "diversity_changes": "마그비는 전시 병 관찰·야영 담요 정리·물레 도예, 밀탱크는 기댄 라운지·농가 열매차·동네 온실 물주기로 갈래·장소·활동·목선·소매·기장·구도를 다르게 정한다. 방향/프레임 짝과 SOURCE 구성은 비교한 최근 3명과 겹치지 않는다.",
+  "generationTool": "built-in image_gen",
+  "revisions": [
+    {
+      "reason": "Initial and two unchanged retries rendered thigh crops and three-quarter views instead of chest crop/profile. Re-planned vial pose still rendered too wide and an open mouth, so selected three-quarter portrait and pensive expression before a new generation.",
+      "changed": [
+        "pose: hand_on_hip → carrying_something",
+        "orientation: profile_close → looking_down",
+        "outfit: remove hem detail outside requested crop",
+        "frame: chest_up → three_quarter",
+        "expression: focused → pensive"
+      ],
+      "attempts": 3
+    }
+  ]
+}
