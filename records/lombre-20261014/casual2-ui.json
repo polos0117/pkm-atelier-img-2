@@ -1,0 +1,89 @@
+{
+  "storage": {
+    "last": "로토스",
+    "cards": {
+      "로토스": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "amused",
+            "pose": "side_sitting",
+            "orient": "side",
+            "scene": "At a willow-shaded riverbank in clear late morning light; opening a wicker travel basket and arranging sliced yellow fruit in a blue lunch box.",
+            "outfit": "Blue square-neck sleeveless blouse with a waist-length hem, separate green knee-length pleated skirt, red narrow belt, no outer layer; leaf-pattern picnic cloth.",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "food_berries",
+            "catCustom": "",
+            "ex": "food_picnic",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Lombre (로토스) personified, water / grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: crinkled lower eyelids, closed-lip smile pushing the cheeks up, brows relaxed\nPose: Sit on a mat with both legs folded to one side and a relaxed upright torso.\nOrientation: side body profile, approximately 90 degrees to camera\nScene: At a willow-shaded riverbank in clear late morning light; opening a wicker travel basket and arranging sliced yellow fruit in a blue lunch box.\nOutfit and props: Blue square-neck sleeveless blouse with a waist-length hem, separate green knee-length pleated skirt, red narrow belt, no outer layer; leaf-pattern picnic cloth.\nCategory: Show a specific everyday cooking, berry-growing or picnic activity in the Pokémon world. Use readable hands, utensils and ingredients; favor ordinary personal life over professional workwear.\nExample scene: Unpacking a picnic lunch and sliced berries on a blanket beside a travel basket.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra."
+}
