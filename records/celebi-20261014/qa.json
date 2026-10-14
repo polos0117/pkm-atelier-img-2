@@ -265,5 +265,10 @@
   "diversity": {
     "match": true,
     "evidence": "Inspected the actual three final images alongside the nine comparison cuts. Library reading is a warm interior book gesture with cardigan and fitted skirt; fern care is a daylight squat with shorts and tee; dance is an upright turning motion in a flared halter dress at blue hour. The clothes, hand tasks and body outlines differ, and none reproduces the recent racer/hike/pottery/bodysuit/harvest/fossil/camp/record combinations."
+  },
+  "file_integrity": {
+    "match": true,
+    "evidence": "All 9 final WebPs fully decoded at 1024x1536 and matched checkpoint SHA256 after heavy opened file repair.",
+    "repair": "Thumbnail run 38570360469 failed because the committed heavy opened WebP was zero bytes. Re-encoded from original PNG, matching the original intended b15d07db… hash, and fast-forwarded repair commit 299c78be."
   }
 }
