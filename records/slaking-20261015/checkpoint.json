@@ -1,5 +1,5 @@
 {
-  "phase": "9/9 images persisted",
+  "phase": "registered 9/9, thumbnails 9/9",
   "anchor": {
     "slot": "light",
     "source": "/workspace/scratch/34d55655c3a7/generated_images/exec-1262b79e-c822-48d0-bd03-382449682791.png",
@@ -24,5 +24,31 @@
   ],
   "image_repo": "polos0117/pkm-atelier-img-2",
   "code_repo": "polos0117/pkm-atelier",
-  "pushed": false
+  "pushed": true,
+  "image_commit": "e8fa185ade03d096ebd8d86262e6e39be0be345f",
+  "code_verification_commit": "f6eb98efd056bf7ffea5421b162512ca424aeb2f",
+  "thumbnail_workflow": {
+    "id": 38656199257,
+    "conclusion": "success"
+  },
+  "registration_workflow": {
+    "id": 38656334938,
+    "conclusion": "success"
+  },
+  "reference_recovery": "Use the image_repo main img/ file from manifest; original PNG paths are scratch provenance, final WebP is durable.",
+  "face_evidence": {
+    "reason": "원작의 넓고 묵직한 체적과 느긋한 얼굴을 넓고 둥근 윤곽·처진 눈·넓고 낮은 사람 콧대로 해석하여 UI 외형 항목으로 초안 보완. 분홍 주둥이는 작은 의상 클래스프로만 반영. 게을로보다 넓은 얼굴과 코, 발바로와 다른 부드러운 턱·눈·입.",
+    "sources": [
+      "data/source-appearance.json#289",
+      "data/face-design.json#289",
+      "data/card.json"
+    ],
+    "compared_actual": [
+      "게을로",
+      "버섯모",
+      "비구술",
+      "발바로"
+    ],
+    "result": "게을킹은 넓고 부드러운 광대·처진 눈·낮고 넓은 콧대·도톰한 입술. 게을로의 좁고 긴 비율·작은 코, 발바로의 각진 턱·수평 직선 눈썹·넓은 입과 구별."
+  }
 }

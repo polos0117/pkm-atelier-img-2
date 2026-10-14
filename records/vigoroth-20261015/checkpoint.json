@@ -1,5 +1,5 @@
 {
-  "phase": "9/9 images persisted",
+  "phase": "registered 9/9, thumbnails 9/9",
   "anchor": {
     "slot": "light",
     "source": "/workspace/scratch/34d55655c3a7/generated_images/exec-d4e7eaf2-3b74-47a9-a023-ea4b3e56edf8.png",
@@ -24,5 +24,30 @@
   ],
   "image_repo": "polos0117/pkm-atelier-img-2",
   "code_repo": "polos0117/pkm-atelier",
-  "pushed": false
+  "pushed": true,
+  "image_commit": "d5bc6c48ea30163df9fdca49100acc19af66848c",
+  "code_verification_commit": "f6eb98efd056bf7ffea5421b162512ca424aeb2f",
+  "reference_recovery": "Use the image_repo main img/ file from manifest; original PNG paths are scratch provenance, final WebP is durable.",
+  "face_evidence": {
+    "reason": "원작 성난 원숭이의 각진 체적·날카로운 시선·넓은 입을 각진 턱과 큰 아몬드 눈·직선 눈썹·넓은 사람 입으로 해석. 게을로의 둥근 턱·처진 눈과 구별.",
+    "sources": [
+      "data/source-appearance.json#288",
+      "data/face-design.json#288",
+      "data/card.json"
+    ],
+    "compared_actual": [
+      "게을로",
+      "버섯모",
+      "비구술"
+    ],
+    "result": "발바로는 각진 턱·중간 두께 직선 눈썹·가로로 넓은 입, 게을로는 둥근 턱·처진 눈, 버섯모는 좁고 긴 눈, 비구술은 큰 둥근 눈으로 구별."
+  },
+  "thumbnail_workflow": {
+    "id": 38654471238,
+    "conclusion": "success"
+  },
+  "registration_workflow": {
+    "id": 38656334938,
+    "conclusion": "success"
+  }
 }
