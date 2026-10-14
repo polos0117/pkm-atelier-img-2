@@ -31,8 +31,8 @@
       "outfit": "Opaque brown and cream leaf-trimmed one-piece swimsuit with a green leaf-shaped clasp at the shoulder; no outer layer or armor headpiece.",
       "reason": "Leaning back on a pier shows a relaxed water break and distinguishes active rink and work scenes.",
       "input_reasons": {
-        "scene": "The selected example does not set the precise lighting, prop surface or time; these details support its activity.",
-        "outfit": "No dedicated outfit menu exists; specifies missing neckline, sleeves, hem and layers, preserving any example-defined garment.",
+        "scene": "river_dock defines the pier but not seated water rest in noon light.",
+        "outfit": "The example does not specify opaque one-piece, brown/cream leaf trim or the small clasp.",
         "camera": "Image tool has no size argument; explicit vertical 1024×1536 request."
       },
       "random_draws": {
@@ -45,7 +45,29 @@
         "frame": "environmental",
         "lens": "documentary35"
       },
-      "random_adjustment_reason": "Leaning back on a pier shows a relaxed water break and distinguishes active rink and work scenes. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Leaning back on a pier shows a relaxed water break and distinguishes active rink and work scenes. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "axis_reasons": {
+        "action_level": "Seated lake rest with supporting hands is stationary.",
+        "source_influence": "Green leaf seams and brown/cream color make the source motif clear without armor.",
+        "separates_preference": "The swimsuit is one garment."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A quiet wooden lake pier in noon sunlight; seated on the edge with both hands behind her on the boards, head turned gently toward camera.",
+          "reason": "river_dock defines the pier but not seated water rest in noon light."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque brown and cream leaf-trimmed one-piece swimsuit with a green leaf-shaped clasp at the shoulder; no outer layer or armor headpiece.",
+          "reason": "The example does not specify opaque one-piece, brown/cream leaf trim or the small clasp."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; explicit vertical 1024×1536 request."
+        }
+      ]
     },
     {
       "cat": "hobbies_leisure",
@@ -60,14 +82,14 @@
         "skin_exposure": "bold",
         "action_level": "mostly active",
         "source_influence": "strong",
-        "separates_preference": "strongly prefer separates"
+        "separates_preference": "prefer separates"
       },
       "scene": "Sitting cross-legged on a broad floor cushion beside a low hobby table, threading green and wood beads into a small leaf travel charm under soft rainy-afternoon window light.",
       "outfit": "Beige V-neck elbow-sleeve linen blouse ending at the waist, separate olive knee-length wrap skirt; no jacket, a small leaf earring. No armor headpiece.",
       "reason": "Front three-quarter view keeps bead threading hands and cross-legged posture legible.",
       "input_reasons": {
-        "scene": "The selected example does not set the precise lighting, prop surface or time; these details support its activity.",
-        "outfit": "No dedicated outfit menu exists; specifies missing neckline, sleeves, hem and layers, preserving any example-defined garment.",
+        "scene": "hobby_craft sets bead threading; floor cushion and rainy window light supplement it.",
+        "outfit": "The example has no V-neck elbow-sleeve linen blouse or knee-length skirt.",
         "camera": "Image tool has no size argument; explicit vertical 1024×1536 request."
       },
       "random_draws": {
@@ -80,7 +102,29 @@
         "frame": "waist_up",
         "lens": "portrait85"
       },
-      "random_adjustment_reason": "Front three-quarter view keeps bead threading hands and cross-legged posture legible. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Front three-quarter view keeps bead threading hands and cross-legged posture legible. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "axis_reasons": {
+        "action_level": "Threading beads is the active two-hand activity.",
+        "source_influence": "Green/brown beads and leaf charm foreground the species motif in everyday craft.",
+        "separates_preference": "Blouse and skirt are separate but no stronger default is needed with explicit outfit; adjusted to avoid previous active/strong/strongly-prefer triple."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "Sitting cross-legged on a broad floor cushion beside a low hobby table, threading green and wood beads into a small leaf travel charm under soft rainy-afternoon window light.",
+          "reason": "hobby_craft sets bead threading; floor cushion and rainy window light supplement it."
+        },
+        {
+          "field": "outfit",
+          "content": "Beige V-neck elbow-sleeve linen blouse ending at the waist, separate olive knee-length wrap skirt; no jacket, a small leaf earring. No armor headpiece.",
+          "reason": "The example has no V-neck elbow-sleeve linen blouse or knee-length skirt."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; explicit vertical 1024×1536 request."
+        }
+      ]
     },
     {
       "cat": "everyday_basic",
@@ -88,7 +132,7 @@
       "expr": "wistful",
       "pose": "walking",
       "orient": "looking_away",
-      "frame": "three_quarter",
+      "frame": "chest_up",
       "lens": "natural50",
       "axes": {
         "overall_intensity": "strong",
@@ -101,8 +145,8 @@
       "outfit": "Cream crew-neck long-sleeve top, separate chestnut high-waist shorts and calf-high rain boots, an open olive hip-length raincoat layered over the top; small leaf pull tab. No armor headpiece.",
       "reason": "Looking across the lane preserves visible face while the walking raincoat silhouette differs from seated craft.",
       "input_reasons": {
-        "scene": "The selected example does not set the precise lighting, prop surface or time; these details support its activity.",
-        "outfit": "No dedicated outfit menu exists; specifies missing neckline, sleeves, hem and layers, preserving any example-defined garment.",
+        "scene": "rain_walk gives rain walking but no blue-hour lane, clear umbrella or branch touch.",
+        "outfit": "No outfit menu offers crew-neck long sleeves, shorts, hip coat and tall boots.",
         "camera": "Image tool has no size argument; explicit vertical 1024×1536 request."
       },
       "random_draws": {
@@ -112,10 +156,32 @@
       },
       "random_final": {
         "orient": "looking_away",
-        "frame": "three_quarter",
+        "frame": "chest_up",
         "lens": "natural50"
       },
-      "random_adjustment_reason": "Looking across the lane preserves visible face while the walking raincoat silhouette differs from seated craft. These angles keep the activity visible and avoid the previous comparison pairs."
+      "random_adjustment_reason": "Original three-quarter frame duplicated Tyranitar frame-set combination; chest-up keeps umbrella grip, branch-touching hand and expression visible while the three-frame set is now distinct.",
+      "axis_reasons": {
+        "action_level": "Walking under umbrella is gentle movement.",
+        "source_influence": "Only leaf pull tab and restrained olive accents remain.",
+        "separates_preference": "Top and shorts are separate under an open raincoat."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A residential cobbled lane at blue hour after rain; walking with a plain clear umbrella held in one hand while the other hand brushes a hanging branch gently, gaze across the lane.",
+          "reason": "rain_walk gives rain walking but no blue-hour lane, clear umbrella or branch touch."
+        },
+        {
+          "field": "outfit",
+          "content": "Cream crew-neck long-sleeve top, separate chestnut high-waist shorts and calf-high rain boots, an open olive hip-length raincoat layered over the top; small leaf pull tab. No armor headpiece.",
+          "reason": "No outfit menu offers crew-neck long sleeves, shorts, hip coat and tall boots."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; explicit vertical 1024×1536 request."
+        }
+      ]
     }
   ],
   "recentCompared": [
@@ -194,7 +260,234 @@
     {
       "slot": "casual1",
       "reason": "Large armored head fins removed with canonical light and target images; pose/outfit preserved."
+    },
+    {
+      "slot": "casual2",
+      "reason": "Final selected-value audit corrected separate preference (casual2) and framing set (casual3); revised actual UI prompt re-submitted with canonical light and existing scene target."
+    },
+    {
+      "slot": "casual3",
+      "reason": "Final selected-value audit corrected separate preference (casual2) and framing set (casual3); revised actual UI prompt re-submitted with canonical light and existing scene target."
     }
   ],
-  "actualFaceComparison": "Nuzleaf has long narrow oval cheeks, upward narrow almond eyes and straighter/slender nose and thin wider mouth; Seedot has shorter broader cheeks, larger round eyes and smaller mouth. Previous green/blue-haired characters have more angular jaws; hair-hidden facial proportions distinguish Nuzleaf."
+  "actualFaceComparison": "Nuzleaf has long narrow oval cheeks, upward narrow almond eyes and straighter/slender nose and thin wider mouth; Seedot has shorter broader cheeks, larger round eyes and smaller mouth. Previous green/blue-haired characters have more angular jaws; hair-hidden facial proportions distinguish Nuzleaf.",
+  "comparison_table": [
+    {
+      "character": "tyranitar-20261014",
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "front",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      }
+    },
+    {
+      "character": "tyranitar-20261014",
+      "cut": 2,
+      "cat": "travel_exploration",
+      "ex": "travel_trail",
+      "expr": "focused",
+      "pose": "checking_map",
+      "orient": "side",
+      "frame": "environmental",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      }
+    },
+    {
+      "character": "tyranitar-20261014",
+      "cut": 3,
+      "cat": "everyday_basic",
+      "ex": "pottery_class",
+      "expr": "amused",
+      "pose": "sitting",
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      }
+    },
+    {
+      "character": "pupitar-20261014",
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "bodysuit",
+      "expr": "calm",
+      "pose": "side_sitting",
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "pupitar-20261014",
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_harvest",
+      "expr": "soft_smile",
+      "pose": "on_tiptoe",
+      "orient": "reaching_up",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "pupitar-20261014",
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "forensic_engineer",
+      "expr": "serious",
+      "pose": "bending_over",
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "larvitar-20261014",
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "larvitar-20261014",
+      "cut": 2,
+      "cat": "travel_exploration",
+      "ex": "travel_camp",
+      "expr": "relieved",
+      "pose": "kneeling",
+      "orient": "over_shoulder",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "larvitar-20261014",
+      "cut": 3,
+      "cat": "everyday_basic",
+      "ex": "record_store",
+      "expr": "mildly_annoyed",
+      "pose": "mid_action",
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "seedot",
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "adult_librarian",
+      "expr": "proud",
+      "pose": "standing_formal",
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      }
+    },
+    {
+      "character": "seedot",
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_poffin",
+      "expr": "focused",
+      "pose": "preparing_food",
+      "orient": "looking_down",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      }
+    },
+    {
+      "character": "seedot",
+      "cut": 3,
+      "cat": "active",
+      "ex": "roller_skating",
+      "expr": "playful",
+      "pose": "mid_stride",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      }
+    }
+  ],
+  "diversity_changes": "Compared original recent race/trail/pottery, bodysuit/harvest/workshop and race/camp/records compositions; changed location, task, outfit silhouette and camera rather than copying those sets. Additional earlier batch rows included below."
 }
