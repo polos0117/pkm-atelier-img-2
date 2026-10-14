@@ -1,5 +1,5 @@
 {
-  "state_capture": "Selected in live deployed UI; state reconstructed from observed DOM controls, prompt reproduced by same repository engine and compared to visible output",
+  "state_capture": "Reconstructed from observed UI controls; browser localStorage is not exposed. Prompt matches live output. Full inactive action state retained.",
   "input": {
     "cat": "travel_exploration",
     "ex": "travel_station",
@@ -29,5 +29,84 @@
     },
     "custom": "Partial correction target: the second attached image. Remove only the tiny letters and labels from every route-map panel, preserving its colored land shapes and route lines. Keep her face, annoyed expression, seated pose, clothing, rain, luggage and both hands unchanged."
   },
-  "prompt": "CHARACTER: the same woman as the attached image — Raikou (라이코) personified, electric type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: inner brows drawn together, one eye slightly narrowed, mouth pressed flat to one side\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: camera above subject looking downward; obey selected framing\nScene: A rural glass-roof railway platform on a rainy morning; an unlettered route card, wrapped snack and travel bag are beside the wooden bench.\nOutfit and props: A pale-violet pointed-collar short-sleeve shirt with a hip-length hem, separate charcoal high-waist mid-thigh tailored shorts and ankle boots, no outer layer; a small gold zigzag buckle.\nCategory: Show travel or peaceful field exploration in the Pokémon world, with useful travel clothing and a specific activity. Let the environment support the woman without overwhelming her or turning the scene into combat.\nExample scene: Waiting on a rural station bench with a travel bag, holding a snack and checking a route card.\nNote: Partial correction target: the second attached image. Remove only the tiny letters and labels from every route-map panel, preserving its colored land shapes and route lines. Keep her face, annoyed expression, seated pose, clothing, rain, luggage and both hands unchanged.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra."
+  "prompt": "CHARACTER: the same woman as the attached image — Raikou (라이코) personified, electric type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: inner brows drawn together, one eye slightly narrowed, mouth pressed flat to one side\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: camera above subject looking downward; obey selected framing\nScene: A rural glass-roof railway platform on a rainy morning; an unlettered route card, wrapped snack and travel bag are beside the wooden bench.\nOutfit and props: A pale-violet pointed-collar short-sleeve shirt with a hip-length hem, separate charcoal high-waist mid-thigh tailored shorts and ankle boots, no outer layer; a small gold zigzag buckle.\nCategory: Show travel or peaceful field exploration in the Pokémon world, with useful travel clothing and a specific activity. Let the environment support the woman without overwhelming her or turning the scene into combat.\nExample scene: Waiting on a rural station bench with a travel bag, holding a snack and checking a route card.\nNote: Partial correction target: the second attached image. Remove only the tiny letters and labels from every route-map panel, preserving its colored land shapes and route lines. Keep her face, annoyed expression, seated pose, clothing, rain, luggage and both hands unchanged.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "라이코",
+    "cards": {
+      "라이코": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "scenes": {
+          "action": {
+            "expr": "confident",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "mildly_annoyed",
+            "pose": "sitting",
+            "orient": "high_angle",
+            "scene": "A rural glass-roof railway platform on a rainy morning; an unlettered route card, wrapped snack and travel bag are beside the wooden bench.",
+            "outfit": "A pale-violet pointed-collar short-sleeve shirt with a hip-length hem, separate charcoal high-waist mid-thigh tailored shorts and ankle boots, no outer layer; a small gold zigzag buckle.",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Partial correction target: the second attached image. Remove only the tiny letters and labels from every route-map panel, preserving its colored land shapes and route lines. Keep her face, annoyed expression, seated pose, clothing, rain, luggage and both hands unchanged.",
+            "aspect": "2:3",
+            "cat": "travel_exploration",
+            "catCustom": "",
+            "ex": "travel_station",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
 }

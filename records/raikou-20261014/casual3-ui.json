@@ -1,5 +1,5 @@
 {
-  "state_capture": "Selected in live deployed UI; state reconstructed from observed DOM controls, prompt reproduced by same repository engine and compared to visible output",
+  "state_capture": "Reconstructed from observed UI controls; browser localStorage is not exposed. Prompt matches live output. Full inactive action state retained.",
   "input": {
     "cat": "active",
     "ex": "dance_transition",
@@ -36,15 +36,45 @@
         "style": "glossy_promo",
         "mode": "casual",
         "identityMode": "reference",
-        "form": "light",
-        "baseForm": "light",
+        "form": "overdrive",
+        "baseForm": "mobility",
         "motifs": "",
         "formOverride": "",
         "headFeature": "",
         "faceDesignOn": true,
-        "params": {},
+        "params": {
+          "apparent age": "20s"
+        },
         "locks": {},
         "scenes": {
+          "action": {
+            "expr": "confident",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
           "casual": {
             "expr": "determined",
             "pose": "dance_step",
