@@ -1,0 +1,365 @@
+{
+  "name": "버섯꼬",
+  "slug": "shroomish",
+  "no": 285,
+  "style": "glossy_promo",
+  "params": {
+    "apparent age": "20s",
+    "hair color": "brown",
+    "hairstyle": "bob",
+    "hair length": "short",
+    "eye color": "green",
+    "body type": "soft-figured",
+    "face shape": "softly rounded",
+    "face width": "wide",
+    "eye size": "small",
+    "eyebrows": "short rounded brows"
+  },
+  "wear": "A shallow cream mushroom-cap shoulder cape with green spot enamel, a frilled segmented collar and scalloped waist panels; no mushroom carried in her hands.",
+  "scene": "A mossy forest clearing after rain, soft green spores drifting beyond the figure.",
+  "face_evidence": {
+    "reason": "버섯꼬의 둥근 버섯 체적과 작은 검은 눈을 넓고 부드러운 짧은 윤곽·작은 눈·짧고 둥근 눈썹으로 해석. 삼각 입은 사람의 또렷한 윗입술 곡선으로 유지.",
+    "sources": [
+      "data/source-appearance.json#285",
+      "data/card.json#285",
+      "data/face-design.json#285"
+    ],
+    "compared": [
+      "패리퍼",
+      "랄토스",
+      "킬리아"
+    ]
+  },
+  "recentCompared": [
+    "pelipper-20261015",
+    "ralts-20261015",
+    "kirlia-20261015"
+  ],
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "lab_roleplay",
+      "expr": "serious",
+      "pose": "standing_formal",
+      "orient": "front",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "scene": "At a botanical costume exhibition with green frosted-glass specimen cabinets in morning light; one hand rests beside a sealed blank specimen jar on a pedestal.",
+      "outfit": "Crisp ivory knee-length laboratory coat with long sleeves and a notched collar over a moss-green square-neck fitted mid-thigh dress, plain cream pumps and one small mushroom enamel pin; no lettering.",
+      "axis_reasons": {
+        "action_level": "밀봉된 표본 옆에서 행사 연구복을 보여 주는 정지 자세.",
+        "source_influence": "작은 버섯 핀과 녹색 드레스가 함께 원작을 암시.",
+        "separates_preference": "한 벌 드레스 위 코트를 겹치며 상하 분리형은 아님."
+      },
+      "input_reasons": {
+        "scene": "선택 예시에서 정하지 않은 시간대·주변 재질·손동작의 대상물을 지정: At a botanical costume exhibition with green frosted-glass specimen cabinets in morning light; one hand rests beside a sealed blank specimen jar on a pedestal.",
+        "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Crisp ivory knee-length laboratory coat with long sleeves and a notched collar over a moss-green square-neck fitted mid-thigh dress, plain cream pumps and one small mushroom enamel pin; no lettering.",
+        "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+      },
+      "random_adjustment_reason": "실제 랜덤 후보를 확인 후 해당 활동에 맞는 방향·프레임·화각으로 조정. 최근 비교 대상 및 이번 앞선 컷의 방향/프레임 짝을 피함.",
+      "random_draws": {
+        "orientation": "back_to_camera",
+        "frame": "three_quarter",
+        "lens": "portrait85"
+      },
+      "exampleText": "a laboratory-themed costume with a crisp white coat over a fitted dress, using original decorative badges",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cat": "food_berries",
+      "ex": "food_harvest",
+      "expr": "amused",
+      "pose": "on_tiptoe",
+      "orient": "high_angle",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "scene": "In an orchard of low berry trees under golden afternoon light; she reaches for one ripe berry while a woven basket hangs from her other hand.",
+      "outfit": "Cream structured linen short-sleeve blouse with a HIGH BOAT NECK: a nearly straight horizontal fabric neckline just below the neck between the collarbones, covering the upper chest and both shoulders. Its hem reaches the waistband. Separate forest-green knee-length flared skirt with scalloped hem, a tan short waist apron and flat lace-up shoes; tiny green-spotted mushroom earrings.",
+      "axis_reasons": {
+        "action_level": "발끝을 세워 가지에서 열매를 따는 동작.",
+        "source_influence": "초록 점 장신구와 물결 치맛단이 버섯꼬의 반점·프릴을 번역.",
+        "separates_preference": "블라우스·치마·앞치마가 분명한 세 겹 분리형."
+      },
+      "input_reasons": {
+        "scene": "선택 예시에서 정하지 않은 시간대·주변 재질·손동작의 대상물을 지정: In an orchard of low berry trees under golden afternoon light; she reaches for one ripe berry while a woven basket hangs from her other hand.",
+        "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Cream boat-neck short-sleeve linen blouse ending at the waist, separate forest-green knee-length flared skirt with scalloped hem, a tan short waist apron and flat lace-up shoes; tiny green-spotted mushroom earrings.",
+        "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+      },
+      "random_adjustment_reason": "실제 랜덤 후보를 확인 후 해당 활동에 맞는 방향·프레임·화각으로 조정. 최근 비교 대상 및 이번 앞선 컷의 방향/프레임 짝을 피함.",
+      "random_draws": {
+        "orientation": "back",
+        "frame": "detail",
+        "lens": "portrait85"
+      },
+      "exampleText": "Picking ripe berries from a small tree and placing them in a woven basket in a sunny garden.",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_craft",
+      "expr": "focused",
+      "pose": "cross_legged",
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "At a low craft table on a woven rug on a rainy evening; she threads a small cream bead onto green cord, with unmarked bead trays nearby.",
+      "outfit": "Rust-brown V-neck elbow-sleeve loose knit pullover ending at the hips and separate cream ankle-length wide trousers, bare feet, no outer layer; a tiny green bead ring.",
+      "axis_reasons": {
+        "action_level": "양손으로 구슬에 실을 꿰는 진행 중 공예.",
+        "source_influence": "녹색 구슬 반지만 종의 작은 모티프.",
+        "separates_preference": "풀오버와 긴 바지는 별도 의복."
+      },
+      "input_reasons": {
+        "scene": "선택 예시에서 정하지 않은 시간대·주변 재질·손동작의 대상물을 지정: At a low craft table on a woven rug on a rainy evening; she threads a small cream bead onto green cord, with unmarked bead trays nearby.",
+        "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Rust-brown V-neck elbow-sleeve loose knit pullover ending at the hips and separate cream ankle-length wide trousers, bare feet, no outer layer; a tiny green bead ring.",
+        "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+      },
+      "random_adjustment_reason": "실제 랜덤 후보를 확인 후 해당 활동에 맞는 방향·프레임·화각으로 조정. 최근 비교 대상 및 이번 앞선 컷의 방향/프레임 짝을 피함.",
+      "random_draws": {
+        "orientation": "leaning_forward",
+        "frame": "chest_up",
+        "lens": "natural50"
+      },
+      "exampleText": "Threading beads into a small Pokémon-inspired travel charm at a hobby table with tidy craft tools.",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    }
+  ],
+  "generation_tool": "built-in image_gen",
+  "comparison_table": [
+    {
+      "name": "패리퍼",
+      "record": "pkm-atelier-img-2/records/pelipper-20261015/plan.json",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "confident",
+          "pose": "standing_formal",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White fitted jacket with elbow sleeves and sharp blue lapels ending at the waist, separate royal-blue mid-thigh pencil skirt, yellow neck scarf and a tiny wing-shaped pin; plain blue pumps.",
+          "scene": "At an aviation-themed indoor charity event, beside a polished luggage trolley at sunset; one hand rests on its handle."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "pottery_class",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A blue V-neck short-sleeve knee-length work dress under a full white bib apron tied at the waist; a small yellow bead earring.",
+          "scene": "A sunlit ceramics classroom; she shapes a small plain clay bowl on a pottery wheel, both clay-coated hands touching its rim."
+        },
+        {
+          "cat": "active",
+          "ex": "surf_prep",
+          "expr": "playful",
+          "pose": "mid_action",
+          "orient": "reaching_up",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "White cropped long-sleeve zip rashguard over a yellow swim top, separate blue square-cut swim shorts; blue-and-white wave piping and a small yellow zipper pull.",
+          "scene": "On an empty tropical beach in early morning, she reaches to secure the upper leash loop of an upright white surfboard resting firmly in sand."
+        }
+      ]
+    },
+    {
+      "name": "랄토스",
+      "record": "pkm-atelier-img-2/records/ralts-20261015/plan.json",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "qipao_silk_set",
+          "expr": "pensive",
+          "pose": "leaning_furniture",
+          "orient": "looking_away",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque ivory silk mini lingerie chemise with mandarin collar and red frog-button closures, short cap sleeves and upper-thigh hem; tiny green stone stud earrings, no outer layer.",
+          "scene": "At a dark walnut vanity in a softly lit dressing room at blue hour; she rests a hand beside a closed plain jewelry case."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "bookstore",
+          "expr": "curious",
+          "pose": "reading_book",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Ivory round-neck long-sleeve blouse tucked into a separate pale-green ankle-length pleated skirt; a cropped dusty-red cardigan worn open and a tiny green hair slide.",
+          "scene": "A narrow independent bookshop in rainy afternoon light; she turns a page of an open illustration book with abstract botanical pictures and no lettering."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_sketch",
+          "expr": "focused",
+          "pose": "perched_seat",
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Red square-neck elbow-sleeve fitted top ending at waist, separate ivory knee-length culottes, green thin belt; no outer layer and a small red diamond pin.",
+          "scene": "At a shaded park bench on a crisp spring morning, she draws a fern outline in a blank unlabelled sketchbook with a green pencil."
+        }
+      ]
+    },
+    {
+      "name": "킬리아",
+      "record": "pkm-atelier-img-2/records/kirlia-20261015/plan.json",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "moonlit_pool",
+          "expr": "calm",
+          "pose": "leaning_wall",
+          "orient": "leaning_back",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque white high-neck racerback one-piece athletic swimsuit with broad green side panels and a small crimson gem clasp at the collar; no cover-up.",
+          "scene": "At a dark tiled moonlit pool edge with violet underwater lights, her hands rest on the rim behind her."
+        },
+        {
+          "cat": "active",
+          "ex": "dance_transition",
+          "expr": "determined",
+          "pose": "dance_step",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Ivory scoop-neck short-sleeve dance wrap top ending at the waist, separate green chiffon knee-length wrap skirt over crimson fitted dance shorts and soft pale ballet shoes; tiny red stud earrings.",
+          "scene": "Inside a rehearsal studio at sunrise, she transitions across a wooden floor between two plain practice floor markers; no mirrors or writing."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "record_store",
+          "expr": "amused",
+          "pose": "mid_action",
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Crimson boat-neck long-sleeve rib-knit sweater ending at waist, separate ivory high-waist straight trousers, open green hip-length vest layered on top; a small silver diamond pendant.",
+          "scene": "In a warm amber-lit record shop at night, she slides a plain emerald record sleeve out of a waist-high browsing bin; all sleeves are blank."
+        }
+      ]
+    }
+  ],
+  "comparison_actual_images": "패리퍼·랄토스·킬리아의 경장과 일상 9장 contact sheet 확인: 항공 행사/도자기/서핑, 화장대/서점/스케치, 풀/춤/레코드숍. 이번 연구복·열매수확·비즈공예는 장소·주 활동·옷 실루엣·구도 구분.",
+  "revisions": [
+    {
+      "slot": "casual2",
+      "rejected_source": "generated_images/exec-50e22221-88ff-4921-b534-7e62110bfe54.png",
+      "issue": "보트넥 블라우스가 양쪽 어깨가 내려간 낮은 목선·크롭 기장으로 생성됨.",
+      "reference": "light",
+      "changed_input": "outfit: 보트넥의 쇄골·어깨를 덮는 위치, 허리까지의 길이를 명확히 보충"
+    },
+    {
+      "slot": "casual2",
+      "rejected_source": "generated_images/exec-fade7cc0-4085-434c-8223-61bd1a0c6f18.png",
+      "issue": "어깨는 덮였으나 목선이 넓은 낮은 스쿠프넥으로 남음.",
+      "changed_input": "outfit의 보트넥을 수평선·목 아래 위치·높은 목선으로 구체화.",
+      "reference": "light"
+    }
+  ],
+  "face_prompt": "(her own structure, not the style's default face): short length; soft rounded jaw; almond eyes, level outer corners, close-set; small delicate nose; bow-shaped upper lip.",
+  "actual_face_comparison": "갈색 보브·짧은 부드러운 턱과 눈 간격은 금발 패리퍼 및 랄토스·킬리아의 좁고 뾰족한 턱, 긴 눈꼬리와 구별. 버섯모는 생성 후 계열 비교 예정."
+}
