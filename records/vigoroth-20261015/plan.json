@@ -1,0 +1,692 @@
+{
+  "name": "발바로",
+  "slug": "vigoroth",
+  "no": 288,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "white",
+    "hairstyle": "high ponytail",
+    "hair length": "medium",
+    "eye color": "amber",
+    "body type": "wiry"
+  },
+  "wear": "White close-fitting plates with two black stripe bands, a short red fur-trim collar, a red teardrop crest hair ornament and stubby ear-shaped hair clips; black claw-shaped edges on wrist guards, leaving all human fingers visible.",
+  "scene": "A windswept rocky training plateau at sunrise with a restless swirling pale gold aura.",
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "standing_formal",
+      "orient": "front",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "At an empty vintage racing pit lane beside a track barrier at sunset; she inspects one detached red driving glove, held as an empty object between both bare hands at chest level, with no glove worn on either hand.",
+      "outfit": "An ivory cropped team jacket with a short stand collar, long sleeves, black twin stripe panels and red shoulder piping, separate red tailored mid-thigh shorts and plain black knee-high boots; a tiny teardrop zipper charm and an opaque black mock-neck base top. Replace the large red forehead crest and black temple fins with only one tiny red teardrop earring.",
+      "axis_reasons": {
+        "action_level": "레이싱 행사 의상을 선 채 점검하는 정지 장면.",
+        "source_influence": "흰색·검정 쌍줄·빨간 어깨 패널을 명확히 반영.",
+        "separates_preference": "예시가 정한 크롭 팀 재킷·반바지·부츠로 분리형 복장을 유지."
+      },
+      "input_reasons": {
+        "scene": "예시에 없는 구체 활동과 시간·장소 요소: At an empty vintage racing pit lane at sunset; she checks the clasp of one plain red driving glove held at chest level with bare hands.",
+        "outfit": "예시가 정한 재킷·반바지·부츠의 흰색·빨강 배색과 스탠드칼라·긴소매·밑단·겹침을 보충.",
+        "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+      },
+      "random_draws": {
+        "orientation": "front",
+        "frame": "detail",
+        "lens": "documentary35"
+      },
+      "exampleText": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "random_adjustment_reason": {
+        "orientation": "랜덤 front을 계획값 front으로 조정: At an empty vintage racing pit lane beside a track barrier at sunset; she inspects one detached red driving glove, held as an empty object between both bare hands at chest level, with no glove worn on either hand.",
+        "frame": "랜덤 detail을 계획값 chest_up으로 조정: At an empty vintage racing pit lane beside a track barrier at sunset; she inspects one detached red driving glove, held as an empty object between both bare hands at chest level, with no glove worn on either hand.",
+        "lens": "랜덤 documentary35을 계획값 telephoto135으로 조정: At an empty vintage racing pit lane beside a track barrier at sunset; she inspects one detached red driving glove, held as an empty object between both bare hands at chest level, with no glove worn on either hand."
+      }
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_music",
+      "expr": "focused",
+      "pose": "sitting",
+      "orient": "side",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "scene": "In an empty rehearsal studio on a rainy afternoon; she plays a small hand drum between her knees, with both hands open above its skin and blank acoustic wall panels behind.",
+      "outfit": "A rust-red boat-neck elbow-sleeve cotton blouse ending below the waist, separate charcoal knee-length pleated skirt, black flat ankle boots and a tiny white teardrop earring; no outer layer.",
+      "axis_reasons": {
+        "action_level": "양손을 번갈아 쓰는 손북 연주가 활동 중심.",
+        "source_influence": "작은 흰 물방울 귀걸이만 종을 암시.",
+        "separates_preference": "블라우스와 치마가 분리된 복장."
+      },
+      "input_reasons": {
+        "scene": "예시에 없는 구체 활동과 시간·장소 요소: In an empty rehearsal studio on a rainy afternoon; she plays a small hand drum between her knees, with both hands open above its skin and blank acoustic wall panels behind.",
+        "outfit": "예시에 정하지 않은 목선·소매·기장·겹침과 재질: A rust-red boat-neck elbow-sleeve cotton blouse ending below the waist, separate charcoal knee-length pleated skirt, black flat ankle boots and a tiny white teardrop earring; no outer layer.",
+        "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+      },
+      "random_draws": {
+        "orientation": "reclining",
+        "frame": "face_close",
+        "lens": "portrait85"
+      },
+      "exampleText": "Practicing a small acoustic instrument in a cozy room with a music stand and a resting cushion nearby.",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "custom": "Partial correction of the second attached image only: extend the rust-red blouse hem below the skirt waistband to cover the midriff completely, retaining its loose boat neckline and elbow sleeves. Remove the red forehead crest, keeping the tiny white teardrop earring; preserve the drum, hands, face, pose, camera and room exactly.",
+      "random_adjustment_reason": {
+        "orientation": "랜덤 reclining을 계획값 side으로 조정: In an empty rehearsal studio on a rainy afternoon; she plays a small hand drum between her knees, with both hands open above its skin and blank acoustic wall panels behind.",
+        "frame": "랜덤 face_close을 계획값 full_body으로 조정: In an empty rehearsal studio on a rainy afternoon; she plays a small hand drum between her knees, with both hands open above its skin and blank acoustic wall panels behind.",
+        "lens": "랜덤 portrait85을 계획값 portrait85으로 조정: In an empty rehearsal studio on a rainy afternoon; she plays a small hand drum between her knees, with both hands open above its skin and blank acoustic wall panels behind."
+      }
+    },
+    {
+      "cat": "active",
+      "ex": "roller_skating",
+      "expr": "playful",
+      "pose": "mid_stride",
+      "orient": "turning_midmotion",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "On an empty outdoor skating rink in clear morning light; she rolls through a gentle sweeping turn beside a low concrete edge, arms free for balance.",
+      "outfit": "A white crew-neck sleeveless waist-length athletic jersey with two charcoal side stripes, separate red mid-thigh skating shorts, red roller skates and black knee pads; tiny teardrop hair clip, no jacket.",
+      "axis_reasons": {
+        "action_level": "스케이트로 곡선을 도는 진행 동작.",
+        "source_influence": "흰색·쌍줄·빨강으로 발바로 배색을 적극 반영.",
+        "separates_preference": "저지와 반바지로 나뉜 운동복."
+      },
+      "input_reasons": {
+        "scene": "예시에 없는 구체 활동과 시간·장소 요소: On an empty outdoor skating rink in clear morning light; she rolls through a gentle sweeping turn beside a low concrete edge, arms free for balance.",
+        "outfit": "예시에 정하지 않은 목선·소매·기장·겹침과 재질: A white crew-neck sleeveless waist-length athletic jersey with two charcoal side stripes, separate red mid-thigh skating shorts, red roller skates and black knee pads; tiny teardrop hair clip, no jacket.",
+        "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+      },
+      "random_draws": {
+        "orientation": "high_angle",
+        "frame": "waist_up",
+        "lens": "wide24"
+      },
+      "exampleText": "Roller-skating Fashion",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "custom": "Partial correction of the second attached image only: fix her image-left hand to exactly FIVE digits. Remove the extra uppermost thumb-like protrusion pointing diagonally up-left; retain the one thumb at the lower-right side of the palm and the four fingers fanning left and down-left. Keep every other part of the image unchanged.",
+      "random_adjustment_reason": {
+        "orientation": "랜덤 high_angle을 계획값 turning_midmotion으로 조정: On an empty outdoor skating rink in clear morning light; she rolls through a gentle sweeping turn beside a low concrete edge, arms free for balance.",
+        "frame": "랜덤 waist_up을 계획값 environmental으로 조정: On an empty outdoor skating rink in clear morning light; she rolls through a gentle sweeping turn beside a low concrete edge, arms free for balance.",
+        "lens": "랜덤 wide24을 계획값 wide24으로 조정: On an empty outdoor skating rink in clear morning light; she rolls through a gentle sweeping turn beside a low concrete edge, arms free for balance."
+      }
+    }
+  ],
+  "style": "glossy_promo",
+  "generation_tool": "built-in image_gen",
+  "comparison_table": [
+    {
+      "name": "게을로",
+      "record": "records/slakoth-20261015/plan.json",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "knit_lingerie",
+          "expr": "sleepy",
+          "pose": "stretching",
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "scene": "Beside an unmade linen bed on a quiet winter morning, she stretches both arms lazily after waking, pale sunlight crossing a bare wood floor.",
+          "outfit": "Opaque oatmeal rib-knit wide-strap bralette and separate matching high-waist briefs with chocolate edge binding; tiny pink circular pendant, no robe.",
+          "axis_reasons": {
+            "action_level": "기상 후 팔을 느리게 펴는 스트레칭.",
+            "source_influence": "작은 분홍 펜던트만 원작을 남김.",
+            "separates_preference": "명확한 간격의 브라렛과 하이웨이스트 하의 두 조각 실루엣을 강하게 선호."
+          },
+          "input_reasons": {
+            "scene": "선택 예시에서 정하지 않은 시간대·주변 재질·손동작의 대상물을 지정: Beside an unmade linen bed on a quiet winter morning, she stretches both arms lazily after waking, pale sunlight crossing a bare wood floor.",
+            "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Opaque oatmeal rib-knit wide-strap bralette and separate matching high-waist briefs with chocolate edge binding; tiny pink circular pendant, no robe.",
+            "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+          },
+          "random_adjustment_reason": "기상 후 기지개를 펴며 상체를 뒤로 젖히는 동작과 양팔·발을 전신으로 담음.",
+          "random_draws": {
+            "orientation": "reaching_up",
+            "frame": "face_close",
+            "lens": "wide24"
+          },
+          "exampleText": "a knit-blend lingerie set in soft ribbed jersey with a relaxed cropped top",
+          "locked": [
+            "axes.overall_intensity",
+            "axes.skin_exposure",
+            "aspect"
+          ],
+          "random_adjustments": [
+            {
+              "field": "orientation",
+              "drawn": "reaching_up",
+              "final": "leaning_back",
+              "reason": "기상 후 기지개를 펴며 상체를 뒤로 젖히는 동작과 양팔·발을 전신으로 담음."
+            },
+            {
+              "field": "frame",
+              "drawn": "face_close",
+              "final": "full_body",
+              "reason": "기상 후 기지개를 펴며 상체를 뒤로 젖히는 동작과 양팔·발을 전신으로 담음."
+            },
+            {
+              "field": "lens",
+              "drawn": "wide24",
+              "final": "portrait85",
+              "reason": "기상 후 기지개를 펴며 상체를 뒤로 젖히는 동작과 양팔·발을 전신으로 담음."
+            }
+          ]
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "midnight_laundromat",
+          "expr": "bored",
+          "pose": "leaning_wall",
+          "orient": "side",
+          "frame": "environmental",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "scene": "At an empty laundromat at midnight, she waits beside a running plain silver washer, holding the two visible top corners of a folded towel with both hands in front of her waist; all panels are unmarked.",
+          "outfit": "Chocolate scoop-neck long-sleeve cotton tee with two beige stripe bands, a long hem extending below the waistband to the upper hips and covering the midriff, separate pale-pink calf-length straight skirt and flat beige sandals; no outer layer.",
+          "axis_reasons": {
+            "action_level": "세탁 완료를 기다리며 벽에 기대어 멈춰 있는 상태.",
+            "source_influence": "두 줄 스트라이프를 평범한 티셔츠 패턴으로 번역하고 색 대비를 줄여 중간 강도.",
+            "separates_preference": "긴소매 티와 종아리길이 치마가 두 벌."
+          },
+          "input_reasons": {
+            "scene": "심야 세탁방 예시에는 기다리는 동작이 없어 세탁기 옆 수건을 두 손으로 들고 완료를 기다리는 활동을 지정.",
+            "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Chocolate scoop-neck long-sleeve cotton tee with two beige stripe bands ending at hip level and separate pale-pink calf-length straight skirt, flat beige sandals; no outer layer.",
+            "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+          },
+          "random_adjustment_reason": "세탁기 옆 벽에 기대는 옆모습과 빈 세탁방 공간을 환경 와이드로 함께 보여 줌.",
+          "random_draws": {
+            "orientation": "looking_down",
+            "frame": "chest_up",
+            "lens": "documentary35"
+          },
+          "exampleText": "Midnight Laundromat",
+          "locked": [
+            "axes.overall_intensity",
+            "axes.skin_exposure",
+            "aspect"
+          ],
+          "random_adjustments": [
+            {
+              "field": "orientation",
+              "drawn": "looking_down",
+              "final": "side",
+              "reason": "세탁기 옆 벽에 기대는 옆모습과 빈 세탁방 공간을 환경 와이드로 함께 보여 줌."
+            },
+            {
+              "field": "frame",
+              "drawn": "chest_up",
+              "final": "environmental",
+              "reason": "세탁기 옆 벽에 기대는 옆모습과 빈 세탁방 공간을 환경 와이드로 함께 보여 줌."
+            },
+            {
+              "field": "lens",
+              "drawn": "documentary35",
+              "final": "wide24",
+              "reason": "세탁기 옆 벽에 기대는 옆모습과 빈 세탁방 공간을 환경 와이드로 함께 보여 줌."
+            }
+          ]
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_tea",
+          "expr": "gentle",
+          "pose": "kneeling",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "scene": "At a low kitchen table on a rainy afternoon, she pours berry tea from a small ceramic teapot into a plain cup beside sliced fruit.",
+          "outfit": "Dusty-pink square-neck short-sleeve calf-length soft linen dress, chocolate narrow sash and one tiny beige ring pendant, no outer layer.",
+          "axis_reasons": {
+            "action_level": "찻주전자를 기울여 컵에 열매차를 붓는 동작.",
+            "source_influence": "분홍 원피스·갈색 허리띠·베이지 링 펜던트의 작은 배색 단서들을 함께 사용.",
+            "separates_preference": "종아리길이 원피스 드레스 한 벌."
+          },
+          "input_reasons": {
+            "scene": "선택 예시에서 정하지 않은 시간대·주변 재질·손동작의 대상물을 지정: At a low kitchen table on a rainy afternoon, she pours berry tea from a small ceramic teapot into a plain cup beside sliced fruit.",
+            "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Dusty-pink square-neck short-sleeve calf-length soft linen dress, chocolate narrow sash and one tiny beige ring pendant, no outer layer.",
+            "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+          },
+          "random_adjustment_reason": "낮은 탁자에 무릎을 대고 상체를 앞으로 기울여 찻주전자 주둥이·컵·붓는 손을 허리 위로 읽히게 함.",
+          "random_draws": {
+            "orientation": "looking_away",
+            "frame": "full_body",
+            "lens": "telephoto135"
+          },
+          "exampleText": "Pouring warm berry tea into a cup at a small kitchen table with a teapot and sliced fruit.",
+          "locked": [
+            "axes.overall_intensity",
+            "axes.skin_exposure",
+            "aspect"
+          ],
+          "random_adjustments": [
+            {
+              "field": "orientation",
+              "drawn": "looking_away",
+              "final": "leaning_forward",
+              "reason": "낮은 탁자에 무릎을 대고 상체를 앞으로 기울여 찻주전자 주둥이·컵·붓는 손을 허리 위로 읽히게 함."
+            },
+            {
+              "field": "frame",
+              "drawn": "full_body",
+              "final": "waist_up",
+              "reason": "낮은 탁자에 무릎을 대고 상체를 앞으로 기울여 찻주전자 주둥이·컵·붓는 손을 허리 위로 읽히게 함."
+            },
+            {
+              "field": "lens",
+              "drawn": "telephoto135",
+              "final": "telephoto135",
+              "reason": "낮은 탁자에 무릎을 대고 상체를 앞으로 기울여 찻주전자 주둥이·컵·붓는 손을 허리 위로 읽히게 함."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "버섯모",
+      "record": "records/breloom-20261015/plan.json",
+      "cuts": [
+        {
+          "cat": "active",
+          "ex": "boxing_fitness",
+          "expr": "determined",
+          "pose": "mid_action",
+          "orient": "low_angle",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "scene": "Inside an empty boxing gym at dawn; she practices an open-hand shadowboxing palm strike on a cork training floor, no punching bag or gloves hiding her fingers.",
+          "outfit": "Cream high-neck sleeveless athletic top ending at waist and separate dark-green loose knee-length boxing shorts with red waistband, plain red training shoes; a small cap-shaped zipper tab, no outer layer.",
+          "axis_reasons": {
+            "action_level": "섀도복싱 타격의 체중 이동을 그리는 활동.",
+            "source_influence": "녹색·빨강 배색과 작은 버섯캡 참으로 모티프 중간 강도.",
+            "separates_preference": "민소매 운동 상의와 무릎길이 반바지의 두 벌."
+          },
+          "input_reasons": {
+            "scene": "선택 예시에서 정하지 않은 시간대·주변 재질·손동작의 대상물을 지정: Inside an empty boxing gym at dawn; she practices an open-hand shadowboxing palm strike on a cork training floor, no punching bag or gloves hiding her fingers.",
+            "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Cream high-neck sleeveless athletic top ending at waist and separate dark-green loose knee-length boxing shorts with red waistband, plain red training shoes; a small cap-shaped zipper tab, no outer layer.",
+            "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+          },
+          "random_adjustment_reason": "낮은 카메라로 넓게 디딘 발과 섀도복싱 손바닥 타격 동작을 강조하고 체육관 바닥을 전신으로 담음.",
+          "random_draws": {
+            "orientation": "reaching_up",
+            "frame": "waist_up",
+            "lens": "documentary35"
+          },
+          "exampleText": "Boxing Fitness Styling",
+          "locked": [
+            "axes.overall_intensity",
+            "axes.skin_exposure",
+            "aspect"
+          ],
+          "random_adjustments": [
+            {
+              "field": "orientation",
+              "drawn": "reaching_up",
+              "final": "low_angle",
+              "reason": "낮은 카메라로 넓게 디딘 발과 섀도복싱 손바닥 타격 동작을 강조하고 체육관 바닥을 전신으로 담음."
+            },
+            {
+              "field": "frame",
+              "drawn": "waist_up",
+              "final": "full_body",
+              "reason": "낮은 카메라로 넓게 디딘 발과 섀도복싱 손바닥 타격 동작을 강조하고 체육관 바닥을 전신으로 담음."
+            },
+            {
+              "field": "lens",
+              "drawn": "documentary35",
+              "final": "documentary35",
+              "reason": "낮은 카메라로 넓게 디딘 발과 섀도복싱 손바닥 타격 동작을 강조하고 체육관 바닥을 전신으로 담음."
+            }
+          ]
+        },
+        {
+          "cat": "swimwear",
+          "ex": "rashguard_set",
+          "expr": "relieved",
+          "pose": "standing_relaxed",
+          "orient": "front_3q",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "scene": "On a public wooden lakeside swim dock in clear morning sunlight, she checks the zipper of her rashguard before swimming; a plain lifebuoy rests on a railing.",
+          "outfit": "Opaque forest-green long-sleeve zip-front rashguard ending at the hips, worn over separate fully lined beige mid-thigh square-cut swim shorts, simple green water shoes and a tiny terracotta cap-shaped zipper tab.",
+          "axis_reasons": {
+            "action_level": "수영 전에 래시가드 지퍼를 점검하는 가벼운 준비 움직임.",
+            "source_influence": "작은 초록 클라스프만 버섯 모티프.",
+            "separates_preference": "긴소매 지퍼 상의와 별도 사각 수영 반바지가 확실히 분리된 두 벌."
+          },
+          "input_reasons": {
+            "scene": "래시가드 예시에는 장소·활동이 없어 공공 호수 선착장·수영 전 지퍼 점검 동작을 지정.",
+            "outfit": "래시가드 예시의 긴소매 지퍼 상의·수영 하의를 유지하며 불투명 소재와 짧은 사각 반바지·배색·지퍼 참을 지정.",
+            "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+          },
+          "random_adjustment_reason": "호수 선착장에서 래시가드 지퍼를 양손으로 점검하는 앞 3/4 자세를 담고, 무릎 위 프레이밍으로 상의와 수영 반바지 층을 보이게 함.",
+          "random_draws": {
+            "orientation": "profile_close",
+            "frame": "chest_up",
+            "lens": "natural50"
+          },
+          "exampleText": "a long-sleeve rashguard with a zip front over matching swim bottoms",
+          "locked": [
+            "axes.overall_intensity",
+            "axes.skin_exposure",
+            "aspect"
+          ],
+          "random_adjustments": [
+            {
+              "field": "orientation",
+              "drawn": "profile_close",
+              "final": "front_3q",
+              "reason": "호수 선착장에서 래시가드 지퍼를 양손으로 점검하는 앞 3/4 자세를 담고, 무릎 위 프레이밍으로 상의와 수영 반바지 층을 보이게 함."
+            },
+            {
+              "field": "frame",
+              "drawn": "chest_up",
+              "final": "three_quarter",
+              "reason": "호수 선착장에서 래시가드 지퍼를 양손으로 점검하는 앞 3/4 자세를 담고, 무릎 위 프레이밍으로 상의와 수영 반바지 층을 보이게 함."
+            },
+            {
+              "field": "lens",
+              "drawn": "natural50",
+              "final": "natural50",
+              "reason": "호수 선착장에서 래시가드 지퍼를 양손으로 점검하는 앞 3/4 자세를 담고, 무릎 위 프레이밍으로 상의와 수영 반바지 층을 보이게 함."
+            }
+          ]
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "mobility_tuner",
+          "expr": "focused",
+          "pose": "perched_seat",
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "scene": "At a leathercraft workbench in evening amber light; she pulls a blunt needle through a green saddle pad and checks a plain buckle laid on the bench.",
+          "outfit": "Beige mandarin-collar long-sleeve work shirt with sleeves rolled to forearms, separate red straight trousers, hip-length green bib work apron layered over both; tiny mushroom pin on the apron strap.",
+          "axis_reasons": {
+            "action_level": "손으로 안장 패드에 바느질하고 버클을 점검하는 작업.",
+            "source_influence": "앞치마의 작은 버섯 핀 하나만 직접적인 종 장신구로 남김.",
+            "separates_preference": "셔츠·바지·작업 앞치마의 독립 레이어."
+          },
+          "input_reasons": {
+            "scene": "선택 예시에서 정하지 않은 시간대·주변 재질·손동작의 대상물을 지정: At a leathercraft workbench in evening amber light; she pulls a blunt needle through a green saddle pad and checks a plain buckle laid on the bench.",
+            "outfit": "선택 예시에 없는 색과 소재, 목선·소매·기장·겹침을 보충: Beige mandarin-collar long-sleeve work shirt with sleeves rolled to forearms, separate red straight trousers, hip-length green bib work apron layered over both; tiny mushroom pin on the apron strap.",
+            "camera": "이미지 도구에 크기 인자가 없어 1024×1536 세로 2:3을 지정."
+          },
+          "random_adjustment_reason": "작업대에 걸터앉아 패드를 꿰매며 몸통을 자연스럽게 비틀고 어깨 너머로 돌아보는 방향으로 바꿈. 최근 컷의 방향/프레임 짝과 겹치지 않고 새 방향 값임.",
+          "random_draws": {
+            "orientation": "crouching",
+            "frame": "full_body",
+            "lens": "natural50"
+          },
+          "exampleText": "Ride-Pokémon outfitter stitching a saddle pad and adjusting travel harness buckles at a leathercraft bench.",
+          "locked": [
+            "axes.overall_intensity",
+            "axes.skin_exposure",
+            "aspect"
+          ],
+          "random_adjustments": [
+            {
+              "field": "orientation",
+              "drawn": "crouching",
+              "final": "over_shoulder",
+              "reason": "작업대에 걸터앉아 패드를 꿰매며 몸통을 자연스럽게 비틀고 어깨 너머로 돌아보는 방향으로 바꿈. 최근 컷의 방향/프레임 짝과 겹치지 않고 새 방향 값임."
+            },
+            {
+              "field": "frame",
+              "drawn": "full_body",
+              "final": "waist_up",
+              "reason": "작업대에 걸터앉아 패드를 꿰매며 몸통을 자연스럽게 비틀고 어깨 너머로 돌아보는 방향으로 바꿈. 최근 컷의 방향/프레임 짝과 겹치지 않고 새 방향 값임."
+            },
+            {
+              "field": "lens",
+              "drawn": "natural50",
+              "final": "portrait85",
+              "reason": "작업대에 걸터앉아 패드를 꿰매며 몸통을 자연스럽게 비틀고 어깨 너머로 돌아보는 방향으로 바꿈. 최근 컷의 방향/프레임 짝과 겹치지 않고 새 방향 값임."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "비구술",
+      "record": "records/surskit-20261015/plan.json",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "relieved",
+          "pose": "perched_seat",
+          "orient": "reclining",
+          "frame": "full_body",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "strong",
+            "action_level": "mostly posed",
+            "separates_preference": "prefer separates"
+          },
+          "scene": "On a weathered dock beside still blue water in late afternoon, a folded yellow towel supports her shoulders and her feet hang over the water.",
+          "outfit": "Pale-blue opaque halter bikini top and separate high-waist swim bottoms with yellow edging and tiny pink semicircle embroidery, no outer layer.",
+          "axis_reasons": {
+            "action_level": "The dock supports a relaxed still resting pose.",
+            "source_influence": "The pink semicircle stitching and yellow edging echo the skater markings.",
+            "separates_preference": "Bikini top and bottoms are separate pieces."
+          },
+          "input_reasons": {
+            "scene": "The river_dock example does not specify this setting's time, props and material surfaces.",
+            "outfit": "The river_dock example leaves the specified neckline, sleeves, hems, colors and small ornament unspecified.",
+            "camera": "The image tool has no size field; request vertical 2:3 at 1024×1536."
+          },
+          "random_adjustment_reason": "Selected reclining/full_body to show the river_dock hand activity while avoiding all comparison direction/frame pairs.",
+          "random_draws": {
+            "orient": "walking_away",
+            "frame": "environmental",
+            "lens": "telephoto135"
+          },
+          "exampleText": "in swimwear on a wooden river dock, feet over the edge above the water"
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "greenhouse",
+          "expr": "curious",
+          "pose": "watering",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "strong",
+            "action_level": "balanced",
+            "separates_preference": "balanced"
+          },
+          "scene": "At a misty glass plant shop in morning light, she tips a small plain watering can over a tray of tiny aquatic seedlings.",
+          "outfit": "Blue square-neck short-sleeve knee-length cotton dress with yellow waist piping, no outer layer; a small pink droplet pendant.",
+          "axis_reasons": {
+            "action_level": "A lightly tilted watering can makes a gentle working motion.",
+            "source_influence": "Yellow piping and a pink drop retain the bright water-skater palette.",
+            "separates_preference": "The cotton dress is a single shaped garment."
+          },
+          "input_reasons": {
+            "scene": "The greenhouse example does not specify this setting's time, props and material surfaces.",
+            "outfit": "The greenhouse example leaves the specified neckline, sleeves, hems, colors and small ornament unspecified.",
+            "camera": "The image tool has no size field; request vertical 2:3 at 1024×1536."
+          },
+          "random_adjustment_reason": "Selected high_angle/waist_up to show the greenhouse hand activity while avoiding all comparison direction/frame pairs.",
+          "random_draws": {
+            "orient": "reaching_up",
+            "frame": "chest_up",
+            "lens": "documentary35"
+          },
+          "exampleText": "Greenhouse / Plant Shop"
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_trail",
+          "expr": "determined",
+          "pose": "checking_map",
+          "orient": "leaning_forward",
+          "frame": "three_quarter",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "balanced",
+            "action_level": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "scene": "At a mossy forest trail fork on an overcast day, the map has only unlabelled river lines and the trail marker is a blank color stripe.",
+          "outfit": "Yellow open-collar long-sleeve hiking shirt ending at waist, separate navy mid-thigh cargo shorts, open pale-blue hip-length rain vest layered over it and a small pink zipper bead.",
+          "axis_reasons": {
+            "action_level": "Reading a folded map is a pause with small hand movement.",
+            "source_influence": "The zipper bead and blue-yellow layering modestly recall Surskit.",
+            "separates_preference": "Shirt, shorts and rain vest are three separately constructed garments."
+          },
+          "input_reasons": {
+            "scene": "The travel_trail example does not specify this setting's time, props and material surfaces.",
+            "outfit": "The travel_trail example leaves the specified neckline, sleeves, hems, colors and small ornament unspecified.",
+            "camera": "The image tool has no size field; request vertical 2:3 at 1024×1536."
+          },
+          "random_adjustment_reason": "Selected leaning_forward/three_quarter to show the travel_trail hand activity while avoiding all comparison direction/frame pairs.",
+          "random_draws": {
+            "orient": "back",
+            "frame": "full_body",
+            "lens": "telephoto135"
+          },
+          "exampleText": "Pausing at a forest trail junction to compare a folded map with a trail marker, wearing a light travel pack."
+        }
+      ]
+    }
+  ],
+  "comparison_changes": "레이싱 피트·손북 스튜디오·스케이트 링크 / 드레싱룸·호숫가 도시락·카프탄 회랑으로 기존 침실 기지개·세탁방·차우리기·복싱·수영·안장제작·온실·지도확인과 장소·활동·의상·구도를 구분.",
+  "face_evidence": {
+    "reason": "원작 성난 원숭이의 각진 체적·날카로운 시선·넓은 입을 각진 턱과 큰 아몬드 눈·직선 눈썹·넓은 사람 입으로 해석. 게을로의 둥근 턱·처진 눈과 구별.",
+    "sources": [
+      "data/source-appearance.json#288",
+      "data/face-design.json#288",
+      "data/card.json"
+    ],
+    "compared_actual": [
+      "게을로",
+      "버섯모",
+      "비구술"
+    ],
+    "result": "발바로는 각진 턱·중간 두께 직선 눈썹·가로로 넓은 입, 게을로는 둥근 턱·처진 눈, 버섯모는 좁고 긴 눈, 비구술은 큰 둥근 눈으로 구별."
+  },
+  "retries": [
+    {
+      "slot": "casual1",
+      "discarded": "generated_images/exec-c681474a-d1b6-4064-af48-a96e40ca6f15.png",
+      "problems": "분리된 장갑을 맨손으로 점검하는 대신 장갑 착용. 큰 경장 헤드피스 잔존.",
+      "method": "same anchor, revised scene and outfit through UI"
+    },
+    {
+      "slot": "casual2",
+      "discarded": "generated_images/exec-0defb296-2525-4b2b-b8e5-acb86e8be3f3.png",
+      "problems": "블라우스 밑단이 허리 위로 짧아짐. 붉은 큰 볏 잔존.",
+      "method": "partial clothing and accessory edit, anchor plus target"
+    },
+    {
+      "slot": "casual3",
+      "discarded": "generated_images/exec-6f7e27b0-a5cf-45e9-b729-63c32e53d630.png",
+      "problems": "화면 왼쪽 손끝 여백 부족",
+      "method": "partial hand correction, anchor plus target"
+    },
+    {
+      "slot": "casual3",
+      "discarded": "generated_images/exec-3e649f7e-8f9c-4e8f-acb0-53650955eeba.png",
+      "problems": "화면 왼쪽 손의 여섯째 돌출 손가락",
+      "method": "partial hand correction; remove extra upper thumb-like digit"
+    }
+  ],
+  "comparison_actual_images": "recent-comparison.jpg의 게을로·버섯모·비구술 경장 및 일상 9장을 직접 확인. 레이싱 준비·손북·스케이트는 침실·세탁방·차우리기 / 복싱·선착장·안장바느질 / 강가·온실·지도와 활동·옷·구도가 구분됨."
+}
