@@ -1,0 +1,161 @@
+{
+  "instruction": "Image 1 is the canonical identity; image 2 is the edit target. Keep the same woman, hair, corset embroidery, dresser, lighting and separated hands. Match the selected profile_close orientation: turn her head and upper torso together into a true readable 90-degree side profile facing right; only the nearer eye visible, with a natural untwisted neck. Correct the matching opaque lingerie bottom to a high-waist brief reaching her natural waist beneath the corset, preserving brown leaf embroidery. These are the only changes.",
+  "storage": {
+    "last": "다탱구",
+    "cards": {
+      "이상해씨": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          }
+        }
+      },
+      "다탱구": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "cold_smile",
+            "pose": "leaning_furniture",
+            "orient": "profile_close",
+            "scene": "A quiet private dressing room in low evening lamplight; leaning lightly against a dresser with hands resting apart on its edge, head in an elegant readable profile.",
+            "outfit": "Opaque ivory folk-embroidered corset with brown leaf stitching and separate matching high-waist lingerie bottoms; tiny green clasp, no robe or armor headpiece.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Image 1 is the canonical identity; image 2 is the edit target. Keep the same woman, hair, corset embroidery, dresser, lighting and separated hands. Match the selected profile_close orientation: turn her head and upper torso together into a true readable 90-degree side profile facing right; only the nearer eye visible, with a natural untwisted neck. Correct the matching opaque lingerie bottom to a high-waist brief reaching her natural waist beneath the corset, preserving brown leaf embroidery. These are the only changes.",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "embroidered_corset",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Shiftry (다탱구) personified, grass / dark type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: mouth smiling while the eyes stay flat and unsmiling, brows level, gaze direct and unwarm\nPose: Rest a hand or forearm on a table, counter or railing in a relaxed supported pose.\nOrientation: side profile, close only when no explicit framing is selected\nScene: A quiet private dressing room in low evening lamplight; leaning lightly against a dresser with hands resting apart on its edge, head in an elegant readable profile.\nOutfit and props: Opaque ivory folk-embroidered corset with brown leaf stitching and separate matching high-waist lingerie bottoms; tiny green clasp, no robe or armor headpiece.\nCategory: Use tasteful adult lingerie-inspired evening fashion with full intimate coverage. Describe the garment by its construction — cut, fabric, trim, straps, closures, layers — rather than by mood words. The garments are securely fitted and fully opaque, and the look is suitable for a mainstream evening-fashion editorial. Build the image through framing, silhouette, posture, and lighting rather than exposure.\nExample scene: a folk-embroidered corset with structured boning and colourful thread work over a matching piece\nNote: Image 1 is the canonical identity; image 2 is the edit target. Keep the same woman, hair, corset embroidery, dresser, lighting and separated hands. Match the selected profile_close orientation: turn her head and upper torso together into a true readable 90-degree side profile facing right; only the nearer eye visible, with a natural untwisted neck. Correct the matching opaque lingerie bottom to a high-waist brief reaching her natural waist beneath the corset, preserving brown leaf embroidery. These are the only changes.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra."
+}

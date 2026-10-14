@@ -1,0 +1,552 @@
+{
+  "name": "다탱구",
+  "slug": "shiftry",
+  "no": 275,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "white",
+    "hairstyle": "shaggy",
+    "hair length": "long",
+    "eye color": "gold",
+    "body type": "tall and lean"
+  },
+  "scene": "An old cedar forest with curling wind and cool dusk light.",
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "embroidered_corset",
+      "expr": "cold_smile",
+      "pose": "leaning_furniture",
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "A quiet private dressing room in low evening lamplight; leaning lightly against a dresser with hands resting apart on its edge, head in an elegant readable profile.",
+      "outfit": "Opaque ivory folk-embroidered corset with brown leaf stitching and separate matching high-waist lingerie bottoms; tiny green clasp, no robe or armor headpiece.",
+      "reason": "Profile view with hands at the dresser suits quiet wardrobe styling; fitted structured corset differs from earlier swimsuit and blouse.",
+      "input_reasons": {
+        "scene": "embroidered_corset defines folk embroidery but not evening private dresser location.",
+        "outfit": "Ivory opaque material, brown leaves and high-waist matching bottom add missing garment details.",
+        "camera": "Image tool has no size argument; explicit vertical 1024×1536 request."
+      },
+      "random_draws": {
+        "orient": "profile_close",
+        "frame": "three_quarter",
+        "lens": "documentary35"
+      },
+      "random_final": {
+        "orient": "profile_close",
+        "frame": "chest_up",
+        "lens": "telephoto135"
+      },
+      "random_adjustment_reason": "Profile view with hands at the dresser suits quiet wardrobe styling; fitted structured corset differs from earlier swimsuit and blouse. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "axis_reasons": {
+        "action_level": "Leaning on dresser with stationary hands is a posed moment.",
+        "source_influence": "Leaf embroidery echoes the motif clearly but does not turn it into armor.",
+        "separates_preference": "Corset and matching high-waist briefs are separate."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A quiet private dressing room in low evening lamplight; leaning lightly against a dresser with hands resting apart on its edge, head in an elegant readable profile.",
+          "reason": "embroidered_corset defines folk embroidery but not evening private dresser location."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque ivory folk-embroidered corset with brown leaf stitching and separate matching high-waist lingerie bottoms; tiny green clasp, no robe or armor headpiece.",
+          "reason": "Ivory opaque material, brown leaves and high-waist matching bottom add missing garment details."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; explicit vertical 1024×1536 request."
+        }
+      ]
+    },
+    {
+      "cat": "travel_exploration",
+      "ex": "travel_lookout",
+      "expr": "determined",
+      "pose": "standing_relaxed",
+      "orient": "low_angle",
+      "frame": "environmental",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "A windy hilltop lookout in crisp sunrise light; holding binoculars at her eyes with both hands, a folded blank habitat map visible in a side pocket.",
+      "outfit": "Brown open-collar long-sleeve cropped field shirt with sleeves rolled to elbows, separate cream knee-length hiking shorts, boots, a green leaf-pattern scarf layered at the collar. No armor headpiece.",
+      "reason": "Low angle and environmental view show wind and lookout horizon while binoculars identify the activity.",
+      "input_reasons": {
+        "scene": "travel_lookout defines binocular lookout; sunrise wind and unlettered map supplement it.",
+        "outfit": "The example has no shirt neck, rolled sleeves, cropped hem or knee-length shorts.",
+        "camera": "Image tool has no size argument; explicit vertical 1024×1536 request."
+      },
+      "random_draws": {
+        "orient": "leaning_back",
+        "frame": "chest_up",
+        "lens": "documentary35"
+      },
+      "random_final": {
+        "orient": "low_angle",
+        "frame": "environmental",
+        "lens": "wide24"
+      },
+      "random_adjustment_reason": "Low angle and environmental view show wind and lookout horizon while binoculars identify the activity. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "axis_reasons": {
+        "action_level": "Standing binocular observation is stationary.",
+        "source_influence": "Leaf-pattern scarf and earth/cream palette deliberately retain source motif.",
+        "separates_preference": "Field shirt and knee-length hiking shorts are separate."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A windy hilltop lookout in crisp sunrise light; holding binoculars at her eyes with both hands, a folded blank habitat map visible in a side pocket.",
+          "reason": "travel_lookout defines binocular lookout; sunrise wind and unlettered map supplement it."
+        },
+        {
+          "field": "outfit",
+          "content": "Brown open-collar long-sleeve cropped field shirt with sleeves rolled to elbows, separate cream knee-length hiking shorts, boots, a green leaf-pattern scarf layered at the collar. No armor headpiece.",
+          "reason": "The example has no shirt neck, rolled sleeves, cropped hem or knee-length shorts."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; explicit vertical 1024×1536 request."
+        }
+      ]
+    },
+    {
+      "cat": "food_berries",
+      "ex": "food_market",
+      "expr": "amused",
+      "pose": "carrying_something",
+      "orient": "front_3q",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates"
+      },
+      "scene": "An empty village market berry stall in warm morning shade; placing fresh red berries into a plain paper shopping bag held in the other hand, baskets of fruit and no signage.",
+      "outfit": "Cream boat-neck half-sleeve cotton blouse ending at waist, separate brown below-knee A-line skirt, a short green waist apron layered over the skirt; tiny leaf clasp, no armor headpiece.",
+      "reason": "Standing fruit selection has a full-length skirt silhouette and clear two-handed task, distinct from travel stance and quiet corset profile.",
+      "input_reasons": {
+        "scene": "food_market defines berry selection but not morning shade or absence of signage.",
+        "outfit": "The example has no boat neck, half sleeves or even below-knee skirt.",
+        "camera": "Image tool has no size argument; explicit vertical 1024×1536 request."
+      },
+      "random_draws": {
+        "orient": "looking_away",
+        "frame": "waist_up",
+        "lens": "portrait85"
+      },
+      "random_final": {
+        "orient": "front_3q",
+        "frame": "full_body",
+        "lens": "documentary35"
+      },
+      "random_adjustment_reason": "Standing fruit selection has a full-length skirt silhouette and clear two-handed task, distinct from travel stance and quiet corset profile. These angles keep the activity visible and avoid the previous comparison pairs.",
+      "axis_reasons": {
+        "action_level": "Choosing fruit into a bag is the principal active gesture.",
+        "source_influence": "Leaf clasp and apron echo source with normal market clothing.",
+        "separates_preference": "Blouse and below-knee skirt are separate under a waist apron."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "An empty village market berry stall in warm morning shade; placing fresh red berries into a plain paper shopping bag held in the other hand, baskets of fruit and no signage.",
+          "reason": "food_market defines berry selection but not morning shade or absence of signage."
+        },
+        {
+          "field": "outfit",
+          "content": "Cream boat-neck half-sleeve cotton blouse ending at waist, separate brown below-knee A-line skirt, a short green waist apron layered over the skirt; tiny leaf clasp, no armor headpiece.",
+          "reason": "The example has no boat neck, half sleeves or even below-knee skirt."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; explicit vertical 1024×1536 request."
+        }
+      ]
+    }
+  ],
+  "recentCompared": [
+    "tyranitar-20261014",
+    "pupitar-20261014",
+    "larvitar-20261014"
+  ],
+  "previousInBatch": [
+    "seedot-20261014",
+    "nuzleaf-20261014"
+  ],
+  "faceEvidence": {
+    "name": "다탱구",
+    "en": "Shiftry",
+    "line": "도토링",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "elongated",
+      "face length": "long",
+      "face width": "medium",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "feathered full brows",
+      "nose character": "prominent defined nose",
+      "lips": "wide mouth"
+    },
+    "why": "긴 뾰족한 코와 큰 입, 거친 흰 갈기를 긴 얼굴·각진 턱·또렷한 사람 코와 넓은 입·숱 있는 눈썹으로 해석한다. 코를 주둥이나 텐구 부리로 만들지 않는다.",
+    "cues": [
+      "‘shaggy white mane’ → 눈썹 숱 많고 결이 보이는",
+      "‘long, pointed nose’ → 코 크고 또렷한 코",
+      "‘large mouth’ → 입술 입이 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운"
+  },
+  "sourceEvidence": {
+    "name": "다탱구",
+    "en": "Shiftry",
+    "color": "brown",
+    "shape": "humanoid",
+    "features": [
+      {
+        "part": "mane",
+        "detail": "shaggy white mane"
+      },
+      {
+        "part": "leaf",
+        "detail": "three broad leaves"
+      },
+      {
+        "part": "bird",
+        "detail": "evil bird"
+      },
+      {
+        "part": "nose",
+        "detail": "long, pointed nose"
+      },
+      {
+        "part": "mouth",
+        "detail": "large mouth"
+      },
+      {
+        "part": "eye",
+        "detail": "yellow eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Shiftry_%28Pok%C3%A9mon%29",
+    "revision": 4611340,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "18e885d5655b82463e657474586a6e9e91aa7b40789aaabbfc16b9b5178a8600",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): elongated face, long length, medium width; angular defined jaw; narrow eyes, medium size, level outer corners, close-set; feathered full brows; prominent defined nose; wide mouth.",
+  "comparisonScope": "Viewed actual light + casual1/2/3 of each recent character in recent-comparison.jpg; prior batch characters also compared.",
+  "comparison_table": [
+    {
+      "character": "tyranitar-20261014",
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "front",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      }
+    },
+    {
+      "character": "tyranitar-20261014",
+      "cut": 2,
+      "cat": "travel_exploration",
+      "ex": "travel_trail",
+      "expr": "focused",
+      "pose": "checking_map",
+      "orient": "side",
+      "frame": "environmental",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      }
+    },
+    {
+      "character": "tyranitar-20261014",
+      "cut": 3,
+      "cat": "everyday_basic",
+      "ex": "pottery_class",
+      "expr": "amused",
+      "pose": "sitting",
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      }
+    },
+    {
+      "character": "pupitar-20261014",
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "bodysuit",
+      "expr": "calm",
+      "pose": "side_sitting",
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "pupitar-20261014",
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_harvest",
+      "expr": "soft_smile",
+      "pose": "on_tiptoe",
+      "orient": "reaching_up",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "pupitar-20261014",
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "forensic_engineer",
+      "expr": "serious",
+      "pose": "bending_over",
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "larvitar-20261014",
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "larvitar-20261014",
+      "cut": 2,
+      "cat": "travel_exploration",
+      "ex": "travel_camp",
+      "expr": "relieved",
+      "pose": "kneeling",
+      "orient": "over_shoulder",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "larvitar-20261014",
+      "cut": 3,
+      "cat": "everyday_basic",
+      "ex": "record_store",
+      "expr": "mildly_annoyed",
+      "pose": "mid_action",
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      }
+    },
+    {
+      "character": "seedot",
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "adult_librarian",
+      "expr": "proud",
+      "pose": "standing_formal",
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      }
+    },
+    {
+      "character": "seedot",
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_poffin",
+      "expr": "focused",
+      "pose": "preparing_food",
+      "orient": "looking_down",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      }
+    },
+    {
+      "character": "seedot",
+      "cut": 3,
+      "cat": "active",
+      "ex": "roller_skating",
+      "expr": "playful",
+      "pose": "mid_stride",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      }
+    },
+    {
+      "character": "nuzleaf",
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "river_dock",
+      "expr": "relieved",
+      "pose": "perched_seat",
+      "orient": "leaning_back",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      }
+    },
+    {
+      "character": "nuzleaf",
+      "cut": 2,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_craft",
+      "expr": "curious",
+      "pose": "cross_legged",
+      "orient": "front_3q",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      }
+    },
+    {
+      "character": "nuzleaf",
+      "cut": 3,
+      "cat": "everyday_basic",
+      "ex": "rain_walk",
+      "expr": "wistful",
+      "pose": "walking",
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      }
+    }
+  ],
+  "diversity_changes": "Compared original recent race/trail/pottery, bodysuit/harvest/workshop and race/camp/records compositions; changed location, task, outfit silhouette and camera rather than copying those sets. Additional earlier batch rows included below.",
+  "retries": [
+    {
+      "slot": "casual1",
+      "reason": "Initial 3/4 head did not match profile_close, and low-rise bottom did not match high waist; both corrected from same target."
+    },
+    {
+      "slot": "casual2",
+      "reason": "Shorts too short; lengthened to above kneecaps with original pose unchanged."
+    },
+    {
+      "slot": "casual3",
+      "reason": "Initial skirt high-low front too short, neckline too low; corrected even below-knee skirt and shallow boat neck."
+    }
+  ],
+  "actualFaceComparison": "Shiftry has a longer angular jaw/cheek plane, long projecting human nose, horizontal narrow eyes and firmer broad mouth. Seedot is compact and round-eyed; Nuzleaf has softer tapered chin, upturned almond eyes and thinner lips. White hair is supplemental, not the sole difference."
+}
