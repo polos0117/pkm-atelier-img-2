@@ -1,0 +1,97 @@
+{
+  "storage": {
+    "last": "가디안",
+    "cards": {
+      "가디안": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "green",
+          "hairstyle": "straight",
+          "hair length": "long",
+          "eye color": "red",
+          "body type": "slender"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A luminous white marble sanctuary with a rose-violet psychic aurora, no statues or people.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "focused",
+            "pose": "sitting",
+            "orient": "seated_twist",
+            "scene": "At a small oak craft table at dusk, she threads a red glass bead onto a plain cord, with a ceramic bead tray nearby.",
+            "outfit": "Ivory boat-neck elbow-sleeve linen blouse ending at the waist, separate charcoal knee-length culottes, no outer layer; one small green stud earring.",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "For this local cleanup edit, remove only the tiny pseudo-lettering from the background book spines. Make every spine completely plain fabric or leather with no marks; retain the existing bead-threading image in all other respects.",
+            "aspect": "2:3",
+            "cat": "hobbies_leisure",
+            "catCustom": "",
+            "ex": "hobby_craft",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "source_influence": "subtle",
+              "action_level": "mostly active",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Gardevoir (가디안) personified, psychic / fairy type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: seated with supported pelvis and a natural torso twist\nScene: At a small oak craft table at dusk, she threads a red glass bead onto a plain cord, with a ceramic bead tray nearby.\nOutfit and props: Ivory boat-neck elbow-sleeve linen blouse ending at the waist, separate charcoal knee-length culottes, no outer layer; one small green stud earring.\nCategory: Show a personal hobby or restful leisure moment with a specific action and relevant objects. Pokémon motifs may appear naturally in the activity, without requiring armor, a uniform or a companion.\nExample scene: Threading beads into a small Pokémon-inspired travel charm at a hobby table with tidy craft tools.\nNote: For this local cleanup edit, remove only the tiny pseudo-lettering from the background book spines. Make every spine completely plain fabric or leather with no marks; retain the existing bead-threading image in all other respects.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "errors": []
+}
