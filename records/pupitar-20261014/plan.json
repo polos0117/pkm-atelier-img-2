@@ -1,0 +1,446 @@
+{
+  "character": "데기라스",
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "bodysuit",
+      "expr": "calm",
+      "pose": "side_sitting",
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "scene": "A private sunlit dressing lounge with pale floor cushions and a low upholstered ottoman in late morning.",
+      "outfit": "Opaque pale-silver satin backing beneath the lace side panels, with a tiny red angular clasp and no outer layer.",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "style": "glossy_promo",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "axis_reasons": {
+        "action_level": "A supported floor-seated dressing-lounge pose is held and relaxed.",
+        "source_influence": "Only the tiny red angular clasp echoes the source.",
+        "separates_preference": "The example is a single bodysuit."
+      },
+      "input_reasons": {
+        "scene": "The selected example omits these setting, time and concrete materials: A private sunlit dressing lounge with pale floor cushions and a low upholstered ottoman in late morning.",
+        "outfit": "Example does not specify these particular materials and construction details: Opaque pale-silver satin backing beneath the lace side panels, with a tiny red angular clasp and no outer layer.",
+        "camera": "The image tool has no size parameter; required vertical 1024x1536.",
+        "custom": "The actual bodysuit cut clips the left-edge fingertips and shows skin through lace despite the chosen opaque backing; only these observed defects are corrected."
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "walking_away",
+          "frame": "environmental",
+          "lens": "telephoto135"
+        },
+        "final": {
+          "orient": "seated_twist",
+          "frame": "three_quarter",
+          "lens": "portrait85"
+        },
+        "reason": "Walking away hides identity and clashes with a dressing lounge; a supported floor-seated twist differs from recent standing bralette and raised-arm stretch."
+      },
+      "custom": "Partial correction target: the second attached image. Keep the lace pattern but make its pale-silver satin backing fully opaque so skin does not show through any lace panel. Move only the hand at the left image edge a little inward so all five fingertips are inside the frame, preserving the seated pose, body, face, hair, lighting and every other part of the image.",
+      "example_text": "a lingerie bodysuit with a scooped neckline, wide shoulder straps, and lace side panels",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A private sunlit dressing lounge with pale floor cushions and a low upholstered ottoman in late morning.",
+          "reason": "The selected example omits these setting, time and concrete materials: A private sunlit dressing lounge with pale floor cushions and a low upholstered ottoman in late morning."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque pale-silver satin backing beneath the lace side panels, with a tiny red angular clasp and no outer layer.",
+          "reason": "Example does not specify these particular materials and construction details: Opaque pale-silver satin backing beneath the lace side panels, with a tiny red angular clasp and no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size parameter; required vertical 1024x1536."
+        },
+        {
+          "field": "custom",
+          "content": "Partial correction target: the second attached image. Keep the lace pattern but make its pale-silver satin backing fully opaque so skin does not show through any lace panel. Move only the hand at the left image edge a little inward so all five fingertips are inside the frame, preserving the seated pose, body, face, hair, lighting and every other part of the image.",
+          "reason": "The actual bodysuit cut clips the left-edge fingertips and shows skin through lace despite the chosen opaque backing; only these observed defects are corrected."
+        }
+      ]
+    },
+    {
+      "cat": "food_berries",
+      "ex": "food_harvest",
+      "expr": "soft_smile",
+      "pose": "on_tiptoe",
+      "orient": "reaching_up",
+      "frame": "environmental",
+      "lens": "natural50",
+      "scene": "A sunny terrace orchard in late afternoon; ripe red and blue berries hang at different heights, with a plain woven basket below.",
+      "outfit": "A slate-blue crew-neck short-sleeve ribbed cotton top ending at the waist and a separate ivory knee-length A-line skirt, with small grey triangular cuff trim; no outer layer.",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "style": "glossy_promo",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "axis_reasons": {
+        "action_level": "Reaching to pick berries and transfer them is an ongoing hand activity.",
+        "source_influence": "Slate-blue top, grey triangular cuff trim and ivory skirt give a readable palette echo.",
+        "separates_preference": "Cotton top and A-line skirt are separate garments."
+      },
+      "input_reasons": {
+        "scene": "The selected example omits these setting, time and concrete materials: A sunny terrace orchard in late afternoon; ripe red and blue berries hang at different heights, with a plain woven basket below.",
+        "outfit": "Example does not specify these particular materials and construction details: A slate-blue crew-neck short-sleeve ribbed cotton top ending at the waist and a separate ivory knee-length A-line skirt, with small grey triangular cuff trim; no outer layer.",
+        "camera": "The image tool has no size parameter; required vertical 1024x1536."
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "front",
+          "frame": "waist_up",
+          "lens": "natural50"
+        },
+        "final": {
+          "orient": "reaching_up",
+          "frame": "environmental",
+          "lens": "natural50"
+        },
+        "reason": "Picking a branch requires a raised reaching gesture; a wider orchard view shows the tree and basket rather than repeating a front waist-up shot."
+      },
+      "example_text": "Picking ripe berries from a small tree and placing them in a woven basket in a sunny garden.",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A sunny terrace orchard in late afternoon; ripe red and blue berries hang at different heights, with a plain woven basket below.",
+          "reason": "The selected example omits these setting, time and concrete materials: A sunny terrace orchard in late afternoon; ripe red and blue berries hang at different heights, with a plain woven basket below."
+        },
+        {
+          "field": "outfit",
+          "content": "A slate-blue crew-neck short-sleeve ribbed cotton top ending at the waist and a separate ivory knee-length A-line skirt, with small grey triangular cuff trim; no outer layer.",
+          "reason": "Example does not specify these particular materials and construction details: A slate-blue crew-neck short-sleeve ribbed cotton top ending at the waist and a separate ivory knee-length A-line skirt, with small grey triangular cuff trim; no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size parameter; required vertical 1024x1536."
+        }
+      ]
+    },
+    {
+      "cat": "occupation_basic",
+      "ex": "forensic_engineer",
+      "expr": "serious",
+      "pose": "bending_over",
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "scene": "A small museum conservation workshop on a rainy evening; fragment trays are plain and unlabelled under a warm bench lamp.",
+      "outfit": "A charcoal pointed-collar long-sleeve linen work shirt with a hip-length hem and separate cream full-length straight trousers; grey-blue cuff piping and a tiny angular pin, no outer layer.",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "outputMode": "casual",
+      "identityMode": "reference",
+      "style": "glossy_promo",
+      "aspect": "2:3",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "aspect": true
+      },
+      "axis_reasons": {
+        "action_level": "Brushes and fragment placement make a continuous conservation action.",
+        "source_influence": "Grey-blue cuff piping and a tiny angular pin add a few restrained source-color cues to neutral working clothes.",
+        "separates_preference": "Linen shirt and full trousers are separate working clothes."
+      },
+      "input_reasons": {
+        "scene": "The selected example omits these setting, time and concrete materials: A small museum conservation workshop on a rainy evening; fragment trays are plain and unlabelled under a warm bench lamp.",
+        "outfit": "Example does not specify these particular materials and construction details: A charcoal pointed-collar long-sleeve linen work shirt with a hip-length hem and separate cream full-length straight trousers; one tiny grey-blue angular pin, no outer layer.",
+        "camera": "The image tool has no size parameter; required vertical 1024x1536."
+      },
+      "random_adjustments": {
+        "draw": {
+          "orient": "crouching",
+          "frame": "three_quarter",
+          "lens": "documentary35"
+        },
+        "final": {
+          "orient": "leaning_forward",
+          "frame": "full_body",
+          "lens": "documentary35"
+        },
+        "reason": "Museum bench fragments sit above knee height, so a stable forward lean fits the tools better than crouching; full body avoids recent environmental leaning crop."
+      },
+      "example_text": "Pokémon fossil-restoration researcher aligning fossil fragments with soft brushes and a magnifier at a museum bench.",
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "A small museum conservation workshop on a rainy evening; fragment trays are plain and unlabelled under a warm bench lamp.",
+          "reason": "The selected example omits these setting, time and concrete materials: A small museum conservation workshop on a rainy evening; fragment trays are plain and unlabelled under a warm bench lamp."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal pointed-collar long-sleeve linen work shirt with a hip-length hem and separate cream full-length straight trousers; grey-blue cuff piping and a tiny angular pin, no outer layer.",
+          "reason": "Example does not specify these particular materials and construction details: A charcoal pointed-collar long-sleeve linen work shirt with a hip-length hem and separate cream full-length straight trousers; one tiny grey-blue angular pin, no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size parameter; required vertical 1024x1536."
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "character": "앤테이",
+      "record": "pkm-atelier-img-2/records/entei-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "bralette_highwaist",
+          "expr": "sleepy",
+          "pose": "stretching",
+          "orient": "reaching_up",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "Opaque icy-blue knit fabric with a tiny golden crest-shaped clasp and charcoal edging; matching high-waist bottom, no robe or outer layer."
+        },
+        {
+          "cat": "traditional",
+          "ex": "yukata_daily",
+          "expr": "proud",
+          "pose": "walking",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "Sky-blue cotton with a bronze obi and a restrained small gold flame pattern near one sleeve hem."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "midnight_laundromat",
+          "expr": "amused",
+          "pose": "mid_action",
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A charcoal crew-neck long-sleeve cotton sweatshirt ending at the waist, separate cream full-length wide-leg trousers, no outer layer; a tiny yellow stitch motif on one cuff."
+        }
+      ]
+    },
+    {
+      "character": "스이쿤",
+      "record": "pkm-atelier-img-2/records/suicune-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "wistful",
+          "pose": "mid_stride",
+          "orient": "low_angle",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "An opaque cerulean scoop-neck sleeveless one-piece swimsuit with high-cut legs, white diamond side panels and a tiny violet clasp; no outer layer."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_sketch",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A white crew-neck elbow-sleeve linen blouse with a waist-length hem, a separate violet knee-length pleated skirt and cerulean diamond embroidery on the sleeve cuffs, no outer layer."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "water_plant",
+          "expr": "curious",
+          "pose": "mid_action",
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A cerulean pointed-collar short-sleeve work shirt ending at the hips and separate ivory full-length utility trousers; white diamond cuff edging and a small violet lanyard, no outer layer."
+        }
+      ]
+    },
+    {
+      "character": "애버라스",
+      "record": "pkm-atelier-img-2/records/larvitar-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "hand_on_hip",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_camp",
+          "expr": "relieved",
+          "pose": "kneeling",
+          "orient": "over_shoulder",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "record_store",
+          "expr": "mildly_annoyed",
+          "pose": "mid_action",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer."
+        }
+      ]
+    }
+  ],
+  "faceCompared": [
+    "앤테이",
+    "스이쿤",
+    "애버라스"
+  ],
+  "faceComparison": "Compared actual anchors: Pupitar has a broader straighter lower face, lower outer eyelids, balanced nose and straight thin mouth; Larvitar has upward sharp eyes and a smaller rounded nose, Suicune has a long narrow jaw, Entei a heavier cheek structure.",
+  "retries": [
+    {
+      "slot": "mobility_overdrive",
+      "problem": "Energy reflection shifts red irises toward gold",
+      "changed_inputs": "Supplemental precise iris-color edit because opened UI has no iris-color correction control. Preserve all geometry and armor.",
+      "reference": "opened target plus approved light anchor"
+    },
+    {
+      "slot": "casual1",
+      "original": "exec-4262ae10-d752-41b2-ba06-5cd8e3c73124.png",
+      "problem": "Leftmost fingertips cropped and lace backing visibly translucent",
+      "changed_inputs": {
+        "custom": "Partial correction target: the second attached image. Keep the lace pattern but make its pale-silver satin backing fully opaque so skin does not show through any lace panel. Move only the hand at the left image edge a little inward so all five fingertips are inside the frame, preserving the seated pose, body, face, hair, lighting and every other part of the image."
+      },
+      "reference": "light anchor plus partial correction target"
+    }
+  ],
+  "style": "glossy_promo",
+  "faceEvidence": {
+    "name": "데기라스",
+    "en": "Pupitar",
+    "line": "애버라스",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "angular",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "square broad jaw",
+      "eye shape": "drooping",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "angled brows",
+      "nose character": "balanced nose",
+      "lips": "thin lips"
+    },
+    "why": "탄환 같은 매끈한 외피를 긴 타원 윤곽과 낮은 눈꺼풀로 해석한다.",
+    "cues": [
+      "‘four large spikes’ → 얼굴형 각지고 선명한 얼굴형",
+      "‘four large spikes’ → 턱선 · 턱끝 넓고 각진 사각 턱",
+      "‘four large spikes’ → 눈썹 바깥에서 꺾이는 사선",
+      "‘four large spikes’ → 입술 얇은 입술"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 각지고 또렷한 턱 → 넓고 각진 사각 턱, 눈썹 중간 두께의 직선 → 바깥에서 꺾이는 사선"
+  },
+  "faceSource": "data/source-appearance.json",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; square broad jaw; drooping eyes, medium size, downturned outer corners, average spacing; angled brows; balanced nose; thin lips."
+}

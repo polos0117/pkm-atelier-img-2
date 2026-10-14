@@ -1,0 +1,106 @@
+{
+  "state_capture": "Selected in live deployed UI; state reconstructed from observed DOM controls, prompt reproduced by same repository engine and compared to visible output",
+  "input": {
+    "cat": "lingerie",
+    "ex": "bodysuit",
+    "expr": "calm",
+    "pose": "side_sitting",
+    "orient": "seated_twist",
+    "frame": "three_quarter",
+    "lens": "portrait85",
+    "scene": "A private sunlit dressing lounge with pale floor cushions and a low upholstered ottoman in late morning.",
+    "outfit": "Opaque pale-silver satin backing beneath the lace side panels, with a tiny red angular clasp and no outer layer.",
+    "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "style": "glossy_promo",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    },
+    "axis_reasons": {
+      "action_level": "A supported floor-seated dressing-lounge pose is held and relaxed.",
+      "source_influence": "Only the tiny red angular clasp echoes the source.",
+      "separates_preference": "The example is a single bodysuit."
+    },
+    "input_reasons": {
+      "scene": "The selected example omits these setting, time and concrete materials: A private sunlit dressing lounge with pale floor cushions and a low upholstered ottoman in late morning.",
+      "outfit": "Example does not specify these particular materials and construction details: Opaque pale-silver satin backing beneath the lace side panels, with a tiny red angular clasp and no outer layer.",
+      "camera": "The image tool has no size parameter; required vertical 1024x1536.",
+      "custom": "The actual bodysuit cut clips the left-edge fingertips and shows skin through lace despite the chosen opaque backing; only these observed defects are corrected."
+    },
+    "random_adjustments": {
+      "draw": {
+        "orient": "walking_away",
+        "frame": "environmental",
+        "lens": "telephoto135"
+      },
+      "final": {
+        "orient": "seated_twist",
+        "frame": "three_quarter",
+        "lens": "portrait85"
+      },
+      "reason": "Walking away hides identity and clashes with a dressing lounge; a supported floor-seated twist differs from recent standing bralette and raised-arm stretch."
+    },
+    "custom": "Partial correction target: the second attached image. Keep the lace pattern but make its pale-silver satin backing fully opaque so skin does not show through any lace panel. Move only the hand at the left image edge a little inward so all five fingertips are inside the frame, preserving the seated pose, body, face, hair, lighting and every other part of the image."
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Pupitar (데기라스) personified, rock / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: relaxed brow, softly open eyes, lips closed and unstrained, no smile\nPose: Sit on a mat with both legs folded to one side and a relaxed upright torso.\nOrientation: seated with supported pelvis and a natural torso twist\nScene: A private sunlit dressing lounge with pale floor cushions and a low upholstered ottoman in late morning.\nOutfit and props: Opaque pale-silver satin backing beneath the lace side panels, with a tiny red angular clasp and no outer layer.\nCategory: Use tasteful adult lingerie-inspired evening fashion with full intimate coverage. Describe the garment by its construction — cut, fabric, trim, straps, closures, layers — rather than by mood words. The garments are securely fitted and fully opaque, and the look is suitable for a mainstream evening-fashion editorial. Build the image through framing, silhouette, posture, and lighting rather than exposure.\nExample scene: a lingerie bodysuit with a scooped neckline, wide shoulder straps, and lace side panels\nNote: Partial correction target: the second attached image. Keep the lace pattern but make its pale-silver satin backing fully opaque so skin does not show through any lace panel. Move only the hand at the left image edge a little inward so all five fingertips are inside the frame, preserving the seated pose, body, face, hair, lighting and every other part of the image.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "데기라스",
+    "cards": {
+      "데기라스": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "scenes": {
+          "casual": {
+            "expr": "calm",
+            "pose": "side_sitting",
+            "orient": "seated_twist",
+            "scene": "A private sunlit dressing lounge with pale floor cushions and a low upholstered ottoman in late morning.",
+            "outfit": "Opaque pale-silver satin backing beneath the lace side panels, with a tiny red angular clasp and no outer layer.",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Partial correction target: the second attached image. Keep the lace pattern but make its pale-silver satin backing fully opaque so skin does not show through any lace panel. Move only the hand at the left image edge a little inward so all five fingertips are inside the frame, preserving the seated pose, body, face, hair, lighting and every other part of the image.",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "bodysuit",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

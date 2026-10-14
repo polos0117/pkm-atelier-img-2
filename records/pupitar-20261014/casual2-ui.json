@@ -1,0 +1,104 @@
+{
+  "state_capture": "Selected in live deployed UI; state reconstructed from observed DOM controls, prompt reproduced by same repository engine and compared to visible output",
+  "input": {
+    "cat": "food_berries",
+    "ex": "food_harvest",
+    "expr": "soft_smile",
+    "pose": "on_tiptoe",
+    "orient": "reaching_up",
+    "frame": "environmental",
+    "lens": "natural50",
+    "scene": "A sunny terrace orchard in late afternoon; ripe red and blue berries hang at different heights, with a plain woven basket below.",
+    "outfit": "A slate-blue crew-neck short-sleeve ribbed cotton top ending at the waist and a separate ivory knee-length A-line skirt, with small grey triangular cuff trim; no outer layer.",
+    "axes": {
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "style": "glossy_promo",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    },
+    "axis_reasons": {
+      "action_level": "Reaching to pick berries and transfer them is an ongoing hand activity.",
+      "source_influence": "Slate-blue top, grey triangular cuff trim and ivory skirt give a readable palette echo.",
+      "separates_preference": "Cotton top and A-line skirt are separate garments."
+    },
+    "input_reasons": {
+      "scene": "The selected example omits these setting, time and concrete materials: A sunny terrace orchard in late afternoon; ripe red and blue berries hang at different heights, with a plain woven basket below.",
+      "outfit": "Example does not specify these particular materials and construction details: A slate-blue crew-neck short-sleeve ribbed cotton top ending at the waist and a separate ivory knee-length A-line skirt, with small grey triangular cuff trim; no outer layer.",
+      "camera": "The image tool has no size parameter; required vertical 1024x1536."
+    },
+    "random_adjustments": {
+      "draw": {
+        "orient": "front",
+        "frame": "waist_up",
+        "lens": "natural50"
+      },
+      "final": {
+        "orient": "reaching_up",
+        "frame": "environmental",
+        "lens": "natural50"
+      },
+      "reason": "Picking a branch requires a raised reaching gesture; a wider orchard view shows the tree and basket rather than repeating a front waist-up shot."
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Pupitar (데기라스) personified, rock / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: faint upward pull at the mouth corners, lips together, warmth reaching the lower eyelids\nPose: Rise slightly onto the toes to reach a higher object without changing limb proportions.\nOrientation: reach upward with natural shoulder articulation\nScene: A sunny terrace orchard in late afternoon; ripe red and blue berries hang at different heights, with a plain woven basket below.\nOutfit and props: A slate-blue crew-neck short-sleeve ribbed cotton top ending at the waist and a separate ivory knee-length A-line skirt, with small grey triangular cuff trim; no outer layer.\nCategory: Show a specific everyday cooking, berry-growing or picnic activity in the Pokémon world. Use readable hands, utensils and ingredients; favor ordinary personal life over professional workwear.\nExample scene: Picking ripe berries from a small tree and placing them in a woven basket in a sunny garden.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "데기라스",
+    "cards": {
+      "데기라스": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "scenes": {
+          "casual": {
+            "expr": "soft_smile",
+            "pose": "on_tiptoe",
+            "orient": "reaching_up",
+            "scene": "A sunny terrace orchard in late afternoon; ripe red and blue berries hang at different heights, with a plain woven basket below.",
+            "outfit": "A slate-blue crew-neck short-sleeve ribbed cotton top ending at the waist and a separate ivory knee-length A-line skirt, with small grey triangular cuff trim; no outer layer.",
+            "frame": "environmental",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "food_berries",
+            "catCustom": "",
+            "ex": "food_harvest",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

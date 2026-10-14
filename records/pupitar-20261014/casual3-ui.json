@@ -1,0 +1,104 @@
+{
+  "state_capture": "Selected in live deployed UI; state reconstructed from observed DOM controls, prompt reproduced by same repository engine and compared to visible output",
+  "input": {
+    "cat": "occupation_basic",
+    "ex": "forensic_engineer",
+    "expr": "serious",
+    "pose": "bending_over",
+    "orient": "leaning_forward",
+    "frame": "full_body",
+    "lens": "documentary35",
+    "scene": "A small museum conservation workshop on a rainy evening; fragment trays are plain and unlabelled under a warm bench lamp.",
+    "outfit": "A charcoal pointed-collar long-sleeve linen work shirt with a hip-length hem and separate cream full-length straight trousers; grey-blue cuff piping and a tiny angular pin, no outer layer.",
+    "axes": {
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "style": "glossy_promo",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axes.overall_intensity": true,
+      "axes.skin_exposure": true,
+      "aspect": true
+    },
+    "axis_reasons": {
+      "action_level": "Brushes and fragment placement make a continuous conservation action.",
+      "source_influence": "Grey-blue cuff piping and a tiny angular pin add a few restrained source-color cues to neutral working clothes.",
+      "separates_preference": "Linen shirt and full trousers are separate working clothes."
+    },
+    "input_reasons": {
+      "scene": "The selected example omits these setting, time and concrete materials: A small museum conservation workshop on a rainy evening; fragment trays are plain and unlabelled under a warm bench lamp.",
+      "outfit": "Example does not specify these particular materials and construction details: A charcoal pointed-collar long-sleeve linen work shirt with a hip-length hem and separate cream full-length straight trousers; one tiny grey-blue angular pin, no outer layer.",
+      "camera": "The image tool has no size parameter; required vertical 1024x1536."
+    },
+    "random_adjustments": {
+      "draw": {
+        "orient": "crouching",
+        "frame": "three_quarter",
+        "lens": "documentary35"
+      },
+      "final": {
+        "orient": "leaning_forward",
+        "frame": "full_body",
+        "lens": "documentary35"
+      },
+      "reason": "Museum bench fragments sit above knee height, so a stable forward lean fits the tools better than crouching; full body avoids recent environmental leaning crop."
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Pupitar (데기라스) personified, rock / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: level lowered brow, steady unblinking gaze, mouth closed in a straight line, jaw set\nPose: Bend forward slightly to examine or reach a low object with a balanced stance.\nOrientation: torso leaning forward with supported balance\nScene: A small museum conservation workshop on a rainy evening; fragment trays are plain and unlabelled under a warm bench lamp.\nOutfit and props: A charcoal pointed-collar long-sleeve linen work shirt with a hip-length hem and separate cream full-length straight trousers; grey-blue cuff piping and a tiny angular pin, no outer layer.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Pokémon fossil-restoration researcher aligning fossil fragments with soft brushes and a magnifier at a museum bench.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "last": "데기라스",
+    "cards": {
+      "데기라스": {
+        "style": "glossy_promo",
+        "mode": "casual",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "scenes": {
+          "casual": {
+            "expr": "serious",
+            "pose": "bending_over",
+            "orient": "leaning_forward",
+            "scene": "A small museum conservation workshop on a rainy evening; fragment trays are plain and unlabelled under a warm bench lamp.",
+            "outfit": "A charcoal pointed-collar long-sleeve linen work shirt with a hip-length hem and separate cream full-length straight trousers; grey-blue cuff piping and a tiny angular pin, no outer layer.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "forensic_engineer",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {},
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
