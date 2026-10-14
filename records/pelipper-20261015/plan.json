@@ -1,0 +1,429 @@
+{
+  "name": "패리퍼",
+  "slug": "pelipper",
+  "no": 279,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "blonde",
+    "hairstyle": "pixie cut",
+    "hair length": "short",
+    "eye color": "blue",
+    "body type": "athletic"
+  },
+  "scene": "A bright coastal harbor breakwater with distant sailboats and sea spray.",
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "flight_attendant",
+      "expr": "confident",
+      "pose": "standing_formal",
+      "orient": "low_angle",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "At an aviation-themed indoor charity event, beside a polished luggage trolley at sunset; one hand rests on its handle.",
+      "outfit": "White fitted jacket with elbow sleeves and sharp blue lapels ending at the waist, separate royal-blue mid-thigh pencil skirt, yellow neck scarf and a tiny wing-shaped pin; plain blue pumps.",
+      "axis_reasons": {
+        "action_level": "The charity costume is presented beside a stationary trolley.",
+        "source_influence": "The wing pin and blue-white jacket echo plumage.",
+        "separates_preference": "Jacket and pencil skirt are separate garments."
+      },
+      "input_reasons": {
+        "scene": "The flight_attendant example omits the specific At an aviation-themed indoor charity event, beside a polished luggage trolley at sunset and prop interaction.",
+        "outfit": "The flight_attendant example leaves the exact colors, sleeve length, hem and accessory construction unspecified.",
+        "camera": "Image tool has no size argument; request exact vertical portrait dimensions."
+      },
+      "random_draws": {
+        "orient": "low_angle",
+        "frame": "full_body",
+        "lens": "portrait85"
+      },
+      "exampleText": "a retro flight-attendant-inspired costume with a fitted jacket, scarf, and original airline-style trim, at a themed event",
+      "random_adjustment_reason": "Low viewpoint displays trolley and jacket tailoring without repeating frontal full-body racer framing."
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "pottery_class",
+      "expr": "focused",
+      "pose": "sitting",
+      "orient": "looking_down",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "scene": "A sunlit ceramics classroom; she shapes a small plain clay bowl on a pottery wheel, both clay-coated hands touching its rim.",
+      "outfit": "A blue V-neck short-sleeve knee-length work dress under a full white bib apron tied at the waist; a small yellow bead earring.",
+      "axis_reasons": {
+        "action_level": "Hands actively shape a spinning bowl.",
+        "source_influence": "A single yellow earring is the small source accent.",
+        "separates_preference": "The work dress is a single garment beneath the apron."
+      },
+      "input_reasons": {
+        "scene": "The pottery_class example omits the specific A sunlit ceramics classroom and prop interaction.",
+        "outfit": "The pottery_class example leaves the exact colors, sleeve length, hem and accessory construction unspecified.",
+        "camera": "Image tool has no size argument; request exact vertical portrait dimensions."
+      },
+      "random_draws": {
+        "orient": "crouching",
+        "frame": "full_body",
+        "lens": "natural50"
+      },
+      "exampleText": "Pottery / Craft Class",
+      "random_adjustment_reason": "Downward attention makes wet clay shaping visible; chest-up avoids earlier high-view waist crops."
+    },
+    {
+      "cat": "active",
+      "ex": "surf_prep",
+      "expr": "playful",
+      "pose": "mid_action",
+      "orient": "reaching_up",
+      "frame": "full_body",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "On an empty tropical beach in early morning, she reaches to secure the upper leash loop of an upright white surfboard resting firmly in sand.",
+      "outfit": "White cropped long-sleeve zip rashguard over a yellow swim top, separate blue square-cut swim shorts; blue-and-white wave piping and a small yellow zipper pull.",
+      "axis_reasons": {
+        "action_level": "Securing a raised surfboard loop is movement in progress.",
+        "source_influence": "Wave piping and yellow swim top recall the pelican palette.",
+        "separates_preference": "Rashguard, swim top and shorts form distinct layers."
+      },
+      "input_reasons": {
+        "scene": "The surf_prep example omits the specific On an empty tropical beach in early morning, she reaches to secure the upper leash loop of an upright white surfboard resting firmly in sand. and prop interaction.",
+        "outfit": "The surf_prep example leaves the exact colors, sleeve length, hem and accessory construction unspecified.",
+        "camera": "Image tool has no size argument; request exact vertical portrait dimensions."
+      },
+      "random_draws": {
+        "orient": "side",
+        "frame": "face_close",
+        "lens": "wide24"
+      },
+      "exampleText": "Surf Preparation",
+      "random_adjustment_reason": "Raised arms are required by the upright board leash, with complete feet on sand."
+    }
+  ],
+  "recentCompared": [
+    "taillow-20261014",
+    "swellow-20261014",
+    "wingull-20261014"
+  ],
+  "additionalCompared": [
+    "grotle-20261014"
+  ],
+  "comparisonTable": [
+    {
+      "name": "테일로",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "carrying_something",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Navy and white cropped zip racing jacket with long sleeves, a red fitted inner top, separate mid-thigh navy shorts, yellow ankle boots; tiny swallow badge without letters."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "gentle",
+          "pose": "watering",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "White square-neck short-sleeve cotton blouse ending at waist, separate denim shorts, short red waist apron layered on top; little swallow-shaped apron clasp."
+        },
+        {
+          "cat": "active",
+          "ex": "track_sprint",
+          "expr": "determined",
+          "pose": "mid_action",
+          "orient": "crouching",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Crimson round-neck sleeveless fitted sprint top and separate navy mid-thigh running shorts, plain white track shoes, no outer layer; tiny yellow swallow hair clip."
+        }
+      ]
+    },
+    {
+      "name": "스왈로",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "relieved",
+          "pose": "walking",
+          "orient": "side",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque crimson deep-V halter one-piece swimsuit with white waist trim and a tiny navy swallow clasp; no cover-up."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "hardware_store",
+          "expr": "curious",
+          "pose": "bending_over",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "White shallow-V short-sleeve rib knit tee tucked into separate navy high-waist straight-leg jeans, crimson waist-length utility vest layered over it; tiny swallow zipper charm."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_music",
+          "expr": "pensive",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Crimson open-collar elbow-sleeve satin blouse ending at waist, separate white below-knee flowing skirt, no outer layer; small navy swallow earrings."
+        }
+      ]
+    },
+    {
+      "name": "갈모매",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "morning_lingerie",
+          "expr": "sleepy",
+          "pose": "leaning_furniture",
+          "orient": "reclining",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Opaque white cotton triangle bra and separate pale-blue high-waist briefs, no robe; delicate blue stripe piping and a small orange shell clasp."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_station",
+          "expr": "amused",
+          "pose": "checking_map",
+          "orient": "high_angle",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Orange scoop-neck short-sleeve tee ending at waist, separate pale-blue knee-length cargo shorts, open white hip-length light jacket layered over top; a small gull-shaped bag charm."
+        },
+        {
+          "cat": "homewear",
+          "ex": "laundry_lounge",
+          "expr": "soft_smile",
+          "pose": "turning_back",
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Pale-blue scoop-neck half-sleeve cotton tee cropped at waist, separate orange soft lounge shorts, no outer layer; tiny white gull pendant."
+        }
+      ]
+    },
+    {
+      "name": "수풀부기",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "slip_lingerie",
+          "expr": "sleepy",
+          "pose": "sitting_floor",
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "An opaque sage bias-cut satin lingerie slip with narrow straps, a soft V neckline and a straight upper-thigh hem; one small brown leaf pendant, no outer layer."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_music",
+          "expr": "gentle",
+          "pose": "sitting",
+          "orient": "front",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A cream boat-neck elbow-sleeve knit top ending at the waist with a separate light-brown skirt, and a thin green leaf bracelet; no outer layer."
+        },
+        {
+          "cat": "traditional",
+          "ex": "dirndl_modern",
+          "expr": "playful",
+          "pose": "walking",
+          "orient": "over_shoulder",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A cream square-neck short puff-sleeve blouse under a fitted brown laced dirndl bodice, a green knee-length gathered skirt and a small cream apron layered over it; a tiny leaf earring."
+        }
+      ]
+    }
+  ],
+  "faceEvidence": {
+    "name": "패리퍼",
+    "en": "Pelipper",
+    "line": "갈모매",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "straight medium brows",
+      "nose character": "balanced nose",
+      "lips": "fuller lower lip"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 wings → 눈 간격 눈 사이가 가까운"
+    ],
+    "adjusted": "같은 계열 갈모매와 겹쳐 원작 단서의 다음 후보로 옮김 — 입술 얇은 입술 → 아랫입술이 더 도톰한"
+  },
+  "sourceEvidence": {
+    "name": "패리퍼",
+    "en": "Pelipper",
+    "color": "yellow",
+    "shape": "wings",
+    "features": [
+      {
+        "part": "crest",
+        "detail": "short, blue crest"
+      },
+      {
+        "part": "wing",
+        "detail": "wide wings"
+      },
+      {
+        "part": "pouch",
+        "detail": "throat pouch"
+      },
+      {
+        "part": "feather",
+        "detail": "white feathers"
+      },
+      {
+        "part": "foot",
+        "detail": "blue feet"
+      },
+      {
+        "part": "digit",
+        "detail": "three blue digits"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Pelipper_%28Pok%C3%A9mon%29",
+    "revision": 4610413,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "4f89a057c23c27dfd561259961e868d94e2dd8f682e37a84e2c59764f4a13d22",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "comparison_actual_images": [
+    "recent-comparison.jpg",
+    "taillow-comparison.jpg"
+  ],
+  "planning_decision": "Each cut uses a different category, activity, silhouette, expression, pose, orientation and framing. Direction/frame pairs differ from comparison cuts; at least one direction is new. Source influence multiset differs from comparison characters.",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; narrow eyes, medium size, level outer corners, close-set; straight medium brows; balanced nose; fuller lower lip.",
+  "faceRationale": "Rounded lower jaw and fuller lower lip follow the rounded pelican volume; narrow level eyes and medium straight brows distinguish her from Wingull and the recent green-haired Grotle. Compared actual light images with hair/ornament region excluded in inspection."
+}
