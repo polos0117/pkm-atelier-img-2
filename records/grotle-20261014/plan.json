@@ -1,0 +1,405 @@
+{
+  "character": "수풀부기",
+  "style": "glossy_promo",
+  "generation_tool": "built-in image_gen",
+  "face_evidence": {
+    "name": "수풀부기",
+    "en": "Grotle",
+    "line": "모부기",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "long chin with defined jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "straight medium brows",
+      "nose character": "small delicate nose",
+      "lips": "medium lips"
+    },
+    "why": "덤불과 단단해진 거북의 실루엣을 길어진 타원 얼굴로 구분한다.",
+    "cues": [
+      "‘three long, brown ridges’ → 턱선 · 턱끝 턱끝이 길고 턱선이 또렷한"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 부드럽고 둥근 턱 → 턱끝이 길고 턱선이 또렷한, 눈 간격 눈 사이가 넓은 → 눈 하나 너비 안팎"
+  },
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; long chin with defined jaw; narrow eyes, medium size, level outer corners, average spacing; straight medium brows; small delicate nose; medium lips.",
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "slip_lingerie",
+      "expr": "sleepy",
+      "pose": "sitting_floor",
+      "orient": "reclining",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "scene": "In a private bedroom at dawn, she rests against a low upholstered chaise after waking, one hand on a loose blanket and the other resting on her knee.",
+      "outfit": "An opaque sage bias-cut satin lingerie slip with narrow straps, a soft V neckline and a straight upper-thigh hem; one small brown leaf pendant, no outer layer.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "random_draw": {
+        "orient": "leaning_back",
+        "frame": "chest_up",
+        "lens": "portrait85"
+      },
+      "locks": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_adjustment_reason": "Supported reclining floor rest needs knees and blanket visible rather than close bust.",
+      "axis_reasons": {
+        "action_level": "Rest after waking is stationary.",
+        "source_influence": "Sage satin and leaf pendant give a few small cues.",
+        "separates_preference": "One-piece slip requires balanced."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "In a private bedroom at dawn, she rests against a low upholstered chaise after waking, one hand on a loose blanket and the other resting on her knee.",
+          "reason": "Slip example names only garment; add dawn bedroom and resting activity."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque sage bias-cut satin lingerie slip with narrow straps, a soft V neckline and a straight upper-thigh hem; one small brown leaf pendant, no outer layer.",
+          "reason": "Retain bias cut, narrow straps and straight hem; add sage colour, opacity, length and pendant."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; exact portrait size specified."
+        }
+      ]
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_music",
+      "expr": "gentle",
+      "pose": "sitting",
+      "orient": "front",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "scene": "In a cozy music room during a rainy afternoon, she plucks a small unlabelled acoustic ukulele; an empty black music stand and resting cushion sit nearby.",
+      "outfit": "A cream boat-neck elbow-sleeve knit top ending at the waist with a separate light-brown skirt, and a thin green leaf bracelet; no outer layer.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "random_draw": {
+        "orient": "turning_midmotion",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "locks": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_adjustment_reason": "Seated ukulele practice calls for a frontal waist crop to read both hand contacts rather than turning environmental action.",
+      "axis_reasons": {
+        "action_level": "Plucking strings is the principal active gesture.",
+        "source_influence": "Neutral knit/skirt with green bracelet preserve restrained cues.",
+        "separates_preference": "Top and skirt are separate."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "In a cozy music room during a rainy afternoon, she plucks a small unlabelled acoustic ukulele; an empty black music stand and resting cushion sit nearby.",
+          "reason": "Music example leaves weather, instrument and blank stand unspecified."
+        },
+        {
+          "field": "outfit",
+          "content": "A cream boat-neck elbow-sleeve knit top ending at the waist with a separate light-brown skirt, and a thin green leaf bracelet; no outer layer.",
+          "reason": "Music example has no clothing; specify boat neck, elbow sleeves, waist hem and no outer layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; exact portrait size specified."
+        }
+      ]
+    },
+    {
+      "cat": "traditional",
+      "ex": "dirndl_modern",
+      "expr": "playful",
+      "pose": "walking",
+      "orient": "over_shoulder",
+      "frame": "environmental",
+      "lens": "wide24",
+      "scene": "At a quiet village heritage festival courtyard in late afternoon, she walks between plain fabric bunting and flower stalls while carrying a wicker flower basket.",
+      "outfit": "A cream square-neck short puff-sleeve blouse under a fitted brown laced dirndl bodice, a green knee-length gathered skirt and a small cream apron layered over it; a tiny leaf earring.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "random_draw": {
+        "orient": "seated_twist",
+        "frame": "detail",
+        "lens": "telephoto135"
+      },
+      "locks": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_adjustment_reason": "Festival walk is incompatible with seated twist or detail-only crop; over shoulder environmental view reveals traditional layers and basket.",
+      "axis_reasons": {
+        "action_level": "Walking with basket is gentle movement.",
+        "source_influence": "Small earring is the deliberate species accessory.",
+        "separates_preference": "Blouse, bodice, skirt and apron are separate layers."
+      },
+      "directInputs": [
+        {
+          "field": "scene",
+          "content": "At a quiet village heritage festival courtyard in late afternoon, she walks between plain fabric bunting and flower stalls while carrying a wicker flower basket.",
+          "reason": "Dirndl example has no activity or venue; add basket walk through quiet heritage courtyard."
+        },
+        {
+          "field": "outfit",
+          "content": "A cream square-neck short puff-sleeve blouse under a fitted brown laced dirndl bodice, a green knee-length gathered skirt and a small cream apron layered over it; a tiny leaf earring.",
+          "reason": "Dirndl title lacks layers; specify blouse neckline/sleeves, laced bodice, gathered skirt and apron."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; exact portrait size specified."
+        }
+      ]
+    }
+  ],
+  "comparison_table": [
+    {
+      "character": "도토링",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "adult_librarian",
+          "expr": "proud",
+          "pose": "standing_formal",
+          "orient": "low_angle",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          }
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_poffin",
+          "expr": "focused",
+          "pose": "preparing_food",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          }
+        },
+        {
+          "cat": "active",
+          "ex": "roller_skating",
+          "expr": "playful",
+          "pose": "mid_stride",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          }
+        }
+      ]
+    },
+    {
+      "character": "잎새코",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "river_dock",
+          "expr": "relieved",
+          "pose": "perched_seat",
+          "orient": "leaning_back",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          }
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_craft",
+          "expr": "curious",
+          "pose": "cross_legged",
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          }
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "wistful",
+          "pose": "walking",
+          "orient": "looking_away",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          }
+        }
+      ]
+    },
+    {
+      "character": "다탱구",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "embroidered_corset",
+          "expr": "cold_smile",
+          "pose": "leaning_furniture",
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          }
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_lookout",
+          "expr": "determined",
+          "pose": "standing_relaxed",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          }
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_market",
+          "expr": "amused",
+          "pose": "carrying_something",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          }
+        }
+      ]
+    },
+    {
+      "character": "모부기",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "lab_roleplay",
+          "expr": "curious",
+          "pose": "leaning_furniture",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          }
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "focused",
+          "pose": "watering",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates"
+          }
+        },
+        {
+          "cat": "everyday",
+          "ex": "commute_train",
+          "expr": "nostalgic",
+          "pose": "carrying_something",
+          "orient": "high_angle",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          }
+        }
+      ]
+    }
+  ],
+  "comparison_actual_images": [
+    "recent-casual.jpg",
+    "turtwig-review.jpg"
+  ],
+  "planning_decision": "New reclining slip, frontal instrument practice, and over-shoulder dirndl walk. No direction/frame pair repeats prior cuts. Source balanced/balanced/subtle differs from all earlier triples."
+}
