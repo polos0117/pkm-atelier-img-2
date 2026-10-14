@@ -1,0 +1,80 @@
+{
+  "state_capture": "Selected in live deployed UI; state reconstructed from observed DOM controls, prompt reproduced by same repository engine and compared to visible output",
+  "input": {
+    "style": "glossy_promo",
+    "outputMode": "casual",
+    "identityMode": "reference",
+    "aspect": "2:3",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "randomLocks": {
+      "axis:overall_intensity": true,
+      "axis:skin_exposure": true,
+      "aspect": true
+    },
+    "cat": "adult_roleplay",
+    "ex": "adult_librarian",
+    "expr": "pensive",
+    "pose": "reading_book",
+    "orient": "front_3q",
+    "frame": "chest_up",
+    "lens": "telephoto135",
+    "scene": "A candlelit archive-themed evening event; she reads an unlettered cream book, and every book spine is plain.",
+    "outfit": "A jade cardigan with a deep V neckline, fitted elbow-length sleeves and a waist-length hem, over a black camisole; a separate knee-length pencil skirt and thin round glasses, with small blue-tipped leaf embroidery on the cuffs.",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Celebi (세레비) personified, psychic / grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: gaze angled down and away, slightly furrowed brow, lips lightly pressed or touched\nPose: Hold an open book with readable finger placement and look toward its pages.\nOrientation: front three-quarter body turn of about 30-45 degrees; rotate torso and pelvis together\nScene: A candlelit archive-themed evening event; she reads an unlettered cream book, and every book spine is plain.\nOutfit and props: A jade cardigan with a deep V neckline, fitted elbow-length sleeves and a waist-length hem, over a black camisole; a separate knee-length pencil skirt and thin round glasses, with small blue-tipped leaf embroidery on the cuffs.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a librarian-inspired costume with a fitted cardigan, pencil skirt, and glasses, among bookshelves\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "storage": {
+    "capture_method": "Reconstructed from observed live UI values and pressed lock controls; unrelated browser storage was not accessed.",
+    "last": "세레비",
+    "cards": {
+      "세레비": {
+        "mode": "casual",
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "params": {
+          "apparent age": "20s",
+          "hair color": "mint",
+          "hairstyle": "pixie cut",
+          "eye color": "pale blue"
+        },
+        "scenes": {
+          "casual": {
+            "expr": "pensive",
+            "pose": "reading_book",
+            "orient": "front_3q",
+            "scene": "A candlelit archive-themed evening event; she reads an unlettered cream book, and every book spine is plain.",
+            "outfit": "A jade cardigan with a deep V neckline, fitted elbow-length sleeves and a waist-length hem, over a black camisole; a separate knee-length pencil skirt and thin round glasses, with small blue-tipped leaf embroidery on the cuffs.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "adult_librarian",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

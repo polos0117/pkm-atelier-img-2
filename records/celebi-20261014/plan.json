@@ -1,0 +1,391 @@
+{
+  "character": "세레비",
+  "style": "glossy_promo",
+  "generation_tool": "built-in image_gen",
+  "face_evidence": {
+    "name": "세레비",
+    "en": "Celebi",
+    "line": "세레비",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "heart-shaped",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "fine soft arches",
+      "nose character": "small delicate nose",
+      "lips": "bow-shaped upper lip"
+    },
+    "why": "새싹의 끝과 둥근 머리 및 큰 파란 눈을 작은 턱과 큰 맑은 사람 눈으로 옮긴다.",
+    "cues": [
+      "‘round head’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "‘round head’ → 눈매 큰 눈",
+      "‘large baby-blue eyes’ → 눈 크기 큰 눈",
+      "‘round head’ → 눈썹 가늘고 완만한 곡선"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 아래로 갈수록 좁아지는 턱끝 → 부드럽고 둥근 턱"
+  },
+  "face_compared": [
+    "마기라스",
+    "데기라스",
+    "애버라스"
+  ],
+  "face_review": "Compared actual light portraits: Celebi has rounded open blue eyes, softly rounded small jaw and bow lip; three preceding anchors have narrower angled eyes, straighter jaw contours and flatter mouths. Hair is also distinct but was not the deciding feature.",
+  "comparison_table": [
+    {
+      "character": "마기라스",
+      "record": "pkm-atelier-img-2/records/tyranitar-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "hand_on_hip",
+          "orient": "front",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Sage-green fitted racing costume with open stand collar, long sleeves and waist-length cropped jacket, charcoal separate high-waist short shorts, no outer layer; grey diamond zip pull."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_trail",
+          "expr": "focused",
+          "pose": "checking_map",
+          "orient": "side",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "Charcoal scoop-neck short-sleeve waist-length hiking tee over a sage-green sports layer, separate grey mid-thigh cargo shorts and ankle boots; small diamond pendant."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "pottery_class",
+          "expr": "amused",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Sage-green V-neck wrap blouse with elbow-length sleeves and waist-length hem, charcoal separate knee-length skirt under a grey waist apron; no jacket."
+        }
+      ]
+    },
+    {
+      "character": "데기라스",
+      "record": "pkm-atelier-img-2/records/pupitar-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "bodysuit",
+          "expr": "calm",
+          "pose": "side_sitting",
+          "orient": "seated_twist",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "Opaque pale-silver satin backing beneath the lace side panels, with a tiny red angular clasp and no outer layer."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_harvest",
+          "expr": "soft_smile",
+          "pose": "on_tiptoe",
+          "orient": "reaching_up",
+          "frame": "environmental",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A slate-blue crew-neck short-sleeve ribbed cotton top ending at the waist and a separate ivory knee-length A-line skirt, with small grey triangular cuff trim; no outer layer."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "forensic_engineer",
+          "expr": "serious",
+          "pose": "bending_over",
+          "orient": "leaning_forward",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A charcoal pointed-collar long-sleeve linen work shirt with a hip-length hem and separate cream full-length straight trousers; grey-blue cuff piping and a tiny angular pin, no outer layer."
+        }
+      ]
+    },
+    {
+      "character": "애버라스",
+      "record": "pkm-atelier-img-2/records/larvitar-20261014/plan.json",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "retro_racer",
+          "expr": "confident",
+          "pose": "hand_on_hip",
+          "orient": "front",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A sage-green cropped stand-collar jacket with short sleeves over an opaque black scoop-neck fitted top; separate black high-waist shorts with red diamond side patches and calf-high boots."
+        },
+        {
+          "cat": "travel_exploration",
+          "ex": "travel_camp",
+          "expr": "relieved",
+          "pose": "kneeling",
+          "orient": "over_shoulder",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A beige crew-neck long-sleeve thermal shirt with a hip-length hem and separate olive full-length hiking trousers; a tiny red diamond zipper charm, no outer layer."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "record_store",
+          "expr": "mildly_annoyed",
+          "pose": "mid_action",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced",
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "outfit": "A charcoal scoop-neck long-sleeve cotton midi dress fitted at the waist, with a narrow sage-green belt and small red diamond earrings, no outer layer."
+        }
+      ]
+    }
+  ],
+  "comparison_actual_images": "recent-casual.jpg reviewed before planning",
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "adult_librarian",
+      "expr": "pensive",
+      "pose": "reading_book",
+      "orient": "front_3q",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "scene": "A candlelit archive-themed evening event; she reads an unlettered cream book, and every book spine is plain.",
+      "outfit": "A jade cardigan with a deep V neckline, fitted elbow-length sleeves and a waist-length hem, over a black camisole; a separate knee-length pencil skirt and thin round glasses, with small blue-tipped leaf embroidery on the cuffs.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "locks": [
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure"
+      ],
+      "random_draw": {
+        "orient": "looking_down",
+        "frame": "detail",
+        "lens": "telephoto135"
+      },
+      "random_adjustment_reason": "Detail framing would hide her face; profile was retried twice then changed to front_3q. Chest-up keeps reading and glasses visible.",
+      "axes_reasons": {
+        "action_level": "Paused reading while holding an open book.",
+        "source_influence": "Jade knit and blue leaf cuff embroidery make her colors and tiny motif clear.",
+        "separates_preference": "Cardigan and pencil skirt are separate pieces."
+      },
+      "example_text": "a librarian-inspired costume with a fitted cardigan, pencil skirt, and glasses, among bookshelves",
+      "direct_inputs": [
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument, so exact portrait dimensions are specified here."
+        },
+        {
+          "field": "scene",
+          "text": "A candlelit archive-themed evening event; she reads an unlettered cream book, and every book spine is plain.",
+          "reason": "The bookshelf example omits reading, time and lighting; added blank-book reading at a candlelit archive event."
+        },
+        {
+          "field": "outfit",
+          "text": "A jade cardigan with a deep V neckline, fitted elbow-length sleeves and a waist-length hem, over a black camisole; a separate knee-length pencil skirt and thin round glasses, with small blue-tipped leaf embroidery on the cuffs.",
+          "reason": "Specified cardigan neck, sleeves, hem and separate skirt material while retaining the example cardigan/skirt/glasses structure."
+        }
+      ],
+      "aspect": "2:3"
+    },
+    {
+      "cat": "homewear",
+      "ex": "sunroom_lounge",
+      "expr": "curious",
+      "pose": "squatting",
+      "orient": "crouching",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "scene": "In a sunroom after morning rain, she waters a tiny fern in a low terracotta pot with a small unlabelled watering can.",
+      "outfit": "A cream scoop-neck short-sleeve soft jersey top ending at the hips, separate mint mid-thigh lounge shorts, and bare feet; a tiny blue leaf-shaped earring, no outer layer.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "locks": [
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure"
+      ],
+      "random_draw": {
+        "orient": "over_shoulder",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "random_adjustment_reason": "Over-shoulder environmental repeats Larvitar camp pair and does not serve low pot care; crouching/full_body shows flexed knees and watering.",
+      "axes_reasons": {
+        "action_level": "A gentle small-can watering motion in a stable squat.",
+        "source_influence": "Only a small blue earring and mint shorts echo the source.",
+        "separates_preference": "Jersey tee and lounge shorts form two everyday pieces."
+      },
+      "example_text": "Sunroom Lounge Fashion",
+      "direct_inputs": [
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument, so exact portrait dimensions are specified here."
+        },
+        {
+          "field": "scene",
+          "text": "In a sunroom after morning rain, she waters a tiny fern in a low terracotta pot with a small unlabelled watering can.",
+          "reason": "The sunroom title names no activity; added watering a low fern pot after morning rain."
+        },
+        {
+          "field": "outfit",
+          "text": "A cream scoop-neck short-sleeve soft jersey top ending at the hips, separate mint mid-thigh lounge shorts, and bare feet; a tiny blue leaf-shaped earring, no outer layer.",
+          "reason": "The sunroom example has no garment construction; specified a short-sleeve tee and separate shorts for low plant care."
+        }
+      ],
+      "aspect": "2:3"
+    },
+    {
+      "cat": "active",
+      "ex": "dance_transition",
+      "expr": "laughing_open",
+      "pose": "dance_step",
+      "orient": "turning_midmotion",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "scene": "In a lantern-lit open-air festival rehearsal pavilion at blue hour, she practices a playful dance transition; the wooden floor and lamps have no lettering.",
+      "outfit": "A sleeveless cobalt halter-neck dance dress with a secure opaque bodice, a knee-length flared skirt and a slim waist tie; one tiny mint leaf clasp, soft dance shoes and no outer layer.",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "locks": [
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure"
+      ],
+      "random_draw": {
+        "orient": "leaning_back",
+        "frame": "chest_up",
+        "lens": "telephoto135"
+      },
+      "random_adjustment_reason": "A reclined chest-only telephoto composition would hide the swinging skirt and dance step; turning_midmotion/three_quarter/natural50 preserves the activity.",
+      "axes_reasons": {
+        "action_level": "The dance step is captured as the body turns and skirt swings.",
+        "source_influence": "One mint clasp against a cobalt dress keeps the species cue restrained.",
+        "separates_preference": "A halter dress is a single garment."
+      },
+      "example_text": "Dance Practice Transition",
+      "direct_inputs": [
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument, so exact portrait dimensions are specified here."
+        },
+        {
+          "field": "scene",
+          "text": "In a lantern-lit open-air festival rehearsal pavilion at blue hour, she practices a playful dance transition; the wooden floor and lamps have no lettering.",
+          "reason": "The dance example omits venue and time; added an outdoor festival rehearsal pavilion at blue hour."
+        },
+        {
+          "field": "outfit",
+          "text": "A sleeveless cobalt halter-neck dance dress with a secure opaque bodice, a knee-length flared skirt and a slim waist tie; one tiny mint leaf clasp, soft dance shoes and no outer layer.",
+          "reason": "The dance example has no costume details; specified a sleeveless halter dress whose flared skirt can swing in motion."
+        }
+      ],
+      "aspect": "2:3"
+    }
+  ],
+  "planning_decision": "Avoided racer, hiking map, seated pottery, lace bodysuit, berry harvest, fossil restoration, camp setup and record browsing. Final librarian front_3q/chest_up, fern care crouching/full_body, dance turning_midmotion/three_quarter pairs are absent from all comparison cuts. Crouching and turning_midmotion are new orientations. Source multiset strong/subtle/subtle differs from all comparison characters.",
+  "retries": [
+    {
+      "slot": "casual1",
+      "attempts": 3,
+      "problem": "Selected close side profile, but original and two same-setting retries rendered both eyes and front torso; second also had book-spine marks.",
+      "changed_inputs": {
+        "orient": "front_3q"
+      },
+      "reason": "After two unchanged retries, selected front three-quarter in UI. Pair front_3q/chest_up remains new among comparison cuts.",
+      "references": [
+        "light"
+      ]
+    }
+  ],
+  "diversity_review": "Inspected the actual three final images alongside the nine comparison cuts. Library reading is a warm interior book gesture with cardigan and fitted skirt; fern care is a daylight squat with shorts and tee; dance is an upright turning motion in a flared halter dress at blue hour. The clothes, hand tasks and body outlines differ, and none reproduces the recent racer/hike/pottery/bodysuit/harvest/fossil/camp/record combinations.",
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): heart-shaped face, balanced length, medium width; soft rounded jaw; open rounded eyes, large size, level outer corners, average spacing; fine soft arches; small delicate nose; bow-shaped upper lip."
+}
