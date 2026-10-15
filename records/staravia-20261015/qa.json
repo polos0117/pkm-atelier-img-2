@@ -1,0 +1,82 @@
+{
+  "forms": {
+    "result": "일치",
+    "evidence": "경장 단층 판, 중장 어깨·허벅지·정강이 겹판, 고기동 뒤로 뻗은 분할판. 세 개방은 각각 닫힌 그림과 머리·손·발 위치 및 인물 크기를 유지하며 발광 내부 구조가 보임."
+  },
+  "casual3": {
+    "orientation": {
+      "result": "일치",
+      "evidence": "몸통과 골반이 함께 약 30도 회전, 양 눈과 어깨의 앞면이 보임."
+    },
+    "pose": {
+      "result": "일치",
+      "evidence": "화면 왼쪽 손을 허리에 얹고 팔꿈치를 옆으로 내밀었음."
+    },
+    "expression": {
+      "result": "일치",
+      "evidence": "턱을 가볍게 들고 눈매가 단단하며 입꼬리가 작게 올라감."
+    },
+    "scene_and_outfit": {
+      "result": "일치",
+      "evidence": "촬영 조명과 반사판·디저트 트롤리 앞. 검정 구조 보디스·짧은 퍼프소매·흰 앞치마·미니스커트와 손의 흰 천이 보임."
+    },
+    "exposure": {
+      "result": "일치",
+      "evidence": "넓은 네크라인에서 쇄골, 짧은 소매 아래 팔, 미니스커트 아래 허벅지가 드러남."
+    },
+    "framing": "허벅지 위까지 실제 포함",
+    "hands": {
+      "result": "일치",
+      "evidence": "허리 쪽 손과 트롤리 쪽 손에 엄지와 네 손가락이 관절을 유지함. 천을 누르는 손끝은 자연스럽게 굽힘."
+    },
+    "identity": {
+      "result": "일치",
+      "evidence": "갈색 포니테일·호박색 눈·중간 폭 타원형 턱·가는 콧대·얇은 입술이 경장과 같음."
+    },
+    "text_and_dimensions": {
+      "result": "일치",
+      "evidence": "1024×1536. 조명 기구·트롤리·도자기·천 가장자리에 읽히는 글자·로고 없음."
+    }
+  },
+  "skipped": [
+    {
+      "slot": "casual1",
+      "attempt_count": 4,
+      "reason": "Initial and two same-setting retries included background people. Final retry removed crowd, but face/torso/pelvis stayed front/rear three-quarter rather than selected side profile. Three remakes exhausted.",
+      "sources": [
+        "exec-bf8375ca-95f2-4889-9b4f-b4f0470e796f.png",
+        "exec-72028a0d-341b-4d8d-bdde-7226acd2536e.png",
+        "exec-b21f23c8-30bb-42d4-8604-4988d8d88b1f.png",
+        "exec-e02d5343-e60f-4437-a62e-6b1a3ab40f97.png"
+      ],
+      "changed_input": {
+        "field": "scene",
+        "before": "At a theater foyer balustrade before the evening performance, she holds a compact opera glass by its handle as gold ceiling lights reflect in the marble.",
+        "after": "In the empty theater foyer during a private preview before the doors open, she holds a compact opera glass by its handle at the marble balustrade beneath the gold ceiling lights.",
+        "reason": "Crowd appeared repeatedly; set private preview before opening in an empty foyer."
+      }
+    },
+    {
+      "slot": "casual2",
+      "attempt_count": 2,
+      "reason": "Image generation rejected twice at output moderation: sexual. No image returned.",
+      "request_ids": [
+        "92de8efc-b9bd-4987-8a13-207ca67f474c",
+        "26bb5bf1-d5a8-4a8e-b630-cb7a3415023d"
+      ]
+    }
+  ],
+  "diversity": {
+    "result": "부분 완료",
+    "evidence": "통과한 일상컷은 하나라 세 장 결과 다양성 검사는 완료할 수 없음. 불일치 두 컷은 등록에서 제외."
+  },
+  "face_comparison": {
+    "compared": [
+      "찌르꼬",
+      "아이스크",
+      "껍질몬",
+      "소곤룡"
+    ],
+    "evidence": "찌르버드는 균형 잡힌 턱과 좁게 올라간 눈·곧은 중간 두께 눈썹·가는 콧대·얇은 입. 찌르꼬의 둥근 하관과 눈 사이, 아이스크의 날카로운 하관, 껍질몬의 긴 윤곽과 내려간 눈, 소곤룡의 넓고 둥근 눈과 구별."
+  }
+}
