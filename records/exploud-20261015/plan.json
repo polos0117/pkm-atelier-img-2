@@ -1,0 +1,458 @@
+{
+  "name": "폭음룡",
+  "slug": "exploud",
+  "no": 295,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "teal",
+    "hairstyle": "ponytail",
+    "hair length": "long",
+    "eye color": "amber",
+    "body type": "statuesque"
+  },
+  "wear": "The crown of hollow acoustic pipes becomes a compact fluted purple-and-yellow headpiece; yellow semicircle markings become chest trim, two tails become paired trailing waist sashes, and blue-violet armor edges echo blunt claws without changing human hands.",
+  "scene": "A vast violet-stone resonant canyon at sunrise, pale-gold soundwave rings sweeping through mist.",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "occupation_sensual",
+      "ex": "test_pilot_brief",
+      "expr": "focused",
+      "pose": "sitting",
+      "orient": "side",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "subtle",
+        "action_level": "balanced",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "vest",
+        "shorts"
+      ],
+      "scene": "At a bowl-shaped arena broadcast desk before the match, one hand adjusts an earcup while the other follows pictorial match notes.",
+      "outfit": "A teal sleeveless deep-V waistcoat over a fitted ivory bandeau and separate tailored shorts; exposed shoulders and cleavage above the secure top, bare legs below.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "Pokémon battle commentator checking a headset and reviewing match notes at an arena broadcast desk.",
+      "axis_reasons": {
+        "source_influence": "test_pilot_brief: Only garment colour is carried over; no source geometry.",
+        "action_level": "test_pilot_brief: At a bowl-shaped arena broadcast desk before the match, one hand adjusts an earcup while the other follows pictorial match notes.",
+        "separates_preference": "test_pilot_brief: clothing construction is vest, shorts."
+      },
+      "input_reasons": {
+        "scene": "Pokémon battle commentator checking a headset and reviewing match notes at an arena broadcast desk. leaves the chosen At a bowl-shaped arena broadcast desk before the match, one hand adjusts an earcup while the other follows pictorial match notes. details unspecified.",
+        "outfit": "test_pilot_brief leaves these material, colour and exposure details unspecified: A teal sleeveless deep-V waistcoat over a fitted ivory bandeau and separate tailored shorts; exposed shoulders and cleavage above the secure top, bare legs below.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536.",
+        "custom": "The broadcast candidate contained letter-like marks on paper and full crown tubes; request pictorial replacement and ordinary headset preservation."
+      },
+      "random_adjustment_reason": "test_pilot_brief: side/chest_up makes the described sitting activity readable and avoids ledger pairs; telephoto135 fits its working distance.",
+      "random_draws": {
+        "orient": "side",
+        "frame": "full_body",
+        "lens": "natural50"
+      },
+      "locks": [
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "aspect"
+      ],
+      "custom": "Note: Correct the supplied broadcast scene locally: remove the purple-and-gold crown tubes while retaining the ordinary headset. Replace the printed sheet with pictorial court diagrams and coloured geometric symbols only; erase the small glyphs on the paper and screens."
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "cheer_costume",
+      "expr": "playful",
+      "pose": "dance_step",
+      "orient": "turning_midmotion",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "strong",
+        "action_level": "mostly active",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "crop_top",
+        "skirt"
+      ],
+      "scene": "During a theatrical sports-costume rehearsal on a polished gym floor, she lifts a single ribbon streamer through a sweeping arc.",
+      "outfit": "Purple-and-yellow sleeveless cropped team-colour top and pleated mini skirt, exposing shoulders, midriff and thighs; a tiny semicircle hair clip.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor",
+      "axis_reasons": {
+        "source_influence": "cheer_costume: The specified yellow/purple tailoring carries the acoustic geometry.",
+        "action_level": "cheer_costume: During a theatrical sports-costume rehearsal on a polished gym floor, she lifts a single ribbon streamer through a sweeping arc.",
+        "separates_preference": "cheer_costume: clothing construction is crop_top, skirt."
+      },
+      "input_reasons": {
+        "scene": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor leaves the chosen During a theatrical sports-costume rehearsal on a polished gym floor, she lifts a single ribbon streamer through a sweeping arc. details unspecified.",
+        "outfit": "cheer_costume leaves these material, colour and exposure details unspecified: Purple-and-yellow sleeveless cropped team-colour top and pleated mini skirt, exposing shoulders, midriff and thighs; a tiny semicircle hair clip.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "cheer_costume: turning_midmotion/three_quarter makes the described dance_step activity readable and avoids ledger pairs; natural50 fits its working distance.",
+      "random_draws": {
+        "orient": "turning_midmotion",
+        "frame": "three_quarter",
+        "lens": "natural50"
+      },
+      "locks": [
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "everyday_sensual",
+      "ex": "balcony_plants",
+      "expr": "gentle",
+      "pose": "watering",
+      "orient": "looking_down",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "subtle",
+        "action_level": "mostly active",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "Morning sun catches droplets above a balcony planter of blue flowering herbs; her fingertips guide the small watering can spout.",
+      "outfit": "A fitted teal knit mini dress with a halter neckline and oval side-waist cutouts, showing shoulders, waist and legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "watering balcony plants in a fitted knit dress, morning light across the railing",
+      "axis_reasons": {
+        "source_influence": "balcony_plants: Only garment colour is carried over; no source geometry.",
+        "action_level": "balcony_plants: Morning sun catches droplets above a balcony planter of blue flowering herbs; her fingertips guide the small watering can spout.",
+        "separates_preference": "balcony_plants: clothing construction is dress."
+      },
+      "input_reasons": {
+        "scene": "watering balcony plants in a fitted knit dress, morning light across the railing leaves the chosen Morning sun catches droplets above a balcony planter of blue flowering herbs; her fingertips guide the small watering can spout. details unspecified.",
+        "outfit": "balcony_plants leaves these material, colour and exposure details unspecified: A fitted teal knit mini dress with a halter neckline and oval side-waist cutouts, showing shoulders, waist and legs.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "balcony_plants: looking_down/waist_up makes the described watering activity readable and avoids ledger pairs; documentary35 fits its working distance.",
+      "random_draws": {
+        "orient": "back_to_camera",
+        "frame": "detail",
+        "lens": "portrait85"
+      },
+      "locks": [
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "aspect"
+      ]
+    }
+  ],
+  "batch_plan": {
+    "session": "gpt-loudred-exploud-20261015-1032",
+    "characters": [
+      {
+        "card": "노공룡",
+        "species": "loudred-20261015",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "longline_bra",
+            "expr": "calm",
+            "pose": "leaning_furniture",
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "subtle",
+              "action_level": "mostly posed",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "scene": "Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+            "outfit": "Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "a longline bra set with a wide supportive underband and matching high-waisted bottoms",
+            "axis_reasons": {
+              "source_influence": "longline_bra: Only garment colour is carried over; no source geometry.",
+              "action_level": "longline_bra: Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+              "separates_preference": "longline_bra: clothing construction is lingerie_set."
+            },
+            "input_reasons": {
+              "scene": "a longline bra set with a wide supportive underband and matching high-waisted bottoms leaves the chosen Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge. details unspecified.",
+              "outfit": "longline_bra leaves these material, colour and exposure details unspecified: Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "longline_bra: leaning_back/three_quarter makes the described leaning_furniture activity readable and avoids ledger pairs; portrait85 fits its working distance."
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "heavy_architecture",
+            "expr": "confident",
+            "pose": "walking",
+            "orient": "low_angle",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "strong",
+              "action_level": "mostly active",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "scene": "Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+            "outfit": "Violet architectural halter overalls with a sculpted bib and wide trouser legs; open side-waist construction exposes shoulders and waist. Yellow concentric seamwork and folded fabric echo acoustic chambers.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "Heavy Architectural Tailoring",
+            "axis_reasons": {
+              "source_influence": "heavy_architecture: The specified yellow/purple tailoring carries the acoustic geometry.",
+              "action_level": "heavy_architecture: Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+              "separates_preference": "heavy_architecture: the halter bib and wide trouser legs form one continuous overall garment."
+            },
+            "input_reasons": {
+              "scene": "Heavy Architectural Tailoring leaves the chosen Walking across a sunlit outdoor sculpture courtyard between angular concrete forms. details unspecified.",
+              "outfit": "Heavy Architectural Tailoring leaves garment construction undefined; sculpted halter overalls provide a new clothing silhouette absent from the complete comparison ledger.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "heavy_architecture: low_angle/environmental makes the described walking activity readable and avoids ledger pairs; wide24 fits its working distance."
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "outdoor_shower",
+            "expr": "relieved",
+            "pose": "mid_action",
+            "orient": "front_3q",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "balanced",
+              "action_level": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream.",
+            "outfit": "Plum fully lined high-leg one-piece with yellow narrow side panels, exposing shoulders and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "rinsing off at an open-air poolside shower after swimming, still in swimwear",
+            "axis_reasons": {
+              "source_influence": "outdoor_shower: Two palette colours remain in ordinary swim fabric.",
+              "action_level": "outdoor_shower: Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream.",
+              "separates_preference": "outdoor_shower: clothing construction is swimsuit."
+            },
+            "input_reasons": {
+              "scene": "rinsing off at an open-air poolside shower after swimming, still in swimwear leaves the chosen Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream. details unspecified.",
+              "outfit": "outdoor_shower leaves these material, colour and exposure details unspecified: Plum fully lined high-leg one-piece with yellow narrow side panels, exposing shoulders and legs.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "outdoor_shower: front_3q/full_body makes the described mid_action activity readable and avoids ledger pairs; documentary35 fits its working distance."
+          }
+        ]
+      },
+      {
+        "card": "폭음룡",
+        "species": "exploud-20261015",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_sensual",
+            "ex": "test_pilot_brief",
+            "expr": "focused",
+            "pose": "sitting",
+            "orient": "side",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "subtle",
+              "action_level": "balanced",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "vest",
+              "shorts"
+            ],
+            "scene": "At a bowl-shaped arena broadcast desk before the match, one hand adjusts an earcup while the other follows pictorial match notes.",
+            "outfit": "A teal sleeveless deep-V waistcoat over a fitted ivory bandeau and separate tailored shorts; exposed shoulders and cleavage above the secure top, bare legs below.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "Pokémon battle commentator checking a headset and reviewing match notes at an arena broadcast desk.",
+            "axis_reasons": {
+              "source_influence": "test_pilot_brief: Only garment colour is carried over; no source geometry.",
+              "action_level": "test_pilot_brief: At a bowl-shaped arena broadcast desk before the match, one hand adjusts an earcup while the other follows pictorial match notes.",
+              "separates_preference": "test_pilot_brief: clothing construction is vest, shorts."
+            },
+            "input_reasons": {
+              "scene": "Pokémon battle commentator checking a headset and reviewing match notes at an arena broadcast desk. leaves the chosen At a bowl-shaped arena broadcast desk before the match, one hand adjusts an earcup while the other follows pictorial match notes. details unspecified.",
+              "outfit": "test_pilot_brief leaves these material, colour and exposure details unspecified: A teal sleeveless deep-V waistcoat over a fitted ivory bandeau and separate tailored shorts; exposed shoulders and cleavage above the secure top, bare legs below.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "test_pilot_brief: side/chest_up makes the described sitting activity readable and avoids ledger pairs; telephoto135 fits its working distance."
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "cheer_costume",
+            "expr": "playful",
+            "pose": "dance_step",
+            "orient": "turning_midmotion",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "strong",
+              "action_level": "mostly active",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "scene": "During a theatrical sports-costume rehearsal on a polished gym floor, she lifts a single ribbon streamer through a sweeping arc.",
+            "outfit": "Purple-and-yellow sleeveless cropped team-colour top and pleated mini skirt, exposing shoulders, midriff and thighs; a tiny semicircle hair clip.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor",
+            "axis_reasons": {
+              "source_influence": "cheer_costume: The specified yellow/purple tailoring carries the acoustic geometry.",
+              "action_level": "cheer_costume: During a theatrical sports-costume rehearsal on a polished gym floor, she lifts a single ribbon streamer through a sweeping arc.",
+              "separates_preference": "cheer_costume: clothing construction is crop_top, skirt."
+            },
+            "input_reasons": {
+              "scene": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor leaves the chosen During a theatrical sports-costume rehearsal on a polished gym floor, she lifts a single ribbon streamer through a sweeping arc. details unspecified.",
+              "outfit": "cheer_costume leaves these material, colour and exposure details unspecified: Purple-and-yellow sleeveless cropped team-colour top and pleated mini skirt, exposing shoulders, midriff and thighs; a tiny semicircle hair clip.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "cheer_costume: turning_midmotion/three_quarter makes the described dance_step activity readable and avoids ledger pairs; natural50 fits its working distance."
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_sensual",
+            "ex": "balcony_plants",
+            "expr": "gentle",
+            "pose": "watering",
+            "orient": "looking_down",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "subtle",
+              "action_level": "mostly active",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Morning sun catches droplets above a balcony planter of blue flowering herbs; her fingertips guide the small watering can spout.",
+            "outfit": "A fitted teal knit mini dress with a halter neckline and oval side-waist cutouts, showing shoulders, waist and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "watering balcony plants in a fitted knit dress, morning light across the railing",
+            "axis_reasons": {
+              "source_influence": "balcony_plants: Only garment colour is carried over; no source geometry.",
+              "action_level": "balcony_plants: Morning sun catches droplets above a balcony planter of blue flowering herbs; her fingertips guide the small watering can spout.",
+              "separates_preference": "balcony_plants: clothing construction is dress."
+            },
+            "input_reasons": {
+              "scene": "watering balcony plants in a fitted knit dress, morning light across the railing leaves the chosen Morning sun catches droplets above a balcony planter of blue flowering herbs; her fingertips guide the small watering can spout. details unspecified.",
+              "outfit": "balcony_plants leaves these material, colour and exposure details unspecified: A fitted teal knit mini dress with a halter neckline and oval side-waist cutouts, showing shoulders, waist and legs.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "balcony_plants: looking_down/waist_up makes the described watering activity readable and avoids ledger pairs; documentary35 fits its working distance."
+          }
+        ]
+      }
+    ]
+  },
+  "check_result": "계획 통과 — 2명",
+  "reservation_commit": "e03cf32afa0a5bf56f05645d54aa590b7bc0a9ab",
+  "comparison_ledger": "records/casual-ledger.json complete history",
+  "faceEvidence": {
+    "name": "폭음룡",
+    "en": "Exploud",
+    "line": "소곤룡",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "elongated",
+      "face length": "long",
+      "face width": "medium",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "almond",
+      "eye size": "small",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "angled brows",
+      "nose character": "prominent defined nose",
+      "lips": "fuller lower lip"
+    },
+    "why": "길게 솟은 음향관과 큰 울림 체적은 긴 얼굴·뚜렷한 광대와 턱으로 해석한다. 좁은 눈 윤곽은 긴 아몬드 눈, 큰 발성기관은 도톰한 아래 입술로 옮겨 노공룡의 짧은 얼굴과 구분한다.",
+    "cues": [],
+    "adjusted": "같은 계열 노공룡와 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 가늘고 완만한 곡선 → 중간 두께의 직선"
+  },
+  "sourceEvidence": {
+    "name": "폭음룡",
+    "en": "Exploud",
+    "color": "blue",
+    "shape": "upright",
+    "features": [
+      {
+        "part": "marking",
+        "detail": "two yellow semicircle markings"
+      },
+      {
+        "part": "tail",
+        "detail": "two tails"
+      },
+      {
+        "part": "stripe",
+        "detail": "three thin stripes"
+      },
+      {
+        "part": "nose",
+        "detail": "stubby nose"
+      },
+      {
+        "part": "tooth",
+        "detail": "two peg-like teeth"
+      },
+      {
+        "part": "claw",
+        "detail": "four claws"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Exploud_%28Pok%C3%A9mon%29",
+    "revision": 4610857,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "81179e9d16f1cb88fa66963a214541a1e800202bc1a0134c335991b7b5c90f7a",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "corrections": [
+    {
+      "slot": "casual1",
+      "reason": "Removed crown tubes and replaced fake-lettered paper with pictorial court diagrams.",
+      "references": [
+        "canonical light",
+        "initial casual1"
+      ]
+    }
+  ],
+  "skipped": []
+}
