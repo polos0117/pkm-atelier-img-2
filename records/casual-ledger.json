@@ -4177,6 +4177,42 @@
    "status": "done",
    "cuts": [
     {
+     "cut": 1,
+     "cat": "private_evening",
+     "ex": "balcony_night",
+     "expr": "curious",
+     "pose": "contrapposto",
+     "orient": "high_angle",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "lingerie",
+     "ex": "bralette_highwaist",
+     "expr": "calm",
+     "pose": "standing_relaxed",
+     "orient": "front",
+     "frame": "waist_up",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top"
+     ]
+    },
+    {
      "cut": 3,
      "cat": "adult_roleplay",
      "ex": "adult_maid",
@@ -4257,80 +4293,8 @@
      "garments": []
     }
    ]
-  },
-  {
-   "species": "staravia-20261015",
-   "card": "찌르버드",
-   "status": "reserved",
-   "session": "staravia-refill-20261015-1158-b038",
-   "at": "2026-10-15T12:04:48+09:00",
-   "cuts": [
-    {
-     "cut": 1,
-     "cat": "private_evening",
-     "ex": "balcony_night",
-     "expr": "curious",
-     "pose": "contrapposto",
-     "orient": "high_angle",
-     "frame": "environmental",
-     "lens": "wide24",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "dress"
-     ]
-    },
-    {
-     "cut": 2,
-     "cat": "lingerie",
-     "ex": "bralette_highwaist",
-     "expr": "calm",
-     "pose": "standing_relaxed",
-     "orient": "front",
-     "frame": "waist_up",
-     "lens": "natural50",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "lingerie_set"
-     ]
-    },
-    {
-     "cut": 3,
-     "cat": "adult_roleplay",
-     "ex": "adult_maid",
-     "expr": "proud",
-     "pose": "hand_on_hip",
-     "orient": "front_3q",
-     "frame": "three_quarter",
-     "lens": "documentary35",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "strongly prefer separates"
-     },
-     "garments": [
-      "uniform",
-      "skirt"
-     ],
-     "kept": true
-    }
-   ],
-   "refill": true
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-15T12:04:48+09:00"
+ "updated": "2026-10-15T12:15:24+09:00"
 }

@@ -1,0 +1,38 @@
+{
+  "card": "찌르버드",
+  "phase": "refill completed and auto-registration verified",
+  "filled": [
+    "casual1",
+    "casual2"
+  ],
+  "kept": [
+    "casual3"
+  ],
+  "registered_total": 9,
+  "casual_registered": 3,
+  "new_thumbnails": 2,
+  "image_commit": "2627e5a94f9fdbefa102409a605dda76c9af01b9",
+  "registration_commit": "3c6dd9aa4e68341a531c24bd9d61d8fc633715b6",
+  "reservation_commit": "d756a9ec8fc206e866d9f641701f35f5dbc96c46",
+  "workflows": {
+    "thumbnail": {
+      "run_id": 38674985715,
+      "conclusion": "success"
+    },
+    "registration": {
+      "run_id": 38675094508,
+      "conclusion": "success"
+    }
+  },
+  "checks": {
+    "casual_ledger": "계획 통과 — 1명",
+    "register_images": "2 candidates, no naming errors",
+    "forms": "passed",
+    "fixed_values_and_locks": "strong / bold / 2:3 preserved",
+    "prior_image_hashes": "All seven unchanged"
+  },
+  "ledger_status": "done",
+  "skipped": [],
+  "tool": "built-in image_gen",
+  "records": "Submitted prompts and actual UI states are in this refill directory; prior records remain historical and unchanged."
+}
