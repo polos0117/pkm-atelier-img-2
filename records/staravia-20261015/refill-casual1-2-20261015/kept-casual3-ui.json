@@ -1,0 +1,115 @@
+{
+  "storage": {
+    "last": "찌르버드",
+    "cards": {
+      "찌르버드": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "brown",
+          "hairstyle": "ponytail",
+          "hair length": "medium",
+          "eye color": "amber",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A high grassy plateau with distant wooded ridges in cool early daylight.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536). Both hands visible with five clearly separated fingers each.",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "proud",
+            "pose": "hand_on_hip",
+            "orient": "front_3q",
+            "scene": "During a themed costume photo rehearsal, she holds a folded linen napkin at her hip beside a parlor dessert trolley under soft studio lamps.",
+            "outfit": "The structured black bodice has a wide square neckline and short puff sleeves above a full ivory apron and miniskirt, exposing collarbones and thighs; copper ribbon edging accents the apron.",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "adult_maid",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Staravia (찌르버드) personified, normal / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: chin lifted, brows level, eyes bright and steady, closed-lip smile with a firm mouth\nPose: Place one hand on the hip and let the other arm rest naturally or support the scene's prop.\nOrientation: front three-quarter body turn of about 30-45 degrees; rotate torso and pelvis together\nScene: During a themed costume photo rehearsal, she holds a folded linen napkin at her hip beside a parlor dessert trolley under soft studio lamps.\nOutfit and props: The structured black bodice has a wide square neckline and short puff sleeves above a full ivory apron and miniskirt, exposing collarbones and thighs; copper ribbon edging accents the apron.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a black-and-white maid costume with a structured bodice, puffed sleeves, and a full apron, at a costume event\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "ui_method": "Actual Preact generator DOM; selection/input/change/click events through repository prompt-dom-harness.cjs",
+  "errors": [],
+  "random_draws": {
+    "orient": {
+      "drawn": "high_angle",
+      "final": "side",
+      "reason": "선택 예시의 adult_maid 활동과 인물·손 가독성, 장부 구도 조건에 맞춰 최종값을 선택함"
+    },
+    "frame": {
+      "drawn": "waist_up",
+      "final": "three_quarter",
+      "reason": "선택 예시의 adult_maid 활동과 인물·손 가독성, 장부 구도 조건에 맞춰 최종값을 선택함"
+    },
+    "lens": {
+      "drawn": "telephoto135",
+      "final": "documentary35",
+      "reason": "선택 예시의 adult_maid 활동과 인물·손 가독성, 장부 구도 조건에 맞춰 최종값을 선택함"
+    }
+  }
+}

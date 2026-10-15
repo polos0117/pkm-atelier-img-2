@@ -1,0 +1,112 @@
+{
+  "storage": {
+    "last": "찌르버드",
+    "cards": {
+      "찌르버드": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "brown",
+          "hairstyle": "ponytail",
+          "hair length": "medium",
+          "eye color": "amber",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A high grassy plateau with distant wooded ridges in cool early daylight.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536). Both hands visible with five clearly separated fingers each.",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "calm",
+            "pose": "standing_relaxed",
+            "orient": "front",
+            "scene": "At an oak dressing-room vanity in diffuse morning daylight, she holds a small hairbrush by its handle beside a ceramic tray.",
+            "outfit": "Ivory opaque ribbed cotton with fine copper binding; the cropped bralette and high-waisted bottoms leave shoulders and the midriff visible.",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "bralette_highwaist",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Staravia (찌르버드) personified, normal / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: relaxed brow, softly open eyes, lips closed and unstrained, no smile\nPose: Stand at ease with relaxed shoulders and naturally balanced feet.\nOrientation: torso and pelvis face the camera; gaze is independent\nScene: At an oak dressing-room vanity in diffuse morning daylight, she holds a small hairbrush by its handle beside a ceramic tray.\nOutfit and props: Ivory opaque ribbed cotton with fine copper binding; the cropped bralette and high-waisted bottoms leave shoulders and the midriff visible.\nCategory: Use tasteful adult lingerie-inspired evening fashion with full intimate coverage. Describe the garment by its construction — cut, fabric, trim, straps, closures, layers — rather than by mood words. The garments are securely fitted and fully opaque, and the look is suitable for a mainstream evening-fashion editorial. Build the image through framing, silhouette, posture, and lighting rather than exposure.\nExample scene: a soft-cup bralette with wide supportive straps and matching high-waisted lingerie bottoms\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "random_draws": {
+    "orient": {
+      "drawn": "side",
+      "final": "front"
+    },
+    "frame": {
+      "drawn": "detail",
+      "final": "waist_up"
+    },
+    "lens": {
+      "drawn": "documentary35",
+      "final": "natural50"
+    }
+  },
+  "ui_method": "Actual Preact generator DOM; selection/input/change/click events through repository prompt-dom-harness.cjs",
+  "errors": []
+}
