@@ -1,0 +1,413 @@
+{
+  "name": "토중몬",
+  "slug": "nincada",
+  "no": 290,
+  "style": "glossy_promo",
+  "params": {
+    "apparent age": "20s",
+    "hair color": "silver",
+    "hairstyle": "bob",
+    "hair length": "short",
+    "eye color": "green",
+    "body type": "petite"
+  },
+  "casual_plan": [
+    {
+      "cat": "adult_roleplay",
+      "ex": "lab_roleplay",
+      "expr": "serious",
+      "pose": "standing_formal",
+      "orient": "looking_down",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "scene": "At a botanical exhibition costume booth at dusk, she examines a small transparent specimen vial held between both hands; the booth has plain unlabeled glass jars and green accent lights.",
+      "outfit": "A crisp white open long-sleeve knee-length laboratory coat over an opaque moss-green high-neck sleeveless fitted knee-length dress, a tiny V-shaped enamel badge and no eyewear.",
+      "axis_reasons": {
+        "action_level": "표본병을 양손에 들고 확인하는 정적 전시 행사.",
+        "source_influence": "이끼색 드레스와 작은 V 배지로 토중몬의 녹색과 무늬를 중간 강도로 반영.",
+        "separates_preference": "코트 속 한 벌 드레스의 연속된 실루엣."
+      },
+      "input_reasons": {
+        "scene": "행사 예시에 없는 식물 전시 부스·해질녘 및 양손으로 표본병 검사하는 동작 추가.",
+        "outfit": "코트+드레스 예시에서 정하지 않은 흰색 긴소매 코트와 이끼색 하이넥 무릎길이 드레스·작은 V 배지 지정.",
+        "camera": "이미지 도구에 크기 설정이 없으므로 세로 2:3, 1024×1536을 요청."
+      },
+      "random_draws": {
+        "orient": "profile_close",
+        "frame": "full_body",
+        "lens": "telephoto135"
+      },
+      "random_adjustments": [
+        {
+          "field": "orient",
+          "drawn": "profile_close",
+          "final": "looking_down",
+          "reason": "lab_roleplay 장면에서 carrying_something 동작과 얼굴·손을 읽히게 하고 비교 대상의 방향/범위 짝 중복을 피함."
+        },
+        {
+          "field": "frame",
+          "drawn": "full_body",
+          "final": "waist_up",
+          "reason": "lab_roleplay 장면에서 carrying_something 동작과 얼굴·손을 읽히게 하고 비교 대상의 방향/범위 짝 중복을 피함."
+        },
+        {
+          "field": "lens",
+          "drawn": "telephoto135",
+          "final": "portrait85",
+          "reason": "lab_roleplay 장면에서 carrying_something 동작과 얼굴·손을 읽히게 하고 비교 대상의 방향/범위 짝 중복을 피함."
+        }
+      ],
+      "exampleText": "a laboratory-themed costume with a crisp white coat over a fitted dress, using original decorative badges",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "preflight_adjustment": "carrying_something의 가방·바구니 운반 문구가 표본병 검사와 충돌하여 standing_formal로 변경."
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "pottery_class",
+      "expr": "focused",
+      "pose": "sitting",
+      "orient": "front",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "scene": "In a sunlit earthenware workshop, she shapes a small clay bowl on a low pottery wheel with both bare hands; warm morning light crosses the wet clay.",
+      "outfit": "A charcoal square-neck short-sleeve ankle-length work jumpsuit under a plain linen bib apron ending below the knees, with one small green ring-shaped apron clasp.",
+      "axis_reasons": {
+        "action_level": "회전하는 흙그릇을 양손으로 빚는 작업이 중심.",
+        "source_influence": "작은 녹색 고리 단추만 곤충 원작을 남긴 도예복.",
+        "separates_preference": "발목길이 점프슈트에 앞치마를 걸친 하나의 작업 실루엣."
+      },
+      "input_reasons": {
+        "scene": "도예 수업이라는 장소명만 있어 오전 햇살과 낮은 물레에서 양손으로 흙그릇 빚는 주 활동 명시.",
+        "outfit": "의상을 정하지 않은 수업 예시에 사각 목선 반소매 발목길이 점프슈트와 린넨 앞치마를 추가.",
+        "camera": "이미지 도구에 크기 설정이 없으므로 세로 2:3, 1024×1536을 요청."
+      },
+      "random_draws": {
+        "orient": "reaching_up",
+        "frame": "detail",
+        "lens": "natural50"
+      },
+      "random_adjustments": [
+        {
+          "field": "orient",
+          "drawn": "reaching_up",
+          "final": "front",
+          "reason": "pottery_class 장면에서 sitting 동작과 얼굴·손을 읽히게 하고 비교 대상의 방향/범위 짝 중복을 피함."
+        },
+        {
+          "field": "frame",
+          "drawn": "detail",
+          "final": "three_quarter",
+          "reason": "pottery_class 장면에서 sitting 동작과 얼굴·손을 읽히게 하고 비교 대상의 방향/범위 짝 중복을 피함."
+        }
+      ],
+      "exampleText": "Pottery / Craft Class",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cat": "everyday_sensual",
+      "ex": "high_shelf",
+      "expr": "surprised",
+      "pose": "on_tiptoe",
+      "orient": "reaching_up",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "scene": "In a compact oak kitchen at rainy midday, the storage box is a plain small wicker basket with a green fabric pull tab; her fingertips have just caught its near edge.",
+      "outfit": "An ivory boat-neck three-quarter-sleeve hip-length knit top, separate olive mid-thigh lounge shorts and soft gray slippers; no outer layer, a tiny green ring bracelet.",
+      "axis_reasons": {
+        "action_level": "발끝을 세워 작은 바구니를 꺼내는 가벼운 생활 움직임.",
+        "source_influence": "손목의 작은 고리 장식과 천 탭에만 원작의 녹색.",
+        "separates_preference": "엉덩이를 덮는 니트 상의와 짧은 라운지 팬츠가 뚜렷하게 분리."
+      },
+      "input_reasons": {
+        "scene": "높은 주방 선반 예시를 유지하며 비 오는 정오·고리 탭 달린 작은 바구니를 구체화.",
+        "outfit": "옷이 없는 수납 장면에 보트넥 7부소매 엉덩이길이 니트·별도 올리브 반바지·슬리퍼 지정.",
+        "camera": "이미지 도구에 크기 설정이 없으므로 세로 2:3, 1024×1536을 요청."
+      },
+      "random_draws": {
+        "orient": "back_to_camera",
+        "frame": "chest_up",
+        "lens": "portrait85"
+      },
+      "random_adjustments": [
+        {
+          "field": "orient",
+          "drawn": "back_to_camera",
+          "final": "reaching_up",
+          "reason": "high_shelf 장면에서 on_tiptoe 동작과 얼굴·손을 읽히게 하고 비교 대상의 방향/범위 짝 중복을 피함."
+        },
+        {
+          "field": "frame",
+          "drawn": "chest_up",
+          "final": "full_body",
+          "reason": "high_shelf 장면에서 on_tiptoe 동작과 얼굴·손을 읽히게 하고 비교 대상의 방향/범위 짝 중복을 피함."
+        },
+        {
+          "field": "lens",
+          "drawn": "portrait85",
+          "final": "documentary35",
+          "reason": "high_shelf 장면에서 on_tiptoe 동작과 얼굴·손을 읽히게 하고 비교 대상의 방향/범위 짝 중복을 피함."
+        }
+      ],
+      "exampleText": "reaching for a storage box on a high kitchen shelf, shown from an eye-level three-quarter view",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    }
+  ],
+  "recent_comparison": [
+    {
+      "name": "게을킹",
+      "record": "slaking-20261015",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "adult_librarian",
+          "expr": "calm",
+          "pose": "leaning_furniture",
+          "orient": "looking_away",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A fitted cream round-neck buttoned cardigan with long sleeves ending at the hips, separate cocoa calf-length pencil skirt, slim reading glasses and flat leather shoes; one tiny pink oval pendant, no outer jacket."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_picnic",
+          "expr": "amused",
+          "pose": "side_sitting",
+          "orient": "seated_twist",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "An ivory scoop-neck short-sleeve blouse reaching the hips and separate cocoa calf-length gathered skirt, pink flat sandals and a tiny cream tuft-shaped bracelet charm; no outer layer."
+        },
+        {
+          "cat": "traditional",
+          "ex": "kaftan_daily",
+          "expr": "pensive",
+          "pose": "walking",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A loose ivory V-neck kaftan dress with wide elbow-length sleeves and an ankle-length flowing hem, broad cocoa geometric borders and a pink oval clasp at the neckline; flat leather sandals, no extra layer."
+        }
+      ]
+    },
+    {
+      "name": "팽태자",
+      "record": "prinplup-20261015",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "casino_dealer",
+          "expr": "confident",
+          "pose": "standing_formal",
+          "orient": "front_3q",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A deep-blue fitted waistcoat over a white wing-collar long-sleeve blouse, small yellow bow tie and white separate cuffs, matching tailored navy trousers; four white round waistcoat buttons and a tiny twin-crest gold hair pin."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_reading",
+          "expr": "pensive",
+          "pose": "sitting",
+          "orient": "profile_close",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "An ivory mock-neck long-sleeve calf-length knit dress with a broad navy hem band, a small yellow twin-crest brooch at the collar and flat blue slippers; no outer layer."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "marine_technician",
+          "expr": "curious",
+          "pose": "bending_over",
+          "orient": "leaning_forward",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A pale-blue open-collar short-sleeve hip-length work shirt, separate navy mid-thigh work shorts and yellow waterproof ankle boots, a white utility belt and tiny gold twin-crest zipper pull; no outer layer."
+        }
+      ]
+    },
+    {
+      "name": "비나방",
+      "record": "masquerain-20261015",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "embroidered_corset",
+          "expr": "wistful",
+          "pose": "leaning_furniture",
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Opaque coral satin corset with blue-and-ivory folk embroidery, strapless sweetheart neckline and long boned waist, separate high-waist ivory briefs; no outer layer and a tiny diamond earring."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "observatory_engineer",
+          "expr": "serious",
+          "pose": "mid_action",
+          "orient": "high_angle",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Cream V-neck long-sleeve ankle-length fitted jumpsuit with pale-blue side panels and coral diamond embroidery at the cuffs, no outer layer; one small pink pendant."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "festival_daily",
+          "expr": "laughing_open",
+          "pose": "waving",
+          "orient": "over_shoulder",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "Pink round-neck short puff-sleeve blouse ending at waist, separate pale-blue calf-length A-line skirt with a plain hem, short open ivory vest layered over it and a tiny diamond clasp."
+        }
+      ]
+    }
+  ],
+  "face": {
+    "name": "토중몬",
+    "en": "Nincada",
+    "line": "토중몬",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "narrow",
+      "eye size": "small",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "straight medium brows",
+      "nose character": "long nose with low tip",
+      "lips": "thin lips"
+    },
+    "why": "작은 날개와 뾰족한 주둥이를 작은 눈과 선명한 코끝으로 해석한다.",
+    "cues": [
+      "‘pointed snout’ → 코 길고 코끝이 내려온"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운, 코 곧고 가는 콧대 → 길고 코끝이 내려온"
+  },
+  "face_basis": "작은 날개와 뾰족한 주둥이를 작은 눈과 선명한 코끝으로 해석한다.",
+  "diversity_changes": "서가·피크닉·카프탄, 딜러·독서·수조 관리, 코르셋·천문대·축제와 장소·주 활동·목선·소매·기장·구도에서 구별. 추가로 이번 토중몬 계획과도 방향·프레이밍 짝과 세 축 구성을 대조.",
+  "corrections": [
+    {
+      "slot": "casual1",
+      "issue": "코트가 양어깨에서 내려와 설정한 실험실 행사 코트와 어긋남.",
+      "final": "코트 어깨선과 긴소매 복원, 표본병과 양손·얼굴 유지.",
+      "references": [
+        "light",
+        "casual1-initial"
+      ],
+      "changed_input": "custom; see casual1-ui.json"
+    },
+    {
+      "slot": "casual3",
+      "issue": "니트 상의가 허리길이로 짧아 지정한 hip-length와 어긋남.",
+      "final": "밑단을 엉덩이 위까지 연장; 발끝 서기·놀란 표정·바구니 유지.",
+      "references": [
+        "light",
+        "casual3-initial"
+      ],
+      "changed_input": "custom; see casual3-ui.json"
+    }
+  ]
+}
