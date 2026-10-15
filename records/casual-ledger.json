@@ -5466,6 +5466,24 @@
      "garments": [
       "overalls"
      ]
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "outdoor_shower",
+     "expr": "relieved",
+     "pose": "mid_action",
+     "orient": "front_3q",
+     "frame": "full_body",
+     "lens": "documentary35",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ]
     }
    ]
   },
@@ -5622,8 +5640,74 @@
      "garments": []
     }
    ]
+  },
+  {
+   "species": "loudred-refill-20261015-1145",
+   "card": "노공룡",
+   "status": "reserved",
+   "session": "gpt-loudred-refill-20261015-1145",
+   "at": "2026-10-15T11:47:14+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "lingerie",
+     "ex": "longline_bra",
+     "expr": "calm",
+     "pose": "leaning_furniture",
+     "orient": "leaning_back",
+     "frame": "three_quarter",
+     "lens": "portrait85",
+     "axes": {
+      "source_influence": "subtle",
+      "action_level": "mostly posed",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "lingerie_set"
+     ],
+     "kept": true
+    },
+    {
+     "cut": 2,
+     "cat": "source_editorial",
+     "ex": "heavy_architecture",
+     "expr": "confident",
+     "pose": "walking",
+     "orient": "low_angle",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "source_influence": "strong",
+      "action_level": "mostly active",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "overalls"
+     ],
+     "kept": true
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "classic_bikini",
+     "expr": "focused",
+     "pose": "mid_action",
+     "orient": "front_3q",
+     "frame": "full_body",
+     "lens": "documentary35",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "bikini"
+     ]
+    }
+   ],
+   "refill": true
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-15T02:41:45+00:00"
+ "updated": "2026-10-15T11:47:14+09:00"
 }
