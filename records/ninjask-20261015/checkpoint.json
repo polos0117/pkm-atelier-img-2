@@ -10,7 +10,7 @@
     "casual3",
     "casual2"
   ],
-  "status": "9 images QA reviewed; awaiting remote commit",
+  "status": "complete: nine images, thumbnails and dex registration verified on remote main",
   "anchor": {
     "original": "generated_images/exec-20a19d0f-6e99-4165-8892-cfd52165a9f6.png",
     "output": "/workspace/scratch/6a9a9eaa3901/pkm-atelier-img-2/img/아이스크_light_glossy_promo_f.webp",
@@ -37,5 +37,23 @@
     "게을킹",
     "팽태자",
     "비나방"
-  ]
+  ],
+  "publication": {
+    "name": "아이스크",
+    "status": "registered complete",
+    "images": 9,
+    "image_repository": "polos0117/pkm-atelier-img-2",
+    "image_commit": "7064776060e3c6a567e62b21a428ff00370b9708",
+    "thumbnail_workflow": 38660932804,
+    "thumbnail_status": "success",
+    "registration_repository": "polos0117/pkm-atelier",
+    "registration_commit": "a62af1a2d6e061d8d2985d2ca5d3a122a988c9e5",
+    "forms": 6,
+    "casual": 3,
+    "shard": 1,
+    "verification": "All 9 remote original Git blob hashes equal local final WebPs; all 9 remote thumbnail files are WebP with 512px long edge; 6 byForm and 3 casual entries registered in data/img.json.",
+    "branch_update": "GitHub connector, expected old SHA, force=false; shell git push was unavailable due missing credentials.",
+    "prompt_capture_check": "All 18 saved actual UI states reproduce submitted prompt text exactly."
+  },
+  "canonical_anchor": "https://github.com/polos0117/pkm-atelier-img-2/blob/7064776060e3c6a567e62b21a428ff00370b9708/img/아이스크_light_glossy_promo_f.webp"
 }

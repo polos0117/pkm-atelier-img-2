@@ -1,6 +1,6 @@
 {
   "name": "토중몬",
-  "status": "9 images QA passed; local commit d7c1105; GitHub publication pending",
+  "status": "complete: nine images, thumbnails and dex registration verified on remote main",
   "anchor": {
     "source": "/workspace/scratch/6a9a9eaa3901/generated_images/exec-d10dbe77-650f-4a43-a141-9846633ee6b2.png",
     "webp": "/workspace/scratch/6a9a9eaa3901/pkm-atelier-img-2/img/토중몬_light_glossy_promo_f.webp",
@@ -25,5 +25,23 @@
     "casual2",
     "casual3"
   ],
-  "face_prompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; narrow eyes, small size, upturned outer corners, close-set; straight medium brows; long nose with low tip; thin lips."
+  "face_prompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; narrow eyes, small size, upturned outer corners, close-set; straight medium brows; long nose with low tip; thin lips.",
+  "publication": {
+    "name": "토중몬",
+    "status": "registered complete",
+    "images": 9,
+    "image_repository": "polos0117/pkm-atelier-img-2",
+    "image_commit": "68b99c8d5710d307d518db6305a18b7c8f5a508e",
+    "thumbnail_workflow": 38659071083,
+    "thumbnail_status": "success",
+    "registration_repository": "polos0117/pkm-atelier",
+    "registration_commit": "b144b1e88ba023c68754bb4ff65f765cc50b1a0b",
+    "forms": 6,
+    "casual": 3,
+    "shard": 1,
+    "verification": "All 9 remote original Git blob hashes equal local final WebPs; all 9 remote thumbnail files are WebP with 512px long edge; 6 byForm and 3 casual entries registered in data/img.json.",
+    "branch_update": "GitHub connector, expected old SHA, force=false; shell git push was unavailable due missing credentials.",
+    "prompt_capture_check": "All 18 saved actual UI states reproduce submitted prompt text exactly."
+  },
+  "canonical_anchor": "https://github.com/polos0117/pkm-atelier-img-2/blob/68b99c8d5710d307d518db6305a18b7c8f5a508e/img/토중몬_light_glossy_promo_f.webp"
 }
