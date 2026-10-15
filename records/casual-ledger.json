@@ -5427,76 +5427,6 @@
    ]
   },
   {
-   "species": "staravia-20261015",
-   "card": "찌르버드",
-   "status": "reserved",
-   "session": "staravia-staraptor-20261015-b038",
-   "at": "2026-10-15T10:37:09+09:00",
-   "cuts": [
-    {
-     "cut": 1,
-     "cat": "private_evening",
-     "ex": "opera_night",
-     "expr": "focused",
-     "pose": "carrying_something",
-     "orient": "profile_close",
-     "frame": "waist_up",
-     "lens": "natural50",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "jumpsuit"
-     ]
-    },
-    {
-     "cut": 2,
-     "cat": "lingerie",
-     "ex": "satin_set",
-     "expr": "pensive",
-     "pose": "sitting_floor",
-     "orient": "low_angle",
-     "frame": "full_body",
-     "lens": "portrait85",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "lingerie_set"
-     ]
-    },
-    {
-     "cut": 3,
-     "cat": "adult_roleplay",
-     "ex": "adult_maid",
-     "expr": "proud",
-     "pose": "hand_on_hip",
-     "orient": "side",
-     "frame": "three_quarter",
-     "lens": "documentary35",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "strongly prefer separates"
-     },
-     "garments": [
-      "uniform",
-      "skirt"
-     ]
-    }
-   ]
-  },
-  {
    "species": "staraptor-20261015",
    "card": "찌르호크",
    "status": "reserved",
@@ -5569,9 +5499,9 @@
   {
    "species": "loudred-20261015",
    "card": "노공룡",
-   "status": "reserved",
-   "session": "gpt-loudred-exploud-20261015-1032",
-   "at": "2026-10-15T10:58:30+09:00",
+   "repo": "pkm-atelier-img-2",
+   "at": "2026-10-15T11:02:32+09:00",
+   "status": "done",
    "cuts": [
     {
      "cut": 1,
@@ -5583,13 +5513,11 @@
      "frame": "three_quarter",
      "lens": "portrait85",
      "axes": {
-      "source_influence": "subtle",
       "action_level": "mostly posed",
+      "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
-     "garments": [
-      "lingerie_set"
-     ]
+     "garments": []
     },
     {
      "cut": 2,
@@ -5601,8 +5529,8 @@
      "frame": "environmental",
      "lens": "wide24",
      "axes": {
-      "source_influence": "strong",
       "action_level": "mostly active",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -5619,8 +5547,8 @@
      "frame": "full_body",
      "lens": "documentary35",
      "axes": {
-      "source_influence": "balanced",
       "action_level": "balanced",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -5632,9 +5560,9 @@
   {
    "species": "exploud-20261015",
    "card": "폭음룡",
-   "status": "reserved",
-   "session": "gpt-loudred-exploud-20261015-1032",
-   "at": "2026-10-15T10:58:30+09:00",
+   "repo": "pkm-atelier-img-2",
+   "at": "2026-10-15T11:04:57+09:00",
+   "status": "done",
    "cuts": [
     {
      "cut": 1,
@@ -5646,13 +5574,14 @@
      "frame": "chest_up",
      "lens": "telephoto135",
      "axes": {
-      "source_influence": "subtle",
       "action_level": "balanced",
+      "source_influence": "subtle",
       "separates_preference": "strongly prefer separates"
      },
      "garments": [
-      "vest",
-      "shorts"
+      "crop_top",
+      "shorts",
+      "vest"
      ]
     },
     {
@@ -5665,12 +5594,11 @@
      "frame": "three_quarter",
      "lens": "natural50",
      "axes": {
-      "source_influence": "strong",
       "action_level": "mostly active",
+      "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "crop_top",
       "skirt"
      ]
     },
@@ -5684,8 +5612,8 @@
      "frame": "waist_up",
      "lens": "documentary35",
      "axes": {
-      "source_influence": "subtle",
       "action_level": "mostly active",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -5693,8 +5621,35 @@
      ]
     }
    ]
+  },
+  {
+   "species": "staravia-20261015",
+   "card": "찌르버드",
+   "repo": "pkm-atelier-img-2",
+   "at": "2026-10-15T11:06:13+09:00",
+   "status": "done",
+   "cuts": [
+    {
+     "cut": 3,
+     "cat": "adult_roleplay",
+     "ex": "adult_maid",
+     "expr": "proud",
+     "pose": "hand_on_hip",
+     "orient": "front_3q",
+     "frame": "three_quarter",
+     "lens": "documentary35",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "strongly prefer separates"
+     },
+     "garments": [
+      "apron"
+     ]
+    }
+   ]
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-15T10:58:30+09:00"
+ "updated": "2026-10-15T11:10:56+09:00"
 }
