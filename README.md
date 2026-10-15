@@ -39,3 +39,10 @@ img/thumb/<같은 이름>   목록용. 긴 변 512 — 워크플로가 만든다
 
 `.nojekyll` 은 Pages 가 파일을 있는 그대로 내보내게 한다. 워크플로의 "크기" 단계가 900 MB 를 넘으면
 경고를 띄운다 — 그때 `pkm-atelier-img-3` 을 같은 방법으로 준비한다.
+
+## 일상컷 장부
+
+`records/casual-ledger.json` — 여러 세션이 동시에 일상컷을 만들어도 같은 장면·구도·옷을 고르지 않게, 등록분과
+생성 전 예약을 모아 둔다. `pkm-atelier` 의 `tools/casual-ledger.py` 가 쓴다(손으로 고치지 않는다). 생성 전에
+`build` → `report` → `check` → `reserve` 하고 **장부 파일만** commit·push 한 뒤 생성한다. 순서와 조건은
+`pkm-atelier` 의 IMAGE_RULES.md 3절 "일상컷 장면 설정 순서" 0단계.
