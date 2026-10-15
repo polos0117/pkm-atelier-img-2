@@ -1,0 +1,98 @@
+{
+  "storage": {
+    "last": "소곤룡",
+    "cards": {
+      "소곤룡": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "lavender",
+          "hairstyle": "bob",
+          "hair length": "short",
+          "eye color": "amber",
+          "body type": "soft-figured"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "An empty pink stone amphitheater at early sunrise, gentle concentric pale-gold acoustic rings on the floor and a quiet lavender sky.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "focused",
+            "pose": "preparing_food",
+            "orient": "leaning_forward",
+            "scene": "In a sunlit mint-tiled home kitchen, she stirs pale berry batter with a wooden spoon while steadying the mixing bowl; washed berries and a blank baking tray wait beside it.",
+            "outfit": "A yellow boat-neck elbow-sleeve waist-length cotton shirt and separate lavender high-waist ankle trousers under a plain pink bib apron ending at the knees; a tiny crescent clasp.",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "LOCAL CORRECTION: Image 1 supplies identity; edit image 2, the berry-batter kitchen scene. Remove both large pink-and-yellow armored head ornaments and fill with her same lavender bob. Raise the yellow shirt neckline to a boat neckline above both shoulder joints, covering both shoulders; retain the elbow-length sleeves and pink apron. Preserve her concentrated face, stirring and bowl-supporting hands, ingredients, kitchen, leaning posture and framing exactly.",
+            "aspect": "2:3",
+            "cat": "food_berries",
+            "catCustom": "",
+            "ex": "food_poffin",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "source_influence": "balanced",
+              "action_level": "mostly active",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Whismur (소곤룡) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Work at a kitchen counter, stirring a bowl or arranging ingredients with clearly separated hands and utensils.\nOrientation: torso leaning forward with supported balance\nScene: In a sunlit mint-tiled home kitchen, she stirs pale berry batter with a wooden spoon while steadying the mixing bowl; washed berries and a blank baking tray wait beside it.\nOutfit and props: A yellow boat-neck elbow-sleeve waist-length cotton shirt and separate lavender high-waist ankle trousers under a plain pink bib apron ending at the knees; a tiny crescent clasp.\nCategory: Show a specific everyday cooking, berry-growing or picnic activity in the Pokémon world. Use readable hands, utensils and ingredients; favor ordinary personal life over professional workwear.\nExample scene: Mixing Poffin batter in a bowl at a home kitchen counter, with berries and a baking tray nearby.\nNote: LOCAL CORRECTION: Image 1 supplies identity; edit image 2, the berry-batter kitchen scene. Remove both large pink-and-yellow armored head ornaments and fill with her same lavender bob. Raise the yellow shirt neckline to a boat neckline above both shoulder joints, covering both shoulders; retain the elbow-length sleeves and pink apron. Preserve her concentrated face, stirring and bowl-supporting hands, ingredients, kitchen, leaning posture and framing exactly.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers of natural length, clearly separated, never merged, doubled or extra.",
+  "correction": "Image 1 supplies identity; edit image 2, the berry-batter kitchen scene. Remove both large pink-and-yellow armored head ornaments and fill with her same lavender bob. Raise the yellow shirt neckline to a boat neckline above both shoulder joints, covering both shoulders; retain the elbow-length sleeves and pink apron. Preserve her concentrated face, stirring and bowl-supporting hands, ingredients, kitchen, leaning posture and framing exactly.",
+  "errors": []
+}

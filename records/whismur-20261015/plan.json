@@ -1,0 +1,446 @@
+{
+  "name": "소곤룡",
+  "slug": "whismur",
+  "no": 293,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "lavender",
+    "hairstyle": "bob",
+    "hair length": "short",
+    "eye color": "amber",
+    "body type": "soft-figured"
+  },
+  "wear": "The long rabbit-ear shapes become two compact pink hair ornaments with yellow tips; the yellow crescent is a clean chest-plate marking, and the small plug-shaped tail becomes a short rounded split sash at the waist. Rounded pink and pale-lavender plates soften the armor silhouette.",
+  "scene": "An empty pink stone amphitheater at early sunrise, gentle concentric pale-gold acoustic rings on the floor and a quiet lavender sky.",
+  "casual_plan": [
+    {
+      "cat": "swimwear",
+      "ex": "river_dock",
+      "expr": "amused",
+      "pose": "perched_seat",
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "source_influence": "balanced",
+        "action_level": "mostly posed",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "At a peaceful lake pier in clear morning light, her bare feet hang over the edge above the water; she twists to touch a folded towel beside her.",
+      "outfit": "Opaque blush-pink scoop-neck sleeveless athletic bikini top with broad straps and separate yellow square-cut boyshort swim bottoms; no cover-up, one tiny crescent anklet.",
+      "axis_reasons": {
+        "source_influence": "Pink and yellow swim pieces and a small crescent anklet retain a moderate source echo.",
+        "action_level": "She pauses on the edge with feet hanging still.",
+        "separates_preference": "Top and boyshort swim bottoms are two distinct pieces."
+      },
+      "input_reasons": {
+        "scene": "Pier example provides feet over water but leaves time and towel interaction unspecified.",
+        "outfit": "The pier example specifies swimwear only, so choose broad-strap scoop top and square-cut bottoms with a crescent anklet.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "Seated twist/full body shows the feet above lake water and the towel beside the seated woman; wide24 includes dock planks.",
+      "random_draws": {
+        "orient": "high_angle",
+        "frame": "waist_up",
+        "lens": "natural50"
+      },
+      "exampleText": "in swimwear on a wooden river dock, feet over the edge above the water",
+      "garments": [
+        "bikini",
+        "shorts"
+      ]
+    },
+    {
+      "cat": "food_berries",
+      "ex": "food_poffin",
+      "expr": "focused",
+      "pose": "preparing_food",
+      "orient": "leaning_forward",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "source_influence": "balanced",
+        "action_level": "mostly active",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "In a sunlit mint-tiled home kitchen, she stirs pale berry batter with a wooden spoon while steadying the mixing bowl; washed berries and a blank baking tray wait beside it.",
+      "outfit": "A yellow boat-neck elbow-sleeve waist-length cotton shirt and separate lavender high-waist ankle trousers under a plain pink bib apron ending at the knees; a tiny crescent clasp.",
+      "axis_reasons": {
+        "source_influence": "Pastel yellow, lavender and pink layers use the source palette without large species props.",
+        "action_level": "The spoon is actively folding batter while her other hand holds the bowl.",
+        "separates_preference": "Shirt, trousers and apron remain visibly separate garments."
+      },
+      "input_reasons": {
+        "scene": "Poffin example supplies batter/bowl/tray; mint tiles, sunlight and simultaneous bowl support make that exact preparation concrete.",
+        "outfit": "The baking example has no clothing specification; add a boat-neck elbow-sleeve shirt, ankle trousers and knee apron.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "Leaning forward/waist up keeps spoon, mixing bowl and facial concentration together; natural50 avoids exaggerating the hands.",
+      "random_draws": {
+        "orient": "looking_away",
+        "frame": "waist_up",
+        "lens": "telephoto135"
+      },
+      "exampleText": "Mixing Poffin batter in a bowl at a home kitchen counter, with berries and a baking tray nearby.",
+      "garments": [
+        "shirt",
+        "trousers",
+        "apron"
+      ]
+    },
+    {
+      "cat": "hobbies_leisure",
+      "ex": "hobby_music",
+      "expr": "soft_smile",
+      "pose": "cross_legged",
+      "orient": "front",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "source_influence": "strong",
+        "action_level": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "In a warm evening rehearsal room, she practices a small wooden ukulele beside an empty music stand and a resting cushion; unmarked acoustic wall panels soften the sound.",
+      "outfit": "A pink V-neck long-sleeve hip-length cardigan buttoned over a yellow round-neck cropped camisole and separate lavender mid-thigh soft shorts, tiny crescent pendant, no extra outer layer.",
+      "axis_reasons": {
+        "source_influence": "The pink/yellow/lavender ensemble and crescent pendant strongly echo her palette in soft textiles.",
+        "action_level": "Light strumming while seated is gentle continuous movement.",
+        "separates_preference": "Cardigan, camisole and shorts are separate layers."
+      },
+      "input_reasons": {
+        "scene": "Music example leaves the instrument type and room finishes open; choose a small wooden ukulele and sound-absorbing panels.",
+        "outfit": "The music example has no garment construction; give a buttoned V-neck long-sleeve cardigan over camisole and separate shorts.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "Front/three-quarter makes ukulele grip, crossed legs and relaxed expression readable; portrait85 compresses the cozy rehearsal room.",
+      "random_draws": {
+        "orient": "back",
+        "frame": "full_body",
+        "lens": "portrait85"
+      },
+      "exampleText": "Practicing a small acoustic instrument in a cozy room with a music stand and a resting cushion nearby.",
+      "garments": [
+        "cardigan",
+        "tank",
+        "shorts"
+      ]
+    }
+  ],
+  "recentCompared": [
+    "shedinja-20261015",
+    "ninjask-20261015",
+    "starly-20261015"
+  ],
+  "comparisonTable": [
+    {
+      "name": "껍질몬",
+      "slug": "shedinja-20261015",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "slip_lingerie",
+          "expr": "wistful",
+          "pose": "leaning_wall",
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "strong",
+            "action_level": "mostly posed",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque bronze satin, a subtle square neckline between the narrow straps, upper-thigh straight hem, no outer layer; tiny gold circle pendant and ivory wing embroidery at the hem."
+        },
+        {
+          "cat": "occupation_basic",
+          "ex": "archive_restorer",
+          "expr": "focused",
+          "pose": "reading_book",
+          "orient": "high_angle",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "strong",
+            "action_level": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A taupe stand-collar long-sleeve hip-length blouse tucked into a separate ivory ankle-length skirt, a fitted open brown waistcoat, small circular cufflinks."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "rain_walk",
+          "expr": "relieved",
+          "pose": "mid_stride",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "subtle",
+            "action_level": "mostly active",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A slate-gray V-neck short-sleeve waist-length blouse and separate cinnamon knee-length A-line skirt under an open ivory knee-length raincoat with long sleeves, ankle rain boots, tiny gold ring earring."
+        }
+      ]
+    },
+    {
+      "name": "아이스크",
+      "slug": "ninjask-20261015",
+      "cuts": [
+        {
+          "cat": "swimwear",
+          "ex": "shoreline_walk",
+          "expr": "curious",
+          "pose": "walking",
+          "orient": "turning_midmotion",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "An opaque golden-yellow asymmetric one-shoulder one-piece swimsuit with a broad diagonal black stripe and gray piping, high-cut legs and a tiny wing-vein pendant; no coverup."
+        },
+        {
+          "cat": "active",
+          "ex": "parkour_stairs",
+          "expr": "determined",
+          "pose": "mid_action",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A gray crew-neck short-sleeve waist-length technical jersey, separate black mid-thigh running shorts with yellow side panels, plain yellow low-top trainers with completely blank tongues and a tiny vein-pattern wristband; no outer layer, a plain black elastic ponytail tie."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_tea",
+          "expr": "calm",
+          "pose": "standing_relaxed",
+          "orient": "side",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A butter-yellow small-point-collar long-sleeve hip-length cotton blouse tucked into a separate charcoal calf-length pleated skirt, no outer layer and a single tiny silver wing-vein earring."
+        }
+      ]
+    },
+    {
+      "name": "찌르꼬",
+      "slug": "starly-20261015",
+      "cuts": [
+        {
+          "cat": "lingerie",
+          "ex": "slip_lingerie",
+          "expr": "pensive",
+          "pose": "leaning_furniture",
+          "orient": "reclining",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "subtle",
+            "action_level": "mostly posed",
+            "separates_preference": "balanced"
+          },
+          "outfit": "Opaque rust-brown bias-cut satin lingerie slip with narrow straps, a gently draped neckline and straight mid-thigh hem, no outer layer; tiny white feather pendant."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "hardware_store",
+          "expr": "curious",
+          "pose": "mid_action",
+          "orient": "high_angle",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "balanced",
+            "action_level": "mostly active",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A white pointed-collar short-sleeve hip-length cotton shirt and separate charcoal knee-length utility shorts under an open burnt-orange sleeveless waist-length work vest; small white feather-shaped clip."
+        },
+        {
+          "cat": "active",
+          "ex": "track_sprint",
+          "expr": "determined",
+          "pose": "squatting",
+          "orient": "crouching",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "subtle",
+            "action_level": "mostly active",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A charcoal crew-neck sleeveless waist-length fitted athletic top, separate plain gray mid-thigh running shorts with an undecorated solid gray waistband, and smooth orange slip-on running shoes with plain uninterrupted uppers and black soles; tiny white feather-shaped zipper pull, no outer layer."
+        }
+      ]
+    }
+  ],
+  "faceEvidence": {
+    "name": "소곤룡",
+    "en": "Whismur",
+    "line": "소곤룡",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "short rounded brows",
+      "nose character": "rounded soft tip",
+      "lips": "wide mouth"
+    },
+    "why": "",
+    "cues": [
+      "‘spherical body’ → 얼굴형 부드럽고 둥근 얼굴형",
+      "‘spherical body’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "‘spherical body’ → 눈매 큰 눈",
+      "‘spherical body’ → 눈썹 짧고 둥근",
+      "‘spherical body’ → 코 코끝이 둥근",
+      "‘simple, wide mouth’ → 입술 입이 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 가늘고 완만한 곡선 → 짧고 둥근"
+  },
+  "sourceEvidence": {
+    "name": "소곤룡",
+    "en": "Whismur",
+    "color": "pink",
+    "shape": "upright",
+    "features": [
+      {
+        "part": "marking",
+        "detail": "yellow, crescent marking"
+      },
+      {
+        "part": "tail",
+        "detail": "small, plug-like tail"
+      },
+      {
+        "part": "flap",
+        "detail": "long, yellow-tipped flaps"
+      },
+      {
+        "part": "body",
+        "detail": "spherical body"
+      },
+      {
+        "part": "ear",
+        "detail": "rabbit ears"
+      },
+      {
+        "part": "mouth",
+        "detail": "simple, wide mouth"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Whismur_%28Pok%C3%A9mon%29",
+    "revision": 4630359,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "a750ae010d31769b99df7a11a202305009982f9fe1381848328bc1bf38cab6f9",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "faceDesignRationale": "Spherical body supports soft medium-width cheeks and rounded jaw. Large rounded eye openings express sensitivity without juvenile proportions. The broad simple mouth becomes a wider adult lip line; short rounded eyebrows and a rounded human nose harmonize with the soft silhouette. Keep natural adult twenties proportions and human facial anatomy.",
+  "planning_decision": "Freeze comparison at Shedinja, Ninjask and Starly. Lake dock seated twist/full body, kitchen leaning-forward/waist-up and front/three-quarter ukulele have no repeated direction/frame pair. Seated twist and leaning forward are unused among their cuts. The source-influence multiset balanced/balanced/strong differs from all three; only the kitchen shares a full axis triple with one comparison cut.",
+  "faceComparison": "Compared actual Ninjask, Starly and Shedinja anchors. Whismur has fuller round cheeks, large round level eyes, a soft round nose tip and broader open smile; Ninjask has a long tapered lower face, Starly sharper narrow eyes and thin lips, Shedinja downturned heavy-lidded eyes and fine restrained mouth. Identity remains adult twenties.",
+  "comparison_actual_images": [
+    "comparison-recent.jpg"
+  ],
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): softly rounded face, balanced length, medium width; soft rounded jaw; open rounded eyes, large size, level outer corners, average spacing; short rounded brows; rounded soft tip nose; wide mouth.",
+  "corrections": [
+    {
+      "slot": "casual1",
+      "observed": "Large head armor retained; swim bottoms lack the specified square-cut hems.",
+      "changed_input": "Image 1 supplies identity; edit image 2, the lake-pier towel scene. Remove both large pink-and-yellow armored head ornaments and fill with her same lavender bob. Change only her yellow swim bottoms to fully opaque square-cut boyshort swim bottoms with short horizontal hems across each upper thigh, as specified in the selected outfit. Keep her pink scoop-neck top, face, smile, hands, legs, feet, seated twist, towel, pier, lake and composition exactly.",
+      "references": [
+        "approved light",
+        "corresponding initial casual image"
+      ],
+      "reason": "Bring the visible garment construction back to the planned selection while retaining the approved scene."
+    },
+    {
+      "slot": "casual2",
+      "observed": "Large head armor retained; boat neckline slipped below shoulder joints.",
+      "changed_input": "Image 1 supplies identity; edit image 2, the berry-batter kitchen scene. Remove both large pink-and-yellow armored head ornaments and fill with her same lavender bob. Raise the yellow shirt neckline to a boat neckline above both shoulder joints, covering both shoulders; retain the elbow-length sleeves and pink apron. Preserve her concentrated face, stirring and bowl-supporting hands, ingredients, kitchen, leaning posture and framing exactly.",
+      "references": [
+        "approved light",
+        "corresponding initial casual image"
+      ],
+      "reason": "Bring the visible garment construction back to the planned selection while retaining the approved scene."
+    },
+    {
+      "slot": "casual3",
+      "observed": "Large head armor retained; lower cardigan buttons not fastened.",
+      "changed_input": "Image 1 supplies identity; edit image 2, the ukulele rehearsal scene. Remove both large pink-and-yellow armored head ornaments, replacing them with her same plain lavender bob. Fasten the two visible lower cardigan buttons beneath its V-neck around the waist, keeping the yellow camisole neckline and the ukulele placement. Keep her gentle smile, crossed legs, hands on the instrument, clothes colors, room, lighting and composition exactly.",
+      "references": [
+        "approved light",
+        "corresponding initial casual image"
+      ],
+      "reason": "Bring the visible garment construction back to the planned selection while retaining the approved scene."
+    },
+    {
+      "slots": [
+        "casual1",
+        "casual2"
+      ],
+      "observed": "First correction removed headgear but boyshort hems remained too high and yellow neckline still left shoulder caps bare.",
+      "changed_input": {
+        "1": "LOCAL GARMENT CONSTRUCTION EDIT: Image 1 is identity only; edit image 2. Replace the entire yellow bikini brief with unmistakable yellow BOYSHORT swim shorts: fabric must extend downward about 8 cm along EACH upper thigh, forming two straight horizontal leg hems around the thighs, with a short vertical inseam between legs. The front must read as fitted miniature swim shorts rather than a triangular bikini brief. Keep the same opaque yellow material, all skin above and below the new garment, face, lavender bob, pink top, hands, legs, feet, dock and image layout exactly.",
+        "2": "LOCAL NECKLINE EDIT: Image 1 is identity only; edit image 2. Change ONLY the yellow shirt construction at the shoulders: extend yellow fabric upward to cover both rounded shoulder caps completely, then make a shallow straight boat neckline crossing the UPPER collarbones from near the base of the neck. No shoulder cap is bare. Keep existing elbow sleeves, pink apron and its straps, face, lavender bob, hands, wooden spoon, glass bowl, kitchen and all other pixels."
+      },
+      "references": [
+        "approved light",
+        "correction1 image for each scene"
+      ],
+      "settings_changed": false
+    }
+  ],
+  "generation_rules": {
+    "code_revision_at_planning": "f6eb98efd056bf7ffea5421b162512ca424aeb2f",
+    "image_rules_blob_at_planning": "de9b4405574e7b82c7c3877fbdfa623bf5a7a2be",
+    "note": "All scene planning and generation used the rules read at task start. New casual-ledger rules were first observed on the final pre-publication pull, after all nine selected images were generated. No retroactive reservation is claimed; completed records can be read into the new ledger."
+  }
+}
