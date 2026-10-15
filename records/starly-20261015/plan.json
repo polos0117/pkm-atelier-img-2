@@ -79,7 +79,7 @@
       "expr": "curious",
       "pose": "mid_action",
       "orient": "high_angle",
-      "frame": "chest_up",
+      "frame": "waist_up",
       "lens": "natural50",
       "aspect": "2:3",
       "axes": {
@@ -100,13 +100,13 @@
         "scene": "예시에 없는 시간·장소·손 작업 세부: At an empty bright hardware-store counter in the afternoon, she compares two plain brass cabinet handles, one in each hand; unmarked wood samples lie on the worktop.",
         "outfit": "예시의 구조를 유지하며 없는 목선·소매·기장·겹침과 소재 지정: A white pointed-collar short-sleeve hip-length cotton shirt and separate charcoal knee-length utility shorts under an open burnt-orange sleeveless waist-length work vest; small white feather-shaped clip.",
         "camera": "도구에 별도 크기 인자가 없어 세로 2:3 1024×1536 지정.",
-        "custom": "배경 우상단 상자에 가짜 글자 모양이 관찰되어 국소 제거."
+        "custom": "마지막 비교표 검사에서 세 프레이밍 묶음이 발바로와 같아 chest_up→waist_up 사전 변경 후 새 프롬프트로 재생성. 수정 전 결과에 맞춰 기록값만 바꾸지 않음."
       },
       "random_adjustment_reason": "이 활동에 필요한 손동작과 공간이 읽히고 최근 비교 컷과 방향·프레이밍 짝을 피하도록 선택: At an empty bright hardware-store counter in the afternoon, she compares two plain brass cabinet handles, one in each hand; unmarked wood samples lie on the worktop.",
       "random_draws": {
-        "orientation": "turning_midmotion",
+        "orientation": "rear_3q",
         "frame": "full_body",
-        "lens": "telephoto135"
+        "lens": "documentary35"
       },
       "exampleText": "Hardware / Home-improvement Store",
       "locked": [
@@ -114,23 +114,23 @@
         "axes.skin_exposure",
         "aspect"
       ],
-      "custom": "LOCAL TEXT REMOVAL: image 1 is identity; edit image 2. Make every shelf box, packaging edge, counter, handle and garment completely free of letters, numbers, labels and pseudo-writing, including the pale boxes at the upper-right shelves. Keep their plain material surfaces and preserve her face, fingers, handles, pose, outfit, lighting and entire camera view.",
+      "custom": "REFRAMING CORRECTION: image 1 is identity, image 2 is the hardware-store scene. Recompose this scene for the newly selected waist-up framing, keeping the high downward angle, face, hands and both brass handles clearly visible. Preserve the white shirt and orange vest, afternoon hardware store and blank wooden samples. All packages, surfaces and garments remain entirely free of letters, numbers, labels or logos.",
       "random_adjustments": [
         {
           "field": "orientation",
-          "drawn": "turning_midmotion",
+          "drawn": "rear_3q",
           "final": "high_angle",
           "reason": "이 활동에 필요한 손동작과 공간이 읽히고 최근 비교 컷과 방향·프레이밍 짝을 피하도록 선택: At an empty bright hardware-store counter in the afternoon, she compares two plain brass cabinet handles, one in each hand; unmarked wood samples lie on the worktop."
         },
         {
           "field": "frame",
           "drawn": "full_body",
-          "final": "chest_up",
+          "final": "waist_up",
           "reason": "이 활동에 필요한 손동작과 공간이 읽히고 최근 비교 컷과 방향·프레이밍 짝을 피하도록 선택: At an empty bright hardware-store counter in the afternoon, she compares two plain brass cabinet handles, one in each hand; unmarked wood samples lie on the worktop."
         },
         {
           "field": "lens",
-          "drawn": "telephoto135",
+          "drawn": "documentary35",
           "final": "natural50",
           "reason": "이 활동에 필요한 손동작과 공간이 읽히고 최근 비교 컷과 방향·프레이밍 짝을 피하도록 선택: At an empty bright hardware-store counter in the afternoon, she compares two plain brass cabinet handles, one in each hand; unmarked wood samples lie on the worktop."
         }
@@ -544,6 +544,10 @@
     {
       "slot": "casual3",
       "reason": "Label removal failed twice; changed outfit input before next generation to smooth slip-on shoes and plain waistband, preserving activity/pose."
+    },
+    {
+      "slot": "casual2",
+      "reason": "Final constraint check: frame set matched Vigoroth; selected waist_up before generating a replacement, preserving high-angle activity."
     }
   ],
   "finalFacePrompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; narrow eyes, medium size, upturned outer corners, close-set; straight medium brows; prominent defined nose; thin lips.",
