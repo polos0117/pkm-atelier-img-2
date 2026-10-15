@@ -1,5 +1,5 @@
 {
-  "phase": "9/9 generated and visually verified; ready to publish",
+  "phase": "registered 9/9, thumbnails 9/9; final verification complete",
   "anchor": {
     "slot": "light",
     "source": "/workspace/scratch/8ebedb0928d7/generated_images/exec-3fb4024c-5aa8-4b4e-a148-887d90f867d4.png",
@@ -24,9 +24,43 @@
   ],
   "image_repo": "polos0117/pkm-atelier-img-2",
   "code_repo": "polos0117/pkm-atelier",
-  "pushed": false,
+  "pushed": true,
   "prompt_directory": "pkm-atelier-img-2/records/starly-20261015",
   "face_comparison": "실제 발바로·게을킹·팽태자 및 이번 엠페르트 경장과 비교: 찌르꼬의 중간 길이 타원형 윤곽·부드러운 둥근 턱·가까운 눈 사이와 올라간 눈꼬리·좁은 얇은 입이 구별됨. 엠페르트의 긴 턱/작은 수평 눈, 게을킹의 넓은 턱/도톰한 입과 다름.",
   "tool": "built-in image_gen; unmodified captured generator output",
-  "durable_recovery": "Final WebPs, captured prompts, UI selections, QA and classification manifest committed together."
+  "durable_recovery": "Final WebPs, captured prompts, UI selections, QA and classification manifest committed together.",
+  "reference_recovery": "Use image_repo main img/ filenames from manifest; original PNG locations are scratch provenance and the committed WebPs are durable.",
+  "image_commit": "a745e987d346db650f23a3eae44d0fde2c4b5a30",
+  "correction_commit": "423da1b4c377b5599850506aeff5937190d9b676",
+  "code_verification_commit": "d31aa091a352e385a4149786d790ee18d88791c9",
+  "image_workflows": [
+    {
+      "id": 38660722155,
+      "name": "썸네일",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38660715939,
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "correction_workflows": [
+    {
+      "id": 38661029615,
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "cancelled"
+    },
+    {
+      "id": 38661029388,
+      "name": "썸네일",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "thumbnail_commit": "125ac3be838affddc40352d7d71b7144ed0827cc",
+  "publication_method": "GitHub connector normal fast-forward main update, force=false, expected head checked; shell git push lacked authentication."
 }

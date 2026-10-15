@@ -1,5 +1,5 @@
 {
-  "phase": "9/9 generated and visually verified; ready to publish",
+  "phase": "registered 9/9, thumbnails 9/9; final verification complete",
   "anchor": {
     "slot": "light",
     "source": "/workspace/scratch/8ebedb0928d7/generated_images/exec-cc3a2ed4-85e4-4506-a562-8e252adc7c09.png",
@@ -24,9 +24,28 @@
   ],
   "image_repo": "polos0117/pkm-atelier-img-2",
   "code_repo": "polos0117/pkm-atelier",
-  "pushed": false,
+  "pushed": true,
   "prompt_directory": "pkm-atelier-img-2/records/empoleon-20261015",
   "face_comparison": "실제 경장을 팽도리·팽태자·발바로·게을킹과 비교: 엠페르트는 길고 가는 하안부와 턱끝, 작은 수평 눈매, 길고 내려간 코끝·얇은 입술. 팽태자의 둥근 눈/짧은 코, 발바로의 위로 치켜진 눈, 게을킹의 넓은 얼굴/도톰한 입술과 구분.",
   "tool": "built-in image_gen; unmodified captured generator output",
-  "durable_recovery": "Final WebPs, captured prompts, UI selections, QA and classification manifest are committed together."
+  "durable_recovery": "Final WebPs, captured prompts, UI selections, QA and classification manifest are committed together.",
+  "reference_recovery": "Use image_repo main img/ filenames from manifest; original PNG locations are scratch provenance and the committed WebPs are durable.",
+  "image_commit": "c74aeb4814e321901c739b903f9e1f12f1bd572a",
+  "thumbnail_commit": "fbee7cee6af025c28c6d5eaacc5ebfc968c53db8",
+  "code_verification_commit": "d31aa091a352e385a4149786d790ee18d88791c9",
+  "image_workflows": [
+    {
+      "id": 38659031494,
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "cancelled"
+    },
+    {
+      "id": 38659032089,
+      "name": "썸네일",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "publication_method": "GitHub connector normal fast-forward main update, force=false, expected head checked; shell git push lacked authentication."
 }

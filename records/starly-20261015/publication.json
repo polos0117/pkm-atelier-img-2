@@ -1,0 +1,61 @@
+{
+  "image_commit": "a745e987d346db650f23a3eae44d0fde2c4b5a30",
+  "correction_commit": "423da1b4c377b5599850506aeff5937190d9b676",
+  "code_verification_commit": "d31aa091a352e385a4149786d790ee18d88791c9",
+  "image_workflows": [
+    {
+      "id": 38660722155,
+      "name": "썸네일",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38660715939,
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "correction_workflows": [
+    {
+      "id": 38661029615,
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "cancelled"
+    },
+    {
+      "id": 38661029388,
+      "name": "썸네일",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "thumbnail_commit": "125ac3be838affddc40352d7d71b7144ed0827cc",
+  "registered": [
+    "찌르꼬_light_glossy_promo_f.webp",
+    "찌르꼬_heavy_glossy_promo_f.webp",
+    "찌르꼬_mobility_glossy_promo_f.webp",
+    "찌르꼬_light_overdrive_glossy_promo_f.webp",
+    "찌르꼬_heavy_overdrive_glossy_promo_f.webp",
+    "찌르꼬_mobility_overdrive_glossy_promo_f.webp",
+    "찌르꼬_glossy_promo_f_casual1.webp",
+    "찌르꼬_glossy_promo_f_casual2.webp",
+    "찌르꼬_glossy_promo_f_casual3.webp"
+  ],
+  "thumbnails": [
+    "찌르꼬_light_glossy_promo_f.webp",
+    "찌르꼬_heavy_glossy_promo_f.webp",
+    "찌르꼬_mobility_glossy_promo_f.webp",
+    "찌르꼬_light_overdrive_glossy_promo_f.webp",
+    "찌르꼬_heavy_overdrive_glossy_promo_f.webp",
+    "찌르꼬_mobility_overdrive_glossy_promo_f.webp",
+    "찌르꼬_glossy_promo_f_casual1.webp",
+    "찌르꼬_glossy_promo_f_casual2.webp",
+    "찌르꼬_glossy_promo_f_casual3.webp"
+  ],
+  "original_blob_hash_verified": true,
+  "prior_registered_files_preserved": true,
+  "verified_final_code_commit": "d31aa091a352e385a4149786d790ee18d88791c9",
+  "final_image_main_before_record": "125ac3be838affddc40352d7d71b7144ed0827cc",
+  "verification": "18 final original WebP blobs match uploads; all are 1024x1536; 18 registry filenames exactly match manifests with where=1; all prior registered filenames preserved; captured UI selection and diversity constraints passed after correction."
+}
