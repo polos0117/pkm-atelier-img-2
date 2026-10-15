@@ -1,0 +1,132 @@
+{
+  "note": "컷별 직접 입력과 세 축·랜덤 후 수정 사유를 구체화한 추가 기록. 제출 원문/선택값은 기존 기록 유지.",
+  "cuts": [
+    {
+      "cut": 1,
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "In the empty theater foyer during a private preview before the doors open, she holds a compact opera glass by its handle at the marble balustrade beneath the gold ceiling lights.",
+          "reason": "오페라 예시는 복장 주제만 있어 개장 전 프리뷰의 빈 대리석 로비와 손잡이 달린 오페라글라스를 선택했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal halter short jumpsuit with an open back and a waist cutout exposes shoulders, waist and thighs; ivory piping edges the seams.",
+          "reason": "오페라 나이트에는 의상 전용 선택지가 없어 짧은 홀터 점프슈트의 등·허리 절개와 차콜/아이보리 파이핑을 정했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인자가 없어 지정 비율과 픽셀 크기를 camera 입력란에 명시."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "로비에서 광학기기를 가볍게 들어 확인하는 움직임이라 balanced로 정했다.",
+        "source_influence": "야간 극장복은 작은 구리색·아이보리 포인트만 남겨 subtle로 정했다.",
+        "separates_preference": "점프슈트 한 벌로 연결되므로 balanced가 맞는다."
+      },
+      "random_draws": {
+        "orient": {
+          "drawn": "low_angle",
+          "final": "profile_close",
+          "reason": "오페라글라스와 얼굴 옆선을 함께 읽도록 profile_close·waist_up을 택했다."
+        },
+        "frame": {
+          "drawn": "environmental",
+          "final": "waist_up",
+          "reason": "오페라글라스와 얼굴 옆선을 함께 읽도록 profile_close·waist_up을 택했다."
+        },
+        "lens": {
+          "drawn": "telephoto135",
+          "final": "natural50",
+          "reason": "극장 난간과 손의 소품을 과장 없이 읽는 natural50이 적합하다."
+        }
+      }
+    },
+    {
+      "cut": 2,
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "In a dressing room with a softly glowing oval floor lamp, she loosely holds a folded silk scarf over a woven rug.",
+          "reason": "새틴 세트 예시에는 장소·활동이 없어 타원 조명의 드레싱룸과 양탄자 위 접은 스카프를 계획했다."
+        },
+        {
+          "field": "outfit",
+          "content": "Deep copper satin with an ivory binding edge; the cropped bias-cut top and high-cut bottoms reveal the shoulders, midriff and legs.",
+          "reason": "새틴 세트가 정한 같은 계열 바탕색은 구리색으로, 예시에 없는 가장자리·상의 길이·하의 다리선은 아이보리 바인딩/짧은 길이/하이컷으로 정했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인자가 없어 지정 비율과 픽셀 크기를 camera 입력란에 명시."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "양탄자 위에서 멈추어 스카프를 느슨히 들고 있는 장면이므로 mostly posed를 택했다.",
+        "source_influence": "구리빛 새틴만 남기는 컷으로 subtle을 골랐다.",
+        "separates_preference": "예시가 상의와 맞춘 하의를 별개로 정하므로 prefer separates가 맞는다."
+      },
+      "random_draws": {
+        "orient": {
+          "drawn": "looking_down",
+          "final": "low_angle",
+          "reason": "바닥에 앉은 인물과 옷 구조를 함께 보려고 low_angle·full_body를 택했다."
+        },
+        "frame": {
+          "drawn": "three_quarter",
+          "final": "full_body",
+          "reason": "바닥에 앉은 인물과 옷 구조를 함께 보려고 low_angle·full_body를 택했다."
+        },
+        "lens": {
+          "drawn": "documentary35",
+          "final": "portrait85",
+          "reason": "드레싱룸 조명의 원근을 압축해 차분한 정서를 주는 portrait85를 정했다."
+        }
+      }
+    },
+    {
+      "cut": 3,
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "During a themed costume photo rehearsal, she holds a folded linen napkin at her hip beside a parlor dessert trolley under soft studio lamps.",
+          "reason": "메이드 코스튬 예시에는 행사 종류와 손 소품이 없어 디저트 트롤리를 둔 촬영 리허설과 리넨 냅킨을 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "The structured black bodice has a wide square neckline and short puff sleeves above a full ivory apron and miniskirt, exposing collarbones and thighs; copper ribbon edging accents the apron.",
+          "reason": "예시의 보디스·퍼프소매·앞치마는 유지하고 목선/소매 길이/미니 기장과 구리색 리본 테두리를 추가했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인자가 없어 지정 비율과 픽셀 크기를 camera 입력란에 명시."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "냅킨을 들고 허리에 손을 얹은 촬영 포즈이므로 mostly posed다.",
+        "source_influence": "검정·흰 의상에 구리 테두리를 분명히 남기므로 balanced다.",
+        "separates_preference": "보디스·치마·별도 앞치마가 나뉜 행사복이어서 strongly prefer separates를 택했다."
+      },
+      "random_draws": {
+        "orient": {
+          "drawn": "high_angle",
+          "final": "side",
+          "reason": "측면 선택이 반복해 어긋나 두 번 재생성 후 앞 3/4로 바꾸고 새 결과를 생성했다. 앞치마와 허리에 둔 손이 함께 읽히는 three_quarter를 유지했다."
+        },
+        "frame": {
+          "drawn": "waist_up",
+          "final": "three_quarter",
+          "reason": "측면 선택이 반복해 어긋나 두 번 재생성 후 앞 3/4로 바꾸고 새 결과를 생성했다. 앞치마와 허리에 둔 손이 함께 읽히는 three_quarter를 유지했다."
+        },
+        "lens": {
+          "drawn": "telephoto135",
+          "final": "documentary35",
+          "reason": "촬영 조명과 트롤리까지 공간감을 남기는 documentary35를 정했다."
+        }
+      }
+    }
+  ],
+  "latest_rule_note": "IMAGE_RULES.md가 생성 도중 갱신되어 흐릿한 배경 실루엣은 추가 인물로 세지 않게 됨. 일상 1번의 최종 제외 사유는 배경이 아니라 선택한 측면과 얼굴·몸통·골반의 방향 불일치이며, 세 번 재생성 한도에 도달함."
+}

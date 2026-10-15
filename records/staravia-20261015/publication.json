@@ -1,0 +1,34 @@
+{
+  "card": "찌르버드",
+  "registered": 7,
+  "thumbnails": 7,
+  "registration_snapshot": "f99b049dcf7845b5739295e0148d2edb09bb8d3d",
+  "canonical_face": true,
+  "phase": "verified complete within skip policy",
+  "image_commit": "8c23f9286be102d5485b480d4a50965bf2c90dd4",
+  "code_commit": "524f270cb0854f0da189bf278cb54267df10d166",
+  "batch_check": "passed before reserve; final selected values passed against reservation-time baseline",
+  "reservation_commit": "6582dec",
+  "tool": "built-in image_gen",
+  "checks": [
+    "casual-ledger check",
+    "register-images --check",
+    "forms",
+    "img-shards",
+    "face-design --check",
+    "face-design.cjs",
+    "patch"
+  ],
+  "auto_registration": "success",
+  "skipped": [
+    {
+      "slot": "casual1",
+      "reason": "Three remakes exhausted; selected side profile did not match face/torso/pelvis direction."
+    },
+    {
+      "slot": "casual2",
+      "reason": "Image tool rejected twice at output moderation; no image returned."
+    }
+  ],
+  "recovery": "Use main img/ WebPs and per-slot captured prompt/UI state; PNG paths in manifest are local provenance only."
+}

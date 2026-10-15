@@ -1,0 +1,25 @@
+{
+  "card": "찌르호크",
+  "registered": 9,
+  "thumbnails": 9,
+  "registration_snapshot": "f99b049dcf7845b5739295e0148d2edb09bb8d3d",
+  "canonical_face": true,
+  "phase": "verified complete within skip policy",
+  "image_commit": "c8d829aaa3ff05aeef22e49c1627a6b336834d4d",
+  "code_commit": "542ccc1155fd0255f27163a675ad3a173b6b4edd",
+  "batch_check": "passed before reserve; final selected values passed against reservation-time baseline",
+  "reservation_commit": "6582dec",
+  "tool": "built-in image_gen",
+  "checks": [
+    "casual-ledger check",
+    "register-images --check",
+    "forms",
+    "img-shards",
+    "face-design --check",
+    "face-design.cjs",
+    "patch"
+  ],
+  "auto_registration": "success",
+  "skipped": [],
+  "recovery": "Use main img/ WebPs and per-slot captured prompt/UI state; PNG paths in manifest are local provenance only."
+}
