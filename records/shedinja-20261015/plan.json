@@ -1,0 +1,399 @@
+{
+  "name": "껍질몬",
+  "slug": "shedinja",
+  "no": 292,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "ash blonde",
+    "hairstyle": "hime cut",
+    "hair length": "long",
+    "eye color": "amber",
+    "body type": "slender"
+  },
+  "wear": "A hollow tan cicada-shell motif becomes a close shell-shaped shoulder mantle and brown segmented armor, tattered wing motifs become a short split ivory cape; a thin gold halo-like circular head ornament crowns the head without obscuring the human face.",
+  "scene": "An empty ancient stone sanctuary in moonlit woodland, drifting ivory dust and faint violet mist.",
+  "casual_plan": [
+    {
+      "cat": "lingerie",
+      "ex": "slip_lingerie",
+      "expr": "wistful",
+      "pose": "leaning_wall",
+      "orient": "side",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "source_influence": "strong",
+        "action_level": "mostly posed",
+        "separates_preference": "balanced"
+      },
+      "scene": "In a quiet stone bedroom at blue hour, fingertips rest on the windowsill beside a pale curtain.",
+      "outfit": "Opaque bronze satin, a subtle square neckline between the narrow straps, upper-thigh straight hem, no outer layer; tiny gold circle pendant and ivory wing embroidery at the hem.",
+      "axis_reasons": {
+        "source_influence": "Bronze fabric, ivory wing embroidery and a ring pendant carry several shell motifs.",
+        "action_level": "Resting against the bedroom wall is a still fashion moment.",
+        "separates_preference": "The bias-cut slip is one continuous garment."
+      },
+      "input_reasons": {
+        "scene": "The slip_lingerie example leaves the specific room, time and hand interaction unspecified; these are supplied without changing its main activity.",
+        "outfit": "The slip_lingerie example leaves the bronze/archive/rainwear material details and exact neckline, sleeve, hem and layering undefined; the specified outfit fills those gaps.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "Choose side/waist_up to show slip_lingerie and avoid comparison pairs; portrait85 fits that working distance.",
+      "random_draws": {
+        "orient": "front",
+        "frame": "three_quarter",
+        "lens": "portrait85"
+      },
+      "exampleText": "a bias-cut satin lingerie slip with narrow straps and a straight hem"
+    },
+    {
+      "cat": "occupation_basic",
+      "ex": "archive_restorer",
+      "expr": "focused",
+      "pose": "reading_book",
+      "orient": "high_angle",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "source_influence": "strong",
+        "action_level": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "scene": "In an amber-lit museum archive, she carefully turns one illustrated field-guide page with cotton gloves beside a shallow tray containing an empty cicada shell; pages contain pictures only.",
+      "outfit": "A taupe stand-collar long-sleeve hip-length blouse tucked into a separate ivory ankle-length skirt, a fitted open brown waistcoat, small circular cufflinks.",
+      "axis_reasons": {
+        "source_influence": "Shell specimen, brown-and-ivory layers and circular cufflinks emphasize the source in a museum context.",
+        "action_level": "Turning a fragile page is a small careful movement.",
+        "separates_preference": "Blouse, skirt and waistcoat are separate pieces."
+      },
+      "input_reasons": {
+        "scene": "The archive_restorer example leaves the specific room, time and hand interaction unspecified; these are supplied without changing its main activity.",
+        "outfit": "The archive_restorer example leaves the bronze/archive/rainwear material details and exact neckline, sleeve, hem and layering undefined; the specified outfit fills those gaps.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "Choose high_angle/chest_up to show archive_restorer and avoid comparison pairs; natural50 fits that working distance.",
+      "random_draws": {
+        "orient": "front_3q",
+        "frame": "face_close",
+        "lens": "telephoto135"
+      },
+      "exampleText": "Pokémon museum archivist handling an old field guide and specimen tray with cotton gloves in an archive room."
+    },
+    {
+      "cat": "everyday_basic",
+      "ex": "rain_walk",
+      "expr": "relieved",
+      "pose": "mid_stride",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "source_influence": "subtle",
+        "action_level": "mostly active",
+        "separates_preference": "strongly prefer separates"
+      },
+      "scene": "In an empty wet stone lane after dusk, she walks under a clear unmarked umbrella while closing its small wrist strap with her free hand; reflections glow below.",
+      "outfit": "A slate-gray V-neck short-sleeve waist-length blouse and separate cinnamon knee-length A-line skirt under an open ivory knee-length raincoat with long sleeves, ankle rain boots, tiny gold ring earring.",
+      "axis_reasons": {
+        "source_influence": "Only the small ring earring preserves the species motif in ordinary rainwear.",
+        "action_level": "A step and moving raincoat make walking the main action.",
+        "separates_preference": "Three visible independently layered garments strongly favor separates."
+      },
+      "input_reasons": {
+        "scene": "The rain_walk example leaves the specific room, time and hand interaction unspecified; these are supplied without changing its main activity.",
+        "outfit": "The rain_walk example leaves the bronze/archive/rainwear material details and exact neckline, sleeve, hem and layering undefined; the specified outfit fills those gaps.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "Choose turning_midmotion/full_body to show rain_walk and avoid comparison pairs; documentary35 fits that working distance.",
+      "random_draws": {
+        "orient": "low_angle",
+        "frame": "three_quarter",
+        "lens": "portrait85"
+      },
+      "exampleText": "Rainy Day Walk"
+    }
+  ],
+  "recentCompared": [
+    "nincada-20261015",
+    "empoleon-20261015",
+    "slaking-20261015"
+  ],
+  "comparisonTable": [
+    {
+      "name": "토중몬",
+      "slug": "nincada-20261015",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "lab_roleplay",
+          "expr": "serious",
+          "pose": "standing_formal",
+          "orient": "looking_down",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A crisp white open long-sleeve knee-length laboratory coat over an opaque moss-green high-neck sleeveless fitted knee-length dress, a tiny V-shaped enamel badge and no eyewear."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "pottery_class",
+          "expr": "focused",
+          "pose": "sitting",
+          "orient": "front",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A charcoal square-neck short-sleeve ankle-length work jumpsuit under a plain linen bib apron ending below the knees, with one small green ring-shaped apron clasp."
+        },
+        {
+          "cat": "everyday_sensual",
+          "ex": "high_shelf",
+          "expr": "surprised",
+          "pose": "on_tiptoe",
+          "orient": "reaching_up",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "An ivory boat-neck three-quarter-sleeve hip-length knit top, separate olive mid-thigh lounge shorts and soft gray slippers; no outer layer, a tiny green ring bracelet."
+        }
+      ]
+    },
+    {
+      "name": "엠페르트",
+      "slug": "empoleon-20261015",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "uniform_inspired",
+          "expr": "proud",
+          "pose": "standing_formal",
+          "orient": "low_angle",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "balanced",
+            "action_level": "mostly posed",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A navy high-collar fitted waist-length jacket with long sleeves, crisp white lapels and decorative gold epaulettes, separate white upper-thigh tailored shorts and navy ankle boots; tiny trident lapel pin, no outer layer."
+        },
+        {
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "expr": "focused",
+          "pose": "watering",
+          "orient": "reaching_up",
+          "frame": "waist_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "subtle",
+            "action_level": "mostly active",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A terracotta square-neck short-sleeve linen blouse reaching the hips, separate ivory wide-leg ankle trousers and an open waist-length cream work vest; one tiny blue stud earring."
+        },
+        {
+          "cat": "everyday_basic",
+          "ex": "grocery_run",
+          "expr": "curious",
+          "pose": "carrying_something",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "source_influence": "balanced",
+            "action_level": "balanced",
+            "separates_preference": "strongly prefer separates"
+          },
+          "outfit": "A white open-collar elbow-sleeve hip-length shirt tucked into separate navy calf-length pleated culottes, a cropped yellow cardigan layered open, flat navy shoes and a small gold trident bracelet charm."
+        }
+      ]
+    },
+    {
+      "name": "게을킹",
+      "slug": "slaking-20261015",
+      "cuts": [
+        {
+          "cat": "adult_roleplay",
+          "ex": "adult_librarian",
+          "expr": "calm",
+          "pose": "leaning_furniture",
+          "orient": "looking_away",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "A fitted cream round-neck buttoned cardigan with long sleeves ending at the hips, separate cocoa calf-length pencil skirt, slim reading glasses and flat leather shoes; one tiny pink oval pendant, no outer jacket."
+        },
+        {
+          "cat": "food_berries",
+          "ex": "food_picnic",
+          "expr": "amused",
+          "pose": "side_sitting",
+          "orient": "seated_twist",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "outfit": "An ivory scoop-neck short-sleeve blouse reaching the hips and separate cocoa calf-length gathered skirt, pink flat sandals and a tiny cream tuft-shaped bracelet charm; no outer layer."
+        },
+        {
+          "cat": "traditional",
+          "ex": "kaftan_daily",
+          "expr": "pensive",
+          "pose": "walking",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "outfit": "A loose ivory V-neck kaftan dress with wide elbow-length sleeves and an ankle-length flowing hem, broad cocoa geometric borders and a pink oval clasp at the neckline; flat leather sandals, no extra layer."
+        }
+      ]
+    }
+  ],
+  "faceEvidence": {
+    "name": "껍질몬",
+    "en": "Shedinja",
+    "line": "토중몬",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "drooping",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "straight medium brows",
+      "nose character": "small delicate nose",
+      "lips": "thin lips"
+    },
+    "why": "속이 빈 허물과 움직이지 않는 실루엣을 고요한 눈매와 절제된 입술로 해석한다. 생기 없는 피부나 빈 눈구멍은 복제하지 않는다.",
+    "cues": [
+      "몸 형태 blob → 얼굴형 부드럽고 둥근 얼굴형",
+      "몸 형태 blob → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "고스트 타입 → 눈매 살짝 처진 부드러운 눈"
+    ],
+    "adjusted": "같은 계열 토중몬와 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 균형 잡힌 타원형 → 부드럽고 둥근 얼굴형"
+  },
+  "sourceEvidence": {
+    "name": "껍질몬",
+    "en": "Shedinja",
+    "color": "brown",
+    "shape": "blob",
+    "features": [
+      {
+        "part": "wing",
+        "detail": "tattered wings"
+      },
+      {
+        "part": "shell",
+        "detail": "hard shell"
+      },
+      {
+        "part": "protrusion",
+        "detail": "four protrusions"
+      },
+      {
+        "part": "abdomen",
+        "detail": "gray abdomen"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Shedinja_%28Pok%C3%A9mon%29",
+    "revision": 4617542,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "675174daf3437042baed63ee52ea1b46166fdb127e365a30aed712ad4903f4b4",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "planning_decision": "Recent completed work: Nincada, Empoleon, Slaking. Use lingerie rather than their adult-roleplay categories, museum page conservation rather than their standing laboratory scene/pottery/plant care, and walking in rain rather than shopping or kaftan stroll. All direction/frame pairs differ; side and turning-midmotion are new values. Source multiset strong/strong/subtle differs from all three.",
+  "faceComparison": "Compared actual Nincada/Empoleon/Slaking anchors: Shedinja has relaxed downturned eyes, delicate small nose and thin restrained lips in a soft medium-width face; Nincada has a narrower chin and more angular eye corners, Empoleon has a long narrow lower face and long nose, Slaking has broader cheeks and fuller lips.",
+  "comparison_actual_images": [
+    "comparison-recent.jpg"
+  ],
+  "finalFacePrompt": "FACE (her own structure, not the style's default face): softly rounded face, balanced length, medium width; soft rounded jaw; drooping eyes, medium size, downturned outer corners, average spacing; straight medium brows; small delicate nose; thin lips.",
+  "corrections": [
+    {
+      "slot": "casual1",
+      "observed": "Metallic feather hair ornament persisted; museum cut also retained the large halo.",
+      "changed_input": "LOCAL ACCESSORY CORRECTION: Image 1 supplies identity; edit image 2, the bronze satin window scene. Remove the metallic feather-shaped hair ornament, replacing that area with the same plain ash-blonde hair. Preserve everything else in image 2 including her face, hair length, hands, outfit, body direction, activity, light and framing.",
+      "references": [
+        "approved light",
+        "corresponding initial casual image"
+      ],
+      "reason": "Only small source motifs belong in off-duty scenes."
+    },
+    {
+      "slot": "casual2",
+      "observed": "Metallic feather hair ornament persisted; museum cut also retained the large halo.",
+      "changed_input": "LOCAL ACCESSORY CORRECTION: Image 1 supplies identity; edit image 2, the museum archive page-turning scene. Remove the metallic feather-shaped hair ornament and the floating gold halo, replacing that area with the same plain ash-blonde hair and archive background. Preserve everything else in image 2 including her face, hair length, hands, outfit, body direction, activity, light and framing.",
+      "references": [
+        "approved light",
+        "corresponding initial casual image"
+      ],
+      "reason": "Only small source motifs belong in off-duty scenes."
+    },
+    {
+      "slot": "casual3",
+      "observed": "Metallic feather hair ornament persisted; museum cut also retained the large halo.",
+      "changed_input": "LOCAL ACCESSORY CORRECTION: Image 1 supplies identity; edit image 2, the rainy umbrella walking scene. Remove the metallic feather-shaped hair ornament, replacing that area with the same plain ash-blonde hair. Preserve everything else in image 2 including her face, hair length, hands, outfit, body direction, activity, light and framing.",
+      "references": [
+        "approved light",
+        "corresponding initial casual image"
+      ],
+      "reason": "Only small source motifs belong in off-duty scenes."
+    }
+  ]
+}
