@@ -253,15 +253,68 @@
         "evidence": "Amber eyes and short violet bob, broad short facial outline and rounded eyes match the light canonical image."
       },
       "actual_frame": "Complete head and stepping feet."
+    },
+    "casual3": {
+      "dimensions": {
+        "result": "일치",
+        "evidence": "PNG and WebP decode to 1024×1536."
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "Violet jaw-length bob, amber eyes and broad short face match canonical light. No speaker ornaments remain on the head."
+      },
+      "anatomy_hands": {
+        "result": "일치",
+        "evidence": "Near thumb and four curled fingers wrap the folded towel. Far thumb and fingers rest along its opposite edge with natural towel occlusion. Enlarged crop retained."
+      },
+      "text_logo_labels": {
+        "result": "일치",
+        "evidence": "Bottle panel, bag straps, towel and beach furniture are free of letters; bag ornament is concentric geometric circles."
+      },
+      "principal_people": {
+        "result": "일치",
+        "evidence": "One foreground woman. No discernible second face or competing figure."
+      },
+      "example_and_activity": {
+        "result": "일치",
+        "evidence": "Two-piece ribbed swimwear, sunny sand, water, wooden bench and an open wicker bag are visible; she lowers a folded striped towel into the bag."
+      },
+      "coverage": {
+        "result": "일치",
+        "evidence": "Shoulders, midriff and legs remain uncovered; ribbed navy fabric covers chest and pelvis securely."
+      },
+      "orientation": {
+        "result": "기록",
+        "evidence": "Torso faces front three-quarter and leans toward the bag at frame right; hips turn with torso."
+      },
+      "pose": {
+        "result": "기록",
+        "evidence": "Both arms extend diagonally into the towel-packing action; legs stand with one foot forward."
+      },
+      "expression": {
+        "result": "기록",
+        "evidence": "Brows draw slightly inward, eyes concentrate forward rather than on the bag, mouth closed."
+      },
+      "garment_details": {
+        "result": "기록",
+        "evidence": "Selected high-waisted bikini is rendered with a shallower V front and ringed side straps; clothing type remains a separate halter bikini top and bottoms."
+      },
+      "actual_framing": {
+        "result": "기록",
+        "evidence": "Complete head, hands and bare feet fit with margins."
+      },
+      "diversity": {
+        "result": "일치",
+        "evidence": "Vanity lingerie is furniture-supported in warm indoor light; architectural overalls are walking under a low camera; this beach towel-packing scene uses two-piece swimwear and a forward lean. Compared with Exploud broadcaster/dance/watering, Staravia maid and Staraptor couture/rehearsal/pool one-piece, beach, packing activity and bikini silhouette differ."
+      },
+      "fixed_values": {
+        "result": "일치",
+        "evidence": "UI snapshot and submitted prompt contain overall_intensity strong, skin_exposure bold and locked aspect 2:3."
+      },
+      "skipped": []
     }
   },
-  "skipped": [
-    {
-      "slot": "casual3",
-      "reason": "Built-in image generation output moderation blocked twice, category sexual. The planned adult resort rinse-off prompt was not modified or replaced to bypass the safety filter. No image created or registered.",
-      "failed_generation_attempts": 2
-    }
-  ],
+  "skipped": [],
   "compared_characters": [
     "아이스크",
     "껍질몬",
@@ -271,5 +324,11 @@
   "diversity": {
     "result": "일치",
     "evidence": "Loudred: supported vanity lingerie vs walking broad-leg courtyard overalls differ in location, activity, garments and camera height; third planned cut was skipped."
-  }
+  },
+  "resolved_skipped": [
+    {
+      "slot": "casual3",
+      "record": "records/loudred-20261015/refill-casual3-1145"
+    }
+  ]
 }

@@ -26,9 +26,7 @@
       "axes": {
         "source_influence": "subtle",
         "action_level": "mostly posed",
-        "separates_preference": "prefer separates",
-        "overall_intensity": "strong",
-        "skin_exposure": "bold"
+        "separates_preference": "prefer separates"
       },
       "garments": [
         "lingerie_set"
@@ -48,16 +46,7 @@
         "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
       },
       "random_adjustment_reason": "longline_bra: leaning_back/three_quarter makes the described leaning_furniture activity readable and avoids ledger pairs; portrait85 fits its working distance.",
-      "random_draws": {
-        "orient": "high_angle",
-        "frame": "environmental",
-        "lens": "documentary35"
-      },
-      "locks": [
-        "axis-overall_intensity",
-        "axis-skin_exposure",
-        "aspect"
-      ]
+      "kept": true
     },
     {
       "cut": 2,
@@ -72,9 +61,7 @@
       "axes": {
         "source_influence": "strong",
         "action_level": "mostly active",
-        "separates_preference": "balanced",
-        "overall_intensity": "strong",
-        "skin_exposure": "bold"
+        "separates_preference": "balanced"
       },
       "garments": [
         "overalls"
@@ -91,67 +78,53 @@
       "input_reasons": {
         "scene": "Heavy Architectural Tailoring leaves the chosen Walking across a sunlit outdoor sculpture courtyard between angular concrete forms. details unspecified.",
         "outfit": "Heavy Architectural Tailoring leaves garment construction undefined; sculpted halter overalls provide a new clothing silhouette absent from the complete comparison ledger.",
-        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536.",
-        "custom": "The overalls candidate retained two large round head ornaments and a circular shoulder bag; request their local removal while retaining printed circles."
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
       },
       "random_adjustment_reason": "heavy_architecture: low_angle/environmental makes the described walking activity readable and avoids ledger pairs; wide24 fits its working distance.",
-      "random_draws": {
-        "orient": "over_shoulder",
-        "frame": "full_body",
-        "lens": "telephoto135"
-      },
-      "locks": [
-        "axis-overall_intensity",
-        "axis-skin_exposure",
-        "aspect"
-      ],
-      "custom": "Note: Correct the supplied casual scene locally: remove the large circular hair ornaments and the circular shoulder bag; the yellow acoustic circles stay in the overall fabric print."
+      "kept": true
     },
     {
       "cut": 3,
       "cat": "swimwear",
-      "ex": "outdoor_shower",
-      "expr": "relieved",
+      "ex": "classic_bikini",
+      "expr": "focused",
       "pose": "mid_action",
       "orient": "front_3q",
       "frame": "full_body",
       "lens": "documentary35",
       "aspect": "2:3",
       "axes": {
-        "source_influence": "balanced",
         "action_level": "balanced",
-        "separates_preference": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates",
         "overall_intensity": "strong",
         "skin_exposure": "bold"
       },
       "garments": [
-        "swimsuit"
+        "bikini"
       ],
-      "scene": "Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream.",
-      "outfit": "Plum fully lined high-leg one-piece with yellow narrow side panels, exposing shoulders and legs.",
+      "scene": "At a sunlit sandy resort beach, she places a folded striped beach towel into an open wicker beach bag resting on a low wooden bench.",
+      "outfit": "Opaque ribbed fabric with narrow butter-yellow seam piping, showing bare shoulders, midriff and legs.",
       "camera": "Vertical 2:3 portrait (1024×1536).",
-      "exampleText": "rinsing off at an open-air poolside shower after swimming, still in swimwear",
       "axis_reasons": {
-        "source_influence": "outdoor_shower: Two palette colours remain in ordinary swim fabric.",
-        "action_level": "outdoor_shower: Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream.",
-        "separates_preference": "outdoor_shower: clothing construction is swimsuit."
+        "action_level": "Placing a folded towel into a beach bag is gentle hand movement.",
+        "source_influence": "Navy fabric with thin yellow seam piping retains two palette colours without large species props.",
+        "separates_preference": "A bikini has a separate supportive top and high-waisted bottom."
       },
       "input_reasons": {
-        "scene": "rinsing off at an open-air poolside shower after swimming, still in swimwear leaves the chosen Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream. details unspecified.",
-        "outfit": "outdoor_shower leaves these material, colour and exposure details unspecified: Plum fully lined high-leg one-piece with yellow narrow side panels, exposing shoulders and legs.",
+        "scene": "The classic_bikini example specifies garments only; add a sandy beach and packing a folded towel as an ordinary public leisure activity.",
+        "outfit": "The example fixes navy colour, high waist and halter support; add opaque ribbed fabric and yellow seam piping without changing the garments.",
         "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
       },
-      "random_adjustment_reason": "outdoor_shower: front_3q/full_body makes the described mid_action activity readable and avoids ledger pairs; documentary35 fits its working distance.",
+      "random_adjustment_reason": "Front three-quarter/full body keeps the towel-packing action, both arms and the beach setting readable without copying current ledger pairs; documentary35 gives a natural resort perspective.",
+      "kept": false,
+      "custom": "",
       "random_draws": {
-        "orient": "looking_away",
-        "frame": "full_body",
-        "lens": "portrait85"
+        "orient": "front",
+        "frame": "waist_up",
+        "lens": "natural50"
       },
-      "locks": [
-        "axis-overall_intensity",
-        "axis-skin_exposure",
-        "aspect"
-      ]
+      "exampleText": "a navy high-waisted bikini with a supportive halter top"
     }
   ],
   "revisions": [
@@ -162,6 +135,209 @@
     }
   ],
   "batch_plan": {
+    "session": "gpt-loudred-refill-20261015-1145",
+    "characters": [
+      {
+        "card": "노공룡",
+        "species": "loudred-refill-20261015-1145",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "longline_bra",
+            "expr": "calm",
+            "pose": "leaning_furniture",
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "subtle",
+              "action_level": "mostly posed",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "scene": "Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+            "outfit": "Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "a longline bra set with a wide supportive underband and matching high-waisted bottoms",
+            "axis_reasons": {
+              "source_influence": "longline_bra: Only garment colour is carried over; no source geometry.",
+              "action_level": "longline_bra: Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+              "separates_preference": "longline_bra: clothing construction is lingerie_set."
+            },
+            "input_reasons": {
+              "scene": "a longline bra set with a wide supportive underband and matching high-waisted bottoms leaves the chosen Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge. details unspecified.",
+              "outfit": "longline_bra leaves these material, colour and exposure details unspecified: Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "longline_bra: leaning_back/three_quarter makes the described leaning_furniture activity readable and avoids ledger pairs; portrait85 fits its working distance.",
+            "kept": true
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "heavy_architecture",
+            "expr": "confident",
+            "pose": "walking",
+            "orient": "low_angle",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "strong",
+              "action_level": "mostly active",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "scene": "Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+            "outfit": "Violet architectural halter overalls with a sculpted bib and wide trouser legs; open side-waist construction exposes shoulders and waist. Yellow concentric seamwork and folded fabric echo acoustic chambers.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "Heavy Architectural Tailoring",
+            "axis_reasons": {
+              "source_influence": "heavy_architecture: The specified yellow/purple tailoring carries the acoustic geometry.",
+              "action_level": "heavy_architecture: Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+              "separates_preference": "heavy_architecture: the halter bib and wide trouser legs form one continuous overall garment."
+            },
+            "input_reasons": {
+              "scene": "Heavy Architectural Tailoring leaves the chosen Walking across a sunlit outdoor sculpture courtyard between angular concrete forms. details unspecified.",
+              "outfit": "Heavy Architectural Tailoring leaves garment construction undefined; sculpted halter overalls provide a new clothing silhouette absent from the complete comparison ledger.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "heavy_architecture: low_angle/environmental makes the described walking activity readable and avoids ledger pairs; wide24 fits its working distance.",
+            "kept": true
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "classic_bikini",
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "front_3q",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "scene": "At a sunlit sandy resort beach, she places a folded striped beach towel into an open wicker beach bag resting on a low wooden bench.",
+            "outfit": "Opaque ribbed fabric with narrow butter-yellow seam piping, showing bare shoulders, midriff and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "axis_reasons": {
+              "action_level": "Placing a folded towel into a beach bag is gentle hand movement.",
+              "source_influence": "Navy fabric with thin yellow seam piping retains two palette colours without large species props.",
+              "separates_preference": "A bikini has a separate supportive top and high-waisted bottom."
+            },
+            "input_reasons": {
+              "scene": "The classic_bikini example specifies garments only; add a sandy beach and packing a folded towel as an ordinary public leisure activity.",
+              "outfit": "The example fixes navy colour, high waist and halter support; add opaque ribbed fabric and yellow seam piping without changing the garments.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "Front three-quarter/full body keeps the towel-packing action, both arms and the beach setting readable without copying current ledger pairs; documentary35 gives a natural resort perspective.",
+            "kept": false,
+            "custom": "",
+            "random_draws": {
+              "orient": "front",
+              "frame": "waist_up",
+              "lens": "natural50"
+            },
+            "exampleText": "a navy high-waisted bikini with a supportive halter top"
+          }
+        ],
+        "refill": true
+      }
+    ]
+  },
+  "check_result": "계획 통과 — 1명 (refill)",
+  "reservation_commit": "e03cf32afa0a5bf56f05645d54aa590b7bc0a9ab",
+  "comparison_ledger": "records/casual-ledger.json complete history",
+  "faceEvidence": {
+    "name": "노공룡",
+    "en": "Loudred",
+    "line": "소곤룡",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "square broad jaw",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "thick low brows",
+      "nose character": "rounded soft tip",
+      "lips": "wide mouth"
+    },
+    "why": "각진 몸통과 원형 스피커 귀는 짧고 넓은 얼굴·단단한 턱과 대비되는 둥근 눈으로 해석한다. 넓은 입 윤곽은 넓은 사람 입술선, 짧은 코는 둥근 코끝으로 옮긴다.",
+    "cues": [
+      "몸 형태 upright → 얼굴형 균형 잡힌 타원형"
+    ],
+    "adjusted": ""
+  },
+  "sourceEvidence": {
+    "name": "노공룡",
+    "en": "Loudred",
+    "color": "blue",
+    "shape": "upright",
+    "features": [
+      {
+        "part": "stripe",
+        "detail": "yellow stripes"
+      },
+      {
+        "part": "stalk",
+        "detail": "two short stalks"
+      },
+      {
+        "part": "lip",
+        "detail": "yellow lips"
+      },
+      {
+        "part": "ring",
+        "detail": "only single black ring"
+      },
+      {
+        "part": "tooth",
+        "detail": "peg-like teeth"
+      },
+      {
+        "part": "nose",
+        "detail": "stubby nose"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Loudred_%28Pok%C3%A9mon%29",
+    "revision": 4630360,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "1e4af1d44c9718e14121d66b984d3b670d78d81e335cdf461c2f1c0df077a0aa",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "corrections": [
+    {
+      "slot": "casual2",
+      "reason": "Removed oversized speaker hair ornaments and round shoulder bag; preserved textile motifs.",
+      "references": [
+        "canonical light",
+        "casual2 overalls candidate"
+      ]
+    }
+  ],
+  "skipped": [],
+  "original_batch_plan": {
     "session": "gpt-loudred-exploud-20261015-1032",
     "characters": [
       {
@@ -384,88 +560,16 @@
       }
     ]
   },
-  "check_result": "계획 통과 — 2명",
-  "reservation_commit": "e03cf32afa0a5bf56f05645d54aa590b7bc0a9ab",
-  "comparison_ledger": "records/casual-ledger.json complete history",
-  "faceEvidence": {
-    "name": "노공룡",
-    "en": "Loudred",
-    "line": "소곤룡",
-    "how": "species",
-    "registered": false,
-    "face": {
-      "face shape": "oval",
-      "face length": "short",
-      "face width": "wide",
-      "jaw & chin": "square broad jaw",
-      "eye shape": "large",
-      "eye size": "medium",
-      "eye tilt": "level outer corners",
-      "eye spacing": "wide-set eyes",
-      "eyebrows": "thick low brows",
-      "nose character": "rounded soft tip",
-      "lips": "wide mouth"
-    },
-    "why": "각진 몸통과 원형 스피커 귀는 짧고 넓은 얼굴·단단한 턱과 대비되는 둥근 눈으로 해석한다. 넓은 입 윤곽은 넓은 사람 입술선, 짧은 코는 둥근 코끝으로 옮긴다.",
-    "cues": [
-      "몸 형태 upright → 얼굴형 균형 잡힌 타원형"
-    ],
-    "adjusted": ""
-  },
-  "sourceEvidence": {
-    "name": "노공룡",
-    "en": "Loudred",
-    "color": "blue",
-    "shape": "upright",
-    "features": [
-      {
-        "part": "stripe",
-        "detail": "yellow stripes"
-      },
-      {
-        "part": "stalk",
-        "detail": "two short stalks"
-      },
-      {
-        "part": "lip",
-        "detail": "yellow lips"
-      },
-      {
-        "part": "ring",
-        "detail": "only single black ring"
-      },
-      {
-        "part": "tooth",
-        "detail": "peg-like teeth"
-      },
-      {
-        "part": "nose",
-        "detail": "stubby nose"
-      }
-    ],
-    "source": "https://bulbapedia.bulbagarden.net/wiki/Loudred_%28Pok%C3%A9mon%29",
-    "revision": 4630360,
-    "retrieved": "2026-09-20",
-    "sourceTextHash": "1e4af1d44c9718e14121d66b984d3b670d78d81e335cdf461c2f1c0df077a0aa",
-    "method": "text-descriptor-extraction-v1",
-    "formScope": "base/species overview",
-    "status": "extracted"
-  },
-  "corrections": [
-    {
-      "slot": "casual2",
-      "reason": "Removed oversized speaker hair ornaments and round shoulder bag; preserved textile motifs.",
-      "references": [
-        "canonical light",
-        "casual2 overalls candidate"
-      ]
-    }
-  ],
-  "skipped": [
+  "refill": true,
+  "refill_record": "records/loudred-20261015/refill-casual3-1145",
+  "resolved_skipped": [
     {
       "slot": "casual3",
-      "reason": "Built-in image generation output moderation blocked twice, category sexual. The planned adult resort rinse-off prompt was not modified or replaced to bypass the safety filter. No image created or registered.",
-      "failed_generation_attempts": 2
+      "old_examples": [
+        "swimwear/outdoor_shower"
+      ],
+      "new_example": "swimwear/classic_bikini",
+      "refill_record": "records/loudred-20261015/refill-casual3-1145"
     }
   ]
 }

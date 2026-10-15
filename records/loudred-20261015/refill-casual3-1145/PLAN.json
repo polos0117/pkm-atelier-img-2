@@ -1,0 +1,117 @@
+{
+  "session": "gpt-loudred-refill-20261015-1145",
+  "characters": [
+    {
+      "card": "노공룡",
+      "species": "loudred-refill-20261015-1145",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "lingerie",
+          "ex": "longline_bra",
+          "expr": "calm",
+          "pose": "leaning_furniture",
+          "orient": "leaning_back",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "source_influence": "subtle",
+            "action_level": "mostly posed",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "lingerie_set"
+          ],
+          "scene": "Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+          "outfit": "Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "exampleText": "a longline bra set with a wide supportive underband and matching high-waisted bottoms",
+          "axis_reasons": {
+            "source_influence": "longline_bra: Only garment colour is carried over; no source geometry.",
+            "action_level": "longline_bra: Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+            "separates_preference": "longline_bra: clothing construction is lingerie_set."
+          },
+          "input_reasons": {
+            "scene": "a longline bra set with a wide supportive underband and matching high-waisted bottoms leaves the chosen Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge. details unspecified.",
+            "outfit": "longline_bra leaves these material, colour and exposure details unspecified: Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+            "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+          },
+          "random_adjustment_reason": "longline_bra: leaning_back/three_quarter makes the described leaning_furniture activity readable and avoids ledger pairs; portrait85 fits its working distance.",
+          "kept": true
+        },
+        {
+          "cut": 2,
+          "cat": "source_editorial",
+          "ex": "heavy_architecture",
+          "expr": "confident",
+          "pose": "walking",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "source_influence": "strong",
+            "action_level": "mostly active",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "overalls"
+          ],
+          "scene": "Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+          "outfit": "Violet architectural halter overalls with a sculpted bib and wide trouser legs; open side-waist construction exposes shoulders and waist. Yellow concentric seamwork and folded fabric echo acoustic chambers.",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "exampleText": "Heavy Architectural Tailoring",
+          "axis_reasons": {
+            "source_influence": "heavy_architecture: The specified yellow/purple tailoring carries the acoustic geometry.",
+            "action_level": "heavy_architecture: Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+            "separates_preference": "heavy_architecture: the halter bib and wide trouser legs form one continuous overall garment."
+          },
+          "input_reasons": {
+            "scene": "Heavy Architectural Tailoring leaves the chosen Walking across a sunlit outdoor sculpture courtyard between angular concrete forms. details unspecified.",
+            "outfit": "Heavy Architectural Tailoring leaves garment construction undefined; sculpted halter overalls provide a new clothing silhouette absent from the complete comparison ledger.",
+            "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+          },
+          "random_adjustment_reason": "heavy_architecture: low_angle/environmental makes the described walking activity readable and avoids ledger pairs; wide24 fits its working distance.",
+          "kept": true
+        },
+        {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "classic_bikini",
+          "expr": "focused",
+          "pose": "mid_action",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "bikini"
+          ],
+          "scene": "At a sunlit sandy resort beach, she places a folded striped beach towel into an open wicker beach bag resting on a low wooden bench.",
+          "outfit": "Opaque ribbed fabric with narrow butter-yellow seam piping, showing bare shoulders, midriff and legs.",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "axis_reasons": {
+            "action_level": "Placing a folded towel into a beach bag is gentle hand movement.",
+            "source_influence": "Navy fabric with thin yellow seam piping retains two palette colours without large species props.",
+            "separates_preference": "A bikini has a separate supportive top and high-waisted bottom."
+          },
+          "input_reasons": {
+            "scene": "The classic_bikini example specifies garments only; add a sandy beach and packing a folded towel as an ordinary public leisure activity.",
+            "outfit": "The example fixes navy colour, high waist and halter support; add opaque ribbed fabric and yellow seam piping without changing the garments.",
+            "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+          },
+          "random_adjustment_reason": "Front three-quarter/full body keeps the towel-packing action, both arms and the beach setting readable without copying current ledger pairs; documentary35 gives a natural resort perspective.",
+          "kept": false,
+          "custom": ""
+        }
+      ],
+      "refill": true
+    }
+  ]
+}

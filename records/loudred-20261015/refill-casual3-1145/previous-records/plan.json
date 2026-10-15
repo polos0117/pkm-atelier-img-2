@@ -1,0 +1,471 @@
+{
+  "name": "노공룡",
+  "slug": "loudred",
+  "no": 294,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "purple",
+    "hairstyle": "bob",
+    "hair length": "short",
+    "eye color": "amber",
+    "body type": "athletic"
+  },
+  "wear": "Two circular loudspeaker ears become compact violet and yellow disk hair ornaments; yellow lip markings become a rounded chest-frame trim, short stalks become collar fins, and violet armor carries clean yellow concentric rings.",
+  "scene": "A concrete acoustic test court at dusk with concentric pale-gold vibration rings across the ground.",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "longline_bra",
+      "expr": "calm",
+      "pose": "leaning_furniture",
+      "orient": "leaning_back",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "subtle",
+        "action_level": "mostly posed",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "lingerie_set"
+      ],
+      "scene": "Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+      "outfit": "Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "a longline bra set with a wide supportive underband and matching high-waisted bottoms",
+      "axis_reasons": {
+        "source_influence": "longline_bra: Only garment colour is carried over; no source geometry.",
+        "action_level": "longline_bra: Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+        "separates_preference": "longline_bra: clothing construction is lingerie_set."
+      },
+      "input_reasons": {
+        "scene": "a longline bra set with a wide supportive underband and matching high-waisted bottoms leaves the chosen Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge. details unspecified.",
+        "outfit": "longline_bra leaves these material, colour and exposure details unspecified: Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "longline_bra: leaning_back/three_quarter makes the described leaning_furniture activity readable and avoids ledger pairs; portrait85 fits its working distance.",
+      "random_draws": {
+        "orient": "high_angle",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "locks": [
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "source_editorial",
+      "ex": "heavy_architecture",
+      "expr": "confident",
+      "pose": "walking",
+      "orient": "low_angle",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "strong",
+        "action_level": "mostly active",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "scene": "Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+      "outfit": "Violet architectural halter overalls with a sculpted bib and wide trouser legs; open side-waist construction exposes shoulders and waist. Yellow concentric seamwork and folded fabric echo acoustic chambers.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "Heavy Architectural Tailoring",
+      "axis_reasons": {
+        "source_influence": "heavy_architecture: The specified yellow/purple tailoring carries the acoustic geometry.",
+        "action_level": "heavy_architecture: Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+        "separates_preference": "heavy_architecture: the halter bib and wide trouser legs form one continuous overall garment."
+      },
+      "input_reasons": {
+        "scene": "Heavy Architectural Tailoring leaves the chosen Walking across a sunlit outdoor sculpture courtyard between angular concrete forms. details unspecified.",
+        "outfit": "Heavy Architectural Tailoring leaves garment construction undefined; sculpted halter overalls provide a new clothing silhouette absent from the complete comparison ledger.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536.",
+        "custom": "The overalls candidate retained two large round head ornaments and a circular shoulder bag; request their local removal while retaining printed circles."
+      },
+      "random_adjustment_reason": "heavy_architecture: low_angle/environmental makes the described walking activity readable and avoids ledger pairs; wide24 fits its working distance.",
+      "random_draws": {
+        "orient": "over_shoulder",
+        "frame": "full_body",
+        "lens": "telephoto135"
+      },
+      "locks": [
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "aspect"
+      ],
+      "custom": "Note: Correct the supplied casual scene locally: remove the large circular hair ornaments and the circular shoulder bag; the yellow acoustic circles stay in the overall fabric print."
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "outdoor_shower",
+      "expr": "relieved",
+      "pose": "mid_action",
+      "orient": "front_3q",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "balanced",
+        "action_level": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "scene": "Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream.",
+      "outfit": "Plum fully lined high-leg one-piece with yellow narrow side panels, exposing shoulders and legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "rinsing off at an open-air poolside shower after swimming, still in swimwear",
+      "axis_reasons": {
+        "source_influence": "outdoor_shower: Two palette colours remain in ordinary swim fabric.",
+        "action_level": "outdoor_shower: Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream.",
+        "separates_preference": "outdoor_shower: clothing construction is swimsuit."
+      },
+      "input_reasons": {
+        "scene": "rinsing off at an open-air poolside shower after swimming, still in swimwear leaves the chosen Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream. details unspecified.",
+        "outfit": "outdoor_shower leaves these material, colour and exposure details unspecified: Plum fully lined high-leg one-piece with yellow narrow side panels, exposing shoulders and legs.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "outdoor_shower: front_3q/full_body makes the described mid_action activity readable and avoids ledger pairs; documentary35 fits its working distance.",
+      "random_draws": {
+        "orient": "looking_away",
+        "frame": "full_body",
+        "lens": "portrait85"
+      },
+      "locks": [
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "aspect"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "cut": "casual2",
+      "reason": "Full-history ledger comparison contains jumpsuits; architectural halter overalls are a clothing category absent from all comparison cuts. Initial output is not registered.",
+      "changed": "outfit and garments; category/example/activity/camera unchanged."
+    }
+  ],
+  "batch_plan": {
+    "session": "gpt-loudred-exploud-20261015-1032",
+    "characters": [
+      {
+        "card": "노공룡",
+        "species": "loudred-20261015",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "longline_bra",
+            "expr": "calm",
+            "pose": "leaning_furniture",
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "subtle",
+              "action_level": "mostly posed",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "scene": "Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+            "outfit": "Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "a longline bra set with a wide supportive underband and matching high-waisted bottoms",
+            "axis_reasons": {
+              "source_influence": "longline_bra: Only garment colour is carried over; no source geometry.",
+              "action_level": "longline_bra: Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge.",
+              "separates_preference": "longline_bra: clothing construction is lingerie_set."
+            },
+            "input_reasons": {
+              "scene": "a longline bra set with a wide supportive underband and matching high-waisted bottoms leaves the chosen Late afternoon in a bedroom dressing alcove; she rests her fingertips on a carved vanity edge. details unspecified.",
+              "outfit": "longline_bra leaves these material, colour and exposure details unspecified: Opaque charcoal jersey with plum seam piping; the supportive longline top and high-waisted bottoms expose shoulders, upper waist and thighs.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "longline_bra: leaning_back/three_quarter makes the described leaning_furniture activity readable and avoids ledger pairs; portrait85 fits its working distance."
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "heavy_architecture",
+            "expr": "confident",
+            "pose": "walking",
+            "orient": "low_angle",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "strong",
+              "action_level": "mostly active",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "scene": "Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+            "outfit": "Violet architectural halter overalls with a sculpted bib and wide trouser legs; open side-waist construction exposes shoulders and waist. Yellow concentric seamwork and folded fabric echo acoustic chambers.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "Heavy Architectural Tailoring",
+            "axis_reasons": {
+              "source_influence": "heavy_architecture: The specified yellow/purple tailoring carries the acoustic geometry.",
+              "action_level": "heavy_architecture: Walking across a sunlit outdoor sculpture courtyard between angular concrete forms.",
+              "separates_preference": "heavy_architecture: the halter bib and wide trouser legs form one continuous overall garment."
+            },
+            "input_reasons": {
+              "scene": "Heavy Architectural Tailoring leaves the chosen Walking across a sunlit outdoor sculpture courtyard between angular concrete forms. details unspecified.",
+              "outfit": "Heavy Architectural Tailoring leaves garment construction undefined; sculpted halter overalls provide a new clothing silhouette absent from the complete comparison ledger.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "heavy_architecture: low_angle/environmental makes the described walking activity readable and avoids ledger pairs; wide24 fits its working distance."
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "outdoor_shower",
+            "expr": "relieved",
+            "pose": "mid_action",
+            "orient": "front_3q",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "balanced",
+              "action_level": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream.",
+            "outfit": "Plum fully lined high-leg one-piece with yellow narrow side panels, exposing shoulders and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "rinsing off at an open-air poolside shower after swimming, still in swimwear",
+            "axis_reasons": {
+              "source_influence": "outdoor_shower: Two palette colours remain in ordinary swim fabric.",
+              "action_level": "outdoor_shower: Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream.",
+              "separates_preference": "outdoor_shower: clothing construction is swimsuit."
+            },
+            "input_reasons": {
+              "scene": "rinsing off at an open-air poolside shower after swimming, still in swimwear leaves the chosen Tropical resort shower on a limestone pool terrace at sunset; she rubs water from her forearm under the falling stream. details unspecified.",
+              "outfit": "outdoor_shower leaves these material, colour and exposure details unspecified: Plum fully lined high-leg one-piece with yellow narrow side panels, exposing shoulders and legs.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "outdoor_shower: front_3q/full_body makes the described mid_action activity readable and avoids ledger pairs; documentary35 fits its working distance."
+          }
+        ]
+      },
+      {
+        "card": "폭음룡",
+        "species": "exploud-20261015",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_sensual",
+            "ex": "test_pilot_brief",
+            "expr": "focused",
+            "pose": "sitting",
+            "orient": "side",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "subtle",
+              "action_level": "balanced",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "vest",
+              "shorts"
+            ],
+            "scene": "At a bowl-shaped arena broadcast desk before the match, one hand adjusts an earcup while the other follows pictorial match notes.",
+            "outfit": "A teal sleeveless deep-V waistcoat over a fitted ivory bandeau and separate tailored shorts; exposed shoulders and cleavage above the secure top, bare legs below.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "Pokémon battle commentator checking a headset and reviewing match notes at an arena broadcast desk.",
+            "axis_reasons": {
+              "source_influence": "test_pilot_brief: Only garment colour is carried over; no source geometry.",
+              "action_level": "test_pilot_brief: At a bowl-shaped arena broadcast desk before the match, one hand adjusts an earcup while the other follows pictorial match notes.",
+              "separates_preference": "test_pilot_brief: clothing construction is vest, shorts."
+            },
+            "input_reasons": {
+              "scene": "Pokémon battle commentator checking a headset and reviewing match notes at an arena broadcast desk. leaves the chosen At a bowl-shaped arena broadcast desk before the match, one hand adjusts an earcup while the other follows pictorial match notes. details unspecified.",
+              "outfit": "test_pilot_brief leaves these material, colour and exposure details unspecified: A teal sleeveless deep-V waistcoat over a fitted ivory bandeau and separate tailored shorts; exposed shoulders and cleavage above the secure top, bare legs below.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "test_pilot_brief: side/chest_up makes the described sitting activity readable and avoids ledger pairs; telephoto135 fits its working distance."
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "cheer_costume",
+            "expr": "playful",
+            "pose": "dance_step",
+            "orient": "turning_midmotion",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "strong",
+              "action_level": "mostly active",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "scene": "During a theatrical sports-costume rehearsal on a polished gym floor, she lifts a single ribbon streamer through a sweeping arc.",
+            "outfit": "Purple-and-yellow sleeveless cropped team-colour top and pleated mini skirt, exposing shoulders, midriff and thighs; a tiny semicircle hair clip.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor",
+            "axis_reasons": {
+              "source_influence": "cheer_costume: The specified yellow/purple tailoring carries the acoustic geometry.",
+              "action_level": "cheer_costume: During a theatrical sports-costume rehearsal on a polished gym floor, she lifts a single ribbon streamer through a sweeping arc.",
+              "separates_preference": "cheer_costume: clothing construction is crop_top, skirt."
+            },
+            "input_reasons": {
+              "scene": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor leaves the chosen During a theatrical sports-costume rehearsal on a polished gym floor, she lifts a single ribbon streamer through a sweeping arc. details unspecified.",
+              "outfit": "cheer_costume leaves these material, colour and exposure details unspecified: Purple-and-yellow sleeveless cropped team-colour top and pleated mini skirt, exposing shoulders, midriff and thighs; a tiny semicircle hair clip.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "cheer_costume: turning_midmotion/three_quarter makes the described dance_step activity readable and avoids ledger pairs; natural50 fits its working distance."
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_sensual",
+            "ex": "balcony_plants",
+            "expr": "gentle",
+            "pose": "watering",
+            "orient": "looking_down",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "source_influence": "subtle",
+              "action_level": "mostly active",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Morning sun catches droplets above a balcony planter of blue flowering herbs; her fingertips guide the small watering can spout.",
+            "outfit": "A fitted teal knit mini dress with a halter neckline and oval side-waist cutouts, showing shoulders, waist and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "exampleText": "watering balcony plants in a fitted knit dress, morning light across the railing",
+            "axis_reasons": {
+              "source_influence": "balcony_plants: Only garment colour is carried over; no source geometry.",
+              "action_level": "balcony_plants: Morning sun catches droplets above a balcony planter of blue flowering herbs; her fingertips guide the small watering can spout.",
+              "separates_preference": "balcony_plants: clothing construction is dress."
+            },
+            "input_reasons": {
+              "scene": "watering balcony plants in a fitted knit dress, morning light across the railing leaves the chosen Morning sun catches droplets above a balcony planter of blue flowering herbs; her fingertips guide the small watering can spout. details unspecified.",
+              "outfit": "balcony_plants leaves these material, colour and exposure details unspecified: A fitted teal knit mini dress with a halter neckline and oval side-waist cutouts, showing shoulders, waist and legs.",
+              "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+            },
+            "random_adjustment_reason": "balcony_plants: looking_down/waist_up makes the described watering activity readable and avoids ledger pairs; documentary35 fits its working distance."
+          }
+        ]
+      }
+    ]
+  },
+  "check_result": "계획 통과 — 2명",
+  "reservation_commit": "e03cf32afa0a5bf56f05645d54aa590b7bc0a9ab",
+  "comparison_ledger": "records/casual-ledger.json complete history",
+  "faceEvidence": {
+    "name": "노공룡",
+    "en": "Loudred",
+    "line": "소곤룡",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "square broad jaw",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "thick low brows",
+      "nose character": "rounded soft tip",
+      "lips": "wide mouth"
+    },
+    "why": "각진 몸통과 원형 스피커 귀는 짧고 넓은 얼굴·단단한 턱과 대비되는 둥근 눈으로 해석한다. 넓은 입 윤곽은 넓은 사람 입술선, 짧은 코는 둥근 코끝으로 옮긴다.",
+    "cues": [
+      "몸 형태 upright → 얼굴형 균형 잡힌 타원형"
+    ],
+    "adjusted": ""
+  },
+  "sourceEvidence": {
+    "name": "노공룡",
+    "en": "Loudred",
+    "color": "blue",
+    "shape": "upright",
+    "features": [
+      {
+        "part": "stripe",
+        "detail": "yellow stripes"
+      },
+      {
+        "part": "stalk",
+        "detail": "two short stalks"
+      },
+      {
+        "part": "lip",
+        "detail": "yellow lips"
+      },
+      {
+        "part": "ring",
+        "detail": "only single black ring"
+      },
+      {
+        "part": "tooth",
+        "detail": "peg-like teeth"
+      },
+      {
+        "part": "nose",
+        "detail": "stubby nose"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Loudred_%28Pok%C3%A9mon%29",
+    "revision": 4630360,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "1e4af1d44c9718e14121d66b984d3b670d78d81e335cdf461c2f1c0df077a0aa",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "corrections": [
+    {
+      "slot": "casual2",
+      "reason": "Removed oversized speaker hair ornaments and round shoulder bag; preserved textile motifs.",
+      "references": [
+        "canonical light",
+        "casual2 overalls candidate"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "slot": "casual3",
+      "reason": "Built-in image generation output moderation blocked twice, category sexual. The planned adult resort rinse-off prompt was not modified or replaced to bypass the safety filter. No image created or registered.",
+      "failed_generation_attempts": 2
+    }
+  ]
+}

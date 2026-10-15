@@ -80,15 +80,29 @@
         1024,
         1536
       ]
+    },
+    "casual3": {
+      "source": "/workspace/scratch/ee0a0861f18d/generated_images/exec-d833100e-78a2-4690-86cd-7d32bae51d08.png",
+      "output": "/workspace/scratch/ee0a0861f18d/pkm-atelier-img-2/img/노공룡_glossy_promo_f_casual3.webp",
+      "sha256": "fbf96b612f5e32e387c4cac30f2c399b9e8eb5ede91fca88189f9556fe5a868e",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference": "img/노공룡_light_glossy_promo_f.webp",
+      "record": "records/loudred-20261015/refill-casual3-1145"
     }
   },
   "mode": "built-in image_gen",
-  "skipped": [
+  "skipped": [],
+  "recovery_note": "Final PNG originals are copied into project WebPs; WebP paths and SHA-256 are durable after the character image commit. Generated scratch paths alone are not recovery evidence.",
+  "resolved_skipped": [
     {
       "slot": "casual3",
       "reason": "Built-in image generation output moderation blocked twice, category sexual. The planned adult resort rinse-off prompt was not modified or replaced to bypass the safety filter. No image created or registered.",
       "failed_generation_attempts": 2
     }
   ],
-  "recovery_note": "Final PNG originals are copied into project WebPs; WebP paths and SHA-256 are durable after the character image commit. Generated scratch paths alone are not recovery evidence."
+  "generation_count": 9,
+  "reservation_commit": "16bdb31fdeab49e15eedf6db00b69a5709f0aed8"
 }
