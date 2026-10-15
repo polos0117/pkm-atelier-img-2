@@ -1,0 +1,36 @@
+{
+  "card": "노공룡",
+  "slot": "casual3",
+  "canonical": "img/노공룡_light_glossy_promo_f.webp",
+  "original_record": "records/loudred-20261015/casual3-ui.json",
+  "reservation": "Existing outdoor_shower slot was reserved before original generation; scene and three ledger comparison axes are unchanged.",
+  "original_reservation_commit": "31bf44655ff205a4eb4b30fe5732c18449374ab6",
+  "historical_batch_check": "PASS 2 characters against original pre-generation ledger; current whole-batch check fails low-category rotation on existing already-registered casual2, which is preserved.",
+  "changed": {
+    "overall_intensity": [
+      "strong",
+      "bold"
+    ],
+    "skin_exposure": [
+      "bold",
+      "moderate"
+    ],
+    "outfit": [
+      "high-leg one-piece",
+      "high-neck boy-leg athletic one-piece"
+    ]
+  },
+  "latest_cut_check": "outdoor_shower unused by other current recent entries, front_3q/full_body pair distinct from comparison entries; scene, activity, direction, framing and three comparison axes unchanged.",
+  "user_authorization": "노공룡 수위를 조금 낮춰서 다시 시도해줘",
+  "references": [
+    "canonical light only"
+  ],
+  "locks": [
+    "axis-overall_intensity",
+    "axis-skin_exposure",
+    "aspect"
+  ],
+  "canonical_sha256": "9615a56b834fafca85f748ce972098b9b004e0b7319e93166430fa7c65fd1844",
+  "base_image_commit": "b40363b8f55da5a7aec6e3704fcdda47a3ce98cb",
+  "overrides_reason": "The user requested a lower-intensity retry; these two values intentionally override IMAGE_RULES default strong/bold for this cut only."
+}
