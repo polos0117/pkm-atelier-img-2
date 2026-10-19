@@ -1,0 +1,641 @@
+{
+  "card": "마이농",
+  "style": "glossy_promo",
+  "batch_plan": {
+    "session": "gpt-minun-volbeat-20261019",
+    "characters": [
+      {
+        "card": "마이농",
+        "species": "minun-20261019",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_pokeblock",
+            "expr": "focused",
+            "pose": "preparing_food",
+            "orient": "looking_down",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "blouse",
+              "shorts"
+            ],
+            "scene": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board.",
+            "outfit": "A butter-yellow sleeveless blouse tied at the waist and powder-blue shorts expose shoulders, midriff and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Preparing colorful Pokéblock-inspired berry treats with a cutting board and small food molds at home.",
+            "random_draws": {
+              "orient": {
+                "drawn": "side",
+                "selected": "looking_down",
+                "reason": "food_pokeblock 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "chest_up",
+                "selected": "waist_up",
+                "reason": "food_pokeblock 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "natural50",
+                "reason": "food_pokeblock 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board.",
+                "reason": "Preparing colorful Pokéblock-inspired berry treats with a cutting board and small food molds at home. 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "A butter-yellow sleeveless blouse tied at the waist and powder-blue shorts expose shoulders, midriff and thighs.",
+                "reason": "food_pokeblock에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board.의 움직임에 맞춤.",
+              "source_influence": "A butter-yellow sleeveless blouse tied at the waist and powder-blue shorts expose shoulders, midriff and thighs.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "blouse / shorts의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "traditional",
+            "ex": "qipao_daily",
+            "expr": "pensive",
+            "pose": "holding_cup",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "traditional",
+              "dress"
+            ],
+            "scene": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk.",
+            "outfit": "The ivory sleeveless qipao has blue edging, an open upper back and a deep side slit, exposing shoulders, back and one leg.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Qipao — Modern Daily",
+            "random_draws": {
+              "orient": {
+                "drawn": "profile_close",
+                "selected": "profile_close",
+                "reason": "qipao_daily 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "full_body",
+                "selected": "chest_up",
+                "reason": "qipao_daily 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "telephoto135",
+                "selected": "portrait85",
+                "reason": "qipao_daily 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk.",
+                "reason": "Qipao — Modern Daily 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "The ivory sleeveless qipao has blue edging, an open upper back and a deep side slit, exposing shoulders, back and one leg.",
+                "reason": "qipao_daily에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk.의 움직임에 맞춤.",
+              "source_influence": "The ivory sleeveless qipao has blue edging, an open upper back and a deep side slit, exposing shoulders, back and one leg.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "traditional / dress의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "asymmetric_swim",
+            "expr": "relieved",
+            "pose": "stretching",
+            "orient": "front",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block.",
+            "outfit": "The fully lined one-shoulder swimsuit is cream with a blue diagonal panel and high-cut legs, exposing shoulders, upper back and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "an asymmetric one-shoulder swimsuit with a single wide strap and a clean diagonal neckline",
+            "random_draws": {
+              "orient": {
+                "drawn": "crouching",
+                "selected": "front",
+                "reason": "asymmetric_swim 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "three_quarter",
+                "selected": "full_body",
+                "reason": "asymmetric_swim 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "documentary35",
+                "reason": "asymmetric_swim 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block.",
+                "reason": "an asymmetric one-shoulder swimsuit with a single wide strap and a clean diagonal neckline 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "The fully lined one-shoulder swimsuit is cream with a blue diagonal panel and high-cut legs, exposing shoulders, upper back and thighs.",
+                "reason": "asymmetric_swim에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block.의 움직임에 맞춤.",
+              "source_influence": "The fully lined one-shoulder swimsuit is cream with a blue diagonal panel and high-cut legs, exposing shoulders, upper back and thighs.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "swimsuit의 실제 상하 분리 구조에 맞춤."
+            }
+          }
+        ]
+      },
+      {
+        "card": "볼비트",
+        "species": "volbeat-20261019",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "bunny",
+            "expr": "mischievous",
+            "pose": "dance_step",
+            "orient": "turning_midmotion",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "uniform"
+            ],
+            "scene": "At a small revue rehearsal a brass footlight illuminates a half-circle of parquet flooring and a red velvet curtain.",
+            "outfit": "The opaque navy fitted one-piece costume has a high-cut leg, bare shoulders and a low back; golden cuffs, bow-tie collar and a rabbit-ear headband complete the stage outfit.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a retro casino bunny costume with a fitted one-piece garment, cuffs, bow-tie collar, and rabbit-ear headband, on a stage floor"
+          },
+          {
+            "cut": 2,
+            "cat": "festivals_contests",
+            "ex": "fest_lantern",
+            "expr": "curious",
+            "pose": "walking",
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "scene": "Warm paper lanterns hang above a stone footbridge; she carries a grilled berry skewer while strolling past the glowing reflections.",
+            "outfit": "A slate-blue halter short jumpsuit with a deep open back and side waist cutouts exposes back, waist and thighs; two fine golden bands trim the bodice.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs."
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_basic",
+            "ex": "pottery_class",
+            "expr": "amused",
+            "pose": "sitting",
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "apron",
+              "tank",
+              "skirt"
+            ],
+            "scene": "At a pottery wheel in an afternoon ceramics class she smooths the rim of a small wet clay bowl, a sponge and clay tools on the shelf beside her.",
+            "outfit": "A short rust-colored apron over a low-backed charcoal tank and yellow wrap miniskirt leaves shoulders, back and thighs exposed.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Pottery / Craft Class"
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "food_berries",
+      "ex": "food_pokeblock",
+      "expr": "focused",
+      "pose": "preparing_food",
+      "orient": "looking_down",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "blouse",
+        "shorts"
+      ],
+      "scene": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board.",
+      "outfit": "A butter-yellow sleeveless blouse tied at the waist and powder-blue shorts expose shoulders, midriff and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "Preparing colorful Pokéblock-inspired berry treats with a cutting board and small food molds at home.",
+      "random_draws": {
+        "orient": {
+          "drawn": "side",
+          "selected": "looking_down",
+          "reason": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board. 활동과 blouse, shorts 의상이 읽히고 최근 비교 컷과 다른 구도가 되도록 orient를 looking_down로 확정."
+        },
+        "frame": {
+          "drawn": "chest_up",
+          "selected": "waist_up",
+          "reason": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board. 활동과 blouse, shorts 의상이 읽히고 최근 비교 컷과 다른 구도가 되도록 frame를 waist_up로 확정."
+        },
+        "lens": {
+          "drawn": "natural50",
+          "selected": "natural50",
+          "reason": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board. 활동과 blouse, shorts 의상이 읽히고 최근 비교 컷과 다른 구도가 되도록 lens를 natural50로 확정."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board.",
+          "reason": "food_pokeblock가 지정하지 않은 시간·도구·활동 세부를 정함: Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board."
+        },
+        {
+          "field": "outfit",
+          "text": "A butter-yellow sleeveless blouse tied at the waist and powder-blue shorts expose shoulders, midriff and thighs.",
+          "reason": "food_pokeblock가 정하지 않은 소재·색·옷의 노출 구조를 정함: A butter-yellow sleeveless blouse tied at the waist and powder-blue shorts expose shoulders, midriff and thighs."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board.의 움직임에 맞춤.",
+        "source_influence": "A butter-yellow sleeveless blouse tied at the waist and powder-blue shorts expose shoulders, midriff and thighs.에 있는 색과 형태가 원작을 드러내는 정도.",
+        "separates_preference": "blouse / shorts의 실제 상하 분리 구조에 맞춤."
+      },
+      "actual_selections": {
+        "expr": "focused",
+        "pose": "preparing_food",
+        "orient": "looking_down",
+        "scene": "Morning light falls across a tiled kitchen counter as she presses pale blue berry mixture into little square molds beside the chopping board.",
+        "outfit": "A butter-yellow sleeveless blouse tied at the waist and powder-blue shorts expose shoulders, midriff and thighs.",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "food_berries",
+        "catCustom": "",
+        "ex": "food_pokeblock",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "traditional",
+      "ex": "qipao_daily",
+      "expr": "pensive",
+      "pose": "holding_cup",
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "traditional",
+        "dress"
+      ],
+      "scene": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk.",
+      "outfit": "The ivory sleeveless qipao has blue edging, an open upper back and a deep side slit, exposing shoulders, back and one leg.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a modern daily qipao — fitted mandarin-collar dress with frog buttons and side slits",
+      "random_draws": {
+        "orient": {
+          "drawn": "profile_close",
+          "selected": "profile_close",
+          "reason": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk. 활동과 traditional, dress 의상이 읽히고 최근 비교 컷과 다른 구도가 되도록 orient를 profile_close로 확정."
+        },
+        "frame": {
+          "drawn": "full_body",
+          "selected": "chest_up",
+          "reason": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk. 활동과 traditional, dress 의상이 읽히고 최근 비교 컷과 다른 구도가 되도록 frame를 chest_up로 확정."
+        },
+        "lens": {
+          "drawn": "telephoto135",
+          "selected": "portrait85",
+          "reason": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk. 활동과 traditional, dress 의상이 읽히고 최근 비교 컷과 다른 구도가 되도록 lens를 portrait85로 확정."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk.",
+          "reason": "qipao_daily가 지정하지 않은 시간·도구·활동 세부를 정함: She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk."
+        },
+        {
+          "field": "outfit",
+          "text": "The ivory sleeveless qipao has blue edging, an open upper back and a deep side slit, exposing shoulders, back and one leg.",
+          "reason": "qipao_daily가 정하지 않은 소재·색·옷의 노출 구조를 정함: The ivory sleeveless qipao has blue edging, an open upper back and a deep side slit, exposing shoulders, back and one leg."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk.의 움직임에 맞춤.",
+        "source_influence": "The ivory sleeveless qipao has blue edging, an open upper back and a deep side slit, exposing shoulders, back and one leg.에 있는 색과 형태가 원작을 드러내는 정도.",
+        "separates_preference": "traditional / dress의 실제 상하 분리 구조에 맞춤."
+      },
+      "actual_selections": {
+        "expr": "pensive",
+        "pose": "holding_cup",
+        "orient": "profile_close",
+        "scene": "She warms both hands around a small porcelain tea cup by the open window of a tea pavilion at dusk.",
+        "outfit": "The ivory sleeveless qipao has blue edging, an open upper back and a deep side slit, exposing shoulders, back and one leg.",
+        "frame": "chest_up",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "traditional",
+        "catCustom": "",
+        "ex": "qipao_daily",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "asymmetric_swim",
+      "expr": "relieved",
+      "pose": "stretching",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "scene": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block.",
+      "outfit": "The fully lined one-shoulder swimsuit is cream with a blue diagonal panel and high-cut legs, exposing shoulders, upper back and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "an asymmetric one-shoulder swimsuit with a single wide strap and a clean diagonal neckline",
+      "random_draws": {
+        "orient": {
+          "drawn": "crouching",
+          "selected": "front",
+          "reason": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block. 활동과 swimsuit 의상이 읽히고 최근 비교 컷과 다른 구도가 되도록 orient를 front로 확정."
+        },
+        "frame": {
+          "drawn": "three_quarter",
+          "selected": "full_body",
+          "reason": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block. 활동과 swimsuit 의상이 읽히고 최근 비교 컷과 다른 구도가 되도록 frame를 full_body로 확정."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "documentary35",
+          "reason": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block. 활동과 swimsuit 의상이 읽히고 최근 비교 컷과 다른 구도가 되도록 lens를 documentary35로 확정."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block.",
+          "reason": "asymmetric_swim가 지정하지 않은 시간·도구·활동 세부를 정함: After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block."
+        },
+        {
+          "field": "outfit",
+          "text": "The fully lined one-shoulder swimsuit is cream with a blue diagonal panel and high-cut legs, exposing shoulders, upper back and thighs.",
+          "reason": "asymmetric_swim가 정하지 않은 소재·색·옷의 노출 구조를 정함: The fully lined one-shoulder swimsuit is cream with a blue diagonal panel and high-cut legs, exposing shoulders, upper back and thighs."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block.의 움직임에 맞춤.",
+        "source_influence": "The fully lined one-shoulder swimsuit is cream with a blue diagonal panel and high-cut legs, exposing shoulders, upper back and thighs.에 있는 색과 형태가 원작을 드러내는 정도.",
+        "separates_preference": "swimsuit의 실제 상하 분리 구조에 맞춤."
+      },
+      "actual_selections": {
+        "expr": "relieved",
+        "pose": "stretching",
+        "orient": "front",
+        "scene": "After a morning swim she stretches beside the tiled starting block of a bright outdoor lap pool, a rolled blue towel on the block.",
+        "outfit": "The fully lined one-shoulder swimsuit is cream with a blue diagonal panel and high-cut legs, exposing shoulders, upper back and thighs.",
+        "frame": "full_body",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "swimwear",
+        "catCustom": "",
+        "ex": "asymmetric_swim",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    }
+  ],
+  "check": "passed before reserve",
+  "reservation_commit": "d2675a68babd0510395ac3a120de8a77a28c315c",
+  "generation_mode": "built-in image_gen",
+  "regenerations": [
+    {
+      "slot": "light",
+      "attempt": 1,
+      "problem": "귀 장식 상단 잘림과 플러스 문양",
+      "changed_inputs": {
+        "motifs": "마이너스 가로 막대와 가는 귀 장식",
+        "camera": "머리 장식과 발 아래 여백"
+      },
+      "reference": null
+    },
+    {
+      "slot": "light",
+      "attempt": 2,
+      "problem": "귀 장식 상단 여전히 잘림",
+      "changed_inputs": {
+        "camera": "인물과 귀 장식을 세로 중앙 80%에 넣고 상하 여백"
+      },
+      "reference": null
+    }
+  ]
+}
