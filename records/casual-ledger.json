@@ -5805,9 +5805,9 @@
   {
    "species": "azurill-20261019",
    "card": "루리리",
-   "status": "reserved",
-   "session": "gpt-azurill-nosepass-20261019-1518",
+   "repo": "pkm-atelier-img-2",
    "at": "2026-10-19T15:28:22+09:00",
+   "status": "done",
    "cuts": [
     {
      "cut": 1,
@@ -5819,11 +5819,9 @@
      "frame": "waist_up",
      "lens": "portrait85",
      "axes": {
-      "source_influence": "balanced",
       "action_level": "balanced",
-      "separates_preference": "strongly prefer separates",
-      "overall_intensity": "strong",
-      "skin_exposure": "bold"
+      "source_influence": "balanced",
+      "separates_preference": "strongly prefer separates"
      },
      "garments": [
       "knit_top",
@@ -5840,13 +5838,12 @@
      "frame": "environmental",
      "lens": "wide24",
      "axes": {
-      "source_influence": "subtle",
       "action_level": "mostly posed",
-      "separates_preference": "balanced",
-      "overall_intensity": "strong",
-      "skin_exposure": "bold"
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
      },
      "garments": [
+      "crop_top",
       "overalls"
      ]
     },
@@ -5860,24 +5857,20 @@
      "frame": "three_quarter",
      "lens": "natural50",
      "axes": {
-      "source_influence": "subtle",
       "action_level": "mostly posed",
-      "separates_preference": "prefer separates",
-      "overall_intensity": "strong",
-      "skin_exposure": "bold"
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
      },
-     "garments": [
-      "lingerie_set"
-     ]
+     "garments": []
     }
    ]
   },
   {
    "species": "nosepass-20261019",
    "card": "코코파스",
-   "status": "reserved",
-   "session": "gpt-azurill-nosepass-20261019-1518",
+   "repo": "pkm-atelier-img-2",
    "at": "2026-10-19T15:28:22+09:00",
+   "status": "done",
    "cuts": [
     {
      "cut": 1,
@@ -5889,15 +5882,14 @@
      "frame": "environmental",
      "lens": "documentary35",
      "axes": {
-      "source_influence": "strong",
       "action_level": "balanced",
-      "separates_preference": "prefer separates",
-      "overall_intensity": "strong",
-      "skin_exposure": "bold"
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "vest",
-      "skirt"
+      "crop_top",
+      "skirt",
+      "vest"
      ]
     },
     {
@@ -5910,15 +5902,11 @@
      "frame": "full_body",
      "lens": "portrait85",
      "axes": {
-      "source_influence": "balanced",
       "action_level": "mostly posed",
-      "separates_preference": "balanced",
-      "overall_intensity": "strong",
-      "skin_exposure": "bold"
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
      },
-     "garments": [
-      "swimsuit"
-     ]
+     "garments": []
     },
     {
      "cut": 3,
@@ -5930,13 +5918,12 @@
      "frame": "waist_up",
      "lens": "natural50",
      "axes": {
-      "source_influence": "subtle",
       "action_level": "balanced",
-      "separates_preference": "strongly prefer separates",
-      "overall_intensity": "strong",
-      "skin_exposure": "bold"
+      "source_influence": "subtle",
+      "separates_preference": "strongly prefer separates"
      },
      "garments": [
+      "crop_top",
       "jacket",
       "shorts"
      ]
@@ -5945,5 +5932,5 @@
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-19T15:28:22+09:00"
+ "updated": "2026-10-19T15:52:08+09:00"
 }
