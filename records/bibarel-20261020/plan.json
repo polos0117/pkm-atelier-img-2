@@ -1,0 +1,622 @@
+{
+  "card": "비버통",
+  "style": "glossy_promo",
+  "batch_plan": {
+    "session": "gpt-bidoof-bibarel-20261020",
+    "characters": [
+      {
+        "card": "비버니",
+        "species": "bidoof-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "adult_maid",
+            "expr": "amused",
+            "pose": "carrying_something",
+            "orient": "front_3q",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress",
+              "apron"
+            ],
+            "scene": "During a theater costume rehearsal she carries a folded linen stack toward a prop sideboard beneath warm footlights.",
+            "outfit": "The black-and-white costume has short puff sleeves, a low square neckline, a full white apron ending above the knees and side waist cutouts, exposing collarbones, waist and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a black-and-white maid costume with a structured bodice, puffed sleeves, and a full apron, at a costume event",
+            "random_draws": {
+              "orient": {
+                "drawn": "high_angle",
+                "selected": "front_3q",
+                "reason": "adult_maid 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "three_quarter",
+                "reason": "adult_maid 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "natural50",
+                "reason": "adult_maid 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "During a theater costume rehearsal she carries a folded linen stack toward a prop sideboard beneath warm footlights.",
+                "reason": "a black-and-white maid costume with a structured bodice, puffed sleeves, and a full apron, at a costume event 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "The black-and-white costume has short puff sleeves, a low square neckline, a full white apron ending above the knees and side waist cutouts, exposing collarbones, waist and thighs.",
+                "reason": "adult_maid에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "During a theater costume rehearsal she carries a folded linen stack toward a prop sideboard beneath warm footlights.의 움직임에 맞춤.",
+              "source_influence": "The black-and-white costume has short puff sleeves, a low square neckline, a full white apron ending above the knees and side waist cutouts, exposing collarbones, waist and thighs.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "dress / apron의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_basic",
+            "ex": "architecture_engineer",
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "reaching_up",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "scene": "Morning skylight falls over a riverside habitat-design studio; she lifts a balsa roof section onto a shelf of nest models while reeds and timber samples cover the drafting table.",
+            "outfit": "Chestnut short overalls with a cream bib panel have open sides and a low back over an opaque fitted bandeau, leaving shoulders, waist and thighs visible; curved pocket piping recalls clustered fur tufts.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Pokémon habitat designer arranging shelter scale models, nest materials and habitat plans on a studio table.",
+            "random_draws": {
+              "orient": {
+                "drawn": "leaning_back",
+                "selected": "reaching_up",
+                "reason": "architecture_engineer 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "environmental",
+                "reason": "architecture_engineer 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "wide24",
+                "reason": "architecture_engineer 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Morning skylight falls over a riverside habitat-design studio; she lifts a balsa roof section onto a shelf of nest models while reeds and timber samples cover the drafting table.",
+                "reason": "Pokémon habitat designer arranging shelter scale models, nest materials and habitat plans on a studio table. 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "Chestnut short overalls with a cream bib panel have open sides and a low back over an opaque fitted bandeau, leaving shoulders, waist and thighs visible; curved pocket piping recalls clustered fur tufts.",
+                "reason": "architecture_engineer에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Morning skylight falls over a riverside habitat-design studio; she lifts a balsa roof section onto a shelf of nest models while reeds and timber samples cover the drafting table.의 움직임에 맞춤.",
+              "source_influence": "Chestnut short overalls with a cream bib panel have open sides and a low back over an opaque fitted bandeau, leaving shoulders, waist and thighs visible; curved pocket piping recalls clustered fur tufts.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "overalls의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "satin_set",
+            "expr": "pensive",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "scene": "At her bedroom vanity after sunset she screws the cap onto a small glass scent bottle while a fabric-lined jewelry tray rests beside the mirror.",
+            "outfit": "The opaque deep-copper satin top has a bias-cut neckline and thin straps above matching high-waisted bottoms, showing shoulders, upper back and a band of midriff. Cream scalloped seam insets echo clustered tufts along the top and the broad pale panel of the bottoms.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a satin lingerie set with a smooth bias-cut top and matching bottoms in a single deep colour",
+            "random_draws": {
+              "orient": {
+                "drawn": "high_angle",
+                "selected": "seated_twist",
+                "reason": "satin_set 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "waist_up",
+                "selected": "waist_up",
+                "reason": "satin_set 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "documentary35",
+                "selected": "portrait85",
+                "reason": "satin_set 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "At her bedroom vanity after sunset she screws the cap onto a small glass scent bottle while a fabric-lined jewelry tray rests beside the mirror.",
+                "reason": "a satin lingerie set with a smooth bias-cut top and matching bottoms in a single deep colour 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "The opaque deep-copper satin top has a bias-cut neckline and thin straps above matching high-waisted bottoms, showing shoulders, upper back and a band of midriff. Cream scalloped seam insets echo clustered tufts along the top and the broad pale panel of the bottoms.",
+                "reason": "satin_set에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "At her bedroom vanity after sunset she screws the cap onto a small glass scent bottle while a fabric-lined jewelry tray rests beside the mirror.의 움직임에 맞춤.",
+              "source_influence": "The opaque deep-copper satin top has a bias-cut neckline and thin straps above matching high-waisted bottoms, showing shoulders, upper back and a band of midriff. Cream scalloped seam insets echo clustered tufts along the top and the broad pale panel of the bottoms.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "lingerie_set의 실제 상하 분리 구조에 맞춤."
+            }
+          }
+        ]
+      },
+      {
+        "card": "비버통",
+        "species": "bibarel-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_sensual",
+            "ex": "prototype_consultant",
+            "expr": "determined",
+            "pose": "mid_action",
+            "orient": "looking_away",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "scene": "Late-afternoon light fills a riverside equipment atelier; she threads a saddlebag strap through a brass harness buckle above a padded leatherwork bench.",
+            "outfit": "A tan sleeveless short utility jumpsuit has a deep open back and side waist cutouts, leaving shoulders, back, waist and thighs visible; its broad chest panel and flat belt tab echo a beaver bib and paddle tail.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Ride-Pokémon gear stylist fitting a travel harness and matching saddlebags in an equipment atelier.",
+            "random_draws": {
+              "orient": {
+                "drawn": "crouching",
+                "selected": "looking_away",
+                "reason": "prototype_consultant 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "chest_up",
+                "selected": "full_body",
+                "reason": "prototype_consultant 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "documentary35",
+                "reason": "prototype_consultant 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Late-afternoon light fills a riverside equipment atelier; she threads a saddlebag strap through a brass harness buckle above a padded leatherwork bench.",
+                "reason": "Ride-Pokémon gear stylist fitting a travel harness and matching saddlebags in an equipment atelier. 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "A tan sleeveless short utility jumpsuit has a deep open back and side waist cutouts, leaving shoulders, back, waist and thighs visible; its broad chest panel and flat belt tab echo a beaver bib and paddle tail.",
+                "reason": "prototype_consultant에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Late-afternoon light fills a riverside equipment atelier; she threads a saddlebag strap through a brass harness buckle above a padded leatherwork bench.의 움직임에 맞춤.",
+              "source_influence": "A tan sleeveless short utility jumpsuit has a deep open back and side waist cutouts, leaving shoulders, back, waist and thighs visible; its broad chest panel and flat belt tab echo a beaver bib and paddle tail.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "jumpsuit의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "monokini",
+            "expr": "relieved",
+            "pose": "stretching",
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "At a lakeside resort pontoon she stretches after a swim beside the metal water ladder, with concentric ripples catching noon sunlight.",
+            "outfit": "The fully lined cocoa monokini has cream asymmetric side cutouts joined by a solid central panel and secure wide straps, revealing shoulders, side waist and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a sculptural monokini with asymmetric side cut-outs joined by a solid central panel",
+            "random_draws": {
+              "orient": {
+                "drawn": "crouching",
+                "selected": "leaning_back",
+                "reason": "monokini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "three_quarter",
+                "reason": "monokini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "natural50",
+                "reason": "monokini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "At a lakeside resort pontoon she stretches after a swim beside the metal water ladder, with concentric ripples catching noon sunlight.",
+                "reason": "a sculptural monokini with asymmetric side cut-outs joined by a solid central panel 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "The fully lined cocoa monokini has cream asymmetric side cutouts joined by a solid central panel and secure wide straps, revealing shoulders, side waist and thighs.",
+                "reason": "monokini에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "At a lakeside resort pontoon she stretches after a swim beside the metal water ladder, with concentric ripples catching noon sunlight.의 움직임에 맞춤.",
+              "source_influence": "The fully lined cocoa monokini has cream asymmetric side cutouts joined by a solid central panel and secure wide straps, revealing shoulders, side waist and thighs.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "swimsuit의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "tea_ceremony_night",
+            "expr": "calm",
+            "pose": "sitting",
+            "orient": "side",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Under an amber floor lamp she arranges a small celadon teapot and two cups on a low walnut tea table; blue evening light falls across a riverside window.",
+            "outfit": "A copper robe-like wrap evening dress has short flowing sleeves and a plunging crossed neckline secured over an opaque inner panel, with a high side slit and open upper back exposing collarbones, back and one leg.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Evening Tea Ceremony",
+            "random_draws": {
+              "orient": {
+                "drawn": "looking_down",
+                "selected": "side",
+                "reason": "tea_ceremony_night 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "chest_up",
+                "selected": "chest_up",
+                "reason": "tea_ceremony_night 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "telephoto135",
+                "reason": "tea_ceremony_night 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Under an amber floor lamp she arranges a small celadon teapot and two cups on a low walnut tea table; blue evening light falls across a riverside window.",
+                "reason": "Evening Tea Ceremony 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "A copper robe-like wrap evening dress has short flowing sleeves and a plunging crossed neckline secured over an opaque inner panel, with a high side slit and open upper back exposing collarbones, back and one leg.",
+                "reason": "tea_ceremony_night에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Under an amber floor lamp she arranges a small celadon teapot and two cups on a low walnut tea table; blue evening light falls across a riverside window.의 움직임에 맞춤.",
+              "source_influence": "A copper robe-like wrap evening dress has short flowing sleeves and a plunging crossed neckline secured over an opaque inner panel, with a high side slit and open upper back exposing collarbones, back and one leg.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "dress의 실제 상하 분리 구조에 맞춤."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "occupation_sensual",
+      "ex": "prototype_consultant",
+      "expr": "determined",
+      "pose": "mid_action",
+      "orient": "looking_away",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "scene": "Late-afternoon light fills a riverside equipment atelier; she threads a saddlebag strap through a brass harness buckle above a padded leatherwork bench.",
+      "outfit": "A tan sleeveless short utility jumpsuit has a deep open back and side waist cutouts, leaving shoulders, back, waist and thighs visible; its broad chest panel and flat belt tab echo a beaver bib and paddle tail.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "Ride-Pokémon gear stylist fitting a travel harness and matching saddlebags in an equipment atelier.",
+      "random_draws": {
+        "orient": {
+          "drawn": "crouching",
+          "selected": "looking_away",
+          "reason": "prototype_consultant 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "frame": {
+          "drawn": "chest_up",
+          "selected": "full_body",
+          "reason": "prototype_consultant 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "lens": {
+          "drawn": "natural50",
+          "selected": "documentary35",
+          "reason": "prototype_consultant 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Late-afternoon light fills a riverside equipment atelier; she threads a saddlebag strap through a brass harness buckle above a padded leatherwork bench.",
+          "reason": "Ride-Pokémon gear stylist fitting a travel harness and matching saddlebags in an equipment atelier. 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+        },
+        {
+          "field": "outfit",
+          "text": "A tan sleeveless short utility jumpsuit has a deep open back and side waist cutouts, leaving shoulders, back, waist and thighs visible; its broad chest panel and flat belt tab echo a beaver bib and paddle tail.",
+          "reason": "prototype_consultant에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Late-afternoon light fills a riverside equipment atelier; she threads a saddlebag strap through a brass harness buckle above a padded leatherwork bench.의 움직임에 맞춤.",
+        "source_influence": "A tan sleeveless short utility jumpsuit has a deep open back and side waist cutouts, leaving shoulders, back, waist and thighs visible; its broad chest panel and flat belt tab echo a beaver bib and paddle tail.에 있는 색과 형태가 원작을 드러내는 정도.",
+        "separates_preference": "jumpsuit의 실제 상하 분리 구조에 맞춤."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "monokini",
+      "expr": "relieved",
+      "pose": "stretching",
+      "orient": "leaning_back",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "scene": "At a lakeside resort pontoon she stretches after a swim beside the metal water ladder, with concentric ripples catching noon sunlight.",
+      "outfit": "The fully lined cocoa monokini has cream asymmetric side cutouts joined by a solid central panel and secure wide straps, revealing shoulders, side waist and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a sculptural monokini with asymmetric side cut-outs joined by a solid central panel",
+      "random_draws": {
+        "orient": {
+          "drawn": "crouching",
+          "selected": "leaning_back",
+          "reason": "monokini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "frame": {
+          "drawn": "environmental",
+          "selected": "three_quarter",
+          "reason": "monokini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "natural50",
+          "reason": "monokini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "At a lakeside resort pontoon she stretches after a swim beside the metal water ladder, with concentric ripples catching noon sunlight.",
+          "reason": "a sculptural monokini with asymmetric side cut-outs joined by a solid central panel 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+        },
+        {
+          "field": "outfit",
+          "text": "The fully lined cocoa monokini has cream asymmetric side cutouts joined by a solid central panel and secure wide straps, revealing shoulders, side waist and thighs.",
+          "reason": "monokini에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "At a lakeside resort pontoon she stretches after a swim beside the metal water ladder, with concentric ripples catching noon sunlight.의 움직임에 맞춤.",
+        "source_influence": "The fully lined cocoa monokini has cream asymmetric side cutouts joined by a solid central panel and secure wide straps, revealing shoulders, side waist and thighs.에 있는 색과 형태가 원작을 드러내는 정도.",
+        "separates_preference": "swimsuit의 실제 상하 분리 구조에 맞춤."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "private_evening",
+      "ex": "tea_ceremony_night",
+      "expr": "calm",
+      "pose": "sitting",
+      "orient": "side",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "Under an amber floor lamp she arranges a small celadon teapot and two cups on a low walnut tea table; blue evening light falls across a riverside window.",
+      "outfit": "A copper robe-like wrap evening dress has short flowing sleeves and a plunging crossed neckline secured over an opaque inner panel, with a high side slit and open upper back exposing collarbones, back and one leg.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "Evening Tea Ceremony",
+      "random_draws": {
+        "orient": {
+          "drawn": "looking_down",
+          "selected": "side",
+          "reason": "tea_ceremony_night 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "frame": {
+          "drawn": "chest_up",
+          "selected": "chest_up",
+          "reason": "tea_ceremony_night 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "telephoto135",
+          "reason": "tea_ceremony_night 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Under an amber floor lamp she arranges a small celadon teapot and two cups on a low walnut tea table; blue evening light falls across a riverside window.",
+          "reason": "Evening Tea Ceremony 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+        },
+        {
+          "field": "outfit",
+          "text": "A copper robe-like wrap evening dress has short flowing sleeves and a plunging crossed neckline secured over an opaque inner panel, with a high side slit and open upper back exposing collarbones, back and one leg.",
+          "reason": "tea_ceremony_night에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Under an amber floor lamp she arranges a small celadon teapot and two cups on a low walnut tea table; blue evening light falls across a riverside window.의 움직임에 맞춤.",
+        "source_influence": "A copper robe-like wrap evening dress has short flowing sleeves and a plunging crossed neckline secured over an opaque inner panel, with a high side slit and open upper back exposing collarbones, back and one leg.에 있는 색과 형태가 원작을 드러내는 정도.",
+        "separates_preference": "dress의 실제 상하 분리 구조에 맞춤."
+      }
+    }
+  ],
+  "check": "passed before reserve",
+  "reservation_commit": "570b3afb9f242fcf7d3d65c2ea9d593cfa68cdf9",
+  "reserved_at": "2026-10-20T01:54:12+09:00",
+  "repairs": [
+    {
+      "slot": "casual1",
+      "problem": "벨트 모티프가 큰 꼬리 장식으로 생성됨",
+      "changed_input": " of the second attached image: remove the large striped paddle-shaped hanging piece behind her left hip entirely. The belt may have a small flat leather keeper tab no longer than a finger. Preserve the rest of the second image, including her hands threading the harness buckle, face, clothes, pose and workshop. The first attachment is her identity reference.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\n",
+      "references": [
+        "img/비버통_light_glossy_promo_f.webp",
+        "generated_images/exec-113ce9a6-172b-4608-8c91-5030dd719b21.png"
+      ],
+      "result": "큰 장식을 제거하고 작은 벨트 구성만 남김"
+    },
+    {
+      "slot": "casual2",
+      "problem": "첫 생성 결과가 sexual/output moderation으로 차단됨",
+      "request_id": "48589909-5d1d-4a70-907c-9ba09382bdbe",
+      "changed_input": "바꾼 입력 없음",
+      "retry": "같은 프롬프트·같은 경장 참조를 재제출해 정상 결과를 확보함"
+    }
+  ]
+}
