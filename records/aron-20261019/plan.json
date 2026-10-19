@@ -33,89 +33,7 @@
             "scene": "A dress rehearsal with a silver pom-pom in each hand; late-afternoon sun crosses the polished gym floor.",
             "outfit": "The charcoal-and-silver cheer top is cropped at the waist and the pleated mini skirt exposes her thighs; pale blue piping follows angular panels.",
             "camera": "Vertical 2:3 portrait (1024×1536).",
-            "example_text": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor",
-            "random_draws": {
-              "orient": {
-                "drawn": "three_quarter_back",
-                "selected": "low_angle",
-                "reason": "cheer_costume 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
-              },
-              "frame": {
-                "drawn": "full_body",
-                "selected": "full_body",
-                "reason": "cheer_costume 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
-              },
-              "lens": {
-                "drawn": "documentary35",
-                "selected": "wide24",
-                "reason": "cheer_costume 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
-              }
-            },
-            "locked": [
-              "axes.overall_intensity",
-              "axes.skin_exposure",
-              "aspect"
-            ],
-            "actual_selections": {
-              "expr": "determined",
-              "pose": "dance_step",
-              "orient": "low_angle",
-              "scene": "A dress rehearsal with a silver pom-pom in each hand; late-afternoon sun crosses the polished gym floor.",
-              "outfit": "The charcoal-and-silver cheer top is cropped at the waist and the pleated mini skirt exposes her thighs; pale blue piping follows angular panels.",
-              "frame": "full_body",
-              "lens": "wide24",
-              "camera": "Vertical 2:3 portrait (1024×1536).",
-              "custom": "",
-              "aspect": "2:3",
-              "cat": "adult_roleplay",
-              "catCustom": "",
-              "ex": "cheer_costume",
-              "exCustom": "",
-              "axes": {
-                "overall_intensity": "strong",
-                "skin_exposure": "bold",
-                "action_level": "mostly active",
-                "source_influence": "strong",
-                "separates_preference": "strongly prefer separates"
-              },
-              "action": {
-                "category": "",
-                "example": "",
-                "timing": "",
-                "equipment": "",
-                "power": "",
-                "effects": "",
-                "speed": "",
-                "environment": ""
-              },
-              "randomLocks": {
-                "axes.overall_intensity": true,
-                "axes.skin_exposure": true,
-                "aspect": true
-              }
-            },
-            "direct_inputs": [
-              {
-                "field": "scene",
-                "text": "A dress rehearsal with a silver pom-pom in each hand; late-afternoon sun crosses the polished gym floor.",
-                "reason": "체육관 응원 예시에 없는 은색 폼폼과 햇빛 드는 리허설 상황을 지정."
-              },
-              {
-                "field": "outfit",
-                "text": "The charcoal-and-silver cheer top is cropped at the waist and the pleated mini skirt exposes her thighs; pale blue piping follows angular panels.",
-                "reason": "선택 예시가 정하지 않은 숯색·은색 배색과 짧은 상의 및 미니 주름치마를 지정."
-              },
-              {
-                "field": "camera",
-                "text": "Vertical 2:3 portrait (1024×1536).",
-                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
-              }
-            ],
-            "axes_reasons": {
-              "action_level": "폼폼을 든 댄스 리허설이므로 진행 중 동작을 우선.",
-              "source_influence": "은색과 흑색 기하학의 원작 면을 의상 전체에 드러냄.",
-              "separates_preference": "독립된 크롭 상의와 미니 스커트 구성."
-            }
+            "example_text": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor"
           },
           {
             "cut": 2,
@@ -129,7 +47,7 @@
             "aspect": "2:3",
             "axes": {
               "action_level": "balanced",
-              "source_influence": "subtle",
+              "source_influence": "strong",
               "separates_preference": "balanced",
               "overall_intensity": "strong",
               "skin_exposure": "bold"
@@ -140,89 +58,7 @@
             "scene": "Two hemispherical ball-case samples and a tray of hinges sit on the sunlit craft bench; she fits a hinge into a shell.",
             "outfit": "A pale blue halter mini dress has an open back and bare shoulders; a small silver rivet brooch fastens the neck.",
             "camera": "Vertical 2:3 portrait (1024×1536).",
-            "example_text": "Poké Ball case designer comparing shell finishes and fitting sample parts at a Pokémon craft studio bench.",
-            "random_draws": {
-              "orient": {
-                "drawn": "turning_midmotion",
-                "selected": "front_3q",
-                "reason": "fashion_test_engineer 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
-              },
-              "frame": {
-                "drawn": "detail",
-                "selected": "waist_up",
-                "reason": "fashion_test_engineer 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
-              },
-              "lens": {
-                "drawn": "documentary35",
-                "selected": "natural50",
-                "reason": "fashion_test_engineer 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
-              }
-            },
-            "locked": [
-              "axes.overall_intensity",
-              "axes.skin_exposure",
-              "aspect"
-            ],
-            "actual_selections": {
-              "expr": "curious",
-              "pose": "mid_action",
-              "orient": "front_3q",
-              "scene": "Two hemispherical ball-case samples and a tray of hinges sit on the sunlit craft bench; she fits a hinge into a shell.",
-              "outfit": "A pale blue halter mini dress has an open back and bare shoulders; a small silver rivet brooch fastens the neck.",
-              "frame": "waist_up",
-              "lens": "natural50",
-              "camera": "Vertical 2:3 portrait (1024×1536).",
-              "custom": "",
-              "aspect": "2:3",
-              "cat": "occupation_sensual",
-              "catCustom": "",
-              "ex": "fashion_test_engineer",
-              "exCustom": "",
-              "axes": {
-                "overall_intensity": "strong",
-                "skin_exposure": "bold",
-                "action_level": "balanced",
-                "source_influence": "subtle",
-                "separates_preference": "balanced"
-              },
-              "action": {
-                "category": "",
-                "example": "",
-                "timing": "",
-                "equipment": "",
-                "power": "",
-                "effects": "",
-                "speed": "",
-                "environment": ""
-              },
-              "randomLocks": {
-                "axes.overall_intensity": true,
-                "axes.skin_exposure": true,
-                "aspect": true
-              }
-            },
-            "direct_inputs": [
-              {
-                "field": "scene",
-                "text": "Two hemispherical ball-case samples and a tray of hinges sit on the sunlit craft bench; she fits a hinge into a shell.",
-                "reason": "공방 예시의 끼우기 작업을 경첩과 반구 샘플로 구체화."
-              },
-              {
-                "field": "outfit",
-                "text": "A pale blue halter mini dress has an open back and bare shoulders; a small silver rivet brooch fastens the neck.",
-                "reason": "선택 예시가 정하지 않은 홀터 원피스의 옅은 파랑·오픈백과 경첩 같은 브로치를 지정."
-              },
-              {
-                "field": "camera",
-                "text": "Vertical 2:3 portrait (1024×1536).",
-                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
-              }
-            ],
-            "axes_reasons": {
-              "action_level": "경첩을 끼우는 작은 손동작이므로 gentle movement.",
-              "source_influence": "작은 은색 경첩 브로치만 원작을 환기.",
-              "separates_preference": "홀터 미니 원피스 한 벌."
-            }
+            "example_text": "Poké Ball case designer comparing shell finishes and fitting sample parts at a Pokémon craft studio bench."
           },
           {
             "cut": 3,
@@ -247,89 +83,7 @@
             "scene": "She arranges freshly folded towels beside the dressing-room linen cabinet at dusk.",
             "outfit": "Opaque soft ribbed silver jersey uses wide supportive shoulder straps and matching high-waisted boyshort bottoms; shoulders, midriff and thighs remain visible.",
             "camera": "Vertical 2:3 portrait (1024×1536).",
-            "example_text": "a knit-blend lingerie set in soft ribbed jersey with a relaxed cropped top",
-            "random_draws": {
-              "orient": {
-                "drawn": "looking_away",
-                "selected": "profile_close",
-                "reason": "slip_lingerie 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
-              },
-              "frame": {
-                "drawn": "three_quarter",
-                "selected": "chest_up",
-                "reason": "slip_lingerie 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
-              },
-              "lens": {
-                "drawn": "portrait85",
-                "selected": "portrait85",
-                "reason": "slip_lingerie 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
-              }
-            },
-            "locked": [
-              "axes.overall_intensity",
-              "axes.skin_exposure",
-              "aspect"
-            ],
-            "actual_selections": {
-              "expr": "pensive",
-              "pose": "standing_relaxed",
-              "orient": "profile_close",
-              "scene": "She arranges freshly folded towels beside the dressing-room linen cabinet at dusk.",
-              "outfit": "Opaque soft ribbed silver jersey uses wide supportive shoulder straps and matching high-waisted boyshort bottoms; shoulders, midriff and thighs remain visible.",
-              "frame": "chest_up",
-              "lens": "portrait85",
-              "camera": "Vertical 2:3 portrait (1024×1536).",
-              "custom": "",
-              "aspect": "2:3",
-              "cat": "lingerie",
-              "catCustom": "",
-              "ex": "knit_lingerie",
-              "exCustom": "",
-              "axes": {
-                "overall_intensity": "strong",
-                "skin_exposure": "bold",
-                "action_level": "mostly posed",
-                "source_influence": "subtle",
-                "separates_preference": "prefer separates"
-              },
-              "action": {
-                "category": "",
-                "example": "",
-                "timing": "",
-                "equipment": "",
-                "power": "",
-                "effects": "",
-                "speed": "",
-                "environment": ""
-              },
-              "randomLocks": {
-                "axes.overall_intensity": true,
-                "axes.skin_exposure": true,
-                "aspect": true
-              }
-            },
-            "direct_inputs": [
-              {
-                "field": "scene",
-                "text": "She arranges freshly folded towels beside the dressing-room linen cabinet at dusk.",
-                "reason": "니트 의상 예시는 활동과 장소가 없어 리넨 수납장과 수건 정리를 지정."
-              },
-              {
-                "field": "outfit",
-                "text": "Opaque soft ribbed silver jersey uses wide supportive shoulder straps and matching high-waisted boyshort bottoms; shoulders, midriff and thighs remain visible.",
-                "reason": "선택 예시가 정하지 않은 은색 불투명 리브 원단과 넓은 끈·보이쇼츠의 안정된 구조를 지정."
-              },
-              {
-                "field": "camera",
-                "text": "Vertical 2:3 portrait (1024×1536).",
-                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
-              }
-            ],
-            "axes_reasons": {
-              "action_level": "수건을 정돈하다 멈춘 순간이라 mostly posed.",
-              "source_influence": "원작을 은회색 원단으로만 남김.",
-              "separates_preference": "니트 상하의의 실제 조합을 의상 문구가 정함."
-            }
+            "example_text": "a bias-cut satin lingerie slip with narrow straps and a straight hem"
           }
         ]
       },
@@ -390,8 +144,8 @@
           },
           {
             "cut": 3,
-            "cat": "source_editorial",
-            "ex": "heavy_architecture",
+            "cat": "everyday_sensual",
+            "ex": "stair_landing",
             "expr": "confident",
             "pose": "hand_on_hip",
             "orient": "rear_3q",
@@ -406,11 +160,11 @@
               "skin_exposure": "bold"
             },
             "garments": [
-              "vest",
-              "trousers"
+              "knit_top",
+              "skirt"
             ],
-            "scene": "During a fashion fitting she tests the movement of a folded fabric shoulder panel against a sculptural concrete gallery wall.",
-            "outfit": "A silver cropped vest has a deep open back and bare shoulders, paired with low-rise charcoal trousers; its folded fabric ridges echo iron armor geometry.",
+            "scene": "Terrazzo stairs inside an apartment tower catch afternoon sun; she pauses with a canvas grocery tote on her free wrist.",
+            "outfit": "A silver asymmetric knit top leaves one shoulder bare and has a cropped diagonal hem exposing the waist, paired with a charcoal high-waisted side-slit mini skirt that bares the thighs. Circular stitching echoes the source armor holes.",
             "camera": "Vertical 2:3 portrait (1024×1536).",
             "example_text": "Heavy Architectural Tailoring"
           }
@@ -540,7 +294,7 @@
       "aspect": "2:3",
       "axes": {
         "action_level": "balanced",
-        "source_influence": "subtle",
+        "source_influence": "strong",
         "separates_preference": "balanced",
         "overall_intensity": "strong",
         "skin_exposure": "bold"
@@ -552,6 +306,44 @@
       "outfit": "A pale blue halter mini dress has an open back and bare shoulders; a small silver rivet brooch fastens the neck.",
       "camera": "Vertical 2:3 portrait (1024×1536).",
       "example_text": "Poké Ball case designer comparing shell finishes and fitting sample parts at a Pokémon craft studio bench.",
+      "actual_selections": {
+        "expr": "curious",
+        "pose": "mid_action",
+        "orient": "front_3q",
+        "scene": "Two hemispherical ball-case samples and a tray of hinges sit on the sunlit craft bench; she fits a hinge into a shell.",
+        "outfit": "A pale blue halter mini dress has an open back and bare shoulders; a small silver rivet brooch fastens the neck.",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "occupation_sensual",
+        "catCustom": "",
+        "ex": "fashion_test_engineer",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
       "random_draws": {
         "orient": {
           "drawn": "turning_midmotion",
@@ -574,54 +366,16 @@
         "axes.skin_exposure",
         "aspect"
       ],
-      "actual_selections": {
-        "expr": "curious",
-        "pose": "mid_action",
-        "orient": "front_3q",
-        "scene": "Two hemispherical ball-case samples and a tray of hinges sit on the sunlit craft bench; she fits a hinge into a shell.",
-        "outfit": "A pale blue halter mini dress has an open back and bare shoulders; a small silver rivet brooch fastens the neck.",
-        "frame": "waist_up",
-        "lens": "natural50",
-        "camera": "Vertical 2:3 portrait (1024×1536).",
-        "custom": "",
-        "aspect": "2:3",
-        "cat": "occupation_sensual",
-        "catCustom": "",
-        "ex": "fashion_test_engineer",
-        "exCustom": "",
-        "axes": {
-          "overall_intensity": "strong",
-          "skin_exposure": "bold",
-          "action_level": "balanced",
-          "source_influence": "subtle",
-          "separates_preference": "balanced"
-        },
-        "action": {
-          "category": "",
-          "example": "",
-          "timing": "",
-          "equipment": "",
-          "power": "",
-          "effects": "",
-          "speed": "",
-          "environment": ""
-        },
-        "randomLocks": {
-          "axes.overall_intensity": true,
-          "axes.skin_exposure": true,
-          "aspect": true
-        }
-      },
       "direct_inputs": [
         {
           "field": "scene",
           "text": "Two hemispherical ball-case samples and a tray of hinges sit on the sunlit craft bench; she fits a hinge into a shell.",
-          "reason": "공방 예시의 끼우기 작업을 경첩과 반구 샘플로 구체화."
+          "reason": "경첩 끼우기 작업을 반구 샘플과 작은 부품 트레이로 구체화."
         },
         {
           "field": "outfit",
           "text": "A pale blue halter mini dress has an open back and bare shoulders; a small silver rivet brooch fastens the neck.",
-          "reason": "선택 예시가 정하지 않은 홀터 원피스의 옅은 파랑·오픈백과 경첩 같은 브로치를 지정."
+          "reason": "공방 작업복은 예시가 정하지 않아 홀터 원피스와 작은 금속 장식을 선택."
         },
         {
           "field": "camera",
@@ -630,8 +384,8 @@
         }
       ],
       "axes_reasons": {
-        "action_level": "경첩을 끼우는 작은 손동작이므로 gentle movement.",
-        "source_influence": "작은 은색 경첩 브로치만 원작을 환기.",
+        "action_level": "경첩을 붙잡아 끼우는 가벼운 손동작.",
+        "source_influence": "금속 부품·리벳 장식과 백금빛 원단 굴곡의 원작 철 갑주 모티프를 강조.",
         "separates_preference": "홀터 미니 원피스 한 벌."
       }
     },
@@ -744,7 +498,7 @@
     }
   ],
   "check": "passed before reservation and regeneration",
-  "reservation_commit": "2cd8bb3d84be04a2c5e7e7aec1474ef5f74d9396",
+  "reservation_commit": "f568de5ebb52bcc1fdea18e6a05c25a41c644a9e",
   "revisions": [
     {
       "cut": 3,
@@ -757,6 +511,12 @@
       "change": "balanced → prefer separates",
       "reason": "니트 상하의 구성에 맞춰 분리형 선호 선택을 수정한 후 최종 재생성",
       "discarded_candidate": "exec-1da9f074-b901-4fc9-bbc0-5bdd3ac922a9.png"
+    },
+    {
+      "cut": 2,
+      "reason": "얕은 git 이력으로 만들었던 최초 장부의 최근 순서 오류를 전체 이력으로 복구한 후 재검사.",
+      "change": "SOURCE 영향도 subtle → strong, 구성 중복 해소.",
+      "check": "전체 이력 장부로 check 통과 후 장부만 예약 push하고 재생성."
     }
   ]
 }
