@@ -1,0 +1,748 @@
+{
+  "card": "갱도라",
+  "style": "glossy_promo",
+  "batch_plan": {
+    "session": "gpt-aron-lairon-20261019",
+    "characters": [
+      {
+        "card": "가보리",
+        "species": "aron-20261019",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "cheer_costume",
+            "expr": "determined",
+            "pose": "dance_step",
+            "orient": "low_angle",
+            "frame": "full_body",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "crop_top",
+              "skirt",
+              "uniform"
+            ],
+            "scene": "A dress rehearsal with a silver pom-pom in each hand; late-afternoon sun crosses the polished gym floor.",
+            "outfit": "The charcoal-and-silver cheer top is cropped at the waist and the pleated mini skirt exposes her thighs; pale blue piping follows angular panels.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor"
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "fashion_test_engineer",
+            "expr": "curious",
+            "pose": "mid_action",
+            "orient": "front_3q",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Two hemispherical ball-case samples and a tray of hinges sit on the sunlit craft bench; she fits a hinge into a shell.",
+            "outfit": "A pale blue halter mini dress has an open back and bare shoulders; a small silver rivet brooch fastens the neck.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Poké Ball case designer comparing shell finishes and fitting sample parts at a Pokémon craft studio bench."
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "knit_lingerie",
+            "expr": "pensive",
+            "pose": "standing_relaxed",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "scene": "She arranges freshly folded towels beside the dressing-room linen cabinet at dusk.",
+            "outfit": "Opaque soft ribbed silver jersey uses wide supportive shoulder straps and matching high-waisted boyshort bottoms; shoulders, midriff and thighs remain visible.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a bias-cut satin lingerie slip with narrow straps and a straight hem"
+          }
+        ]
+      },
+      {
+        "card": "갱도라",
+        "species": "lairon-20261019",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "wildcard",
+            "ex": "ferry_deck",
+            "expr": "candid",
+            "pose": "hands_in_hair",
+            "orient": "reaching_up",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress",
+              "jacket"
+            ],
+            "scene": "Sunrise catches salt spray on the passenger-ferry rail; she gathers windblown hair with both hands.",
+            "outfit": "A breezy charcoal wrap mini dress has a plunging neckline and high thigh slit; a lightweight silver cropped jacket is open, leaving her neckline and legs visible.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "on a ferry deck by the rail in a breezy dress and light jacket, facing the wind",
+            "random_draws": {
+              "orient": {
+                "drawn": "reaching_up",
+                "selected": "reaching_up",
+                "reason": "ferry_deck 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "face_close",
+                "selected": "three_quarter",
+                "reason": "ferry_deck 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "documentary35",
+                "reason": "ferry_deck 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "candid",
+              "pose": "hands_in_hair",
+              "orient": "reaching_up",
+              "scene": "Sunrise catches salt spray on the passenger-ferry rail; she gathers windblown hair with both hands.",
+              "outfit": "A breezy charcoal wrap mini dress has a plunging neckline and high thigh slit; a lightweight silver cropped jacket is open, leaving her neckline and legs visible.",
+              "frame": "three_quarter",
+              "lens": "documentary35",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "wildcard",
+              "catCustom": "",
+              "ex": "ferry_deck",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "balanced",
+                "source_influence": "subtle",
+                "separates_preference": "balanced"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Sunrise catches salt spray on the passenger-ferry rail; she gathers windblown hair with both hands.",
+                "reason": "배의 바람을 맞는 예시에 일출과 날리는 머리를 정리하는 행동을 보충."
+              },
+              {
+                "field": "outfit",
+                "text": "A breezy charcoal wrap mini dress has a plunging neckline and high thigh slit; a lightweight silver cropped jacket is open, leaving her neckline and legs visible.",
+                "reason": "선택 예시가 정하지 않은 짧은 랩 드레스와 열어 입은 크롭 재킷으로 목선과 다리를 드러냄."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "갑판에서 머리카락을 모으는 가벼운 움직임.",
+              "source_influence": "재킷의 은색만 가벼운 원작 색 메아리.",
+              "separates_preference": "드레스 한 벌과 가벼운 재킷의 겹침."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "halter_bikini",
+            "expr": "amused",
+            "pose": "kneeling",
+            "orient": "side",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "scene": "Golden light on a sheltered resort cove; the paddle blade dips into the water beside her board.",
+            "outfit": "Pale blue fully lined fabric has dark gray edging; the tied halter and secure underbust band frame bare shoulders, midriff and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a halter bikini with a neck tie and a supportive underbust band",
+            "random_draws": {
+              "orient": {
+                "drawn": "turning_midmotion",
+                "selected": "side",
+                "reason": "halter_bikini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "waist_up",
+                "selected": "full_body",
+                "reason": "halter_bikini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "portrait85",
+                "selected": "telephoto135",
+                "reason": "halter_bikini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "amused",
+              "pose": "kneeling",
+              "orient": "side",
+              "scene": "Golden light on a sheltered resort cove; the paddle blade dips into the water beside her board.",
+              "outfit": "Pale blue fully lined fabric has dark gray edging; the tied halter and secure underbust band frame bare shoulders, midriff and legs.",
+              "frame": "full_body",
+              "lens": "telephoto135",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "swimwear",
+              "catCustom": "",
+              "ex": "halter_bikini",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly active",
+                "source_influence": "balanced",
+                "separates_preference": "prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Golden light on a sheltered resort cove; the paddle blade dips into the water beside her board.",
+                "reason": "수영복 구조만 있는 예시에 리조트 만의 패들보드 활동을 지정."
+              },
+              {
+                "field": "outfit",
+                "text": "Pale blue fully lined fabric has dark gray edging; the tied halter and secure underbust band frame bare shoulders, midriff and legs.",
+                "reason": "선택 예시가 정하지 않은 옅은 파란 원단과 회색 가장자리, 완전 안감 처리의 차이를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "노를 물에 넣는 실제 수상 활동이 중심.",
+              "source_influence": "수영복 가장자리와 밝은 파랑의 작은 배색들을 연결.",
+              "separates_preference": "상하가 분리된 홀터 비키니."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "heavy_architecture",
+            "expr": "confident",
+            "pose": "hand_on_hip",
+            "orient": "rear_3q",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "vest",
+              "trousers"
+            ],
+            "scene": "During a fashion fitting she tests the movement of a folded fabric shoulder panel against a sculptural concrete gallery wall.",
+            "outfit": "A silver cropped vest has a deep open back and bare shoulders, paired with low-rise charcoal trousers; its folded fabric ridges echo iron armor geometry.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "heavy, angular architectural tailoring with a rigid structured silhouette",
+            "random_draws": {
+              "orient": {
+                "drawn": "turning_midmotion",
+                "selected": "rear_3q",
+                "reason": "heavy_architecture 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "three_quarter",
+                "selected": "waist_up",
+                "reason": "heavy_architecture 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "natural50",
+                "reason": "heavy_architecture 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "confident",
+              "pose": "hand_on_hip",
+              "orient": "rear_3q",
+              "scene": "During a fashion fitting she tests the movement of a folded fabric shoulder panel against a sculptural concrete gallery wall.",
+              "outfit": "A silver cropped vest has a deep open back and bare shoulders, paired with low-rise charcoal trousers; its folded fabric ridges echo iron armor geometry.",
+              "frame": "waist_up",
+              "lens": "natural50",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "source_editorial",
+              "catCustom": "",
+              "ex": "heavy_architecture",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly posed",
+                "source_influence": "strong",
+                "separates_preference": "strongly prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "During a fashion fitting she tests the movement of a folded fabric shoulder panel against a sculptural concrete gallery wall.",
+                "reason": "재단 모양만 있는 예시에 갤러리 피팅과 접힌 천을 움직여 보는 활동을 지정."
+              },
+              {
+                "field": "outfit",
+                "text": "A silver cropped vest has a deep open back and bare shoulders, paired with low-rise charcoal trousers; its folded fabric ridges echo iron armor geometry.",
+                "reason": "선택 예시가 정하지 않은 크롭 베스트의 오픈백과 낮은 허리선 바지를 구조적 접힘과 조합."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "피팅 중 천을 잡고 재단을 확인하는 정지 순간.",
+              "source_influence": "은색과 흑색 기하학의 원작 면을 의상 전체에 드러냄.",
+              "separates_preference": "분리된 베스트와 바지의 구조적 대비."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "wildcard",
+      "ex": "ferry_deck",
+      "expr": "candid",
+      "pose": "hands_in_hair",
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "dress",
+        "jacket"
+      ],
+      "scene": "Sunrise catches salt spray on the passenger-ferry rail; she gathers windblown hair with both hands.",
+      "outfit": "A breezy charcoal wrap mini dress has a plunging neckline and high thigh slit; a lightweight silver cropped jacket is open, leaving her neckline and legs visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "on a ferry deck by the rail in a breezy dress and light jacket, facing the wind",
+      "random_draws": {
+        "orient": {
+          "drawn": "reaching_up",
+          "selected": "reaching_up",
+          "reason": "ferry_deck 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "frame": {
+          "drawn": "face_close",
+          "selected": "three_quarter",
+          "reason": "ferry_deck 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "lens": {
+          "drawn": "natural50",
+          "selected": "documentary35",
+          "reason": "ferry_deck 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "actual_selections": {
+        "expr": "candid",
+        "pose": "hands_in_hair",
+        "orient": "reaching_up",
+        "scene": "Sunrise catches salt spray on the passenger-ferry rail; she gathers windblown hair with both hands.",
+        "outfit": "A breezy charcoal wrap mini dress has a plunging neckline and high thigh slit; a lightweight silver cropped jacket is open, leaving her neckline and legs visible.",
+        "frame": "three_quarter",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "wildcard",
+        "catCustom": "",
+        "ex": "ferry_deck",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Sunrise catches salt spray on the passenger-ferry rail; she gathers windblown hair with both hands.",
+          "reason": "배의 바람을 맞는 예시에 일출과 날리는 머리를 정리하는 행동을 보충."
+        },
+        {
+          "field": "outfit",
+          "text": "A breezy charcoal wrap mini dress has a plunging neckline and high thigh slit; a lightweight silver cropped jacket is open, leaving her neckline and legs visible.",
+          "reason": "선택 예시가 정하지 않은 짧은 랩 드레스와 열어 입은 크롭 재킷으로 목선과 다리를 드러냄."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "갑판에서 머리카락을 모으는 가벼운 움직임.",
+        "source_influence": "재킷의 은색만 가벼운 원작 색 메아리.",
+        "separates_preference": "드레스 한 벌과 가벼운 재킷의 겹침."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "halter_bikini",
+      "expr": "amused",
+      "pose": "kneeling",
+      "orient": "side",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "bikini"
+      ],
+      "scene": "Golden light on a sheltered resort cove; the paddle blade dips into the water beside her board.",
+      "outfit": "Pale blue fully lined fabric has dark gray edging; the tied halter and secure underbust band frame bare shoulders, midriff and legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a halter bikini with a neck tie and a supportive underbust band",
+      "random_draws": {
+        "orient": {
+          "drawn": "turning_midmotion",
+          "selected": "side",
+          "reason": "halter_bikini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "frame": {
+          "drawn": "waist_up",
+          "selected": "full_body",
+          "reason": "halter_bikini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "lens": {
+          "drawn": "portrait85",
+          "selected": "telephoto135",
+          "reason": "halter_bikini 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "actual_selections": {
+        "expr": "amused",
+        "pose": "kneeling",
+        "orient": "side",
+        "scene": "Golden light on a sheltered resort cove; the paddle blade dips into the water beside her board.",
+        "outfit": "Pale blue fully lined fabric has dark gray edging; the tied halter and secure underbust band frame bare shoulders, midriff and legs.",
+        "frame": "full_body",
+        "lens": "telephoto135",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "swimwear",
+        "catCustom": "",
+        "ex": "halter_bikini",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Golden light on a sheltered resort cove; the paddle blade dips into the water beside her board.",
+          "reason": "수영복 구조만 있는 예시에 리조트 만의 패들보드 활동을 지정."
+        },
+        {
+          "field": "outfit",
+          "text": "Pale blue fully lined fabric has dark gray edging; the tied halter and secure underbust band frame bare shoulders, midriff and legs.",
+          "reason": "선택 예시가 정하지 않은 옅은 파란 원단과 회색 가장자리, 완전 안감 처리의 차이를 지정."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "노를 물에 넣는 실제 수상 활동이 중심.",
+        "source_influence": "수영복 가장자리와 밝은 파랑의 작은 배색들을 연결.",
+        "separates_preference": "상하가 분리된 홀터 비키니."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "source_editorial",
+      "ex": "heavy_architecture",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "rear_3q",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "vest",
+        "trousers"
+      ],
+      "scene": "During a fashion fitting she tests the movement of a folded fabric shoulder panel against a sculptural concrete gallery wall.",
+      "outfit": "A silver cropped vest has a deep open back and bare shoulders, paired with low-rise charcoal trousers; its folded fabric ridges echo iron armor geometry.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "heavy, angular architectural tailoring with a rigid structured silhouette",
+      "random_draws": {
+        "orient": {
+          "drawn": "turning_midmotion",
+          "selected": "rear_3q",
+          "reason": "heavy_architecture 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "frame": {
+          "drawn": "three_quarter",
+          "selected": "waist_up",
+          "reason": "heavy_architecture 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "natural50",
+          "reason": "heavy_architecture 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "actual_selections": {
+        "expr": "confident",
+        "pose": "hand_on_hip",
+        "orient": "rear_3q",
+        "scene": "During a fashion fitting she tests the movement of a folded fabric shoulder panel against a sculptural concrete gallery wall.",
+        "outfit": "A silver cropped vest has a deep open back and bare shoulders, paired with low-rise charcoal trousers; its folded fabric ridges echo iron armor geometry.",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "source_editorial",
+        "catCustom": "",
+        "ex": "heavy_architecture",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "strongly prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "During a fashion fitting she tests the movement of a folded fabric shoulder panel against a sculptural concrete gallery wall.",
+          "reason": "재단 모양만 있는 예시에 갤러리 피팅과 접힌 천을 움직여 보는 활동을 지정."
+        },
+        {
+          "field": "outfit",
+          "text": "A silver cropped vest has a deep open back and bare shoulders, paired with low-rise charcoal trousers; its folded fabric ridges echo iron armor geometry.",
+          "reason": "선택 예시가 정하지 않은 크롭 베스트의 오픈백과 낮은 허리선 바지를 구조적 접힘과 조합."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "피팅 중 천을 잡고 재단을 확인하는 정지 순간.",
+        "source_influence": "은색과 흑색 기하학의 원작 면을 의상 전체에 드러냄.",
+        "separates_preference": "분리된 베스트와 바지의 구조적 대비."
+      }
+    }
+  ],
+  "check": "passed before reservation and regeneration",
+  "reservation_commit": "0cd725173ada46a0fef1c4de57d6ca3d9eb22c33"
+}
