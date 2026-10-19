@@ -1,0 +1,97 @@
+{
+  "storage": {
+    "last": "루리리",
+    "cards": {
+      "루리리": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "blue",
+          "hairstyle": "bob",
+          "hair length": "short",
+          "eye color": "blue",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "An airy blue-and-white tidal training terrace, pale fairy sparkles above shallow water.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "profile_close",
+            "scene": "Sunrise warms a wooden research pier; one hand steadies the recorder while the other adjusts an earcup.",
+            "outfit": "A blue ribbed halter knit top with an oval waist cutout and white tailored short shorts, exposing shoulders, waist and legs.",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "sonar_analyst",
+            "exCustom": "",
+            "axes": {
+              "source_influence": "balanced",
+              "action_level": "balanced",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Azurill (루리리) personified, normal / fairy type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: side profile, close only when no explicit framing is selected\nScene: Sunrise warms a wooden research pier; one hand steadies the recorder while the other adjusts an earcup.\nOutfit and props: A blue ribbed halter knit top with an oval waist cutout and white tailored short shorts, exposing shoulders, waist and legs.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Aquatic-Pokémon researcher listening through headphones while checking a hydrophone recorder at a calm lake pier.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": []
+}

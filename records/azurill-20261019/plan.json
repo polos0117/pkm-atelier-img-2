@@ -1,0 +1,141 @@
+{
+  "name": "루리리",
+  "slug": "azurill",
+  "no": 298,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "blue",
+    "hairstyle": "bob",
+    "hair length": "short",
+    "eye color": "blue",
+    "body type": "athletic"
+  },
+  "wear": "Circular blue ears become two compact round hair ornaments; the blue spherical tail becomes a rounded hip drape clasp, its thin black zigzag becomes a segmented waist sash, and the two white spots become paired chestplate inlays.",
+  "scene": "An airy blue-and-white tidal training terrace, pale fairy sparkles above shallow water.",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "occupation_basic",
+      "ex": "sonar_analyst",
+      "expr": "focused",
+      "pose": "mid_action",
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "balanced",
+        "action_level": "balanced",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "knit_top",
+        "shorts"
+      ],
+      "scene": "Sunrise warms a wooden research pier; one hand steadies the recorder while the other adjusts an earcup.",
+      "outfit": "A blue ribbed halter knit top with an oval waist cutout and white tailored short shorts, exposing shoulders, waist and legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "Aquatic-Pokémon researcher listening through headphones while checking a hydrophone recorder at a calm lake pier.",
+      "axis_reasons": {
+        "source_influence": "sonar_analyst: The blue or slate palette and tailored panel shapes suggest the source.",
+        "action_level": "sonar_analyst: Sunrise warms a wooden research pier; one hand steadies the recorder while the other adjusts an earcup.",
+        "separates_preference": "sonar_analyst: The selected garment construction is knit_top, shorts."
+      },
+      "input_reasons": {
+        "scene": "sonar_analyst leaves the exact light and the specified hand activity undefined: Sunrise warms a wooden research pier; one hand steadies the recorder while the other adjusts an earcup.",
+        "outfit": "sonar_analyst leaves palette, material and exposed garment structure undefined: A blue ribbed halter knit top with an oval waist cutout and white tailored short shorts, exposing shoulders, waist and legs.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "sonar_analyst: profile_close/waist_up keeps the mid_action activity readable against this setting; portrait85 suits the scene depth and avoids recent composition pairs.",
+      "random_draws": {
+        "orient": "leaning_forward",
+        "frame": "face_close",
+        "lens": "telephoto135"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "wildcard",
+      "ex": "arcade_night",
+      "expr": "surprised",
+      "pose": "standing_relaxed",
+      "orient": "front_3q",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "subtle",
+        "action_level": "mostly posed",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "scene": "She operates a pinball machine beneath violet arcade lamps, palms resting naturally on its side buttons.",
+      "outfit": "White short overalls with a plunging halter bib over a securely fitted blue bandeau, bare shoulders and thighs; round pocket stitching.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "in a night arcade in streetwear, playing a game or looking at small prizes",
+      "axis_reasons": {
+        "source_influence": "arcade_night: Only an ordinary garment colour echoes the source.",
+        "action_level": "arcade_night: She operates a pinball machine beneath violet arcade lamps, palms resting naturally on its side buttons.",
+        "separates_preference": "arcade_night: The selected garment construction is overalls."
+      },
+      "input_reasons": {
+        "scene": "arcade_night leaves the exact light and the specified hand activity undefined: She operates a pinball machine beneath violet arcade lamps, palms resting naturally on its side buttons.",
+        "outfit": "arcade_night leaves palette, material and exposed garment structure undefined: White short overalls with a plunging halter bib over a securely fitted blue bandeau, bare shoulders and thighs; round pocket stitching.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "arcade_night: front_3q/environmental keeps the standing_relaxed activity readable against this setting; wide24 suits the scene depth and avoids recent composition pairs.",
+      "random_draws": {
+        "orient": "looking_down",
+        "frame": "three_quarter",
+        "lens": "telephoto135"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "satin_set",
+      "expr": "calm",
+      "pose": "sitting",
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "subtle",
+        "action_level": "mostly posed",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "lingerie_set"
+      ],
+      "scene": "Warm lamplight fills a bedroom dressing area; seated on an upholstered stool, she folds a small silk scarf.",
+      "outfit": "Opaque deep-blue satin with a softly draped bias-cut top and matching high-waisted bottoms, exposing shoulders, waist and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "a satin lingerie set with a smooth bias-cut top and matching bottoms in a single deep colour",
+      "axis_reasons": {
+        "source_influence": "satin_set: Only an ordinary garment colour echoes the source.",
+        "action_level": "satin_set: Warm lamplight fills a bedroom dressing area; seated on an upholstered stool, she folds a small silk scarf.",
+        "separates_preference": "satin_set: The selected garment construction is lingerie_set."
+      },
+      "input_reasons": {
+        "scene": "satin_set leaves the exact light and the specified hand activity undefined: Warm lamplight fills a bedroom dressing area; seated on an upholstered stool, she folds a small silk scarf.",
+        "outfit": "satin_set leaves palette, material and exposed garment structure undefined: Opaque deep-blue satin with a softly draped bias-cut top and matching high-waisted bottoms, exposing shoulders, waist and thighs.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "satin_set: seated_twist/three_quarter keeps the sitting activity readable against this setting; natural50 suits the scene depth and avoids recent composition pairs.",
+      "random_draws": {
+        "orient": "reclining",
+        "frame": "face_close",
+        "lens": "natural50"
+      }
+    }
+  ]
+}
