@@ -1,37 +1,6 @@
 {
   "card": "귀뚤뚜기",
   "review": "원본 1024×1536 이미지 및 문제 부위 확대 확인",
-  "skipped": [
-    {
-      "slot": "casual3",
-      "reason": "원본 이후 부분 수정을 세 번 했으나 스케이트 혀 위 상표형 라벨이 남았다. 사용자 지정 세 번 재작업 한도에 따라 더 생성/등록하지 않고 다음 컷으로 넘어감.",
-      "original_plus_retries": 4,
-      "retries": 3,
-      "scene": "active/roller_skating",
-      "attempts": [
-        {
-          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-5b76fa53-5ab5-4ec3-94af-11d8af6f0142.png",
-          "sha256": "30a073d770e2a102910383b131b9a44f83669298143178217f39e9e9f075cec1",
-          "ui": "casual3-attempt1-ui.json"
-        },
-        {
-          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-02b0b16e-9bc8-4b80-a899-fa6ceaf7a34a.png",
-          "sha256": "837692e534d8dae2ed200a6476c9f4109d5dd95bcab8a42aa70f64584ff621d7",
-          "ui": "casual3-attempt2-ui.json"
-        },
-        {
-          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-948bdc9c-1c6e-4307-89b6-c870a68d95e3.png",
-          "sha256": "a0919f7ece6e8e3248ed5bc891aba606726714b2fe59ed479222fd86fa873ba5",
-          "ui": "casual3-attempt3-ui.json"
-        },
-        {
-          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-c7b1c539-8081-4853-b9fc-2154761be141.png",
-          "sha256": "bf1308194d41030707e601b6299d9e1bebed86997460c64e867032c14bc7ce7b",
-          "ui": "casual3-ui.json"
-        }
-      ]
-    }
-  ],
   "cuts": {
     "light": {
       "size": {
@@ -272,6 +241,48 @@
         "result": "불일치·기록만",
         "evidence": "허리 위 선택보다 넓어져 허벅지와 컵·책 전체가 함께 보인다."
       }
+    },
+    "casual3": {
+      "size": {
+        "result": "일치",
+        "evidence": "1024×1536 원본을 크기 변경 없이 실제 WebP 품질85 method6으로 변환."
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "①과 같은 갈색 보브·호박색 눈·짧고 넓은 얼굴·성인 체형."
+      },
+      "text": {
+        "result": "사용자 허용 예외",
+        "evidence": "스케이트 혀에 옅은 상표형 라벨이 남아 있다. 2026-10-20 08:11 사용자 명시 허용으로 기존 마지막 수정본을 채택."
+      },
+      "anatomy": {
+        "result": "일치",
+        "evidence": "양팔을 벌려 균형을 잡고 두 발목이 스케이트에 자연스럽게 이어진다. 두 손의 손가락이 나뉜다."
+      },
+      "activity": {
+        "result": "일치",
+        "evidence": "바다 앞 곡선 레인 위에서 롤러스케이트로 활주."
+      },
+      "outfit": {
+        "result": "일치",
+        "evidence": "노랑 크롭 탱크·빨강 반바지·보호대, 어깨·허리·허벅지가 드러남."
+      },
+      "expression": {
+        "result": "차이 기록",
+        "evidence": "눈을 편히 뜨고 입을 살짝 벌린 옅은 미소; 선택한 닫힌입 웃음보다 약함."
+      },
+      "pose": {
+        "result": "일치",
+        "evidence": "앞 스케이트를 크게 내밀고 뒷발을 굽힌 활주 중 체중 이동."
+      },
+      "orientation": {
+        "result": "일치",
+        "evidence": "몸통과 골반이 앞 3/4로 돌아가며 양팔로 균형을 잡음."
+      },
+      "framing": {
+        "result": "일치",
+        "evidence": "머리부터 두 스케이트 바퀴까지 전신이 화면 안에 있음."
+      }
     }
   },
   "comparison": {
@@ -282,7 +293,7 @@
       "비버니 casual1–3",
       "비버통 casual1–3"
     ],
-    "result": "등록된 컷의 다양성 통과; 귀뚤뚜기 casual3 후보는 라벨 문제로 제외",
+    "result": "세 일상컷 장소·활동·의상·구도 다양성 통과; casual3 라벨 잔존은 사용자 허용",
     "evidence": "이번 배치는 바니 공연 준비/창가 독서/롤러 활주와 분장대 귀걸이/파빌리온 드레스 이동/강 부두 휴식으로 장소·활동·의상 실루엣·서기/앉기/이동 구도가 나뉜다. 최근 캐릭터의 메이드 수건·온실 작업·신발 끈·테라스 차·수영장 포즈와 같은 3장 묶음으로 반복되지 않는다. 붉은색과 금색 조명은 일부 공유하지만 한 벌 바니·비대칭 니트·스케이트 반바지·코르셋·긴 드레스·비키니의 실루엣이 다르다."
   },
   "corrections": [
@@ -300,6 +311,44 @@
         "generated_images/exec-5b76fa53-5ab5-4ec3-94af-11d8af6f0142.png",
         "generated_images/exec-02b0b16e-9bc8-4b80-a899-fa6ceaf7a34a.png"
       ]
+    }
+  ],
+  "previously_skipped": [
+    {
+      "slot": "casual3",
+      "reason": "원본 이후 부분 수정을 세 번 했으나 스케이트 혀 위 상표형 라벨이 남았다. 사용자 지정 세 번 재작업 한도에 따라 더 생성/등록하지 않고 다음 컷으로 넘어감.",
+      "original_plus_retries": 4,
+      "retries": 3,
+      "scene": "active/roller_skating",
+      "attempts": [
+        {
+          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-5b76fa53-5ab5-4ec3-94af-11d8af6f0142.png",
+          "sha256": "30a073d770e2a102910383b131b9a44f83669298143178217f39e9e9f075cec1",
+          "ui": "casual3-attempt1-ui.json"
+        },
+        {
+          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-02b0b16e-9bc8-4b80-a899-fa6ceaf7a34a.png",
+          "sha256": "837692e534d8dae2ed200a6476c9f4109d5dd95bcab8a42aa70f64584ff621d7",
+          "ui": "casual3-attempt2-ui.json"
+        },
+        {
+          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-948bdc9c-1c6e-4307-89b6-c870a68d95e3.png",
+          "sha256": "a0919f7ece6e8e3248ed5bc891aba606726714b2fe59ed479222fd86fa873ba5",
+          "ui": "casual3-attempt3-ui.json"
+        },
+        {
+          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-c7b1c539-8081-4853-b9fc-2154761be141.png",
+          "sha256": "bf1308194d41030707e601b6299d9e1bebed86997460c64e867032c14bc7ce7b",
+          "ui": "casual3-ui.json"
+        }
+      ]
+    }
+  ],
+  "skipped": [],
+  "user_exceptions": [
+    {
+      "slot": "casual3",
+      "acceptance_file": "casual3-acceptance.json"
     }
   ]
 }
