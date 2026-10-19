@@ -1,12 +1,13 @@
 {
   "card": "깜까미",
   "style": "glossy_promo",
-  "status": "9-images-approved-awaiting-publish",
+  "status": "registered-complete",
   "anchor": {
     "path": "/workspace/scratch/4586940836c5/pkm-atelier-img-2/img/깜까미_light_glossy_promo_f.webp",
     "sha256": "3c49dbd9927b45cf9166d3196f6501c5caf82699a5b19f41ce91e2037444300b",
     "original": "/workspace/scratch/e325096ca7ee/generated_images/exec-e89024a6-7ddc-4175-9e57-dff606e0e8f9.png",
-    "original_sha256": "fab7548fca5c8befd94fab80fb2611144ca68bf1e1e14f6a9b6dfa484af0ad9e"
+    "original_sha256": "fab7548fca5c8befd94fab80fb2611144ca68bf1e1e14f6a9b6dfa484af0ad9e",
+    "repository_path": "img/깜까미_light_glossy_promo_f.webp"
   },
   "face": {
     "source": "data/face-design.json faces.302; data/source-appearance.json entries.302",
@@ -166,5 +167,23 @@
       "approved": true
     }
   ],
-  "prompt_note": "The light tool prompt additionally retained the generator default relaxed-hand sentence even though the selected scene output omitted it. light.txt records the exact submitted tool prompt."
+  "prompt_note": "The light tool prompt additionally retained the generator default relaxed-hand sentence even though the selected scene output omitted it. light.txt records the exact submitted tool prompt.",
+  "remote": {
+    "image_repository": "polos0117/pkm-atelier-img-2",
+    "code_repository": "polos0117/pkm-atelier",
+    "branch": "main",
+    "commits": {
+      "species": "sableye-20261019",
+      "images": "f6cc0774f2ab05dad34f7482c68f1b4353016598",
+      "thumbnails": "d8918e2a0daa03c3ec513ff8a84f0322a1ece57a",
+      "registry": "9a5f1497cffce02c6222298db7ff4708687aad80",
+      "face_anchor": "e44d2ccae6534be077b9f61e2065329c7c313a14",
+      "thumbnail_run": 39239670384,
+      "registration_run": 39239867971
+    },
+    "thumbnail_workflow": "success",
+    "registration_workflow": "success",
+    "ref_update": "fast-forward, force=false"
+  },
+  "completed_at": "2026-10-19T10:58:17.224818+00:00"
 }
