@@ -1,0 +1,155 @@
+{
+  "name": "코코파스",
+  "slug": "nosepass",
+  "no": 299,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "navy",
+    "hairstyle": "straight",
+    "hair length": "medium",
+    "eye color": "amber",
+    "body type": "statuesque"
+  },
+  "wear": "Volcanic rock becomes slate-gray faceted armor; the red triangular compass nose becomes a broad triangular breastplate inlay, compass needles become short collar motifs, and circular holes become recessed round armor vents.",
+  "scene": "A windswept volcanic plateau with upright basalt pillars and floating iron-sand arcs.",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "occupation_sensual",
+      "ex": "auction_specialist",
+      "expr": "pensive",
+      "pose": "mid_action",
+      "orient": "looking_down",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "strong",
+        "action_level": "balanced",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "vest",
+        "skirt"
+      ],
+      "scene": "Sunlight falls across a stone-topped appraisal counter; the vintage ball and travel compass lie side by side as she examines their joins through a small loupe.",
+      "outfit": "A charcoal sleeveless cropped utility vest over a secure rust-red bandeau and a wrap mini skirt, exposing shoulders, waist and legs; angular pockets echo basalt facets.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "Pokémon artifact appraiser examining a vintage Poké Ball and travel tools with a jeweler's loupe at a display table.",
+      "axis_reasons": {
+        "source_influence": "surveyor_cartographer: Angular basalt pockets carry the source geometry.",
+        "action_level": "auction_specialist: examining small objects through a loupe involves restrained hand movement.",
+        "separates_preference": "surveyor_cartographer: The selected garment construction is vest, skirt."
+      },
+      "input_reasons": {
+        "scene": "auction_specialist leaves lighting and the selected travel tool undefined; daylight and a compass tie the scene to her source.",
+        "outfit": "auction_specialist specifies no garments; angular vest pockets and a wrap mini skirt supply the chosen silhouette.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "auction_specialist: looking down and an environmental frame show the loupe and the stone counter together.",
+      "random_draws": {
+        "orient": "reaching_up",
+        "frame": "face_close",
+        "lens": "telephoto135"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "monokini",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "balanced",
+        "action_level": "mostly posed",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "scene": "Late-afternoon light grazes a terraced mineral-water pool; her free fingertips rest on its smooth stone rim.",
+      "outfit": "Fully lined slate-gray fabric with a rust-red central panel and asymmetric waist cutouts, exposing shoulders, waist and legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "a sculptural monokini with asymmetric side cut-outs joined by a solid central panel",
+      "axis_reasons": {
+        "source_influence": "monokini: The blue or slate palette and tailored panel shapes suggest the source.",
+        "action_level": "monokini: Late-afternoon light grazes a terraced mineral-water pool; her free fingertips rest on its smooth stone rim.",
+        "separates_preference": "monokini: The selected garment construction is swimsuit."
+      },
+      "input_reasons": {
+        "scene": "monokini leaves the exact light and the specified hand activity undefined: Late-afternoon light grazes a terraced mineral-water pool; her free fingertips rest on its smooth stone rim.",
+        "outfit": "monokini leaves palette, material and exposed garment structure undefined: Fully lined slate-gray fabric with a rust-red central panel and asymmetric waist cutouts, exposing shoulders, waist and legs.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "monokini: leaning_back/full_body keeps the hand_on_hip activity readable against this setting; portrait85 suits the scene depth and avoids recent composition pairs.",
+      "random_draws": {
+        "orient": "front_3q",
+        "frame": "detail",
+        "lens": "portrait85"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "half_smile",
+      "pose": "adjusting_bag",
+      "orient": "over_shoulder",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "source_influence": "subtle",
+        "action_level": "balanced",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "jacket",
+        "shorts"
+      ],
+      "scene": "At a themed racing-photo event, she checks the strap of a small trackside bag beside a red-and-white barrier.",
+      "outfit": "A cropped slate racing jacket worn open over a fitted red bandeau, separate high-waisted shorts and boots; bare shoulders through cutout sleeve panels, midriff and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier",
+      "axis_reasons": {
+        "source_influence": "retro_racer: ordinary gray and red fabric alone carries the palette.",
+        "action_level": "retro_racer: checking a bag strap is a small stationary movement.",
+        "separates_preference": "retro_racer: cropped jacket, bandeau and shorts are independent garments."
+      },
+      "input_reasons": {
+        "scene": "retro_racer specifies only a barrier; a staged racing photo event and the bag provide the immediate activity.",
+        "outfit": "retro_racer leaves colours, inner layer, jacket opening and sleeve construction undefined.",
+        "camera": "The built-in image tool exposes no dimensions field, so request vertical 2:3 at 1024×1536."
+      },
+      "random_adjustment_reason": "retro_racer: looking back keeps the bag strap readable while waist-up framing shows her hands and cropped jacket.",
+      "random_draws": {
+        "orient": "walking_away",
+        "frame": "waist_up",
+        "lens": "wide24"
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "slot": "casual1",
+      "reason": "나침반 눈금의 미세한 문자 모양 제거",
+      "original": "/workspace/scratch/75df8e255ed5/generated_images/exec-2746c1ff-5bb5-4e82-88b6-e26f5679fe24.png",
+      "references": [
+        "light",
+        "casual1-initial"
+      ],
+      "result": "/workspace/scratch/75df8e255ed5/generated_images/exec-1b5497dd-87a9-4201-b48d-1faf75ddbb8a.png",
+      "observed": "단순 방향선과 점만 남으며 읽을 수 있는 글자는 없음"
+    }
+  ]
+}
