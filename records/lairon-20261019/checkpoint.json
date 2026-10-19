@@ -1,7 +1,7 @@
 {
   "card": "갱도라",
   "style": "glossy_promo",
-  "status": "qa-complete-ready-to-publish",
+  "status": "registered-complete",
   "images": [
     {
       "slot": "light",
@@ -143,5 +143,16 @@
       "sha256": "ccfdb90f025bc9fe915158c28dcdde66dcf4ca6daf47b68ae9db0d8f2a7f8d92",
       "reference": "img/갱도라_light_glossy_promo_f.webp"
     }
-  ]
+  ],
+  "canonical_reference_rule": "중장·고기동·일상은 최초 경장, 개방은 해당 일반 폼과 경장.",
+  "remote_initial_image_commit": "7764c822a48053357aeb1165895d23c6d803795b",
+  "catalog_commit": "000a9ee0e8256b2ce3117e131834864c7d866964",
+  "transport_verification": "원본 PNG에서 변환한 18장 모두 1024×1536 WebP 및 SHA256 확인. 원격 Git blob SHA까지 업로드 때 대조.",
+  "remote_final_image_commit": "ee33389b890ea13eaf0af6f745ab720d48ed9efe",
+  "thumbnail_commit": "f500ec81aecd82cd37bc9ced77e6e16ab41a5e5b",
+  "thumbnail_workflow": {
+    "run_id": 39246428216,
+    "conclusion": "success"
+  },
+  "remote_verification": "모든 최종 원격 WebP 18장 SHA256·픽셀 크기 대조 및 원격 썸네일 18장 정상 열림·긴 변 512 확인. 도감 9/9씩 where=1."
 }

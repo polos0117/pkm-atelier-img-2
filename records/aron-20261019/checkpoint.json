@@ -1,7 +1,7 @@
 {
   "card": "가보리",
   "style": "glossy_promo",
-  "status": "qa-complete-ready-to-publish",
+  "status": "registered-complete",
   "anchor": {
     "path": "/workspace/scratch/efb942308cc0/pkm-atelier-img-2/img/가보리_light_glossy_promo_f.webp",
     "repository_path": "img/가보리_light_glossy_promo_f.webp",
@@ -142,5 +142,17 @@
       "sha256": "bea194ca70c63a4245f945c7884f3e14bba2b739412dbeee85de0501f85dc1a1",
       "reference": "img/가보리_light_glossy_promo_f.webp"
     }
-  ]
+  ],
+  "canonical_reference_rule": "중장·고기동·일상은 최초 경장, 개방은 해당 일반 폼과 경장.",
+  "remote_initial_image_commit": "0c6814f4071ffce3f9696a07cf7b3232a98e2a17",
+  "catalog_commit": "000a9ee0e8256b2ce3117e131834864c7d866964",
+  "transport_verification": "원본 PNG에서 변환한 18장 모두 1024×1536 WebP 및 SHA256 확인. 원격 Git blob SHA까지 업로드 때 대조.",
+  "transport_repair_commit": "d3768cff600d641091a2aef8055b1aff2eb83d98",
+  "remote_final_image_commit": "503f19fc8475b303e74684266f1d6c47397cb41a",
+  "thumbnail_commit": "f500ec81aecd82cd37bc9ced77e6e16ab41a5e5b",
+  "thumbnail_workflow": {
+    "run_id": 39246326512,
+    "conclusion": "success"
+  },
+  "remote_verification": "모든 최종 원격 WebP 18장 SHA256·픽셀 크기 대조 및 원격 썸네일 18장 정상 열림·긴 변 512 확인. 도감 9/9씩 where=1."
 }
