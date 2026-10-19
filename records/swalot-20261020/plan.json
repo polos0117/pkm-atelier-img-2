@@ -1,0 +1,1016 @@
+{
+  "card": "꿀꺽몬",
+  "style": "glossy_promo",
+  "batch_plan": {
+    "session": "gpt-gulpin-swalot-20261020",
+    "characters": [
+      {
+        "card": "꼴깍몬",
+        "species": "gulpin-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_market",
+            "expr": "curious",
+            "pose": "carrying_something",
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "scene": "Sunlight passes through a striped market awning; a ripe pear-shaped berry rests in her hand above the open paper bag.",
+            "outfit": "Lime-green short overalls with a low square bib and a fitted opaque inset leave her shoulders, upper back and thighs bare.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "profile_close",
+                "selected": "looking_down",
+                "reason": "food_market의 Sunlight passes through a striped market awning; a ripe pear-shaped berry rests in her hand above the open paper bag. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "three_quarter",
+                "reason": "food_market의 Sunlight passes through a striped market awning; a ripe pear-shaped berry rests in her hand above the open paper bag. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "documentary35",
+                "selected": "documentary35",
+                "reason": "food_market의 Sunlight passes through a striped market awning; a ripe pear-shaped berry rests in her hand above the open paper bag. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "Choosing fresh berries at a village market stall and placing them into a paper shopping bag.",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "curious",
+              "pose": "carrying_something",
+              "orient": "looking_down",
+              "scene": "Sunlight passes through a striped market awning; a ripe pear-shaped berry rests in her hand above the open paper bag.",
+              "outfit": "Lime-green short overalls with a low square bib and a fitted opaque inset leave her shoulders, upper back and thighs bare.",
+              "frame": "three_quarter",
+              "lens": "documentary35",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "food_berries",
+              "catCustom": "",
+              "ex": "food_market",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "balanced",
+                "source_influence": "subtle",
+                "separates_preference": "balanced"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Sunlight passes through a striped market awning; a ripe pear-shaped berry rests in her hand above the open paper bag.",
+                "reason": "food_market 예시가 정하지 않은 시간·구체 물품과 행동을 Sunlight passes through a striped market awning; a ripe pear-shaped berry rests in her hand above the open paper bag.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "Lime-green short overalls with a low square bib and a fitted opaque inset leave her shoulders, upper back and thighs bare.",
+                "reason": "food_market 예시가 정하지 않은 소재·배색과 드러나는 부위를 Lime-green short overalls with a low square bib and a fitted opaque inset leave her shoulders, upper back and thighs bare.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Sunlight passes through a striped market awning; a ripe pear-shaped berry rests in her hand above the open paper bag.의 움직임에 따라 balanced 선택.",
+              "source_influence": "Lime-green short overalls with a low square bib and a fitted opaque inset leave her shoulders, upper back and thighs bare.의 원작 색·문양 사용 정도를 subtle로 설정.",
+              "separates_preference": "overalls 구조에 맞게 balanced로 설정."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "wildcard",
+            "ex": "arcade_night",
+            "expr": "determined",
+            "pose": "mid_action",
+            "orient": "turning_midmotion",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "crop_top",
+              "shorts"
+            ],
+            "scene": "She sends a puck across an air-hockey table in a neon-lit amusement arcade; amber light reflects off its smooth rim.",
+            "outfit": "A scarlet cropped halter top and tailored black shorts leave her midriff, shoulders and thighs exposed.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "crouching",
+                "selected": "turning_midmotion",
+                "reason": "arcade_night의 She sends a puck across an air-hockey table in a neon-lit amusement arcade; amber light reflects off its smooth rim. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "chest_up",
+                "selected": "environmental",
+                "reason": "arcade_night의 She sends a puck across an air-hockey table in a neon-lit amusement arcade; amber light reflects off its smooth rim. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "telephoto135",
+                "selected": "wide24",
+                "reason": "arcade_night의 She sends a puck across an air-hockey table in a neon-lit amusement arcade; amber light reflects off its smooth rim. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "in a night arcade in streetwear, playing a game or looking at small prizes",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "determined",
+              "pose": "mid_action",
+              "orient": "turning_midmotion",
+              "scene": "She sends a puck across an air-hockey table in a neon-lit amusement arcade; amber light reflects off its smooth rim.",
+              "outfit": "A scarlet cropped halter top and tailored black shorts leave her midriff, shoulders and thighs exposed.",
+              "frame": "environmental",
+              "lens": "wide24",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "wildcard",
+              "catCustom": "",
+              "ex": "arcade_night",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly active",
+                "source_influence": "subtle",
+                "separates_preference": "prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "She sends a puck across an air-hockey table in a neon-lit amusement arcade; amber light reflects off its smooth rim.",
+                "reason": "arcade_night 예시가 정하지 않은 시간·구체 물품과 행동을 She sends a puck across an air-hockey table in a neon-lit amusement arcade; amber light reflects off its smooth rim.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "A scarlet cropped halter top and tailored black shorts leave her midriff, shoulders and thighs exposed.",
+                "reason": "arcade_night 예시가 정하지 않은 소재·배색과 드러나는 부위를 A scarlet cropped halter top and tailored black shorts leave her midriff, shoulders and thighs exposed.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "She sends a puck across an air-hockey table in a neon-lit amusement arcade; amber light reflects off its smooth rim.의 움직임에 따라 mostly active 선택.",
+              "source_influence": "A scarlet cropped halter top and tailored black shorts leave her midriff, shoulders and thighs exposed.의 원작 색·문양 사용 정도를 subtle로 설정.",
+              "separates_preference": "crop_top, shorts 구조에 맞게 prefer separates로 설정."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "babydoll",
+            "expr": "gentle",
+            "pose": "standing_relaxed",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "slip"
+            ],
+            "scene": "At a dressing-room vanity she fastens a small earring beside a bowl of fresh garden flowers.",
+            "outfit": "The opaque leaf-green satin is fully lined through the bust and flared short skirt; narrow straps reveal shoulders and upper back, with a black diamond embroidered at the hem.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "side",
+                "selected": "profile_close",
+                "reason": "babydoll의 At a dressing-room vanity she fastens a small earring beside a bowl of fresh garden flowers. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "full_body",
+                "selected": "chest_up",
+                "reason": "babydoll의 At a dressing-room vanity she fastens a small earring beside a bowl of fresh garden flowers. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "portrait85",
+                "selected": "portrait85",
+                "reason": "babydoll의 At a dressing-room vanity she fastens a small earring beside a bowl of fresh garden flowers. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "gentle",
+              "pose": "standing_relaxed",
+              "orient": "profile_close",
+              "scene": "At a dressing-room vanity she fastens a small earring beside a bowl of fresh garden flowers.",
+              "outfit": "The opaque leaf-green satin is fully lined through the bust and flared short skirt; narrow straps reveal shoulders and upper back, with a black diamond embroidered at the hem.",
+              "frame": "chest_up",
+              "lens": "portrait85",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "lingerie",
+              "catCustom": "",
+              "ex": "babydoll",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly posed",
+                "source_influence": "balanced",
+                "separates_preference": "balanced"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "At a dressing-room vanity she fastens a small earring beside a bowl of fresh garden flowers.",
+                "reason": "babydoll 예시가 정하지 않은 시간·구체 물품과 행동을 At a dressing-room vanity she fastens a small earring beside a bowl of fresh garden flowers.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "The opaque leaf-green satin is fully lined through the bust and flared short skirt; narrow straps reveal shoulders and upper back, with a black diamond embroidered at the hem.",
+                "reason": "babydoll 예시가 정하지 않은 소재·배색과 드러나는 부위를 The opaque leaf-green satin is fully lined through the bust and flared short skirt; narrow straps reveal shoulders and upper back, with a black diamond embroidered at the hem.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "At a dressing-room vanity she fastens a small earring beside a bowl of fresh garden flowers.의 움직임에 따라 mostly posed 선택.",
+              "source_influence": "The opaque leaf-green satin is fully lined through the bust and flared short skirt; narrow straps reveal shoulders and upper back, with a black diamond embroidered at the hem.의 원작 색·문양 사용 정도를 balanced로 설정.",
+              "separates_preference": "slip 구조에 맞게 balanced로 설정."
+            }
+          }
+        ]
+      },
+      {
+        "card": "꿀꺽몬",
+        "species": "swalot-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "wrap_swim",
+            "expr": "amused",
+            "pose": "walking",
+            "orient": "low_angle",
+            "frame": "full_body",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.",
+            "outfit": "Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "back_to_camera",
+                "selected": "low_angle",
+                "reason": "wrap_swim의 She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "face_close",
+                "selected": "full_body",
+                "reason": "wrap_swim의 She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "natural50",
+                "reason": "wrap_swim의 She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "a wrap-front swimsuit with a crossed bodice and a tie at the waist",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "amused",
+              "pose": "walking",
+              "orient": "low_angle",
+              "scene": "She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.",
+              "outfit": "Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.",
+              "frame": "full_body",
+              "lens": "natural50",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "swimwear",
+              "catCustom": "",
+              "ex": "wrap_swim",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "balanced",
+                "source_influence": "subtle",
+                "separates_preference": "balanced"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.",
+                "reason": "wrap_swim 예시가 정하지 않은 시간·구체 물품과 행동을 She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.",
+                "reason": "wrap_swim 예시가 정하지 않은 소재·배색과 드러나는 부위를 Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.의 움직임에 따라 balanced 선택.",
+              "source_influence": "Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.의 원작 색·문양 사용 정도를 subtle로 설정.",
+              "separates_preference": "swimsuit 구조에 맞게 balanced로 설정."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "shoe_bench",
+            "expr": "focused",
+            "pose": "sitting",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "tank",
+              "leggings"
+            ],
+            "scene": "Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.",
+            "outfit": "An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "leaning_back",
+                "selected": "leaning_forward",
+                "reason": "shoe_bench의 Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "three_quarter",
+                "reason": "shoe_bench의 Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "documentary35",
+                "reason": "shoe_bench의 Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "sitting on the entryway bench to tie her shoes before going out",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "focused",
+              "pose": "sitting",
+              "orient": "leaning_forward",
+              "scene": "Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.",
+              "outfit": "An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.",
+              "frame": "three_quarter",
+              "lens": "documentary35",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "Partial correction to the attached shoe-tying scene: remove the tiny pseudo-labels on both shoe tongues and replace every logo-like side marking with plain fabric or simple stitching. Preserve her face, fingers, shoelace bow, clothing and the existing entryway composition exactly.",
+              "aspect": "2:3",
+              "cat": "everyday_sensual",
+              "catCustom": "",
+              "ex": "shoe_bench",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly posed",
+                "source_influence": "subtle",
+                "separates_preference": "prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.",
+                "reason": "shoe_bench 예시가 정하지 않은 시간·구체 물품과 행동을 Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.",
+                "reason": "shoe_bench 예시가 정하지 않은 소재·배색과 드러나는 부위를 An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              },
+              {
+                "field": "custom",
+                "text": "Partial correction to the attached shoe-tying scene: remove the tiny pseudo-labels on both shoe tongues and replace every logo-like side marking with plain fabric or simple stitching. Preserve her face, fingers, shoelace bow, clothing and the existing entryway composition exactly.",
+                "reason": "신발 혀와 옆면에 글자·상표 같은 무늬가 생겨 해당 위치만 부분 수정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.의 움직임에 따라 mostly posed 선택.",
+              "source_influence": "An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.의 원작 색·문양 사용 정도를 subtle로 설정.",
+              "separates_preference": "tank, leggings 구조에 맞게 prefer separates로 설정."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "traditional",
+            "ex": "lehenga_formal",
+            "expr": "proud",
+            "pose": "dance_step",
+            "orient": "looking_away",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "traditional",
+              "skirt"
+            ],
+            "scene": "Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.",
+            "outfit": "A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "looking_away",
+                "selected": "looking_away",
+                "reason": "lehenga_formal의 Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "face_close",
+                "selected": "environmental",
+                "reason": "lehenga_formal의 Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "wide24",
+                "reason": "lehenga_formal의 Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "an Indian lehenga — a full embroidered flared skirt, fitted choli blouse and a sheer dupatta",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "proud",
+              "pose": "dance_step",
+              "orient": "looking_away",
+              "scene": "Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.",
+              "outfit": "A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.",
+              "frame": "environmental",
+              "lens": "wide24",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "traditional",
+              "catCustom": "",
+              "ex": "lehenga_formal",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly active",
+                "source_influence": "strong",
+                "separates_preference": "strongly prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.",
+                "reason": "lehenga_formal 예시가 정하지 않은 시간·구체 물품과 행동을 Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.",
+                "reason": "lehenga_formal 예시가 정하지 않은 소재·배색과 드러나는 부위를 A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.의 움직임에 따라 mostly active 선택.",
+              "source_influence": "A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.의 원작 색·문양 사용 정도를 strong로 설정.",
+              "separates_preference": "traditional, skirt 구조에 맞게 strongly prefer separates로 설정."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "wrap_swim",
+      "expr": "amused",
+      "pose": "walking",
+      "orient": "low_angle",
+      "frame": "full_body",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "scene": "She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.",
+      "outfit": "Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "random_draws": {
+        "orient": {
+          "drawn": "back_to_camera",
+          "selected": "low_angle",
+          "reason": "wrap_swim의 She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "frame": {
+          "drawn": "face_close",
+          "selected": "full_body",
+          "reason": "wrap_swim의 She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "natural50",
+          "reason": "wrap_swim의 She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        }
+      },
+      "example_text": "a wrap-front swimsuit with a crossed bodice and a tie at the waist",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "actual_selections": {
+        "expr": "amused",
+        "pose": "walking",
+        "orient": "low_angle",
+        "scene": "She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.",
+        "outfit": "Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.",
+        "frame": "full_body",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "swimwear",
+        "catCustom": "",
+        "ex": "wrap_swim",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.",
+          "reason": "wrap_swim 예시가 정하지 않은 시간·구체 물품과 행동을 She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.로 보완."
+        },
+        {
+          "field": "outfit",
+          "text": "Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.",
+          "reason": "wrap_swim 예시가 정하지 않은 소재·배색과 드러나는 부위를 Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.로 구체화."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "She carries a yellow swim ring across a resort boardwalk toward the turquoise lagoon under midday sunshine.의 움직임에 따라 balanced 선택.",
+        "source_influence": "Deep purple fully lined fabric has golden crossing bands and a high-cut leg line; the open back leaves shoulders, back and legs visible.의 원작 색·문양 사용 정도를 subtle로 설정.",
+        "separates_preference": "swimsuit 구조에 맞게 balanced로 설정."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "everyday_sensual",
+      "ex": "shoe_bench",
+      "expr": "focused",
+      "pose": "sitting",
+      "orient": "leaning_forward",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "tank",
+        "leggings"
+      ],
+      "scene": "Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.",
+      "outfit": "An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "random_draws": {
+        "orient": {
+          "drawn": "leaning_back",
+          "selected": "leaning_forward",
+          "reason": "shoe_bench의 Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "frame": {
+          "drawn": "environmental",
+          "selected": "three_quarter",
+          "reason": "shoe_bench의 Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "documentary35",
+          "reason": "shoe_bench의 Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        }
+      },
+      "example_text": "sitting on the entryway bench to tie her shoes before going out",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "actual_selections": {
+        "expr": "focused",
+        "pose": "sitting",
+        "orient": "leaning_forward",
+        "scene": "Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.",
+        "outfit": "An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.",
+        "frame": "three_quarter",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "Partial correction to the attached shoe-tying scene: remove the tiny pseudo-labels on both shoe tongues and replace every logo-like side marking with plain fabric or simple stitching. Preserve her face, fingers, shoelace bow, clothing and the existing entryway composition exactly.",
+        "aspect": "2:3",
+        "cat": "everyday_sensual",
+        "catCustom": "",
+        "ex": "shoe_bench",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.",
+          "reason": "shoe_bench 예시가 정하지 않은 시간·구체 물품과 행동을 Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.로 보완."
+        },
+        {
+          "field": "outfit",
+          "text": "An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.",
+          "reason": "shoe_bench 예시가 정하지 않은 소재·배색과 드러나는 부위를 An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.로 구체화."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        },
+        {
+          "field": "custom",
+          "text": "Partial correction to the attached shoe-tying scene: remove the tiny pseudo-labels on both shoe tongues and replace every logo-like side marking with plain fabric or simple stitching. Preserve her face, fingers, shoelace bow, clothing and the existing entryway composition exactly.",
+          "reason": "신발 혀와 옆면에 글자·상표 같은 무늬가 생겨 해당 위치만 부분 수정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Early daylight falls across the tiled entryway and a pair of running shoes; she pulls the lace ends into a bow.의 움직임에 따라 mostly posed 선택.",
+        "source_influence": "An ivory cropped racerback tank and plum knee-length leggings reveal shoulders, midriff and lower legs.의 원작 색·문양 사용 정도를 subtle로 설정.",
+        "separates_preference": "tank, leggings 구조에 맞게 prefer separates로 설정."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "traditional",
+      "ex": "lehenga_formal",
+      "expr": "proud",
+      "pose": "dance_step",
+      "orient": "looking_away",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "traditional",
+        "skirt"
+      ],
+      "scene": "Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.",
+      "outfit": "A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "random_draws": {
+        "orient": {
+          "drawn": "looking_away",
+          "selected": "looking_away",
+          "reason": "lehenga_formal의 Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "frame": {
+          "drawn": "face_close",
+          "selected": "environmental",
+          "reason": "lehenga_formal의 Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "lens": {
+          "drawn": "natural50",
+          "selected": "wide24",
+          "reason": "lehenga_formal의 Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        }
+      },
+      "example_text": "an Indian lehenga — a full embroidered flared skirt, fitted choli blouse and a sheer dupatta",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "actual_selections": {
+        "expr": "proud",
+        "pose": "dance_step",
+        "orient": "looking_away",
+        "scene": "Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.",
+        "outfit": "A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.",
+        "frame": "environmental",
+        "lens": "wide24",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "traditional",
+        "catCustom": "",
+        "ex": "lehenga_formal",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "strongly prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.",
+          "reason": "lehenga_formal 예시가 정하지 않은 시간·구체 물품과 행동을 Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.로 보완."
+        },
+        {
+          "field": "outfit",
+          "text": "A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.",
+          "reason": "lehenga_formal 예시가 정하지 않은 소재·배색과 드러나는 부위를 A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.로 구체화."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Marigold garlands surround a courtyard dance rehearsal at dusk; she lifts the edge of her skirt to clear a small step.의 움직임에 따라 mostly active 선택.",
+        "source_influence": "A purple backless choli and gold-edged lehenga skirt retain the Indian fastening and drape, with the dupatta secured over one shoulder; her waist and upper back are bare and black rhombi decorate the border.의 원작 색·문양 사용 정도를 strong로 설정.",
+        "separates_preference": "traditional, skirt 구조에 맞게 strongly prefer separates로 설정."
+      }
+    }
+  ],
+  "check": "passed before reservation",
+  "reservation_commit": "b8723a3628d7ed77a2c5d6dd28bd08c15e955565",
+  "revisions": [
+    {
+      "cut": 2,
+      "reason": "신발 혀의 가짜 라벨과 옆면의 상표 같은 표시",
+      "inputs": [
+        "경장 ①",
+        "생성된 casual2 수정 대상"
+      ],
+      "changed_field": "custom",
+      "changed_input": "Partial correction to the attached shoe-tying scene: remove the tiny pseudo-labels on both shoe tongues and replace every logo-like side marking with plain fabric or simple stitching. Preserve her face, fingers, shoelace bow, clothing and the existing entryway composition exactly.",
+      "fixed": "strong / bold / 2:3 유지"
+    }
+  ]
+}
