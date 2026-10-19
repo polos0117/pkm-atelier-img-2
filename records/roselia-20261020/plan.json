@@ -1,0 +1,759 @@
+{
+  "card": "로젤리아",
+  "style": "glossy_promo",
+  "batch_plan": {
+    "session": "gpt-illumise-roselia-20261020",
+    "characters": [
+      {
+        "card": "네오비트",
+        "species": "illumise-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "wing_light",
+            "expr": "confident",
+            "pose": "mid_stride",
+            "orient": "low_angle",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "On a curved museum runway she tests the movement of pleated silk panels beside a suspended kinetic light sculpture.",
+            "outfit": "A violet halter minidress has an open back and side waist cutouts, showing shoulders, back, waist and legs; translucent blue pleats and three amber oval beads echo firefly light.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Wing-light / Kinetic Layer Editorial"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "sarong_wrap",
+            "expr": "focused",
+            "pose": "standing_formal",
+            "orient": "front_3q",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "bikini",
+              "skirt"
+            ],
+            "scene": "At a public resort pool deck she straightens the knot of her printed sarong after a swim, with a folded towel on a stone bench.",
+            "outfit": "A fully lined plum bikini with wide supportive straps is paired with a lilac printed sarong knotted high at one hip; shoulders, waist, upper back and lower legs are visible.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "swimwear with a printed sarong knotted at the hip"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "observatory_engineer",
+            "expr": "curious",
+            "pose": "mid_action",
+            "orient": "leaning_forward",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "vest",
+              "shorts"
+            ],
+            "scene": "Under the open observatory dome at blue hour she turns a brass telescope focus wheel; loose field sketches rest on a low instrument shelf.",
+            "outfit": "A cropped pale-blue utility vest with a deep armhole over an opaque fitted inner panel and violet tailored shorts exposes shoulders, a strip of waist and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Nocturnal Pokémon researcher adjusting a telescope and reviewing field sketches at a quiet night observatory."
+          }
+        ]
+      },
+      {
+        "card": "로젤리아",
+        "species": "roselia-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "crossstrap_swim",
+            "expr": "relieved",
+            "pose": "stretching",
+            "orient": "side",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing.",
+            "outfit": "The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a swimsuit with crossed back straps and a scooped front neckline",
+            "actual_selections": {
+              "expr": "relieved",
+              "pose": "stretching",
+              "orient": "side",
+              "scene": "At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing.",
+              "outfit": "The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs.",
+              "frame": "three_quarter",
+              "lens": "telephoto135",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "swimwear",
+              "catCustom": "",
+              "ex": "crossstrap_swim",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly active",
+                "source_influence": "subtle",
+                "separates_preference": "balanced"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": {
+                "drawn": "over_shoulder",
+                "selected": "side",
+                "reason": "crossstrap_swim의 활동과 swimsuit 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 orient를 side로 정함."
+              },
+              "frame": {
+                "drawn": "waist_up",
+                "selected": "three_quarter",
+                "reason": "crossstrap_swim의 활동과 swimsuit 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 frame를 three_quarter로 정함."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "telephoto135",
+                "reason": "crossstrap_swim의 활동과 swimsuit 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 lens를 telephoto135로 정함."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing.",
+                "reason": "crossstrap_swim가 정하지 않은 이 장면의 활동 도구와 공간을 지정: At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing."
+              },
+              {
+                "field": "outfit",
+                "text": "The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs.",
+                "reason": "crossstrap_swim에 없는 소재·색과 드러나는 옷 구조를 추가: The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "crossstrap_swim: At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing.",
+              "source_influence": "crossstrap_swim: The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs.",
+              "separates_preference": "crossstrap_swim: swimsuit의 상하 분리 구조"
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "perfume_developer",
+            "expr": "pensive",
+            "pose": "carrying_something",
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "scene": "Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes.",
+            "outfit": "A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Pokémon berry-fragrance artisan comparing berry peels and scent blotters at an elegant workshop counter.",
+            "actual_selections": {
+              "expr": "pensive",
+              "pose": "carrying_something",
+              "orient": "profile_close",
+              "scene": "Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes.",
+              "outfit": "A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie.",
+              "frame": "waist_up",
+              "lens": "portrait85",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "occupation_sensual",
+              "catCustom": "",
+              "ex": "perfume_developer",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly posed",
+                "source_influence": "strong",
+                "separates_preference": "strongly prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": {
+                "drawn": "reclining",
+                "selected": "profile_close",
+                "reason": "perfume_developer의 활동과 crop_top, skirt 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 orient를 profile_close로 정함."
+              },
+              "frame": {
+                "drawn": "chest_up",
+                "selected": "waist_up",
+                "reason": "perfume_developer의 활동과 crop_top, skirt 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 frame를 waist_up로 정함."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "portrait85",
+                "reason": "perfume_developer의 활동과 crop_top, skirt 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 lens를 portrait85로 정함."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes.",
+                "reason": "perfume_developer가 정하지 않은 이 장면의 활동 도구와 공간을 지정: Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes."
+              },
+              {
+                "field": "outfit",
+                "text": "A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie.",
+                "reason": "perfume_developer에 없는 소재·색과 드러나는 옷 구조를 추가: A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "perfume_developer: Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes.",
+              "source_influence": "perfume_developer: A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie.",
+              "separates_preference": "perfume_developer: crop_top, skirt의 상하 분리 구조"
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "masquerade",
+            "expr": "playful",
+            "pose": "dance_step",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle.",
+            "outfit": "An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a masquerade costume with a feathered eye mask, a structured bodice, and a full skirt",
+            "actual_selections": {
+              "expr": "playful",
+              "pose": "dance_step",
+              "orient": "turning_midmotion",
+              "scene": "At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle.",
+              "outfit": "An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible.",
+              "frame": "full_body",
+              "lens": "documentary35",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "adult_roleplay",
+              "catCustom": "",
+              "ex": "masquerade",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "balanced",
+                "source_influence": "balanced",
+                "separates_preference": "balanced"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": {
+                "drawn": "looking_away",
+                "selected": "turning_midmotion",
+                "reason": "masquerade의 활동과 dress 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 orient를 turning_midmotion로 정함."
+              },
+              "frame": {
+                "drawn": "three_quarter",
+                "selected": "full_body",
+                "reason": "masquerade의 활동과 dress 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 frame를 full_body로 정함."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "documentary35",
+                "reason": "masquerade의 활동과 dress 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 lens를 documentary35로 정함."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle.",
+                "reason": "masquerade가 정하지 않은 이 장면의 활동 도구와 공간을 지정: At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle."
+              },
+              {
+                "field": "outfit",
+                "text": "An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible.",
+                "reason": "masquerade에 없는 소재·색과 드러나는 옷 구조를 추가: An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "masquerade: At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle.",
+              "source_influence": "masquerade: An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible.",
+              "separates_preference": "masquerade: dress의 상하 분리 구조"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "crossstrap_swim",
+      "expr": "relieved",
+      "pose": "stretching",
+      "orient": "side",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "scene": "At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing.",
+      "outfit": "The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a swimsuit with crossed back straps and a scooped front neckline",
+      "actual_selections": {
+        "expr": "relieved",
+        "pose": "stretching",
+        "orient": "side",
+        "scene": "At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing.",
+        "outfit": "The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs.",
+        "frame": "three_quarter",
+        "lens": "telephoto135",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "swimwear",
+        "catCustom": "",
+        "ex": "crossstrap_swim",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": {
+          "drawn": "over_shoulder",
+          "selected": "side",
+          "reason": "crossstrap_swim의 활동과 swimsuit 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 orient를 side로 정함."
+        },
+        "frame": {
+          "drawn": "waist_up",
+          "selected": "three_quarter",
+          "reason": "crossstrap_swim의 활동과 swimsuit 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 frame를 three_quarter로 정함."
+        },
+        "lens": {
+          "drawn": "natural50",
+          "selected": "telephoto135",
+          "reason": "crossstrap_swim의 활동과 swimsuit 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 lens를 telephoto135로 정함."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing.",
+          "reason": "crossstrap_swim가 정하지 않은 이 장면의 활동 도구와 공간을 지정: At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing."
+        },
+        {
+          "field": "outfit",
+          "text": "The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs.",
+          "reason": "crossstrap_swim에 없는 소재·색과 드러나는 옷 구조를 추가: The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "crossstrap_swim: At a seaside swim platform she stretches one arm after climbing the metal ladder from turquoise water; a red buoy bobs beyond the railing.",
+        "source_influence": "crossstrap_swim: The fully lined moss-green swimsuit has crossed back straps and a scooped neckline, with high-cut legs exposing shoulders, back and thighs.",
+        "separates_preference": "crossstrap_swim: swimsuit의 상하 분리 구조"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "occupation_sensual",
+      "ex": "perfume_developer",
+      "expr": "pensive",
+      "pose": "carrying_something",
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "crop_top",
+        "skirt"
+      ],
+      "scene": "Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes.",
+      "outfit": "A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "Pokémon berry-fragrance artisan comparing berry peels and scent blotters at an elegant workshop counter.",
+      "actual_selections": {
+        "expr": "pensive",
+        "pose": "carrying_something",
+        "orient": "profile_close",
+        "scene": "Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes.",
+        "outfit": "A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie.",
+        "frame": "waist_up",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "occupation_sensual",
+        "catCustom": "",
+        "ex": "perfume_developer",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "strongly prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": {
+          "drawn": "reclining",
+          "selected": "profile_close",
+          "reason": "perfume_developer의 활동과 crop_top, skirt 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 orient를 profile_close로 정함."
+        },
+        "frame": {
+          "drawn": "chest_up",
+          "selected": "waist_up",
+          "reason": "perfume_developer의 활동과 crop_top, skirt 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 frame를 waist_up로 정함."
+        },
+        "lens": {
+          "drawn": "natural50",
+          "selected": "portrait85",
+          "reason": "perfume_developer의 활동과 crop_top, skirt 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 lens를 portrait85로 정함."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes.",
+          "reason": "perfume_developer가 정하지 않은 이 장면의 활동 도구와 공간을 지정: Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes."
+        },
+        {
+          "field": "outfit",
+          "text": "A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie.",
+          "reason": "perfume_developer에 없는 소재·색과 드러나는 옷 구조를 추가: A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "perfume_developer: Amber afternoon light crosses a fragrance workshop counter where she compares a curled red berry peel with a scent blotter above two glass dishes.",
+        "source_influence": "perfume_developer: A butter-yellow halter cropped top with a low back and a tie waist is paired with a dark-green side-slit miniskirt, exposing shoulders, upper back, waist and thighs; a small red-and-blue rose pin sits at the tie.",
+        "separates_preference": "perfume_developer: crop_top, skirt의 상하 분리 구조"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "masquerade",
+      "expr": "playful",
+      "pose": "dance_step",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle.",
+      "outfit": "An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a masquerade costume with a feathered eye mask, a structured bodice, and a full skirt",
+      "actual_selections": {
+        "expr": "playful",
+        "pose": "dance_step",
+        "orient": "turning_midmotion",
+        "scene": "At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle.",
+        "outfit": "An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible.",
+        "frame": "full_body",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "adult_roleplay",
+        "catCustom": "",
+        "ex": "masquerade",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": {
+          "drawn": "looking_away",
+          "selected": "turning_midmotion",
+          "reason": "masquerade의 활동과 dress 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 orient를 turning_midmotion로 정함."
+        },
+        "frame": {
+          "drawn": "three_quarter",
+          "selected": "full_body",
+          "reason": "masquerade의 활동과 dress 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 frame를 full_body로 정함."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "documentary35",
+          "reason": "masquerade의 활동과 dress 실루엣이 읽히고 최근 비교 컷과 짝이 겹치지 않도록 lens를 documentary35로 정함."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle.",
+          "reason": "masquerade가 정하지 않은 이 장면의 활동 도구와 공간을 지정: At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle."
+        },
+        {
+          "field": "outfit",
+          "text": "An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible.",
+          "reason": "masquerade에 없는 소재·색과 드러나는 옷 구조를 추가: An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "masquerade: At the entrance to a candlelit masquerade ball she makes a small dance step while lifting a feathered eye mask away from her face with its narrow handle.",
+        "source_influence": "masquerade: An emerald structured bodice joins a full ruby taffeta skirt with a deep front slit; a blue feathered eye mask completes the costume, while bare shoulders, an open back and one leg are visible.",
+        "separates_preference": "masquerade: dress의 상하 분리 구조"
+      }
+    }
+  ],
+  "check": "passed before initial and revised reservations",
+  "reservation_commit": "fdae33c260e5f30f13a1af135ae59a4f30d2ceee",
+  "regenerations": [
+    {
+      "slot": "casual3",
+      "attempt": 1,
+      "problem": "팔 세 개가 생성됨",
+      "changed_inputs": "바꾼 입력 없음",
+      "reference": "경장 ①",
+      "rejected_original": "generated_images/exec-3139705d-61b5-4d44-bebb-d2a47f465364.png"
+    }
+  ],
+  "generation_mode": "built-in image_gen",
+  "casual_plan_source": "actual Preact UI via prompt-dom-harness",
+  "face_design_preparation": "Source appearance long eyelashes and three thorns interpreted as almond eyes, arched brows and bow upper lip. Existing Roselia draft rationale supplemented before creation."
+}
