@@ -1,13 +1,13 @@
 {
   "card": "귀뚤뚜기",
-  "status": "registered-with-skipped-cut",
+  "status": "registered-complete-with-user-exception",
   "image_commit": "115281d92489ba8a189733794a99484b64cbf8e2",
   "face_canonical_commit": "0ebd90454c58f6e306f94c6bc00412656a393801",
-  "automatic_registration_commit": "bc0b7e8400dd7618bee176dcd2af7423ec6440e5",
-  "thumbnail_commit": "5336f35b4016007f62fe44f90d4f57dd1b44c6a3",
-  "thumbnail_run": 39327110597,
-  "automatic_registration_run": 39327145103,
-  "registered": 8,
+  "automatic_registration_commit": "a79123a164c07e0d1b8b3acf62498824ab8db899",
+  "thumbnail_commit": "53982a3a12f68190676212229e8aacb1e92796a9",
+  "thumbnail_run": 39340142857,
+  "automatic_registration_run": 39340330107,
+  "registered": 9,
   "requested": 9,
   "all_registered_files_have_thumbnails": true,
   "where": 1,
@@ -19,39 +19,10 @@
     "귀뚤뚜기_mobility_glossy_promo_f.webp",
     "귀뚤뚜기_mobility_overdrive_glossy_promo_f.webp",
     "귀뚤뚜기_glossy_promo_f_casual1.webp",
-    "귀뚤뚜기_glossy_promo_f_casual2.webp"
+    "귀뚤뚜기_glossy_promo_f_casual2.webp",
+    "귀뚤뚜기_glossy_promo_f_casual3.webp"
   ],
-  "skipped": [
-    {
-      "slot": "casual3",
-      "reason": "원본 이후 부분 수정을 세 번 했으나 스케이트 혀 위 상표형 라벨이 남았다. 사용자 지정 세 번 재작업 한도에 따라 더 생성/등록하지 않고 다음 컷으로 넘어감.",
-      "original_plus_retries": 4,
-      "retries": 3,
-      "scene": "active/roller_skating",
-      "attempts": [
-        {
-          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-5b76fa53-5ab5-4ec3-94af-11d8af6f0142.png",
-          "sha256": "30a073d770e2a102910383b131b9a44f83669298143178217f39e9e9f075cec1",
-          "ui": "casual3-attempt1-ui.json"
-        },
-        {
-          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-02b0b16e-9bc8-4b80-a899-fa6ceaf7a34a.png",
-          "sha256": "837692e534d8dae2ed200a6476c9f4109d5dd95bcab8a42aa70f64584ff621d7",
-          "ui": "casual3-attempt2-ui.json"
-        },
-        {
-          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-948bdc9c-1c6e-4307-89b6-c870a68d95e3.png",
-          "sha256": "a0919f7ece6e8e3248ed5bc891aba606726714b2fe59ed479222fd86fa873ba5",
-          "ui": "casual3-attempt3-ui.json"
-        },
-        {
-          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-c7b1c539-8081-4853-b9fc-2154761be141.png",
-          "sha256": "bf1308194d41030707e601b6299d9e1bebed86997460c64e867032c14bc7ce7b",
-          "ui": "casual3-ui.json"
-        }
-      ]
-    }
-  ],
+  "skipped": [],
   "checks": {
     "batch_plan": "passed before reservation, 2 characters / 6 casual cuts",
     "reserve_commit": "238cd2442ab1280caedd332405acdefe7e56d739",
@@ -62,5 +33,51 @@
     "patch": "passed",
     "casual_ledger_tests": "passed"
   },
-  "publication_method": "Connected GitHub Git Data API; content hashes and tree hashes verified, expected old SHA + force=false; CLI push had no credentials. Concurrent heads handled by pull --rebase."
+  "publication_method": "Connected GitHub Git Data API; content hashes and tree hashes verified, expected old SHA + force=false; CLI push had no credentials. Concurrent heads handled by pull --rebase.",
+  "previous_status": {
+    "status": "registered-with-skipped-cut",
+    "registered": 8,
+    "skipped": [
+      {
+        "slot": "casual3",
+        "reason": "원본 이후 부분 수정을 세 번 했으나 스케이트 혀 위 상표형 라벨이 남았다. 사용자 지정 세 번 재작업 한도에 따라 더 생성/등록하지 않고 다음 컷으로 넘어감.",
+        "original_plus_retries": 4,
+        "retries": 3,
+        "scene": "active/roller_skating",
+        "attempts": [
+          {
+            "original": "/workspace/scratch/36ec3e514234/generated_images/exec-5b76fa53-5ab5-4ec3-94af-11d8af6f0142.png",
+            "sha256": "30a073d770e2a102910383b131b9a44f83669298143178217f39e9e9f075cec1",
+            "ui": "casual3-attempt1-ui.json"
+          },
+          {
+            "original": "/workspace/scratch/36ec3e514234/generated_images/exec-02b0b16e-9bc8-4b80-a899-fa6ceaf7a34a.png",
+            "sha256": "837692e534d8dae2ed200a6476c9f4109d5dd95bcab8a42aa70f64584ff621d7",
+            "ui": "casual3-attempt2-ui.json"
+          },
+          {
+            "original": "/workspace/scratch/36ec3e514234/generated_images/exec-948bdc9c-1c6e-4307-89b6-c870a68d95e3.png",
+            "sha256": "a0919f7ece6e8e3248ed5bc891aba606726714b2fe59ed479222fd86fa873ba5",
+            "ui": "casual3-attempt3-ui.json"
+          },
+          {
+            "original": "/workspace/scratch/36ec3e514234/generated_images/exec-c7b1c539-8081-4853-b9fc-2154761be141.png",
+            "sha256": "bf1308194d41030707e601b6299d9e1bebed86997460c64e867032c14bc7ce7b",
+            "ui": "casual3-ui.json"
+          }
+        ]
+      }
+    ],
+    "automatic_registration_commit": "bc0b7e8400dd7618bee176dcd2af7423ec6440e5"
+  },
+  "additional_image_commits": [
+    "c29adddb75116a447db25ffd3425c2e7d90a84e1"
+  ],
+  "user_exceptions": [
+    {
+      "slot": "casual3",
+      "decision": "라벨 잔존을 허용하고 기존 마지막 수정본 등록",
+      "acceptance_file": "casual3-acceptance.json"
+    }
+  ]
 }
