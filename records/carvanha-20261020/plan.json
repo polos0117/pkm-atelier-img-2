@@ -1,0 +1,1013 @@
+{
+  "card": "샤프니아",
+  "style": "glossy_promo",
+  "batch_plan": {
+    "session": "gpt-carvanha-sharpedo-20261020",
+    "characters": [
+      {
+        "card": "샤프니아",
+        "species": "carvanha-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "cheer_costume",
+            "expr": "confident",
+            "pose": "dance_step",
+            "orient": "front",
+            "frame": "full_body",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "uniform",
+              "crop_top",
+              "skirt"
+            ],
+            "scene": "At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.",
+            "outfit": "A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "back",
+                "selected": "front",
+                "reason": "cheer_costume의 At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "full_body",
+                "reason": "cheer_costume의 At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "telephoto135",
+                "selected": "natural50",
+                "reason": "cheer_costume의 At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "confident",
+              "pose": "dance_step",
+              "orient": "front",
+              "scene": "At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.",
+              "outfit": "A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.",
+              "frame": "full_body",
+              "lens": "natural50",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "adult_roleplay",
+              "catCustom": "",
+              "ex": "cheer_costume",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly active",
+                "source_influence": "balanced",
+                "separates_preference": "strongly prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.",
+                "reason": "cheer_costume 예시가 정하지 않은 시간·구체 물품과 행동을 At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.",
+                "reason": "cheer_costume 예시가 정하지 않은 소재·배색과 드러나는 부위를 A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.의 움직임에 따라 mostly active 선택.",
+              "source_influence": "A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.의 원작 색·문양 사용 정도를 balanced로 설정.",
+              "separates_preference": "uniform, crop_top, skirt 구조에 맞게 strongly prefer separates로 설정."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "travel_exploration",
+            "ex": "travel_coast",
+            "expr": "curious",
+            "pose": "kneeling",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.",
+            "outfit": "A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "low_angle",
+                "selected": "high_angle",
+                "reason": "travel_coast의 The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "three_quarter",
+                "reason": "travel_coast의 The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "documentary35",
+                "reason": "travel_coast의 The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "Examining shells and small tracks on a beach while making a quick sketch in a travel notebook.",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "curious",
+              "pose": "kneeling",
+              "orient": "high_angle",
+              "scene": "The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.",
+              "outfit": "A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.",
+              "frame": "three_quarter",
+              "lens": "documentary35",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "travel_exploration",
+              "catCustom": "",
+              "ex": "travel_coast",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly posed",
+                "source_influence": "strong",
+                "separates_preference": "balanced"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.",
+                "reason": "travel_coast 예시가 정하지 않은 시간·구체 물품과 행동을 The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.",
+                "reason": "travel_coast 예시가 정하지 않은 소재·배색과 드러나는 부위를 A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.의 움직임에 따라 mostly posed 선택.",
+              "source_influence": "A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.의 원작 색·문양 사용 정도를 strong로 설정.",
+              "separates_preference": "dress 구조에 맞게 balanced로 설정."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "laundry_lounge",
+            "expr": "candid",
+            "pose": "carrying_something",
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "tank",
+              "shorts"
+            ],
+            "scene": "Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.",
+            "outfit": "A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "front_3q",
+                "selected": "turning_midmotion",
+                "reason": "laundry_lounge의 Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "waist_up",
+                "reason": "laundry_lounge의 Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "portrait85",
+                "reason": "laundry_lounge의 Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "at home in a tank top and lounge shorts, folding laundry and bedding",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "candid",
+              "pose": "carrying_something",
+              "orient": "turning_midmotion",
+              "scene": "Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.",
+              "outfit": "A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.",
+              "frame": "waist_up",
+              "lens": "portrait85",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "homewear",
+              "catCustom": "",
+              "ex": "laundry_lounge",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "balanced",
+                "source_influence": "subtle",
+                "separates_preference": "prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.",
+                "reason": "laundry_lounge 예시가 정하지 않은 시간·구체 물품과 행동을 Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.",
+                "reason": "laundry_lounge 예시가 정하지 않은 소재·배색과 드러나는 부위를 A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.의 움직임에 따라 balanced 선택.",
+              "source_influence": "A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.의 원작 색·문양 사용 정도를 subtle로 설정.",
+              "separates_preference": "tank, shorts 구조에 맞게 prefer separates로 설정."
+            }
+          }
+        ]
+      },
+      {
+        "card": "샤크니아",
+        "species": "sharpedo-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "active",
+            "ex": "surf_prep",
+            "expr": "determined",
+            "pose": "mid_action",
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "tank",
+              "shorts"
+            ],
+            "scene": "At a seaside surf rack she rubs a wax block across the deck of a cobalt surfboard in amber sunrise light.",
+            "outfit": "A navy cropped racerback tank and yellow board shorts leave her shoulders, back, waist and thighs bare; triangular wave graphics follow the side seams.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "reclining",
+                "selected": "rear_3q",
+                "reason": "surf_prep의 At a seaside surf rack she rubs a wax block across the deck of a cobalt surfboard in amber sunrise light. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "chest_up",
+                "selected": "environmental",
+                "reason": "surf_prep의 At a seaside surf rack she rubs a wax block across the deck of a cobalt surfboard in amber sunrise light. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "wide24",
+                "reason": "surf_prep의 At a seaside surf rack she rubs a wax block across the deck of a cobalt surfboard in amber sunrise light. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "at the water's edge in a wetsuit pulled down to the waist over a bikini top, waxing a surfboard",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "determined",
+              "pose": "mid_action",
+              "orient": "rear_3q",
+              "scene": "At a seaside surf rack she rubs a wax block across the deck of a cobalt surfboard in amber sunrise light.",
+              "outfit": "A navy cropped racerback tank and yellow board shorts leave her shoulders, back, waist and thighs bare; triangular wave graphics follow the side seams.",
+              "frame": "environmental",
+              "lens": "wide24",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "active",
+              "catCustom": "",
+              "ex": "surf_prep",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly active",
+                "source_influence": "strong",
+                "separates_preference": "prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "At a seaside surf rack she rubs a wax block across the deck of a cobalt surfboard in amber sunrise light.",
+                "reason": "surf_prep 예시가 정하지 않은 시간·구체 물품과 행동을 At a seaside surf rack she rubs a wax block across the deck of a cobalt surfboard in amber sunrise light.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "A navy cropped racerback tank and yellow board shorts leave her shoulders, back, waist and thighs bare; triangular wave graphics follow the side seams.",
+                "reason": "surf_prep 예시가 정하지 않은 소재·배색과 드러나는 부위를 A navy cropped racerback tank and yellow board shorts leave her shoulders, back, waist and thighs bare; triangular wave graphics follow the side seams.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "At a seaside surf rack she rubs a wax block across the deck of a cobalt surfboard in amber sunrise light.의 움직임에 따라 mostly active 선택.",
+              "source_influence": "A navy cropped racerback tank and yellow board shorts leave her shoulders, back, waist and thighs bare; triangular wave graphics follow the side seams.의 원작 색·문양 사용 정도를 strong로 설정.",
+              "separates_preference": "tank, shorts 구조에 맞게 prefer separates로 설정."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_photo",
+            "expr": "pensive",
+            "pose": "sitting",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "blouse",
+              "shorts"
+            ],
+            "scene": "Rain beads on the cafe window; her fingertips arrange prints of reef habitats into the open scrapbook.",
+            "outfit": "A sleeveless cream wrap blouse with a deep V and open back pairs with blue tailored shorts, exposing collarbones, upper back and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "looking_away",
+                "selected": "profile_close",
+                "reason": "hobby_photo의 Rain beads on the cafe window; her fingertips arrange prints of reef habitats into the open scrapbook. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "detail",
+                "selected": "chest_up",
+                "reason": "hobby_photo의 Rain beads on the cafe window; her fingertips arrange prints of reef habitats into the open scrapbook. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "portrait85",
+                "selected": "telephoto135",
+                "reason": "hobby_photo의 Rain beads on the cafe window; her fingertips arrange prints of reef habitats into the open scrapbook. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "Sorting printed habitat photographs beside a camera and a travel scrapbook at a cafe table.",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "pensive",
+              "pose": "sitting",
+              "orient": "profile_close",
+              "scene": "Rain beads on the cafe window; her fingertips arrange prints of reef habitats into the open scrapbook.",
+              "outfit": "A sleeveless cream wrap blouse with a deep V and open back pairs with blue tailored shorts, exposing collarbones, upper back and thighs.",
+              "frame": "chest_up",
+              "lens": "telephoto135",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "hobbies_leisure",
+              "catCustom": "",
+              "ex": "hobby_photo",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "mostly posed",
+                "source_influence": "balanced",
+                "separates_preference": "strongly prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Rain beads on the cafe window; her fingertips arrange prints of reef habitats into the open scrapbook.",
+                "reason": "hobby_photo 예시가 정하지 않은 시간·구체 물품과 행동을 Rain beads on the cafe window; her fingertips arrange prints of reef habitats into the open scrapbook.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "A sleeveless cream wrap blouse with a deep V and open back pairs with blue tailored shorts, exposing collarbones, upper back and thighs.",
+                "reason": "hobby_photo 예시가 정하지 않은 소재·배색과 드러나는 부위를 A sleeveless cream wrap blouse with a deep V and open back pairs with blue tailored shorts, exposing collarbones, upper back and thighs.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Rain beads on the cafe window; her fingertips arrange prints of reef habitats into the open scrapbook.의 움직임에 따라 mostly posed 선택.",
+              "source_influence": "A sleeveless cream wrap blouse with a deep V and open back pairs with blue tailored shorts, exposing collarbones, upper back and thighs.의 원작 색·문양 사용 정도를 balanced로 설정.",
+              "separates_preference": "blouse, shorts 구조에 맞게 strongly prefer separates로 설정."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "classic_bikini",
+            "expr": "amused",
+            "pose": "walking",
+            "orient": "over_shoulder",
+            "frame": "full_body",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "scene": "She walks along a sunlit beach carrying a pair of swim fins beside the low tide line.",
+            "outfit": "The fully lined navy halter top and high-waisted bikini bottoms have yellow piping and a small white star at the hip; shoulders, midriff and legs remain bare.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "random_draws": {
+              "orient": {
+                "drawn": "turning_midmotion",
+                "selected": "over_shoulder",
+                "reason": "classic_bikini의 She walks along a sunlit beach carrying a pair of swim fins beside the low tide line. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "full_body",
+                "reason": "classic_bikini의 She walks along a sunlit beach carrying a pair of swim fins beside the low tide line. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "natural50",
+                "reason": "classic_bikini의 She walks along a sunlit beach carrying a pair of swim fins beside the low tide line. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+              }
+            },
+            "example_text": "a navy high-waisted bikini with a supportive halter top",
+            "locked": [
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "aspect"
+            ],
+            "actual_selections": {
+              "expr": "amused",
+              "pose": "walking",
+              "orient": "over_shoulder",
+              "scene": "She walks along a sunlit beach carrying a pair of swim fins beside the low tide line.",
+              "outfit": "The fully lined navy halter top and high-waisted bikini bottoms have yellow piping and a small white star at the hip; shoulders, midriff and legs remain bare.",
+              "frame": "full_body",
+              "lens": "natural50",
+              "camera": "Vertical 2:3 portrait (1024×1536).",
+              "custom": "",
+              "aspect": "2:3",
+              "cat": "swimwear",
+              "catCustom": "",
+              "ex": "classic_bikini",
+              "exCustom": "",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "balanced",
+                "source_influence": "balanced",
+                "separates_preference": "prefer separates"
+              },
+              "action": {
+                "category": "",
+                "example": "",
+                "timing": "",
+                "equipment": "",
+                "power": "",
+                "effects": "",
+                "speed": "",
+                "environment": ""
+              },
+              "randomLocks": {
+                "axes.overall_intensity": true,
+                "axes.skin_exposure": true,
+                "aspect": true
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "She walks along a sunlit beach carrying a pair of swim fins beside the low tide line.",
+                "reason": "classic_bikini 예시가 정하지 않은 시간·구체 물품과 행동을 She walks along a sunlit beach carrying a pair of swim fins beside the low tide line.로 보완."
+              },
+              {
+                "field": "outfit",
+                "text": "The fully lined navy halter top and high-waisted bikini bottoms have yellow piping and a small white star at the hip; shoulders, midriff and legs remain bare.",
+                "reason": "classic_bikini 예시가 정하지 않은 소재·배색과 드러나는 부위를 The fully lined navy halter top and high-waisted bikini bottoms have yellow piping and a small white star at the hip; shoulders, midriff and legs remain bare.로 구체화."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "She walks along a sunlit beach carrying a pair of swim fins beside the low tide line.의 움직임에 따라 balanced 선택.",
+              "source_influence": "The fully lined navy halter top and high-waisted bikini bottoms have yellow piping and a small white star at the hip; shoulders, midriff and legs remain bare.의 원작 색·문양 사용 정도를 balanced로 설정.",
+              "separates_preference": "bikini 구조에 맞게 prefer separates로 설정."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "cheer_costume",
+      "expr": "confident",
+      "pose": "dance_step",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "uniform",
+        "crop_top",
+        "skirt"
+      ],
+      "scene": "At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.",
+      "outfit": "A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "random_draws": {
+        "orient": {
+          "drawn": "back",
+          "selected": "front",
+          "reason": "cheer_costume의 At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "frame": {
+          "drawn": "environmental",
+          "selected": "full_body",
+          "reason": "cheer_costume의 At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "lens": {
+          "drawn": "telephoto135",
+          "selected": "natural50",
+          "reason": "cheer_costume의 At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        }
+      },
+      "example_text": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "actual_selections": {
+        "expr": "confident",
+        "pose": "dance_step",
+        "orient": "front",
+        "scene": "At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.",
+        "outfit": "A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.",
+        "frame": "full_body",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "adult_roleplay",
+        "catCustom": "",
+        "ex": "cheer_costume",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "strongly prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.",
+          "reason": "cheer_costume 예시가 정하지 않은 시간·구체 물품과 행동을 At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.로 보완."
+        },
+        {
+          "field": "outfit",
+          "text": "A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.",
+          "reason": "cheer_costume 예시가 정하지 않은 소재·배색과 드러나는 부위를 A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.로 구체화."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "At a costume-event rehearsal she sweeps two red pom-poms outward beneath warm gym lights.의 움직임에 따라 mostly active 선택.",
+        "source_influence": "A red-and-navy sleeveless cropped cheer top and yellow-edged pleated miniskirt expose shoulders, midriff and thighs; a small four-point star decorates the waistband.의 원작 색·문양 사용 정도를 balanced로 설정.",
+        "separates_preference": "uniform, crop_top, skirt 구조에 맞게 strongly prefer separates로 설정."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "travel_exploration",
+      "ex": "travel_coast",
+      "expr": "curious",
+      "pose": "kneeling",
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.",
+      "outfit": "A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "random_draws": {
+        "orient": {
+          "drawn": "low_angle",
+          "selected": "high_angle",
+          "reason": "travel_coast의 The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "frame": {
+          "drawn": "environmental",
+          "selected": "three_quarter",
+          "reason": "travel_coast의 The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "documentary35",
+          "reason": "travel_coast의 The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        }
+      },
+      "example_text": "Examining shells and small tracks on a beach while making a quick sketch in a travel notebook.",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "actual_selections": {
+        "expr": "curious",
+        "pose": "kneeling",
+        "orient": "high_angle",
+        "scene": "The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.",
+        "outfit": "A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.",
+        "frame": "three_quarter",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "travel_exploration",
+        "catCustom": "",
+        "ex": "travel_coast",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.",
+          "reason": "travel_coast 예시가 정하지 않은 시간·구체 물품과 행동을 The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.로 보완."
+        },
+        {
+          "field": "outfit",
+          "text": "A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.",
+          "reason": "travel_coast 예시가 정하지 않은 소재·배색과 드러나는 부위를 A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.로 구체화."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "The tide has left spiral shells and tiny shorebird tracks in wet sand; her pencil records the shells as simple drawings.의 움직임에 따라 mostly posed 선택.",
+        "source_influence": "A red backless halter sundress with a short hem reveals shoulders, upper back and thighs; yellow triangular fin-like panels form its skirt edge.의 원작 색·문양 사용 정도를 strong로 설정.",
+        "separates_preference": "dress 구조에 맞게 balanced로 설정."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "homewear",
+      "ex": "laundry_lounge",
+      "expr": "candid",
+      "pose": "carrying_something",
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "tank",
+        "shorts"
+      ],
+      "scene": "Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.",
+      "outfit": "A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "random_draws": {
+        "orient": {
+          "drawn": "front_3q",
+          "selected": "turning_midmotion",
+          "reason": "laundry_lounge의 Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "frame": {
+          "drawn": "environmental",
+          "selected": "waist_up",
+          "reason": "laundry_lounge의 Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        },
+        "lens": {
+          "drawn": "natural50",
+          "selected": "portrait85",
+          "reason": "laundry_lounge의 Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket. 활동과 얼굴·손을 읽을 수 있는 범위 및 장부의 겹치지 않는 구도 조건을 반영."
+        }
+      },
+      "example_text": "at home in a tank top and lounge shorts, folding laundry and bedding",
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "actual_selections": {
+        "expr": "candid",
+        "pose": "carrying_something",
+        "orient": "turning_midmotion",
+        "scene": "Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.",
+        "outfit": "A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.",
+        "frame": "waist_up",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "homewear",
+        "catCustom": "",
+        "ex": "laundry_lounge",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.",
+          "reason": "laundry_lounge 예시가 정하지 않은 시간·구체 물품과 행동을 Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.로 보완."
+        },
+        {
+          "field": "outfit",
+          "text": "A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.",
+          "reason": "laundry_lounge 예시가 정하지 않은 소재·배색과 드러나는 부위를 A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.로 구체화."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.의 움직임에 따라 balanced 선택.",
+        "source_influence": "A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs.의 원작 색·문양 사용 정도를 subtle로 설정.",
+        "separates_preference": "tank, shorts 구조에 맞게 prefer separates로 설정."
+      }
+    }
+  ],
+  "check": {
+    "result": "passed",
+    "before_reservation": true,
+    "revised_reservation_commit": "984ebba31dcc3a2617f64a1aab69b9f5332038c4",
+    "note": "Self reservations excluded from temporary recheck snapshot because small_cat_open counts own reservations; other sessions preserved."
+  },
+  "revisions": [
+    {
+      "cut": 3,
+      "reason": "The first output hung laundry and used a shirt, while the selected example calls for folding bedding in a tank and shorts.",
+      "rejected_original": "generated_images/exec-63d10ae4-82db-4110-8949-6c0f2d757124.png",
+      "changed_inputs": {
+        "scene": "Morning sunlight falls over a bedroom bed where she folds a freshly washed pillowcase beside a wicker laundry basket.",
+        "outfit": "A white cropped tank top and navy lounge shorts reveal her shoulders, collarbones, midriff and legs."
+      },
+      "reference": "light",
+      "fixed_values": "strong,bold,2:3"
+    }
+  ]
+}
