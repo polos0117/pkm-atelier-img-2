@@ -6700,7 +6700,7 @@
    "species": "minun-20261019",
    "card": "마이농",
    "repo": "pkm-atelier-img-2",
-   "at": "2026-10-19T23:55:16+09:00",
+   "at": "2026-10-20T00:03:24+09:00",
    "status": "done",
    "cuts": [
     {
@@ -6764,9 +6764,28 @@
    "species": "volbeat-20261019",
    "card": "볼비트",
    "repo": "pkm-atelier-img-2",
-   "at": "2026-10-19T23:55:16+09:00",
+   "at": "2026-10-20T00:03:25+09:00",
    "status": "done",
    "cuts": [
+    {
+     "cut": 1,
+     "cat": "adult_roleplay",
+     "ex": "event_staff",
+     "expr": "proud",
+     "pose": "carrying_something",
+     "orient": "front_3q",
+     "frame": "full_body",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "tank",
+      "vest"
+     ]
+    },
     {
      "cut": 2,
      "cat": "festivals_contests",
@@ -6805,83 +6824,8 @@
      ]
     }
    ]
-  },
-  {
-   "species": "volbeat-20261019",
-   "card": "볼비트",
-   "status": "reserved",
-   "session": "gpt-minun-volbeat-20261019",
-   "at": "2026-10-19T23:56:06+09:00",
-   "cuts": [
-    {
-     "cut": 1,
-     "cat": "adult_roleplay",
-     "ex": "event_staff",
-     "expr": "proud",
-     "pose": "carrying_something",
-     "orient": "front_3q",
-     "frame": "full_body",
-     "lens": "natural50",
-     "axes": {
-      "action_level": "mostly active",
-      "source_influence": "strong",
-      "separates_preference": "balanced",
-      "overall_intensity": "strong",
-      "skin_exposure": "bold"
-     },
-     "garments": [
-      "vest",
-      "skirt",
-      "tank"
-     ]
-    },
-    {
-     "cut": 2,
-     "cat": "festivals_contests",
-     "ex": "fest_lantern",
-     "expr": "curious",
-     "pose": "walking",
-     "orient": "rear_3q",
-     "frame": "environmental",
-     "lens": "wide24",
-     "axes": {
-      "action_level": "balanced",
-      "source_influence": "strong",
-      "separates_preference": "balanced",
-      "overall_intensity": "strong",
-      "skin_exposure": "bold"
-     },
-     "garments": [
-      "jumpsuit"
-     ],
-     "kept": true
-    },
-    {
-     "cut": 3,
-     "cat": "everyday_basic",
-     "ex": "pottery_class",
-     "expr": "amused",
-     "pose": "sitting",
-     "orient": "seated_twist",
-     "frame": "waist_up",
-     "lens": "portrait85",
-     "axes": {
-      "action_level": "mostly active",
-      "source_influence": "subtle",
-      "separates_preference": "prefer separates",
-      "overall_intensity": "strong",
-      "skin_exposure": "bold"
-     },
-     "garments": [
-      "apron",
-      "tank",
-      "skirt"
-     ],
-     "kept": true
-    }
-   ]
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-19T23:56:06+09:00"
+ "updated": "2026-10-20T00:03:25+09:00"
 }
