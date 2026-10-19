@@ -1,0 +1,334 @@
+{
+  "card": "입치트",
+  "style": "glossy_promo",
+  "generator_url": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "casual_plan": [
+    {
+      "card": "입치트",
+      "outputMode": "casual",
+      "cat": "everyday_basic",
+      "ex": "record_store",
+      "expr": "mischievous",
+      "pose": "carrying_something",
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "scene": "Warm afternoon light falls through the shop window as she slides a navy-and-gold geometric album sleeve from a wooden record bin, supporting a second record under her arm.",
+      "outfit": "An open rust cropped jacket over a white cropped band tee with an abstract sunburst graphic, plus a black pleated miniskirt; the shortened hems reveal midriff and legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "cut": 1,
+      "garments": [
+        "jacket",
+        "shirt",
+        "skirt"
+      ],
+      "exampleText": "in a record store in a band tee and jacket, flipping through vinyl sleeves",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orientation": "back",
+        "frame": "detail",
+        "lens": "portrait85"
+      },
+      "random_adjustments": {
+        "orientation": {
+          "draw": "back",
+          "chosen": "turning_midmotion",
+          "reason": "Keep the face and this scene’s hand-held prop visible while avoiding reserved composition pairs."
+        },
+        "frame": {
+          "draw": "detail",
+          "chosen": "waist_up",
+          "reason": "The record_store activity requires its prop and garment silhouette in view; selected range also differs from this character’s other cuts."
+        },
+        "lens": {
+          "draw": "portrait85",
+          "chosen": "documentary35",
+          "reason": "The record_store setting uses this perspective to preserve hand contact and the intended visible environment."
+        }
+      },
+      "input_reasons": {
+        "scene": "The record-store example gives browsing but no particular sleeve or hand action; a geometric sleeve and wooden bin make the task concrete.",
+        "outfit": "The band tee and jacket are fixed by the example; cropped hems and a pleated miniskirt specify the remaining cut and silhouette.",
+        "camera": "The image tool has no size argument; request Vertical 2:3 portrait (1024×1536)."
+      },
+      "axis_reasons": {
+        "action_level": "Sliding a sleeve from the bin is a gentle browsing movement.",
+        "source_influence": "The black skirt and yellow sunburst echo the original palette within contemporary clothing.",
+        "separates_preference": "Jacket, tee and miniskirt form three separate pieces."
+      }
+    },
+    {
+      "card": "입치트",
+      "outputMode": "casual",
+      "cat": "source_editorial",
+      "ex": "luminous_circuit",
+      "expr": "confident",
+      "pose": "contrapposto",
+      "orient": "reaching_up",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "scene": "At a midnight textile exhibition, she holds the edge of a suspended translucent fabric ribbon beneath a soft amber light.",
+      "outfit": "Black couture short overalls have pale-yellow piped bib straps, high-cut side openings and fine glowing gold stitched lines; shoulders, side waist and upper thighs are exposed.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "cut": 2,
+      "garments": [
+        "overalls"
+      ],
+      "exampleText": "an editorial outfit with glowing line work stitched across it like bioluminescent markings",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orientation": "reclining",
+        "frame": "environmental",
+        "lens": "telephoto135"
+      },
+      "random_adjustments": {
+        "orientation": {
+          "draw": "reclining",
+          "chosen": "reaching_up",
+          "reason": "Show the specific work or fabric contact in this scene and avoid recent composition pairs."
+        },
+        "frame": {
+          "draw": "environmental",
+          "chosen": "chest_up",
+          "reason": "The luminous_circuit activity requires its prop and garment silhouette in view; selected range also differs from this character’s other cuts."
+        },
+        "lens": {
+          "draw": "telephoto135",
+          "chosen": "portrait85",
+          "reason": "The luminous_circuit setting uses this perspective to preserve hand contact and the intended visible environment."
+        }
+      },
+      "input_reasons": {
+        "scene": "The glowing-line outfit example has no location or activity; holding a translucent textile at an exhibition gives it a believable display context.",
+        "outfit": "The example fixes glowing stitched lines but no clothing type; bib overalls and open sides supply a distinct silhouette.",
+        "camera": "The image tool has no size argument; request Vertical 2:3 portrait (1024×1536)."
+      },
+      "axis_reasons": {
+        "action_level": "She holds the fabric ribbon at rest, so mostly posed.",
+        "source_influence": "Black cloth with pale-yellow piping and gold lines makes the source palette explicit.",
+        "separates_preference": "The bib overalls are one garment, suited to balanced."
+      }
+    },
+    {
+      "card": "입치트",
+      "outputMode": "casual",
+      "cat": "swimwear",
+      "ex": "crossstrap_swim",
+      "expr": "relieved",
+      "pose": "perched_seat",
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "scene": "A turquoise lagoon and pale stone bathing steps catch the late-morning sun; she rests a folded lemon-yellow towel on the deck rail.",
+      "outfit": "An opaque black one-piece has lemon-yellow binding around the scooped front and crossed back straps, high-cut legs and a small oval yellow waist panel; shoulders, upper back and thighs remain bare.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "cut": 3,
+      "garments": [
+        "swimsuit"
+      ],
+      "exampleText": "a swimsuit with crossed back straps and a scooped front neckline",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orientation": "rear_3q",
+        "frame": "detail",
+        "lens": "telephoto135"
+      },
+      "random_adjustments": {
+        "orientation": {
+          "draw": "rear_3q",
+          "chosen": "seated_twist",
+          "reason": "The selected seated activity needs a readable face and hands rather than the drawn close detail or repeated angle."
+        },
+        "frame": {
+          "draw": "detail",
+          "chosen": "three_quarter",
+          "reason": "The crossstrap_swim activity requires its prop and garment silhouette in view; selected range also differs from this character’s other cuts."
+        },
+        "lens": {
+          "draw": "telephoto135",
+          "chosen": "natural50",
+          "reason": "The crossstrap_swim setting uses this perspective to preserve hand contact and the intended visible environment."
+        }
+      },
+      "input_reasons": {
+        "scene": "The swimsuit example defines its neckline and straps but no setting or hand action; a lagoon, stone steps and folded towel give the scene context.",
+        "outfit": "Crossed straps and scooped neckline remain unchanged; black opaque fabric, lemon trim and high-cut legs add the chosen styling.",
+        "camera": "The image tool has no size argument; request Vertical 2:3 portrait (1024×1536)."
+      },
+      "axis_reasons": {
+        "action_level": "Resting a folded towel is a stationary leisure moment.",
+        "source_influence": "The black/yellow colour blocks and small oval panel recall Mawile without armor.",
+        "separates_preference": "The selected cross-strap suit is a one-piece, so balanced."
+      }
+    }
+  ],
+  "batch_plan": {
+    "session": "pkm-302-303-retry-20261019-1920",
+    "characters": [
+      {
+        "species": "sableye-20261019",
+        "card": "깜까미",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "masquerade",
+            "expr": "smug",
+            "pose": "mid_stride",
+            "orient": "front_3q",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_basic",
+            "ex": "observatory_engineer",
+            "expr": "curious",
+            "pose": "mid_action",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "vest",
+              "shorts",
+              "tank"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "art_studio",
+            "expr": "pensive",
+            "pose": "leaning_furniture",
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shirt",
+              "skirt"
+            ]
+          }
+        ]
+      },
+      {
+        "species": "mawile-20261019",
+        "card": "입치트",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_basic",
+            "ex": "record_store",
+            "expr": "mischievous",
+            "pose": "carrying_something",
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "jacket",
+              "shirt",
+              "skirt"
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "luminous_circuit",
+            "expr": "confident",
+            "pose": "contrapposto",
+            "orient": "reaching_up",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "crossstrap_swim",
+            "expr": "relieved",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ledger_check": "passed — 2 characters",
+  "reservation_commit": "51e4f2eddf33938dd095a6d6f71ac7ec7d3e33fc",
+  "reserved_before_generation": true
+}
