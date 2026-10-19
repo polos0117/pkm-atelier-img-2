@@ -1,0 +1,622 @@
+{
+  "card": "썬더볼트",
+  "style": "glossy_promo",
+  "batch_plan": {
+    "session": "gpt-manectric-plusle-20261019",
+    "characters": [
+      {
+        "card": "썬더볼트",
+        "species": "manectric-20261019",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "retro_racer",
+            "expr": "confident",
+            "pose": "hand_on_hip",
+            "orient": "low_angle",
+            "frame": "full_body",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "jacket",
+              "shorts",
+              "crop_top"
+            ],
+            "scene": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier.",
+            "outfit": "The cropped blue racing jacket is open over a yellow bralette with blue shorts and boots, exposing midriff and thighs; a small lightning-shaped zipper pull finishes the look.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier",
+            "random_draws": {
+              "orient": {
+                "drawn": "reclining",
+                "selected": "low_angle",
+                "reason": "retro_racer 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "full_body",
+                "selected": "full_body",
+                "reason": "retro_racer 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "natural50",
+                "selected": "wide24",
+                "reason": "retro_racer 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier.",
+                "reason": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "The cropped blue racing jacket is open over a yellow bralette with blue shorts and boots, exposing midriff and thighs; a small lightning-shaped zipper pull finishes the look.",
+                "reason": "retro_racer에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier.의 움직임에 맞춤.",
+              "source_influence": "The cropped blue racing jacket is open over a yellow bralette with blue shorts and boots, exposing midriff and thighs; a small lightning-shaped zipper pull finishes the look.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "jacket / shorts / crop_top의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "private_evening",
+            "ex": "high_slit_gown",
+            "expr": "pensive",
+            "pose": "walking",
+            "orient": "looking_away",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme.",
+            "outfit": "A cobalt satin high-slit gown with a deep open back reveals back and one thigh; gold piping follows the long skirt.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "High-slit Gown",
+            "random_draws": {
+              "orient": {
+                "drawn": "profile_close",
+                "selected": "looking_away",
+                "reason": "high_slit_gown 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "environmental",
+                "reason": "high_slit_gown 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "portrait85",
+                "selected": "documentary35",
+                "reason": "high_slit_gown 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme.",
+                "reason": "High-slit Gown 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "A cobalt satin high-slit gown with a deep open back reveals back and one thigh; gold piping follows the long skirt.",
+                "reason": "high_slit_gown에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme.의 움직임에 맞춤.",
+              "source_influence": "A cobalt satin high-slit gown with a deep open back reveals back and one thigh; gold piping follows the long skirt.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "dress의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "slip_lingerie",
+            "expr": "calm",
+            "pose": "leaning_furniture",
+            "orient": "front_3q",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "slip"
+            ],
+            "scene": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour.",
+            "outfit": "The opaque golden satin slip has narrow straps, a straight mid-thigh hem and cobalt edging, leaving shoulders and legs bare.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a bias-cut satin lingerie slip with narrow straps and a straight hem",
+            "random_draws": {
+              "orient": {
+                "drawn": "reclining",
+                "selected": "front_3q",
+                "reason": "slip_lingerie 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "frame": {
+                "drawn": "detail",
+                "selected": "three_quarter",
+                "reason": "slip_lingerie 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              },
+              "lens": {
+                "drawn": "portrait85",
+                "selected": "portrait85",
+                "reason": "slip_lingerie 활동을 읽을 수 있고 배치와 최근 비교 컷의 구도 짝이 겹치지 않는 값으로 확정."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour.",
+                "reason": "a bias-cut satin lingerie slip with narrow straps and a straight hem 예시가 지정하지 않은 구체 활동·시간과 도구를 정함."
+              },
+              {
+                "field": "outfit",
+                "text": "The opaque golden satin slip has narrow straps, a straight mid-thigh hem and cobalt edging, leaving shoulders and legs bare.",
+                "reason": "slip_lingerie에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour.의 움직임에 맞춤.",
+              "source_influence": "The opaque golden satin slip has narrow straps, a straight mid-thigh hem and cobalt edging, leaving shoulders and legs bare.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "slip의 실제 상하 분리 구조에 맞춤."
+            }
+          }
+        ]
+      },
+      {
+        "card": "플러시",
+        "species": "plusle-20261019",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_sketch",
+            "expr": "focused",
+            "pose": "sitting",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "knit_top",
+              "skirt"
+            ],
+            "scene": "In late-afternoon park light she draws fern fronds and muddy three-toed tracks in her notebook with a red pencil.",
+            "outfit": "A cream one-shoulder knit top with a side waist cutout and a red wrap miniskirt expose shoulder, waist and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Sketching habitat plants and Pokémon tracks in a notebook on a park bench."
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "casino_dealer",
+            "expr": "mischievous",
+            "pose": "mid_action",
+            "orient": "leaning_forward",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "vest",
+              "shorts"
+            ],
+            "scene": "During a cabaret card-trick rehearsal she fans illustrated cards over a green felt table under a red theatre spotlight.",
+            "outfit": "The red fitted dealer waistcoat has a deep neckline and open sides, paired with cream tailored shorts, separate cuffs and a bow tie, exposing shoulders and waist.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a casino dealer costume with a fitted waistcoat, bow tie, and cuffs, at a card table"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "renewable_engineer",
+            "expr": "curious",
+            "pose": "carrying_something",
+            "orient": "side",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "apron",
+              "tank",
+              "shorts"
+            ],
+            "scene": "Warm morning sun fills the observation room as she carries a rolled insulating pad toward a low testing bench beside a small analog monitoring device.",
+            "outfit": "A short cream utility apron over a red halter tank with open back and cream shorts exposes shoulders, back and thighs; red stitching traces the pockets.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Electric-Pokémon behavior researcher arranging insulated resting pads and small monitoring instruments in a comfortable observation room."
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "confident",
+      "pose": "hand_on_hip",
+      "orient": "low_angle",
+      "frame": "full_body",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "jacket",
+        "shorts",
+        "crop_top"
+      ],
+      "scene": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier.",
+      "outfit": "The cropped blue racing jacket is open over a yellow bralette with blue shorts and boots, exposing midriff and thighs; a small lightning-shaped zipper pull finishes the look.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier",
+      "random_draws": {
+        "orient": {
+          "drawn": "reclining",
+          "selected": "low_angle",
+          "reason": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier. 이 활동과 옷의 jacket, shorts, crop_top 실루엣이 읽히며 최근 구도와 겹치지 않도록 orient를 low_angle로 확정."
+        },
+        "frame": {
+          "drawn": "full_body",
+          "selected": "full_body",
+          "reason": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier. 이 활동과 옷의 jacket, shorts, crop_top 실루엣이 읽히며 최근 구도와 겹치지 않도록 frame를 full_body로 확정."
+        },
+        "lens": {
+          "drawn": "natural50",
+          "selected": "wide24",
+          "reason": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier. 이 활동과 옷의 jacket, shorts, crop_top 실루엣이 읽히며 최근 구도와 겹치지 않도록 lens를 wide24로 확정."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier.",
+          "reason": "retro_racer 예시에 없는 시간·도구·세부 활동을 구체화: Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier."
+        },
+        {
+          "field": "outfit",
+          "text": "The cropped blue racing jacket is open over a yellow bralette with blue shorts and boots, exposing midriff and thighs; a small lightning-shaped zipper pull finishes the look.",
+          "reason": "retro_racer의 옷 종류를 유지하며 정해지지 않은 색·재단·노출 구조를 구체화: The cropped blue racing jacket is open over a yellow bralette with blue shorts and boots, exposing midriff and thighs; a small lightning-shaped zipper pull finishes the look."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier.의 움직임에 맞춤.",
+        "source_influence": "The cropped blue racing jacket is open over a yellow bralette with blue shorts and boots, exposing midriff and thighs; a small lightning-shaped zipper pull finishes the look.에 있는 색과 형태가 원작을 드러내는 정도.",
+        "separates_preference": "jacket / shorts / crop_top의 실제 상하 분리 구조에 맞춤."
+      },
+      "actual_selections": {
+        "expr": "confident",
+        "pose": "hand_on_hip",
+        "orient": "low_angle",
+        "scene": "Amber circuit lights illuminate a trackside costume photoshoot beside the metal pit barrier.",
+        "outfit": "The cropped blue racing jacket is open over a yellow bralette with blue shorts and boots, exposing midriff and thighs; a small lightning-shaped zipper pull finishes the look.",
+        "frame": "full_body",
+        "lens": "wide24",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "adult_roleplay",
+        "catCustom": "",
+        "ex": "retro_racer",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "strongly prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "private_evening",
+      "ex": "high_slit_gown",
+      "expr": "pensive",
+      "pose": "walking",
+      "orient": "looking_away",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme.",
+      "outfit": "A cobalt satin high-slit gown with a deep open back reveals back and one thigh; gold piping follows the long skirt.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a long gown with a high leg slit",
+      "random_draws": {
+        "orient": {
+          "drawn": "profile_close",
+          "selected": "looking_away",
+          "reason": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme. 이 활동과 옷의 dress 실루엣이 읽히며 최근 구도와 겹치지 않도록 orient를 looking_away로 확정."
+        },
+        "frame": {
+          "drawn": "environmental",
+          "selected": "environmental",
+          "reason": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme. 이 활동과 옷의 dress 실루엣이 읽히며 최근 구도와 겹치지 않도록 frame를 environmental로 확정."
+        },
+        "lens": {
+          "drawn": "portrait85",
+          "selected": "documentary35",
+          "reason": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme. 이 활동과 옷의 dress 실루엣이 읽히며 최근 구도와 겹치지 않도록 lens를 documentary35로 확정."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme.",
+          "reason": "high_slit_gown 예시에 없는 시간·도구·세부 활동을 구체화: She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme."
+        },
+        {
+          "field": "outfit",
+          "text": "A cobalt satin high-slit gown with a deep open back reveals back and one thigh; gold piping follows the long skirt.",
+          "reason": "high_slit_gown의 옷 종류를 유지하며 정해지지 않은 색·재단·노출 구조를 구체화: A cobalt satin high-slit gown with a deep open back reveals back and one thigh; gold piping follows the long skirt."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme.의 움직임에 맞춤.",
+        "source_influence": "A cobalt satin high-slit gown with a deep open back reveals back and one thigh; gold piping follows the long skirt.에 있는 색과 형태가 원작을 드러내는 정도.",
+        "separates_preference": "dress의 실제 상하 분리 구조에 맞춤."
+      },
+      "actual_selections": {
+        "expr": "pensive",
+        "pose": "walking",
+        "orient": "looking_away",
+        "scene": "She walks across the marble landing of an art-deco concert hall after a chamber recital, holding a folded evening programme.",
+        "outfit": "A cobalt satin high-slit gown with a deep open back reveals back and one thigh; gold piping follows the long skirt.",
+        "frame": "environmental",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "private_evening",
+        "catCustom": "",
+        "ex": "high_slit_gown",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "slip_lingerie",
+      "expr": "calm",
+      "pose": "leaning_furniture",
+      "orient": "front_3q",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "slip"
+      ],
+      "scene": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour.",
+      "outfit": "The opaque golden satin slip has narrow straps, a straight mid-thigh hem and cobalt edging, leaving shoulders and legs bare.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a bias-cut satin lingerie slip with narrow straps and a straight hem",
+      "random_draws": {
+        "orient": {
+          "drawn": "reclining",
+          "selected": "front_3q",
+          "reason": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour. 이 활동과 옷의 slip 실루엣이 읽히며 최근 구도와 겹치지 않도록 orient를 front_3q로 확정."
+        },
+        "frame": {
+          "drawn": "detail",
+          "selected": "three_quarter",
+          "reason": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour. 이 활동과 옷의 slip 실루엣이 읽히며 최근 구도와 겹치지 않도록 frame를 three_quarter로 확정."
+        },
+        "lens": {
+          "drawn": "portrait85",
+          "selected": "portrait85",
+          "reason": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour. 이 활동과 옷의 slip 실루엣이 읽히며 최근 구도와 겹치지 않도록 lens를 portrait85로 확정."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour.",
+          "reason": "slip_lingerie 예시에 없는 시간·도구·세부 활동을 구체화: She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour."
+        },
+        {
+          "field": "outfit",
+          "text": "The opaque golden satin slip has narrow straps, a straight mid-thigh hem and cobalt edging, leaving shoulders and legs bare.",
+          "reason": "slip_lingerie의 옷 종류를 유지하며 정해지지 않은 색·재단·노출 구조를 구체화: The opaque golden satin slip has narrow straps, a straight mid-thigh hem and cobalt edging, leaving shoulders and legs bare."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour.의 움직임에 맞춤.",
+        "source_influence": "The opaque golden satin slip has narrow straps, a straight mid-thigh hem and cobalt edging, leaving shoulders and legs bare.에 있는 색과 형태가 원작을 드러내는 정도.",
+        "separates_preference": "slip의 실제 상하 분리 구조에 맞춤."
+      },
+      "actual_selections": {
+        "expr": "calm",
+        "pose": "leaning_furniture",
+        "orient": "front_3q",
+        "scene": "She rests one hand on a walnut dressing table while choosing a silk hair ribbon from a shallow tray at blue hour.",
+        "outfit": "The opaque golden satin slip has narrow straps, a straight mid-thigh hem and cobalt edging, leaving shoulders and legs bare.",
+        "frame": "three_quarter",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "lingerie",
+        "catCustom": "",
+        "ex": "slip_lingerie",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    }
+  ],
+  "check": "passed before reserve",
+  "reservation_commit": "88ab8006f50a7bc9fad07dbca3c667a76c9895ad",
+  "generation_mode": "built-in image_gen"
+}
