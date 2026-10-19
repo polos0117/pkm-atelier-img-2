@@ -6313,7 +6313,7 @@
    "species": "aggron-20261019",
    "card": "보스로라",
    "repo": "pkm-atelier-img-2",
-   "at": "2026-10-19T21:13:44+09:00",
+   "at": "2026-10-19T20:58:05+09:00",
    "status": "done",
    "cuts": [
     {
@@ -6377,7 +6377,7 @@
    "species": "meditite-20261019",
    "card": "요가랑",
    "repo": "pkm-atelier-img-2",
-   "at": "2026-10-19T21:13:45+09:00",
+   "at": "2026-10-19T21:12:54+09:00",
    "status": "done",
    "cuts": [
     {
@@ -6437,8 +6437,148 @@
      ]
     }
    ]
+  },
+  {
+   "species": "medicham-20261019",
+   "card": "요가램",
+   "status": "reserved",
+   "session": "gpt-medicham-electrike-20261019",
+   "at": "2026-10-19T21:25:43+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "hobbies_leisure",
+     "ex": "hobby_photo",
+     "expr": "pensive",
+     "pose": "sitting",
+     "orient": "seated_twist",
+     "frame": "three_quarter",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "blouse",
+      "skirt"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "lingerie",
+     "ex": "sari_blouse_set",
+     "expr": "confident",
+     "pose": "standing_formal",
+     "orient": "profile_close",
+     "frame": "waist_up",
+     "lens": "portrait85",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "strongly prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "lingerie_set"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "travel_exploration",
+     "ex": "travel_lakeside",
+     "expr": "relieved",
+     "pose": "perched_seat",
+     "orient": "leaning_back",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "jumpsuit"
+     ]
+    }
+   ]
+  },
+  {
+   "species": "electrike-20261019",
+   "card": "썬더라이",
+   "status": "reserved",
+   "session": "gpt-medicham-electrike-20261019",
+   "at": "2026-10-19T21:25:43+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "festivals_contests",
+     "ex": "fest_cheering",
+     "expr": "laughing_open",
+     "pose": "sitting",
+     "orient": "reaching_up",
+     "frame": "waist_up",
+     "lens": "documentary35",
+     "axes": {
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "vest",
+      "shorts"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "everyday_basic",
+     "ex": "hardware_store",
+     "expr": "curious",
+     "pose": "carrying_something",
+     "orient": "over_shoulder",
+     "frame": "three_quarter",
+     "lens": "telephoto135",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "overalls"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "shoreline_walk",
+     "expr": "calm",
+     "pose": "mid_stride",
+     "orient": "turning_midmotion",
+     "frame": "full_body",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "bikini"
+     ]
+    }
+   ]
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-19T21:13:45+09:00"
+ "updated": "2026-10-19T21:25:43+09:00"
 }
