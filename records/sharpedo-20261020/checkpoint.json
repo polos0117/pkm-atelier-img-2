@@ -1,7 +1,7 @@
 {
   "card": "샤크니아",
   "style": "glossy_promo",
-  "status": "qa-complete-ready-to-publish",
+  "status": "registered-complete",
   "generation_mode": "built-in image_gen",
   "images": [
     {
@@ -136,5 +136,26 @@
     ],
     "face_rationale": "torpedo-shaped shark → 긴 좁은 윤곽과 긴 턱·코; large mouth → 넓은 사람 입; dark type → 사선 눈썹. 샤프니아의 둥근 볼과 달리 성숙한 직선 실루엣.",
     "final_face_line": "FACE (her own structure, not the style's default face): oval face, long length, narrow width; long chin with defined jaw; narrow eyes, medium size, level outer corners, wide-set; angled brows; long nose with low tip; wide mouth."
+  },
+  "publication": {
+    "status": "registered-complete",
+    "verified_at": "2026-10-19T21:44:46.922214+00:00",
+    "images": 9,
+    "thumbnails": 9,
+    "registered_slots": 9,
+    "image_commit": "e894f8f0bd9d1914a2d882a83c17d3d7195ffc13",
+    "thumbnail_commit": "4159d327dd2797e5ba31f7b77019ad1f9a3e3c1c",
+    "registration_commit": "9c698bdda982720d4518219521b2adc3e4e9ec31",
+    "canonical_record_commit": "e54b094b7876599149ec18a71af1d71c3e5b38e0",
+    "thumbnail_workflow": {
+      "run_id": 39329181647,
+      "conclusion": "success"
+    },
+    "registration_workflow": {
+      "run_id": 39329447728,
+      "conclusion": "success"
+    },
+    "verification": "Remote WebP SHA256 matches checkpoint for all nine images; 1024x1536 originals and 341x512 thumbnails; nine glossy_promo slots in data/img.json, where=1.",
+    "delivery": "Fast-forward main update through GitHub connector after shell push reported missing credentials; force=false. Existing files preserved."
   }
 }

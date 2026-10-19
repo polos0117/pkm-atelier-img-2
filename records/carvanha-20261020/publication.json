@@ -1,0 +1,21 @@
+{
+  "status": "registered-complete",
+  "verified_at": "2026-10-19T21:44:46.921602+00:00",
+  "images": 9,
+  "thumbnails": 9,
+  "registered_slots": 9,
+  "image_commit": "962fe7b58446888d4d440ad5251579c7b4ca8fbc",
+  "thumbnail_commit": "88cf2f674b2fa9311ea880c81d8796e629b1698a",
+  "registration_commit": "3f008b540df70c432b206031fd09d47a8b0ad658",
+  "canonical_record_commit": "e54b094b7876599149ec18a71af1d71c3e5b38e0",
+  "thumbnail_workflow": {
+    "run_id": 39327249689,
+    "conclusion": "success"
+  },
+  "registration_workflow": {
+    "run_id": 39327730151,
+    "conclusion": "success"
+  },
+  "verification": "Remote WebP SHA256 matches checkpoint for all nine images; 1024x1536 originals and 341x512 thumbnails; nine glossy_promo slots in data/img.json, where=1.",
+  "delivery": "Fast-forward main update through GitHub connector after shell push reported missing credentials; force=false. Existing files preserved."
+}
