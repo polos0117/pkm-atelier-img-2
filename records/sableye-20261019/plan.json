@@ -1,0 +1,344 @@
+{
+  "card": "깜까미",
+  "style": "glossy_promo",
+  "generator_url": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "casual_plan": [
+    {
+      "card": "깜까미",
+      "outputMode": "casual",
+      "cat": "adult_roleplay",
+      "ex": "masquerade",
+      "expr": "smug",
+      "pose": "mid_stride",
+      "orient": "front_3q",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "scene": "Crossing the threshold of a candlelit masquerade party, she holds the feathered eye mask down beside her hip while gathering a little skirt fabric to clear the step.",
+      "outfit": "A garnet masquerade gown has a structured strapless bodice and a full skirt with a deep side slit, exposing shoulders, collarbones and one leg; faceted violet embroidery traces the waist.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "exampleText": "a masquerade costume with a feathered eye mask, a structured bodice, and a full skirt",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orientation": "turning_midmotion",
+        "frame": "face_close",
+        "lens": "wide24"
+      },
+      "random_adjustments": {
+        "orientation": {
+          "draw": "turning_midmotion",
+          "chosen": "front_3q",
+          "reason": "Keep the face and this scene’s hand-held prop visible while avoiding reserved composition pairs."
+        },
+        "frame": {
+          "draw": "face_close",
+          "chosen": "full_body",
+          "reason": "The masquerade activity requires its prop and garment silhouette in view; selected range also differs from this character’s other cuts."
+        },
+        "lens": {
+          "draw": "wide24",
+          "chosen": "portrait85",
+          "reason": "The masquerade setting uses this perspective to preserve hand contact and the intended visible environment."
+        }
+      },
+      "input_reasons": {
+        "scene": "The masquerade example supplies the costume but no entrance action, so the doorway step and gathered skirt establish the event arrival.",
+        "outfit": "The example leaves colour and skirt opening unspecified; garnet satin, violet embroidery and the side slit define the chosen gown.",
+        "camera": "The image tool has no size argument; request Vertical 2:3 portrait (1024×1536)."
+      },
+      "axis_reasons": {
+        "action_level": "The threshold crossing is an ongoing step, so mostly active follows the action.",
+        "source_influence": "Faceted violet embroidery makes the gem motif visible on the masquerade gown.",
+        "separates_preference": "The structured bodice and full skirt form one gown, suited to balanced."
+      }
+    },
+    {
+      "card": "깜까미",
+      "outputMode": "casual",
+      "cat": "occupation_basic",
+      "ex": "observatory_engineer",
+      "expr": "curious",
+      "pose": "mid_action",
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "scene": "Blue predawn light washes over the open observatory platform; one hand turns the telescope focus wheel while the other steadies the field-sketch pad on its shelf.",
+      "outfit": "An open cropped utility vest over a white cropped tank and high-waisted olive shorts, with a narrow violet belt; bare shoulders, midriff and thighs show between the practical garments.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "cut": 2,
+      "garments": [
+        "vest",
+        "shorts",
+        "tank"
+      ],
+      "exampleText": "Nocturnal Pokémon researcher adjusting a telescope and reviewing field sketches at a quiet night observatory.",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orientation": "side",
+        "frame": "environmental",
+        "lens": "telephoto135"
+      },
+      "random_adjustments": {
+        "orientation": {
+          "draw": "side",
+          "chosen": "high_angle",
+          "reason": "Show the specific work or fabric contact in this scene and avoid recent composition pairs."
+        },
+        "frame": {
+          "draw": "environmental",
+          "chosen": "three_quarter",
+          "reason": "The observatory_engineer activity requires its prop and garment silhouette in view; selected range also differs from this character’s other cuts."
+        },
+        "lens": {
+          "draw": "telephoto135",
+          "chosen": "documentary35",
+          "reason": "The observatory_engineer setting uses this perspective to preserve hand contact and the intended visible environment."
+        }
+      },
+      "input_reasons": {
+        "scene": "The observatory example leaves the light, hand contact and sketch-pad placement unspecified; predawn blue and the shelf define those details.",
+        "outfit": "The workwear example has no specified garments; cropped utility pieces provide practical pockets while exposing midriff and thighs.",
+        "camera": "The image tool has no size argument; request Vertical 2:3 portrait (1024×1536)."
+      },
+      "axis_reasons": {
+        "action_level": "Turning the focus wheel is the main recorded action.",
+        "source_influence": "The violet belt is the restrained colour accent against olive workwear.",
+        "separates_preference": "Vest, tank and shorts are deliberately separate garments."
+      },
+      "corrections": [
+        {
+          "reason": "Handwriting-like labels appeared on the sketchbook pages.",
+          "changed_input": {
+            "custom": "Image 1 is the correction target; Image 2 supplies her approved face. Remove the handwriting-like marks from the sketchbook pages, retaining the circular diagrams without annotations; keep everything else exactly as in Image 1."
+          },
+          "references": [
+            "casual2-before-correction image",
+            "approved light anchor"
+          ],
+          "final_prompt": "casual2-correction.txt"
+        }
+      ]
+    },
+    {
+      "card": "깜까미",
+      "outputMode": "casual",
+      "cat": "wildcard",
+      "ex": "art_studio",
+      "expr": "pensive",
+      "pose": "leaning_furniture",
+      "orient": "seated_twist",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "scene": "A warm desk lamp illuminates stacked canvases and jars of brushes. She pauses beside the workbench with a cleaned palette knife held over its tool tray.",
+      "outfit": "A paint-splattered pale blue shirt is tied above the waist with rolled sleeves, paired with a charcoal wrap miniskirt and flat canvas shoes; the open collar, midriff and legs remain visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "cut": 3,
+      "garments": [
+        "shirt",
+        "skirt"
+      ],
+      "exampleText": "in an art studio after hours in a paint-splattered shirt, tidying tools and finished pieces",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orientation": "low_angle",
+        "frame": "full_body",
+        "lens": "wide24"
+      },
+      "random_adjustments": {
+        "orientation": {
+          "draw": "low_angle",
+          "chosen": "seated_twist",
+          "reason": "The selected seated activity needs a readable face and hands rather than the drawn close detail or repeated angle."
+        },
+        "frame": {
+          "draw": "full_body",
+          "chosen": "environmental",
+          "reason": "The art_studio activity requires its prop and garment silhouette in view; selected range also differs from this character’s other cuts."
+        },
+        "lens": {
+          "draw": "wide24",
+          "chosen": "wide24",
+          "reason": "The art_studio setting uses this perspective to preserve hand contact and the intended visible environment."
+        }
+      },
+      "input_reasons": {
+        "scene": "The after-hours art example leaves the cleanup object and light unspecified; a palette knife and desk lamp establish a specific pause in tidying.",
+        "outfit": "The example already requires a paint-splattered shirt; its tied hem and the wrap miniskirt add the chosen garment construction.",
+        "camera": "The image tool has no size argument; request Vertical 2:3 portrait (1024×1536)."
+      },
+      "axis_reasons": {
+        "action_level": "The subject pauses against the workbench with one cleaned tool, so mostly posed.",
+        "source_influence": "Only a faint charcoal/violet colour echo remains; no costume ornaments are requested.",
+        "separates_preference": "The tied shirt and wrap skirt are separate pieces."
+      }
+    }
+  ],
+  "batch_plan": {
+    "session": "pkm-302-303-retry-20261019-1920",
+    "characters": [
+      {
+        "species": "sableye-20261019",
+        "card": "깜까미",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "masquerade",
+            "expr": "smug",
+            "pose": "mid_stride",
+            "orient": "front_3q",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_basic",
+            "ex": "observatory_engineer",
+            "expr": "curious",
+            "pose": "mid_action",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "vest",
+              "shorts",
+              "tank"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "art_studio",
+            "expr": "pensive",
+            "pose": "leaning_furniture",
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shirt",
+              "skirt"
+            ]
+          }
+        ]
+      },
+      {
+        "species": "mawile-20261019",
+        "card": "입치트",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_basic",
+            "ex": "record_store",
+            "expr": "mischievous",
+            "pose": "carrying_something",
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "jacket",
+              "shirt",
+              "skirt"
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "luminous_circuit",
+            "expr": "confident",
+            "pose": "contrapposto",
+            "orient": "reaching_up",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "crossstrap_swim",
+            "expr": "relieved",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ledger_check": "passed — 2 characters",
+  "reservation_commit": "51e4f2eddf33938dd095a6d6f71ac7ec7d3e33fc",
+  "reserved_before_generation": true
+}

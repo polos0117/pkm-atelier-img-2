@@ -1,0 +1,58 @@
+{
+  "storage": {
+    "last": "깜까미",
+    "cards": {
+      "깜까미": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "mode": "casual",
+        "params": {},
+        "scenes": {
+          "casual": {
+            "expr": "curious",
+            "pose": "mid_action",
+            "orient": "high_angle",
+            "scene": "Blue predawn light washes over the open observatory platform; one hand turns the telescope focus wheel while the other steadies the field-sketch pad on its shelf.",
+            "outfit": "An open cropped utility vest over a white cropped tank and high-waisted olive shorts, with a narrow violet belt; bare shoulders, midriff and thighs show between the practical garments.",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Image 1 is the correction target; Image 2 supplies her approved face. Remove the handwriting-like marks from the sketchbook pages, retaining the circular diagrams without annotations; keep everything else exactly as in Image 1.",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "ex": "observatory_engineer",
+            "catCustom": "",
+            "exCustom": "",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Sableye (깜까미) personified, dark / ghost type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: one brow raised higher, head tilted, eyes wide and attentive, lips slightly parted\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: camera above subject looking downward; obey selected framing\nScene: Blue predawn light washes over the open observatory platform; one hand turns the telescope focus wheel while the other steadies the field-sketch pad on its shelf.\nOutfit and props: An open cropped utility vest over a white cropped tank and high-waisted olive shorts, with a narrow violet belt; bare shoulders, midriff and thighs show between the practical garments.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Nocturnal Pokémon researcher adjusting a telescope and reviewing field sketches at a quiet night observatory.\nNote: Image 1 is the correction target; Image 2 supplies her approved face. Remove the handwriting-like marks from the sketchbook pages, retaining the circular diagrams without annotations; keep everything else exactly as in Image 1.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "captured_from_actual_generator_DOM": true,
+  "capture_method": "Selected controls and prompt text were read from the live generator DOM; storage-shaped state is normalized from these observed controls, not a direct localStorage export.",
+  "generator_url": "https://polos0117.github.io/pkm-atelier/prompt.html"
+}
