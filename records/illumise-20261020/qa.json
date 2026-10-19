@@ -1,0 +1,98 @@
+{
+  "card": "네오비트",
+  "general": {
+    "format": {
+      "match": true,
+      "evidence": "원본을 PIL로 열어 각 1024×1536 확인, WebP quality85 method6 변환 및 SHA-256 기록."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "짧은 보라 웨이브·아래로 흐르는 푸른 눈·좁아지는 턱과 날씬한 체형을 경장과 대조."
+    },
+    "text": {
+      "match": true,
+      "evidence": "의상, 전시물, 수건, 망원경 기구와 천체 도해를 원본에서 확인. 읽히는 글자나 가짜 라벨이 없음."
+    },
+    "anatomy": {
+      "match": true,
+      "evidence": "펴진 장갑 손과 옷감을 집은 손, 매듭을 여미는 손, 초점 휠을 잡은 손에 중복·융합된 손가락이나 추가 팔이 없음."
+    },
+    "figure_count": {
+      "match": true,
+      "evidence": "전경 성인 여성 한 명, 전시장의 배경 조각상은 별도 사람이 아닌 전시물."
+    }
+  },
+  "combat": {
+    "match": true,
+    "evidence": "경장 얇은 판, 중장 겹친 넓은 테두리 판, 고기동 후방 핀으로 갈림. 개방 세 장은 각 닫힌 폼의 발·손 위치와 얼굴 크기를 유지하고 기존 판 이음새의 연두빛 내부를 드러냄."
+  },
+  "casual": [
+    {
+      "cut": 1,
+      "place_activity": {
+        "match": true,
+        "evidence": "천장에 매달린 타원 발광 조각과 곡선 난간의 전시 공간에서 양손으로 실크 패널을 펼치며 한 발 내딛음."
+      },
+      "outfit_exposure": {
+        "match": true,
+        "evidence": "보라 홀터 미니드레스와 푸른 주름 패널, 어깨·옆허리·다리가 보임."
+      },
+      "framing_orientation": {
+        "match": true,
+        "evidence": "발까지 담긴 전신, 난간·천장과 함께 아래에서 올려다봄."
+      },
+      "expression_pose": {
+        "match": false,
+        "evidence": "느긋한 눈과 들린 턱은 보이나 입은 선택한 닫힌 입보다 약간 열림. 손으로 옷자락을 든 걸음."
+      }
+    },
+    {
+      "cut": 2,
+      "place_activity": {
+        "match": true,
+        "evidence": "수영장 물과 데크, 수건 놓인 석재 벤치 앞에서 양손으로 사롱 매듭을 정리함."
+      },
+      "outfit_exposure": {
+        "match": true,
+        "evidence": "불투명 자주색 비키니와 보라 프린트 사롱, 어깨·배·허벅지가 드러남."
+      },
+      "framing_orientation": {
+        "match": false,
+        "evidence": "허리 위 선택보다 넓어 허벅지까지 담김. 몸은 거의 정면으로 완만하게 돌아감."
+      },
+      "expression_pose": {
+        "match": true,
+        "evidence": "미간을 모으고 시선을 집중한 채 두 손이 매듭에 모임."
+      }
+    },
+    {
+      "cut": 3,
+      "place_activity": {
+        "match": true,
+        "evidence": "열린 천문대 돔과 별하늘 아래 금색 망원경 조절 휠을 잡음. 책상에 천체 도해가 펼쳐짐."
+      },
+      "outfit_exposure": {
+        "match": true,
+        "evidence": "짧은 연청색 조끼와 보라 반바지, 검은 안쪽 패널. 어깨·허리·허벅지가 보임."
+      },
+      "framing_orientation": {
+        "match": false,
+        "evidence": "가슴 위 선택보다 넓어 허벅지까지 담김. 상체가 망원경 쪽으로 기울어짐."
+      },
+      "expression_pose": {
+        "match": true,
+        "evidence": "안쪽 눈썹을 올리고 입을 약간 벌린 호기심 표정, 조절 휠을 잡은 동작."
+      }
+    }
+  ],
+  "diversity": {
+    "match": true,
+    "compared": [
+      "볼비트",
+      "마이농",
+      "플러시"
+    ],
+    "evidence": "실제 비교 이미지에서 옷을 펼친 홀터 드레스 전신·수영장 매듭 비키니·천문대 조끼 반바지의 세 조합을 확인. 최근 도예 앉기·등불 산책·이벤트 스태프·주방 요리·찻잔 장면과 활동·실루엣이 구분됨."
+  },
+  "skipped": []
+}
