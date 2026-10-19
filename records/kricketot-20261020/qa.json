@@ -1,0 +1,305 @@
+{
+  "card": "귀뚤뚜기",
+  "review": "원본 1024×1536 이미지 및 문제 부위 확대 확인",
+  "skipped": [
+    {
+      "slot": "casual3",
+      "reason": "원본 이후 부분 수정을 세 번 했으나 스케이트 혀 위 상표형 라벨이 남았다. 사용자 지정 세 번 재작업 한도에 따라 더 생성/등록하지 않고 다음 컷으로 넘어감.",
+      "original_plus_retries": 4,
+      "retries": 3,
+      "scene": "active/roller_skating",
+      "attempts": [
+        {
+          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-5b76fa53-5ab5-4ec3-94af-11d8af6f0142.png",
+          "sha256": "30a073d770e2a102910383b131b9a44f83669298143178217f39e9e9f075cec1",
+          "ui": "casual3-attempt1-ui.json"
+        },
+        {
+          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-02b0b16e-9bc8-4b80-a899-fa6ceaf7a34a.png",
+          "sha256": "837692e534d8dae2ed200a6476c9f4109d5dd95bcab8a42aa70f64584ff621d7",
+          "ui": "casual3-attempt2-ui.json"
+        },
+        {
+          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-948bdc9c-1c6e-4307-89b6-c870a68d95e3.png",
+          "sha256": "a0919f7ece6e8e3248ed5bc891aba606726714b2fe59ed479222fd86fa873ba5",
+          "ui": "casual3-attempt3-ui.json"
+        },
+        {
+          "original": "/workspace/scratch/36ec3e514234/generated_images/exec-c7b1c539-8081-4853-b9fc-2154761be141.png",
+          "sha256": "bf1308194d41030707e601b6299d9e1bebed86997460c64e867032c14bc7ce7b",
+          "ui": "casual3-ui.json"
+        }
+      ]
+    }
+  ],
+  "cuts": {
+    "light": {
+      "size": {
+        "result": "일치",
+        "evidence": "저장 파일을 Pillow로 열어 1024×1536, 실제 WEBP 확인"
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "짧은 갈색 보브·호박색 눈·넓고 짧은 볼·작은 입을 경장과 대조"
+      },
+      "anatomy": {
+        "result": "일치",
+        "evidence": "카메라 쪽 검은 장갑 손의 엄지와 네 손가락, 반대 손의 자연스러운 손가락과 두 팔·두 다리를 확인; 몸과 떨어진 장비는 의상 판이다."
+      },
+      "card_frame": {
+        "result": "일치",
+        "evidence": "얼굴이 앞 3/4를 향하고 머리 장식·두 신발이 세로 화면 안에 있다; 인물 하나와 무기 없는 실루엣."
+      },
+      "text": {
+        "result": "일치",
+        "evidence": "판 표면·장갑·신발과 배경 건축/바위에 문자·상표·라벨 없음."
+      },
+      "form": {
+        "result": "일치",
+        "evidence": "얇은 어깨·전완·골반·정강이 판 아래 검은 슈트와 자유로운 관절이 보인다."
+      }
+    },
+    "heavy": {
+      "size": {
+        "result": "일치",
+        "evidence": "저장 파일을 Pillow로 열어 1024×1536, 실제 WEBP 확인"
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "짧은 갈색 보브·호박색 눈·넓고 짧은 볼·작은 입을 경장과 대조"
+      },
+      "anatomy": {
+        "result": "일치",
+        "evidence": "카메라 쪽 검은 장갑 손의 엄지와 네 손가락, 반대 손의 자연스러운 손가락과 두 팔·두 다리를 확인; 몸과 떨어진 장비는 의상 판이다."
+      },
+      "card_frame": {
+        "result": "일치",
+        "evidence": "얼굴이 앞 3/4를 향하고 머리 장식·두 신발이 세로 화면 안에 있다; 인물 하나와 무기 없는 실루엣."
+      },
+      "text": {
+        "result": "일치",
+        "evidence": "판 표면·장갑·신발과 배경 건축/바위에 문자·상표·라벨 없음."
+      },
+      "form": {
+        "result": "일치",
+        "evidence": "기준보다 어깨와 전완·허벅지·정강이의 외곽이 넓어지고 두꺼운 테두리 판이 겹쳐진다."
+      }
+    },
+    "mobility": {
+      "size": {
+        "result": "일치",
+        "evidence": "저장 파일을 Pillow로 열어 1024×1536, 실제 WEBP 확인"
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "짧은 갈색 보브·호박색 눈·넓고 짧은 볼·작은 입을 경장과 대조"
+      },
+      "anatomy": {
+        "result": "일치",
+        "evidence": "카메라 쪽 검은 장갑 손의 엄지와 네 손가락, 반대 손의 자연스러운 손가락과 두 팔·두 다리를 확인; 몸과 떨어진 장비는 의상 판이다."
+      },
+      "card_frame": {
+        "result": "일치",
+        "evidence": "얼굴이 앞 3/4를 향하고 머리 장식·두 신발이 세로 화면 안에 있다; 인물 하나와 무기 없는 실루엣."
+      },
+      "text": {
+        "result": "일치",
+        "evidence": "판 표면·장갑·신발과 배경 건축/바위에 문자·상표·라벨 없음."
+      },
+      "form": {
+        "result": "일치",
+        "evidence": "어깨·골반과 다리의 얇은 판이 길고 갈라진 방향으로 펼쳐져 중장보다 가벼운 실루엣이다."
+      }
+    },
+    "casual1": {
+      "size": {
+        "result": "일치",
+        "evidence": "저장 파일을 Pillow로 열어 1024×1536, 실제 WEBP 확인"
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "짧은 갈색 보브·호박색 눈·넓고 짧은 볼·작은 입을 경장과 대조"
+      },
+      "text": {
+        "result": "일치",
+        "evidence": "금색 커프스 단추·의상 세로 솔기·공연장 배경에 글자나 상표 없음."
+      },
+      "anatomy": {
+        "result": "일치",
+        "evidence": "한 손이 반대쪽 손목 커프스를 집고 있고 손가락 굴곡이 자연스럽다. 올린 손 끝 일부는 화면 밖이라 보이는 부분만 판정."
+      },
+      "activity": {
+        "result": "일치",
+        "evidence": "빨간 무대 커튼·풋라이트와 마루가 보이고 커프스를 고치는 손동작으로 공연 준비가 읽힌다."
+      },
+      "outfit": {
+        "result": "일치",
+        "evidence": "빨간 원피스 바니 의상·노랑 보타이·분리 커프스·검정 토끼귀, 어깨와 허벅지가 드러난다."
+      },
+      "expression": {
+        "result": "일치",
+        "evidence": "눈을 뜨고 이가 살짝 보이는 비대칭 웃음; 한쪽 볼이 올라간다."
+      },
+      "pose": {
+        "result": "불일치·기록만",
+        "evidence": "발이 화면 밖이라 발끝서기 여부는 확인할 수 없고 상체가 기울어 있다."
+      },
+      "orientation": {
+        "result": "일치",
+        "evidence": "가슴과 골반이 대체로 정면을 향하고 머리는 기울어 있다."
+      },
+      "framing": {
+        "result": "불일치·기록만",
+        "evidence": "머리 장식 끝과 올린 손 일부가 위에서 잘리고 무릎 부근까지 보인다."
+      }
+    },
+    "light_overdrive": {
+      "size": {
+        "result": "일치",
+        "evidence": "저장 파일을 Pillow로 열어 1024×1536, 실제 WEBP 확인"
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "짧은 갈색 보브·호박색 눈·넓고 짧은 볼·작은 입을 경장과 대조"
+      },
+      "anatomy": {
+        "result": "일치",
+        "evidence": "카메라 쪽 검은 장갑 손의 엄지와 네 손가락, 반대 손의 자연스러운 손가락과 두 팔·두 다리를 확인; 몸과 떨어진 장비는 의상 판이다."
+      },
+      "card_frame": {
+        "result": "일치",
+        "evidence": "얼굴이 앞 3/4를 향하고 머리 장식·두 신발이 세로 화면 안에 있다; 인물 하나와 무기 없는 실루엣."
+      },
+      "text": {
+        "result": "일치",
+        "evidence": "판 표면·장갑·신발과 배경 건축/바위에 문자·상표·라벨 없음."
+      },
+      "opened_pair": {
+        "result": "일치",
+        "evidence": "해당 닫힌 폼과 얼굴·뻗은 손·다리 위치·배경 구도를 대조. 기존 어깨·허리·다리 판 이음새가 벌어져 라임색 내부 빛과 날개 모양 빛이 보인다; 새 무기나 헬멧이 없다."
+      }
+    },
+    "heavy_overdrive": {
+      "size": {
+        "result": "일치",
+        "evidence": "저장 파일을 Pillow로 열어 1024×1536, 실제 WEBP 확인"
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "짧은 갈색 보브·호박색 눈·넓고 짧은 볼·작은 입을 경장과 대조"
+      },
+      "anatomy": {
+        "result": "일치",
+        "evidence": "카메라 쪽 검은 장갑 손의 엄지와 네 손가락, 반대 손의 자연스러운 손가락과 두 팔·두 다리를 확인; 몸과 떨어진 장비는 의상 판이다."
+      },
+      "card_frame": {
+        "result": "일치",
+        "evidence": "얼굴이 앞 3/4를 향하고 머리 장식·두 신발이 세로 화면 안에 있다; 인물 하나와 무기 없는 실루엣."
+      },
+      "text": {
+        "result": "일치",
+        "evidence": "판 표면·장갑·신발과 배경 건축/바위에 문자·상표·라벨 없음."
+      },
+      "opened_pair": {
+        "result": "일치",
+        "evidence": "해당 닫힌 폼과 얼굴·뻗은 손·다리 위치·배경 구도를 대조. 기존 어깨·허리·다리 판 이음새가 벌어져 라임색 내부 빛과 날개 모양 빛이 보인다; 새 무기나 헬멧이 없다."
+      }
+    },
+    "mobility_overdrive": {
+      "size": {
+        "result": "일치",
+        "evidence": "저장 파일을 Pillow로 열어 1024×1536, 실제 WEBP 확인"
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "짧은 갈색 보브·호박색 눈·넓고 짧은 볼·작은 입을 경장과 대조"
+      },
+      "anatomy": {
+        "result": "일치",
+        "evidence": "카메라 쪽 검은 장갑 손의 엄지와 네 손가락, 반대 손의 자연스러운 손가락과 두 팔·두 다리를 확인; 몸과 떨어진 장비는 의상 판이다."
+      },
+      "card_frame": {
+        "result": "일치",
+        "evidence": "얼굴이 앞 3/4를 향하고 머리 장식·두 신발이 세로 화면 안에 있다; 인물 하나와 무기 없는 실루엣."
+      },
+      "text": {
+        "result": "일치",
+        "evidence": "판 표면·장갑·신발과 배경 건축/바위에 문자·상표·라벨 없음."
+      },
+      "opened_pair": {
+        "result": "일치",
+        "evidence": "해당 닫힌 폼과 얼굴·뻗은 손·다리 위치·배경 구도를 대조. 기존 어깨·허리·다리 판 이음새가 벌어져 라임색 내부 빛과 날개 모양 빛이 보인다; 새 무기나 헬멧이 없다."
+      }
+    },
+    "casual2": {
+      "size": {
+        "result": "일치",
+        "evidence": "저장 파일을 Pillow로 열어 1024×1536, 실제 WEBP 확인"
+      },
+      "identity": {
+        "result": "일치",
+        "evidence": "짧은 갈색 보브·호박색 눈·넓고 짧은 볼·작은 입을 경장과 대조"
+      },
+      "text": {
+        "result": "일치",
+        "evidence": "수정본 책 표지와 내지가 식물·서식지 그림으로 채워져 금색 가짜 문자와 작은 인쇄 줄이 사라짐."
+      },
+      "anatomy": {
+        "result": "일치",
+        "evidence": "한 손은 책 아래를 받치고 다른 손 검지와 엄지가 넘길 페이지를 집으며 나머지 손가락이 접혀 있다."
+      },
+      "activity": {
+        "result": "일치",
+        "evidence": "창가 쿠션에 앉아 서식지 도감 페이지를 넘기고 앞에 찻잔이 놓여 있다."
+      },
+      "outfit": {
+        "result": "일치",
+        "evidence": "빨간 비대칭 니트의 한쪽 어깨·옆 허리 컷아웃과 크림색 슬릿 치마의 허벅지가 보인다. 긴소매는 이 컷 하나."
+      },
+      "expression": {
+        "result": "일치",
+        "evidence": "눈썹이 안쪽으로 살짝 모이고 입은 닫혀 있으며 눈이 책 쪽으로 내려간다."
+      },
+      "pose": {
+        "result": "일치",
+        "evidence": "펼친 책을 양손으로 지탱하며 한 장을 넘기는 앉은 자세."
+      },
+      "orientation": {
+        "result": "일치",
+        "evidence": "얼굴과 눈이 아래쪽 책을 향한다."
+      },
+      "framing": {
+        "result": "불일치·기록만",
+        "evidence": "허리 위 선택보다 넓어져 허벅지와 컵·책 전체가 함께 보인다."
+      }
+    }
+  },
+  "comparison": {
+    "actual_images": [
+      "귀뚤뚜기 casual1–3",
+      "귀뚤톡크 casual1–3",
+      "꿀꺽몬 casual1–3",
+      "비버니 casual1–3",
+      "비버통 casual1–3"
+    ],
+    "result": "등록된 컷의 다양성 통과; 귀뚤뚜기 casual3 후보는 라벨 문제로 제외",
+    "evidence": "이번 배치는 바니 공연 준비/창가 독서/롤러 활주와 분장대 귀걸이/파빌리온 드레스 이동/강 부두 휴식으로 장소·활동·의상 실루엣·서기/앉기/이동 구도가 나뉜다. 최근 캐릭터의 메이드 수건·온실 작업·신발 끈·테라스 차·수영장 포즈와 같은 3장 묶음으로 반복되지 않는다. 붉은색과 금색 조명은 일부 공유하지만 한 벌 바니·비대칭 니트·스케이트 반바지·코르셋·긴 드레스·비키니의 실루엣이 다르다."
+  },
+  "corrections": [
+    {
+      "cut": "casual2",
+      "attempts": 2,
+      "reason": "가짜 책 문자 제거",
+      "rejected": "generated_images/exec-a88b7524-5e71-4db6-9399-2cf9b6350540.png"
+    },
+    {
+      "cut": "casual3",
+      "attempts": 4,
+      "reason": "세 번의 재작업 뒤에도 남은 스케이트 가짜 라벨로 제외",
+      "rejected": [
+        "generated_images/exec-5b76fa53-5ab5-4ec3-94af-11d8af6f0142.png",
+        "generated_images/exec-02b0b16e-9bc8-4b80-a899-fa6ceaf7a34a.png"
+      ]
+    }
+  ]
+}

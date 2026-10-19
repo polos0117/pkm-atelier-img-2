@@ -1,0 +1,654 @@
+{
+  "card": "귀뚤뚜기",
+  "style": "glossy_promo",
+  "batch_plan": {
+    "session": "gpt-kricketot-kricketune-20261020",
+    "characters": [
+      {
+        "card": "귀뚤뚜기",
+        "species": "kricketot-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "bunny",
+            "expr": "playful",
+            "pose": "on_tiptoe",
+            "orient": "front",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "uniform"
+            ],
+            "scene": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.",
+            "outfit": "The retro casino bunny costume is opaque brick-red satin with a pale yellow bow-tie collar, separate cuffs and a black rabbit-ear headband; the fitted one-piece exposes shoulders and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a retro casino bunny costume with a fitted one-piece garment, cuffs, bow-tie collar, and rabbit-ear headband, on a stage floor",
+            "random_draws": {
+              "orient": {
+                "drawn": "side",
+                "selected": "front",
+                "reason": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.의 활동과 three_quarter 범위에 맞게 side에서 front로 확정; 최근 구도 짝 중복도 피함."
+              },
+              "frame": {
+                "drawn": "waist_up",
+                "selected": "three_quarter",
+                "reason": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.의 활동과 three_quarter 범위에 맞게 waist_up에서 three_quarter로 확정; 최근 구도 짝 중복도 피함."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "documentary35",
+                "reason": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.의 활동과 three_quarter 범위에 맞게 wide24에서 documentary35로 확정; 최근 구도 짝 중복도 피함."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.",
+                "reason": "a retro casino bunny costume with a fitted one-piece garment, cuffs, bow-tie collar, and rabbit-ear headband, on a stage floor에 없는 세부를 On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.로 보충."
+              },
+              {
+                "field": "outfit",
+                "text": "The retro casino bunny costume is opaque brick-red satin with a pale yellow bow-tie collar, separate cuffs and a black rabbit-ear headband; the fitted one-piece exposes shoulders and thighs.",
+                "reason": "bunny에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.의 움직임에 맞춤.",
+              "source_influence": "The retro casino bunny costume is opaque brick-red satin with a pale yellow bow-tie collar, separate cuffs and a black rabbit-ear headband; the fitted one-piece exposes shoulders and thighs.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "uniform의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_reading",
+            "expr": "focused",
+            "pose": "reading_book",
+            "orient": "looking_down",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "knit_top",
+              "skirt"
+            ],
+            "scene": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.",
+            "outfit": "A red asymmetric knit top with one bare shoulder and a side waist cutout pairs with a cream high-slit skirt, exposing shoulder, waist and one thigh.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Turning a page of an illustrated Pokémon field guide while seated by a window with a cup of tea.",
+            "random_draws": {
+              "orient": {
+                "drawn": "crouching",
+                "selected": "looking_down",
+                "reason": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.의 활동과 waist_up 범위에 맞게 crouching에서 looking_down로 확정; 최근 구도 짝 중복도 피함."
+              },
+              "frame": {
+                "drawn": "waist_up",
+                "selected": "waist_up",
+                "reason": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.의 활동과 waist_up 범위에 맞게 waist_up에서 waist_up로 확정; 최근 구도 짝 중복도 피함."
+              },
+              "lens": {
+                "drawn": "wide24",
+                "selected": "natural50",
+                "reason": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.의 활동과 waist_up 범위에 맞게 wide24에서 natural50로 확정; 최근 구도 짝 중복도 피함."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.",
+                "reason": "Turning a page of an illustrated Pokémon field guide while seated by a window with a cup of tea.에 없는 세부를 Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.로 보충."
+              },
+              {
+                "field": "outfit",
+                "text": "A red asymmetric knit top with one bare shoulder and a side waist cutout pairs with a cream high-slit skirt, exposing shoulder, waist and one thigh.",
+                "reason": "hobby_reading에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.의 움직임에 맞춤.",
+              "source_influence": "A red asymmetric knit top with one bare shoulder and a side waist cutout pairs with a cream high-slit skirt, exposing shoulder, waist and one thigh.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "knit_top / skirt의 실제 상하 분리 구조에 맞춤."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "active",
+            "ex": "roller_skating",
+            "expr": "amused",
+            "pose": "mid_stride",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "tank",
+              "shorts"
+            ],
+            "scene": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.",
+            "outfit": "A pale yellow racer-cut tank with deep armholes and a cropped hem pairs with brick-red high-waisted shorts, exposing shoulders, waist and thighs; protective pads complete the skating outfit.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Roller-skating Fashion",
+            "random_draws": {
+              "orient": {
+                "drawn": "three_quarter_back",
+                "selected": "turning_midmotion",
+                "reason": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.의 활동과 full_body 범위에 맞게 three_quarter_back에서 turning_midmotion로 확정; 최근 구도 짝 중복도 피함."
+              },
+              "frame": {
+                "drawn": "environmental",
+                "selected": "full_body",
+                "reason": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.의 활동과 full_body 범위에 맞게 environmental에서 full_body로 확정; 최근 구도 짝 중복도 피함."
+              },
+              "lens": {
+                "drawn": "telephoto135",
+                "selected": "wide24",
+                "reason": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.의 활동과 full_body 범위에 맞게 telephoto135에서 wide24로 확정; 최근 구도 짝 중복도 피함."
+              }
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.",
+                "reason": "Roller-skating Fashion에 없는 세부를 She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.로 보충."
+              },
+              {
+                "field": "outfit",
+                "text": "A pale yellow racer-cut tank with deep armholes and a cropped hem pairs with brick-red high-waisted shorts, exposing shoulders, waist and thighs; protective pads complete the skating outfit.",
+                "reason": "roller_skating에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.의 움직임에 맞춤.",
+              "source_influence": "A pale yellow racer-cut tank with deep armholes and a cropped hem pairs with brick-red high-waisted shorts, exposing shoulders, waist and thighs; protective pads complete the skating outfit.에 있는 색과 형태가 원작을 드러내는 정도.",
+              "separates_preference": "tank / shorts의 실제 상하 분리 구조에 맞춤."
+            }
+          }
+        ]
+      },
+      {
+        "card": "귀뚤톡크",
+        "species": "kricketune-20261020",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "corset_lingerie",
+            "expr": "calm",
+            "pose": "standing_formal",
+            "orient": "front_3q",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "scene": "At a dressing-room vanity she threads a small gold stud through her earlobe; warm round mirror lamps illuminate a velvet jewellery tray.",
+            "outfit": "Opaque burgundy satin forms the boned corset bodice and matching high-waisted piece, with black piping and a sweetheart neckline exposing shoulders and collarbones.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a corset-inspired lingerie bodice with visible boning seams and a matching high-waisted piece"
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "aerodynamic_couture",
+            "expr": "proud",
+            "pose": "walking",
+            "orient": "low_angle",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "She ascends the pale stone ramp of a sculpture pavilion at blue hour, lifting the floating hem clear of a shallow step.",
+            "outfit": "A crimson halter gown with a black split capelet and tan pleated side fins translates folded cricket wings into flowing fabric; its open back and thigh-high slit expose back and one leg.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Aerodynamic Layered Couture"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "river_dock",
+            "expr": "relieved",
+            "pose": "perched_seat",
+            "orient": "reclining",
+            "frame": "full_body",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "scene": "She rests her palms behind her on the sun-warmed dock planks with both feet hanging over the slow jade river after a morning swim.",
+            "outfit": "A fully lined red square-neck bikini has broad supportive straps and high-waisted tan bottoms; black piping curves along the seams, leaving shoulders, waist and legs bare.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "in swimwear on a wooden river dock, feet over the edge above the water"
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "bunny",
+      "expr": "playful",
+      "pose": "on_tiptoe",
+      "orient": "front",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "uniform"
+      ],
+      "scene": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.",
+      "outfit": "The retro casino bunny costume is opaque brick-red satin with a pale yellow bow-tie collar, separate cuffs and a black rabbit-ear headband; the fitted one-piece exposes shoulders and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a retro casino bunny costume with a fitted one-piece garment, cuffs, bow-tie collar, and rabbit-ear headband, on a stage floor",
+      "random_draws": {
+        "orient": {
+          "drawn": "side",
+          "selected": "front",
+          "reason": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.의 활동과 three_quarter 범위에 맞게 side에서 front로 확정; 최근 구도 짝 중복도 피함."
+        },
+        "frame": {
+          "drawn": "waist_up",
+          "selected": "three_quarter",
+          "reason": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.의 활동과 three_quarter 범위에 맞게 waist_up에서 three_quarter로 확정; 최근 구도 짝 중복도 피함."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "documentary35",
+          "reason": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.의 활동과 three_quarter 범위에 맞게 wide24에서 documentary35로 확정; 최근 구도 짝 중복도 피함."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.",
+          "reason": "a retro casino bunny costume with a fitted one-piece garment, cuffs, bow-tie collar, and rabbit-ear headband, on a stage floor에 없는 세부를 On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.로 보충."
+        },
+        {
+          "field": "outfit",
+          "text": "The retro casino bunny costume is opaque brick-red satin with a pale yellow bow-tie collar, separate cuffs and a black rabbit-ear headband; the fitted one-piece exposes shoulders and thighs.",
+          "reason": "bunny에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.에서 mostly active에 해당하는 실제 활동 단계로 정함.",
+        "source_influence": "The retro casino bunny costume is opaque brick-red satin with a pale yellow bow-tie collar, separate cuffs and a black rabbit-ear headband; the fitted one-piece exposes shoulders and thighs.에 담은 색·모티프만으로 원작 영향도를 subtle로 선택.",
+        "separates_preference": "['uniform']의 한 벌/상하 분리 구조를 따라 balanced로 선택."
+      },
+      "actual_selections": {
+        "expr": "playful",
+        "pose": "on_tiptoe",
+        "orient": "front",
+        "scene": "On the stage floor of a cabaret rehearsal, she practices a quick heel lift while straightening a loose wrist cuff beneath amber footlights.",
+        "outfit": "The retro casino bunny costume is opaque brick-red satin with a pale yellow bow-tie collar, separate cuffs and a black rabbit-ear headband; the fitted one-piece exposes shoulders and thighs.",
+        "frame": "three_quarter",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "adult_roleplay",
+        "catCustom": "",
+        "ex": "bunny",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_reading",
+      "expr": "focused",
+      "pose": "reading_book",
+      "orient": "looking_down",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "knit_top",
+        "skirt"
+      ],
+      "scene": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.",
+      "outfit": "A red asymmetric knit top with one bare shoulder and a side waist cutout pairs with a cream high-slit skirt, exposing shoulder, waist and one thigh.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "Turning a page of an illustrated Pokémon field guide while seated by a window with a cup of tea.",
+      "random_draws": {
+        "orient": {
+          "drawn": "crouching",
+          "selected": "looking_down",
+          "reason": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.의 활동과 waist_up 범위에 맞게 crouching에서 looking_down로 확정; 최근 구도 짝 중복도 피함."
+        },
+        "frame": {
+          "drawn": "waist_up",
+          "selected": "waist_up",
+          "reason": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.의 활동과 waist_up 범위에 맞게 waist_up에서 waist_up로 확정; 최근 구도 짝 중복도 피함."
+        },
+        "lens": {
+          "drawn": "wide24",
+          "selected": "natural50",
+          "reason": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.의 활동과 waist_up 범위에 맞게 wide24에서 natural50로 확정; 최근 구도 짝 중복도 피함."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.",
+          "reason": "Turning a page of an illustrated Pokémon field guide while seated by a window with a cup of tea.에 없는 세부를 Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.로 보충."
+        },
+        {
+          "field": "outfit",
+          "text": "A red asymmetric knit top with one bare shoulder and a side waist cutout pairs with a cream high-slit skirt, exposing shoulder, waist and one thigh.",
+          "reason": "hobby_reading에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        },
+        {
+          "field": "custom",
+          "text": "Partial correction of the second attached image: remove all gold glyphs from the book cover and print-like marks from the interior pages, replacing only those marks with small botanical illustrations. Keep every other part of that scene unchanged; the first attached image remains the face identity reference.",
+          "reason": "첫 결과의 인쇄 흔적만 수정하는 부분 편집; 기존 장면의 선택값은 유지."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.에서 mostly posed에 해당하는 실제 활동 단계로 정함.",
+        "source_influence": "A red asymmetric knit top with one bare shoulder and a side waist cutout pairs with a cream high-slit skirt, exposing shoulder, waist and one thigh.에 담은 색·모티프만으로 원작 영향도를 balanced로 선택.",
+        "separates_preference": "['knit_top', 'skirt']의 한 벌/상하 분리 구조를 따라 prefer separates로 선택."
+      },
+      "actual_selections": {
+        "expr": "focused",
+        "pose": "reading_book",
+        "orient": "looking_down",
+        "scene": "Late afternoon light falls across the deep window seat; her fingertips turn an illustrated habitat page beside a chamomile teacup.",
+        "outfit": "A red asymmetric knit top with one bare shoulder and a side waist cutout pairs with a cream high-slit skirt, exposing shoulder, waist and one thigh.",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "Partial correction of the second attached image: remove all gold glyphs from the book cover and print-like marks from the interior pages, replacing only those marks with small botanical illustrations. Keep every other part of that scene unchanged; the first attached image remains the face identity reference.",
+        "aspect": "2:3",
+        "cat": "hobbies_leisure",
+        "catCustom": "",
+        "ex": "hobby_reading",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "revision": {
+        "reason": "책 표지와 내지에 가짜 문자",
+        "attempts": 2,
+        "changed_input": "custom",
+        "references": [
+          "/workspace/scratch/36ec3e514234/pkm-atelier-img-2/img/귀뚤뚜기_light_glossy_promo_f.webp",
+          "generated_images/exec-a88b7524-5e71-4db6-9399-2cf9b6350540.png"
+        ]
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "active",
+      "ex": "roller_skating",
+      "expr": "amused",
+      "pose": "mid_stride",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "tank",
+        "shorts"
+      ],
+      "scene": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.",
+      "outfit": "A pale yellow racer-cut tank with deep armholes and a cropped hem pairs with brick-red high-waisted shorts, exposing shoulders, waist and thighs; protective pads complete the skating outfit.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "in roller skates, crop top and high-waisted shorts, balancing as she glides slowly",
+      "random_draws": {
+        "orient": {
+          "drawn": "three_quarter_back",
+          "selected": "turning_midmotion",
+          "reason": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.의 활동과 full_body 범위에 맞게 three_quarter_back에서 turning_midmotion로 확정; 최근 구도 짝 중복도 피함."
+        },
+        "frame": {
+          "drawn": "environmental",
+          "selected": "full_body",
+          "reason": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.의 활동과 full_body 범위에 맞게 environmental에서 full_body로 확정; 최근 구도 짝 중복도 피함."
+        },
+        "lens": {
+          "drawn": "telephoto135",
+          "selected": "wide24",
+          "reason": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.의 활동과 full_body 범위에 맞게 telephoto135에서 wide24로 확정; 최근 구도 짝 중복도 피함."
+        }
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.",
+          "reason": "Roller-skating Fashion에 없는 세부를 She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.로 보충."
+        },
+        {
+          "field": "outfit",
+          "text": "A pale yellow racer-cut tank with deep armholes and a cropped hem pairs with brick-red high-waisted shorts, exposing shoulders, waist and thighs; protective pads complete the skating outfit.",
+          "reason": "roller_skating에서 정하지 않은 소재·색·옷 구조와 드러나는 부위를 지정."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        },
+        {
+          "field": "custom",
+          "text": "Partial correction of the second attached image: repaint the entire tongue of each roller-skate boot as smooth red leather continuing the red leather of the boot, with only the shoelaces crossing it. The farther skate on the right still has an unwanted pale embroidered patch above the laces; replace that whole tongue surface. Keep the wheels, pose and other scene details; use the first image for her face.",
+          "reason": "첫 결과의 인쇄 흔적만 수정하는 부분 편집; 기존 장면의 선택값은 유지."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.에서 mostly active에 해당하는 실제 활동 단계로 정함.",
+        "source_influence": "A pale yellow racer-cut tank with deep armholes and a cropped hem pairs with brick-red high-waisted shorts, exposing shoulders, waist and thighs; protective pads complete the skating outfit.에 담은 색·모티프만으로 원작 영향도를 subtle로 선택.",
+        "separates_preference": "['tank', 'shorts']의 한 벌/상하 분리 구조를 따라 prefer separates로 선택."
+      },
+      "actual_selections": {
+        "expr": "amused",
+        "pose": "mid_stride",
+        "orient": "turning_midmotion",
+        "scene": "She follows the curved painted lane of a seaside roller rink at sunrise, balancing through a gentle turn.",
+        "outfit": "A pale yellow racer-cut tank with deep armholes and a cropped hem pairs with brick-red high-waisted shorts, exposing shoulders, waist and thighs; protective pads complete the skating outfit.",
+        "frame": "full_body",
+        "lens": "wide24",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "Partial correction of the second attached image: repaint the entire tongue of each roller-skate boot as smooth red leather continuing the red leather of the boot, with only the shoelaces crossing it. The farther skate on the right still has an unwanted pale embroidered patch above the laces; replace that whole tongue surface. Keep the wheels, pose and other scene details; use the first image for her face.",
+        "aspect": "2:3",
+        "cat": "active",
+        "catCustom": "",
+        "ex": "roller_skating",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "aspect": true
+        }
+      },
+      "locked": [
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "aspect"
+      ],
+      "revision": {
+        "reason": "스케이트 혀 부분의 가짜 상표",
+        "attempts": 4,
+        "changed_input": "custom",
+        "references": [
+          "/workspace/scratch/36ec3e514234/pkm-atelier-img-2/img/귀뚤뚜기_light_glossy_promo_f.webp",
+          "generated_images/exec-948bdc9c-1c6e-4307-89b6-c870a68d95e3.png"
+        ]
+      },
+      "status": "skipped",
+      "skip_reason": "스케이트 상표형 라벨이 세 번 재작업 후에도 남음; 사용자 지정 한도 적용"
+    }
+  ],
+  "check": {
+    "command": "python3 tools/casual-ledger.py check PLAN.json",
+    "exit_code": 0,
+    "output": "계획 통과 — 2명"
+  },
+  "reservation_commit": "238cd2442ab1280caedd332405acdefe7e56d739",
+  "reservation_at": "2026-10-20T06:09:36+09:00",
+  "generation_mode": "built-in image_gen",
+  "ui_surface": "Repository real Preact prompt editor mounted by tests/prompt-dom-harness.cjs (jsdom); actual select/change/click controls and saved localStorage, not a manually reconstructed prompt"
+}
