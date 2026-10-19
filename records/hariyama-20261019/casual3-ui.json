@@ -1,0 +1,97 @@
+{
+  "storage": {
+    "last": "하리뭉",
+    "cards": {
+      "하리뭉": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "navy",
+          "hairstyle": "slicked back",
+          "hair length": "short",
+          "eye color": "amber",
+          "body type": "heavy-built"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A coastal stone arena above the sea, salt mist and low late-afternoon sunlight.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "focused",
+            "pose": "sitting",
+            "orient": "high_angle",
+            "scene": "The photographs show rock pools and shorebird nesting cliffs. Sea spray glitters beyond the cafe terrace in slanting afternoon light.",
+            "outfit": "A fitted navy halter mini dress with an open back and orange semicircle panels along the short hem, exposing shoulders, back and thighs; flat sandals.",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Localized camera retouch at the right edge: replace the existing camera with a simple matte-black compact camera whose cuboid housing and cylindrical lens have entirely plain surfaces. Remove every pale letter-like stroke from the prism front, the small upper-right front panel and the lens rings; preserve the woman, photographs, scrapbook, furniture, background and composition exactly.",
+            "aspect": "2:3",
+            "cat": "hobbies_leisure",
+            "catCustom": "",
+            "ex": "hobby_photo",
+            "exCustom": "",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Hariyama (하리뭉) personified, fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: camera above subject looking downward; obey selected framing\nScene: The photographs show rock pools and shorebird nesting cliffs. Sea spray glitters beyond the cafe terrace in slanting afternoon light.\nOutfit and props: A fitted navy halter mini dress with an open back and orange semicircle panels along the short hem, exposing shoulders, back and thighs; flat sandals.\nCategory: Show a personal hobby or restful leisure moment with a specific action and relevant objects. Pokémon motifs may appear naturally in the activity, without requiring armor, a uniform or a companion.\nExample scene: Sorting printed habitat photographs beside a camera and a travel scrapbook at a cafe table.\nNote: Localized camera retouch at the right edge: replace the existing camera with a simple matte-black compact camera whose cuboid housing and cylindrical lens have entirely plain surfaces. Remove every pale letter-like stroke from the prism front, the small upper-right front panel and the lens rings; preserve the woman, photographs, scrapbook, furniture, background and composition exactly.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": []
+}
