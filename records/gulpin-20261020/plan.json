@@ -283,7 +283,7 @@
               "frame": "chest_up",
               "lens": "portrait85",
               "camera": "Vertical 2:3 portrait (1024×1536).",
-              "custom": "",
+              "custom": "Anatomy correction to the attached vanity scene: keep her right hand adjusting the earring, and let her left hand rest lightly on the vanity tabletop. Show her complete left arm as one natural continuous shoulder, upper arm, elbow, forearm, wrist and hand, clearly outlined beside her torso. Keep both arms and their elbows distinct, with natural lengths and joints. Preserve her face, green bob, amber eyes, satin babydoll, vanity and flowers.",
               "aspect": "2:3",
               "cat": "lingerie",
               "catCustom": "",
@@ -327,6 +327,11 @@
                 "field": "camera",
                 "text": "Vertical 2:3 portrait (1024×1536).",
                 "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+              },
+              {
+                "field": "custom",
+                "text": "Anatomy correction to the attached vanity scene: keep her right hand adjusting the earring, and let her left hand rest lightly on the vanity tabletop. Show her complete left arm as one natural continuous shoulder, upper arm, elbow, forearm, wrist and hand, clearly outlined beside her torso. Keep both arms and their elbows distinct, with natural lengths and joints. Preserve her face, green bob, amber eyes, satin babydoll, vanity and flowers.",
+                "reason": "사용자가 지적한 왼팔의 끊긴 연결을 고치기 위해 오른손은 귀걸이, 왼손은 화장대에 둔 서로 분리된 팔 동작을 지정."
               }
             ],
             "axes_reasons": {
@@ -944,7 +949,7 @@
         "frame": "chest_up",
         "lens": "portrait85",
         "camera": "Vertical 2:3 portrait (1024×1536).",
-        "custom": "",
+        "custom": "Anatomy correction to the attached vanity scene: keep her right hand adjusting the earring, and let her left hand rest lightly on the vanity tabletop. Show her complete left arm as one natural continuous shoulder, upper arm, elbow, forearm, wrist and hand, clearly outlined beside her torso. Keep both arms and their elbows distinct, with natural lengths and joints. Preserve her face, green bob, amber eyes, satin babydoll, vanity and flowers.",
         "aspect": "2:3",
         "cat": "lingerie",
         "catCustom": "",
@@ -988,6 +993,11 @@
           "field": "camera",
           "text": "Vertical 2:3 portrait (1024×1536).",
           "reason": "이미지 도구에 크기 선택 인수가 없어 세로 1024×1536을 지정."
+        },
+        {
+          "field": "custom",
+          "text": "Anatomy correction to the attached vanity scene: keep her right hand adjusting the earring, and let her left hand rest lightly on the vanity tabletop. Show her complete left arm as one natural continuous shoulder, upper arm, elbow, forearm, wrist and hand, clearly outlined beside her torso. Keep both arms and their elbows distinct, with natural lengths and joints. Preserve her face, green bob, amber eyes, satin babydoll, vanity and flowers.",
+          "reason": "사용자가 지적한 왼팔의 끊긴 연결을 고치기 위해 오른손은 귀걸이, 왼손은 화장대에 둔 서로 분리된 팔 동작을 지정."
         }
       ],
       "axes_reasons": {
@@ -1010,6 +1020,20 @@
       "changed_field": "custom",
       "changed_input": "Partial correction to the attached air-hockey scene: replace every letter-like mark and pseudo-label on the arcade cabinets and header panels with smooth coloured light panels or simple geometric shapes. Preserve her face, both hands, air-hockey action, clothing and the existing scene composition exactly.",
       "fixed": "strong / bold / 2:3 유지"
+    },
+    {
+      "cut": 3,
+      "date": "2026-10-20",
+      "reason": "사용자가 왼팔이 중간에 끊긴 부자연스러운 연결을 지적함. 기존 검수의 손·팔 정상 판정을 정정한다.",
+      "previous_sha256": "c6f15ef392edf736ec40bacaa0c9a63e18668a75a53f691badfd10952e133001",
+      "changed_field": "custom",
+      "changed_input": "Anatomy correction to the attached vanity scene: keep her right hand adjusting the earring, and let her left hand rest lightly on the vanity tabletop. Show her complete left arm as one natural continuous shoulder, upper arm, elbow, forearm, wrist and hand, clearly outlined beside her torso. Keep both arms and their elbows distinct, with natural lengths and joints. Preserve her face, green bob, amber eyes, satin babydoll, vanity and flowers.",
+      "inputs": [
+        "경장 ①",
+        "기존 casual3 수정 대상"
+      ],
+      "fixed": "strong / bold / 2:3 유지",
+      "reservation": "기존 등록 컷의 부분 수정. 갈래·예시·선택 항목·세 축 값 변경 없음."
     }
   ]
 }

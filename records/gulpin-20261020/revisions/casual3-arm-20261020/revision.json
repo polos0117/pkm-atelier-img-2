@@ -1,0 +1,119 @@
+{
+  "previous_image": {
+    "slot": "casual3",
+    "original": "generated_images/exec-832825bc-a635-4b08-a975-f84c93c8d70f.png",
+    "file": "img/꼴깍몬_glossy_promo_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "sha256": "c6f15ef392edf736ec40bacaa0c9a63e18668a75a53f691badfd10952e133001",
+    "reference": "img/꼴깍몬_light_glossy_promo_f.webp",
+    "prompt": "records/gulpin-20261020/casual3.txt",
+    "thumbnail_sha256": "95ccdb720a8f745ecb502c366efef0f61e6557135f5982c8e2772be6ecad0a57"
+  },
+  "previous_qa": {
+    "scene_activity": {
+      "match": true,
+      "evidence": "꽃병과 거울 조명이 있는 화장대 앞에서 두 손으로 귀걸이를 잠근다."
+    },
+    "wardrobe_exposure": {
+      "match": true,
+      "evidence": "초록 새틴의 좁은 끈과 가슴 아래 리본, 제국 허리선에서 퍼지는 짧은 스커트, 밑단 검정 마름모가 보이며 어깨와 허벅지가 드러난다."
+    },
+    "pose": {
+      "match": true,
+      "evidence": "서서 두 팔을 귀 쪽으로 올린다."
+    },
+    "orientation": {
+      "match": false,
+      "evidence": "코와 양눈이 드러나는 앞 3/4이며 측면 근접 방향과 다르다."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "가슴 위 대신 머리부터 허벅지까지 담겼다."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "입술 끝이 부드럽게 올라가고 눈썹이 이완된 미소다."
+    },
+    "hands": {
+      "match": true,
+      "evidence": "한 손은 귓불 위 잠금쇠를 잡고 다른 손은 귀걸이 아래를 받치며 손가락이 분리되어 있다."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "①의 초록 단발, 호박 눈과 넓은 볼·도톰한 입술을 유지한다."
+    },
+    "figure_count": {
+      "match": true,
+      "evidence": "앞에 초점이 맞은 인물은 여성 한 명이며 다른 사람의 식별 가능한 얼굴은 없다."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "원본과 변환본 모두 1024×1536, 실제 WebP로 열림. SHA-256은 checkpoint.json의 c6f15ef392edf736ec40bacaa0c9a63e18668a75a53f691badfd10952e133001와 대조."
+    },
+    "text": {
+      "match": true,
+      "evidence": "화장대의 투명 병·거울·귀걸이와 드레스 마름모에 문자가 없다."
+    }
+  },
+  "correction_reason": "사용자가 왼팔이 중간에 끊긴 부자연스러운 연결을 지적함. 기존 검수의 손·팔 정상 판정을 정정한다.",
+  "generation_mode": "built-in image_gen",
+  "references": [
+    "img/꼴깍몬_light_glossy_promo_f.webp",
+    "img/꼴깍몬_glossy_promo_f_casual3.webp"
+  ],
+  "old_image_commit": "d3b8f427252198ef6bdea0a2c1b09400eb08136c",
+  "old_sha256": "c6f15ef392edf736ec40bacaa0c9a63e18668a75a53f691badfd10952e133001",
+  "new_sha256": "8381d36acc1cc589f49a12daa17c90a5f23f306bc09fa3431c50503a08e7e417",
+  "new_original": "generated_images/exec-d9949f1f-b968-44d4-8c8b-9c08eb1102d7.png",
+  "final_prompt_path": "records/gulpin-20261020/casual3.txt",
+  "new_qa": {
+    "scene_activity": {
+      "match": true,
+      "evidence": "꽃병과 거울 전구가 있는 화장대 앞에서 한 손으로 귀걸이를 조정한다."
+    },
+    "wardrobe_exposure": {
+      "match": true,
+      "evidence": "초록 새틴의 좁은 끈과 가슴 아래 리본, 제국 허리선에서 퍼지는 짧은 스커트, 밑단 검정 마름모가 보이며 어깨와 허벅지가 드러난다."
+    },
+    "pose": {
+      "match": true,
+      "evidence": "오른손은 귀걸이를 잡고 왼손은 몸 옆 화장대를 짚어 두 팔이 서로 분리된다."
+    },
+    "orientation": {
+      "match": false,
+      "evidence": "계획의 측면 근접보다 양눈이 보이는 앞 3/4 얼굴이다."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "선택한 가슴 위보다 넓은 머리부터 허벅지 구도이며 양팔과 화장대를 짚은 손이 화면 안에 보인다."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "입술 끝이 부드럽게 올라가고 눈썹이 이완된 미소다."
+    },
+    "hands": {
+      "match": true,
+      "evidence": "화면 왼쪽 오른팔은 어깨에서 바깥쪽 팔꿈치로 내려갔다가 귓불의 손으로 올라간다. 화면 오른쪽 왼팔은 가슴 뒤에서 몸 옆으로 내려와 팔꿈치·팔뚝·손목을 거쳐 화장대의 손으로 이어진다. 손가락은 귀걸이와 화장대에 자연스럽게 접촉하며 잘린 팔 조각이 없다. 양팔과 손을 원본 크기 및 왼팔 확대컷으로 재검수했다."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "①의 초록 단발, 호박 눈과 넓은 볼·도톰한 입술을 유지한다."
+    },
+    "figure_count": {
+      "match": true,
+      "evidence": "앞에 초점이 맞은 인물은 여성 한 명이며 다른 사람의 식별 가능한 얼굴은 없다."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "1024×1536 실제 WebP, 품질 85·method 6. SHA-256 8381d36acc1cc589f49a12daa17c90a5f23f306bc09fa3431c50503a08e7e417"
+    },
+    "text": {
+      "match": true,
+      "evidence": "투명 병·화장대·꽃병·드레스의 마름모에서 문자나 라벨이 보이지 않는다."
+    }
+  }
+}

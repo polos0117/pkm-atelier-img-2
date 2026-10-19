@@ -277,7 +277,7 @@
     "casual3": {
       "scene_activity": {
         "match": true,
-        "evidence": "꽃병과 거울 조명이 있는 화장대 앞에서 두 손으로 귀걸이를 잠근다."
+        "evidence": "꽃병과 거울 전구가 있는 화장대 앞에서 한 손으로 귀걸이를 조정한다."
       },
       "wardrobe_exposure": {
         "match": true,
@@ -285,15 +285,15 @@
       },
       "pose": {
         "match": true,
-        "evidence": "서서 두 팔을 귀 쪽으로 올린다."
+        "evidence": "오른손은 귀걸이를 잡고 왼손은 몸 옆 화장대를 짚어 두 팔이 서로 분리된다."
       },
       "orientation": {
         "match": false,
-        "evidence": "코와 양눈이 드러나는 앞 3/4이며 측면 근접 방향과 다르다."
+        "evidence": "계획의 측면 근접보다 양눈이 보이는 앞 3/4 얼굴이다."
       },
       "framing": {
         "match": false,
-        "evidence": "가슴 위 대신 머리부터 허벅지까지 담겼다."
+        "evidence": "선택한 가슴 위보다 넓은 머리부터 허벅지 구도이며 양팔과 화장대를 짚은 손이 화면 안에 보인다."
       },
       "expression": {
         "match": true,
@@ -301,7 +301,7 @@
       },
       "hands": {
         "match": true,
-        "evidence": "한 손은 귓불 위 잠금쇠를 잡고 다른 손은 귀걸이 아래를 받치며 손가락이 분리되어 있다."
+        "evidence": "화면 왼쪽 오른팔은 어깨에서 바깥쪽 팔꿈치로 내려갔다가 귓불의 손으로 올라간다. 화면 오른쪽 왼팔은 가슴 뒤에서 몸 옆으로 내려와 팔꿈치·팔뚝·손목을 거쳐 화장대의 손으로 이어진다. 손가락은 귀걸이와 화장대에 자연스럽게 접촉하며 잘린 팔 조각이 없다. 양팔과 손을 원본 크기 및 왼팔 확대컷으로 재검수했다."
       },
       "identity": {
         "match": true,
@@ -313,11 +313,11 @@
       },
       "dimensions": {
         "match": true,
-        "evidence": "원본과 변환본 모두 1024×1536, 실제 WebP로 열림. SHA-256은 checkpoint.json의 c6f15ef392edf736ec40bacaa0c9a63e18668a75a53f691badfd10952e133001와 대조."
+        "evidence": "1024×1536 실제 WebP, 품질 85·method 6. SHA-256 8381d36acc1cc589f49a12daa17c90a5f23f306bc09fa3431c50503a08e7e417"
       },
       "text": {
         "match": true,
-        "evidence": "화장대의 투명 병·거울·귀걸이와 드레스 마름모에 문자가 없다."
+        "evidence": "투명 병·화장대·꽃병·드레스의 마름모에서 문자나 라벨이 보이지 않는다."
       }
     }
   },
