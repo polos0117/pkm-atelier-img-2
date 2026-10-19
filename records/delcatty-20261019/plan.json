@@ -1,0 +1,309 @@
+{
+  "name": "델케티",
+  "slug": "delcatty",
+  "no": 301,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "lavender",
+    "hairstyle": "wavy",
+    "hair length": "long",
+    "eye color": "purple",
+    "body type": "tall and lean"
+  },
+  "wear": "A purple ruff becomes a petal-shaped armored shoulder collar over tan fitted plates; pointed purple hair ornaments and a long narrow waist sash with three soft scalloped tips echo the ears and tail.",
+  "scene": "An elegant sandstone conservatory with violet flowers and slanting afternoon light.",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "folk_embroidery",
+      "expr": "proud",
+      "pose": "carrying_something",
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "garments": [
+        "blouse",
+        "skirt"
+      ],
+      "scene": "At an outdoor folk craft fair in warm afternoon light, she carries a shallow basket containing skeins of violet embroidery thread.",
+      "outfit": "A cropped square-neck folk-embroidered blouse with elbow-length gathered sleeves and a separate high-slit tan skirt, violet floral stitching; collarbones, midriff and one thigh are visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "folk_embroidery does not specify this precise activity and lighting; these details establish the depicted task.",
+        "outfit": "folk_embroidery leaves these fabric colours and garment details unspecified; the added construction supports this scene.",
+        "camera": "The built-in image tool has no size field; request a vertical 2:3 image at 1024×1536."
+      },
+      "axis_reasons": {
+        "source_influence": "subtle: A cropped square-neck folk-embroidered blouse with elbow-length gathered sleeves and a separate high-slit tan skirt, violet floral stitching; collarbones, midriff and one thigh are visible.",
+        "action_level": "balanced: At an outdoor folk craft fair in warm afternoon light, she carries a shallow basket containing skeins of violet embroidery thread.",
+        "separates_preference": "strongly prefer separates: the selected clothing consists of blouse, skirt"
+      },
+      "random_draws": {
+        "orient": "looking_down",
+        "frame": "three_quarter",
+        "lens": "natural50"
+      },
+      "exampleText": "a folk-embroidered peasant blouse with dense cross-stitch on sleeves and yoke, over a simple skirt",
+      "random_adjustments": {
+        "orient": {
+          "draw": "looking_down",
+          "chosen": "looking_away",
+          "reason": "The folk_embroidery hand activity needs this body direction, with a visible face and a pair absent from the comparison images."
+        },
+        "frame": {
+          "draw": "three_quarter",
+          "chosen": "three_quarter",
+          "reason": "The folk_embroidery scene needs room for its specified prop and the recorded hand activity."
+        },
+        "lens": {
+          "draw": "natural50",
+          "chosen": "portrait85",
+          "reason": "The folk_embroidery location and selected subject scale fit this focal-length impression."
+        }
+      },
+      "fixed_axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "corset_lingerie",
+      "expr": "calm",
+      "pose": "standing_relaxed",
+      "orient": "front_3q",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "lingerie_set"
+      ],
+      "scene": "Evening lamplight falls across a dressing-room counter as she chooses a small purple ribbon from a jewelry tray.",
+      "outfit": "Opaque plum satin with cream curved seam piping, securely fitted cups and a matching high-waisted bottom; shoulders, upper chest and legs remain bare.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "corset_lingerie does not specify this precise activity and lighting; these details establish the depicted task.",
+        "outfit": "corset_lingerie leaves these fabric colours and garment details unspecified; the added construction supports this scene.",
+        "camera": "The built-in image tool has no size field; request a vertical 2:3 image at 1024×1536."
+      },
+      "axis_reasons": {
+        "source_influence": "balanced: Opaque plum satin with cream curved seam piping, securely fitted cups and a matching high-waisted bottom; shoulders, upper chest and legs remain bare.",
+        "action_level": "mostly posed: Evening lamplight falls across a dressing-room counter as she chooses a small purple ribbon from a jewelry tray.",
+        "separates_preference": "prefer separates: the selected clothing consists of lingerie_set"
+      },
+      "random_draws": {
+        "orient": "over_shoulder",
+        "frame": "chest_up",
+        "lens": "wide24"
+      },
+      "exampleText": "a corset-inspired lingerie bodice with visible boning seams and a matching high-waisted piece",
+      "random_adjustments": {
+        "orient": {
+          "draw": "over_shoulder",
+          "chosen": "front_3q",
+          "reason": "The corset_lingerie hand activity needs this body direction, with a visible face and a pair absent from the comparison images."
+        },
+        "frame": {
+          "draw": "chest_up",
+          "chosen": "chest_up",
+          "reason": "The corset_lingerie scene needs room for its specified prop and the recorded hand activity."
+        },
+        "lens": {
+          "draw": "wide24",
+          "chosen": "telephoto135",
+          "reason": "The corset_lingerie location and selected subject scale fit this focal-length impression."
+        }
+      },
+      "fixed_axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "festivals_contests",
+      "ex": "fest_booth",
+      "expr": "amused",
+      "pose": "mid_action",
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "scene": "Paper lanterns cast warm pools of light across a craft stall at dusk; the charm she examines is shaped like a small purple blossom.",
+      "outfit": "A tan halter romper with a deep open back, short hems and violet scallop trim exposes shoulders, back and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "fest_booth does not specify this precise activity and lighting; these details establish the depicted task.",
+        "outfit": "fest_booth leaves these fabric colours and garment details unspecified; the added construction supports this scene.",
+        "camera": "The built-in image tool has no size field; request a vertical 2:3 image at 1024×1536."
+      },
+      "axis_reasons": {
+        "source_influence": "balanced: A tan halter romper with a deep open back, short hems and violet scallop trim exposes shoulders, back and thighs.",
+        "action_level": "mostly active: Paper lanterns cast warm pools of light across a craft stall at dusk; the charm she examines is shaped like a small purple blossom.",
+        "separates_preference": "balanced: the selected clothing consists of jumpsuit"
+      },
+      "random_draws": {
+        "orient": "three_quarter_back",
+        "frame": "three_quarter",
+        "lens": "natural50"
+      },
+      "exampleText": "Browsing handmade Pokémon-themed charms at a festival booth and lifting one for a closer look.",
+      "random_adjustments": {
+        "orient": {
+          "draw": "three_quarter_back",
+          "chosen": "low_angle",
+          "reason": "The fest_booth hand activity needs this body direction, with a visible face and a pair absent from the comparison images."
+        },
+        "frame": {
+          "draw": "three_quarter",
+          "chosen": "waist_up",
+          "reason": "The fest_booth scene needs room for its specified prop and the recorded hand activity."
+        },
+        "lens": {
+          "draw": "natural50",
+          "chosen": "documentary35",
+          "reason": "The fest_booth location and selected subject scale fit this focal-length impression."
+        }
+      },
+      "fixed_axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ]
+    }
+  ],
+  "faceEvidence": {
+    "name": "델케티",
+    "en": "Delcatty",
+    "line": "에나비",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "wide",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "feathered full brows",
+      "nose character": "straight slender bridge",
+      "lips": "bow-shaped upper lip"
+    },
+    "why": "얇게 흐르는 꼬리와 뾰족한 수염 돌기에서 균형 길이의 타원 윤곽·가느다란 직선 콧대를 해석하고, 보라색 러프의 풍성한 결은 숱 있는 눈썹으로 남긴다. 에나비의 가는 눈과 달리 넓게 열린 성인 눈으로 구분한다.",
+    "cues": [
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은",
+      "‘purple ruff-like collar’ → 눈썹 숱 많고 결이 보이는"
+    ],
+    "adjusted": ""
+  },
+  "sourceEvidence": {
+    "name": "델케티",
+    "en": "Delcatty",
+    "color": "purple",
+    "shape": "quadruped",
+    "features": [
+      {
+        "part": "collar",
+        "detail": "purple ruff-like collar"
+      },
+      {
+        "part": "tail",
+        "detail": "thin tail"
+      },
+      {
+        "part": "ear",
+        "detail": "purple ears"
+      },
+      {
+        "part": "body",
+        "detail": "mostly tan body"
+      },
+      {
+        "part": "protrusion",
+        "detail": "pointed, whisker-like protrusion"
+      },
+      {
+        "part": "tuft",
+        "detail": "three tufts"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Delcatty_%28Pok%C3%A9mon%29",
+    "revision": 4619723,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "999d17d3ce90b2ac356e1727b0dfc3d816e58919faa79370a1dbb309d5587449",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "batch_check": "passed before reservation and generation",
+  "reservation_commits": [
+    "e2ec844122259d1c83bf2d2a92ba8c53da3ff52d",
+    "d72687f176145862918abf1ccdc976f522aa823b",
+    "4baddefaa2031ea39ec6426d4723c839fbb2024a"
+  ],
+  "revisions": [],
+  "final_face_design": {
+    "name": "델케티",
+    "en": "Delcatty",
+    "line": "에나비",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "feathered full brows",
+      "nose character": "straight slender bridge",
+      "lips": "bow-shaped upper lip"
+    },
+    "why": "얇게 흐르는 꼬리와 뾰족한 수염 돌기에서 균형 길이의 타원 윤곽·가느다란 직선 콧대를 해석하고, 보라색 러프의 풍성한 결은 숱 있는 눈썹으로 남긴다. 에나비의 가는 눈과 달리 넓게 열린 성인 눈으로 구분한다.",
+    "cues": [
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은",
+      "‘purple ruff-like collar’ → 눈썹 숱 많고 결이 보이는"
+    ],
+    "adjusted": ""
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; narrow tapered chin; open rounded eyes, medium size, level outer corners, wide-set; feathered full brows; straight slender bridge nose; bow-shaped upper lip."
+}
