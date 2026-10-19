@@ -6308,8 +6308,150 @@
      "garments": []
     }
    ]
+  },
+  {
+   "species": "aggron-20261019",
+   "card": "보스로라",
+   "status": "reserved",
+   "session": "gpt-aggron-meditite-20261019",
+   "at": "2026-10-19T20:52:15+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "homewear",
+     "ex": "backless_lounge",
+     "expr": "calm",
+     "pose": "watering",
+     "orient": "leaning_forward",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "dress"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "swimwear",
+     "ex": "river_dock",
+     "expr": "relieved",
+     "pose": "perched_seat",
+     "orient": "front",
+     "frame": "three_quarter",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "bikini"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "active",
+     "ex": "climbing_warmup",
+     "expr": "focused",
+     "pose": "mid_action",
+     "orient": "high_angle",
+     "frame": "full_body",
+     "lens": "documentary35",
+     "axes": {
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "strongly prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "tank",
+      "shorts"
+     ]
+    }
+   ]
+  },
+  {
+   "species": "meditite-20261019",
+   "card": "요가랑",
+   "status": "reserved",
+   "session": "gpt-aggron-meditite-20261019",
+   "at": "2026-10-19T20:52:15+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "adult_roleplay",
+     "ex": "circus_ringmaster",
+     "expr": "proud",
+     "pose": "waving",
+     "orient": "front_3q",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "strongly prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "coat",
+      "shorts",
+      "crop_top"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "active",
+     "ex": "yoga_flow",
+     "expr": "serious",
+     "pose": "cross_legged",
+     "orient": "looking_down",
+     "frame": "full_body",
+     "lens": "portrait85",
+     "axes": {
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "crop_top",
+      "leggings"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "private_evening",
+     "ex": "tea_ceremony_night",
+     "expr": "gentle",
+     "pose": "mid_action",
+     "orient": "side",
+     "frame": "waist_up",
+     "lens": "telephoto135",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "garments": [
+      "traditional"
+     ]
+    }
+   ]
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-19T20:44:33+09:00"
+ "updated": "2026-10-19T20:52:15+09:00"
 }
