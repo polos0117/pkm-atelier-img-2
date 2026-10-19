@@ -1,0 +1,53 @@
+{
+  "status": "registration-complete",
+  "characters": [
+    {
+      "card": "에나비",
+      "count": 9,
+      "style": "glossy_promo",
+      "image_commit": "f2a46cee11081dab7ae3ffc8edd06cf2cf349156",
+      "records": "records/skitty-20261019",
+      "anchor": "img/에나비_light_glossy_promo_f.webp"
+    },
+    {
+      "card": "델케티",
+      "count": 9,
+      "style": "glossy_promo",
+      "image_commit": "c90d6a1de1b02f576d7f78e9ad38c7c2b7a7d7c5",
+      "records": "records/delcatty-20261019",
+      "anchor": "img/델케티_light_glossy_promo_f.webp"
+    }
+  ],
+  "registration_commit": "e36e1fcf267bf32f5e9518639919d1fdbcd02d9d",
+  "face_design_commits": [
+    "56c3572413869f8dffa0723e8f31a0dd9a310304",
+    "86bb8bb81f3e061ccdae9b19f5ba3d1df6c49305"
+  ],
+  "thumbnail_commits": [
+    "261560150f4c54eae0a5b1e5af4f0d717055a446",
+    "27c1058e9a666d8f6738a8e012c947ab3192a709"
+  ],
+  "ledger_done_commit": "ea5ebd9816728feb881e3094be5c52e8530c9308",
+  "verified": {
+    "registered_slots": 18,
+    "thumbnails": 18,
+    "remote_original_sha_matches": 18,
+    "all_where": 1,
+    "forms": true,
+    "img_shards": true,
+    "face_design": true,
+    "patch": true,
+    "registration_tests": true,
+    "casual_ledger_tests": true
+  },
+  "successful_runs": {
+    "skitty_thumbnails": 39219925912,
+    "delcatty_thumbnails": 39220084176,
+    "registration": 39220287880
+  },
+  "remaining": [],
+  "notes": [
+    "Skitty casual1 shoreline scene was output-blocked twice; its recorded sport_onepiece lap-pool replacement completed successfully.",
+    "All remote main updates were fast-forward updates with force=false or contents updates with a current blob SHA; no existing image was deleted or replaced."
+  ]
+}
