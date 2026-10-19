@@ -1,0 +1,538 @@
+{
+  "name": "마크탕",
+  "slug": "makuhita",
+  "no": 296,
+  "params": {
+    "apparent age": "20s",
+    "hair color": "gold",
+    "hairstyle": "top knot",
+    "hair length": "medium",
+    "eye color": "brown",
+    "body type": "stocky"
+  },
+  "wear": "Black boxing-glove motifs become rounded black forearm gauntlets; yellow padded panels and a black V-shaped collar translate the compact sumo silhouette into wearable armor. A small tied crest-shaped hair ribbon echoes the knotted crown.",
+  "scene": "A sunlit stone training courtyard with windblown sand and warm ochre walls.",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "casino_dealer",
+      "expr": "confident",
+      "pose": "mid_action",
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "garments": [
+        "vest",
+        "shorts"
+      ],
+      "scene": "At a theatrical casino set during dress rehearsal, she deals a card across the green felt table under amber spotlights.",
+      "outfit": "A saffron cropped waistcoat over an opaque black bandeau, tailored black shorts, a separate bow-tie collar and wrist cuffs; the cropped hem and open neckline reveal waist and collarbones.",
+      "axis_reasons": {
+        "source_influence": "Saffron and black blocks echo the original boxing-glove palette prominently.",
+        "action_level": "Dealing a single card is a measured hand movement.",
+        "separates_preference": "Waistcoat, bandeau and tailored shorts are three separate garments."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "The card-table example does not set a performance venue or hand activity; a rehearsal set and dealing a card supply both.",
+        "outfit": "The example gives waistcoat, bow tie and cuffs but no colours or lower garment; cropped saffron tailoring and shorts fill those gaps.",
+        "camera": "The built-in image tool exposes no dimensions field; request vertical 2:3 at 1024×1536."
+      },
+      "random_draws": {
+        "orient": "back_to_camera",
+        "frame": "detail",
+        "lens": "wide24"
+      },
+      "exampleText": "a casino dealer costume with a fitted waistcoat, bow tie, and cuffs, at a card table",
+      "random_adjustments": {
+        "orient": {
+          "draw": "back_to_camera",
+          "chosen": "low_angle",
+          "reason": "The casino_dealer hand activity needs this body direction, with a visible face and a pair absent from the comparison images."
+        },
+        "frame": {
+          "draw": "detail",
+          "chosen": "three_quarter",
+          "reason": "The casino_dealer scene needs room for its specified prop and the recorded hand activity."
+        },
+        "lens": {
+          "draw": "wide24",
+          "chosen": "natural50",
+          "reason": "The casino_dealer location and selected subject scale fit this focal-length impression."
+        }
+      },
+      "fixed_axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "travel_exploration",
+      "ex": "travel_lakeside",
+      "expr": "relieved",
+      "pose": "perched_seat",
+      "orient": "seated_twist",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "scene": "She drinks water from a reusable bottle; morning sunlight crosses reeds and still water.",
+      "outfit": "A pale ochre sleeveless utility romper with a small side-waist cutout and mid-thigh hems, walking shoes and a canvas travel bag. Shoulders and thighs remain uncovered.",
+      "axis_reasons": {
+        "source_influence": "Ochre recalls the species while practical hiking gear remains dominant.",
+        "action_level": "A water break on a rock is a resting moment.",
+        "separates_preference": "The romper is a single continuous garment."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "The water-break example leaves the drinking vessel, weather and light unspecified; a bottle and morning reeds supply those details.",
+        "outfit": "The example gives shoes and bag but no main garment; a utility romper supplies practical travel clothing with shoulder and leg exposure.",
+        "camera": "The built-in image tool exposes no dimensions field; request vertical 2:3 at 1024×1536."
+      },
+      "random_draws": {
+        "orient": "leaning_back",
+        "frame": "chest_up",
+        "lens": "telephoto135"
+      },
+      "exampleText": "Taking a water break on a flat lakeside rock, with walking shoes and a travel bag clearly grounded.",
+      "random_adjustments": {
+        "orient": {
+          "draw": "leaning_back",
+          "chosen": "seated_twist",
+          "reason": "The travel_lakeside hand activity needs this body direction, with a visible face and a pair absent from the comparison images."
+        },
+        "frame": {
+          "draw": "chest_up",
+          "chosen": "environmental",
+          "reason": "The travel_lakeside scene needs room for its specified prop and the recorded hand activity."
+        },
+        "lens": {
+          "draw": "telephoto135",
+          "chosen": "wide24",
+          "reason": "The travel_lakeside location and selected subject scale fit this focal-length impression."
+        }
+      },
+      "fixed_axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "homewear",
+      "ex": "laundry_lounge",
+      "expr": "amused",
+      "pose": "kneeling",
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "tank",
+        "shorts"
+      ],
+      "scene": "Fresh bedding is piled on a woven mat; she folds a large cotton pillowcase beside a laundry basket in late-afternoon sunlight.",
+      "outfit": "A butter-yellow rib-knit cropped tank top with a scooped neckline and separate charcoal lounge shorts, exposing shoulders, midriff and legs.",
+      "axis_reasons": {
+        "source_influence": "Butter yellow and charcoal keep a visible but ordinary colour connection.",
+        "action_level": "Folding a pillowcase makes both hands and fabric actively move.",
+        "separates_preference": "The tank top and lounge shorts are visibly separate household garments."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "The laundry scene title gives no concrete task; folding a pillowcase on a mat defines the activity.",
+        "outfit": "The laundry example specifies a tank top and lounge shorts; butter-yellow ribbing, the scooped neckline and cropped hem provide the unspecified design details.",
+        "camera": "The built-in image tool exposes no dimensions field; request vertical 2:3 at 1024×1536."
+      },
+      "random_draws": {
+        "orient": "front_3q",
+        "frame": "waist_up",
+        "lens": "natural50"
+      },
+      "exampleText": "at home in a tank top and lounge shorts, folding laundry and bedding",
+      "random_adjustments": {
+        "orient": {
+          "draw": "front_3q",
+          "chosen": "leaning_forward",
+          "reason": "The laundry_lounge hand activity needs this body direction, with a visible face and a pair absent from the comparison images."
+        },
+        "frame": {
+          "draw": "waist_up",
+          "chosen": "full_body",
+          "reason": "The laundry_lounge scene needs room for its specified prop and the recorded hand activity."
+        },
+        "lens": {
+          "draw": "natural50",
+          "chosen": "documentary35",
+          "reason": "The laundry_lounge location and selected subject scale fit this focal-length impression."
+        }
+      },
+      "fixed_axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ]
+    }
+  ],
+  "faceEvidence": {
+    "name": "마크탕",
+    "en": "Makuhita",
+    "line": "마크탕",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "thick low brows",
+      "nose character": "rounded soft tip",
+      "lips": "medium lips"
+    },
+    "why": "둥근 손과 근성의 체적을 넓은 볼과 굵은 낮은 눈썹으로 해석한다.",
+    "cues": [
+      "격투 타입 → 눈썹 굵고 눈 가까이 낮은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 입술 입이 넓은 → 보통"
+  },
+  "sourceEvidence": {
+    "name": "마크탕",
+    "en": "Makuhita",
+    "color": "yellow",
+    "shape": "humanoid",
+    "features": [
+      {
+        "part": "marking",
+        "detail": "black marking"
+      },
+      {
+        "part": "tree",
+        "detail": "broken trees"
+      },
+      {
+        "part": "glove",
+        "detail": "black boxing gloves"
+      },
+      {
+        "part": "hand",
+        "detail": "round hands"
+      },
+      {
+        "part": "foot",
+        "detail": "yellow feet"
+      },
+      {
+        "part": "toe",
+        "detail": "two visible toes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Makuhita_%28Pok%C3%A9mon%29",
+    "revision": 4611099,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "71c3e5b85a0f65afc599dc710b54e753e639f0802b40535d34e9a81cdbc6fb2d",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "reservation_commit": "4f023ae5ca4e877ebe27d5c7cf6537969553b94f",
+  "batch_plan": {
+    "session": "gpt-makuhita-hariyama-20261019",
+    "characters": [
+      {
+        "card": "마크탕",
+        "species": "makuhita-20261019",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "casino_dealer",
+            "expr": "confident",
+            "pose": "mid_action",
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "vest",
+              "shorts"
+            ],
+            "scene": "At a theatrical casino set during dress rehearsal, she deals a card across the green felt table under amber spotlights.",
+            "outfit": "A saffron cropped waistcoat over an opaque black bandeau, tailored black shorts, a separate bow-tie collar and wrist cuffs; the cropped hem and open neckline reveal waist and collarbones.",
+            "axis_reasons": {
+              "source_influence": "Saffron and black blocks echo the original boxing-glove palette prominently.",
+              "action_level": "Dealing a single card is a measured hand movement.",
+              "separates_preference": "Waistcoat, bandeau and tailored shorts are three separate garments."
+            },
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "input_reasons": {
+              "scene": "The card-table example does not set a performance venue or hand activity; a rehearsal set and dealing a card supply both.",
+              "outfit": "The example gives waistcoat, bow tie and cuffs but no colours or lower garment; cropped saffron tailoring and shorts fill those gaps.",
+              "camera": "The built-in image tool exposes no dimensions field; request vertical 2:3 at 1024×1536."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "travel_exploration",
+            "ex": "travel_lakeside",
+            "expr": "relieved",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "scene": "She drinks water from a reusable bottle; morning sunlight crosses reeds and still water.",
+            "outfit": "A pale ochre sleeveless utility romper with a small side-waist cutout and mid-thigh hems, walking shoes and a canvas travel bag. Shoulders and thighs remain uncovered.",
+            "axis_reasons": {
+              "source_influence": "Ochre recalls the species while practical hiking gear remains dominant.",
+              "action_level": "A water break on a rock is a resting moment.",
+              "separates_preference": "The romper is a single continuous garment."
+            },
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "input_reasons": {
+              "scene": "The water-break example leaves the drinking vessel, weather and light unspecified; a bottle and morning reeds supply those details.",
+              "outfit": "The example gives shoes and bag but no main garment; a utility romper supplies practical travel clothing with shoulder and leg exposure.",
+              "camera": "The built-in image tool exposes no dimensions field; request vertical 2:3 at 1024×1536."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "laundry_lounge",
+            "expr": "amused",
+            "pose": "kneeling",
+            "orient": "leaning_forward",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "tank",
+              "shorts"
+            ],
+            "scene": "Fresh bedding is piled on a woven mat; she folds a large cotton pillowcase beside a laundry basket in late-afternoon sunlight.",
+            "outfit": "A butter-yellow rib-knit cropped tank top with a scooped neckline and separate charcoal lounge shorts, exposing shoulders, midriff and legs.",
+            "axis_reasons": {
+              "source_influence": "Butter yellow and charcoal keep a visible but ordinary colour connection.",
+              "action_level": "Folding a pillowcase makes both hands and fabric actively move.",
+              "separates_preference": "The tank top and lounge shorts are visibly separate household garments."
+            },
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "input_reasons": {
+              "scene": "The laundry scene title gives no concrete task; folding a pillowcase on a mat defines the activity.",
+              "outfit": "The laundry example specifies a tank top and lounge shorts; butter-yellow ribbing, the scooped neckline and cropped hem provide the unspecified design details.",
+              "camera": "The built-in image tool exposes no dimensions field; request vertical 2:3 at 1024×1536."
+            },
+            "random_draws": {
+              "orient": "front_3q",
+              "frame": "waist_up",
+              "lens": "natural50"
+            },
+            "exampleText": "at home in a tank top and lounge shorts, folding laundry and bedding",
+            "random_adjustments": {
+              "orient": {
+                "draw": "front_3q",
+                "chosen": "leaning_forward",
+                "reason": "The laundry_lounge hand activity needs this body direction, with a visible face and a pair absent from the comparison images."
+              },
+              "frame": {
+                "draw": "waist_up",
+                "chosen": "full_body",
+                "reason": "The laundry_lounge scene needs room for its specified prop and the recorded hand activity."
+              },
+              "lens": {
+                "draw": "natural50",
+                "chosen": "documentary35",
+                "reason": "The laundry_lounge location and selected subject scale fit this focal-length impression."
+              }
+            },
+            "fixed_axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ]
+          }
+        ]
+      },
+      {
+        "card": "하리뭉",
+        "species": "hariyama-20261019",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "sari_formal",
+            "expr": "proud",
+            "pose": "mid_action",
+            "orient": "reaching_up",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "traditional"
+            ],
+            "scene": "On a rooftop terrace before a celebration, she hangs a marigold garland from a low brass hook while the setting sun catches the woven fabric.",
+            "outfit": "A saffron silk sari with broad navy borders over a sleeveless navy cropped choli; the shoulder line and midriff are visible. Rounded orange half-circle embroidery trims the border.",
+            "axis_reasons": {
+              "source_influence": "Broad navy bands and orange semicircles reinterpret the source markings in woven silk.",
+              "action_level": "Hanging the garland makes lifting and placing the flowers the main moving action.",
+              "separates_preference": "The sari drape and cropped choli are separate clothing pieces."
+            },
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "input_reasons": {
+              "scene": "The sari example names only clothing; a terrace garland task gives it an everyday celebratory setting.",
+              "outfit": "The example supplies sari style only; saffron silk, navy choli and border embroidery define the source-linked fabric design.",
+              "camera": "The built-in image tool exposes no dimensions field; request vertical 2:3 at 1024×1536."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "asymmetric_swim",
+            "expr": "calm",
+            "pose": "standing_relaxed",
+            "orient": "side",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "Beside an outdoor lap pool after her swim, she holds a pair of goggles by the strap near the starting blocks; cool morning reflections ripple across the tiled deck.",
+            "outfit": "An opaque deep-teal performance fabric with burnt-orange binding and high-cut leg openings; the free shoulder and legs are exposed.",
+            "axis_reasons": {
+              "source_influence": "Only the burnt-orange binding retains a small source colour echo.",
+              "action_level": "Holding goggles at rest after swimming is a still portrait.",
+              "separates_preference": "The asymmetric swimsuit is one garment."
+            },
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "input_reasons": {
+              "scene": "The swimsuit example specifies clothing only; goggles at the starting blocks establish a post-swim pool setting.",
+              "outfit": "The example fixes one shoulder and diagonal neckline but no fabric colour or leg cut; teal performance cloth and high-cut openings supply those details.",
+              "camera": "The built-in image tool exposes no dimensions field; request vertical 2:3 at 1024×1536."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_photo",
+            "expr": "focused",
+            "pose": "taking_photo",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "At a coastal rock garden, she photographs a miniature stack of flat stones through a compact camera; late-day sea spray sparkles beyond the tripod-free setup.",
+            "outfit": "A fitted navy halter mini dress with an open back and orange semicircle panels along the short hem, exposing shoulders, back and thighs; flat sandals.",
+            "axis_reasons": {
+              "source_influence": "Navy and orange semicircle panels strongly carry the species palette and markings in a normal dress.",
+              "action_level": "Photographing the stone stack makes the camera handling the main action.",
+              "separates_preference": "A halter dress forms one continuous silhouette."
+            },
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "input_reasons": {
+              "scene": "The photography example leaves the subject and location unspecified; coastal stacked stones supply a clear subject.",
+              "outfit": "The photo example leaves clothing unspecified; a halter mini dress supplies a single active seaside silhouette.",
+              "camera": "The built-in image tool exposes no dimensions field; request vertical 2:3 at 1024×1536."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "check_result": "계획 통과 — 2명",
+  "corrections": [
+    {
+      "slot": "casual3",
+      "reason": "Initial supplemental text conflicted with the full example definition.",
+      "changed": {
+        "pose": "kneeling",
+        "scene": "Fresh bedding is piled on a woven mat; she folds a large cotton pillowcase beside a laundry basket in late-afternoon sunlight.",
+        "outfit": "A butter-yellow rib-knit cropped tank top with a scooped neckline and separate charcoal lounge shorts, exposing shoulders, midriff and legs.",
+        "axes": {
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        }
+      },
+      "reference": "light"
+    }
+  ],
+  "latest_reservation_commit": "82a0dd1412fe3d6ff3a70094fca46a5e9e716789"
+}
