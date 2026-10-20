@@ -1,0 +1,158 @@
+{
+  "storage": {
+    "last": "코터스",
+    "cards": {
+      "코터스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "",
+          "eye color": "amber",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A volcanic stone terrace with ember-lit cracks and thin drifting white smoke.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "relieved",
+            "pose": "standing_relaxed",
+            "orient": "leaning_back",
+            "scene": "Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.",
+            "outfit": "An opaque copper-orange halter one-piece with a deep scoop back and high-cut legs, exposing shoulders, back and thighs; charcoal piping traces rounded shell-like segments.",
+            "frame": "full_body",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "thermal_spa",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Torkoal (코터스) personified, fire type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened\nPose: Stand at ease with relaxed shoulders and naturally balanced feet.\nOrientation: torso leaning backward with clear support\nScene: Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.\nOutfit and props: An opaque copper-orange halter one-piece with a deep scoop back and high-cut legs, exposing shoulders, back and thighs; charcoal piping traces rounded shell-like segments.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: in swimwear at a modern thermal spa pool, steam rising off the water\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "side",
+      "final": "leaning_back",
+      "reason": "thermal_spa의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+    },
+    "frame": {
+      "drawn": "detail",
+      "final": "full_body",
+      "reason": "thermal_spa의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+    },
+    "lens": {
+      "drawn": "portrait85",
+      "final": "natural50",
+      "reason": "thermal_spa의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+    }
+  },
+  "axis_reasons": {
+    "action_level": "Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.",
+    "source_influence": "thermal_spa: strong 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+    "separates_preference": "thermal_spa의 swimsuit 구조에 맞춰 balanced 선택."
+  },
+  "input_reasons": {
+    "scene": "in swimwear at a modern thermal spa pool, steam rising off the water 예시에 없는 시간대·조명·작업 소품을 보충: Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.",
+    "outfit": "thermal_spa 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An opaque copper-orange halter one-piece with a deep scoop back and high-cut legs, exposing shoulders, back and thighs; charcoal piping traces rounded shell-like segments.",
+    "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+  },
+  "plan": {
+    "cut": 2,
+    "cat": "swimwear",
+    "ex": "thermal_spa",
+    "expr": "relieved",
+    "pose": "standing_relaxed",
+    "orient": "leaning_back",
+    "frame": "full_body",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "garments": [
+      "swimsuit"
+    ],
+    "scene": "Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.",
+    "outfit": "An opaque copper-orange halter one-piece with a deep scoop back and high-cut legs, exposing shoulders, back and thighs; charcoal piping traces rounded shell-like segments.",
+    "example_text": "in swimwear at a modern thermal spa pool, steam rising off the water",
+    "axis_reasons": {
+      "action_level": "Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.",
+      "source_influence": "thermal_spa: strong 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+      "separates_preference": "thermal_spa의 swimsuit 구조에 맞춰 balanced 선택."
+    },
+    "input_reasons": {
+      "scene": "in swimwear at a modern thermal spa pool, steam rising off the water 예시에 없는 시간대·조명·작업 소품을 보충: Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.",
+      "outfit": "thermal_spa 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An opaque copper-orange halter one-piece with a deep scoop back and high-cut legs, exposing shoulders, back and thighs; charcoal piping traces rounded shell-like segments.",
+      "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+    },
+    "random_adjustment_reason": "thermal_spa의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "storage": {
+    "last": "코터스",
+    "cards": {
+      "코터스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "",
+          "eye color": "amber",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A volcanic stone terrace with ember-lit cracks and thin drifting white smoke.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "side",
+            "scene": "After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.",
+            "outfit": "A paint-splattered charcoal shirt knotted above the waist and slipping from one shoulder over copper shorts, exposing a shoulder, midriff and thighs.",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "wildcard",
+            "catCustom": "",
+            "ex": "art_studio",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Torkoal (코터스) personified, fire type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: side body profile, approximately 90 degrees to camera\nScene: After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.\nOutfit and props: A paint-splattered charcoal shirt knotted above the waist and slipping from one shoulder over copper shorts, exposing a shoulder, midriff and thighs.\nCategory: Invent one fresh adult lifestyle scene. It should remain stylish, sensual, cinematic, and non-explicit with a coherent specific activity.\nExample scene: in an art studio after hours in a paint-splattered shirt, tidying tools and finished pieces\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "front_3q",
+      "final": "side",
+      "reason": "art_studio의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+    },
+    "frame": {
+      "drawn": "chest_up",
+      "final": "waist_up",
+      "reason": "art_studio의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+    },
+    "lens": {
+      "drawn": "telephoto135",
+      "final": "documentary35",
+      "reason": "art_studio의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+    }
+  },
+  "axis_reasons": {
+    "action_level": "After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.",
+    "source_influence": "art_studio: strong 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+    "separates_preference": "art_studio의 shirt, shorts 구조에 맞춰 prefer separates 선택."
+  },
+  "input_reasons": {
+    "scene": "After-hours Art Studio 예시에 없는 시간대·조명·작업 소품을 보충: After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.",
+    "outfit": "art_studio 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A paint-splattered charcoal shirt knotted above the waist and slipping from one shoulder over copper shorts, exposing a shoulder, midriff and thighs.",
+    "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+  },
+  "plan": {
+    "cut": 3,
+    "cat": "wildcard",
+    "ex": "art_studio",
+    "expr": "focused",
+    "pose": "mid_action",
+    "orient": "side",
+    "frame": "waist_up",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "garments": [
+      "shirt",
+      "shorts"
+    ],
+    "scene": "After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.",
+    "outfit": "A paint-splattered charcoal shirt knotted above the waist and slipping from one shoulder over copper shorts, exposing a shoulder, midriff and thighs.",
+    "example_text": "After-hours Art Studio",
+    "axis_reasons": {
+      "action_level": "After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.",
+      "source_influence": "art_studio: strong 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+      "separates_preference": "art_studio의 shirt, shorts 구조에 맞춰 prefer separates 선택."
+    },
+    "input_reasons": {
+      "scene": "After-hours Art Studio 예시에 없는 시간대·조명·작업 소품을 보충: After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.",
+      "outfit": "art_studio 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A paint-splattered charcoal shirt knotted above the waist and slipping from one shoulder over copper shorts, exposing a shoulder, midriff and thighs.",
+      "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+    },
+    "random_adjustment_reason": "art_studio의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+  }
+}

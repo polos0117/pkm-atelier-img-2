@@ -1,0 +1,159 @@
+{
+  "storage": {
+    "last": "코터스",
+    "cards": {
+      "코터스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "",
+          "eye color": "amber",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A volcanic stone terrace with ember-lit cracks and thin drifting white smoke.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "gentle",
+            "pose": "kneeling",
+            "orient": "looking_down",
+            "scene": "Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.",
+            "outfit": "A rust-orange off-shoulder knit top and charcoal culottes with high side slits, exposing her shoulders, collarbones and lower legs.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "food_berries",
+            "catCustom": "",
+            "ex": "food_picnic",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Torkoal (코터스) personified, fire type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: softly lowered brows, warm relaxed eyes, faint closed-lip smile, no tension anywhere\nPose: Kneel in a stable supported position suited to a low task or interaction.\nOrientation: gaze directed downward; camera height unchanged\nScene: Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.\nOutfit and props: A rust-orange off-shoulder knit top and charcoal culottes with high side slits, exposing her shoulders, collarbones and lower legs.\nCategory: Show a specific everyday cooking, berry-growing or picnic activity in the Pokémon world. Use readable hands, utensils and ingredients; favor ordinary personal life over professional workwear.\nExample scene: Unpacking a picnic lunch and sliced berries on a blanket beside a travel basket.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "three_quarter_back",
+      "final": "looking_down",
+      "reason": "food_picnic의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+    },
+    "frame": {
+      "drawn": "waist_up",
+      "final": "environmental",
+      "reason": "food_picnic의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+    },
+    "lens": {
+      "drawn": "natural50",
+      "final": "wide24",
+      "reason": "food_picnic의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+    }
+  },
+  "axis_reasons": {
+    "action_level": "Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.",
+    "source_influence": "food_picnic: subtle 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+    "separates_preference": "food_picnic의 knit_top, trousers 구조에 맞춰 prefer separates 선택."
+  },
+  "input_reasons": {
+    "scene": "Unpacking a picnic lunch and sliced berries on a blanket beside a travel basket. 예시에 없는 시간대·조명·작업 소품을 보충: Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.",
+    "outfit": "food_picnic 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A rust-orange off-shoulder knit top and charcoal culottes with high side slits, exposing her shoulders, collarbones and lower legs.",
+    "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+  },
+  "plan": {
+    "cut": 1,
+    "cat": "food_berries",
+    "ex": "food_picnic",
+    "expr": "gentle",
+    "pose": "kneeling",
+    "orient": "looking_down",
+    "frame": "environmental",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates",
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+    },
+    "garments": [
+      "knit_top",
+      "trousers"
+    ],
+    "scene": "Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.",
+    "outfit": "A rust-orange off-shoulder knit top and charcoal culottes with high side slits, exposing her shoulders, collarbones and lower legs.",
+    "example_text": "Unpacking a picnic lunch and sliced berries on a blanket beside a travel basket.",
+    "axis_reasons": {
+      "action_level": "Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.",
+      "source_influence": "food_picnic: subtle 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+      "separates_preference": "food_picnic의 knit_top, trousers 구조에 맞춰 prefer separates 선택."
+    },
+    "input_reasons": {
+      "scene": "Unpacking a picnic lunch and sliced berries on a blanket beside a travel basket. 예시에 없는 시간대·조명·작업 소품을 보충: Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.",
+      "outfit": "food_picnic 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A rust-orange off-shoulder knit top and charcoal culottes with high side slits, exposing her shoulders, collarbones and lower legs.",
+      "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+    },
+    "random_adjustment_reason": "food_picnic의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+  }
+}
