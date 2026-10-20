@@ -1,0 +1,158 @@
+{
+  "storage": {
+    "last": "두개도스",
+    "cards": {
+      "두개도스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "blue",
+          "eye color": "red",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A weathered basalt plateau with low drifting dust and blue mineral reflections.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "serious",
+            "pose": "squatting",
+            "orient": "crouching",
+            "scene": "Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+            "outfit": "A short open gray utility vest over a blue bandeau and low-rise field shorts, exposing shoulders, waist and thighs.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "demolition_planner",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Cranidos (두개도스) personified, rock type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: level lowered brow, steady unblinking gaze, mouth closed in a straight line, jaw set\nPose: Squat comfortably to interact at a lower height with balanced feet.\nOrientation: low crouch with flexed knees and hips\nScene: Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.\nOutfit and props: A short open gray utility vest over a blue bandeau and low-rise field shorts, exposing shoulders, waist and thighs.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Pokémon fossil excavator gently brushing sediment from a fossil beside a gridded excavation tray.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "looking_away",
+      "final": "crouching",
+      "reason": "demolition_planner의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+    },
+    "frame": {
+      "drawn": "chest_up",
+      "final": "full_body",
+      "reason": "demolition_planner의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+    },
+    "lens": {
+      "drawn": "telephoto135",
+      "final": "documentary35",
+      "reason": "demolition_planner의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+    }
+  },
+  "axis_reasons": {
+    "action_level": "Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+    "source_influence": "demolition_planner 장면에 strong 정도로 원작 배색과 작은 장식을 반영한다.",
+    "separates_preference": "demolition_planner의 의상 구조: vest, shorts"
+  },
+  "input_reasons": {
+    "scene": "예시에 없는 조명과 주 활동의 구체적 대상 보충: Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+    "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: A short open gray utility vest over a blue bandeau and low-rise field shorts, exposing shoulders, waist and thighs.",
+    "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+  },
+  "plan": {
+    "cut": 3,
+    "cat": "occupation_basic",
+    "ex": "demolition_planner",
+    "expr": "serious",
+    "pose": "squatting",
+    "orient": "crouching",
+    "frame": "full_body",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "vest",
+      "shorts"
+    ],
+    "scene": "Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+    "outfit": "A short open gray utility vest over a blue bandeau and low-rise field shorts, exposing shoulders, waist and thighs.",
+    "axis_reasons": {
+      "action_level": "Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+      "source_influence": "demolition_planner 장면에 strong 정도로 원작 배색과 작은 장식을 반영한다.",
+      "separates_preference": "demolition_planner의 의상 구조: vest, shorts"
+    },
+    "input_reasons": {
+      "scene": "예시에 없는 조명과 주 활동의 구체적 대상 보충: Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+      "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: A short open gray utility vest over a blue bandeau and low-rise field shorts, exposing shoulders, waist and thighs.",
+      "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+    },
+    "random_adjustment_reason": "demolition_planner의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+  }
+}

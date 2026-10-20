@@ -1,0 +1,157 @@
+{
+  "storage": {
+    "last": "두개도스",
+    "cards": {
+      "두개도스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "blue",
+          "eye color": "red",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A weathered basalt plateau with low drifting dust and blue mineral reflections.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "relieved",
+            "pose": "standing_relaxed",
+            "orient": "leaning_back",
+            "scene": "Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+            "outfit": "An opaque cobalt wrap-front swimsuit with silver trim and a tie at the waist, exposing shoulders, upper back and thighs.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "wrap_swim",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Cranidos (두개도스) personified, rock type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened\nPose: Stand at ease with relaxed shoulders and naturally balanced feet.\nOrientation: torso leaning backward with clear support\nScene: Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.\nOutfit and props: An opaque cobalt wrap-front swimsuit with silver trim and a tie at the waist, exposing shoulders, upper back and thighs.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: a wrap-front swimsuit with a crossed bodice and a tie at the waist\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "three_quarter_back",
+      "final": "leaning_back",
+      "reason": "wrap_swim의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+    },
+    "frame": {
+      "drawn": "chest_up",
+      "final": "environmental",
+      "reason": "wrap_swim의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+    },
+    "lens": {
+      "drawn": "natural50",
+      "final": "wide24",
+      "reason": "wrap_swim의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+    }
+  },
+  "axis_reasons": {
+    "action_level": "Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+    "source_influence": "wrap_swim 장면에 balanced 정도로 원작 배색과 작은 장식을 반영한다.",
+    "separates_preference": "wrap_swim의 의상 구조: swimsuit"
+  },
+  "input_reasons": {
+    "scene": "예시에 없는 조명과 주 활동의 구체적 대상 보충: Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+    "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: An opaque cobalt wrap-front swimsuit with silver trim and a tie at the waist, exposing shoulders, upper back and thighs.",
+    "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+  },
+  "plan": {
+    "cut": 1,
+    "cat": "swimwear",
+    "ex": "wrap_swim",
+    "expr": "relieved",
+    "pose": "standing_relaxed",
+    "orient": "leaning_back",
+    "frame": "environmental",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "swimsuit"
+    ],
+    "scene": "Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+    "outfit": "An opaque cobalt wrap-front swimsuit with silver trim and a tie at the waist, exposing shoulders, upper back and thighs.",
+    "axis_reasons": {
+      "action_level": "Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+      "source_influence": "wrap_swim 장면에 balanced 정도로 원작 배색과 작은 장식을 반영한다.",
+      "separates_preference": "wrap_swim의 의상 구조: swimsuit"
+    },
+    "input_reasons": {
+      "scene": "예시에 없는 조명과 주 활동의 구체적 대상 보충: Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+      "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: An opaque cobalt wrap-front swimsuit with silver trim and a tie at the waist, exposing shoulders, upper back and thighs.",
+      "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+    },
+    "random_adjustment_reason": "wrap_swim의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+  }
+}

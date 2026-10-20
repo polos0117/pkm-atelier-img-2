@@ -1,0 +1,158 @@
+{
+  "storage": {
+    "last": "두개도스",
+    "cards": {
+      "두개도스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "blue",
+          "eye color": "red",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A weathered basalt plateau with low drifting dust and blue mineral reflections.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "determined",
+            "pose": "mid_action",
+            "orient": "low_angle",
+            "scene": "In a sunlit boxing gym, she practices a compact guard and a lateral footwork step beside a heavy bag suspended from an overhead chain.",
+            "outfit": "A blue racerback cropped tank and charcoal boxing shorts, padded boxing gloves and wrist wraps, exposing shoulders, midriff and thighs.",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "active",
+            "catCustom": "",
+            "ex": "boxing_fitness",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Cranidos (두개도스) personified, rock type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: brows pulled down and in, hard forward gaze, jaw clenched, mouth a tight line\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: camera below subject looking upward; obey selected framing\nScene: In a sunlit boxing gym, she practices a compact guard and a lateral footwork step beside a heavy bag suspended from an overhead chain.\nOutfit and props: A blue racerback cropped tank and charcoal boxing shorts, padded boxing gloves and wrist wraps, exposing shoulders, midriff and thighs.\nCategory: Show real movement with fashion-forward activewear or movement-oriented clothing. Avoid generic gym snapshots. Prioritize dynamic motion, readable silhouette, waist and hip lines, fabric movement, and varied action.\nExample scene: in boxing gloves, sports top and shorts, practising guard and footwork beside a heavy bag\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "seated_twist",
+      "final": "low_angle",
+      "reason": "boxing_fitness의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+    },
+    "frame": {
+      "drawn": "full_body",
+      "final": "waist_up",
+      "reason": "boxing_fitness의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+    },
+    "lens": {
+      "drawn": "telephoto135",
+      "final": "natural50",
+      "reason": "boxing_fitness의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+    }
+  },
+  "axis_reasons": {
+    "action_level": "가드를 유지하며 옆으로 발을 옮기는 연속 동작이 중심이므로 mostly active.",
+    "source_influence": "boxing_fitness 장면에 strong 정도로 원작 배색과 작은 장식을 반영한다.",
+    "separates_preference": "boxing_fitness의 의상 구조: tank, shorts"
+  },
+  "input_reasons": {
+    "scene": "예시의 가드·풋워크를 그대로 유지하고 체육관의 햇빛과 매달린 샌드백을 구체화한다.",
+    "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: A blue racerback cropped tank and charcoal boxing shorts, padded boxing gloves and wrist wraps, exposing shoulders, midriff and thighs.",
+    "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+  },
+  "plan": {
+    "cut": 2,
+    "cat": "active",
+    "ex": "boxing_fitness",
+    "expr": "determined",
+    "pose": "mid_action",
+    "orient": "low_angle",
+    "frame": "waist_up",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates"
+    },
+    "garments": [
+      "tank",
+      "shorts"
+    ],
+    "scene": "In a sunlit boxing gym, she practices a compact guard and a lateral footwork step beside a heavy bag suspended from an overhead chain.",
+    "outfit": "A blue racerback cropped tank and charcoal boxing shorts, padded boxing gloves and wrist wraps, exposing shoulders, midriff and thighs.",
+    "axis_reasons": {
+      "action_level": "가드를 유지하며 옆으로 발을 옮기는 연속 동작이 중심이므로 mostly active.",
+      "source_influence": "boxing_fitness 장면에 strong 정도로 원작 배색과 작은 장식을 반영한다.",
+      "separates_preference": "boxing_fitness의 의상 구조: tank, shorts"
+    },
+    "input_reasons": {
+      "scene": "예시의 가드·풋워크를 그대로 유지하고 체육관의 햇빛과 매달린 샌드백을 구체화한다.",
+      "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: A blue racerback cropped tank and charcoal boxing shorts, padded boxing gloves and wrist wraps, exposing shoulders, midriff and thighs.",
+      "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+    },
+    "random_adjustment_reason": "boxing_fitness의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+  }
+}

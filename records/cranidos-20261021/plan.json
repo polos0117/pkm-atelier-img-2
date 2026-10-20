@@ -1,0 +1,426 @@
+{
+  "card": "두개도스",
+  "canonical": "img/두개도스_light_glossy_promo_f.webp",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "wrap_swim",
+      "expr": "relieved",
+      "pose": "standing_relaxed",
+      "orient": "leaning_back",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "scene": "Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+      "outfit": "An opaque cobalt wrap-front swimsuit with silver trim and a tie at the waist, exposing shoulders, upper back and thighs.",
+      "axis_reasons": {
+        "action_level": "Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+        "source_influence": "wrap_swim 장면에 balanced 정도로 원작 배색과 작은 장식을 반영한다.",
+        "separates_preference": "wrap_swim의 의상 구조: swimsuit"
+      },
+      "input_reasons": {
+        "scene": "예시에 없는 조명과 주 활동의 구체적 대상 보충: Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+        "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: An opaque cobalt wrap-front swimsuit with silver trim and a tie at the waist, exposing shoulders, upper back and thighs.",
+        "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+      },
+      "random_adjustment_reason": "wrap_swim의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다.",
+      "example_text": "a wrap-front swimsuit with a crossed bodice and a tie at the waist",
+      "locked": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": {
+          "drawn": "three_quarter_back",
+          "final": "leaning_back",
+          "reason": "wrap_swim의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+        },
+        "frame": {
+          "drawn": "chest_up",
+          "final": "environmental",
+          "reason": "wrap_swim의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+        },
+        "lens": {
+          "drawn": "natural50",
+          "final": "wide24",
+          "reason": "wrap_swim의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+        }
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "active",
+      "ex": "boxing_fitness",
+      "expr": "determined",
+      "pose": "mid_action",
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "garments": [
+        "tank",
+        "shorts"
+      ],
+      "scene": "In a sunlit boxing gym, she practices a compact guard and a lateral footwork step beside a heavy bag suspended from an overhead chain.",
+      "outfit": "A blue racerback cropped tank and charcoal boxing shorts, padded boxing gloves and wrist wraps, exposing shoulders, midriff and thighs.",
+      "axis_reasons": {
+        "action_level": "가드를 유지하며 옆으로 발을 옮기는 연속 동작이 중심이므로 mostly active.",
+        "source_influence": "boxing_fitness 장면에 strong 정도로 원작 배색과 작은 장식을 반영한다.",
+        "separates_preference": "boxing_fitness의 의상 구조: tank, shorts"
+      },
+      "input_reasons": {
+        "scene": "예시의 가드·풋워크를 그대로 유지하고 체육관의 햇빛과 매달린 샌드백을 구체화한다.",
+        "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: A blue racerback cropped tank and charcoal boxing shorts, padded boxing gloves and wrist wraps, exposing shoulders, midriff and thighs.",
+        "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+      },
+      "random_adjustment_reason": "boxing_fitness의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다.",
+      "example_text": "Boxing Fitness Styling",
+      "locked": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": {
+          "drawn": "seated_twist",
+          "final": "low_angle",
+          "reason": "boxing_fitness의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+        },
+        "frame": {
+          "drawn": "full_body",
+          "final": "waist_up",
+          "reason": "boxing_fitness의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+        },
+        "lens": {
+          "drawn": "telephoto135",
+          "final": "natural50",
+          "reason": "boxing_fitness의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+        }
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "demolition_planner",
+      "expr": "serious",
+      "pose": "squatting",
+      "orient": "crouching",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "vest",
+        "shorts"
+      ],
+      "scene": "Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+      "outfit": "A short open gray utility vest over a blue bandeau and low-rise field shorts, exposing shoulders, waist and thighs.",
+      "axis_reasons": {
+        "action_level": "Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+        "source_influence": "demolition_planner 장면에 strong 정도로 원작 배색과 작은 장식을 반영한다.",
+        "separates_preference": "demolition_planner의 의상 구조: vest, shorts"
+      },
+      "input_reasons": {
+        "scene": "예시에 없는 조명과 주 활동의 구체적 대상 보충: Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+        "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: A short open gray utility vest over a blue bandeau and low-rise field shorts, exposing shoulders, waist and thighs.",
+        "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+      },
+      "random_adjustment_reason": "demolition_planner의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다.",
+      "example_text": "Pokémon fossil excavator gently brushing sediment from a fossil beside a gridded excavation tray.",
+      "locked": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": {
+          "drawn": "looking_away",
+          "final": "crouching",
+          "reason": "demolition_planner의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+        },
+        "frame": {
+          "drawn": "chest_up",
+          "final": "full_body",
+          "reason": "demolition_planner의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+        },
+        "lens": {
+          "drawn": "telephoto135",
+          "final": "documentary35",
+          "reason": "demolition_planner의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+        }
+      }
+    }
+  ],
+  "session": "roserade-cranidos-20261021-df3e",
+  "batch_plan": {
+    "session": "roserade-cranidos-20261021-df3e",
+    "characters": [
+      {
+        "no": 407,
+        "card": "로즈레이드",
+        "species": "roserade-20261021",
+        "params": {
+          "apparent age": "20s",
+          "hair color": "white",
+          "eye color": "red",
+          "body type": "slim"
+        },
+        "wear": "",
+        "scene": "A rose garden battle terrace with green leaf patterns, red and blue petal accents and soft sunlight.",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_basic",
+            "ex": "greenhouse",
+            "expr": "curious",
+            "pose": "carrying_something",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Sunlight glows through a plant-shop glasshouse; she lifts a small terracotta pot to inspect a new fern frond.",
+            "outfit": "A green halter linen minidress with an open back, exposing shoulders, upper back and legs, with a small red-and-blue floral hem.",
+            "axis_reasons": {
+              "action_level": "Sunlight glows through a plant-shop glasshouse; she lifts a small terracotta pot to inspect a new fern frond.",
+              "source_influence": "greenhouse 장면은 balanced 정도의 녹색 배색을 쓰고 의상 구조를 따른다.",
+              "separates_preference": "greenhouse의 의상 구조: dress"
+            },
+            "input_reasons": {
+              "scene": "예시의 주 활동을 유지하며 작업 대상·조명을 보충: Sunlight glows through a plant-shop glasshouse; she lifts a small terracotta pot to inspect a new fern frond.",
+              "outfit": "예시가 허용한 옷 종류 안에서 배색·기장·개방 구조를 보충: A green halter linen minidress with an open back, exposing shoulders, upper back and legs, with a small red-and-blue floral hem.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "greenhouse의 활동과 옷을 읽을 수 있고 비교 구도 짝을 피하도록 조정한다."
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "masquerade",
+            "expr": "confident",
+            "pose": "dance_step",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "At a masked-ball stage rehearsal, warm spotlights trace a circular dance mark on the parquet.",
+            "outfit": "An emerald structured bodice and full skirt with a deep side opening, bare shoulders and a visible thigh; the small feathered eye mask frames rather than covers her eyes.",
+            "axis_reasons": {
+              "action_level": "At a masked-ball stage rehearsal, warm spotlights trace a circular dance mark on the parquet.",
+              "source_influence": "masquerade 장면은 strong 정도의 녹색 배색을 쓰고 의상 구조를 따른다.",
+              "separates_preference": "masquerade의 의상 구조: dress"
+            },
+            "input_reasons": {
+              "scene": "예시의 주 활동을 유지하며 작업 대상·조명을 보충: At a masked-ball stage rehearsal, warm spotlights trace a circular dance mark on the parquet.",
+              "outfit": "예시가 허용한 옷 종류 안에서 배색·기장·개방 구조를 보충: An emerald structured bodice and full skirt with a deep side opening, bare shoulders and a visible thigh; the small feathered eye mask frames rather than covers her eyes.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "masquerade의 활동과 옷을 읽을 수 있고 비교 구도 짝을 피하도록 조정한다."
+          },
+          {
+            "cut": 3,
+            "cat": "traditional",
+            "ex": "lehenga_formal",
+            "expr": "focused",
+            "pose": "sitting",
+            "orient": "seated_twist",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "traditional"
+            ],
+            "scene": "At a lamplit festival dressing pavilion, she arranges a length of embroidered fabric across her lap before the celebration.",
+            "outfit": "An emerald lehenga with an opaque halter choli, embroidered long skirt and sheer dupatta at the elbow, exposing shoulders, midriff and upper back.",
+            "axis_reasons": {
+              "action_level": "At a lamplit festival dressing pavilion, she arranges a length of embroidered fabric across her lap before the celebration.",
+              "source_influence": "lehenga_formal 장면은 balanced 정도의 녹색 배색을 쓰고 의상 구조를 따른다.",
+              "separates_preference": "lehenga_formal의 의상 구조: traditional"
+            },
+            "input_reasons": {
+              "scene": "예시의 주 활동을 유지하며 작업 대상·조명을 보충: At a lamplit festival dressing pavilion, she arranges a length of embroidered fabric across her lap before the celebration.",
+              "outfit": "예시가 허용한 옷 종류 안에서 배색·기장·개방 구조를 보충: An emerald lehenga with an opaque halter choli, embroidered long skirt and sheer dupatta at the elbow, exposing shoulders, midriff and upper back.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "lehenga_formal의 활동과 옷을 읽을 수 있고 비교 구도 짝을 피하도록 조정한다."
+          }
+        ]
+      },
+      {
+        "no": 408,
+        "card": "두개도스",
+        "species": "cranidos-20261021",
+        "params": {
+          "apparent age": "20s",
+          "hair color": "blue",
+          "eye color": "red",
+          "body type": "athletic"
+        },
+        "wear": "",
+        "scene": "A weathered basalt plateau with low drifting dust and blue mineral reflections.",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "wrap_swim",
+            "expr": "relieved",
+            "pose": "standing_relaxed",
+            "orient": "leaning_back",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+            "outfit": "An opaque cobalt wrap-front swimsuit with silver trim and a tie at the waist, exposing shoulders, upper back and thighs.",
+            "axis_reasons": {
+              "action_level": "Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+              "source_influence": "wrap_swim 장면에 balanced 정도로 원작 배색과 작은 장식을 반영한다.",
+              "separates_preference": "wrap_swim의 의상 구조: swimsuit"
+            },
+            "input_reasons": {
+              "scene": "예시에 없는 조명과 주 활동의 구체적 대상 보충: Beside a basalt-lined resort pool at midday, she rests a hand on a warm stone ledge after swimming.",
+              "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: An opaque cobalt wrap-front swimsuit with silver trim and a tie at the waist, exposing shoulders, upper back and thighs.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "wrap_swim의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "boxing_fitness",
+            "expr": "determined",
+            "pose": "mid_action",
+            "orient": "low_angle",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "tank",
+              "shorts"
+            ],
+            "scene": "In a sunlit boxing gym, she practices a compact guard and a lateral footwork step beside a heavy bag suspended from an overhead chain.",
+            "outfit": "A blue racerback cropped tank and charcoal boxing shorts, padded boxing gloves and wrist wraps, exposing shoulders, midriff and thighs.",
+            "axis_reasons": {
+              "action_level": "가드를 유지하며 옆으로 발을 옮기는 연속 동작이 중심이므로 mostly active.",
+              "source_influence": "boxing_fitness 장면에 strong 정도로 원작 배색과 작은 장식을 반영한다.",
+              "separates_preference": "boxing_fitness의 의상 구조: tank, shorts"
+            },
+            "input_reasons": {
+              "scene": "예시의 가드·풋워크를 그대로 유지하고 체육관의 햇빛과 매달린 샌드백을 구체화한다.",
+              "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: A blue racerback cropped tank and charcoal boxing shorts, padded boxing gloves and wrist wraps, exposing shoulders, midriff and thighs.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "boxing_fitness의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "demolition_planner",
+            "expr": "serious",
+            "pose": "squatting",
+            "orient": "crouching",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "vest",
+              "shorts"
+            ],
+            "scene": "Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+            "outfit": "A short open gray utility vest over a blue bandeau and low-rise field shorts, exposing shoulders, waist and thighs.",
+            "axis_reasons": {
+              "action_level": "Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+              "source_influence": "demolition_planner 장면에 strong 정도로 원작 배색과 작은 장식을 반영한다.",
+              "separates_preference": "demolition_planner의 의상 구조: vest, shorts"
+            },
+            "input_reasons": {
+              "scene": "예시에 없는 조명과 주 활동의 구체적 대상 보충: Amber late-afternoon light falls across an excavation tray at a fossil field shelter; she brushes pale dust from a rounded fossil.",
+              "outfit": "예시에 없는 소재·배색·드러나는 의상 구조 보충: A short open gray utility vest over a blue bandeau and low-rise field shorts, exposing shoulders, waist and thighs.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "demolition_planner의 활동 공간과 손동작을 담고 최근 구도 짝을 피하도록 조정한다."
+          }
+        ]
+      }
+    ]
+  },
+  "ledger_reservation_commit": "bbd32586d7bb8829c5c004b13de06f61ab0a5594",
+  "ledger_check": "계획 통과 — 2명",
+  "revisions": [
+    "생성 전 복싱 장면을 예시의 가드·풋워크로 구체화하고 재예약"
+  ]
+}
