@@ -7596,8 +7596,149 @@
      ]
     }
    ]
+  },
+  {
+   "species": "wailmer-20261021",
+   "card": "고래왕자",
+   "status": "reserved",
+   "session": "gpt-wailmer-wailord-20261021",
+   "at": "2026-10-21T00:42:24+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "food_berries",
+     "ex": "food_pokeblock",
+     "expr": "focused",
+     "pose": "preparing_food",
+     "orient": "leaning_forward",
+     "frame": "chest_up",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "source_influence": "balanced",
+      "action_level": "mostly active",
+      "separates_preference": "strongly prefer separates"
+     },
+     "garments": [
+      "apron",
+      "crop_top",
+      "shorts"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "lingerie",
+     "ex": "bralette_highwaist",
+     "expr": "relieved",
+     "pose": "perched_seat",
+     "orient": "seated_twist",
+     "frame": "full_body",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "source_influence": "subtle",
+      "action_level": "mostly posed",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "lingerie_set"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "everyday_basic",
+     "ex": "pottery_class",
+     "expr": "curious",
+     "pose": "sitting",
+     "orient": "crouching",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "source_influence": "strong",
+      "action_level": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "jumpsuit"
+     ]
+    }
+   ]
+  },
+  {
+   "species": "wailord-20261021",
+   "card": "고래왕",
+   "status": "reserved",
+   "session": "gpt-wailmer-wailord-20261021",
+   "at": "2026-10-21T00:42:24+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "adult_roleplay",
+     "ex": "casino_dealer",
+     "expr": "confident",
+     "pose": "mid_action",
+     "orient": "front_3q",
+     "frame": "waist_up",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "source_influence": "balanced",
+      "action_level": "mostly active",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "vest",
+      "trousers"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "traditional",
+     "ex": "sari_formal",
+     "expr": "pensive",
+     "pose": "sitting",
+     "orient": "looking_away",
+     "frame": "three_quarter",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "source_influence": "strong",
+      "action_level": "mostly posed",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "traditional"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "sport_onepiece",
+     "expr": "determined",
+     "pose": "stretching",
+     "orient": "low_angle",
+     "frame": "full_body",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "source_influence": "strong",
+      "action_level": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ]
+    }
+   ]
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-21T00:40:17+09:00"
+ "updated": "2026-10-21T00:42:24+09:00"
 }
