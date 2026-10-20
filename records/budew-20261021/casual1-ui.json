@@ -1,0 +1,171 @@
+{
+  "storage": {
+    "last": "꼬몽울",
+    "cards": {
+      "꼬몽울": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "hair color": "green",
+          "eye color": "amber",
+          "body type": "slender"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A dew-lit glass conservatory with bright leaves and drifting pollen.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "laughing_open",
+            "pose": "dance_step",
+            "orient": "front",
+            "scene": "During a rehearsal on the gym floor, she follows the taped stage marks beneath warm performance lights.",
+            "outfit": "The varsity costume uses a yellow halter crop top and a green pleated mini skirt, exposing shoulders, midriff and legs; blue and red circular embroidered accents recall the two buds.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "cheer_costume",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Budew (꼬몽울) personified, grass / poison type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: mouth open wide in a laugh with teeth showing and cheeks raised, but the eyes stay open and engaged — lids only slightly narrowed, gaze still readable rather than squeezed shut\nPose: Take a small rhythmic dance step with coordinated arms and balanced feet.\nOrientation: torso and pelvis face the camera; gaze is independent\nScene: During a rehearsal on the gym floor, she follows the taped stage marks beneath warm performance lights.\nOutfit and props: The varsity costume uses a yellow halter crop top and a green pleated mini skirt, exposing shoulders, midriff and legs; blue and red circular embroidered accents recall the two buds.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {},
+  "axis_reasons": {
+    "action_level": "치어 동작 리허설이 진행 중",
+    "source_influence": "봉오리 색과 원형 무늬를 옷의 면 구성으로 해석",
+    "separates_preference": "치어 상의와 주름 스커트의 분리 구조"
+  },
+  "input_reasons": [
+    {
+      "field": "scene",
+      "content": "During a rehearsal on the gym floor, she follows the taped stage marks beneath warm performance lights.",
+      "reason": "선택한 체육관 예시에 리허설 동선 테이프와 조명을 보충"
+    },
+    {
+      "field": "outfit",
+      "content": "The varsity costume uses a yellow halter crop top and a green pleated mini skirt, exposing shoulders, midriff and legs; blue and red circular embroidered accents recall the two buds.",
+      "reason": "꼬몽울 1번 예시에 없는 노랑 치어 상의와 초록 미니스커트의 색 분할를 지정"
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "생성 도구에 크기 인수가 없어 비율 문장으로 지정"
+    }
+  ],
+  "plan": {
+    "cut": 1,
+    "cat": "adult_roleplay",
+    "ex": "cheer_costume",
+    "expr": "laughing_open",
+    "pose": "dance_step",
+    "orient": "front",
+    "frame": "environmental",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates"
+    },
+    "garments": [
+      "crop_top",
+      "skirt"
+    ],
+    "scene": "During a rehearsal on the gym floor, she follows the taped stage marks beneath warm performance lights.",
+    "outfit": "The varsity costume uses a yellow halter crop top and a green pleated mini skirt, exposing shoulders, midriff and legs; blue and red circular embroidered accents recall the two buds.",
+    "axis_reasons": {
+      "action_level": "치어 동작 리허설이 진행 중",
+      "source_influence": "봉오리 색과 원형 무늬를 옷의 면 구성으로 해석",
+      "separates_preference": "치어 상의와 주름 스커트의 분리 구조"
+    },
+    "input_reasons": [
+      {
+        "field": "scene",
+        "content": "During a rehearsal on the gym floor, she follows the taped stage marks beneath warm performance lights.",
+        "reason": "선택한 체육관 예시에 리허설 동선 테이프와 조명을 보충"
+      },
+      {
+        "field": "outfit",
+        "content": "The varsity costume uses a yellow halter crop top and a green pleated mini skirt, exposing shoulders, midriff and legs; blue and red circular embroidered accents recall the two buds.",
+        "reason": "꼬몽울 1번 예시에 없는 노랑 치어 상의와 초록 미니스커트의 색 분할를 지정"
+      },
+      {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "생성 도구에 크기 인수가 없어 비율 문장으로 지정"
+      }
+    ],
+    "locked": [
+      "overall_intensity",
+      "skin_exposure",
+      "aspect"
+    ],
+    "random_used": false,
+    "example_text": "a varsity cheer costume with a pleated skirt, striped fitted top, and team-colour panels, on a gym floor"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "storage": {
+    "last": "꼬몽울",
+    "cards": {
+      "꼬몽울": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "hair color": "green",
+          "eye color": "amber",
+          "body type": "slender"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A dew-lit glass conservatory with bright leaves and drifting pollen.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "gentle",
+            "pose": "mid_action",
+            "orient": "looking_away",
+            "scene": "Amber glass jars line the botanical fragrance workroom's windowsill; a red berry peel rests beside the scent-blotter tray.",
+            "outfit": "A yellow tie-front sleeveless blouse with a broad V neckline and green tailored shorts leaves her shoulders and waist open.",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "perfume_developer",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Budew (꼬몽울) personified, grass / poison type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: softly lowered brows, warm relaxed eyes, faint closed-lip smile, no tension anywhere\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: gaze off-camera; body orientation independent\nScene: Amber glass jars line the botanical fragrance workroom's windowsill; a red berry peel rests beside the scent-blotter tray.\nOutfit and props: A yellow tie-front sleeveless blouse with a broad V neckline and green tailored shorts leaves her shoulders and waist open.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character. Use glamorous tailoring and confident professional presence while keeping the outfit credible for the task.\nExample scene: Pokémon berry-fragrance artisan comparing berry peels and scent blotters at an elegant workshop counter.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {},
+  "axis_reasons": {
+    "action_level": "열매 껍질과 시향지를 비교하는 작업이 진행 중",
+    "source_influence": "노랑 초록 배색과 열매 향 작업으로 식물 인상을 유지",
+    "separates_preference": "블라우스와 반바지의 실용적인 상하 분리"
+  },
+  "input_reasons": [
+    {
+      "field": "scene",
+      "content": "Amber glass jars line the botanical fragrance workroom's windowsill; a red berry peel rests beside the scent-blotter tray.",
+      "reason": "조향 예시에 작업실 창가와 유리 향료병을 보충"
+    },
+    {
+      "field": "outfit",
+      "content": "A yellow tie-front sleeveless blouse with a broad V neckline and green tailored shorts leaves her shoulders and waist open.",
+      "reason": "꼬몽울 3번 예시에 없는 묶는 블라우스와 반바지의 재단를 지정"
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "생성 도구에 크기 인수가 없어 비율 문장으로 지정"
+    }
+  ],
+  "plan": {
+    "cut": 3,
+    "cat": "occupation_sensual",
+    "ex": "perfume_developer",
+    "expr": "gentle",
+    "pose": "mid_action",
+    "orient": "looking_away",
+    "frame": "waist_up",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "blouse",
+      "shorts"
+    ],
+    "scene": "Amber glass jars line the botanical fragrance workroom's windowsill; a red berry peel rests beside the scent-blotter tray.",
+    "outfit": "A yellow tie-front sleeveless blouse with a broad V neckline and green tailored shorts leaves her shoulders and waist open.",
+    "axis_reasons": {
+      "action_level": "열매 껍질과 시향지를 비교하는 작업이 진행 중",
+      "source_influence": "노랑 초록 배색과 열매 향 작업으로 식물 인상을 유지",
+      "separates_preference": "블라우스와 반바지의 실용적인 상하 분리"
+    },
+    "input_reasons": [
+      {
+        "field": "scene",
+        "content": "Amber glass jars line the botanical fragrance workroom's windowsill; a red berry peel rests beside the scent-blotter tray.",
+        "reason": "조향 예시에 작업실 창가와 유리 향료병을 보충"
+      },
+      {
+        "field": "outfit",
+        "content": "A yellow tie-front sleeveless blouse with a broad V neckline and green tailored shorts leaves her shoulders and waist open.",
+        "reason": "꼬몽울 3번 예시에 없는 묶는 블라우스와 반바지의 재단를 지정"
+      },
+      {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "생성 도구에 크기 인수가 없어 비율 문장으로 지정"
+      }
+    ],
+    "locked": [
+      "overall_intensity",
+      "skin_exposure",
+      "aspect"
+    ],
+    "random_used": false,
+    "example_text": "Pokémon berry-fragrance artisan comparing berry peels and scent blotters at an elegant workshop counter."
+  }
+}
