@@ -7974,8 +7974,149 @@
      ]
     }
    ]
+  },
+  {
+   "species": "roserade-20261021",
+   "card": "로즈레이드",
+   "status": "reserved",
+   "session": "roserade-cranidos-20261021-df3e",
+   "at": "2026-10-21T07:30:16+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "everyday_basic",
+     "ex": "greenhouse",
+     "expr": "curious",
+     "pose": "carrying_something",
+     "orient": "profile_close",
+     "frame": "chest_up",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt",
+      "skirt"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "adult_roleplay",
+     "ex": "masquerade",
+     "expr": "confident",
+     "pose": "dance_step",
+     "orient": "turning_midmotion",
+     "frame": "full_body",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "wildcard",
+     "ex": "art_studio",
+     "expr": "focused",
+     "pose": "sitting",
+     "orient": "seated_twist",
+     "frame": "three_quarter",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "apron"
+     ]
+    }
+   ]
+  },
+  {
+   "species": "cranidos-20261021",
+   "card": "두개도스",
+   "status": "reserved",
+   "session": "roserade-cranidos-20261021-df3e",
+   "at": "2026-10-21T07:30:16+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "wrap_swim",
+     "expr": "relieved",
+     "pose": "standing_relaxed",
+     "orient": "leaning_back",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "active",
+     "ex": "boxing_fitness",
+     "expr": "determined",
+     "pose": "mid_action",
+     "orient": "low_angle",
+     "frame": "waist_up",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates"
+     },
+     "garments": [
+      "tank",
+      "shorts"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "occupation_basic",
+     "ex": "demolition_planner",
+     "expr": "serious",
+     "pose": "squatting",
+     "orient": "crouching",
+     "frame": "full_body",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "vest",
+      "shorts"
+     ]
+    }
+   ]
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-21T06:54:39+09:00"
+ "updated": "2026-10-21T07:30:16+09:00"
 }
