@@ -155,5 +155,10 @@
       "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
     },
     "random_adjustment_reason": "embroidered_corset의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 over_shoulder/three_quarter/portrait85로 확정."
+  },
+  "last_localized_edit": {
+    "submitted_prompt": "Use case: precise-object-edit. Image 1 is the edit target: the existing Camerupt off-duty dressing-room illustration. Image 2 is the canonical character reference, for identity only; do not transfer its armor or background.\nMake one strictly localized anatomy correction to Image 1. There is an erroneous third hand, a small isolated skin-coloured hand nestled in the red hair immediately to the left of the nape/ear, around x=330,y=220 in the 1024x1536 target. Remove that extra hand and its small false wrist completely. Reconstruct continuous red hair strands in that exact region, matching the surrounding direction, texture, shading and highlights.\nKeep the legitimate hand at the upper left crown around x=380,y=80 holding her hair. Keep its connected bent arm. Keep the other legitimate raised arm in the foreground with its elbow on the right and its hand naturally obscured by hair behind her head. The woman has exactly two anatomically connected arms, with no extra hand near her nape. Preserve the mirror's existing natural reflection of the same woman.\nEverything else must remain as close as possible to Image 1: same face, expression, amber eyes, red hair length and shape, skin tone, adult body proportions, pose, framing, camera, rust-red embroidered corset and matching skirt, back and shoulder exposure, jewelry, dressing mirror, lights, fabrics, warm lighting and glossy anime rendering. Do not change the outfit, styling, degree of exposure, scene or composition. No added text or logos. Return the same vertical 1024x1536 canvas.",
+    "settings_changed": false,
+    "record": "repairs/casual1-extra-hand-20261021.json"
   }
 }

@@ -26,7 +26,7 @@
     "open_pairs_keep_camera_pose_armor": true
   },
   "casual_observations": [
-    "화장 거울 앞에서 두 손으로 긴 붉은 머리를 정리한다. 녹슨 빨강 바탕에 파랑·금색 자수의 코르셋과 미니스커트가 분리되고 등·어깨·허벅지가 드러난다. 거울 오른쪽은 동일 인물의 부분 반사상이다.",
+    "화장 거울 앞에서 두 손으로 긴 붉은 머리를 정리한다. 녹슨 빨강 바탕에 파랑·금색 자수의 코르셋과 미니스커트가 분리되고 등·어깨·허벅지가 드러난다. 거울 오른쪽은 동일 인물의 부분 반사상이다. 2026-10-21 수정: 목덜미 옆의 팔과 연결되지 않은 세 번째 손을 제거하고 붉은 머리카락으로 복원했다. 정상적인 두 팔과 머리 위를 잡은 손을 확인했다.",
     "등불이 켜진 축제 부스에서 유약을 바른 작은 화산 장식을 한 손으로 들어 살펴본다. 테라코타 홀터 쇼트 점프슈트의 허리 컷아웃과 열린 어깨가 보인다. 선택한 waist_up보다 허벅지까지 넓게 담겼다 — 기록만 한다.",
     "현무암 기둥 사이의 패션 무대에서 한 발을 내딛는다. 붉은 드레스의 각진 힙 주름과 파란 고리 세 개, 옆허리 컷아웃과 다리 노출을 확인했다. 뒤쪽 관중은 작고 흐리며 주인공과 초점·크기를 다투지 않는다."
   ],
@@ -77,5 +77,14 @@
       "status": "extracted"
     },
     "final_sentence": "(her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; narrow eyes, medium size, level outer corners, wide-set; angled brows; rounded soft tip nose; wide mouth."
-  }
+  },
+  "repairs": [
+    {
+      "slot": "casual1",
+      "date": "2026-10-21",
+      "status": "accepted",
+      "evidence": "The isolated skin-coloured hand at x≈330,y≈220 is replaced by red hair. The upper crown hand remains attached to its bent arm; the foreground raised arm ends behind the head. No disconnected wrist remains beside the nape.",
+      "record": "repairs/casual1-extra-hand-20261021.json"
+    }
+  ]
 }

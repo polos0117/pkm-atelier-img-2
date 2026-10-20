@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-21",
+  "slot": "casual1",
+  "card": "폭타",
+  "style": "glossy_promo",
+  "reason": "User reported a duplicated left hand in the mirror hair-adjusting scene; original inspection confirmed a disconnected third hand immediately left of the nape.",
+  "method": "Built-in image_gen localized edit; original casual1 is the edit target and light-form canonical image is identity reference.",
+  "settings_changed": false,
+  "original_blob": "e85ede9e8b31966091643172af405e34a28732f5",
+  "canonical_blob": "c24850807ef0a83c2678afb22dc9f0c44b057e85",
+  "output": {
+    "file": "폭타_glossy_promo_f_casual1.webp",
+    "git_blob": "f86d099f63de97bb59c559087a31069cd0798474",
+    "sha256": "424eed9e02affc1108d58233d9186c3ed9963d43e08fcaf2a1efceec8b0592cb",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6
+  },
+  "submitted_edit_prompt": "Use case: precise-object-edit. Image 1 is the edit target: the existing Camerupt off-duty dressing-room illustration. Image 2 is the canonical character reference, for identity only; do not transfer its armor or background.\nMake one strictly localized anatomy correction to Image 1. There is an erroneous third hand, a small isolated skin-coloured hand nestled in the red hair immediately to the left of the nape/ear, around x=330,y=220 in the 1024x1536 target. Remove that extra hand and its small false wrist completely. Reconstruct continuous red hair strands in that exact region, matching the surrounding direction, texture, shading and highlights.\nKeep the legitimate hand at the upper left crown around x=380,y=80 holding her hair. Keep its connected bent arm. Keep the other legitimate raised arm in the foreground with its elbow on the right and its hand naturally obscured by hair behind her head. The woman has exactly two anatomically connected arms, with no extra hand near her nape. Preserve the mirror's existing natural reflection of the same woman.\nEverything else must remain as close as possible to Image 1: same face, expression, amber eyes, red hair length and shape, skin tone, adult body proportions, pose, framing, camera, rust-red embroidered corset and matching skirt, back and shoulder exposure, jewelry, dressing mirror, lights, fabrics, warm lighting and glossy anime rendering. Do not change the outfit, styling, degree of exposure, scene or composition. No added text or logos. Return the same vertical 1024x1536 canvas.",
+  "references": [
+    "img/폭타_glossy_promo_f_casual1.webp@e85ede9e8b31966091643172af405e34a28732f5",
+    "img/폭타_light_glossy_promo_f.webp@c24850807ef0a83c2678afb22dc9f0c44b057e85"
+  ],
+  "qa": {
+    "extra_hand_removed": true,
+    "evidence": "The isolated skin-coloured hand at x≈330,y≈220 is replaced by red hair. The upper crown hand remains attached to its bent arm; the foreground raised arm ends behind the head. No disconnected wrist remains beside the nape.",
+    "identity": "Same face, red wolf-cut hair, amber eyes and adult body proportions.",
+    "scene": "Same mirror hair-adjusting activity, embroidered corset and skirt, pose, framing and warm dressing-room lighting.",
+    "dimensions": "1024x1536"
+  }
+}
