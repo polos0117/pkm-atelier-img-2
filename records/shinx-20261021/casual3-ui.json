@@ -1,0 +1,158 @@
+{
+  "storage": {
+    "last": "꼬링크",
+    "cards": {
+      "꼬링크": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "blue",
+          "eye color": "gold",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A bright electric training court with blue circuit tiles and sparks moving across the ground.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "amused",
+            "pose": "holding_cup",
+            "orient": "seated_twist",
+            "scene": "Fireworks rise beyond a riverside festival terrace at blue hour; she holds a chilled citrus drink while listening to the distant celebration.",
+            "outfit": "A cropped cream waistcoat over a blue halter top and low-rise wide trousers, exposing shoulders and a narrow band of waist.",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "festivals_contests",
+            "catCustom": "",
+            "ex": "fest_fireworks",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Shinx (꼬링크) personified, electric type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: crinkled lower eyelids, closed-lip smile pushing the cheeks up, brows relaxed\nPose: Hold a cup comfortably in one or both hands during a quiet break.\nOrientation: seated with supported pelvis and a natural torso twist\nScene: Fireworks rise beyond a riverside festival terrace at blue hour; she holds a chilled citrus drink while listening to the distant celebration.\nOutfit and props: A cropped cream waistcoat over a blue halter top and low-rise wide trousers, exposing shoulders and a narrow band of waist.\nCategory: Show one moment attending a Pokémon-world festival or contest, with an identifiable activity and event props. Preserve the approved identity and let the selected scene determine clothing and mood.\nExample scene: Waiting for festival fireworks at a riverside seating area, holding a drink with a small bag beside her.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "looking_away",
+      "final": "seated_twist",
+      "reason": "fest_fireworks의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+    },
+    "frame": {
+      "drawn": "chest_up",
+      "final": "waist_up",
+      "reason": "fest_fireworks의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+    },
+    "lens": {
+      "drawn": "portrait85",
+      "final": "portrait85",
+      "reason": "fest_fireworks의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+    }
+  },
+  "axis_reasons": {
+    "source_influence": "fest_fireworks: blue/yellow palette and garment seams follow the selected degree without battle armor.",
+    "action_level": "Fireworks rise beyond a riverside festival terrace at blue hour; she holds a chilled citrus drink while listening to the distant celebration.",
+    "separates_preference": "Clothing structure: vest, trousers"
+  },
+  "input_reasons": {
+    "scene": "맞는 선택지 없음 — 예시의 활동을 유지하며 시간대·조명·손 활동 구체화: Fireworks rise beyond a riverside festival terrace at blue hour; she holds a chilled citrus drink while listening to the distant celebration.",
+    "outfit": "맞는 선택지 없음 — 의상 전용 선택지는 없어 예시 구조의 소재·배색·노출 부위를 보충: A cropped cream waistcoat over a blue halter top and low-rise wide trousers, exposing shoulders and a narrow band of waist.",
+    "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+  },
+  "plan": {
+    "cut": 3,
+    "cat": "festivals_contests",
+    "ex": "fest_fireworks",
+    "expr": "amused",
+    "pose": "holding_cup",
+    "orient": "seated_twist",
+    "frame": "waist_up",
+    "lens": "portrait85",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "vest",
+      "trousers"
+    ],
+    "scene": "Fireworks rise beyond a riverside festival terrace at blue hour; she holds a chilled citrus drink while listening to the distant celebration.",
+    "outfit": "A cropped cream waistcoat over a blue halter top and low-rise wide trousers, exposing shoulders and a narrow band of waist.",
+    "aspect": "2:3",
+    "axis_reasons": {
+      "source_influence": "fest_fireworks: blue/yellow palette and garment seams follow the selected degree without battle armor.",
+      "action_level": "Fireworks rise beyond a riverside festival terrace at blue hour; she holds a chilled citrus drink while listening to the distant celebration.",
+      "separates_preference": "Clothing structure: vest, trousers"
+    },
+    "input_reasons": {
+      "scene": "맞는 선택지 없음 — 예시의 활동을 유지하며 시간대·조명·손 활동 구체화: Fireworks rise beyond a riverside festival terrace at blue hour; she holds a chilled citrus drink while listening to the distant celebration.",
+      "outfit": "맞는 선택지 없음 — 의상 전용 선택지는 없어 예시 구조의 소재·배색·노출 부위를 보충: A cropped cream waistcoat over a blue halter top and low-rise wide trousers, exposing shoulders and a narrow band of waist.",
+      "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+    },
+    "random_adjustment_reason": "fest_fireworks의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+  }
+}

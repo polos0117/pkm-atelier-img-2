@@ -1,0 +1,157 @@
+{
+  "storage": {
+    "last": "꼬링크",
+    "cards": {
+      "꼬링크": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "blue",
+          "eye color": "gold",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A bright electric training court with blue circuit tiles and sparks moving across the ground.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "curious",
+            "pose": "mid_action",
+            "orient": "leaning_forward",
+            "scene": "Amber afternoon light crosses a comfortable Electric-Pokémon observation room as she aligns a small monitoring instrument beside an insulated resting pad.",
+            "outfit": "Short sky-blue denim overalls over a fitted yellow bandeau, with bare shoulders and sides of her waist visible above the shorts.",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "renewable_engineer",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Shinx (꼬링크) personified, electric type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: one brow raised higher, head tilted, eyes wide and attentive, lips slightly parted\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: torso leaning forward with supported balance\nScene: Amber afternoon light crosses a comfortable Electric-Pokémon observation room as she aligns a small monitoring instrument beside an insulated resting pad.\nOutfit and props: Short sky-blue denim overalls over a fitted yellow bandeau, with bare shoulders and sides of her waist visible above the shorts.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Electric-Pokémon behavior researcher arranging insulated resting pads and small monitoring instruments in a comfortable observation room.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "back_to_camera",
+      "final": "leaning_forward",
+      "reason": "renewable_engineer의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+    },
+    "frame": {
+      "drawn": "detail",
+      "final": "chest_up",
+      "reason": "renewable_engineer의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+    },
+    "lens": {
+      "drawn": "natural50",
+      "final": "documentary35",
+      "reason": "renewable_engineer의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+    }
+  },
+  "axis_reasons": {
+    "source_influence": "renewable_engineer: blue/yellow palette and garment seams follow the selected degree without battle armor.",
+    "action_level": "Amber afternoon light crosses a comfortable Electric-Pokémon observation room as she aligns a small monitoring instrument beside an insulated resting pad.",
+    "separates_preference": "Clothing structure: overalls"
+  },
+  "input_reasons": {
+    "scene": "맞는 선택지 없음 — 예시의 활동을 유지하며 시간대·조명·손 활동 구체화: Amber afternoon light crosses a comfortable Electric-Pokémon observation room as she aligns a small monitoring instrument beside an insulated resting pad.",
+    "outfit": "맞는 선택지 없음 — 의상 전용 선택지는 없어 예시 구조의 소재·배색·노출 부위를 보충: Short sky-blue denim overalls over a fitted yellow bandeau, with bare shoulders and sides of her waist visible above the shorts.",
+    "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+  },
+  "plan": {
+    "cut": 1,
+    "cat": "occupation_basic",
+    "ex": "renewable_engineer",
+    "expr": "curious",
+    "pose": "mid_action",
+    "orient": "leaning_forward",
+    "frame": "chest_up",
+    "lens": "documentary35",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "overalls"
+    ],
+    "scene": "Amber afternoon light crosses a comfortable Electric-Pokémon observation room as she aligns a small monitoring instrument beside an insulated resting pad.",
+    "outfit": "Short sky-blue denim overalls over a fitted yellow bandeau, with bare shoulders and sides of her waist visible above the shorts.",
+    "aspect": "2:3",
+    "axis_reasons": {
+      "source_influence": "renewable_engineer: blue/yellow palette and garment seams follow the selected degree without battle armor.",
+      "action_level": "Amber afternoon light crosses a comfortable Electric-Pokémon observation room as she aligns a small monitoring instrument beside an insulated resting pad.",
+      "separates_preference": "Clothing structure: overalls"
+    },
+    "input_reasons": {
+      "scene": "맞는 선택지 없음 — 예시의 활동을 유지하며 시간대·조명·손 활동 구체화: Amber afternoon light crosses a comfortable Electric-Pokémon observation room as she aligns a small monitoring instrument beside an insulated resting pad.",
+      "outfit": "맞는 선택지 없음 — 의상 전용 선택지는 없어 예시 구조의 소재·배색·노출 부위를 보충: Short sky-blue denim overalls over a fitted yellow bandeau, with bare shoulders and sides of her waist visible above the shorts.",
+      "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+    },
+    "random_adjustment_reason": "renewable_engineer의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+  }
+}

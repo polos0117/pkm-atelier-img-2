@@ -1,0 +1,157 @@
+{
+  "storage": {
+    "last": "꼬링크",
+    "cards": {
+      "꼬링크": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "blue",
+          "eye color": "gold",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A bright electric training court with blue circuit tiles and sparks moving across the ground.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "relieved",
+            "pose": "stretching",
+            "orient": "side",
+            "scene": "At sunrise beside a tiled athletic pool, she finishes a warm-up before entering the water.",
+            "outfit": "A cobalt boyshort swimsuit set in opaque athletic fabric with yellow piping, broad shoulder straps and square-cut bottoms, exposing shoulders, midriff and thighs.",
+            "frame": "full_body",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "boyshort_swim",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Shinx (꼬링크) personified, electric type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened\nPose: Stretch the arms and upper back gently in a comfortable everyday motion.\nOrientation: side body profile, approximately 90 degrees to camera\nScene: At sunrise beside a tiled athletic pool, she finishes a warm-up before entering the water.\nOutfit and props: A cobalt boyshort swimsuit set in opaque athletic fabric with yellow piping, broad shoulder straps and square-cut bottoms, exposing shoulders, midriff and thighs.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: a boyshort swimsuit set with a fitted top and short square-cut bottoms\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "three_quarter_back",
+      "final": "side",
+      "reason": "boyshort_swim의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+    },
+    "frame": {
+      "drawn": "face_close",
+      "final": "full_body",
+      "reason": "boyshort_swim의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+    },
+    "lens": {
+      "drawn": "wide24",
+      "final": "natural50",
+      "reason": "boyshort_swim의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+    }
+  },
+  "axis_reasons": {
+    "source_influence": "boyshort_swim: blue/yellow palette and garment seams follow the selected degree without battle armor.",
+    "action_level": "At sunrise beside a tiled athletic pool, she finishes a warm-up before entering the water.",
+    "separates_preference": "Clothing structure: swimsuit"
+  },
+  "input_reasons": {
+    "scene": "맞는 선택지 없음 — 예시의 활동을 유지하며 시간대·조명·손 활동 구체화: At sunrise beside a tiled athletic pool, she finishes a warm-up before entering the water.",
+    "outfit": "맞는 선택지 없음 — 의상 전용 선택지는 없어 예시 구조의 소재·배색·노출 부위를 보충: A cobalt boyshort swimsuit set in opaque athletic fabric with yellow piping, broad shoulder straps and square-cut bottoms, exposing shoulders, midriff and thighs.",
+    "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+  },
+  "plan": {
+    "cut": 2,
+    "cat": "swimwear",
+    "ex": "boyshort_swim",
+    "expr": "relieved",
+    "pose": "stretching",
+    "orient": "side",
+    "frame": "full_body",
+    "lens": "natural50",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates"
+    },
+    "garments": [
+      "swimsuit"
+    ],
+    "scene": "At sunrise beside a tiled athletic pool, she finishes a warm-up before entering the water.",
+    "outfit": "A cobalt boyshort swimsuit set in opaque athletic fabric with yellow piping, broad shoulder straps and square-cut bottoms, exposing shoulders, midriff and thighs.",
+    "aspect": "2:3",
+    "axis_reasons": {
+      "source_influence": "boyshort_swim: blue/yellow palette and garment seams follow the selected degree without battle armor.",
+      "action_level": "At sunrise beside a tiled athletic pool, she finishes a warm-up before entering the water.",
+      "separates_preference": "Clothing structure: swimsuit"
+    },
+    "input_reasons": {
+      "scene": "맞는 선택지 없음 — 예시의 활동을 유지하며 시간대·조명·손 활동 구체화: At sunrise beside a tiled athletic pool, she finishes a warm-up before entering the water.",
+      "outfit": "맞는 선택지 없음 — 의상 전용 선택지는 없어 예시 구조의 소재·배색·노출 부위를 보충: A cobalt boyshort swimsuit set in opaque athletic fabric with yellow piping, broad shoulder straps and square-cut bottoms, exposing shoulders, midriff and thighs.",
+      "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+    },
+    "random_adjustment_reason": "boyshort_swim의 활동과 손이 읽히고 최근 구도 짝을 피하도록 계획값으로 확정."
+  }
+}
