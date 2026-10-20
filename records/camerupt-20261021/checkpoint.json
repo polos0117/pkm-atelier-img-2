@@ -70,7 +70,7 @@
   ],
   "last_repair": {
     "slot": "casual1",
-    "status": "image corrected; publication pending",
+    "status": "corrected and published",
     "file": "폭타_glossy_promo_f_casual1.webp",
     "git_blob": "f86d099f63de97bb59c559087a31069cd0798474",
     "sha256": "424eed9e02affc1108d58233d9186c3ed9963d43e08fcaf2a1efceec8b0592cb",
@@ -81,6 +81,21 @@
     "format": "WEBP",
     "quality": 85,
     "method": 6,
-    "record": "repairs/casual1-extra-hand-20261021.json"
+    "record": "repairs/casual1-extra-hand-20261021.json",
+    "image_commit": "a3b74291449f34821ff1df464fc403253e0d85e8",
+    "code_patch_commit": "609738015a4c49abc3b83bfd95b6667c9204a4aa",
+    "image_git_blob": "f86d099f63de97bb59c559087a31069cd0798474",
+    "thumbnail_git_blob": "837b78388cf7a51527a665ef0300337b3dcee15e",
+    "thumbnail_workflow": {
+      "id": 39514544470,
+      "conclusion": "success"
+    },
+    "registration_workflow": {
+      "id": 39514807695,
+      "conclusion": "success"
+    },
+    "registered_filename": "폭타_glossy_promo_f_casual1.webp",
+    "registered_shard": 1,
+    "verification": "Original remote blob matches local corrected WebP; regenerated remote thumbnail visually confirms the extra hand is absent; same dex casual1 slot retained."
   }
 }
