@@ -1,0 +1,29 @@
+{
+  "casual1": [
+    {
+      "source": "generated_images/exec-76ba3264-9a17-4d67-9458-dc9af608ac87.png",
+      "status": "text correction requested",
+      "reason": "카드 인덱스에 숫자·문자가 보임"
+    },
+    {
+      "source": "generated_images/exec-2f8eebac-e52d-4ca7-a5dd-8c0fd1a1d542.png",
+      "status": "accepted after card-back text correction",
+      "prompt": "casual1-textfix.txt"
+    }
+  ],
+  "casual3": [
+    {
+      "attempt": 1,
+      "status": "output moderation blocked",
+      "request_id": "ccff0c6e-3597-49c5-9d8b-3175b301fd42",
+      "prompt": "casual3.txt",
+      "action": "retry unchanged once; no strength or exposure change"
+    },
+    {
+      "attempt": 2,
+      "status": "accepted",
+      "prompt": "casual3.txt",
+      "unchanged": true
+    }
+  ]
+}

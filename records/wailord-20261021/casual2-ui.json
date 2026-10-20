@@ -1,0 +1,159 @@
+{
+  "storage": {
+    "last": "고래왕",
+    "cards": {
+      "고래왕": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "black",
+          "hairstyle": "straight",
+          "hair length": "long",
+          "eye color": "blue",
+          "body type": "statuesque"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A vast ocean observation platform beneath sweeping high clouds.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "pensive",
+            "pose": "sitting",
+            "orient": "looking_away",
+            "scene": "Blue hour on an ocean-view hotel balcony; she sits beside the stone balustrade with a chilled citrus drink and watches a distant lighthouse.",
+            "outfit": "A cobalt silk sari with an ivory wave-patterned border, draped over a sleeveless halter blouse, exposing shoulders, midriff and upper back.",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "traditional",
+            "catCustom": "",
+            "ex": "sari_formal",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "source_influence": "strong",
+              "action_level": "mostly posed",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Wailord (고래왕) personified, water type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: gaze angled down and away, slightly furrowed brow, lips lightly pressed or touched\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: gaze off-camera; body orientation independent\nScene: Blue hour on an ocean-view hotel balcony; she sits beside the stone balustrade with a chilled citrus drink and watches a distant lighthouse.\nOutfit and props: A cobalt silk sari with an ivory wave-patterned border, draped over a sleeveless halter blouse, exposing shoulders, midriff and upper back.\nCategory: This cut is built around the traditional dress named in the example — that tradition wins over her ethnicity setting and the attached image's costume; only Auto follows her ethnicity. Use either authentic formal traditional clothing or a modernised everyday interpretation of it, as specified by the example. Keep the garment structure, layering logic, fastening, and silhouette faithful to that tradition rather than generic orientalism or costume-shop pastiche. Colours may follow the source creature, but the construction must remain true to the tradition. Place the character in a setting where such clothing is plausibly worn.\nExample scene: a formal Indian sari — a long silk drape pleated at the waist with the pallu over one shoulder, worn with a fitted choli blouse\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "crouching",
+      "final": "looking_away",
+      "reason": "바다를 바라보는 얼굴 옆선과 난간 옆에 놓인 음료가 무릎 위 구도 안에서 함께 보이게 확정한다."
+    },
+    "frame": {
+      "drawn": "environmental",
+      "final": "three_quarter",
+      "reason": "바다를 바라보는 얼굴 옆선과 난간 옆에 놓인 음료가 무릎 위 구도 안에서 함께 보이게 확정한다."
+    },
+    "lens": {
+      "drawn": "natural50",
+      "final": "telephoto135",
+      "reason": "바다를 바라보는 얼굴 옆선과 난간 옆에 놓인 음료가 무릎 위 구도 안에서 함께 보이게 확정한다."
+    }
+  },
+  "axis_reasons": {
+    "source_influence": "넓게 흐르는 파란 사리와 흰 물결 테두리는 고래왕의 긴 체적과 배색을 강조한다.",
+    "action_level": "Blue hour on an ocean-view hotel balcony; she sits beside the stone balustrade with a chilled citrus drink and watches a distant lighthouse.",
+    "separates_preference": "분리된 홀터 블라우스 위로 사리 천을 두른 구조다."
+  },
+  "input_reasons": {
+    "scene": "맞는 세부 선택지 없음 — traditional/sari_formal 예시가 정하지 않은 세부를 추가: Blue hour on an ocean-view hotel balcony; she sits beside the stone balustrade with a chilled citrus drink and watches a distant lighthouse.",
+    "outfit": "맞는 세부 선택지 없음 — traditional/sari_formal 예시가 정하지 않은 세부를 추가: A cobalt silk sari with an ivory wave-patterned border, draped over a sleeveless halter blouse, exposing shoulders, midriff and upper back.",
+    "camera": "생성 도구에 크기 인수가 없어 규정된 세로 2:3 (1024×1536) 문장만 추가한다."
+  },
+  "plan": {
+    "cut": 2,
+    "cat": "traditional",
+    "ex": "sari_formal",
+    "expr": "pensive",
+    "pose": "sitting",
+    "orient": "looking_away",
+    "frame": "three_quarter",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "source_influence": "strong",
+      "action_level": "mostly posed",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "traditional"
+    ],
+    "scene": "Blue hour on an ocean-view hotel balcony; she sits beside the stone balustrade with a chilled citrus drink and watches a distant lighthouse.",
+    "outfit": "A cobalt silk sari with an ivory wave-patterned border, draped over a sleeveless halter blouse, exposing shoulders, midriff and upper back.",
+    "axis_reasons": {
+      "source_influence": "넓게 흐르는 파란 사리와 흰 물결 테두리는 고래왕의 긴 체적과 배색을 강조한다.",
+      "action_level": "Blue hour on an ocean-view hotel balcony; she sits beside the stone balustrade with a chilled citrus drink and watches a distant lighthouse.",
+      "separates_preference": "분리된 홀터 블라우스 위로 사리 천을 두른 구조다."
+    },
+    "input_reasons": {
+      "scene": "맞는 세부 선택지 없음 — traditional/sari_formal 예시가 정하지 않은 세부를 추가: Blue hour on an ocean-view hotel balcony; she sits beside the stone balustrade with a chilled citrus drink and watches a distant lighthouse.",
+      "outfit": "맞는 세부 선택지 없음 — traditional/sari_formal 예시가 정하지 않은 세부를 추가: A cobalt silk sari with an ivory wave-patterned border, draped over a sleeveless halter blouse, exposing shoulders, midriff and upper back.",
+      "camera": "생성 도구에 크기 인수가 없어 규정된 세로 2:3 (1024×1536) 문장만 추가한다."
+    },
+    "random_adjustment_reason": "바다를 바라보는 얼굴 옆선과 난간 옆에 놓인 음료가 무릎 위 구도 안에서 함께 보이게 확정한다."
+  }
+}
