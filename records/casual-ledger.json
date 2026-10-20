@@ -7600,9 +7600,9 @@
   {
    "species": "wailmer-20261021",
    "card": "고래왕자",
-   "status": "reserved",
-   "session": "gpt-wailmer-wailord-20261021",
-   "at": "2026-10-21T00:42:24+09:00",
+   "repo": "pkm-atelier-img-2",
+   "at": "2026-10-21T01:01:38+09:00",
+   "status": "done",
    "cuts": [
     {
      "cut": 1,
@@ -7614,10 +7614,8 @@
      "frame": "chest_up",
      "lens": "natural50",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "source_influence": "balanced",
       "action_level": "mostly active",
+      "source_influence": "balanced",
       "separates_preference": "strongly prefer separates"
      },
      "garments": [
@@ -7636,15 +7634,11 @@
      "frame": "full_body",
      "lens": "portrait85",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "source_influence": "subtle",
       "action_level": "mostly posed",
+      "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
-     "garments": [
-      "lingerie_set"
-     ]
+     "garments": []
     },
     {
      "cut": 3,
@@ -7656,10 +7650,8 @@
      "frame": "environmental",
      "lens": "wide24",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "source_influence": "strong",
       "action_level": "balanced",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -7671,9 +7663,9 @@
   {
    "species": "wailord-20261021",
    "card": "고래왕",
-   "status": "reserved",
-   "session": "gpt-wailmer-wailord-20261021",
-   "at": "2026-10-21T00:42:24+09:00",
+   "repo": "pkm-atelier-img-2",
+   "at": "2026-10-21T01:24:29+09:00",
+   "status": "done",
    "cuts": [
     {
      "cut": 1,
@@ -7685,15 +7677,14 @@
      "frame": "waist_up",
      "lens": "documentary35",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "source_influence": "balanced",
       "action_level": "mostly active",
+      "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "vest",
-      "trousers"
+      "crop_top",
+      "trousers",
+      "vest"
      ]
     },
     {
@@ -7706,13 +7697,12 @@
      "frame": "three_quarter",
      "lens": "telephoto135",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "source_influence": "strong",
       "action_level": "mostly posed",
+      "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
+      "blouse",
       "traditional"
      ]
     },
@@ -7726,10 +7716,8 @@
      "frame": "full_body",
      "lens": "natural50",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "source_influence": "strong",
       "action_level": "balanced",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -7740,5 +7728,5 @@
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-21T00:42:24+09:00"
+ "updated": "2026-10-21T01:26:24+09:00"
 }
