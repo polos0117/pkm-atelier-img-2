@@ -1,0 +1,369 @@
+{
+  "batch_plan": {
+    "session": "gpt-numel-camerupt-20261021",
+    "characters": [
+      {
+        "species": "numel-20261021",
+        "card": "둔타",
+        "status": "reserved",
+        "session": "gpt-numel-camerupt-20261021",
+        "at": "2026-10-20T21:16:11+00:00",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "travel_exploration",
+            "ex": "travel_camp",
+            "expr": "curious",
+            "pose": "kneeling",
+            "orient": "looking_down",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "tank",
+              "shorts"
+            ],
+            "aspect": "2:3",
+            "scene": "Pale dawn light crosses a desert campsite; the blanket has ochre and sage stripes.",
+            "outfit": "A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs.",
+            "example_text": "Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite.",
+            "axis_reasons": {
+              "action_level": "Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite. 의 활동 속도에 맞춘 값 mostly active",
+              "source_influence": "A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs. 에서 원작 배색과 무늬의 비중 subtle",
+              "separates_preference": "tank, shorts 구성에서 분리되는 옷 조합을 반영한다."
+            },
+            "input_reasons": {
+              "scene": "맞는 선택지 없음 — travel_camp 예시에는 시간대·빛·구체 소품이 없어 이를 보충: Pale dawn light crosses a desert campsite; the blanket has ochre and sage stripes.",
+              "outfit": "의상 전용 선택지 없음 — travel_camp 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs.",
+              "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+            },
+            "random_adjustment_reason": "travel_camp의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 looking_down/environmental/wide24로 확정."
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "retro_racer",
+            "expr": "determined",
+            "pose": "mid_stride",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "jacket",
+              "shorts"
+            ],
+            "aspect": "2:3",
+            "scene": "At an evening motorsport costume parade, track floodlights reflect on the barrier and a checkered flag rests beside it.",
+            "outfit": "The cropped butter-yellow team jacket is worn open over a fitted green bandeau with matching short shorts and ankle boots, exposing midriff and thighs.",
+            "example_text": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier",
+            "axis_reasons": {
+              "action_level": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier 의 활동 속도에 맞춘 값 balanced",
+              "source_influence": "The cropped butter-yellow team jacket is worn open over a fitted green bandeau with matching short shorts and ankle boots, exposing midriff and thighs. 에서 원작 배색과 무늬의 비중 subtle",
+              "separates_preference": "jacket, shorts 구성에서 분리되는 옷 조합을 반영한다."
+            },
+            "input_reasons": {
+              "scene": "맞는 선택지 없음 — retro_racer 예시에는 시간대·빛·구체 소품이 없어 이를 보충: At an evening motorsport costume parade, track floodlights reflect on the barrier and a checkered flag rests beside it.",
+              "outfit": "의상 전용 선택지 없음 — retro_racer 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: The cropped butter-yellow team jacket is worn open over a fitted green bandeau with matching short shorts and ankle boots, exposing midriff and thighs.",
+              "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+            },
+            "random_adjustment_reason": "retro_racer의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 turning_midmotion/full_body/natural50로 확정."
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_sensual",
+            "ex": "high_shelf",
+            "expr": "amused",
+            "pose": "on_tiptoe",
+            "orient": "reaching_up",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "dress"
+            ],
+            "aspect": "2:3",
+            "scene": "Sunlight falls across an ochre-tiled kitchen; the storage box is a woven basket with a green handle.",
+            "outfit": "A yellow backless mini dress with a deep side opening at the waist and sage-green piping, exposing back, waist and legs.",
+            "example_text": "reaching for a storage box on a high kitchen shelf, shown from an eye-level three-quarter view",
+            "axis_reasons": {
+              "action_level": "reaching for a storage box on a high kitchen shelf, shown from an eye-level three-quarter view 의 활동 속도에 맞춘 값 mostly posed",
+              "source_influence": "A yellow backless mini dress with a deep side opening at the waist and sage-green piping, exposing back, waist and legs. 에서 원작 배색과 무늬의 비중 strong",
+              "separates_preference": "dress 구성에서 분리되는 옷 조합을 반영한다."
+            },
+            "input_reasons": {
+              "scene": "맞는 선택지 없음 — high_shelf 예시에는 시간대·빛·구체 소품이 없어 이를 보충: Sunlight falls across an ochre-tiled kitchen; the storage box is a woven basket with a green handle.",
+              "outfit": "의상 전용 선택지 없음 — high_shelf 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: A yellow backless mini dress with a deep side opening at the waist and sage-green piping, exposing back, waist and legs.",
+              "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+            },
+            "random_adjustment_reason": "high_shelf의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 reaching_up/three_quarter/documentary35로 확정."
+          }
+        ],
+        "no": 322,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "golden blonde",
+          "eye color": "brown",
+          "body type": "soft-figured"
+        },
+        "wear": "A single volcanic hump becomes a rounded yellow shoulder mantle capped with sage-green plates; small green spots decorate the suit and brown rings become subtle collar trim.",
+        "scene": "A warm ochre volcanic plateau with green fumaroles in the distance."
+      },
+      {
+        "species": "camerupt-20261021",
+        "card": "폭타",
+        "status": "reserved",
+        "session": "gpt-numel-camerupt-20261021",
+        "at": "2026-10-20T21:16:11+00:00",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "embroidered_corset",
+            "expr": "pensive",
+            "pose": "hands_in_hair",
+            "orient": "over_shoulder",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "lingerie_set",
+              "skirt"
+            ],
+            "aspect": "2:3",
+            "scene": "Warm lamps illuminate a dressing-room fitting mirror; folded embroidered textiles rest on a bench.",
+            "outfit": "Opaque rust-red corset panels with blue and gold folk embroidery over a matching fitted mini skirt, exposing shoulders, upper back and thighs.",
+            "example_text": "a folk-embroidered corset with structured boning and colourful thread work over a matching piece",
+            "axis_reasons": {
+              "action_level": "a folk-embroidered corset with structured boning and colourful thread work over a matching piece 의 활동 속도에 맞춘 값 mostly posed",
+              "source_influence": "Opaque rust-red corset panels with blue and gold folk embroidery over a matching fitted mini skirt, exposing shoulders, upper back and thighs. 에서 원작 배색과 무늬의 비중 balanced",
+              "separates_preference": "lingerie_set, skirt 구성에서 분리되는 옷 조합을 반영한다."
+            },
+            "input_reasons": {
+              "scene": "맞는 선택지 없음 — embroidered_corset 예시에는 시간대·빛·구체 소품이 없어 이를 보충: Warm lamps illuminate a dressing-room fitting mirror; folded embroidered textiles rest on a bench.",
+              "outfit": "의상 전용 선택지 없음 — embroidered_corset 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: Opaque rust-red corset panels with blue and gold folk embroidery over a matching fitted mini skirt, exposing shoulders, upper back and thighs.",
+              "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+            },
+            "random_adjustment_reason": "embroidered_corset의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 over_shoulder/three_quarter/portrait85로 확정."
+          },
+          {
+            "cut": 2,
+            "cat": "festivals_contests",
+            "ex": "fest_booth",
+            "expr": "curious",
+            "pose": "mid_action",
+            "orient": "leaning_forward",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "aspect": "2:3",
+            "scene": "Paper lanterns illuminate a mountain-town evening festival; the charm is a tiny glazed clay volcano.",
+            "outfit": "A terracotta halter short jumpsuit with an open back and side waist cutouts, exposing shoulders, back and thighs.",
+            "example_text": "Browsing handmade Pokémon-themed charms at a festival booth and lifting one for a closer look.",
+            "axis_reasons": {
+              "action_level": "Browsing handmade Pokémon-themed charms at a festival booth and lifting one for a closer look. 의 활동 속도에 맞춘 값 mostly active",
+              "source_influence": "A terracotta halter short jumpsuit with an open back and side waist cutouts, exposing shoulders, back and thighs. 에서 원작 배색과 무늬의 비중 balanced",
+              "separates_preference": "jumpsuit 구성에서 분리되는 옷 조합을 반영한다."
+            },
+            "input_reasons": {
+              "scene": "맞는 선택지 없음 — fest_booth 예시에는 시간대·빛·구체 소품이 없어 이를 보충: Paper lanterns illuminate a mountain-town evening festival; the charm is a tiny glazed clay volcano.",
+              "outfit": "의상 전용 선택지 없음 — fest_booth 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: A terracotta halter short jumpsuit with an open back and side waist cutouts, exposing shoulders, back and thighs.",
+              "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+            },
+            "random_adjustment_reason": "fest_booth의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 leaning_forward/waist_up/natural50로 확정."
+          },
+          {
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "heavy_architecture",
+            "expr": "confident",
+            "pose": "walking",
+            "orient": "front",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "aspect": "2:3",
+            "scene": "She crosses a basalt sculpture courtyard during a fashion presentation in warm late-afternoon light.",
+            "outfit": "A scarlet architectural mini dress with rigid sculpted hip folds, a deep square neckline and broad side waist cutouts, exposing shoulders, waist and legs; three blue rings are embroidered on one hip.",
+            "example_text": "Heavy Architectural Tailoring",
+            "axis_reasons": {
+              "action_level": "Heavy Architectural Tailoring 의 활동 속도에 맞춘 값 balanced",
+              "source_influence": "A scarlet architectural mini dress with rigid sculpted hip folds, a deep square neckline and broad side waist cutouts, exposing shoulders, waist and legs; three blue rings are embroidered on one hip. 에서 원작 배색과 무늬의 비중 strong",
+              "separates_preference": "dress 구성에서 분리되는 옷 조합을 반영한다."
+            },
+            "input_reasons": {
+              "scene": "맞는 선택지 없음 — heavy_architecture 예시에는 시간대·빛·구체 소품이 없어 이를 보충: She crosses a basalt sculpture courtyard during a fashion presentation in warm late-afternoon light.",
+              "outfit": "의상 전용 선택지 없음 — heavy_architecture 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: A scarlet architectural mini dress with rigid sculpted hip folds, a deep square neckline and broad side waist cutouts, exposing shoulders, waist and legs; three blue rings are embroidered on one hip.",
+              "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+            },
+            "random_adjustment_reason": "heavy_architecture의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 front/full_body/wide24로 확정."
+          }
+        ],
+        "no": 323,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "orange red",
+          "eye color": "amber",
+          "body type": "statuesque"
+        },
+        "wear": "Two volcanic humps become paired broad conical basalt shoulder pauldrons; shaggy red-orange fur becomes a layered red mantle, three blue rings become blue circular armor inlays, and drooping ears become soft swept side ornaments.",
+        "scene": "A black basalt caldera rim with ember-lit fissures and drifting steam."
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "travel_exploration",
+      "ex": "travel_camp",
+      "expr": "curious",
+      "pose": "kneeling",
+      "orient": "looking_down",
+      "frame": "environmental",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "tank",
+        "shorts"
+      ],
+      "aspect": "2:3",
+      "scene": "Pale dawn light crosses a desert campsite; the blanket has ochre and sage stripes.",
+      "outfit": "A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs.",
+      "example_text": "Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite.",
+      "axis_reasons": {
+        "action_level": "Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite. 의 활동 속도에 맞춘 값 mostly active",
+        "source_influence": "A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs. 에서 원작 배색과 무늬의 비중 subtle",
+        "separates_preference": "tank, shorts 구성에서 분리되는 옷 조합을 반영한다."
+      },
+      "input_reasons": {
+        "scene": "맞는 선택지 없음 — travel_camp 예시에는 시간대·빛·구체 소품이 없어 이를 보충: Pale dawn light crosses a desert campsite; the blanket has ochre and sage stripes.",
+        "outfit": "의상 전용 선택지 없음 — travel_camp 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs.",
+        "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+      },
+      "random_adjustment_reason": "travel_camp의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 looking_down/environmental/wide24로 확정."
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "retro_racer",
+      "expr": "determined",
+      "pose": "mid_stride",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates"
+      },
+      "garments": [
+        "jacket",
+        "shorts"
+      ],
+      "aspect": "2:3",
+      "scene": "At an evening motorsport costume parade, track floodlights reflect on the barrier and a checkered flag rests beside it.",
+      "outfit": "The cropped butter-yellow team jacket is worn open over a fitted green bandeau with matching short shorts and ankle boots, exposing midriff and thighs.",
+      "example_text": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier",
+      "axis_reasons": {
+        "action_level": "a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier 의 활동 속도에 맞춘 값 balanced",
+        "source_influence": "The cropped butter-yellow team jacket is worn open over a fitted green bandeau with matching short shorts and ankle boots, exposing midriff and thighs. 에서 원작 배색과 무늬의 비중 subtle",
+        "separates_preference": "jacket, shorts 구성에서 분리되는 옷 조합을 반영한다."
+      },
+      "input_reasons": {
+        "scene": "맞는 선택지 없음 — retro_racer 예시에는 시간대·빛·구체 소품이 없어 이를 보충: At an evening motorsport costume parade, track floodlights reflect on the barrier and a checkered flag rests beside it.",
+        "outfit": "의상 전용 선택지 없음 — retro_racer 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: The cropped butter-yellow team jacket is worn open over a fitted green bandeau with matching short shorts and ankle boots, exposing midriff and thighs.",
+        "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+      },
+      "random_adjustment_reason": "retro_racer의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 turning_midmotion/full_body/natural50로 확정."
+    },
+    {
+      "cut": 3,
+      "cat": "everyday_sensual",
+      "ex": "high_shelf",
+      "expr": "amused",
+      "pose": "on_tiptoe",
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "dress"
+      ],
+      "aspect": "2:3",
+      "scene": "Sunlight falls across an ochre-tiled kitchen; the storage box is a woven basket with a green handle.",
+      "outfit": "A yellow backless mini dress with a deep side opening at the waist and sage-green piping, exposing back, waist and legs.",
+      "example_text": "reaching for a storage box on a high kitchen shelf, shown from an eye-level three-quarter view",
+      "axis_reasons": {
+        "action_level": "reaching for a storage box on a high kitchen shelf, shown from an eye-level three-quarter view 의 활동 속도에 맞춘 값 mostly posed",
+        "source_influence": "A yellow backless mini dress with a deep side opening at the waist and sage-green piping, exposing back, waist and legs. 에서 원작 배색과 무늬의 비중 strong",
+        "separates_preference": "dress 구성에서 분리되는 옷 조합을 반영한다."
+      },
+      "input_reasons": {
+        "scene": "맞는 선택지 없음 — high_shelf 예시에는 시간대·빛·구체 소품이 없어 이를 보충: Sunlight falls across an ochre-tiled kitchen; the storage box is a woven basket with a green handle.",
+        "outfit": "의상 전용 선택지 없음 — high_shelf 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: A yellow backless mini dress with a deep side opening at the waist and sage-green piping, exposing back, waist and legs.",
+        "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+      },
+      "random_adjustment_reason": "high_shelf의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 reaching_up/three_quarter/documentary35로 확정."
+    }
+  ],
+  "check": "passed with this session own existing reservation excluded; same six choice records are present in remote ledger commit 0f0f5a4",
+  "reservation_commit": "0f0f5a4",
+  "reservation_at": "2026-10-20T21:16:11+00:00",
+  "retries": []
+}

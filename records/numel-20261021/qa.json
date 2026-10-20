@@ -1,0 +1,77 @@
+{
+  "status": "accepted",
+  "tool": "built-in image_gen",
+  "image_count": 9,
+  "requested_count": 9,
+  "canonical": {
+    "source": "/workspace/scratch/bfe543f08193/generated_images/exec-11b2cbf4-b1b7-46ae-9dac-8384a5c4b40c.png",
+    "file": "둔타_light_glossy_promo_f.webp",
+    "path": "/workspace/scratch/bfe543f08193/pkm-atelier-img-2/img/둔타_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "fec082521b54279275056c26a44d6efbddbe2ab0fdb6a5271b3b24f0bd6699da",
+    "reference_slot": null,
+    "style": "glossy_promo",
+    "style_basis": "Actual generator DOM captured in light-ui.json",
+    "tool": "built-in image_gen"
+  },
+  "checks": {
+    "all_1024x1536": true,
+    "single_adult_woman": true,
+    "identity_preserved": true,
+    "no_visible_letters_or_labels": true,
+    "hands_reviewed_at_original_size": true,
+    "open_pairs_keep_camera_pose_armor": true
+  },
+  "casual_observations": [
+    "캠핑 텐트와 취사 도구 옆에서 양손으로 담요를 접고 있다. 올리브 탱크와 모래색 반바지의 어깨·배·다리가 드러나고 손이 담요를 쥐고 있다. gaze는 아래 대신 카메라, 환경 중심 와이드보다 인물 크기가 크다 — 선택값은 유지하고 차이만 기록.",
+    "서킷 배리어 앞에서 체크 깃발을 잡고 걷는다. 열린 노란 크롭 재킷·녹색 밴도·쇼츠·부츠가 분리되며 배와 허벅지가 드러난다. 완전한 mid-turn보다 앞 3/4에 가깝다 — 기록만 한다. 배경 관중은 얼굴 식별 없는 작은 형체.",
+    "주방 높은 선반의 바구니를 두 손으로 붙잡아 꺼낸다. 노란 미니 원피스의 열린 등·옆허리·허벅지가 보인다. 손과 팔이 자연스럽게 이어지고 웃는 표정이다."
+  ],
+  "comparison": {
+    "characters": [
+      "샤크니아",
+      "고래왕자",
+      "고래왕"
+    ],
+    "actual_images_reviewed": true,
+    "observation": "둔타는 담요를 접는 낮은 무릎 자세·야간 레이싱 전신 걸음·주방에서 팔을 들어 수납함을 꺼내는 장면으로 배경, 활동과 옷 실루엣이 구분된다. 최근의 바다·베리 요리·도예·정장 카지노·사리·수영 장면과 묶음이 다르다."
+  },
+  "face": {
+    "rationale": "낙타의 완만한 등과 둔감한 분위기를 완만한 타원 윤곽과 낮은 눈꺼풀로 해석한다.",
+    "source": {
+      "name": "둔타",
+      "en": "Numel",
+      "color": "yellow",
+      "shape": "quadruped",
+      "features": [
+        {
+          "part": "hump",
+          "detail": "volcanic hump with green summit"
+        },
+        {
+          "part": "marking",
+          "detail": "small green hump spots"
+        },
+        {
+          "part": "body",
+          "detail": "yellow quadrupedal camel"
+        },
+        {
+          "part": "eye",
+          "detail": "brown eye rings"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Numel_%28Pok%C3%A9mon%29",
+      "revision": 4630381,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "9b71b564ab32ae8b37730b1c484f92fdbe2e6a34854e53b62e2d87115afd6a28",
+      "method": "source-checked-correction",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "final_sentence": "(her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; drooping eyes, medium size, downturned outer corners, wide-set; fine soft arches; broad low bridge nose; medium lips."
+  }
+}

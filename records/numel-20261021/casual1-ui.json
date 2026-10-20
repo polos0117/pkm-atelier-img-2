@@ -1,0 +1,159 @@
+{
+  "storage": {
+    "last": "둔타",
+    "cards": {
+      "둔타": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "",
+          "eye color": "brown",
+          "body type": "soft-figured"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A warm ochre volcanic plateau with green fumaroles in the distance.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "curious",
+            "pose": "kneeling",
+            "orient": "looking_down",
+            "scene": "Pale dawn light crosses a desert campsite; the blanket has ochre and sage stripes.",
+            "outfit": "A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "travel_exploration",
+            "catCustom": "",
+            "ex": "travel_camp",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Numel (둔타) personified, fire / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: one brow raised higher, head tilted, eyes wide and attentive, lips slightly parted\nPose: Kneel in a stable supported position suited to a low task or interaction.\nOrientation: gaze directed downward; camera height unchanged\nScene: Pale dawn light crosses a desert campsite; the blanket has ochre and sage stripes.\nOutfit and props: A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs.\nCategory: Show travel or peaceful field exploration in the Pokémon world, with useful travel clothing and a specific activity. Let the environment support the woman without overwhelming her or turning the scene into combat.\nExample scene: Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "looking_away",
+      "final": "looking_down",
+      "reason": "travel_camp의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 looking_down/environmental/wide24로 확정."
+    },
+    "frame": {
+      "drawn": "chest_up",
+      "final": "environmental",
+      "reason": "travel_camp의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 looking_down/environmental/wide24로 확정."
+    },
+    "lens": {
+      "drawn": "wide24",
+      "final": "wide24",
+      "reason": "travel_camp의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 looking_down/environmental/wide24로 확정."
+    }
+  },
+  "axis_reasons": {
+    "action_level": "Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite. 의 활동 속도에 맞춘 값 mostly active",
+    "source_influence": "A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs. 에서 원작 배색과 무늬의 비중 subtle",
+    "separates_preference": "tank, shorts 구성에서 분리되는 옷 조합을 반영한다."
+  },
+  "input_reasons": {
+    "scene": "맞는 선택지 없음 — travel_camp 예시에는 시간대·빛·구체 소품이 없어 이를 보충: Pale dawn light crosses a desert campsite; the blanket has ochre and sage stripes.",
+    "outfit": "의상 전용 선택지 없음 — travel_camp 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs.",
+    "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+  },
+  "plan": {
+    "cut": 1,
+    "cat": "travel_exploration",
+    "ex": "travel_camp",
+    "expr": "curious",
+    "pose": "kneeling",
+    "orient": "looking_down",
+    "frame": "environmental",
+    "lens": "wide24",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "tank",
+      "shorts"
+    ],
+    "aspect": "2:3",
+    "scene": "Pale dawn light crosses a desert campsite; the blanket has ochre and sage stripes.",
+    "outfit": "A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs.",
+    "example_text": "Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite.",
+    "axis_reasons": {
+      "action_level": "Folding a camping blanket beside a small tent and a neatly arranged cooking kit at a quiet campsite. 의 활동 속도에 맞춘 값 mostly active",
+      "source_influence": "A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs. 에서 원작 배색과 무늬의 비중 subtle",
+      "separates_preference": "tank, shorts 구성에서 분리되는 옷 조합을 반영한다."
+    },
+    "input_reasons": {
+      "scene": "맞는 선택지 없음 — travel_camp 예시에는 시간대·빛·구체 소품이 없어 이를 보충: Pale dawn light crosses a desert campsite; the blanket has ochre and sage stripes.",
+      "outfit": "의상 전용 선택지 없음 — travel_camp 예시의 구조를 유지하고 소재·배색과 드러나는 부위를 지정: A cropped olive tank and sand-coloured trail shorts exposing shoulders, waist and legs.",
+      "camera": "이미지 도구에 크기 인수가 없어 규정된 2:3 문장만 추가."
+    },
+    "random_adjustment_reason": "travel_camp의 활동과 손동작을 읽고 장부 구도 짝과 중복을 피하기 위해 looking_down/environmental/wide24로 확정."
+  }
+}
