@@ -1,0 +1,171 @@
+{
+  "storage": {
+    "last": "렌트라",
+    "cards": {
+      "렌트라": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "hair color": "black",
+          "eye color": "gold",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A storm-lit stone terrace, controlled electric sparks glancing off rain-dark paving.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "looking_down",
+            "scene": "Amber task lamps illuminate a timber repair stall at the evening market.",
+            "outfit": "A cobalt halter knit top leaves her shoulders and upper back open, paired with black fitted leggings and a leather tool belt.",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "test_engineer",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Luxray (렌트라) personified, electric type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: gaze directed downward; camera height unchanged\nScene: Amber task lamps illuminate a timber repair stall at the evening market.\nOutfit and props: A cobalt halter knit top leaves her shoulders and upper back open, paired with black fitted leggings and a leather tool belt.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Poké Ball repair artisan using precision tools to adjust a ball latch on a padded workbench.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {},
+  "axis_reasons": {
+    "action_level": "볼 잠금장치에 정밀 도구를 쓰는 동작이 중심",
+    "source_influence": "검정과 코발트 작업복 색만 남김",
+    "separates_preference": "니트 상의와 레깅스를 별개로 입음"
+  },
+  "input_reasons": [
+    {
+      "field": "scene",
+      "content": "Amber task lamps illuminate a timber repair stall at the evening market.",
+      "reason": "선택한 예시의 구체적인 활동 장소와 시간대 보충"
+    },
+    {
+      "field": "outfit",
+      "content": "A cobalt halter knit top leaves her shoulders and upper back open, paired with black fitted leggings and a leather tool belt.",
+      "reason": "렌트라 1번 예시에 없는 홀터 니트와 레깅스의 작업복 구조를 지정"
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "생성 도구에 크기 인수가 없어 비율 문장으로 지정"
+    }
+  ],
+  "plan": {
+    "cut": 1,
+    "cat": "occupation_basic",
+    "ex": "test_engineer",
+    "expr": "focused",
+    "pose": "mid_action",
+    "orient": "looking_down",
+    "frame": "chest_up",
+    "lens": "portrait85",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "strongly prefer separates"
+    },
+    "garments": [
+      "knit_top",
+      "leggings"
+    ],
+    "scene": "Amber task lamps illuminate a timber repair stall at the evening market.",
+    "outfit": "A cobalt halter knit top leaves her shoulders and upper back open, paired with black fitted leggings and a leather tool belt.",
+    "axis_reasons": {
+      "action_level": "볼 잠금장치에 정밀 도구를 쓰는 동작이 중심",
+      "source_influence": "검정과 코발트 작업복 색만 남김",
+      "separates_preference": "니트 상의와 레깅스를 별개로 입음"
+    },
+    "input_reasons": [
+      {
+        "field": "scene",
+        "content": "Amber task lamps illuminate a timber repair stall at the evening market.",
+        "reason": "선택한 예시의 구체적인 활동 장소와 시간대 보충"
+      },
+      {
+        "field": "outfit",
+        "content": "A cobalt halter knit top leaves her shoulders and upper back open, paired with black fitted leggings and a leather tool belt.",
+        "reason": "렌트라 1번 예시에 없는 홀터 니트와 레깅스의 작업복 구조를 지정"
+      },
+      {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "생성 도구에 크기 인수가 없어 비율 문장으로 지정"
+      }
+    ],
+    "locked": [
+      "overall_intensity",
+      "skin_exposure",
+      "aspect"
+    ],
+    "random_used": false,
+    "example_text": "Poké Ball repair artisan using precision tools to adjust a ball latch on a padded workbench."
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "session": "gpt-luxray-budew-20261021",
+  "characters": [
+    {
+      "card": "렌트라",
+      "species": "luxray-20261021",
+      "params": {
+        "hair color": "black",
+        "eye color": "gold",
+        "body type": "athletic"
+      },
+      "wear": "A shaggy black mane becomes a layered short mantle, cobalt panels and three yellow half-ring trims articulate her gauntlets, and a star-tip shape finishes a narrow trailing belt sash.",
+      "scene": "A storm-lit stone terrace, controlled electric sparks glancing off rain-dark paving.",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "occupation_basic",
+          "ex": "test_engineer",
+          "expr": "focused",
+          "pose": "mid_action",
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "strongly prefer separates"
+          },
+          "garments": [
+            "knit_top",
+            "leggings"
+          ],
+          "scene": "Amber task lamps illuminate a timber repair stall at the evening market.",
+          "outfit": "A cobalt halter knit top leaves her shoulders and upper back open, paired with black fitted leggings and a leather tool belt.",
+          "axis_reasons": {
+            "action_level": "볼 잠금장치에 정밀 도구를 쓰는 동작이 중심",
+            "source_influence": "검정과 코발트 작업복 색만 남김",
+            "separates_preference": "니트 상의와 레깅스를 별개로 입음"
+          },
+          "input_reasons": [
+            {
+              "field": "scene",
+              "content": "Amber task lamps illuminate a timber repair stall at the evening market.",
+              "reason": "선택한 예시의 구체적인 활동 장소와 시간대 보충"
+            },
+            {
+              "field": "outfit",
+              "content": "A cobalt halter knit top leaves her shoulders and upper back open, paired with black fitted leggings and a leather tool belt.",
+              "reason": "렌트라 1번 예시에 없는 홀터 니트와 레깅스의 작업복 구조를 지정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 인수가 없어 비율 문장으로 지정"
+            }
+          ],
+          "locked": [
+            "overall_intensity",
+            "skin_exposure",
+            "aspect"
+          ],
+          "random_used": false,
+          "example_text": "Poké Ball repair artisan using precision tools to adjust a ball latch on a padded workbench."
+        },
+        {
+          "cut": 2,
+          "cat": "private_evening",
+          "ex": "night_drive",
+          "expr": "relieved",
+          "pose": "perched_seat",
+          "orient": "profile_close",
+          "frame": "waist_up",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "jumpsuit"
+          ],
+          "scene": "Coastal highway lights stream across the convertible windshield in the blue-black night; she steadies a small clutch beside the passenger seat.",
+          "outfit": "A black strapless jumpsuit with cobalt piping and a curved waist cut-out exposes shoulders and one side of the waist.",
+          "axis_reasons": {
+            "action_level": "안전띠를 푸는 작은 움직임",
+            "source_influence": "검정 파랑 배색과 곡선 파이핑으로 전기 모티프를 조금 강조",
+            "separates_preference": "한 벌인 점프슈트"
+          },
+          "input_reasons": [
+            {
+              "field": "scene",
+              "content": "Coastal highway lights stream across the convertible windshield in the blue-black night; she steadies a small clutch beside the passenger seat.",
+              "reason": "선택한 야간 이동 장면에 해안 고속도로와 클러치를 추가"
+            },
+            {
+              "field": "outfit",
+              "content": "A black strapless jumpsuit with cobalt piping and a curved waist cut-out exposes shoulders and one side of the waist.",
+              "reason": "렌트라 2번 예시에 없는 검정 스트랩리스 점프슈트의 허리 컷아웃를 지정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 인수가 없어 비율 문장으로 지정"
+            }
+          ],
+          "locked": [
+            "overall_intensity",
+            "skin_exposure",
+            "aspect"
+          ],
+          "random_used": false,
+          "example_text": "in the passenger seat at night in a light evening outfit, looking out at passing lights"
+        },
+        {
+          "cut": 3,
+          "cat": "lingerie",
+          "ex": "slip_lingerie",
+          "expr": "pensive",
+          "pose": "standing_formal",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "slip"
+          ],
+          "scene": "At a hotel dressing alcove, she places a pair of earrings into a ceramic tray before bed.",
+          "outfit": "The opaque midnight-blue satin slip has an open back, narrow shoulder straps and a short straight hem revealing her back and thighs.",
+          "axis_reasons": {
+            "action_level": "장신구를 정리하며 잠깐 멈춘 순간",
+            "source_influence": "짙은 파란색만 원작과 이어짐",
+            "separates_preference": "하나로 이어진 슬립 재단"
+          },
+          "input_reasons": [
+            {
+              "field": "scene",
+              "content": "At a hotel dressing alcove, she places a pair of earrings into a ceramic tray before bed.",
+              "reason": "선택한 예시의 구체적인 활동 장소와 시간대 보충"
+            },
+            {
+              "field": "outfit",
+              "content": "The opaque midnight-blue satin slip has an open back, narrow shoulder straps and a short straight hem revealing her back and thighs.",
+              "reason": "렌트라 3번 예시에 없는 슬립의 열린 등과 짧은 기장를 지정"
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "생성 도구에 크기 인수가 없어 비율 문장으로 지정"
+            }
+          ],
+          "locked": [
+            "overall_intensity",
+            "skin_exposure",
+            "aspect"
+          ],
+          "random_used": false,
+          "example_text": "a bias-cut satin lingerie slip with narrow straps and a straight hem"
+        }
+      ]
+    }
+  ]
+}
