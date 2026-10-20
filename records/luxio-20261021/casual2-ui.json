@@ -1,0 +1,158 @@
+{
+  "storage": {
+    "last": "럭시오",
+    "cards": {
+      "럭시오": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "black",
+          "eye color": "gold",
+          "body type": "statuesque"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A storm-lit stone arena with angular shadows, blue thunderclouds and yellow electrical arcs.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "rear_3q",
+            "scene": "A copper telescope points over the open observatory deck at dusk as she adjusts its focus knob beside a spread of constellation cards.",
+            "outfit": "A sky-blue short-sleeve blouse tied at the waist over high-waisted black shorts, exposing forearms, a band of midriff and legs.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "night_observatory",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Luxio (럭시오) personified, electric type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: rear three-quarter view showing back and one flank\nScene: A copper telescope points over the open observatory deck at dusk as she adjusts its focus knob beside a spread of constellation cards.\nOutfit and props: A sky-blue short-sleeve blouse tied at the waist over high-waisted black shorts, exposing forearms, a band of midriff and legs.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character. Use glamorous tailoring and confident professional presence while keeping the outfit credible for the task.\nExample scene: Pokémon stargazing guide positioning a telescope and arranging constellation cards at an outdoor observatory.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "ui_method": "Actual Preact generator DOM; repository harness sends select/input/change/click events",
+  "random_draws": {
+    "orient": {
+      "drawn": "leaning_back",
+      "final": "rear_3q",
+      "reason": "night_observatory에서 얼굴과 손 활동이 읽히는 기존 계획값 유지."
+    },
+    "frame": {
+      "drawn": "environmental",
+      "final": "environmental",
+      "reason": "night_observatory에서 얼굴과 손 활동이 읽히는 기존 계획값 유지."
+    },
+    "lens": {
+      "drawn": "natural50",
+      "final": "wide24",
+      "reason": "night_observatory에서 얼굴과 손 활동이 읽히는 기존 계획값 유지."
+    }
+  },
+  "axis_reasons": {
+    "source_influence": "night_observatory의 장면에 맞춰 평상복의 파란 배색을 사용.",
+    "action_level": "A copper telescope points over the open observatory deck at dusk as she adjusts its focus knob beside a spread of constellation cards.",
+    "separates_preference": "실제 의상 구조: blouse, shorts"
+  },
+  "input_reasons": {
+    "scene": "맞는 선택지 없음 — 예시에 없는 시간대·조명·손 활동 보충: A copper telescope points over the open observatory deck at dusk as she adjusts its focus knob beside a spread of constellation cards.",
+    "outfit": "맞는 선택지 없음 — 의상 전용 선택지가 없어 소재·배색·노출 부위를 지정: A sky-blue short-sleeve blouse tied at the waist over high-waisted black shorts, exposing forearms, a band of midriff and legs.",
+    "camera": "도구 크기 인수가 없어 세로2:3문장만 추가."
+  },
+  "plan": {
+    "cut": 2,
+    "cat": "occupation_sensual",
+    "ex": "night_observatory",
+    "expr": "focused",
+    "pose": "mid_action",
+    "orient": "rear_3q",
+    "frame": "environmental",
+    "lens": "wide24",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "strongly prefer separates"
+    },
+    "garments": [
+      "blouse",
+      "shorts"
+    ],
+    "scene": "A copper telescope points over the open observatory deck at dusk as she adjusts its focus knob beside a spread of constellation cards.",
+    "outfit": "A sky-blue short-sleeve blouse tied at the waist over high-waisted black shorts, exposing forearms, a band of midriff and legs.",
+    "aspect": "2:3",
+    "axis_reasons": {
+      "source_influence": "night_observatory의 장면에 맞춰 평상복의 파란 배색을 사용.",
+      "action_level": "A copper telescope points over the open observatory deck at dusk as she adjusts its focus knob beside a spread of constellation cards.",
+      "separates_preference": "실제 의상 구조: blouse, shorts"
+    },
+    "input_reasons": {
+      "scene": "맞는 선택지 없음 — 예시에 없는 시간대·조명·손 활동 보충: A copper telescope points over the open observatory deck at dusk as she adjusts its focus knob beside a spread of constellation cards.",
+      "outfit": "맞는 선택지 없음 — 의상 전용 선택지가 없어 소재·배색·노출 부위를 지정: A sky-blue short-sleeve blouse tied at the waist over high-waisted black shorts, exposing forearms, a band of midriff and legs.",
+      "camera": "도구 크기 인수가 없어 세로2:3문장만 추가."
+    },
+    "random_adjustment_reason": "night_observatory에서 얼굴과 손 활동이 읽히는 기존 계획값 유지."
+  }
+}
