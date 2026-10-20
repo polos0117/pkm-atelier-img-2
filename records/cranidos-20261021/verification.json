@@ -1,0 +1,23 @@
+{
+  "originals": 9,
+  "thumbnails": 9,
+  "remote_blob_hashes_match": true,
+  "dex_slots": 9,
+  "code_commit": "241084a4ba06aa101b5efa8d40568ae55e6248ae",
+  "thumbnail_workflow": {
+    "id": 39512490534,
+    "conclusion": "success"
+  },
+  "registration_workflow": {
+    "id": 39512777225,
+    "conclusion": "success"
+  },
+  "checks": [
+    "register-images --check",
+    "forms",
+    "face-design --check",
+    "face-design.cjs",
+    "patch",
+    "img-shards"
+  ]
+}
