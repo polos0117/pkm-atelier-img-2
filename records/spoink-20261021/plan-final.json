@@ -1,0 +1,636 @@
+{
+  "batch_plan": {
+    "session": "torkoal-spoink-20261021-35d3",
+    "characters": [
+      {
+        "no": 324,
+        "card": "코터스",
+        "species": "torkoal-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_picnic",
+            "expr": "gentle",
+            "pose": "kneeling",
+            "orient": "looking_down",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "knit_top",
+              "trousers"
+            ],
+            "scene": "Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.",
+            "outfit": "A rust-orange off-shoulder knit top and charcoal culottes with high side slits, exposing her shoulders, collarbones and lower legs.",
+            "example_text": "Unpacking a picnic lunch and sliced berries on a blanket beside a travel basket.",
+            "axis_reasons": {
+              "action_level": "Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.",
+              "source_influence": "food_picnic: subtle 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+              "separates_preference": "food_picnic의 knit_top, trousers 구조에 맞춰 prefer separates 선택."
+            },
+            "input_reasons": {
+              "scene": "Unpacking a picnic lunch and sliced berries on a blanket beside a travel basket. 예시에 없는 시간대·조명·작업 소품을 보충: Golden late-afternoon light falls across a grassy volcanic foothill; she opens the lunch box and unwraps sliced berries on the picnic blanket.",
+              "outfit": "food_picnic 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A rust-orange off-shoulder knit top and charcoal culottes with high side slits, exposing her shoulders, collarbones and lower legs.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "food_picnic의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "thermal_spa",
+            "expr": "relieved",
+            "pose": "standing_relaxed",
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.",
+            "outfit": "An opaque copper-orange halter one-piece with a deep scoop back and high-cut legs, exposing shoulders, back and thighs; charcoal piping traces rounded shell-like segments.",
+            "example_text": "in swimwear at a modern thermal spa pool, steam rising off the water",
+            "axis_reasons": {
+              "action_level": "Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.",
+              "source_influence": "thermal_spa: strong 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+              "separates_preference": "thermal_spa의 swimsuit 구조에 맞춰 balanced 선택."
+            },
+            "input_reasons": {
+              "scene": "in swimwear at a modern thermal spa pool, steam rising off the water 예시에 없는 시간대·조명·작업 소품을 보충: Amber lamps glow through steam above the stone-edged spa water at dusk; she rests her forearms on the warm pool rim.",
+              "outfit": "thermal_spa 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An opaque copper-orange halter one-piece with a deep scoop back and high-cut legs, exposing shoulders, back and thighs; charcoal piping traces rounded shell-like segments.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "thermal_spa의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "art_studio",
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "side",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "shirt",
+              "shorts"
+            ],
+            "scene": "After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.",
+            "outfit": "A paint-splattered charcoal shirt knotted above the waist and slipping from one shoulder over copper shorts, exposing a shoulder, midriff and thighs.",
+            "example_text": "After-hours Art Studio",
+            "axis_reasons": {
+              "action_level": "After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.",
+              "source_influence": "art_studio: strong 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+              "separates_preference": "art_studio의 shirt, shorts 구조에 맞춰 prefer separates 선택."
+            },
+            "input_reasons": {
+              "scene": "After-hours Art Studio 예시에 없는 시간대·조명·작업 소품을 보충: After a clay sculpture session in a ceramic workshop, she cleans a wooden modelling tool over a basin beside the drying shelf; skylight mixes with a warm task lamp.",
+              "outfit": "art_studio 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A paint-splattered charcoal shirt knotted above the waist and slipping from one shoulder over copper shorts, exposing a shoulder, midriff and thighs.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "art_studio의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+          }
+        ],
+        "params": {
+          "apparent age": "20s",
+          "hair color": "auburn",
+          "eye color": "amber",
+          "body type": "athletic"
+        },
+        "wear": "A black rock-like shell becomes a rounded segmented shoulder mantle with glowing ember vents; dark limb bands become charcoal armor edging, and smoke curls from the mantle seams.",
+        "scene": "A volcanic stone terrace with ember-lit cracks and thin drifting white smoke."
+      },
+      {
+        "no": 325,
+        "card": "피그점프",
+        "species": "spoink-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "babydoll",
+            "expr": "sleepy",
+            "pose": "hands_in_hair",
+            "orient": "reaching_up",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "slip"
+            ],
+            "scene": "Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror.",
+            "outfit": "An opaque dusty-pink babydoll lingerie slip in soft chiffon over a solid lining, with narrow straps and a gently flared mid-thigh hem, exposing shoulders, upper back and legs.",
+            "example_text": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem",
+            "axis_reasons": {
+              "action_level": "Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror.",
+              "source_influence": "babydoll: subtle 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+              "separates_preference": "babydoll의 slip 구조에 맞춰 balanced 선택."
+            },
+            "input_reasons": {
+              "scene": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem 예시에 없는 시간대·조명·작업 소품을 보충: Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror.",
+              "outfit": "babydoll 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An opaque dusty-pink babydoll lingerie slip in soft chiffon over a solid lining, with narrow straps and a gently flared mid-thigh hem, exposing shoulders, upper back and legs.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "babydoll의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정.",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": {
+                "drawn": "reclining",
+                "final": "reaching_up",
+                "reason": "babydoll의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+              },
+              "frame": {
+                "drawn": "three_quarter",
+                "final": "three_quarter",
+                "reason": "babydoll의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+              },
+              "lens": {
+                "drawn": "portrait85",
+                "final": "portrait85",
+                "reason": "babydoll의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+              }
+            },
+            "input_fields": [
+              {
+                "field": "scene",
+                "content": "Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror.",
+                "reason": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem 예시에 없는 시간대·조명·작업 소품을 보충: Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror."
+              },
+              {
+                "field": "outfit",
+                "content": "An opaque dusty-pink babydoll lingerie slip in soft chiffon over a solid lining, with narrow straps and a gently flared mid-thigh hem, exposing shoulders, upper back and legs.",
+                "reason": "babydoll 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An opaque dusty-pink babydoll lingerie slip in soft chiffon over a solid lining, with narrow straps and a gently flared mid-thigh hem, exposing shoulders, upper back and legs."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+              }
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "dance_transition",
+            "expr": "playful",
+            "pose": "dance_step",
+            "orient": "turning_midmotion",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "swimsuit",
+              "skirt"
+            ],
+            "scene": "In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows.",
+            "outfit": "A lavender open-back leotard and a short charcoal wrap skirt, exposing shoulders, back and legs.",
+            "example_text": "mid weight-shift in a dance studio in a leotard and wrap skirt, captured between two steps",
+            "axis_reasons": {
+              "action_level": "In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows.",
+              "source_influence": "dance_transition: subtle 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+              "separates_preference": "dance_transition의 swimsuit, skirt 구조에 맞춰 strongly prefer separates 선택."
+            },
+            "input_reasons": {
+              "scene": "Dance Practice Transition 예시에 없는 시간대·조명·작업 소품을 보충: In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows.",
+              "outfit": "dance_transition 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A lavender open-back leotard and a short charcoal wrap skirt, exposing shoulders, back and legs.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "dance_transition의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정.",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": {
+                "drawn": "looking_down",
+                "final": "turning_midmotion",
+                "reason": "dance_transition의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+              },
+              "frame": {
+                "drawn": "waist_up",
+                "final": "environmental",
+                "reason": "dance_transition의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+              },
+              "lens": {
+                "drawn": "telephoto135",
+                "final": "wide24",
+                "reason": "dance_transition의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+              }
+            },
+            "input_fields": [
+              {
+                "field": "scene",
+                "content": "In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows.",
+                "reason": "Dance Practice Transition 예시에 없는 시간대·조명·작업 소품을 보충: In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows."
+              },
+              {
+                "field": "outfit",
+                "content": "A lavender open-back leotard and a short charcoal wrap skirt, exposing shoulders, back and legs.",
+                "reason": "dance_transition 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A lavender open-back leotard and a short charcoal wrap skirt, exposing shoulders, back and legs."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+              }
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "tea_ceremony_night",
+            "expr": "pensive",
+            "pose": "sitting",
+            "orient": "seated_twist",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced",
+              "overall_intensity": "strong",
+              "skin_exposure": "bold"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table.",
+            "outfit": "An elegant charcoal-and-mauve robe-like wrap dress with a low wide neckline and a high slit, exposing shoulders, collarbones and one thigh; a tiny pink bead fastens the wrap.",
+            "example_text": "in a quiet evening room in an elegant robe-like dress, arranging tea cups and utensils",
+            "axis_reasons": {
+              "action_level": "Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table.",
+              "source_influence": "tea_ceremony_night: strong 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+              "separates_preference": "tea_ceremony_night의 dress 구조에 맞춰 balanced 선택."
+            },
+            "input_reasons": {
+              "scene": "야간 다실 예시에 없는 종이 미닫이문·등불과 도구 정리의 손동작을 보충: Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table.",
+              "outfit": "tea_ceremony_night 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An elegant charcoal-and-mauve robe-like wrap dress with a low wide neckline and a high slit, exposing shoulders, collarbones and one thigh; a tiny pink bead fastens the wrap.",
+              "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+            },
+            "random_adjustment_reason": "tea_ceremony_night의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정.",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": {
+                "drawn": "crouching",
+                "final": "seated_twist",
+                "reason": "tea_ceremony_night의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+              },
+              "frame": {
+                "drawn": "detail",
+                "final": "chest_up",
+                "reason": "tea_ceremony_night의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+              },
+              "lens": {
+                "drawn": "documentary35",
+                "final": "telephoto135",
+                "reason": "tea_ceremony_night의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+              }
+            },
+            "input_fields": [
+              {
+                "field": "scene",
+                "content": "Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table.",
+                "reason": "야간 다실 예시에 없는 종이 미닫이문·등불과 도구 정리의 손동작을 보충: Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table."
+              },
+              {
+                "field": "outfit",
+                "content": "An elegant charcoal-and-mauve robe-like wrap dress with a low wide neckline and a high slit, exposing shoulders, collarbones and one thigh; a tiny pink bead fastens the wrap.",
+                "reason": "tea_ceremony_night 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An elegant charcoal-and-mauve robe-like wrap dress with a low wide neckline and a high slit, exposing shoulders, collarbones and one thigh; a tiny pink bead fastens the wrap."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+              }
+            ]
+          }
+        ],
+        "params": {
+          "apparent age": "20s",
+          "hair color": "gray",
+          "eye color": "pink",
+          "body type": "curvy"
+        },
+        "wear": "Small ears become rounded temple ornaments, a pink pearl becomes a smooth forehead jewel, and the spring tail becomes a coiled silver-gray waist sash with a curved trailing hem.",
+        "scene": "A lavender-lit stone courtyard with small pink psychic rings floating above the paving."
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "babydoll",
+      "expr": "sleepy",
+      "pose": "hands_in_hair",
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "slip"
+      ],
+      "scene": "Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror.",
+      "outfit": "An opaque dusty-pink babydoll lingerie slip in soft chiffon over a solid lining, with narrow straps and a gently flared mid-thigh hem, exposing shoulders, upper back and legs.",
+      "example_text": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem",
+      "axis_reasons": {
+        "action_level": "Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror.",
+        "source_influence": "babydoll: subtle 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+        "separates_preference": "babydoll의 slip 구조에 맞춰 balanced 선택."
+      },
+      "input_reasons": {
+        "scene": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem 예시에 없는 시간대·조명·작업 소품을 보충: Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror.",
+        "outfit": "babydoll 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An opaque dusty-pink babydoll lingerie slip in soft chiffon over a solid lining, with narrow straps and a gently flared mid-thigh hem, exposing shoulders, upper back and legs.",
+        "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+      },
+      "random_adjustment_reason": "babydoll의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정.",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": {
+          "drawn": "reclining",
+          "final": "reaching_up",
+          "reason": "babydoll의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+        },
+        "frame": {
+          "drawn": "three_quarter",
+          "final": "three_quarter",
+          "reason": "babydoll의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+        },
+        "lens": {
+          "drawn": "portrait85",
+          "final": "portrait85",
+          "reason": "babydoll의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+        }
+      },
+      "input_fields": [
+        {
+          "field": "scene",
+          "content": "Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror.",
+          "reason": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem 예시에 없는 시간대·조명·작업 소품을 보충: Soft morning light filters through pale curtains in a dressing room as she checks her hair beside a round vanity mirror."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque dusty-pink babydoll lingerie slip in soft chiffon over a solid lining, with narrow straps and a gently flared mid-thigh hem, exposing shoulders, upper back and legs.",
+          "reason": "babydoll 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An opaque dusty-pink babydoll lingerie slip in soft chiffon over a solid lining, with narrow straps and a gently flared mid-thigh hem, exposing shoulders, upper back and legs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "active",
+      "ex": "dance_transition",
+      "expr": "playful",
+      "pose": "dance_step",
+      "orient": "turning_midmotion",
+      "frame": "environmental",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "strongly prefer separates",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "swimsuit",
+        "skirt"
+      ],
+      "scene": "In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows.",
+      "outfit": "A lavender open-back leotard and a short charcoal wrap skirt, exposing shoulders, back and legs.",
+      "example_text": "mid weight-shift in a dance studio in a leotard and wrap skirt, captured between two steps",
+      "axis_reasons": {
+        "action_level": "In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows.",
+        "source_influence": "dance_transition: subtle 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+        "separates_preference": "dance_transition의 swimsuit, skirt 구조에 맞춰 strongly prefer separates 선택."
+      },
+      "input_reasons": {
+        "scene": "Dance Practice Transition 예시에 없는 시간대·조명·작업 소품을 보충: In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows.",
+        "outfit": "dance_transition 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A lavender open-back leotard and a short charcoal wrap skirt, exposing shoulders, back and legs.",
+        "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+      },
+      "random_adjustment_reason": "dance_transition의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정.",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": {
+          "drawn": "looking_down",
+          "final": "turning_midmotion",
+          "reason": "dance_transition의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+        },
+        "frame": {
+          "drawn": "waist_up",
+          "final": "environmental",
+          "reason": "dance_transition의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+        },
+        "lens": {
+          "drawn": "telephoto135",
+          "final": "wide24",
+          "reason": "dance_transition의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+        }
+      },
+      "input_fields": [
+        {
+          "field": "scene",
+          "content": "In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows.",
+          "reason": "Dance Practice Transition 예시에 없는 시간대·조명·작업 소품을 보충: In a dance studio with a pale wooden floor, she moves between two rehearsal steps as sunset falls through high windows."
+        },
+        {
+          "field": "outfit",
+          "content": "A lavender open-back leotard and a short charcoal wrap skirt, exposing shoulders, back and legs.",
+          "reason": "dance_transition 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: A lavender open-back leotard and a short charcoal wrap skirt, exposing shoulders, back and legs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "private_evening",
+      "ex": "tea_ceremony_night",
+      "expr": "pensive",
+      "pose": "sitting",
+      "orient": "seated_twist",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced",
+        "overall_intensity": "strong",
+        "skin_exposure": "bold"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table.",
+      "outfit": "An elegant charcoal-and-mauve robe-like wrap dress with a low wide neckline and a high slit, exposing shoulders, collarbones and one thigh; a tiny pink bead fastens the wrap.",
+      "example_text": "in a quiet evening room in an elegant robe-like dress, arranging tea cups and utensils",
+      "axis_reasons": {
+        "action_level": "Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table.",
+        "source_influence": "tea_ceremony_night: strong 정도로 선택; 의상 문장의 원작 색과 무늬 배분을 따른다.",
+        "separates_preference": "tea_ceremony_night의 dress 구조에 맞춰 balanced 선택."
+      },
+      "input_reasons": {
+        "scene": "야간 다실 예시에 없는 종이 미닫이문·등불과 도구 정리의 손동작을 보충: Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table.",
+        "outfit": "tea_ceremony_night 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An elegant charcoal-and-mauve robe-like wrap dress with a low wide neckline and a high slit, exposing shoulders, collarbones and one thigh; a tiny pink bead fastens the wrap.",
+        "camera": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+      },
+      "random_adjustment_reason": "tea_ceremony_night의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정.",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": {
+          "drawn": "crouching",
+          "final": "seated_twist",
+          "reason": "tea_ceremony_night의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+        },
+        "frame": {
+          "drawn": "detail",
+          "final": "chest_up",
+          "reason": "tea_ceremony_night의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+        },
+        "lens": {
+          "drawn": "documentary35",
+          "final": "telephoto135",
+          "reason": "tea_ceremony_night의 구체적 손 활동을 읽을 수 있고 최근 구도 짝을 피하도록 확정."
+        }
+      },
+      "input_fields": [
+        {
+          "field": "scene",
+          "content": "Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table.",
+          "reason": "야간 다실 예시에 없는 종이 미닫이문·등불과 도구 정리의 손동작을 보충: Under warm lantern light in a paper-screen tea room at night, she sets a small ceramic cup next to the teapot and aligns a bamboo tea scoop on the low table."
+        },
+        {
+          "field": "outfit",
+          "content": "An elegant charcoal-and-mauve robe-like wrap dress with a low wide neckline and a high slit, exposing shoulders, collarbones and one thigh; a tiny pink bead fastens the wrap.",
+          "reason": "tea_ceremony_night 예시의 복종을 유지하면서 정해지지 않은 재질·배색과 드러나는 부위를 보충: An elegant charcoal-and-mauve robe-like wrap dress with a low wide neckline and a high slit, exposing shoulders, collarbones and one thigh; a tiny pink bead fastens the wrap."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 인수가 없어 규정된 2:3 문장만 넣는다."
+        }
+      ]
+    }
+  ],
+  "ledger_check": "passed before reservation and generation",
+  "reservation_commit": "126ff1394ef933cbac79b0454485d3a00fa00b82",
+  "reservation_time": "2026-10-20T22:30:28Z",
+  "reference_rule": "light for heavy/mobility/casual; corresponding closed form plus light for opened forms",
+  "tool": "built-in image_gen; actual DOM generator prompts stored as slot.txt",
+  "reservation_updates": [
+    {
+      "commit": "c7cf62aacbdac16945094072da8ad2c6682d797a",
+      "reason": "다실 예시의 다구 정리 활동을 scene에 그대로 반영; 고정값 유지"
+    }
+  ],
+  "face_checkpoint": {
+    "reason": "원작의 원형 눈과 넓고 둥근 코를 둥근 눈매·짧고 넓은 얼굴·사람의 둥근 코끝으로 해석한다. 시뇽은 에스퍼형의 정돈된 곡선을 보존하며, 돼지 주둥이는 복제하지 않는다.",
+    "source": "data/source-appearance.json entries.325; docs/CHARACTER_FACE_DESIGNS.md #325",
+    "final_face_line": "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; balanced jawline; open rounded eyes, medium size, level outer corners, average spacing; fine soft arches; rounded soft tip nose; medium lips.",
+    "canonical": {
+      "source": "/workspace/scratch/35d3c174deed/generated_images/exec-63e35af2-4c44-4c43-b228-3170d8f50521.png",
+      "file": "피그점프_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "770db70b1ecef8a11536ca174f0ce84ce291246eb08e7ed9bef8f2a8ad38cfcd",
+      "source_sha256": "c6e57f3af5476bec1b36b039fa25fba2d6cfa836737215fa0ce9375be4abb33e",
+      "reference": [],
+      "prompt": "pkm-atelier-img-2/records/spoink-20261021/light.txt",
+      "status": "generated, inspected, pending remote commit"
+    },
+    "compared": [
+      "코터스",
+      "꼬몽울",
+      "폭타",
+      "럭시오"
+    ],
+    "observation": "피그점프는 짧고 넓은 볼·부드러운 턱·둥근 코끝과 열린 눈, 코터스는 긴 각진 턱과 가는 콧대, 꼬몽울은 더 뾰족하고 짧은 턱, 폭타는 넓은 직선 광대와 긴 코, 럭시오는 좁은 턱·날카로운 눈매로 구분된다."
+  },
+  "actual_action_params": {
+    "apparent age": "20s",
+    "hair color": "",
+    "eye color": "pink",
+    "body type": "curvy"
+  },
+  "parameter_note": "생성기에 없는 머리색 값은 빈 자동 값으로 정규화되었다. 실제 제출값은 light-ui.json과 light.txt가 정본이며, 이후는 경장 이미지의 실제 색을 유지했다."
+}
