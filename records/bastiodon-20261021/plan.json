@@ -1,0 +1,520 @@
+{
+  "name": "바리톱스",
+  "slug": "bastiodon-20261021",
+  "no": 411,
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "occupation_sensual",
+      "ex": "gallery_curator",
+      "expr": "focused",
+      "pose": "mid_action",
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "scene": "Amber spotlights illuminate inset fossil casts and miniature habitat dioramas on a long museum plinth.",
+      "outfit": "A charcoal tailored short jumpsuit has a square neckline, open shoulder line and side-waist cutouts, exposing shoulders, waist and thighs; four small cream window-shaped appliques edge the belt.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "input_reasons": {
+        "scene": "Museum exhibit surfaces and warm illumination are absent from the curator example.",
+        "outfit": "The example supplies no garment; architectural tailoring and four cream squares echo the shield palette.",
+        "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+      },
+      "axis_reasons": {
+        "action_level": "Placing small models is the active focus.",
+        "source_influence": "The cream window shapes clearly recall Bastiodon.",
+        "separates_preference": "A tailored romper is one integrated garment."
+      },
+      "random_draws": {
+        "orient": "looking_down",
+        "frame": "chest_up",
+        "lens": "wide24"
+      },
+      "random_adjustments": {
+        "orient": {
+          "from": "looking_down",
+          "to": "low_angle",
+          "reason": "Use the reserved gallery_curator composition; the planned low_angle/waist_up shows its activity and avoids ledger pairs."
+        },
+        "frame": {
+          "from": "chest_up",
+          "to": "waist_up",
+          "reason": "Use the reserved gallery_curator composition; the planned low_angle/waist_up shows its activity and avoids ledger pairs."
+        },
+        "lens": {
+          "from": "wide24",
+          "to": "natural50",
+          "reason": "Use the reserved gallery_curator composition; the planned low_angle/waist_up shows its activity and avoids ledger pairs."
+        }
+      },
+      "example_text": "Example scene: Pokémon natural-history curator arranging habitat illustrations and small models in a museum gallery."
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "monokini",
+      "expr": "relieved",
+      "pose": "perched_seat",
+      "orient": "reclining",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "scene": "A pale travertine pool terrace faces a sheltered rocky bay at sunset; she rests on the broad dry stone coping with her feet on the paving.",
+      "outfit": "Matte ivory fabric with charcoal side trim leaves shoulders, side waist and upper thighs visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "input_reasons": {
+        "scene": "The monokini example has no location or activity; a resting moment on stone coping establishes both.",
+        "outfit": "Ivory fabric and charcoal trim specify the otherwise unspecified monokini colours.",
+        "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+      },
+      "axis_reasons": {
+        "action_level": "Resting on coping is a paused pose.",
+        "source_influence": "Ivory and charcoal echo the original palette without shield shapes.",
+        "separates_preference": "The joined central panel forms one swimsuit."
+      },
+      "random_draws": {
+        "orient": "front_3q",
+        "frame": "environmental",
+        "lens": "portrait85"
+      },
+      "random_adjustments": {
+        "orient": {
+          "from": "front_3q",
+          "to": "reclining",
+          "reason": "Use the reserved monokini composition; the planned reclining/full_body shows its activity and avoids ledger pairs."
+        },
+        "frame": {
+          "from": "environmental",
+          "to": "full_body",
+          "reason": "Use the reserved monokini composition; the planned reclining/full_body shows its activity and avoids ledger pairs."
+        },
+        "lens": {
+          "from": "portrait85",
+          "to": "documentary35",
+          "reason": "Use the reserved monokini composition; the planned reclining/full_body shows its activity and avoids ledger pairs."
+        }
+      },
+      "example_text": "Example scene: a sculptural monokini with asymmetric side cut-outs joined by a solid central panel"
+    },
+    {
+      "cut": 3,
+      "cat": "wildcard",
+      "ex": "ferry_deck",
+      "expr": "amused",
+      "pose": "carrying_something",
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "garments": [
+        "knit_top",
+        "trousers"
+      ],
+      "scene": "A coastal ferry rounds a limestone headland in bright sea wind; she gathers a loose sunhat ribbon with both hands at the rail.",
+      "outfit": "A cream backless halter knit top and charcoal high-slit wide-leg trousers reveal shoulders, upper back and one thigh. Four rectangular ivory insets punctuate the charcoal waistband.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "input_reasons": {
+        "scene": "The ferry-deck title supplies no activity; catching a loose hat ribbon gives a readable hand task.",
+        "outfit": "Separate knitwear and flowing slit trousers create a travel silhouette absent from the title.",
+        "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+      },
+      "axis_reasons": {
+        "action_level": "Gathering the ribbon is gentle ongoing motion.",
+        "source_influence": "Four cream rectangular waist insets and charcoal blocking strongly echo Bastiodon’s window-like spots.",
+        "separates_preference": "The halter top and trousers are visibly separate pieces."
+      },
+      "random_draws": {
+        "orient": "reaching_up",
+        "frame": "environmental",
+        "lens": "portrait85"
+      },
+      "random_adjustments": {
+        "orient": {
+          "from": "reaching_up",
+          "to": "looking_away",
+          "reason": "Use the reserved ferry_deck composition; the planned looking_away/three_quarter shows its activity and avoids ledger pairs."
+        },
+        "frame": {
+          "from": "environmental",
+          "to": "three_quarter",
+          "reason": "Use the reserved ferry_deck composition; the planned looking_away/three_quarter shows its activity and avoids ledger pairs."
+        },
+        "lens": {
+          "from": "portrait85",
+          "to": "wide24",
+          "reason": "Use the reserved ferry_deck composition; the planned looking_away/three_quarter shows its activity and avoids ledger pairs."
+        }
+      },
+      "example_text": "Example scene: on a ferry deck by the rail in a breezy dress and light jacket, facing the wind"
+    }
+  ],
+  "batch": {
+    "session": "bastiodon-burmy-20261021-5630",
+    "characters": [
+      {
+        "card": "바리톱스",
+        "species": "bastiodon-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_sensual",
+            "ex": "gallery_curator",
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "low_angle",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "scene": "Amber spotlights illuminate inset fossil casts and miniature habitat dioramas on a long museum plinth.",
+            "outfit": "A charcoal tailored short jumpsuit has a square neckline, open shoulder line and side-waist cutouts, exposing shoulders, waist and thighs; four small cream window-shaped appliques edge the belt.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "Museum exhibit surfaces and warm illumination are absent from the curator example.",
+              "outfit": "The example supplies no garment; architectural tailoring and four cream squares echo the shield palette.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Placing small models is the active focus.",
+              "source_influence": "The cream window shapes clearly recall Bastiodon.",
+              "separates_preference": "A tailored romper is one integrated garment."
+            },
+            "random_draws": {
+              "orient": "looking_down",
+              "frame": "chest_up",
+              "lens": "wide24"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "looking_down",
+                "to": "low_angle",
+                "reason": "Use the reserved gallery_curator composition; the planned low_angle/waist_up shows its activity and avoids ledger pairs."
+              },
+              "frame": {
+                "from": "chest_up",
+                "to": "waist_up",
+                "reason": "Use the reserved gallery_curator composition; the planned low_angle/waist_up shows its activity and avoids ledger pairs."
+              },
+              "lens": {
+                "from": "wide24",
+                "to": "natural50",
+                "reason": "Use the reserved gallery_curator composition; the planned low_angle/waist_up shows its activity and avoids ledger pairs."
+              }
+            },
+            "example_text": "Example scene: Pokémon natural-history curator arranging habitat illustrations and small models in a museum gallery."
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "monokini",
+            "expr": "relieved",
+            "pose": "perched_seat",
+            "orient": "reclining",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "A pale travertine pool terrace faces a sheltered rocky bay at sunset; she rests on the broad dry stone coping with her feet on the paving.",
+            "outfit": "Matte ivory fabric with charcoal side trim leaves shoulders, side waist and upper thighs visible.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The monokini example has no location or activity; a resting moment on stone coping establishes both.",
+              "outfit": "Ivory fabric and charcoal trim specify the otherwise unspecified monokini colours.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Resting on coping is a paused pose.",
+              "source_influence": "Ivory and charcoal echo the original palette without shield shapes.",
+              "separates_preference": "The joined central panel forms one swimsuit."
+            },
+            "random_draws": {
+              "orient": "front_3q",
+              "frame": "environmental",
+              "lens": "portrait85"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "front_3q",
+                "to": "reclining",
+                "reason": "Use the reserved monokini composition; the planned reclining/full_body shows its activity and avoids ledger pairs."
+              },
+              "frame": {
+                "from": "environmental",
+                "to": "full_body",
+                "reason": "Use the reserved monokini composition; the planned reclining/full_body shows its activity and avoids ledger pairs."
+              },
+              "lens": {
+                "from": "portrait85",
+                "to": "documentary35",
+                "reason": "Use the reserved monokini composition; the planned reclining/full_body shows its activity and avoids ledger pairs."
+              }
+            },
+            "example_text": "Example scene: a sculptural monokini with asymmetric side cut-outs joined by a solid central panel"
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "ferry_deck",
+            "expr": "amused",
+            "pose": "carrying_something",
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "knit_top",
+              "trousers"
+            ],
+            "scene": "A coastal ferry rounds a limestone headland in bright sea wind; she gathers a loose sunhat ribbon with both hands at the rail.",
+            "outfit": "A cream backless halter knit top and charcoal high-slit wide-leg trousers reveal shoulders, upper back and one thigh. Four rectangular ivory insets punctuate the charcoal waistband.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The ferry-deck title supplies no activity; catching a loose hat ribbon gives a readable hand task.",
+              "outfit": "Separate knitwear and flowing slit trousers create a travel silhouette absent from the title.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Gathering the ribbon is gentle ongoing motion.",
+              "source_influence": "Four cream rectangular waist insets and charcoal blocking strongly echo Bastiodon’s window-like spots.",
+              "separates_preference": "The halter top and trousers are visibly separate pieces."
+            },
+            "random_draws": {
+              "orient": "reaching_up",
+              "frame": "environmental",
+              "lens": "portrait85"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "reaching_up",
+                "to": "looking_away",
+                "reason": "Use the reserved ferry_deck composition; the planned looking_away/three_quarter shows its activity and avoids ledger pairs."
+              },
+              "frame": {
+                "from": "environmental",
+                "to": "three_quarter",
+                "reason": "Use the reserved ferry_deck composition; the planned looking_away/three_quarter shows its activity and avoids ledger pairs."
+              },
+              "lens": {
+                "from": "portrait85",
+                "to": "wide24",
+                "reason": "Use the reserved ferry_deck composition; the planned looking_away/three_quarter shows its activity and avoids ledger pairs."
+              }
+            },
+            "example_text": "Example scene: on a ferry deck by the rail in a breezy dress and light jacket, facing the wind"
+          }
+        ]
+      },
+      {
+        "card": "도롱충이",
+        "species": "burmy-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "balcony_plants",
+            "expr": "gentle",
+            "pose": "watering",
+            "orient": "front",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Terracotta herb pots crowd a sun-warmed balcony rail; a small brass watering can sends a thin stream into the nearest pot.",
+            "outfit": "The sage rib-knit dress has a deep square neckline and open shoulders, with a low back exposing shoulder blades and collarbones.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The balcony example leaves plant varieties and watering vessel unspecified.",
+              "outfit": "The example fixes a fitted knit dress; neckline and low-back construction add its missing cut details.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Pouring water makes the plant-care task active.",
+              "source_influence": "Only the sage colour recalls the leaf cloak.",
+              "separates_preference": "The fitted knit dress is a single garment."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_photo",
+            "expr": "curious",
+            "pose": "sitting",
+            "orient": "over_shoulder",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "blouse",
+              "shorts"
+            ],
+            "scene": "A cafe table beneath a striped awning catches late-afternoon light, with dappled woodland images spread beside the scrapbook.",
+            "outfit": "A saffron sleeveless wrap blouse ties above the waist over indigo shorts, exposing shoulders, midriff and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "Awning light and woodland photograph subjects are not fixed by the photo-sorting example.",
+              "outfit": "The photo example has no clothing; wrap blouse and shorts suit a warm cafe afternoon.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Sorting paper photographs is a small seated movement.",
+              "source_influence": "The outfit avoids literal creature motifs and uses only a restrained natural colour echo.",
+              "separates_preference": "Blouse and shorts remain two distinct pieces."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "night_robe",
+            "expr": "sleepy",
+            "pose": "leaning_furniture",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "robe",
+              "lingerie_set"
+            ],
+            "scene": "Beside a low cedar bedside chest she closes a small wooden jewellery box under a warm reading lamp.",
+            "outfit": "Moss-green silk with leaf-vein embroidery borders a black opaque lingerie set; the robe is short and loosely open at the front with its sash tied low, showing collarbones, midriff and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The night-robe example has no room or hand activity; closing a jewellery box establishes bedtime tidying.",
+              "outfit": "Moss silk, black fabric and leaf-vein stitching give the unspecified set a strong source motif.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Finishing with the small box is a stationary bedside gesture.",
+              "source_influence": "Leaf-vein embroidery and green-over-black layering clearly reference the leafy cloak.",
+              "separates_preference": "A separate top, matching bottoms and silk robe form distinct layers."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "reservation_commit": "4b6bbb997589a27379ff2f38e549f652e98ff66d",
+  "checkpoint": "9/9 generated; review notes in qa.json",
+  "check_result": "계획 통과 — 2명"
+}
