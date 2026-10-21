@@ -10151,8 +10151,153 @@
      ]
     }
    ]
+  },
+  {
+   "species": "servine-20261022",
+   "card": "샤비",
+   "status": "reserved",
+   "session": "servine-serperior-20261022",
+   "at": "2026-10-21T16:13:11-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "festivals_contests",
+     "ex": "fest_lantern",
+     "expr": "curious",
+     "pose": "walking",
+     "orient": "turning_midmotion",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "kept": true
+    },
+    {
+     "cut": 2,
+     "cat": "adult_roleplay",
+     "ex": "adult_nurse",
+     "expr": "playful",
+     "pose": "hands_in_hair",
+     "orient": "front",
+     "frame": "full_body",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "uniform",
+      "dress"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "homewear",
+     "ex": "camisole_wrap",
+     "expr": "pensive",
+     "pose": "perched_seat",
+     "orient": "seated_twist",
+     "frame": "waist_up",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "tank",
+      "skirt"
+     ],
+     "kept": true
+    }
+   ],
+   "refill": true
+  },
+  {
+   "species": "serperior-20261022",
+   "card": "샤로다",
+   "status": "reserved",
+   "session": "servine-serperior-20261022",
+   "at": "2026-10-21T16:13:11-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "private_evening",
+     "ex": "tea_ceremony_night",
+     "expr": "calm",
+     "pose": "preparing_food",
+     "orient": "high_angle",
+     "frame": "three_quarter",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates"
+     },
+     "garments": [
+      "blouse",
+      "skirt",
+      "traditional"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "everyday_sensual",
+     "ex": "balcony_plants",
+     "expr": "gentle",
+     "pose": "watering",
+     "orient": "side",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "thermal_spa",
+     "expr": "relieved",
+     "pose": "leaning_furniture",
+     "orient": "leaning_back",
+     "frame": "full_body",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ]
+    }
+   ]
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-21T16:04:19-07:00"
+ "updated": "2026-10-21T16:13:11-07:00"
 }
