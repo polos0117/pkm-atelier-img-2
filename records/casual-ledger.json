@@ -9768,8 +9768,147 @@
      ]
     }
    ]
+  },
+  {
+   "species": "seviper-20261022",
+   "card": "세비퍼",
+   "status": "reserved",
+   "session": "seviper-lunatone-20261022",
+   "at": "2026-10-21T15:19:42-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "shoreline_walk",
+     "expr": "confident",
+     "pose": "walking",
+     "orient": "side",
+     "frame": "full_body",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "bikini"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "occupation_basic",
+     "ex": "hazmat_specialist",
+     "expr": "focused",
+     "pose": "mid_action",
+     "orient": "leaning_forward",
+     "frame": "waist_up",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "jumpsuit"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "private_evening",
+     "ex": "opera_night",
+     "expr": "pensive",
+     "pose": "standing_formal",
+     "orient": "leaning_back",
+     "frame": "three_quarter",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ]
+    }
+   ]
+  },
+  {
+   "species": "lunatone-20261022",
+   "card": "루나톤",
+   "status": "reserved",
+   "session": "seviper-lunatone-20261022",
+   "at": "2026-10-21T15:19:42-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "moonlit_pool",
+     "expr": "curious",
+     "pose": "holding_cup",
+     "orient": "front",
+     "frame": "chest_up",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "lingerie",
+     "ex": "satin_set",
+     "expr": "calm",
+     "pose": "leaning_furniture",
+     "orient": "reaching_up",
+     "frame": "full_body",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "lingerie_set"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "active",
+     "ex": "yoga_flow",
+     "expr": "determined",
+     "pose": "stretching",
+     "orient": "front_3q",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "strongly prefer separates"
+     },
+     "garments": [
+      "crop_top",
+      "leggings"
+     ]
+    }
+   ]
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-21T15:18:14-07:00"
+ "updated": "2026-10-21T15:19:42-07:00"
 }
