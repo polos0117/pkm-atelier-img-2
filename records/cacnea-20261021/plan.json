@@ -1,0 +1,537 @@
+{
+  "card": "선인왕",
+  "slug": "cacnea-20261021",
+  "style": "glossy_promo",
+  "image_tool": "built-in image_gen",
+  "batch_plan": {
+    "session": "gpt-flygon-cacnea-20261021",
+    "characters": [
+      {
+        "card": "플라이곤",
+        "species": "flygon-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "slip_lingerie",
+            "expr": "pensive",
+            "pose": "standing_relaxed",
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "slip"
+            ],
+            "scene": "In an amber-lit dressing salon at dusk, she holds a folded red silk ribbon beside an arched window.",
+            "outfit": "Opaque jade satin with a red rhombus-patterned hem; the low back and mid-thigh length reveal her back, shoulders and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536)."
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "flight_supervisor",
+            "expr": "focused",
+            "pose": "checking_map",
+            "orient": "looking_down",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "scene": "The landing terrace overlooks desert mesas at dawn; the passenger harness lies open on a low equipment table.",
+            "outfit": "A sand-coloured utility romper with a halter neckline and short legs exposes shoulders and thighs, with a narrow olive belt.",
+            "camera": "Vertical 2:3 portrait (1024×1536)."
+          },
+          {
+            "cut": 3,
+            "cat": "active",
+            "ex": "archery_draw",
+            "expr": "determined",
+            "pose": "mid_action",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "scene": "On an outdoor archery range at noon, she draws a recurve bow toward a distant straw target.",
+            "outfit": "A red cropped athletic tank and low-rise olive trousers with high side splits reveal her midriff, shoulders and outer thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536)."
+          }
+        ]
+      },
+      {
+        "card": "선인왕",
+        "species": "cacnea-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "balcony_plants",
+            "expr": "gentle",
+            "pose": "watering",
+            "orient": "side",
+            "frame": "full_body",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Terracotta cactus pots line a white stucco balcony in warm morning light; water falls from a small brass watering can.",
+            "outfit": "A fitted ochre knit mini dress with an asymmetric off-shoulder neckline reveals collarbones, one shoulder and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "watering balcony plants in a fitted knit dress, morning light across the railing",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "front_3q",
+              "frame": "chest_up",
+              "lens": "telephoto135"
+            },
+            "random_adjustments": {
+              "orient": {
+                "original": "front_3q",
+                "chosen": "side",
+                "reason": "balcony_plants: the chosen orient preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              },
+              "frame": {
+                "original": "chest_up",
+                "chosen": "full_body",
+                "reason": "balcony_plants: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              },
+              "lens": {
+                "original": "telephoto135",
+                "chosen": "natural50",
+                "reason": "balcony_plants: the chosen lens preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              }
+            },
+            "axis_reasons": {
+              "action_level": "Tilting the watering can is gentle domestic movement.",
+              "source_influence": "Ochre colour alone echoes the flower bud.",
+              "separates_preference": "A fitted knitted mini dress is one piece."
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Terracotta cactus pots line a white stucco balcony in warm morning light; water falls from a small brass watering can.",
+                "reason": "Adds cactus pots, brass watering can and stucco architecture to the balcony example."
+              },
+              {
+                "field": "outfit",
+                "content": "A fitted ochre knit mini dress with an asymmetric off-shoulder neckline reveals collarbones, one shoulder and legs.",
+                "reason": "Specifies ochre colour, asymmetric neckline and mini length within the selected knit dress."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+              }
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "expr": "proud",
+            "pose": "waving",
+            "orient": "turning_midmotion",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "coat",
+              "shorts",
+              "uniform"
+            ],
+            "scene": "Inside a striped rehearsal tent, she signals the opening cue beside a circular wooden platform in late-afternoon spotlights.",
+            "outfit": "A cropped open emerald tailcoat over a gold halter waistcoat and fitted black shorts reveals her shoulders, waist and thighs; gold braid trims the cuffs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a circus ringmaster costume with a tailcoat, high boots, and a top hat, under a tent canopy",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "profile_close",
+              "frame": "environmental",
+              "lens": "documentary35"
+            },
+            "random_adjustments": {
+              "orient": {
+                "original": "profile_close",
+                "chosen": "turning_midmotion",
+                "reason": "circus_ringmaster: the chosen orient preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              },
+              "frame": {
+                "original": "environmental",
+                "chosen": "three_quarter",
+                "reason": "circus_ringmaster: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              }
+            },
+            "axis_reasons": {
+              "action_level": "Her raised cue hand and turn belong to an ongoing rehearsal.",
+              "source_influence": "Emerald tailoring is the modest cactus colour echo.",
+              "separates_preference": "Waistcoat and shorts are separate garments under an open tailcoat."
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Inside a striped rehearsal tent, she signals the opening cue beside a circular wooden platform in late-afternoon spotlights.",
+                "reason": "Adds the rehearsal-cue activity and wooden platform to the costume example."
+              },
+              {
+                "field": "outfit",
+                "content": "A cropped open emerald tailcoat over a gold halter waistcoat and fitted black shorts reveals her shoulders, waist and thighs; gold braid trims the cuffs.",
+                "reason": "Specifies emerald open cropped tailoring, a halter waistcoat and shorts within ringmaster fashion."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+              }
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "travel_exploration",
+            "ex": "travel_lakeside",
+            "expr": "relieved",
+            "pose": "perched_seat",
+            "orient": "looking_away",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "scene": "Autumn reeds border a turquoise lake beneath evening light; she raises a steel water bottle during the break.",
+            "outfit": "Short moss-green overalls with a wide open back over a yellow bandeau reveal shoulders, upper back and legs, with tiny triangular embroidered pocket edges.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Taking a water break on a flat lakeside rock, with walking shoes and a travel bag clearly grounded.",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "over_shoulder",
+              "frame": "full_body",
+              "lens": "portrait85"
+            },
+            "random_adjustments": {
+              "orient": {
+                "original": "over_shoulder",
+                "chosen": "looking_away",
+                "reason": "travel_lakeside: the chosen orient preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              },
+              "frame": {
+                "original": "full_body",
+                "chosen": "waist_up",
+                "reason": "travel_lakeside: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              }
+            },
+            "axis_reasons": {
+              "action_level": "The seated bottle break is a held resting moment.",
+              "source_influence": "Moss green, yellow and triangular stitching echo the cactus.",
+              "separates_preference": "The overalls are combined with a separate yellow bandeau."
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Autumn reeds border a turquoise lake beneath evening light; she raises a steel water bottle during the break.",
+                "reason": "Adds autumn reeds, evening light and the steel bottle to the lakeside rest example."
+              },
+              {
+                "field": "outfit",
+                "content": "Short moss-green overalls with a wide open back over a yellow bandeau reveal shoulders, upper back and legs, with tiny triangular embroidered pocket edges.",
+                "reason": "Specifies moss-green short overalls, yellow bandeau and triangular stitching absent from the travel example."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_sensual",
+      "ex": "balcony_plants",
+      "expr": "gentle",
+      "pose": "watering",
+      "orient": "side",
+      "frame": "full_body",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "Terracotta cactus pots line a white stucco balcony in warm morning light; water falls from a small brass watering can.",
+      "outfit": "A fitted ochre knit mini dress with an asymmetric off-shoulder neckline reveals collarbones, one shoulder and legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "watering balcony plants in a fitted knit dress, morning light across the railing",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "front_3q",
+        "frame": "chest_up",
+        "lens": "telephoto135"
+      },
+      "random_adjustments": {
+        "orient": {
+          "original": "front_3q",
+          "chosen": "side",
+          "reason": "balcony_plants: the chosen orient preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        },
+        "frame": {
+          "original": "chest_up",
+          "chosen": "full_body",
+          "reason": "balcony_plants: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        },
+        "lens": {
+          "original": "telephoto135",
+          "chosen": "natural50",
+          "reason": "balcony_plants: the chosen lens preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        }
+      },
+      "axis_reasons": {
+        "action_level": "Tilting the watering can is gentle domestic movement.",
+        "source_influence": "Ochre colour alone echoes the flower bud.",
+        "separates_preference": "A fitted knitted mini dress is one piece."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Terracotta cactus pots line a white stucco balcony in warm morning light; water falls from a small brass watering can.",
+          "reason": "Adds cactus pots, brass watering can and stucco architecture to the balcony example."
+        },
+        {
+          "field": "outfit",
+          "content": "A fitted ochre knit mini dress with an asymmetric off-shoulder neckline reveals collarbones, one shoulder and legs.",
+          "reason": "Specifies ochre colour, asymmetric neckline and mini length within the selected knit dress."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "circus_ringmaster",
+      "expr": "proud",
+      "pose": "waving",
+      "orient": "turning_midmotion",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "coat",
+        "shorts",
+        "uniform"
+      ],
+      "scene": "Inside a striped rehearsal tent, she signals the opening cue beside a circular wooden platform in late-afternoon spotlights.",
+      "outfit": "A cropped open emerald tailcoat over a gold halter waistcoat and fitted black shorts reveals her shoulders, waist and thighs; gold braid trims the cuffs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a circus ringmaster costume with a tailcoat, high boots, and a top hat, under a tent canopy",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "profile_close",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "random_adjustments": {
+        "orient": {
+          "original": "profile_close",
+          "chosen": "turning_midmotion",
+          "reason": "circus_ringmaster: the chosen orient preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        },
+        "frame": {
+          "original": "environmental",
+          "chosen": "three_quarter",
+          "reason": "circus_ringmaster: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        }
+      },
+      "axis_reasons": {
+        "action_level": "Her raised cue hand and turn belong to an ongoing rehearsal.",
+        "source_influence": "Emerald tailoring is the modest cactus colour echo.",
+        "separates_preference": "Waistcoat and shorts are separate garments under an open tailcoat."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Inside a striped rehearsal tent, she signals the opening cue beside a circular wooden platform in late-afternoon spotlights.",
+          "reason": "Adds the rehearsal-cue activity and wooden platform to the costume example."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped open emerald tailcoat over a gold halter waistcoat and fitted black shorts reveals her shoulders, waist and thighs; gold braid trims the cuffs.",
+          "reason": "Specifies emerald open cropped tailoring, a halter waistcoat and shorts within ringmaster fashion."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "travel_exploration",
+      "ex": "travel_lakeside",
+      "expr": "relieved",
+      "pose": "perched_seat",
+      "orient": "looking_away",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "scene": "Autumn reeds border a turquoise lake beneath evening light; she raises a steel water bottle during the break.",
+      "outfit": "Short moss-green overalls with a wide open back over a yellow bandeau reveal shoulders, upper back and legs, with tiny triangular embroidered pocket edges.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "Taking a water break on a flat lakeside rock, with walking shoes and a travel bag clearly grounded.",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "over_shoulder",
+        "frame": "full_body",
+        "lens": "portrait85"
+      },
+      "random_adjustments": {
+        "orient": {
+          "original": "over_shoulder",
+          "chosen": "looking_away",
+          "reason": "travel_lakeside: the chosen orient preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        },
+        "frame": {
+          "original": "full_body",
+          "chosen": "waist_up",
+          "reason": "travel_lakeside: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        }
+      },
+      "axis_reasons": {
+        "action_level": "The seated bottle break is a held resting moment.",
+        "source_influence": "Moss green, yellow and triangular stitching echo the cactus.",
+        "separates_preference": "The overalls are combined with a separate yellow bandeau."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Autumn reeds border a turquoise lake beneath evening light; she raises a steel water bottle during the break.",
+          "reason": "Adds autumn reeds, evening light and the steel bottle to the lakeside rest example."
+        },
+        {
+          "field": "outfit",
+          "content": "Short moss-green overalls with a wide open back over a yellow bandeau reveal shoulders, upper back and legs, with tiny triangular embroidered pocket edges.",
+          "reason": "Specifies moss-green short overalls, yellow bandeau and triangular stitching absent from the travel example."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+        }
+      ]
+    }
+  ],
+  "ledger_check": "계획 통과 — 2명",
+  "reservation_commit": "e6c4a364a1c9e0c5a0106bc66d1e3b6be9b70dec",
+  "skipped": [],
+  "regenerations": [
+    {
+      "cut": "casual2",
+      "rejected": "exec-bd6565ff-b8b4-479a-af0b-826896c9ac9f.png",
+      "reason": "Tailcoat sleeves covered the requested bare shoulders.",
+      "input_change": "Partial sleeve correction using light plus target; same scene and outfit selections retained. Braid transferred to lapels. See correction prompt."
+    }
+  ]
+}
