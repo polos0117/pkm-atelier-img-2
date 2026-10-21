@@ -1,0 +1,116 @@
+{
+  "storage": {
+    "last": "방패톱스",
+    "cards": {
+      "방패톱스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "Dark pewter elliptical chest and shoulder plates with ivory raised edging echo the shield face; a white brow-shaped slim headband and ivory boot tips repeat its pale details.",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "black",
+          "eye color": "amber",
+          "body type": ""
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "An ancient stone gateway with moss-lined paving and cool morning light across a fortified courtyard.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "calm",
+            "pose": "sitting",
+            "orient": "looking_down",
+            "scene": "Amber pendants illuminate the walnut corner seat and a garnet reflection in the stemmed glass beside an open menu.",
+            "outfit": "A pewter evening mini dress with ivory edging, a deep V neckline and a high side slit exposes collarbones, arms and thighs.",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "private_evening",
+            "catCustom": "",
+            "ex": "wine_bar",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Shieldon (방패톱스) personified, rock / steel type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nMOTIFS to echo lightly: Dark pewter elliptical chest and shoulder plates with ivory raised edging echo the shield face; a white brow-shaped slim headband and ivory boot tips repeat its pale details..\n\nSCENE (chosen):\nExpression: relaxed brow, softly open eyes, lips closed and unstrained, no smile\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: gaze directed downward; camera height unchanged\nScene: Amber pendants illuminate the walnut corner seat and a garnet reflection in the stemmed glass beside an open menu.\nOutfit and props: A pewter evening mini dress with ivory edging, a deep V neckline and a high side slit exposes collarbones, arms and thighs.\nCategory: Create mature private evening fashion scenes with intimate but non-explicit atmosphere. Use elegant, attractive, clearly adult styling, confident body language, and believable private-life context.\nExample scene: in a corner seat of a wine bar in an evening dress, looking over a glass and menu\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "random_draws": {
+    "orient": "turning_midmotion",
+    "frame": "face_close",
+    "lens": "telephoto135"
+  },
+  "random_adjustments": {
+    "orient": {
+      "from": "turning_midmotion",
+      "to": "looking_down",
+      "reason": "Use the reserved wine_bar composition; the planned looking_down/three_quarter shows its activity and avoids ledger pairs."
+    },
+    "frame": {
+      "from": "face_close",
+      "to": "three_quarter",
+      "reason": "Use the reserved wine_bar composition; the planned looking_down/three_quarter shows its activity and avoids ledger pairs."
+    },
+    "lens": {
+      "from": "telephoto135",
+      "to": "portrait85",
+      "reason": "Use the reserved wine_bar composition; the planned looking_down/three_quarter shows its activity and avoids ledger pairs."
+    }
+  }
+}

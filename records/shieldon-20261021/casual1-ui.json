@@ -1,0 +1,116 @@
+{
+  "storage": {
+    "last": "방패톱스",
+    "cards": {
+      "방패톱스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "Dark pewter elliptical chest and shoulder plates with ivory raised edging echo the shield face; a white brow-shaped slim headband and ivory boot tips repeat its pale details.",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "black",
+          "eye color": "amber",
+          "body type": ""
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "An ancient stone gateway with moss-lined paving and cool morning light across a fortified courtyard.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "pensive",
+            "pose": "leaning_furniture",
+            "orient": "leaning_back",
+            "scene": "Beside a lacquered dressing table, she fastens a simple bracelet while lamplight catches the satin.",
+            "outfit": "A silver satin slip with an open back and lace-trimmed low neckline leaves shoulders, upper back and thighs exposed, with a small ivory geometric hem pattern.",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "slip_lingerie",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Shieldon (방패톱스) personified, rock / steel type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nMOTIFS to echo lightly: Dark pewter elliptical chest and shoulder plates with ivory raised edging echo the shield face; a white brow-shaped slim headband and ivory boot tips repeat its pale details..\n\nSCENE (chosen):\nExpression: gaze angled down and away, slightly furrowed brow, lips lightly pressed or touched\nPose: Rest a hand or forearm on a table, counter or railing in a relaxed supported pose.\nOrientation: torso leaning backward with clear support\nScene: Beside a lacquered dressing table, she fastens a simple bracelet while lamplight catches the satin.\nOutfit and props: A silver satin slip with an open back and lace-trimmed low neckline leaves shoulders, upper back and thighs exposed, with a small ivory geometric hem pattern.\nCategory: Use tasteful adult lingerie-inspired evening fashion with full intimate coverage. Describe the garment by its construction — cut, fabric, trim, straps, closures, layers — rather than by mood words. The garments are securely fitted and fully opaque, and the look is suitable for a mainstream evening-fashion editorial. Build the image through framing, silhouette, posture, and lighting rather than exposure.\nExample scene: a bias-cut satin lingerie slip with narrow straps and a straight hem\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "random_draws": {
+    "orient": "front",
+    "frame": "chest_up",
+    "lens": "portrait85"
+  },
+  "random_adjustments": {
+    "orient": {
+      "from": "front",
+      "to": "leaning_back",
+      "reason": "Use the reserved slip_lingerie composition; the planned leaning_back/waist_up shows its activity and avoids ledger pairs."
+    },
+    "frame": {
+      "from": "chest_up",
+      "to": "waist_up",
+      "reason": "Use the reserved slip_lingerie composition; the planned leaning_back/waist_up shows its activity and avoids ledger pairs."
+    },
+    "lens": {
+      "from": "portrait85",
+      "to": "telephoto135",
+      "reason": "Use the reserved slip_lingerie composition; the planned leaning_back/waist_up shows its activity and avoids ledger pairs."
+    }
+  }
+}
