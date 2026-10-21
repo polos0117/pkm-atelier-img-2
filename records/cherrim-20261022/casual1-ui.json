@@ -1,0 +1,133 @@
+{
+  "storage": {
+    "last": "체리꼬",
+    "cards": {
+      "체리꼬": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "amused",
+            "pose": "walking",
+            "orient": "turning_midmotion",
+            "scene": "Lanterns reflect across a canal at blue hour; she carries a small paper tray with one berry pastry.",
+            "outfit": "A lilac off-shoulder blouse tucked into a high-slit green wrap skirt leaves her shoulders and one thigh visible, with a petal-shaped clasp at the waist.",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "festivals_contests",
+            "catCustom": "",
+            "ex": "fest_lantern",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Cherrim (체리꼬) personified, grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: crinkled lower eyelids, closed-lip smile pushing the cheeks up, brows relaxed\nPose: Walk at a comfortable pace with a natural step and arm swing.\nOrientation: mid-turn body motion with equipment following its body mounts\nScene: Lanterns reflect across a canal at blue hour; she carries a small paper tray with one berry pastry.\nOutfit and props: A lilac off-shoulder blouse tucked into a high-slit green wrap skirt leaves her shoulders and one thigh visible, with a petal-shaped clasp at the waist.\nCategory: Show one moment attending a Pokémon-world festival or contest, with an identifiable activity and event props. Preserve the approved identity and let the selected scene determine clothing and mood.\nExample scene: Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "plan": {
+    "cut": 1,
+    "cat": "festivals_contests",
+    "ex": "fest_lantern",
+    "expr": "amused",
+    "pose": "walking",
+    "orient": "turning_midmotion",
+    "frame": "environmental",
+    "lens": "documentary35",
+    "axes": {
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "blouse",
+      "skirt"
+    ],
+    "scene": "Lanterns reflect across a canal at blue hour; she carries a small paper tray with one berry pastry.",
+    "outfit": "A lilac off-shoulder blouse tucked into a high-slit green wrap skirt leaves her shoulders and one thigh visible, with a petal-shaped clasp at the waist."
+  },
+  "example_text": "Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs.",
+  "random": [
+    {
+      "field": "orient",
+      "drawn": "rear_3q",
+      "final": "turning_midmotion",
+      "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+    },
+    {
+      "field": "frame",
+      "drawn": "detail",
+      "final": "environmental",
+      "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+    },
+    {
+      "field": "lens",
+      "drawn": "natural50",
+      "final": "documentary35",
+      "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "batch": {
+    "session": "cherrim-shellos-20261022",
+    "characters": [
+      {
+        "card": "체리꼬",
+        "species": "cherrim-20261022",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "festivals_contests",
+            "ex": "fest_lantern",
+            "expr": "amused",
+            "pose": "walking",
+            "orient": "turning_midmotion",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "blouse",
+              "skirt"
+            ],
+            "scene": "Lanterns reflect across a canal at blue hour; she carries a small paper tray with one berry pastry.",
+            "outfit": "A lilac off-shoulder blouse tucked into a high-slit green wrap skirt leaves her shoulders and one thigh visible, with a petal-shaped clasp at the waist."
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "roller_skating",
+            "expr": "determined",
+            "pose": "mid_action",
+            "orient": "side",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "scene": "She glides through a broad turn on a riverside skating path in clear morning sunlight, arms balancing her movement.",
+            "outfit": "A leaf-green racerback knit top cropped at the waist and high-rise purple running shorts bare her shoulders, midriff and legs, paired with pink quad skates and wrist guards."
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "masquerade",
+            "expr": "confident",
+            "pose": "carrying_something",
+            "orient": "front",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "In a theatre dressing alcove before a masked ball, she finishes tying the ribbon of a feathered eye mask held beside her face.",
+            "outfit": "A plum satin dress has a structured strapless bodice, a full skirt parted by a deep side slit and gold feather embroidery."
+          }
+        ]
+      },
+      {
+        "card": "깝질무",
+        "species": "shellos-20261022",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "knit_lingerie",
+            "expr": "sleepy",
+            "pose": "sitting",
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "scene": "At a breakfast nook she stirs honey into a bowl of yogurt while the first daylight reaches the table.",
+            "outfit": "A mauve ribbed knit-blend lingerie set has a relaxed cropped top, wide secure straps and matching opaque high-waisted bottoms, exposing her shoulders, midriff and upper thighs."
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "record_store",
+            "expr": "curious",
+            "pose": "squatting",
+            "orient": "crouching",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "overalls",
+              "bikini"
+            ],
+            "scene": "In a vinyl record store she lifts a record sleeve from a low crate, inspecting the abstract sea-wave artwork.",
+            "outfit": "Sea-pink short overalls with low sides over a yellow bikini top expose her shoulders, sides and legs; canvas sneakers and a compact satchel complete the look."
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "wrap_swim",
+            "expr": "relieved",
+            "pose": "mid_stride",
+            "orient": "front",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "She steps up a resort pool staircase after a lap, right hand resting on the metal rail as droplets fall into turquoise water.",
+            "outfit": "A fully lined mauve wrap-front swimsuit has a crossed bodice, a secure waist tie and high-cut legs, with a fine pale-yellow edge."
+          }
+        ]
+      }
+    ]
+  },
+  "check": "passed before reservation",
+  "reservation_commit": "adf209379fe442a5567316dfe392cd3c2675295d",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "festivals_contests",
+      "ex": "fest_lantern",
+      "expr": "amused",
+      "pose": "walking",
+      "orient": "turning_midmotion",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "blouse",
+        "skirt"
+      ],
+      "scene": "Lanterns reflect across a canal at blue hour; she carries a small paper tray with one berry pastry.",
+      "outfit": "A lilac off-shoulder blouse tucked into a high-slit green wrap skirt leaves her shoulders and one thigh visible, with a petal-shaped clasp at the waist.",
+      "aspect": "2:3",
+      "example_text": "Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs.",
+      "locked": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random": [
+        {
+          "field": "orient",
+          "drawn": "rear_3q",
+          "final": "turning_midmotion",
+          "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+        },
+        {
+          "field": "frame",
+          "drawn": "detail",
+          "final": "environmental",
+          "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+        },
+        {
+          "field": "lens",
+          "drawn": "natural50",
+          "final": "documentary35",
+          "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Lanterns reflect across a canal at blue hour; she carries a small paper tray with one berry pastry.",
+        "source_influence": "A lilac off-shoulder blouse tucked into a high-slit green wrap skirt leaves her shoulders and one thigh visible, with a petal-shaped clasp at the waist.",
+        "separates_preference": "A lilac off-shoulder blouse tucked into a high-slit green wrap skirt leaves her shoulders and one thigh visible, with a petal-shaped clasp at the waist. — prefer separates를 옷의 상하 분리 여부에 맞춰 선택"
+      },
+      "manual_fields": [
+        {
+          "field": "scene",
+          "content": "Lanterns reflect across a canal at blue hour; she carries a small paper tray with one berry pastry.",
+          "reason": "Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs. 예시에 없는 구체적 활동·장소: Lanterns reflect across a canal at blue hour; she carries a small paper tray with one berry pastry."
+        },
+        {
+          "field": "outfit",
+          "content": "A lilac off-shoulder blouse tucked into a high-slit green wrap skirt leaves her shoulders and one thigh visible, with a petal-shaped clasp at the waist.",
+          "reason": "Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs.의 의상을 바꾸지 않고 다음 구조와 소재를 구체화: A lilac off-shoulder blouse tucked into a high-slit green wrap skirt leaves her shoulders and one thigh visible, with a petal-shaped clasp at the waist."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없으므로 규칙에 따라 비율 지정"
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "active",
+      "ex": "roller_skating",
+      "expr": "determined",
+      "pose": "mid_action",
+      "orient": "side",
+      "frame": "full_body",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "garments": [
+        "knit_top",
+        "shorts"
+      ],
+      "scene": "She glides through a broad turn on a riverside skating path in clear morning sunlight, arms balancing her movement.",
+      "outfit": "A leaf-green racerback knit top cropped at the waist and high-rise purple running shorts bare her shoulders, midriff and legs, paired with pink quad skates and wrist guards.",
+      "aspect": "2:3",
+      "example_text": "Roller-skating Fashion",
+      "locked": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random": [
+        {
+          "field": "orient",
+          "drawn": "leaning_forward",
+          "final": "side",
+          "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+        },
+        {
+          "field": "frame",
+          "drawn": "three_quarter",
+          "final": "full_body",
+          "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+        },
+        {
+          "field": "lens",
+          "drawn": "natural50",
+          "final": "wide24",
+          "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "She glides through a broad turn on a riverside skating path in clear morning sunlight, arms balancing her movement.",
+        "source_influence": "A leaf-green racerback knit top cropped at the waist and high-rise purple running shorts bare her shoulders, midriff and legs, paired with pink quad skates and wrist guards.",
+        "separates_preference": "A leaf-green racerback knit top cropped at the waist and high-rise purple running shorts bare her shoulders, midriff and legs, paired with pink quad skates and wrist guards. — strongly prefer separates를 옷의 상하 분리 여부에 맞춰 선택"
+      },
+      "manual_fields": [
+        {
+          "field": "scene",
+          "content": "She glides through a broad turn on a riverside skating path in clear morning sunlight, arms balancing her movement.",
+          "reason": "Roller-skating Fashion 예시에 없는 구체적 활동·장소: She glides through a broad turn on a riverside skating path in clear morning sunlight, arms balancing her movement."
+        },
+        {
+          "field": "outfit",
+          "content": "A leaf-green racerback knit top cropped at the waist and high-rise purple running shorts bare her shoulders, midriff and legs, paired with pink quad skates and wrist guards.",
+          "reason": "Roller-skating Fashion의 의상을 바꾸지 않고 다음 구조와 소재를 구체화: A leaf-green racerback knit top cropped at the waist and high-rise purple running shorts bare her shoulders, midriff and legs, paired with pink quad skates and wrist guards."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없으므로 규칙에 따라 비율 지정"
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "masquerade",
+      "expr": "confident",
+      "pose": "carrying_something",
+      "orient": "front",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "In a theatre dressing alcove before a masked ball, she finishes tying the ribbon of a feathered eye mask held beside her face.",
+      "outfit": "A plum satin dress has a structured strapless bodice, a full skirt parted by a deep side slit and gold feather embroidery.",
+      "aspect": "2:3",
+      "example_text": "a masquerade costume with a feathered eye mask, a structured bodice, and a full skirt",
+      "locked": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random": [
+        {
+          "field": "orient",
+          "drawn": "leaning_back",
+          "final": "front",
+          "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+        },
+        {
+          "field": "frame",
+          "drawn": "waist_up",
+          "final": "waist_up",
+          "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+        },
+        {
+          "field": "lens",
+          "drawn": "telephoto135",
+          "final": "portrait85",
+          "reason": "장면의 실제 활동과 얼굴·손 가독성, 장부의 중복 검사에 맞춰 최종값 선택"
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "In a theatre dressing alcove before a masked ball, she finishes tying the ribbon of a feathered eye mask held beside her face.",
+        "source_influence": "A plum satin dress has a structured strapless bodice, a full skirt parted by a deep side slit and gold feather embroidery.",
+        "separates_preference": "A plum satin dress has a structured strapless bodice, a full skirt parted by a deep side slit and gold feather embroidery. — balanced를 옷의 상하 분리 여부에 맞춰 선택"
+      },
+      "manual_fields": [
+        {
+          "field": "scene",
+          "content": "In a theatre dressing alcove before a masked ball, she finishes tying the ribbon of a feathered eye mask held beside her face.",
+          "reason": "a masquerade costume with a feathered eye mask, a structured bodice, and a full skirt 예시에 없는 구체적 활동·장소: In a theatre dressing alcove before a masked ball, she finishes tying the ribbon of a feathered eye mask held beside her face."
+        },
+        {
+          "field": "outfit",
+          "content": "A plum satin dress has a structured strapless bodice, a full skirt parted by a deep side slit and gold feather embroidery.",
+          "reason": "a masquerade costume with a feathered eye mask, a structured bodice, and a full skirt의 의상을 바꾸지 않고 다음 구조와 소재를 구체화: A plum satin dress has a structured strapless bodice, a full skirt parted by a deep side slit and gold feather embroidery."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없으므로 규칙에 따라 비율 지정"
+        }
+      ]
+    }
+  ],
+  "retries": []
+}
