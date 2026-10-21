@@ -1,0 +1,116 @@
+{
+  "storage": {
+    "last": "램펄드",
+    "cards": {
+      "램펄드": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "Charcoal armor with bold cobalt stripes, pointed ivory plate edges and a compact blue domed forehead ornament recall the thick skull; her face remains fully visible.",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "blue",
+          "eye color": "red",
+          "body type": "athletic"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A basalt quarry training ground with stepped rock columns, dusty warm sunlight and scattered mineral chips.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "profile_close",
+            "scene": "At the excavation tray, a narrow band of late-afternoon sunlight reveals pale sediment and a ridged mineral fossil.",
+            "outfit": "Charcoal short overalls have open sides at the waist and a low bib over a cobalt bandeau, exposing shoulders, midriff and thighs.",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "demolition_planner",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Rampardos (램펄드) personified, rock type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nMOTIFS to echo lightly: Charcoal armor with bold cobalt stripes, pointed ivory plate edges and a compact blue domed forehead ornament recall the thick skull; her face remains fully visible..\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: side profile, close only when no explicit framing is selected\nScene: At the excavation tray, a narrow band of late-afternoon sunlight reveals pale sediment and a ridged mineral fossil.\nOutfit and props: Charcoal short overalls have open sides at the waist and a low bib over a cobalt bandeau, exposing shoulders, midriff and thighs.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Pokémon fossil excavator gently brushing sediment from a fossil beside a gridded excavation tray.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "random_draws": {
+    "orient": "leaning_back",
+    "frame": "three_quarter",
+    "lens": "telephoto135"
+  },
+  "random_adjustments": {
+    "orient": {
+      "from": "leaning_back",
+      "to": "profile_close",
+      "reason": "Use the reserved demolition_planner composition; the planned profile_close/chest_up shows its activity and avoids ledger pairs."
+    },
+    "frame": {
+      "from": "three_quarter",
+      "to": "chest_up",
+      "reason": "Use the reserved demolition_planner composition; the planned profile_close/chest_up shows its activity and avoids ledger pairs."
+    },
+    "lens": {
+      "from": "telephoto135",
+      "to": "portrait85",
+      "reason": "Use the reserved demolition_planner composition; the planned profile_close/chest_up shows its activity and avoids ledger pairs."
+    }
+  }
+}
