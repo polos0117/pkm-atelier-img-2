@@ -1,0 +1,526 @@
+{
+  "card": "플라이곤",
+  "slug": "flygon-20261021",
+  "style": "glossy_promo",
+  "image_tool": "built-in image_gen",
+  "batch_plan": {
+    "session": "gpt-flygon-cacnea-20261021",
+    "characters": [
+      {
+        "card": "플라이곤",
+        "species": "flygon-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "slip_lingerie",
+            "expr": "pensive",
+            "pose": "standing_relaxed",
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "slip"
+            ],
+            "scene": "In an amber-lit dressing salon at dusk, she holds a folded red silk ribbon beside an arched window.",
+            "outfit": "Opaque jade satin with a red rhombus-patterned hem; the low back and mid-thigh length reveal her back, shoulders and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "a bias-cut satin lingerie slip with narrow straps and a straight hem",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "leaning_back",
+              "frame": "waist_up",
+              "lens": "telephoto135"
+            },
+            "random_adjustments": {
+              "frame": {
+                "original": "waist_up",
+                "chosen": "three_quarter",
+                "reason": "slip_lingerie: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              },
+              "lens": {
+                "original": "telephoto135",
+                "chosen": "portrait85",
+                "reason": "slip_lingerie: the chosen lens preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              }
+            },
+            "axis_reasons": {
+              "action_level": "Ribbon-folding is a held pause beside the window.",
+              "source_influence": "Jade satin and red rhombi make the desert-dragon palette recognizable.",
+              "separates_preference": "The bias-cut slip is a single garment."
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "In an amber-lit dressing salon at dusk, she holds a folded red silk ribbon beside an arched window.",
+                "reason": "Supplies dusk and the ribbon handling absent from the slip garment example."
+              },
+              {
+                "field": "outfit",
+                "content": "Opaque jade satin with a red rhombus-patterned hem; the low back and mid-thigh length reveal her back, shoulders and legs.",
+                "reason": "Specifies opaque jade fabric, red rhombus hem and a low-back mini cut of the selected slip."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+              }
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "flight_supervisor",
+            "expr": "focused",
+            "pose": "checking_map",
+            "orient": "looking_down",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "scene": "The landing terrace overlooks desert mesas at dawn; the passenger harness lies open on a low equipment table.",
+            "outfit": "A sand-coloured utility romper with a halter neckline and short legs exposes shoulders and thighs, with a narrow olive belt.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "Flying-Pokémon tour guide checking route notes and a passenger harness at a scenic landing terrace.",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "looking_down",
+              "frame": "face_close",
+              "lens": "documentary35"
+            },
+            "random_adjustments": {
+              "frame": {
+                "original": "face_close",
+                "chosen": "waist_up",
+                "reason": "flight_supervisor: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              },
+              "lens": {
+                "original": "documentary35",
+                "chosen": "natural50",
+                "reason": "flight_supervisor: the chosen lens preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              }
+            },
+            "axis_reasons": {
+              "action_level": "Checking route notes and a harness involves light hand movements.",
+              "source_influence": "A small olive belt is the restrained source echo in sand utility fabric.",
+              "separates_preference": "The utility romper is one continuous garment."
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "The landing terrace overlooks desert mesas at dawn; the passenger harness lies open on a low equipment table.",
+                "reason": "Adds dawn mesas and the harness-table placement absent from the guide example."
+              },
+              {
+                "field": "outfit",
+                "content": "A sand-coloured utility romper with a halter neckline and short legs exposes shoulders and thighs, with a narrow olive belt.",
+                "reason": "Provides the practical romper silhouette and olive belt omitted from the profession example."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+              }
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "active",
+            "ex": "archery_draw",
+            "expr": "determined",
+            "pose": "mid_action",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "scene": "On an outdoor archery range at noon, she draws a recurve bow toward a distant straw target.",
+            "outfit": "A red cropped athletic tank and low-rise olive trousers with high side splits reveal her midriff, shoulders and outer thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "example_text": "in a fitted archery top with an arm guard, holding a bow at full draw, perfectly still",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "reaching_up",
+              "frame": "environmental",
+              "lens": "documentary35"
+            },
+            "random_adjustments": {
+              "orient": {
+                "original": "reaching_up",
+                "chosen": "front_3q",
+                "reason": "archery_draw: the chosen orient preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+              }
+            },
+            "axis_reasons": {
+              "action_level": "The bow is drawn in an active sporting gesture.",
+              "source_influence": "Red and olive activewear carries a few palette cues.",
+              "separates_preference": "Tank and split trousers require separate top and bottom."
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "On an outdoor archery range at noon, she draws a recurve bow toward a distant straw target.",
+                "reason": "Supplies a range setting and distant target absent from the archery wardrobe example."
+              },
+              {
+                "field": "outfit",
+                "content": "A red cropped athletic tank and low-rise olive trousers with high side splits reveal her midriff, shoulders and outer thighs.",
+                "reason": "Supplies red top colour and split olive trouser cut, which the archery example leaves unspecified."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "선인왕",
+        "species": "cacnea-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "balcony_plants",
+            "expr": "gentle",
+            "pose": "watering",
+            "orient": "side",
+            "frame": "full_body",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Terracotta cactus pots line a white stucco balcony in warm morning light; water falls from a small brass watering can.",
+            "outfit": "A fitted ochre knit mini dress with an asymmetric off-shoulder neckline reveals collarbones, one shoulder and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536)."
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "expr": "proud",
+            "pose": "waving",
+            "orient": "turning_midmotion",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "coat",
+              "shorts",
+              "uniform"
+            ],
+            "scene": "Inside a striped rehearsal tent, she signals the opening cue beside a circular wooden platform in late-afternoon spotlights.",
+            "outfit": "A cropped open emerald tailcoat over a gold halter waistcoat and fitted black shorts reveals her shoulders, waist and thighs; gold braid trims the cuffs.",
+            "camera": "Vertical 2:3 portrait (1024×1536)."
+          },
+          {
+            "cut": 3,
+            "cat": "travel_exploration",
+            "ex": "travel_lakeside",
+            "expr": "relieved",
+            "pose": "perched_seat",
+            "orient": "looking_away",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "scene": "Autumn reeds border a turquoise lake beneath evening light; she raises a steel water bottle during the break.",
+            "outfit": "Short moss-green overalls with a wide open back over a yellow bandeau reveal shoulders, upper back and legs, with tiny triangular embroidered pocket edges.",
+            "camera": "Vertical 2:3 portrait (1024×1536)."
+          }
+        ]
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "slip_lingerie",
+      "expr": "pensive",
+      "pose": "standing_relaxed",
+      "orient": "leaning_back",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "slip"
+      ],
+      "scene": "In an amber-lit dressing salon at dusk, she holds a folded red silk ribbon beside an arched window.",
+      "outfit": "Opaque jade satin with a red rhombus-patterned hem; the low back and mid-thigh length reveal her back, shoulders and legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "a bias-cut satin lingerie slip with narrow straps and a straight hem",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "leaning_back",
+        "frame": "waist_up",
+        "lens": "telephoto135"
+      },
+      "random_adjustments": {
+        "frame": {
+          "original": "waist_up",
+          "chosen": "three_quarter",
+          "reason": "slip_lingerie: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        },
+        "lens": {
+          "original": "telephoto135",
+          "chosen": "portrait85",
+          "reason": "slip_lingerie: the chosen lens preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        }
+      },
+      "axis_reasons": {
+        "action_level": "Ribbon-folding is a held pause beside the window.",
+        "source_influence": "Jade satin and red rhombi make the desert-dragon palette recognizable.",
+        "separates_preference": "The bias-cut slip is a single garment."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "In an amber-lit dressing salon at dusk, she holds a folded red silk ribbon beside an arched window.",
+          "reason": "Supplies dusk and the ribbon handling absent from the slip garment example."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque jade satin with a red rhombus-patterned hem; the low back and mid-thigh length reveal her back, shoulders and legs.",
+          "reason": "Specifies opaque jade fabric, red rhombus hem and a low-back mini cut of the selected slip."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "occupation_sensual",
+      "ex": "flight_supervisor",
+      "expr": "focused",
+      "pose": "checking_map",
+      "orient": "looking_down",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "scene": "The landing terrace overlooks desert mesas at dawn; the passenger harness lies open on a low equipment table.",
+      "outfit": "A sand-coloured utility romper with a halter neckline and short legs exposes shoulders and thighs, with a narrow olive belt.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "Flying-Pokémon tour guide checking route notes and a passenger harness at a scenic landing terrace.",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "looking_down",
+        "frame": "face_close",
+        "lens": "documentary35"
+      },
+      "random_adjustments": {
+        "frame": {
+          "original": "face_close",
+          "chosen": "waist_up",
+          "reason": "flight_supervisor: the chosen frame preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        },
+        "lens": {
+          "original": "documentary35",
+          "chosen": "natural50",
+          "reason": "flight_supervisor: the chosen lens preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        }
+      },
+      "axis_reasons": {
+        "action_level": "Checking route notes and a harness involves light hand movements.",
+        "source_influence": "A small olive belt is the restrained source echo in sand utility fabric.",
+        "separates_preference": "The utility romper is one continuous garment."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The landing terrace overlooks desert mesas at dawn; the passenger harness lies open on a low equipment table.",
+          "reason": "Adds dawn mesas and the harness-table placement absent from the guide example."
+        },
+        {
+          "field": "outfit",
+          "content": "A sand-coloured utility romper with a halter neckline and short legs exposes shoulders and thighs, with a narrow olive belt.",
+          "reason": "Provides the practical romper silhouette and olive belt omitted from the profession example."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "active",
+      "ex": "archery_draw",
+      "expr": "determined",
+      "pose": "mid_action",
+      "orient": "front_3q",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "strongly prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "trousers"
+      ],
+      "scene": "On an outdoor archery range at noon, she draws a recurve bow toward a distant straw target.",
+      "outfit": "A red cropped athletic tank and low-rise olive trousers with high side splits reveal her midriff, shoulders and outer thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "example_text": "in a fitted archery top with an arm guard, holding a bow at full draw, perfectly still",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "reaching_up",
+        "frame": "environmental",
+        "lens": "documentary35"
+      },
+      "random_adjustments": {
+        "orient": {
+          "original": "reaching_up",
+          "chosen": "front_3q",
+          "reason": "archery_draw: the chosen orient preserves the planned hand activity and body context while meeting the reserved composition and three-cut differences."
+        }
+      },
+      "axis_reasons": {
+        "action_level": "The bow is drawn in an active sporting gesture.",
+        "source_influence": "Red and olive activewear carries a few palette cues.",
+        "separates_preference": "Tank and split trousers require separate top and bottom."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "On an outdoor archery range at noon, she draws a recurve bow toward a distant straw target.",
+          "reason": "Supplies a range setting and distant target absent from the archery wardrobe example."
+        },
+        {
+          "field": "outfit",
+          "content": "A red cropped athletic tank and low-rise olive trousers with high side splits reveal her midriff, shoulders and outer thighs.",
+          "reason": "Supplies red top colour and split olive trouser cut, which the archery example leaves unspecified."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size argument; this supplies the required 1024×1536 portrait size."
+        }
+      ]
+    }
+  ],
+  "ledger_check": "계획 통과 — 2명",
+  "reservation_commit": "e6c4a364a1c9e0c5a0106bc66d1e3b6be9b70dec",
+  "skipped": [],
+  "regenerations": [
+    {
+      "cut": "casual1",
+      "rejected": "exec-77fa1797-fe65-4dda-b4e8-975ea374465e.png",
+      "reason": "Three arms/hands visible.",
+      "input_change": "None; regenerated with the same UI prompt and light reference."
+    },
+    {
+      "cut": "casual2",
+      "rejected": [
+        "exec-b3fdbbfe-fcc3-47e9-bde3-86b2e0825a38.png",
+        "exec-7ebc25c5-d9b1-42f7-b21e-9b201e803949.png"
+      ],
+      "reason": "Map contained tiny label-like marks.",
+      "input_change": "Same UI settings for the first retry; final partial map-surface correction attached light plus the second result. See casual2-correction-prompt.txt."
+    }
+  ],
+  "submission_exception": "The light prompt included the generator standard relaxed-hands sentence additionally; its exact submitted text is retained."
+}
