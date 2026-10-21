@@ -1,0 +1,96 @@
+{
+  "storage": {
+    "last": "얼루기",
+    "cards": {
+      "얼루기": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "hair color": "",
+          "eye color": "brown",
+          "body type": ""
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "A warm sandstone practice terrace with windblown autumn leaves and circular footwork marks.",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "surprised",
+            "pose": "standing_relaxed",
+            "orient": "high_angle",
+            "scene": "Rain drops sparkle on the entryway mat; a gust has flipped the umbrella beside the shoe rack in cool dusk light.",
+            "outfit": "An open short transparent raincoat over a scoop-neck white cropped tank and a rust wrap miniskirt, revealing collarbones, midriff and thighs.",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_sensual",
+            "catCustom": "",
+            "ex": "rainy_return",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Spinda (얼루기) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: raised brows, widened eyes with visible upper white, mouth open in a small round shape\nPose: Stand at ease with relaxed shoulders and naturally balanced feet.\nOrientation: camera above subject looking downward; obey selected framing\nScene: Rain drops sparkle on the entryway mat; a gust has flipped the umbrella beside the shoe rack in cool dusk light.\nOutfit and props: An open short transparent raincoat over a scoop-neck white cropped tank and a rust wrap miniskirt, revealing collarbones, midriff and thighs.\nCategory: Create a sensual but non-explicit everyday lifestyle moment with the same clearly adult character. The situation must read as believable ordinary life, so specify the room, the clothing, and a concrete action already in progress rather than a posed shoot. Use natural household or street lighting and eye-level framing; fabric drape, movement, and light carry the mood. Avoid turning the scene into a lingerie catalogue or a deliberate glamour shoot.\nExample scene: coming in from the rain and slipping off a damp raincoat in the entryway, hair slightly wet\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "errors": [],
+  "captured_from_actual_generator_DOM": true
+}
