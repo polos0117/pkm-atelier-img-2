@@ -1,0 +1,232 @@
+{
+  "storage": {
+    "last": "샤로다",
+    "cards": {
+      "이상해씨": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          }
+        }
+      },
+      "샤로다": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "body type": "tall and lean",
+          "hair color": "",
+          "eye color": "red",
+          "skin tone": "light"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "calm",
+            "pose": "preparing_food",
+            "orient": "high_angle",
+            "scene": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup.",
+            "outfit": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem.",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "private_evening",
+            "catCustom": "",
+            "ex": "tea_ceremony_night",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Serperior (샤로다) personified, grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: relaxed brow, softly open eyes, lips closed and unstrained, no smile\nPose: Work at a kitchen counter, stirring a bowl or arranging ingredients with clearly separated hands and utensils.\nOrientation: camera above subject looking downward; obey selected framing\nScene: In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup.\nOutfit and props: A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem.\nCategory: Create mature private evening fashion scenes with intimate but non-explicit atmosphere. Use elegant, attractive, clearly adult styling, confident body language, and believable private-life context.\nExample scene: in a quiet evening room in an elegant robe-like dress, arranging tea cups and utensils\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: strongly prefer separates — use separate top and bottom by default; explicit outfit takes priority\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "random_draws": {
+    "orient": "three_quarter_back",
+    "frame": "environmental",
+    "lens": "portrait85"
+  },
+  "adjustments": {
+    "cut": 1,
+    "cat": "private_evening",
+    "ex": "tea_ceremony_night",
+    "expr": "calm",
+    "pose": "preparing_food",
+    "orient": "high_angle",
+    "frame": "three_quarter",
+    "lens": "documentary35",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates"
+    },
+    "garments": [
+      "blouse",
+      "skirt",
+      "traditional"
+    ],
+    "scene": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup.",
+    "outfit": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem.",
+    "aspect": "2:3",
+    "kept": true,
+    "example_text": "Evening Tea Ceremony",
+    "locked": [
+      "axis:overall_intensity",
+      "axis:skin_exposure",
+      "aspect"
+    ],
+    "random_draws": {
+      "orient": "three_quarter_back",
+      "frame": "environmental",
+      "lens": "portrait85"
+    },
+    "axis_reasons": {
+      "action_level": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup. — balanced",
+      "source_influence": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem. — strong",
+      "separates_preference": "blouse, skirt, traditional 의복 구조에 맞춰 strongly prefer separates"
+    },
+    "direct_inputs": [
+      {
+        "field": "scene",
+        "content": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup.",
+        "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup."
+      },
+      {
+        "field": "outfit",
+        "content": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem.",
+        "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem."
+      },
+      {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+      }
+    ],
+    "random_correction_reason": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 high_angle / three_quarter / documentary35 조합을 선택했다."
+  },
+  "reason": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 high_angle / three_quarter / documentary35 조합을 선택했다."
+}

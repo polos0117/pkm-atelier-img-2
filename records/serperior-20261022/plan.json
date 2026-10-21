@@ -1,0 +1,472 @@
+{
+  "card": "샤로다",
+  "style": "glossy_promo",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "private_evening",
+      "ex": "tea_ceremony_night",
+      "expr": "calm",
+      "pose": "preparing_food",
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "strongly prefer separates"
+      },
+      "garments": [
+        "blouse",
+        "skirt",
+        "traditional"
+      ],
+      "scene": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup.",
+      "outfit": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem.",
+      "aspect": "2:3",
+      "kept": true,
+      "example_text": "Evening Tea Ceremony",
+      "locked": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "three_quarter_back",
+        "frame": "environmental",
+        "lens": "portrait85"
+      },
+      "axis_reasons": {
+        "action_level": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup. — balanced",
+        "source_influence": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem. — strong",
+        "separates_preference": "blouse, skirt, traditional 의복 구조에 맞춰 strongly prefer separates"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup.",
+          "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup."
+        },
+        {
+          "field": "outfit",
+          "content": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem.",
+          "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+        }
+      ],
+      "random_correction_reason": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 high_angle / three_quarter / documentary35 조합을 선택했다."
+    },
+    {
+      "cut": 2,
+      "cat": "everyday_sensual",
+      "ex": "balcony_plants",
+      "expr": "gentle",
+      "pose": "watering",
+      "orient": "side",
+      "frame": "environmental",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter.",
+      "outfit": "A backless cream knit mini dress with a halter neckline exposes the shoulders, upper back and legs.",
+      "aspect": "2:3",
+      "kept": true,
+      "example_text": "watering balcony plants in a fitted knit dress, morning light across the railing",
+      "locked": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "seated_twist",
+        "frame": "environmental",
+        "lens": "telephoto135"
+      },
+      "axis_reasons": {
+        "action_level": "Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter. — mostly active",
+        "source_influence": "A backless cream knit mini dress with a halter neckline exposes the shoulders, upper back and legs. — subtle",
+        "separates_preference": "dress 의복 구조에 맞춰 balanced"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter.",
+          "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter."
+        },
+        {
+          "field": "outfit",
+          "content": "A backless cream knit mini dress with a halter neckline exposes the shoulders, upper back and legs.",
+          "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A backless cream knit mini dress with a halter neckline exposes the shoulders, upper back and legs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+        }
+      ],
+      "random_correction_reason": "Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 side / environmental / wide24 조합을 선택했다."
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "boyshort_swim",
+      "expr": "determined",
+      "pose": "hands_in_hair",
+      "orient": "looking_away",
+      "frame": "waist_up",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "swimsuit",
+        "shorts"
+      ],
+      "scene": "At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane.",
+      "outfit": "A teal fitted athletic swim top and square-cut boyshort swim bottoms expose shoulders, abdomen and legs; white piping follows the seams.",
+      "aspect": "2:3",
+      "example_text": "a boyshort swimsuit set with a fitted top and short square-cut bottoms",
+      "locked": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "front_3q",
+        "frame": "detail",
+        "lens": "portrait85"
+      },
+      "axis_reasons": {
+        "action_level": "At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane. — balanced",
+        "source_influence": "A teal fitted athletic swim top and square-cut boyshort swim bottoms expose shoulders, abdomen and legs; white piping follows the seams. — subtle",
+        "separates_preference": "swimsuit, shorts 의복 구조에 맞춰 prefer separates"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane.",
+          "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane."
+        },
+        {
+          "field": "outfit",
+          "content": "A teal fitted athletic swim top and square-cut boyshort swim bottoms expose shoulders, abdomen and legs; white piping follows the seams.",
+          "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A teal fitted athletic swim top and square-cut boyshort swim bottoms expose shoulders, abdomen and legs; white piping follows the seams."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+        }
+      ],
+      "random_correction_reason": "At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 looking_away / waist_up / telephoto135 조합을 선택했다."
+    }
+  ],
+  "batch": "servine-serperior-20261022",
+  "batch_plan": {
+    "session": "servine-serperior-20261022",
+    "characters": [
+      {
+        "card": "샤비",
+        "species": "servine-20261022",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "festivals_contests",
+            "ex": "fest_lantern",
+            "expr": "curious",
+            "pose": "walking",
+            "orient": "turning_midmotion",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer.",
+            "outfit": "A yellow halter mini dress with a leaf-shaped open back leaves shoulders and legs bare.",
+            "aspect": "2:3",
+            "kept": true
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "adult_nurse",
+            "expr": "playful",
+            "pose": "hands_in_hair",
+            "orient": "front",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "uniform",
+              "dress"
+            ],
+            "scene": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins.",
+            "outfit": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume.",
+            "aspect": "2:3",
+            "kept": true
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "camisole_wrap",
+            "expr": "pensive",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "tank",
+              "skirt"
+            ],
+            "scene": "At a bedroom dressing bench she folds a silk scarf into a small tray.",
+            "outfit": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs.",
+            "aspect": "2:3",
+            "kept": true
+          }
+        ],
+        "refill": true
+      },
+      {
+        "card": "샤로다",
+        "species": "serperior-20261022",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "tea_ceremony_night",
+            "expr": "calm",
+            "pose": "preparing_food",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "blouse",
+              "skirt",
+              "traditional"
+            ],
+            "scene": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup.",
+            "outfit": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem.",
+            "aspect": "2:3",
+            "kept": true,
+            "example_text": "Evening Tea Ceremony",
+            "locked": [
+              "axis:overall_intensity",
+              "axis:skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "three_quarter_back",
+              "frame": "environmental",
+              "lens": "portrait85"
+            },
+            "axis_reasons": {
+              "action_level": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup. — balanced",
+              "source_influence": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem. — strong",
+              "separates_preference": "blouse, skirt, traditional 의복 구조에 맞춰 strongly prefer separates"
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup.",
+                "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup."
+              },
+              {
+                "field": "outfit",
+                "content": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem.",
+                "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+              }
+            ],
+            "random_correction_reason": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 high_angle / three_quarter / documentary35 조합을 선택했다."
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "balcony_plants",
+            "expr": "gentle",
+            "pose": "watering",
+            "orient": "side",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter.",
+            "outfit": "A backless cream knit mini dress with a halter neckline exposes the shoulders, upper back and legs.",
+            "aspect": "2:3",
+            "kept": true,
+            "example_text": "watering balcony plants in a fitted knit dress, morning light across the railing",
+            "locked": [
+              "axis:overall_intensity",
+              "axis:skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "seated_twist",
+              "frame": "environmental",
+              "lens": "telephoto135"
+            },
+            "axis_reasons": {
+              "action_level": "Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter. — mostly active",
+              "source_influence": "A backless cream knit mini dress with a halter neckline exposes the shoulders, upper back and legs. — subtle",
+              "separates_preference": "dress 의복 구조에 맞춰 balanced"
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter.",
+                "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter."
+              },
+              {
+                "field": "outfit",
+                "content": "A backless cream knit mini dress with a halter neckline exposes the shoulders, upper back and legs.",
+                "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A backless cream knit mini dress with a halter neckline exposes the shoulders, upper back and legs."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+              }
+            ],
+            "random_correction_reason": "Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 side / environmental / wide24 조합을 선택했다."
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "boyshort_swim",
+            "expr": "determined",
+            "pose": "hands_in_hair",
+            "orient": "looking_away",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "swimsuit",
+              "shorts"
+            ],
+            "scene": "At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane.",
+            "outfit": "A teal fitted athletic swim top and square-cut boyshort swim bottoms expose shoulders, abdomen and legs; white piping follows the seams.",
+            "aspect": "2:3",
+            "example_text": "a boyshort swimsuit set with a fitted top and short square-cut bottoms",
+            "locked": [
+              "axis:overall_intensity",
+              "axis:skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "front_3q",
+              "frame": "detail",
+              "lens": "portrait85"
+            },
+            "axis_reasons": {
+              "action_level": "At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane. — balanced",
+              "source_influence": "A teal fitted athletic swim top and square-cut boyshort swim bottoms expose shoulders, abdomen and legs; white piping follows the seams. — subtle",
+              "separates_preference": "swimsuit, shorts 의복 구조에 맞춰 prefer separates"
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane.",
+                "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane."
+              },
+              {
+                "field": "outfit",
+                "content": "A teal fitted athletic swim top and square-cut boyshort swim bottoms expose shoulders, abdomen and legs; white piping follows the seams.",
+                "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A teal fitted athletic swim top and square-cut boyshort swim bottoms expose shoulders, abdomen and legs; white piping follows the seams."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+              }
+            ],
+            "random_correction_reason": "At an outdoor lap pool she adjusts swimming goggles onto her forehead before entering a marked lane. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 looking_away / waist_up / telephoto135 조합을 선택했다."
+          }
+        ],
+        "refill": true
+      }
+    ]
+  },
+  "check": "passed",
+  "reservation_commits": [
+    "3410753f126eedb0f12bb062e983442aea90e80a",
+    "e2a90e7e764f9d03b5d59db1c8f43042da04aed8",
+    "623418eee10db6981fef9ef034897bb9ce6e770a"
+  ],
+  "generator": "Actual Preact selection controls executed through repository prompt-dom-harness; saved storage and verbatim prompt.",
+  "tool": "built-in image_gen",
+  "blocked_attempts": [
+    {
+      "slot": "mobility",
+      "result": "output safety filter blocked; genuine coverage correction through custom UI; opaque full torso and legs"
+    },
+    {
+      "slot": "casual3",
+      "example": "thermal_spa",
+      "result": "output safety filter blocked; different athletic pool preparation scene replanned and reserved",
+      "replaced_by": "boyshort_swim"
+    }
+  ]
+}
