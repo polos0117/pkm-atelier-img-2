@@ -10022,8 +10022,137 @@
      ]
     }
    ]
+  },
+  {
+   "species": "cherrim-20261022",
+   "card": "체리꼬",
+   "status": "reserved",
+   "session": "cherrim-shellos-20261022",
+   "at": "2026-10-21T16:04:19-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "festivals_contests",
+     "ex": "fest_lantern",
+     "expr": "amused",
+     "pose": "walking",
+     "orient": "turning_midmotion",
+     "frame": "environmental",
+     "lens": "documentary35",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "blouse",
+      "skirt"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "active",
+     "ex": "roller_skating",
+     "expr": "determined",
+     "pose": "mid_action",
+     "orient": "side",
+     "frame": "full_body",
+     "lens": "wide24",
+     "axes": {
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "strongly prefer separates"
+     },
+     "garments": [
+      "knit_top",
+      "shorts"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "adult_roleplay",
+     "ex": "masquerade",
+     "expr": "confident",
+     "pose": "carrying_something",
+     "orient": "front",
+     "frame": "waist_up",
+     "lens": "portrait85",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ]
+    }
+   ]
+  },
+  {
+   "species": "shellos-20261022",
+   "card": "깝질무",
+   "status": "reserved",
+   "session": "cherrim-shellos-20261022",
+   "at": "2026-10-21T16:04:19-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "lingerie",
+     "ex": "knit_lingerie",
+     "expr": "sleepy",
+     "pose": "sitting",
+     "orient": "seated_twist",
+     "frame": "waist_up",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "lingerie_set"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "everyday_basic",
+     "ex": "record_store",
+     "expr": "curious",
+     "pose": "squatting",
+     "orient": "crouching",
+     "frame": "environmental",
+     "lens": "documentary35",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "overalls",
+      "bikini"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "wrap_swim",
+     "expr": "relieved",
+     "pose": "mid_stride",
+     "orient": "front",
+     "frame": "three_quarter",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ]
+    }
+   ]
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-21T16:02:43-07:00"
+ "updated": "2026-10-21T16:04:19-07:00"
 }
