@@ -1,0 +1,105 @@
+{
+  "card": "톱치",
+  "no": 328,
+  "source_appearance": {
+    "name": "톱치",
+    "en": "Trapinch",
+    "color": "brown",
+    "shape": "armor",
+    "features": [
+      {
+        "part": "underside",
+        "detail": "white underside"
+      },
+      {
+        "part": "body",
+        "detail": "round body"
+      },
+      {
+        "part": "leg",
+        "detail": "four stumpy legs"
+      },
+      {
+        "part": "head",
+        "detail": "proportionally large head"
+      },
+      {
+        "part": "jaw",
+        "detail": "large jaws"
+      },
+      {
+        "part": "eye",
+        "detail": "small black eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Trapinch_%28Pok%C3%A9mon%29",
+    "revision": 4611457,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "aaed2b088826a422794ab41e79a6525849c14c177b6e5f114c4f9e3cf8946415",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_design": {
+    "name": "톱치",
+    "en": "Trapinch",
+    "line": "톱치",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "balanced",
+      "face width": "wide",
+      "jaw & chin": "wide heavy chin",
+      "eye shape": "large",
+      "eye size": "small",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "straight medium brows",
+      "nose character": "rounded soft tip",
+      "lips": "wide mouth"
+    },
+    "why": "큰 머리와 턱 및 작은 눈의 대비를 넓은 하관과 작은 사람 눈으로 옮긴다.",
+    "cues": [
+      "‘round body’ → 얼굴형 부드럽고 둥근 얼굴형",
+      "‘round body’ → 얼굴 폭 넓은 얼굴",
+      "‘large jaws’ → 턱선 · 턱끝 넓고 묵직한 턱끝",
+      "‘round body’ → 눈매 큰 눈",
+      "‘small black eyes’ → 눈 크기 작은 눈",
+      "‘round body’ → 코 코끝이 둥근"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 균형 잡힌 타원형 → 부드럽고 둥근 얼굴형",
+    "hair": {
+      "hairstyle": "curly",
+      "hair length": "medium",
+      "bangs": "straight bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘round body’에서 굵은 곱슬(웨이브·곱슬) · 중간 길이 · 일자 앞머리",
+    "hair_cues": [
+      "‘round body’ → 헤어스타일 굵은 곱슬"
+    ]
+  },
+  "submitted_face_line": "FACE (her own structure, not the style's default face): softly rounded face, balanced length, wide width; wide heavy chin; open rounded eyes, small size, level outer corners, average spacing; straight medium brows; rounded soft tip nose; wide mouth.",
+  "canonical_light": {
+    "slot": "light",
+    "source": "/workspace/scratch/7a40486974d5/generated_images/exec-b3080c31-ed3c-4d80-ab0f-cb1fa6c66826.png",
+    "output": "/workspace/scratch/7a40486974d5/pkm-atelier-img-2/img/톱치_light_glossy_promo_f.webp",
+    "filename": "톱치_light_glossy_promo_f.webp",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "3cd61e77b41775cc5fc9a88f034ebfd441848561b762c00055fa8323c893053d",
+    "reference": null,
+    "style": "glossy_promo",
+    "evidence": "Actual generator DOM #style; see slot-ui.json"
+  },
+  "compared": [
+    "방패톱스",
+    "바리톱스",
+    "도롱충이"
+  ],
+  "visual_comparison": "넓고 둥근 볼과 하관, 작은 둥근 눈과 넓게 웃는 입이 방패톱스의 가늘고 평평한 눈·단발 인상, 바리톱스의 긴 각진 윤곽·작은 입, 도롱충이의 가는 턱과 큰 눈과 구분된다. 설계의 넓고 무거운 턱은 출력에서 부드러워졌고 정본 관찰로 기록한다."
+}
