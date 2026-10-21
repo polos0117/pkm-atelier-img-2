@@ -86,15 +86,16 @@
     },
     {
       "slot": "casual2",
-      "path": "/workspace/scratch/dc2985fe0ae8/generated_images/exec-6a392ffe-2c80-42be-8383-8e842262e08b.png",
+      "path": "/workspace/scratch/dc2985fe0ae8/generated_images/exec-7ed3996e-58dc-4b66-b56d-707f12284756.png",
       "filename": "방패톱스_glossy_promo_f_casual2.webp",
       "size": [
         1024,
         1536
       ],
-      "sha256": "4cb2cfec6dbdf6f70b546e4656aadd4c64a85ca84be43bd70d3eb3f297b394e4",
+      "sha256": "36938054ca76f1d8b88cc6a4c6fd807846c67687f3e2edf9fa9315d3f9da3399",
       "reference": "light",
-      "format": "WEBP"
+      "format": "WEBP",
+      "repair_record": "repairs/casual2-left-leg-20261021/repair.json"
     },
     {
       "slot": "casual3",
@@ -121,5 +122,21 @@
     "reference": null,
     "format": "WEBP"
   },
-  "state": "generated; not uploaded"
+  "state": "9/9 registered; user-requested casual2 left-leg replacement prepared",
+  "repairs": [
+    {
+      "slot": "casual2",
+      "at": "2026-10-21T05:40:52.273036+00:00",
+      "request": "왼쪽 다리의 각도가 부자연스러움",
+      "kind": "local anatomical correction",
+      "edit_target": "repairs/casual2-left-leg-20261021/previous/casual2.webp",
+      "identity_reference": "img/방패톱스_light_glossy_promo_f.webp",
+      "original_preserved": "records/shieldon-20261021/repairs/casual2-left-leg-20261021/previous/casual2.webp",
+      "new_source": "/workspace/scratch/dc2985fe0ae8/generated_images/exec-7ed3996e-58dc-4b66-b56d-707f12284756.png",
+      "new_filename": "방패톱스_glossy_promo_f_casual2.webp",
+      "new_sha256": "36938054ca76f1d8b88cc6a4c6fd807846c67687f3e2edf9fa9315d3f9da3399",
+      "new_git_blob": "4b2138f192882ddd07266809f1a7d2728b075f99",
+      "result": "뒤쪽 왼쪽 다리가 골반 아래로 이어져 정강이·발목이 수직에 가깝게 정렬되고 구두 앞끝과 무릎 방향이 자연스럽다. 앞쪽 교차 다리·얼굴·가면·상체·드레스·무대는 유지됨."
+    }
+  ]
 }

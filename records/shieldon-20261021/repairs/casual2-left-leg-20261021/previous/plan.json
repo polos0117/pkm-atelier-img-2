@@ -1,0 +1,621 @@
+{
+  "name": "방패톱스",
+  "slug": "shieldon-20261021",
+  "no": 410,
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "slip_lingerie",
+      "expr": "pensive",
+      "pose": "leaning_furniture",
+      "orient": "leaning_back",
+      "frame": "waist_up",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "slip"
+      ],
+      "aspect": "2:3",
+      "scene": "Beside a lacquered dressing table, she fastens a simple bracelet while lamplight catches the satin.",
+      "outfit": "A silver satin slip with an open back and lace-trimmed low neckline leaves shoulders, upper back and thighs exposed, with a small ivory geometric hem pattern.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "input_reasons": {
+        "scene": "The slip example leaves the dressing-table task and illumination open.",
+        "outfit": "Silver satin and the open back specify the slip construction and Shieldon colour echo.",
+        "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+      },
+      "axis_reasons": {
+        "action_level": "Fastening the bracelet is a small stationary dressing-table gesture.",
+        "source_influence": "Ivory edging and pewter-grey satin carry Shieldon’s shield palette strongly.",
+        "separates_preference": "A satin slip is a single-piece garment."
+      },
+      "random_draws": {
+        "orient": "front",
+        "frame": "chest_up",
+        "lens": "portrait85"
+      },
+      "random_adjustments": {
+        "orient": {
+          "from": "front",
+          "to": "leaning_back",
+          "reason": "Use the reserved slip_lingerie composition; the planned leaning_back/waist_up shows its activity and avoids ledger pairs."
+        },
+        "frame": {
+          "from": "chest_up",
+          "to": "waist_up",
+          "reason": "Use the reserved slip_lingerie composition; the planned leaning_back/waist_up shows its activity and avoids ledger pairs."
+        },
+        "lens": {
+          "from": "portrait85",
+          "to": "telephoto135",
+          "reason": "Use the reserved slip_lingerie composition; the planned leaning_back/waist_up shows its activity and avoids ledger pairs."
+        }
+      },
+      "example_text": "Example scene: a bias-cut satin lingerie slip with narrow straps and a straight hem"
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "masquerade",
+      "expr": "playful",
+      "pose": "dance_step",
+      "orient": "front_3q",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "aspect": "2:3",
+      "scene": "A masquerade rehearsal unfolds beneath hanging paper moons and warm stage bulbs.",
+      "outfit": "An ivory halter masquerade mini dress has a structured bodice and full circular skirt, with an open back showing shoulders, upper back and legs; she wears a small silver feathered eye mask.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "input_reasons": {
+        "scene": "The masquerade example has no rehearsal environment; paper moons and practical bulbs establish the stage.",
+        "outfit": "A halter mini dress establishes an open-backed silhouette suitable for the masquerade rehearsal.",
+        "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+      },
+      "axis_reasons": {
+        "action_level": "The rehearsal dance step is gentle movement between held poses.",
+        "source_influence": "A small silver stage accent is the only species echo.",
+        "separates_preference": "The halter dress is one integrated garment."
+      },
+      "random_draws": {
+        "orient": "looking_down",
+        "frame": "detail",
+        "lens": "wide24"
+      },
+      "random_adjustments": {
+        "orient": {
+          "from": "looking_down",
+          "to": "front_3q",
+          "reason": "Use the reserved masquerade composition; the planned front_3q/environmental shows its activity and avoids ledger pairs."
+        },
+        "frame": {
+          "from": "detail",
+          "to": "environmental",
+          "reason": "Use the reserved masquerade composition; the planned front_3q/environmental shows its activity and avoids ledger pairs."
+        },
+        "lens": {
+          "from": "wide24",
+          "to": "documentary35",
+          "reason": "Use the reserved masquerade composition; the planned front_3q/environmental shows its activity and avoids ledger pairs."
+        }
+      },
+      "example_text": "Example scene: a masquerade costume with a feathered eye mask, a structured bodice, and a full skirt"
+    },
+    {
+      "cut": 3,
+      "cat": "private_evening",
+      "ex": "wine_bar",
+      "expr": "calm",
+      "pose": "sitting",
+      "orient": "looking_down",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "aspect": "2:3",
+      "scene": "Amber pendants illuminate the walnut corner seat and a garnet reflection in the stemmed glass beside an open menu.",
+      "outfit": "A pewter evening mini dress with ivory edging, a deep V neckline and a high side slit exposes collarbones, arms and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "input_reasons": {
+        "scene": "The wine-bar example names no hand activity or lighting; examining the wine reflection defines both.",
+        "outfit": "The evening-dress example leaves fabric, neckline and hem open; the pewter mini dress gives a shield-palette evening silhouette.",
+        "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+      },
+      "axis_reasons": {
+        "action_level": "Inspecting a glass while seated is a still wine-tasting gesture.",
+        "source_influence": "Pewter vest and ivory skirt repeat the dark shield and white rim colour blocks.",
+        "separates_preference": "The evening dress is a single-piece garment."
+      },
+      "random_draws": {
+        "orient": "turning_midmotion",
+        "frame": "face_close",
+        "lens": "telephoto135"
+      },
+      "random_adjustments": {
+        "orient": {
+          "from": "turning_midmotion",
+          "to": "looking_down",
+          "reason": "Use the reserved wine_bar composition; the planned looking_down/three_quarter shows its activity and avoids ledger pairs."
+        },
+        "frame": {
+          "from": "face_close",
+          "to": "three_quarter",
+          "reason": "Use the reserved wine_bar composition; the planned looking_down/three_quarter shows its activity and avoids ledger pairs."
+        },
+        "lens": {
+          "from": "telephoto135",
+          "to": "portrait85",
+          "reason": "Use the reserved wine_bar composition; the planned looking_down/three_quarter shows its activity and avoids ledger pairs."
+        }
+      },
+      "example_text": "Example scene: in a corner seat of a wine bar in an evening dress, looking over a glass and menu"
+    }
+  ],
+  "batch": {
+    "session": "rampardos-shieldon-20261021-73ad",
+    "characters": [
+      {
+        "card": "램펄드",
+        "species": "rampardos-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_basic",
+            "ex": "demolition_planner",
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "aspect": "2:3",
+            "scene": "At the excavation tray, a narrow band of late-afternoon sunlight reveals pale sediment and a ridged mineral fossil.",
+            "outfit": "Charcoal short overalls have open sides at the waist and a low bib over a cobalt bandeau, exposing shoulders, midriff and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The fossil excavation example leaves illumination and sediment appearance open.",
+              "outfit": "Short overalls establish a different single-bib silhouette while the bandeau allows exposed waist.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Brushing sediment from the fossil is the ongoing excavation activity.",
+              "source_influence": "Only cobalt colour accents reference Rampardos.",
+              "separates_preference": "The bib overalls dominate as one integrated garment."
+            },
+            "random_draws": {
+              "orient": "leaning_back",
+              "frame": "three_quarter",
+              "lens": "telephoto135"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "leaning_back",
+                "to": "profile_close",
+                "reason": "Use the reserved demolition_planner composition; the planned profile_close/chest_up shows its activity and avoids ledger pairs."
+              },
+              "frame": {
+                "from": "three_quarter",
+                "to": "chest_up",
+                "reason": "Use the reserved demolition_planner composition; the planned profile_close/chest_up shows its activity and avoids ledger pairs."
+              },
+              "lens": {
+                "from": "telephoto135",
+                "to": "portrait85",
+                "reason": "Use the reserved demolition_planner composition; the planned profile_close/chest_up shows its activity and avoids ledger pairs."
+              }
+            },
+            "example_text": "Example scene: Pokémon fossil excavator gently brushing sediment from a fossil beside a gridded excavation tray."
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "archery_draw",
+            "expr": "determined",
+            "pose": "standing_formal",
+            "orient": "side",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "tank",
+              "shorts"
+            ],
+            "aspect": "2:3",
+            "scene": "An outdoor archery range has layered straw targets and wind flags in golden morning light.",
+            "outfit": "A fitted cobalt cropped archery top with an arm guard and graphite running shorts exposes shoulders, abdomen and legs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The archery example leaves range materials and time of day open.",
+              "outfit": "Sports tank and running shorts support archery movement with exposed abdomen and thighs.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Drawing a bow is the main ongoing sports action.",
+              "source_influence": "Blue sportswear retains only the source colour.",
+              "separates_preference": "Tank and shorts are visibly separate sports pieces."
+            },
+            "random_draws": {
+              "orient": "back_to_camera",
+              "frame": "full_body",
+              "lens": "telephoto135"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "back_to_camera",
+                "to": "side",
+                "reason": "Use the reserved archery_draw composition; the planned side/environmental shows its activity and avoids ledger pairs."
+              },
+              "frame": {
+                "from": "full_body",
+                "to": "environmental",
+                "reason": "Use the reserved archery_draw composition; the planned side/environmental shows its activity and avoids ledger pairs."
+              },
+              "lens": {
+                "from": "telephoto135",
+                "to": "wide24",
+                "reason": "Use the reserved archery_draw composition; the planned side/environmental shows its activity and avoids ledger pairs."
+              }
+            },
+            "example_text": "Example scene: in a fitted archery top with an arm guard, holding a bow at full draw, perfectly still"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "bunny",
+            "expr": "confident",
+            "pose": "hand_on_hip",
+            "orient": "front",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "aspect": "2:3",
+            "scene": "The cabaret stage floor glows with geometric neon footlights during a costume-party entrance.",
+            "outfit": "A cobalt satin high-cut bunny one-piece with a sweetheart neckline shows shoulders, upper chest and legs, with small satin ears, detached cuffs and a bow tie.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The bunny example has no event location; a cabaret party entrance gives it a distinct arrival setting.",
+              "outfit": "Cobalt satin and detached accessories specify the bunny costume colour and finish.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "The party entrance pose is a stationary costume presentation.",
+              "source_influence": "The bunny one-piece uses Rampardos blue as a clear main colour.",
+              "separates_preference": "The bunny costume is an integrated bodysuit."
+            },
+            "random_draws": {
+              "orient": "leaning_forward",
+              "frame": "three_quarter",
+              "lens": "documentary35"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "leaning_forward",
+                "to": "front",
+                "reason": "Use the reserved bunny composition; the planned front/full_body shows its activity and avoids ledger pairs."
+              },
+              "frame": {
+                "from": "three_quarter",
+                "to": "full_body",
+                "reason": "Use the reserved bunny composition; the planned front/full_body shows its activity and avoids ledger pairs."
+              },
+              "lens": {
+                "from": "documentary35",
+                "to": "natural50",
+                "reason": "Use the reserved bunny composition; the planned front/full_body shows its activity and avoids ledger pairs."
+              }
+            },
+            "example_text": "Example scene: a retro casino bunny costume with a fitted one-piece garment, cuffs, bow-tie collar, and rabbit-ear headband, on a stage floor"
+          }
+        ]
+      },
+      {
+        "card": "방패톱스",
+        "species": "shieldon-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "slip_lingerie",
+            "expr": "pensive",
+            "pose": "leaning_furniture",
+            "orient": "leaning_back",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "slip"
+            ],
+            "aspect": "2:3",
+            "scene": "Beside a lacquered dressing table, she fastens a simple bracelet while lamplight catches the satin.",
+            "outfit": "A silver satin slip with an open back and lace-trimmed low neckline leaves shoulders, upper back and thighs exposed, with a small ivory geometric hem pattern.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The slip example leaves the dressing-table task and illumination open.",
+              "outfit": "Silver satin and the open back specify the slip construction and Shieldon colour echo.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Fastening the bracelet is a small stationary dressing-table gesture.",
+              "source_influence": "Ivory edging and pewter-grey satin carry Shieldon’s shield palette strongly.",
+              "separates_preference": "A satin slip is a single-piece garment."
+            },
+            "random_draws": {
+              "orient": "front",
+              "frame": "chest_up",
+              "lens": "portrait85"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "front",
+                "to": "leaning_back",
+                "reason": "Use the reserved slip_lingerie composition; the planned leaning_back/waist_up shows its activity and avoids ledger pairs."
+              },
+              "frame": {
+                "from": "chest_up",
+                "to": "waist_up",
+                "reason": "Use the reserved slip_lingerie composition; the planned leaning_back/waist_up shows its activity and avoids ledger pairs."
+              },
+              "lens": {
+                "from": "portrait85",
+                "to": "telephoto135",
+                "reason": "Use the reserved slip_lingerie composition; the planned leaning_back/waist_up shows its activity and avoids ledger pairs."
+              }
+            },
+            "example_text": "Example scene: a bias-cut satin lingerie slip with narrow straps and a straight hem"
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "masquerade",
+            "expr": "playful",
+            "pose": "dance_step",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "aspect": "2:3",
+            "scene": "A masquerade rehearsal unfolds beneath hanging paper moons and warm stage bulbs.",
+            "outfit": "An ivory halter masquerade mini dress has a structured bodice and full circular skirt, with an open back showing shoulders, upper back and legs; she wears a small silver feathered eye mask.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The masquerade example has no rehearsal environment; paper moons and practical bulbs establish the stage.",
+              "outfit": "A halter mini dress establishes an open-backed silhouette suitable for the masquerade rehearsal.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "The rehearsal dance step is gentle movement between held poses.",
+              "source_influence": "A small silver stage accent is the only species echo.",
+              "separates_preference": "The halter dress is one integrated garment."
+            },
+            "random_draws": {
+              "orient": "looking_down",
+              "frame": "detail",
+              "lens": "wide24"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "looking_down",
+                "to": "front_3q",
+                "reason": "Use the reserved masquerade composition; the planned front_3q/environmental shows its activity and avoids ledger pairs."
+              },
+              "frame": {
+                "from": "detail",
+                "to": "environmental",
+                "reason": "Use the reserved masquerade composition; the planned front_3q/environmental shows its activity and avoids ledger pairs."
+              },
+              "lens": {
+                "from": "wide24",
+                "to": "documentary35",
+                "reason": "Use the reserved masquerade composition; the planned front_3q/environmental shows its activity and avoids ledger pairs."
+              }
+            },
+            "example_text": "Example scene: a masquerade costume with a feathered eye mask, a structured bodice, and a full skirt"
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "wine_bar",
+            "expr": "calm",
+            "pose": "sitting",
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "aspect": "2:3",
+            "scene": "Amber pendants illuminate the walnut corner seat and a garnet reflection in the stemmed glass beside an open menu.",
+            "outfit": "A pewter evening mini dress with ivory edging, a deep V neckline and a high side slit exposes collarbones, arms and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The wine-bar example names no hand activity or lighting; examining the wine reflection defines both.",
+              "outfit": "The evening-dress example leaves fabric, neckline and hem open; the pewter mini dress gives a shield-palette evening silhouette.",
+              "camera": "The built-in image tool has no size argument, so request 1024×1536 vertical 2:3 here."
+            },
+            "axis_reasons": {
+              "action_level": "Inspecting a glass while seated is a still wine-tasting gesture.",
+              "source_influence": "Pewter vest and ivory skirt repeat the dark shield and white rim colour blocks.",
+              "separates_preference": "The evening dress is a single-piece garment."
+            },
+            "random_draws": {
+              "orient": "turning_midmotion",
+              "frame": "face_close",
+              "lens": "telephoto135"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "turning_midmotion",
+                "to": "looking_down",
+                "reason": "Use the reserved wine_bar composition; the planned looking_down/three_quarter shows its activity and avoids ledger pairs."
+              },
+              "frame": {
+                "from": "face_close",
+                "to": "three_quarter",
+                "reason": "Use the reserved wine_bar composition; the planned looking_down/three_quarter shows its activity and avoids ledger pairs."
+              },
+              "lens": {
+                "from": "telephoto135",
+                "to": "portrait85",
+                "reason": "Use the reserved wine_bar composition; the planned looking_down/three_quarter shows its activity and avoids ledger pairs."
+              }
+            },
+            "example_text": "Example scene: in a corner seat of a wine bar in an evening dress, looking over a glass and menu"
+          }
+        ]
+      }
+    ]
+  },
+  "reservation_commit": "a2d69d7aa41ff858bd230f1bb1234f4533ef2ff2",
+  "checkpoint": "Generated 9 requested slots; see classification.json",
+  "face_design_review": {
+    "reason": "방패형 타원 두부와 흰 눈썹을 넓은 타원 얼굴·낮은 굵은 눈썹·부드러운 코끝과 아래턱으로 해석한다.",
+    "source": "data/source-appearance.json #410, data/card.json #410, face-design.json #410",
+    "final_face_sentence": "FACE (her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; narrow eyes, medium size, level outer corners, wide-set; thick low brows; rounded soft tip nose; fuller lower lip.",
+    "canonical": {
+      "slot": "light",
+      "path": "/workspace/scratch/dc2985fe0ae8/generated_images/exec-cc03bac8-c829-48b2-830b-e0b2dab3f2b4.png",
+      "filename": "방패톱스_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "90c1622281c792d07c0c1b3f62395275e5e2733501593153e0afae4bf38fcbf5",
+      "reference": null,
+      "format": "WEBP"
+    },
+    "comparisons": [
+      "램펄드",
+      "두개도스",
+      "피그킹",
+      "얼루기"
+    ]
+  },
+  "repairs": [
+    {
+      "slot": "casual3",
+      "problem": "병 라벨의 가짜 문자와 메뉴 글줄",
+      "inputs": [
+        "경장 ①",
+        "수정 전 casual3"
+      ],
+      "changed_input": "custom — 두 번째 첨부의 글자 흔적만 제거하고 나머지 보존",
+      "original_preserved": "attempts/casual3-before-label-fix.webp",
+      "result": "민무늬 라벨과 깨끗한 메뉴로 바뀌고 인물·의상·구도 유지"
+    }
+  ]
+}

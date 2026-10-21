@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-10-21T04:48:15.159418+00:00",
+  "reviewed_at": "2026-10-21T05:40:52.273036+00:00",
   "skipped": [],
   "comparisons": {
     "faces": [
@@ -187,14 +187,14 @@
         "일치": true,
         "근거": "Pillow로 실제 WEBP 디코딩 및 1024×1536 확인"
       },
-      "observed": "종이 달과 별이 매달린 무대에서 무릎을 교차한 춤 걸음. 한 손으로 깃털 가면을 눈 옆에 대고 다른 팔을 옆으로 뻗었다. 구조적인 아이보리 몸판과 풍성한 짧은 치마가 보이며 양손의 얇은 장갑과 구두가 읽힌다.",
+      "observed": "종이 달·별 무대에서 가면을 눈 옆에 들고 춤 걸음을 유지한다. 뒤쪽 왼쪽 다리는 치마 아래 골반에서 무릎·정강이·발목으로 자연스럽게 이어지며, 정강이가 수직에 가깝고 지지하는 구두가 바닥에 닿는다. 앞쪽 오른 다리는 기존 교차 모양을 유지한다.",
       "identity": {
         "일치": true,
         "근거": "흑색 짧은 일자 단발·앞머리·호박색 눈·넓은 아래턱과 도톰한 아랫입술·같은 성인 체형을 경장과 대조"
       },
       "anatomy": {
         "일치": true,
-        "근거": "가면 옆의 굽힌 팔과 반대쪽 뻗은 팔이 각각 하나의 손으로 이어지고, 교차한 두 다리는 골반에서 무릎·발목·구두로 자연스럽게 연결된다."
+        "근거": "원본의 뒤쪽 다리 무릎·정강이 방향 불일치를 사용자가 지적했다. 수정본은 왼쪽 다리 축과 구두 방향이 자연스럽고, 골반부터 두 다리·발로 이어지는 연결과 양손·팔의 수가 정상이다."
       },
       "text": {
         "일치": true,
@@ -242,6 +242,20 @@
       "changed_input": "custom — 두 번째 첨부의 글자 흔적만 제거하고 나머지 보존",
       "original_preserved": "attempts/casual3-before-label-fix.webp",
       "result": "민무늬 라벨과 깨끗한 메뉴로 바뀌고 인물·의상·구도 유지"
+    },
+    {
+      "slot": "casual2",
+      "at": "2026-10-21T05:40:52.273036+00:00",
+      "request": "왼쪽 다리의 각도가 부자연스러움",
+      "kind": "local anatomical correction",
+      "edit_target": "repairs/casual2-left-leg-20261021/previous/casual2.webp",
+      "identity_reference": "img/방패톱스_light_glossy_promo_f.webp",
+      "original_preserved": "records/shieldon-20261021/repairs/casual2-left-leg-20261021/previous/casual2.webp",
+      "new_source": "/workspace/scratch/dc2985fe0ae8/generated_images/exec-7ed3996e-58dc-4b66-b56d-707f12284756.png",
+      "new_filename": "방패톱스_glossy_promo_f_casual2.webp",
+      "new_sha256": "36938054ca76f1d8b88cc6a4c6fd807846c67687f3e2edf9fa9315d3f9da3399",
+      "new_git_blob": "4b2138f192882ddd07266809f1a7d2728b075f99",
+      "result": "뒤쪽 왼쪽 다리가 골반 아래로 이어져 정강이·발목이 수직에 가깝게 정렬되고 구두 앞끝과 무릎 방향이 자연스럽다. 앞쪽 교차 다리·얼굴·가면·상체·드레스·무대는 유지됨."
     }
   ]
 }
