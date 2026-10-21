@@ -1,0 +1,149 @@
+{
+  "status": "registered",
+  "created_at": "2026-10-21",
+  "requested": 18,
+  "completed": 18,
+  "tool": "Built-in image_gen",
+  "image_repository": "polos0117/pkm-atelier-img-2",
+  "code_repository": "polos0117/pkm-atelier",
+  "characters": [
+    {
+      "card": "램펄드",
+      "count": 9,
+      "image_commit": "5d0a7fe356c79cbed4ee29c3e04d9b8776b703a7",
+      "canonical_commit": "35c90855323f1878426d80ac2551d14bef53a056",
+      "records": "records/rampardos-20261021"
+    },
+    {
+      "card": "방패톱스",
+      "count": 9,
+      "image_commit": "9b7c98469347b16b0370fab41e480f9dd9c7c8d3",
+      "canonical_commit": "54a85b166537c2cb475d41cc9335583b9e9b4b56",
+      "records": "records/shieldon-20261021"
+    }
+  ],
+  "registration_commits": [
+    "e57f041d4b61522c073efc03521fb2d41bfe8070",
+    "3a4fb176c63c351ec38817edb4eca25dbed7a652"
+  ],
+  "thumbnail_commit": "0f1b97859e8a673f0fd02f0f44c816950c7e17b1",
+  "ledger_commit": "123961abc8333f1f8c34476ab8a876d51feaf117",
+  "workflow_results": {
+    "rampardos_thumbnails": "success",
+    "shieldon_thumbnails": "success",
+    "rampardos_registration": "success",
+    "shieldon_registration": "success"
+  },
+  "validation": "18/18 final 1024×1536 WEBP files decoded; Git blob hashes match remote main; 18/18 thumbnails decoded at 512px; all 18 registered in shard 1. Face/hair canonical records and patch format checks passed.",
+  "note": "This final completion record supersedes the generation-time checkpoint state. The pre-edit Shieldon casual3 and its prompt/UI are preserved under attempts/; only bottle-label and menu writing was edited.",
+  "verified_files": [
+    {
+      "card": "램펄드",
+      "file": "램펄드_light_glossy_promo_f.webp",
+      "git_blob": "6b50c7e5a57165e214bce8c18eae5f801314cb67",
+      "sha256": "c0ff3bedcf0147c3d075d08bacdb5e312bac0be6c48e8b28ae3ae2e75df7e02e"
+    },
+    {
+      "card": "램펄드",
+      "file": "램펄드_heavy_glossy_promo_f.webp",
+      "git_blob": "271d2da1df25a8e3e7a8c1aa37afbb24040512a6",
+      "sha256": "638b48e0cf9ad4356aa49a25318c8fb1366f76b5f3a1e44218047569995d6141"
+    },
+    {
+      "card": "램펄드",
+      "file": "램펄드_mobility_glossy_promo_f.webp",
+      "git_blob": "e3f8df3dc342b5b02cca041d3eba77c67dbcc7c9",
+      "sha256": "1b540842146ace2519419cda4f80ee1b7a195fcd09222709792869bfb3790d3e"
+    },
+    {
+      "card": "램펄드",
+      "file": "램펄드_light_overdrive_glossy_promo_f.webp",
+      "git_blob": "05f8b16304254488cbe35e5f87b7c73ff1c1e08d",
+      "sha256": "ff8b4eb2844359045b72d14c7665be5293f1821c9c9890f8396cdacefcab1490"
+    },
+    {
+      "card": "램펄드",
+      "file": "램펄드_heavy_overdrive_glossy_promo_f.webp",
+      "git_blob": "3d3f08a81f2167861a88bcd03d1ec0533ce3e52d",
+      "sha256": "e225270e7c373a40a6415a4af723bf5ac76aa6e9fd7654630ca3d256394c4579"
+    },
+    {
+      "card": "램펄드",
+      "file": "램펄드_mobility_overdrive_glossy_promo_f.webp",
+      "git_blob": "008588cb55e9cc0053fdacdb3a147b3a42806f1c",
+      "sha256": "fbecf6f15226dac0487e1a6de03a553d8f906bbcf25dc6ab7968c95d934132ad"
+    },
+    {
+      "card": "램펄드",
+      "file": "램펄드_glossy_promo_f_casual1.webp",
+      "git_blob": "d230f36a87dbec3e7dce41e8203940e7c91a80e9",
+      "sha256": "f090786fe8e7b3fe2e3cbce7fabec41f31357de77e153ab3d74f39f9c9dfd924"
+    },
+    {
+      "card": "램펄드",
+      "file": "램펄드_glossy_promo_f_casual2.webp",
+      "git_blob": "a7047efc8a5204e53e712ee4121c80bbc275f97f",
+      "sha256": "3e21293abbc82daceb48343e05dca9b2a27b0c5e1a71d6eba0a3b36314d8c33e"
+    },
+    {
+      "card": "램펄드",
+      "file": "램펄드_glossy_promo_f_casual3.webp",
+      "git_blob": "d6ee497ff873d67545acf759d69274297a3cdbf5",
+      "sha256": "a6fa2842f56d199e5b9162177a1bbe5c1acb0d2cfebd45a9101667bc05b4e54a"
+    },
+    {
+      "card": "방패톱스",
+      "file": "방패톱스_light_glossy_promo_f.webp",
+      "git_blob": "f14e6bcf76aa9dca25bf7a9071cf2f74a20195f1",
+      "sha256": "90c1622281c792d07c0c1b3f62395275e5e2733501593153e0afae4bf38fcbf5"
+    },
+    {
+      "card": "방패톱스",
+      "file": "방패톱스_mobility_glossy_promo_f.webp",
+      "git_blob": "975fe347f0c54b015b24cf11f70e8506e3a6cd36",
+      "sha256": "4a470cf1c825b34f80496bdc6ba30c3d7cea941b33d79de94a8d84f1c6f588b3"
+    },
+    {
+      "card": "방패톱스",
+      "file": "방패톱스_heavy_glossy_promo_f.webp",
+      "git_blob": "6683b6941aa9ab39cef059e36241670893f98173",
+      "sha256": "62652ba230d745ac8678661d8f74669997927c6ac460a631662f76d8806b1ea3"
+    },
+    {
+      "card": "방패톱스",
+      "file": "방패톱스_light_overdrive_glossy_promo_f.webp",
+      "git_blob": "0b424406e26759e6bca19b0e0563c96191b2ab72",
+      "sha256": "8d2fcc2127052eeca5dee010b6d117af09b678f763d4d5bf8dcf8b6a5ce43e64"
+    },
+    {
+      "card": "방패톱스",
+      "file": "방패톱스_heavy_overdrive_glossy_promo_f.webp",
+      "git_blob": "55f7c8a95b5626cc57c3ba5119cbd70bf0a29850",
+      "sha256": "19ba2e0d1f351550b7a4e2fdd5777a1b21de2a830eb489d65dbcfea01a8fbfaa"
+    },
+    {
+      "card": "방패톱스",
+      "file": "방패톱스_mobility_overdrive_glossy_promo_f.webp",
+      "git_blob": "354c1942618d66882cf710fe2903a13e4feb9571",
+      "sha256": "985d613dca1501f17a8e2fe9e108d56cd602005e2ef700279bbdf9b5983ed06a"
+    },
+    {
+      "card": "방패톱스",
+      "file": "방패톱스_glossy_promo_f_casual1.webp",
+      "git_blob": "2f82e32ea5648c696d6d968a920404aec07dde29",
+      "sha256": "899353fcd078fb7a796da59f095ee21d4f4498800fdd13424c9d6ded14c0e5b3"
+    },
+    {
+      "card": "방패톱스",
+      "file": "방패톱스_glossy_promo_f_casual2.webp",
+      "git_blob": "91ffc9ba3d9918e36b60a2a4634630dc5db7606a",
+      "sha256": "4cb2cfec6dbdf6f70b546e4656aadd4c64a85ca84be43bd70d3eb3f297b394e4"
+    },
+    {
+      "card": "방패톱스",
+      "file": "방패톱스_glossy_promo_f_casual3.webp",
+      "git_blob": "5ca0e7b934ed2e0a2b962a5f10ddaed11df945b0",
+      "sha256": "6ebc46aae38b5037121dfd2bcb16d105f6765f9c59a37530542e432465f29b0b"
+    }
+  ]
+}
