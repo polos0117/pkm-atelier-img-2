@@ -103,7 +103,41 @@
       "scene": "She folds a silk eye mask beside a dressing table under a warm bedside lamp.",
       "outfit": "Pearl-gray satin with a short straight hem and narrow straps leaves shoulders, collarbones and legs visible.",
       "camera": "Vertical 2:3 portrait (1024×1536).",
-      "custom": ""
+      "custom": "",
+      "example_text": "a bias-cut satin lingerie slip with narrow straps and a straight hem",
+      "axis_reasons": {
+        "action_level": "안대를 접는 작은 손동작을 멈춘 순간이라 mostly posed.",
+        "source_influence": "침실 슬립은 진주 회색만 남기고 종 장식은 줄이므로 subtle.",
+        "separates_preference": "슬립 한 벌 구조이므로 balanced."
+      },
+      "locked": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_draw": {
+        "frame": "face_close",
+        "lens": "telephoto135",
+        "orientation": "back"
+      },
+      "random_correction_reason": "얼굴이 등지는 방향과 얼굴 근접 대신 안대 접기 손동작과 슬립을 함께 담는 정면·무릎 위로 바꿈.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She folds a silk eye mask beside a dressing table under a warm bedside lamp.",
+          "reason": "선택 예시가 정하지 않은 해당 장소의 시간·빛과 물건 동작을 구체화: She folds a silk eye mask beside a dressing table under a warm bedside lamp."
+        },
+        {
+          "field": "outfit",
+          "content": "Pearl-gray satin with a short straight hem and narrow straps leaves shoulders, collarbones and legs visible.",
+          "reason": "선택 예시가 정하지 않은 소재·색과 의상 구조를 보충: Pearl-gray satin with a short straight hem and narrow straps leaves shoulders, collarbones and legs visible."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "생성 도구에 크기 선택 항목이 없어 2:3 문장을 camera에 추가."
+        }
+      ]
     },
     {
       "cut": 2,
@@ -128,7 +162,41 @@
       "scene": "She crosses a white rooftop fashion set as the chiffon layers catch the morning breeze.",
       "outfit": "A sky-blue halter short jumpsuit with a split white chiffon train and a waist cutout reveals shoulders, waist and legs.",
       "camera": "Vertical 2:3 portrait (1024×1536).",
-      "custom": ""
+      "custom": "",
+      "example_text": "a kinetic editorial layer that fans out from the back like glowing wings or fins of her Pokémon",
+      "axis_reasons": {
+        "action_level": "옥상을 걷고 쉬폰이 흐르는 부드러운 이동이라 balanced.",
+        "source_influence": "하늘색과 흰 날개형 쉬폰을 의상 전체에 쓰므로 strong.",
+        "separates_preference": "쇼트 점프슈트 한 벌에 자락이 이어져 balanced."
+      },
+      "locked": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_draw": {
+        "frame": "face_close",
+        "lens": "documentary35",
+        "orientation": "seated_twist"
+      },
+      "random_correction_reason": "앉은 비틀기와 얼굴 근접 대신 옥상을 걷는 전신과 쉬폰 자락을 보여 주는 시선 밖으로 구도를 선택.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She crosses a white rooftop fashion set as the chiffon layers catch the morning breeze.",
+          "reason": "선택 예시가 정하지 않은 해당 장소의 시간·빛과 물건 동작을 구체화: She crosses a white rooftop fashion set as the chiffon layers catch the morning breeze."
+        },
+        {
+          "field": "outfit",
+          "content": "A sky-blue halter short jumpsuit with a split white chiffon train and a waist cutout reveals shoulders, waist and legs.",
+          "reason": "선택 예시가 정하지 않은 소재·색과 의상 구조를 보충: A sky-blue halter short jumpsuit with a split white chiffon train and a waist cutout reveals shoulders, waist and legs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "생성 도구에 크기 선택 항목이 없어 2:3 문장을 camera에 추가."
+        }
+      ]
     },
     {
       "cut": 3,
@@ -154,7 +222,41 @@
       "scene": "Late-afternoon sunlight falls across the notebook; she traces a fern silhouette with a pencil.",
       "outfit": "A lilac off-shoulder cropped knit top and cream shorts expose collarbones, shoulders and midriff.",
       "camera": "Vertical 2:3 portrait (1024×1536).",
-      "custom": ""
+      "custom": "",
+      "example_text": "Sketching habitat plants and Pokémon tracks in a notebook on a park bench.",
+      "axis_reasons": {
+        "action_level": "앉아서 연필을 움직이는 가벼운 활동이므로 balanced.",
+        "source_influence": "보랏빛 니트와 크림 쇼츠가 중심이라 원작 영향은 subtle.",
+        "separates_preference": "크롭 니트와 쇼츠가 따로여서 prefer separates."
+      },
+      "locked": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_draw": {
+        "frame": "face_close",
+        "lens": "natural50",
+        "orientation": "looking_down"
+      },
+      "random_correction_reason": "얼굴 근접 대신 연필과 스케치북을 함께 담는 허리 위 프레임을 선택.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late-afternoon sunlight falls across the notebook; she traces a fern silhouette with a pencil.",
+          "reason": "선택 예시가 정하지 않은 해당 장소의 시간·빛과 물건 동작을 구체화: Late-afternoon sunlight falls across the notebook; she traces a fern silhouette with a pencil."
+        },
+        {
+          "field": "outfit",
+          "content": "A lilac off-shoulder cropped knit top and cream shorts expose collarbones, shoulders and midriff.",
+          "reason": "선택 예시가 정하지 않은 소재·색과 의상 구조를 보충: A lilac off-shoulder cropped knit top and cream shorts expose collarbones, shoulders and midriff."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "생성 도구에 크기 선택 항목이 없어 2:3 문장을 camera에 추가."
+        }
+      ]
     }
   ],
   "batch": {
@@ -329,5 +431,6 @@
   },
   "reservation_commit": "ad09aaaa77b0f1c8df0f2d7e34eb488776a64e78",
   "check": "passed",
-  "tool": "built-in image_gen"
+  "tool": "built-in image_gen",
+  "generator": "Actual selection UI; prompts recorded verbatim. No random appearance reassignment."
 }
