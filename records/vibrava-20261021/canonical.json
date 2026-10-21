@@ -1,0 +1,102 @@
+{
+  "card": "비브라바",
+  "no": 329,
+  "source_appearance": {
+    "name": "비브라바",
+    "en": "Vibrava",
+    "color": "green",
+    "shape": "bug-wings",
+    "features": [
+      {
+        "part": "wing",
+        "detail": "four green, rhombus-shaped wings"
+      },
+      {
+        "part": "antennae",
+        "detail": "two yellow antennae"
+      },
+      {
+        "part": "tooth",
+        "detail": "two large white teeth"
+      },
+      {
+        "part": "body",
+        "detail": "skinny yellow body"
+      },
+      {
+        "part": "leg",
+        "detail": "four skinny black legs"
+      },
+      {
+        "part": "head",
+        "detail": "small head"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Vibrava_%28Pok%C3%A9mon%29",
+    "revision": 4611487,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "a6f4a9135197932ee6e1bf5d2ba188772bc3f1926c2a2aa9b3c22b0ed372771d",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_design": {
+    "name": "비브라바",
+    "en": "Vibrava",
+    "line": "톱치",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "elongated",
+      "face length": "long",
+      "face width": "narrow",
+      "jaw & chin": "long chin with defined jaw",
+      "eye shape": "large",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "straight medium brows",
+      "nose character": "straight slender bridge",
+      "lips": "fuller lower lip"
+    },
+    "why": "마름모 날개와 가는 몸을 긴 윤곽과 큰 사람 눈으로 구분한다.",
+    "cues": [
+      "몸 형태 bug-wings → 눈 크기 큰 눈",
+      "‘two large white teeth’ → 입술 아랫입술이 더 도톰한"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 입술 얇은 입술 → 아랫입술이 더 도톰한 [머리] 진화 계열의 머리 잇기 규칙에 맞추려고 끝을 가볍게 친 페더컷 → 트윈테일",
+    "hair": {
+      "hairstyle": "twin tail",
+      "hair length": "long",
+      "bangs": "side-swept bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘two yellow antennae’·몸 형태 bug-wings에서 트윈테일(묶은 꼬리) · 긴 머리 · 옆으로 넘긴 앞머리 — 톱치에서 이어 더 공들인 묶음",
+    "hair_cues": [
+      "‘two yellow antennae’ → 헤어스타일 트윈테일"
+    ]
+  },
+  "submitted_face_line": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; open rounded eyes, large size, level outer corners, average spacing; straight medium brows; straight slender bridge nose; fuller lower lip.",
+  "canonical_light": {
+    "slot": "light",
+    "source": "/workspace/scratch/7a40486974d5/generated_images/exec-06df53d7-ff61-4fdb-a9e8-9dcdcc8f9b4d.png",
+    "output": "/workspace/scratch/7a40486974d5/pkm-atelier-img-2/img/비브라바_light_glossy_promo_f.webp",
+    "filename": "비브라바_light_glossy_promo_f.webp",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "407feada6e913886b69680f403b73d51d79fa422903bfff2097e25e0d73bc436",
+    "reference": null,
+    "style": "glossy_promo",
+    "evidence": "Actual generator DOM #style; see slot-ui.json"
+  },
+  "compared": [
+    "톱치",
+    "방패톱스",
+    "바리톱스",
+    "도롱충이"
+  ],
+  "visual_comparison": "긴 좁은 얼굴과 선명한 턱, 큰 녹색 눈, 곧은 콧대와 도톰한 아랫입술. 톱치의 둥근 볼·작은 눈·넓은 입과 구분되며, 최근의 방패톱스·바리톱스의 평평한 눈과 짧은 입선, 도롱충이의 작은 턱과도 대조했다."
+}
