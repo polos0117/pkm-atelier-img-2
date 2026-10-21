@@ -1,0 +1,187 @@
+{
+  "card": "주리비얀",
+  "tool": "built-in image_gen",
+  "skipped": [
+    {
+      "slot": "light_overdrive",
+      "attempts": 2,
+      "reason": "Image tool rejected output under sexual category; unchanged prompt/reference used twice, no result was returned.",
+      "request_ids": [
+        "2e0fef88-e389-4830-88c8-4e4e1e631627",
+        "579ec839-eeb2-4d65-97b4-d14bb11e3949"
+      ]
+    }
+  ],
+  "images": {
+    "light": {
+      "anatomy_identity": {
+        "result": "일치",
+        "evidence": "Green feathered hair and hazel-green low-lidded eyes over a narrow long oval; five digits on each green glove, one hand open and the other relaxed. Complete boots fit."
+      },
+      "scene_outfit": {
+        "result": "일치",
+        "evidence": "Cream close-fitting suit with green/yellow leaf trim and slim plates; split leaf cape behind shoulders."
+      },
+      "format": {
+        "result": "일치",
+        "evidence": "Decoded WebP is 1024×1536; SHA-256 recorded."
+      },
+      "text_people": {
+        "result": "일치",
+        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
+      }
+    },
+    "heavy": {
+      "anatomy_identity": {
+        "result": "일치",
+        "evidence": "Same face, hair, extended glove and boot positions as light."
+      },
+      "scene_outfit": {
+        "result": "일치",
+        "evidence": "Layered shoulder, hip, knee and shin plates add broad leaf-shaped rims."
+      },
+      "format": {
+        "result": "일치",
+        "evidence": "Decoded WebP is 1024×1536; SHA-256 recorded."
+      },
+      "text_people": {
+        "result": "일치",
+        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
+      }
+    },
+    "mobility": {
+      "anatomy_identity": {
+        "result": "일치",
+        "evidence": "Same narrow face and feathered hair; both five-digit gloves and complete boots fit."
+      },
+      "scene_outfit": {
+        "result": "일치",
+        "evidence": "Long shoulder/hip/calf panels fan outward with compact gold thrusters between leaves."
+      },
+      "format": {
+        "result": "일치",
+        "evidence": "Decoded WebP is 1024×1536; SHA-256 recorded."
+      },
+      "text_people": {
+        "result": "일치",
+        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
+      }
+    },
+    "heavy_overdrive": {
+      "anatomy_identity": {
+        "result": "일치",
+        "evidence": "Hands and body scale align with heavy closed image; fingers remain free of glow."
+      },
+      "scene_outfit": {
+        "result": "일치",
+        "evidence": "Green lit gaps separate thick shoulder and hip layers; drifting luminous leaves surround her."
+      },
+      "format": {
+        "result": "일치",
+        "evidence": "Decoded WebP is 1024×1536; SHA-256 recorded."
+      },
+      "text_people": {
+        "result": "일치",
+        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
+      }
+    },
+    "mobility_overdrive": {
+      "anatomy_identity": {
+        "result": "일치",
+        "evidence": "Both hand shapes and boot placement match mobility closed image."
+      },
+      "scene_outfit": {
+        "result": "일치",
+        "evidence": "Thruster caps open between widely spread leaf panels with green-yellow light and drifting leaves."
+      },
+      "format": {
+        "result": "일치",
+        "evidence": "Decoded WebP is 1024×1536; SHA-256 recorded."
+      },
+      "text_people": {
+        "result": "일치",
+        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
+      }
+    },
+    "casual1": {
+      "anatomy_identity": {
+        "result": "일치",
+        "evidence": "One hand grips the sari end and other hangs at her side; fingers curve naturally and partially overlap the silk. Face turns back toward camera with narrow lower lids."
+      },
+      "scene_outfit": {
+        "result": "일치",
+        "evidence": "Textile racks and courtyard domes surround green silk sari with pleated waist, gold border, pallu and short choli; shoulders, back, waist and one leg exposed."
+      },
+      "format": {
+        "result": "일치",
+        "evidence": "Decoded WebP is 1024×1536; SHA-256 recorded."
+      },
+      "text_people": {
+        "result": "일치",
+        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
+      }
+    },
+    "casual2": {
+      "anatomy_identity": {
+        "result": "일치",
+        "evidence": "One hand cups the pot with thumb opposed to curled fingers; other fingertips lift one leaf. Brows draw together and eyes focus downward."
+      },
+      "scene_outfit": {
+        "result": "일치",
+        "evidence": "Potted plants and greenhouse glass frame cream linen halter dress, waist cut-outs and short hem; shoulders, waist and thighs visible."
+      },
+      "format": {
+        "result": "일치",
+        "evidence": "Decoded WebP is 1024×1536; SHA-256 recorded."
+      },
+      "text_people": {
+        "result": "일치",
+        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
+      }
+    },
+    "casual3": {
+      "anatomy_identity": {
+        "result": "일치",
+        "evidence": "Left hand holds a small glass perfume bottle with thumb opposed to four fingers; other hand braces against marble, with outer fingertips cropped by image edge. Half-lidded gaze and slightly parted lips."
+      },
+      "scene_outfit": {
+        "result": "일치",
+        "evidence": "Emerald velvet screens and vanity support green satin longline bra and high-waisted bottoms; opaque panels cover chest and pelvis while shoulders and midriff remain exposed."
+      },
+      "format": {
+        "result": "일치",
+        "evidence": "Decoded WebP is 1024×1536; SHA-256 recorded."
+      },
+      "text_people": {
+        "result": "일치",
+        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
+      }
+    }
+  },
+  "diversity": {
+    "compared": [
+      "밤선인 casual1–3",
+      "파비코 casual1–3",
+      "비크티니 casual1–3"
+    ],
+    "result": "Rear-three-quarter full-height sari display, close plant inspection in linen dress, and supported vanity posture with perfume in satin separates differ in activity, silhouette and arm geometry. Compared against masked gown/cloth studio/beach, bedroom/knit/fireworks, and record shop/casino/arena images; no three-cut scene sequence repeats."
+  },
+  "attempts": [
+    {
+      "slot": "mobility_overdrive",
+      "attempt": 1,
+      "result": "output safety filter sexual",
+      "request_id": "7dea63f6-9a9a-41ea-9b4d-fa95d2906761"
+    },
+    {
+      "slot": "mobility_overdrive",
+      "attempt": 2,
+      "result": "generated with unchanged prompt and references"
+    }
+  ],
+  "record_only_deviations": {
+    "casual1": "Full body rear-three-quarter matches selection; face turns back to camera.",
+    "casual2": "Image includes hips and thighs rather than chest-up; plant hand action remains clear.",
+    "casual3": "Lower crop reaches thighs rather than waist, mouth slightly open rather than deadpan straight; reflection is part of the vanity mirror."
+  }
+}
