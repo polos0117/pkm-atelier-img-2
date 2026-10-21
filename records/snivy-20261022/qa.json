@@ -118,8 +118,20 @@
       },
       "text_people": {
         "result": "일치",
-        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
-      }
+        "evidence": "One focal adult woman, no readable lettering; in casual3 the indistinct reflected back belongs to the same woman at the vanity mirror."
+      },
+      "selected_values": {
+        "expr": "proud",
+        "pose": "contrapposto",
+        "orient": "rear_3q",
+        "frame": "full_body",
+        "lens": "portrait85",
+        "cat": "traditional",
+        "ex": "sari_formal"
+      },
+      "expression_observed": "Chin raised, steady low-lidded gaze and a slight closed smile.",
+      "orientation_observed": "Back and one flank show, head turns back toward camera.",
+      "framing_observed": "Complete head, sari hem and both shoes inside frame."
     },
     "casual2": {
       "anatomy_identity": {
@@ -136,8 +148,20 @@
       },
       "text_people": {
         "result": "일치",
-        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
-      }
+        "evidence": "One focal adult woman, no readable lettering; in casual3 the indistinct reflected back belongs to the same woman at the vanity mirror."
+      },
+      "selected_values": {
+        "expr": "focused",
+        "pose": "mid_action",
+        "orient": "looking_down",
+        "frame": "chest_up",
+        "lens": "natural50",
+        "cat": "everyday_basic",
+        "ex": "greenhouse"
+      },
+      "expression_observed": "Brows drawn together, eyes lowered to leaf and lips closed.",
+      "orientation_observed": "Head inclined downward while body remains upright.",
+      "framing_observed": "Head to upper thighs rather than chest-up."
     },
     "casual3": {
       "anatomy_identity": {
@@ -154,8 +178,20 @@
       },
       "text_people": {
         "result": "일치",
-        "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
-      }
+        "evidence": "One focal adult woman, no readable lettering; in casual3 the indistinct reflected back belongs to the same woman at the vanity mirror."
+      },
+      "selected_values": {
+        "expr": "unimpressed",
+        "pose": "leaning_furniture",
+        "orient": "leaning_back",
+        "frame": "waist_up",
+        "lens": "documentary35",
+        "cat": "lingerie",
+        "ex": "longline_bra"
+      },
+      "expression_observed": "Half-lidded eyes and a slightly parted mouth rather than a straight deadpan line.",
+      "orientation_observed": "Torso leans slightly back and one hand braces on vanity.",
+      "framing_observed": "Head to thighs rather than waist-up."
     }
   },
   "diversity": {
@@ -183,5 +219,10 @@
     "casual1": "Full body rear-three-quarter matches selection; face turns back to camera.",
     "casual2": "Image includes hips and thighs rather than chest-up; plant hand action remains clear.",
     "casual3": "Lower crop reaches thighs rather than waist, mouth slightly open rather than deadpan straight; reflection is part of the vanity mirror."
+  },
+  "verification": {
+    "original_dimensions": "Every final WebP decoded at 1024×1536.",
+    "git_upload": "Git blob SHAs returned by GitHub matched locally computed SHA-1 for binary uploads.",
+    "registration": "Workflow and data/img.json verified separately in code-repository batch report."
   }
 }

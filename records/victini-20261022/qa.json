@@ -127,7 +127,19 @@
       "text_people": {
         "result": "일치",
         "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
-      }
+      },
+      "selected_values": {
+        "expr": "curious",
+        "pose": "carrying_something",
+        "orient": "side",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "cat": "everyday_basic",
+        "ex": "record_store"
+      },
+      "expression_observed": "Wide amber eyes, raised inner brow and parted lips while lifting a sleeve.",
+      "orientation_observed": "Torso side-on to record bin; face turned toward camera.",
+      "framing_observed": "Head to upper thigh instead of waist-up."
     },
     "casual2": {
       "anatomy_identity": {
@@ -145,7 +157,19 @@
       "text_people": {
         "result": "일치",
         "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
-      }
+      },
+      "selected_values": {
+        "expr": "mischievous",
+        "pose": "hand_on_hip",
+        "orient": "turning_midmotion",
+        "frame": "three_quarter",
+        "lens": "portrait85",
+        "cat": "adult_roleplay",
+        "ex": "casino_dealer"
+      },
+      "expression_observed": "Narrowed amber eyes and a small closed asymmetric smile.",
+      "orientation_observed": "Front three-quarter body with one hand at hip rather than captured mid-turn.",
+      "framing_observed": "Head to knees near the selected three-quarter crop."
     },
     "casual3": {
       "anatomy_identity": {
@@ -163,7 +187,19 @@
       "text_people": {
         "result": "일치",
         "evidence": "One focal adult woman; no readable lettering. Stage and audience in casual3 remain distant background shapes."
-      }
+      },
+      "selected_values": {
+        "expr": "laughing_open",
+        "pose": "mid_action",
+        "orient": "reaching_up",
+        "frame": "environmental",
+        "lens": "wide24",
+        "cat": "festivals_contests",
+        "ex": "fest_cheering"
+      },
+      "expression_observed": "Open laughing mouth and visible teeth, eyes open.",
+      "orientation_observed": "Arms reach overhead for applause; torso turned three-quarter on spectator seat.",
+      "framing_observed": "Nearly full height in seat instead of environmental long shot."
     }
   },
   "diversity": {
@@ -191,5 +227,10 @@
     "casual1": "Crop includes hips and upper thighs rather than waist-up. Jacket is slipped down both upper arms; hair is more side-swept than straight across.",
     "casual2": "Waistcoat is glossier and more open than tailored everyday vest; body is closer to front three-quarter than a captured turn.",
     "casual3": "She is seated and shown almost full height rather than an environmental long shot. Source ear ornaments were retained; note this styling carry-over. Hands clap overhead as the selected activity."
+  },
+  "verification": {
+    "original_dimensions": "Every final WebP decoded at 1024×1536.",
+    "git_upload": "Git blob SHAs returned by GitHub matched locally computed SHA-1 for binary uploads.",
+    "registration": "Workflow and data/img.json verified separately in code-repository batch report."
   }
 }
