@@ -1,0 +1,567 @@
+{
+  "name": "비퀸",
+  "slug": "vespiquen-20261021",
+  "no": 416,
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "sport_onepiece",
+      "expr": "determined",
+      "pose": "walking",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "scene": "She steps up from a lap pool onto the blue tiled deck at sunrise, holding her swim goggles between both hands.",
+      "outfit": "Opaque saffron performance fabric and black side seams leave the racerback shoulders, back and legs visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "input_reasons": {
+        "scene": "The clothing example has no swim activity; leaving a lap pool gives a credible sporting moment.",
+        "outfit": "Saffron and black seams specify the solid performance fabric of the selected one-piece.",
+        "camera": "The built-in tool has no size control, so specify the required portrait dimensions here."
+      },
+      "axis_reasons": {
+        "action_level": "A pool-exit step is gentle movement after swimming.",
+        "source_influence": "The yellow and black seam colours alone echo Vespiquen.",
+        "separates_preference": "The racerback one-piece is one garment."
+      },
+      "random_draws": {
+        "orient": "back",
+        "frame": "three_quarter",
+        "lens": "natural50"
+      },
+      "random_adjustments": {
+        "orient": {
+          "from": "back",
+          "to": "front",
+          "reason": "For sport_onepiece, A pool-exit step is gentle movement after swimming. The reserved front/full_body preserves that activity and avoids recent ledger pairs."
+        },
+        "frame": {
+          "from": "three_quarter",
+          "to": "full_body",
+          "reason": "For sport_onepiece, A pool-exit step is gentle movement after swimming. The reserved front/full_body preserves that activity and avoids recent ledger pairs."
+        }
+      },
+      "example_text": "Example scene: a sporty one-piece swimsuit with a racerback and a high neckline in solid performance fabric"
+    },
+    {
+      "cut": 2,
+      "cat": "private_evening",
+      "ex": "low_back_evening",
+      "expr": "cold_smile",
+      "pose": "standing_formal",
+      "orient": "side",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "A candlelit supper salon overlooks rain on dark windows; she sets a small amber glass vase on the console before dinner.",
+      "outfit": "A black low-back halter mini dress with gold honeycomb jacquard and a diagonal thigh slit exposes shoulders, back and thighs.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "input_reasons": {
+        "scene": "The evening-dress title lacks a place and activity; arranging a vase before supper supplies both.",
+        "outfit": "Honeycomb jacquard and the halter mini cut specify the dress without changing its low back.",
+        "camera": "The built-in tool has no size control, so specify the required portrait dimensions here."
+      },
+      "axis_reasons": {
+        "action_level": "The brief pause beside the console is mostly still.",
+        "source_influence": "Small gold jacquard repeats the honeycomb in the dress fabric without royal costume pieces.",
+        "separates_preference": "The low-back dress is a single continuous garment."
+      },
+      "random_draws": {
+        "orient": "profile_close",
+        "frame": "environmental",
+        "lens": "portrait85"
+      },
+      "random_adjustments": {
+        "orient": {
+          "from": "profile_close",
+          "to": "side",
+          "reason": "For low_back_evening, The brief pause beside the console is mostly still. The reserved side/three_quarter preserves that activity and avoids recent ledger pairs."
+        },
+        "frame": {
+          "from": "environmental",
+          "to": "three_quarter",
+          "reason": "For low_back_evening, The brief pause beside the console is mostly still. The reserved side/three_quarter preserves that activity and avoids recent ledger pairs."
+        }
+      },
+      "example_text": "Example scene: an evening dress, modest at the front with a deeply cut low back"
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "architecture_engineer",
+      "expr": "pensive",
+      "pose": "carrying_something",
+      "orient": "looking_down",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "vest",
+        "trousers"
+      ],
+      "scene": "Warm desk lamps illuminate small woven nesting shelters; she lifts one scale-model roof to compare its interior with the nest materials.",
+      "outfit": "A cropped sleeveless cream waistcoat with an open V neck and black low-rise trousers leaves shoulders and midriff visible; hexagonal gold stitching trims the waistcoat.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "locks": [
+        "overall_intensity",
+        "skin_exposure",
+        "aspect"
+      ],
+      "input_reasons": {
+        "scene": "Lifting the model roof is a specific part of arranging habitat models already in the example.",
+        "outfit": "The vest and trousers provide studio workwear absent from the example.",
+        "camera": "The built-in tool has no size control, so specify the required portrait dimensions here."
+      },
+      "axis_reasons": {
+        "action_level": "Lifting and examining a roof model is light ongoing work.",
+        "source_influence": "Hexagonal stitching gives a recognisable but restrained source detail on otherwise ordinary studio tailoring.",
+        "separates_preference": "Waistcoat and trousers are distinct tailored pieces."
+      },
+      "random_draws": {
+        "orient": "over_shoulder",
+        "frame": "full_body",
+        "lens": "wide24"
+      },
+      "random_adjustments": {
+        "orient": {
+          "from": "over_shoulder",
+          "to": "looking_down",
+          "reason": "For architecture_engineer, Lifting and examining a roof model is light ongoing work. The reserved looking_down/chest_up preserves that activity and avoids recent ledger pairs."
+        },
+        "frame": {
+          "from": "full_body",
+          "to": "chest_up",
+          "reason": "For architecture_engineer, Lifting and examining a roof model is light ongoing work. The reserved looking_down/chest_up preserves that activity and avoids recent ledger pairs."
+        },
+        "lens": {
+          "from": "wide24",
+          "to": "telephoto135",
+          "reason": "For architecture_engineer, Lifting and examining a roof model is light ongoing work. The reserved looking_down/chest_up preserves that activity and avoids recent ledger pairs."
+        }
+      },
+      "example_text": "Example scene: Pokémon habitat designer arranging shelter scale models, nest materials and habitat plans on a studio table."
+    }
+  ],
+  "batch": {
+    "session": "combee-vespiquen-20261021-74c763",
+    "characters": [
+      {
+        "card": "세꿀버리",
+        "species": "combee-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_pokeblock",
+            "expr": "focused",
+            "pose": "preparing_food",
+            "orient": "leaning_forward",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "blouse",
+              "shorts"
+            ],
+            "scene": "Honey-coloured afternoon light falls across ceramic molds and diced red berries on the kitchen island.",
+            "outfit": "A lemon-yellow off-shoulder blouse, charcoal shorts and a short waist apron leave shoulders and thighs visible.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "Sunlight and berry colours specify the kitchen example.",
+              "outfit": "The example does not name clothes; the blouse and waist apron suit preparing treats.",
+              "camera": "The built-in tool has no size control, so specify the required portrait dimensions here."
+            },
+            "axis_reasons": {
+              "action_level": "Molding berry treats is the active task.",
+              "source_influence": "Only the lemon palette recalls the source.",
+              "separates_preference": "Blouse and shorts are separate cooking clothes."
+            },
+            "random_draws": {
+              "orient": "low_angle",
+              "frame": "chest_up",
+              "lens": "natural50"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "low_angle",
+                "to": "leaning_forward",
+                "reason": "For food_pokeblock, Molding berry treats is the active task. The reserved leaning_forward/waist_up preserves that activity and avoids recent ledger pairs."
+              },
+              "frame": {
+                "from": "chest_up",
+                "to": "waist_up",
+                "reason": "For food_pokeblock, Molding berry treats is the active task. The reserved leaning_forward/waist_up preserves that activity and avoids recent ledger pairs."
+              }
+            },
+            "example_text": "Example scene: Preparing colorful Pokéblock-inspired berry treats with a cutting board and small food molds at home."
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "retro_racer",
+            "expr": "mischievous",
+            "pose": "adjusting_bag",
+            "orient": "over_shoulder",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "jacket",
+              "shorts",
+              "crop_top"
+            ],
+            "scene": "At an outdoor vintage motorsport costume parade she adjusts the strap of her small belt pouch beside the track barrier.",
+            "outfit": "A cropped yellow team jacket worn open over a black bandeau and tailored shorts exposes shoulders, midriff and thighs; triple hexagon trim decorates the jacket hem.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The track-barrier example leaves the event activity unspecified; the costume parade supplies it.",
+              "outfit": "The short team jacket stays intact while black and yellow trim interprets the honeycomb pattern.",
+              "camera": "The built-in tool has no size control, so specify the required portrait dimensions here."
+            },
+            "axis_reasons": {
+              "action_level": "Adjusting the belt pouch is a small preparation movement.",
+              "source_influence": "Triple hexagons and yellow-black bands make the Combee motif prominent.",
+              "separates_preference": "Jacket, bandeau and shorts create three separate pieces."
+            },
+            "random_draws": {
+              "orient": "rear_3q",
+              "frame": "three_quarter",
+              "lens": "telephoto135"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "rear_3q",
+                "to": "over_shoulder",
+                "reason": "For retro_racer, Adjusting the belt pouch is a small preparation movement. The reserved over_shoulder/full_body preserves that activity and avoids recent ledger pairs."
+              },
+              "frame": {
+                "from": "three_quarter",
+                "to": "full_body",
+                "reason": "For retro_racer, Adjusting the belt pouch is a small preparation movement. The reserved over_shoulder/full_body preserves that activity and avoids recent ledger pairs."
+              },
+              "lens": {
+                "from": "telephoto135",
+                "to": "documentary35",
+                "reason": "For retro_racer, Adjusting the belt pouch is a small preparation movement. The reserved over_shoulder/full_body preserves that activity and avoids recent ledger pairs."
+              }
+            },
+            "example_text": "Example scene: a retro racing grid costume with a cropped team jacket, shorts, and boots, beside a track barrier"
+          },
+          {
+            "cut": 3,
+            "cat": "active",
+            "ex": "roller_skating",
+            "expr": "amused",
+            "pose": "mid_action",
+            "orient": "reaching_up",
+            "frame": "environmental",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "shorts"
+            ],
+            "scene": "A seaside promenade curves past pastel rails under clear morning light; her hands lift for balance while rolling.",
+            "outfit": "Cream and apricot stretch fabric leaves shoulders, midriff and legs visible.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "A seaside promenade places the slow glide in a specific outdoor setting.",
+              "outfit": "The example specifies crop top and shorts; cream and apricot only add colours and fabric.",
+              "camera": "The built-in tool has no size control, so specify the required portrait dimensions here."
+            },
+            "axis_reasons": {
+              "action_level": "Balancing on rolling skates is the main movement.",
+              "source_influence": "Apricot fabric gives only a faint honey colour echo.",
+              "separates_preference": "The active top and high-waist shorts remain separate."
+            },
+            "random_draws": {
+              "orient": "side",
+              "frame": "face_close",
+              "lens": "portrait85"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "side",
+                "to": "reaching_up",
+                "reason": "For roller_skating, Balancing on rolling skates is the main movement. The reserved reaching_up/environmental preserves that activity and avoids recent ledger pairs."
+              },
+              "frame": {
+                "from": "face_close",
+                "to": "environmental",
+                "reason": "For roller_skating, Balancing on rolling skates is the main movement. The reserved reaching_up/environmental preserves that activity and avoids recent ledger pairs."
+              },
+              "lens": {
+                "from": "portrait85",
+                "to": "wide24",
+                "reason": "For roller_skating, Balancing on rolling skates is the main movement. The reserved reaching_up/environmental preserves that activity and avoids recent ledger pairs."
+              }
+            },
+            "example_text": "Example scene: in roller skates, crop top and high-waisted shorts, balancing as she glides slowly"
+          }
+        ]
+      },
+      {
+        "card": "비퀸",
+        "species": "vespiquen-20261021",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "sport_onepiece",
+            "expr": "determined",
+            "pose": "walking",
+            "orient": "front",
+            "frame": "full_body",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "She steps up from a lap pool onto the blue tiled deck at sunrise, holding her swim goggles between both hands.",
+            "outfit": "Opaque saffron performance fabric and black side seams leave the racerback shoulders, back and legs visible.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The clothing example has no swim activity; leaving a lap pool gives a credible sporting moment.",
+              "outfit": "Saffron and black seams specify the solid performance fabric of the selected one-piece.",
+              "camera": "The built-in tool has no size control, so specify the required portrait dimensions here."
+            },
+            "axis_reasons": {
+              "action_level": "A pool-exit step is gentle movement after swimming.",
+              "source_influence": "The yellow and black seam colours alone echo Vespiquen.",
+              "separates_preference": "The racerback one-piece is one garment."
+            },
+            "random_draws": {
+              "orient": "back",
+              "frame": "three_quarter",
+              "lens": "natural50"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "back",
+                "to": "front",
+                "reason": "For sport_onepiece, A pool-exit step is gentle movement after swimming. The reserved front/full_body preserves that activity and avoids recent ledger pairs."
+              },
+              "frame": {
+                "from": "three_quarter",
+                "to": "full_body",
+                "reason": "For sport_onepiece, A pool-exit step is gentle movement after swimming. The reserved front/full_body preserves that activity and avoids recent ledger pairs."
+              }
+            },
+            "example_text": "Example scene: a sporty one-piece swimsuit with a racerback and a high neckline in solid performance fabric"
+          },
+          {
+            "cut": 2,
+            "cat": "private_evening",
+            "ex": "low_back_evening",
+            "expr": "cold_smile",
+            "pose": "standing_formal",
+            "orient": "side",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "A candlelit supper salon overlooks rain on dark windows; she sets a small amber glass vase on the console before dinner.",
+            "outfit": "A black low-back halter mini dress with gold honeycomb jacquard and a diagonal thigh slit exposes shoulders, back and thighs.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "The evening-dress title lacks a place and activity; arranging a vase before supper supplies both.",
+              "outfit": "Honeycomb jacquard and the halter mini cut specify the dress without changing its low back.",
+              "camera": "The built-in tool has no size control, so specify the required portrait dimensions here."
+            },
+            "axis_reasons": {
+              "action_level": "The brief pause beside the console is mostly still.",
+              "source_influence": "Small gold jacquard repeats the honeycomb in the dress fabric without royal costume pieces.",
+              "separates_preference": "The low-back dress is a single continuous garment."
+            },
+            "random_draws": {
+              "orient": "profile_close",
+              "frame": "environmental",
+              "lens": "portrait85"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "profile_close",
+                "to": "side",
+                "reason": "For low_back_evening, The brief pause beside the console is mostly still. The reserved side/three_quarter preserves that activity and avoids recent ledger pairs."
+              },
+              "frame": {
+                "from": "environmental",
+                "to": "three_quarter",
+                "reason": "For low_back_evening, The brief pause beside the console is mostly still. The reserved side/three_quarter preserves that activity and avoids recent ledger pairs."
+              }
+            },
+            "example_text": "Example scene: an evening dress, modest at the front with a deeply cut low back"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "architecture_engineer",
+            "expr": "pensive",
+            "pose": "carrying_something",
+            "orient": "looking_down",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "vest",
+              "trousers"
+            ],
+            "scene": "Warm desk lamps illuminate small woven nesting shelters; she lifts one scale-model roof to compare its interior with the nest materials.",
+            "outfit": "A cropped sleeveless cream waistcoat with an open V neck and black low-rise trousers leaves shoulders and midriff visible; hexagonal gold stitching trims the waistcoat.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "locks": [
+              "overall_intensity",
+              "skin_exposure",
+              "aspect"
+            ],
+            "input_reasons": {
+              "scene": "Lifting the model roof is a specific part of arranging habitat models already in the example.",
+              "outfit": "The vest and trousers provide studio workwear absent from the example.",
+              "camera": "The built-in tool has no size control, so specify the required portrait dimensions here."
+            },
+            "axis_reasons": {
+              "action_level": "Lifting and examining a roof model is light ongoing work.",
+              "source_influence": "Hexagonal stitching gives a recognisable but restrained source detail on otherwise ordinary studio tailoring.",
+              "separates_preference": "Waistcoat and trousers are distinct tailored pieces."
+            },
+            "random_draws": {
+              "orient": "over_shoulder",
+              "frame": "full_body",
+              "lens": "wide24"
+            },
+            "random_adjustments": {
+              "orient": {
+                "from": "over_shoulder",
+                "to": "looking_down",
+                "reason": "For architecture_engineer, Lifting and examining a roof model is light ongoing work. The reserved looking_down/chest_up preserves that activity and avoids recent ledger pairs."
+              },
+              "frame": {
+                "from": "full_body",
+                "to": "chest_up",
+                "reason": "For architecture_engineer, Lifting and examining a roof model is light ongoing work. The reserved looking_down/chest_up preserves that activity and avoids recent ledger pairs."
+              },
+              "lens": {
+                "from": "wide24",
+                "to": "telephoto135",
+                "reason": "For architecture_engineer, Lifting and examining a roof model is light ongoing work. The reserved looking_down/chest_up preserves that activity and avoids recent ledger pairs."
+              }
+            },
+            "example_text": "Example scene: Pokémon habitat designer arranging shelter scale models, nest materials and habitat plans on a studio table."
+          }
+        ]
+      }
+    ]
+  },
+  "reservation_commit": "3107c906f8dbfa6cbb6349105f0f95f0258912ea",
+  "checkpoint": "9/9 generated; first results preserved; original PNG paths and WebP hashes recorded",
+  "ledger_check": "계획 통과 — 2명"
+}
