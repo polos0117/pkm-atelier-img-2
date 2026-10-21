@@ -10157,7 +10157,7 @@
    "card": "샤비",
    "status": "reserved",
    "session": "servine-serperior-20261022",
-   "at": "2026-10-21T16:13:11-07:00",
+   "at": "2026-10-21T16:24:50-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -10199,7 +10199,8 @@
      "garments": [
       "uniform",
       "dress"
-     ]
+     ],
+     "kept": true
     },
     {
      "cut": 3,
@@ -10231,7 +10232,7 @@
    "card": "샤로다",
    "status": "reserved",
    "session": "servine-serperior-20261022",
-   "at": "2026-10-21T16:13:11-07:00",
+   "at": "2026-10-21T16:24:50-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -10253,7 +10254,8 @@
       "blouse",
       "skirt",
       "traditional"
-     ]
+     ],
+     "kept": true
     },
     {
      "cut": 2,
@@ -10273,31 +10275,34 @@
      },
      "garments": [
       "dress"
-     ]
+     ],
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "swimwear",
-     "ex": "thermal_spa",
-     "expr": "relieved",
-     "pose": "leaning_furniture",
-     "orient": "leaning_back",
-     "frame": "full_body",
+     "ex": "boyshort_swim",
+     "expr": "determined",
+     "pose": "hands_in_hair",
+     "orient": "looking_away",
+     "frame": "waist_up",
      "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "swimsuit"
+      "swimsuit",
+      "shorts"
      ]
     }
-   ]
+   ],
+   "refill": true
   }
  ],
  "note": "일상컷 장부. tools/casual-ledger.py 가 쓴다 — 손으로 고치지 않는다. 생성 전에 reserve 로 계획을 적고 push 한 뒤 생성한다. IMAGE_RULES.md 3절 \"일상컷 장면 설정 순서\".",
- "updated": "2026-10-21T16:13:11-07:00"
+ "updated": "2026-10-21T16:24:50-07:00"
 }
