@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-21",
+  "state": "complete",
+  "requested": 18,
+  "registered": 18,
+  "style": "glossy_promo",
+  "size": [
+    1024,
+    1536
+  ],
+  "reservation_commit": "4b6bbb997589a27379ff2f38e549f652e98ff66d",
+  "characters": [
+    {
+      "name": "바리톱스",
+      "images": 9,
+      "image_commit": "75f78db0c635401f6598a3dfc140060b283ceb61",
+      "code_commit": "fd3027cfea15f194b0c0cda0c23d0bee377b4e66",
+      "thumbnail_run": 39552508986,
+      "registration_run": 39552738145
+    },
+    {
+      "name": "도롱충이",
+      "images": 9,
+      "image_commit": "d9be5068c88e361de5d6952c74adaff3aeebbf68",
+      "code_commit": "478e5fb5f9ad820003348c0d181808162e495f26",
+      "thumbnail_run": 39554511162,
+      "registration_run": 39554700089
+    }
+  ],
+  "verification": {
+    "remote_image_blobs_match": 18,
+    "thumbnails": "success",
+    "dex_registration": "success",
+    "ledger": "done",
+    "existing_files_preserved": true,
+    "force_push": false
+  },
+  "notes": [
+    "도롱충이 casual2의 가짜 글자만 부분 제거. 원본과 원문 보관.",
+    "실제 선택값과 결과의 세부 차이는 캐릭터별 qa.json에 기록."
+  ]
+}

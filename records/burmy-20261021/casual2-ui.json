@@ -95,5 +95,22 @@
   "references": [
     "light",
     "casual2-before-label-fix"
-  ]
+  ],
+  "random_draws": {
+    "orient": "over_shoulder",
+    "frame": "full_body",
+    "lens": "natural50"
+  },
+  "random_adjustments": {
+    "frame": {
+      "from": "full_body",
+      "to": "environmental",
+      "reason": "The hobby_photo scene needs environmental to show its task and clothing: A saffron sleeveless wrap blouse ties above the waist over indigo shorts, exposing shoulders, midriff and thighs."
+    },
+    "lens": {
+      "from": "natural50",
+      "to": "documentary35",
+      "reason": "The documentary35 perspective establishes the hobby_photo location without reusing its recent orientation/frame pair."
+    }
+  }
 }
