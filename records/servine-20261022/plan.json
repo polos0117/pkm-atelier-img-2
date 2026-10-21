@@ -1,0 +1,461 @@
+{
+  "card": "샤비",
+  "style": "glossy_promo",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "festivals_contests",
+      "ex": "fest_lantern",
+      "expr": "curious",
+      "pose": "walking",
+      "orient": "turning_midmotion",
+      "frame": "environmental",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "scene": "Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer.",
+      "outfit": "A yellow halter mini dress with a leaf-shaped open back leaves shoulders and legs bare.",
+      "aspect": "2:3",
+      "kept": true,
+      "example_text": "Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs.",
+      "locked": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "side",
+        "frame": "chest_up",
+        "lens": "wide24"
+      },
+      "axis_reasons": {
+        "action_level": "Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer. — balanced",
+        "source_influence": "A yellow halter mini dress with a leaf-shaped open back leaves shoulders and legs bare. — strong",
+        "separates_preference": "dress 의복 구조에 맞춰 balanced"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer.",
+          "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer."
+        },
+        {
+          "field": "outfit",
+          "content": "A yellow halter mini dress with a leaf-shaped open back leaves shoulders and legs bare.",
+          "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A yellow halter mini dress with a leaf-shaped open back leaves shoulders and legs bare."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+        }
+      ],
+      "random_correction_reason": "Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 turning_midmotion / environmental / wide24 조합을 선택했다."
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "adult_nurse",
+      "expr": "playful",
+      "pose": "hands_in_hair",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "uniform",
+        "dress"
+      ],
+      "scene": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins.",
+      "outfit": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume.",
+      "aspect": "2:3",
+      "example_text": "a retro nurse-style party costume — a fitted white button-front dress with short puffed sleeves, a folded white cap, a red-trimmed apron edge and white stockings; pinning the cap in place at a costume-party mirror (invented emblem, no real hospital marks)",
+      "locked": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "leaning_forward",
+        "frame": "detail",
+        "lens": "portrait85"
+      },
+      "axis_reasons": {
+        "action_level": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins. — balanced",
+        "source_influence": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume. — strong",
+        "separates_preference": "uniform, dress 의복 구조에 맞춰 balanced"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins.",
+          "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins."
+        },
+        {
+          "field": "outfit",
+          "content": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume.",
+          "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+        }
+      ],
+      "random_correction_reason": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 front / full_body / natural50 조합을 선택했다."
+    },
+    {
+      "cut": 3,
+      "cat": "homewear",
+      "ex": "camisole_wrap",
+      "expr": "pensive",
+      "pose": "perched_seat",
+      "orient": "seated_twist",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "tank",
+        "skirt"
+      ],
+      "scene": "At a bedroom dressing bench she folds a silk scarf into a small tray.",
+      "outfit": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs.",
+      "aspect": "2:3",
+      "kept": true,
+      "example_text": "Camisole + Wrap Bottom",
+      "locked": [
+        "axis:overall_intensity",
+        "axis:skin_exposure",
+        "aspect"
+      ],
+      "random_draws": {
+        "orient": "leaning_forward",
+        "frame": "waist_up",
+        "lens": "wide24"
+      },
+      "axis_reasons": {
+        "action_level": "At a bedroom dressing bench she folds a silk scarf into a small tray. — mostly posed",
+        "source_influence": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs. — subtle",
+        "separates_preference": "tank, skirt 의복 구조에 맞춰 prefer separates"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "At a bedroom dressing bench she folds a silk scarf into a small tray.",
+          "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: At a bedroom dressing bench she folds a silk scarf into a small tray."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs.",
+          "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+        }
+      ],
+      "random_correction_reason": "At a bedroom dressing bench she folds a silk scarf into a small tray. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 seated_twist / waist_up / portrait85 조합을 선택했다."
+    }
+  ],
+  "batch": "servine-serperior-20261022",
+  "batch_plan": {
+    "session": "servine-serperior-20261022",
+    "characters": [
+      {
+        "card": "샤비",
+        "species": "servine-20261022",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "festivals_contests",
+            "ex": "fest_lantern",
+            "expr": "curious",
+            "pose": "walking",
+            "orient": "turning_midmotion",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer.",
+            "outfit": "A yellow halter mini dress with a leaf-shaped open back leaves shoulders and legs bare.",
+            "aspect": "2:3",
+            "kept": true,
+            "example_text": "Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs.",
+            "locked": [
+              "axis:overall_intensity",
+              "axis:skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "side",
+              "frame": "chest_up",
+              "lens": "wide24"
+            },
+            "axis_reasons": {
+              "action_level": "Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer. — balanced",
+              "source_influence": "A yellow halter mini dress with a leaf-shaped open back leaves shoulders and legs bare. — strong",
+              "separates_preference": "dress 의복 구조에 맞춰 balanced"
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer.",
+                "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer."
+              },
+              {
+                "field": "outfit",
+                "content": "A yellow halter mini dress with a leaf-shaped open back leaves shoulders and legs bare.",
+                "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A yellow halter mini dress with a leaf-shaped open back leaves shoulders and legs bare."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+              }
+            ],
+            "random_correction_reason": "Amber paper lanterns run along a canal at dusk; the snack is a fruit skewer. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 turning_midmotion / environmental / wide24 조합을 선택했다."
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "adult_nurse",
+            "expr": "playful",
+            "pose": "hands_in_hair",
+            "orient": "front",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "uniform",
+              "dress"
+            ],
+            "scene": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins.",
+            "outfit": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume.",
+            "aspect": "2:3",
+            "example_text": "a retro nurse-style party costume — a fitted white button-front dress with short puffed sleeves, a folded white cap, a red-trimmed apron edge and white stockings; pinning the cap in place at a costume-party mirror (invented emblem, no real hospital marks)",
+            "locked": [
+              "axis:overall_intensity",
+              "axis:skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "leaning_forward",
+              "frame": "detail",
+              "lens": "portrait85"
+            },
+            "axis_reasons": {
+              "action_level": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins. — balanced",
+              "source_influence": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume. — strong",
+              "separates_preference": "uniform, dress 의복 구조에 맞춰 balanced"
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins.",
+                "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins."
+              },
+              {
+                "field": "outfit",
+                "content": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume.",
+                "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+              }
+            ],
+            "random_correction_reason": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 front / full_body / natural50 조합을 선택했다."
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "camisole_wrap",
+            "expr": "pensive",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "tank",
+              "skirt"
+            ],
+            "scene": "At a bedroom dressing bench she folds a silk scarf into a small tray.",
+            "outfit": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs.",
+            "aspect": "2:3",
+            "kept": true,
+            "example_text": "Camisole + Wrap Bottom",
+            "locked": [
+              "axis:overall_intensity",
+              "axis:skin_exposure",
+              "aspect"
+            ],
+            "random_draws": {
+              "orient": "leaning_forward",
+              "frame": "waist_up",
+              "lens": "wide24"
+            },
+            "axis_reasons": {
+              "action_level": "At a bedroom dressing bench she folds a silk scarf into a small tray. — mostly posed",
+              "source_influence": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs. — subtle",
+              "separates_preference": "tank, skirt 의복 구조에 맞춰 prefer separates"
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "At a bedroom dressing bench she folds a silk scarf into a small tray.",
+                "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: At a bedroom dressing bench she folds a silk scarf into a small tray."
+              },
+              {
+                "field": "outfit",
+                "content": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs.",
+                "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+              }
+            ],
+            "random_correction_reason": "At a bedroom dressing bench she folds a silk scarf into a small tray. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 seated_twist / waist_up / portrait85 조합을 선택했다."
+          }
+        ],
+        "refill": true
+      },
+      {
+        "card": "샤로다",
+        "species": "serperior-20261022",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "tea_ceremony_night",
+            "expr": "calm",
+            "pose": "preparing_food",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "strongly prefer separates"
+            },
+            "garments": [
+              "blouse",
+              "skirt",
+              "traditional"
+            ],
+            "scene": "In a candlelit tea pavilion she pours tea from a small ceramic pot into a shallow cup.",
+            "outfit": "A mint traditional sari with a sleeveless fitted blouse and a long split drape bares shoulders, midriff and one leg; gold vine embroidery follows the hem.",
+            "aspect": "2:3"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "balcony_plants",
+            "expr": "gentle",
+            "pose": "watering",
+            "orient": "side",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "scene": "Trailing herbs surround a terracotta balcony rail; water streams from a copper watering can into a planter.",
+            "outfit": "A backless cream knit mini dress with a halter neckline exposes the shoulders, upper back and legs.",
+            "aspect": "2:3"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "thermal_spa",
+            "expr": "relieved",
+            "pose": "leaning_furniture",
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "scene": "At a pale stone spa ledge she sets down a folded hand towel as steam drifts above turquoise water.",
+            "outfit": "A burgundy strapless swimsuit with high-cut legs and an oval waist cutout exposes shoulders, side waist and upper thighs.",
+            "aspect": "2:3"
+          }
+        ]
+      }
+    ]
+  },
+  "check": "passed",
+  "reservation_commits": [
+    "3410753f126eedb0f12bb062e983442aea90e80a",
+    "e2a90e7e764f9d03b5d59db1c8f43042da04aed8"
+  ],
+  "generator": "Actual Preact selection controls executed through repository prompt-dom-harness; saved storage and verbatim prompt.",
+  "tool": "built-in image_gen",
+  "blocked_attempts": [
+    {
+      "slot": "casual2",
+      "example": "bunny",
+      "result": "output safety filter blocked; different event costume replanned and reserved",
+      "replaced_by": "adult_nurse"
+    }
+  ]
+}

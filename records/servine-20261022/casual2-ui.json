@@ -1,0 +1,230 @@
+{
+  "storage": {
+    "last": "샤비",
+    "cards": {
+      "이상해씨": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          }
+        }
+      },
+      "샤비": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "body type": "",
+          "hair color": "",
+          "eye color": "red",
+          "skin tone": "light"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "playful",
+            "pose": "hands_in_hair",
+            "orient": "front",
+            "scene": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins.",
+            "outfit": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume.",
+            "frame": "full_body",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "adult_nurse",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Servine (샤비) personified, grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement\nPose: Use the hands to tidy the established hairstyle without changing its cut or length.\nOrientation: torso and pelvis face the camera; gaze is independent\nScene: Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins.\nOutfit and props: A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a retro nurse-style party costume — a fitted white button-front dress with short puffed sleeves, a folded white cap, a red-trimmed apron edge and white stockings; pinning the cap in place at a costume-party mirror (invented emblem, no real hospital marks)\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "random_draws": {
+    "orient": "leaning_forward",
+    "frame": "detail",
+    "lens": "portrait85"
+  },
+  "adjustments": {
+    "cut": 2,
+    "cat": "adult_roleplay",
+    "ex": "adult_nurse",
+    "expr": "playful",
+    "pose": "hands_in_hair",
+    "orient": "front",
+    "frame": "full_body",
+    "lens": "natural50",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "uniform",
+      "dress"
+    ],
+    "scene": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins.",
+    "outfit": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume.",
+    "aspect": "2:3",
+    "example_text": "a retro nurse-style party costume — a fitted white button-front dress with short puffed sleeves, a folded white cap, a red-trimmed apron edge and white stockings; pinning the cap in place at a costume-party mirror (invented emblem, no real hospital marks)",
+    "locked": [
+      "axis:overall_intensity",
+      "axis:skin_exposure",
+      "aspect"
+    ],
+    "random_draws": {
+      "orient": "leaning_forward",
+      "frame": "detail",
+      "lens": "portrait85"
+    },
+    "axis_reasons": {
+      "action_level": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins. — balanced",
+      "source_influence": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume. — strong",
+      "separates_preference": "uniform, dress 의복 구조에 맞춰 balanced"
+    },
+    "direct_inputs": [
+      {
+        "field": "scene",
+        "content": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins.",
+        "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins."
+      },
+      {
+        "field": "outfit",
+        "content": "A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume.",
+        "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: A mint-trimmed fitted white mini dress with a slightly open collar, short puffed sleeves and a red apron edge exposes the collarbones and legs; white stockings complete the costume."
+      },
+      {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+      }
+    ],
+    "random_correction_reason": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 front / full_body / natural50 조합을 선택했다."
+  },
+  "reason": "Warm dressing-room bulbs surround a costume-party mirror; a sewing case rests beside the cap pins. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 front / full_body / natural50 조합을 선택했다."
+}

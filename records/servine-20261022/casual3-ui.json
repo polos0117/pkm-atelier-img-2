@@ -1,0 +1,231 @@
+{
+  "storage": {
+    "last": "샤비",
+    "cards": {
+      "이상해씨": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          }
+        }
+      },
+      "샤비": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "body type": "",
+          "hair color": "",
+          "eye color": "red",
+          "skin tone": "light"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "pensive",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "scene": "At a bedroom dressing bench she folds a silk scarf into a small tray.",
+            "outfit": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs.",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "homewear",
+            "catCustom": "",
+            "ex": "camisole_wrap",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "aspect": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Servine (샤비) personified, grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: gaze angled down and away, slightly furrowed brow, lips lightly pressed or touched\nPose: Perch on a low ledge or bench with the feet resting naturally below.\nOrientation: seated with supported pelvis and a natural torso twist\nScene: At a bedroom dressing bench she folds a silk scarf into a small tray.\nOutfit and props: An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs.\nCategory: Create designed, fashion-forward homewear or lounge-life scenes. Avoid plain pajamas and bland static sofa poses. Use believable home-life actions, stylish home fashion silhouettes, and a sensual but natural private-life atmosphere.\nExample scene: a thin-strap camisole with a wrap skirt or wrap shorts tied at the hip, at home\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "random_draws": {
+    "orient": "leaning_forward",
+    "frame": "waist_up",
+    "lens": "wide24"
+  },
+  "adjustments": {
+    "cut": 3,
+    "cat": "homewear",
+    "ex": "camisole_wrap",
+    "expr": "pensive",
+    "pose": "perched_seat",
+    "orient": "seated_twist",
+    "frame": "waist_up",
+    "lens": "portrait85",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "tank",
+      "skirt"
+    ],
+    "scene": "At a bedroom dressing bench she folds a silk scarf into a small tray.",
+    "outfit": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs.",
+    "aspect": "2:3",
+    "kept": true,
+    "example_text": "Camisole + Wrap Bottom",
+    "locked": [
+      "axis:overall_intensity",
+      "axis:skin_exposure",
+      "aspect"
+    ],
+    "random_draws": {
+      "orient": "leaning_forward",
+      "frame": "waist_up",
+      "lens": "wide24"
+    },
+    "axis_reasons": {
+      "action_level": "At a bedroom dressing bench she folds a silk scarf into a small tray. — mostly posed",
+      "source_influence": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs. — subtle",
+      "separates_preference": "tank, skirt 의복 구조에 맞춰 prefer separates"
+    },
+    "direct_inputs": [
+      {
+        "field": "scene",
+        "content": "At a bedroom dressing bench she folds a silk scarf into a small tray.",
+        "reason": "예시에서 정하지 않은 해당 컷의 물건·구체적 장소를 추가: At a bedroom dressing bench she folds a silk scarf into a small tray."
+      },
+      {
+        "field": "outfit",
+        "content": "An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs.",
+        "reason": "예시에 없는 해당 의복의 재질·색·드러나는 구조를 보충: An ivory satin camisole with narrow straps and a short green wrap skirt exposes shoulders and upper thighs."
+      },
+      {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+      }
+    ],
+    "random_correction_reason": "At a bedroom dressing bench she folds a silk scarf into a small tray. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 seated_twist / waist_up / portrait85 조합을 선택했다."
+  },
+  "reason": "At a bedroom dressing bench she folds a silk scarf into a small tray. 장면의 손동작과 의복 범위를 함께 볼 수 있도록 seated_twist / waist_up / portrait85 조합을 선택했다."
+}
