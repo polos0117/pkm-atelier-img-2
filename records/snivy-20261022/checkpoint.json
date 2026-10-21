@@ -104,6 +104,20 @@
       "sha256": "b1ca2393da1f90e4160cb2a61beee6bb6514a0a882e2a7a0654e925c845f28a9",
       "reference": "주리비얀_light_glossy_promo_f.webp",
       "recovery": "Final WebP and exact submitted prompt are retained in this image repository; PNG source is a session path."
+    },
+    {
+      "slot": "light_overdrive",
+      "source": "records/snivy-20261022/light_overdrive-user-source.jpg",
+      "file": "주리비얀_light_overdrive_glossy_promo_f.webp",
+      "format": "WEBP",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "30d944c8da65d70d5f92a689d3bf5ee0c8133508c18c4515e822e2622bc096d3",
+      "reference": "주리비얀_light_glossy_promo_f.webp",
+      "provenance": "User supplied and explicitly approved 1000023994.png for the missing light overdrive slot; no generation or artistic edit was performed in this import.",
+      "recovery": "Original uploaded bytes and final WebP are retained in this repository."
     }
   ],
   "canonical_light": {
@@ -121,6 +135,11 @@
     "face_reason": "Snivy elongated snake form and low eyelids inform narrow long oval and downturned eyes."
   },
   "face_basis": "Species face and hair design from data/face-design.json and source-appearance.json, emitted by actual Preact generator UI. Compared with Cacturne, Pachirisu and Cacnea: Victini has a broader heart outline, rounder open eyes and short delicate nose; Snivy has a longer narrow oval, lower eyelids and a slender bridge.",
-  "image_mode": "built-in image_gen",
-  "references_rule": "heavy/mobility/casual use canonical light; each overdrive uses its matching closed form, with light additionally supplied for heavy/mobility."
+  "image_mode": "Prior eight images: built-in image_gen. Light overdrive: user-supplied approved image, format conversion only.",
+  "references_rule": "heavy/mobility/casual use canonical light; each overdrive uses its matching closed form, with light additionally supplied for heavy/mobility.",
+  "completion": {
+    "images": 9,
+    "requested": 9,
+    "resolved_slot": "light_overdrive"
+  }
 }
