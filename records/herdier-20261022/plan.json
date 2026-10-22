@@ -1,0 +1,632 @@
+{
+  "session": "lillipup-herdier-20261022-f3a6",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "요테리",
+      "species": "lillipup-20261022",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "food_berries",
+          "ex": "food_market",
+          "expr": "laughing_open",
+          "pose": "small_jog",
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "shorts",
+            "tank"
+          ],
+          "expose": [
+            "mini length",
+            "bare midriff"
+          ],
+          "lead": "action",
+          "example_text": "Choosing fresh berries at a village market stall and placing them into a paper shopping bag.",
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "axes_reason": "Moving fruit across the stall uses mostly active; a red seam is a subtle echo; tank plus shorts are separates.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "Choosing ruby berries, she transfers a handful into an open paper bag at a village market stall beside wicker produce baskets.",
+              "reason": "Ruby berries and wicker baskets specify produce and stall construction absent from the general market example."
+            },
+            {
+              "field": "outfit",
+              "value": "A brown cropped tank and cream mini shorts expose her midriff and legs, with a restrained red seam accent.",
+              "reason": "Cropped tank, shorts and red seam specify the planned separates and exposure structure."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool exposes no size selector; the required vertical size is stated in the generator camera field."
+            }
+          ]
+        },
+        {
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "bustier_inspired",
+          "expr": "sensual",
+          "pose": "hands_in_hair",
+          "orient": "looking_away",
+          "frame": "three_quarter",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "lingerie_set"
+          ],
+          "expose": [
+            "high-cut leg",
+            "strapless top"
+          ],
+          "lead": "place",
+          "example_text": "a bustier-inspired satin lingerie top with a long structured bodice and vertical seam detailing",
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "axes_reason": "Hair tidying is mostly posed; cream tailoring retains recognizable source colour; matching structured lingerie uses balanced.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "A dressing-room fitting platform sits beside an ivory curtain and a carved vanity; a satin measuring ribbon rests across the stool.",
+              "reason": "The vanity, fitting platform and satin ribbon specify the editorial fitting setting."
+            },
+            {
+              "field": "outfit",
+              "value": "The opaque cream satin bustier lingerie set has a strapless long structured bodice with vertical seam detailing and matching high-cut briefs, exposing her shoulders and thighs.",
+              "reason": "Cream opaque satin, vertical seams and matching high-cut briefs implement the planned lingerie set."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool exposes no size selector; the required vertical size is stated in the generator camera field."
+            },
+            {
+              "field": "custom",
+              "value": "Image 1 is her identity reference and image 2 is the correction target. Replace only the marked measuring tape on the stool with a plain ivory satin ribbon; keep the woman, both hands, pose, outfit, camera and every other part of image 2 exactly.",
+              "reason": "Partial correction of observed lettering, preserving the accepted woman and scene."
+            }
+          ]
+        },
+        {
+          "cut": 3,
+          "cat": "festivals_contests",
+          "ex": "fest_fireworks",
+          "expr": "nostalgic",
+          "pose": "side_sitting",
+          "orient": "seated_twist",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "overalls"
+          ],
+          "expose": [
+            "one-shoulder cut",
+            "halter neck"
+          ],
+          "lead": "detail",
+          "example_text": "Waiting for festival fireworks at a riverside seating area, holding a drink with a small bag beside her.",
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "axes_reason": "Waiting with a drink is mostly posed; the brown colour echo is subtle; short overalls use balanced.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "A chilled drink with condensation is in her hand; a small bag rests beside her on a wooden riverside viewing platform as the first distant festival firework glows.",
+              "reason": "Condensation, wood decking and the first distant firework add weathered setting and timing."
+            },
+            {
+              "field": "outfit",
+              "value": "Cream short overalls over a brown asymmetrical one-shoulder halter top expose one shoulder, collarbones and legs.",
+              "reason": "Short overalls and asymmetric halter implement one-shoulder and halter construction."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool exposes no size selector; the required vertical size is stated in the generator camera field."
+            }
+          ]
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            1,
+            3
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "active",
+          "source_editorial",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [],
+        "frame": []
+      }
+    },
+    {
+      "card": "하데리어",
+      "species": "herdier-20261022",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "partner_care",
+          "ex": "care_nap",
+          "expr": "confident",
+          "pose": "reading_book",
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "overalls"
+          ],
+          "expose": [
+            "side cutouts",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail",
+          "example_text": "Resting beside a sleeping Pokémon companion on a shaded picnic blanket with a closed book nearby.",
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "axes_reason": "Handling a book beside the companion uses balanced; navy is a restrained source echo; overalls use balanced.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "A folded blanket edges a sleeping Lillipup Pokémon on a shaded garden picnic blanket, with a closed book beside its cushion.",
+              "reason": "Lillipup names the single separate sleeping companion, and a cushion specifies its resting place."
+            },
+            {
+              "field": "outfit",
+              "value": "Cream short overalls with shaped side cutouts over a navy off-shoulder bandeau reveal her shoulders, collarbones and the sides of her waist.",
+              "reason": "Cream cutout overalls and navy off-shoulder bandeau implement the planned overall structure."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool exposes no size selector; the required vertical size is stated in the generator camera field."
+            },
+            {
+              "field": "custom",
+              "value": "Image 1 is her identity reference and image 2 is the correction target. Replace the small letter-like title band on the open book cover with a continuous ornamental gold rule; preserve the geometric border decoration and all other pixels, including both hands and the sleeping companion.",
+              "reason": "Partial correction of observed lettering, preserving the accepted woman and scene."
+            }
+          ]
+        },
+        {
+          "cut": 2,
+          "cat": "active",
+          "ex": "stretch",
+          "expr": "surprised",
+          "pose": "dance_step",
+          "orient": "leaning_back",
+          "frame": "environmental",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "crop_top",
+            "leggings"
+          ],
+          "expose": [
+            "side cutouts",
+            "off-shoulder neckline"
+          ],
+          "lead": "place",
+          "example_text": "a slow mobility stretch on a mat in a fitted athletic set, the joint movement easy to read",
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "axes_reason": "The post-dance stretch supports mostly active; navy and cream with gold piping make strong source colours; crop top plus leggings are separates.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "An airy rehearsal studio has a padded exercise mat and broad windows; she stretches her shoulders and side body after dance practice.",
+              "reason": "Barre, windows and exercise mat define the rehearsal room around the selected mobility stretch."
+            },
+            {
+              "field": "outfit",
+              "value": "A navy off-shoulder crop top with side cutouts and cream leggings reveals her shoulders, collarbones and waist; gold side piping echoes her palette.",
+              "reason": "Navy cutout crop top and cream leggings implement off-shoulder cutouts and separates."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool exposes no size selector; the required vertical size is stated in the generator camera field."
+            }
+          ]
+        },
+        {
+          "cut": 3,
+          "cat": "adult_roleplay",
+          "ex": "casino_dealer",
+          "garments": [
+            "vest"
+          ],
+          "orient": "reaching_up",
+          "frame": "waist_up",
+          "pose": "standing_relaxed",
+          "expr": "smug",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "side cutouts",
+            "off-shoulder neckline"
+          ],
+          "lead": "action",
+          "example_text": "a casino dealer costume with a fitted waistcoat, bow tie, and cuffs, at a card table",
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "axes_reason": "Adjusting the lamp is mostly posed; navy-cream-gold tailoring is strong source colour; vest and trousers are separates.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "She adjusts a raised table lamp before a casino-themed stage rehearsal, with stacks of colored chips on the green felt.",
+              "reason": "Adjusting the table lamp and chip stacks specify preparation at the selected themed casino table."
+            },
+            {
+              "field": "outfit",
+              "value": "A tailored navy off-shoulder waistcoat with shaped side cutouts and cream trousers exposes shoulders and the sides of the waist; a bow-tie collar and cuffs complete the dealer costume.",
+              "reason": "Tailored waistcoat, off-shoulder structure and side openings implement vest construction with the required bow tie and cuffs."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool exposes no size selector; the required vertical size is stated in the generator camera field."
+            }
+          ]
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "active",
+          "source_editorial",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "vest"
+        ],
+        "orient": [
+          "reaching_up"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "partner_care",
+      "ex": "care_nap",
+      "expr": "confident",
+      "pose": "reading_book",
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "side cutouts",
+        "off-shoulder neckline"
+      ],
+      "lead": "detail",
+      "example_text": "Resting beside a sleeping Pokémon companion on a shaded picnic blanket with a closed book nearby.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reason": "Handling a book beside the companion uses balanced; navy is a restrained source echo; overalls use balanced.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "A folded blanket edges a sleeping Lillipup Pokémon on a shaded garden picnic blanket, with a closed book beside its cushion.",
+          "reason": "Lillipup names the single separate sleeping companion, and a cushion specifies its resting place."
+        },
+        {
+          "field": "outfit",
+          "value": "Cream short overalls with shaped side cutouts over a navy off-shoulder bandeau reveal her shoulders, collarbones and the sides of her waist.",
+          "reason": "Cream cutout overalls and navy off-shoulder bandeau implement the planned overall structure."
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool exposes no size selector; the required vertical size is stated in the generator camera field."
+        },
+        {
+          "field": "custom",
+          "value": "Image 1 is her identity reference and image 2 is the correction target. Replace the small letter-like title band on the open book cover with a continuous ornamental gold rule; preserve the geometric border decoration and all other pixels, including both hands and the sleeping companion.",
+          "reason": "Partial correction of observed lettering, preserving the accepted woman and scene."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "active",
+      "ex": "stretch",
+      "expr": "surprised",
+      "pose": "dance_step",
+      "orient": "leaning_back",
+      "frame": "environmental",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "leggings"
+      ],
+      "expose": [
+        "side cutouts",
+        "off-shoulder neckline"
+      ],
+      "lead": "place",
+      "example_text": "a slow mobility stretch on a mat in a fitted athletic set, the joint movement easy to read",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reason": "The post-dance stretch supports mostly active; navy and cream with gold piping make strong source colours; crop top plus leggings are separates.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "An airy rehearsal studio has a padded exercise mat and broad windows; she stretches her shoulders and side body after dance practice.",
+          "reason": "Barre, windows and exercise mat define the rehearsal room around the selected mobility stretch."
+        },
+        {
+          "field": "outfit",
+          "value": "A navy off-shoulder crop top with side cutouts and cream leggings reveals her shoulders, collarbones and waist; gold side piping echoes her palette.",
+          "reason": "Navy cutout crop top and cream leggings implement off-shoulder cutouts and separates."
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool exposes no size selector; the required vertical size is stated in the generator camera field."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "casino_dealer",
+      "garments": [
+        "vest"
+      ],
+      "orient": "reaching_up",
+      "frame": "waist_up",
+      "pose": "standing_relaxed",
+      "expr": "smug",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "off-shoulder neckline"
+      ],
+      "lead": "action",
+      "example_text": "a casino dealer costume with a fitted waistcoat, bow tie, and cuffs, at a card table",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reason": "Adjusting the lamp is mostly posed; navy-cream-gold tailoring is strong source colour; vest and trousers are separates.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "She adjusts a raised table lamp before a casino-themed stage rehearsal, with stacks of colored chips on the green felt.",
+          "reason": "Adjusting the table lamp and chip stacks specify preparation at the selected themed casino table."
+        },
+        {
+          "field": "outfit",
+          "value": "A tailored navy off-shoulder waistcoat with shaped side cutouts and cream trousers exposes shoulders and the sides of the waist; a bow-tie collar and cuffs complete the dealer costume.",
+          "reason": "Tailored waistcoat, off-shoulder structure and side openings implement vest construction with the required bow tie and cuffs."
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool exposes no size selector; the required vertical size is stated in the generator camera field."
+        }
+      ]
+    }
+  ],
+  "selection_method": "tools/casual-plan.cjs; all initial and revised batches passed casual-ledger.py check --fresh. Existing planned values were preserved during replanning, then kept flags removed and the complete ungenerated batch rechecked.",
+  "reservation": "records/casual-reservations/lillipup-herdier-20261022-f3a6.json"
+}

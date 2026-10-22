@@ -1,0 +1,71 @@
+{
+  "card": "하데리어",
+  "source": "data/source-appearance.json",
+  "design": {
+    "name": "하데리어",
+    "en": "Herdier",
+    "line": "요테리",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "elongated",
+      "face length": "long",
+      "face width": "narrow",
+      "jaw & chin": "long chin with defined jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "balanced nose",
+      "lips": "full lips"
+    },
+    "why": "",
+    "cues": [
+      "‘long, cream fur’ → 얼굴형 길고 세련된 얼굴형",
+      "‘long, cream fur’ → 얼굴 길이 긴 얼굴",
+      "‘long, cream fur’ → 얼굴 폭 좁은 얼굴",
+      "‘long, cream fur’ → 턱선 · 턱끝 턱끝이 길고 턱선이 또렷한",
+      "‘long, cream fur’ → 눈매 아몬드형 눈",
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은"
+    ],
+    "adjusted": "같은 계열 요테리와 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 가늘고 완만한 곡선 → 길고 바깥 아치가 선명한",
+    "hair": {
+      "hairstyle": "high ponytail",
+      "hair length": "medium",
+      "bangs": "side-swept bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘three-pointed crest’에서 높이 묶은 포니테일(묶은 꼬리) · 중간 길이 · 옆으로 넘긴 앞머리 — 요테리에서 이어 같은 묶음",
+    "hair_cues": [
+      "‘three-pointed crest’ → 헤어스타일 높이 묶은 포니테일"
+    ]
+  },
+  "selection_why": "Long cream facial fur and alert loyal-dog expression become an elongated adult jaw, narrow almond eyes and long outer-arched brows. A high ponytail interprets the three-pointed crest while continuing the tied-hair family.",
+  "actual_face_comparison": [
+    "요테리",
+    "하데리어",
+    "보르그",
+    "보르쥐",
+    "릴리요"
+  ],
+  "canonical_light": {
+    "card": "하데리어",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "original": "/workspace/scratch/f3a6733a9bb9/generated_images/exec-4564ce5f-a2dc-44aa-a512-97d2a4d6b260.png",
+    "original_sha256": "922ed87e9d451672553a0f5bed7bc852db2818c0d1536522e11a967dcbcafd0e",
+    "output": "img/하데리어_light_glossy_promo_f.webp",
+    "sha256": "d9bf114ba4b1d9dbecd87e5e7cefd0a044836603a6d1d97f059e14cd1cf36063",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "basis": null,
+    "ui": "light-ui.json",
+    "prompt": "light-prompt.txt",
+    "tool": "built-in image_gen"
+  }
+}
