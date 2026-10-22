@@ -1,0 +1,42 @@
+{
+ "card": "둥실라이드",
+ "slot": "casual3",
+ "style": "glossy_promo",
+ "date": "2026-10-22",
+ "request": "Fix unnatural leg structure; preserve identity and morning bedroom; opaque shorts explicitly approved by user",
+ "method": "Built-in image_gen, scene rebuilt from canonical light image after direct input editing was blocked",
+ "inputs": [
+  "img/둥실라이드_light_glossy_promo_f.webp"
+ ],
+ "previous_blob": "3353003eb855f4c6f34743690b9c33b666a7b536",
+ "previous_sha256": "95b24476683650ff1566ca238baedd0338f403a784326601d436f23cee996726",
+ "output": "img/둥실라이드_glossy_promo_f_casual3.webp",
+ "output_sha256": "89c19537bbc1e3c8ed69a5878c0a58ac0c8447fbb458ee29e5188a886009696f",
+ "size": [
+  1024,
+  1536
+ ],
+ "format": "WEBP",
+ "quality": 85,
+ "method_webp": 6,
+ "actual_prompt": "prompt.txt",
+ "blocked_attempts": [
+  {
+   "type": "Original outfit anatomy edit",
+   "result": "input moderation blocked; no output"
+  },
+  {
+   "type": "Approved shorts edit using original scene image",
+   "result": "input moderation blocked; no output"
+  }
+ ],
+ "qa": {
+  "legs": "Two thighs emerge from their own shorts openings and lead to adjacent bent knees; shins fold back together to the left, no detached horizontal thigh",
+  "hands": "Both hands hold the same mug; fingers naturally wrap around cup, no duplicated hands",
+  "identity": "Lavender curly long hair, side bangs, purple eyes, rounded face retained from canonical anchor",
+  "outfit": "Opaque cotton shorts with distinct leg openings and mid-thigh hems; lavender strapless cotton top",
+  "scene": "Morning bedroom, bed, steaming mug and river/castle window retained",
+  "scope_difference": "Rebuilt scene rather than pixel-preserving edit: pose, bedding/window details and top length vary"
+ },
+ "planner_override": "Existing slot correction at user direction; prior lingerie setting is superseded by explicitly approved shorts. Original generation UI record remains historical, not claimed as the correction prompt."
+}
