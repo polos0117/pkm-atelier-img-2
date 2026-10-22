@@ -1,0 +1,605 @@
+{
+ "batch": {
+  "session": "crawdaunt-baltoy-20261022-c17c",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "가재장군",
+    "species": "crawdaunt-20261022",
+    "cuts": [
+     {
+      "cut": 1,
+      "cat": "everyday_basic",
+      "ex": "laundry",
+      "garments": [
+       "dress"
+      ],
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "pose": "kneeling",
+      "expr": "surprised",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "halter neck",
+       "high thigh slit"
+      ],
+      "lead": "action"
+     },
+     {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "bodysuit",
+      "garments": [
+       "lingerie_set"
+      ],
+      "orient": "side",
+      "frame": "waist_up",
+      "pose": "arms_crossed",
+      "expr": "serious",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "bare midriff",
+       "high-cut leg"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 3,
+      "cat": "active",
+      "ex": "running_recovery",
+      "garments": [
+       "leggings",
+       "tank"
+      ],
+      "orient": "high_angle",
+      "frame": "full_body",
+      "pose": "standing_formal",
+      "expr": "exhausted",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "cropped hem",
+       "off-shoulder neckline"
+      ],
+      "lead": "place"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       2
+      ],
+      "two": false,
+      "prev": [
+       1
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_basic",
+      "partner_care",
+      "travel_exploration",
+      "food_berries",
+      "hobbies_leisure",
+      "active",
+      "source_editorial",
+      "private_evening",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "dress",
+      "leggings",
+      "tank"
+     ],
+     "orient": [
+      "profile_close",
+      "side",
+      "high_angle"
+     ],
+     "frame": []
+    }
+   },
+   {
+    "card": "오뚝군",
+    "species": "baltoy-20261022",
+    "cuts": [
+     {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "outdoor_shower",
+      "garments": [
+       "swimsuit"
+      ],
+      "orient": "looking_away",
+      "frame": "environmental",
+      "pose": "leaning_wall",
+      "expr": "smug",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "strapless top",
+       "plunging neckline"
+      ],
+      "lead": "place"
+     },
+     {
+      "kept": true,
+      "cut": 2,
+      "cat": "occupation_sensual",
+      "ex": "hightech_inspector",
+      "expr": "focused",
+      "pose": "squatting",
+      "orient": "crouching",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "garments": [
+       "trousers",
+       "vest"
+      ],
+      "expose": [
+       "mini length",
+       "bare midriff"
+      ],
+      "lead": "place"
+     },
+     {
+      "kept": true,
+      "cut": 3,
+      "cat": "private_evening",
+      "ex": "silk_robe_evening",
+      "expr": "sleepy",
+      "pose": "cross_legged",
+      "orient": "low_angle",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "robe"
+      ],
+      "expose": [
+       "high thigh slit",
+       "open back"
+      ],
+      "lead": "detail"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       1
+      ],
+      "two": false,
+      "prev": [
+       2
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_sensual",
+      "partner_care",
+      "travel_exploration",
+      "food_berries",
+      "hobbies_leisure",
+      "source_editorial",
+      "private_evening",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "swimsuit"
+     ],
+     "orient": [
+      "looking_away"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "casual_plan": [
+  {
+   "cut": 1,
+   "cat": "swimwear",
+   "ex": "outdoor_shower",
+   "garments": [
+    "swimsuit"
+   ],
+   "orient": "looking_away",
+   "frame": "environmental",
+   "pose": "leaning_wall",
+   "expr": "smug",
+   "lens": "documentary35",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "subtle",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "strapless top",
+    "plunging neckline"
+   ],
+   "lead": "place"
+  },
+  {
+   "kept": true,
+   "cut": 2,
+   "cat": "occupation_sensual",
+   "ex": "hightech_inspector",
+   "expr": "focused",
+   "pose": "squatting",
+   "orient": "crouching",
+   "frame": "three_quarter",
+   "lens": "telephoto135",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "strong",
+    "separates_preference": "prefer separates"
+   },
+   "garments": [
+    "trousers",
+    "vest"
+   ],
+   "expose": [
+    "mini length",
+    "bare midriff"
+   ],
+   "lead": "place"
+  },
+  {
+   "kept": true,
+   "cut": 3,
+   "cat": "private_evening",
+   "ex": "silk_robe_evening",
+   "expr": "sleepy",
+   "pose": "cross_legged",
+   "orient": "low_angle",
+   "frame": "chest_up",
+   "lens": "portrait85",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "strong",
+    "separates_preference": "balanced"
+   },
+   "garments": [
+    "robe"
+   ],
+   "expose": [
+    "high thigh slit",
+    "open back"
+   ],
+   "lead": "detail"
+  }
+ ],
+ "reservation_commit": "056014dde1111b272cef18e79856f918fe92b86d",
+ "check": "passed before re-reservation",
+ "attempts": [
+  {
+   "cut": 1,
+   "example": "heritage_pattern_swim",
+   "outcome": "moderation_blocked sexual at output, no image produced",
+   "request_id": "b883a638-8a81-4a1b-8cbc-f8cdb9838ac0",
+   "next": "planner --avoid ex=heritage_pattern_swim --keep 2,3; outdoor_shower reserved and generated"
+  }
+ ],
+ "casual_plan_details": [
+  {
+   "cut": 1,
+   "selected": {
+    "cut": 1,
+    "cat": "swimwear",
+    "ex": "outdoor_shower",
+    "garments": [
+     "swimsuit"
+    ],
+    "orient": "looking_away",
+    "frame": "environmental",
+    "pose": "leaning_wall",
+    "expr": "smug",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+     "overall_intensity": "strong",
+     "skin_exposure": "bold",
+     "action_level": "balanced",
+     "source_influence": "subtle",
+     "separates_preference": "balanced"
+    },
+    "expose": [
+     "strapless top",
+     "plunging neckline"
+    ],
+    "lead": "place",
+    "scene": "An open-air resort rinse station has a stone wall beside a sandy boardwalk; she rinses seawater from her shoulders under the shower after swimming.",
+    "outfit": "A sand-colored strapless swimsuit has a plunging V neckline, terracotta woven geometric patterns and matching red trim.",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "custom": "",
+    "catCustom": "",
+    "exCustom": "",
+    "action": {},
+    "randomLocks": {
+     "cat": true,
+     "ex": true,
+     "expr": true,
+     "pose": true,
+     "orient": true,
+     "frame": true,
+     "lens": true,
+     "aspect": true,
+     "overall_intensity": true,
+     "skin_exposure": true,
+     "action_level": true,
+     "source_influence": true,
+     "separates_preference": true
+    }
+   },
+   "submitted_prompt": "casual1-prompt.txt",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "overall_intensity",
+    "skin_exposure",
+    "action_level",
+    "source_influence",
+    "separates_preference"
+   ],
+   "random": "planner selected all values; no hand-selected randomization",
+   "direct_inputs": {
+    "scene": {
+     "text": "An open-air resort rinse station has a stone wall beside a sandy boardwalk; she rinses seawater from her shoulders under the shower after swimming.",
+     "reason": "야외 샤워 예시에 없는 해변 보드워크·돌벽과 수영 후 소금물 씻기를 보충"
+    },
+    "outfit": {
+     "text": "A sand-colored strapless swimsuit has a plunging V neckline, terracotta woven geometric patterns and matching red trim.",
+     "reason": "계획의 swimsuit와 strapless/plunging 구조에 모래색·테라코타 기하 문양을 정함"
+    },
+    "camera": {
+     "text": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 선택 인자가 없어 세로 2:3 픽셀 크기를 생성기 카메라 칸에 넣음"
+    }
+   },
+   "axes_reason": [
+    "수영 직후 씻는 가벼운 동작",
+    "수영복 기하 문양에 색만 반영",
+    "수영복 한 벌 구조"
+   ]
+  },
+  {
+   "cut": 2,
+   "selected": {
+    "cut": 2,
+    "cat": "occupation_sensual",
+    "ex": "hightech_inspector",
+    "garments": [
+     "trousers",
+     "vest"
+    ],
+    "orient": "crouching",
+    "frame": "three_quarter",
+    "pose": "squatting",
+    "expr": "focused",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+     "overall_intensity": "strong",
+     "skin_exposure": "bold",
+     "action_level": "mostly posed",
+     "source_influence": "strong",
+     "separates_preference": "prefer separates"
+    },
+    "expose": [
+     "mini length",
+     "bare midriff"
+    ],
+    "lead": "place",
+    "scene": "A glass-walled design showroom displays two appliance prototypes on a low test bench; she compares their controls while turning one prototype dial.",
+    "outfit": "A cropped terracotta utility vest reveals her midriff above tailored mini-length culotte trousers; circular red stitching and bronze fasteners echo her palette.",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "custom": "",
+    "catCustom": "",
+    "exCustom": "",
+    "action": {},
+    "randomLocks": {
+     "cat": true,
+     "ex": true,
+     "expr": true,
+     "pose": true,
+     "orient": true,
+     "frame": true,
+     "lens": true,
+     "aspect": true,
+     "overall_intensity": true,
+     "skin_exposure": true,
+     "action_level": true,
+     "source_influence": true,
+     "separates_preference": true
+    }
+   },
+   "submitted_prompt": "casual2-prompt.txt",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "overall_intensity",
+    "skin_exposure",
+    "action_level",
+    "source_influence",
+    "separates_preference"
+   ],
+   "random": "planner selected all values; no hand-selected randomization",
+   "direct_inputs": {
+    "scene": {
+     "text": "A glass-walled design showroom displays two appliance prototypes on a low test bench; she compares their controls while turning one prototype dial.",
+     "reason": "제품 비교 예시에 없는 전시장의 유리벽·낮은 시험대·다이얼 조작을 보충"
+    },
+    "outfit": {
+     "text": "A cropped terracotta utility vest reveals her midriff above tailored mini-length culotte trousers; circular red stitching and bronze fasteners echo her palette.",
+     "reason": "계획의 vest/trousers와 mini/bare midriff 구조에 테라코타 검사복 소재·원형 박음을 정함"
+    },
+    "camera": {
+     "text": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 선택 인자가 없어 세로 2:3 픽셀 크기를 생성기 카메라 칸에 넣음"
+    }
+   },
+   "axes_reason": [
+    "낮은 자세로 다이얼 조작을 멈춰 확인",
+    "원형 박음과 붉은 고리로 업무 의상에 원작 색을 반영",
+    "조끼와 짧은 큐롯으로 상하의 분리"
+   ]
+  },
+  {
+   "cut": 3,
+   "selected": {
+    "cut": 3,
+    "cat": "private_evening",
+    "ex": "silk_robe_evening",
+    "garments": [
+     "robe"
+    ],
+    "orient": "low_angle",
+    "frame": "chest_up",
+    "pose": "cross_legged",
+    "expr": "sleepy",
+    "lens": "portrait85",
+    "aspect": "2:3",
+    "axes": {
+     "overall_intensity": "strong",
+     "skin_exposure": "bold",
+     "action_level": "mostly posed",
+     "source_influence": "strong",
+     "separates_preference": "balanced"
+    },
+    "expose": [
+     "high thigh slit",
+     "open back"
+    ],
+    "lead": "detail",
+    "scene": "A warm ceramic tea cup and a shaded copper lamp sit on a low table beside her evening lounge chair.",
+    "outfit": "A sandy silk robe with red ring embroidery has an open back framed by tied shoulder panels and a high thigh slit, worn over a fitted copper evening base.",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "custom": "",
+    "catCustom": "",
+    "exCustom": "",
+    "action": {},
+    "randomLocks": {
+     "cat": true,
+     "ex": true,
+     "expr": true,
+     "pose": true,
+     "orient": true,
+     "frame": true,
+     "lens": true,
+     "aspect": true,
+     "overall_intensity": true,
+     "skin_exposure": true,
+     "action_level": true,
+     "source_influence": true,
+     "separates_preference": true
+    }
+   },
+   "submitted_prompt": "casual3-prompt.txt",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "overall_intensity",
+    "skin_exposure",
+    "action_level",
+    "source_influence",
+    "separates_preference"
+   ],
+   "random": "planner selected all values; no hand-selected randomization",
+   "direct_inputs": {
+    "scene": {
+     "text": "A warm ceramic tea cup and a shaded copper lamp sit on a low table beside her evening lounge chair.",
+     "reason": "실크 로브 예시에 없는 찻잔·구리 조명·라운지 의자를 보충"
+    },
+    "outfit": {
+     "text": "A sandy silk robe with red ring embroidery has an open back framed by tied shoulder panels and a high thigh slit, worn over a fitted copper evening base.",
+     "reason": "계획의 robe와 open back/high slit 구조에 실크·붉은 고리 자수를 정함"
+    },
+    "camera": {
+     "text": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 선택 인자가 없어 세로 2:3 픽셀 크기를 생성기 카메라 칸에 넣음"
+    }
+   },
+   "axes_reason": [
+    "저녁 라운지에서 다리를 꼬고 쉬는 정지 순간",
+    "붉은 고리 자수와 모래색 실크로 직접 연결",
+    "로브와 이브닝 베이스의 한 실루엣"
+   ]
+  }
+ ]
+}
