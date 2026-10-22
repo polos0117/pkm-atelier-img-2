@@ -50,7 +50,7 @@
               }
             },
             "heavy": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-22T10:31:45+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-22-1/345/heavy/prompt.txt",
@@ -62,7 +62,12 @@
               },
               "references": {
                 "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-22-1/345/heavy/original.png",
+                "sha256": "acd1153f52b92832e4cd3b6b320c3cf8aec52998420f71542ec982aacaddc37f"
+              },
+              "received_at": "2026-10-22T10:33:12+00:00"
             }
           }
         },
@@ -74,7 +79,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T10:31:45+00:00"
+      "updated_at": "2026-10-22T10:33:14+00:00"
     }
   ],
   "claims": {
