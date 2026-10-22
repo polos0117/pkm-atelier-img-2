@@ -1,0 +1,327 @@
+{
+ "batch": {
+  "session": "claydol-20261022-939a",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "점토도리",
+    "species": "claydol-20261022",
+    "cuts": [
+     {
+      "kept": true,
+      "cut": 1,
+      "cat": "festivals_contests",
+      "ex": "fest_booth",
+      "expr": "pensive",
+      "pose": "standing_relaxed",
+      "orient": "reaching_up",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "overalls"
+      ],
+      "expose": [
+       "halter neck",
+       "one-shoulder cut"
+      ],
+      "lead": "place"
+     },
+     {
+      "kept": true,
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "kebaya_lace",
+      "expr": "confident",
+      "pose": "leaning_furniture",
+      "orient": "leaning_forward",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "garments": [
+       "tank"
+      ],
+      "expose": [
+       "halter neck",
+       "one-shoulder cut"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "cabin_crew_retro",
+      "garments": [
+       "jacket"
+      ],
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "pose": "sitting_floor",
+      "expr": "amused",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "halter neck",
+       "one-shoulder cut"
+      ],
+      "lead": "detail"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       3
+      ],
+      "two": true,
+      "prev": [
+       1
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_sensual",
+      "partner_care",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "source_editorial",
+      "homewear",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [],
+     "orient": [
+      "seated_twist"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "casual_plan": [
+  {
+   "kept": true,
+   "cut": 1,
+   "cat": "festivals_contests",
+   "ex": "fest_booth",
+   "expr": "pensive",
+   "pose": "standing_relaxed",
+   "orient": "reaching_up",
+   "frame": "waist_up",
+   "lens": "natural50",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "strong",
+    "separates_preference": "balanced"
+   },
+   "garments": [
+    "overalls"
+   ],
+   "expose": [
+    "halter neck",
+    "one-shoulder cut"
+   ],
+   "lead": "place",
+   "scene": "A festival stall is shaded by a striped awning, with handmade ceramic ornaments catching late-afternoon light.",
+   "outfit": "Charcoal linen short overalls with an asymmetric one-shoulder halter bib, a cutaway waist and short hems exposing shoulders, waist and thighs; white circular embroidery and pink enamel buttons echo her clay motifs.",
+   "aspect": "2:3",
+   "example_text": "Browsing handmade Pokémon-themed charms at a festival booth and lifting one for a closer look.",
+   "random_source": "tools/casual-plan.cjs; no manual selection changes",
+   "locks": {
+    "cat": true,
+    "ex": true,
+    "expr": true,
+    "pose": true,
+    "orient": true,
+    "frame": true,
+    "lens": true,
+    "aspect": true,
+    "axes.overall_intensity": true,
+    "axes.skin_exposure": true,
+    "axes.action_level": true,
+    "axes.source_influence": true,
+    "axes.separates_preference": true
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "A festival stall is shaded by a striped awning, with handmade ceramic ornaments catching late-afternoon light.",
+     "reason": "축제 예시에 없는 차양과 도자기 재질, 오후 빛을 보충."
+    },
+    {
+     "field": "outfit",
+     "content": "Charcoal linen short overalls with an asymmetric one-shoulder halter bib, a cutaway waist and short hems exposing shoulders, waist and thighs; white circular embroidery and pink enamel buttons echo her clay motifs.",
+     "reason": "공예품 예시에 정해진 옷이 없어 계획의 오버롤과 비대칭 홀터·짧은 기장을 구현."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "도구에 크기 선택란이 없어 규칙의 공통 화면비 문장을 입력."
+    }
+   ],
+   "axes_reason": "장식품을 고르는 정지 순간이라 mostly posed, 고리 무늬의 오버롤이므로 strong, 한 벌 오버롤이므로 balanced."
+  },
+  {
+   "kept": true,
+   "cut": 2,
+   "cat": "lingerie",
+   "ex": "kebaya_lace",
+   "expr": "confident",
+   "pose": "leaning_furniture",
+   "orient": "leaning_forward",
+   "frame": "three_quarter",
+   "lens": "natural50",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "balanced",
+    "separates_preference": "prefer separates"
+   },
+   "garments": [
+    "tank"
+   ],
+   "expose": [
+    "halter neck",
+    "one-shoulder cut"
+   ],
+   "lead": "place",
+   "scene": "A bright textile showroom has a carved fitting counter, folded batik cloth and a tall window casting clean midday light.",
+   "outfit": "An ivory floral-lace kebaya top drapes asymmetrically over one shoulder above a rose-pink halter camisole, with an opaque dark teal short sarong; the cropped asymmetric cut exposes the opposite shoulder and a narrow section of waist.",
+   "aspect": "2:3",
+   "example_text": "a kebaya-inspired sheer lace top with fine floral embroidery over a fitted camisole",
+   "random_source": "tools/casual-plan.cjs; no manual selection changes",
+   "locks": {
+    "cat": true,
+    "ex": true,
+    "expr": true,
+    "pose": true,
+    "orient": true,
+    "frame": true,
+    "lens": true,
+    "aspect": true,
+    "axes.overall_intensity": true,
+    "axes.skin_exposure": true,
+    "axes.action_level": true,
+    "axes.source_influence": true,
+    "axes.separates_preference": true
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "A bright textile showroom has a carved fitting counter, folded batik cloth and a tall window casting clean midday light.",
+     "reason": "크바야 예시에 없는 섬유 전시장·작업대·한낮 창빛을 보충."
+    },
+    {
+     "field": "outfit",
+     "content": "An ivory floral-lace kebaya top drapes asymmetrically over one shoulder above a rose-pink halter camisole, with an opaque dark teal short sarong; the cropped asymmetric cut exposes the opposite shoulder and a narrow section of waist.",
+     "reason": "크바야와 캐미솔의 소재·색, 계획의 홀터·한쪽 어깨 재단과 하의 사롱을 명시."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "도구에 크기 선택란이 없어 규칙의 공통 화면비 문장을 입력."
+    }
+   ],
+   "axes_reason": "전시대에 기댄 작은 움직임이라 balanced, 분홍 상의가 원작 색만 남기므로 balanced, 상의와 사롱이 나뉘므로 prefer separates."
+  },
+  {
+   "cut": 3,
+   "cat": "adult_roleplay",
+   "ex": "cabin_crew_retro",
+   "garments": [
+    "jacket"
+   ],
+   "orient": "seated_twist",
+   "frame": "full_body",
+   "pose": "sitting_floor",
+   "expr": "amused",
+   "lens": "natural50",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "balanced",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "halter neck",
+    "one-shoulder cut"
+   ],
+   "lead": "detail",
+   "scene": "A miniature rolling suitcase rests beside her on the floor of a retro aviation fashion-show backstage, with circular runway lights and a painted terminal set.",
+   "outfit": "A navy cropped retro cabin-crew costume jacket with a one-shoulder cut over a halter blouse, paired with an ivory mini skirt and low heels; the short tailoring exposes one shoulder, the waist and legs.",
+   "example_text": "a retro cabin crew costume with a fitted jacket, pillbox hat, and neck scarf",
+   "random_source": "tools/casual-plan.cjs; no manual selection changes",
+   "locks": {
+    "cat": true,
+    "ex": true,
+    "expr": true,
+    "pose": true,
+    "orient": true,
+    "frame": true,
+    "lens": true,
+    "aspect": true,
+    "axes.overall_intensity": true,
+    "axes.skin_exposure": true,
+    "axes.action_level": true,
+    "axes.source_influence": true,
+    "axes.separates_preference": true
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "A miniature rolling suitcase rests beside her on the floor of a retro aviation fashion-show backstage, with circular runway lights and a painted terminal set.",
+     "reason": "직업풍 의상의 행사 맥락을 항공 패션쇼 백스테이지와 소형 여행가방으로 구체화."
+    },
+    {
+     "field": "outfit",
+     "content": "A navy cropped retro cabin-crew costume jacket with a one-shoulder cut over a halter blouse, paired with an ivory mini skirt and low heels; the short tailoring exposes one shoulder, the waist and legs.",
+     "reason": "승무원풍 예시의 재킷을 계획의 짧은 비대칭 재단으로 구현하고 치마·굽을 보충."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "도구에 크기 선택란이 없어 규칙의 공통 화면비 문장을 입력."
+    }
+   ],
+   "axes_reason": "여행가방 옆에 앉은 준비 순간이라 mostly posed, 분홍 스카프만 색을 잇기 때문에 balanced, 재킷·블라우스·치마가 나뉘므로 prefer separates."
+  }
+ ],
+ "reservation_commit": "dbf2949c31130b8138de8996d785e8de1d231402",
+ "check": "passed before generation",
+ "generator": "deployed UI; every final prompt FNV matched local engine",
+ "replanning": [
+  "장부 view --fresh와 check의 이전 장부가 달라 로컬 build 후 같은 비교 대상으로 재계획; 장부 파일은 원격에 쓰지 않음",
+  "홈웨어 예시와 slip 옷 종류 불일치로 생성 전 --avoid 재계획",
+  "동시 요청에서 한복 컷 또는 수영복 컷 안전 필터 거부, 다른 요청 반환도 없음; 성공한 1번은 보존",
+  "유카타 풀사이드 요청이 output moderation sexual로 거부되어 필수 갈래를 adult_roleplay로 바꿈"
+ ],
+ "regenerated_successful_images": false
+}
