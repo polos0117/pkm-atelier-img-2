@@ -96,6 +96,21 @@
                 "path": "records/automation/runs/2026-10-22-1/345/mobility/qa.json",
                 "sha256": "2010de56fb114e7881c37640ce3dbfe3be9e126064a0b170b9b1cca09141e4ad"
               }
+            },
+            "light_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-22T10:36:04+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/prompt.txt",
+                "sha256": "86aa9c4c5dfc53614771ebded9973d849492a98dddce804873829a12c703521a"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/ui.json",
+                "sha256": "8b0b66e1eac9bc448fc5bcb9bccca70924c24e1d7f0db8f4a94c97344a3f2772"
+              },
+              "references": {
+                "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+              }
             }
           }
         },
@@ -107,7 +122,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T10:35:43+00:00"
+      "updated_at": "2026-10-22T10:36:04+00:00"
     }
   ],
   "claims": {
