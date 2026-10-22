@@ -204,6 +204,21 @@
                 "path": "records/automation/runs/2026-10-22-1/345/casual1/qa.json",
                 "sha256": "1255ee22ac9ca62952738ad9542b1520e15253743e334c8664e54b032919014a"
               }
+            },
+            "casual2": {
+              "status": "in_flight",
+              "at": "2026-10-22T10:56:50+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-22-1/345/casual2/prompt.txt",
+                "sha256": "950cc3e0d80dd85c3f2c62b7b0c4749b16dca7e13f1ad700414f3c5568c955da"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-22-1/345/casual2/ui.json",
+                "sha256": "fefa6e0e4152b2135e302a5e61851ce72fbcd55792805e8814e87a35b1758080"
+              },
+              "references": {
+                "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+              }
             }
           },
           "reason": "QA_FAILED approved correction attempt 2, light_overdrive sha256=47e9e51a0cf772e516729b7cdfae05f25bd61b3a2c79fa4baeca193d8892f190: compared actual approved light and both failed outputs. Large stacked thigh armor reduced, but new broad angular thigh panels with gold borders remain instead of the original smooth purple fitted thigh surfaces and small knee accents. Face pose camera preserved; no-new-armor criterion still fails. Exactly one approved correction consumed; no further retries or batch generation authorized after this failure. All originals and approval preserved.",
@@ -253,7 +268,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T10:56:06+00:00"
+      "updated_at": "2026-10-22T10:56:50+00:00"
     }
   ],
   "claims": {
