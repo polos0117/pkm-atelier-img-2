@@ -1,17 +1,17 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-stoutland-purrloin-20261023-e50a",
- "at": "2026-10-22T08:28:41-07:00",
+ "at": "2026-10-22T08:30:29-07:00",
  "characters": [
   {
    "species": "stoutland-20261023",
    "card": "바랜드",
-   "at": "2026-10-22T08:28:41-07:00",
+   "at": "2026-10-22T08:30:29-07:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "everyday_basic",
-     "ex": "midnight_laundromat",
+     "ex": "rain_walk",
      "expr": "wistful",
      "pose": "one_knee_up",
      "orient": "crouching",
@@ -21,7 +21,7 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
@@ -37,7 +37,7 @@
     {
      "cut": 2,
      "cat": "homewear",
-     "ex": "home_workout",
+     "ex": "soft_tank_shorts",
      "expr": "half_smile",
      "pose": "arms_crossed",
      "orient": "three_quarter_back",
@@ -47,17 +47,18 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "robe"
+      "shorts",
+      "tank"
      ],
      "expose": [
-      "plunging neckline",
-      "off-shoulder neckline"
+      "off-shoulder neckline",
+      "mini length"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 3,
@@ -84,19 +85,19 @@
       "one-shoulder cut",
       "open back"
      ],
-     "lead": "light"
+     "lead": "action"
     }
    ]
   },
   {
    "species": "purrloin-20261023",
    "card": "쌔비냥",
-   "at": "2026-10-22T08:28:41-07:00",
+   "at": "2026-10-22T08:30:29-07:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "traditional",
-     "ex": "aodai_daily",
+     "ex": "kaftan_daily",
      "expr": "proud",
      "pose": "leaning_wall",
      "orient": "low_angle",
@@ -110,19 +111,19 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "traditional"
+      "dress"
      ],
      "expose": [
-      "high thigh slit",
-      "cropped hem"
+      "plunging neckline",
+      "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 2,
      "cat": "swimwear",
      "ex": "sarong_wrap",
-     "expr": "soft_smile",
+     "expr": "mischievous",
      "pose": "stretching",
      "orient": "leaning_back",
      "frame": "chest_up",
@@ -131,7 +132,7 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "balanced",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -139,35 +140,35 @@
      ],
      "expose": [
       "high-cut leg",
-      "plunging neckline"
+      "open back"
      ],
      "lead": "detail"
     },
     {
      "cut": 3,
      "cat": "everyday_sensual",
-     "ex": "mirror_selfie",
+     "ex": "sunroom_relax",
      "expr": "curious",
-     "pose": "mid_stride",
+     "pose": "reading_book",
      "orient": "profile_close",
      "frame": "waist_up",
      "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "subtle",
+      "action_level": "balanced",
+      "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
       "knit_top",
-      "shorts"
+      "trousers"
      ],
      "expose": [
-      "mini length",
-      "halter neck"
+      "halter neck",
+      "cropped hem"
      ],
-     "lead": "action"
+     "lead": "place"
     }
    ]
   }
