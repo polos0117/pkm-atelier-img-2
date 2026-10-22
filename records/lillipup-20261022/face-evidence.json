@@ -1,0 +1,69 @@
+{
+  "card": "요테리",
+  "source": "data/source-appearance.json",
+  "design": {
+    "name": "요테리",
+    "en": "Lillipup",
+    "line": "요테리",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "compact",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "fine soft arches",
+      "nose character": "balanced nose",
+      "lips": "full lips"
+    },
+    "why": "",
+    "cues": [
+      "키 0.4m → 얼굴형 짧고 응축된 얼굴형",
+      "키 0.4m → 얼굴 길이 짧은 얼굴",
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 부드럽고 둥근 얼굴형 → 짧고 응축된 얼굴형",
+    "hair": {
+      "hairstyle": "twin tail",
+      "hair length": "short",
+      "bangs": "choppy bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘large pointed ears’·키 0.4m에서 트윈테일(묶은 꼬리) · 짧은 머리 · 끝을 불규칙하게 친 앞머리",
+    "hair_cues": [
+      "‘large pointed ears’ → 헤어스타일 트윈테일",
+      "키 0.4m → 머리 길이 짧은 머리"
+    ]
+  },
+  "selection_why": "Large pointed ears and the compact intelligent puppy expression are translated into an adult compact rounded face, rounded downturned eyes and short twin tails. Human adult nose and lips remain.",
+  "actual_face_comparison": [
+    "요테리",
+    "하데리어",
+    "보르그",
+    "보르쥐",
+    "릴리요"
+  ],
+  "canonical_light": {
+    "card": "요테리",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "original": "/workspace/scratch/f3a6733a9bb9/generated_images/exec-c7ee49d0-079f-4a14-91bf-04eeab1eed66.png",
+    "original_sha256": "3567f391f3bc70e533a2f40cc7ef3e5b1ba32d106e252c662184e70f745c90a8",
+    "output": "img/요테리_light_glossy_promo_f.webp",
+    "sha256": "82e4e9dd0c4c9c588b480561df33b95703c192783e6fd04cbf980556963cbe81",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "basis": null,
+    "ui": "light-ui.json",
+    "prompt": "light-prompt.txt",
+    "tool": "built-in image_gen"
+  }
+}

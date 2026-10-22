@@ -1,0 +1,101 @@
+{
+  "storage": {
+    "last": "요테리",
+    "cards": {
+      "요테리": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "nostalgic",
+            "pose": "side_sitting",
+            "orient": "seated_twist",
+            "scene": "A chilled drink with condensation is in her hand; a small bag rests beside her on a wooden riverside viewing platform as the first distant festival firework glows.",
+            "outfit": "Cream short overalls over a brown asymmetrical one-shoulder halter top expose one shoulder, collarbones and legs.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "festivals_contests",
+            "catCustom": "",
+            "ex": "fest_fireworks",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Lillipup (요테리) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: soft distant gaze past the camera, faint wistful half-smile, brows gently raised at the inner ends\nPose: Sit on a mat with both legs folded to one side and a relaxed upright torso.\nOrientation: seated with supported pelvis and a natural torso twist\nScene: A chilled drink with condensation is in her hand; a small bag rests beside her on a wooden riverside viewing platform as the first distant festival firework glows.\nOutfit and props: Cream short overalls over a brown asymmetrical one-shoulder halter top expose one shoulder, collarbones and legs.\nCategory: Show one moment attending a Pokémon-world festival or contest, with an identifiable activity and event props. Preserve the approved identity and let the selected scene determine clothing and mood.\nExample scene: Waiting for festival fireworks at a riverside seating area, holding a drink with a small bag beside her.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "generator_url": "https://prompt.test/prompt.html?mech=%EC%9A%94%ED%85%8C%EB%A6%AC&casual=%7B%22cat%22%3A%22festivals_contests%22%2C%22ex%22%3A%22fest_fireworks%22%2C%22expr%22%3A%22nostalgic%22%2C%22pose%22%3A%22side_sitting%22%2C%22orient%22%3A%22seated_twist%22%2C%22frame%22%3A%22full_body%22%2C%22lens%22%3A%22documentary35%22%2C%22aspect%22%3A%222%3A3%22%2C%22axes%22%3A%7B%22overall_intensity%22%3A%22strong%22%2C%22skin_exposure%22%3A%22bold%22%2C%22action_level%22%3A%22mostly%20posed%22%2C%22source_influence%22%3A%22subtle%22%2C%22separates_preference%22%3A%22balanced%22%7D%7D",
+  "actual_controls": true
+}
