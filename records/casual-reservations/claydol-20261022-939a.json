@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "claydol-20261022-939a",
- "at": "2026-10-21T22:00:36-07:00",
+ "at": "2026-10-21T22:05:11-07:00",
  "characters": [
   {
    "species": "claydol-20261022",
    "card": "점토도리",
-   "at": "2026-10-21T22:00:36-07:00",
+   "at": "2026-10-21T22:05:11-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,17 +31,18 @@
       "halter neck",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
      "cat": "lingerie",
-     "ex": "hanbok_slip",
+     "ex": "kebaya_lace",
      "expr": "confident",
      "pose": "leaning_furniture",
-     "orient": "three_quarter_back",
-     "frame": "full_body",
-     "lens": "wide24",
+     "orient": "leaning_forward",
+     "frame": "three_quarter",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -50,25 +51,23 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set",
-      "skirt",
-      "traditional"
+      "tank"
      ],
      "expose": [
-      "side cutouts",
-      "cropped hem"
+      "halter neck",
+      "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 3,
      "cat": "swimwear",
-     "ex": "swim_coverup",
+     "ex": "yukata_poolside",
      "expr": "candid",
      "pose": "sitting_floor",
-     "orient": "leaning_forward",
-     "frame": "three_quarter",
-     "lens": "documentary35",
+     "orient": "three_quarter_back",
+     "frame": "full_body",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -77,13 +76,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini"
+      "traditional"
      ],
      "expose": [
-      "high-cut leg",
-      "strapless top"
+      "side cutouts",
+      "cropped hem"
      ],
-     "lead": "light"
+     "lead": "action"
     }
    ]
   }
