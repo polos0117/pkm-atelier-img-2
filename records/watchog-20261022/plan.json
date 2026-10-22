@@ -1,0 +1,643 @@
+{
+  "batch": {
+    "session": "patrat-watchog-18829a",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "보르쥐",
+        "species": "patrat-20261022",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "kebaya_daily",
+            "expr": "determined",
+            "pose": "bending_over",
+            "orient": "side",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "traditional"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "high thigh slit"
+            ],
+            "lead": "detail",
+            "aspect": "2:3"
+          },
+          {
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "knit_dress_home",
+            "expr": "soft_smile",
+            "pose": "on_tiptoe",
+            "orient": "looking_down",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "strapless top",
+              "side cutouts"
+            ],
+            "lead": "action",
+            "aspect": "2:3"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "back_strap",
+            "expr": "mischievous",
+            "pose": "contrapposto",
+            "orient": "over_shoulder",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "place",
+            "aspect": "2:3"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": []
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "보르그",
+        "species": "watchog-20261022",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "adult_maid",
+            "expr": "laughing",
+            "pose": "mid_action",
+            "orient": "three_quarter_back",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron"
+            ],
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "place",
+            "aspect": "2:3",
+            "scene": "A costume-event rehearsal stage is dressed as a storybook tea salon; she practices presenting a small silver serving tray as the curtain lights warm up.",
+            "outfit": "A black-and-white maid party costume with a structured cropped bodice, short puffed sleeves, an open back between apron ties, a full white apron over a short skirt and ankle boots, showing waist and legs.",
+            "example_text": "a black-and-white maid costume with a structured bodice, puffed sleeves, and a full apron, at a costume event",
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "axes.action_level",
+              "axes.source_influence",
+              "axes.separates_preference"
+            ],
+            "randomization": {
+              "planner": "tools/casual-plan.cjs",
+              "session": "patrat-watchog-18829a",
+              "selection_changes_by_hand": false
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "value": "A costume-event rehearsal stage is dressed as a storybook tea salon; she practices presenting a small silver serving tray as the curtain lights warm up.",
+                "reason": "선택 예시 adult_maid에 없는 구체 활동과 공간·시간을 보충: A costume-event rehearsal stage is dressed as a storybook tea salon; she practices presenting a small silver serving tray as the curtain lights warm up."
+              },
+              {
+                "field": "outfit",
+                "value": "A black-and-white maid party costume with a structured cropped bodice, short puffed sleeves, an open back between apron ties, a full white apron over a short skirt and ankle boots, showing waist and legs.",
+                "reason": "계획의 apron 구조와 cropped hem,open back를 해당 의상에 구현"
+              },
+              {
+                "field": "camera",
+                "value": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+              }
+            ],
+            "axes_reason": {
+              "action_level": "A costume-event rehearsal stage is dressed as a storybook tea salon; she practices presenting a small silver serving tray as the curtain lights warm up. — 이 활동의 진행 정도에 맞춘 mostly active",
+              "source_influence": "A black-and-white maid party costume with a structured cropped bodice, short puffed sleeves, an open back between apron ties, a full white apron over a short skirt and ankle boots, showing waist and legs. — 원작 색·문양의 정도는 balanced",
+              "separates_preference": "apron를 입히며 명시한 의상 구조를 유지하는 prefer separates"
+            }
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "hair_tie",
+            "expr": "provocative",
+            "pose": "turning_back",
+            "orient": "low_angle",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "robe"
+            ],
+            "expose": [
+              "halter neck",
+              "off-shoulder neckline"
+            ],
+            "lead": "light",
+            "aspect": "2:3",
+            "scene": "Pale morning light fills the tiled bathroom after her shower; she gathers her hair with a plain elastic beside a fogged mirror.",
+            "outfit": "A short ivory soft robe draped below the shoulders over a sage halter-neck slip, exposing shoulders, collarbones and legs while the robe remains securely tied.",
+            "custom": "Image 2 is the exact edit target. Within the 1024×1536 image, repaint the packaging faces in the LEFT COUNTER rectangle x=0–375, y=480–715: the tall pump bottle at x=30–80, reed diffuser at x=75–110, beige dispenser at x=190–230, white tube at x=235–270, black square jar at x=270–315 and tan boxes at x=315–360. Completely replace each printed label face with smooth single-colour material matching its bottle or box, leaving zero tiny strokes, letters, symbols or horizontal text lines. The earlier correction left these marks behind; this edit must visibly remove them. Preserve everything outside these packaging faces, especially her hands, body, hair, pose and room. Image 1 only supplies identity.",
+            "example_text": "tying her hair up after a shower, wearing a soft robe in a bright bathroom",
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "axes.action_level",
+              "axes.source_influence",
+              "axes.separates_preference"
+            ],
+            "randomization": {
+              "planner": "tools/casual-plan.cjs",
+              "session": "patrat-watchog-18829a",
+              "selection_changes_by_hand": false
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "value": "Pale morning light fills the tiled bathroom after her shower; she gathers her hair with a plain elastic beside a fogged mirror.",
+                "reason": "선택 예시 hair_tie에 없는 구체 활동과 공간·시간을 보충: Pale morning light fills the tiled bathroom after her shower; she gathers her hair with a plain elastic beside a fogged mirror."
+              },
+              {
+                "field": "outfit",
+                "value": "A short ivory soft robe draped below the shoulders over a sage halter-neck slip, exposing shoulders, collarbones and legs while the robe remains securely tied.",
+                "reason": "계획의 robe 구조와 halter neck,off-shoulder neckline를 해당 의상에 구현"
+              },
+              {
+                "field": "camera",
+                "value": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+              },
+              {
+                "field": "custom",
+                "value": "Image 2 is the exact edit target. Within the 1024×1536 image, repaint the packaging faces in the LEFT COUNTER rectangle x=0–375, y=480–715: the tall pump bottle at x=30–80, reed diffuser at x=75–110, beige dispenser at x=190–230, white tube at x=235–270, black square jar at x=270–315 and tan boxes at x=315–360. Completely replace each printed label face with smooth single-colour material matching its bottle or box, leaving zero tiny strokes, letters, symbols or horizontal text lines. The earlier correction left these marks behind; this edit must visibly remove them. Preserve everything outside these packaging faces, especially her hands, body, hair, pose and room. Image 1 only supplies identity.",
+                "reason": "욕실 왼쪽 카운터 용기 라벨에 남은 글자를 좌표로 지정해 제거하는 부분 수정; 양손과 의상·포즈는 보존"
+              }
+            ],
+            "axes_reason": {
+              "action_level": "Pale morning light fills the tiled bathroom after her shower; she gathers her hair with a plain elastic beside a fogged mirror. — 이 활동의 진행 정도에 맞춘 mostly active",
+              "source_influence": "A short ivory soft robe draped below the shoulders over a sage halter-neck slip, exposing shoulders, collarbones and legs while the robe remains securely tied. — 원작 색·문양의 정도는 subtle",
+              "separates_preference": "robe를 입히며 명시한 의상 구조를 유지하는 balanced"
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "hanbok_coverup",
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "kneeling",
+            "expr": "flustered",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "detail",
+            "scene": "A red swim cap rests on a poolside bench; she tucks it into a mesh gear bag after a swimming lesson at the resort’s shaded changing pavilion.",
+            "outfit": "A lined navy athletic swimsuit under a hanbok-line cover-up: an ivory cropped wrap top with a wide collar and open back, and a high-waisted flowing mustard skirt with a broad ivory tie, showing shoulders and upper back.",
+            "example_text": "swimwear under a hanbok-line cover-up with a high waist and wide flowing skirt",
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "axes.action_level",
+              "axes.source_influence",
+              "axes.separates_preference"
+            ],
+            "randomization": {
+              "planner": "tools/casual-plan.cjs",
+              "session": "patrat-watchog-18829a",
+              "selection_changes_by_hand": false
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "value": "A red swim cap rests on a poolside bench; she tucks it into a mesh gear bag after a swimming lesson at the resort’s shaded changing pavilion.",
+                "reason": "선택 예시 hanbok_coverup에 없는 구체 활동과 공간·시간을 보충: A red swim cap rests on a poolside bench; she tucks it into a mesh gear bag after a swimming lesson at the resort’s shaded changing pavilion."
+              },
+              {
+                "field": "outfit",
+                "value": "A lined navy athletic swimsuit under a hanbok-line cover-up: an ivory cropped wrap top with a wide collar and open back, and a high-waisted flowing mustard skirt with a broad ivory tie, showing shoulders and upper back.",
+                "reason": "계획의 skirt,traditional 구조와 cropped hem,open back를 해당 의상에 구현"
+              },
+              {
+                "field": "camera",
+                "value": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+              }
+            ],
+            "axes_reason": {
+              "action_level": "A red swim cap rests on a poolside bench; she tucks it into a mesh gear bag after a swimming lesson at the resort’s shaded changing pavilion. — 이 활동의 진행 정도에 맞춘 mostly posed",
+              "source_influence": "A lined navy athletic swimsuit under a hanbok-line cover-up: an ivory cropped wrap top with a wide collar and open back, and a high-waisted flowing mustard skirt with a broad ivory tie, showing shoulders and upper back. — 원작 색·문양의 정도는 balanced",
+              "separates_preference": "skirt,traditional를 입히며 명시한 의상 구조를 유지하는 prefer separates"
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "traditional"
+          ],
+          "orient": [
+            "crouching"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "adult_maid",
+      "expr": "laughing",
+      "pose": "mid_action",
+      "orient": "three_quarter_back",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "apron"
+      ],
+      "expose": [
+        "cropped hem",
+        "open back"
+      ],
+      "lead": "place",
+      "aspect": "2:3",
+      "scene": "A costume-event rehearsal stage is dressed as a storybook tea salon; she practices presenting a small silver serving tray as the curtain lights warm up.",
+      "outfit": "A black-and-white maid party costume with a structured cropped bodice, short puffed sleeves, an open back between apron ties, a full white apron over a short skirt and ankle boots, showing waist and legs.",
+      "example_text": "a black-and-white maid costume with a structured bodice, puffed sleeves, and a full apron, at a costume event",
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "axes.action_level",
+        "axes.source_influence",
+        "axes.separates_preference"
+      ],
+      "randomization": {
+        "planner": "tools/casual-plan.cjs",
+        "session": "patrat-watchog-18829a",
+        "selection_changes_by_hand": false
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "A costume-event rehearsal stage is dressed as a storybook tea salon; she practices presenting a small silver serving tray as the curtain lights warm up.",
+          "reason": "선택 예시 adult_maid에 없는 구체 활동과 공간·시간을 보충: A costume-event rehearsal stage is dressed as a storybook tea salon; she practices presenting a small silver serving tray as the curtain lights warm up."
+        },
+        {
+          "field": "outfit",
+          "value": "A black-and-white maid party costume with a structured cropped bodice, short puffed sleeves, an open back between apron ties, a full white apron over a short skirt and ankle boots, showing waist and legs.",
+          "reason": "계획의 apron 구조와 cropped hem,open back를 해당 의상에 구현"
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "A costume-event rehearsal stage is dressed as a storybook tea salon; she practices presenting a small silver serving tray as the curtain lights warm up. — 이 활동의 진행 정도에 맞춘 mostly active",
+        "source_influence": "A black-and-white maid party costume with a structured cropped bodice, short puffed sleeves, an open back between apron ties, a full white apron over a short skirt and ankle boots, showing waist and legs. — 원작 색·문양의 정도는 balanced",
+        "separates_preference": "apron를 입히며 명시한 의상 구조를 유지하는 prefer separates"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "everyday_sensual",
+      "ex": "hair_tie",
+      "expr": "provocative",
+      "pose": "turning_back",
+      "orient": "low_angle",
+      "frame": "environmental",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "robe"
+      ],
+      "expose": [
+        "halter neck",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "aspect": "2:3",
+      "scene": "Pale morning light fills the tiled bathroom after her shower; she gathers her hair with a plain elastic beside a fogged mirror.",
+      "outfit": "A short ivory soft robe draped below the shoulders over a sage halter-neck slip, exposing shoulders, collarbones and legs while the robe remains securely tied.",
+      "custom": "Image 2 is the exact edit target. Within the 1024×1536 image, repaint the packaging faces in the LEFT COUNTER rectangle x=0–375, y=480–715: the tall pump bottle at x=30–80, reed diffuser at x=75–110, beige dispenser at x=190–230, white tube at x=235–270, black square jar at x=270–315 and tan boxes at x=315–360. Completely replace each printed label face with smooth single-colour material matching its bottle or box, leaving zero tiny strokes, letters, symbols or horizontal text lines. The earlier correction left these marks behind; this edit must visibly remove them. Preserve everything outside these packaging faces, especially her hands, body, hair, pose and room. Image 1 only supplies identity.",
+      "example_text": "tying her hair up after a shower, wearing a soft robe in a bright bathroom",
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "axes.action_level",
+        "axes.source_influence",
+        "axes.separates_preference"
+      ],
+      "randomization": {
+        "planner": "tools/casual-plan.cjs",
+        "session": "patrat-watchog-18829a",
+        "selection_changes_by_hand": false
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "Pale morning light fills the tiled bathroom after her shower; she gathers her hair with a plain elastic beside a fogged mirror.",
+          "reason": "선택 예시 hair_tie에 없는 구체 활동과 공간·시간을 보충: Pale morning light fills the tiled bathroom after her shower; she gathers her hair with a plain elastic beside a fogged mirror."
+        },
+        {
+          "field": "outfit",
+          "value": "A short ivory soft robe draped below the shoulders over a sage halter-neck slip, exposing shoulders, collarbones and legs while the robe remains securely tied.",
+          "reason": "계획의 robe 구조와 halter neck,off-shoulder neckline를 해당 의상에 구현"
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+        },
+        {
+          "field": "custom",
+          "value": "Image 2 is the exact edit target. Within the 1024×1536 image, repaint the packaging faces in the LEFT COUNTER rectangle x=0–375, y=480–715: the tall pump bottle at x=30–80, reed diffuser at x=75–110, beige dispenser at x=190–230, white tube at x=235–270, black square jar at x=270–315 and tan boxes at x=315–360. Completely replace each printed label face with smooth single-colour material matching its bottle or box, leaving zero tiny strokes, letters, symbols or horizontal text lines. The earlier correction left these marks behind; this edit must visibly remove them. Preserve everything outside these packaging faces, especially her hands, body, hair, pose and room. Image 1 only supplies identity.",
+          "reason": "욕실 왼쪽 카운터 용기 라벨에 남은 글자를 좌표로 지정해 제거하는 부분 수정; 양손과 의상·포즈는 보존"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "Pale morning light fills the tiled bathroom after her shower; she gathers her hair with a plain elastic beside a fogged mirror. — 이 활동의 진행 정도에 맞춘 mostly active",
+        "source_influence": "A short ivory soft robe draped below the shoulders over a sage halter-neck slip, exposing shoulders, collarbones and legs while the robe remains securely tied. — 원작 색·문양의 정도는 subtle",
+        "separates_preference": "robe를 입히며 명시한 의상 구조를 유지하는 balanced"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "hanbok_coverup",
+      "garments": [
+        "skirt",
+        "traditional"
+      ],
+      "orient": "crouching",
+      "frame": "waist_up",
+      "pose": "kneeling",
+      "expr": "flustered",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "open back"
+      ],
+      "lead": "detail",
+      "scene": "A red swim cap rests on a poolside bench; she tucks it into a mesh gear bag after a swimming lesson at the resort’s shaded changing pavilion.",
+      "outfit": "A lined navy athletic swimsuit under a hanbok-line cover-up: an ivory cropped wrap top with a wide collar and open back, and a high-waisted flowing mustard skirt with a broad ivory tie, showing shoulders and upper back.",
+      "example_text": "swimwear under a hanbok-line cover-up with a high waist and wide flowing skirt",
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "axes.action_level",
+        "axes.source_influence",
+        "axes.separates_preference"
+      ],
+      "randomization": {
+        "planner": "tools/casual-plan.cjs",
+        "session": "patrat-watchog-18829a",
+        "selection_changes_by_hand": false
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "A red swim cap rests on a poolside bench; she tucks it into a mesh gear bag after a swimming lesson at the resort’s shaded changing pavilion.",
+          "reason": "선택 예시 hanbok_coverup에 없는 구체 활동과 공간·시간을 보충: A red swim cap rests on a poolside bench; she tucks it into a mesh gear bag after a swimming lesson at the resort’s shaded changing pavilion."
+        },
+        {
+          "field": "outfit",
+          "value": "A lined navy athletic swimsuit under a hanbok-line cover-up: an ivory cropped wrap top with a wide collar and open back, and a high-waisted flowing mustard skirt with a broad ivory tie, showing shoulders and upper back.",
+          "reason": "계획의 skirt,traditional 구조와 cropped hem,open back를 해당 의상에 구현"
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "A red swim cap rests on a poolside bench; she tucks it into a mesh gear bag after a swimming lesson at the resort’s shaded changing pavilion. — 이 활동의 진행 정도에 맞춘 mostly posed",
+        "source_influence": "A lined navy athletic swimsuit under a hanbok-line cover-up: an ivory cropped wrap top with a wide collar and open back, and a high-waisted flowing mustard skirt with a broad ivory tie, showing shoulders and upper back. — 원작 색·문양의 정도는 balanced",
+        "separates_preference": "skirt,traditional를 입히며 명시한 의상 구조를 유지하는 prefer separates"
+      }
+    }
+  ],
+  "check": "Initial full two-character batch passed fresh check; Watchog replan with actual generated cuts 1 and 2 retained passed planner check before reservation and generation.",
+  "reservation_commits": [
+    "9cf16ffbd882813823d9395d0bbf370906121854",
+    "a845db249d8a3aaf5855d293b33da930b822c656",
+    "683ca45d0936d575d5a84d3207750e161155e8ee"
+  ],
+  "reservation_replan": "Watchog third cut burkini_modest conflicted with exposed wardrobe plan; planner selected onsen_after. Other settings retained, no images had been generated for those casual slots at that time. kept flags stripped because only settings, not generated images, were retained. Fresh full-batch check then passed.",
+  "regenerations": [
+    {
+      "slot": "casual2",
+      "reason": "욕실 카운터의 용기 라벨에 글자 발생",
+      "attempts": [
+        {
+          "source": "generated_images/exec-07bf22c1-6632-4649-ad19-c1a29fb93f1d.png",
+          "ui": "attempts/casual2-first/casual2-ui.json",
+          "status": "rejected_text"
+        },
+        {
+          "source": "generated_images/exec-c5ea65c0-6435-4e08-9330-2c5447a7a59d.png",
+          "ui": "attempts/casual2-correction1/casual2-ui.json",
+          "status": "labels_remained"
+        },
+        {
+          "source": "generated_images/exec-53646a06-3abd-4336-9331-06932ddd7365.png",
+          "ui": "casual2-ui.json",
+          "status": "accepted_after_coordinate_targeted_edit"
+        }
+      ],
+      "references": "Each partial edit uses light anchor plus its exact target image."
+    },
+    {
+      "slot": "casual3",
+      "reason": "온천 장면은 moderation_blocked로 파일 없이 거절됨",
+      "failure": "attempts/casual3-onsen/tool-failure.json",
+      "changed": "계획기로 예시·표정·자세·방향·프레이밍·의상 구조를 새로 정하고 예약했다. 온천의 젖은 머리 연출에서 수영 수업 후 풀사이드 벤치에서 수모를 장비 가방에 넣는 활동으로 실질적으로 변경. 강도/노출은 계획기 값 유지.",
+      "reserved_before_generation": "683ca45d0936d575d5a84d3207750e161155e8ee",
+      "new_example": "hanbok_coverup",
+      "new_image": "generated_images/exec-d43a46fe-e502-4f59-b879-06faa4384845.png",
+      "status": "accepted"
+    }
+  ]
+}

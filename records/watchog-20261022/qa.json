@@ -1,0 +1,169 @@
+{
+  "card": "보르그",
+  "reviewer": "gpt",
+  "accepted": true,
+  "face_comparison": {
+    "compared": [
+      "보르쥐",
+      "쌍검자비",
+      "대검귀",
+      "릴리요"
+    ],
+    "evidence": "실제 얼굴 부분을 확대해 나란히 비교했다. 보르그는 보르쥐보다 작게 열린 눈과 길게 굽은 눈썹, 작은 코끝과 도톰하게 열린 아랫입술로 구분된다. 쌍검자비의 날카로운 눈·대검귀의 길고 곧은 하관·릴리요의 둥글게 처진 눈과도 다르다. 긴 포니테일은 계열 공통이며 앞머리는 보르쥐의 불규칙 앞머리와 달리 양옆으로 열린 커튼뱅이다."
+  },
+  "armor": {
+    "light": {
+      "match": true,
+      "evidence": "갈색 슈트 위 흰색 경장판과 노란 세로 줄, 갈색 포니테일·작은 금빛 눈이 보인다. 왼쪽 화면의 손은 빈 손바닥을 펼치고 반대 손은 몸 옆에 있다. 머리와 발끝이 프레임 안이다."
+    },
+    "heavy": {
+      "match": true,
+      "evidence": "겹친 어깨·가슴·복부·골반·무릎·발 장갑으로 외곽이 커졌다. 머리 측면 외장이 생겼지만 얼굴·앞머리는 보이고 내부 체형과 손 자세가 유지된다."
+    },
+    "mobility": {
+      "match": true,
+      "evidence": "어깨·골반·종아리에서 얇은 판과 작은 추진기가 뒤로 갈라지고 관절 사이가 열린다. 정본의 얼굴·머리·몸·손을 유지한다."
+    },
+    "light-overdrive": {
+      "match": true,
+      "evidence": "경장의 판이 벌어져 어깨·팔·허리·정강이 안쪽에서 금빛 프레임과 빛이 보인다. 카메라·전신 크기·양손 위치가 경장과 이어진다."
+    },
+    "heavy-overdrive": {
+      "match": true,
+      "evidence": "중장의 두꺼운 외판을 유지하며 그 사이의 힌지·내부 프레임을 드러낸다. 금빛이 커지지만 손가락에는 효과가 덮이지 않는다."
+    },
+    "mobility-overdrive": {
+      "match": true,
+      "evidence": "원래 고기동 핀·추진 덮개가 더 열리고 노즐 빛과 내부 구조가 보인다. 자세와 얼굴·머리·전신 프레임을 유지한다."
+    }
+  },
+  "casual_plan_vs_image": [
+    {
+      "cut": 1,
+      "identity": {
+        "match": true,
+        "evidence": "갈색 긴 포니테일·양쪽으로 갈라진 앞머리·같은 입과 코, 성인 체형을 유지한다."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "눈을 거의 감고 입을 크게 열어 웃는다."
+      },
+      "pose": {
+        "match": true,
+        "evidence": "한 발을 들어 옮기며 한 손은 쟁반을 들고 다른 손은 치맛자락을 잡아 진행 중 동작이다."
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "등과 골반이 카메라에서 돌아서 있고 얼굴은 어깨 쪽으로 돌아온 뒤 3/4다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "머리 장식부터 두 부츠 끝까지 전신이 보인다."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "커튼·샹들리에와 티살롱 소품이 있는 행사 무대에서 차 쟁반을 든다."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "검정 구조적 몸판·흰 프릴·짧은 퍼프소매·등이 열린 앞치마 코스튬과 짧은 치마가 보인다. 실제 직장 유니폼보다 공연용 장식이 뚜렷하다."
+      },
+      "hands_anatomy_text": {
+        "match": true,
+        "evidence": "쟁반을 받친 손목과 팔꿈치가 연결되고 다른 손은 천을 자연스럽게 쥔다. 인물은 한 명이며 용기나 배경에 글자가 보이지 않는다."
+      }
+    },
+    {
+      "cut": 2,
+      "identity": {
+        "match": true,
+        "evidence": "긴 갈색 머리와 커튼뱅·금빛 눈·작은 코와 아랫입술이 정본과 같다."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "눈을 약간 내리뜨고 한쪽 입꼬리를 올린 채 카메라를 돌아본다."
+      },
+      "pose": {
+        "match": false,
+        "evidence": "계획은 걸음을 멈추고 돌아보기지만 실제로는 제자리에서 양팔을 들어 머리를 묶으며 몸통을 뒤로 돌린다. 예시의 머리 묶기 활동은 있다."
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "카메라가 낮고 턱과 몸통을 약간 올려다본다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "머리와 두 발이 들어오며 세면대·거울·샤워실로 욕실 상황이 읽힌다."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "밝은 욕실에서 양손으로 머리끈과 포니테일을 정리하며 젖은 거울과 샤워실이 배경에 있다."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "아이보리 로브가 어깨 아래로 내려와 허리에 묶이고 안쪽 세이지 홀터 슬립이 보인다. 어깨·등과 다리가 드러난다."
+      },
+      "hands_anatomy_text": {
+        "match": true,
+        "evidence": "양팔·팔꿈치·손목이 연속되며 손가락은 머리카락과 머리끈을 쥔다. 두 번째 좌표 지정 수정 후 카운터의 병·튜브·검정 용기·상자는 무지 표면이다. 거울에는 흐릿한 뒤 실루엣만 있고 식별되는 두 번째 얼굴은 없다."
+      }
+    },
+    {
+      "cut": 3,
+      "identity": {
+        "match": true,
+        "evidence": "정본과 같은 갈색 포니테일·커튼뱅·금빛 눈과 입 모양을 유지한다."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "안쪽 눈썹이 올라가고 눈은 옆을 보며 입이 조금 열리고 볼이 붉다."
+      },
+      "pose": {
+        "match": true,
+        "evidence": "벤치 옆 낮은 자리에서 무릎을 굽혀 지지하고 가방을 정리한다."
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "골반과 무릎을 접은 낮은 자세이며 상체는 손의 작업 쪽으로 숙인다."
+      },
+      "framing": {
+        "match": false,
+        "evidence": "계획은 허리 위지만 실제로는 접힌 무릎까지 들어와 수모와 가방의 활동을 함께 보여준다."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "수영장과 휴식 파빌리온을 배경으로 빨간 수모를 메쉬 장비 가방에 넣는다."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "안감 있는 남색 수영복 위에 흰색 넓은 깃의 짧은 커버업과 높은 허리의 머스터드 스커트·넓은 흰 끈이 보인다. 어깨와 등 위쪽이 드러난다."
+      },
+      "hands_anatomy_text": {
+        "match": true,
+        "evidence": "한 손은 빨간 수모를 잡고 다른 손은 가방 가장자리를 연다. 팔과 손목 연결에 뚜렷한 오류가 없고 보온병·가방·수영장 배경에 글자가 없다."
+      }
+    }
+  ],
+  "diversity_comparison": {
+    "compared": [
+      "보르쥐 일상1–3",
+      "쌍검자비 일상1–3",
+      "대검귀 일상1–3"
+    ],
+    "evidence": "실제 세 컷을 비교했다. 공연용 메이드 코스튬으로 차 쟁반 들기, 욕실 로브 차림으로 머리 묶기, 수영복과 넓은 한복 선 커버업으로 수모를 가방에 넣기는 장소·활동·옷·구도가 다르다. 보르쥐의 안뜰 사롱·창 선반 니트·화장대 란제리와 세 장 묶음이 겹치지 않는다. 욕실 컷의 위로 든 양팔은 보르쥐 니트 컷과 일부 닮지만, 머리 묶기와 화분 놓기의 손 위치·배경·긴 로브 자락과 짧은 원피스 실루엣이 구분된다. 쌍검자비의 바닥에 앉은 실내 장면과 수영장 컷은 가방을 향한 손동작·머스터드 스커트·물가 벤치 환경으로 다르다."
+  },
+  "casual_look": "All three passed; minimum returned distances 269, 283, 305; no near-duplicate below threshold.",
+  "regenerations": [
+    {
+      "slot": "casual2",
+      "issue": "printed toiletries labels",
+      "resolved": "first edit left marks; second coordinate-targeted image_gen edit removed them"
+    },
+    {
+      "slot": "casual3",
+      "issue": "onsen image rejected with no result file",
+      "resolved": "planner selected a different example, activity, outfit structure, expression and composition before a fresh reservation; poolside gear-packing image accepted"
+    }
+  ],
+  "notes": "방향·자세·프레이밍의 차이는 규칙대로 기록했다. 모두 1024×1536 원본 크기로 확인하고 WebP quality85/method6으로 변환했다."
+}
