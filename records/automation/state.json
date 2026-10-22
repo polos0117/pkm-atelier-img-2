@@ -701,7 +701,40 @@
           },
           "image_commit": "de070ceac42b0b7b223bfb286a19275844f3de39",
           "registration_commit": "89059a90fa61532eaa5c9323885e041069a34568",
-          "completed_at": "2026-10-22T12:01:00+00:00"
+          "completed_at": "2026-10-22T12:01:00+00:00",
+          "replacements": [
+            {
+              "image": {
+                "path": "records/automation/replacements/346-casual3-20261022/original.png",
+                "sha256": "8455e4895ef49f7c21397b4e744f6274fcfde8619dcb430d0734010b36fd3637"
+              },
+              "qa": {
+                "path": "records/automation/replacements/346-casual3-20261022/qa.json",
+                "sha256": "8743c3dffc7f9618ec8b2a12e829ea98f2d7eaf0cc5001a372455cab4bfee929"
+              },
+              "prompt": {
+                "path": "records/automation/replacements/346-casual3-20261022/prompt.txt",
+                "sha256": "ca9964097f52615d99cca075ea0dba47f0cae1c543a610e23af61e23afa99880"
+              },
+              "ui": {
+                "path": "records/automation/replacements/346-casual3-20261022/ui.json",
+                "sha256": "69618d8640e712eac20bed1a98c82c38991915217545fb0a65da9d16f5f36edb"
+              },
+              "approval": {
+                "path": "records/automation/replacements/346-casual3-20261022/approval.json",
+                "sha256": "d8429917b27a5562225c7d9cc98d83b2f097c6c7dccbc67edae3b72e0d78df04"
+              },
+              "references": {
+                "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+              },
+              "slot": "casual3",
+              "status": "accepted",
+              "replaced_at": "2026-10-22T12:36:34+00:00",
+              "previous_public_sha256": "5df963010fe638bfce7b4e0cb68cc7c62ab69855c79439f66a35b0c102a12c78",
+              "public_sha256": "bce9e3078f5b2e8db06109e061bab8cdc100325c73aa36970a34f4f79ab1b6bd",
+              "original_completed_at": "2026-10-22T12:01:00+00:00"
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-22T12:01:00+00:00"
