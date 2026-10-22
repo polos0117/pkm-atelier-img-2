@@ -1,6 +1,6 @@
 {
   "card": "아말도",
-  "status": "9/9 QA accepted; publication pending",
+  "status": "complete: 9/9 images and thumbnails registered on main",
   "anchor": "/workspace/scratch/edadb71295b2/generated_images/exec-81d2a800-e23f-45e4-8bd3-5fb555e4074b.png",
   "anchor_sha256": "ef3fe0664788333304be351f5d3b581d9a556c8e1c0bbbc346dae01eb9c14f93",
   "face_reason": "네 짧은 가시의 선명한 각과 grayish-blue plates의 단단한 면을 각진 얼굴·또렷한 턱·날카로운 눈·꺾인 눈썹·뚜렷한 코로 해석. 아노딥스와 공통된 각진 면과 일자 앞머리를 남기고 눈·턱·코와 긴 페더컷으로 별개 성인 인물을 설계한다.",
@@ -20,5 +20,21 @@
   "manifest": "manifest.json",
   "qa": "qa.json",
   "reservation_commit": "f6c7ebd918df7fd6292cdfacf2e103f8a28d1ab2",
-  "tool": "built-in image_gen"
+  "tool": "built-in image_gen",
+  "image_commit": "0bb04167418a86129448e2ffa3baa7006408bad5",
+  "thumbnail_commit": "af44a01c501eb7db85a367e956fb1b12deb3c757",
+  "code_registration_commit": "f935aecde1c3cf69a0ca9a5c52cd01e4664e2b10",
+  "code_metadata_commit": "f1f6462d00af2922e87c9dbc04cecff4ff53b149",
+  "verification": {
+    "remote_webp_sha256_and_decode": "9/9 passed",
+    "remote_thumbnail_decode": "9/9 passed; long edge512",
+    "registration": "9 slots, glossy_promo, f, where=1",
+    "casual_look": "passed",
+    "face_design_and_patch_and_forms": "passed"
+  },
+  "actions": {
+    "anorith_repair_thumbs": 39800655439,
+    "armaldo_thumbs": 39800799265,
+    "both_success": true
+  }
 }
