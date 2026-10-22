@@ -1,5 +1,5 @@
 {
-  "capture_method": "Actual browser UI controls and output observed; serialised with the same repository generator engine and checked against the observed output hash.",
+  "capture_method": "Actual browser DOM selections and output observed and hash-checked; relevant saved scene serialized in the repository schema, with planner-only fields excluded. Random-lock keys follow AtelierCasualPlan.fromQuery.",
   "storage": {
     "last": "바랜드",
     "cards": {
@@ -9,13 +9,8 @@
         "identityMode": "reference",
         "scenes": {
           "casual": {
-            "cut": 2,
             "cat": "travel_exploration",
             "ex": "travel_coast",
-            "garments": [
-              "blouse",
-              "trousers"
-            ],
             "orient": "three_quarter_back",
             "frame": "full_body",
             "pose": "hand_on_hip",
@@ -29,11 +24,6 @@
               "source_influence": "subtle",
               "separates_preference": "prefer separates"
             },
-            "expose": [
-              "off-shoulder neckline",
-              "mini length"
-            ],
-            "lead": "light",
             "scene": "Late-afternoon amber light crosses the tidal flats; an open sketchbook rests on a low driftwood stump beside a pale scallop shell and tiny tracks in wet sand.",
             "outfit": "A coral off-shoulder blouse with a mini tunic hem and pale-sand short culotte trousers expose her shoulders, collarbones and upper legs; plain canvas shoes suit the tidal flats.",
             "custom": "Image 2 is the exact edit target; image 1 supplies her identity. Correct only the sketching action: rest the sketchbook currently in her right hand on a narrow driftwood support beside that hand, and put a small graphite pencil naturally between her right thumb, index and middle fingers, with its tip touching the shell drawing. Keep her left hand on her hip and preserve her face, hair, body, pose, clothes, framing and lighting. Preserve readable natural fingers. The image must clearly show a sketch being made, rather than only a book being carried.",
@@ -59,14 +49,24 @@
               "aspect": true,
               "cat": true,
               "ex": true,
-              "axis-overall_intensity": true,
-              "axis-skin_exposure": true,
-              "axis-action_level": true,
-              "axis-source_influence": true,
-              "axis-separates_preference": true
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
             }
           }
-        }
+        },
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {}
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "capture_method": "Actual browser UI controls and output observed; serialised with the same repository generator engine and checked against the observed output hash.",
+  "capture_method": "Actual browser DOM selections and output observed and hash-checked; relevant saved scene serialized in the repository schema, with planner-only fields excluded. Random-lock keys follow AtelierCasualPlan.fromQuery.",
   "storage": {
     "last": "쌔비냥",
     "cards": {
@@ -9,12 +9,8 @@
         "identityMode": "reference",
         "scenes": {
           "casual": {
-            "cut": 2,
             "cat": "swimwear",
             "ex": "sarong_wrap",
-            "garments": [
-              "bikini"
-            ],
             "orient": "leaning_back",
             "frame": "chest_up",
             "pose": "leaning_wall",
@@ -28,11 +24,6 @@
               "source_influence": "subtle",
               "separates_preference": "balanced"
             },
-            "expose": [
-              "plunging neckline",
-              "high-cut leg"
-            ],
-            "lead": "place",
             "scene": "A sun-warmed whitewashed wall borders a seaside changing terrace above turquoise tide pools; a rolled beach towel rests along the wall cap in late afternoon.",
             "outfit": "A jade-green plunge-front high-cut bikini and a coral printed sarong tied at the hip, in matte swim fabric with a small brass fastening.",
             "custom": "",
@@ -58,14 +49,26 @@
               "aspect": true,
               "cat": true,
               "ex": true,
-              "axis-overall_intensity": true,
-              "axis-skin_exposure": true,
-              "axis-action_level": true,
-              "axis-source_influence": true,
-              "axis-separates_preference": true
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
             }
           }
-        }
+        },
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "eye color": "green",
+          "hair color": "purple"
+        },
+        "locks": {}
       }
     }
   },

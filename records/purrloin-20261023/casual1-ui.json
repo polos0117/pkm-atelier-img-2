@@ -1,5 +1,5 @@
 {
-  "capture_method": "Actual browser UI controls and output observed; serialised with the same repository generator engine and checked against the observed output hash.",
+  "capture_method": "Actual browser DOM selections and output observed and hash-checked; relevant saved scene serialized in the repository schema, with planner-only fields excluded. Random-lock keys follow AtelierCasualPlan.fromQuery.",
   "storage": {
     "last": "쌔비냥",
     "cards": {
@@ -9,13 +9,8 @@
         "identityMode": "reference",
         "scenes": {
           "casual": {
-            "cut": 1,
             "cat": "food_berries",
             "ex": "food_picnic",
-            "garments": [
-              "shorts",
-              "tank"
-            ],
             "orient": "low_angle",
             "frame": "three_quarter",
             "pose": "carrying_something",
@@ -29,11 +24,6 @@
               "source_influence": "balanced",
               "separates_preference": "prefer separates"
             },
-            "expose": [
-              "halter neck",
-              "cropped hem"
-            ],
-            "lead": "light",
             "scene": "Late-morning sunlight filters through an orchard canopy onto a gingham picnic blanket; a shallow bamboo lunch tray contains sliced pink berries and small rice parcels, with the open travel basket beside it.",
             "outfit": "A cream halter-neck cropped tank and violet high-waisted cotton shorts expose her shoulders, collarbones, midriff and upper legs, with a narrow green piping echo on the tank.",
             "custom": "",
@@ -59,14 +49,26 @@
               "aspect": true,
               "cat": true,
               "ex": true,
-              "axis-overall_intensity": true,
-              "axis-skin_exposure": true,
-              "axis-action_level": true,
-              "axis-source_influence": true,
-              "axis-separates_preference": true
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
             }
           }
-        }
+        },
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "eye color": "green",
+          "hair color": "purple"
+        },
+        "locks": {}
       }
     }
   },
