@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "image-runner-2026-10-22-1-345",
- "at": "2026-10-22T10:52:39+00:00",
+ "at": "2026-10-22T10:59:28+00:00",
  "characters": [
   {
    "species": "lileep-20261022",
    "card": "릴링",
-   "at": "2026-10-22T10:52:39+00:00",
+   "at": "2026-10-22T10:59:28+00:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,7 +31,8 @@
       "high-cut leg",
       "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -56,17 +57,18 @@
       "side cutouts",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "wildcard",
-     "ex": "futuristic_spa",
-     "expr": "mildly_annoyed",
+     "ex": "observatory_night",
+     "expr": "exhausted",
      "pose": "stretching",
      "orient": "reaching_up",
      "frame": "chest_up",
-     "lens": "telephoto135",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -80,9 +82,9 @@
      ],
      "expose": [
       "mini length",
-      "strapless top"
+      "side cutouts"
      ],
-     "lead": "action"
+     "lead": "place"
     }
    ]
   }
