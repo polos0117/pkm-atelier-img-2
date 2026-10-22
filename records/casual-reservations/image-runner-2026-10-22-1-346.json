@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "image-runner-2026-10-22-1-346",
- "at": "2026-10-22T11:50:19+00:00",
+ "at": "2026-10-22T12:29:07.599230+00:00",
  "characters": [
   {
    "species": "cradily-20261022",
@@ -12,11 +12,15 @@
      "cut": 1,
      "cat": "private_evening",
      "ex": "penthouse_window",
-     "expr": "calm",
-     "pose": "leaning_furniture",
+     "garments": [
+      "jumpsuit"
+     ],
      "orient": "front",
      "frame": "three_quarter",
+     "pose": "leaning_furniture",
+     "expr": "calm",
      "lens": "wide24",
+     "aspect": "2:3",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -24,9 +28,6 @@
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
-     "garments": [
-      "jumpsuit"
-     ],
      "expose": [
       "high thigh slit",
       "mini length"
@@ -38,11 +39,15 @@
      "cut": 2,
      "cat": "everyday_basic",
      "ex": "cafe_takeout",
-     "expr": "curious",
-     "pose": "holding_cup",
+     "garments": [
+      "jumpsuit"
+     ],
      "orient": "leaning_forward",
      "frame": "chest_up",
+     "pose": "holding_cup",
+     "expr": "curious",
      "lens": "telephoto135",
+     "aspect": "2:3",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -50,9 +55,6 @@
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
-     "garments": [
-      "jumpsuit"
-     ],
      "expose": [
       "strapless top",
       "plunging neckline"
@@ -62,28 +64,41 @@
     },
     {
      "cut": 3,
-     "cat": "adult_roleplay",
+     "cat": "hobbies_leisure",
      "ex": "__custom__",
+     "pose": "sitting",
      "expr": "focused",
-     "pose": "standing_formal",
-     "orient": "side",
+     "orient": "front_3q",
      "frame": "waist_up",
      "lens": "documentary35",
+     "aspect": "2:3",
      "axes": {
       "overall_intensity": "restrained",
       "skin_exposure": "low",
       "action_level": "balanced",
-      "source_influence": "strong",
+      "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
       "shirt",
-      "trousers"
+      "trousers",
+      "apron"
      ],
      "expose": [],
      "lead": "action"
     }
    ]
   }
- ]
+ ],
+ "explicit_user_exception": {
+  "card": 346,
+  "slot": "casual3",
+  "user_approval": "다른 이미지로 재생성해서 대체해줘.",
+  "scope": "One new nonsexual casual3 generation; replace this public file and thumb after QA only; preserve all prior history",
+  "old_public_sha256": "5df963010fe638bfce7b4e0cb68cc7c62ab69855c79439f66a35b0c102a12c78",
+  "prior_completed_state_commit": "f0127d8005b2f19620bca5a76722febbb206899c",
+  "status": "intent_recorded",
+  "created_at": "2026-10-22T12:29:07.599230+00:00",
+  "validation": "Unmodified casual-ledger check: only missing required category. Explicit nonsexual/new-scene exception recorded; other checks passed."
+ }
 }
