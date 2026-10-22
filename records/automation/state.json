@@ -16,7 +16,7 @@
     {
       "id": "2026-10-22-1",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-22T09:08:42+00:00",
       "queue": [
         {
@@ -367,7 +367,7 @@
           "no": 346,
           "name": "릴리요",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -392,7 +392,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-22T11:13:06+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-22-1/346/heavy/prompt.txt",
@@ -409,13 +409,28 @@
                 "path": "records/automation/runs/2026-10-22-1/346/heavy/original.png",
                 "sha256": "f8534bd397115034a2697044c2c1926f9169458725530a817cb1fb0cfb61bbfe"
               },
-              "received_at": "2026-10-22T11:14:20+00:00"
+              "received_at": "2026-10-22T11:14:20+00:00",
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-22-1/346/heavy/user-exception.json",
+                "sha256": "35d9cd1baac77dda3cbb4db42184576b91fe61a52ac59ae2baddaf6c45be75b9"
+              }
             }
           },
-          "reason": "QA_FAILED heavy sha256=f8534bd397115034a2697044c2c1926f9169458725530a817cb1fb0cfb61bbfe: actual result retains approved face, twin braids, palette and thicker layered armor, but upper gold headgear point intersects and is cut off by top image boundary (near x440); full head/gear with clear margins required by IMAGE_RULES action card criteria. No retry or exception authorized for this slot. Preserve original and stop; Lileep already completed."
+          "reason": "QA_FAILED heavy sha256=f8534bd397115034a2697044c2c1926f9169458725530a817cb1fb0cfb61bbfe: actual result retains approved face, twin braids, palette and thicker layered armor, but upper gold headgear point intersects and is cut off by top image boundary (near x440); full head/gear with clear margins required by IMAGE_RULES action card criteria. No retry or exception authorized for this slot. Preserve original and stop; Lileep already completed.",
+          "block_history": [
+            {
+              "reason": "QA_FAILED heavy sha256=f8534bd397115034a2697044c2c1926f9169458725530a817cb1fb0cfb61bbfe: actual result retains approved face, twin braids, palette and thicker layered armor, but upper gold headgear point intersects and is cut off by top image boundary (near x440); full head/gear with clear margins required by IMAGE_RULES action card criteria. No retry or exception authorized for this slot. Preserve original and stop; Lileep already completed.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-22-1/346/heavy/user-exception.json",
+                "sha256": "35d9cd1baac77dda3cbb4db42184576b91fe61a52ac59ae2baddaf6c45be75b9"
+              }
+            }
+          ]
         }
       ],
-      "updated_at": "2026-10-22T11:14:58+00:00"
+      "updated_at": "2026-10-22T11:22:01+00:00"
     }
   ],
   "claims": {
