@@ -1,0 +1,600 @@
+{
+  "batch": {
+    "session": "gpt-stoutland-purrloin-20261023-e50a",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "바랜드",
+        "species": "stoutland-20261023",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "after_work_change",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "one_knee_up",
+            "expr": "wistful",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "bare midriff"
+            ],
+            "lead": "place",
+            "scene": "A low oak coat hook and woven shoe mat mark her apartment entrance at dusk; a pair of house slippers and an open tote sit beside the doorway.",
+            "outfit": "A short cream work jacket over a black cropped camisole and charcoal lounge shorts; the cropped hems reveal her midriff and bare legs as the jacket is taken off.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "locked": [
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "cat",
+              "ex",
+              "axis-overall_intensity",
+              "axis-skin_exposure",
+              "axis-action_level",
+              "axis-source_influence",
+              "axis-separates_preference"
+            ],
+            "selection_method": "planner; no manual selection changes",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A low oak coat hook and woven shoe mat mark her apartment entrance at dusk; a pair of house slippers and an open tote sit beside the doorway.",
+                "reason": "추가 예시에는 없는 낮은 외투걸이와 현관 신발 매트·해질녘 채광을 구체화"
+              },
+              {
+                "field": "outfit",
+                "content": "A short cream work jacket over a black cropped camisole and charcoal lounge shorts; the cropped hems reveal her midriff and bare legs as the jacket is taken off.",
+                "reason": "귀가 예시의 work jacket과 home wear에 크림 재킷·크롭 캐미솔·라운지 쇼츠의 길이와 색을 지정"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+              }
+            ],
+            "axes_reason": [
+              "귀가 직후 쉬는 장면이라 mostly posed",
+              "밝고 어두운 크림·검정의 소량 대비를 남겨 balanced",
+              "재킷과 별개 상하의로 prefer separates"
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "travel_exploration",
+            "ex": "travel_coast",
+            "garments": [
+              "blouse",
+              "trousers"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "full_body",
+            "pose": "hand_on_hip",
+            "expr": "proud",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "mini length"
+            ],
+            "lead": "light",
+            "scene": "Late-afternoon amber light crosses the tidal flats; an open sketchbook rests on a low driftwood stump beside a pale scallop shell and tiny tracks in wet sand.",
+            "outfit": "A coral off-shoulder blouse with a mini tunic hem and pale-sand short culotte trousers expose her shoulders, collarbones and upper legs; plain canvas shoes suit the tidal flats.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Image 2 is the exact edit target; image 1 supplies her identity. Correct only the sketching action: rest the sketchbook currently in her right hand on a narrow driftwood support beside that hand, and put a small graphite pencil naturally between her right thumb, index and middle fingers, with its tip touching the shell drawing. Keep her left hand on her hip and preserve her face, hair, body, pose, clothes, framing and lighting. Preserve readable natural fingers. The image must clearly show a sketch being made, rather than only a book being carried.",
+            "locked": [
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "cat",
+              "ex",
+              "axis-overall_intensity",
+              "axis-skin_exposure",
+              "axis-action_level",
+              "axis-source_influence",
+              "axis-separates_preference"
+            ],
+            "selection_method": "planner; no manual selection changes",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Late-afternoon amber light crosses the tidal flats; an open sketchbook rests on a low driftwood stump beside a pale scallop shell and tiny tracks in wet sand.",
+                "reason": "해변 예시에는 없는 갯벌의 조개·발자국과 스케치북 받침을 명시"
+              },
+              {
+                "field": "outfit",
+                "content": "A coral off-shoulder blouse with a mini tunic hem and pale-sand short culotte trousers expose her shoulders, collarbones and upper legs; plain canvas shoes suit the tidal flats.",
+                "reason": "탐방 예시에는 의상이 없어 계획의 blouse+trousers를 오프숄더 블라우스와 짧은 큐롯으로 구체화"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+              }
+            ],
+            "axes_reason": [
+              "탐방 기록 중 잠시 선 상태라 mostly posed",
+              "원작은 크림 계열 바지의 색에만 남겨 subtle",
+              "블라우스와 큐롯이 분리되어 prefer separates"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "sari_blouse_set",
+            "garments": [
+              "blouse",
+              "lingerie_set",
+              "traditional"
+            ],
+            "orient": "side",
+            "frame": "waist_up",
+            "pose": "arms_crossed",
+            "expr": "half_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "open back"
+            ],
+            "lead": "detail",
+            "scene": "A small brass perfume bottle catches rose-gold lamplight on the dressing table, with indigo curtains and carved teak screens behind it.",
+            "outfit": "A deep-teal one-shoulder short fitted sari blouse and matching lingerie set, with an open back and a softly draped plum lower piece; a small cream embroidered border provides the only source accent.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "locked": [
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "cat",
+              "ex",
+              "axis-overall_intensity",
+              "axis-skin_exposure",
+              "axis-action_level",
+              "axis-source_influence",
+              "axis-separates_preference"
+            ],
+            "selection_method": "planner; no manual selection changes",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A small brass perfume bottle catches rose-gold lamplight on the dressing table, with indigo curtains and carved teak screens behind it.",
+                "reason": "의상 예시에는 배경이 없어 향수병·티크 가림막과 실내 조명을 설정"
+              },
+              {
+                "field": "outfit",
+                "content": "A deep-teal one-shoulder short fitted sari blouse and matching lingerie set, with an open back and a softly draped plum lower piece; a small cream embroidered border provides the only source accent.",
+                "reason": "사리 세트 예시의 재단에 청록·자주색과 한쪽 어깨·등 트임을 지정"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+              }
+            ],
+            "axes_reason": [
+              "드레싱 공간의 정지된 스타일링이라 mostly posed",
+              "작은 크림 자수 테두리에 balanced",
+              "사리 응용 세트의 겹침을 유지하여 balanced"
+            ]
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jacket",
+            "blouse"
+          ],
+          "orient": [
+            "crouching",
+            "three_quarter_back",
+            "side"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "쌔비냥",
+        "species": "purrloin-20261023",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_picnic",
+            "garments": [
+              "shorts",
+              "tank"
+            ],
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "pose": "carrying_something",
+            "expr": "relieved",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "cropped hem"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "sarong_wrap",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "pose": "leaning_wall",
+            "expr": "calm",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "high-cut leg"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_gardening",
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "pose": "watering",
+            "expr": "gentle",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "food_berries",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "knit_top"
+          ],
+          "orient": [
+            "low_angle",
+            "leaning_back",
+            "profile_close"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_sensual",
+      "ex": "after_work_change",
+      "garments": [
+        "jacket"
+      ],
+      "orient": "crouching",
+      "frame": "environmental",
+      "pose": "one_knee_up",
+      "expr": "wistful",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "bare midriff"
+      ],
+      "lead": "place",
+      "scene": "A low oak coat hook and woven shoe mat mark her apartment entrance at dusk; a pair of house slippers and an open tote sit beside the doorway.",
+      "outfit": "A short cream work jacket over a black cropped camisole and charcoal lounge shorts; the cropped hems reveal her midriff and bare legs as the jacket is taken off.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "locked": [
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "cat",
+        "ex",
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "axis-action_level",
+        "axis-source_influence",
+        "axis-separates_preference"
+      ],
+      "selection_method": "planner; no manual selection changes",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A low oak coat hook and woven shoe mat mark her apartment entrance at dusk; a pair of house slippers and an open tote sit beside the doorway.",
+          "reason": "추가 예시에는 없는 낮은 외투걸이와 현관 신발 매트·해질녘 채광을 구체화"
+        },
+        {
+          "field": "outfit",
+          "content": "A short cream work jacket over a black cropped camisole and charcoal lounge shorts; the cropped hems reveal her midriff and bare legs as the jacket is taken off.",
+          "reason": "귀가 예시의 work jacket과 home wear에 크림 재킷·크롭 캐미솔·라운지 쇼츠의 길이와 색을 지정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ],
+      "axes_reason": [
+        "귀가 직후 쉬는 장면이라 mostly posed",
+        "밝고 어두운 크림·검정의 소량 대비를 남겨 balanced",
+        "재킷과 별개 상하의로 prefer separates"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "travel_exploration",
+      "ex": "travel_coast",
+      "garments": [
+        "blouse",
+        "trousers"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "full_body",
+      "pose": "hand_on_hip",
+      "expr": "proud",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "mini length"
+      ],
+      "lead": "light",
+      "scene": "Late-afternoon amber light crosses the tidal flats; an open sketchbook rests on a low driftwood stump beside a pale scallop shell and tiny tracks in wet sand.",
+      "outfit": "A coral off-shoulder blouse with a mini tunic hem and pale-sand short culotte trousers expose her shoulders, collarbones and upper legs; plain canvas shoes suit the tidal flats.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "Image 2 is the exact edit target; image 1 supplies her identity. Correct only the sketching action: rest the sketchbook currently in her right hand on a narrow driftwood support beside that hand, and put a small graphite pencil naturally between her right thumb, index and middle fingers, with its tip touching the shell drawing. Keep her left hand on her hip and preserve her face, hair, body, pose, clothes, framing and lighting. Preserve readable natural fingers. The image must clearly show a sketch being made, rather than only a book being carried.",
+      "locked": [
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "cat",
+        "ex",
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "axis-action_level",
+        "axis-source_influence",
+        "axis-separates_preference"
+      ],
+      "selection_method": "planner; no manual selection changes",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late-afternoon amber light crosses the tidal flats; an open sketchbook rests on a low driftwood stump beside a pale scallop shell and tiny tracks in wet sand.",
+          "reason": "해변 예시에는 없는 갯벌의 조개·발자국과 스케치북 받침을 명시"
+        },
+        {
+          "field": "outfit",
+          "content": "A coral off-shoulder blouse with a mini tunic hem and pale-sand short culotte trousers expose her shoulders, collarbones and upper legs; plain canvas shoes suit the tidal flats.",
+          "reason": "탐방 예시에는 의상이 없어 계획의 blouse+trousers를 오프숄더 블라우스와 짧은 큐롯으로 구체화"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ],
+      "axes_reason": [
+        "탐방 기록 중 잠시 선 상태라 mostly posed",
+        "원작은 크림 계열 바지의 색에만 남겨 subtle",
+        "블라우스와 큐롯이 분리되어 prefer separates"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "sari_blouse_set",
+      "garments": [
+        "blouse",
+        "lingerie_set",
+        "traditional"
+      ],
+      "orient": "side",
+      "frame": "waist_up",
+      "pose": "arms_crossed",
+      "expr": "half_smile",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "open back"
+      ],
+      "lead": "detail",
+      "scene": "A small brass perfume bottle catches rose-gold lamplight on the dressing table, with indigo curtains and carved teak screens behind it.",
+      "outfit": "A deep-teal one-shoulder short fitted sari blouse and matching lingerie set, with an open back and a softly draped plum lower piece; a small cream embroidered border provides the only source accent.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "locked": [
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "cat",
+        "ex",
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "axis-action_level",
+        "axis-source_influence",
+        "axis-separates_preference"
+      ],
+      "selection_method": "planner; no manual selection changes",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A small brass perfume bottle catches rose-gold lamplight on the dressing table, with indigo curtains and carved teak screens behind it.",
+          "reason": "의상 예시에는 배경이 없어 향수병·티크 가림막과 실내 조명을 설정"
+        },
+        {
+          "field": "outfit",
+          "content": "A deep-teal one-shoulder short fitted sari blouse and matching lingerie set, with an open back and a softly draped plum lower piece; a small cream embroidered border provides the only source accent.",
+          "reason": "사리 세트 예시의 재단에 청록·자주색과 한쪽 어깨·등 트임을 지정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ],
+      "axes_reason": [
+        "드레싱 공간의 정지된 스타일링이라 mostly posed",
+        "작은 크림 자수 테두리에 balanced",
+        "사리 응용 세트의 겹침을 유지하여 balanced"
+      ]
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed",
+  "reservation_path": "records/casual-reservations/gpt-stoutland-purrloin-20261023-e50a.json",
+  "replanning": {
+    "reason": "Planner exText omits EXAMPLE_DETAIL; avoided examples whose hidden wardrobe conflicts with nominal planner garments, and covered-swimwear example incompatible with bold exposure. No repository code or tests changed.",
+    "evidence": "planner-incompatibilities.json"
+  },
+  "regenerations": [
+    {
+      "slot": "casual2",
+      "initial_original": "generated_images/exec-77610d30-1e50-44ff-adc6-ec60ee33c1c9.png",
+      "problem": "Only holding a sketchbook, no pencil or sketching action",
+      "change": "UI custom note specifies exact partial sketching correction; canonical light and edit target both attached",
+      "final_original": "/workspace/scratch/e50a1f61f152/generated_images/exec-cc4c67c0-e90a-424c-a571-e179c9aedab1.png"
+    }
+  ]
+}

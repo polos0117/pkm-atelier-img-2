@@ -1,0 +1,82 @@
+{
+  "reviewer": "gpt",
+  "accepted_count": 9,
+  "image_tool": "built-in image_gen",
+  "observations": {
+    "light": "전신 여백·앞 3/4 얼굴, 크림·검정 장갑, 긴 금발 포니테일; 양손 각 손가락이 분리되고 무기 없음.",
+    "heavy": "경장과 같은 얼굴·눈·헤어·체형; 어깨·허벅지·정강이 다층 장갑이 더 넓음.",
+    "mobility": "정본 얼굴과 몸 유지; 어깨·허리·종아리의 분리 패널과 소형 스러스터, 무기 없음.",
+    "light_overdrive": "원본 자세·구도 유지, 얇은 판 이음새에 백금빛이 드러남.",
+    "heavy_overdrive": "중장 구도 유지, 겹판 사이와 무릎에 내부 프레임 발광.",
+    "mobility_overdrive": "고기동 원본 패널과 구도 유지, 스러스터 덮개 개방과 백금빛.",
+    "casual1": "현관 매트 위 한 무릎 올린 귀가 휴식, 벗어내린 크림 재킷과 검정 상의·회색 쇼츠, 외투걸이·가방·슬리퍼. 손과 발 연결 자연스러움.",
+    "casual2": "수정 뒤 한 손이 연필로 조개 그림을 그리고 반대 손은 허리; 조개·발자국·스케치북과 해질녘 해변. 정본 금발·얼굴 유지, 양 다리와 손 구조 연결됨.",
+    "casual3": "청록 사리 블라우스와 자주색 드레이프, 팔짱과 측면 시선, 향수병·티크 실내. 손가락 자연스러운 가림, 추가 인물 없음."
+  },
+  "face_reason": "원작의 둥근 체적과 풍성한 얼굴 주변 털을 짧고 넓은 둥근 사람 얼굴과 완만한 턱선·도톰한 입술로 해석. 볏과 귀는 묶은 머리·머리 장식, 흰 발톱은 장갑 모서리에 반영.",
+  "face_sources": [
+    "data/source-appearance.json:508",
+    "data/card.json:508",
+    "data/face-design.json:508"
+  ],
+  "compared_characters": [
+    "하데리어",
+    "아말도",
+    "아노딥스"
+  ],
+  "face_comparison_observation": "하데리어보다 얼굴이 짧고 둥글며, 아말도의 긴 눈·날카로운 윤곽 및 아노딥스의 좁은 턱과 다른 부드러운 넓은 턱선. 머리색 외에도 코끝·입술 폭과 광대 윤곽을 비교함.",
+  "diversity_comparison": "네 캐릭터의 일상 12장을 QA 시트에서 비교. 바랜드는 현관 낮은 앉음/해변 스케치 전신/사리 세트 측면 팔짱으로 활동·의상·몸의 실루엣이 다름. 하데리어의 야외 독서·운동·카지노, 아말도의 수건·야간 드레스·수영장, 아노딥스의 축제·카지노·피크닉 구성과 구별됨.",
+  "recorded_variations": [
+    "casual1은 재킷을 거는 진행 동작보다 귀가 후 벗어내린 채 휴식으로 표현됨.",
+    "casual2 수정 결과에서 그림을 그리는 손과 허리에 둔 손의 좌우가 초기 결과와 바뀜; 한 손 허리+한 손 스케치 구성은 유지됨.",
+    "casual2의 short culotte trousers가 쇼츠에 가까워짐.",
+    "casual3은 지정 waist_up보다 허벅지까지 넓게 담김. 선택 프레이밍·의상 세부 차이는 기록하고 재생성하지 않는 규칙 적용."
+  ],
+  "files": [
+    {
+      "slot": "light",
+      "sha256": "a085e8d6436c90dd5986905a919db293b4ee9cd9e5c8a94c1b887b3391ffecef",
+      "accepted": true
+    },
+    {
+      "slot": "heavy",
+      "sha256": "4ec16442abd4d7fc7f4a8b7fe71b34740c7b1fc6f7441fd9584c169ce19c99bc",
+      "accepted": true
+    },
+    {
+      "slot": "mobility",
+      "sha256": "725a51743dc11248db9eacdeff504b9b70f236b25cae5a7f1aa67fbc441d5a4f",
+      "accepted": true
+    },
+    {
+      "slot": "light_overdrive",
+      "sha256": "849fef55ac101783876136c2c4ef2b9984639fb2fbf028d5dfdcf87b70c121c0",
+      "accepted": true
+    },
+    {
+      "slot": "heavy_overdrive",
+      "sha256": "fc4f553e0fedf1f853f9ab33a1980a21d75b286166bd020bbfc4b8ea9fea04bc",
+      "accepted": true
+    },
+    {
+      "slot": "mobility_overdrive",
+      "sha256": "1aada53dbda454d35dfe7ed598b4510d642a36d01f72295160459bd4c7055268",
+      "accepted": true
+    },
+    {
+      "slot": "casual1",
+      "sha256": "f5fb20a512fbe502ce6e19ad8cb9f9bad032e5311c022dda4ad4d69dde355f89",
+      "accepted": true
+    },
+    {
+      "slot": "casual2",
+      "sha256": "95a5c27150270830cb9a6b08ab79aaac90fb0b24ce5399a52a8522df3dd1ea63",
+      "accepted": true
+    },
+    {
+      "slot": "casual3",
+      "sha256": "73eb21cde6e1c575d867eacdab51a80110d1b7c5e1f0b00c6b3d1e817dc6a42c",
+      "accepted": true
+    }
+  ]
+}
