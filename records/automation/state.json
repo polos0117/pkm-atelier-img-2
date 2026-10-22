@@ -16,14 +16,14 @@
     {
       "id": "2026-10-22-1",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-22T09:08:42+00:00",
       "queue": [
         {
           "no": 345,
           "name": "릴링",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -98,7 +98,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "attempt": 2,
               "at": "2026-10-22T10:42:39+00:00",
               "prefix": "records/automation/runs/2026-10-22-1/345/light_overdrive/attempts/2",
@@ -125,7 +125,13 @@
                 "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/attempts/2/original.png",
                 "sha256": "47e9e51a0cf772e516729b7cdfae05f25bd61b3a2c79fa4baeca193d8892f190"
               },
-              "received_at": "2026-10-22T10:44:24+00:00"
+              "received_at": "2026-10-22T10:44:24+00:00",
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/attempts/2/user-exception.json",
+                "sha256": "72c9ba034b0c1c600204b42c0fb0d71c68f76197675a53034d4ff5236277de57"
+              }
             }
           },
           "reason": "QA_FAILED approved correction attempt 2, light_overdrive sha256=47e9e51a0cf772e516729b7cdfae05f25bd61b3a2c79fa4baeca193d8892f190: compared actual approved light and both failed outputs. Large stacked thigh armor reduced, but new broad angular thigh panels with gold borders remain instead of the original smooth purple fitted thigh surfaces and small knee accents. Face pose camera preserved; no-new-armor criterion still fails. Exactly one approved correction consumed; no further retries or batch generation authorized after this failure. All originals and approval preserved.",
@@ -156,6 +162,15 @@
                 "sha256": "c250adca358578785410a1c71e396076f7cfb37efa60512b2d01ae29726fceb2"
               }
             }
+          ],
+          "block_history": [
+            {
+              "reason": "QA_FAILED approved correction attempt 2, light_overdrive sha256=47e9e51a0cf772e516729b7cdfae05f25bd61b3a2c79fa4baeca193d8892f190: compared actual approved light and both failed outputs. Large stacked thigh armor reduced, but new broad angular thigh panels with gold borders remain instead of the original smooth purple fitted thigh surfaces and small knee accents. Face pose camera preserved; no-new-armor criterion still fails. Exactly one approved correction consumed; no further retries or batch generation authorized after this failure. All originals and approval preserved.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/attempts/2/user-exception.json",
+                "sha256": "72c9ba034b0c1c600204b42c0fb0d71c68f76197675a53034d4ff5236277de57"
+              }
+            }
           ]
         },
         {
@@ -166,7 +181,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T10:44:49+00:00"
+      "updated_at": "2026-10-22T10:47:39+00:00"
     }
   ],
   "claims": {
