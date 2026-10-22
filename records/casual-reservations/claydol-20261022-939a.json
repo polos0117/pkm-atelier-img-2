@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "claydol-20261022-939a",
- "at": "2026-10-21T22:05:11-07:00",
+ "at": "2026-10-21T22:08:57-07:00",
  "characters": [
   {
    "species": "claydol-20261022",
    "card": "점토도리",
-   "at": "2026-10-21T22:05:11-07:00",
+   "at": "2026-10-21T22:08:57-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -57,32 +57,33 @@
       "halter neck",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "swimwear",
-     "ex": "yukata_poolside",
-     "expr": "candid",
+     "cat": "adult_roleplay",
+     "ex": "cabin_crew_retro",
+     "expr": "amused",
      "pose": "sitting_floor",
-     "orient": "three_quarter_back",
+     "orient": "seated_twist",
      "frame": "full_body",
-     "lens": "wide24",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "traditional"
+      "jacket"
      ],
      "expose": [
-      "side cutouts",
-      "cropped hem"
+      "halter neck",
+      "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "detail"
     }
    ]
   }
