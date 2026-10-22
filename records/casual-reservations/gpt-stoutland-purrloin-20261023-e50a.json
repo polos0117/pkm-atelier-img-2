@@ -1,20 +1,71 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-stoutland-purrloin-20261023-e50a",
- "at": "2026-10-22T08:16:09-07:00",
+ "at": "2026-10-22T08:26:50-07:00",
  "characters": [
   {
    "species": "stoutland-20261023",
    "card": "바랜드",
-   "at": "2026-10-22T08:16:09-07:00",
+   "at": "2026-10-22T08:26:50-07:00",
    "cuts": [
     {
      "cut": 1,
+     "cat": "everyday_basic",
+     "ex": "commute_train",
+     "expr": "wistful",
+     "pose": "one_knee_up",
+     "orient": "crouching",
+     "frame": "environmental",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "blouse",
+      "trousers"
+     ],
+     "expose": [
+      "cropped hem",
+      "bare midriff"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "cat": "homewear",
+     "ex": "home_workout",
+     "expr": "gentle",
+     "pose": "leaning_wall",
+     "orient": "three_quarter_back",
+     "frame": "full_body",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "robe"
+     ],
+     "expose": [
+      "plunging neckline",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
      "cat": "lingerie",
-     "ex": "garter_set",
-     "expr": "cold_smile",
-     "pose": "cross_legged",
-     "orient": "high_angle",
+     "ex": "sari_blouse_set",
+     "expr": "half_smile",
+     "pose": "hand_on_hip",
+     "orient": "side",
      "frame": "waist_up",
      "lens": "natural50",
      "axes": {
@@ -25,130 +76,31 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "blouse",
+      "lingerie_set",
+      "traditional"
      ],
      "expose": [
-      "high-cut leg",
-      "halter neck"
-     ],
-     "lead": "detail"
-    },
-    {
-     "cut": 2,
-     "cat": "swimwear",
-     "ex": "burkini_modest",
-     "expr": "amused",
-     "pose": "squatting",
-     "orient": "rear_3q",
-     "frame": "environmental",
-     "lens": "portrait85",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "strong",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "swimsuit"
-     ],
-     "expose": [
-      "plunging neckline",
+      "one-shoulder cut",
       "open back"
      ],
-     "lead": "action"
-    },
-    {
-     "cut": 3,
-     "cat": "occupation_basic",
-     "ex": "office_project",
-     "expr": "playful",
-     "pose": "taking_photo",
-     "orient": "leaning_forward",
-     "frame": "full_body",
-     "lens": "documentary35",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "apron",
-      "skirt"
-     ],
-     "expose": [
-      "cropped hem",
-      "strapless top"
-     ],
-     "lead": "place"
+     "lead": "light"
     }
    ]
   },
   {
    "species": "purrloin-20261023",
    "card": "쌔비냥",
-   "at": "2026-10-22T08:16:09-07:00",
+   "at": "2026-10-22T08:26:50-07:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "adult_roleplay",
-     "ex": "bunny",
+     "cat": "traditional",
+     "ex": "aodai_daily",
      "expr": "proud",
-     "pose": "walking",
-     "orient": "over_shoulder",
-     "frame": "waist_up",
-     "lens": "wide24",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "swimsuit"
-     ],
-     "expose": [
-      "high-cut leg",
-      "side cutouts"
-     ],
-     "lead": "place"
-    },
-    {
-     "cut": 2,
-     "cat": "wildcard",
-     "ex": "festival_night",
-     "expr": "unimpressed",
-     "pose": "perched_seat",
-     "orient": "reclining",
-     "frame": "three_quarter",
-     "lens": "natural50",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "jumpsuit"
-     ],
-     "expose": [
-      "high thigh slit",
-      "strapless top"
-     ],
-     "lead": "action"
-    },
-    {
-     "cut": 3,
-     "cat": "source_editorial",
-     "ex": "cockpit_harness",
-     "expr": "wistful",
      "pose": "arms_crossed",
-     "orient": "front",
-     "frame": "chest_up",
+     "orient": "low_angle",
+     "frame": "three_quarter",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
@@ -158,13 +110,64 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "jumpsuit"
+      "traditional"
+     ],
+     "expose": [
+      "high thigh slit",
+      "cropped hem"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "swimwear",
+     "ex": "sarong_wrap",
+     "expr": "calm",
+     "pose": "stretching",
+     "orient": "leaning_back",
+     "frame": "chest_up",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini"
+     ],
+     "expose": [
+      "high-cut leg",
+      "plunging neckline"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "everyday_sensual",
+     "ex": "mirror_selfie",
+     "expr": "curious",
+     "pose": "mid_stride",
+     "orient": "profile_close",
+     "frame": "waist_up",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "knit_top",
+      "shorts"
      ],
      "expose": [
       "mini length",
-      "one-shoulder cut"
+      "halter neck"
      ],
-     "lead": "detail"
+     "lead": "action"
     }
    ]
   }
