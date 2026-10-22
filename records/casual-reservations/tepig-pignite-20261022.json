@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "tepig-pignite-20261022",
- "at": "2026-10-22T00:47:19-07:00",
+ "at": "2026-10-22T00:56:31-07:00",
  "characters": [
   {
    "species": "tepig-20261022",
    "card": "뚜꾸리",
-   "at": "2026-10-22T00:47:19-07:00",
+   "at": "2026-10-22T00:56:31-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,46 +31,22 @@
       "high thigh slit",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "lingerie",
-     "ex": "back_strap",
-     "expr": "provocative",
-     "pose": "turning_back",
-     "orient": "looking_away",
-     "frame": "three_quarter",
-     "lens": "telephoto135",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "lingerie_set"
-     ],
-     "expose": [
-      "strapless top",
-      "bare midriff"
-     ],
-     "lead": "action"
-    },
-    {
-     "cut": 3,
      "cat": "adult_roleplay",
      "ex": "adult_teacher",
-     "expr": "sensual",
-     "pose": "side_sitting",
-     "orient": "seated_twist",
-     "frame": "environmental",
-     "lens": "documentary35",
+     "expr": "provocative",
+     "pose": "reading_book",
+     "orient": "looking_away",
+     "frame": "three_quarter",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
@@ -79,17 +55,42 @@
       "skirt"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "mini length"
+      "strapless top",
+      "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "poolside_bar",
+     "expr": "sensual",
+     "pose": "side_sitting",
+     "orient": "seated_twist",
+     "frame": "environmental",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini"
+     ],
+     "expose": [
+      "plunging neckline",
+      "bare midriff"
+     ],
+     "lead": "action"
     }
    ]
   },
   {
    "species": "pignite-20261022",
    "card": "차오꿀",
-   "at": "2026-10-22T00:47:19-07:00",
+   "at": "2026-10-22T00:56:31-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -114,7 +115,8 @@
       "cropped hem",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -139,32 +141,33 @@
       "plunging neckline",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "swimwear",
-     "ex": "onsen_after",
+     "cat": "adult_roleplay",
+     "ex": "uniform_inspired",
      "expr": "mischievous",
-     "pose": "small_jog",
+     "pose": "turning_back",
      "orient": "turning_midmotion",
      "frame": "chest_up",
-     "lens": "wide24",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
       "source_influence": "strong",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bikini"
+      "uniform"
      ],
      "expose": [
-      "high-cut leg",
-      "open back"
+      "mini length",
+      "halter neck"
      ],
-     "lead": "light"
+     "lead": "action"
     }
    ]
   }
