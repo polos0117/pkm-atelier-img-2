@@ -1,18 +1,18 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "claydol-20261022-939a",
- "at": "2026-10-21T21:59:11-07:00",
+ "at": "2026-10-21T22:00:36-07:00",
  "characters": [
   {
    "species": "claydol-20261022",
    "card": "점토도리",
-   "at": "2026-10-21T21:59:11-07:00",
+   "at": "2026-10-21T22:00:36-07:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "homewear",
-     "ex": "one_shoulder_lounge",
-     "expr": "candid",
+     "cat": "festivals_contests",
+     "ex": "fest_booth",
+     "expr": "pensive",
      "pose": "standing_relaxed",
      "orient": "reaching_up",
      "frame": "waist_up",
@@ -21,24 +21,24 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "slip"
+      "overalls"
      ],
      "expose": [
       "halter neck",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "place"
     },
     {
      "cut": 2,
      "cat": "lingerie",
-     "ex": "bustier_inspired",
-     "expr": "pensive",
-     "pose": "bending_over",
+     "ex": "hanbok_slip",
+     "expr": "confident",
+     "pose": "leaning_furniture",
      "orient": "three_quarter_back",
      "frame": "full_body",
      "lens": "wide24",
@@ -46,31 +46,33 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "strong",
-      "separates_preference": "balanced"
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set"
+      "lingerie_set",
+      "skirt",
+      "traditional"
      ],
      "expose": [
       "side cutouts",
-      "strapless top"
+      "cropped hem"
      ],
-     "lead": "light"
+     "lead": "detail"
     },
     {
      "cut": 3,
      "cat": "swimwear",
-     "ex": "onsen_after",
-     "expr": "confident",
-     "pose": "stretching",
+     "ex": "swim_coverup",
+     "expr": "candid",
+     "pose": "sitting_floor",
      "orient": "leaning_forward",
      "frame": "three_quarter",
      "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
@@ -79,9 +81,9 @@
      ],
      "expose": [
       "high-cut leg",
-      "open back"
+      "strapless top"
      ],
-     "lead": "detail"
+     "lead": "light"
     }
    ]
   }
