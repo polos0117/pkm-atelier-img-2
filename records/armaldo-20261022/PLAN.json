@@ -1,0 +1,379 @@
+{
+  "session": "anorith-armaldo-edadb7",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "아노딥스",
+      "species": "anorith-20261022",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "festivals_contests",
+          "ex": "fest_cheering",
+          "expr": "laughing_open",
+          "pose": "standing_relaxed",
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "knit_top",
+            "shorts"
+          ],
+          "expose": [
+            "side cutouts",
+            "bare midriff"
+          ],
+          "lead": "place"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "adult_roleplay",
+          "ex": "casino_dealer",
+          "expr": "sensual",
+          "pose": "side_sitting",
+          "orient": "looking_away",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "vest"
+          ],
+          "expose": [
+            "strapless top",
+            "mini length"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 3,
+          "cat": "partner_care",
+          "ex": "care_nap",
+          "garments": [
+            "shirt",
+            "shorts"
+          ],
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "pose": "sitting_floor",
+          "expr": "nostalgic",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "side cutouts",
+            "bare midriff"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "food_berries",
+          "festivals_contests",
+          "active",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "shirt",
+          "shorts"
+        ],
+        "orient": [
+          "seated_twist"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "아말도",
+      "species": "armaldo-20261022",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "occupation_sensual",
+          "ex": "luxury_yacht_tech",
+          "garments": [
+            "trousers",
+            "vest"
+          ],
+          "orient": "reaching_up",
+          "frame": "chest_up",
+          "pose": "carrying_something",
+          "expr": "serious",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "halter neck",
+            "one-shoulder cut"
+          ],
+          "lead": "light",
+          "scene": "Early daylight glints on the lagoon beside a polished teak deck; a stack of blue towels rests on her forearm while her other hand steadies a feeding tray.",
+          "outfit": "An ivory halter waistcoat with a single blue shoulder band, paired with loose blue trousers slit to the upper thigh, exposing the shoulders and outer legs.",
+          "custom": "Image 1 is the approved light-form identity reference. Image 2 is the edit target: preserve that scene, face, outfit, tray, towels and body. Correct only the raised forearm and hand: lower the wrist slightly along the shelf so the whole hand, all five fingers and their fingertips fit inside the canvas with a small clear margin; keep believable contact with the shelf.",
+          "example_text": "Water-Pokémon resort caretaker preparing towels and a feeding tray beside a lagoon deck.",
+          "locked": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "randomization": {
+            "planner": "tools/casual-plan.cjs",
+            "session": "anorith-armaldo-edadb7",
+            "selection_changes_by_hand": false
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "Early daylight glints on the lagoon beside a polished teak deck; a stack of blue towels rests on her forearm while her other hand steadies a feeding tray.",
+              "reason": "예시 luxury_yacht_tech에 없는 그 컷의 구체적인 공간·시간·소품을 보충: Early daylight glints on the lagoon beside a polished teak deck; a stack of blue towels rests on her forearm while her other hand steadies a feeding tray."
+            },
+            {
+              "field": "outfit",
+              "value": "An ivory halter waistcoat with a single blue shoulder band, paired with loose blue trousers slit to the upper thigh, exposing the shoulders and outer legs.",
+              "reason": "계획기의 trousers,vest를 halter neck,one-shoulder cut 구조로 구체화: An ivory halter waistcoat with a single blue shoulder band, paired with loose blue trousers slit to the upper thigh, exposing the shoulders and outer legs."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "도구에 크기 인수가 없어 규칙의 허용 문장으로 세로 크기를 지정"
+            }
+          ],
+          "axes_reason": {
+            "action_level": "Early daylight glints on the lagoon beside a polished teak deck; a stack of blue towels rests on her forearm while her other hand steadies a feeding tray. — 현재 동작 정도에 대응한 balanced",
+            "source_influence": "An ivory halter waistcoat with a single blue shoulder band, paired with loose blue trousers slit to the upper thigh, exposing the shoulders and outer legs. — 이 의상에 넣는 색·무늬의 정도는 subtle",
+            "separates_preference": "trousers,vest의 실제 의상 구조에 맞춘 prefer separates"
+          }
+        },
+        {
+          "cut": 2,
+          "cat": "private_evening",
+          "ex": "slip_dress",
+          "garments": [
+            "dress",
+            "slip"
+          ],
+          "orient": "front_3q",
+          "frame": "three_quarter",
+          "pose": "standing_formal",
+          "expr": "sleepy",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "high thigh slit"
+          ],
+          "lead": "detail",
+          "scene": "A small evening clutch and a comb rest on a carved console beside an arched hallway window, where she pauses before leaving for dinner.",
+          "outfit": "An opaque slate-blue satin slip dress with a plunging V neckline and a high thigh slit, with thin yellow piping following the seams.",
+          "example_text": "an evening in a thin-strapped satin slip dress that flows along the body",
+          "locked": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "randomization": {
+            "planner": "tools/casual-plan.cjs",
+            "session": "anorith-armaldo-edadb7",
+            "selection_changes_by_hand": false
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "A small evening clutch and a comb rest on a carved console beside an arched hallway window, where she pauses before leaving for dinner.",
+              "reason": "예시 slip_dress에 없는 그 컷의 구체적인 공간·시간·소품을 보충: A small evening clutch and a comb rest on a carved console beside an arched hallway window, where she pauses before leaving for dinner."
+            },
+            {
+              "field": "outfit",
+              "value": "An opaque slate-blue satin slip dress with a plunging V neckline and a high thigh slit, with thin yellow piping following the seams.",
+              "reason": "계획기의 dress,slip를 plunging neckline,high thigh slit 구조로 구체화: An opaque slate-blue satin slip dress with a plunging V neckline and a high thigh slit, with thin yellow piping following the seams."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "도구에 크기 인수가 없어 규칙의 허용 문장으로 세로 크기를 지정"
+            }
+          ],
+          "axes_reason": {
+            "action_level": "A small evening clutch and a comb rest on a carved console beside an arched hallway window, where she pauses before leaving for dinner. — 현재 동작 정도에 대응한 mostly posed",
+            "source_influence": "An opaque slate-blue satin slip dress with a plunging V neckline and a high thigh slit, with thin yellow piping following the seams. — 이 의상에 넣는 색·무늬의 정도는 strong",
+            "separates_preference": "dress,slip의 실제 의상 구조에 맞춘 balanced"
+          }
+        },
+        {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "yukata_poolside",
+          "garments": [
+            "traditional"
+          ],
+          "orient": "looking_down",
+          "frame": "full_body",
+          "pose": "dance_step",
+          "expr": "pensive",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "side cutouts"
+          ],
+          "lead": "place",
+          "scene": "A bright pool terrace has white parasols and a low teak bench; she moves between the dry tiles and the water after practice.",
+          "outfit": "An opaque blue swimsuit with side cutouts and an open back, with a light ivory yukata worn open and loosely lowered at the back neckline, its yellow binding tracing the long sleeves.",
+          "example_text": "swimwear with a light yukata worn open over it, poolside",
+          "locked": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "randomization": {
+            "planner": "tools/casual-plan.cjs",
+            "session": "anorith-armaldo-edadb7",
+            "selection_changes_by_hand": false
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "A bright pool terrace has white parasols and a low teak bench; she moves between the dry tiles and the water after practice.",
+              "reason": "예시 yukata_poolside에 없는 그 컷의 구체적인 공간·시간·소품을 보충: A bright pool terrace has white parasols and a low teak bench; she moves between the dry tiles and the water after practice."
+            },
+            {
+              "field": "outfit",
+              "value": "An opaque blue swimsuit with side cutouts and an open back, with a light ivory yukata worn open and loosely lowered at the back neckline, its yellow binding tracing the long sleeves.",
+              "reason": "계획기의 traditional를 open back,side cutouts 구조로 구체화: An opaque blue swimsuit with side cutouts and an open back, with a light ivory yukata worn open and loosely lowered at the back neckline, its yellow binding tracing the long sleeves."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "도구에 크기 인수가 없어 규칙의 허용 문장으로 세로 크기를 지정"
+            }
+          ],
+          "axes_reason": {
+            "action_level": "A bright pool terrace has white parasols and a low teak bench; she moves between the dry tiles and the water after practice. — 현재 동작 정도에 대응한 mostly active",
+            "source_influence": "An opaque blue swimsuit with side cutouts and an open back, with a light ivory yukata worn open and loosely lowered at the back neckline, its yellow binding tracing the long sleeves. — 이 의상에 넣는 색·무늬의 정도는 subtle",
+            "separates_preference": "traditional의 실제 의상 구조에 맞춘 balanced"
+          }
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "food_berries",
+          "active",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "trousers"
+        ],
+        "orient": [
+          "reaching_up",
+          "front_3q",
+          "looking_down"
+        ],
+        "frame": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "card": "아말도",
+  "slot": "casual1",
+  "storage": {
+    "last": "아말도",
+    "cards": {
+      "아말도": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "serious",
+            "pose": "carrying_something",
+            "orient": "reaching_up",
+            "scene": "Early daylight glints on the lagoon beside a polished teak deck; a stack of blue towels rests on her forearm while her other hand steadies a feeding tray.",
+            "outfit": "An ivory halter waistcoat with a single blue shoulder band, paired with loose blue trousers slit to the upper thigh, exposing the shoulders and outer legs.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Image 1 is the approved light-form identity reference. Image 2 is the edit target: preserve that scene, face, outfit, tray, towels and body. Correct only the raised forearm and hand: lower the wrist slightly along the shelf so the whole hand, all five fingers and their fingertips fit inside the canvas with a small clear margin; keep believable contact with the shelf.",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "luxury_yacht_tech",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Armaldo (아말도) personified, rock / bug type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: level lowered brow, steady unblinking gaze, mouth closed in a straight line, jaw set\nPose: Carry the scene's bag, basket or box with believable hand contact and weight.\nOrientation: reach upward with natural shoulder articulation\nScene: Early daylight glints on the lagoon beside a polished teak deck; a stack of blue towels rests on her forearm while her other hand steadies a feeding tray.\nOutfit and props: An ivory halter waistcoat with a single blue shoulder band, paired with loose blue trousers slit to the upper thigh, exposing the shoulders and outer legs.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character. Use glamorous tailoring and confident professional presence while keeping the outfit credible for the task.\nExample scene: Water-Pokémon resort caretaker preparing towels and a feeding tray beside a lagoon deck.\nNote: Image 1 is the approved light-form identity reference. Image 2 is the edit target: preserve that scene, face, outfit, tray, towels and body. Correct only the raised forearm and hand: lower the wrist slightly along the shelf so the whole hand, all five fingers and their fingertips fit inside the canvas with a small clear margin; keep believable contact with the shelf.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "provenance": "Actual Preact generator DOM controls selected and output read using repository DOM harness (jsdom).",
+  "errors": []
+}
