@@ -1,110 +1,112 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-liepard-pansage-20261023-50b7",
- "at": "2026-10-22T14:27:19-07:00",
+ "at": "2026-10-22T14:28:53-07:00",
  "characters": [
   {
    "species": "liepard-20261023",
    "card": "레파르다스",
-   "at": "2026-10-22T14:27:19-07:00",
+   "at": "2026-10-22T14:28:53-07:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "private_evening",
-     "ex": "cocktail_mini",
-     "expr": "provocative",
-     "pose": "contrapposto",
-     "orient": "three_quarter_back",
+     "cat": "festivals_contests",
+     "ex": "fest_ribbon",
+     "expr": "determined",
+     "pose": "sitting_floor",
+     "orient": "seated_twist",
      "frame": "waist_up",
-     "lens": "telephoto135",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "dress"
-     ],
-     "expose": [
-      "high thigh slit",
-      "side cutouts"
-     ],
-     "lead": "action"
-    },
-    {
-     "cut": 2,
-     "cat": "active",
-     "ex": "parkour_stairs",
-     "expr": "exhausted",
-     "pose": "kneeling",
-     "orient": "crouching",
-     "frame": "three_quarter",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "crop_top",
-      "leggings"
+      "knit_top",
+      "skirt"
      ],
      "expose": [
-      "cropped hem",
+      "side cutouts",
+      "strapless top"
+     ],
+     "lead": "action",
+     "kept": true
+    },
+    {
+     "cut": 2,
+     "cat": "private_evening",
+     "ex": "one_shoulder_satin",
+     "expr": "sensual",
+     "pose": "bending_over",
+     "orient": "three_quarter_back",
+     "frame": "three_quarter",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "slip"
+     ],
+     "expose": [
+      "plunging neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "lingerie",
-     "ex": "bralette_highwaist",
-     "expr": "confident",
-     "pose": "holding_cup",
-     "orient": "side",
+     "ex": "embroidered_corset",
+     "expr": "smug",
+     "pose": "kneeling",
+     "orient": "crouching",
      "frame": "chest_up",
      "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "crop_top",
       "lingerie_set"
      ],
      "expose": [
-      "plunging neckline",
-      "strapless top"
+      "bare midriff",
+      "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "place",
+     "kept": true
     }
    ]
   },
   {
    "species": "pansage-20261023",
    "card": "야나프",
-   "at": "2026-10-22T14:27:19-07:00",
+   "at": "2026-10-22T14:28:53-07:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "adult_roleplay",
      "ex": "circus_ringmaster",
-     "expr": "smug",
-     "pose": "bending_over",
+     "expr": "confident",
+     "pose": "mid_action",
      "orient": "low_angle",
-     "frame": "environmental",
+     "frame": "waist_up",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly active",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
@@ -113,62 +115,63 @@
       "uniform"
      ],
      "expose": [
-      "bare midriff",
-      "open back"
+      "side cutouts",
+      "cropped hem"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 2,
-     "cat": "occupation_basic",
-     "ex": "avionics_tech",
-     "expr": "determined",
-     "pose": "gentle_pat",
-     "orient": "leaning_back",
-     "frame": "full_body",
-     "lens": "natural50",
+     "cat": "active",
+     "ex": "fencing_motion",
+     "expr": "laughing_open",
+     "pose": "turning_back",
+     "orient": "over_shoulder",
+     "frame": "three_quarter",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly active",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "apron",
-      "skirt"
+      "crop_top",
+      "leggings"
      ],
      "expose": [
-      "one-shoulder cut",
-      "cropped hem"
+      "strapless top",
+      "one-shoulder cut"
      ],
      "lead": "detail"
     },
     {
      "cut": 3,
-     "cat": "everyday_sensual",
-     "ex": "floor_organizing",
-     "expr": "sleepy",
-     "pose": "sitting_floor",
-     "orient": "seated_twist",
-     "frame": "waist_up",
+     "cat": "occupation_basic",
+     "ex": "welding_fabricator",
+     "expr": "nostalgic",
+     "pose": "small_jog",
+     "orient": "side",
+     "frame": "full_body",
      "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "subtle",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "shirt",
-      "skirt"
+      "apron",
+      "trousers"
      ],
      "expose": [
-      "halter neck",
-      "off-shoulder neckline"
+      "strapless top",
+      "halter neck"
      ],
-     "lead": "action"
+     "lead": "light",
+     "kept": true
     }
    ]
   }
