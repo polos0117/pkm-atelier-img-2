@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "policy": {
+    "daily_max": 2,
+    "timezone": "UTC"
+  },
+  "daily": {
+    "2026-10-22": [
+      345,
+      346
+    ]
+  },
+  "runs": [
+    {
+      "id": "2026-10-22-1",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-22T09:08:42+00:00",
+      "queue": [
+        {
+          "no": 345,
+          "name": "릴링",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        },
+        {
+          "no": 346,
+          "name": "릴리요",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-22T09:08:42+00:00"
+    }
+  ],
+  "claims": {
+    "345": {
+      "owner": "pkm-daily",
+      "run": "2026-10-22-1",
+      "status": "held",
+      "at": "2026-10-22T09:08:42+00:00"
+    },
+    "346": {
+      "owner": "pkm-daily",
+      "run": "2026-10-22-1",
+      "status": "held",
+      "at": "2026-10-22T09:08:42+00:00"
+    }
+  },
+  "blocked_candidates": {
+    "1": {
+      "card": "이상해씨",
+      "status": "blocked_legacy_metadata",
+      "reason": "Preserve registered slots; recover ownership and genuine UI metadata before refill."
+    },
+    "2": {
+      "card": "이상해풀",
+      "status": "blocked_legacy_metadata",
+      "reason": "Preserve registered slots; recover ownership and genuine UI metadata before refill."
+    },
+    "3": {
+      "card": "이상해꽃",
+      "status": "blocked_legacy_metadata",
+      "reason": "Preserve registered slots; recover ownership and genuine UI metadata before refill."
+    },
+    "4": {
+      "card": "파이리",
+      "status": "blocked_legacy_metadata",
+      "reason": "Preserve registered slots; recover ownership and genuine UI metadata before refill."
+    },
+    "5": {
+      "card": "리자드",
+      "status": "blocked_legacy_metadata",
+      "reason": "Preserve registered slots; recover ownership and genuine UI metadata before refill."
+    },
+    "6": {
+      "card": "리자몽",
+      "status": "blocked_legacy_metadata",
+      "reason": "Preserve registered slots; recover ownership and genuine UI metadata before refill."
+    },
+    "25": {
+      "card": "피카츄",
+      "status": "blocked_legacy_metadata",
+      "reason": "Preserve registered slots; recover ownership and genuine UI metadata before refill."
+    }
+  },
+  "external_holds": {
+    "340": {
+      "card": "메깅",
+      "session": "gpt-whiscash-corphish-20261022",
+      "file": "records/casual-reservations/gpt-whiscash-corphish-20261022.json",
+      "at": "2026-10-21T17:51:39-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "341": {
+      "card": "가재군",
+      "session": "gpt-whiscash-corphish-20261022",
+      "file": "records/casual-reservations/gpt-whiscash-corphish-20261022.json",
+      "at": "2026-10-21T17:51:39-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "342": {
+      "card": "가재장군",
+      "session": "crawdaunt-baltoy-20261022-c17c",
+      "file": "records/casual-reservations/crawdaunt-baltoy-20261022-c17c.json",
+      "at": "2026-10-21T21:28:34-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "343": {
+      "card": "오뚝군",
+      "session": "crawdaunt-baltoy-20261022-c17c",
+      "file": "records/casual-reservations/crawdaunt-baltoy-20261022-c17c.json",
+      "at": "2026-10-21T21:57:15-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "344": {
+      "card": "점토도리",
+      "session": "claydol-20261022-939a",
+      "file": "records/casual-reservations/claydol-20261022-939a.json",
+      "at": "2026-10-21T22:08:57-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "423": {
+      "card": "트리토돈",
+      "session": "gpt-gastrodon-ambipom-20261022",
+      "file": "records/casual-reservations/gpt-gastrodon-ambipom-20261022.json",
+      "at": "2026-10-21T18:07:22-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "424": {
+      "card": "겟핸보숭",
+      "session": "gpt-gastrodon-ambipom-20261022",
+      "file": "records/casual-reservations/gpt-gastrodon-ambipom-20261022.json",
+      "at": "2026-10-21T18:00:09-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "425": {
+      "card": "흔들풍손",
+      "session": "drifloon-drifblim-812f36",
+      "file": "records/casual-reservations/drifloon-drifblim-812f36.json",
+      "at": "2026-10-21T22:13:03-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "426": {
+      "card": "둥실라이드",
+      "session": "drifloon-drifblim-812f36",
+      "file": "records/casual-reservations/drifloon-drifblim-812f36.json",
+      "at": "2026-10-21T22:13:03-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "427": {
+      "card": "이어롤",
+      "session": "buneary-lopunny-1aa4e6",
+      "file": "records/casual-reservations/buneary-lopunny-1aa4e6.json",
+      "at": "2026-10-22T00:35:10-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "428": {
+      "card": "이어롭",
+      "session": "buneary-lopunny-1aa4e6",
+      "file": "records/casual-reservations/buneary-lopunny-1aa4e6.json",
+      "at": "2026-10-22T00:35:10-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "498": {
+      "card": "뚜꾸리",
+      "session": "tepig-pignite-20261022",
+      "file": "records/casual-reservations/tepig-pignite-20261022.json",
+      "at": "2026-10-22T00:56:31-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "499": {
+      "card": "차오꿀",
+      "session": "tepig-pignite-20261022",
+      "file": "records/casual-reservations/tepig-pignite-20261022.json",
+      "at": "2026-10-22T00:56:31-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "500": {
+      "card": "염무왕",
+      "session": "emboar-oshawott-20261022-18aa",
+      "file": "records/casual-reservations/emboar-oshawott-20261022-18aa.json",
+      "at": "2026-10-22T01:31:35-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "501": {
+      "card": "수댕이",
+      "session": "emboar-oshawott-20261022-18aa",
+      "file": "records/casual-reservations/emboar-oshawott-20261022-18aa.json",
+      "at": "2026-10-22T01:31:35-07:00",
+      "status": "external_reservation_do_not_take_over"
+    }
+  }
+}
