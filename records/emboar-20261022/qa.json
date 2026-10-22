@@ -1,0 +1,126 @@
+{
+ "card": "염무왕",
+ "size": "All 9 are 1024x1536",
+ "style": "glossy_promo selected in actual UI",
+ "canonical_comparison": {
+  "characters": [
+   "뚜꾸리",
+   "차오꿀",
+   "둥실라이드"
+  ],
+  "observed": "염무왕은 넓고 단단한 턱, 낮은 굵은 눈썹과 길게 좁아진 눈매. 뚜꾸리의 둥근 얼굴·큰 눈, 차오꿀의 짧은 코와 턱, 둥실라이드의 가는 턱·둥근 눈과 구별됨."
+ },
+ "forms": {
+  "light": "Red/black/gold fitted armor; long swept red-black hair. Head and both boots inside margins; one open glove and one curled glove, no extra digits visible.",
+  "heavy": "Same face and hair; layered pauldrons, chest, hips and shins; full body and separated glove digits.",
+  "mobility": "Same face and hair; narrow split fins sweeping backward, no wings or handheld weapon.",
+  "overdrive": "Each of three pairs preserves head, hand, feet and background placement; plate seams lift and reveal orange inner frame and glow."
+ },
+ "casuals": [
+  {
+   "cut": 1,
+   "identity": {
+    "match": true,
+    "evidence": "Long swept red-black hair, amber eyes and angular brows match canonical light."
+   },
+   "hands": {
+    "match": true,
+    "evidence": "Both hands pinch the two ends of the hip knot; thumbs and curled fingers form two separate hands."
+   },
+   "activity": {
+    "match": true,
+    "evidence": "She ties a gauzy white cover-up at her hip beside a cabana and water."
+   },
+   "outfit": {
+    "match": true,
+    "evidence": "Burgundy swimsuit side cutouts expose waist; bare shoulders and thighs below the cover-up."
+   },
+   "pose_orientation_expression": {
+    "match": false,
+    "evidence": "Hands remain at the hip knot instead of reaching upward; brows lift inward and eyes avert with a small blush."
+   },
+   "framing": {
+    "match": true,
+    "evidence": "Head through mid-thigh shown."
+   },
+   "text_people": {
+    "match": true,
+    "evidence": "Only one focused adult woman; bottles and deck furnishings have no readable lettering."
+   }
+  },
+  {
+   "cut": 2,
+   "identity": {
+    "match": true,
+    "evidence": "Same red-black hair and amber eyes."
+   },
+   "hands_legs": {
+    "match": true,
+    "evidence": "Two compact running fists, elbows bent separately; planted leg and lifted trailing leg connect from hips through knees to shoes."
+   },
+   "activity": {
+    "match": true,
+    "evidence": "Athletics lane, one foot lifted during a jogging warm-up."
+   },
+   "outfit": {
+    "match": true,
+    "evidence": "Red one-shoulder bra tank and fitted black leggings; shoulder, collarbones and waist visible."
+   },
+   "pose_orientation_expression": {
+    "match": false,
+    "evidence": "Torso upright with modest forward lean, eyes turned toward the side and lips slightly open rather than a distant half smile."
+   },
+   "framing": {
+    "match": true,
+    "evidence": "Complete head, both hands and both shoes inside image."
+   },
+   "text_people": {
+    "match": true,
+    "evidence": "No other people, no readable lettering; shoe decoration is a small flame motif."
+   }
+  },
+  {
+   "cut": 3,
+   "identity": {
+    "match": true,
+    "evidence": "Same long red-black hair and amber eyes with a surprised open mouth."
+   },
+   "hands": {
+    "match": true,
+    "evidence": "One hand grasps teapot handle, the other grips a wooden spoon; each has a thumb opposed to four curled fingers."
+   },
+   "activity": {
+    "match": true,
+    "evidence": "Red berry tea pours from a tilted glass teapot into a cup over a kitchen table with sliced fruit."
+   },
+   "outfit": {
+    "match": true,
+    "evidence": "Yellow off-shoulder blouse and black shorts reveal shoulders, collarbones, waist and upper thighs."
+   },
+   "pose_orientation_expression": {
+    "match": true,
+    "evidence": "Torso faces the camera while hands prepare the drink; raised eyebrows and open lips."
+   },
+   "framing": {
+    "match": false,
+    "evidence": "Frame includes hips and upper thighs beyond requested waist-up."
+   },
+   "text_people": {
+    "match": true,
+    "evidence": "No second figure or visible lettering on jars, cup or kitchen utensils."
+   }
+  }
+ ],
+ "diversity": {
+  "match": true,
+  "evidence": "Beach knot adjustment, full-body jogging, and indoor tea pouring differ in activity, clothing silhouette and framing. Compared against actual 뚜꾸리/차오꿀/둥실라이드 casual images; wasm nearest scores 275/274/252, all above duplicate threshold 215."
+ },
+ "blocked": [
+  {
+   "attempt": "Initial paired casual1 and casual3 invocation",
+   "error": "One image request returned moderation_blocked sexual; pair ended before either output persisted. Both original files absent.",
+   "action": "Changed casual1 category through planner to nonsexual swimwear lifestyle; re-reserved and generated. casual3 later generated from kitchen activity unchanged."
+  }
+ ],
+ "skipped": []
+}

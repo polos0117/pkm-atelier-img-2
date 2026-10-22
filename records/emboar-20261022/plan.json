@@ -1,0 +1,446 @@
+{
+ "session": "emboar-oshawott-20261022-18aa",
+ "planner": "tools/casual-plan.cjs",
+ "casual_plan": [
+  {
+   "cut": 1,
+   "cat": "swimwear",
+   "ex": "swim_coverup",
+   "garments": [
+    "swimsuit"
+   ],
+   "orient": "reaching_up",
+   "frame": "three_quarter",
+   "pose": "standing_relaxed",
+   "expr": "flustered",
+   "lens": "telephoto135",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "balanced",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "high-cut leg",
+    "side cutouts"
+   ],
+   "lead": "action",
+   "example_text": "Example scene: swimwear worn under an open gauzy cover-up, tied loosely at the hip",
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "Adjusting the tie of a cover-up beside a beach-club cabana after swimming, with late-afternoon sun crossing the deck.",
+     "reason": "Adds the action detail absent from swim_coverup without changing its activity."
+    },
+    {
+     "field": "outfit",
+     "content": "A burgundy high-cut swimsuit has side cutouts exposing her waist, with a light cover-up tied at the hips and bare thighs below it.",
+     "reason": "Expresses planned swimsuit with high-cut leg and side cutouts."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "Image tool has no separate size field."
+    }
+   ],
+   "axes_reasons": [
+    "Paused beach cover-up knot adjustment keeps action mostly posed.",
+    "Burgundy and black color echoes without armor suit balanced source influence.",
+    "One-piece swimsuit under cover-up is balanced instead of separates."
+   ]
+  },
+  {
+   "kept": true,
+   "cut": 2,
+   "cat": "active",
+   "ex": "warmup",
+   "expr": "nostalgic",
+   "pose": "small_jog",
+   "orient": "leaning_forward",
+   "frame": "full_body",
+   "lens": "natural50",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "strong",
+    "separates_preference": "prefer separates"
+   },
+   "garments": [
+    "leggings",
+    "tank"
+   ],
+   "expose": [
+    "one-shoulder cut",
+    "open back"
+   ],
+   "lead": "action",
+   "example_text": "Example scene: warming up before training in a sports bra and leggings, swinging her arms and stretching her legs",
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "Warming up with short jogging steps along an outdoor athletics lane before a morning training session.",
+     "reason": "Adds the action detail absent from warmup without changing its activity."
+    },
+    {
+     "field": "outfit",
+     "content": "A red one-shoulder open-back athletic bra tank and black fitted leggings expose one shoulder and the upper back; a small gold flame tab finishes the hem.",
+     "reason": "Expresses planned leggings+tank with one-shoulder cut and open back."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "Image tool has no separate size field."
+    }
+   ],
+   "axes_reasons": [
+    "Jogging strides require mostly active movement.",
+    "Red-black sportswear with gold flame markings retains strong source influence.",
+    "Bra tank and leggings are two garments."
+   ]
+  },
+  {
+   "kept": true,
+   "cut": 3,
+   "cat": "food_berries",
+   "ex": "food_tea",
+   "expr": "surprised",
+   "pose": "preparing_food",
+   "orient": "front",
+   "frame": "waist_up",
+   "lens": "documentary35",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "balanced",
+    "separates_preference": "prefer separates"
+   },
+   "garments": [
+    "blouse",
+    "shorts"
+   ],
+   "expose": [
+    "mini length",
+    "off-shoulder neckline"
+   ],
+   "lead": "light",
+   "example_text": "Example scene: Pouring warm berry tea into a cup at a small kitchen table with a teapot and sliced fruit.",
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "Early sunlight catches steam above the small kitchen table and the cut surfaces of ripe berries.",
+     "reason": "Adds the light detail absent from food_tea without changing its activity."
+    },
+    {
+     "field": "outfit",
+     "content": "A soft yellow off-shoulder blouse and black mini shorts leave her shoulders, collarbones and legs bare.",
+     "reason": "Expresses planned blouse+shorts with mini length and off-shoulder neckline."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "Image tool has no separate size field."
+    }
+   ],
+   "axes_reasons": [
+    "Pouring hot tea is a small ongoing movement, balanced action.",
+    "Yellow and black color echo rather than armor makes source balanced.",
+    "Blouse and shorts are separate pieces."
+   ]
+  }
+ ],
+ "batch_plan": {
+  "session": "emboar-oshawott-20261022-18aa",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "염무왕",
+    "species": "emboar-20261022",
+    "cuts": [
+     {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "swim_coverup",
+      "garments": [
+       "swimsuit"
+      ],
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "pose": "standing_relaxed",
+      "expr": "flustered",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "high-cut leg",
+       "side cutouts"
+      ],
+      "lead": "action",
+      "example_text": "Example scene: swimwear worn under an open gauzy cover-up, tied loosely at the hip",
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "content": "Adjusting the tie of a cover-up beside a beach-club cabana after swimming, with late-afternoon sun crossing the deck.",
+        "reason": "Adds the action detail absent from swim_coverup without changing its activity."
+       },
+       {
+        "field": "outfit",
+        "content": "A burgundy high-cut swimsuit has side cutouts exposing her waist, with a light cover-up tied at the hips and bare thighs below it.",
+        "reason": "Expresses planned swimsuit with high-cut leg and side cutouts."
+       },
+       {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no separate size field."
+       }
+      ]
+     },
+     {
+      "kept": true,
+      "cut": 2,
+      "cat": "active",
+      "ex": "warmup",
+      "expr": "nostalgic",
+      "pose": "small_jog",
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "garments": [
+       "leggings",
+       "tank"
+      ],
+      "expose": [
+       "one-shoulder cut",
+       "open back"
+      ],
+      "lead": "action",
+      "example_text": "Example scene: warming up before training in a sports bra and leggings, swinging her arms and stretching her legs",
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "content": "Warming up with short jogging steps along an outdoor athletics lane before a morning training session.",
+        "reason": "Adds the action detail absent from warmup without changing its activity."
+       },
+       {
+        "field": "outfit",
+        "content": "A red one-shoulder open-back athletic bra tank and black fitted leggings expose one shoulder and the upper back; a small gold flame tab finishes the hem.",
+        "reason": "Expresses planned leggings+tank with one-shoulder cut and open back."
+       },
+       {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no separate size field."
+       }
+      ]
+     },
+     {
+      "kept": true,
+      "cut": 3,
+      "cat": "food_berries",
+      "ex": "food_tea",
+      "expr": "surprised",
+      "pose": "preparing_food",
+      "orient": "front",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "garments": [
+       "blouse",
+       "shorts"
+      ],
+      "expose": [
+       "mini length",
+       "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "Example scene: Pouring warm berry tea into a cup at a small kitchen table with a teapot and sliced fruit.",
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "content": "Early sunlight catches steam above the small kitchen table and the cut surfaces of ripe berries.",
+        "reason": "Adds the light detail absent from food_tea without changing its activity."
+       },
+       {
+        "field": "outfit",
+        "content": "A soft yellow off-shoulder blouse and black mini shorts leave her shoulders, collarbones and legs bare.",
+        "reason": "Expresses planned blouse+shorts with mini length and off-shoulder neckline."
+       },
+       {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no separate size field."
+       }
+      ]
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       1
+      ],
+      "two": false,
+      "prev": [
+       2,
+       3
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_sensual",
+      "partner_care",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "active",
+      "homewear",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [],
+     "orient": [
+      "reaching_up"
+     ],
+     "frame": []
+    }
+   },
+   {
+    "card": "수댕이",
+    "species": "oshawott-20261022",
+    "cuts": [
+     {
+      "kept": true,
+      "cut": 1,
+      "cat": "homewear",
+      "ex": "floor_cushion",
+      "expr": "cold_smile",
+      "pose": "waving",
+      "orient": "over_shoulder",
+      "frame": "environmental",
+      "lens": "portrait85",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "robe"
+      ],
+      "expose": [
+       "strapless top",
+       "high thigh slit"
+      ],
+      "lead": "action"
+     },
+     {
+      "kept": true,
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "longline_bra",
+      "expr": "serious",
+      "pose": "dance_step",
+      "orient": "front_3q",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "slip"
+      ],
+      "expose": [
+       "one-shoulder cut",
+       "plunging neckline"
+      ],
+      "lead": "place"
+     },
+     {
+      "kept": true,
+      "cut": 3,
+      "cat": "everyday_sensual",
+      "ex": "fridge_light",
+      "expr": "smug",
+      "pose": "standing_formal",
+      "orient": "looking_down",
+      "frame": "three_quarter",
+      "lens": "wide24",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "jumpsuit"
+      ],
+      "expose": [
+       "open back",
+       "halter neck"
+      ],
+      "lead": "detail"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [],
+      "two": false,
+      "prev": [
+       1
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_sensual",
+      "partner_care",
+      "travel_exploration",
+      "festivals_contests",
+      "hobbies_leisure",
+      "homewear",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [],
+     "orient": [],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "check": "Passed tools/casual-ledger.py check before generation",
+ "reservation_commit": "83fd58dc9f53d3da96a98068c8af0597e434497d"
+}
