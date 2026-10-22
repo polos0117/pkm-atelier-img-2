@@ -1,0 +1,192 @@
+[
+  {
+    "slot": "light",
+    "file": "릴리요_light_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/346/light/original.png",
+      "sha256": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+    },
+    "sha256": "f2f7e3753895fb565b594f962a4de59af576fdf37fd195b9d72cd6e5abbaa0c1",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {},
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "heavy",
+    "file": "릴리요_heavy_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/346/heavy/original.png",
+      "sha256": "f8534bd397115034a2697044c2c1926f9169458725530a817cb1fb0cfb61bbfe"
+    },
+    "sha256": "1d8c534a5aefffcddc71d4214011b2b8cd4270478c9e8168e810b2e2ad4fdfb0",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+    },
+    "acceptance_basis": "user_exception",
+    "exception": {
+      "path": "records/automation/runs/2026-10-22-1/346/heavy/user-exception.json",
+      "sha256": "35d9cd1baac77dda3cbb4db42184576b91fe61a52ac59ae2baddaf6c45be75b9"
+    }
+  },
+  {
+    "slot": "mobility",
+    "file": "릴리요_mobility_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/346/mobility/original.png",
+      "sha256": "80019e86ae46547ecfe35a370a497de1bcf1c36132b5141cf71364509e97260c"
+    },
+    "sha256": "f94ae475c85c5df7816f8edd228e60767af632d40b1ca3bcfb25de7b24a56f70",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "light_overdrive",
+    "file": "릴리요_light_overdrive_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/346/light_overdrive/original.png",
+      "sha256": "061a9c6969d551cb51cef07dbe6d7dddf024727add36f499d8bfe2d48c9fbe34"
+    },
+    "sha256": "124c89a8b06c9cda41e00b8e7fcf89648cb14b4872e9d376bc2d750fe3b70ea9",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "heavy_overdrive",
+    "file": "릴리요_heavy_overdrive_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/346/heavy_overdrive/original.png",
+      "sha256": "f09abad5cbf800b9ce261d8ae965b17d218b8b82346fd5afabbcd18048b03e01"
+    },
+    "sha256": "9553bb4987a5aee51d04c9827c790b38a8673c8054edd162c08adeb345dcf71d",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "heavy": "f8534bd397115034a2697044c2c1926f9169458725530a817cb1fb0cfb61bbfe"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "mobility_overdrive",
+    "file": "릴리요_mobility_overdrive_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/346/mobility_overdrive/original.png",
+      "sha256": "6aeb4725109a2fff78a74c2c017d4e869ebd5132835d541e1c55e6bbe69de5c8"
+    },
+    "sha256": "6e9ca3de4ad50c2ecf7a766d59fdf201028fde0fc1ac283acc0bfc88f0420821",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "mobility": "80019e86ae46547ecfe35a370a497de1bcf1c36132b5141cf71364509e97260c"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "casual1",
+    "file": "릴리요_glossy_promo_f_casual1.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/346/casual1/original.png",
+      "sha256": "3cb3424d3f1edeac265a51f2adb2c037a9c7f32baeb897f62d42f4dff5f58ad5"
+    },
+    "sha256": "cf25f6a78aa58898ab2fd9302ceecd26e355b80b024e90bfbc98296213df9f52",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "casual2",
+    "file": "릴리요_glossy_promo_f_casual2.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/346/casual2/original.png",
+      "sha256": "670d4876aaa2e94024609c57589d08e9501e6a671a9b3678298ced3f275cbd15"
+    },
+    "sha256": "578d32709468a6f2e5eb35691775ba9b5c5fa849aee27f54346a00c5e234cef4",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "casual3",
+    "file": "릴리요_glossy_promo_f_casual3.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/346/casual3/attempts/2/original.png",
+      "sha256": "955b88868b9cbc6a7a1c15ad241b910b21924ed4715f366a761bdd30abe7f1de"
+    },
+    "sha256": "5df963010fe638bfce7b4e0cb68cc7c62ab69855c79439f66a35b0c102a12c78",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  }
+]

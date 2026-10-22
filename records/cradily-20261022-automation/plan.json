@@ -1,0 +1,406 @@
+{
+  "session": "image-runner-2026-10-22-1-346",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "릴리요",
+      "species": "cradily-20261022",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "private_evening",
+          "ex": "penthouse_window",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "front",
+          "frame": "three_quarter",
+          "pose": "leaning_furniture",
+          "expr": "calm",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "mini length"
+          ],
+          "lead": "place",
+          "kept": true
+        },
+        {
+          "cut": 2,
+          "cat": "everyday_basic",
+          "ex": "cafe_takeout",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "leaning_forward",
+          "frame": "chest_up",
+          "pose": "holding_cup",
+          "expr": "curious",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "strapless top",
+            "plunging neckline"
+          ],
+          "lead": "detail",
+          "kept": true
+        },
+        {
+          "cut": 3,
+          "cat": "adult_roleplay",
+          "ex": "__custom__",
+          "garments": [
+            "shirt",
+            "trousers"
+          ],
+          "orient": "side",
+          "frame": "waist_up",
+          "pose": "standing_formal",
+          "expr": "focused",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "restrained",
+            "skin_exposure": "low",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jumpsuit"
+        ],
+        "orient": [
+          "front",
+          "leaning_forward",
+          "side"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "user_directed_exception": {
+    "scope": "346 casual3 attempt2 only",
+    "changes": [
+      "Replace high-cut monokini/cutouts with opaque long-sleeved collared shirt, waistcoat and full-length trousers",
+      "Replace bent-forward pose with upright card sorting at table, neutral eye-level camera",
+      "strong/bold fixed settings changed to restrained/low by explicit user direction"
+    ],
+    "preserved": "retro stage theme, rabbit-ear headband, bow tie, cuffs, ruby curtain, card props; existing 8 results unchanged",
+    "approval": "User approved substantively nonsexual alternative: 그래 진행해줘"
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "private_evening",
+      "ex": "penthouse_window",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "front",
+      "frame": "three_quarter",
+      "pose": "leaning_furniture",
+      "expr": "calm",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "mini length"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: at a penthouse window in an elegant evening outfit, resting while looking at the city lights",
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "custom_inputs": {
+        "scene": "A penthouse window overlooks rain-polished city lights, with a low velvet chaise beside the glass and a quiet amber table lamp.",
+        "outfit": "An elegant charcoal satin short jumpsuit, with mini-length legs and high thigh slits exposing the outer thighs; tiny green and gold seams subtly echo her colors.",
+        "reason": "Example gives place and rest activity but no garment type or furnishings; the planned jumpsuit and chaise supply those missing details.",
+        "axes_reason": "Quiet rest supports balanced action; small colored seams implement subtle source influence; one-piece tailoring suits balanced separates."
+      },
+      "camera_reason": "Tool has no size field; required 1024x1536 via camera UI."
+    },
+    {
+      "cut": 2,
+      "cat": "everyday_basic",
+      "ex": "cafe_takeout",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "leaning_forward",
+      "frame": "chest_up",
+      "pose": "holding_cup",
+      "expr": "curious",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "plunging neckline"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: at a café counter in a casual outfit, picking up a takeout cup and fixing the lid",
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "custom_inputs": {
+        "scene": "A plain takeaway cup and fitted lid sit at the pale marble cafe counter; morning sunlight catches rising steam beside the espresso machine.",
+        "outfit": "A casual soft cotton jumpsuit with a strapless top and plunging neckline exposing shoulders, collarbones and upper chest; muted sage fabric with a tiny gold seam.",
+        "reason": "Example gives cafe pickup and fixing lid but leaves garments unspecified; jumpsuit follows the plan without changing the activity.",
+        "axes_reason": "Handling the cup supports balanced action; muted color accents support subtle source influence; one-piece casual clothing supports balanced separates."
+      },
+      "camera_reason": "Tool has no size field; required 1024x1536 via camera UI."
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "__custom__",
+      "garments": [
+        "shirt",
+        "trousers"
+      ],
+      "orient": "side",
+      "frame": "waist_up",
+      "pose": "standing_formal",
+      "expr": "focused",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "restrained",
+        "skin_exposure": "low",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [],
+      "lead": "action",
+      "example_text": "CUSTOM: actual scene/outfit UI fields",
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "custom_inputs": {
+        "scene": "She stands upright beside a waist-high prop table on a retro theatre stage, sorting a fan of oversized blank playing cards into a wooden box. A ruby curtain and a brass spotlight frame the rehearsal setting. Her attention is on the cards.",
+        "outfit": "A fully covered adult stage performer costume: opaque white long-sleeved collared shirt buttoned to the neck, a comfortably tailored green waistcoat with gold piping, full-length charcoal trousers and flat shoes. Retain a small rabbit-ear headband, bow tie and separate decorative cuffs; a small pink ribbon on the waistcoat. No cutouts, transparent fabric, lingerie or exposed torso or upper thighs. Natural unaccentuated body proportions.",
+        "reason": "Explicit user-approved substantive nonsexual alternative retains retro bunny-themed stage accessories and cards while replacing revealing garment and bent-forward pose. Custom example selected because preset specifies a fitted one-piece garment.",
+        "axes_reason": "User directs restrained intensity and low exposure for this one cut; balanced activity, green-gold-pink costume accents and separate shirt/trousers maintain the remaining chosen axes."
+      },
+      "camera_reason": "Tool has no size field; required 1024x1536 via camera UI."
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed before each intent; three-image casual-look passed",
+  "replanning": [
+    "Before casual generation, incompatible one_shoulder_satin/station_wait/simple_cooking/adult_maid examples excluded; original final plan preserved separately.",
+    "casual3 original tool rejection has no image; explicit user-approved nonsexual replan preserved with approval and terminal tool response. UI intensity restrained and exposure low; full coverage, upright stage card sorting. Original eight images unchanged."
+  ]
+}

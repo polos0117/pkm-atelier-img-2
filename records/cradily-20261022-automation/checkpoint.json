@@ -1,0 +1,49 @@
+{
+  "card": "릴리요",
+  "canonical": {
+    "path": "records/automation/runs/2026-10-22-1/346/light/original.png",
+    "sha256": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+  },
+  "run": "2026-10-22-1",
+  "accepted_slots": 9,
+  "qa_passed": 8,
+  "user_exception": {
+    "path": "records/automation/runs/2026-10-22-1/346/heavy/user-exception.json",
+    "sha256": "35d9cd1baac77dda3cbb4db42184576b91fe61a52ac59ae2baddaf6c45be75b9"
+  },
+  "prior_attempts_preserved": [
+    {
+      "status": "tool_rejected_no_output",
+      "at": "2026-10-22T11:41:44+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-22-1/346/casual3/prompt.txt",
+        "sha256": "75b23ea4626be791f7d8a39bb829a73ee79416737f747b922ac9204e6cb33c85"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-22-1/346/casual3/ui.json",
+        "sha256": "9a4361fffaa331f80092e9ac293f47ed90779e0645ee3001a5b66d26e770d311"
+      },
+      "references": {
+        "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+      },
+      "slot": "casual3",
+      "rejection_reason": "casual3 image_gen returned HTTP 400 moderation_blocked at output stage, category sexual; request ID 932fa32c-805b-4e52-8e47-ef3618f432d0. No result file returned. No retry performed. casual3 intent and original prompt/UI preserved; 8/9 slots accepted including heavy user exception.",
+      "tool_failure": {
+        "path": "records/automation/runs/2026-10-22-1/346/casual3/tool-failure.json",
+        "sha256": "35d6ea5f362eb05337b82564a513589d558dc949622d7d5e43cdea5315c46ab5"
+      }
+    }
+  ],
+  "group_qa": {
+    "reviewer": "gpt",
+    "image_sha256": "955b88868b9cbc6a7a1c15ad241b910b21924ed4715f366a761bdd30abe7f1de",
+    "accepted": true,
+    "observations": [
+      "Same adult face, green/gold eyes and twin braids as canonical light. One figure, coherent card-sorting hands, blank cards without text.",
+      "Opaque neck-buttoned shirt, waistcoat and long trousers cover torso and legs. Upright neutral rehearsal action retains rabbit-ear headband, bow tie, cuffs, ruby curtain and spotlight. No lingerie or sexualized activity.",
+      "Frame extends below waist; upper rabbit-ear tip cropped but human head and face intact. Minor framing/accessory-crop variance in casual scene, not a changed activity or clothing kind."
+    ],
+    "diversity_comparison": "Own casual1 dark penthouse rest and casual2 sage cafe cup action contrast with white sleeves/green waistcoat, upright side card sorting and red stage. Compared Lileep swim/cedar drawer/cinema, Samurott barn/museum/party: distinct prop action, tailoring and set. Group casual-look check passes. Latest Buneary actual three images also inspected: station map/pastry, library glasses, terrace photo sorting. Stage card sorting has some flat-prop overlap with photographs but distinct upright side pose, fully covered tailored outfit, red curtain and box activity; not a near duplicate.",
+    "user_directed_settings_exception": "This cut only uses restrained/low and fully covered stage outfit per explicit user-approved nonsexual alternative; original rejected intent is preserved."
+  }
+}
