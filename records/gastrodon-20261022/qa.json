@@ -1,0 +1,54 @@
+{
+  "card": "트리토돈",
+  "generated": 9,
+  "requested": 9,
+  "style": "glossy_promo",
+  "tool": "built-in image_gen",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "battle": {
+    "light": "One adult human woman, readable fitted thin armor, both hands and feet visible.",
+    "heavy": "Same anchor face/hair/body; broad stacked plates visibly enlarge the armor outline.",
+    "mobility": "Same anchor face/hair/body; swept panels and compact thrusters give an open outline.",
+    "overdrive": "Each closed form used directly as reference; camera, body pose and scale retained. Hinged seams open around the original plates. No held weapon, new character or new helmet."
+  },
+  "casual": [
+    {
+      "cut": 1,
+      "accepted": true,
+      "observed": "Cream single-shoulder blazer and charcoal pencil skirt at a decorated office-party board; both arms lift toward a paper rosette. Long dark locs, pink braids and mauve eyes match the light anchor. Framing extends to thighs rather than the selected chest-up crop; pose and crop variation retained under rule 6."
+    },
+    {
+      "cut": 2,
+      "accepted": true,
+      "observed": "Coral short overalls; leaning over an open travel suitcase with a folded scarf, laughing with near-closed eyes. Both hands are attached naturally; open suitcase makes packing readable. Paused packing replaces the planned jogging step; retained as pose variation."
+    },
+    {
+      "cut": 3,
+      "accepted": true,
+      "observed": "Plum bikini, open cream cover-up, iced red drink and closed book at a sunlit cabana. Crossed legs remain separate and both feet are visible. Glass-holding and straw-touching hands are separate; no duplicated arm."
+    }
+  ],
+  "diversity": {
+    "compared": [
+      "깝질무",
+      "미꾸리",
+      "샤로다",
+      "트리토돈",
+      "겟핸보숭"
+    ],
+    "observed": "Office-party decoration, luggage packing, cabana drink, field-guide reading, trail-map research and costume preparation have distinct activities and clothing silhouettes. Existing breakfast, record-store, pool-stair, pond drink, evening bar, plant-watering and swim-cap images were compared visually. The new three-image sets do not reuse one fixed stance or crop sequence."
+  },
+  "blocked": [
+    {
+      "cut": 1,
+      "scene": "lingerie/back_strap, apartment curtain",
+      "attempts": 1,
+      "reason": "image tool output safety moderation",
+      "replacement": "adult_roleplay/adult_secretary"
+    }
+  ],
+  "skipped": []
+}
