@@ -1,0 +1,246 @@
+{
+ "session": "tepig-pignite-20261022",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "뚜꾸리",
+   "species": "tepig-20261022",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "cat": "traditional",
+     "ex": "salwar_daily",
+     "expr": "laughing",
+     "pose": "hands_in_hair",
+     "orient": "side",
+     "frame": "chest_up",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "traditional"
+     ],
+     "expose": [
+      "high thigh slit",
+      "side cutouts"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "adult_roleplay",
+     "ex": "adult_teacher",
+     "garments": [
+      "jacket",
+      "skirt"
+     ],
+     "orient": "looking_away",
+     "frame": "three_quarter",
+     "pose": "reading_book",
+     "expr": "provocative",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "strapless top",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "poolside_bar",
+     "garments": [
+      "bikini"
+     ],
+     "orient": "seated_twist",
+     "frame": "environmental",
+     "pose": "side_sitting",
+     "expr": "sensual",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "bare midriff"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2,
+      3
+     ],
+     "two": true,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "homewear",
+     "private_evening",
+     "traditional"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "jacket",
+     "bikini"
+    ],
+    "orient": [
+     "looking_away",
+     "seated_twist"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "차오꿀",
+   "species": "pignite-20261022",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "cat": "everyday_basic",
+     "ex": "parcel_pickup",
+     "expr": "laughing_open",
+     "pose": "on_tiptoe",
+     "orient": "low_angle",
+     "frame": "waist_up",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "overalls"
+     ],
+     "expose": [
+      "cropped hem",
+      "halter neck"
+     ],
+     "lead": "action"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": "private_evening",
+     "ex": "after_party",
+     "expr": "soft_smile",
+     "pose": "contrapposto",
+     "orient": "three_quarter_back",
+     "frame": "full_body",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "slip"
+     ],
+     "expose": [
+      "plunging neckline",
+      "high thigh slit"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "adult_roleplay",
+     "ex": "uniform_inspired",
+     "garments": [
+      "uniform"
+     ],
+     "orient": "turning_midmotion",
+     "frame": "chest_up",
+     "pose": "turning_back",
+     "expr": "mischievous",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "mini length",
+      "halter neck"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2,
+      3
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "homewear",
+     "private_evening"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "uniform"
+    ],
+    "orient": [
+     "turning_midmotion"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

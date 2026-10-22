@@ -1,0 +1,473 @@
+{
+ "batch": {
+  "session": "tepig-pignite-20261022",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "뚜꾸리",
+    "species": "tepig-20261022",
+    "cuts": [
+     {
+      "kept": true,
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "salwar_daily",
+      "expr": "laughing",
+      "pose": "hands_in_hair",
+      "orient": "side",
+      "frame": "chest_up",
+      "lens": "wide24",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "traditional"
+      ],
+      "expose": [
+       "high thigh slit",
+       "side cutouts"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "adult_teacher",
+      "garments": [
+       "jacket",
+       "skirt"
+      ],
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "pose": "reading_book",
+      "expr": "provocative",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "strapless top",
+       "off-shoulder neckline"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "poolside_bar",
+      "garments": [
+       "bikini"
+      ],
+      "orient": "seated_twist",
+      "frame": "environmental",
+      "pose": "side_sitting",
+      "expr": "sensual",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "plunging neckline",
+       "bare midriff"
+      ],
+      "lead": "action"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       2,
+       3
+      ],
+      "two": true,
+      "prev": [
+       1
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_basic",
+      "everyday_sensual",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "active",
+      "homewear",
+      "private_evening",
+      "traditional"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "jacket",
+      "bikini"
+     ],
+     "orient": [
+      "looking_away",
+      "seated_twist"
+     ],
+     "frame": []
+    }
+   },
+   {
+    "card": "차오꿀",
+    "species": "pignite-20261022",
+    "cuts": [
+     {
+      "kept": true,
+      "cut": 1,
+      "cat": "everyday_basic",
+      "ex": "parcel_pickup",
+      "expr": "laughing_open",
+      "pose": "on_tiptoe",
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "overalls"
+      ],
+      "expose": [
+       "cropped hem",
+       "halter neck"
+      ],
+      "lead": "action"
+     },
+     {
+      "kept": true,
+      "cut": 2,
+      "cat": "private_evening",
+      "ex": "after_party",
+      "expr": "soft_smile",
+      "pose": "contrapposto",
+      "orient": "three_quarter_back",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "slip"
+      ],
+      "expose": [
+       "plunging neckline",
+       "high thigh slit"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "uniform_inspired",
+      "garments": [
+       "uniform"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "chest_up",
+      "pose": "turning_back",
+      "expr": "mischievous",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "mini length",
+       "halter neck"
+      ],
+      "lead": "action"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       3
+      ],
+      "two": false,
+      "prev": [
+       2,
+       3
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_basic",
+      "everyday_sensual",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "active",
+      "homewear",
+      "private_evening"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "uniform"
+     ],
+     "orient": [
+      "turning_midmotion"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "casual_plan": [
+  {
+   "kept": true,
+   "cut": 1,
+   "cat": "traditional",
+   "ex": "salwar_daily",
+   "expr": "laughing",
+   "pose": "hands_in_hair",
+   "orient": "side",
+   "frame": "chest_up",
+   "lens": "wide24",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "subtle",
+    "separates_preference": "balanced"
+   },
+   "garments": [
+    "traditional"
+   ],
+   "expose": [
+    "high thigh slit",
+    "side cutouts"
+   ],
+   "lead": "place",
+   "scene": "A sandstone courtyard beside a fabric stall in late-morning sunlight; she tests a simple brass hair clip before continuing her errands.",
+   "outfit": "A saffron salwar kameez with high side slits and waist cutouts, its sleeveless kameez worn over light ivory salwar trousers.",
+   "example_text": "a daily salwar kameez — a long tunic with side slits over loose salwar trousers and a light dupatta",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "axes.overall_intensity",
+    "axes.skin_exposure",
+    "axes.action_level",
+    "axes.source_influence",
+    "axes.separates_preference"
+   ],
+   "randomization": {
+    "source": "tools/casual-plan.cjs",
+    "manual_selection_changes": false
+   },
+   "axes_reason": {
+    "action_level": "A sandstone courtyard beside a fabric stall in late-morning sunlight; she tests a simple brass hair clip before continuing her errands. — 멈춤/손동작/이동을 계획기 선택과 대조했다.",
+    "source_influence": "A saffron salwar kameez with high side slits and waist cutouts, its sleeveless kameez worn over light ivory salwar trousers. — 일상 의상의 색과 작은 모티프로만 원작 연결을 유지한다.",
+    "separates_preference": "traditional의 실제 한 벌/상하의 구조를 따른다."
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "value": "A sandstone courtyard beside a fabric stall in late-morning sunlight; she tests a simple brass hair clip before continuing her errands.",
+     "reason": "a daily salwar kameez — a long tunic with side slits over loose salwar trousers and a light dupatta 예시에 없는 이 장면의 장소 세부·소품·활동: A sandstone courtyard beside a fabric stall in late-morning sunlight; she tests a simple brass hair clip before continuing her errands."
+    },
+    {
+     "field": "outfit",
+     "value": "A saffron salwar kameez with high side slits and waist cutouts, its sleeveless kameez worn over light ivory salwar trousers.",
+     "reason": "traditional와 high thigh slit, side cutouts를 이 컷의 색·재질로 구현: A saffron salwar kameez with high side slits and waist cutouts, its sleeveless kameez worn over light ivory salwar trousers."
+    },
+    {
+     "field": "camera",
+     "value": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 인수가 없어 규칙의 비율 안내문을 카메라 칸에 넣음"
+    }
+   ]
+  },
+  {
+   "cut": 2,
+   "cat": "adult_roleplay",
+   "ex": "adult_teacher",
+   "garments": [
+    "jacket",
+    "skirt"
+   ],
+   "orient": "looking_away",
+   "frame": "three_quarter",
+   "pose": "reading_book",
+   "expr": "provocative",
+   "lens": "wide24",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "subtle",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "strapless top",
+    "off-shoulder neckline"
+   ],
+   "lead": "detail",
+   "scene": "A stack of lesson cue cards rests on the desk under warm rehearsal lights; she reviews the prop book before an adult costume event.",
+   "outfit": "An ochre fitted blazer with an off-shoulder neckline, a strapless inset and a dark-brown pleated miniskirt; reading glasses complete the teacher costume.",
+   "example_text": "a teacher-inspired costume look with a fitted blazer, pleated skirt, reading glasses, and books",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "axes.overall_intensity",
+    "axes.skin_exposure",
+    "axes.action_level",
+    "axes.source_influence",
+    "axes.separates_preference"
+   ],
+   "randomization": {
+    "source": "tools/casual-plan.cjs",
+    "manual_selection_changes": false
+   },
+   "axes_reason": {
+    "action_level": "A stack of lesson cue cards rests on the desk under warm rehearsal lights; she reviews the prop book before an adult costume event. — 멈춤/손동작/이동을 계획기 선택과 대조했다.",
+    "source_influence": "An ochre fitted blazer with an off-shoulder neckline, a strapless inset and a dark-brown pleated miniskirt; reading glasses complete the teacher costume. — 일상 의상의 색과 작은 모티프로만 원작 연결을 유지한다.",
+    "separates_preference": "jacket+skirt의 실제 한 벌/상하의 구조를 따른다."
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "value": "A stack of lesson cue cards rests on the desk under warm rehearsal lights; she reviews the prop book before an adult costume event.",
+     "reason": "a teacher-inspired costume look with a fitted blazer, pleated skirt, reading glasses, and books 예시에 없는 이 장면의 장소 세부·소품·활동: A stack of lesson cue cards rests on the desk under warm rehearsal lights; she reviews the prop book before an adult costume event."
+    },
+    {
+     "field": "outfit",
+     "value": "An ochre fitted blazer with an off-shoulder neckline, a strapless inset and a dark-brown pleated miniskirt; reading glasses complete the teacher costume.",
+     "reason": "jacket+skirt와 strapless top, off-shoulder neckline를 이 컷의 색·재질로 구현: An ochre fitted blazer with an off-shoulder neckline, a strapless inset and a dark-brown pleated miniskirt; reading glasses complete the teacher costume."
+    },
+    {
+     "field": "camera",
+     "value": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 인수가 없어 규칙의 비율 안내문을 카메라 칸에 넣음"
+    }
+   ]
+  },
+  {
+   "cut": 3,
+   "cat": "swimwear",
+   "ex": "poolside_bar",
+   "garments": [
+    "bikini"
+   ],
+   "orient": "seated_twist",
+   "frame": "environmental",
+   "pose": "side_sitting",
+   "expr": "sensual",
+   "lens": "telephoto135",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "balanced",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "plunging neckline",
+    "bare midriff"
+   ],
+   "lead": "action",
+   "scene": "Orders a chilled citrus drink at a turquoise-tiled pool bar; afternoon umbrellas cast rippled shadows over the counter.",
+   "outfit": "A yellow-and-brown halter bikini with a low V neckline and matching bottoms, her shoulders and midriff bare.",
+   "example_text": "in swimwear at a poolside bar, a cold drink on the counter",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "axes.overall_intensity",
+    "axes.skin_exposure",
+    "axes.action_level",
+    "axes.source_influence",
+    "axes.separates_preference"
+   ],
+   "randomization": {
+    "source": "tools/casual-plan.cjs",
+    "manual_selection_changes": false
+   },
+   "axes_reason": {
+    "action_level": "Orders a chilled citrus drink at a turquoise-tiled pool bar; afternoon umbrellas cast rippled shadows over the counter. — 멈춤/손동작/이동을 계획기 선택과 대조했다.",
+    "source_influence": "A yellow-and-brown halter bikini with a low V neckline and matching bottoms, her shoulders and midriff bare. — 일상 의상의 색과 작은 모티프로만 원작 연결을 유지한다.",
+    "separates_preference": "bikini의 실제 한 벌/상하의 구조를 따른다."
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "value": "Orders a chilled citrus drink at a turquoise-tiled pool bar; afternoon umbrellas cast rippled shadows over the counter.",
+     "reason": "in swimwear at a poolside bar, a cold drink on the counter 예시에 없는 이 장면의 장소 세부·소품·활동: Orders a chilled citrus drink at a turquoise-tiled pool bar; afternoon umbrellas cast rippled shadows over the counter."
+    },
+    {
+     "field": "outfit",
+     "value": "A yellow-and-brown halter bikini with a low V neckline and matching bottoms, her shoulders and midriff bare.",
+     "reason": "bikini와 plunging neckline, bare midriff를 이 컷의 색·재질로 구현: A yellow-and-brown halter bikini with a low V neckline and matching bottoms, her shoulders and midriff bare."
+    },
+    {
+     "field": "camera",
+     "value": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 인수가 없어 규칙의 비율 안내문을 카메라 칸에 넣음"
+    }
+   ]
+  }
+ ],
+ "planner": "tools/casual-plan.cjs",
+ "generator": "Actual deployed UI selected, prompt length and FNV-1a matched.",
+ "reservation_commit": "5e824edc842b9f90e71d117cee620db1e9522625",
+ "check": "Batch passed before reservation and image generation.",
+ "regenerations": [
+  {
+   "cut": 2,
+   "old": "lingerie/back_strap",
+   "reason": "Image tool rejected output; no image returned. Switched to adult costume scene."
+  }
+ ],
+ "built_in_imagegen": true
+}
