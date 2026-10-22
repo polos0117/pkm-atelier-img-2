@@ -1,0 +1,378 @@
+{
+  "session": "anorith-armaldo-edadb7",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "아노딥스",
+      "species": "anorith-20261022",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "festivals_contests",
+          "ex": "fest_cheering",
+          "expr": "laughing_open",
+          "pose": "standing_relaxed",
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "knit_top",
+            "shorts"
+          ],
+          "expose": [
+            "side cutouts",
+            "bare midriff"
+          ],
+          "lead": "place",
+          "scene": "An open-air tournament arena has curved spectator rows and a pennant tucked into the small bag beside her, in late afternoon light.",
+          "outfit": "A red cropped rib-knit top with curved side cutouts and white tailored shorts; the cutouts and short hem reveal her waist and upper thighs.",
+          "example_text": "Clapping from a Pokémon tournament spectator seat, with a small pennant resting on a bag.",
+          "locked": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "randomization": {
+            "planner": "tools/casual-plan.cjs",
+            "session": "anorith-armaldo-edadb7",
+            "selection_changes_by_hand": false
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "An open-air tournament arena has curved spectator rows and a pennant tucked into the small bag beside her, in late afternoon light.",
+              "reason": "예시 fest_cheering에 없는 그 컷의 구체적인 공간·시간·소품을 보충: An open-air tournament arena has curved spectator rows and a pennant tucked into the small bag beside her, in late afternoon light."
+            },
+            {
+              "field": "outfit",
+              "value": "A red cropped rib-knit top with curved side cutouts and white tailored shorts; the cutouts and short hem reveal her waist and upper thighs.",
+              "reason": "계획기의 knit_top,shorts를 side cutouts,bare midriff 구조로 구체화: A red cropped rib-knit top with curved side cutouts and white tailored shorts; the cutouts and short hem reveal her waist and upper thighs."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "도구에 크기 인수가 없어 규칙의 허용 문장으로 세로 크기를 지정"
+            }
+          ],
+          "axes_reason": {
+            "action_level": "An open-air tournament arena has curved spectator rows and a pennant tucked into the small bag beside her, in late afternoon light. — 현재 동작 정도에 대응한 mostly posed",
+            "source_influence": "A red cropped rib-knit top with curved side cutouts and white tailored shorts; the cutouts and short hem reveal her waist and upper thighs. — 이 의상에 넣는 색·무늬의 정도는 balanced",
+            "separates_preference": "knit_top,shorts의 실제 의상 구조에 맞춘 prefer separates"
+          }
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "adult_roleplay",
+          "ex": "casino_dealer",
+          "expr": "sensual",
+          "pose": "side_sitting",
+          "orient": "looking_away",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "vest"
+          ],
+          "expose": [
+            "strapless top",
+            "mini length"
+          ],
+          "lead": "light",
+          "scene": "Warm rehearsal spotlights illuminate a green felt table and a tray of plain red and ivory chips on a casino-themed theater stage; she sorts the chips for the next rehearsal.",
+          "outfit": "A white strapless fitted waistcoat, a black bow tie on a narrow collar, separate cuffs and a red mini skirt, exposing shoulders and legs.",
+          "example_text": "a casino dealer costume with a fitted waistcoat, bow tie, and cuffs, at a card table",
+          "locked": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "randomization": {
+            "planner": "tools/casual-plan.cjs",
+            "session": "anorith-armaldo-edadb7",
+            "selection_changes_by_hand": false
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "Warm rehearsal spotlights illuminate a green felt table and a tray of plain red and ivory chips on a casino-themed theater stage; she sorts the chips for the next rehearsal.",
+              "reason": "예시 casino_dealer에 없는 그 컷의 구체적인 공간·시간·소품을 보충: Warm rehearsal spotlights illuminate a green felt table and a tray of plain red and ivory chips on a casino-themed theater stage; she sorts the chips for the next rehearsal."
+            },
+            {
+              "field": "outfit",
+              "value": "A white strapless fitted waistcoat, a black bow tie on a narrow collar, separate cuffs and a red mini skirt, exposing shoulders and legs.",
+              "reason": "계획기의 vest를 strapless top,mini length 구조로 구체화: A white strapless fitted waistcoat, a black bow tie on a narrow collar, separate cuffs and a red mini skirt, exposing shoulders and legs."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "도구에 크기 인수가 없어 규칙의 허용 문장으로 세로 크기를 지정"
+            }
+          ],
+          "axes_reason": {
+            "action_level": "Warm rehearsal spotlights illuminate a green felt table and a tray of plain red and ivory chips on a casino-themed theater stage; she sorts the chips for the next rehearsal. — 현재 동작 정도에 대응한 mostly posed",
+            "source_influence": "A white strapless fitted waistcoat, a black bow tie on a narrow collar, separate cuffs and a red mini skirt, exposing shoulders and legs. — 이 의상에 넣는 색·무늬의 정도는 subtle",
+            "separates_preference": "vest의 실제 의상 구조에 맞춘 prefer separates"
+          }
+        },
+        {
+          "cut": 3,
+          "cat": "partner_care",
+          "ex": "care_nap",
+          "garments": [
+            "shirt",
+            "shorts"
+          ],
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "pose": "sitting_floor",
+          "expr": "nostalgic",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "side cutouts",
+            "bare midriff"
+          ],
+          "lead": "action",
+          "scene": "Folding the edge of the picnic cloth while one small Mudkip sleeps on the opposite corner; a closed book lies under the leafy shade at noon.",
+          "outfit": "A white short button shirt tied at the waist with curved side cutouts, and loose red linen shorts; her waist and upper thighs remain visible.",
+          "example_text": "Resting beside a sleeping Pokémon companion on a shaded picnic blanket with a closed book nearby.",
+          "locked": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "randomization": {
+            "planner": "tools/casual-plan.cjs",
+            "session": "anorith-armaldo-edadb7",
+            "selection_changes_by_hand": false
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "Folding the edge of the picnic cloth while one small Mudkip sleeps on the opposite corner; a closed book lies under the leafy shade at noon.",
+              "reason": "예시 care_nap에 없는 그 컷의 구체적인 공간·시간·소품을 보충: Folding the edge of the picnic cloth while one small Mudkip sleeps on the opposite corner; a closed book lies under the leafy shade at noon."
+            },
+            {
+              "field": "outfit",
+              "value": "A white short button shirt tied at the waist with curved side cutouts, and loose red linen shorts; her waist and upper thighs remain visible.",
+              "reason": "계획기의 shirt,shorts를 side cutouts,bare midriff 구조로 구체화: A white short button shirt tied at the waist with curved side cutouts, and loose red linen shorts; her waist and upper thighs remain visible."
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "도구에 크기 인수가 없어 규칙의 허용 문장으로 세로 크기를 지정"
+            }
+          ],
+          "axes_reason": {
+            "action_level": "Folding the edge of the picnic cloth while one small Mudkip sleeps on the opposite corner; a closed book lies under the leafy shade at noon. — 현재 동작 정도에 대응한 mostly posed",
+            "source_influence": "A white short button shirt tied at the waist with curved side cutouts, and loose red linen shorts; her waist and upper thighs remain visible. — 이 의상에 넣는 색·무늬의 정도는 subtle",
+            "separates_preference": "shirt,shorts의 실제 의상 구조에 맞춘 prefer separates"
+          }
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "food_berries",
+          "festivals_contests",
+          "active",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "shirt",
+          "shorts"
+        ],
+        "orient": [
+          "seated_twist"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "아말도",
+      "species": "armaldo-20261022",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "occupation_sensual",
+          "ex": "luxury_yacht_tech",
+          "garments": [
+            "trousers",
+            "vest"
+          ],
+          "orient": "reaching_up",
+          "frame": "chest_up",
+          "pose": "carrying_something",
+          "expr": "serious",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "halter neck",
+            "one-shoulder cut"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "private_evening",
+          "ex": "slip_dress",
+          "garments": [
+            "dress",
+            "slip"
+          ],
+          "orient": "front_3q",
+          "frame": "three_quarter",
+          "pose": "standing_formal",
+          "expr": "sleepy",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "high thigh slit"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "yukata_poolside",
+          "garments": [
+            "traditional"
+          ],
+          "orient": "looking_down",
+          "frame": "full_body",
+          "pose": "dance_step",
+          "expr": "pensive",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "side cutouts"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "food_berries",
+          "active",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "trousers"
+        ],
+        "orient": [
+          "reaching_up",
+          "front_3q",
+          "looking_down"
+        ],
+        "frame": []
+      }
+    }
+  ]
+}
