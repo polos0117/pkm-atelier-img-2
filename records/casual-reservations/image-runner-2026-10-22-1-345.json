@@ -1,17 +1,17 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "image-runner-2026-10-22-1-345",
- "at": "2026-10-22T10:52:08+00:00",
+ "at": "2026-10-22T10:52:39+00:00",
  "characters": [
   {
    "species": "lileep-20261022",
    "card": "릴링",
-   "at": "2026-10-22T10:52:08+00:00",
+   "at": "2026-10-22T10:52:39+00:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "swimwear",
-     "ex": "yukata_poolside",
+     "ex": "rashguard_set",
      "expr": "candid",
      "pose": "sitting_floor",
      "orient": "seated_twist",
@@ -21,24 +21,24 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "traditional"
+      "swimsuit"
      ],
      "expose": [
-      "high thigh slit",
-      "one-shoulder cut"
+      "high-cut leg",
+      "plunging neckline"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 2,
      "cat": "lingerie",
      "ex": "lace_set",
      "expr": "playful",
-     "pose": "leaning_furniture",
+     "pose": "leaning_wall",
      "orient": "looking_away",
      "frame": "environmental",
      "lens": "documentary35",
@@ -46,7 +46,7 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "strong",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -56,14 +56,13 @@
       "side cutouts",
       "halter neck"
      ],
-     "lead": "detail",
-     "kept": true
+     "lead": "detail"
     },
     {
      "cut": 3,
      "cat": "wildcard",
-     "ex": "desert_resort",
-     "expr": "exhausted",
+     "ex": "futuristic_spa",
+     "expr": "mildly_annoyed",
      "pose": "stretching",
      "orient": "reaching_up",
      "frame": "chest_up",
@@ -83,8 +82,7 @@
       "mini length",
       "strapless top"
      ],
-     "lead": "light",
-     "kept": true
+     "lead": "action"
     }
    ]
   }
