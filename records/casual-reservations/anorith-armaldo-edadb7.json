@@ -1,19 +1,19 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "anorith-armaldo-edadb7",
- "at": "2026-10-22T07:25:34-07:00",
+ "at": "2026-10-22T07:34:07-07:00",
  "characters": [
   {
    "species": "anorith-20261022",
    "card": "아노딥스",
-   "at": "2026-10-22T07:25:34-07:00",
+   "at": "2026-10-22T07:34:07-07:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "festivals_contests",
-     "ex": "fest_fireworks",
-     "expr": "nostalgic",
-     "pose": "hands_in_hair",
+     "ex": "fest_cheering",
+     "expr": "laughing_open",
+     "pose": "standing_relaxed",
      "orient": "turning_midmotion",
      "frame": "chest_up",
      "lens": "wide24",
@@ -21,7 +21,7 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
+      "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
@@ -32,39 +32,39 @@
       "side cutouts",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "place"
     },
     {
      "cut": 2,
-     "cat": "swimwear",
-     "ex": "onsen_after",
+     "cat": "adult_roleplay",
+     "ex": "casino_dealer",
      "expr": "sensual",
-     "pose": "dance_step",
+     "pose": "side_sitting",
      "orient": "looking_away",
      "frame": "three_quarter",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bikini"
+      "vest"
      ],
      "expose": [
-      "plunging neckline",
-      "open back"
+      "strapless top",
+      "mini length"
      ],
      "lead": "light"
     },
     {
      "cut": 3,
      "cat": "wildcard",
-     "ex": "futuristic_spa",
-     "expr": "serious",
-     "pose": "side_sitting",
+     "ex": "desert_resort",
+     "expr": "unimpressed",
+     "pose": "sitting_floor",
      "orient": "seated_twist",
      "frame": "environmental",
      "lens": "telephoto135",
@@ -80,23 +80,23 @@
       "shorts"
      ],
      "expose": [
-      "strapless top",
-      "mini length"
+      "halter neck",
+      "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "detail"
     }
    ]
   },
   {
    "species": "armaldo-20261022",
    "card": "아말도",
-   "at": "2026-10-22T07:25:34-07:00",
+   "at": "2026-10-22T07:34:07-07:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "partner_care",
      "ex": "care_walk",
-     "expr": "laughing_open",
+     "expr": "nostalgic",
      "pose": "carrying_something",
      "orient": "reaching_up",
      "frame": "three_quarter",
@@ -113,43 +113,42 @@
       "trousers"
      ],
      "expose": [
-      "halter neck",
-      "one-shoulder cut"
+      "side cutouts",
+      "open back"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 2,
      "cat": "occupation_sensual",
-     "ex": "fashion_project",
-     "expr": "sleepy",
-     "pose": "waving",
+     "ex": "elite_paramedic",
+     "expr": "serious",
+     "pose": "offering_food",
      "orient": "looking_down",
      "frame": "full_body",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "trousers",
-      "vest"
+      "uniform"
      ],
      "expose": [
-      "side cutouts",
+      "strapless top",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "light"
     },
     {
      "cut": 3,
-     "cat": "lingerie",
-     "ex": "bustier_inspired",
-     "expr": "confident",
-     "pose": "standing_formal",
+     "cat": "swimwear",
+     "ex": "yukata_poolside",
+     "expr": "sleepy",
+     "pose": "hands_in_hair",
      "orient": "front_3q",
      "frame": "environmental",
      "lens": "documentary35",
@@ -161,13 +160,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "traditional"
      ],
      "expose": [
-      "high-cut leg",
-      "strapless top"
+      "high thigh slit",
+      "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "action"
     }
    ]
   }
