@@ -16,7 +16,7 @@
     {
       "id": "2026-10-22-1",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-22T09:08:42+00:00",
       "queue": [
         {
@@ -367,7 +367,7 @@
           "no": 346,
           "name": "릴리요",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -563,14 +563,20 @@
             },
             "casual3": {
               "status": "in_flight",
-              "at": "2026-10-22T11:41:44+00:00",
+              "attempt": 2,
+              "at": "2026-10-22T11:50:55+00:00",
+              "prefix": "records/automation/runs/2026-10-22-1/346/casual3/attempts/2",
+              "approval": {
+                "path": "records/automation/runs/2026-10-22-1/346/casual3/attempts/2/approval.json",
+                "sha256": "98fbad6a86baa4877574218865f3f8daf67cf07bfa28a40db4e9eb781ef70460"
+              },
               "prompt": {
-                "path": "records/automation/runs/2026-10-22-1/346/casual3/prompt.txt",
-                "sha256": "75b23ea4626be791f7d8a39bb829a73ee79416737f747b922ac9204e6cb33c85"
+                "path": "records/automation/runs/2026-10-22-1/346/casual3/attempts/2/prompt.txt",
+                "sha256": "5912a08255b4897eb880bc3a632c3a1b50cf82e49c99494bf611721829d7433e"
               },
               "ui": {
-                "path": "records/automation/runs/2026-10-22-1/346/casual3/ui.json",
-                "sha256": "9a4361fffaa331f80092e9ac293f47ed90779e0645ee3001a5b66d26e770d311"
+                "path": "records/automation/runs/2026-10-22-1/346/casual3/attempts/2/ui.json",
+                "sha256": "d1db4f554be1b674302c37f66e6d6e2739edb2a06e80f0f08f204704da7ec011"
               },
               "references": {
                 "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
@@ -585,11 +591,41 @@
                 "path": "records/automation/runs/2026-10-22-1/346/heavy/user-exception.json",
                 "sha256": "35d9cd1baac77dda3cbb4db42184576b91fe61a52ac59ae2baddaf6c45be75b9"
               }
+            },
+            {
+              "reason": "casual3 image_gen returned HTTP 400 moderation_blocked at output stage, category sexual; request ID 932fa32c-805b-4e52-8e47-ef3618f432d0. No result file returned. No retry performed. casual3 intent and original prompt/UI preserved; 8/9 slots accepted including heavy user exception.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-22-1/346/casual3/attempts/2/approval.json",
+                "sha256": "98fbad6a86baa4877574218865f3f8daf67cf07bfa28a40db4e9eb781ef70460"
+              }
+            }
+          ],
+          "attempt_history": [
+            {
+              "status": "tool_rejected_no_output",
+              "at": "2026-10-22T11:41:44+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-22-1/346/casual3/prompt.txt",
+                "sha256": "75b23ea4626be791f7d8a39bb829a73ee79416737f747b922ac9204e6cb33c85"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-22-1/346/casual3/ui.json",
+                "sha256": "9a4361fffaa331f80092e9ac293f47ed90779e0645ee3001a5b66d26e770d311"
+              },
+              "references": {
+                "light": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+              },
+              "slot": "casual3",
+              "rejection_reason": "casual3 image_gen returned HTTP 400 moderation_blocked at output stage, category sexual; request ID 932fa32c-805b-4e52-8e47-ef3618f432d0. No result file returned. No retry performed. casual3 intent and original prompt/UI preserved; 8/9 slots accepted including heavy user exception.",
+              "tool_failure": {
+                "path": "records/automation/runs/2026-10-22-1/346/casual3/tool-failure.json",
+                "sha256": "35d6ea5f362eb05337b82564a513589d558dc949622d7d5e43cdea5315c46ab5"
+              }
             }
           ]
         }
       ],
-      "updated_at": "2026-10-22T11:43:17+00:00"
+      "updated_at": "2026-10-22T11:50:55+00:00"
     }
   ],
   "claims": {
