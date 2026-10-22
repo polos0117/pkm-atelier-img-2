@@ -16,14 +16,14 @@
     {
       "id": "2026-10-22-1",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-22T09:08:42+00:00",
       "queue": [
         {
           "no": 345,
           "name": "릴링",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -128,7 +128,7 @@
               "received_at": "2026-10-22T10:44:24+00:00"
             }
           },
-          "reason": "QA_FAILED light_overdrive sha256=469c0222904d1f7372913f671ae043a7548646ec9155c0c1dc13f01e2b1a0e90: compared actual restored light eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478 and result; face, pose and camera preserved, but original smooth upper-thigh bodysuit areas gained large additional layered plates instead of opening only existing plates. IMAGE_RULES section3 overdrive prohibits new armor. Original, prompt and UI preserved remotely; no retry or further generation per batch instructions.",
+          "reason": "QA_FAILED approved correction attempt 2, light_overdrive sha256=47e9e51a0cf772e516729b7cdfae05f25bd61b3a2c79fa4baeca193d8892f190: compared actual approved light and both failed outputs. Large stacked thigh armor reduced, but new broad angular thigh panels with gold borders remain instead of the original smooth purple fitted thigh surfaces and small knee accents. Face pose camera preserved; no-new-armor criterion still fails. Exactly one approved correction consumed; no further retries or batch generation authorized after this failure. All originals and approval preserved.",
           "attempt_history": [
             {
               "status": "rejected",
@@ -166,7 +166,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T10:44:27+00:00"
+      "updated_at": "2026-10-22T10:44:49+00:00"
     }
   ],
   "claims": {
