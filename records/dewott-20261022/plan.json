@@ -1,0 +1,436 @@
+{
+  "card": "쌍검자비",
+  "session": "dewott-samurott-20261022-6ed4",
+  "planner": "tools/casual-plan.cjs",
+  "batch_plan": {
+    "session": "dewott-samurott-20261022-6ed4",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "쌍검자비",
+        "species": "dewott-20261022",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "hanbok_slip",
+            "expr": "sleepy",
+            "pose": "kneeling",
+            "orient": "high_angle",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "lingerie_set",
+              "skirt",
+              "traditional"
+            ],
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "festivals_contests",
+            "ex": "fest_rehearsal",
+            "expr": "focused",
+            "pose": "arms_crossed",
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "simulator_instructor",
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "cross_legged",
+            "expr": "amused",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron"
+          ],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "대검귀",
+        "species": "samurott-20261022",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "occupation_basic",
+            "ex": "crane_operator",
+            "expr": "pensive",
+            "pose": "carrying_something",
+            "orient": "low_angle",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "armory_curator",
+            "expr": "confident",
+            "pose": "walking",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "vest"
+            ],
+            "expose": [
+              "bare midriff",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "ceremonial_instructor",
+            "expr": "amused",
+            "pose": "squatting",
+            "orient": "rear_3q",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "jacket"
+            ],
+            "expose": [
+              "open back",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "hanbok_slip",
+      "expr": "sleepy",
+      "pose": "kneeling",
+      "orient": "high_angle",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "lingerie_set",
+        "skirt",
+        "traditional"
+      ],
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "detail",
+      "example_text": "a hanbok underlayer-inspired lingerie set with a short wrapped top and a full high-waisted skirt",
+      "scene": "An ivory silk ribbon rests beside her on the bedroom floor in warm dawn light.",
+      "outfit": "The wrapped lingerie top is pale blue silk with a cropped hem and an off-shoulder neckline showing her shoulders and midriff; the ivory high-waisted full skirt has a soft scalloped hem.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "planner_decisions": "Deterministic planner selected all fields; no manual selection changes.",
+      "direct_input_reasons": {
+        "scene": "The preset specifies a hanbok underlayer set but no location or prop; the ivory ribbon and dawn-lit bedroom establish a quiet dressing moment.",
+        "outfit": "The short wrap top needs a material and neckline; pale-blue silk, lowered shoulders and a cropped hem realize the planned exposure while the full ivory skirt preserves the hanbok construction.",
+        "camera": "The image tool has no size selector; Vertical 2:3 portrait (1024×1536) is entered in the generator camera field."
+      },
+      "axes_reasons": {
+        "action_level": "The kneeling bedroom moment is held rather than a sequence of movements.",
+        "source_influence": "Only the pale-blue top recalls Dewott; the dress construction remains a hanbok underlayer set.",
+        "separates_preference": "The wrapped upper garment and high-waisted skirt are two independently fitted pieces."
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "festivals_contests",
+      "ex": "fest_rehearsal",
+      "expr": "focused",
+      "pose": "arms_crossed",
+      "orient": "three_quarter_back",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "bare midriff",
+        "strapless top"
+      ],
+      "lead": "place",
+      "example_text": "Practicing a simple presentation gesture with a ribbon prop backstage before a Pokémon Contest.",
+      "scene": "The backstage rehearsal alcove has blue velvet curtains and amber work lights; she holds a loop of the ribbon prop between two fingers while practicing the presentation gesture.",
+      "outfit": "Ivory cropped bib overalls with the straps resting at the waist are layered over a navy strapless top, exposing shoulders and a band of midriff.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "planner_decisions": "Deterministic planner selected all fields; no manual selection changes.",
+      "direct_input_reasons": {
+        "scene": "The contest preset names backstage practice; velvet curtains, amber work lights and a ribbon loop distinguish this rehearsal alcove.",
+        "outfit": "The example leaves clothing open; ivory bib overalls with lowered straps and a navy strapless top supply the planned overalls silhouette and expose shoulders and midriff.",
+        "camera": "The image tool has no size selector; Vertical 2:3 portrait (1024×1536) is entered in the generator camera field."
+      },
+      "axes_reasons": {
+        "action_level": "The presentation gesture is paused while one hand holds a ribbon loop and the other arm rests across her torso.",
+        "source_influence": "A navy top is a restrained source-color echo without carrying shell armor into the backstage outfit.",
+        "separates_preference": "The overalls are the main garment; the balanced setting permits the separate bandeau underneath."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "simulator_instructor",
+      "garments": [
+        "apron",
+        "shorts"
+      ],
+      "orient": "reclining",
+      "frame": "environmental",
+      "pose": "cross_legged",
+      "expr": "amused",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "Pokémon battle coach arranging practice cones and demonstrating a calm training cue at an outdoor practice field.",
+      "scene": "Late afternoon light rakes across an outdoor practice field; beside a padded support bench she arranges orange practice cones within reach and demonstrates a calm open-palm training cue.",
+      "outfit": "An azure cropped training apron with utility pockets sits over an ivory off-shoulder top and navy shorts, exposing her shoulders and midriff, with a subtle scallop-patterned blue waistband.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "planner_decisions": "Deterministic planner selected all fields; no manual selection changes.",
+      "direct_input_reasons": {
+        "scene": "The coach preset lacks a time of day or support surface; low afternoon light, an outdoor padded bench and reachable cones make the calm cue concrete.",
+        "outfit": "Training apron pockets provide a credible place for small field tools, while a cropped bib, dropped shoulder line and shorts realize the apron-plus-shorts plan.",
+        "camera": "The image tool has no size selector; Vertical 2:3 portrait (1024×1536) is entered in the generator camera field."
+      },
+      "axes_reasons": {
+        "action_level": "She demonstrates a held open-palm cue beside cones rather than running a drill, matching mostly posed.",
+        "source_influence": "Azure fabric, navy shorts and a scalloped blue waistband make the water-species palette recognizable without armor.",
+        "separates_preference": "The pocketed apron, ivory top and shorts remain visibly separate garment pieces."
+      }
+    }
+  ],
+  "check": "passed before reservation and generation",
+  "reservation_commits": [
+    "1b7df13a165a553f7e649bd414817ca4541bd5ac",
+    "d0e5ef293dcd0d2fde8efb7897b6c67d42c30554",
+    "c4a5c88959e901232c0eb4bde729e6c82c728ca5"
+  ],
+  "replanned_before_generation": [
+    {
+      "cut": 3,
+      "excluded": "wildcard/futuristic_spa",
+      "reason": "Generator example requires robe/towel and arranging belongings, conflicting with planner overalls."
+    },
+    {
+      "cut": 3,
+      "excluded": "wildcard/desert_resort",
+      "reason": "Generator example requires linen wrap dress, conflicting with planner overalls."
+    },
+    {
+      "cut": 3,
+      "final": "occupation_basic/simulator_instructor",
+      "reason": "Planner reselected a task without conflicting preset clothing."
+    }
+  ]
+}

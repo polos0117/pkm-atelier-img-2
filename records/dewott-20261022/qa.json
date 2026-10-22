@@ -1,0 +1,112 @@
+{
+  "card": "쌍검자비",
+  "status": "accepted",
+  "generated": 9,
+  "requested": 9,
+  "regenerations": 0,
+  "generator": "built-in image_gen",
+  "checks": {
+    "casual-look": "passed: no near-duplicate at current tool threshold 245",
+    "register-images --check": "18 new images recognized, no target name or slot conflict",
+    "forms": "passed"
+  },
+  "cuts": [
+    {
+      "slot": "casual1",
+      "result": "accepted",
+      "observed": "High-angle kneeling on a patterned bedroom rug beside an ivory ribbon; blue wrapped off-shoulder top and ivory skirt; both hands have five digits, two folded legs and feet are continuous. The skirt reads shorter than the preset full skirt, recorded as garment detail.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "identity": "Matches canonical light image; expression and hair motion may differ.",
+      "text_check": "No readable lettering or false labels.",
+      "anatomy": "No observed extra or missing limbs; digits and natural prop occlusion inspected.",
+      "lifestyle_diversity": "Compared all three cuts with each other and actual casual images of 수댕이, 염무왕 and 뚜꾸리; place, task, silhouette and pose differ."
+    },
+    {
+      "slot": "casual2",
+      "result": "accepted",
+      "observed": "Rear three-quarter turn with face visible over the shoulder, a focused gaze and ribbon between fingers; navy strapless top, ivory overalls and backstage curtains. Both arms connect; one hand holds ribbon and the other rests across the torso. Actual framing extends below the waist toward hips, recorded without regeneration.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "identity": "Matches canonical light image; expression and hair motion may differ.",
+      "text_check": "No readable lettering or false labels.",
+      "anatomy": "No observed extra or missing limbs; digits and natural prop occlusion inspected.",
+      "lifestyle_diversity": "Compared all three cuts with each other and actual casual images of 수댕이, 염무왕 and 뚜꾸리; place, task, silhouette and pose differ."
+    },
+    {
+      "slot": "casual3",
+      "result": "accepted",
+      "observed": "Seated cross-legged on a blue padded training bench with both shoes visible; an open hand shows five distinct digits and the other hand touches stacked orange cones. The outdoor field, cones, amused small smile, cropped blue apron and bare midriff are visible. Actual framing is closer than the environmental long-shot selection.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "identity": "Matches canonical light image; expression and hair motion may differ.",
+      "text_check": "No readable lettering or false labels.",
+      "anatomy": "No observed extra or missing limbs; digits and natural prop occlusion inspected.",
+      "lifestyle_diversity": "Compared all three cuts with each other and actual casual images of 수댕이, 염무왕 and 뚜꾸리; place, task, silhouette and pose differ."
+    },
+    {
+      "slot": "light",
+      "result": "accepted",
+      "observed": "One full-body adult woman, face toward camera, both feet inside the canvas. Heavy uses broad layered plates; mobility has a forward running step with the far leg partly occluded. No handheld weapon.",
+      "hands": "Two gloved hands with no observed duplicated or fused fingers.",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "slot": "light-overdrive",
+      "result": "accepted",
+      "observed": "Same camera, face, hair, scale, hand positions and body pose as the corresponding closed form. Existing panels separate along seams with cyan water light beneath; no added weapon.",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "slot": "heavy",
+      "result": "accepted",
+      "observed": "One full-body adult woman, face toward camera, both feet inside the canvas. Heavy uses broad layered plates; mobility has a forward running step with the far leg partly occluded. No handheld weapon.",
+      "hands": "Two gloved hands with no observed duplicated or fused fingers.",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "slot": "heavy-overdrive",
+      "result": "accepted",
+      "observed": "Same camera, face, hair, scale, hand positions and body pose as the corresponding closed form. Existing panels separate along seams with cyan water light beneath; no added weapon.",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "slot": "mobility",
+      "result": "accepted",
+      "observed": "One full-body adult woman, face toward camera, both feet inside the canvas. Heavy uses broad layered plates; mobility has a forward running step with the far leg partly occluded. No handheld weapon.",
+      "hands": "Two gloved hands with no observed duplicated or fused fingers.",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "slot": "mobility-overdrive",
+      "result": "accepted",
+      "observed": "Same camera, face, hair, scale, hand positions and body pose as the corresponding closed form. Existing panels separate along seams with cyan water light beneath; no added weapon.",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "skipped": []
+}
