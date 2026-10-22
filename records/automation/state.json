@@ -21,8 +21,29 @@
           "no": 345,
           "name": "릴링",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "review",
+              "at": "2026-10-22T09:09:26+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-22-1/345/light/prompt.txt",
+                "sha256": "b9330b65ce93d39822abb6884a5c22f6d974d536d920ec2c2898425d20b9db3e"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-22-1/345/light/ui.json",
+                "sha256": "2a4795597a9031081f5390e524c9936a387cb5d9d8bb8e8dd96e3bd6c7bb65db"
+              },
+              "references": {},
+              "image": {
+                "path": "records/automation/runs/2026-10-22-1/345/light/original.png",
+                "sha256": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+              },
+              "received_at": "2026-10-22T09:09:26+00:00",
+              "imported_existing_result": true,
+              "actual_submitted_at": "2026-10-22T08:43:13.542761+00:00"
+            }
+          }
         },
         {
           "no": 346,
@@ -32,7 +53,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T09:08:42+00:00"
+      "updated_at": "2026-10-22T09:09:26+00:00"
     }
   ],
   "claims": {
