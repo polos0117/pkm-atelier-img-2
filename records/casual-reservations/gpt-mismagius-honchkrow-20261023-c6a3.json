@@ -1,51 +1,52 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-mismagius-honchkrow-20261023-c6a3",
- "at": "2026-10-22T14:27:30-07:00",
+ "at": "2026-10-22T14:28:38-07:00",
  "characters": [
   {
    "species": "mismagius-20261023",
    "card": "무우마직",
-   "at": "2026-10-22T14:27:30-07:00",
+   "at": "2026-10-22T14:28:38-07:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "everyday_basic",
-     "ex": "commute_train",
+     "cat": "occupation_basic",
+     "ex": "stage_rigging",
      "expr": "focused",
-     "pose": "sitting",
+     "pose": "leaning_furniture",
      "orient": "front_3q",
      "frame": "environmental",
      "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "strong",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "dress"
+      "apron",
+      "skirt"
      ],
      "expose": [
-      "high thigh slit",
-      "halter neck"
+      "halter neck",
+      "mini length"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 2,
      "cat": "lingerie",
      "ex": "garter_set",
      "expr": "soft_smile",
-     "pose": "leaning_furniture",
+     "pose": "sitting",
      "orient": "high_angle",
      "frame": "full_body",
      "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
@@ -60,35 +61,35 @@
     },
     {
      "cut": 3,
-     "cat": "homewear",
-     "ex": "oversized_shirt",
+     "cat": "occupation_sensual",
+     "ex": "surgical_tech",
      "expr": "mischievous",
-     "pose": "contrapposto",
+     "pose": "gentle_pat",
      "orient": "leaning_forward",
      "frame": "three_quarter",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "shirt"
+      "dress"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "cropped hem"
+      "high thigh slit",
+      "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "place"
     }
    ]
   },
   {
    "species": "honchkrow-20261023",
    "card": "돈크로우",
-   "at": "2026-10-22T14:27:30-07:00",
+   "at": "2026-10-22T14:28:38-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -110,10 +111,10 @@
       "vest"
      ],
      "expose": [
-      "mini length",
-      "open back"
+      "cropped hem",
+      "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "detail"
     },
     {
      "cut": 2,
@@ -136,14 +137,14 @@
      ],
      "expose": [
       "high-cut leg",
-      "halter neck"
+      "open back"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 3,
-     "cat": "traditional",
-     "ex": "huipil_modern",
+     "cat": "hobbies_leisure",
+     "ex": "hobby_photo",
      "expr": "curious",
      "pose": "on_tiptoe",
      "orient": "reaching_up",
@@ -154,14 +155,15 @@
       "skin_exposure": "bold",
       "action_level": "mostly active",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "traditional"
+      "shirt",
+      "trousers"
      ],
      "expose": [
-      "one-shoulder cut",
-      "off-shoulder neckline"
+      "halter neck",
+      "side cutouts"
      ],
      "lead": "place"
     }
