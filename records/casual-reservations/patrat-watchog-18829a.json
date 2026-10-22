@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "patrat-watchog-18829a",
- "at": "2026-10-22T05:43:50-07:00",
+ "at": "2026-10-22T06:02:49-07:00",
  "characters": [
   {
    "species": "patrat-20261022",
@@ -91,7 +91,7 @@
   {
    "species": "watchog-20261022",
    "card": "보르그",
-   "at": "2026-10-22T05:43:50-07:00",
+   "at": "2026-10-22T06:02:49-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -117,7 +117,7 @@
       "open back"
      ],
      "lead": "place",
-     "aspect": "2:3"
+     "kept": true
     },
     {
      "cut": 2,
@@ -143,33 +143,33 @@
       "off-shoulder neckline"
      ],
      "lead": "light",
-     "aspect": "2:3"
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "swimwear",
-     "ex": "onsen_after",
-     "expr": "sensual",
-     "pose": "hands_in_hair",
-     "orient": "turning_midmotion",
-     "frame": "chest_up",
-     "lens": "telephoto135",
+     "ex": "hanbok_coverup",
+     "expr": "flustered",
+     "pose": "kneeling",
+     "orient": "crouching",
+     "frame": "waist_up",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bikini"
+      "skirt",
+      "traditional"
      ],
      "expose": [
-      "open back",
-      "bare midriff"
+      "cropped hem",
+      "open back"
      ],
-     "lead": "action",
-     "aspect": "2:3"
+     "lead": "detail"
     }
    ]
   }
