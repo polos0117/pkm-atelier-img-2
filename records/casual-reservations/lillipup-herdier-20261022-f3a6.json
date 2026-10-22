@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "lillipup-herdier-20261022-f3a6",
- "at": "2026-10-22T07:22:39-07:00",
+ "at": "2026-10-22T07:24:57-07:00",
  "characters": [
   {
    "species": "lillipup-20261022",
    "card": "요테리",
-   "at": "2026-10-22T07:22:39-07:00",
+   "at": "2026-10-22T07:24:57-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,21 +31,22 @@
       "one-shoulder cut",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
      "cat": "active",
-     "ex": "fencing_motion",
+     "ex": "aerial_silk",
      "expr": "gentle",
-     "pose": "squatting",
+     "pose": "bending_over",
      "orient": "high_angle",
      "frame": "full_body",
-     "lens": "natural50",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
@@ -54,8 +55,8 @@
       "tank"
      ],
      "expose": [
-      "bare midriff",
-      "strapless top"
+      "one-shoulder cut",
+      "bare midriff"
      ],
      "lead": "action"
     },
@@ -82,14 +83,15 @@
       "high-cut leg",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ]
   },
   {
    "species": "herdier-20261022",
    "card": "하데리어",
-   "at": "2026-10-22T07:22:39-07:00",
+   "at": "2026-10-22T07:24:57-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -114,7 +116,8 @@
       "bare midriff",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -140,7 +143,8 @@
       "one-shoulder cut",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -165,7 +169,8 @@
       "mini length",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ]
   }
