@@ -24,7 +24,7 @@
           "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-22T09:09:26+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-22-1/345/light/prompt.txt",
@@ -41,7 +41,11 @@
               },
               "received_at": "2026-10-22T09:09:26+00:00",
               "imported_existing_result": true,
-              "actual_submitted_at": "2026-10-22T08:43:13.542761+00:00"
+              "actual_submitted_at": "2026-10-22T08:43:13.542761+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-22-1/345/light/qa.json",
+                "sha256": "57894787b64de3d80e3d6e1e861a6ba806c81369fa1cf78f8ad736c143ad562a"
+              }
             }
           }
         },
@@ -53,7 +57,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T09:09:26+00:00"
+      "updated_at": "2026-10-22T09:10:19+00:00"
     }
   ],
   "claims": {
