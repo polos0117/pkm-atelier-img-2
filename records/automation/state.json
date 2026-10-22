@@ -16,7 +16,7 @@
     {
       "id": "2026-10-22-1",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "complete",
       "created_at": "2026-10-22T09:08:42+00:00",
       "queue": [
         {
@@ -367,7 +367,7 @@
           "no": 346,
           "name": "릴리요",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "complete",
           "slots": {
             "light": {
               "status": "accepted",
@@ -646,10 +646,65 @@
               "img/릴리요_glossy_promo_f_casual2.webp": "578d32709468a6f2e5eb35691775ba9b5c5fa849aee27f54346a00c5e234cef4",
               "img/릴리요_glossy_promo_f_casual3.webp": "5df963010fe638bfce7b4e0cb68cc7c62ab69855c79439f66a35b0c102a12c78"
             }
-          }
+          },
+          "own_publication": {
+            "files": [
+              "릴리요_glossy_promo_f_casual1.webp",
+              "릴리요_glossy_promo_f_casual2.webp",
+              "릴리요_glossy_promo_f_casual3.webp",
+              "릴리요_heavy_glossy_promo_f.webp",
+              "릴리요_heavy_overdrive_glossy_promo_f.webp",
+              "릴리요_light_glossy_promo_f.webp",
+              "릴리요_light_overdrive_glossy_promo_f.webp",
+              "릴리요_mobility_glossy_promo_f.webp",
+              "릴리요_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
+          },
+          "outputs": {
+            "light": {
+              "file": "릴리요_light_glossy_promo_f.webp",
+              "sha256": "f2f7e3753895fb565b594f962a4de59af576fdf37fd195b9d72cd6e5abbaa0c1"
+            },
+            "heavy": {
+              "file": "릴리요_heavy_glossy_promo_f.webp",
+              "sha256": "1d8c534a5aefffcddc71d4214011b2b8cd4270478c9e8168e810b2e2ad4fdfb0"
+            },
+            "mobility": {
+              "file": "릴리요_mobility_glossy_promo_f.webp",
+              "sha256": "f94ae475c85c5df7816f8edd228e60767af632d40b1ca3bcfb25de7b24a56f70"
+            },
+            "light_overdrive": {
+              "file": "릴리요_light_overdrive_glossy_promo_f.webp",
+              "sha256": "124c89a8b06c9cda41e00b8e7fcf89648cb14b4872e9d376bc2d750fe3b70ea9"
+            },
+            "heavy_overdrive": {
+              "file": "릴리요_heavy_overdrive_glossy_promo_f.webp",
+              "sha256": "9553bb4987a5aee51d04c9827c790b38a8673c8054edd162c08adeb345dcf71d"
+            },
+            "mobility_overdrive": {
+              "file": "릴리요_mobility_overdrive_glossy_promo_f.webp",
+              "sha256": "6e9ca3de4ad50c2ecf7a766d59fdf201028fde0fc1ac283acc0bfc88f0420821"
+            },
+            "casual1": {
+              "file": "릴리요_glossy_promo_f_casual1.webp",
+              "sha256": "cf25f6a78aa58898ab2fd9302ceecd26e355b80b024e90bfbc98296213df9f52"
+            },
+            "casual2": {
+              "file": "릴리요_glossy_promo_f_casual2.webp",
+              "sha256": "578d32709468a6f2e5eb35691775ba9b5c5fa849aee27f54346a00c5e234cef4"
+            },
+            "casual3": {
+              "file": "릴리요_glossy_promo_f_casual3.webp",
+              "sha256": "5df963010fe638bfce7b4e0cb68cc7c62ab69855c79439f66a35b0c102a12c78"
+            }
+          },
+          "image_commit": "de070ceac42b0b7b223bfb286a19275844f3de39",
+          "registration_commit": "89059a90fa61532eaa5c9323885e041069a34568",
+          "completed_at": "2026-10-22T12:01:00+00:00"
         }
       ],
-      "updated_at": "2026-10-22T11:55:23+00:00"
+      "updated_at": "2026-10-22T12:01:00+00:00"
     }
   ],
   "claims": {
@@ -662,7 +717,7 @@
     "346": {
       "owner": "pkm-daily",
       "run": "2026-10-22-1",
-      "status": "held",
+      "status": "complete",
       "at": "2026-10-22T09:08:42+00:00"
     }
   },
