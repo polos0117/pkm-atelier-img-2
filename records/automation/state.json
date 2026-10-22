@@ -370,7 +370,7 @@
           "status": "working",
           "slots": {
             "light": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-22T11:11:01+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-22-1/346/light/prompt.txt",
@@ -380,12 +380,17 @@
                 "path": "records/automation/runs/2026-10-22-1/346/light/ui.json",
                 "sha256": "321c32ccb5012ed5e02849d27cbf00114b8501229f4ebe4ae5b0f0cdda22c30c"
               },
-              "references": {}
+              "references": {},
+              "image": {
+                "path": "records/automation/runs/2026-10-22-1/346/light/original.png",
+                "sha256": "3b00d4ca203f829186811815bf6bee7cb3ad18076f7a545e4bde049a3e778970"
+              },
+              "received_at": "2026-10-22T11:12:06+00:00"
             }
           }
         }
       ],
-      "updated_at": "2026-10-22T11:11:01+00:00"
+      "updated_at": "2026-10-22T11:12:07+00:00"
     }
   ],
   "claims": {
