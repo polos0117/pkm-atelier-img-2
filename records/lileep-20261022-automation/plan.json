@@ -1,0 +1,395 @@
+{
+  "session": "image-runner-2026-10-22-1-345",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "릴링",
+      "species": "lileep-20261022",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "rashguard_set",
+          "expr": "candid",
+          "pose": "sitting_floor",
+          "orient": "seated_twist",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "high-cut leg",
+            "plunging neckline"
+          ],
+          "lead": "place"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "lace_set",
+          "expr": "playful",
+          "pose": "leaning_wall",
+          "orient": "looking_away",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "lingerie_set"
+          ],
+          "expose": [
+            "side cutouts",
+            "halter neck"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "wildcard",
+          "ex": "rooftop_cinema",
+          "garments": [
+            "knit_top",
+            "trousers"
+          ],
+          "orient": "reaching_up",
+          "frame": "chest_up",
+          "pose": "stretching",
+          "expr": "exhausted",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "mini length",
+            "side cutouts"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": true,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "knit_top"
+        ],
+        "orient": [
+          "reaching_up"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "rashguard_set",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "pose": "sitting_floor",
+      "expr": "candid",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: a long-sleeve rashguard with a zip front over matching swim bottoms",
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "custom_inputs": {
+        "scene": "A sunlit tidal swimming terrace has shallow clear seawater and weathered stone steps; she tests the water with her fingertips during a rest between swims.",
+        "outfit": "Purple swim fabric with gold sea-lily motifs; the front zipper opens into a plunging neckline showing the collarbones and upper chest, paired with high-cut bottoms exposing the thighs.",
+        "reason": "Example specifies garment construction but no setting or activity; tidal stone terrace and testing water connect the scene to her ancient marine origin.",
+        "axes_reason": "Rest between swims supports mostly posed; gold sea-lily fabric pattern supplies strong source influence; matching swim pieces suit balanced separates."
+      },
+      "camera_reason": "Tool has no size field; required 1024x1536 via camera UI."
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "lace_set",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "looking_away",
+      "frame": "environmental",
+      "pose": "leaning_wall",
+      "expr": "playful",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "side cutouts",
+        "halter neck"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: a black lace lingerie set with a longline top, high-waisted bottoms, and geometric lace trim",
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "custom_inputs": {
+        "scene": "A folded linen sachet rests in her fingers as she puts it into an open cedar drawer in a warm amber dressing alcove beside a carved wooden screen.",
+        "outfit": "The longline lace top has a halter neckline exposing the shoulders and side cutouts exposing the waist; violet satin lining and fine gold edging complement the black lace.",
+        "reason": "Example has garments but no place or activity; putting a linen sachet into a cedar drawer adds a specific storage action, distinct from recent Dewott ribbon handling.",
+        "axes_reason": "Placing the sachet into the drawer supports balanced action; violet/gold trim retains balanced source influence; longline top and high-waisted bottom keep balanced separates."
+      },
+      "camera_reason": "Tool has no size field; required 1024x1536 via camera UI."
+    },
+    {
+      "cut": 3,
+      "cat": "wildcard",
+      "ex": "rooftop_cinema",
+      "garments": [
+        "knit_top",
+        "trousers"
+      ],
+      "orient": "reaching_up",
+      "frame": "chest_up",
+      "pose": "stretching",
+      "expr": "exhausted",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "side cutouts"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: at a rooftop cinema in a casual outfit, settling a blanket and snacks before the film",
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "custom_inputs": {
+        "scene": "A rooftop cinema overlooks the blue-hour skyline; popcorn and a folded wool blanket rest beside her chair as the projector warms up.",
+        "outfit": "A sleeveless knitted top of mini length has side cutouts exposing the waist and midriff above lightweight low-rise trousers; pale lilac yarn contrasts with charcoal fabric.",
+        "reason": "The cinema example does not specify time or skyline; blue-hour buildings and popcorn identify the setting without changing its blanket-and-snacks preparation.",
+        "axes_reason": "The stretching motion during film preparation supports mostly active; lilac knit gives balanced source influence; separate top and trousers visibly implement prefer separates."
+      },
+      "camera_reason": "Tool has no size field; required 1024x1536 via camera UI."
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed before each intent; three-image casual-look passed",
+  "replanning": [
+    "Excluded burkini_modest before any casual generation: incompatible exposure construction. Initial --keep on ungenerated 2/3 was replaced by full replan before calls.",
+    "After casual1/2 accepted, excluded futuristic_spa and observatory_night because actual example specifies robe/towel or warm coat inconsistent with planner knit_top+trousers. Retained generated 1/2 unchanged; rooftop_cinema compatible."
+  ]
+}

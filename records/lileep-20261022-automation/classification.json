@@ -1,0 +1,192 @@
+[
+  {
+    "slot": "light",
+    "file": "릴링_light_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/345/light/original.png",
+      "sha256": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+    },
+    "sha256": "fc18b90401c57f416ea1b48f93f75f8d14904a0da39605df702610a5fd2218ef",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {},
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "heavy",
+    "file": "릴링_heavy_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/345/heavy/original.png",
+      "sha256": "acd1153f52b92832e4cd3b6b320c3cf8aec52998420f71542ec982aacaddc37f"
+    },
+    "sha256": "3dc7a39204f1dfe9e1e776873948f2767782a00af756edb81d1ff907c0e38c73",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "mobility",
+    "file": "릴링_mobility_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/345/mobility/original.png",
+      "sha256": "ef9c8d796fa43519f08763f3f5ca850bc585e4468bb061e333a59d1bdd3c5f7a"
+    },
+    "sha256": "ce1dc5a42348f7843c24f2fafe7616d34a08035ed6a8c0a0f7b4a07fa7b6a120",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "light_overdrive",
+    "file": "릴링_light_overdrive_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/attempts/2/original.png",
+      "sha256": "47e9e51a0cf772e516729b7cdfae05f25bd61b3a2c79fa4baeca193d8892f190"
+    },
+    "sha256": "e5204cfb54854b2e0db8ef0bfe58e7cdb1d5dd5ac640e233fb3f5fc37561dcd8",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+    },
+    "acceptance_basis": "user_exception",
+    "exception": {
+      "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/attempts/2/user-exception.json",
+      "sha256": "72c9ba034b0c1c600204b42c0fb0d71c68f76197675a53034d4ff5236277de57"
+    }
+  },
+  {
+    "slot": "heavy_overdrive",
+    "file": "릴링_heavy_overdrive_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/345/heavy_overdrive/original.png",
+      "sha256": "f374fbd6c09651f85594a4e5c0f93b6e1a080146fb38f6a2375a14863bc7cc42"
+    },
+    "sha256": "83cdaba7cc931a18c4a9ef2958fbedc649c4a44d996433e84b523e731e763574",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "heavy": "acd1153f52b92832e4cd3b6b320c3cf8aec52998420f71542ec982aacaddc37f"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "mobility_overdrive",
+    "file": "릴링_mobility_overdrive_glossy_promo_f.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/345/mobility_overdrive/original.png",
+      "sha256": "743369b1391204e7b5689c3eb13266cf1484a2058e70f9d048f83ec004243628"
+    },
+    "sha256": "e60dd3257afce91eb4a2f1f18144e3338e5c6492bff37b6ce6e3fbbecc5b9701",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "mobility": "ef9c8d796fa43519f08763f3f5ca850bc585e4468bb061e333a59d1bdd3c5f7a"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "casual1",
+    "file": "릴링_glossy_promo_f_casual1.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/345/casual1/original.png",
+      "sha256": "a0ebd37a658a936746c4079d07f80615e36830ebb3d39f03da0a564590caaff3"
+    },
+    "sha256": "488c917fc0fe7c5b5a60ca814a6cf3c63fe2761cbca9a14927099e813098fb9d",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "casual2",
+    "file": "릴링_glossy_promo_f_casual2.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/345/casual2/original.png",
+      "sha256": "fc8fe8269a1855dcccd95d8dbace8fc2a23e48603354cb8340d01f5585ae33a1"
+    },
+    "sha256": "b1ada465a4a7976e9bd3c015c66c9752f27db8c17018e9519c5afb30dae9f1be",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  },
+  {
+    "slot": "casual3",
+    "file": "릴링_glossy_promo_f_casual3.webp",
+    "source": {
+      "path": "records/automation/runs/2026-10-22-1/345/casual3/original.png",
+      "sha256": "629757d7b4978fc2aad3163917c1b16727ceef78bb7558fffba254af8f004b26"
+    },
+    "sha256": "29cefdd38c4a482b54dc391afc25569fa7f538635603d1e47824d8228e32bbd5",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "style": "glossy_promo",
+    "style_evidence": "actual UI",
+    "references": {
+      "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+    },
+    "acceptance_basis": "visual_qa",
+    "exception": null
+  }
+]

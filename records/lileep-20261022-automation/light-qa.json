@@ -1,0 +1,38 @@
+{
+  "accepted": true,
+  "reviewer": "gpt",
+  "image_sha256": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478",
+  "observations": "1024×1536 단일 여성 인물. 머리와 양 발끝이 프레임 안에 있고 얼굴이 카메라를 향한다. 보라색 몸판과 황색 잎 모양 장갑, 긴 한 갈래 땋은 머리와 얇은 머리 장식. 손을 덮는 장갑과 다섯 손가락이 보이고 명백한 문자·로고·워터마크는 없다. 전신 경장으로 사용 가능하다.",
+  "face_reason": "바다나리의 가는 줄기와 빛나는 눈을 타원 얼굴과 큰 맑은 눈으로 해석한다. 황색 줄기는 긴 한 갈래 땋은 머리로 표현한다.",
+  "face_sources": [
+    "data/face-design.json:faces.345",
+    "data/source-appearance.json:entries.345",
+    "docs/CHARACTER_FACE_DESIGNS.md:345"
+  ],
+  "face_prompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; receding soft chin; open rounded eyes, large size, level outer corners, wide-set; fine soft arches; small delicate nose; small mouth.",
+  "compared_characters": [
+    "염무왕",
+    "뚜꾸리",
+    "차오꿀"
+  ],
+  "comparison_evidence": [
+    {
+      "card": "염무왕",
+      "file": "img/염무왕_light_glossy_promo_f.webp",
+      "sha256": "9c2e75c04525748fc36a9194d58ae0cd47b8c0574c23bbc776c8fabed11d9736"
+    },
+    {
+      "card": "뚜꾸리",
+      "file": "img/뚜꾸리_light_glossy_promo_f.webp",
+      "sha256": "27c1487db296ab5a7221a3e0f7c9f378dc43a37409f6864f882fe7016a9487bf"
+    },
+    {
+      "card": "차오꿀",
+      "file": "img/차오꿀_light_glossy_promo_f.webp",
+      "sha256": "1f58a45e2afb57b386af19645613373e563d220989f9abef311ad4f815b02181"
+    }
+  ],
+  "face_comparison": "릴링은 큰 둥근 눈과 가는 눈썹, 작은 입, 부드럽게 좁아지는 턱이다. 염무왕·차오꿀의 더 긴 눈과 강한 눈썹/성숙한 입 윤곽과 구별된다. 뚜꾸리보다 입이 작고 눈 사이가 넓으며 볼/턱의 선이 길게 이어진다. 색과 머리를 제외해도 눈·입·하관 차이를 확인했다.",
+  "same_family": "릴리요의 등록 경장/이미지가 없어 비교 가능한 기존 계열 정본은 없다. 이후 릴리요 생성 때 릴링과 비교한다.",
+  "scope": "light canonical accepted; remaining eight images ungenerated; dex unregistered"
+}

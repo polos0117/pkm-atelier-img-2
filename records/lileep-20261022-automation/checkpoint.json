@@ -1,0 +1,55 @@
+{
+  "card": "릴링",
+  "canonical": {
+    "path": "records/automation/runs/2026-10-22-1/345/light/original.png",
+    "sha256": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+  },
+  "run": "2026-10-22-1",
+  "accepted_slots": 9,
+  "qa_passed": 8,
+  "user_exception": {
+    "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/attempts/2/user-exception.json",
+    "sha256": "72c9ba034b0c1c600204b42c0fb0d71c68f76197675a53034d4ff5236277de57"
+  },
+  "prior_attempts_preserved": [
+    {
+      "status": "rejected",
+      "at": "2026-10-22T10:36:04+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/prompt.txt",
+        "sha256": "86aa9c4c5dfc53614771ebded9973d849492a98dddce804873829a12c703521a"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/ui.json",
+        "sha256": "8b0b66e1eac9bc448fc5bcb9bccca70924c24e1d7f0db8f4a94c97344a3f2772"
+      },
+      "references": {
+        "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/original.png",
+        "sha256": "469c0222904d1f7372913f671ae043a7548646ec9155c0c1dc13f01e2b1a0e90"
+      },
+      "received_at": "2026-10-22T10:37:17+00:00",
+      "slot": "light_overdrive",
+      "rejection_reason": "QA_FAILED light_overdrive sha256=469c0222904d1f7372913f671ae043a7548646ec9155c0c1dc13f01e2b1a0e90: compared actual restored light eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478 and result; face, pose and camera preserved, but original smooth upper-thigh bodysuit areas gained large additional layered plates instead of opening only existing plates. IMAGE_RULES section3 overdrive prohibits new armor. Original, prompt and UI preserved remotely; no retry or further generation per batch instructions.",
+      "qa": {
+        "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/rejected-qa.json",
+        "sha256": "c250adca358578785410a1c71e396076f7cfb37efa60512b2d01ae29726fceb2"
+      }
+    }
+  ],
+  "group_qa": {
+    "reviewer": "gpt",
+    "image_sha256": "629757d7b4978fc2aad3163917c1b16727ceef78bb7558fffba254af8f004b26",
+    "accepted": true,
+    "observations": {
+      "identity": "Same violet eyes, rounded face and purple bangs and braid; no armor.",
+      "scene": "Rooftop skyline, projection screen and operating projector, popcorn and blanket on chair clearly establish before-film cinema rest.",
+      "wardrobe": "Sleeveless lilac knitted mini top with side cutouts, exposed waist and midriff, charcoal trousers; separate casual clothing.",
+      "pose_frame": "Arms stretched overhead; tired drooping lids and parted mouth. Framing includes hips/trousers rather than chest-up, hands partially cropped at top; documented framing deviation, no visible malformed joints.",
+      "text": "No lettering or logo on screen, popcorn tub or clothing."
+    },
+    "diversity_comparison": "All three Lileep originals visually compared: tidal seated swim/rashguard with fingertips in water; standing full-length lace with sachet/drawer in warm wooden alcove; overhead stretch in knit/trousers at blue-hour rooftop cinema. Places, activities, garment shapes and composition differ. Latest Oshawott, Dewott and Samurott nine actual casuals inspected; no repeating combination with this rooftop stretch. Three-image casual-look check passed, nearest scores275/266/313 and no pair/registered image below threshold."
+  }
+}
