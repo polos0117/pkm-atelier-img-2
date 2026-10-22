@@ -1,0 +1,136 @@
+{
+ "date": "2026-10-22",
+ "author": "claude",
+ "atelier": "pkm",
+ "id": "lugia",
+ "form": "base",
+ "state": "react",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/lugia/raw/lugia_base_react_gen1.png",
+  "sha256": "fa4a04e0c84e6f4fd1c616e7baf4966a3378dd5e7c2d011f0e7cd2fe217bb026",
+  "by": "gpt",
+  "received_as": "1000024027.png"
+ },
+ "cleaned": {
+  "file": "sprites/lugia/lugia_base_react.png",
+  "sha1": "dd697ee4f640",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "--frames",
+   "4",
+   "--grid",
+   "2x2",
+   "--palette",
+   "sprites/lugia/lugia_base_still.png",
+   "--rows",
+   "121",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 4,
+  "foot_y": 126,
+  "colours": 24,
+  "frame": [
+   {
+    "box_px": [
+     116,
+     67,
+     491,
+     765
+    ],
+    "pitch": 5.67,
+    "size": [
+     66,
+     122
+    ],
+    "anchor_x": 31.47,
+    "dropped_specks": 0,
+    "at": [
+     17,
+     4
+    ]
+   },
+   {
+    "box_px": [
+     607,
+     67,
+     957,
+     765
+    ],
+    "pitch": 5.67,
+    "size": [
+     62,
+     123
+    ],
+    "anchor_x": 28.12,
+    "dropped_specks": 0,
+    "at": [
+     20,
+     3
+    ]
+   },
+   {
+    "box_px": [
+     139,
+     816,
+     510,
+     1498
+    ],
+    "pitch": 5.67,
+    "size": [
+     65,
+     116
+    ],
+    "anchor_x": 34.03,
+    "dropped_specks": 0,
+    "at": [
+     14,
+     10
+    ]
+   },
+   {
+    "box_px": [
+     613,
+     816,
+     951,
+     1498
+    ],
+    "pitch": 5.67,
+    "size": [
+     60,
+     120
+    ],
+    "anchor_x": 26.5,
+    "dropped_specks": 0,
+    "at": [
+     22,
+     6
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   120,
+   180,
+   320,
+   200
+  ]
+ },
+ "flip": {
+  "allowed": true
+ }
+}

@@ -46,3 +46,13 @@ img/thumb/<같은 이름>   목록용. 긴 변 512 — 워크플로가 만든다
 생성 전 예약을 모아 둔다. `pkm-atelier` 의 `tools/casual-ledger.py` 가 쓴다(손으로 고치지 않는다). 생성 전에
 `build` → `report` → `check` → `reserve` 하고 **장부 파일만** commit·push 한 뒤 생성한다. 순서와 조건은
 `pkm-atelier` 의 IMAGE_RULES.md 3절 "일상컷 장면 설정 순서" 0단계.
+
+## 도트
+
+```
+sprites/<이름>/<이름>_<폼>_<상태>.png          정리한 도트(칸 96×128, 상태 still · idle · walk · react). img/ 밖이라 썸네일·등록기가 읽지 않는다
+sprites/<이름>/raw/<이름>_<폼>_<상태>_genN.png  생성 원본 그대로(지우지 않는다)
+records/sprites/<이름>/<상태>.json              정리 기록 — 원본 sha256 · 정리본 sha1 · 정리 인자 · 재생
+```
+
+만드는 곳은 공방 모음의 도트 공방(`polos0117.github.io/dot.html`), 세우는 자료는 코드 저장소 `pkm-atelier` 의 `data/sprites.json`(인물 칸 — card 는 카드 이름).

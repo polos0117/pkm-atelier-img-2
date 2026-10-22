@@ -1,0 +1,188 @@
+{
+ "date": "2026-10-22",
+ "author": "claude",
+ "atelier": "pkm",
+ "id": "lugia",
+ "form": "base",
+ "state": "walk",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/lugia/raw/lugia_base_walk_gen1.png",
+  "sha256": "15933595b230cf2d53a2add11043b8a89ccf750fc2ff07bd2204faa0691e649f",
+  "by": "gpt",
+  "received_as": "1000024024.png"
+ },
+ "cleaned": {
+  "file": "sprites/lugia/lugia_base_walk.png",
+  "sha1": "9448b9352d36",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "--frames",
+   "6",
+   "--grid",
+   "3x2",
+   "--palette",
+   "sprites/lugia/lugia_base_still.png",
+   "--rows",
+   "121",
+   "--speck",
+   "40",
+   "--cell",
+   "96x128"
+  ],
+  "cell": [
+   96,
+   128
+  ],
+  "frames": 6,
+  "foot_y": 126,
+  "colours": 24,
+  "frame": [
+   {
+    "box_px": [
+     32,
+     83,
+     353,
+     740
+    ],
+    "pitch": 5.3,
+    "size": [
+     61,
+     124
+    ],
+    "anchor_x": 29.3,
+    "dropped_specks": 0,
+    "at": [
+     19,
+     2
+    ]
+   },
+   {
+    "box_px": [
+     364,
+     83,
+     679,
+     740
+    ],
+    "pitch": 5.3,
+    "size": [
+     59,
+     121
+    ],
+    "anchor_x": 29.13,
+    "dropped_specks": 0,
+    "at": [
+     19,
+     5
+    ]
+   },
+   {
+    "box_px": [
+     694,
+     83,
+     1012,
+     740
+    ],
+    "pitch": 5.3,
+    "size": [
+     60,
+     124
+    ],
+    "anchor_x": 30.03,
+    "dropped_specks": 0,
+    "at": [
+     18,
+     2
+    ]
+   },
+   {
+    "box_px": [
+     17,
+     817,
+     360,
+     1459
+    ],
+    "pitch": 5.3,
+    "size": [
+     65,
+     120
+    ],
+    "anchor_x": 32.32,
+    "dropped_specks": 0,
+    "at": [
+     16,
+     6
+    ]
+   },
+   {
+    "box_px": [
+     370,
+     817,
+     691,
+     1459
+    ],
+    "pitch": 5.3,
+    "size": [
+     60,
+     119
+    ],
+    "anchor_x": 29.78,
+    "dropped_specks": 0,
+    "at": [
+     18,
+     7
+    ]
+   },
+   {
+    "box_px": [
+     706,
+     817,
+     1012,
+     1459
+    ],
+    "pitch": 5.3,
+    "size": [
+     58,
+     121
+    ],
+    "anchor_x": 28.88,
+    "dropped_specks": 0,
+    "at": [
+     19,
+     5
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "ms": [
+   200,
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "speed": 88,
+  "dy": [
+   2,
+   0.67,
+   1,
+   -1.67,
+   -0.67,
+   -1.33
+  ],
+  "stride": 53
+ },
+ "flip": {
+  "allowed": true
+ }
+}
