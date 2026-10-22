@@ -1,17 +1,17 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-castform-kecleon-20261023",
- "at": "2026-10-22T14:26:39-07:00",
+ "at": "2026-10-22T14:30:00-07:00",
  "characters": [
   {
    "species": "castform-20261023",
    "card": "캐스퐁",
-   "at": "2026-10-22T14:26:39-07:00",
+   "at": "2026-10-22T14:30:00-07:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "everyday_basic",
-     "ex": "midnight_laundromat",
+     "cat": "traditional",
+     "ex": "huipil_modern",
      "expr": "focused",
      "pose": "leaning_furniture",
      "orient": "front_3q",
@@ -21,17 +21,17 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "strong",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "dress"
+      "traditional"
      ],
      "expose": [
       "high thigh slit",
-      "halter neck"
+      "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 2,
@@ -56,39 +56,40 @@
       "plunging neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "homewear",
-     "ex": "one_shoulder_lounge",
+     "cat": "private_evening",
+     "ex": "one_shoulder_satin",
      "expr": "soft_smile",
-     "pose": "on_tiptoe",
+     "pose": "contrapposto",
      "orient": "leaning_forward",
      "frame": "three_quarter",
-     "lens": "wide24",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "robe"
+      "dress"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "one-shoulder cut"
+      "halter neck",
+      "plunging neckline"
      ],
-     "lead": "light"
+     "lead": "action"
     }
    ]
   },
   {
    "species": "kecleon-20261023",
    "card": "켈리몬",
-   "at": "2026-10-22T14:26:39-07:00",
+   "at": "2026-10-22T14:30:00-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -113,7 +114,8 @@
       "mini length",
       "cropped hem"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -138,32 +140,34 @@
       "high-cut leg",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "traditional",
-     "ex": "abaya_modern",
+     "cat": "everyday_basic",
+     "ex": "bookstore",
      "expr": "curious",
-     "pose": "hands_in_hair",
+     "pose": "on_tiptoe",
      "orient": "reaching_up",
      "frame": "full_body",
-     "lens": "portrait85",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "traditional"
+      "shirt",
+      "skirt"
      ],
      "expose": [
-      "high thigh slit",
-      "off-shoulder neckline"
+      "mini length",
+      "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "place"
     }
    ]
   }
