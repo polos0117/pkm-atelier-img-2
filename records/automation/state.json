@@ -48,6 +48,21 @@
                 "path": "records/automation/runs/2026-10-22-1/345/light/qa.json",
                 "sha256": "57894787b64de3d80e3d6e1e861a6ba806c81369fa1cf78f8ad736c143ad562a"
               }
+            },
+            "heavy": {
+              "status": "in_flight",
+              "at": "2026-10-22T10:31:45+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-22-1/345/heavy/prompt.txt",
+                "sha256": "d1746cbf8ad64b6342f5f545f8fb66d0a4cdeb21377017d6a6592c43f282edc1"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-22-1/345/heavy/ui.json",
+                "sha256": "2c5b86653199309566ad317312329e5908f892686032ac889dc7b3d950f92537"
+              },
+              "references": {
+                "light": "eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478"
+              }
             }
           }
         },
@@ -59,7 +74,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T10:31:02+00:00"
+      "updated_at": "2026-10-22T10:31:45+00:00"
     }
   ],
   "claims": {
@@ -223,14 +238,14 @@
       "card": "쌍검자비",
       "session": "dewott-samurott-20261022-6ed4",
       "file": "records/casual-reservations/dewott-samurott-20261022-6ed4.json",
-      "at": "2026-10-22T03:26:36-07:00",
+      "at": "2026-10-22T03:30:33-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "503": {
       "card": "대검귀",
       "session": "dewott-samurott-20261022-6ed4",
       "file": "records/casual-reservations/dewott-samurott-20261022-6ed4.json",
-      "at": "2026-10-22T03:26:36-07:00",
+      "at": "2026-10-22T03:30:33-07:00",
       "status": "external_reservation_do_not_take_over"
     }
   }
