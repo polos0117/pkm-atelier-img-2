@@ -1,56 +1,31 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-gastrodon-ambipom-20261022",
- "at": "2026-10-21T17:51:03-07:00",
+ "at": "2026-10-21T18:00:09-07:00",
  "characters": [
   {
    "species": "gastrodon-20261022",
    "card": "트리토돈",
-   "at": "2026-10-21T17:51:03-07:00",
+   "at": "2026-10-21T18:00:09-07:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "lingerie",
-     "ex": "lace_set",
-     "expr": "half_smile",
-     "pose": "turning_back",
-     "orient": "three_quarter_back",
-     "frame": "full_body",
-     "lens": "telephoto135",
+     "ex": "back_strap",
+     "expr": "smug",
+     "pose": "on_tiptoe",
+     "orient": "reaching_up",
+     "frame": "chest_up",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "balanced",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
       "lingerie_set"
-     ],
-     "expose": [
-      "plunging neckline",
-      "open back"
-     ],
-     "lead": "light"
-    },
-    {
-     "cut": 2,
-     "cat": "swimwear",
-     "ex": "swim_coverup",
-     "expr": "soft_smile",
-     "pose": "dance_step",
-     "orient": "over_shoulder",
-     "frame": "chest_up",
-     "lens": "wide24",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "strong",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "swimsuit"
      ],
      "expose": [
       "bare midriff",
@@ -59,98 +34,39 @@
      "lead": "detail"
     },
     {
-     "cut": 3,
-     "cat": "partner_care",
-     "ex": "care_nap",
+     "cut": 2,
+     "cat": "wildcard",
+     "ex": "retro_motel",
      "expr": "laughing",
-     "pose": "sitting_floor",
-     "orient": "reclining",
-     "frame": "environmental",
-     "lens": "documentary35",
+     "pose": "small_jog",
+     "orient": "leaning_forward",
+     "frame": "waist_up",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "strong",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "tank",
-      "trousers"
-     ],
-     "expose": [
-      "one-shoulder cut",
-      "side cutouts"
-     ],
-     "lead": "action"
-    }
-   ]
-  },
-  {
-   "species": "ambipom-20261022",
-   "card": "겟핸보숭",
-   "at": "2026-10-21T17:51:03-07:00",
-   "cuts": [
-    {
-     "cut": 1,
-     "cat": "source_editorial",
-     "ex": "couture_gala",
-     "expr": "cold_smile",
-     "pose": "arms_crossed",
-     "orient": "low_angle",
-     "frame": "three_quarter",
-     "lens": "telephoto135",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "jumpsuit"
+      "overalls"
      ],
      "expose": [
-      "strapless top",
-      "mini length"
+      "open back",
+      "one-shoulder cut"
      ],
      "lead": "light"
     },
     {
-     "cut": 2,
-     "cat": "adult_roleplay",
-     "ex": "adult_police",
-     "expr": "flustered",
-     "pose": "one_knee_up",
-     "orient": "crouching",
-     "frame": "full_body",
-     "lens": "wide24",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "strong",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "shirt",
-      "skirt"
-     ],
-     "expose": [
-      "off-shoulder neckline",
-      "cropped hem"
-     ],
-     "lead": "detail"
-    },
-    {
      "cut": 3,
-     "cat": "hobbies_leisure",
-     "ex": "hobby_photo",
-     "expr": "nostalgic",
-     "pose": "taking_photo",
-     "orient": "rear_3q",
-     "frame": "waist_up",
-     "lens": "documentary35",
+     "cat": "swimwear",
+     "ex": "cabana_daybed",
+     "expr": "sensual",
+     "pose": "holding_cup",
+     "orient": "front_3q",
+     "frame": "environmental",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -159,13 +75,98 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "jumpsuit"
+      "bikini"
      ],
      "expose": [
-      "high thigh slit",
+      "high-cut leg",
       "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "action"
+    }
+   ]
+  },
+  {
+   "species": "ambipom-20261022",
+   "card": "겟핸보숭",
+   "at": "2026-10-21T18:00:09-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "hobbies_leisure",
+     "ex": "hobby_reading",
+     "expr": "wistful",
+     "pose": "one_knee_up",
+     "orient": "crouching",
+     "frame": "chest_up",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "knit_top",
+      "skirt"
+     ],
+     "expose": [
+      "cropped hem",
+      "strapless top"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "cat": "occupation_basic",
+     "ex": "field_surveyor",
+     "expr": "half_smile",
+     "pose": "checking_map",
+     "orient": "low_angle",
+     "frame": "three_quarter",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "skirt",
+      "vest"
+     ],
+     "expose": [
+      "mini length",
+      "off-shoulder neckline"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "adult_roleplay",
+     "ex": "adult_police",
+     "expr": "provocative",
+     "pose": "turning_back",
+     "orient": "turning_midmotion",
+     "frame": "full_body",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt",
+      "skirt"
+     ],
+     "expose": [
+      "bare midriff",
+      "side cutouts"
+     ],
+     "lead": "detail"
     }
    ]
   }
