@@ -1,0 +1,117 @@
+{
+ "card": "수댕이",
+ "sizes": "All nine 1024x1536 WebP quality85 method6",
+ "canonical_face": "Round cheeks, small nose and mouth, blue eyes; short silver-blue soft curls. Visually distinct from Emboar angular brows, heavier jaw and long red-black hair. The rendered hair is soft wavy curls rather than the proposed tight curls; canonical image takes priority.",
+ "forms": {
+  "light": "Human face and natural adult proportions. White/navy/gold slim armor, split tail sash; head and both boots fit. Open gloves show five digits on each side.",
+  "heavy": "Layered shoulder, forearm, hip and shin plates; same face and short curls.",
+  "mobility": "Fan-shaped swept fins and narrow armor outline, same face; neither wings nor handheld weapon.",
+  "overdrive": "All three keep closed-form face, pose, perspective and boot locations; white plates hinge apart to blue inner-frame glow."
+ },
+ "casuals": [
+  {
+   "cut": 1,
+   "identity": {
+    "match": true,
+    "evidence": "Short silver-blue curls, blue eyes, round cheeks and small lips remain."
+   },
+   "hands_legs": {
+    "match": true,
+    "evidence": "Raised palm has a thumb and four fingers; supporting hand rests on the cushion. Two bent legs and two feet overlap naturally on a floor cushion."
+   },
+   "activity": {
+    "match": true,
+    "evidence": "She lounges sideways on a large tufted round cushion and waves beside a low tea table."
+   },
+   "outfit": {
+    "match": true,
+    "evidence": "Pale blue patterned robe falls below the shoulders; slit reveals thigh and legs."
+   },
+   "pose_orientation_expression": {
+    "match": false,
+    "evidence": "She turns back over her shoulder with raised palm and a gentle smile rather than a cold smile."
+   },
+   "framing": {
+    "match": false,
+    "evidence": "Full seated figure fills most of frame rather than an environmental wide view."
+   },
+   "text_people": {
+    "match": true,
+    "evidence": "One adult woman; tea ceramics are decorated with floral motifs, not letters."
+   }
+  },
+  {
+   "cut": 2,
+   "identity": {
+    "match": true,
+    "evidence": "Same short curls, cheek shape and blue eyes; serious brows and slightly parted mouth."
+   },
+   "hands": {
+    "match": true,
+    "evidence": "Raised dance wrist and lower hand have separate natural digit silhouettes after targeted correction; the lowered fingertips are near the left edge, with perspective overlap."
+   },
+   "activity": {
+    "match": true,
+    "evidence": "Wooden dance floor, ballet barre and curtains, with one arm raised and torso extending through a dance motion."
+   },
+   "outfit": {
+    "match": false,
+    "evidence": "Longline white/navy bra set and matching high-waist bottoms are present with flowing sheer side drapes; the proposed slip is interpreted as drapes, not a separate slip."
+   },
+   "pose_orientation_expression": {
+    "match": true,
+    "evidence": "Torso in front three-quarter angle, raised dance arm, focused serious expression."
+   },
+   "framing": {
+    "match": false,
+    "evidence": "Image extends below hips instead of chest-up."
+   },
+   "text_people": {
+    "match": true,
+    "evidence": "No other figure, words or labels in the dance studio."
+   }
+  },
+  {
+   "cut": 3,
+   "identity": {
+    "match": true,
+    "evidence": "Short silver-blue curls and blue eyes remain; small confident half smile."
+   },
+   "hands_legs": {
+    "match": true,
+    "evidence": "Bottle-holding hand wraps four fingers around the glass with opposed thumb; other arm reaches to the refrigerator door, fingertips partly occluded by its edge. Hip-to-thigh contours are continuous."
+   },
+   "activity": {
+    "match": true,
+    "evidence": "Open refrigerator at night, chilled bottle in her hand and refrigerator light across her arm."
+   },
+   "outfit": {
+    "match": true,
+    "evidence": "Navy halter short jumpsuit has open back and ivory shell waist button."
+   },
+   "pose_orientation_expression": {
+    "match": false,
+    "evidence": "She turns toward the camera rather than looking down."
+   },
+   "framing": {
+    "match": true,
+    "evidence": "Head through upper thighs."
+   },
+   "text_people": {
+    "match": false,
+    "evidence": "Small indistinct bottle label markings remain in refrigerator background; preserved under user standing preference allowing labels. No second person."
+   }
+  }
+ ],
+ "diversity": {
+  "match": true,
+  "evidence": "Floor cushion lounging with robe, studio dance with bra set and drapes, night refrigerator with short jumpsuit have different activities, settings and silhouettes. Compared visually with Emboar and recent casual contact sheet; wasm scores above 215."
+ },
+ "correction": {
+  "cut": 2,
+  "issue": "Raised dance hand fingers overlapped; lower hand partly outside frame.",
+  "change": "Only custom field added for a targeted two-hand correction, first attachment scene and second canonical light. Planned selection values unchanged.",
+  "original_source": "generated_images/exec-6677fdf9-bf72-4021-8f88-bcde91daed1e.png"
+ },
+ "skipped": []
+}

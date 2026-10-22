@@ -1,0 +1,504 @@
+{
+ "session": "emboar-oshawott-20261022-18aa",
+ "planner": "tools/casual-plan.cjs",
+ "casual_plan": [
+  {
+   "kept": true,
+   "cut": 1,
+   "cat": "homewear",
+   "ex": "floor_cushion",
+   "expr": "cold_smile",
+   "pose": "waving",
+   "orient": "over_shoulder",
+   "frame": "environmental",
+   "lens": "portrait85",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "balanced",
+    "separates_preference": "balanced"
+   },
+   "garments": [
+    "robe"
+   ],
+   "expose": [
+    "strapless top",
+    "high thigh slit"
+   ],
+   "lead": "action",
+   "example_text": "Example scene: lounging against big floor cushions in soft homewear",
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "Waving a greeting from a round floor cushion beside the low table, with a half-open balcony door letting in a sea breeze.",
+     "reason": "Adds the action detail absent from floor_cushion without changing its activity."
+    },
+    {
+     "field": "outfit",
+     "content": "A pale-blue wrap robe has a strapless folded neckline and a high thigh slit, leaving her shoulders and one leg uncovered.",
+     "reason": "Expresses planned robe with strapless top and high thigh slit."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "Image tool has no separate size field."
+    }
+   ],
+   "axes_reasons": [
+    "Greeting with a waving hand provides active gesture despite seated body.",
+    "Pale blue pattern echoes the source in a balanced way.",
+    "One wrap robe is balanced one-piece clothing."
+   ]
+  },
+  {
+   "kept": true,
+   "cut": 2,
+   "cat": "lingerie",
+   "ex": "longline_bra",
+   "expr": "serious",
+   "pose": "dance_step",
+   "orient": "front_3q",
+   "frame": "chest_up",
+   "lens": "telephoto135",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "subtle",
+    "separates_preference": "balanced"
+   },
+   "garments": [
+    "slip"
+   ],
+   "expose": [
+    "one-shoulder cut",
+    "plunging neckline"
+   ],
+   "lead": "place",
+   "example_text": "Example scene: a longline bra set with a wide supportive underband and matching high-waisted bottoms",
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "A fitting studio with tall fabric curtains and a polished wooden rehearsal floor surrounds her dance practice.",
+     "reason": "Adds the place detail absent from longline_bra without changing its activity."
+    },
+    {
+     "field": "outfit",
+     "content": "The longline set has a matching short one-shoulder slip with a plunging neckline, leaving her collarbones and shoulder bare.",
+     "reason": "Expresses planned slip with one-shoulder cut and plunging neckline."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "Image tool has no separate size field."
+    }
+   ],
+   "axes_reasons": [
+    "The ongoing dance-step gesture is mostly active.",
+    "White/navy fashion without species hardware uses subtle influence.",
+    "Coordinated set and proposed slip use balanced garment structure."
+   ],
+   "correction": {
+    "cut": 2,
+    "issue": "Raised dance hand fingers overlapped; lower hand partly outside frame.",
+    "change": "Only custom field added for a targeted two-hand correction, first attachment scene and second canonical light. Planned selection values unchanged.",
+    "original_source": "generated_images/exec-6677fdf9-bf72-4021-8f88-bcde91daed1e.png"
+   }
+  },
+  {
+   "kept": true,
+   "cut": 3,
+   "cat": "everyday_sensual",
+   "ex": "fridge_light",
+   "expr": "smug",
+   "pose": "standing_formal",
+   "orient": "looking_down",
+   "frame": "three_quarter",
+   "lens": "wide24",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "balanced",
+    "separates_preference": "balanced"
+   },
+   "garments": [
+    "jumpsuit"
+   ],
+   "expose": [
+    "open back",
+    "halter neck"
+   ],
+   "lead": "detail",
+   "example_text": "Example scene: standing at the open refrigerator late at night, lit only by its interior light",
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "A chilled glass bottle rests in her hand beside the refrigerator shelf.",
+     "reason": "Adds the detail detail absent from fridge_light without changing its activity."
+    },
+    {
+     "field": "outfit",
+     "content": "A navy halter short jumpsuit with an open back exposes her shoulders and back, with a small ivory shell button at the waist.",
+     "reason": "Expresses planned jumpsuit with open back and halter neck."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "Image tool has no separate size field."
+    }
+   ],
+   "axes_reasons": [
+    "A held bottle at the open refrigerator is a mostly posed pause.",
+    "Navy with a shell waist button retains balanced source influence.",
+    "A one-piece short jumpsuit fits balanced separates preference."
+   ]
+  }
+ ],
+ "batch_plan": {
+  "session": "emboar-oshawott-20261022-18aa",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "염무왕",
+    "species": "emboar-20261022",
+    "cuts": [
+     {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "swim_coverup",
+      "garments": [
+       "swimsuit"
+      ],
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "pose": "standing_relaxed",
+      "expr": "flustered",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "high-cut leg",
+       "side cutouts"
+      ],
+      "lead": "action",
+      "example_text": "Example scene: swimwear worn under an open gauzy cover-up, tied loosely at the hip",
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "content": "Adjusting the tie of a cover-up beside a beach-club cabana after swimming, with late-afternoon sun crossing the deck.",
+        "reason": "Adds the action detail absent from swim_coverup without changing its activity."
+       },
+       {
+        "field": "outfit",
+        "content": "A burgundy high-cut swimsuit has side cutouts exposing her waist, with a light cover-up tied at the hips and bare thighs below it.",
+        "reason": "Expresses planned swimsuit with high-cut leg and side cutouts."
+       },
+       {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no separate size field."
+       }
+      ]
+     },
+     {
+      "kept": true,
+      "cut": 2,
+      "cat": "active",
+      "ex": "warmup",
+      "expr": "nostalgic",
+      "pose": "small_jog",
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "garments": [
+       "leggings",
+       "tank"
+      ],
+      "expose": [
+       "one-shoulder cut",
+       "open back"
+      ],
+      "lead": "action",
+      "example_text": "Example scene: warming up before training in a sports bra and leggings, swinging her arms and stretching her legs",
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "content": "Warming up with short jogging steps along an outdoor athletics lane before a morning training session.",
+        "reason": "Adds the action detail absent from warmup without changing its activity."
+       },
+       {
+        "field": "outfit",
+        "content": "A red one-shoulder open-back athletic bra tank and black fitted leggings expose one shoulder and the upper back; a small gold flame tab finishes the hem.",
+        "reason": "Expresses planned leggings+tank with one-shoulder cut and open back."
+       },
+       {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no separate size field."
+       }
+      ]
+     },
+     {
+      "kept": true,
+      "cut": 3,
+      "cat": "food_berries",
+      "ex": "food_tea",
+      "expr": "surprised",
+      "pose": "preparing_food",
+      "orient": "front",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "garments": [
+       "blouse",
+       "shorts"
+      ],
+      "expose": [
+       "mini length",
+       "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "Example scene: Pouring warm berry tea into a cup at a small kitchen table with a teapot and sliced fruit.",
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "content": "Early sunlight catches steam above the small kitchen table and the cut surfaces of ripe berries.",
+        "reason": "Adds the light detail absent from food_tea without changing its activity."
+       },
+       {
+        "field": "outfit",
+        "content": "A soft yellow off-shoulder blouse and black mini shorts leave her shoulders, collarbones and legs bare.",
+        "reason": "Expresses planned blouse+shorts with mini length and off-shoulder neckline."
+       },
+       {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no separate size field."
+       }
+      ]
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       1
+      ],
+      "two": false,
+      "prev": [
+       2,
+       3
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_sensual",
+      "partner_care",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "active",
+      "homewear",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [],
+     "orient": [
+      "reaching_up"
+     ],
+     "frame": []
+    }
+   },
+   {
+    "card": "수댕이",
+    "species": "oshawott-20261022",
+    "cuts": [
+     {
+      "kept": true,
+      "cut": 1,
+      "cat": "homewear",
+      "ex": "floor_cushion",
+      "expr": "cold_smile",
+      "pose": "waving",
+      "orient": "over_shoulder",
+      "frame": "environmental",
+      "lens": "portrait85",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "robe"
+      ],
+      "expose": [
+       "strapless top",
+       "high thigh slit"
+      ],
+      "lead": "action",
+      "example_text": "Example scene: lounging against big floor cushions in soft homewear",
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "content": "Waving a greeting from a round floor cushion beside the low table, with a half-open balcony door letting in a sea breeze.",
+        "reason": "Adds the action detail absent from floor_cushion without changing its activity."
+       },
+       {
+        "field": "outfit",
+        "content": "A pale-blue wrap robe has a strapless folded neckline and a high thigh slit, leaving her shoulders and one leg uncovered.",
+        "reason": "Expresses planned robe with strapless top and high thigh slit."
+       },
+       {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no separate size field."
+       }
+      ]
+     },
+     {
+      "kept": true,
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "longline_bra",
+      "expr": "serious",
+      "pose": "dance_step",
+      "orient": "front_3q",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "slip"
+      ],
+      "expose": [
+       "one-shoulder cut",
+       "plunging neckline"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: a longline bra set with a wide supportive underband and matching high-waisted bottoms",
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "content": "A fitting studio with tall fabric curtains and a polished wooden rehearsal floor surrounds her dance practice.",
+        "reason": "Adds the place detail absent from longline_bra without changing its activity."
+       },
+       {
+        "field": "outfit",
+        "content": "The longline set has a matching short one-shoulder slip with a plunging neckline, leaving her collarbones and shoulder bare.",
+        "reason": "Expresses planned slip with one-shoulder cut and plunging neckline."
+       },
+       {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no separate size field."
+       }
+      ]
+     },
+     {
+      "kept": true,
+      "cut": 3,
+      "cat": "everyday_sensual",
+      "ex": "fridge_light",
+      "expr": "smug",
+      "pose": "standing_formal",
+      "orient": "looking_down",
+      "frame": "three_quarter",
+      "lens": "wide24",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "jumpsuit"
+      ],
+      "expose": [
+       "open back",
+       "halter neck"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: standing at the open refrigerator late at night, lit only by its interior light",
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "content": "A chilled glass bottle rests in her hand beside the refrigerator shelf.",
+        "reason": "Adds the detail detail absent from fridge_light without changing its activity."
+       },
+       {
+        "field": "outfit",
+        "content": "A navy halter short jumpsuit with an open back exposes her shoulders and back, with a small ivory shell button at the waist.",
+        "reason": "Expresses planned jumpsuit with open back and halter neck."
+       },
+       {
+        "field": "camera",
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no separate size field."
+       }
+      ]
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [],
+      "two": false,
+      "prev": [
+       1
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_sensual",
+      "partner_care",
+      "travel_exploration",
+      "festivals_contests",
+      "hobbies_leisure",
+      "homewear",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [],
+     "orient": [],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "check": "Passed tools/casual-ledger.py check before generation",
+ "reservation_commit": "83fd58dc9f53d3da96a98068c8af0597e434497d"
+}
