@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "dewott-samurott-20261022-6ed4",
- "at": "2026-10-22T03:23:35-07:00",
+ "at": "2026-10-22T03:26:36-07:00",
  "characters": [
   {
    "species": "dewott-20261022",
    "card": "쌍검자비",
-   "at": "2026-10-22T03:23:35-07:00",
+   "at": "2026-10-22T03:26:36-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -33,7 +33,8 @@
       "cropped hem",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -58,17 +59,18 @@
       "bare midriff",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "wildcard",
-     "ex": "futuristic_spa",
-     "expr": "exhausted",
+     "ex": "desert_resort",
+     "expr": "mildly_annoyed",
      "pose": "cross_legged",
      "orient": "reclining",
      "frame": "environmental",
-     "lens": "portrait85",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -80,17 +82,17 @@
       "overalls"
      ],
      "expose": [
-      "mini length",
-      "side cutouts"
+      "cropped hem",
+      "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "light"
     }
    ]
   },
   {
    "species": "samurott-20261022",
    "card": "대검귀",
-   "at": "2026-10-22T03:23:35-07:00",
+   "at": "2026-10-22T03:26:36-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -116,7 +118,8 @@
       "cropped hem",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -142,7 +145,8 @@
       "bare midriff",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -167,7 +171,8 @@
       "open back",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ]
   }
