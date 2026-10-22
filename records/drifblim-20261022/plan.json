@@ -1,0 +1,622 @@
+{
+ "batch": {
+  "session": "drifloon-drifblim-812f36",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "흔들풍손",
+    "species": "drifloon-20261022",
+    "cuts": [
+     {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "triangle_bikini",
+      "garments": [
+       "bikini"
+      ],
+      "orient": "front",
+      "frame": "chest_up",
+      "pose": "bending_over",
+      "expr": "candid",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "side cutouts",
+       "strapless top"
+      ],
+      "lead": "light"
+     },
+     {
+      "cut": 2,
+      "cat": "homewear",
+      "ex": "hoodie_shorts",
+      "garments": [
+       "shorts",
+       "sweater"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "environmental",
+      "pose": "walking",
+      "expr": "playful",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "cropped hem",
+       "mini length"
+      ],
+      "lead": "action"
+     },
+     {
+      "cut": 3,
+      "cat": "everyday_sensual",
+      "ex": "late_snack",
+      "garments": [
+       "jumpsuit"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "pose": "mid_action",
+      "expr": "curious",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "off-shoulder neckline",
+       "plunging neckline"
+      ],
+      "lead": "place"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       1
+      ],
+      "two": false,
+      "prev": [
+       2,
+       3
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_sensual",
+      "partner_care",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "active",
+      "source_editorial",
+      "homewear",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "bikini",
+      "shorts",
+      "sweater",
+      "jumpsuit"
+     ],
+     "orient": [
+      "front",
+      "three_quarter_back",
+      "turning_midmotion"
+     ],
+     "frame": []
+    }
+   },
+   {
+    "card": "둥실라이드",
+    "species": "drifblim-20261022",
+    "cuts": [
+     {
+      "cut": 1,
+      "cat": "occupation_basic",
+      "ex": "drone_operator",
+      "garments": [
+       "apron",
+       "skirt"
+      ],
+      "orient": "front_3q",
+      "frame": "full_body",
+      "pose": "taking_photo",
+      "expr": "determined",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "bare midriff",
+       "open back"
+      ],
+      "lead": "detail",
+      "scene": "The camera's rear image screen shows the wetland reeds she has just recorded; the field map is pinned under a smooth stone in the early morning breeze.",
+      "outfit": "A violet backless apron-style crop top tied around her waist and a charcoal wrap skirt leave her midriff and upper back exposed; flat field sandals.",
+      "example_text": "Pokémon habitat photographer reviewing camera images beside a tripod and marked field map at a wetland lookout.",
+      "randomization": {
+       "source": "tools/casual-plan.cjs",
+       "manual_selection_changes": false,
+       "seed": "drifloon-drifblim-812f36"
+      },
+      "locked": [
+       "cat",
+       "ex",
+       "expr",
+       "pose",
+       "orient",
+       "frame",
+       "lens",
+       "aspect",
+       "overall_intensity",
+       "skin_exposure",
+       "action_level",
+       "source_influence",
+       "separates_preference"
+      ],
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "value": "The camera's rear image screen shows the wetland reeds she has just recorded; the field map is pinned under a smooth stone in the early morning breeze.",
+        "reason": "예시에 없는 구체 활동·소품·빛을 이 장면에 맞게 보완: The camera's rear image screen shows the wetland reeds she has just recorded; the field map is pinned under a smooth stone in the early morning breeze."
+       },
+       {
+        "field": "outfit",
+        "value": "A violet backless apron-style crop top tied around her waist and a charcoal wrap skirt leave her midriff and upper back exposed; flat field sandals.",
+        "reason": "계획기가 지정한 옷 종류와 드러내는 방식을 색·소재·구조로 구체화: A violet backless apron-style crop top tied around her waist and a charcoal wrap skirt leave her midriff and upper back exposed; flat field sandals."
+       },
+       {
+        "field": "camera",
+        "value": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "이미지 도구에 크기 설정 인수가 없어 규칙의 2:3 안내문을 카메라 칸에 넣음"
+       }
+      ],
+      "axes_reason": {
+       "action_level": "The camera's rear image screen shows the wetland reeds she has just recorded; the field map is pinned under a smooth stone in the early morning breeze. — 선택한 동작 비중 balanced",
+       "source_influence": "A violet backless apron-style crop top tied around her waist and a charcoal wrap skirt leave her midriff and upper back exposed; flat field sandals. — 원작 영향도 subtle",
+       "separates_preference": "apron+skirt 구조에 맞춘 prefer separates"
+      }
+     },
+     {
+      "cut": 2,
+      "cat": "wildcard",
+      "ex": "greenhouse_afterdark",
+      "garments": [
+       "knit_top",
+       "skirt"
+      ],
+      "orient": "looking_down",
+      "frame": "environmental",
+      "pose": "stretching",
+      "expr": "unimpressed",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "side cutouts",
+       "cropped hem"
+      ],
+      "lead": "action",
+      "scene": "Stretching to reach the high hanging fern, she brushes dew from its broad leaf beside a glass aisle lit by cool blue moonlight.",
+      "outfit": "An ivory cropped knit top with curved side cutouts and a deep violet short wrap skirt reveal her waist and thighs.",
+      "example_text": "in a greenhouse at night in a light cardigan and skirt, watering plants by lamp light",
+      "randomization": {
+       "source": "tools/casual-plan.cjs",
+       "manual_selection_changes": false,
+       "seed": "drifloon-drifblim-812f36"
+      },
+      "locked": [
+       "cat",
+       "ex",
+       "expr",
+       "pose",
+       "orient",
+       "frame",
+       "lens",
+       "aspect",
+       "overall_intensity",
+       "skin_exposure",
+       "action_level",
+       "source_influence",
+       "separates_preference"
+      ],
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "value": "Stretching to reach the high hanging fern, she brushes dew from its broad leaf beside a glass aisle lit by cool blue moonlight.",
+        "reason": "예시에 없는 구체 활동·소품·빛을 이 장면에 맞게 보완: Stretching to reach the high hanging fern, she brushes dew from its broad leaf beside a glass aisle lit by cool blue moonlight."
+       },
+       {
+        "field": "outfit",
+        "value": "An ivory cropped knit top with curved side cutouts and a deep violet short wrap skirt reveal her waist and thighs.",
+        "reason": "계획기가 지정한 옷 종류와 드러내는 방식을 색·소재·구조로 구체화: An ivory cropped knit top with curved side cutouts and a deep violet short wrap skirt reveal her waist and thighs."
+       },
+       {
+        "field": "camera",
+        "value": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "이미지 도구에 크기 설정 인수가 없어 규칙의 2:3 안내문을 카메라 칸에 넣음"
+       }
+      ],
+      "axes_reason": {
+       "action_level": "Stretching to reach the high hanging fern, she brushes dew from its broad leaf beside a glass aisle lit by cool blue moonlight. — 선택한 동작 비중 mostly active",
+       "source_influence": "An ivory cropped knit top with curved side cutouts and a deep violet short wrap skirt reveal her waist and thighs. — 원작 영향도 balanced",
+       "separates_preference": "knit_top+skirt 구조에 맞춘 prefer separates"
+      }
+     },
+     {
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "morning_lingerie",
+      "garments": [
+       "lingerie_set"
+      ],
+      "orient": "over_shoulder",
+      "frame": "three_quarter",
+      "pose": "holding_cup",
+      "expr": "calm",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "high-cut leg",
+       "strapless top"
+      ],
+      "lead": "place",
+      "scene": "A bright bedroom window overlooks a misty river; the bed sheets are loosely folded and steam rises from her ceramic mug.",
+      "outfit": "A simple pale lavender cotton lingerie set with a supportive strapless top and high-cut briefs, softly edged in cream.",
+      "example_text": "a simple cotton lingerie set in morning window light, sheets and a mug nearby",
+      "randomization": {
+       "source": "tools/casual-plan.cjs",
+       "manual_selection_changes": false,
+       "seed": "drifloon-drifblim-812f36"
+      },
+      "locked": [
+       "cat",
+       "ex",
+       "expr",
+       "pose",
+       "orient",
+       "frame",
+       "lens",
+       "aspect",
+       "overall_intensity",
+       "skin_exposure",
+       "action_level",
+       "source_influence",
+       "separates_preference"
+      ],
+      "direct_inputs": [
+       {
+        "field": "scene",
+        "value": "A bright bedroom window overlooks a misty river; the bed sheets are loosely folded and steam rises from her ceramic mug.",
+        "reason": "예시에 없는 구체 활동·소품·빛을 이 장면에 맞게 보완: A bright bedroom window overlooks a misty river; the bed sheets are loosely folded and steam rises from her ceramic mug."
+       },
+       {
+        "field": "outfit",
+        "value": "A simple pale lavender cotton lingerie set with a supportive strapless top and high-cut briefs, softly edged in cream.",
+        "reason": "계획기가 지정한 옷 종류와 드러내는 방식을 색·소재·구조로 구체화: A simple pale lavender cotton lingerie set with a supportive strapless top and high-cut briefs, softly edged in cream."
+       },
+       {
+        "field": "camera",
+        "value": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "이미지 도구에 크기 설정 인수가 없어 규칙의 2:3 안내문을 카메라 칸에 넣음"
+       }
+      ],
+      "axes_reason": {
+       "action_level": "A bright bedroom window overlooks a misty river; the bed sheets are loosely folded and steam rises from her ceramic mug. — 선택한 동작 비중 balanced",
+       "source_influence": "A simple pale lavender cotton lingerie set with a supportive strapless top and high-cut briefs, softly edged in cream. — 원작 영향도 balanced",
+       "separates_preference": "lingerie_set 구조에 맞춘 balanced"
+      }
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       3
+      ],
+      "two": false,
+      "prev": [
+       1
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "partner_care",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "active",
+      "source_editorial",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "apron",
+      "skirt",
+      "knit_top"
+     ],
+     "orient": [
+      "front_3q",
+      "looking_down",
+      "over_shoulder"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "casual_plan": [
+  {
+   "cut": 1,
+   "cat": "occupation_basic",
+   "ex": "drone_operator",
+   "garments": [
+    "apron",
+    "skirt"
+   ],
+   "orient": "front_3q",
+   "frame": "full_body",
+   "pose": "taking_photo",
+   "expr": "determined",
+   "lens": "telephoto135",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "subtle",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "bare midriff",
+    "open back"
+   ],
+   "lead": "detail",
+   "scene": "The camera's rear image screen shows the wetland reeds she has just recorded; the field map is pinned under a smooth stone in the early morning breeze.",
+   "outfit": "A violet backless apron-style crop top tied around her waist and a charcoal wrap skirt leave her midriff and upper back exposed; flat field sandals.",
+   "example_text": "Pokémon habitat photographer reviewing camera images beside a tripod and marked field map at a wetland lookout.",
+   "randomization": {
+    "source": "tools/casual-plan.cjs",
+    "manual_selection_changes": false,
+    "seed": "drifloon-drifblim-812f36"
+   },
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "overall_intensity",
+    "skin_exposure",
+    "action_level",
+    "source_influence",
+    "separates_preference"
+   ],
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "value": "The camera's rear image screen shows the wetland reeds she has just recorded; the field map is pinned under a smooth stone in the early morning breeze.",
+     "reason": "예시에 없는 구체 활동·소품·빛을 이 장면에 맞게 보완: The camera's rear image screen shows the wetland reeds she has just recorded; the field map is pinned under a smooth stone in the early morning breeze."
+    },
+    {
+     "field": "outfit",
+     "value": "A violet backless apron-style crop top tied around her waist and a charcoal wrap skirt leave her midriff and upper back exposed; flat field sandals.",
+     "reason": "계획기가 지정한 옷 종류와 드러내는 방식을 색·소재·구조로 구체화: A violet backless apron-style crop top tied around her waist and a charcoal wrap skirt leave her midriff and upper back exposed; flat field sandals."
+    },
+    {
+     "field": "camera",
+     "value": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 설정 인수가 없어 규칙의 2:3 안내문을 카메라 칸에 넣음"
+    }
+   ],
+   "axes_reason": {
+    "action_level": "The camera's rear image screen shows the wetland reeds she has just recorded; the field map is pinned under a smooth stone in the early morning breeze. — 선택한 동작 비중 balanced",
+    "source_influence": "A violet backless apron-style crop top tied around her waist and a charcoal wrap skirt leave her midriff and upper back exposed; flat field sandals. — 원작 영향도 subtle",
+    "separates_preference": "apron+skirt 구조에 맞춘 prefer separates"
+   }
+  },
+  {
+   "cut": 2,
+   "cat": "wildcard",
+   "ex": "greenhouse_afterdark",
+   "garments": [
+    "knit_top",
+    "skirt"
+   ],
+   "orient": "looking_down",
+   "frame": "environmental",
+   "pose": "stretching",
+   "expr": "unimpressed",
+   "lens": "wide24",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "balanced",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "side cutouts",
+    "cropped hem"
+   ],
+   "lead": "action",
+   "scene": "Stretching to reach the high hanging fern, she brushes dew from its broad leaf beside a glass aisle lit by cool blue moonlight.",
+   "outfit": "An ivory cropped knit top with curved side cutouts and a deep violet short wrap skirt reveal her waist and thighs.",
+   "example_text": "in a greenhouse at night in a light cardigan and skirt, watering plants by lamp light",
+   "randomization": {
+    "source": "tools/casual-plan.cjs",
+    "manual_selection_changes": false,
+    "seed": "drifloon-drifblim-812f36"
+   },
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "overall_intensity",
+    "skin_exposure",
+    "action_level",
+    "source_influence",
+    "separates_preference"
+   ],
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "value": "Stretching to reach the high hanging fern, she brushes dew from its broad leaf beside a glass aisle lit by cool blue moonlight.",
+     "reason": "예시에 없는 구체 활동·소품·빛을 이 장면에 맞게 보완: Stretching to reach the high hanging fern, she brushes dew from its broad leaf beside a glass aisle lit by cool blue moonlight."
+    },
+    {
+     "field": "outfit",
+     "value": "An ivory cropped knit top with curved side cutouts and a deep violet short wrap skirt reveal her waist and thighs.",
+     "reason": "계획기가 지정한 옷 종류와 드러내는 방식을 색·소재·구조로 구체화: An ivory cropped knit top with curved side cutouts and a deep violet short wrap skirt reveal her waist and thighs."
+    },
+    {
+     "field": "camera",
+     "value": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 설정 인수가 없어 규칙의 2:3 안내문을 카메라 칸에 넣음"
+    }
+   ],
+   "axes_reason": {
+    "action_level": "Stretching to reach the high hanging fern, she brushes dew from its broad leaf beside a glass aisle lit by cool blue moonlight. — 선택한 동작 비중 mostly active",
+    "source_influence": "An ivory cropped knit top with curved side cutouts and a deep violet short wrap skirt reveal her waist and thighs. — 원작 영향도 balanced",
+    "separates_preference": "knit_top+skirt 구조에 맞춘 prefer separates"
+   }
+  },
+  {
+   "cut": 3,
+   "cat": "lingerie",
+   "ex": "morning_lingerie",
+   "garments": [
+    "lingerie_set"
+   ],
+   "orient": "over_shoulder",
+   "frame": "three_quarter",
+   "pose": "holding_cup",
+   "expr": "calm",
+   "lens": "documentary35",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "balanced",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "high-cut leg",
+    "strapless top"
+   ],
+   "lead": "place",
+   "scene": "A bright bedroom window overlooks a misty river; the bed sheets are loosely folded and steam rises from her ceramic mug.",
+   "outfit": "A simple pale lavender cotton lingerie set with a supportive strapless top and high-cut briefs, softly edged in cream.",
+   "example_text": "a simple cotton lingerie set in morning window light, sheets and a mug nearby",
+   "randomization": {
+    "source": "tools/casual-plan.cjs",
+    "manual_selection_changes": false,
+    "seed": "drifloon-drifblim-812f36"
+   },
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "overall_intensity",
+    "skin_exposure",
+    "action_level",
+    "source_influence",
+    "separates_preference"
+   ],
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "value": "A bright bedroom window overlooks a misty river; the bed sheets are loosely folded and steam rises from her ceramic mug.",
+     "reason": "예시에 없는 구체 활동·소품·빛을 이 장면에 맞게 보완: A bright bedroom window overlooks a misty river; the bed sheets are loosely folded and steam rises from her ceramic mug."
+    },
+    {
+     "field": "outfit",
+     "value": "A simple pale lavender cotton lingerie set with a supportive strapless top and high-cut briefs, softly edged in cream.",
+     "reason": "계획기가 지정한 옷 종류와 드러내는 방식을 색·소재·구조로 구체화: A simple pale lavender cotton lingerie set with a supportive strapless top and high-cut briefs, softly edged in cream."
+    },
+    {
+     "field": "camera",
+     "value": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 설정 인수가 없어 규칙의 2:3 안내문을 카메라 칸에 넣음"
+    }
+   ],
+   "axes_reason": {
+    "action_level": "A bright bedroom window overlooks a misty river; the bed sheets are loosely folded and steam rises from her ceramic mug. — 선택한 동작 비중 balanced",
+    "source_influence": "A simple pale lavender cotton lingerie set with a supportive strapless top and high-cut briefs, softly edged in cream. — 원작 영향도 balanced",
+    "separates_preference": "lingerie_set 구조에 맞춘 balanced"
+   }
+  }
+ ],
+ "planner": "tools/casual-plan.cjs",
+ "generator": "Deployed generator UI selected; exact prompt FNV verified against saved prompt",
+ "reservation_commit": "bea0973778c5cbbecd6719dfff0bccb28c11db84",
+ "check": "Passed for both characters before reservation",
+ "regenerations": [
+  {
+   "rejected": "exec-64b66632-596a-4025-9500-3d9c9e1ad306.png",
+   "reason": "Raised hands clipped by top edge",
+   "changed_inputs": "바꾼 입력 없음",
+   "reference": "img/둥실라이드_light_glossy_promo_f.webp",
+   "selected": "exec-1eed483f-d275-49a8-9ab8-9901a9671d4b.png"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "images": 9,
+ "expected": 9,
+ "size": "All 1024x1536",
+ "identity": "Light anchor retained across all forms and casual scenes",
+ "hands": "Final outputs inspected; both hands inside frame. Some fingers naturally obscured by camera, cup or fern.",
+ "overdrive": "Same framing and pose as closed form, seams and thruster covers opened",
+ "diversity": "Wetland camera review; fern reach in a moonlit glasshouse; morning mug in bedroom. Distinct activities, light, clothes and silhouettes.",
+ "compared": [
+  "흔들풍손",
+  "트리토돈",
+  "메깅",
+  "가재군"
+ ],
+ "casual_look": "Skipped: cargo not installed",
+ "notes": [
+  "casual1 turns further to the side than front three-quarter selection",
+  "casual2 stays closer than environmental framing and eyes look toward camera rather than down",
+  "casual3 is a closer crop than requested and uses decorative lace edging"
+ ],
+ "skipped": [],
+ "regeneration": {
+  "casual2": {
+   "rejected": "exec-64b66632-596a-4025-9500-3d9c9e1ad306.png",
+   "reason": "Raised hands clipped by top edge",
+   "changed_inputs": "바꾼 입력 없음",
+   "reference": "img/둥실라이드_light_glossy_promo_f.webp",
+   "selected": "exec-1eed483f-d275-49a8-9ab8-9901a9671d4b.png"
+  }
+ }
+}
