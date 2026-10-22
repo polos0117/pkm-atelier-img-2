@@ -1,6 +1,6 @@
 {
  "card": "수댕이",
- "stage": "all_generated_verified",
+ "stage": "complete_registered_thumbnails_verified",
  "canonical": {
   "card": "수댕이",
   "slot": "light",
@@ -164,5 +164,37 @@
    "git_blob": "1c8c85a9f5187560af2aa9b2c955e52706d9c871"
   }
  ],
- "next": "publish and verify remote hashes"
+ "next": null,
+ "image_commit": "fce1559464b42a65d326bf1d54e2efbfaa325f9a",
+ "code_commit": "919e2e6366dfe53a6a884578b2077843742c09cf",
+ "remote_images": "Every Git blob hash matches the decoded local verified WebP",
+ "canonical_reference": "https://polos0117.github.io/pkm-atelier-img-2/img/수댕이_light_glossy_promo_f.webp",
+ "prompt_source": "Actual generator UI; final prompt and storage saved per slot",
+ "face_reason": "작은 수달의 둥근 얼굴과 조개를 둥근 볼과 짧은 코로 옮긴다.",
+ "face_sources": [
+  "‘spherical white head’ → 얼굴형 부드럽고 둥근 얼굴형",
+  "‘spherical white head’ → 얼굴 길이 짧은 얼굴",
+  "‘spherical white head’ → 얼굴 폭 넓은 얼굴",
+  "‘spherical white head’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+  "‘spherical white head’ → 눈매 큰 눈",
+  "‘spherical white head’ → 코 코끝이 둥근"
+ ],
+ "face_prompt": "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; soft rounded jaw; open rounded eyes, medium size, level outer corners, average spacing; thin straight brows; rounded soft tip nose; small mouth.",
+ "hair_prompt": "HAIR: short tight curls, curtain bangs.",
+ "comparisons": [
+  "뚜꾸리",
+  "차오꿀",
+  "둥실라이드",
+  "염무왕"
+ ],
+ "generated": 9,
+ "expected": 9,
+ "registered": 9,
+ "registration_commit": "75587c18de6604eabb7f297194112cec156d4e5f",
+ "thumbnail_commit": "d1e810e",
+ "thumbnails": "All nine present in remote main; workflow completed successfully",
+ "casual_look": "Final three cuts passed wasm duplicate check",
+ "generation": "Built-in image_gen; actual UI prompts and storage retained per slot",
+ "publishing": "GitHub connector commits; main ref updates with force=false and expected head, retaining existing tree and history",
+ "skipped": []
 }
