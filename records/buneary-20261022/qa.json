@@ -1,0 +1,140 @@
+{
+ "images": 9,
+ "expected": 9,
+ "reviewer": "gpt",
+ "accepted": true,
+ "size": "All 1024x1536; no crop or stretch",
+ "identity": "Short layered chestnut hair, amber round eyes, short oval face and soft chin remain the light anchor identity. Actual light faces compared with Lopunny, Drifloon, Drifblim and Claydol.",
+ "forms": "Fitted light, layered heavy and outward-fanning mobility armor differ clearly. Each overdrive preserves closed pose/camera/limbs and opens seams with gold normal-type energy.",
+ "hands": "Both arms connect naturally; visible fingers are natural, some hidden by props. No extra or duplicated hands observed.",
+ "casual_observations": [
+  {
+   "cut": 1,
+   "observed": "Slightly reclining on the rural station bench, pastry and route map in hands, travel bag nearby; brown off-shoulder dress with cream trim and thigh slit.",
+   "noted_only": "Wider than waist-up; relieved expression reads as an open smile."
+  },
+  {
+   "cut": 2,
+   "observed": "Sideways on a stool among backstage shelves and dressing lamps, touching glasses; short cream open-back cardigan and cocoa mini skirt; second hand rests by books.",
+   "noted_only": "Wider than chest-up. Gold spine flourishes are decorative ornaments, not captions."
+  },
+  {
+   "cut": 3,
+   "observed": "Cafe photo sorting: holds one landscape print and sorts others beside scrapbook and plain silver camera. Pale jade floral halter dress exposes shoulders and upper chest. Camera lettering removed; both arms and hands retain natural structure.",
+   "noted_only": "Mid-stride selection became seated; wider than selected three-quarter crop."
+  }
+ ],
+ "diversity_comparison": "Actual contact sheet compared with Lopunny, Drifloon, Drifblim and Claydol. Station snack/map, rear-facing librarian costume/glasses and front cafe/photo sorting differ in activity, clothing silhouette and camera. Three seated results are recorded as pose convergence rather than silently changing selected settings.",
+ "casual_look": {
+  "crowd_below": 245,
+  "cuts": [
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "recovered/pkm-atelier/노을빛 시골역의 복숭아 간식.png",
+    "near": [
+     [
+      "로젤리아_glossy_promo_f_casual2.webp",
+      314
+     ],
+     [
+      "부우부_glossy_promo_f_casual3.webp",
+      315
+     ],
+     [
+      "나메일_glossy_promo_f_casual2.webp",
+      319
+     ],
+     [
+      "메타몽_glossy_promo_f_casual2.webp",
+      327
+     ],
+     [
+      "두트리오_glossy_promo_f_casual2.webp",
+      328
+     ]
+    ],
+    "same_as_own": []
+   },
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "generated_images/exec-eb5fd419-6455-4af6-9c39-070c285efbc1.png",
+    "near": [
+     [
+      "해루미_glossy_promo_f_casual3.webp",
+      302
+     ],
+     [
+      "모다피_glossy_promo_f_casual3.webp",
+      309
+     ],
+     [
+      "테일로_glossy_promo_f_casual2.webp",
+      314
+     ],
+     [
+      "단단지_glossy_promo_f_casual3.webp",
+      316
+     ],
+     [
+      "가보리_glossy_promo_f_casual2.webp",
+      317
+     ]
+    ],
+    "same_as_own": []
+   },
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "generated_images/exec-f11f6843-0bc0-49d9-b37c-574e151dc82d.png",
+    "near": [
+     [
+      "나옹_glossy_promo_f_casual1.webp",
+      277
+     ],
+     [
+      "에레키드_glossy_promo_f_casual2.webp",
+      280
+     ],
+     [
+      "랜턴_glossy_promo_f_casual1.webp",
+      285
+     ],
+     [
+      "슬리퍼_glossy_promo_f_casual3.webp",
+      294
+     ],
+     [
+      "우파_glossy_promo_f_casual2.webp",
+      299
+     ]
+    ],
+    "same_as_own": []
+   }
+  ],
+  "dup_below": 215,
+  "ok": true
+ },
+ "skipped": [],
+ "image_sha256": {
+  "light": "85d0347b1352ed9f9df6176103890da2417e7d6ddcd4c11b578fce256798beee",
+  "heavy": "f80f82d8361da7a56a8f408e75b83746eab3f55fd458a4bc42fd6650f1db15f8",
+  "mobility": "6e0392854d88033e124be114342755fe8cd1e7a886a092f42628b9bd0c038d54",
+  "light-overdrive": "20b8f5e72cebc74b4bc30ac4294a45188997eb90c19eed683d7284c5da3d9719",
+  "heavy-overdrive": "b408775e7cb6c1cff8f7ba235fc706603e3b48e313ea64f2ba1ec8e2c8b2859d",
+  "mobility-overdrive": "fe90fbece3201eb145ad9a6edbfb6006294e8e57cedb28512089d2c3f3544c62",
+  "casual1": "8b95bc7952b8aaaed4d5f8ba99b3dc6b478c3b6447d0c9178cbd443c74aff91f",
+  "casual2": "51ef7c7e11709a73fb2ca7d6fa287f7f49d38c88032957fbd06b1e1d21211f34",
+  "casual3": "84ad030169c06ceac91200166906f7858bbfa93bb813a9ee5c714ebbf2c8fcd1"
+ },
+ "corrections": [
+  {
+   "slot": "casual3",
+   "issue": "Tiny fake lettering on camera",
+   "attempts": 2,
+   "first_correction": "Lettering remained; not selected",
+   "final": "Camera label areas are plain silver metal; face/hands/scene preserved"
+  }
+ ]
+}

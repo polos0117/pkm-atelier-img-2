@@ -1,0 +1,311 @@
+{
+ "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
+ "session": "buneary-lopunny-1aa4e6",
+ "at": "2026-10-22T00:35:10-07:00",
+ "characters": [
+  {
+   "species": "buneary-20261022",
+   "card": "이어롤",
+   "at": "2026-10-22T00:35:10-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "travel_exploration",
+     "ex": "travel_station",
+     "expr": "relieved",
+     "pose": "sitting",
+     "orient": "reclining",
+     "frame": "waist_up",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "high thigh slit",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail",
+     "scene": "A wrapped peach pastry rests in her left hand while her right hand checks a small route card; amber afternoon light warms the red-brick rural platform and her canvas travel bag.",
+     "outfit": "A chocolate-brown off-shoulder dress with cream fleece edging and a high thigh slit, the neckline revealing shoulders and collarbones and the slit revealing one thigh.",
+     "example_text": "Waiting on a rural station bench with a travel bag, holding a snack and checking a route card.",
+     "randomization": {
+      "planner": "tools/casual-plan.cjs",
+      "session": "buneary-lopunny-1aa4e6",
+      "manual_selection_changes": false
+     },
+     "locked": [
+      "cat",
+      "ex",
+      "expr",
+      "pose",
+      "orient",
+      "frame",
+      "lens",
+      "aspect",
+      "axes.overall_intensity",
+      "axes.skin_exposure",
+      "axes.action_level",
+      "axes.source_influence",
+      "axes.separates_preference"
+     ],
+     "direct_inputs": [
+      {
+       "field": "scene",
+       "value": "A wrapped peach pastry rests in her left hand while her right hand checks a small route card; amber afternoon light warms the red-brick rural platform and her canvas travel bag.",
+       "reason": "travel_station 예시에 없는 구체 소품·시간·배경 보완: A wrapped peach pastry rests in her left hand while her right hand checks a small route card; amber afternoon light warms the red-brick rural platform and her canvas travel bag."
+      },
+      {
+       "field": "outfit",
+       "value": "A chocolate-brown off-shoulder dress with cream fleece edging and a high thigh slit, the neckline revealing shoulders and collarbones and the slit revealing one thigh.",
+       "reason": "계획기가 지정한 dress에 high thigh slit,off-shoulder neckline 적용"
+      },
+      {
+       "field": "camera",
+       "value": "Vertical 2:3 portrait (1024×1536).",
+       "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+      }
+     ],
+     "axes_reason": {
+      "action_level": "A wrapped peach pastry rests in her left hand while her right hand checks a small route card; amber afternoon light warms the red-brick rural platform and her canvas travel bag. — mostly posed",
+      "source_influence": "A chocolate-brown off-shoulder dress with cream fleece edging and a high thigh slit, the neckline revealing shoulders and collarbones and the slit revealing one thigh. — strong",
+      "separates_preference": "dress 구성에 맞춘 balanced"
+     }
+    },
+    {
+     "cut": 2,
+     "cat": "adult_roleplay",
+     "ex": "adult_librarian",
+     "expr": "half_smile",
+     "pose": "perched_seat",
+     "orient": "rear_3q",
+     "frame": "chest_up",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "cardigan",
+      "skirt"
+     ],
+     "expose": [
+      "mini length",
+      "open back"
+     ],
+     "lead": "action",
+     "scene": "Preparing for a literary-themed costume party among rolling bookshelves backstage, she adjusts her glasses beside a display shelf.",
+     "outfit": "A fitted cropped cream cardigan with a wide open-back cut and a chocolate pencil mini skirt, revealing the back, waist and thighs, with slender glasses and tan spot-pattern trim.",
+     "example_text": "a librarian-inspired costume with a fitted cardigan, pencil skirt, and glasses, among bookshelves",
+     "randomization": {
+      "planner": "tools/casual-plan.cjs",
+      "session": "buneary-lopunny-1aa4e6",
+      "manual_selection_changes": false
+     },
+     "locked": [
+      "cat",
+      "ex",
+      "expr",
+      "pose",
+      "orient",
+      "frame",
+      "lens",
+      "aspect",
+      "axes.overall_intensity",
+      "axes.skin_exposure",
+      "axes.action_level",
+      "axes.source_influence",
+      "axes.separates_preference"
+     ],
+     "direct_inputs": [
+      {
+       "field": "scene",
+       "value": "Preparing for a literary-themed costume party among rolling bookshelves backstage, she adjusts her glasses beside a display shelf.",
+       "reason": "adult_librarian 예시에 없는 구체 소품·시간·배경 보완: Preparing for a literary-themed costume party among rolling bookshelves backstage, she adjusts her glasses beside a display shelf."
+      },
+      {
+       "field": "outfit",
+       "value": "A fitted cropped cream cardigan with a wide open-back cut and a chocolate pencil mini skirt, revealing the back, waist and thighs, with slender glasses and tan spot-pattern trim.",
+       "reason": "계획기가 지정한 cardigan,skirt에 mini length,open back 적용"
+      },
+      {
+       "field": "camera",
+       "value": "Vertical 2:3 portrait (1024×1536).",
+       "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+      }
+     ],
+     "axes_reason": {
+      "action_level": "Preparing for a literary-themed costume party among rolling bookshelves backstage, she adjusts her glasses beside a display shelf. — mostly posed",
+      "source_influence": "A fitted cropped cream cardigan with a wide open-back cut and a chocolate pencil mini skirt, revealing the back, waist and thighs, with slender glasses and tan spot-pattern trim. — strong",
+      "separates_preference": "cardigan,skirt 구성에 맞춘 prefer separates"
+     }
+    },
+    {
+     "cut": 3,
+     "cat": "hobbies_leisure",
+     "ex": "hobby_photo",
+     "expr": "gentle",
+     "pose": "mid_stride",
+     "orient": "leaning_back",
+     "frame": "three_quarter",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "plunging neckline",
+      "halter neck"
+     ],
+     "lead": "light",
+     "scene": "Morning sunlight crosses the cafe table covered with habitat photographs; she sorts the prints beside her compact camera and an open travel scrapbook.",
+     "outfit": "A jade halter dress with a plunging neckline and short flared hem, exposing shoulders, upper chest and legs, with flat cream sandals.",
+     "custom": "Targeted correction of the finished image attached as image 2. At original size 1024×1536, paint out every tiny letter, numeral and engraved logo on the camera, especially the top-left silver face at x=795–835,y=943–966 and the small label above the lens at x=838–882,y=968–989. Replace those marks with smooth plain silver metal matching the surrounding light, with no strokes or symbols left. Keep every other pixel visually unchanged, especially her hands, face, photographs and clothing. Image 1 is the identity anchor.",
+     "example_text": "Sorting printed habitat photographs beside a camera and a travel scrapbook at a cafe table.",
+     "randomization": {
+      "planner": "tools/casual-plan.cjs",
+      "session": "buneary-lopunny-1aa4e6",
+      "manual_selection_changes": false
+     },
+     "locked": [
+      "cat",
+      "ex",
+      "expr",
+      "pose",
+      "orient",
+      "frame",
+      "lens",
+      "aspect",
+      "axes.overall_intensity",
+      "axes.skin_exposure",
+      "axes.action_level",
+      "axes.source_influence",
+      "axes.separates_preference"
+     ],
+     "direct_inputs": [
+      {
+       "field": "scene",
+       "value": "Morning sunlight crosses the cafe table covered with habitat photographs; she sorts the prints beside her compact camera and an open travel scrapbook.",
+       "reason": "hobby_photo 예시에 없는 구체 소품·시간·배경 보완: Morning sunlight crosses the cafe table covered with habitat photographs; she sorts the prints beside her compact camera and an open travel scrapbook."
+      },
+      {
+       "field": "outfit",
+       "value": "A jade halter dress with a plunging neckline and short flared hem, exposing shoulders, upper chest and legs, with flat cream sandals.",
+       "reason": "계획기가 지정한 dress에 plunging neckline,halter neck 적용"
+      },
+      {
+       "field": "camera",
+       "value": "Vertical 2:3 portrait (1024×1536).",
+       "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+      }
+     ],
+     "axes_reason": {
+      "action_level": "Morning sunlight crosses the cafe table covered with habitat photographs; she sorts the prints beside her compact camera and an open travel scrapbook. — mostly active",
+      "source_influence": "A jade halter dress with a plunging neckline and short flared hem, exposing shoulders, upper chest and legs, with flat cream sandals. — subtle",
+      "separates_preference": "dress 구성에 맞춘 balanced"
+     }
+    }
+   ]
+  },
+  {
+   "species": "lopunny-20261022",
+   "card": "이어롭",
+   "at": "2026-10-22T00:35:10-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "heritage_pattern_swim",
+     "expr": "wistful",
+     "pose": "gentle_pat",
+     "orient": "high_angle",
+     "frame": "environmental",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ],
+     "expose": [
+      "high-cut leg",
+      "open back"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "partner_care",
+     "ex": "care_play",
+     "expr": "proud",
+     "pose": "one_knee_up",
+     "orient": "crouching",
+     "frame": "full_body",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt",
+      "trousers"
+     ],
+     "expose": [
+      "bare midriff",
+      "cropped hem"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "source_editorial",
+     "ex": "floating_panel",
+     "expr": "bored",
+     "pose": "hand_on_hip",
+     "orient": "profile_close",
+     "frame": "waist_up",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top",
+      "trousers"
+     ],
+     "expose": [
+      "side cutouts",
+      "one-shoulder cut"
+     ],
+     "lead": "action"
+    }
+   ]
+  }
+ ],
+ "planner": "tools/casual-plan.cjs"
+}
