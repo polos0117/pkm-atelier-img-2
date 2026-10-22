@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-22",
+  "status": "registered",
+  "characters": [
+    {
+      "name": "트리토돈",
+      "generated": 9,
+      "requested": 9,
+      "image_commit": "c9142a11de1ae0f751efe9ae7aeb445821f5d510",
+      "records": "records/gastrodon-20261022",
+      "blocked_attempts": 1,
+      "replacement": "casual1: adult_roleplay/adult_secretary"
+    },
+    {
+      "name": "겟핸보숭",
+      "generated": 9,
+      "requested": 9,
+      "image_commit": "57d7717797b498742ef2f944f272eaf867f50adc",
+      "records": "records/ambipom-20261022",
+      "blocked_attempts": 0
+    }
+  ],
+  "registration_commit": "540fa2b51659199106554cd9dd6715606b08f3d6",
+  "canonical_data_commit": "7017fc3382878da5339c6c50dd7e25f7090d34a8",
+  "thumbnail_workflow": {
+    "run_id": 39704565856,
+    "conclusion": "success"
+  },
+  "registration_workflow": {
+    "run_id": 39704693737,
+    "conclusion": "success"
+  },
+  "validation": [
+    "18 actual WebP images, each 1024x1536",
+    "nine slots each: three forms, three matching overdrives, three off-duty scenes",
+    "exact light reference and form reference links preserved",
+    "face-design.py --check, tests/face-design.cjs, tests/forms.cjs, tests/img-shards.cjs, tests/patch.cjs passed",
+    "no existing image overwritten; all ref updates force=false"
+  ],
+  "generation_tool": "built-in image_gen",
+  "prompts": "Per-image *-prompt.txt and *-ui.json inside each character record directory",
+  "note": "This completion record supersedes the pre-publication status recorded in the generation checkpoints. Live deployed UI was not separately inspected."
+}
