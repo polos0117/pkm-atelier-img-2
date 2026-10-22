@@ -367,11 +367,25 @@
           "no": 346,
           "name": "릴리요",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-22T11:11:01+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-22-1/346/light/prompt.txt",
+                "sha256": "c46774bbc22fa521f2a45b5f6dc2939c974899c562781b6039802cd0d8bcd848"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-22-1/346/light/ui.json",
+                "sha256": "321c32ccb5012ed5e02849d27cbf00114b8501229f4ebe4ae5b0f0cdda22c30c"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-22T11:10:35+00:00"
+      "updated_at": "2026-10-22T11:11:01+00:00"
     }
   ],
   "claims": {
