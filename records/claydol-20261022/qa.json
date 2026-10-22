@@ -27,5 +27,12 @@
  "comparison_images": [
   "claydol-face-qa.jpg",
   "claydol-recent-casual-qa.jpg"
+ ],
+ "repairs": [
+  {
+   "record": "casual2-leg-repair-20261022.json",
+   "issue": "Original QA missed casual2 leg/furniture occlusion; user reported it after registration.",
+   "result": "Repaired both leg contours and their separation from cabinet; visual QA passed."
+  }
  ]
 }

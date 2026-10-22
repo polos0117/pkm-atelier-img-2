@@ -1,0 +1,52 @@
+{
+ "card": "점토도리",
+ "slot": "casual2",
+ "date": "2026-10-22",
+ "reason": "User reported the left leg appeared cut off by the furniture in casual cut 2.",
+ "operation": "local anatomy and furniture occlusion correction; same registered filename",
+ "target": {
+  "slot": "casual2",
+  "file": "img/점토도리_glossy_promo_f_casual2.webp",
+  "source": "/workspace/scratch/939ac7380a79/generated_images/exec-8ee8571c-2e87-441b-b813-014edd832124.png",
+  "size": [
+   1024,
+   1536
+  ],
+  "bytes": 299776,
+  "sha256": "06dbb0c27c31ed9c52d24e5a5dc4704710c29a047f7825ed01e56cad00105d0e",
+  "reference": "img/점토도리_light_glossy_promo_f.webp",
+  "tool": "built-in image_gen",
+  "quality": 85,
+  "method": 6
+ },
+ "identity_reference": {
+  "file": "img/점토도리_light_glossy_promo_f.webp",
+  "sha256": "51d692bd37b81c94968cea096e254b6ca0d31a02916e8b48d814c5f2205638b3"
+ },
+ "selected_settings": "Original casual2-ui.json and plan.json retained; no new random selection or scene redesign",
+ "prompt": "Use case: precise-object-edit.\nImage 1 is the EDIT TARGET: the existing Claydol off-duty textile-showroom picture. Image 2 is supporting IDENTITY REFERENCE ONLY: her approved light-form card; do not copy its armor, pose or background.\n\nRepair the faulty leg/furniture overlap in IMAGE 1. The wooden counter currently makes one leg appear abruptly cut off below the pelvis. Reconstruct only the lower-body area from the hips downward and the immediately overlapping counter edge, so both legs connect coherently to the same pelvis beneath the teal sarong. Her left leg and knee must follow one continuous natural contour; the farther leg must also have a readable, continuous thigh-to-knee connection instead of terminating at the wooden furniture. Keep the legs clearly separate with plausible adult anatomy, weight and perspective. Place the wooden cabinet behind her lower body: no leg passes through wood, no thigh is severed by the countertop, no extra leg. Make only the small local furniture/occlusion adjustment needed to establish this continuity. Keep the original modest sarong coverage, fabric pattern, slit, garment type and styling.\n\nPRESERVE IMAGE 1: exactly the same adult woman in her twenties, face, expression, gaze, hair, colors, body proportions, ivory lace kebaya, pink halter camisole, dark-teal patterned sarong, jewelry, both hands and all fingers, arm positions, leaning posture, camera, framing, character scale, textile showroom, lighting and polished glossy anime rendering. Keep her supporting hand resting naturally on the same counter surface. Do not redesign the clothes or expose additional intimate areas. The existing portrait crop may cut off the lower legs at the outer image boundary; do not force feet into the frame or change the crop. Output one corrected standalone image, vertical 2:3, 1024×1536. No text or panels.",
+ "tool": "built-in image_gen",
+ "successful_generations": 1,
+ "output": {
+  "slot": "casual2",
+  "file": "img/점토도리_glossy_promo_f_casual2.webp",
+  "source": "/workspace/scratch/939ac7380a79/generated_images/exec-c6f3badd-4e3c-45e3-8a82-8f67fae0872d.png",
+  "size": [
+   1024,
+   1536
+  ],
+  "bytes": 284830,
+  "sha256": "25ae54d81f50510cb177994d67b5531343eb2f9fe2da985807137726b2b8d8d9",
+  "reference": "img/점토도리_light_glossy_promo_f.webp",
+  "tool": "built-in image_gen",
+  "quality": 85,
+  "method": 6,
+  "repair": "casual2-leg-repair-20261022.json",
+  "source_sha256": "36f0aeec59bd2412f62896c6dbc24caf411c887d95ecf15c8e1414a121c4e096"
+ },
+ "qa": {
+  "legs": "Two continuous legs are visible below the sarong; furniture is behind the legs with no cut-off or wood intersection.",
+  "preserved": "Face, hair, expression, clothing, hands, leaning pose, textile showroom and portrait crop visually retained.",
+  "format": "WebP 1024x1536, quality 85, method 6"
+ }
+}
