@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "crawdaunt-baltoy-20261022-c17c",
- "at": "2026-10-21T21:28:34-07:00",
+ "at": "2026-10-21T21:57:15-07:00",
  "characters": [
   {
    "species": "crawdaunt-20261022",
@@ -89,12 +89,12 @@
   {
    "species": "baltoy-20261022",
    "card": "오뚝군",
-   "at": "2026-10-21T21:28:34-07:00",
+   "at": "2026-10-21T21:57:15-07:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "swimwear",
-     "ex": "heritage_pattern_swim",
+     "ex": "outdoor_shower",
      "expr": "smug",
      "pose": "leaning_wall",
      "orient": "looking_away",
@@ -114,7 +114,7 @@
       "strapless top",
       "plunging neckline"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -140,7 +140,8 @@
       "mini length",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -165,7 +166,8 @@
       "high thigh slit",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ]
   }
