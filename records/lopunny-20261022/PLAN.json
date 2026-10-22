@@ -1,0 +1,310 @@
+{
+ "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
+ "session": "buneary-lopunny-1aa4e6",
+ "at": "2026-10-22T00:35:10-07:00",
+ "characters": [
+  {
+   "species": "buneary-20261022",
+   "card": "이어롤",
+   "at": "2026-10-22T00:35:10-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "travel_exploration",
+     "ex": "travel_station",
+     "expr": "relieved",
+     "pose": "sitting",
+     "orient": "reclining",
+     "frame": "waist_up",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "high thigh slit",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "cat": "adult_roleplay",
+     "ex": "adult_librarian",
+     "expr": "half_smile",
+     "pose": "perched_seat",
+     "orient": "rear_3q",
+     "frame": "chest_up",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "cardigan",
+      "skirt"
+     ],
+     "expose": [
+      "mini length",
+      "open back"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "cat": "hobbies_leisure",
+     "ex": "hobby_photo",
+     "expr": "gentle",
+     "pose": "mid_stride",
+     "orient": "leaning_back",
+     "frame": "three_quarter",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "plunging neckline",
+      "halter neck"
+     ],
+     "lead": "light"
+    }
+   ]
+  },
+  {
+   "species": "lopunny-20261022",
+   "card": "이어롭",
+   "at": "2026-10-22T00:35:10-07:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "heritage_pattern_swim",
+     "expr": "wistful",
+     "pose": "gentle_pat",
+     "orient": "high_angle",
+     "frame": "environmental",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ],
+     "expose": [
+      "high-cut leg",
+      "open back"
+     ],
+     "lead": "place",
+     "scene": "A terracotta courtyard pool is framed by glazed geometric tiles and a linen sunshade; she pats a fold of her towel beside the water in late-morning light.",
+     "outfit": "A dark cocoa and blush heritage-pattern swimsuit with matching woven trim, a high-cut leg and an open back revealing hips, thighs and the back.",
+     "example_text": "a swimsuit in a heritage textile pattern with matching trim",
+     "randomization": {
+      "planner": "tools/casual-plan.cjs",
+      "session": "buneary-lopunny-1aa4e6",
+      "manual_selection_changes": false
+     },
+     "locked": [
+      "cat",
+      "ex",
+      "expr",
+      "pose",
+      "orient",
+      "frame",
+      "lens",
+      "aspect",
+      "axes.overall_intensity",
+      "axes.skin_exposure",
+      "axes.action_level",
+      "axes.source_influence",
+      "axes.separates_preference"
+     ],
+     "direct_inputs": [
+      {
+       "field": "scene",
+       "value": "A terracotta courtyard pool is framed by glazed geometric tiles and a linen sunshade; she pats a fold of her towel beside the water in late-morning light.",
+       "reason": "heritage_pattern_swim 예시에 없는 구체 소품·시간·배경 보완: A terracotta courtyard pool is framed by glazed geometric tiles and a linen sunshade; she pats a fold of her towel beside the water in late-morning light."
+      },
+      {
+       "field": "outfit",
+       "value": "A dark cocoa and blush heritage-pattern swimsuit with matching woven trim, a high-cut leg and an open back revealing hips, thighs and the back.",
+       "reason": "계획기가 지정한 swimsuit에 high-cut leg,open back 적용"
+      },
+      {
+       "field": "camera",
+       "value": "Vertical 2:3 portrait (1024×1536).",
+       "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+      }
+     ],
+     "axes_reason": {
+      "action_level": "A terracotta courtyard pool is framed by glazed geometric tiles and a linen sunshade; she pats a fold of her towel beside the water in late-morning light. — balanced",
+      "source_influence": "A dark cocoa and blush heritage-pattern swimsuit with matching woven trim, a high-cut leg and an open back revealing hips, thighs and the back. — strong",
+      "separates_preference": "swimsuit 구성에 맞춘 balanced"
+     }
+    },
+    {
+     "cut": 2,
+     "cat": "partner_care",
+     "ex": "care_play",
+     "expr": "proud",
+     "pose": "one_knee_up",
+     "orient": "crouching",
+     "frame": "full_body",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt",
+      "trousers"
+     ],
+     "expose": [
+      "bare midriff",
+      "cropped hem"
+     ],
+     "lead": "light",
+     "scene": "Sunlight dapples the enclosed grassy courtyard as she rolls a soft mint toy ball toward a single small Buneary companion.",
+     "outfit": "A cropped sleeveless ivory shirt tied above the waist with high-slit cocoa trousers, showing the bare midriff, shoulders and the sides of her thighs.",
+     "example_text": "Rolling a soft toy ball toward a playful Pokémon companion in an enclosed grassy courtyard.",
+     "randomization": {
+      "planner": "tools/casual-plan.cjs",
+      "session": "buneary-lopunny-1aa4e6",
+      "manual_selection_changes": false
+     },
+     "locked": [
+      "cat",
+      "ex",
+      "expr",
+      "pose",
+      "orient",
+      "frame",
+      "lens",
+      "aspect",
+      "axes.overall_intensity",
+      "axes.skin_exposure",
+      "axes.action_level",
+      "axes.source_influence",
+      "axes.separates_preference"
+     ],
+     "direct_inputs": [
+      {
+       "field": "scene",
+       "value": "Sunlight dapples the enclosed grassy courtyard as she rolls a soft mint toy ball toward a single small Buneary companion.",
+       "reason": "care_play 예시에 없는 구체 소품·시간·배경 보완: Sunlight dapples the enclosed grassy courtyard as she rolls a soft mint toy ball toward a single small Buneary companion."
+      },
+      {
+       "field": "outfit",
+       "value": "A cropped sleeveless ivory shirt tied above the waist with high-slit cocoa trousers, showing the bare midriff, shoulders and the sides of her thighs.",
+       "reason": "계획기가 지정한 shirt,trousers에 bare midriff,cropped hem 적용"
+      },
+      {
+       "field": "camera",
+       "value": "Vertical 2:3 portrait (1024×1536).",
+       "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+      }
+     ],
+     "axes_reason": {
+      "action_level": "Sunlight dapples the enclosed grassy courtyard as she rolls a soft mint toy ball toward a single small Buneary companion. — mostly posed",
+      "source_influence": "A cropped sleeveless ivory shirt tied above the waist with high-slit cocoa trousers, showing the bare midriff, shoulders and the sides of her thighs. — strong",
+      "separates_preference": "shirt,trousers 구성에 맞춘 prefer separates"
+     }
+    },
+    {
+     "cut": 3,
+     "cat": "source_editorial",
+     "ex": "floating_panel",
+     "expr": "bored",
+     "pose": "hand_on_hip",
+     "orient": "profile_close",
+     "frame": "waist_up",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top",
+      "trousers"
+     ],
+     "expose": [
+      "side cutouts",
+      "one-shoulder cut"
+     ],
+     "lead": "action",
+     "scene": "She inspects the fitted panel edges during a fashion-studio fitting under softbox light, with a blush fabric roll and curved pattern pieces nearby.",
+     "outfit": "A cocoa one-shoulder crop top with side cutouts and structured blush floating panels over tailored cream trousers; the asymmetrical cut reveals one shoulder and her waist.",
+     "example_text": "couture with stiff panels standing slightly away from the body, echoing her Pokémon's plates, fins or petals",
+     "randomization": {
+      "planner": "tools/casual-plan.cjs",
+      "session": "buneary-lopunny-1aa4e6",
+      "manual_selection_changes": false
+     },
+     "locked": [
+      "cat",
+      "ex",
+      "expr",
+      "pose",
+      "orient",
+      "frame",
+      "lens",
+      "aspect",
+      "axes.overall_intensity",
+      "axes.skin_exposure",
+      "axes.action_level",
+      "axes.source_influence",
+      "axes.separates_preference"
+     ],
+     "direct_inputs": [
+      {
+       "field": "scene",
+       "value": "She inspects the fitted panel edges during a fashion-studio fitting under softbox light, with a blush fabric roll and curved pattern pieces nearby.",
+       "reason": "floating_panel 예시에 없는 구체 소품·시간·배경 보완: She inspects the fitted panel edges during a fashion-studio fitting under softbox light, with a blush fabric roll and curved pattern pieces nearby."
+      },
+      {
+       "field": "outfit",
+       "value": "A cocoa one-shoulder crop top with side cutouts and structured blush floating panels over tailored cream trousers; the asymmetrical cut reveals one shoulder and her waist.",
+       "reason": "계획기가 지정한 crop_top,trousers에 side cutouts,one-shoulder cut 적용"
+      },
+      {
+       "field": "camera",
+       "value": "Vertical 2:3 portrait (1024×1536).",
+       "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+      }
+     ],
+     "axes_reason": {
+      "action_level": "She inspects the fitted panel edges during a fashion-studio fitting under softbox light, with a blush fabric roll and curved pattern pieces nearby. — mostly posed",
+      "source_influence": "A cocoa one-shoulder crop top with side cutouts and structured blush floating panels over tailored cream trousers; the asymmetrical cut reveals one shoulder and her waist. — balanced",
+      "separates_preference": "crop_top,trousers 구성에 맞춘 prefer separates"
+     }
+    }
+   ]
+  }
+ ],
+ "planner": "tools/casual-plan.cjs"
+}
