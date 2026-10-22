@@ -1,0 +1,371 @@
+{
+  "session": "patrat-watchog-18829a",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "보르쥐",
+      "species": "patrat-20261022",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "traditional",
+          "ex": "kebaya_daily",
+          "expr": "determined",
+          "pose": "bending_over",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "traditional"
+          ],
+          "expose": [
+            "one-shoulder cut",
+            "high thigh slit"
+          ],
+          "lead": "detail",
+          "aspect": "2:3",
+          "scene": "A shallow woven basket of folded batik cloth rests on a courtyard worktable; she sorts the cloth before an afternoon neighborhood gathering.",
+          "outfit": "A modern black lace kebaya with an asymmetric one-shoulder neckline and a gold-and-ivory batik sarong with a high thigh slit, showing a bare shoulder and one leg.",
+          "example_text": "a daily kebaya — a sheer embroidered fitted blouse over a batik sarong",
+          "locked": [
+            "cat",
+            "ex",
+            "expr",
+            "pose",
+            "orient",
+            "frame",
+            "lens",
+            "aspect",
+            "axes.overall_intensity",
+            "axes.skin_exposure",
+            "axes.action_level",
+            "axes.source_influence",
+            "axes.separates_preference"
+          ],
+          "randomization": {
+            "planner": "tools/casual-plan.cjs",
+            "session": "patrat-watchog-18829a",
+            "selection_changes_by_hand": false
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "A shallow woven basket of folded batik cloth rests on a courtyard worktable; she sorts the cloth before an afternoon neighborhood gathering.",
+              "reason": "선택 예시 kebaya_daily에 없는 구체 활동과 공간·시간을 보충: A shallow woven basket of folded batik cloth rests on a courtyard worktable; she sorts the cloth before an afternoon neighborhood gathering."
+            },
+            {
+              "field": "outfit",
+              "value": "A modern black lace kebaya with an asymmetric one-shoulder neckline and a gold-and-ivory batik sarong with a high thigh slit, showing a bare shoulder and one leg.",
+              "reason": "계획의 traditional 구조와 one-shoulder cut,high thigh slit를 해당 의상에 구현"
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+            }
+          ],
+          "axes_reason": {
+            "action_level": "A shallow woven basket of folded batik cloth rests on a courtyard worktable; she sorts the cloth before an afternoon neighborhood gathering. — 이 활동의 진행 정도에 맞춘 balanced",
+            "source_influence": "A modern black lace kebaya with an asymmetric one-shoulder neckline and a gold-and-ivory batik sarong with a high thigh slit, showing a bare shoulder and one leg. — 원작 색·문양의 정도는 strong",
+            "separates_preference": "traditional를 입히며 명시한 의상 구조를 유지하는 balanced"
+          }
+        },
+        {
+          "cut": 2,
+          "cat": "homewear",
+          "ex": "knit_dress_home",
+          "expr": "soft_smile",
+          "pose": "on_tiptoe",
+          "orient": "looking_down",
+          "frame": "environmental",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "dress"
+          ],
+          "expose": [
+            "strapless top",
+            "side cutouts"
+          ],
+          "lead": "action",
+          "aspect": "2:3",
+          "scene": "She places a small ceramic planter on a high window shelf in her airy apartment, with late-morning sun falling across the wooden floor.",
+          "outfit": "A soft ivory strapless knit mini dress with slim side cutouts at the waist and mustard ribbed edging, exposing shoulders, waist and legs.",
+          "custom": "Targeted correction of image 2 only: erase all tiny lettering and fake titles on the book spines on the right-hand shelf, around x=900–1024, y=840–1040. Replace the marks with plain ivory and grey spine surfaces matching the existing light. Preserve the entire woman, both hands, plant pot, clothing, pose, room, camera and framing exactly. Image 1 is the identity anchor.",
+          "example_text": "in a soft, body-hugging knit dress, relaxing at home",
+          "locked": [
+            "cat",
+            "ex",
+            "expr",
+            "pose",
+            "orient",
+            "frame",
+            "lens",
+            "aspect",
+            "axes.overall_intensity",
+            "axes.skin_exposure",
+            "axes.action_level",
+            "axes.source_influence",
+            "axes.separates_preference"
+          ],
+          "randomization": {
+            "planner": "tools/casual-plan.cjs",
+            "session": "patrat-watchog-18829a",
+            "selection_changes_by_hand": false
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "She places a small ceramic planter on a high window shelf in her airy apartment, with late-morning sun falling across the wooden floor.",
+              "reason": "선택 예시 knit_dress_home에 없는 구체 활동과 공간·시간을 보충: She places a small ceramic planter on a high window shelf in her airy apartment, with late-morning sun falling across the wooden floor."
+            },
+            {
+              "field": "outfit",
+              "value": "A soft ivory strapless knit mini dress with slim side cutouts at the waist and mustard ribbed edging, exposing shoulders, waist and legs.",
+              "reason": "계획의 dress 구조와 strapless top,side cutouts를 해당 의상에 구현"
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+            },
+            {
+              "field": "custom",
+              "value": "Targeted correction of image 2 only: erase all tiny lettering and fake titles on the book spines on the right-hand shelf, around x=900–1024, y=840–1040. Replace the marks with plain ivory and grey spine surfaces matching the existing light. Preserve the entire woman, both hands, plant pot, clothing, pose, room, camera and framing exactly. Image 1 is the identity anchor.",
+              "reason": "첫 결과의 오른쪽 책등에 발견된 가짜 글자를 제거하는 부분 수정; 인물과 장면 보존"
+            }
+          ],
+          "axes_reason": {
+            "action_level": "She places a small ceramic planter on a high window shelf in her airy apartment, with late-morning sun falling across the wooden floor. — 이 활동의 진행 정도에 맞춘 mostly active",
+            "source_influence": "A soft ivory strapless knit mini dress with slim side cutouts at the waist and mustard ribbed edging, exposing shoulders, waist and legs. — 원작 색·문양의 정도는 balanced",
+            "separates_preference": "dress를 입히며 명시한 의상 구조를 유지하는 balanced"
+          }
+        },
+        {
+          "cut": 3,
+          "cat": "lingerie",
+          "ex": "back_strap",
+          "expr": "mischievous",
+          "pose": "contrapposto",
+          "orient": "over_shoulder",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "lingerie_set"
+          ],
+          "expose": [
+            "high-cut leg",
+            "bare midriff"
+          ],
+          "lead": "place",
+          "aspect": "2:3",
+          "scene": "The walnut vanity in her private dressing room holds a velvet tray of hair ribbons; she selects a ribbon for the evening under warm shaded lamps.",
+          "outfit": "An opaque black lingerie set with a mustard decorative strap arrangement across the upper back, high-cut briefs and a bare midriff; fine ivory piping echoes her palette.",
+          "example_text": "a lingerie set with a decorative strap arrangement across the upper back",
+          "locked": [
+            "cat",
+            "ex",
+            "expr",
+            "pose",
+            "orient",
+            "frame",
+            "lens",
+            "aspect",
+            "axes.overall_intensity",
+            "axes.skin_exposure",
+            "axes.action_level",
+            "axes.source_influence",
+            "axes.separates_preference"
+          ],
+          "randomization": {
+            "planner": "tools/casual-plan.cjs",
+            "session": "patrat-watchog-18829a",
+            "selection_changes_by_hand": false
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "value": "The walnut vanity in her private dressing room holds a velvet tray of hair ribbons; she selects a ribbon for the evening under warm shaded lamps.",
+              "reason": "선택 예시 back_strap에 없는 구체 활동과 공간·시간을 보충: The walnut vanity in her private dressing room holds a velvet tray of hair ribbons; she selects a ribbon for the evening under warm shaded lamps."
+            },
+            {
+              "field": "outfit",
+              "value": "An opaque black lingerie set with a mustard decorative strap arrangement across the upper back, high-cut briefs and a bare midriff; fine ivory piping echoes her palette.",
+              "reason": "계획의 lingerie_set 구조와 high-cut leg,bare midriff를 해당 의상에 구현"
+            },
+            {
+              "field": "camera",
+              "value": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+            }
+          ],
+          "axes_reason": {
+            "action_level": "The walnut vanity in her private dressing room holds a velvet tray of hair ribbons; she selects a ribbon for the evening under warm shaded lamps. — 이 활동의 진행 정도에 맞춘 mostly posed",
+            "source_influence": "An opaque black lingerie set with a mustard decorative strap arrangement across the upper back, high-cut briefs and a bare midriff; fine ivory piping echoes her palette. — 원작 색·문양의 정도는 balanced",
+            "separates_preference": "lingerie_set를 입히며 명시한 의상 구조를 유지하는 balanced"
+          }
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": []
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "active",
+          "source_editorial",
+          "homewear",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [],
+        "frame": []
+      }
+    },
+    {
+      "card": "보르그",
+      "species": "watchog-20261022",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "adult_maid",
+          "expr": "laughing",
+          "pose": "mid_action",
+          "orient": "three_quarter_back",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron"
+          ],
+          "expose": [
+            "cropped hem",
+            "open back"
+          ],
+          "lead": "place",
+          "aspect": "2:3"
+        },
+        {
+          "cut": 2,
+          "cat": "everyday_sensual",
+          "ex": "hair_tie",
+          "expr": "provocative",
+          "pose": "turning_back",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "robe"
+          ],
+          "expose": [
+            "halter neck",
+            "off-shoulder neckline"
+          ],
+          "lead": "light",
+          "aspect": "2:3"
+        },
+        {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "onsen_after",
+          "garments": [
+            "bikini"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "pose": "hands_in_hair",
+          "expr": "sensual",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "bare midriff"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": true,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "active",
+          "source_editorial",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "bikini"
+        ],
+        "orient": [
+          "turning_midmotion"
+        ],
+        "frame": []
+      }
+    }
+  ]
+}
