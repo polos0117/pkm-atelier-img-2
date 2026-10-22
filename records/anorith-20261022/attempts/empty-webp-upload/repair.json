@@ -1,0 +1,8 @@
+{
+  "problem": "Uploaded WebP was zero bytes; PNG source was unaffected",
+  "old_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "new_sha256": "6fa76c6de4cbe1c9d7e96cbd23e27b3a776177ac710a0b05da607ef75e6fa7bf",
+  "source": "generated_images/exec-1c5168ed-ca83-4886-b15e-caa95491099e.png",
+  "method": "Pillow WebP quality85 method6 to a sibling then decode and atomic replace",
+  "prevention": "Decode every generated WebP and compare dimensions before uploading"
+}
