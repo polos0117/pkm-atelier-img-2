@@ -466,7 +466,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-22T11:26:57+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-22-1/346/heavy_overdrive/prompt.txt",
@@ -478,7 +478,12 @@
               },
               "references": {
                 "heavy": "f8534bd397115034a2697044c2c1926f9169458725530a817cb1fb0cfb61bbfe"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-22-1/346/heavy_overdrive/original.png",
+                "sha256": "f09abad5cbf800b9ce261d8ae965b17d218b8b82346fd5afabbcd18048b03e01"
+              },
+              "received_at": "2026-10-22T11:28:16+00:00"
             }
           },
           "reason": "QA_FAILED heavy sha256=f8534bd397115034a2697044c2c1926f9169458725530a817cb1fb0cfb61bbfe: actual result retains approved face, twin braids, palette and thicker layered armor, but upper gold headgear point intersects and is cut off by top image boundary (near x440); full head/gear with clear margins required by IMAGE_RULES action card criteria. No retry or exception authorized for this slot. Preserve original and stop; Lileep already completed.",
@@ -493,7 +498,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-22T11:26:57+00:00"
+      "updated_at": "2026-10-22T11:28:19+00:00"
     }
   ],
   "claims": {
