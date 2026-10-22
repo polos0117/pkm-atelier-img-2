@@ -1,0 +1,596 @@
+{
+  "batch": {
+    "session": "gpt-stoutland-purrloin-20261023-e50a",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "바랜드",
+        "species": "stoutland-20261023",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "after_work_change",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "one_knee_up",
+            "expr": "wistful",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "travel_exploration",
+            "ex": "travel_coast",
+            "garments": [
+              "blouse",
+              "trousers"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "full_body",
+            "pose": "hand_on_hip",
+            "expr": "proud",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "sari_blouse_set",
+            "garments": [
+              "blouse",
+              "lingerie_set",
+              "traditional"
+            ],
+            "orient": "side",
+            "frame": "waist_up",
+            "pose": "arms_crossed",
+            "expr": "half_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "open back"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jacket",
+            "blouse"
+          ],
+          "orient": [
+            "crouching",
+            "three_quarter_back",
+            "side"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "쌔비냥",
+        "species": "purrloin-20261023",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_picnic",
+            "garments": [
+              "shorts",
+              "tank"
+            ],
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "pose": "carrying_something",
+            "expr": "relieved",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "cropped hem"
+            ],
+            "lead": "light",
+            "scene": "Late-morning sunlight filters through an orchard canopy onto a gingham picnic blanket; a shallow bamboo lunch tray contains sliced pink berries and small rice parcels, with the open travel basket beside it.",
+            "outfit": "A cream halter-neck cropped tank and violet high-waisted cotton shorts expose her shoulders, collarbones, midriff and upper legs, with a narrow green piping echo on the tank.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "locked": [
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "cat",
+              "ex",
+              "axis-overall_intensity",
+              "axis-skin_exposure",
+              "axis-action_level",
+              "axis-source_influence",
+              "axis-separates_preference"
+            ],
+            "selection_method": "planner; no manual selection changes",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Late-morning sunlight filters through an orchard canopy onto a gingham picnic blanket; a shallow bamboo lunch tray contains sliced pink berries and small rice parcels, with the open travel basket beside it.",
+                "reason": "예시에는 없는 과수원 채광·도시락 내용물·바구니 위치를 구체화"
+              },
+              {
+                "field": "outfit",
+                "content": "A cream halter-neck cropped tank and violet high-waisted cotton shorts expose her shoulders, collarbones, midriff and upper legs, with a narrow green piping echo on the tank.",
+                "reason": "선택 예시에는 옷이 없어 계획의 tank+shorts와 홀터·크롭 구조를 지정"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+              }
+            ],
+            "axes_reason": [
+              "도시락을 꺼내는 가벼운 동작이라 balanced",
+              "보라색 바지·녹색 얇은 테두리를 남겨 balanced",
+              "탱크와 쇼츠의 상하의 분리로 prefer separates"
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "sarong_wrap",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "pose": "leaning_wall",
+            "expr": "calm",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "high-cut leg"
+            ],
+            "lead": "place",
+            "scene": "A sun-warmed whitewashed wall borders a seaside changing terrace above turquoise tide pools; a rolled beach towel rests along the wall cap in late afternoon.",
+            "outfit": "A jade-green plunge-front high-cut bikini and a coral printed sarong tied at the hip, in matte swim fabric with a small brass fastening.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "locked": [
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "cat",
+              "ex",
+              "axis-overall_intensity",
+              "axis-skin_exposure",
+              "axis-action_level",
+              "axis-source_influence",
+              "axis-separates_preference"
+            ],
+            "selection_method": "planner; no manual selection changes",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A sun-warmed whitewashed wall borders a seaside changing terrace above turquoise tide pools; a rolled beach towel rests along the wall cap in late afternoon.",
+                "reason": "사롱 예시에는 장소가 없어 바닷가 탈의 테라스와 흰 벽·수건·시간대를 정함"
+              },
+              {
+                "field": "outfit",
+                "content": "A jade-green plunge-front high-cut bikini and a coral printed sarong tied at the hip, in matte swim fabric with a small brass fastening.",
+                "reason": "예시의 수영복+프린트 사롱에 옥색·산호색과 플런지·하이컷을 지정"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+              }
+            ],
+            "axes_reason": [
+              "벽에 기대며 쉬는 가벼운 움직임으로 balanced",
+              "작은 장식 한 곳 외엔 수영복의 색을 우선해 subtle",
+              "수영복과 사롱의 예시 조합을 유지하여 balanced"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_gardening",
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "pose": "watering",
+            "expr": "gentle",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "action",
+            "scene": "Pinching a single dry leaf between small gardening-scissor blades, she tends a row of young berry seedlings in terracotta pots; hazy morning light shines through the kitchen window.",
+            "outfit": "A pale-yellow strapless cropped knit top and denim shorts expose shoulders, collarbones, midriff and legs; a small green stripe on the watering can echoes her eyes.",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "locked": [
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "cat",
+              "ex",
+              "axis-overall_intensity",
+              "axis-skin_exposure",
+              "axis-action_level",
+              "axis-source_influence",
+              "axis-separates_preference"
+            ],
+            "selection_method": "planner; no manual selection changes",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Pinching a single dry leaf between small gardening-scissor blades, she tends a row of young berry seedlings in terracotta pots; hazy morning light shines through the kitchen window.",
+                "reason": "화분 예시의 마른 잎과 도구를 구체화하고 부엌 창가 아침빛을 지정"
+              },
+              {
+                "field": "outfit",
+                "content": "A pale-yellow strapless cropped knit top and denim shorts expose shoulders, collarbones, midriff and legs; a small green stripe on the watering can echoes her eyes.",
+                "reason": "의상이 없는 예시에 계획의 knit_top+shorts를 노랑 튜브 니트와 데님 쇼츠로 구체화"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+              }
+            ],
+            "axes_reason": [
+              "물 주기·마른 잎 손질의 생활 동작이라 balanced",
+              "물뿌리개 초록 선 한 곳에만 원작을 남겨 subtle",
+              "니트와 쇼츠를 분리해 prefer separates"
+            ]
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "food_berries",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "knit_top"
+          ],
+          "orient": [
+            "low_angle",
+            "leaning_back",
+            "profile_close"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "food_berries",
+      "ex": "food_picnic",
+      "garments": [
+        "shorts",
+        "tank"
+      ],
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "pose": "carrying_something",
+      "expr": "relieved",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "halter neck",
+        "cropped hem"
+      ],
+      "lead": "light",
+      "scene": "Late-morning sunlight filters through an orchard canopy onto a gingham picnic blanket; a shallow bamboo lunch tray contains sliced pink berries and small rice parcels, with the open travel basket beside it.",
+      "outfit": "A cream halter-neck cropped tank and violet high-waisted cotton shorts expose her shoulders, collarbones, midriff and upper legs, with a narrow green piping echo on the tank.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "locked": [
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "cat",
+        "ex",
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "axis-action_level",
+        "axis-source_influence",
+        "axis-separates_preference"
+      ],
+      "selection_method": "planner; no manual selection changes",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late-morning sunlight filters through an orchard canopy onto a gingham picnic blanket; a shallow bamboo lunch tray contains sliced pink berries and small rice parcels, with the open travel basket beside it.",
+          "reason": "예시에는 없는 과수원 채광·도시락 내용물·바구니 위치를 구체화"
+        },
+        {
+          "field": "outfit",
+          "content": "A cream halter-neck cropped tank and violet high-waisted cotton shorts expose her shoulders, collarbones, midriff and upper legs, with a narrow green piping echo on the tank.",
+          "reason": "선택 예시에는 옷이 없어 계획의 tank+shorts와 홀터·크롭 구조를 지정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ],
+      "axes_reason": [
+        "도시락을 꺼내는 가벼운 동작이라 balanced",
+        "보라색 바지·녹색 얇은 테두리를 남겨 balanced",
+        "탱크와 쇼츠의 상하의 분리로 prefer separates"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "sarong_wrap",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "leaning_back",
+      "frame": "chest_up",
+      "pose": "leaning_wall",
+      "expr": "calm",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "high-cut leg"
+      ],
+      "lead": "place",
+      "scene": "A sun-warmed whitewashed wall borders a seaside changing terrace above turquoise tide pools; a rolled beach towel rests along the wall cap in late afternoon.",
+      "outfit": "A jade-green plunge-front high-cut bikini and a coral printed sarong tied at the hip, in matte swim fabric with a small brass fastening.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "locked": [
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "cat",
+        "ex",
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "axis-action_level",
+        "axis-source_influence",
+        "axis-separates_preference"
+      ],
+      "selection_method": "planner; no manual selection changes",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A sun-warmed whitewashed wall borders a seaside changing terrace above turquoise tide pools; a rolled beach towel rests along the wall cap in late afternoon.",
+          "reason": "사롱 예시에는 장소가 없어 바닷가 탈의 테라스와 흰 벽·수건·시간대를 정함"
+        },
+        {
+          "field": "outfit",
+          "content": "A jade-green plunge-front high-cut bikini and a coral printed sarong tied at the hip, in matte swim fabric with a small brass fastening.",
+          "reason": "예시의 수영복+프린트 사롱에 옥색·산호색과 플런지·하이컷을 지정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ],
+      "axes_reason": [
+        "벽에 기대며 쉬는 가벼운 움직임으로 balanced",
+        "작은 장식 한 곳 외엔 수영복의 색을 우선해 subtle",
+        "수영복과 사롱의 예시 조합을 유지하여 balanced"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_gardening",
+      "garments": [
+        "knit_top",
+        "shorts"
+      ],
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "pose": "watering",
+      "expr": "gentle",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "strapless top"
+      ],
+      "lead": "action",
+      "scene": "Pinching a single dry leaf between small gardening-scissor blades, she tends a row of young berry seedlings in terracotta pots; hazy morning light shines through the kitchen window.",
+      "outfit": "A pale-yellow strapless cropped knit top and denim shorts expose shoulders, collarbones, midriff and legs; a small green stripe on the watering can echoes her eyes.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "locked": [
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "cat",
+        "ex",
+        "axis-overall_intensity",
+        "axis-skin_exposure",
+        "axis-action_level",
+        "axis-source_influence",
+        "axis-separates_preference"
+      ],
+      "selection_method": "planner; no manual selection changes",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Pinching a single dry leaf between small gardening-scissor blades, she tends a row of young berry seedlings in terracotta pots; hazy morning light shines through the kitchen window.",
+          "reason": "화분 예시의 마른 잎과 도구를 구체화하고 부엌 창가 아침빛을 지정"
+        },
+        {
+          "field": "outfit",
+          "content": "A pale-yellow strapless cropped knit top and denim shorts expose shoulders, collarbones, midriff and legs; a small green stripe on the watering can echoes her eyes.",
+          "reason": "의상이 없는 예시에 계획의 knit_top+shorts를 노랑 튜브 니트와 데님 쇼츠로 구체화"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ],
+      "axes_reason": [
+        "물 주기·마른 잎 손질의 생활 동작이라 balanced",
+        "물뿌리개 초록 선 한 곳에만 원작을 남겨 subtle",
+        "니트와 쇼츠를 분리해 prefer separates"
+      ]
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed before generation",
+  "reservation_path": "records/casual-reservations/gpt-stoutland-purrloin-20261023-e50a.json",
+  "replanning": "Shared batch avoided hidden EXAMPLE_DETAIL wardrobe conflicts and covered swimwear unsuitable for bold exposure. Selection values remained planner supplied.",
+  "regenerations": [
+    {
+      "slot": "light_overdrive",
+      "initial_original": "generated_images/exec-8bb184f3-1f2a-4213-98be-14a3c54743ab.png",
+      "problem": "Violet energy recoloured the canonical green irises",
+      "change": "Actual UI custom requests a local iris correction using closed canonical and opened edit target",
+      "final_original": "exec-02e630f8-ca21-49ae-a903-b48e013733ea.png"
+    }
+  ]
+}

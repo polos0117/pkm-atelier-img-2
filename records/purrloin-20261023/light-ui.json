@@ -1,0 +1,94 @@
+{
+  "capture_method": "Actual browser UI controls and output observed; recorded without reading hidden browser state.",
+  "storage": {
+    "last": "쌔비냥",
+    "cards": {
+      "쌔비냥": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s",
+          "eye color": "green",
+          "hair color": "purple"
+        },
+        "locks": {},
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          }
+        }
+      }
+    }
+  },
+  "faceDesign": {
+    "name": "쌔비냥",
+    "en": "Purrloin",
+    "line": "쌔비냥",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "angled brows",
+      "nose character": "rounded soft tip",
+      "lips": "full lips"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은",
+      "악 타입 → 눈썹 바깥에서 꺾이는 사선"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴 폭 넓은 얼굴 → 보통, 눈썹 가늘고 완만한 곡선 → 바깥에서 꺾이는 사선",
+    "hair": {
+      "hairstyle": "asymmetric cut",
+      "hair length": "short",
+      "bangs": "asymmetric bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "악 타입에서 좌우 길이가 다른 비대칭컷(층 낸 컷) · 짧은 머리 · 좌우 길이가 다른 앞머리",
+    "hair_cues": [
+      "악 타입 → 헤어스타일 좌우 길이가 다른 비대칭컷",
+      "키 0.4m → 머리 길이 짧은 머리",
+      "악 타입 → 앞머리 좌우 길이가 다른 앞머리"
+    ]
+  },
+  "prompt": "INPUT: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\n\nSOURCE: Purrloin (쌔비냥), dark type.\n\nPALETTE: violet, black.\n\nSTYLE: Premium glossy anime-mecha promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized hard-surface detail. Match the face and armor at the same polished rendering intensity.\n\nSUBJECT: A female mecha personification character with Purrloin as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\n\nWEAR: its markings (long, tapered violet markings) become painted lines and patterns on her plates and undersuit.\n\nFACE (her own structure, not the style's default face): softly rounded face, short length, medium width; soft rounded jaw; open rounded eyes, medium size, level outer corners, wide-set; angled brows; rounded soft tip nose; full lips.\n\nHAIR: short asymmetric cut, asymmetric bangs.\n\nFORM — LIGHT: one close-fitting armor layer: slim plates at the shoulders, forearms, hips and shins over a fitted undersuit, joints free, a slim readable outline. No helmet; at most a slim headband or temple sensor.\n\nOUTPUT: one dynamic action image that is also this form's card art. Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion, face toward the camera (front or three-quarter, never a back view). Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\n\nChosen settings below override the default stance and camera; her identity and form stay fixed.\nCamera: Vertical 2:3 portrait (1024×1536).\n\nIDENTITY (chosen details override the automatic look)\napparent age: 20s — adult woman in her twenties\neye color: green\nhair color: purple\neye color consistency: both eyes are green\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra. Gloves are full-finger and close-fitting, never fingerless; plates, water, sparks and effects stay off the fingers."
+}

@@ -1,0 +1,84 @@
+{
+  "reviewer": "gpt",
+  "accepted_count": 9,
+  "image_tool": "built-in image_gen",
+  "face_reason": "귀여운 동작 뒤 장난스러운 발톱 공격이라는 도감 설명과 작은 코·녹색 눈을 성인 얼굴의 짧은 윤곽·넓은 눈 간격·사선 눈썹·둥근 코끝으로 해석. 보라색 무늬는 장갑 도색과 머리색으로 옮김.",
+  "face_sources": [
+    "data/card.json:509",
+    "data/source-appearance.json:509",
+    "data/face-design.json:509"
+  ],
+  "compared_characters": [
+    "바랜드",
+    "하데리어",
+    "아말도",
+    "빈티나"
+  ],
+  "evolution_comparison": "계열 다음 종 레파르다스의 등록 경장이 없어 비교 가능한 계열 정본이 없음을 확인. 기존 그림을 추정하지 않음.",
+  "face_comparison_observation": "바랜드의 넓은 볼·둥근 턱보다 쌔비냥은 좁은 턱끝과 더 긴 가로 눈매, 하데리어의 긴 코·차분한 직선 눈썹과 달리 짧은 코끝과 굽은 눈썹, 아말도의 날카로운 직선 윤곽보다 둥근 입 주변. 색·머리 장식을 제외해도 눈 간격·눈썹·코끝 비율로 구별됨. 추가로 본 빈티나의 길고 아래로 좁아지는 얼굴·높게 곡선진 눈썹보다 쌔비냥은 짧은 중안부와 사선 눈썹·넓은 눈 간격으로 구별됨.",
+  "observations": {
+    "light": "양쪽 녹색 눈, 짧은 비대칭 보라색 머리, 검정·보라 도색, 전신 여백과 양손 5지의 자연스러운 가림. 무기 없음.",
+    "heavy": "같은 얼굴·눈·헤어를 유지하고 다층 넓은 어깨·팔·다리 장갑으로 부피 증가.",
+    "mobility": "같은 정본 얼굴과 몸; 어깨·골반·종아리의 분리 패널·소형 스러스터.",
+    "light_overdrive": "눈 수정 뒤 녹색 홍채와 원본 구도 유지. 얇은 판의 힌지와 보라 내부빛.",
+    "heavy_overdrive": "중장 닫힌 그림의 구도와 얼굴 유지. 다층 판 사이에 진한 보랏빛, 양손 장갑 구조 유지.",
+    "mobility_overdrive": "고기동 패널이 더 벌어지고 스러스터 덮개가 열림. 녹색 눈·짧은 머리·몸 유지.",
+    "casual1": "과수원 피크닉 담요에서 도시락·열매를 꺼내는 장면. 한 손은 바구니 뚜껑, 한 손은 대나무 트레이 손잡이. 양손·팔 연결 자연스러움.",
+    "casual2": "흰 벽에 기대어 바닷가 테라스에서 쉬는 모습. 옥색 비키니·산호색 프린트 사롱·녹색 눈·짧은 머리.",
+    "casual3": "양손으로 물뿌리개와 가위를 조작하며 작은 열매 화분을 돌봄. 노랑 튜브 니트·데님 쇼츠, 손가락과 손목·팔꿈치 연결 자연스러움."
+  },
+  "recorded_variations": [
+    "casual1은 planned carrying 자세가 앉아 도시락 손잡이와 바구니 뚜껑을 잡는 동작으로 표현됨.",
+    "casual2는 chest_up보다 허벅지까지 넓게 보여 사롱도 드러남.",
+    "casual3은 profile_close보다 앞 3/4 방향에 가깝게 표현됨. 자세·방향·프레이밍 차이는 기록만 하는 규칙 적용."
+  ],
+  "diversity_comparison": "쌔비냥 3장과 바랜드·하데리어·아말도 일상 9장을 실제 그림으로 비교. 과수원 도시락 준비의 낮은 앉음, 흰 벽의 수영복·사롱 기대기, 실내 창가 화분 손질의 두 손 도구 동작이 장소·활동·의상 실루엣·구도로 구별됨. 바랜드의 귀가휴식·해변 스케치·사리, 하데리어의 독서·운동·카지노, 아말도의 수건·야간 드레스·수영장 구성과 구별됨.",
+  "files": [
+    {
+      "slot": "light",
+      "sha256": "6b92211e1a8430cdd71b5f41d739037f5d8f9af564bcea40cc695828e0832a32",
+      "accepted": true
+    },
+    {
+      "slot": "heavy",
+      "sha256": "d16d9fa65dd0033bae940ed9aba1661f1586ac92506bf0c852a1cff3e448bf88",
+      "accepted": true
+    },
+    {
+      "slot": "mobility",
+      "sha256": "599d935277b92385db9310644545334da297df99eb27e2efe221d5f5967f4603",
+      "accepted": true
+    },
+    {
+      "slot": "light_overdrive",
+      "sha256": "66c90083a4a90f7eae35dc92299b6a10b066fae9f67a65863eba4c1d61ead348",
+      "accepted": true
+    },
+    {
+      "slot": "heavy_overdrive",
+      "sha256": "6c9b7c16fca4d97346310ddffc3d6496d4a782ec9e95986e975b8b78696d9fb3",
+      "accepted": true
+    },
+    {
+      "slot": "mobility_overdrive",
+      "sha256": "eb63a904300b01e291464c77719898c842510daa1c19c8bb8e165fd8238ea565",
+      "accepted": true
+    },
+    {
+      "slot": "casual1",
+      "sha256": "b467eee8ad69ce31ea0252968701728ddf2a7c7dfa3b8062542095396efdc208",
+      "accepted": true
+    },
+    {
+      "slot": "casual2",
+      "sha256": "7c63fa02abf50046808fad60f8bbf3a19fd36e376c4c4ce5dccb054150d04d31",
+      "accepted": true
+    },
+    {
+      "slot": "casual3",
+      "sha256": "e132716d108d2e8256955f73f8adf92ff88e191a9035842a661ffbe4c9fedb98",
+      "accepted": true
+    }
+  ],
+  "additional_recent_comparison": "동시에 공개된 빈티나 일상 3장을 실제로 추가 대조. 빈티나는 실내 코르셋 좌식·온천 돌 위 웅크림·과수원에서 열매 수확 전신이며, 쌔비냥은 도시락 꺼내기 좌식·바닷가 벽에 기대기·실내 화분 손질로 활동·의상과 실루엣이 구별됨. 과수원 배경은 겹치지만 수확 전신과 피크닉 준비의 낮은 좌식·도시락·탱크와 쇼츠가 다르게 읽힘."
+}
