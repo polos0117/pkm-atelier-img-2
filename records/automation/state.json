@@ -158,7 +158,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-22T10:49:55+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-22-1/345/mobility_overdrive/prompt.txt",
@@ -175,7 +175,11 @@
                 "path": "records/automation/runs/2026-10-22-1/345/mobility_overdrive/original.png",
                 "sha256": "743369b1391204e7b5689c3eb13266cf1484a2058e70f9d048f83ec004243628"
               },
-              "received_at": "2026-10-22T10:51:08+00:00"
+              "received_at": "2026-10-22T10:51:08+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-22-1/345/mobility_overdrive/qa.json",
+                "sha256": "44d532a1e2b861354512c5d0bfe0539f5837b3e7c32bf79688ccb4e9cf3325d8"
+              }
             }
           },
           "reason": "QA_FAILED approved correction attempt 2, light_overdrive sha256=47e9e51a0cf772e516729b7cdfae05f25bd61b3a2c79fa4baeca193d8892f190: compared actual approved light and both failed outputs. Large stacked thigh armor reduced, but new broad angular thigh panels with gold borders remain instead of the original smooth purple fitted thigh surfaces and small knee accents. Face pose camera preserved; no-new-armor criterion still fails. Exactly one approved correction consumed; no further retries or batch generation authorized after this failure. All originals and approval preserved.",
@@ -225,7 +229,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T10:51:11+00:00"
+      "updated_at": "2026-10-22T10:51:33+00:00"
     }
   ],
   "claims": {
