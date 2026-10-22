@@ -1,0 +1,472 @@
+{
+ "batch": {
+  "session": "tepig-pignite-20261022",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "뚜꾸리",
+    "species": "tepig-20261022",
+    "cuts": [
+     {
+      "kept": true,
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "salwar_daily",
+      "expr": "laughing",
+      "pose": "hands_in_hair",
+      "orient": "side",
+      "frame": "chest_up",
+      "lens": "wide24",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "traditional"
+      ],
+      "expose": [
+       "high thigh slit",
+       "side cutouts"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "adult_teacher",
+      "garments": [
+       "jacket",
+       "skirt"
+      ],
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "pose": "reading_book",
+      "expr": "provocative",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "strapless top",
+       "off-shoulder neckline"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "poolside_bar",
+      "garments": [
+       "bikini"
+      ],
+      "orient": "seated_twist",
+      "frame": "environmental",
+      "pose": "side_sitting",
+      "expr": "sensual",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "plunging neckline",
+       "bare midriff"
+      ],
+      "lead": "action"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       2,
+       3
+      ],
+      "two": true,
+      "prev": [
+       1
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_basic",
+      "everyday_sensual",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "active",
+      "homewear",
+      "private_evening",
+      "traditional"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "jacket",
+      "bikini"
+     ],
+     "orient": [
+      "looking_away",
+      "seated_twist"
+     ],
+     "frame": []
+    }
+   },
+   {
+    "card": "차오꿀",
+    "species": "pignite-20261022",
+    "cuts": [
+     {
+      "kept": true,
+      "cut": 1,
+      "cat": "everyday_basic",
+      "ex": "parcel_pickup",
+      "expr": "laughing_open",
+      "pose": "on_tiptoe",
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "overalls"
+      ],
+      "expose": [
+       "cropped hem",
+       "halter neck"
+      ],
+      "lead": "action"
+     },
+     {
+      "kept": true,
+      "cut": 2,
+      "cat": "private_evening",
+      "ex": "after_party",
+      "expr": "soft_smile",
+      "pose": "contrapposto",
+      "orient": "three_quarter_back",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "slip"
+      ],
+      "expose": [
+       "plunging neckline",
+       "high thigh slit"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "uniform_inspired",
+      "garments": [
+       "uniform"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "chest_up",
+      "pose": "turning_back",
+      "expr": "mischievous",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "mini length",
+       "halter neck"
+      ],
+      "lead": "action"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       3
+      ],
+      "two": false,
+      "prev": [
+       2,
+       3
+      ]
+     },
+     "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "everyday_basic",
+      "everyday_sensual",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "active",
+      "homewear",
+      "private_evening"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "uniform"
+     ],
+     "orient": [
+      "turning_midmotion"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "casual_plan": [
+  {
+   "kept": true,
+   "cut": 1,
+   "cat": "everyday_basic",
+   "ex": "parcel_pickup",
+   "expr": "laughing_open",
+   "pose": "on_tiptoe",
+   "orient": "low_angle",
+   "frame": "waist_up",
+   "lens": "natural50",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "subtle",
+    "separates_preference": "balanced"
+   },
+   "garments": [
+    "overalls"
+   ],
+   "expose": [
+    "cropped hem",
+    "halter neck"
+   ],
+   "lead": "action",
+   "scene": "Collects a small parcel from a convenience-store pickup shelf under bright afternoon ceiling lights.",
+   "outfit": "Red-denim halter-neck short overalls with a cropped bib and open waist sides, exposing her shoulders, midriff and upper thighs.",
+   "example_text": "at a convenience-store counter in a hoodie and leggings, picking up a small parcel",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "axes.overall_intensity",
+    "axes.skin_exposure",
+    "axes.action_level",
+    "axes.source_influence",
+    "axes.separates_preference"
+   ],
+   "randomization": {
+    "source": "tools/casual-plan.cjs",
+    "manual_selection_changes": false
+   },
+   "axes_reason": {
+    "action_level": "Collects a small parcel from a convenience-store pickup shelf under bright afternoon ceiling lights. — 멈춤/손동작/이동을 계획기 선택과 대조했다.",
+    "source_influence": "Red-denim halter-neck short overalls with a cropped bib and open waist sides, exposing her shoulders, midriff and upper thighs. — 일상 의상의 색과 작은 모티프로만 원작 연결을 유지한다.",
+    "separates_preference": "overalls의 실제 한 벌/상하의 구조를 따른다."
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "value": "Collects a small parcel from a convenience-store pickup shelf under bright afternoon ceiling lights.",
+     "reason": "at a convenience-store counter in a hoodie and leggings, picking up a small parcel 예시에 없는 이 장면의 장소 세부·소품·활동: Collects a small parcel from a convenience-store pickup shelf under bright afternoon ceiling lights."
+    },
+    {
+     "field": "outfit",
+     "value": "Red-denim halter-neck short overalls with a cropped bib and open waist sides, exposing her shoulders, midriff and upper thighs.",
+     "reason": "overalls와 cropped hem, halter neck를 이 컷의 색·재질로 구현: Red-denim halter-neck short overalls with a cropped bib and open waist sides, exposing her shoulders, midriff and upper thighs."
+    },
+    {
+     "field": "camera",
+     "value": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 인수가 없어 규칙의 비율 안내문을 카메라 칸에 넣음"
+    }
+   ]
+  },
+  {
+   "kept": true,
+   "cut": 2,
+   "cat": "private_evening",
+   "ex": "after_party",
+   "expr": "soft_smile",
+   "pose": "contrapposto",
+   "orient": "three_quarter_back",
+   "frame": "full_body",
+   "lens": "portrait85",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "subtle",
+    "separates_preference": "balanced"
+   },
+   "garments": [
+    "slip"
+   ],
+   "expose": [
+    "plunging neckline",
+    "high thigh slit"
+   ],
+   "lead": "place",
+   "scene": "A hotel penthouse dressing alcove after a rooftop party; she unfastens one earring beside a marble console.",
+   "outfit": "A copper satin slip with a plunging neckline, thin straps, open back and a high thigh slit; her shoulders and legs remain visible.",
+   "example_text": "after a party in an evening dress, taking off her earrings and draping her coat over a chair",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "axes.overall_intensity",
+    "axes.skin_exposure",
+    "axes.action_level",
+    "axes.source_influence",
+    "axes.separates_preference"
+   ],
+   "randomization": {
+    "source": "tools/casual-plan.cjs",
+    "manual_selection_changes": false
+   },
+   "axes_reason": {
+    "action_level": "A hotel penthouse dressing alcove after a rooftop party; she unfastens one earring beside a marble console. — 멈춤/손동작/이동을 계획기 선택과 대조했다.",
+    "source_influence": "A copper satin slip with a plunging neckline, thin straps, open back and a high thigh slit; her shoulders and legs remain visible. — 일상 의상의 색과 작은 모티프로만 원작 연결을 유지한다.",
+    "separates_preference": "slip의 실제 한 벌/상하의 구조를 따른다."
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "value": "A hotel penthouse dressing alcove after a rooftop party; she unfastens one earring beside a marble console.",
+     "reason": "after a party in an evening dress, taking off her earrings and draping her coat over a chair 예시에 없는 이 장면의 장소 세부·소품·활동: A hotel penthouse dressing alcove after a rooftop party; she unfastens one earring beside a marble console."
+    },
+    {
+     "field": "outfit",
+     "value": "A copper satin slip with a plunging neckline, thin straps, open back and a high thigh slit; her shoulders and legs remain visible.",
+     "reason": "slip와 plunging neckline, high thigh slit를 이 컷의 색·재질로 구현: A copper satin slip with a plunging neckline, thin straps, open back and a high thigh slit; her shoulders and legs remain visible."
+    },
+    {
+     "field": "camera",
+     "value": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 인수가 없어 규칙의 비율 안내문을 카메라 칸에 넣음"
+    }
+   ]
+  },
+  {
+   "cut": 3,
+   "cat": "adult_roleplay",
+   "ex": "uniform_inspired",
+   "garments": [
+    "uniform"
+   ],
+   "orient": "turning_midmotion",
+   "frame": "chest_up",
+   "pose": "turning_back",
+   "expr": "mischievous",
+   "lens": "documentary35",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "strong",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "mini length",
+    "halter neck"
+   ],
+   "lead": "action",
+   "scene": "Steps past a chrome luggage stand during a retro airline costume-show rehearsal, tucking a small silk scarf through its collar loop.",
+   "outfit": "A red-and-cream halter uniform minidress for a retro airline costume show, with a short scarf, pillbox cap and small flame-shaped pin; the shoulders and upper thighs are uncovered.",
+   "example_text": "a stylized uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "axes.overall_intensity",
+    "axes.skin_exposure",
+    "axes.action_level",
+    "axes.source_influence",
+    "axes.separates_preference"
+   ],
+   "randomization": {
+    "source": "tools/casual-plan.cjs",
+    "manual_selection_changes": false
+   },
+   "axes_reason": {
+    "action_level": "Steps past a chrome luggage stand during a retro airline costume-show rehearsal, tucking a small silk scarf through its collar loop. — 멈춤/손동작/이동을 계획기 선택과 대조했다.",
+    "source_influence": "A red-and-cream halter uniform minidress for a retro airline costume show, with a short scarf, pillbox cap and small flame-shaped pin; the shoulders and upper thighs are uncovered. — 일상 의상의 색과 작은 모티프로만 원작 연결을 유지한다.",
+    "separates_preference": "uniform의 실제 한 벌/상하의 구조를 따른다."
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "value": "Steps past a chrome luggage stand during a retro airline costume-show rehearsal, tucking a small silk scarf through its collar loop.",
+     "reason": "a stylized uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia 예시에 없는 이 장면의 장소 세부·소품·활동: Steps past a chrome luggage stand during a retro airline costume-show rehearsal, tucking a small silk scarf through its collar loop."
+    },
+    {
+     "field": "outfit",
+     "value": "A red-and-cream halter uniform minidress for a retro airline costume show, with a short scarf, pillbox cap and small flame-shaped pin; the shoulders and upper thighs are uncovered.",
+     "reason": "uniform와 mini length, halter neck를 이 컷의 색·재질로 구현: A red-and-cream halter uniform minidress for a retro airline costume show, with a short scarf, pillbox cap and small flame-shaped pin; the shoulders and upper thighs are uncovered."
+    },
+    {
+     "field": "camera",
+     "value": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 인수가 없어 규칙의 비율 안내문을 카메라 칸에 넣음"
+    }
+   ]
+  }
+ ],
+ "planner": "tools/casual-plan.cjs",
+ "generator": "Actual deployed UI selected, prompt length and FNV-1a matched.",
+ "reservation_commit": "5e824edc842b9f90e71d117cee620db1e9522625",
+ "check": "Batch passed before reservation and image generation.",
+ "regenerations": [
+  {
+   "cut": 3,
+   "old": "swimwear/onsen_after",
+   "reason": "Image tool rejected output; no image returned. Switched to uniform-themed fashion event."
+  }
+ ],
+ "built_in_imagegen": true
+}
