@@ -98,7 +98,7 @@
               }
             },
             "light_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "attempt": 2,
               "at": "2026-10-22T10:42:39+00:00",
               "prefix": "records/automation/runs/2026-10-22-1/345/light_overdrive/attempts/2",
@@ -120,7 +120,12 @@
               "correction_reference": {
                 "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/original.png",
                 "sha256": "469c0222904d1f7372913f671ae043a7548646ec9155c0c1dc13f01e2b1a0e90"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-22-1/345/light_overdrive/attempts/2/original.png",
+                "sha256": "47e9e51a0cf772e516729b7cdfae05f25bd61b3a2c79fa4baeca193d8892f190"
+              },
+              "received_at": "2026-10-22T10:44:24+00:00"
             }
           },
           "reason": "QA_FAILED light_overdrive sha256=469c0222904d1f7372913f671ae043a7548646ec9155c0c1dc13f01e2b1a0e90: compared actual restored light eaabf39d88583cce9036b30d8b2f22724bf422bcd223287d2f5fed10ed75b478 and result; face, pose and camera preserved, but original smooth upper-thigh bodysuit areas gained large additional layered plates instead of opening only existing plates. IMAGE_RULES section3 overdrive prohibits new armor. Original, prompt and UI preserved remotely; no retry or further generation per batch instructions.",
@@ -161,7 +166,7 @@
           "slots": {}
         }
       ],
-      "updated_at": "2026-10-22T10:42:39+00:00"
+      "updated_at": "2026-10-22T10:44:27+00:00"
     }
   ],
   "claims": {
