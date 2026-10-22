@@ -108,5 +108,10 @@
       ]
     }
   ],
-  "skipped": []
+  "skipped": [],
+  "upload_repair": {
+    "slot": "light-overdrive",
+    "reason": "A zero-byte blob was detected by the thumbnail workflow; restored the saved generated PNG to the exact pre-upload WebP SHA-256 in classification.json. No image regeneration or design change.",
+    "validation": "All 18 full decodes, sizes and SHA-256 values match their original classification records."
+  }
 }
