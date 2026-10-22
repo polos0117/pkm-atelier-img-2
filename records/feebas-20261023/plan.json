@@ -1,0 +1,335 @@
+{
+  "session": "feebas-milotic-20261023-2abb",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "빈티나",
+      "species": "feebas-20261023",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "lingerie",
+          "ex": "corset_lingerie",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "pose": "cross_legged",
+          "expr": "cold_smile",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "strapless top",
+            "open back"
+          ],
+          "lead": "place"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "swimwear",
+          "ex": "onsen_after",
+          "expr": "amused",
+          "pose": "squatting",
+          "orient": "rear_3q",
+          "frame": "environmental",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "bikini"
+          ],
+          "expose": [
+            "plunging neckline",
+            "open back"
+          ],
+          "lead": "light"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "occupation_basic",
+          "ex": "agri_drone",
+          "expr": "candid",
+          "pose": "offering_food",
+          "orient": "leaning_forward",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "skirt"
+          ],
+          "expose": [
+            "cropped hem",
+            "strapless top"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": true,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "travel_exploration",
+          "food_berries",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [
+          "high_angle"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "밀로틱",
+      "species": "milotic-20261023",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "bunny",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "pose": "walking",
+          "expr": "playful",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "side cutouts"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 2,
+          "cat": "wildcard",
+          "ex": "observatory_night",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "pose": "perched_seat",
+          "expr": "mildly_annoyed",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "strapless top"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 3,
+          "cat": "source_editorial",
+          "ex": "deconstructed_frame",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "front",
+          "frame": "chest_up",
+          "pose": "waving",
+          "expr": "unimpressed",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "one-shoulder cut"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            1,
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "travel_exploration",
+          "food_berries",
+          "active",
+          "source_editorial",
+          "homewear",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jumpsuit"
+        ],
+        "orient": [
+          "over_shoulder",
+          "reclining",
+          "front"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "corset_lingerie",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "pose": "cross_legged",
+      "expr": "cold_smile",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "open back"
+      ],
+      "lead": "place"
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "onsen_after",
+      "expr": "amused",
+      "pose": "squatting",
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "bikini"
+      ],
+      "expose": [
+        "plunging neckline",
+        "open back"
+      ],
+      "lead": "light"
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "agri_drone",
+      "expr": "candid",
+      "pose": "offering_food",
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "apron",
+        "skirt"
+      ],
+      "expose": [
+        "cropped hem",
+        "strapless top"
+      ],
+      "lead": "place"
+    }
+  ],
+  "direct_input_notes": [
+    {
+      "scene": "A velvet floor cushion and a satin curtain mark a quiet fitting-room corner; she sits cross-legged while aligning a loose corset ribbon between her hands.",
+      "outfit": "An opaque tan strapless corset lingerie set has a structured satin bodice, an open upper back and matching briefs; a small pink ribbon accents the waist."
+    },
+    {
+      "scene": "Early evening lantern light filters through the steam over a stone hot-spring basin; after her soak she crouches beside the water and folds a small washcloth.",
+      "outfit": "A pale-brown bikini has a plunging neckline and an open back; a white bath towel wraps loosely around her hips while the top and shoulders remain visible."
+    },
+    {
+      "scene": "An orchard aisle lies between low berry trees and woven harvest baskets; leaning toward a nearby basket, she offers a freshly collected berry in one open palm.",
+      "outfit": "A short cropped harvest apron over a tan strapless top and a pink mini skirt exposes her shoulders, midriff and legs; irregular dark spots decorate the apron hem."
+    }
+  ],
+  "notes": "Planner choices retained; direct inputs add time, activity and garment construction. camera supplies portrait dimensions because image tool has no size parameter."
+}
