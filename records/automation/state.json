@@ -562,7 +562,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "attempt": 2,
               "at": "2026-10-22T11:50:55+00:00",
               "prefix": "records/automation/runs/2026-10-22-1/346/casual3/attempts/2",
@@ -585,7 +585,11 @@
                 "path": "records/automation/runs/2026-10-22-1/346/casual3/attempts/2/original.png",
                 "sha256": "955b88868b9cbc6a7a1c15ad241b910b21924ed4715f366a761bdd30abe7f1de"
               },
-              "received_at": "2026-10-22T11:51:58+00:00"
+              "received_at": "2026-10-22T11:51:58+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-22-1/346/casual3/attempts/2/qa.json",
+                "sha256": "09845e7bfb544eb80d1777b3da278fe02bd8796d1346b53bbd664c91ed708c25"
+              }
             }
           },
           "reason": "casual3 image_gen returned HTTP 400 moderation_blocked at output stage, category sexual; request ID 932fa32c-805b-4e52-8e47-ef3618f432d0. No result file returned. No retry performed. casual3 intent and original prompt/UI preserved; 8/9 slots accepted including heavy user exception.",
@@ -630,7 +634,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-22T11:52:03+00:00"
+      "updated_at": "2026-10-22T11:53:49+00:00"
     }
   ],
   "claims": {
