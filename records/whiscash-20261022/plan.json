@@ -1,0 +1,474 @@
+{
+ "card": "메깅",
+ "style": "glossy_promo",
+ "casual_plan": [
+  {
+   "cut": 1,
+   "cat": "partner_care",
+   "ex": "care_rain_shelter",
+   "garments": [
+    "shirt",
+    "trousers"
+   ],
+   "orient": "over_shoulder",
+   "frame": "chest_up",
+   "pose": "gentle_pat",
+   "expr": "laughing_open",
+   "lens": "telephoto135",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "balanced",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "open back",
+    "halter neck"
+   ],
+   "lead": "action",
+   "scene": "Gathering a dry corner of the towel, she tends a small Mudkip perched on the porch rail; late-afternoon rain beads on the wooden eaves.",
+   "outfit": "A pale-blue halter shirt with a fully open back exposes her shoulders and back, paired with ochre wide-leg trousers.",
+   "example_text": "Wiping rain from a Pokémon companion with a towel under a covered porch, umbrellas resting nearby.",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "axis:overall_intensity",
+    "axis:skin_exposure",
+    "axis:action_level",
+    "axis:source_influence",
+    "axis:separates_preference"
+   ],
+   "planner_selection": true,
+   "axis_reasons": {
+    "action_level": "수건으로 물기를 닦으며 쓰다듬는 손의 작은 움직임이므로 balanced.",
+    "source_influence": "하늘색 셔츠와 황토색 바지의 색 두 가지만 이어 balanced.",
+    "separates_preference": "셔츠와 바지 두 벌로 나뉘어 prefer separates."
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "Gathering a dry corner of the towel, she tends a small Mudkip perched on the porch rail; late-afternoon rain beads on the wooden eaves.",
+     "reason": "예시는 포켓몬 종·처마의 구체적인 모습을 정하지 않아 물짱이와 난간·늦은 오후의 비를 보충."
+    },
+    {
+     "field": "outfit",
+     "content": "A pale-blue halter shirt with a fully open back exposes her shoulders and back, paired with ochre wide-leg trousers.",
+     "reason": "예시에 의상이 없어 계획기의 shirt+trousers 및 open back+halter neck를 구현."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+    }
+   ]
+  },
+  {
+   "cut": 2,
+   "cat": "lingerie",
+   "ex": "open_shirt_lingerie",
+   "garments": [
+    "lingerie_set",
+    "shirt"
+   ],
+   "orient": "three_quarter_back",
+   "frame": "three_quarter",
+   "pose": "contrapposto",
+   "expr": "soft_smile",
+   "lens": "portrait85",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "balanced",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "side cutouts",
+    "high-cut leg"
+   ],
+   "lead": "place",
+   "scene": "A hotel dressing alcove has a ribbed amber-glass lamp and a velvet stool beside the wardrobe.",
+   "outfit": "The midnight-blue opaque satin lingerie set has side-cutout waist bands and high-cut briefs; the ivory oversized shirt hangs open from her upper arms, revealing her shoulders, side waist and thighs.",
+   "example_text": "a tailored oversized shirt worn open over a matching satin lingerie set",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "axis:overall_intensity",
+    "axis:skin_exposure",
+    "axis:action_level",
+    "axis:source_influence",
+    "axis:separates_preference"
+   ],
+   "planner_selection": true,
+   "axis_reasons": {
+    "action_level": "옷장 옆에서 한쪽 다리에 무게를 두고 멈춘 장면이라 mostly posed.",
+    "source_influence": "남청색 새틴에 작은 금색 포인트만 이어 balanced.",
+    "separates_preference": "매칭 새틴 세트와 걸친 셔츠의 패션 조합을 우선해 balanced."
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "A hotel dressing alcove has a ribbed amber-glass lamp and a velvet stool beside the wardrobe.",
+     "reason": "예시는 의상만 정하므로 옷장 옆 알코브·유리 램프·스툴을 장면으로 지정."
+    },
+    {
+     "field": "outfit",
+     "content": "The midnight-blue opaque satin lingerie set has side-cutout waist bands and high-cut briefs; the ivory oversized shirt hangs open from her upper arms, revealing her shoulders, side waist and thighs.",
+     "reason": "예시의 오픈 셔츠+새틴 세트를 유지하면서 계획기의 side cutouts+high-cut leg 구조와 색을 보충."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+    }
+   ]
+  },
+  {
+   "cut": 3,
+   "cat": "traditional",
+   "ex": "hanbok_formal",
+   "garments": [
+    "traditional"
+   ],
+   "orient": "looking_down",
+   "frame": "full_body",
+   "pose": "waving",
+   "expr": "mischievous",
+   "lens": "natural50",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "strong",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "cropped hem",
+    "high thigh slit"
+   ],
+   "lead": "light",
+   "scene": "Morning light pools across a pavilion at a Korean garden reception; a stone path and lotus pond extend beyond the carved rail.",
+   "outfit": "A cropped deep-blue jeogori retains its white dongjeong collar and yellow goreum bow; the full high-wrapped pale-blue chima has an overlapping high thigh slit, revealing one leg and a narrow strip of waist beneath the cropped hem.",
+   "example_text": "a formal Korean hanbok — short jeogori with goreum bow and white dongjeong collar over a full high-wrapped chima; not hanfu",
+   "locked": [
+    "cat",
+    "ex",
+    "expr",
+    "pose",
+    "orient",
+    "frame",
+    "lens",
+    "aspect",
+    "axis:overall_intensity",
+    "axis:skin_exposure",
+    "axis:action_level",
+    "axis:source_influence",
+    "axis:separates_preference"
+   ],
+   "planner_selection": true,
+   "axis_reasons": {
+    "action_level": "정원 행사에서 손을 흔드는 진행 중 동작이라 mostly active.",
+    "source_influence": "저고리·치마·고름 전체에 청색·노란색 조합을 뚜렷이 반영해 strong.",
+    "separates_preference": "전통 저고리와 치마의 정해진 구조를 따르도록 balanced."
+   },
+   "direct_inputs": [
+    {
+     "field": "scene",
+     "content": "Morning light pools across a pavilion at a Korean garden reception; a stone path and lotus pond extend beyond the carved rail.",
+     "reason": "한복을 입을 만한 정원 리셉션의 정자·연못 및 아침 빛을 보충."
+    },
+    {
+     "field": "outfit",
+     "content": "A cropped deep-blue jeogori retains its white dongjeong collar and yellow goreum bow; the full high-wrapped pale-blue chima has an overlapping high thigh slit, revealing one leg and a narrow strip of waist beneath the cropped hem.",
+     "reason": "예시의 동정·고름·풍성한 치마 구조를 유지하며 계획기의 cropped hem+high thigh slit을 보충."
+    },
+    {
+     "field": "camera",
+     "content": "Vertical 2:3 portrait (1024×1536).",
+     "reason": "이미지 도구에 크기 선택 항목이 없어 camera에 세로 2:3 크기를 명시."
+    }
+   ]
+  }
+ ],
+ "batch_plan": {
+  "session": "gpt-whiscash-corphish-20261022",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "메깅",
+    "species": "whiscash-20261022",
+    "cuts": [
+     {
+      "cut": 1,
+      "cat": "partner_care",
+      "ex": "care_rain_shelter",
+      "garments": [
+       "shirt",
+       "trousers"
+      ],
+      "orient": "over_shoulder",
+      "frame": "chest_up",
+      "pose": "gentle_pat",
+      "expr": "laughing_open",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "open back",
+       "halter neck"
+      ],
+      "lead": "action"
+     },
+     {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "open_shirt_lingerie",
+      "garments": [
+       "lingerie_set",
+       "shirt"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "three_quarter",
+      "pose": "contrapposto",
+      "expr": "soft_smile",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "side cutouts",
+       "high-cut leg"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 3,
+      "cat": "traditional",
+      "ex": "hanbok_formal",
+      "garments": [
+       "traditional"
+      ],
+      "orient": "looking_down",
+      "frame": "full_body",
+      "pose": "waving",
+      "expr": "mischievous",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "strong",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "cropped hem",
+       "high thigh slit"
+      ],
+      "lead": "light"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       2
+      ],
+      "two": false,
+      "prev": [
+       3
+      ]
+     },
+     "low": [
+      "occupation_sensual",
+      "everyday_basic",
+      "partner_care",
+      "travel_exploration",
+      "food_berries",
+      "hobbies_leisure",
+      "source_editorial",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "shirt",
+      "trousers"
+     ],
+     "orient": [
+      "over_shoulder",
+      "three_quarter_back",
+      "looking_down"
+     ],
+     "frame": [
+      "chest_up"
+     ]
+    }
+   },
+   {
+    "card": "가재군",
+    "species": "corphish-20261022",
+    "cuts": [
+     {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "vinyl_stage",
+      "garments": [
+       "jacket"
+      ],
+      "orient": "reclining",
+      "frame": "three_quarter",
+      "pose": "side_sitting",
+      "expr": "flustered",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "mini length",
+       "strapless top"
+      ],
+      "lead": "action"
+     },
+     {
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_picnic",
+      "garments": [
+       "apron",
+       "shorts"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "offering_food",
+      "expr": "nostalgic",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "one-shoulder cut",
+       "off-shoulder neckline"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 3,
+      "cat": "source_editorial",
+      "ex": "camo_couture",
+      "garments": [
+       "jumpsuit"
+      ],
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "pose": "dance_step",
+      "expr": "cold_smile",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "plunging neckline",
+       "side cutouts"
+      ],
+      "lead": "place"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       1
+      ],
+      "two": false,
+      "prev": [
+       2
+      ]
+     },
+     "low": [
+      "occupation_sensual",
+      "everyday_basic",
+      "partner_care",
+      "travel_exploration",
+      "food_berries",
+      "hobbies_leisure",
+      "source_editorial",
+      "traditional",
+      "wildcard"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "apron",
+      "jumpsuit"
+     ],
+     "orient": [
+      "reclining",
+      "rear_3q",
+      "leaning_back"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "check": "casual-ledger.py check passed before reservation",
+ "reservation_commit": "28d21393dbc309429d333ff68943c73d7b1cbb2d",
+ "anchor": "img/메깅_light_glossy_promo_f.webp",
+ "anchor_sha256": "66039661bd22df2c5cae1d67ddf259c72278ac0942285ccaa529a18754b38061",
+ "face_evidence": {
+  "sources": [
+   "data/source-appearance.json #340",
+   "data/face-design.json #340",
+   "data/card.json #340"
+  ],
+  "why": "메깅의 넓게 벌어진 눈과 넓고 부드러운 물고기 윤곽을 사람 타원형·넓은 눈 간격·도톰한 아랫입술로 해석.",
+  "compared": [
+   "미꾸리",
+   "솔록",
+   "샤로다"
+  ],
+  "observed": "미꾸리의 둥글고 짧은 인상보다 길고 차분한 타원형, 솔록보다 수평에 가까운 눈과 둥근 턱, 샤로다보다 넓은 눈 간격과 부드러운 입술. 생성 머리는 설계의 medium보다 길지만 정본 그림 그대로 후속 유지."
+ }
+}
