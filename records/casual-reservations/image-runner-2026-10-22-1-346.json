@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "image-runner-2026-10-22-1-346",
- "at": "2026-10-22T11:35:48+00:00",
+ "at": "2026-10-22T11:50:19+00:00",
  "characters": [
   {
    "species": "cradily-20261022",
    "card": "릴리요",
-   "at": "2026-10-22T11:35:48+00:00",
+   "at": "2026-10-22T11:50:19+00:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,7 +31,8 @@
       "high thigh slit",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -56,31 +57,30 @@
       "strapless top",
       "plunging neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "adult_roleplay",
-     "ex": "bunny",
-     "expr": "half_smile",
-     "pose": "bending_over",
+     "ex": "__custom__",
+     "expr": "focused",
+     "pose": "standing_formal",
      "orient": "side",
      "frame": "waist_up",
      "lens": "documentary35",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
+      "overall_intensity": "restrained",
+      "skin_exposure": "low",
       "action_level": "balanced",
       "source_influence": "strong",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "swimsuit"
+      "shirt",
+      "trousers"
      ],
-     "expose": [
-      "high-cut leg",
-      "bare midriff"
-     ],
+     "expose": [],
      "lead": "action"
     }
    ]
