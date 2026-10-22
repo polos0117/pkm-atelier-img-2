@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-mismagius-honchkrow-20261023-c6a3",
- "at": "2026-10-22T14:28:38-07:00",
+ "at": "2026-10-22T14:29:28-07:00",
  "characters": [
   {
    "species": "mismagius-20261023",
    "card": "무우마직",
-   "at": "2026-10-22T14:28:38-07:00",
+   "at": "2026-10-22T14:29:28-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,7 +32,8 @@
       "halter neck",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -57,21 +58,22 @@
       "plunging neckline",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "occupation_sensual",
-     "ex": "surgical_tech",
-     "expr": "mischievous",
-     "pose": "gentle_pat",
+     "cat": "everyday_basic",
+     "ex": "grocery_run",
+     "expr": "curious",
+     "pose": "mid_stride",
      "orient": "leaning_forward",
      "frame": "three_quarter",
-     "lens": "wide24",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly active",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
@@ -80,16 +82,16 @@
      ],
      "expose": [
       "high thigh slit",
-      "off-shoulder neckline"
+      "halter neck"
      ],
-     "lead": "place"
+     "lead": "light"
     }
    ]
   },
   {
    "species": "honchkrow-20261023",
    "card": "돈크로우",
-   "at": "2026-10-22T14:28:38-07:00",
+   "at": "2026-10-22T14:29:28-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -114,7 +116,8 @@
       "cropped hem",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -139,7 +142,8 @@
       "high-cut leg",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -165,7 +169,8 @@
       "halter neck",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ]
   }
