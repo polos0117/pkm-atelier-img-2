@@ -2624,7 +2624,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "rejected",
               "at": "2026-10-23T16:18:54+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-5/360/casual3/prompt.txt",
@@ -2641,7 +2641,11 @@
               "references": {
                 "light": "e8c1f9b437e8614a8f66f5413edf92632473ac5511bb3d7716ecbb582ca4c521"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "tool_failure": {
+                "path": "records/automation/runs/2026-10-23-5/360/casual3/tool-failure.json",
+                "sha256": "d45573befc8b7be40e20da678b03c207dd29f7f26b8b26c6b2c796c8728997f8"
+              }
             }
           },
           "reason": "casual1 and casual3 terminal moderation_blocked sexual, no files; all independent slots attempted; publish seven only",
