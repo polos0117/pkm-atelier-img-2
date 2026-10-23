@@ -21,7 +21,8 @@
       346
     ],
     "2026-10-23": [
-      355
+      355,
+      356
     ]
   },
   "runs": [
@@ -1337,6 +1338,23 @@
       "updated_at": "2026-10-23T11:58:52+00:00",
       "deferred_at": "2026-10-23T11:58:52+00:00",
       "defer_reason": "User authorizes next scheduled character; Duskull 8/9 published, casual2 terminal safety refusal retained, claim preserved."
+    },
+    {
+      "id": "2026-10-23-3",
+      "execution_id": "pkm-daily-2026-10-23T12-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-23T11:58:59+00:00",
+      "queue": [
+        {
+          "no": 356,
+          "name": "미라몽",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-23T11:58:59+00:00"
     }
   ],
   "claims": {
@@ -1357,6 +1375,12 @@
       "run": "2026-10-23-2",
       "status": "held",
       "at": "2026-10-23T09:57:45+00:00"
+    },
+    "356": {
+      "owner": "pkm-daily",
+      "run": "2026-10-23-3",
+      "status": "held",
+      "at": "2026-10-23T11:58:59+00:00"
     }
   },
   "blocked_candidates": {
@@ -1574,9 +1598,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -1705,7 +1729,8 @@
       346
     ],
     "2026-10-23": [
-      355
+      355,
+      356
     ]
   },
   "executions": {
@@ -1714,6 +1739,13 @@
       "at": "2026-10-23T09:57:45+00:00",
       "characters": [
         355
+      ]
+    },
+    "pkm-daily-2026-10-23T12-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-23T11:58:59+00:00",
+      "characters": [
+        356
       ]
     }
   }
