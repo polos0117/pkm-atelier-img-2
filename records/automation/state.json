@@ -2099,7 +2099,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T14:16:14+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-4/359/heavy_overdrive/prompt.txt",
@@ -2111,7 +2111,14 @@
               },
               "references": {
                 "heavy": "085ee9f329831290aefe851fd3b7c0e0522a6d179e9d97aecc1676110acb8b5c"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-4/359/heavy_overdrive/original.png",
+                "sha256": "009fbccd03345b34f764b78ea36cf50e0efd191b972fbc0bdf1d333a22f09245",
+                "session_only": true,
+                "webp_sha256": "8ffedad28186ea8b4c29f32816399dfa5a6d5ebcf4f6120f3d0ea2b342a6de31"
+              },
+              "received_at": "2026-10-23T14:17:37+00:00"
             }
           },
           "reason": "light visual QA: One adult woman, full body head and heels in frame; white asymmetric hair, crescent horn and belt sash. Five gloved digits each with bent finger overlaps, no extra limbs. Planned small narrow eyes rendered larger and angular jaw softened, so face design QA fails. Accepted only under standing post-upload review approval.",
@@ -2126,7 +2133,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T14:16:14+00:00"
+      "updated_at": "2026-10-23T14:17:38+00:00"
     }
   ],
   "claims": {
@@ -2554,16 +2561,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
