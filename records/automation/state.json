@@ -2380,14 +2380,14 @@
       "id": "2026-10-23-5",
       "execution_id": "pkm-daily-2026-10-23T16-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T15:58:17+00:00",
       "queue": [
         {
           "no": 360,
           "name": "마자",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2536,7 +2536,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T16:10:09+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-5/360/mobility_overdrive/prompt.txt",
@@ -2555,7 +2555,17 @@
                 "session_only": true,
                 "webp_sha256": "792bd999c6e5e039d9b036f4e5edf24654aba7e8e45426a08517c243e66e3229"
               },
-              "received_at": "2026-10-23T16:11:42+00:00"
+              "received_at": "2026-10-23T16:11:42+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-5/360/mobility_overdrive/qa-rejected.json",
+                "sha256": "66468d7a0348e214f71c5d3b3bbaa93d75aaf91de3880465afe4515378c8ade4"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-5/360/mobility_overdrive/user-exception.json",
+                "sha256": "b11137c2b79132069656732b785180f4b280cdc0b39e018077183bcecbbd350c"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Same mobility camera/pose/face/hair/scale and hands; swept panels opened with magenta thruster interiors and rings. Expression remains cheerful rather than tightened with strain; some panel tips extended. Preserve paired-state QA mismatch for user post-upload review.",
@@ -2579,6 +2589,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-5/360/heavy_overdrive/user-exception.json",
                 "sha256": "6a46e5932dec1593285889a2450739110f46e62de63a94bed9efeb0e597aad60"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Same mobility camera/pose/face/hair/scale and hands; swept panels opened with magenta thruster interiors and rings. Expression remains cheerful rather than tightened with strain; some panel tips extended. Preserve paired-state QA mismatch for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-5/360/mobility_overdrive/user-exception.json",
+                "sha256": "b11137c2b79132069656732b785180f4b280cdc0b39e018077183bcecbbd350c"
               }
             }
           ]
