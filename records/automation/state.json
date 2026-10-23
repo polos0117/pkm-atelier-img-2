@@ -23,7 +23,8 @@
     "2026-10-23": [
       355,
       356,
-      359
+      359,
+      360
     ]
   },
   "runs": [
@@ -2374,6 +2375,23 @@
         }
       ],
       "updated_at": "2026-10-23T14:38:19+00:00"
+    },
+    {
+      "id": "2026-10-23-5",
+      "execution_id": "pkm-daily-2026-10-23T16-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-23T15:58:17+00:00",
+      "queue": [
+        {
+          "no": 360,
+          "name": "마자",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-23T15:58:17+00:00"
     }
   ],
   "claims": {
@@ -2556,6 +2574,12 @@
       "run": "2026-10-23-4",
       "status": "complete",
       "at": "2026-10-23T14:07:12+00:00"
+    },
+    "360": {
+      "owner": "pkm-daily",
+      "run": "2026-10-23-5",
+      "status": "held",
+      "at": "2026-10-23T15:58:17+00:00"
     }
   },
   "blocked_candidates": {
@@ -2801,16 +2825,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -2942,6 +2966,9 @@
       355,
       356,
       359
+    ],
+    "2026-10-24": [
+      360
     ]
   },
   "executions": {
@@ -2964,6 +2991,13 @@
       "at": "2026-10-23T14:07:12+00:00",
       "characters": [
         359
+      ]
+    },
+    "pkm-daily-2026-10-23T16-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-23T15:58:17+00:00",
+      "characters": [
+        360
       ]
     }
   }
