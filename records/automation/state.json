@@ -2097,6 +2097,21 @@
                 "path": "records/automation/runs/2026-10-23-4/359/light_overdrive/qa.json",
                 "sha256": "689fc3d5c0bcc2a014798b3fa7ab75fa3ebdc3431227468272399e400cd29544"
               }
+            },
+            "heavy_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-23T14:16:14+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-4/359/heavy_overdrive/prompt.txt",
+                "sha256": "421bc54450a193440402512d9172e9207c6425fe95d47001f555eeb57b390651"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-4/359/heavy_overdrive/ui.json",
+                "sha256": "30aae337eb06a8de0759afc04a24f3c7c8f5b38608dbd33f005c4acc4606cfd7"
+              },
+              "references": {
+                "heavy": "085ee9f329831290aefe851fd3b7c0e0522a6d179e9d97aecc1676110acb8b5c"
+              }
             }
           },
           "reason": "light visual QA: One adult woman, full body head and heels in frame; white asymmetric hair, crescent horn and belt sash. Five gloved digits each with bent finger overlaps, no extra limbs. Planned small narrow eyes rendered larger and angular jaw softened, so face design QA fails. Accepted only under standing post-upload review approval.",
@@ -2111,7 +2126,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T14:15:56+00:00"
+      "updated_at": "2026-10-23T14:16:14+00:00"
     }
   ],
   "claims": {
