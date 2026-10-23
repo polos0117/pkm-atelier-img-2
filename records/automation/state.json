@@ -1981,14 +1981,14 @@
       "id": "2026-10-23-4",
       "execution_id": "pkm-daily-2026-10-23T14-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T14:07:12+00:00",
       "queue": [
         {
           "no": 359,
           "name": "앱솔",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2157,7 +2157,7 @@
               }
             },
             "casual1": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T14:22:00+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-4/359/casual1/prompt.txt",
@@ -2176,7 +2176,17 @@
                 "session_only": true,
                 "webp_sha256": "82f48b298056e4a0f237c2bb3da123259bd0456b3dcc37fd3a63bb1adc39e258"
               },
-              "received_at": "2026-10-23T14:27:11+00:00"
+              "received_at": "2026-10-23T14:27:11+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual1/qa-rejected.json",
+                "sha256": "35f955fbfb85e006fae6dd825131e003716918eccada9b762886a592827001f8"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual1/user-exception.json",
+                "sha256": "a730a25da9d229403f25d1daa0b80b24d7c9c3ff306ba11d5f91c613a9797014"
+              }
             }
           },
           "reason": "casual1 visual QA: Adult identity retained; wardrobe reaching scene with opaque intimate coverage. Raised fingertips cropped at top; upper-thigh framing instead of waist-up, floral lace instead of geometric. Lower hand partly occluded, no definite extra digits. Preserve these QA failures for user post-upload review.",
@@ -2193,6 +2203,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-4/359/mobility_overdrive/user-exception.json",
                 "sha256": "5e856e3f33153dd6682c044392126f9b63df49f05530125ab3f0ec8923d13e7a"
+              }
+            },
+            {
+              "reason": "casual1 visual QA: Adult identity retained; wardrobe reaching scene with opaque intimate coverage. Raised fingertips cropped at top; upper-thigh framing instead of waist-up, floral lace instead of geometric. Lower hand partly occluded, no definite extra digits. Preserve these QA failures for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual1/user-exception.json",
+                "sha256": "a730a25da9d229403f25d1daa0b80b24d7c9c3ff306ba11d5f91c613a9797014"
               }
             }
           ]
