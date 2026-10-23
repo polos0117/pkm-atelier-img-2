@@ -749,14 +749,14 @@
       "id": "2026-10-23-2",
       "execution_id": "pkm-daily-2026-10-23T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T09:57:45+00:00",
       "queue": [
         {
           "no": 355,
           "name": "해골몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -899,7 +899,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T10:28:06+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/prompt.txt",
@@ -918,7 +918,17 @@
                 "session_only": true,
                 "webp_sha256": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb"
               },
-              "received_at": "2026-10-23T10:29:35+00:00"
+              "received_at": "2026-10-23T10:29:35+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/qa-rejected.json",
+                "sha256": "ef234a491e2bff0cc43fc1885c33ad72afe83cde17358b86bb202da450769daa"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/user-exception.json",
+                "sha256": "3457671f5ddc6b309ef1c191179394b3c336d236bf67d6eb5da36448045c755e"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Compared actual mobility reference: face, pose, gloves and body preserved; thruster covers open with stronger violet light. Large panel arrays retain clipped left tips and extend further at frame edge. Cropping/oversized silhouette remains a visual defect; accepted only for user post-upload review.",
@@ -935,6 +945,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/user-exception.json",
                 "sha256": "4202c10c4765bc2be64e2ba0315e395e5d3a3c9c3cdaa8992ea8dd0bf1c0ff73"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Compared actual mobility reference: face, pose, gloves and body preserved; thruster covers open with stronger violet light. Large panel arrays retain clipped left tips and extend further at frame edge. Cropping/oversized silhouette remains a visual defect; accepted only for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/user-exception.json",
+                "sha256": "3457671f5ddc6b309ef1c191179394b3c336d236bf67d6eb5da36448045c755e"
               }
             }
           ]
