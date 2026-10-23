@@ -1581,6 +1581,21 @@
                 "path": "records/automation/runs/2026-10-23-3/356/casual2/user-exception.json",
                 "sha256": "c5f1234f6de08300a710d4eb009fc26f4a36a2df612368bc77fcda1b217086c9"
               }
+            },
+            "casual3": {
+              "status": "in_flight",
+              "at": "2026-10-23T12:19:23+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-3/356/casual3/prompt.txt",
+                "sha256": "7491800a63364f588cc142e5a8d0b0ea6d5147cd26efbcc4e48f5506d1dfd9e5"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-3/356/casual3/ui.json",
+                "sha256": "b30e1ae5e5f273c050c43dd0b2f090d497517b395dbd69d9ebc33fc0cf22dbc0"
+              },
+              "references": {
+                "light": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a"
+              }
             }
           },
           "reason": "casual2 visual QA: Same adult face, long gray hair and double buns. Night kitchen, rice-cake plate offered and teapot present; fingers naturally wrap handle and support plate, no obvious extra digits. Tee/strapless layer and shorts visible. Selected side profile and waist-up became front three-quarter thigh crop; canonical hair rings and multiple costume buttons persist. Actual UI mismatch retained as QA failure, user post-upload review acceptance. Clearly distinct from beach shell image and recent tennis/reading/cafe/lab/camping scenes.",
@@ -1616,7 +1631,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T12:19:04+00:00"
+      "updated_at": "2026-10-23T12:19:23+00:00"
     }
   ],
   "claims": {
@@ -1860,9 +1875,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
