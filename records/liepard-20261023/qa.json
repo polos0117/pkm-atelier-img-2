@@ -1,0 +1,221 @@
+{
+  "reviewer": "gpt",
+  "accepted_count": 9,
+  "image_tool": "built-in image_gen",
+  "observations": {
+    "light": "양손과 양발이 보이는 전신. 보라 긴 비대칭 머리·녹색 눈·분홍 판과 금빛 무늬. 무기 없음.",
+    "heavy": "정본 얼굴·눈·머리를 유지하고 어깨·팔·골반·다리의 판이 다층으로 두꺼워짐.",
+    "mobility": "같은 얼굴과 몸 위에 뒤로 뻗는 분할 판과 작은 핑크 추진기가 배치됨.",
+    "light_overdrive": "경장과 같은 자세·카메라. 이음새가 벌어져 보랏빛이 드러나고 녹색 홍채 유지.",
+    "heavy_overdrive": "중장과 같은 구도에서 겹친 판이 들리고 보랏빛 내부가 드러남.",
+    "mobility_overdrive": "고기동과 같은 구도에서 추진기 덮개와 분할 판 사이가 열리고 보라 에너지가 퍼짐.",
+    "casual1": "바닥에 앉아 두 색 리본을 양손으로 비교. 스트랩리스 옆 컷아웃 니트와 분홍 스커트, 리본 장식과 보석함.",
+    "casual2": "황금 구두 버클을 두 손으로 채움. 어깨·등·다리가 보이는 보라 새틴 드레스, 한쪽 무릎을 의자에 받침.",
+    "casual3": "직물 피팅 공간에서 짧은 불투명 자수 코르셋과 매칭 하의. 무릎을 받치고 양손을 직물 위에 둠."
+  },
+  "recorded_variations": [
+    "casual1 waist_up보다 넓게 무릎까지 표현됨.",
+    "casual2는 뒤 3/4로 얼굴을 돌려 보며 구두를 잠금.",
+    "casual3 chest_up보다 넓은 허벅지 구도로 표현됨."
+  ],
+  "diversity_comparison": "실제 3장과 최근 요테리·밀로틱·쌔비냥의 일상 9장을 나란히 비교. 리본을 바닥에서 대조하는 손동작, 한쪽 다리를 받쳐 구두 버클을 잠그는 새틴 드레스, 직물 피팅 단상의 자수 코르셋이 활동·장소·옷 실루엣·자세로 구별됨. 요테리의 열매 시장/헤어정돈/불꽃놀이, 밀로틱의 무대/천문대/의상 피팅, 쌔비냥의 도시락/비치테라스/화분과 구분됨.",
+  "casual_look_check": "Passed; nearest scores 284/332/273; no near-identical cut",
+  "checks": [
+    "1024x1536 for all nine originals",
+    "same canonical adult woman",
+    "hands and limb connections reviewed",
+    "no readable labels or logos observed",
+    "closed/open compositions matched"
+  ],
+  "files": [
+    {
+      "card": "레파르다스",
+      "slot": "light",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/liepard-20261023/light-original.png",
+      "original_sha256": "627e99be0ebb9f9c8526157ee19a25a24bec52216eeda1976f611202f9429c89",
+      "output": "img/레파르다스_light_glossy_promo_f.webp",
+      "output_sha256": "655965f10b914c954d6cf2d17cf686427a3486aacc55e21536b151863c2a74b3",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": null,
+      "reference_sha256": null
+    },
+    {
+      "card": "레파르다스",
+      "slot": "heavy",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/liepard-20261023/heavy-original.png",
+      "original_sha256": "ff46b26738df88a1e5a0124ef8074a5df0dd588126aca1f51bc39397b927f054",
+      "output": "img/레파르다스_heavy_glossy_promo_f.webp",
+      "output_sha256": "f8ad175765e52c87f3873c8edc5a6955526fcf002c12058d7725cd5447706525",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/liepard-20261023/light-original.png",
+      "reference_sha256": "627e99be0ebb9f9c8526157ee19a25a24bec52216eeda1976f611202f9429c89"
+    },
+    {
+      "card": "레파르다스",
+      "slot": "mobility",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/liepard-20261023/mobility-original.png",
+      "original_sha256": "5cd1269cc8e42d52c84d1909e7cdc1ebbd127d281ca187f77e750cd73cf9a095",
+      "output": "img/레파르다스_mobility_glossy_promo_f.webp",
+      "output_sha256": "f93a7f726d69c4ad32bc1579ac9033c2af3ab3cb8f42d337bed9db55dcadb634",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/liepard-20261023/light-original.png",
+      "reference_sha256": "627e99be0ebb9f9c8526157ee19a25a24bec52216eeda1976f611202f9429c89"
+    },
+    {
+      "card": "레파르다스",
+      "slot": "light_overdrive",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/liepard-20261023/light_overdrive-original.png",
+      "original_sha256": "9cc6a0ed3c9de4300d74a00da2fe63bcbc8e6630f4245a9119c5f608d7524e96",
+      "output": "img/레파르다스_light_overdrive_glossy_promo_f.webp",
+      "output_sha256": "ce2fc6f0c2f804f5fe18c1d1c0ea24932b098dab3183833ed45121e7f362102a",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/liepard-20261023/light-original.png",
+      "reference_sha256": "627e99be0ebb9f9c8526157ee19a25a24bec52216eeda1976f611202f9429c89"
+    },
+    {
+      "card": "레파르다스",
+      "slot": "heavy_overdrive",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/liepard-20261023/heavy_overdrive-original.png",
+      "original_sha256": "dca8ae6de58e4ae3234c21d09686f4479847058fa5f202c41772203ab7770891",
+      "output": "img/레파르다스_heavy_overdrive_glossy_promo_f.webp",
+      "output_sha256": "c06764c176cb29418f52c91fbb5d7b71ae3a06205f6517b99ee92761226f240c",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/liepard-20261023/heavy-original.png",
+      "reference_sha256": "ff46b26738df88a1e5a0124ef8074a5df0dd588126aca1f51bc39397b927f054"
+    },
+    {
+      "card": "레파르다스",
+      "slot": "mobility_overdrive",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/liepard-20261023/mobility_overdrive-original.png",
+      "original_sha256": "ec01c31239a0b4a9b7ba942bc190fb264d797d446193652a898cad4c7d9b2cca",
+      "output": "img/레파르다스_mobility_overdrive_glossy_promo_f.webp",
+      "output_sha256": "8e995306838a417f50c980dc5515dd8c4bcd9e34ea14965a5c2e48736cc7d053",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/liepard-20261023/mobility-original.png",
+      "reference_sha256": "5cd1269cc8e42d52c84d1909e7cdc1ebbd127d281ca187f77e750cd73cf9a095"
+    },
+    {
+      "card": "레파르다스",
+      "slot": "casual1",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/liepard-20261023/casual1-original.png",
+      "original_sha256": "ca0115169f01ca57e50c4c5908c17c4aead0032a17f14ef4c426b655c3876e9a",
+      "output": "img/레파르다스_glossy_promo_f_casual1.webp",
+      "output_sha256": "a00ea572728d37ba4c7382a403b9521d935005944088ee67827d413e4b639cce",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/liepard-20261023/light-original.png",
+      "reference_sha256": "627e99be0ebb9f9c8526157ee19a25a24bec52216eeda1976f611202f9429c89"
+    },
+    {
+      "card": "레파르다스",
+      "slot": "casual3",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/liepard-20261023/casual3-original.png",
+      "original_sha256": "0adb9066fbcfa58d598cb0e7faab9dba28b3749108893e2fd3af5dc563f1b05a",
+      "output": "img/레파르다스_glossy_promo_f_casual3.webp",
+      "output_sha256": "6b9fd8cf42b2daf09aaeceb419dcb325ec7c0f2ada376576272fa888afa3440b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/liepard-20261023/light-original.png",
+      "reference_sha256": "627e99be0ebb9f9c8526157ee19a25a24bec52216eeda1976f611202f9429c89"
+    },
+    {
+      "card": "레파르다스",
+      "slot": "casual2",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/liepard-20261023/casual2-original.png",
+      "original_sha256": "ac9b8532ff4cd458f3965335ddeb3a79807f6b9e4ffa7d46f385dfbf10bec070",
+      "output": "img/레파르다스_glossy_promo_f_casual2.webp",
+      "output_sha256": "c0c0ced10dced5785a517ea4af858e53f1222ea422a6ab880dfc236937caa07f",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/liepard-20261023/light-original.png",
+      "reference_sha256": "627e99be0ebb9f9c8526157ee19a25a24bec52216eeda1976f611202f9429c89"
+    }
+  ]
+}
