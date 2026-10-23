@@ -2387,11 +2387,25 @@
           "no": 360,
           "name": "마자",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-23T15:59:04+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-5/360/light/prompt.txt",
+                "sha256": "e9513688b5655a0a53f938709a662a8b86e9b97783e9e5b6d423c470d4b06b79"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-5/360/light/ui.json",
+                "sha256": "ea89027e60bd61004b7287c7a42177b3b523dcc9157fa2312aaef18211214cfc"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-23T15:58:40+00:00"
+      "updated_at": "2026-10-23T15:59:04+00:00"
     }
   ],
   "claims": {
@@ -2825,16 +2839,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
