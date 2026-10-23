@@ -1981,14 +1981,14 @@
       "id": "2026-10-23-4",
       "execution_id": "pkm-daily-2026-10-23T14-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T14:07:12+00:00",
       "queue": [
         {
           "no": 359,
           "name": "앱솔",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2125,7 +2125,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T14:18:17+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-4/359/mobility_overdrive/prompt.txt",
@@ -2144,7 +2144,17 @@
                 "session_only": true,
                 "webp_sha256": "d3fffd97caa93381920df94b22d23337a897d791830679353e505ff7739cadcb"
               },
-              "received_at": "2026-10-23T14:20:00+00:00"
+              "received_at": "2026-10-23T14:20:00+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-4/359/mobility_overdrive/qa-rejected.json",
+                "sha256": "80f476d65d4fa725999b11b31c0e65d2ed51e0b4fec463bd6c70a1cd46f60c26"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-4/359/mobility_overdrive/user-exception.json",
+                "sha256": "5e856e3f33153dd6682c044392126f9b63df49f05530125ab3f0ec8923d13e7a"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Pose camera head feet and adult face retained; violet gaps in swept plates. Navy cloth sash on right gains armored glowing segments absent in closed form, a design-preservation failure. Five bent gloved digits and wrists remain consistent; no new limbs. Accepted only for user post-upload visual review, not QA pass.",
@@ -2154,6 +2164,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-4/359/light/user-exception.json",
                 "sha256": "d69c80a3c3aecd27b30c78d8b6cf04b948b1a63459d50ae83a4c8d9671535657"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Pose camera head feet and adult face retained; violet gaps in swept plates. Navy cloth sash on right gains armored glowing segments absent in closed form, a design-preservation failure. Five bent gloved digits and wrists remain consistent; no new limbs. Accepted only for user post-upload visual review, not QA pass.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-4/359/mobility_overdrive/user-exception.json",
+                "sha256": "5e856e3f33153dd6682c044392126f9b63df49f05530125ab3f0ec8923d13e7a"
               }
             }
           ]
