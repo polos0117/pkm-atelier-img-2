@@ -841,7 +841,7 @@
               }
             },
             "light_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T10:14:38+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/prompt.txt",
@@ -853,7 +853,14 @@
               },
               "references": {
                 "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/original.png",
+                "sha256": "0f2bbe4666c32a47986cb6c4918ff1f21a5baad3ac3de085e8ff913c603bdf15",
+                "session_only": true,
+                "webp_sha256": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6"
+              },
+              "received_at": "2026-10-23T10:16:07+00:00"
             }
           },
           "reason": "mobility QA failed: shoulder and hip panels form giant wing-like arrays; left array tips cut by frame, contrary to submitted no giant wings requirement. Preserve result; no retry authorized.",
@@ -868,7 +875,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:14:38+00:00"
+      "updated_at": "2026-10-23T10:16:07+00:00"
     }
   ],
   "claims": {
@@ -1106,9 +1113,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -1134,16 +1141,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
