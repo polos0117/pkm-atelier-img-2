@@ -1485,6 +1485,21 @@
                 "path": "records/automation/runs/2026-10-23-3/356/heavy_overdrive/qa.json",
                 "sha256": "25b5cfa06b381ea5ad8301b97caa2ced72e936bd441d301735d75e406d21ab3e"
               }
+            },
+            "mobility_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-23T12:11:54+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-3/356/mobility_overdrive/prompt.txt",
+                "sha256": "321dfc7a0b21dd6fae7d88f8eabaa4f916c9d92c7a943d32258e014f2a56bc1a"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-3/356/mobility_overdrive/ui.json",
+                "sha256": "2f35f3dcb7ea0cb4e32cfd7fba0f67c065468ee3f211f5747f9d443fdeb9ca98"
+              },
+              "references": {
+                "mobility": "ba61f59bd6963ce44214222f25106b2ec1fc5b2971f6d411f6bcd5f782ebce10"
+              }
             }
           },
           "reason": "light visual QA: Single adult woman; head and feet contained, five fingers on open left glove, opposite curled fingers partly occluded, gray double buns and covered one eye retained. Narrow pointed chin and slim brows do not fully match planned broad heavy chin and thick brows. Accepted only for user post-upload review.",
@@ -1499,7 +1514,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T12:11:42+00:00"
+      "updated_at": "2026-10-23T12:11:54+00:00"
     }
   ],
   "claims": {
@@ -1743,9 +1758,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -1771,16 +1786,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
