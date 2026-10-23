@@ -1,48 +1,22 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "shuppet-banette-dea43",
- "at": "2026-10-22T17:59:03-07:00",
+ "at": "2026-10-22T18:11:02-07:00",
  "characters": [
   {
    "species": "shuppet-20261023",
    "card": "어둠대신",
-   "at": "2026-10-22T17:59:03-07:00",
+   "at": "2026-10-22T18:11:02-07:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "homewear",
-     "ex": "soft_tank_shorts",
+     "cat": "everyday_basic",
+     "ex": "simple_cooking",
      "expr": "candid",
-     "pose": "turning_back",
+     "pose": "preparing_food",
      "orient": "profile_close",
      "frame": "chest_up",
      "lens": "documentary35",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "shorts",
-      "tank"
-     ],
-     "expose": [
-      "open back",
-      "strapless top"
-     ],
-     "lead": "light"
-    },
-    {
-     "cut": 2,
-     "cat": "everyday_basic",
-     "ex": "simple_cooking",
-     "expr": "half_smile",
-     "pose": "preparing_food",
-     "orient": "front",
-     "frame": "waist_up",
-     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -54,17 +28,42 @@
       "overalls"
      ],
      "expose": [
+      "open back",
+      "strapless top"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "homewear",
+     "ex": "oversized_shirt",
+     "expr": "pensive",
+     "pose": "squatting",
+     "orient": "front",
+     "frame": "waist_up",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt"
+     ],
+     "expose": [
       "off-shoulder neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "action"
     },
     {
      "cut": 3,
      "cat": "lingerie",
      "ex": "garter_set",
-     "expr": "cold_smile",
-     "pose": "one_knee_up",
+     "expr": "half_smile",
+     "pose": "arms_crossed",
      "orient": "leaning_back",
      "frame": "full_body",
      "lens": "portrait85",
@@ -82,14 +81,14 @@
       "plunging neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "detail"
     }
    ]
   },
   {
    "species": "banette-20261023",
    "card": "다크펫",
-   "at": "2026-10-22T17:59:03-07:00",
+   "at": "2026-10-22T18:11:02-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -114,7 +113,7 @@
       "side cutouts",
       "plunging neckline"
      ],
-     "lead": "action"
+     "lead": "light"
     },
     {
      "cut": 2,
@@ -139,13 +138,13 @@
       "high thigh slit",
       "open back"
      ],
-     "lead": "light"
+     "lead": "detail"
     },
     {
      "cut": 3,
      "cat": "partner_care",
      "ex": "care_feeding",
-     "expr": "pensive",
+     "expr": "surprised",
      "pose": "standing_relaxed",
      "orient": "turning_midmotion",
      "frame": "waist_up",
@@ -158,7 +157,7 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "shirt",
+      "tank",
       "trousers"
      ],
      "expose": [
