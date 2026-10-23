@@ -2886,11 +2886,25 @@
           "no": 363,
           "name": "대굴레오",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-23T23:59:29+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-6/363/light/prompt.txt",
+                "sha256": "77e33431445e7e0919ae1e9886668f99ec003f1ba029fbb357e96e7a770e8050"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-6/363/light/ui.json",
+                "sha256": "260b55d1e02dc8e3d1dd564e972767a63f0ceb93b3ae23663d23552bff8f4677"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-23T23:58:58+00:00"
+      "updated_at": "2026-10-23T23:59:29+00:00"
     }
   ],
   "claims": {
@@ -3435,9 +3449,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
