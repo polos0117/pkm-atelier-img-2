@@ -2157,7 +2157,7 @@
               }
             },
             "casual1": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T14:22:00+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-4/359/casual1/prompt.txt",
@@ -2169,7 +2169,14 @@
               },
               "references": {
                 "light": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual1/original.png",
+                "sha256": "2f958b5cd44a6c09fc7d333586fef608f497b95b36464dde20717d92101cf34b",
+                "session_only": true,
+                "webp_sha256": "82f48b298056e4a0f237c2bb3da123259bd0456b3dcc37fd3a63bb1adc39e258"
+              },
+              "received_at": "2026-10-23T14:27:11+00:00"
             }
           },
           "reason": "mobility_overdrive visual QA: Pose camera head feet and adult face retained; violet gaps in swept plates. Navy cloth sash on right gains armored glowing segments absent in closed form, a design-preservation failure. Five bent gloved digits and wrists remain consistent; no new limbs. Accepted only for user post-upload visual review, not QA pass.",
@@ -2191,7 +2198,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T14:22:00+00:00"
+      "updated_at": "2026-10-23T14:27:12+00:00"
     }
   ],
   "claims": {
@@ -2591,9 +2598,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
