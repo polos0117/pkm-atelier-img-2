@@ -1459,6 +1459,21 @@
                 "path": "records/automation/runs/2026-10-23-3/356/light_overdrive/qa.json",
                 "sha256": "b522dc71f84b729d2ff3e1d858e3f09242f51d4f2b0869b4ba304bd6bfbf813a"
               }
+            },
+            "heavy_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-23T12:10:24+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-3/356/heavy_overdrive/prompt.txt",
+                "sha256": "b7c1305cac7eb89e264d2ddcac68d0ed6db02ad529efad36f7becaf5ae69b636"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-3/356/heavy_overdrive/ui.json",
+                "sha256": "e210477d11be17f288a239bc330e3a87bb54ed1d3bf5a3a5ab6421d4d257a932"
+              },
+              "references": {
+                "heavy": "41e985fbb4a0c7ad041b81e7faacaadebcaea297b55a15d3435caeef48683282"
+              }
             }
           },
           "reason": "light visual QA: Single adult woman; head and feet contained, five fingers on open left glove, opposite curled fingers partly occluded, gray double buns and covered one eye retained. Narrow pointed chin and slim brows do not fully match planned broad heavy chin and thick brows. Accepted only for user post-upload review.",
@@ -1473,7 +1488,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T12:10:07+00:00"
+      "updated_at": "2026-10-23T12:10:24+00:00"
     }
   ],
   "claims": {
