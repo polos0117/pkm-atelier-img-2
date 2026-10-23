@@ -873,7 +873,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T10:26:25+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/heavy_overdrive/prompt.txt",
@@ -892,7 +892,11 @@
                 "session_only": true,
                 "webp_sha256": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb"
               },
-              "received_at": "2026-10-23T10:27:37+00:00"
+              "received_at": "2026-10-23T10:27:37+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-2/355/heavy_overdrive/qa.json",
+                "sha256": "362eb4e8f6e23852d39aa947aee421f9f8802ef6dfbb5854841b049338d59f6a"
+              }
             }
           },
           "reason": "light_overdrive QA failed: new narrow silver armor plate across exposed upper thigh at approximately x38%,y40%, absent in approved light reference. Pose/identity preserved but no-new-armor rule fails. Mobility exception does not apply; no regeneration authorized.",
@@ -914,7 +918,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:27:38+00:00"
+      "updated_at": "2026-10-23T10:27:45+00:00"
     }
   ],
   "claims": {
@@ -1180,16 +1184,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
