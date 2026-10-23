@@ -2622,6 +2622,26 @@
                 "path": "records/automation/runs/2026-10-23-5/360/casual2/user-exception.json",
                 "sha256": "4db01830d2203ea0b5c4035f72a1ac3d474a3542f14509652023566ae3e292cc"
               }
+            },
+            "casual3": {
+              "status": "in_flight",
+              "at": "2026-10-23T16:18:54+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-5/360/casual3/prompt.txt",
+                "sha256": "c1703cb8d3f1b2c519aaa4d2dc1d1f6ef8c33470d432e58e0a2212439d6641e3"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-5/360/casual3/ui.json",
+                "sha256": "38f3f4e1c714a04e8a242e27191acd7d123135473e41248ad83d3c48f0521363"
+              },
+              "approval": {
+                "path": "records/automation/runs/2026-10-23-5/360/casual3/independent-slot-approval.json",
+                "sha256": "0b192c0ccd4f7ddc325f2eec96f526ef0a6e94db94bdc900c2b33c26e7290c4b"
+              },
+              "references": {
+                "light": "e8c1f9b437e8614a8f66f5413edf92632473ac5511bb3d7716ecbb582ca4c521"
+              },
+              "independent_slot_after_terminal_failure": true
             }
           },
           "reason": "casual2 visual QA: Adult canonical hair/face retained; opaque cropped field shirt and navy trousers, dive mask adjustment and shore slate readable. Full feet/head present. Hands partly hidden by hair/mask so all digits cannot be certified, no definite extra visible. Torso near three-quarter instead of strict side; multiple turquoise charms instead of one accent. Actual shoreline work and trouser silhouette differ from recent Bronzor beach swimwear and all other viewed scenes; preserve deviations for post-upload review.",
@@ -2670,6 +2690,14 @@
               "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
               "scope": "Independent slot using approved light only; retain casual1 refusal without retry; one attempt for this slot",
               "at": "2026-10-23T16:16:59+00:00"
+            },
+            {
+              "card": 360,
+              "slot": "casual3",
+              "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+              "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+              "scope": "Independent slot using approved light only; retain casual1 refusal without retry; one attempt for this slot",
+              "at": "2026-10-23T16:18:54+00:00"
             }
           ]
         }

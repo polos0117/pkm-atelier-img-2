@@ -1,0 +1,187 @@
+{
+  "storage": {
+    "last": "마자",
+    "cards": {
+      "마자": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "curious",
+            "pose": "checking_map",
+            "orient": "looking_down",
+            "scene": "Comparing the folded trail map with a wooden trail marker at a mossy forest junction, she pauses beside a fern-lined stone path with a light travel pack.",
+            "outfit": "An opaque olive strapless wide-leg jumpsuit with high side slits over fitted inner shorts, sturdy walking shoes and a small turquoise map clasp.",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "travel_exploration",
+            "catCustom": "",
+            "ex": "travel_trail",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Wynaut (마자) personified, psychic type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: one brow raised higher, head tilted, eyes wide and attentive, lips slightly parted\nPose: Hold a folded-out route map in both hands while checking the surroundings.\nOrientation: gaze directed downward; camera height unchanged\nScene: Comparing the folded trail map with a wooden trail marker at a mossy forest junction, she pauses beside a fern-lined stone path with a light travel pack.\nOutfit and props: An opaque olive strapless wide-leg jumpsuit with high side slits over fitted inner shorts, sturdy walking shoes and a small turquoise map clasp.\nCategory: Show travel or peaceful field exploration in the Pokémon world, with useful travel clothing and a specific activity. Let the environment support the woman without overwhelming her or turning the scene into combat.\nExample scene: Pausing at a forest trail junction to compare a folded map with a trail marker, wearing a light travel pack.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "locks": [
+    {
+      "id": "lock-expression",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-category",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-example",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-pose",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-orientation",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-frame",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-lens",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-aspect",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-overall_intensity",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-skin_exposure",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-action_level",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-source_influence",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-separates_preference",
+      "pressed": "true"
+    }
+  ],
+  "plan": {
+    "cut": 3,
+    "cat": "travel_exploration",
+    "ex": "travel_trail",
+    "garments": [
+      "jumpsuit"
+    ],
+    "orient": "looking_down",
+    "frame": "environmental",
+    "pose": "checking_map",
+    "expr": "curious",
+    "lens": "portrait85",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high thigh slit",
+      "strapless top"
+    ],
+    "lead": "action"
+  },
+  "custom_inputs": {
+    "scene": "Comparing the folded trail map with a wooden trail marker at a mossy forest junction, she pauses beside a fern-lined stone path with a light travel pack.",
+    "outfit": "An opaque olive strapless wide-leg jumpsuit with high side slits over fitted inner shorts, sturdy walking shoes and a small turquoise map clasp.",
+    "reason": "The trail example supplies pack and activity but no outfit; the reserved strapless jumpsuit and high slit become wide-leg panels with inner shorts suitable for walking.",
+    "axes_reason": "A pause to consult the map is balanced activity; one turquoise clasp is subtle source influence; a single jumpsuit suits balanced separates."
+  },
+  "camera_reason": "Tool has no size argument.",
+  "captured_at": "2026-10-23T16:18:29.026Z"
+}
