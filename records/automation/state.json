@@ -1981,17 +1981,17 @@
       "id": "2026-10-23-4",
       "execution_id": "pkm-daily-2026-10-23T14-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T14:07:12+00:00",
       "queue": [
         {
           "no": 359,
           "name": "앱솔",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T14:08:14+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-4/359/light/prompt.txt",
@@ -2008,10 +2008,29 @@
                 "session_only": true,
                 "webp_sha256": "6facc5782f3810176267ad5eb5db873373b7d20e19ec6ce965bc25568e2ac90e"
               },
-              "received_at": "2026-10-23T14:09:15+00:00"
+              "received_at": "2026-10-23T14:09:15+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-4/359/light/qa-rejected.json",
+                "sha256": "4651838e32695b431381df083f8575b9954328b468b165e9f0f2219423f897f5"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-4/359/light/user-exception.json",
+                "sha256": "d69c80a3c3aecd27b30c78d8b6cf04b948b1a63459d50ae83a4c8d9671535657"
+              }
             }
           },
-          "reason": "light visual QA: One adult woman, full body head and heels in frame; white asymmetric hair, crescent horn and belt sash. Five gloved digits each with bent finger overlaps, no extra limbs. Planned small narrow eyes rendered larger and angular jaw softened, so face design QA fails. Accepted only under standing post-upload review approval."
+          "reason": "light visual QA: One adult woman, full body head and heels in frame; white asymmetric hair, crescent horn and belt sash. Five gloved digits each with bent finger overlaps, no extra limbs. Planned small narrow eyes rendered larger and angular jaw softened, so face design QA fails. Accepted only under standing post-upload review approval.",
+          "block_history": [
+            {
+              "reason": "light visual QA: One adult woman, full body head and heels in frame; white asymmetric hair, crescent horn and belt sash. Five gloved digits each with bent finger overlaps, no extra limbs. Planned small narrow eyes rendered larger and angular jaw softened, so face design QA fails. Accepted only under standing post-upload review approval.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-4/359/light/user-exception.json",
+                "sha256": "d69c80a3c3aecd27b30c78d8b6cf04b948b1a63459d50ae83a4c8d9671535657"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-23T14:09:43+00:00"
