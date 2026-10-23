@@ -1,0 +1,602 @@
+{
+  "batch": {
+    "session": "shuppet-banette-dea43",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "어둠대신",
+        "species": "shuppet-20261023",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "window_light",
+            "expr": "amused",
+            "pose": "dance_step",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "open back",
+              "strapless top"
+            ],
+            "lead": "detail",
+            "scene": "The brass window latch catches the afternoon sun; her fingertips rest on the open frame while warm light falls across the music room.",
+            "outfit": "Pale-blue full-length denim overalls with a deeply open back are worn over a strapless ivory bandeau, exposing shoulders and upper back; a small charcoal ring stitching motif sits on the bib pocket.",
+            "example_text": "standing in casual clothes in the light of a large window, one hand on the frame",
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "axes.action_level",
+              "axes.source_influence",
+              "axes.separates_preference"
+            ],
+            "randomization": {
+              "planner": "tools/casual-plan.cjs",
+              "selection_changes_by_hand": false
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "value": "The brass window latch catches the afternoon sun; her fingertips rest on the open frame while warm light falls across the music room.",
+                "reason": "창가 예시에 없는 음악실과 오후 빛·황동 걸쇠를 구체화"
+              },
+              {
+                "field": "outfit",
+                "value": "Pale-blue full-length denim overalls with a deeply open back are worn over a strapless ivory bandeau, exposing shoulders and upper back; a small charcoal ring stitching motif sits on the bib pocket.",
+                "reason": "계획의 열린 등·스트랩리스 상의를 긴 데님 오버롤과 아이보리 밴도로 구현"
+              },
+              {
+                "field": "camera",
+                "value": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+              }
+            ],
+            "axes_reason": {
+              "action_level": "창틀에 손을 대고 작은 춤 동작 중인 순간",
+              "source_influence": "빕 주머니의 검정 고리 바느질만 남김",
+              "separates_preference": "긴 오버롤을 중심으로 한 벌의 실루엣 유지"
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "partner_care",
+            "ex": "care_feeding",
+            "expr": "surprised",
+            "pose": "offering_food",
+            "orient": "front",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "place",
+            "scene": "Terracotta pots line a low stone garden bench; one small Eevee leans toward the berry held above its ceramic feeding bowl.",
+            "outfit": "Rust-red short overalls have a single left bib strap over an ivory off-shoulder blouse, revealing her right shoulder, collarbones and upper arms; the bib fastens with a small dark-gray button.",
+            "example_text": "Offering a small berry treat to a Pokémon companion beside a feeding bowl in a quiet garden.",
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "axes.action_level",
+              "axes.source_influence",
+              "axes.separates_preference"
+            ],
+            "randomization": {
+              "planner": "tools/casual-plan.cjs",
+              "selection_changes_by_hand": false
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "value": "Terracotta pots line a low stone garden bench; one small Eevee leans toward the berry held above its ceramic feeding bowl.",
+                "reason": "정원 예시에 동료 종 이브이와 화분·돌 벤치를 특정"
+              },
+              {
+                "field": "outfit",
+                "value": "Rust-red short overalls have a single left bib strap over an ivory off-shoulder blouse, revealing her right shoulder, collarbones and upper arms; the bib fastens with a small dark-gray button.",
+                "reason": "단일 어깨끈의 짧은 러스트 오버롤과 오프숄더 블라우스로 창가 컷과 실루엣 구별"
+              },
+              {
+                "field": "camera",
+                "value": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+              }
+            ],
+            "axes_reason": {
+              "action_level": "동료에게 나무열매를 내미는 가벼운 손동작",
+              "source_influence": "작은 짙은 회색 단추 한 개만 남김",
+              "separates_preference": "짧은 오버롤이 중심인 한 벌 구조"
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "triangle_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "leaning_wall",
+            "expr": "cold_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "bare midriff"
+            ],
+            "lead": "place",
+            "scene": "A whitewashed cabana wall borders a calm pebbled cove at midday; a rolled beach towel and sandals rest on the warm stone terrace.",
+            "outfit": "A cobalt triangle-cup bikini pairs a strapless structured top with matching side-tie bottoms, leaving shoulders and midriff bare; a tiny silver center clasp is its only metallic accent.",
+            "example_text": "a triangle bikini with slider cups and tie-side bottoms",
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "axes.action_level",
+              "axes.source_influence",
+              "axes.separates_preference"
+            ],
+            "randomization": {
+              "planner": "tools/casual-plan.cjs",
+              "selection_changes_by_hand": false
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "value": "A whitewashed cabana wall borders a calm pebbled cove at midday; a rolled beach towel and sandals rest on the warm stone terrace.",
+                "reason": "삼각 비키니 예시에 없는 한낮의 자갈 만과 카바나 벽을 특정"
+              },
+              {
+                "field": "outfit",
+                "value": "A cobalt triangle-cup bikini pairs a strapless structured top with matching side-tie bottoms, leaving shoulders and midriff bare; a tiny silver center clasp is its only metallic accent.",
+                "reason": "계획의 삼각 컵 비키니에 코발트색·은색 잠금쇠와 옆 매듭 구조를 부여"
+              },
+              {
+                "field": "camera",
+                "value": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+              }
+            ],
+            "axes_reason": {
+              "action_level": "벽을 지지하며 쉬는 해변의 가벼운 체중 이동",
+              "source_influence": "현대 코발트 수영복에 작은 은색 잠금쇠 한 개",
+              "separates_preference": "명시된 상하 삼각 비키니 세트를 그대로 유지"
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "다크펫",
+        "species": "banette-20261023",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "cabana_daybed",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "chest_up",
+            "pose": "holding_cup",
+            "expr": "candid",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "soft_tank_shorts",
+            "garments": [
+              "shorts",
+              "tank"
+            ],
+            "orient": "looking_away",
+            "frame": "environmental",
+            "pose": "squatting",
+            "expr": "sleepy",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_basic",
+            "ex": "station_wait",
+            "garments": [
+              "dress"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "hand_on_hip",
+            "expr": "half_smile",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit",
+            "tank",
+            "dress"
+          ],
+          "orient": [
+            "three_quarter_back",
+            "looking_away",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_sensual",
+      "ex": "window_light",
+      "expr": "amused",
+      "pose": "dance_step",
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "open back",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "scene": "The brass window latch catches the afternoon sun; her fingertips rest on the open frame while warm light falls across the music room.",
+      "outfit": "Pale-blue full-length denim overalls with a deeply open back are worn over a strapless ivory bandeau, exposing shoulders and upper back; a small charcoal ring stitching motif sits on the bib pocket.",
+      "example_text": "standing in casual clothes in the light of a large window, one hand on the frame",
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "axes.action_level",
+        "axes.source_influence",
+        "axes.separates_preference"
+      ],
+      "randomization": {
+        "planner": "tools/casual-plan.cjs",
+        "selection_changes_by_hand": false
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "The brass window latch catches the afternoon sun; her fingertips rest on the open frame while warm light falls across the music room.",
+          "reason": "창가 예시에 없는 음악실과 오후 빛·황동 걸쇠를 구체화"
+        },
+        {
+          "field": "outfit",
+          "value": "Pale-blue full-length denim overalls with a deeply open back are worn over a strapless ivory bandeau, exposing shoulders and upper back; a small charcoal ring stitching motif sits on the bib pocket.",
+          "reason": "계획의 열린 등·스트랩리스 상의를 긴 데님 오버롤과 아이보리 밴도로 구현"
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "창틀에 손을 대고 작은 춤 동작 중인 순간",
+        "source_influence": "빕 주머니의 검정 고리 바느질만 남김",
+        "separates_preference": "긴 오버롤을 중심으로 한 벌의 실루엣 유지"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "partner_care",
+      "ex": "care_feeding",
+      "expr": "surprised",
+      "pose": "offering_food",
+      "orient": "front",
+      "frame": "waist_up",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "off-shoulder neckline",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "scene": "Terracotta pots line a low stone garden bench; one small Eevee leans toward the berry held above its ceramic feeding bowl.",
+      "outfit": "Rust-red short overalls have a single left bib strap over an ivory off-shoulder blouse, revealing her right shoulder, collarbones and upper arms; the bib fastens with a small dark-gray button.",
+      "example_text": "Offering a small berry treat to a Pokémon companion beside a feeding bowl in a quiet garden.",
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "axes.action_level",
+        "axes.source_influence",
+        "axes.separates_preference"
+      ],
+      "randomization": {
+        "planner": "tools/casual-plan.cjs",
+        "selection_changes_by_hand": false
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "Terracotta pots line a low stone garden bench; one small Eevee leans toward the berry held above its ceramic feeding bowl.",
+          "reason": "정원 예시에 동료 종 이브이와 화분·돌 벤치를 특정"
+        },
+        {
+          "field": "outfit",
+          "value": "Rust-red short overalls have a single left bib strap over an ivory off-shoulder blouse, revealing her right shoulder, collarbones and upper arms; the bib fastens with a small dark-gray button.",
+          "reason": "단일 어깨끈의 짧은 러스트 오버롤과 오프숄더 블라우스로 창가 컷과 실루엣 구별"
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "동료에게 나무열매를 내미는 가벼운 손동작",
+        "source_influence": "작은 짙은 회색 단추 한 개만 남김",
+        "separates_preference": "짧은 오버롤이 중심인 한 벌 구조"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "triangle_bikini",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "pose": "leaning_wall",
+      "expr": "cold_smile",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "bare midriff"
+      ],
+      "lead": "place",
+      "scene": "A whitewashed cabana wall borders a calm pebbled cove at midday; a rolled beach towel and sandals rest on the warm stone terrace.",
+      "outfit": "A cobalt triangle-cup bikini pairs a strapless structured top with matching side-tie bottoms, leaving shoulders and midriff bare; a tiny silver center clasp is its only metallic accent.",
+      "example_text": "a triangle bikini with slider cups and tie-side bottoms",
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "axes.action_level",
+        "axes.source_influence",
+        "axes.separates_preference"
+      ],
+      "randomization": {
+        "planner": "tools/casual-plan.cjs",
+        "selection_changes_by_hand": false
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "A whitewashed cabana wall borders a calm pebbled cove at midday; a rolled beach towel and sandals rest on the warm stone terrace.",
+          "reason": "삼각 비키니 예시에 없는 한낮의 자갈 만과 카바나 벽을 특정"
+        },
+        {
+          "field": "outfit",
+          "value": "A cobalt triangle-cup bikini pairs a strapless structured top with matching side-tie bottoms, leaving shoulders and midriff bare; a tiny silver center clasp is its only metallic accent.",
+          "reason": "계획의 삼각 컵 비키니에 코발트색·은색 잠금쇠와 옆 매듭 구조를 부여"
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "벽을 지지하며 쉬는 해변의 가벼운 체중 이동",
+        "source_influence": "현대 코발트 수영복에 작은 은색 잠금쇠 한 개",
+        "separates_preference": "명시된 상하 삼각 비키니 세트를 그대로 유지"
+      }
+    }
+  ],
+  "check": "planner check passed before each reservation; full batch final settings preserved",
+  "reservation_commits": [
+    "caec212495b465e67f789989d1bc82fcdc36be9a",
+    "63e7ea9a602d1d28c23b51c446c840aabb43b83a",
+    "0eb3cc4343b11f44afcf984c84e37f30bce69bde"
+  ],
+  "replans": [
+    {
+      "slot": "casual1",
+      "issue": "soft_tank_shorts output blocked by safety system (sexual), request 60c6a9bf-4e08-4593-be2e-1b4556a3c7ae",
+      "result": "different activity: window-light room scene; fixed intensity unchanged"
+    },
+    {
+      "slot": "casual3",
+      "issue": "garter_set output blocked by safety system (sexual), request 40de82ec-5be8-4865-bcb7-5c73d12ddb00",
+      "result": "different category and setting: public seaside swimwear; completed 1/2 kept"
+    }
+  ]
+}
