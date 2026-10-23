@@ -929,6 +929,21 @@
                 "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/user-exception.json",
                 "sha256": "3457671f5ddc6b309ef1c191179394b3c336d236bf67d6eb5da36448045c755e"
               }
+            },
+            "casual1": {
+              "status": "in_flight",
+              "at": "2026-10-23T10:31:44+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual1/prompt.txt",
+                "sha256": "935a952a5382aa6eb5768c63ef5cbebe4c5dba11f7713169de779d12befac351"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual1/ui.json",
+                "sha256": "8a4a0c56ba89d20950e16cb9d775b65e67e864d572c94e2aebf19f5db810a0a2"
+              },
+              "references": {
+                "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Compared actual mobility reference: face, pose, gloves and body preserved; thruster covers open with stronger violet light. Large panel arrays retain clipped left tips and extend further at frame edge. Cropping/oversized silhouette remains a visual defect; accepted only for user post-upload review.",
@@ -957,7 +972,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:29:43+00:00"
+      "updated_at": "2026-10-23T10:31:44+00:00"
     }
   ],
   "claims": {
@@ -1303,6 +1318,20 @@
       "session": "simisear-panpour-20261023-09062",
       "file": "records/casual-reservations/simisear-panpour-20261023-09062.json",
       "at": "2026-10-23T17:35:08+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "516": {
+      "card": "앗차키",
+      "session": "simipour-munna-20261023-ab2944",
+      "file": "records/casual-reservations/simipour-munna-20261023-ab2944.json",
+      "at": "2026-10-23T18:27:33+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "517": {
+      "card": "몽나",
+      "session": "simipour-munna-20261023-ab2944",
+      "file": "records/casual-reservations/simipour-munna-20261023-ab2944.json",
+      "at": "2026-10-23T18:27:33+08:00",
       "status": "external_reservation_do_not_take_over"
     }
   },
