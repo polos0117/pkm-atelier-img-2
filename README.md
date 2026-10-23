@@ -1,5 +1,10 @@
 # pkm-atelier-img-2
 
+> **2026-10-23 닫힘** — 사이트가 약 960 MB(그림 596 MB · 기록 폴더의 원본 PNG 312 MB)라 Pages 1 GB 에 닿았다.
+> 새 그림·새 기록·새 도트는 [pkm-atelier-img-3](https://github.com/polos0117/pkm-atelier-img-3) 에 올린다. 여기는 이미 있는 이름의 **교체**만.
+> 일상컷 장부(`records/casual-ledger.json`)·세션별 예약(`records/casual-reservations/`)·자동화 상태(`records/automation/state.json`)는 **그대로 여기** 둔다.
+> 생성 원본 PNG 는 더 올리지 않는다(이미 올라간 것은 지우지 않는다).
+
 `pkm-atelier` 의 **둘째** 그림 저장소다. 코드는 [pkm-atelier](https://github.com/polos0117/pkm-atelier),
 첫 그림 저장소는 [pkm-atelier-img](https://github.com/polos0117/pkm-atelier-img) 에 있다.
 
@@ -14,7 +19,7 @@ GitHub Pages 사이트 한 개는 1 GB 까지다. 첫 저장소가 그 선을 �
 
 ## 규칙
 
-- **새 그림은 여기에만 올린다.** 첫 저장소는 닫혔다 — 그쪽에 새 이름이 올라오면 등록이 전부 멈춘다.
+- (2026-10-13~10-23) 새 그림은 여기에만 올렸다. 첫 저장소는 닫혔다 — 그쪽에 새 이름이 올라오면 등록이 전부 멈춘다.
   이미 있는 이름을 고쳐 그리는 교체만 그 파일이 있는 저장소에 덮어쓴다.
 - 같은 이름을 두 저장소에 두지 않는다(등록이 멈춘다).
 - 새 그림은 WebP 품질 85(method 6)로 만든다. 1024×1536 기준 한 장 약 0.3~0.4 MB.
