@@ -1,0 +1,49 @@
+{
+  "card": 360,
+  "execution_id": "pkm-daily-2026-10-23T16-00-00Z",
+  "at": "2026-10-23T16:27:31+00:00",
+  "actions": {
+    "thumbnails": {
+      "id": 39986216490,
+      "conclusion": "success"
+    },
+    "image_pages": {
+      "id": 39986309179,
+      "conclusion": "success"
+    },
+    "registration": {
+      "id": 39986313412,
+      "conclusion": "success"
+    },
+    "code_pages": {
+      "id": 39986683477,
+      "conclusion": "success"
+    }
+  },
+  "logs_checked": {
+    "thumbnail_job": 120525947511,
+    "registration_job": 120526295502,
+    "warnings": "Existing other-image dimension warnings and actions Node20 deprecation. All seven current images independently verified 1024x1536 and thumbs512."
+  },
+  "validation": "casual-look ok:true for sole generated casual2; all seven Git remote image hashes, thumbnails, registered slots and where=2 verified. Registry Actions forms/img-shards/register-images tests passed. Partial preflight asserted claims/daily/executions/external holds unchanged, no existing-image writes, no raw PNG/JPG; remote reconciliation recognized all seven own outputs.",
+  "public_http_bytes": "Not verified: environment proxy Tunnel connection failed 403 Forbidden. Git remote bytes and Actions deployment verified.",
+  "missing": {
+    "casual1": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "1eb51640-a6e6-491d-b8b7-ed514b41d568",
+      "output_files": [],
+      "retry": false
+    },
+    "casual3": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "a012df9d-7345-4bd7-8830-4937fe317c3e",
+      "output_files": [],
+      "retry": false
+    }
+  },
+  "recovered_record_push": "81f56e8 initially unconfirmed; fetched remote, confirmed not executed/parent unchanged and dry-run fast-forward succeeded; exact commit retried once, confirmed success. No image regeneration."
+}
