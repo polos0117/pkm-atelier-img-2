@@ -1,0 +1,26 @@
+{
+  "card": "야나프",
+  "slot": "casual2",
+  "file": "야나프_glossy_promo_f_casual2.webp",
+  "repository": "pkm-atelier-img-2",
+  "reason": "팔 생성 오류 수정 — 앞 그림은 머리에 올린 팔이 어긋났다. 새 그림은 두 손을 바닥에 짚었고 장면·옷·구도는 그대로(홈 요가 매트에 무릎 꿇고 앉아 뒤돌아 웃음, 초록 스포츠 브라·검정 레깅스).",
+  "previous_webp_sha256": "5341edcdf9298346e01aac010d1f7deac240064ca5c1eb3745176134537a18c1",
+  "source_sha256": "0550afda2b426c5faeb134e924cefba5132e175f828efed898a3c110efb06700",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "output": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "329ffbdc7cc694aa2dad93e09dcfd12bc932f4dfcbc0fb9602aad2d9f31b954d"
+  },
+  "provenance": "사용자가 고쳐 만든 그림. 이 세션에서는 WebP 변환만 했다. 원본 PNG 는 올리지 않는다(IMAGE_RULES 5절).",
+  "plan": "설정은 바뀌지 않았다 — records/pansage-20261023/casual2-ui.json·plan.json 의 cut 2 그대로.",
+  "look_check": "node tools/casual-look.cjs check --card 야나프 (casual1, 이 그림, casual3) — 통과, 가장 가까운 다른 캐릭터 컷 287점(베이리프 casual2·왕콘치 casual3)",
+  "user_approval": "야나프 일상2번도 이걸로 교체해줘. 팔 생성 오류컷 수정이야.",
+  "at": "2026-10-23"
+}
