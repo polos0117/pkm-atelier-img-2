@@ -1551,7 +1551,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T12:17:35+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-3/356/casual2/prompt.txt",
@@ -1563,7 +1563,14 @@
               },
               "references": {
                 "light": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-3/356/casual2/original.png",
+                "sha256": "33ff535ef46d255f124e45e9098429c3050c500cb04cace64cb141946099d507",
+                "session_only": true,
+                "webp_sha256": "c8e4d13b9bf6ecb3633c427433d678f0a1da3ee439a7f9e272f08ab9f774335e"
+              },
+              "received_at": "2026-10-23T12:18:56+00:00"
             }
           },
           "reason": "casual1 visual QA: Adult canonical face and twin buns retained; laughing eyes, shell, volcanic tide pools and opaque swimwear plus gauzy coverup visible. Hands grip shell/cloth with plausible occluded digits and wrists, no obvious extras. Canonical red hair rings persisted despite wardrobe request and multiple red accents exceed one accent. Environmental shot is relatively tight. These visual issues are user post-upload review acceptance, not pass. Look-check ok true, nearest score229 above215.",
@@ -1592,7 +1599,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T12:17:35+00:00"
+      "updated_at": "2026-10-23T12:18:57+00:00"
     }
   ],
   "claims": {
@@ -1836,9 +1843,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
