@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "skuntank-bronzor-2870ae-20261023",
- "at": "2026-10-23T21:23:00+08:00",
+ "at": "2026-10-23T21:44:12+08:00",
  "characters": [
   {
    "species": "skuntank-20261023",
@@ -89,7 +89,7 @@
   {
    "species": "bronzor-20261023",
    "card": "동미러",
-   "at": "2026-10-23T21:23:00+08:00",
+   "at": "2026-10-23T21:44:12+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -101,8 +101,6 @@
      "frame": "full_body",
      "lens": "telephoto135",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "balanced"
@@ -114,7 +112,7 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "kept": true
     },
     {
      "cut": 2,
@@ -126,8 +124,6 @@
      "frame": "environmental",
      "lens": "portrait85",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "balanced"
@@ -139,21 +135,21 @@
       "high-cut leg",
       "strapless top"
      ],
-     "lead": "detail"
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "hobbies_leisure",
      "ex": "hobby_sketch",
-     "expr": "proud",
-     "pose": "on_tiptoe",
-     "orient": "front",
-     "frame": "three_quarter",
-     "lens": "natural50",
+     "expr": "flustered",
+     "pose": "kneeling",
+     "orient": "side",
+     "frame": "chest_up",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
@@ -162,11 +158,12 @@
      ],
      "expose": [
       "one-shoulder cut",
-      "cropped hem"
+      "halter neck"
      ],
-     "lead": "light"
+     "lead": "detail"
     }
-   ]
+   ],
+   "refill": true
   }
  ]
 }
