@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "simipour-munna-20261023-ab2944",
- "at": "2026-10-23T18:43:44+08:00",
+ "at": "2026-10-23T19:04:13+08:00",
  "characters": [
   {
    "species": "simipour-20261023",
@@ -83,7 +83,7 @@
   {
    "species": "munna-20261023",
    "card": "몽나",
-   "at": "2026-10-23T18:27:33+08:00",
+   "at": "2026-10-23T19:04:13+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -95,8 +95,6 @@
      "frame": "environmental",
      "lens": "telephoto135",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly active",
       "source_influence": "strong",
       "separates_preference": "balanced"
@@ -108,7 +106,7 @@
       "side cutouts",
       "halter neck"
      ],
-     "lead": "action"
+     "kept": true
     },
     {
      "cut": 2,
@@ -120,8 +118,6 @@
      "frame": "waist_up",
      "lens": "wide24",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
@@ -134,37 +130,35 @@
       "one-shoulder cut",
       "mini length"
      ],
-     "lead": "detail",
      "kept": true
     },
     {
      "cut": 3,
      "cat": "everyday_basic",
-     "ex": "hanbok_errand",
-     "expr": "curious",
-     "pose": "mid_action",
-     "orient": "low_angle",
+     "ex": "cafe_takeout",
+     "expr": "surprised",
+     "pose": "holding_cup",
+     "orient": "front",
      "frame": "chest_up",
-     "lens": "natural50",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "strong",
-      "separates_preference": "prefer separates"
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
      },
      "garments": [
-      "skirt",
-      "traditional"
+      "overalls"
      ],
      "expose": [
-      "cropped hem",
-      "high thigh slit"
+      "one-shoulder cut",
+      "mini length"
      ],
-     "lead": "action",
-     "kept": true
+     "lead": "action"
     }
-   ]
+   ],
+   "refill": true
   }
  ]
 }
