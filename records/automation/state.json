@@ -2073,7 +2073,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T14:14:26+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-4/359/light_overdrive/prompt.txt",
@@ -2092,7 +2092,11 @@
                 "session_only": true,
                 "webp_sha256": "0267c52e3d0226aefd70646cb9a33f919c79fd8d19f0396a2e31b92e3a7e4f25"
               },
-              "received_at": "2026-10-23T14:15:47+00:00"
+              "received_at": "2026-10-23T14:15:47+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-4/359/light_overdrive/qa.json",
+                "sha256": "689fc3d5c0bcc2a014798b3fa7ab75fa3ebdc3431227468272399e400cd29544"
+              }
             }
           },
           "reason": "light visual QA: One adult woman, full body head and heels in frame; white asymmetric hair, crescent horn and belt sash. Five gloved digits each with bent finger overlaps, no extra limbs. Planned small narrow eyes rendered larger and angular jaw softened, so face design QA fails. Accepted only under standing post-upload review approval.",
@@ -2107,7 +2111,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T14:15:48+00:00"
+      "updated_at": "2026-10-23T14:15:56+00:00"
     }
   ],
   "claims": {
@@ -2507,9 +2511,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -2535,16 +2539,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
