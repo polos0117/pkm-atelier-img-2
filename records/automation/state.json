@@ -828,7 +828,11 @@
                 "session_only": true,
                 "webp_sha256": "84edf263d9d3b35d913c221c2d9a7ab6f3d1e362e6435409fa76eb962f1cec99"
               },
-              "received_at": "2026-10-23T10:04:40+00:00"
+              "received_at": "2026-10-23T10:04:40+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility/qa-rejected.json",
+                "sha256": "25a0fd377b06d28f75b047d3852bd2acc51ebdaea09b9c8d2f4a576b8890c1dc"
+              }
             }
           },
           "reason": "mobility QA failed: shoulder and hip panels form giant wing-like arrays; left array tips cut by frame, contrary to submitted no giant wings requirement. Preserve result; no retry authorized."
