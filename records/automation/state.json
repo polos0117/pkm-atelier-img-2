@@ -1981,14 +1981,14 @@
       "id": "2026-10-23-4",
       "execution_id": "pkm-daily-2026-10-23T14-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T14:07:12+00:00",
       "queue": [
         {
           "no": 359,
           "name": "앱솔",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2221,7 +2221,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T14:29:27+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-4/359/casual3/prompt.txt",
@@ -2240,7 +2240,17 @@
                 "session_only": true,
                 "webp_sha256": "67200990bea8695afc47a331c7e8a34c92edf6169cddb84f961610994bf05f10"
               },
-              "received_at": "2026-10-23T14:31:35+00:00"
+              "received_at": "2026-10-23T14:31:35+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual3/qa-rejected.json",
+                "sha256": "f075d0d020eafc6a2ecae6761da1ecb725c1347d1d138c46797d0ae6a3138d9f"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual3/user-exception.json",
+                "sha256": "8592ac9ec5c3973022c30c6aa70f4cc7ce100951429b2feab8a3266c0bb3dece"
+              }
             }
           },
           "reason": "casual3 visual QA: Adult identity, ivory off-shoulder blazer, dark top/skirt, spectacles and folder present. Hands have plausible thumb/finger grouping with spectacles and folder occlusion; no definite extras. Image is thigh-up low-angle rather than chest-up telephoto; walking not clearly shown. Background guest silhouettes violate one-figure instruction; side opening exceeds small cutout. Preserve failures and accept only for user post-upload review. Distinct from wardrobe reaching and outdoor berry harvest.",
@@ -2271,6 +2281,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-4/359/casual2/user-exception.json",
                 "sha256": "e44c63c68cc68cdbcd584bdbd2a3b9aebd76c2de14f4fe127b30650d14466144"
+              }
+            },
+            {
+              "reason": "casual3 visual QA: Adult identity, ivory off-shoulder blazer, dark top/skirt, spectacles and folder present. Hands have plausible thumb/finger grouping with spectacles and folder occlusion; no definite extras. Image is thigh-up low-angle rather than chest-up telephoto; walking not clearly shown. Background guest silhouettes violate one-figure instruction; side opening exceeds small cutout. Preserve failures and accept only for user post-upload review. Distinct from wardrobe reaching and outdoor berry harvest.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual3/user-exception.json",
+                "sha256": "8592ac9ec5c3973022c30c6aa70f4cc7ce100951429b2feab8a3266c0bb3dece"
               }
             }
           ]
