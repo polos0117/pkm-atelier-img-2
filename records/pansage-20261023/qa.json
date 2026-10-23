@@ -1,0 +1,221 @@
+{
+  "reviewer": "gpt",
+  "accepted_count": 9,
+  "image_tool": "built-in image_gen",
+  "observations": {
+    "light": "초록 반묶음 머리·갈색 양눈·잎 장식. 양손을 펼친 전신, 자연스러운 손가락과 양발, 무기 없음.",
+    "heavy": "정본 얼굴·머리 유지. 어깨·팔·허리·다리가 다층 넓은 판으로 두꺼워짐.",
+    "mobility": "정본 얼굴과 몸 위에 뒤로 펼친 잎 모양 분할 판과 작은 원형 추진기.",
+    "light_overdrive": "경장과 같은 자세·크기·구도에서 얇은 판이 들려 초록 내부빛이 새어 나옴.",
+    "heavy_overdrive": "중장과 같은 카메라·자세에서 겹판 사이가 열리고 초록빛 내부 노출.",
+    "mobility_overdrive": "고기동과 같은 카메라·자세에서 분할 판과 추진기 덮개가 열림.",
+    "casual1": "서커스 천막 아래 모자를 잡고 다른 손을 입구 쪽으로 펼쳐 신호. 초록 크롭 연미복·금빛 방드·크림 스커트·롱부츠.",
+    "casual2": "밝은 스튜디오 코르크 요가 매트에서 앉아 몸을 비튼 스트레칭. 초록 옆 컷아웃 크롭톱과 검정 레깅스, 지지 손과 머리 위의 손 연결 자연스러움.",
+    "casual3": "규토리 껍질을 한 손으로 받치고 작은 도구로 깎아 얇은 껍질이 내려옴. 홀터 앞치마·크림 방드·초록 바지, 양다리와 의자 연결 자연스러움."
+  },
+  "recorded_variations": [
+    "casual1 waist_up보다 넓게 부츠 위까지 표현됨.",
+    "casual2 선택 방향과 앉음에 따라 비튼 요가 스트레칭으로 표현됨.",
+    "casual3 small_jog보다 의자에 앉아 작업하는 장면으로 표현됨."
+  ],
+  "diversity_comparison": "야나프 3장과 레파르다스·최근 요테리·밀로틱·쌔비냥 실제 이미지를 나란히 비교. 서커스 입장 신호의 정면 손짓과 무대복, 요가 매트의 앉은 비틀기와 운동복, 규토리 껍질 손질의 측면 의자와 작업복이 장소·활동·옷·구도로 구별됨.",
+  "casual_look_check": "Passed; nearest scores 297/295/231, final cut has two moderately close neighbours but no near-identical match under failure threshold 215.",
+  "checks": [
+    "All nine original dimensions 1024x1536",
+    "canonical adult identity maintained",
+    "hands and limb connections inspected",
+    "no readable labels or logos observed",
+    "closed/open compositions matched"
+  ],
+  "files": [
+    {
+      "card": "야나프",
+      "slot": "light",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/pansage-20261023/light-original.png",
+      "original_sha256": "12c731f88db7d4c623c9c43ea8efc88efe750982d40dbe4032974a527212fbc3",
+      "output": "img/야나프_light_glossy_promo_f.webp",
+      "output_sha256": "e9eabda777f730399f36bfd1f0856ffd340bde664071b654d801da37912831bf",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": null,
+      "reference_sha256": null
+    },
+    {
+      "card": "야나프",
+      "slot": "mobility",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/pansage-20261023/mobility-original.png",
+      "original_sha256": "f2ad0501157373c2574e1b50f08b30cc125f24e0ce4914aa6b7c3e2ce33c7522",
+      "output": "img/야나프_mobility_glossy_promo_f.webp",
+      "output_sha256": "4923b81f8b7bf963523eb7fdc7d00f112f506a057de3a5955d3dd3f26f6f76b0",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/pansage-20261023/light-original.png",
+      "reference_sha256": "12c731f88db7d4c623c9c43ea8efc88efe750982d40dbe4032974a527212fbc3"
+    },
+    {
+      "card": "야나프",
+      "slot": "heavy",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/pansage-20261023/heavy-original.png",
+      "original_sha256": "c45856a40545714c846647e40c07d0821add13fd277918eebd49a559e1d350c0",
+      "output": "img/야나프_heavy_glossy_promo_f.webp",
+      "output_sha256": "3ec3ddbf61348c67168374fa7659188495f033d77c9065636b3f6666825c74ae",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/pansage-20261023/light-original.png",
+      "reference_sha256": "12c731f88db7d4c623c9c43ea8efc88efe750982d40dbe4032974a527212fbc3"
+    },
+    {
+      "card": "야나프",
+      "slot": "light_overdrive",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/pansage-20261023/light_overdrive-original.png",
+      "original_sha256": "e3a120f1890bbfa917c538bc329ac264c505e3a2e75fbdc07e46be88ea417945",
+      "output": "img/야나프_light_overdrive_glossy_promo_f.webp",
+      "output_sha256": "b4cff5dc45774b72f01268035f8497128c42e73d8085f26dbe034deb3803fd06",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/pansage-20261023/light-original.png",
+      "reference_sha256": "12c731f88db7d4c623c9c43ea8efc88efe750982d40dbe4032974a527212fbc3"
+    },
+    {
+      "card": "야나프",
+      "slot": "casual1",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/pansage-20261023/casual1-original.png",
+      "original_sha256": "184c2b6d2d95f140b62ab9db1bae44ea5d9929d95e12be970e142e11a5e7762b",
+      "output": "img/야나프_glossy_promo_f_casual1.webp",
+      "output_sha256": "5fad5049fe8f718e63a06b8f542e8f0615a17c4efcab129a22da7606a77c75ab",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/pansage-20261023/light-original.png",
+      "reference_sha256": "12c731f88db7d4c623c9c43ea8efc88efe750982d40dbe4032974a527212fbc3"
+    },
+    {
+      "card": "야나프",
+      "slot": "casual2",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/pansage-20261023/casual2-original.png",
+      "original_sha256": "c5fdbd5cdb7b879c1621116650b6b427bf644e5534326ff81d5863b12d319fa7",
+      "output": "img/야나프_glossy_promo_f_casual2.webp",
+      "output_sha256": "5341edcdf9298346e01aac010d1f7deac240064ca5c1eb3745176134537a18c1",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/pansage-20261023/light-original.png",
+      "reference_sha256": "12c731f88db7d4c623c9c43ea8efc88efe750982d40dbe4032974a527212fbc3"
+    },
+    {
+      "card": "야나프",
+      "slot": "casual3",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/pansage-20261023/casual3-original.png",
+      "original_sha256": "cdce8e616e7b0c652827d39cd1e9fbfe6975228defaf0384a0460c4e85d7d897",
+      "output": "img/야나프_glossy_promo_f_casual3.webp",
+      "output_sha256": "250e67c9db50a609c80a7be4a563a10252e6e4c614418f197c2038f5ffc33067",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/pansage-20261023/light-original.png",
+      "reference_sha256": "12c731f88db7d4c623c9c43ea8efc88efe750982d40dbe4032974a527212fbc3"
+    },
+    {
+      "card": "야나프",
+      "slot": "heavy_overdrive",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/pansage-20261023/heavy_overdrive-original.png",
+      "original_sha256": "89d5441693ed0933e021673d28a79e40012224305ae2960fc0278cd835022e1c",
+      "output": "img/야나프_heavy_overdrive_glossy_promo_f.webp",
+      "output_sha256": "67a4baa011d70b325c2fab5cab7b83fa7ed7196186e21330f99392b8ce1b21cb",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/pansage-20261023/heavy-original.png",
+      "reference_sha256": "c45856a40545714c846647e40c07d0821add13fd277918eebd49a559e1d350c0"
+    },
+    {
+      "card": "야나프",
+      "slot": "mobility_overdrive",
+      "style": "glossy_promo",
+      "basis": "Actual Preact generator UI selections and exact submitted prompt",
+      "original": "records/pansage-20261023/mobility_overdrive-original.png",
+      "original_sha256": "41e3f0367c4233866cb906ca7fbb041609502f5859939cb72057031c82a55e93",
+      "output": "img/야나프_mobility_overdrive_glossy_promo_f.webp",
+      "output_sha256": "16a656983e535dc7127c41423d306499ddf9c0c0f276ea56669867895cbce8a9",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "encoding": {
+        "quality": 85,
+        "method": 6
+      },
+      "reference": "records/pansage-20261023/mobility-original.png",
+      "reference_sha256": "f2ad0501157373c2574e1b50f08b30cc125f24e0ce4914aa6b7c3e2ce33c7522"
+    }
+  ]
+}

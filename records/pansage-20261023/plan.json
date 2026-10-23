@@ -1,0 +1,462 @@
+{
+  "batch": {
+    "session": "gpt-liepard-pansage-20261023-50b7",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "레파르다스",
+        "species": "liepard-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "festivals_contests",
+            "ex": "fest_ribbon",
+            "expr": "determined",
+            "pose": "sitting_floor",
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "knit_top",
+              "skirt"
+            ],
+            "expose": [
+              "side cutouts",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "private_evening",
+            "ex": "one_shoulder_satin",
+            "expr": "sensual",
+            "pose": "bending_over",
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "slip"
+            ],
+            "expose": [
+              "plunging neckline",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "embroidered_corset",
+            "expr": "smug",
+            "pose": "kneeling",
+            "orient": "crouching",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "bare midriff",
+              "high-cut leg"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "야나프",
+        "species": "pansage-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "expr": "confident",
+            "pose": "mid_action",
+            "orient": "low_angle",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "uniform"
+            ],
+            "expose": [
+              "side cutouts",
+              "cropped hem"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "yoga_flow",
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "orient": "over_shoulder",
+            "frame": "three_quarter",
+            "pose": "side_sitting",
+            "expr": "laughing_open",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "cropped hem"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "welding_fabricator",
+            "expr": "nostalgic",
+            "pose": "small_jog",
+            "orient": "side",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "expose": [
+              "strapless top",
+              "halter neck"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "crop_top",
+            "leggings"
+          ],
+          "orient": [
+            "over_shoulder"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "circus_ringmaster",
+      "expr": "confident",
+      "pose": "mid_action",
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "uniform"
+      ],
+      "expose": [
+        "side cutouts",
+        "cropped hem"
+      ],
+      "lead": "action",
+      "aspect": "2:3",
+      "scene": "She sweeps one hand toward the rehearsal entrance while cueing a ring of amber stage bulbs beneath the striped tent canopy.",
+      "outfit": "A cropped emerald ringmaster tailcoat with open side cutouts over an opaque gold bandeau pairs with a cream mini uniform skirt, high boots and a top hat; her waist and upper thighs remain visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "example_text": "a circus ringmaster costume with a tailcoat, high boots, and a top hat, under a tent canopy",
+      "selection_method": "Planner values applied through actual generator controls; no manual selector changes",
+      "random_changes": [],
+      "axes_reason": [
+        "입장 신호를 보내는 진행 동작이라 mostly active",
+        "초록과 금빛 무대복으로 balanced",
+        "크롭 연미복·방드와 스커트가 분리되어 prefer separates"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She sweeps one hand toward the rehearsal entrance while cueing a ring of amber stage bulbs beneath the striped tent canopy.",
+          "reason": "링마스터 예시에 없는 리허설 입장 신호와 앰버 무대 전구를 지정"
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped emerald ringmaster tailcoat with open side cutouts over an opaque gold bandeau pairs with a cream mini uniform skirt, high boots and a top hat; her waist and upper thighs remain visible.",
+          "reason": "예시의 연미복·부츠·모자에 계획기의 스커트와 크롭·옆 컷아웃 재단을 지정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "active",
+      "ex": "yoga_flow",
+      "garments": [
+        "crop_top",
+        "leggings"
+      ],
+      "orient": "over_shoulder",
+      "frame": "three_quarter",
+      "pose": "side_sitting",
+      "expr": "laughing_open",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "cropped hem"
+      ],
+      "lead": "detail",
+      "scene": "Soft morning light crosses a cork yoga mat beside tall frosted studio windows, with a folded towel near its edge.",
+      "outfit": "An emerald fitted crop top with curved side cutouts and charcoal high-waisted leggings reveal her midriff and the sides of her waist; a cream edge subtly echoes her colours.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "example_text": "flowing through a yoga pose on a mat in a fitted yoga set",
+      "selection_method": "Planner values applied through actual generator controls; no manual selector changes",
+      "random_changes": [],
+      "axes_reason": [
+        "매트에서 정지해 유지하는 요가 자세라 mostly posed",
+        "크림 테두리만 작게 남겨 subtle",
+        "상의와 레깅스가 분리되어 prefer separates"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Soft morning light crosses a cork yoga mat beside tall frosted studio windows, with a folded towel near its edge.",
+          "reason": "요가 예시에 없는 아침빛·코르크 매트·반투명 창의 스튜디오를 지정"
+        },
+        {
+          "field": "outfit",
+          "content": "An emerald fitted crop top with curved side cutouts and charcoal high-waisted leggings reveal her midriff and the sides of her waist; a cream edge subtly echoes her colours.",
+          "reason": "예시의 요가 세트를 초록 크롭톱·레깅스와 옆 컷아웃으로 구체화"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "welding_fabricator",
+      "expr": "nostalgic",
+      "pose": "small_jog",
+      "orient": "side",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "apron",
+        "trousers"
+      ],
+      "expose": [
+        "strapless top",
+        "halter neck"
+      ],
+      "lead": "light",
+      "aspect": "2:3",
+      "scene": "Late afternoon sun warms a beechwood workbench where she pares a pale apricorn shell with a small carving tool, collecting thin shavings in a shallow tray.",
+      "outfit": "A short halter work apron sits over an opaque cream strapless bandeau and green trousers, exposing her shoulders, collarbones and upper back; brass tool loops add a tiny leaf-shaped accent.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "example_text": "Apricorn-ball craftsperson shaping an apricorn shell with hand tools at a tidy Pokémon workshop bench.",
+      "selection_method": "Planner values applied through actual generator controls; no manual selector changes",
+      "random_changes": [],
+      "axes_reason": [
+        "껍질을 다듬는 손동작이 진행되어 mostly active",
+        "초록 바지와 작은 잎 도구고리로 balanced",
+        "앞치마·방드·바지가 분리되어 prefer separates"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late afternoon sun warms a beechwood workbench where she pares a pale apricorn shell with a small carving tool, collecting thin shavings in a shallow tray.",
+          "reason": "공방 예시에 없는 오후 채광·규토리 껍질 색과 얇은 깎임을 지정"
+        },
+        {
+          "field": "outfit",
+          "content": "A short halter work apron sits over an opaque cream strapless bandeau and green trousers, exposing her shoulders, collarbones and upper back; brass tool loops add a tiny leaf-shaped accent.",
+          "reason": "계획기의 앞치마·바지를 홀터 앞치마와 스트랩리스 방드·초록 바지로 구체화"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ]
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed before first casual generation and on resume",
+  "reservation": "records/casual-reservations/gpt-liepard-pansage-20261023-50b7.json",
+  "reservation_commit": "0d28a2303a27f8823f834ae530211492d22ef31d",
+  "resume": "Interrupted requests without returned files were resumed with the same recorded prompts. No generated result was replaced. An ungenerated local alternative plan was discarded in favour of the previously reserved exact batch."
+}
