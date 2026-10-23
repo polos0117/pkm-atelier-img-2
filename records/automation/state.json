@@ -13,6 +13,9 @@
     "2026-10-22": [
       345,
       346
+    ],
+    "2026-10-23": [
+      355
     ]
   },
   "runs": [
@@ -741,6 +744,23 @@
         }
       ],
       "updated_at": "2026-10-22T12:01:00+00:00"
+    },
+    {
+      "id": "2026-10-23-2",
+      "execution_id": "pkm-daily-2026-10-23T10-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-23T09:57:45+00:00",
+      "queue": [
+        {
+          "no": 355,
+          "name": "해골몽",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-23T09:57:45+00:00"
     }
   ],
   "claims": {
@@ -755,6 +775,12 @@
       "run": "2026-10-22-1",
       "status": "complete",
       "at": "2026-10-22T09:08:42+00:00"
+    },
+    "355": {
+      "owner": "pkm-daily",
+      "run": "2026-10-23-2",
+      "status": "held",
+      "at": "2026-10-23T09:57:45+00:00"
     }
   },
   "blocked_candidates": {
@@ -913,13 +939,192 @@
       "file": "records/casual-reservations/dewott-samurott-20261022-6ed4.json",
       "at": "2026-10-22T03:30:33-07:00",
       "status": "external_reservation_do_not_take_over"
+    },
+    "347": {
+      "card": "아노딥스",
+      "session": "anorith-armaldo-edadb7",
+      "file": "records/casual-reservations/anorith-armaldo-edadb7.json",
+      "at": "2026-10-22T07:40:15-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "348": {
+      "card": "아말도",
+      "session": "anorith-armaldo-edadb7",
+      "file": "records/casual-reservations/anorith-armaldo-edadb7.json",
+      "at": "2026-10-22T07:40:15-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "349": {
+      "card": "빈티나",
+      "session": "feebas-milotic-20261023-2abb",
+      "file": "records/casual-reservations/feebas-milotic-20261023-2abb.json",
+      "at": "2026-10-22T08:34:10-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "350": {
+      "card": "밀로틱",
+      "session": "feebas-milotic-20261023-2abb",
+      "file": "records/casual-reservations/feebas-milotic-20261023-2abb.json",
+      "at": "2026-10-22T08:34:10-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "351": {
+      "card": "캐스퐁",
+      "session": "gpt-castform-kecleon-20261023",
+      "file": "records/casual-reservations/gpt-castform-kecleon-20261023.json",
+      "at": "2026-10-22T14:36:30-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "352": {
+      "card": "켈리몬",
+      "session": "gpt-castform-kecleon-20261023",
+      "file": "records/casual-reservations/gpt-castform-kecleon-20261023.json",
+      "at": "2026-10-22T14:36:30-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "353": {
+      "card": "어둠대신",
+      "session": "shuppet-banette-dea43",
+      "file": "records/casual-reservations/shuppet-banette-dea43.json",
+      "at": "2026-10-22T18:19:30-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "354": {
+      "card": "다크펫",
+      "session": "shuppet-banette-dea43",
+      "file": "records/casual-reservations/shuppet-banette-dea43.json",
+      "at": "2026-10-22T18:41:27-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "429": {
+      "card": "무우마직",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "430": {
+      "card": "돈크로우",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "431": {
+      "card": "나옹마",
+      "session": "gpt-glameow-purugly-20261023-131c",
+      "file": "records/casual-reservations/gpt-glameow-purugly-20261023-131c.json",
+      "at": "2026-10-22T19:56:12-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "432": {
+      "card": "몬냥이",
+      "session": "gpt-glameow-purugly-20261023-131c",
+      "file": "records/casual-reservations/gpt-glameow-purugly-20261023-131c.json",
+      "at": "2026-10-22T18:07:33-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "504": {
+      "card": "보르쥐",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "505": {
+      "card": "보르그",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "506": {
+      "card": "요테리",
+      "session": "lillipup-herdier-20261022-f3a6",
+      "file": "records/casual-reservations/lillipup-herdier-20261022-f3a6.json",
+      "at": "2026-10-22T07:42:52-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "507": {
+      "card": "하데리어",
+      "session": "lillipup-herdier-20261022-f3a6",
+      "file": "records/casual-reservations/lillipup-herdier-20261022-f3a6.json",
+      "at": "2026-10-22T07:42:52-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "508": {
+      "card": "바랜드",
+      "session": "gpt-stoutland-purrloin-20261023-e50a",
+      "file": "records/casual-reservations/gpt-stoutland-purrloin-20261023-e50a.json",
+      "at": "2026-10-22T08:32:28-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "509": {
+      "card": "쌔비냥",
+      "session": "gpt-stoutland-purrloin-20261023-e50a",
+      "file": "records/casual-reservations/gpt-stoutland-purrloin-20261023-e50a.json",
+      "at": "2026-10-22T08:32:28-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "510": {
+      "card": "레파르다스",
+      "session": "gpt-liepard-pansage-20261023-50b7",
+      "file": "records/casual-reservations/gpt-liepard-pansage-20261023-50b7.json",
+      "at": "2026-10-22T14:30:17-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "511": {
+      "card": "야나프",
+      "session": "gpt-liepard-pansage-20261023-50b7",
+      "file": "records/casual-reservations/gpt-liepard-pansage-20261023-50b7.json",
+      "at": "2026-10-22T14:30:17-07:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "512": {
+      "card": "야나키",
+      "session": "simisage-pansear-5205-20261023",
+      "file": "records/casual-reservations/simisage-pansear-5205-20261023.json",
+      "at": "2026-10-23T13:57:18+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "513": {
+      "card": "바오프",
+      "session": "simisage-pansear-5205-20261023",
+      "file": "records/casual-reservations/simisage-pansear-5205-20261023.json",
+      "at": "2026-10-23T13:57:18+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "514": {
+      "card": "바오키",
+      "session": "simisear-panpour-20261023-09062",
+      "file": "records/casual-reservations/simisear-panpour-20261023-09062.json",
+      "at": "2026-10-23T17:35:08+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "515": {
+      "card": "앗차프",
+      "session": "simisear-panpour-20261023-09062",
+      "file": "records/casual-reservations/simisear-panpour-20261023-09062.json",
+      "at": "2026-10-23T17:35:08+08:00",
+      "status": "external_reservation_do_not_take_over"
     }
   },
   "daily_kst": {
     "2026-10-22": [
       345,
       346
+    ],
+    "2026-10-23": [
+      355
     ]
   },
-  "executions": {}
+  "executions": {
+    "pkm-daily-2026-10-23T10-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-23T09:57:45+00:00",
+      "characters": [
+        355
+      ]
+    }
+  }
 }
