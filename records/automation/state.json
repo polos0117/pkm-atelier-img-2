@@ -1343,14 +1343,14 @@
       "id": "2026-10-23-3",
       "execution_id": "pkm-daily-2026-10-23T12-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T11:58:59+00:00",
       "queue": [
         {
           "no": 356,
           "name": "미라몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -1487,7 +1487,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T12:11:54+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-3/356/mobility_overdrive/prompt.txt",
@@ -1506,7 +1506,17 @@
                 "session_only": true,
                 "webp_sha256": "608204938e0f9aa99c2f83e854d17b4f2155937b292273d70a452df34e4d30d3"
               },
-              "received_at": "2026-10-23T12:13:05+00:00"
+              "received_at": "2026-10-23T12:13:05+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-3/356/mobility_overdrive/qa-rejected.json",
+                "sha256": "1d2e77483bce0a432035a711ea7ec6436509233fdbc144c1a619eb9c352d8191"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-3/356/mobility_overdrive/user-exception.json",
+                "sha256": "1563e6a0bf7960782298383f5c5c5da91185d157484c59da58d35bc01e2f0ddb"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Same camera pose face and hands; head feet contained. Purple light and opened thrusters readable. Hip and calf fans appear more numerous/longer than closed mobility, so exact armor-piece preservation is uncertain and treated as visual QA failure. No extra limbs, open hand five fingers and wrist continuous. User post-upload review acceptance, not QA pass.",
@@ -1516,6 +1526,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-3/356/light/user-exception.json",
                 "sha256": "516aaf2deb20394a4a23d0a9631992ff78dda17a129215b6603d7fec8185db3c"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Same camera pose face and hands; head feet contained. Purple light and opened thrusters readable. Hip and calf fans appear more numerous/longer than closed mobility, so exact armor-piece preservation is uncertain and treated as visual QA failure. No extra limbs, open hand five fingers and wrist continuous. User post-upload review acceptance, not QA pass.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-3/356/mobility_overdrive/user-exception.json",
+                "sha256": "1563e6a0bf7960782298383f5c5c5da91185d157484c59da58d35bc01e2f0ddb"
               }
             }
           ]
