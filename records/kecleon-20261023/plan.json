@@ -1,0 +1,442 @@
+{
+  "session": "gpt-castform-kecleon-20261023",
+  "species": "kecleon-20261023",
+  "card": "켈리몬",
+  "batch": {
+    "session": "gpt-castform-kecleon-20261023",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "캐스퐁",
+        "species": "castform-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "huipil_modern",
+            "expr": "focused",
+            "pose": "leaning_furniture",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "traditional"
+            ],
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "expr": "mischievous",
+            "pose": "stretching",
+            "orient": "high_angle",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "uniform"
+            ],
+            "expose": [
+              "halter neck",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "one_shoulder_satin",
+            "expr": "soft_smile",
+            "pose": "contrapposto",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "halter neck",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "travel_exploration",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "켈리몬",
+        "species": "kecleon-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "event_staff",
+            "expr": "laughing",
+            "pose": "mid_stride",
+            "orient": "rear_3q",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "vest"
+            ],
+            "expose": [
+              "mini length",
+              "cropped hem"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "moonlit_pool",
+            "expr": "provocative",
+            "pose": "stretching",
+            "orient": "looking_down",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "stage_rigging",
+            "garments": [
+              "apron",
+              "skirt"
+            ],
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "pose": "on_tiptoe",
+            "expr": "curious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "travel_exploration",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron"
+          ],
+          "orient": [
+            "reaching_up"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "event_staff",
+      "expr": "laughing",
+      "pose": "mid_stride",
+      "orient": "rear_3q",
+      "frame": "chest_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "vest"
+      ],
+      "expose": [
+        "mini length",
+        "cropped hem"
+      ],
+      "lead": "light",
+      "example_text": "an event staff costume with a fitted vest, name-tag ribbon, and lanyard, at a themed venue",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reason": "Moving toward the parade entrance is active; green-red-yellow tailoring clearly recalls Kecleon; vest and skirt are separate garments.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm amber bulbs illuminate a costume-parade backstage entrance as she checks the ribbon pass before her entrance cue.",
+          "reason": "The event costume example leaves the venue and preparation task unspecified; add a backstage costume parade entrance and checking a ribbon pass."
+        },
+        {
+          "field": "outfit",
+          "content": "A fitted emerald event vest has a cropped hem and yellow piping over a secure inner panel, paired with a red-edged mini skirt; a ribbon badge and lanyard echo the zigzag motif.",
+          "reason": "The fitted vest has no color or hem length specified; use a cropped green vest and mini skirt with red zigzag trim."
+        }
+      ],
+      "random_record": {
+        "selected_by": "tools/casual-plan.cjs",
+        "manual_selection_changes": false,
+        "replans_record": "planner-replans.json"
+      },
+      "submitted_prompt": "CHARACTER: the same woman as the attached image — Kecleon (켈리몬) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: head tipped back slightly, eyes squeezed nearly shut, mouth open wide with teeth showing, cheeks raised high\nPose: Capture a clear mid-stride step with believable weight transfer.\nOrientation: rear three-quarter view showing back and one flank\nScene: Warm amber bulbs illuminate a costume-parade backstage entrance as she checks the ribbon pass before her entrance cue.\nOutfit and props: A fitted emerald event vest has a cropped hem and yellow piping over a secure inner panel, paired with a red-edged mini skirt; a ribbon badge and lanyard echo the zigzag motif.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: an event staff costume with a fitted vest, name-tag ribbon, and lanyard, at a themed venue\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra."
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "moonlit_pool",
+      "expr": "provocative",
+      "pose": "stretching",
+      "orient": "looking_down",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "bikini"
+      ],
+      "expose": [
+        "high-cut leg",
+        "open back"
+      ],
+      "lead": "action",
+      "example_text": "in swimwear at an outdoor pool at night, lit by underwater lamps and moonlight",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reason": "A pool warmup uses the selected active stretch; the green-red-yellow bands are strong source cues; a swimwear set fits balanced outfit structure.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Preparing for another lap beside the starting end of a resort pool; soft ripples reach the illuminated tile edge.",
+          "reason": "The night pool example has no specific warmup task; add preparing for a lap beside the starting end."
+        },
+        {
+          "field": "outfit",
+          "content": "A fully lined forest-green sports bikini has a secure halter top and high-cut briefs, red zigzag waistband and yellow binding; its open back leaves the shoulders free.",
+          "reason": "The swimwear example leaves its construction open; specify a secure lined green bikini with high-cut legs and an open back."
+        }
+      ],
+      "random_record": {
+        "selected_by": "tools/casual-plan.cjs",
+        "manual_selection_changes": false,
+        "replans_record": "planner-replans.json"
+      },
+      "submitted_prompt": "CHARACTER: the same woman as the attached image — Kecleon (켈리몬) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: direct challenging gaze under lowered lids, one brow raised, mouth corner tugged in a slight smirk\nPose: Stretch the arms and upper back gently in a comfortable everyday motion.\nOrientation: gaze directed downward; camera height unchanged\nScene: Preparing for another lap beside the starting end of a resort pool; soft ripples reach the illuminated tile edge.\nOutfit and props: A fully lined forest-green sports bikini has a secure halter top and high-cut briefs, red zigzag waistband and yellow binding; its open back leaves the shoulders free.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: in swimwear at an outdoor pool at night, lit by underwater lamps and moonlight\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra."
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "stage_rigging",
+      "garments": [
+        "apron",
+        "skirt"
+      ],
+      "orient": "reaching_up",
+      "frame": "full_body",
+      "pose": "on_tiptoe",
+      "expr": "curious",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "example_text": "Pokémon Contest stage assistant placing rehearsal markers and checking decorative props beside a performance platform.",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reason": "Reaching to check a prop is active; only a green pocket tab carries the source cue; apron, top and skirt are separate work garments.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Beside a rehearsal platform edged with colored floor markers, she checks a hanging decorative ribbon against the adjacent stage prop.",
+          "reason": "The contest assistant example leaves the exact prop and platform design open; add checking a hanging decorative ribbon against floor rehearsal markers."
+        },
+        {
+          "field": "outfit",
+          "content": "A short linen tool apron layers over a lavender mini work skirt and a one-shoulder cropped cotton top, exposing one shoulder and midriff; a green pocket tab is the sole source accent.",
+          "reason": "No workwear is specified by the contest assistant example; supply a short tool apron, one-shoulder cropped top and work skirt."
+        }
+      ],
+      "random_record": {
+        "selected_by": "tools/casual-plan.cjs",
+        "manual_selection_changes": false,
+        "replans_record": "planner-replans.json"
+      },
+      "submitted_prompt": "CHARACTER: the same woman as the attached image — Kecleon (켈리몬) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: one brow raised higher, head tilted, eyes wide and attentive, lips slightly parted\nPose: Rise slightly onto the toes to reach a higher object without changing limb proportions.\nOrientation: reach upward with natural shoulder articulation\nScene: Beside a rehearsal platform edged with colored floor markers, she checks a hanging decorative ribbon against the adjacent stage prop.\nOutfit and props: A short linen tool apron layers over a lavender mini work skirt and a one-shoulder cropped cotton top, exposing one shoulder and midriff; a green pocket tab is the sole source accent.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Pokémon Contest stage assistant placing rehearsal markers and checking decorative props beside a performance platform.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra."
+    }
+  ],
+  "check": "PASS tools/casual-ledger.py check PLAN.json --fresh",
+  "image_tool": "built-in image_gen",
+  "anchor": {
+    "slot": "light",
+    "card": "켈리몬",
+    "style": "glossy_promo",
+    "basis": "Actual Preact editor output, not inferred styling",
+    "source_original": "records/kecleon-20261023/originals/light.png",
+    "original_sha256": "f8ab8f2309318131392e9bc1607752b6763c68b0a6ca04711e7fe7779c9524a3",
+    "source_local": "/workspace/scratch/d22fbe80df23/work/kecleon/light.png",
+    "output": "img/켈리몬_light_glossy_promo_f.webp",
+    "sha256": "ce313e3bb5a4d3581e25b5282d4400d606a5fd145e3a6ead61f9dc3f2144f9a4",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "references": []
+  }
+}

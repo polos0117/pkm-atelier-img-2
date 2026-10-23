@@ -1,0 +1,11 @@
+{
+  "reason": "Examples with preset clothing conflicted with planner garment categories; all changes used --avoid rather than manual selection edits.",
+  "exclusions": [
+    "Castform midnight_laundromat and simple_cooking: selected dress conflicts with explicit hoodie/shorts or tee/jeans",
+    "Castform one_shoulder_lounge and home_workout: robe conflicts with preset lounge top/pants or sports bra/leggings",
+    "Kecleon burkini_modest and abaya_modern: required exposure contradicts modest garment construction",
+    "Kecleon bookstore: planned shirt versus example knit sweater",
+    "Kecleon fencing_motion: handheld weapon; cycling_kit: planned leggings versus cycling shorts"
+  ],
+  "tool_rejection": "Castform lingerie/garter_set -> adult_roleplay/circus_ringmaster; a different activity, venue and constructed stage uniform."
+}
