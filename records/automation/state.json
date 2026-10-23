@@ -2189,7 +2189,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T14:27:36+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-4/359/casual2/prompt.txt",
@@ -2201,7 +2201,14 @@
               },
               "references": {
                 "light": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual2/original.png",
+                "sha256": "6c6f3997a06e90667bcc69d2cdbb84e5ea6f96a96db5b4c899c39439a36fa73c",
+                "session_only": true,
+                "webp_sha256": "a94b73973f863d431d619635dd1d0268afca9a11e9bc76d30193b7e23ec8b206"
+              },
+              "received_at": "2026-10-23T14:28:59+00:00"
             }
           },
           "reason": "casual1 visual QA: Adult identity retained; wardrobe reaching scene with opaque intimate coverage. Raised fingertips cropped at top; upper-thigh framing instead of waist-up, floral lace instead of geometric. Lower hand partly occluded, no definite extra digits. Preserve these QA failures for user post-upload review.",
@@ -2230,7 +2237,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T14:27:36+00:00"
+      "updated_at": "2026-10-23T14:28:59+00:00"
     }
   ],
   "claims": {
