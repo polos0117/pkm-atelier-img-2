@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "simipour-munna-20261023-ab2944",
- "at": "2026-10-23T19:04:13+08:00",
+ "at": "2026-10-23T19:10:47+08:00",
  "characters": [
   {
    "species": "simipour-20261023",
@@ -83,30 +83,32 @@
   {
    "species": "munna-20261023",
    "card": "몽나",
-   "at": "2026-10-23T19:04:13+08:00",
+   "at": "2026-10-23T19:10:47+08:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "swimwear",
-     "ex": "swim_coverup",
-     "expr": "laughing",
-     "pose": "small_jog",
-     "orient": "rear_3q",
-     "frame": "environmental",
-     "lens": "telephoto135",
+     "cat": "active",
+     "ex": "tennis_active",
+     "expr": "curious",
+     "pose": "mid_action",
+     "orient": "looking_away",
+     "frame": "three_quarter",
+     "lens": "portrait85",
      "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "strong",
-      "separates_preference": "balanced"
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "swimsuit"
+      "skirt"
      ],
      "expose": [
-      "side cutouts",
-      "halter neck"
+      "one-shoulder cut",
+      "mini length"
      ],
-     "kept": true
+     "lead": "light"
     },
     {
      "cut": 2,
@@ -142,8 +144,6 @@
      "frame": "chest_up",
      "lens": "portrait85",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "balanced"
@@ -155,7 +155,7 @@
       "one-shoulder cut",
       "mini length"
      ],
-     "lead": "action"
+     "kept": true
     }
    ],
    "refill": true
