@@ -1409,7 +1409,7 @@
               }
             },
             "mobility": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T12:07:23+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-3/356/mobility/prompt.txt",
@@ -1428,7 +1428,11 @@
                 "session_only": true,
                 "webp_sha256": "0b2b7b3b7d976732de74f40162ed1f48da7763771a0c4e897c7564ef57611ac0"
               },
-              "received_at": "2026-10-23T12:08:30+00:00"
+              "received_at": "2026-10-23T12:08:30+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-3/356/mobility/qa.json",
+                "sha256": "19e23bd887fa9d49b9f2bfa8ca1ff8b0aaf7fc4b31533b011a66211c1eefbefa"
+              }
             }
           },
           "reason": "light visual QA: Single adult woman; head and feet contained, five fingers on open left glove, opposite curled fingers partly occluded, gray double buns and covered one eye retained. Narrow pointed chin and slim brows do not fully match planned broad heavy chin and thick brows. Accepted only for user post-upload review.",
@@ -1443,7 +1447,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T12:08:30+00:00"
+      "updated_at": "2026-10-23T12:08:38+00:00"
     }
   ],
   "claims": {
@@ -1687,9 +1691,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
