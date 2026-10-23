@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "snorunt-glalie-20261024-fc069",
- "at": "2026-10-24T00:52:43+08:00",
+ "at": "2026-10-24T00:56:11+08:00",
  "characters": [
   {
    "species": "snorunt-20261024",
    "card": "눈꼬마",
-   "at": "2026-10-24T00:52:43+08:00",
+   "at": "2026-10-24T00:56:11+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,42 +31,44 @@
       "open back",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "lingerie",
-     "ex": "back_strap",
-     "expr": "mischievous",
-     "pose": "standing_relaxed",
+     "cat": "adult_roleplay",
+     "ex": "adult_teacher",
+     "expr": "half_smile",
+     "pose": "reading_book",
      "orient": "front",
      "frame": "chest_up",
-     "lens": "portrait85",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set"
+      "jacket",
+      "skirt"
      ],
      "expose": [
-      "high-cut leg",
-      "plunging neckline"
+      "open back",
+      "strapless top"
      ],
-     "lead": "action"
+     "lead": "detail"
     },
     {
      "cut": 3,
      "cat": "homewear",
-     "ex": "offshoulder_knit",
+     "ex": "one_shoulder_lounge",
      "expr": "candid",
-     "pose": "standing_formal",
+     "pose": "sitting",
      "orient": "rear_3q",
      "frame": "environmental",
-     "lens": "natural50",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -75,31 +77,30 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "knit_top",
-      "shorts"
+      "trousers"
      ],
      "expose": [
       "side cutouts",
-      "strapless top"
+      "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "light"
     }
    ]
   },
   {
    "species": "glalie-20261024",
    "card": "얼음귀신",
-   "at": "2026-10-24T00:52:43+08:00",
+   "at": "2026-10-24T00:56:11+08:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "swimwear",
      "ex": "rooftop_infinity_pool",
-     "expr": "pensive",
-     "pose": "sitting",
+     "expr": "mischievous",
+     "pose": "standing_formal",
      "orient": "front_3q",
      "frame": "waist_up",
-     "lens": "wide24",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -112,23 +113,23 @@
      ],
      "expose": [
       "high-cut leg",
-      "open back"
+      "plunging neckline"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 2,
      "cat": "wildcard",
      "ex": "futuristic_spa",
-     "expr": "half_smile",
-     "pose": "bending_over",
+     "expr": "mildly_annoyed",
+     "pose": "dance_step",
      "orient": "high_angle",
      "frame": "full_body",
      "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly active",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
@@ -136,16 +137,16 @@
       "robe"
      ],
      "expose": [
-      "plunging neckline",
-      "off-shoulder neckline"
+      "off-shoulder neckline",
+      "halter neck"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 3,
      "cat": "festivals_contests",
      "ex": "fest_fireworks",
-     "expr": "wistful",
+     "expr": "pensive",
      "pose": "holding_cup",
      "orient": "low_angle",
      "frame": "three_quarter",
@@ -161,10 +162,10 @@
       "overalls"
      ],
      "expose": [
-      "halter neck",
+      "side cutouts",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "detail"
     }
    ]
   }
