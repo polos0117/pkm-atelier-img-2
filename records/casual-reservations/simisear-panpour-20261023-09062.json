@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "simisear-panpour-20261023-09062",
- "at": "2026-10-23T17:20:17+08:00",
+ "at": "2026-10-23T17:28:31+08:00",
  "characters": [
   {
    "species": "simisear-20261023",
    "card": "바오키",
-   "at": "2026-10-23T17:20:17+08:00",
+   "at": "2026-10-23T17:28:31+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,7 +31,8 @@
       "high-cut leg",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -58,7 +59,8 @@
       "mini length",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -83,14 +85,15 @@
       "high thigh slit",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ]
   },
   {
    "species": "panpour-20261023",
    "card": "앗차프",
-   "at": "2026-10-23T17:20:17+08:00",
+   "at": "2026-10-23T17:28:31+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -116,7 +119,8 @@
       "cropped hem",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -141,17 +145,18 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "swimwear",
-     "ex": "burkini_modest",
+     "ex": "poolside_bar",
      "expr": "flustered",
      "pose": "kneeling",
      "orient": "crouching",
      "frame": "full_body",
-     "lens": "portrait85",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -160,13 +165,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "bikini"
      ],
      "expose": [
       "high-cut leg",
-      "strapless top"
+      "plunging neckline"
      ],
-     "lead": "light"
+     "lead": "detail"
     }
    ]
   }
