@@ -7,7 +7,13 @@
     "image_operations_require_card": true,
     "utc_daily_max": 12,
     "execution_max": 1,
-    "cadence_hours": 2
+    "cadence_hours": 2,
+    "visual_quality_review": "user_post_upload_review_preserve_actual_failed_qa_no_auto_regeneration",
+    "visual_quality_authorization": {
+      "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+      "user_approval": "내가 끝나고 업로드 되면 알아서 확인할테니까 중간에 묻지말고 그냥 진행해.",
+      "scope": "visual QA only; safety, technical failures, missing originals, reservations, quotas still block"
+    }
   },
   "daily": {
     "2026-10-22": [
@@ -975,6 +981,10 @@
               },
               "references": {
                 "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+              },
+              "tool_failure": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual2/tool-failure.json",
+                "sha256": "3e65d28e3b2210927426da56d51eb9fcda97096f83e6122dcec1daeab8174654"
               }
             }
           },
