@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "shuppet-banette-dea43",
- "at": "2026-10-22T18:12:57-07:00",
+ "at": "2026-10-22T18:19:30-07:00",
  "characters": [
   {
    "species": "shuppet-20261023",
    "card": "어둠대신",
-   "at": "2026-10-22T18:12:57-07:00",
+   "at": "2026-10-22T18:19:30-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,7 +31,8 @@
       "open back",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -56,32 +57,33 @@
       "off-shoulder neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "lingerie",
-     "ex": "garter_set",
-     "expr": "wistful",
-     "pose": "standing_formal",
+     "cat": "swimwear",
+     "ex": "triangle_bikini",
+     "expr": "cold_smile",
+     "pose": "leaning_wall",
      "orient": "leaning_back",
      "frame": "full_body",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "bikini"
      ],
      "expose": [
-      "plunging neckline",
+      "strapless top",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "place"
     }
    ]
   },
