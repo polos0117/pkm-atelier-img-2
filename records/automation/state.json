@@ -1981,14 +1981,14 @@
       "id": "2026-10-23-4",
       "execution_id": "pkm-daily-2026-10-23T14-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "complete",
       "created_at": "2026-10-23T14:07:12+00:00",
       "queue": [
         {
           "no": 359,
           "name": "앱솔",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "complete",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2306,10 +2306,74 @@
               "img/앱솔_glossy_promo_f_casual2.webp": "a94b73973f863d431d619635dd1d0268afca9a11e9bc76d30193b7e23ec8b206",
               "img/앱솔_glossy_promo_f_casual3.webp": "67200990bea8695afc47a331c7e8a34c92edf6169cddb84f961610994bf05f10"
             }
-          }
+          },
+          "own_publication": {
+            "files": [
+              "앱솔_glossy_promo_f_casual1.webp",
+              "앱솔_glossy_promo_f_casual2.webp",
+              "앱솔_glossy_promo_f_casual3.webp",
+              "앱솔_heavy_glossy_promo_f.webp",
+              "앱솔_heavy_overdrive_glossy_promo_f.webp",
+              "앱솔_light_glossy_promo_f.webp",
+              "앱솔_light_overdrive_glossy_promo_f.webp",
+              "앱솔_mobility_glossy_promo_f.webp",
+              "앱솔_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
+          },
+          "outputs": {
+            "light": {
+              "file": "앱솔_light_glossy_promo_f.webp",
+              "sha256": "6facc5782f3810176267ad5eb5db873373b7d20e19ec6ce965bc25568e2ac90e",
+              "shard": 2
+            },
+            "heavy": {
+              "file": "앱솔_heavy_glossy_promo_f.webp",
+              "sha256": "2824ae0f984722ca4642fc7a4a3be58f6ebfa41c64ccc3df20a4ede24f4cc752",
+              "shard": 2
+            },
+            "mobility": {
+              "file": "앱솔_mobility_glossy_promo_f.webp",
+              "sha256": "614034287914a0c82f5dfed5cef2d1d22e6a0ad696d733f0efccf3c61f7b8f42",
+              "shard": 2
+            },
+            "light_overdrive": {
+              "file": "앱솔_light_overdrive_glossy_promo_f.webp",
+              "sha256": "0267c52e3d0226aefd70646cb9a33f919c79fd8d19f0396a2e31b92e3a7e4f25",
+              "shard": 2
+            },
+            "heavy_overdrive": {
+              "file": "앱솔_heavy_overdrive_glossy_promo_f.webp",
+              "sha256": "8ffedad28186ea8b4c29f32816399dfa5a6d5ebcf4f6120f3d0ea2b342a6de31",
+              "shard": 2
+            },
+            "mobility_overdrive": {
+              "file": "앱솔_mobility_overdrive_glossy_promo_f.webp",
+              "sha256": "d3fffd97caa93381920df94b22d23337a897d791830679353e505ff7739cadcb",
+              "shard": 2
+            },
+            "casual1": {
+              "file": "앱솔_glossy_promo_f_casual1.webp",
+              "sha256": "82f48b298056e4a0f237c2bb3da123259bd0456b3dcc37fd3a63bb1adc39e258",
+              "shard": 2
+            },
+            "casual2": {
+              "file": "앱솔_glossy_promo_f_casual2.webp",
+              "sha256": "a94b73973f863d431d619635dd1d0268afca9a11e9bc76d30193b7e23ec8b206",
+              "shard": 2
+            },
+            "casual3": {
+              "file": "앱솔_glossy_promo_f_casual3.webp",
+              "sha256": "67200990bea8695afc47a331c7e8a34c92edf6169cddb84f961610994bf05f10",
+              "shard": 2
+            }
+          },
+          "image_commit": "aad27018c8a73865a6caddeeeafb6acad1580895",
+          "registration_commit": "0d0b588165d89df74013330991805af1a67f99c8",
+          "completed_at": "2026-10-23T14:38:19+00:00"
         }
       ],
-      "updated_at": "2026-10-23T14:32:06+00:00"
+      "updated_at": "2026-10-23T14:38:19+00:00"
     }
   ],
   "claims": {
@@ -2490,7 +2554,7 @@
     "359": {
       "owner": "pkm-daily",
       "run": "2026-10-23-4",
-      "status": "held",
+      "status": "complete",
       "at": "2026-10-23T14:07:12+00:00"
     }
   },
@@ -2737,16 +2801,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
