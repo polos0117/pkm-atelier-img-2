@@ -1,0 +1,390 @@
+{
+  "original_plan": {
+    "session": "gpt-glameow-purugly-20261023-131c",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "나옹마",
+        "species": "glameow-20261023",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "homewear",
+            "ex": "home_workout",
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "hand_on_hip",
+            "expr": "sleepy",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "simple_cooking",
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "orient": "front",
+            "frame": "waist_up",
+            "pose": "preparing_food",
+            "expr": "amused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "garter_set",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "one_knee_up",
+            "expr": "pensive",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "homewear"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "crop_top",
+            "leggings",
+            "trousers",
+            "lingerie_set"
+          ],
+          "orient": [
+            "profile_close",
+            "front",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "몬냥이",
+        "species": "purugly-20261023",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "cabana_daybed",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "chest_up",
+            "pose": "reading_book",
+            "expr": "cold_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "window_rain",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "looking_away",
+            "frame": "environmental",
+            "pose": "holding_cup",
+            "expr": "candid",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "partner_care",
+            "ex": "care_walk",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "turning_back",
+            "expr": "half_smile",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit",
+            "overalls"
+          ],
+          "orient": [
+            "three_quarter_back",
+            "looking_away",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ],
+    "casual_plan": [
+      {
+        "cut": 1,
+        "cat": "swimwear",
+        "ex": "cabana_daybed",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "three_quarter_back",
+        "frame": "chest_up",
+        "pose": "reading_book",
+        "expr": "cold_smile",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "side cutouts",
+          "plunging neckline"
+        ],
+        "lead": "action",
+        "scene": "Reading a page of her novel, she relaxes under striped canvas in the afternoon; a cold fruit drink rests on the daybed table.",
+        "outfit": "A charcoal-and-ivory one-piece swimsuit has a plunging neckline and small side cutouts with restrained lavender edging; a lightweight ivory cover-up is worn open.",
+        "example_text": "seated at a resort cabana daybed in swimwear with an open cover-up, a book and a cold drink beside her",
+        "direct_input_reasons": {
+          "scene": "Adds the concrete activity, light and props for cabana_daybed",
+          "outfit": "Specifies the planned swimsuit construction using side cutouts and plunging neckline",
+          "camera": "Tool has no size parameter; supplies required vertical 2:3 dimensions."
+        },
+        "axes_reasons": {
+          "action_level": "Reading a page of her novel, she relaxes under striped canvas in the afternoon; a cold fruit drink rests on the daybed table.",
+          "source_influence": "Palette and motif amount shown by A charcoal-and-ivory one-piece swimsuit has a plunging neckline and small side cutouts with restrained lavender edging; a lightweight ivory cover-up is worn open.",
+          "separates_preference": "swimsuit garment construction"
+        },
+        "locks_verified": true,
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "Image 1 is the approved identity reference. Image 2 is the edit target. In image 2, erase the small printed paragraphs from both visible book pages, leaving clean warm ivory paper; keep the decorative gold cover ornament. Preserve the target image camera, clothing, pose, face and hands exactly.",
+        "actual_prompt_file": "casual1-prompt.txt",
+        "correction": "Image 1 is the approved identity reference. Image 2 is the edit target. In image 2, erase the small printed paragraphs from both visible book pages, leaving clean warm ivory paper; keep the decorative gold cover ornament. Preserve the target image camera, clothing, pose, face and hands exactly."
+      },
+      {
+        "cut": 2,
+        "cat": "everyday_sensual",
+        "ex": "window_rain",
+        "garments": [
+          "overalls"
+        ],
+        "orient": "looking_away",
+        "frame": "environmental",
+        "pose": "holding_cup",
+        "expr": "candid",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "open back",
+          "off-shoulder neckline"
+        ],
+        "lead": "light",
+        "scene": "Soft rainy-afternoon light washes across the armchair and a misted window; her hands cradle a warm ceramic mug as she watches water trail down the glass.",
+        "outfit": "Charcoal wide-leg linen overalls have a low open back and are worn over an ivory off-shoulder crop top, leaving shoulders and upper back exposed.",
+        "example_text": "watching rain run down the window from an armchair, mug in hand",
+        "direct_input_reasons": {
+          "scene": "Adds the concrete activity, light and props for window_rain",
+          "outfit": "Specifies the planned overalls construction using open back and off-shoulder neckline",
+          "camera": "Tool has no size parameter; supplies required vertical 2:3 dimensions."
+        },
+        "axes_reasons": {
+          "action_level": "Soft rainy-afternoon light washes across the armchair and a misted window; her hands cradle a warm ceramic mug as she watches water trail down the glass.",
+          "source_influence": "Palette and motif amount shown by Charcoal wide-leg linen overalls have a low open back and are worn over an ivory off-shoulder crop top, leaving shoulders and upper back exposed.",
+          "separates_preference": "overalls garment construction"
+        },
+        "locks_verified": true,
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "actual_prompt_file": "casual2-prompt.txt"
+      },
+      {
+        "cut": 3,
+        "cat": "partner_care",
+        "ex": "care_walk",
+        "garments": [
+          "overalls"
+        ],
+        "orient": "turning_midmotion",
+        "frame": "waist_up",
+        "pose": "turning_back",
+        "expr": "half_smile",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "strapless top",
+          "one-shoulder cut"
+        ],
+        "lead": "place",
+        "scene": "A sunlit park path curves past flowering shrubs; one small Butterfree flutters beside her while she carries a little berry-treat pouch.",
+        "outfit": "A lavender short overall playsuit has a single diagonal bib strap and an asymmetric one-shoulder cut, worn over a gray strapless tube top that leaves the shoulders bare; the short hem exposes her legs.",
+        "example_text": "Walking along a park path beside a curious Pokémon companion, carrying a small treat pouch.",
+        "direct_input_reasons": {
+          "scene": "Adds the concrete activity, light and props for care_walk",
+          "outfit": "Specifies the planned overalls construction using strapless top and one-shoulder cut",
+          "camera": "Tool has no size parameter; supplies required vertical 2:3 dimensions."
+        },
+        "axes_reasons": {
+          "action_level": "A sunlit park path curves past flowering shrubs; one small Butterfree flutters beside her while she carries a little berry-treat pouch.",
+          "source_influence": "Palette and motif amount shown by A lavender short overall playsuit has a single diagonal bib strap and an asymmetric one-shoulder cut, worn over a gray strapless tube top that leaves the shoulders bare; the short hem exposes her legs.",
+          "separates_preference": "overalls garment construction"
+        },
+        "locks_verified": true,
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "Image 1 is the approved identity reference. Image 2 is the edit target. In image 2, remove the middle of the three black-tipped antennae on Butterfree, leaving exactly two antennae. Preserve the woman, both hands, pouch, butterfly wings, camera and all other image details exactly.",
+        "actual_prompt_file": "casual3-prompt.txt",
+        "correction": "Image 1 is the approved identity reference. Image 2 is the edit target. In image 2, remove the middle of the three black-tipped antennae on Butterfree, leaving exactly two antennae. Preserve the woman, both hands, pouch, butterfly wings, camera and all other image details exactly."
+      }
+    ],
+    "reservation_commit": "1d7d86a04928c8ce0a4e35f2a3101efdce0008ed",
+    "check": "passed with --fresh",
+    "replanned_before_generation": {
+      "reason": "Planner omitted EXAMPLE_DETAIL fallback; local lookup corrected and tested, then batch replanned. Avoided modest burkini versus cutout/plunging wardrobe and unsuitable dance pose.",
+      "no_generated_outputs_discarded": true
+    }
+  },
+  "reason": "User requested new compositions for casual1 and casual3 because of malformed hand and disconnected arms. Keep casual2. Same planner settings, new object placement and arm staging; regenerate from light, never from defective casual images.",
+  "changed_controls": [
+    "scene",
+    "custom"
+  ],
+  "menu_choices_changed": false
+}
