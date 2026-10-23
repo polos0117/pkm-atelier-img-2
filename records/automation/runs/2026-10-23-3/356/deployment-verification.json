@@ -1,0 +1,34 @@
+{
+  "card": 356,
+  "execution_id": "pkm-daily-2026-10-23T12-00-00Z",
+  "at": "2026-10-23T12:26:50+00:00",
+  "actions": {
+    "thumbnails": {
+      "id": 39952848508,
+      "conclusion": "success"
+    },
+    "image_pages": {
+      "id": 39952897780,
+      "conclusion": "success"
+    },
+    "registration": {
+      "id": 39952898368,
+      "conclusion": "success"
+    },
+    "code_pages": {
+      "id": 39953208395,
+      "conclusion": "success"
+    }
+  },
+  "logs_checked": {
+    "thumbnail_job": 120411320951,
+    "registration_job": 120411491799,
+    "registration_errors": 0,
+    "warnings": "Existing repository size-format warnings and actions Node20 deprecation; current eight outputs validated 1024x1536 and thumbs512."
+  },
+  "validation": "Eight image-runner test files passed; patch test and diff check passed. Eight remote WebP hashes, thumbnail dimensions, registry slots and where=2 checked. No raw PNG/JPG added.",
+  "public_http_bytes": "Not verified: prior environment proxy 403; Git remote bytes and Actions deployment verified.",
+  "missing": {
+    "casual3": "moderation_blocked, output stage sexual, request 62caa127-628c-4bda-b7cc-38119d28afaf, no output, no retry"
+  }
+}
