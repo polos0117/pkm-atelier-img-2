@@ -1,0 +1,188 @@
+{
+  "storage": {
+    "last": "앱솔",
+    "cards": {
+      "앱솔": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "proud",
+            "pose": "carrying_something",
+            "orient": "front",
+            "scene": "A sunny terraced berry garden with a low stone wall and small trees, where ripe fruit drops into a shallow woven basket beneath her picking hand.",
+            "outfit": "A cropped cotton top, a short waist apron and mini-length gardening shorts in pale oatmeal and navy, with flat practical shoes.",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "food_berries",
+            "catCustom": "",
+            "ex": "food_harvest",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Absol (앱솔) personified, dark type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: chin lifted, brows level, eyes bright and steady, closed-lip smile with a firm mouth\nPose: Carry the scene's bag, basket or box with believable hand contact and weight.\nOrientation: torso and pelvis face the camera; gaze is independent\nScene: A sunny terraced berry garden with a low stone wall and small trees, where ripe fruit drops into a shallow woven basket beneath her picking hand.\nOutfit and props: A cropped cotton top, a short waist apron and mini-length gardening shorts in pale oatmeal and navy, with flat practical shoes.\nCategory: Show a specific everyday cooking, berry-growing or picnic activity in the Pokémon world. Use readable hands, utensils and ingredients; favor ordinary personal life over professional workwear.\nExample scene: Picking ripe berries from a small tree and placing them in a woven basket in a sunny garden.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "locks": [
+    {
+      "id": "lock-expression",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-category",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-example",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-pose",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-orientation",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-frame",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-lens",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-aspect",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-overall_intensity",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-skin_exposure",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-action_level",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-source_influence",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-separates_preference",
+      "pressed": "true"
+    }
+  ],
+  "plan": {
+    "cut": 2,
+    "cat": "food_berries",
+    "ex": "food_harvest",
+    "garments": [
+      "apron",
+      "shorts"
+    ],
+    "orient": "front",
+    "frame": "three_quarter",
+    "pose": "carrying_something",
+    "expr": "proud",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "mini length",
+      "cropped hem"
+    ],
+    "lead": "place"
+  },
+  "custom_inputs": {
+    "scene": "A sunny terraced berry garden with a low stone wall and small trees, where ripe fruit drops into a shallow woven basket beneath her picking hand.",
+    "outfit": "A cropped cotton top, a short waist apron and mini-length gardening shorts in pale oatmeal and navy, with flat practical shoes.",
+    "reason": "The berry example lacks clothing and garden detail; reserved apron/shorts with mini length and cropped hem define the gardening outfit.",
+    "axes_reason": "Picking into a supported basket is balanced movement; only pale/navy colors subtly echo source; apron and shorts are separates."
+  },
+  "camera_reason": "Tool has no size argument.",
+  "captured_at": "2026-10-23T14:27:17.783Z"
+}
