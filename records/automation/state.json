@@ -781,11 +781,26 @@
                 "path": "records/automation/runs/2026-10-23-2/355/light/qa.json",
                 "sha256": "13df7988ddd678e4a6e4bed0b9d85bbcf8ee73bedbb4b237c828cc7d01dc7108"
               }
+            },
+            "heavy": {
+              "status": "in_flight",
+              "at": "2026-10-23T10:00:50+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-2/355/heavy/prompt.txt",
+                "sha256": "48b94ad55cbfd7f111d98cf2721a16889a544f07fcd4ef4e5aecc328ee515bfe"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-2/355/heavy/ui.json",
+                "sha256": "40e7be8c0d5fa0ad7b82dc2869b9482418f0ef26f2d0c4a89eb19d79e95c7d78"
+              },
+              "references": {
+                "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+              }
             }
           }
         }
       ],
-      "updated_at": "2026-10-23T10:00:36+00:00"
+      "updated_at": "2026-10-23T10:00:50+00:00"
     }
   ],
   "claims": {
