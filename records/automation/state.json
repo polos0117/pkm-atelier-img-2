@@ -1988,11 +1988,25 @@
           "no": 359,
           "name": "앱솔",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-23T14:08:14+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-4/359/light/prompt.txt",
+                "sha256": "6f300c79ea51a22f63cbfe16293738ece7f403205701fb29784ad9dae44420f7"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-4/359/light/ui.json",
+                "sha256": "85386498f463e8f0b3095133484ca007aaea7164ca47af77ba4b6a652cef2c3f"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-23T14:07:38+00:00"
+      "updated_at": "2026-10-23T14:08:14+00:00"
     }
   ],
   "claims": {
@@ -2420,16 +2434,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -2542,6 +2556,13 @@
       "session": "skuntank-bronzor-2870ae-20261023",
       "file": "records/casual-reservations/skuntank-bronzor-2870ae-20261023.json",
       "at": "2026-10-23T21:44:12+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "356": {
+      "card": "미라몽",
+      "session": "dusclops-casual3-refill-20261023",
+      "file": "records/casual-reservations/dusclops-casual3-refill-20261023.json",
+      "at": "2026-10-23T12:49:34+00:00",
       "status": "external_reservation_do_not_take_over"
     }
   },
