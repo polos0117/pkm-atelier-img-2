@@ -749,14 +749,14 @@
       "id": "2026-10-23-2",
       "execution_id": "pkm-daily-2026-10-23T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T09:57:45+00:00",
       "queue": [
         {
           "no": 355,
           "name": "해골몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -931,7 +931,7 @@
               }
             },
             "casual1": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T10:31:44+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/casual1/prompt.txt",
@@ -950,7 +950,17 @@
                 "session_only": true,
                 "webp_sha256": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67"
               },
-              "received_at": "2026-10-23T10:33:08+00:00"
+              "received_at": "2026-10-23T10:33:08+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual1/qa-rejected.json",
+                "sha256": "9f7aba713553d038f482a937198e79776dfbfb4f2b24dc812ae8e235951b565f"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual1/user-exception.json",
+                "sha256": "7a5cee08527adacab350a64462c16e31f2ffc2fcc6d5a8ef010f5cbb75c65541"
+              }
             }
           },
           "reason": "casual1 visual QA: Face/chignon/side bangs retained; one adult, full body, camera held by both hands; opaque open-back cropped vest and trousers replace armor. Laboratory desk, sorted photos and cases visible. Camera points outward rather than down at sorted photographs, and expression softer than serious; violet bone scarf is extra source ornament. These visual deviations are accepted for post-upload review, not QA pass. Other two casual results not yet available for final side-by-side diversity review.",
@@ -974,6 +984,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/user-exception.json",
                 "sha256": "3457671f5ddc6b309ef1c191179394b3c336d236bf67d6eb5da36448045c755e"
+              }
+            },
+            {
+              "reason": "casual1 visual QA: Face/chignon/side bangs retained; one adult, full body, camera held by both hands; opaque open-back cropped vest and trousers replace armor. Laboratory desk, sorted photos and cases visible. Camera points outward rather than down at sorted photographs, and expression softer than serious; violet bone scarf is extra source ornament. These visual deviations are accepted for post-upload review, not QA pass. Other two casual results not yet available for final side-by-side diversity review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual1/user-exception.json",
+                "sha256": "7a5cee08527adacab350a64462c16e31f2ffc2fcc6d5a8ef010f5cbb75c65541"
               }
             }
           ]
