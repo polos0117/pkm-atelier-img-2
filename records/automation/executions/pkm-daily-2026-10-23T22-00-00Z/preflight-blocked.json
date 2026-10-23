@@ -1,0 +1,68 @@
+{
+  "execution_id": "pkm-daily-2026-10-23T22-00-00Z",
+  "at": "2026-10-23T21:58:01+00:00",
+  "status": "blocked_preflight",
+  "character": null,
+  "generated_count": 0,
+  "published_image_count": 0,
+  "reason": "Required anatomy model assets remain absent; no evidence that prior explicit proxy 403 was resolved",
+  "checked_rule_commit": "788a541b1b167feb5d591881f170f9686934a614",
+  "prior_failure_record": "records/automation/executions/pkm-daily-2026-10-23T18-00-00Z/preflight-blocked.json",
+  "prior_error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "download_attempted_this_execution": false,
+  "model_directory": "/tmp/pkm-anatomy-models",
+  "PKM_ANATOMY_MODELS": "unset",
+  "missing_models": {
+    "pose_landmarker_heavy.task": "64437af838a65d18e5ba7a0d39b465540069bc8aae8308de3e318aad31fcbc7b",
+    "hand_landmarker.task": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1"
+  },
+  "checks": [
+    "Latest remote AGENTS, IMAGE_RULES, IMAGE_AUTOMATION, runner and anatomy-check unchanged since 788a541",
+    "Latest state policy 1 character per execution, 12 UTC and KST verified; policy commits are ancestors",
+    "Configured model paths missing; no matching assets found in accessible /workspace and /tmp",
+    "Existing completed/deferred runs preserved; no prepare, next, claim, intent or generation created"
+  ],
+  "required_resolution": "Administrator-authorized official model access or properly provisioned exact-hash official assets, followed by successful required runtime anatomy QA. No proxy bypass or alternative download attempted.",
+  "state_parent": "a3c1a7b005878617a480646d7c2145d10d92f5e3",
+  "policy": {
+    "daily_max": 12,
+    "timezone": "Asia/Seoul",
+    "external_publication": "skip_after_preserving_in_flight_result",
+    "image_operations_require_card": true,
+    "utc_daily_max": 12,
+    "execution_max": 1,
+    "cadence_hours": 2,
+    "visual_quality_review": "user_post_upload_review_preserve_actual_failed_qa_no_auto_regeneration",
+    "visual_quality_authorization": {
+      "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+      "user_approval": "내가 끝나고 업로드 되면 알아서 확인할테니까 중간에 묻지말고 그냥 진행해.",
+      "scope": "visual QA only; safety, technical failures, missing originals, reservations, quotas still block"
+    }
+  },
+  "daily": {
+    "2026-10-22": [
+      345,
+      346
+    ],
+    "2026-10-23": [
+      355,
+      356,
+      359,
+      360
+    ]
+  },
+  "daily_kst": {
+    "2026-10-22": [
+      345,
+      346
+    ],
+    "2026-10-23": [
+      355,
+      356,
+      359
+    ],
+    "2026-10-24": [
+      360
+    ]
+  }
+}
