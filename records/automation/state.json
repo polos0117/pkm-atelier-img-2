@@ -961,6 +961,21 @@
                 "path": "records/automation/runs/2026-10-23-2/355/casual1/user-exception.json",
                 "sha256": "7a5cee08527adacab350a64462c16e31f2ffc2fcc6d5a8ef010f5cbb75c65541"
               }
+            },
+            "casual2": {
+              "status": "in_flight",
+              "at": "2026-10-23T10:33:47+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual2/prompt.txt",
+                "sha256": "b1724a4cb22bc6a8bfe21b1020158b581f235176dd1124e5f8940b86b0d777f2"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual2/ui.json",
+                "sha256": "4066d8a69acb0b4c4e10b7d7880b68f365a8545f42c9709ce4734aaf2eb3a5d6"
+              },
+              "references": {
+                "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+              }
             }
           },
           "reason": "casual1 visual QA: Face/chignon/side bangs retained; one adult, full body, camera held by both hands; opaque open-back cropped vest and trousers replace armor. Laboratory desk, sorted photos and cases visible. Camera points outward rather than down at sorted photographs, and expression softer than serious; violet bone scarf is extra source ornament. These visual deviations are accepted for post-upload review, not QA pass. Other two casual results not yet available for final side-by-side diversity review.",
@@ -996,7 +1011,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:33:16+00:00"
+      "updated_at": "2026-10-23T10:33:47+00:00"
     }
   ],
   "claims": {
@@ -1262,16 +1277,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
