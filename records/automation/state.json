@@ -22,7 +22,8 @@
     ],
     "2026-10-23": [
       355,
-      356
+      356,
+      359
     ]
   },
   "runs": [
@@ -1975,6 +1976,23 @@
         }
       ],
       "updated_at": "2026-10-23T12:21:01+00:00"
+    },
+    {
+      "id": "2026-10-23-4",
+      "execution_id": "pkm-daily-2026-10-23T14-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-23T14:07:12+00:00",
+      "queue": [
+        {
+          "no": 359,
+          "name": "앱솔",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-23T14:07:12+00:00"
     }
   ],
   "claims": {
@@ -2151,6 +2169,12 @@
           "미라몽_mobility_overdrive_glossy_promo_f.webp"
         ]
       }
+    },
+    "359": {
+      "owner": "pkm-daily",
+      "run": "2026-10-23-4",
+      "status": "held",
+      "at": "2026-10-23T14:07:12+00:00"
     }
   },
   "blocked_candidates": {
@@ -2491,6 +2515,34 @@
       "file": "records/casual-reservations/simipour-munna-20261023-ab2944.json",
       "at": "2026-10-23T19:10:47+08:00",
       "status": "external_reservation_do_not_take_over"
+    },
+    "357": {
+      "card": "트로피우스",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "358": {
+      "card": "치렁",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "435": {
+      "card": "스컹탱크",
+      "session": "skuntank-bronzor-2870ae-20261023",
+      "file": "records/casual-reservations/skuntank-bronzor-2870ae-20261023.json",
+      "at": "2026-10-23T21:23:00+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "436": {
+      "card": "동미러",
+      "session": "skuntank-bronzor-2870ae-20261023",
+      "file": "records/casual-reservations/skuntank-bronzor-2870ae-20261023.json",
+      "at": "2026-10-23T21:44:12+08:00",
+      "status": "external_reservation_do_not_take_over"
     }
   },
   "daily_kst": {
@@ -2500,7 +2552,8 @@
     ],
     "2026-10-23": [
       355,
-      356
+      356,
+      359
     ]
   },
   "executions": {
@@ -2516,6 +2569,13 @@
       "at": "2026-10-23T11:58:59+00:00",
       "characters": [
         356
+      ]
+    },
+    "pkm-daily-2026-10-23T14-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-23T14:07:12+00:00",
+      "characters": [
+        359
       ]
     }
   }
