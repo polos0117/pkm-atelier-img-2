@@ -2380,14 +2380,14 @@
       "id": "2026-10-23-5",
       "execution_id": "pkm-daily-2026-10-23T16-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T15:58:17+00:00",
       "queue": [
         {
           "no": 360,
           "name": "마자",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2587,7 +2587,7 @@
               }
             },
             "casual2": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T16:16:59+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-5/360/casual2/prompt.txt",
@@ -2611,7 +2611,17 @@
                 "session_only": true,
                 "webp_sha256": "fdf34fd9a7b781709106cc8ec5572381dcb9236061c268224506e81f8b7c732a"
               },
-              "received_at": "2026-10-23T16:18:31+00:00"
+              "received_at": "2026-10-23T16:18:31+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-5/360/casual2/qa-rejected.json",
+                "sha256": "121137dab17e798353e66d8a0ab89bfcb8967e45f0ab03bdf4b8d2b92d409dce"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-5/360/casual2/user-exception.json",
+                "sha256": "4db01830d2203ea0b5c4035f72a1ac3d474a3542f14509652023566ae3e292cc"
+              }
             }
           },
           "reason": "casual2 visual QA: Adult canonical hair/face retained; opaque cropped field shirt and navy trousers, dive mask adjustment and shore slate readable. Full feet/head present. Hands partly hidden by hair/mask so all digits cannot be certified, no definite extra visible. Torso near three-quarter instead of strict side; multiple turquoise charms instead of one accent. Actual shoreline work and trouser silhouette differ from recent Bronzor beach swimwear and all other viewed scenes; preserve deviations for post-upload review.",
@@ -2642,6 +2652,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-5/360/mobility_overdrive/user-exception.json",
                 "sha256": "b11137c2b79132069656732b785180f4b280cdc0b39e018077183bcecbbd350c"
+              }
+            },
+            {
+              "reason": "casual2 visual QA: Adult canonical hair/face retained; opaque cropped field shirt and navy trousers, dive mask adjustment and shore slate readable. Full feet/head present. Hands partly hidden by hair/mask so all digits cannot be certified, no definite extra visible. Torso near three-quarter instead of strict side; multiple turquoise charms instead of one accent. Actual shoreline work and trouser silhouette differ from recent Bronzor beach swimwear and all other viewed scenes; preserve deviations for post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-5/360/casual2/user-exception.json",
+                "sha256": "4db01830d2203ea0b5c4035f72a1ac3d474a3542f14509652023566ae3e292cc"
               }
             }
           ],
