@@ -2380,14 +2380,14 @@
       "id": "2026-10-23-5",
       "execution_id": "pkm-daily-2026-10-23T16-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T15:58:17+00:00",
       "queue": [
         {
           "no": 360,
           "name": "마자",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2472,7 +2472,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T16:05:18+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-5/360/light_overdrive/prompt.txt",
@@ -2491,7 +2491,17 @@
                 "session_only": true,
                 "webp_sha256": "7670796c1d33661309a5060c3311dc78cfcba7956fb40f44a09129b3429de180"
               },
-              "received_at": "2026-10-23T16:06:50+00:00"
+              "received_at": "2026-10-23T16:06:50+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-5/360/light_overdrive/qa-rejected.json",
+                "sha256": "a1249cd3a69c64ded5b3155c3ea24682d0519bbf7204333653d7c070d0362e41"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-5/360/light_overdrive/user-exception.json",
+                "sha256": "e6102d2c27e4982746b1ffb765046d33c296753b909d1b8992740894320314f3"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Same camera/pose/scale and hands as light, magenta opened-frame gaps visible. Extra small fin-like pieces at shoulders/calves and pupil tint shift beyond a small glint; preserve strict before/after mismatch as failed QA accepted for post-upload review.",
@@ -2501,6 +2511,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-5/360/light/user-exception.json",
                 "sha256": "44eeb742e61923c9a8130bf65c1a2f57abbe91304994a19a2912055c68053d7f"
+              }
+            },
+            {
+              "reason": "light_overdrive visual QA: Same camera/pose/scale and hands as light, magenta opened-frame gaps visible. Extra small fin-like pieces at shoulders/calves and pupil tint shift beyond a small glint; preserve strict before/after mismatch as failed QA accepted for post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-5/360/light_overdrive/user-exception.json",
+                "sha256": "e6102d2c27e4982746b1ffb765046d33c296753b909d1b8992740894320314f3"
               }
             }
           ]
