@@ -1,21 +1,21 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "image-runner-2026-10-23-2-355",
- "at": "2026-10-23T09:58:12+00:00",
+ "at": "2026-10-23T10:30:56+00:00",
  "characters": [
   {
    "species": "duskull-20261023",
    "card": "해골몽",
-   "at": "2026-10-23T09:58:12+00:00",
+   "at": "2026-10-23T10:30:56+00:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "occupation_sensual",
-     "ex": "orbital_hotel",
+     "ex": "night_lab",
      "expr": "serious",
-     "pose": "gentle_pat",
+     "pose": "taking_photo",
      "orient": "side",
-     "frame": "waist_up",
+     "frame": "full_body",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
@@ -29,10 +29,10 @@
       "vest"
      ],
      "expose": [
-      "halter neck",
-      "strapless top"
+      "open back",
+      "cropped hem"
      ],
-     "lead": "action"
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -57,7 +57,8 @@
       "high-cut leg",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -83,7 +84,8 @@
       "cropped hem",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ]
   }
