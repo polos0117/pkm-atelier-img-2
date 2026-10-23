@@ -986,6 +986,26 @@
                 "path": "records/automation/runs/2026-10-23-2/355/casual2/tool-failure.json",
                 "sha256": "3e65d28e3b2210927426da56d51eb9fcda97096f83e6122dcec1daeab8174654"
               }
+            },
+            "casual3": {
+              "status": "in_flight",
+              "at": "2026-10-23T11:42:15+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual3/prompt.txt",
+                "sha256": "2f70f55345c557785d0311cca9ca486e06854b2d30bc5972ebe2a4768f536778"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual3/ui.json",
+                "sha256": "0af806b32b329f2bc1ae1b264831b0bc6b7c1910f850045b93c2ebd6c352f758"
+              },
+              "approval": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual3/independent-slot-approval.json",
+                "sha256": "e197425260763290b9f259abf9ab347b2802abfdd160890d1e750678018bc97c"
+              },
+              "references": {
+                "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+              },
+              "independent_slot_after_terminal_failure": true
             }
           },
           "reason": "casual2 image_gen moderation_blocked at output stage, sexual category, request ab7fea27-4333-4228-a29b-62e54b089d6c. No output file returned. Safety blocker; post-upload visual QA approval does not authorize retry.",
