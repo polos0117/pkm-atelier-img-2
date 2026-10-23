@@ -1981,14 +1981,14 @@
       "id": "2026-10-23-4",
       "execution_id": "pkm-daily-2026-10-23T14-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T14:07:12+00:00",
       "queue": [
         {
           "no": 359,
           "name": "앱솔",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2189,7 +2189,7 @@
               }
             },
             "casual2": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T14:27:36+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-4/359/casual2/prompt.txt",
@@ -2208,7 +2208,17 @@
                 "session_only": true,
                 "webp_sha256": "a94b73973f863d431d619635dd1d0268afca9a11e9bc76d30193b7e23ec8b206"
               },
-              "received_at": "2026-10-23T14:28:59+00:00"
+              "received_at": "2026-10-23T14:28:59+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual2/qa-rejected.json",
+                "sha256": "096e2fadcd52ea7ebde267c6271d82759f8b8de775361e1feb7968e74d30183b"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual2/user-exception.json",
+                "sha256": "e44c63c68cc68cdbcd584bdbd2a3b9aebd76c2de14f4fe127b30650d14466144"
+              }
             }
           },
           "reason": "casual2 visual QA: Adult face and long white hair retained. Berry picking and basket contact visible; thumb/fingers partly occluded by fruit and basket, no definite extra digits. Front three-quarter hip twist rather than selected square frontal pose; shorts gained multiple garter straps and large bows. Preserve visual deviations, not a QA pass. Garden harvest differs from casual1 indoor lingerie reaching and recent garden writing.",
@@ -2232,6 +2242,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-4/359/casual1/user-exception.json",
                 "sha256": "a730a25da9d229403f25d1daa0b80b24d7c9c3ff306ba11d5f91c613a9797014"
+              }
+            },
+            {
+              "reason": "casual2 visual QA: Adult face and long white hair retained. Berry picking and basket contact visible; thumb/fingers partly occluded by fruit and basket, no definite extra digits. Front three-quarter hip twist rather than selected square frontal pose; shorts gained multiple garter straps and large bows. Preserve visual deviations, not a QA pass. Garden harvest differs from casual1 indoor lingerie reaching and recent garden writing.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual2/user-exception.json",
+                "sha256": "e44c63c68cc68cdbcd584bdbd2a3b9aebd76c2de14f4fe127b30650d14466144"
               }
             }
           ]
