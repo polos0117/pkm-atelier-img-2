@@ -749,14 +749,14 @@
       "id": "2026-10-23-2",
       "execution_id": "pkm-daily-2026-10-23T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-23T09:57:45+00:00",
       "queue": [
         {
           "no": 355,
           "name": "해골몽",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -863,7 +863,7 @@
               "received_at": "2026-10-23T10:16:07+00:00"
             }
           },
-          "reason": "mobility QA failed: shoulder and hip panels form giant wing-like arrays; left array tips cut by frame, contrary to submitted no giant wings requirement. Preserve result; no retry authorized.",
+          "reason": "light_overdrive QA failed: new narrow silver armor plate across exposed upper thigh at approximately x38%,y40%, absent in approved light reference. Pose/identity preserved but no-new-armor rule fails. Mobility exception does not apply; no regeneration authorized.",
           "block_history": [
             {
               "reason": "mobility QA failed: shoulder and hip panels form giant wing-like arrays; left array tips cut by frame, contrary to submitted no giant wings requirement. Preserve result; no retry authorized.",
@@ -875,7 +875,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:16:07+00:00"
+      "updated_at": "2026-10-23T10:16:22+00:00"
     }
   ],
   "claims": {
@@ -1113,9 +1113,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
