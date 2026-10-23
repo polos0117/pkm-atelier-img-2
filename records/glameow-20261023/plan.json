@@ -1,0 +1,522 @@
+{
+  "session": "gpt-glameow-purugly-20261023-131c",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "나옹마",
+      "species": "glameow-20261023",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "homewear",
+          "ex": "home_workout",
+          "garments": [
+            "crop_top",
+            "leggings"
+          ],
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "pose": "hand_on_hip",
+          "expr": "sleepy",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "open back",
+            "strapless top"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "everyday_basic",
+          "ex": "simple_cooking",
+          "garments": [
+            "apron",
+            "trousers"
+          ],
+          "orient": "front",
+          "frame": "waist_up",
+          "pose": "preparing_food",
+          "expr": "amused",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "one-shoulder cut"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "lingerie",
+          "ex": "garter_set",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "pose": "one_knee_up",
+          "expr": "pensive",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "bare midriff"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1,
+            2
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "homewear"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "crop_top",
+          "leggings",
+          "trousers",
+          "lingerie_set"
+        ],
+        "orient": [
+          "profile_close",
+          "front",
+          "leaning_back"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "몬냥이",
+      "species": "purugly-20261023",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "cabana_daybed",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "three_quarter_back",
+          "frame": "chest_up",
+          "pose": "reading_book",
+          "expr": "cold_smile",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "side cutouts",
+            "plunging neckline"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "everyday_sensual",
+          "ex": "window_rain",
+          "garments": [
+            "overalls"
+          ],
+          "orient": "looking_away",
+          "frame": "environmental",
+          "pose": "holding_cup",
+          "expr": "candid",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "off-shoulder neckline"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 3,
+          "cat": "partner_care",
+          "ex": "care_walk",
+          "garments": [
+            "overalls"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "waist_up",
+          "pose": "turning_back",
+          "expr": "half_smile",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "strapless top",
+            "one-shoulder cut"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "active",
+          "source_editorial",
+          "homewear",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "swimsuit",
+          "overalls"
+        ],
+        "orient": [
+          "three_quarter_back",
+          "looking_away",
+          "turning_midmotion"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "homewear",
+      "ex": "home_workout",
+      "garments": [
+        "crop_top",
+        "leggings"
+      ],
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "pose": "hand_on_hip",
+      "expr": "sleepy",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "open back",
+        "strapless top"
+      ],
+      "lead": "action",
+      "scene": "Completing a gentle side stretch, she pauses beside a pale exercise mat and a low basket of rolled towels in the morning light.",
+      "outfit": "A charcoal strapless longline sports-bra crop top has a low open back and is paired with slate-gray leggings, leaving shoulders and upper back visible.",
+      "example_text": "in a small home workout corner in a sports bra and leggings, stretching lightly",
+      "direct_input_reasons": {
+        "scene": "Adds the concrete activity, light and props for home_workout",
+        "outfit": "Specifies the planned crop_top+leggings construction using open back and strapless top",
+        "camera": "Tool has no size parameter; supplies required vertical 2:3 dimensions."
+      },
+      "axes_reasons": {
+        "action_level": "Completing a gentle side stretch, she pauses beside a pale exercise mat and a low basket of rolled towels in the morning light.",
+        "source_influence": "Palette and motif amount shown by A charcoal strapless longline sports-bra crop top has a low open back and is paired with slate-gray leggings, leaving shoulders and upper back visible.",
+        "separates_preference": "crop_top+leggings garment construction"
+      },
+      "locks_verified": true,
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "actual_prompt_file": "casual1-prompt.txt"
+    },
+    {
+      "cut": 2,
+      "cat": "everyday_basic",
+      "ex": "simple_cooking",
+      "garments": [
+        "apron",
+        "trousers"
+      ],
+      "orient": "front",
+      "frame": "waist_up",
+      "pose": "preparing_food",
+      "expr": "amused",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "scene": "Her home kitchen has a wooden cutting board, a bowl of tomatoes and basil, and bright tiled counters; she chops vegetables for lunch.",
+      "outfit": "A white casual tee has a wide off-shoulder neckline dropped below one shoulder; a gray apron with one diagonal shoulder strap and blue jeans complete the outfit, leaving shoulders and collarbones visible.",
+      "example_text": "in her kitchen in a casual tee, jeans and apron, chopping ingredients",
+      "direct_input_reasons": {
+        "scene": "Adds the concrete activity, light and props for simple_cooking",
+        "outfit": "Specifies the planned apron+trousers construction using off-shoulder neckline and one-shoulder cut",
+        "camera": "Tool has no size parameter; supplies required vertical 2:3 dimensions."
+      },
+      "axes_reasons": {
+        "action_level": "Her home kitchen has a wooden cutting board, a bowl of tomatoes and basil, and bright tiled counters; she chops vegetables for lunch.",
+        "source_influence": "Palette and motif amount shown by A white casual tee has a wide off-shoulder neckline dropped below one shoulder; a gray apron with one diagonal shoulder strap and blue jeans complete the outfit, leaving shoulders and collarbones visible.",
+        "separates_preference": "apron+trousers garment construction"
+      },
+      "locks_verified": true,
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "actual_prompt_file": "casual2-prompt.txt"
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "vinyl_stage",
+      "garments": [
+        "jacket"
+      ],
+      "orient": "crouching",
+      "frame": "three_quarter",
+      "pose": "one_knee_up",
+      "expr": "playful",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "cropped hem"
+      ],
+      "lead": "light",
+      "scene": "Cool violet stage lights spill across a rehearsal wing marked by coiled audio cables and speaker cases during a stage-costume fitting.",
+      "outfit": "A cropped white vinyl jacket with charcoal zigzag piping is worn open over a fully lined gray bandeau and high-waisted tailored shorts; bare midriff and thighs separate the jacket hem from tall glossy boots.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {
+        "category": "",
+        "example": "",
+        "timing": "",
+        "equipment": "",
+        "power": "",
+        "effects": "",
+        "speed": "",
+        "environment": ""
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "actual_prompt_file": "casual3-prompt.txt",
+      "replan_reason": "Three-arm result; correction blocked. Substantive scene and clothing change to a fully covered stage costume in a rehearsal wing."
+    }
+  ],
+  "reservation_commit": "1d7d86a04928c8ce0a4e35f2a3101efdce0008ed",
+  "check": "passed with --fresh",
+  "replanned_before_generation": {
+    "reason": "Planner omitted EXAMPLE_DETAIL fallback; local lookup corrected and tested, then batch replanned. Avoided modest burkini versus cutout/plunging wardrobe and unsuitable dance pose.",
+    "no_generated_outputs_discarded": true
+  },
+  "replanned_batch": {
+    "session": "gpt-glameow-purugly-20261023-131c",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "나옹마",
+        "species": "glameow-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "homewear",
+            "ex": "home_workout",
+            "expr": "sleepy",
+            "pose": "hand_on_hip",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "expose": [
+              "open back",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "simple_cooking",
+            "expr": "amused",
+            "pose": "preparing_food",
+            "orient": "front",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "vinyl_stage",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "crouching",
+            "frame": "three_quarter",
+            "pose": "one_knee_up",
+            "expr": "playful",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "cropped hem"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "lingerie",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "crouching"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "replan_reservation_commit": "e4a5618af2a42cc8e89ea32e5413db1b200c5bf0"
+}

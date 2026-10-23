@@ -1,0 +1,101 @@
+{
+  "storage": {
+    "last": "나옹마",
+    "cards": {
+      "나옹마": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "playful",
+            "pose": "one_knee_up",
+            "orient": "crouching",
+            "scene": "Cool violet stage lights spill across a rehearsal wing marked by coiled audio cables and speaker cases during a stage-costume fitting.",
+            "outfit": "A cropped white vinyl jacket with charcoal zigzag piping is worn open over a fully lined gray bandeau and high-waisted tailored shorts; bare midriff and thighs separate the jacket hem from tall glossy boots.",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "vinyl_stage",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Glameow (나옹마) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement\nPose: Sit on a mat with one knee raised and an arm resting naturally on it.\nOrientation: low crouch with flexed knees and hips\nScene: Cool violet stage lights spill across a rehearsal wing marked by coiled audio cables and speaker cases during a stage-costume fitting.\nOutfit and props: A cropped white vinyl jacket with charcoal zigzag piping is worn open over a fully lined gray bandeau and high-waisted tailored shorts; bare midriff and thighs separate the jacket hem from tall glossy boots.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a vinyl stage costume with a glossy fitted jacket and boots under stage lighting\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "generator_url": "https://prompt.test/prompt.html?mech=%EB%82%98%EC%98%B9%EB%A7%88&casual=%7B%22cat%22%3A%22adult_roleplay%22%2C%22ex%22%3A%22vinyl_stage%22%2C%22expr%22%3A%22playful%22%2C%22pose%22%3A%22one_knee_up%22%2C%22orient%22%3A%22crouching%22%2C%22frame%22%3A%22three_quarter%22%2C%22lens%22%3A%22portrait85%22%2C%22aspect%22%3A%222%3A3%22%2C%22axes%22%3A%7B%22overall_intensity%22%3A%22strong%22%2C%22skin_exposure%22%3A%22bold%22%2C%22action_level%22%3A%22mostly%20posed%22%2C%22source_influence%22%3A%22strong%22%2C%22separates_preference%22%3A%22prefer%20separates%22%7D%7D",
+  "replan": "New stage-costume fitting scene after an anatomical failure and a terminal generation refusal; first two accepted casual images retained."
+}
