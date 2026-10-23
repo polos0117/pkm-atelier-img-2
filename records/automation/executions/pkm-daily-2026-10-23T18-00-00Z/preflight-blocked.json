@@ -1,0 +1,70 @@
+{
+  "execution_id": "pkm-daily-2026-10-23T18-00-00Z",
+  "at": "2026-10-23T17:59:58+00:00",
+  "status": "blocked_preflight",
+  "character": null,
+  "generated_count": 0,
+  "published_image_count": 0,
+  "reason": "Required anatomy-check model download blocked by environment proxy HTTP 403 Forbidden before generation",
+  "action": "urllib.request.urlretrieve official pose model, invoked by tools/anatomy-check.py on an existing local image for dependency preflight",
+  "target": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_heavy/float16/1/pose_landmarker_heavy.task",
+  "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "outcome": "download failed; no inference completed, no retry or bypass",
+  "completed": [
+    "Latest rules and runner reviewed; required 1/12 policy commits ancestors verified",
+    "Restore committed artifacts and hashes succeeded",
+    "mediapipe installed session-locally under /workspace/pkm-anatomy-deps",
+    "tests/anatomy-check.py: 14 tests passed; these do not validate actual model inference",
+    "Reported external characters have 9 registered slots; no work started on them"
+  ],
+  "not_completed": [
+    "Required pose/hand model runtime and overlays",
+    "prepare/next and new candidate claim intentionally not created after required QA dependency failed",
+    "No new image generation or publication"
+  ],
+  "cache_check": "No matching usable model asset found in accessible workspace/temp paths; protected temp daemon directory was not accessed",
+  "required_resolution": "Environment administrator must allow the official model download, or provide the exact SHA256-verified official pose and hand assets in PKM_ANATOMY_MODELS. Reuse this execution ID on resumption. Do not omit anatomy QA.",
+  "code_commit": "788a541b1b167feb5d591881f170f9686934a614",
+  "state_parent": "a7a95ea855758ffcc0142d0b1ef965c3c3eb344c",
+  "policy": {
+    "daily_max": 12,
+    "timezone": "Asia/Seoul",
+    "external_publication": "skip_after_preserving_in_flight_result",
+    "image_operations_require_card": true,
+    "utc_daily_max": 12,
+    "execution_max": 1,
+    "cadence_hours": 2,
+    "visual_quality_review": "user_post_upload_review_preserve_actual_failed_qa_no_auto_regeneration",
+    "visual_quality_authorization": {
+      "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+      "user_approval": "내가 끝나고 업로드 되면 알아서 확인할테니까 중간에 묻지말고 그냥 진행해.",
+      "scope": "visual QA only; safety, technical failures, missing originals, reservations, quotas still block"
+    }
+  },
+  "daily": {
+    "2026-10-22": [
+      345,
+      346
+    ],
+    "2026-10-23": [
+      355,
+      356,
+      359,
+      360
+    ]
+  },
+  "daily_kst": {
+    "2026-10-22": [
+      345,
+      346
+    ],
+    "2026-10-23": [
+      355,
+      356,
+      359
+    ],
+    "2026-10-24": [
+      360
+    ]
+  }
+}
