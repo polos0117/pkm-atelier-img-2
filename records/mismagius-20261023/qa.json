@@ -1,0 +1,257 @@
+{
+  "reviewer": "gpt",
+  "image_tool": "built-in image_gen",
+  "accepted_count": 9,
+  "face_reason": "둥근 머리는 짧고 부드러운 얼굴 윤곽으로, 가늘고 붉은 입은 얇은 입술로, 주문을 거는 인상은 올라간 눈매·긴 아치 눈썹으로 해석.",
+  "face_sources": [
+    "data/face-design.json:429",
+    "data/source-appearance.json:429"
+  ],
+  "compared_characters": [
+    "요테리",
+    "밀로틱",
+    "쌔비냥"
+  ],
+  "evolution_comparison": "무우마 실제 경장과 비교. 같은 계열의 둥근 선은 남기고 무우마직은 더 좁은 얼굴 폭·치켜 올라간 긴 눈매·얇은 입술로 구분.",
+  "face_comparison_observation": "요테리의 넓고 둥근 눈·짧은 코보다 무우마직은 길게 올라간 눈매와 가는 입술. 밀로틱의 긴 타원형 얼굴·낮게 흐르는 눈썹보다 짧은 윤곽과 높은 아치. 쌔비냥의 날카로운 턱끝·짧은 눈썹보다 부드러운 턱과 긴 아치가 구분됨.",
+  "diversity_comparison": "무우마직 세 장과 돈크로우 세 장, 요테리·밀로틱·쌔비냥 일상 아홉 장을 실제 이미지로 대조. 전신 무대 마커 정리의 앞치마·미니스커트, 앉아서 찻잔을 든 파티 재킷·펜슬스커트, 치료실에서 담요와 트레이를 운반하는 유니폼·쇼츠가 의상·행동·손동작·구도로 구분됨.",
+  "look_check": "../generated_images/exec-bd3685db-f418-41ec-91b0-1dff44ac637a.png — 가까운 컷 0장(점수 245 미만)\n     273  루리리_glossy_promo_f_casual2.webp\n     274  해피너스_glossy_promo_f_casual2.webp\n     279  코일_glossy_promo_f_casual1.webp\n../generated_images/exec-2e7ad64e-c67f-48cc-b677-76b5d20eb98f.png — 가까운 컷 0장(점수 245 미만)\n     289  피그점프_glossy_promo_f_casual3.webp\n     292  질뻐기_glossy_promo_f_casual1.webp\n     303  테일로_glossy_promo_f_casual2.webp\n../generated_images/exec-9a1a8d35-1a20-483f-acce-e0e6dcd61403.png — 가까운 컷 0장(점수 245 미만)\n     288  니드리노_glossy_promo_f_casual2.webp\n     294  아쿠스타_glossy_promo_f_casual1.webp\n     306  두두_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n",
+  "recorded_variations": [
+    "casual1은 계획의 environmental보다 인물이 크게 담김; 앞 3/4·테이블 지지 동작은 유지.",
+    "casual2는 waist_up보다 허벅지까지 넓게 담김. serious보다 입을 살짝 연 부드러운 표정.",
+    "casual3은 three_quarter보다 무릎 아래로 넓게 담김; 앞을 향한 몸과 트레이 운반 동작 유지."
+  ],
+  "replanning": [
+    {
+      "slot": "casual2",
+      "old": "lingerie/garter_set",
+      "failure": "moderation_blocked; no output file",
+      "failure_record": "casual2-rejected-lingerie-failure.json",
+      "new": "adult_roleplay/adult_secretary",
+      "reservation_commit": "07123bc05463b7fe539fd2ec77b816f8ccc56665",
+      "substantive_change": "속옷·침실 장면을 폐기하고 재킷과 펜슬스커트·안경을 착용한 오피스 테마 파티의 차 마시기 장면으로 바꿈. 장소·의상·활동·프레이밍·방향이 달라짐.",
+      "check": "계획 통과 — 1명; existing generated casual1 and casual3 preserved by planner refill path"
+    }
+  ],
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "51171a210b548e39c9f506747df21c9fa0f7bacbfb3fe020fe017e317bd19a4b",
+      "observations": "전신 경장, 보라색 긴 양쪽 번과 한쪽 눈을 덮는 사이드뱅, 금색 눈. 짧고 부드러운 윤곽에 올라간 눈매. 화면 왼쪽으로 뻗은 손은 엄지와 네 손가락이 분리되고 반대 손도 자연스럽게 늘어짐.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "전신 경장, 보라색 긴 양쪽 번과 한쪽 눈을 덮는 사이드뱅, 금색 눈. 짧고 부드러운 윤곽에 올라간 눈매. 화면 왼쪽으로 뻗은 손은 엄지와 네 손가락이 분리되고 반대 손도 자연스럽게 늘어짐."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "원본에서 어깨·팔꿈치·손목의 연속과 두 다리·손의 자연스러운 가림을 확인"
+        },
+        "text": {
+          "match": true,
+          "basis": "작업 도구·트레이 병·컵·테두리를 확대 검사; 읽히는 글자나 가짜 라벨 없음"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "aa01b6cda7e3902682a15cf1537e290f1438d67f04fa085692240625e86db2e9",
+      "observations": "넓은 어깨·전완·흉부·허벅지·정강이에 판이 겹쳐 체적이 늘어남. 얼굴·헤어·눈색은 정본 유지.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "넓은 어깨·전완·흉부·허벅지·정강이에 판이 겹쳐 체적이 늘어남. 얼굴·헤어·눈색은 정본 유지."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "원본에서 어깨·팔꿈치·손목의 연속과 두 다리·손의 자연스러운 가림을 확인"
+        },
+        "text": {
+          "match": true,
+          "basis": "작업 도구·트레이 병·컵·테두리를 확대 검사; 읽히는 글자나 가짜 라벨 없음"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "780d9b4076805125c5e7a73b7e64594a4ece67fbaadf12c0a704b3ff58906580",
+      "observations": "어깨·허리·종아리에서 가는 판이 벌어져 뒤로 흐르는 실루엣. 얼굴·손·몸 비율 유지.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "어깨·허리·종아리에서 가는 판이 벌어져 뒤로 흐르는 실루엣. 얼굴·손·몸 비율 유지."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "원본에서 어깨·팔꿈치·손목의 연속과 두 다리·손의 자연스러운 가림을 확인"
+        },
+        "text": {
+          "match": true,
+          "basis": "작업 도구·트레이 병·컵·테두리를 확대 검사; 읽히는 글자나 가짜 라벨 없음"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "37a1cc86795b9950490a17c55372b803237765aea81fb83acbc85eb7d0d4fff9",
+      "observations": "경장의 카메라·자세·인물 크기 그대로 판 이음새가 열려 보라색 내부빛이 드러남. 금색 눈 유지.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "경장의 카메라·자세·인물 크기 그대로 판 이음새가 열려 보라색 내부빛이 드러남. 금색 눈 유지."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "원본에서 어깨·팔꿈치·손목의 연속과 두 다리·손의 자연스러운 가림을 확인"
+        },
+        "text": {
+          "match": true,
+          "basis": "작업 도구·트레이 병·컵·테두리를 확대 검사; 읽히는 글자나 가짜 라벨 없음"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "20b0068cb08a663e1d0c59e256c1ecc4fab93c86f7566acb13c52639f91beda8",
+      "observations": "중장 다층 판 사이가 열리고 보랏빛 프레임이 드러남. 양손 자세와 전신 구도 유지.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "중장 다층 판 사이가 열리고 보랏빛 프레임이 드러남. 양손 자세와 전신 구도 유지."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "원본에서 어깨·팔꿈치·손목의 연속과 두 다리·손의 자연스러운 가림을 확인"
+        },
+        "text": {
+          "match": true,
+          "basis": "작업 도구·트레이 병·컵·테두리를 확대 검사; 읽히는 글자나 가짜 라벨 없음"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "051a45bdb421565a93bfdc7233cb641de9334e3cd20804583010ac0facf4e660",
+      "observations": "고기동의 벌어진 판 사이에 보라색 내부빛과 작은 입자가 드러남. 얼굴·손·몸과 카메라를 유지.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "고기동의 벌어진 판 사이에 보라색 내부빛과 작은 입자가 드러남. 얼굴·손·몸과 카메라를 유지."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "원본에서 어깨·팔꿈치·손목의 연속과 두 다리·손의 자연스러운 가림을 확인"
+        },
+        "text": {
+          "match": true,
+          "basis": "작업 도구·트레이 병·컵·테두리를 확대 검사; 읽히는 글자나 가짜 라벨 없음"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "8cc68c0ac00308c9461ad13da494e03ff79d62510e56050636e5815fc64db61a",
+      "observations": "무대 옆 테이블에 한 손을 지지하고 다른 손으로 원형 리허설 마커를 정리. 보라색 홀터 앞치마와 빨강 미니스커트, 팔·다리 연결 자연스러움.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "무대 옆 테이블에 한 손을 지지하고 다른 손으로 원형 리허설 마커를 정리. 보라색 홀터 앞치마와 빨강 미니스커트, 팔·다리 연결 자연스러움."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "원본에서 어깨·팔꿈치·손목의 연속과 두 다리·손의 자연스러운 가림을 확인"
+        },
+        "text": {
+          "match": true,
+          "basis": "작업 도구·트레이 병·컵·테두리를 확대 검사; 읽히는 글자나 가짜 라벨 없음"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "c1dad5791791a807f53b282b3acc7568e609a85172fec7058276a780c0c0a9d3",
+      "observations": "오피스 테마 파티 라운지의 의자에서 양손으로 찻잔을 듦. 보라색 크롭 재킷·펜슬스커트·금테 안경, 어깨와 허리 노출. 한 사람이고 손목과 손가락이 찻잔 손잡이에 자연스럽게 연결됨.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "오피스 테마 파티 라운지의 의자에서 양손으로 찻잔을 듦. 보라색 크롭 재킷·펜슬스커트·금테 안경, 어깨와 허리 노출. 한 사람이고 손목과 손가락이 찻잔 손잡이에 자연스럽게 연결됨."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "원본에서 어깨·팔꿈치·손목의 연속과 두 다리·손의 자연스러운 가림을 확인"
+        },
+        "text": {
+          "match": true,
+          "basis": "작업 도구·트레이 병·컵·테두리를 확대 검사; 읽히는 글자나 가짜 라벨 없음"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "973f6c0824453a0f26a6c2aae8814929260a89c07682861429a224efe6210b10",
+      "observations": "치료실에서 한 팔에 접은 담요를 얹고 반대 손에 케어 트레이를 들어 카운터로 이동. 홀터 유니폼 튜닉·쇼츠. 팔꿈치·손목 연결이 이어지고 다리와 가구가 융합되지 않음.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "치료실에서 한 팔에 접은 담요를 얹고 반대 손에 케어 트레이를 들어 카운터로 이동. 홀터 유니폼 튜닉·쇼츠. 팔꿈치·손목 연결이 이어지고 다리와 가구가 융합되지 않음."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "원본에서 어깨·팔꿈치·손목의 연속과 두 다리·손의 자연스러운 가림을 확인"
+        },
+        "text": {
+          "match": true,
+          "basis": "트레이 흰 펌프병·갈색 병의 가짜 라벨을 실제 UI custom 요청으로 지운 뒤 원본 확대 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    }
+  },
+  "corrections": [
+    {
+      "slot": "casual3",
+      "reason": "트레이 병의 가짜 라벨",
+      "before": "casual3-before-label-cleanup-original.png",
+      "after": "casual3-original.png",
+      "references": [
+        "light-original.png",
+        "casual3-before-label-cleanup-original.png"
+      ]
+    }
+  ]
+}

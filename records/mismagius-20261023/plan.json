@@ -1,0 +1,811 @@
+{
+  "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "무우마직",
+      "species": "mismagius-20261023",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "occupation_basic",
+          "ex": "stage_rigging",
+          "expr": "focused",
+          "pose": "leaning_furniture",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "skirt"
+          ],
+          "expose": [
+            "halter neck",
+            "mini length"
+          ],
+          "lead": "action"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "garter_set",
+          "expr": "soft_smile",
+          "pose": "sitting",
+          "orient": "high_angle",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "lingerie_set"
+          ],
+          "expose": [
+            "plunging neckline",
+            "bare midriff"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "occupation_sensual",
+          "ex": "elite_paramedic",
+          "garments": [
+            "uniform"
+          ],
+          "orient": "leaning_forward",
+          "frame": "three_quarter",
+          "pose": "mid_stride",
+          "expr": "mischievous",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "halter neck",
+            "mini length"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "travel_exploration",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "uniform"
+        ],
+        "orient": [
+          "leaning_forward"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "돈크로우",
+      "species": "honchkrow-20261023",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "event_staff",
+          "expr": "laughing",
+          "pose": "stretching",
+          "orient": "rear_3q",
+          "frame": "chest_up",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "vest"
+          ],
+          "expose": [
+            "cropped hem",
+            "one-shoulder cut"
+          ],
+          "lead": "detail"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "swimwear",
+          "ex": "moonlit_pool",
+          "expr": "flustered",
+          "pose": "mid_stride",
+          "orient": "looking_down",
+          "frame": "environmental",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "bikini"
+          ],
+          "expose": [
+            "high-cut leg",
+            "open back"
+          ],
+          "lead": "light"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "hobbies_leisure",
+          "ex": "hobby_photo",
+          "expr": "curious",
+          "pose": "on_tiptoe",
+          "orient": "reaching_up",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "shirt",
+            "trousers"
+          ],
+          "expose": [
+            "halter neck",
+            "side cutouts"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": true,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "travel_exploration",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "occupation_basic",
+      "ex": "stage_rigging",
+      "expr": "focused",
+      "pose": "leaning_furniture",
+      "orient": "front_3q",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "apron",
+        "skirt"
+      ],
+      "expose": [
+        "halter neck",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_text": "Pokémon Contest stage assistant placing rehearsal markers and checking decorative props beside a performance platform.",
+      "selection_method": "planner; no manual selection changes",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Aligning small circular rehearsal markers and checking velvet props, she steadies her free hand on the edge of the performance platform beneath violet work lights.",
+          "reason": "예시에 없는 무대 작업등·벨벳 소품·리허설 마커의 배치를 더함"
+        },
+        {
+          "field": "outfit",
+          "content": "A violet halter-neck stage apron ends above a deep-red mini skirt; its open shoulders and short hem expose collarbones and legs, with three tiny red gems at the apron neckline.",
+          "reason": "예시에 의상이 없어 계획의 apron+skirt를 홀터 앞치마와 미니스커트로 정함"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ],
+      "axes_reasons": [
+        "마커를 정리하는 가벼운 손동작이라 balanced",
+        "보라색 앞치마·빨강 치마·작은 보석으로 strong",
+        "앞치마와 치마가 별개라 prefer separates"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "adult_secretary",
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "orient": "reclining",
+      "frame": "waist_up",
+      "pose": "sitting",
+      "expr": "serious",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "bare midriff"
+      ],
+      "lead": "light",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Amber pendant lights illuminate a retro office-themed costume party in an art-deco lounge; a small ceramic teacup rests in her hands beside a vase of fresh branches.",
+          "reason": "예시에는 없는 아르데코 라운지·펜던트 조명·찻잔과 꽃병을 지정"
+        },
+        {
+          "field": "outfit",
+          "content": "A violet cropped blazer with a broad off-shoulder neckline and an opaque buttoned front pairs with a matching pencil skirt; a narrow gap above the waistband exposes the midriff, and thin gold-framed glasses finish the party costume.",
+          "reason": "예시의 재킷·펜슬스커트·장식 안경을 보라색 오프숄더 크롭 재단과 금테로 구체화"
+        }
+      ],
+      "axes_reasons": [
+        "찻잔을 들고 쉬는 장면이라 mostly posed",
+        "보라색 수트의 색만 남겨 balanced",
+        "재킷·치마가 분리되므로 prefer separates"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_sensual",
+      "ex": "elite_paramedic",
+      "garments": [
+        "uniform"
+      ],
+      "orient": "leaning_forward",
+      "frame": "three_quarter",
+      "pose": "mid_stride",
+      "expr": "mischievous",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "halter neck",
+        "mini length"
+      ],
+      "lead": "place",
+      "example_text": "Pokémon Center care supervisor organizing blankets and care trays in a clean treatment room, wearing an original practical uniform.",
+      "selection_method": "planner; no manual selection changes",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The treatment room has lavender storage drawers and a low care counter lit by warm afternoon sun; she carries a small care tray and a folded blanket toward the low counter.",
+          "reason": "치료실 예시에 라벤더 수납장·낮은 카운터·오후 채광·운반할 트레이와 담요를 정함"
+        },
+        {
+          "field": "outfit",
+          "content": "An original violet care uniform uses a halter-neck short tunic over matching tailored shorts, exposing shoulders and legs; fine red piping follows the pocket seams.",
+          "reason": "특정 복장이 없는 예시에서 계획의 uniform을 홀터 튜닉과 짧은 하의로 구체화"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+        }
+      ],
+      "axes_reasons": [
+        "트레이와 담요를 카운터로 옮기는 동작이라 mostly active",
+        "보라색 유니폼과 빨간 파이핑만으로 balanced",
+        "튜닉과 짧은 하의가 별개라 prefer separates"
+      ]
+    }
+  ],
+  "direct_input_notes": [
+    {
+      "scene": "Aligning small circular rehearsal markers and checking velvet props, she steadies her free hand on the edge of the performance platform beneath violet work lights.",
+      "outfit": "A violet halter-neck stage apron ends above a deep-red mini skirt; its open shoulders and short hem expose collarbones and legs, with three tiny red gems at the apron neckline."
+    },
+    {
+      "scene": "A folded silk cushion and a small oval perfume bottle rest on the velvet dressing bench in a rose-lit boudoir; she rests one hand on the cushion and the other loosely on her thigh.",
+      "outfit": "An opaque plum satin lingerie set has a plunging structured neckline and decorative garter straps; matching briefs and stockings leave her midriff exposed, with fine wine-red piping."
+    },
+    {
+      "scene": "The treatment room has lavender storage drawers and a low care counter lit by warm afternoon sun; she carries a small care tray and a folded blanket toward the low counter.",
+      "outfit": "An original violet care uniform uses a halter-neck short tunic over matching tailored shorts, exposing shoulders and legs; fine red piping follows the pocket seams."
+    }
+  ],
+  "notes": "Planner choices retained; direct inputs add time, activity and garment construction. camera supplies portrait dimensions because image tool has no size parameter.",
+  "batch": {
+    "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "무우마직",
+        "species": "mismagius-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "occupation_basic",
+            "ex": "stage_rigging",
+            "expr": "focused",
+            "pose": "leaning_furniture",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "skirt"
+            ],
+            "expose": [
+              "halter neck",
+              "mini length"
+            ],
+            "lead": "action",
+            "example_text": "Pokémon Contest stage assistant placing rehearsal markers and checking decorative props beside a performance platform.",
+            "selection_method": "planner; no manual selection changes",
+            "locked": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Aligning small circular rehearsal markers and checking velvet props, she steadies her free hand on the edge of the performance platform beneath violet work lights.",
+                "reason": "예시에 없는 무대 작업등·벨벳 소품·리허설 마커의 배치를 더함"
+              },
+              {
+                "field": "outfit",
+                "content": "A violet halter-neck stage apron ends above a deep-red mini skirt; its open shoulders and short hem expose collarbones and legs, with three tiny red gems at the apron neckline.",
+                "reason": "예시에 의상이 없어 계획의 apron+skirt를 홀터 앞치마와 미니스커트로 정함"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+              }
+            ],
+            "axes_reasons": [
+              "마커를 정리하는 가벼운 손동작이라 balanced",
+              "보라색 앞치마·빨강 치마·작은 보석으로 strong",
+              "앞치마와 치마가 별개라 prefer separates"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "garter_set",
+            "expr": "soft_smile",
+            "pose": "sitting",
+            "orient": "high_angle",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "detail",
+            "example_text": "a lingerie set with decorative garter straps, worn as styling detail",
+            "selection_method": "planner; no manual selection changes",
+            "locked": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A folded silk cushion and a small oval perfume bottle rest on the velvet dressing bench in a rose-lit boudoir; she rests one hand on the cushion and the other loosely on her thigh.",
+                "reason": "장소가 정해지지 않은 가터 세트 예시에 벨벳 벤치·쿠션·향수병·장밋빛 조명을 더함"
+              },
+              {
+                "field": "outfit",
+                "content": "An opaque plum satin lingerie set has a plunging structured neckline and decorative garter straps; matching briefs and stockings leave her midriff exposed, with fine wine-red piping.",
+                "reason": "예시의 가터 세트에 불투명 자주색 새틴·깊은 목선·배를 드러내는 분리 구조를 정함"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+              }
+            ],
+            "axes_reasons": [
+              "벤치에서 쉬는 멈춘 장면이라 mostly posed",
+              "와인색 테두리와 보라색 새틴으로 balanced",
+              "란제리 세트의 연결 구성을 유지하므로 balanced"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_sensual",
+            "ex": "elite_paramedic",
+            "garments": [
+              "uniform"
+            ],
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "pose": "mid_stride",
+            "expr": "mischievous",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "mini length"
+            ],
+            "lead": "place",
+            "example_text": "Pokémon Center care supervisor organizing blankets and care trays in a clean treatment room, wearing an original practical uniform.",
+            "selection_method": "planner; no manual selection changes",
+            "locked": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "The treatment room has lavender storage drawers and a low care counter lit by warm afternoon sun; she carries a small care tray and a folded blanket toward the low counter.",
+                "reason": "치료실 예시에 라벤더 수납장·낮은 카운터·오후 채광·운반할 트레이와 담요를 정함"
+              },
+              {
+                "field": "outfit",
+                "content": "An original violet care uniform uses a halter-neck short tunic over matching tailored shorts, exposing shoulders and legs; fine red piping follows the pocket seams.",
+                "reason": "특정 복장이 없는 예시에서 계획의 uniform을 홀터 튜닉과 짧은 하의로 구체화"
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+              }
+            ],
+            "axes_reasons": [
+              "트레이와 담요를 카운터로 옮기는 동작이라 mostly active",
+              "보라색 유니폼과 빨간 파이핑만으로 balanced",
+              "튜닉과 짧은 하의가 별개라 prefer separates"
+            ]
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "travel_exploration",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "uniform"
+          ],
+          "orient": [
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "돈크로우",
+        "species": "honchkrow-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "event_staff",
+            "expr": "laughing",
+            "pose": "stretching",
+            "orient": "rear_3q",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "vest"
+            ],
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "moonlit_pool",
+            "expr": "flustered",
+            "pose": "mid_stride",
+            "orient": "looking_down",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_photo",
+            "expr": "curious",
+            "pose": "on_tiptoe",
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "expose": [
+              "halter neck",
+              "side cutouts"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "travel_exploration",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "reservation_path": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+  "pre_generation_check": {
+    "passed": true,
+    "log": "계획 통과 — 2명",
+    "reservation_commit": "eee411541d2c1fcb4244623cf9ee1319670fd0b4",
+    "ordering": "Reserved and published before these prompts were submitted. Later concurrent reservations added overlap; they were not used to retroactively change already submitted selections."
+  },
+  "interruption_recovery": {
+    "preserved_files": true,
+    "expired_exec_cells": "Previous cells 40,45,51 unavailable after repeated request; seven returned PNGs recovered from workspace. Missing-file slots resumed with the same stored UI prompts.",
+    "existing_images_deleted": false
+  },
+  "replanning": [
+    {
+      "slot": "casual2",
+      "old": "lingerie/garter_set",
+      "failure": "moderation_blocked; no output file",
+      "failure_record": "casual2-rejected-lingerie-failure.json",
+      "new": "adult_roleplay/adult_secretary",
+      "reservation_commit": "07123bc05463b7fe539fd2ec77b816f8ccc56665",
+      "substantive_change": "속옷·침실 장면을 폐기하고 재킷과 펜슬스커트·안경을 착용한 오피스 테마 파티의 차 마시기 장면으로 바꿈. 장소·의상·활동·프레이밍·방향이 달라짐.",
+      "check": "계획 통과 — 1명; existing generated casual1 and casual3 preserved by planner refill path"
+    }
+  ],
+  "final_slot2_reservation": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+  "regenerations": [
+    {
+      "slot": "casual3",
+      "reason": "트레이 병의 가짜 라벨 지우기",
+      "changed_field": "custom",
+      "ui": "casual3-ui.json",
+      "previous_ui": "casual3-before-label-cleanup-ui.json",
+      "references": [
+        "light-original.png",
+        "casual3-before-label-cleanup-original.png"
+      ]
+    }
+  ]
+}

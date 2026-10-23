@@ -1,0 +1,121 @@
+{
+  "session": "gpt-mismagius-refill-20261023-c6a3",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "무우마직",
+      "species": "mismagius-20261023",
+      "refill": true,
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "occupation_basic",
+          "ex": "stage_rigging",
+          "expr": "focused",
+          "pose": "leaning_furniture",
+          "orient": "front_3q",
+          "frame": "environmental",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "skirt"
+          ],
+          "expose": [
+            "halter neck",
+            "mini length"
+          ]
+        },
+        {
+          "cut": 2,
+          "cat": "adult_roleplay",
+          "ex": "adult_secretary",
+          "garments": [
+            "jacket",
+            "skirt"
+          ],
+          "orient": "reclining",
+          "frame": "waist_up",
+          "pose": "sitting",
+          "expr": "serious",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "bare midriff"
+          ],
+          "lead": "light"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "occupation_sensual",
+          "ex": "elite_paramedic",
+          "expr": "mischievous",
+          "pose": "mid_stride",
+          "orient": "leaning_forward",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "shorts",
+            "uniform"
+          ],
+          "expose": [
+            "halter neck",
+            "mini length"
+          ]
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2
+          ],
+          "two": false,
+          "prev": [
+            1,
+            2
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "active",
+          "source_editorial",
+          "homewear",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jacket"
+        ],
+        "orient": [
+          "reclining"
+        ],
+        "frame": []
+      }
+    }
+  ]
+}
