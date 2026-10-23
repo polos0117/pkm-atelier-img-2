@@ -2380,14 +2380,14 @@
       "id": "2026-10-23-5",
       "execution_id": "pkm-daily-2026-10-23T16-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T15:58:17+00:00",
       "queue": [
         {
           "no": 360,
           "name": "마자",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2504,7 +2504,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T16:07:13+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-5/360/heavy_overdrive/prompt.txt",
@@ -2523,7 +2523,17 @@
                 "session_only": true,
                 "webp_sha256": "556a543b50a186ac4cc1a6fe2317b0216ff31ed88e02d4d07aa62ed2a4764434"
               },
-              "received_at": "2026-10-23T16:09:39+00:00"
+              "received_at": "2026-10-23T16:09:39+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-5/360/heavy_overdrive/qa-rejected.json",
+                "sha256": "9a581cfb65af0c278e4047d0a6f30eceed9e9aa4b9acb5d23e04273b5931856d"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-5/360/heavy_overdrive/user-exception.json",
+                "sha256": "6a46e5932dec1593285889a2450739110f46e62de63a94bed9efeb0e597aad60"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy base pose/face/hair/camera and hands retained; outer plates separate with magenta frame. Smile remains open cheerful instead of strained; some chest panel boundaries reorganized and eyes tinted pink. Strict paired-state mismatch preserved, accepted only for user review.",
@@ -2540,6 +2550,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-5/360/light_overdrive/user-exception.json",
                 "sha256": "e6102d2c27e4982746b1ffb765046d33c296753b909d1b8992740894320314f3"
+              }
+            },
+            {
+              "reason": "heavy_overdrive visual QA: Heavy base pose/face/hair/camera and hands retained; outer plates separate with magenta frame. Smile remains open cheerful instead of strained; some chest panel boundaries reorganized and eyes tinted pink. Strict paired-state mismatch preserved, accepted only for user review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-5/360/heavy_overdrive/user-exception.json",
+                "sha256": "6a46e5932dec1593285889a2450739110f46e62de63a94bed9efeb0e597aad60"
               }
             }
           ]
