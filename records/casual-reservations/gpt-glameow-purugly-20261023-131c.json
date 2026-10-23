@@ -1,72 +1,74 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-glameow-purugly-20261023-131c",
- "at": "2026-10-22T17:57:04-07:00",
+ "at": "2026-10-22T18:07:33-07:00",
  "characters": [
   {
    "species": "glameow-20261023",
    "card": "나옹마",
-   "at": "2026-10-22T17:57:04-07:00",
+   "at": "2026-10-22T18:07:33-07:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "homewear",
      "ex": "home_workout",
-     "expr": "half_smile",
-     "pose": "squatting",
+     "expr": "sleepy",
+     "pose": "hand_on_hip",
+     "orient": "profile_close",
+     "frame": "chest_up",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top",
+      "leggings"
+     ],
+     "expose": [
+      "open back",
+      "strapless top"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "cat": "everyday_basic",
+     "ex": "simple_cooking",
+     "expr": "amused",
+     "pose": "preparing_food",
      "orient": "front",
      "frame": "waist_up",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "robe"
-     ],
-     "expose": [
-      "high thigh slit",
-      "plunging neckline"
-     ],
-     "lead": "detail"
-    },
-    {
-     "cut": 2,
-     "cat": "everyday_basic",
-     "ex": "simple_cooking",
-     "expr": "pensive",
-     "pose": "preparing_food",
-     "orient": "profile_close",
-     "frame": "chest_up",
-     "lens": "portrait85",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "overalls"
+      "apron",
+      "trousers"
      ],
      "expose": [
-      "open back",
-      "strapless top"
+      "off-shoulder neckline",
+      "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 3,
      "cat": "lingerie",
      "ex": "garter_set",
-     "expr": "wistful",
-     "pose": "standing_relaxed",
+     "expr": "pensive",
+     "pose": "one_knee_up",
      "orient": "leaning_back",
      "frame": "full_body",
-     "lens": "documentary35",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -78,26 +80,26 @@
       "lingerie_set"
      ],
      "expose": [
-      "bare midriff",
-      "side cutouts"
+      "plunging neckline",
+      "bare midriff"
      ],
-     "lead": "action"
+     "lead": "light"
     }
    ]
   },
   {
    "species": "purugly-20261023",
    "card": "몬냥이",
-   "at": "2026-10-22T17:57:04-07:00",
+   "at": "2026-10-22T18:07:33-07:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "swimwear",
      "ex": "cabana_daybed",
-     "expr": "amused",
-     "pose": "holding_cup",
-     "orient": "looking_away",
-     "frame": "environmental",
+     "expr": "cold_smile",
+     "pose": "reading_book",
+     "orient": "three_quarter_back",
+     "frame": "chest_up",
      "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
@@ -110,61 +112,60 @@
       "swimsuit"
      ],
      "expose": [
-      "plunging neckline",
-      "open back"
+      "side cutouts",
+      "plunging neckline"
      ],
      "lead": "action"
     },
     {
      "cut": 2,
      "cat": "everyday_sensual",
-     "ex": "mirror_selfie",
-     "expr": "sleepy",
-     "pose": "hand_on_hip",
+     "ex": "window_rain",
+     "expr": "candid",
+     "pose": "holding_cup",
+     "orient": "looking_away",
+     "frame": "environmental",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "overalls"
+     ],
+     "expose": [
+      "open back",
+      "off-shoulder neckline"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "partner_care",
+     "ex": "care_walk",
+     "expr": "half_smile",
+     "pose": "turning_back",
      "orient": "turning_midmotion",
      "frame": "waist_up",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "dress"
-     ],
-     "expose": [
-      "off-shoulder neckline",
-      "one-shoulder cut"
-     ],
-     "lead": "place"
-    },
-    {
-     "cut": 3,
-     "cat": "partner_care",
-     "ex": "care_feeding",
-     "expr": "surprised",
-     "pose": "one_knee_up",
-     "orient": "crouching",
-     "frame": "three_quarter",
-     "lens": "portrait85",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "tank",
-      "trousers"
+      "overalls"
      ],
      "expose": [
       "strapless top",
-      "cropped hem"
+      "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "place"
     }
    ]
   }
