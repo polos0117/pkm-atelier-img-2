@@ -1,0 +1,442 @@
+{
+  "session": "gpt-castform-kecleon-20261023",
+  "species": "castform-20261023",
+  "card": "캐스퐁",
+  "batch": {
+    "session": "gpt-castform-kecleon-20261023",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "캐스퐁",
+        "species": "castform-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "huipil_modern",
+            "expr": "focused",
+            "pose": "leaning_furniture",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "traditional"
+            ],
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "expr": "mischievous",
+            "pose": "stretching",
+            "orient": "high_angle",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "uniform"
+            ],
+            "expose": [
+              "halter neck",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "one_shoulder_satin",
+            "expr": "soft_smile",
+            "pose": "contrapposto",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "halter neck",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "travel_exploration",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "켈리몬",
+        "species": "kecleon-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "event_staff",
+            "expr": "laughing",
+            "pose": "mid_stride",
+            "orient": "rear_3q",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "vest"
+            ],
+            "expose": [
+              "mini length",
+              "cropped hem"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "moonlit_pool",
+            "expr": "provocative",
+            "pose": "stretching",
+            "orient": "looking_down",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "stage_rigging",
+            "garments": [
+              "apron",
+              "skirt"
+            ],
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "pose": "on_tiptoe",
+            "expr": "curious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "travel_exploration",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron"
+          ],
+          "orient": [
+            "reaching_up"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "huipil_modern",
+      "expr": "focused",
+      "pose": "leaning_furniture",
+      "orient": "front_3q",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "traditional"
+      ],
+      "expose": [
+        "high thigh slit",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "a modern Mesoamerican huipil — a square-cut woven tunic with brocade panels over a wrap skirt",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reason": "Checking a cloth edge is gentle movement; cloud brocade gives limited source cues; the traditional tunic and skirt preserve the example construction.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late afternoon sun crosses the woven table runner in a textile workshop courtyard; she checks the edge of a freshly woven swatch.",
+          "reason": "The huipil example does not specify a courtyard, time, textile task or prop; add a weaving workshop and swatch inspection."
+        },
+        {
+          "field": "outfit",
+          "content": "The square-cut huipil has a wide off-shoulder opening and slate-and-ivory cloud brocade panels; the charcoal wrap skirt opens in a high thigh slit.",
+          "reason": "The example does not specify weave colors or neckline/slit; add cloud brocade, wide off-shoulder opening and a wrap skirt slit."
+        }
+      ],
+      "random_record": {
+        "selected_by": "tools/casual-plan.cjs",
+        "manual_selection_changes": false,
+        "replans_record": "planner-replans.json"
+      },
+      "submitted_prompt": "CHARACTER: the same woman as the attached image — Castform (캐스퐁) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Rest a hand or forearm on a table, counter or railing in a relaxed supported pose.\nOrientation: front three-quarter body turn of about 30-45 degrees; rotate torso and pelvis together\nScene: Late afternoon sun crosses the woven table runner in a textile workshop courtyard; she checks the edge of a freshly woven swatch.\nOutfit and props: The square-cut huipil has a wide off-shoulder opening and slate-and-ivory cloud brocade panels; the charcoal wrap skirt opens in a high thigh slit.\nCategory: This cut is built around the traditional dress named in the example — that tradition wins over her ethnicity setting and the attached image's costume; only Auto follows her ethnicity. Use either authentic formal traditional clothing or a modernised everyday interpretation of it, as specified by the example. Keep the garment structure, layering logic, fastening, and silhouette faithful to that tradition rather than generic orientalism or costume-shop pastiche. Colours may follow the source creature, but the construction must remain true to the tradition. Place the character in a setting where such clothing is plausibly worn.\nExample scene: a modern Mesoamerican huipil — a square-cut woven tunic with brocade panels over a wrap skirt\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra."
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "circus_ringmaster",
+      "expr": "mischievous",
+      "pose": "stretching",
+      "orient": "high_angle",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "uniform"
+      ],
+      "expose": [
+        "halter neck",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_text": "a circus ringmaster costume with a tailcoat, high boots, and a top hat, under a tent canopy",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reason": "A rehearsal warmup is active; the silver-and-ivory trim is a restrained source echo; skirt and bodice are separates.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Counting through a rehearsal cue beneath the striped tent canopy before the circus lights come on; colored floor markers trace the ring entrance.",
+          "reason": "The ringmaster example has no rehearsal activity or time; add a cue rehearsal before stage lights."
+        },
+        {
+          "field": "outfit",
+          "content": "A silver-edged navy tailcoat is cropped at the front over an ivory halter bodice and pleated mini skirt, leaving the upper chest and legs visible; high boots and a small top hat complete the ringmaster stage uniform.",
+          "reason": "The example names a tailcoat, boots and hat but not the underlayer; add a halter bodice and mini skirt as the planned uniform separates."
+        }
+      ],
+      "random_record": {
+        "selected_by": "tools/casual-plan.cjs",
+        "manual_selection_changes": false,
+        "replans_record": "planner-replans.json"
+      },
+      "submitted_prompt": "CHARACTER: the same woman as the attached image — Castform (캐스퐁) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: narrowed sparkling eyes, one brow up, closed-lip grin pushed to one side\nPose: Stretch the arms and upper back gently in a comfortable everyday motion.\nOrientation: camera above subject looking downward; obey selected framing\nScene: Counting through a rehearsal cue beneath the striped tent canopy before the circus lights come on; colored floor markers trace the ring entrance.\nOutfit and props: A silver-edged navy tailcoat is cropped at the front over an ivory halter bodice and pleated mini skirt, leaving the upper chest and legs visible; high boots and a small top hat complete the ringmaster stage uniform.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a circus ringmaster costume with a tailcoat, high boots, and a top hat, under a tent canopy\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra."
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "private_evening",
+      "ex": "one_shoulder_satin",
+      "expr": "soft_smile",
+      "pose": "contrapposto",
+      "orient": "leaning_forward",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "halter neck",
+        "plunging neckline"
+      ],
+      "lead": "action",
+      "example_text": "a one-shoulder satin evening dress",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reason": "Holding the purse before leaving is a paused moment; silver and sculpted cloud folds make the source explicit; a dress is one piece.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Clasping a small evening purse beside a marble console before leaving her apartment, with cool city reflections in the window.",
+          "reason": "The satin dress example has no location or task; add collecting an evening purse in an apartment before departure."
+        },
+        {
+          "field": "outfit",
+          "content": "Silver-gray satin forms an asymmetric halter strap over one shoulder and a plunging neckline, with a smooth fitted waist and cloud-shaped folds at the hip.",
+          "reason": "The dress example leaves color and strap tailoring unspecified; use silver satin with an asymmetric strap and plunging neckline."
+        }
+      ],
+      "random_record": {
+        "selected_by": "tools/casual-plan.cjs",
+        "manual_selection_changes": false,
+        "replans_record": "planner-replans.json"
+      },
+      "submitted_prompt": "CHARACTER: the same woman as the attached image — Castform (캐스퐁) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: faint upward pull at the mouth corners, lips together, warmth reaching the lower eyelids\nPose: Rest weight on one leg with the opposite knee relaxed in natural contrapposto.\nOrientation: torso leaning forward with supported balance\nScene: Clasping a small evening purse beside a marble console before leaving her apartment, with cool city reflections in the window.\nOutfit and props: Silver-gray satin forms an asymmetric halter strap over one shoulder and a plunging neckline, with a smooth fitted waist and cloud-shaped folds at the hip.\nCategory: Create mature private evening fashion scenes with intimate but non-explicit atmosphere. Use elegant, attractive, clearly adult styling, confident body language, and believable private-life context.\nExample scene: a one-shoulder satin evening dress\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra."
+    }
+  ],
+  "check": "PASS tools/casual-ledger.py check PLAN.json --fresh",
+  "image_tool": "built-in image_gen",
+  "anchor": {
+    "slot": "light",
+    "card": "캐스퐁",
+    "style": "glossy_promo",
+    "basis": "Actual Preact editor output, not inferred styling",
+    "source_original": "records/castform-20261023/originals/light.png",
+    "original_sha256": "15995566a1847bc601d8504ddc76fd98d56940150806a478a68d117e84d16f17",
+    "source_local": "/workspace/scratch/d22fbe80df23/work/castform/light.png",
+    "output": "img/캐스퐁_light_glossy_promo_f.webp",
+    "sha256": "ff45b0a0482e938a9c2bd0c793beb65945df0a4d9bc8af2329d8134f06dda831",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "references": []
+  }
+}

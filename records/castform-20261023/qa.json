@@ -1,0 +1,23 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "observations": {
+    "light": "Gray-white close-fitting plates and short silver curls; full figure and both hands in frame, five spread fingers on the nearer glove.",
+    "heavy": "Same face/curls, stacked broad shoulder, forearm, hip and shin plates expand the outline.",
+    "mobility": "Same character; slim split panels sweep backward with compact circular thrusters and no giant wings.",
+    "light_overdrive": "Light pose and scale preserved; slim shoulder/hip/shin plates lift with white-gold light through seams.",
+    "heavy_overdrive": "Heavy pose and stacked armor retained; outer layers open on visible gaps with warm internal light.",
+    "mobility_overdrive": "Mobility silhouette retained; panels spread and thruster covers reveal warm white-gold internal energy.",
+    "casual1": "Weaving courtyard, square woven huipil and high-slit wrap skirt, one hand on textile and the other at its edge; front three-quarter view. Crest ornament remains although wardrobe prompt asked to replace source ornaments.",
+    "casual2": "Circus tent backstage, cropped tailcoat and pleated mini skirt, high boots and top hat; arms raised in a warmup. One hand is partly obscured behind hair; no extra limb visible.",
+    "casual3": "City apartment, silver asymmetric satin dress, hands holding a small purse. Clear difference from the outdoor textile work and full-body rehearsal."
+  },
+  "diversity_comparison": "Compared with Milotic telescope/ribbons, Purrloin market/terrace and Stoutland home/seaside images. Castform uses a weaving table, circus warmup and formal purse scene, with a woven tunic, stage uniform and satin dress.",
+  "deviations": [
+    "casual1 retains the crest headpiece",
+    "casual2 hand partly obscured by raised-arm pose",
+    "casual3 slightly closer framing than planned"
+  ],
+  "casual_look": "PASS; nearest scores 237, 278, 253, all above rejection threshold 215.",
+  "rejected_attempt": "casual2 initial lingerie call returned moderation_blocked and no output; substantively replanned as circus rehearsal."
+}
