@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "simipour-munna-20261023-ab2944",
- "at": "2026-10-23T18:27:33+08:00",
+ "at": "2026-10-23T18:41:06+08:00",
  "characters": [
   {
    "species": "simipour-20261023",
    "card": "앗차키",
-   "at": "2026-10-23T18:27:33+08:00",
+   "at": "2026-10-23T18:41:06+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -18,8 +18,6 @@
      "frame": "chest_up",
      "lens": "natural50",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "balanced"
@@ -31,7 +29,6 @@
       "halter neck",
       "off-shoulder neckline"
      ],
-     "lead": "action",
      "kept": true
     },
     {
@@ -44,20 +41,15 @@
      "frame": "full_body",
      "lens": "documentary35",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
-     "garments": [
-      "lingerie_set"
-     ],
+     "garments": [],
      "expose": [
       "bare midriff",
       "high-cut leg"
      ],
-     "lead": "detail",
      "kept": true
     },
     {
@@ -65,14 +57,14 @@
      "cat": "travel_exploration",
      "ex": "travel_camp",
      "expr": "focused",
-     "pose": "preparing_food",
+     "pose": "on_tiptoe",
      "orient": "over_shoulder",
      "frame": "three_quarter",
-     "lens": "portrait85",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly active",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
@@ -80,13 +72,13 @@
       "jumpsuit"
      ],
      "expose": [
-      "high thigh slit",
-      "strapless top"
+      "strapless top",
+      "halter neck"
      ],
-     "lead": "light",
-     "kept": true
+     "lead": "light"
     }
-   ]
+   ],
+   "refill": true
   },
   {
    "species": "munna-20261023",
