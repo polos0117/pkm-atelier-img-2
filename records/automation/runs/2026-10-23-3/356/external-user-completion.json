@@ -1,0 +1,126 @@
+{
+  "card": 356,
+  "run": "2026-10-23-3",
+  "prior_run_status": "blocked",
+  "prior_character_status": "blocked",
+  "prior_slot": {
+    "status": "in_flight",
+    "at": "2026-10-23T12:19:23+00:00",
+    "prompt": {
+      "path": "records/automation/runs/2026-10-23-3/356/casual3/prompt.txt",
+      "sha256": "7491800a63364f588cc142e5a8d0b0ea6d5147cd26efbcc4e48f5506d1dfd9e5"
+    },
+    "ui": {
+      "path": "records/automation/runs/2026-10-23-3/356/casual3/ui.json",
+      "sha256": "b30e1ae5e5f273c050c43dd0b2f090d497517b395dbd69d9ebc33fc0cf22dbc0"
+    },
+    "references": {
+      "light": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a"
+    },
+    "tool_failure": {
+      "path": "records/automation/runs/2026-10-23-3/356/casual3/tool-failure.json",
+      "sha256": "80cb0915a4094f17089cc317ed62beb868c92e4fc3c414ea18000836d098f816"
+    }
+  },
+  "external_import_record": {
+    "repository": "pkm-atelier-img-3",
+    "path": "records/dusclops-20261023-automation-partial/casual3-import.json",
+    "sha256": "0e18f5888a0a859ce209cd04124b93b5689dfe26be98215d7c3a4e104dacc4f6",
+    "image_commit": "6458e24598e7f2ddb2b75bec3b0fb1a3029b760d",
+    "record": {
+      "uploaded_name": "image.png",
+      "actual_input_format": "PNG",
+      "source_sha256": "0cbde9994938e11b0c45983a66e53da5b8c38c8fe34a56ee465c0004d81b0bfb",
+      "retained_original": null,
+      "output": {
+        "slot": "casual3",
+        "file": "미라몽_glossy_promo_f_casual3.webp",
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "4c80979cadfc998d9f157c8903b730060a0b995efbfe09e96568e10065465a82",
+        "reference": "미라몽_light_glossy_promo_f.webp",
+        "provenance": "사용자가 casual3-refill-prompt.txt(생성기 출력)로 직접 생성해 준 그림. 이 세션에서는 WebP 변환만 했다.",
+        "recovery": "원본 PNG 는 올리지 않고 sha256 만 남긴다(IMAGE_RULES 5절)."
+      },
+      "plan": "casual3-refill-plan.json — everyday_sensual · morning_stretch · half_smile · stretching · rear_3q · chest_up · telephoto135",
+      "review": "창가·커튼·아침 햇빛·팔 올린 스트레칭·뒤 3/4·반미소·회색 슬립 원피스 옆트임·붉은 구슬 펜던트 일치. 프레이밍은 계획(chest_up)보다 넓은 허리 위. 앞 목선은 뒤 각도라 안 보임.",
+      "look_check": "node tools/casual-look.cjs check --card 미라몽 (casual1, casual2, 이 그림) — 통과, 가장 가까운 다른 캐릭터 컷 285점(킬리아 casual2)",
+      "user_approval": "미라몽이랑 같이 올려줘",
+      "at": "2026-10-23",
+      "prompt_provenance": "이 그림의 프롬프트는 casual3-refill-prompt.txt, 생성기 상태는 casual3-refill-ui.json. casual3-prompt.txt·casual3-ui.json 은 막힌 앞 시도의 것."
+    }
+  },
+  "verified_outputs": [
+    {
+      "slot": "light",
+      "file": "미라몽_light_glossy_promo_f.webp",
+      "sha256": "c9adbcfec7790a8a70789d0356ec0ceb6fbc28c616fd203ec178a64434dd789b",
+      "thumbnail_sha256": "cf2bffc630b1fde2727eb4370afde37b2fc74c3c872921c61a085cd3353f3558",
+      "shard": 2
+    },
+    {
+      "slot": "heavy",
+      "file": "미라몽_heavy_glossy_promo_f.webp",
+      "sha256": "f9ea49abcb0d1e1caff79ac1d2a5f6756dd6fb958fe08e5ed8e19b9d5dead95c",
+      "thumbnail_sha256": "693773ba7dfff72d44ef3c3bdd907b668c1d435410133ec063bc376db3040b6e",
+      "shard": 2
+    },
+    {
+      "slot": "mobility",
+      "file": "미라몽_mobility_glossy_promo_f.webp",
+      "sha256": "0b2b7b3b7d976732de74f40162ed1f48da7763771a0c4e897c7564ef57611ac0",
+      "thumbnail_sha256": "048a3f62a39dc1abd02d1e0da7793f286016b6b1dffcfad920cf6ec7d943e503",
+      "shard": 2
+    },
+    {
+      "slot": "light_overdrive",
+      "file": "미라몽_light_overdrive_glossy_promo_f.webp",
+      "sha256": "b9741561bedbf1f75f2c24220781aae42461fc5564ec0b74bb0ed0b6109d2119",
+      "thumbnail_sha256": "c067886ce70defb465f4ac944e3dcf22a1264404edbabf13f31c78b4be1e6d15",
+      "shard": 2
+    },
+    {
+      "slot": "heavy_overdrive",
+      "file": "미라몽_heavy_overdrive_glossy_promo_f.webp",
+      "sha256": "da6f289ac8b15b1353e9bc9f1b0c819c2f3b054b42369a303d71ac0db34ccabd",
+      "thumbnail_sha256": "167da55cad093d45b128d58b9eec5980c44d43e8e1ae5752fe04a71fee1c846d",
+      "shard": 2
+    },
+    {
+      "slot": "mobility_overdrive",
+      "file": "미라몽_mobility_overdrive_glossy_promo_f.webp",
+      "sha256": "608204938e0f9aa99c2f83e854d17b4f2155937b292273d70a452df34e4d30d3",
+      "thumbnail_sha256": "57080ebc520607f4584df8e530953d06a53f49835930830d67f65f6d5b0c7e54",
+      "shard": 2
+    },
+    {
+      "slot": "casual1",
+      "file": "미라몽_glossy_promo_f_casual1.webp",
+      "sha256": "59b06c632ffca5e7ef5b555e955325a43fa12c5322d9e00d3b78d9c7e4e13cd2",
+      "thumbnail_sha256": "cd2b9e40185bee38150c797011caedbb2ee736d2a83b78f16c9afe58ff15b286",
+      "shard": 2
+    },
+    {
+      "slot": "casual2",
+      "file": "미라몽_glossy_promo_f_casual2.webp",
+      "sha256": "c8e4d13b9bf6ecb3633c427433d678f0a1da3ee439a7f9e272f08ab9f774335e",
+      "thumbnail_sha256": "7ac8b9c49c449faf11f959b6e7adba83a6d28bc4302101f941355c200b67485f",
+      "shard": 2
+    },
+    {
+      "slot": "casual3",
+      "file": "미라몽_glossy_promo_f_casual3.webp",
+      "sha256": "4c80979cadfc998d9f157c8903b730060a0b995efbfe09e96568e10065465a82",
+      "thumbnail_sha256": "1c91826ba39742cc1d9dee05c5033d55ebec73cabdd4d3bbf9cc72b1807e328a",
+      "shard": 2
+    }
+  ],
+  "at": "2026-10-23T13:46:20+00:00",
+  "scope": "State-only external completion; no generation, image uploads, quota changes or claim takeover. Original failed generation is not the external supplied image.",
+  "pages_http_bytes_verified": false
+}

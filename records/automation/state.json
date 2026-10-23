@@ -756,14 +756,14 @@
       "id": "2026-10-23-2",
       "execution_id": "pkm-daily-2026-10-23T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "deferred",
+      "status": "complete",
       "created_at": "2026-10-23T09:57:45+00:00",
       "queue": [
         {
           "no": 355,
           "name": "해골몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "completed_externally",
           "slots": {
             "light": {
               "status": "accepted",
@@ -970,7 +970,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "rejected",
               "at": "2026-10-23T10:33:47+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/casual2/prompt.txt",
@@ -986,7 +986,9 @@
               "tool_failure": {
                 "path": "records/automation/runs/2026-10-23-2/355/casual2/tool-failure.json",
                 "sha256": "3e65d28e3b2210927426da56d51eb9fcda97096f83e6122dcec1daeab8174654"
-              }
+              },
+              "terminal_confirmed_at": "2026-10-23T13:46:19+00:00",
+              "terminal_reason": "Preserved moderation_blocked response confirms no output; external user-provided image separately published."
             },
             "casual3": {
               "status": "accepted",
@@ -1332,7 +1334,85 @@
                 }
               ]
             }
-          ]
+          ],
+          "external_evidence": {
+            "commits": {
+              "code": "7ad6b3bb66178b458f4168dfe4686bace401f3f3",
+              "img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+              "img2": "a3f63ec8c698748aa6af765db3ade8248f80a54b",
+              "img3": "587e96a02bea73cee325fed6e5d5d05ef13f51ea"
+            },
+            "published": [
+              {
+                "file": "해골몽_glossy_promo_f_casual1.webp",
+                "shard": 2,
+                "sha256": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67"
+              },
+              {
+                "file": "해골몽_glossy_promo_f_casual2.webp",
+                "shard": 2,
+                "sha256": "6f3ea28a9f1f6c1278d0b56a9bf438bb79e0b29a82d47e99767fb1bea446c62b"
+              },
+              {
+                "file": "해골몽_glossy_promo_f_casual3.webp",
+                "shard": 2,
+                "sha256": "bf6999ae9dc02c7b283f3790b53ac2fcbea4269b4bf1bf5371867b58f9f93c8f"
+              },
+              {
+                "file": "해골몽_heavy_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "b93a08b511d738d879aba2c1f841945b1ec3b69fcf85559ba12315ca6502d4b8"
+              },
+              {
+                "file": "해골몽_heavy_overdrive_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb"
+              },
+              {
+                "file": "해골몽_light_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "992effe57a54392d044f4a5a3389a025238e2cfe8b2d7916c718ac5179eb6945"
+              },
+              {
+                "file": "해골몽_light_overdrive_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6"
+              },
+              {
+                "file": "해골몽_mobility_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "84edf263d9d3b35d913c221c2d9a7ab6f3d1e362e6435409fa76eb962f1cec99"
+              },
+              {
+                "file": "해골몽_mobility_overdrive_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb"
+              }
+            ],
+            "foreign_files": [
+              {
+                "file": "해골몽_glossy_promo_f_casual2.webp",
+                "shard": 2,
+                "sha256": "6f3ea28a9f1f6c1278d0b56a9bf438bb79e0b29a82d47e99767fb1bea446c62b"
+              }
+            ],
+            "registered_files": [
+              "해골몽_glossy_promo_f_casual1.webp",
+              "해골몽_glossy_promo_f_casual2.webp",
+              "해골몽_glossy_promo_f_casual3.webp",
+              "해골몽_heavy_glossy_promo_f.webp",
+              "해골몽_heavy_overdrive_glossy_promo_f.webp",
+              "해골몽_light_glossy_promo_f.webp",
+              "해골몽_light_overdrive_glossy_promo_f.webp",
+              "해골몽_mobility_glossy_promo_f.webp",
+              "해골몽_mobility_overdrive_glossy_promo_f.webp"
+            ]
+          },
+          "ended_at": "2026-10-23T13:46:19+00:00",
+          "external_completion_audit": {
+            "path": "records/automation/runs/2026-10-23-2/355/external-user-completion.json",
+            "sha256": "687f93179651aa5d95a9e0ca52ccb942060ed9f2ca05c75444416af4371fdb85"
+          }
         }
       ],
       "updated_at": "2026-10-23T11:58:52+00:00",
@@ -1343,14 +1423,14 @@
       "id": "2026-10-23-3",
       "execution_id": "pkm-daily-2026-10-23T12-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "complete",
       "created_at": "2026-10-23T11:58:59+00:00",
       "queue": [
         {
           "no": 356,
           "name": "미라몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "completed_externally",
           "slots": {
             "light": {
               "status": "accepted",
@@ -1583,7 +1663,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "rejected",
               "at": "2026-10-23T12:19:23+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-3/356/casual3/prompt.txt",
@@ -1599,7 +1679,9 @@
               "tool_failure": {
                 "path": "records/automation/runs/2026-10-23-3/356/casual3/tool-failure.json",
                 "sha256": "80cb0915a4094f17089cc317ed62beb868c92e4fc3c414ea18000836d098f816"
-              }
+              },
+              "terminal_confirmed_at": "2026-10-23T13:46:20+00:00",
+              "terminal_reason": "Preserved moderation_blocked response confirms no output; external user-provided image separately published."
             }
           },
           "reason": "casual3 image_gen terminal moderation_blocked at output stage, sexual; request 62caa127-628c-4bda-b7cc-38119d28afaf; no output file. No retry; publish eight independent preserved slots.",
@@ -1811,6 +1893,84 @@
               "미라몽_mobility_overdrive_glossy_promo_f.webp"
             ],
             "status": "verify_registration"
+          },
+          "external_evidence": {
+            "commits": {
+              "code": "7ad6b3bb66178b458f4168dfe4686bace401f3f3",
+              "img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+              "img2": "a3f63ec8c698748aa6af765db3ade8248f80a54b",
+              "img3": "587e96a02bea73cee325fed6e5d5d05ef13f51ea"
+            },
+            "published": [
+              {
+                "file": "미라몽_glossy_promo_f_casual1.webp",
+                "shard": 2,
+                "sha256": "59b06c632ffca5e7ef5b555e955325a43fa12c5322d9e00d3b78d9c7e4e13cd2"
+              },
+              {
+                "file": "미라몽_glossy_promo_f_casual2.webp",
+                "shard": 2,
+                "sha256": "c8e4d13b9bf6ecb3633c427433d678f0a1da3ee439a7f9e272f08ab9f774335e"
+              },
+              {
+                "file": "미라몽_glossy_promo_f_casual3.webp",
+                "shard": 2,
+                "sha256": "4c80979cadfc998d9f157c8903b730060a0b995efbfe09e96568e10065465a82"
+              },
+              {
+                "file": "미라몽_heavy_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "f9ea49abcb0d1e1caff79ac1d2a5f6756dd6fb958fe08e5ed8e19b9d5dead95c"
+              },
+              {
+                "file": "미라몽_heavy_overdrive_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "da6f289ac8b15b1353e9bc9f1b0c819c2f3b054b42369a303d71ac0db34ccabd"
+              },
+              {
+                "file": "미라몽_light_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "c9adbcfec7790a8a70789d0356ec0ceb6fbc28c616fd203ec178a64434dd789b"
+              },
+              {
+                "file": "미라몽_light_overdrive_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "b9741561bedbf1f75f2c24220781aae42461fc5564ec0b74bb0ed0b6109d2119"
+              },
+              {
+                "file": "미라몽_mobility_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "0b2b7b3b7d976732de74f40162ed1f48da7763771a0c4e897c7564ef57611ac0"
+              },
+              {
+                "file": "미라몽_mobility_overdrive_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "608204938e0f9aa99c2f83e854d17b4f2155937b292273d70a452df34e4d30d3"
+              }
+            ],
+            "foreign_files": [
+              {
+                "file": "미라몽_glossy_promo_f_casual3.webp",
+                "shard": 2,
+                "sha256": "4c80979cadfc998d9f157c8903b730060a0b995efbfe09e96568e10065465a82"
+              }
+            ],
+            "registered_files": [
+              "미라몽_glossy_promo_f_casual1.webp",
+              "미라몽_glossy_promo_f_casual2.webp",
+              "미라몽_glossy_promo_f_casual3.webp",
+              "미라몽_heavy_glossy_promo_f.webp",
+              "미라몽_heavy_overdrive_glossy_promo_f.webp",
+              "미라몽_light_glossy_promo_f.webp",
+              "미라몽_light_overdrive_glossy_promo_f.webp",
+              "미라몽_mobility_glossy_promo_f.webp",
+              "미라몽_mobility_overdrive_glossy_promo_f.webp"
+            ]
+          },
+          "ended_at": "2026-10-23T13:46:20+00:00",
+          "external_completion_audit": {
+            "path": "records/automation/runs/2026-10-23-3/356/external-user-completion.json",
+            "sha256": "493fc1b839aab0d3c707b293c35136e0ddd1a65cc0d7959df6468828af1181ec"
           }
         }
       ],
@@ -1833,14 +1993,164 @@
     "355": {
       "owner": "pkm-daily",
       "run": "2026-10-23-2",
-      "status": "held",
-      "at": "2026-10-23T09:57:45+00:00"
+      "status": "completed_externally",
+      "at": "2026-10-23T09:57:45+00:00",
+      "ended_at": "2026-10-23T13:46:19+00:00",
+      "reason": "external publication",
+      "evidence": {
+        "commits": {
+          "code": "7ad6b3bb66178b458f4168dfe4686bace401f3f3",
+          "img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+          "img2": "a3f63ec8c698748aa6af765db3ade8248f80a54b",
+          "img3": "587e96a02bea73cee325fed6e5d5d05ef13f51ea"
+        },
+        "published": [
+          {
+            "file": "해골몽_glossy_promo_f_casual1.webp",
+            "shard": 2,
+            "sha256": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67"
+          },
+          {
+            "file": "해골몽_glossy_promo_f_casual2.webp",
+            "shard": 2,
+            "sha256": "6f3ea28a9f1f6c1278d0b56a9bf438bb79e0b29a82d47e99767fb1bea446c62b"
+          },
+          {
+            "file": "해골몽_glossy_promo_f_casual3.webp",
+            "shard": 2,
+            "sha256": "bf6999ae9dc02c7b283f3790b53ac2fcbea4269b4bf1bf5371867b58f9f93c8f"
+          },
+          {
+            "file": "해골몽_heavy_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "b93a08b511d738d879aba2c1f841945b1ec3b69fcf85559ba12315ca6502d4b8"
+          },
+          {
+            "file": "해골몽_heavy_overdrive_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb"
+          },
+          {
+            "file": "해골몽_light_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "992effe57a54392d044f4a5a3389a025238e2cfe8b2d7916c718ac5179eb6945"
+          },
+          {
+            "file": "해골몽_light_overdrive_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6"
+          },
+          {
+            "file": "해골몽_mobility_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "84edf263d9d3b35d913c221c2d9a7ab6f3d1e362e6435409fa76eb962f1cec99"
+          },
+          {
+            "file": "해골몽_mobility_overdrive_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb"
+          }
+        ],
+        "foreign_files": [
+          {
+            "file": "해골몽_glossy_promo_f_casual2.webp",
+            "shard": 2,
+            "sha256": "6f3ea28a9f1f6c1278d0b56a9bf438bb79e0b29a82d47e99767fb1bea446c62b"
+          }
+        ],
+        "registered_files": [
+          "해골몽_glossy_promo_f_casual1.webp",
+          "해골몽_glossy_promo_f_casual2.webp",
+          "해골몽_glossy_promo_f_casual3.webp",
+          "해골몽_heavy_glossy_promo_f.webp",
+          "해골몽_heavy_overdrive_glossy_promo_f.webp",
+          "해골몽_light_glossy_promo_f.webp",
+          "해골몽_light_overdrive_glossy_promo_f.webp",
+          "해골몽_mobility_glossy_promo_f.webp",
+          "해골몽_mobility_overdrive_glossy_promo_f.webp"
+        ]
+      }
     },
     "356": {
       "owner": "pkm-daily",
       "run": "2026-10-23-3",
-      "status": "held",
-      "at": "2026-10-23T11:58:59+00:00"
+      "status": "completed_externally",
+      "at": "2026-10-23T11:58:59+00:00",
+      "ended_at": "2026-10-23T13:46:20+00:00",
+      "reason": "external publication",
+      "evidence": {
+        "commits": {
+          "code": "7ad6b3bb66178b458f4168dfe4686bace401f3f3",
+          "img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+          "img2": "a3f63ec8c698748aa6af765db3ade8248f80a54b",
+          "img3": "587e96a02bea73cee325fed6e5d5d05ef13f51ea"
+        },
+        "published": [
+          {
+            "file": "미라몽_glossy_promo_f_casual1.webp",
+            "shard": 2,
+            "sha256": "59b06c632ffca5e7ef5b555e955325a43fa12c5322d9e00d3b78d9c7e4e13cd2"
+          },
+          {
+            "file": "미라몽_glossy_promo_f_casual2.webp",
+            "shard": 2,
+            "sha256": "c8e4d13b9bf6ecb3633c427433d678f0a1da3ee439a7f9e272f08ab9f774335e"
+          },
+          {
+            "file": "미라몽_glossy_promo_f_casual3.webp",
+            "shard": 2,
+            "sha256": "4c80979cadfc998d9f157c8903b730060a0b995efbfe09e96568e10065465a82"
+          },
+          {
+            "file": "미라몽_heavy_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "f9ea49abcb0d1e1caff79ac1d2a5f6756dd6fb958fe08e5ed8e19b9d5dead95c"
+          },
+          {
+            "file": "미라몽_heavy_overdrive_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "da6f289ac8b15b1353e9bc9f1b0c819c2f3b054b42369a303d71ac0db34ccabd"
+          },
+          {
+            "file": "미라몽_light_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "c9adbcfec7790a8a70789d0356ec0ceb6fbc28c616fd203ec178a64434dd789b"
+          },
+          {
+            "file": "미라몽_light_overdrive_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "b9741561bedbf1f75f2c24220781aae42461fc5564ec0b74bb0ed0b6109d2119"
+          },
+          {
+            "file": "미라몽_mobility_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "0b2b7b3b7d976732de74f40162ed1f48da7763771a0c4e897c7564ef57611ac0"
+          },
+          {
+            "file": "미라몽_mobility_overdrive_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "608204938e0f9aa99c2f83e854d17b4f2155937b292273d70a452df34e4d30d3"
+          }
+        ],
+        "foreign_files": [
+          {
+            "file": "미라몽_glossy_promo_f_casual3.webp",
+            "shard": 2,
+            "sha256": "4c80979cadfc998d9f157c8903b730060a0b995efbfe09e96568e10065465a82"
+          }
+        ],
+        "registered_files": [
+          "미라몽_glossy_promo_f_casual1.webp",
+          "미라몽_glossy_promo_f_casual2.webp",
+          "미라몽_glossy_promo_f_casual3.webp",
+          "미라몽_heavy_glossy_promo_f.webp",
+          "미라몽_heavy_overdrive_glossy_promo_f.webp",
+          "미라몽_light_glossy_promo_f.webp",
+          "미라몽_light_overdrive_glossy_promo_f.webp",
+          "미라몽_mobility_glossy_promo_f.webp",
+          "미라몽_mobility_overdrive_glossy_promo_f.webp"
+        ]
+      }
     }
   },
   "blocked_candidates": {

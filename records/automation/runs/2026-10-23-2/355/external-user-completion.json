@@ -1,0 +1,125 @@
+{
+  "card": 355,
+  "run": "2026-10-23-2",
+  "prior_run_status": "deferred",
+  "prior_character_status": "blocked",
+  "prior_slot": {
+    "status": "in_flight",
+    "at": "2026-10-23T10:33:47+00:00",
+    "prompt": {
+      "path": "records/automation/runs/2026-10-23-2/355/casual2/prompt.txt",
+      "sha256": "b1724a4cb22bc6a8bfe21b1020158b581f235176dd1124e5f8940b86b0d777f2"
+    },
+    "ui": {
+      "path": "records/automation/runs/2026-10-23-2/355/casual2/ui.json",
+      "sha256": "4066d8a69acb0b4c4e10b7d7880b68f365a8545f42c9709ce4734aaf2eb3a5d6"
+    },
+    "references": {
+      "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+    },
+    "tool_failure": {
+      "path": "records/automation/runs/2026-10-23-2/355/casual2/tool-failure.json",
+      "sha256": "3e65d28e3b2210927426da56d51eb9fcda97096f83e6122dcec1daeab8174654"
+    }
+  },
+  "external_import_record": {
+    "repository": "pkm-atelier-img-3",
+    "path": "records/duskull-20261023-automation-partial/casual2-import.json",
+    "sha256": "c7b2163599d806e893f654c50d9b8d6b348b6e62e86e22176fef5d6a38a12eeb",
+    "image_commit": "3500237bf3ea43eebff53d6c38cb0791f123281d",
+    "record": {
+      "uploaded_name": "image.png",
+      "actual_input_format": "PNG",
+      "source_sha256": "ad77d0f6cd047cec70a31bb13020ff176bac6a3752c1ed9ca8e835d107ee6eb8",
+      "retained_original": null,
+      "output": {
+        "slot": "casual2",
+        "file": "해골몽_glossy_promo_f_casual2.webp",
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "6f3ea28a9f1f6c1278d0b56a9bf438bb79e0b29a82d47e99767fb1bea446c62b",
+        "reference": "해골몽_light_glossy_promo_f.webp",
+        "provenance": "사용자가 비어 있던 일상컷 2번 자리에 직접 만들어 준 그림. 이 세션에서 생성·수정 없이 WebP 변환만 했다.",
+        "recovery": "원본 PNG 는 규칙(IMAGE_RULES 5절 '원본 PNG 는 세션 안에만')대로 올리지 않고 sha256 만 남긴다."
+      },
+      "plan_match": "plan-v2.json 의 cut 2(lingerie · garter_set · high_angle · standing_formal · soft_smile · environmental)와 장면이 맞는다 — 피팅룸, 가터 세트, 위에서 내려다본 각도.",
+      "look_check": "node tools/casual-look.cjs check --card 해골몽 (casual1, 이 그림, casual3) — 통과, 가장 가까운 다른 캐릭터 컷 317점(대짱이 casual1)",
+      "user_approval": "1번으로 해골몽만 올려줘",
+      "at": "2026-10-23",
+      "prompt_provenance": "사용자가 준 최종 그림 — 이 폴더의 casual2 프롬프트·설정 기록은 막힌 자동 생성 시도의 것이며 이 그림의 설정으로 확인된 것이 아니다."
+    }
+  },
+  "verified_outputs": [
+    {
+      "slot": "light",
+      "file": "해골몽_light_glossy_promo_f.webp",
+      "sha256": "992effe57a54392d044f4a5a3389a025238e2cfe8b2d7916c718ac5179eb6945",
+      "thumbnail_sha256": "0c934223cd7e34be51257086d0e1aaa221374a0bbe37763394064793b11c3ace",
+      "shard": 2
+    },
+    {
+      "slot": "heavy",
+      "file": "해골몽_heavy_glossy_promo_f.webp",
+      "sha256": "b93a08b511d738d879aba2c1f841945b1ec3b69fcf85559ba12315ca6502d4b8",
+      "thumbnail_sha256": "03a9b1cab3884fef76e0c4f226c0f9680dbda79771759d2c183590ff7c380944",
+      "shard": 2
+    },
+    {
+      "slot": "mobility",
+      "file": "해골몽_mobility_glossy_promo_f.webp",
+      "sha256": "84edf263d9d3b35d913c221c2d9a7ab6f3d1e362e6435409fa76eb962f1cec99",
+      "thumbnail_sha256": "bc5abc818d7d643545b0d0b620f7f09d66abd5eb7cb40e73ba2ae37083ee70de",
+      "shard": 2
+    },
+    {
+      "slot": "light_overdrive",
+      "file": "해골몽_light_overdrive_glossy_promo_f.webp",
+      "sha256": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6",
+      "thumbnail_sha256": "7de1a0239fc959477bdc75a60aef142c6e5219924b440d7611b0746d4732f2eb",
+      "shard": 2
+    },
+    {
+      "slot": "heavy_overdrive",
+      "file": "해골몽_heavy_overdrive_glossy_promo_f.webp",
+      "sha256": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb",
+      "thumbnail_sha256": "9c18dce4d7948e3116802a1a72205e2d1ac25b28bea116fccfe97b295024aa1e",
+      "shard": 2
+    },
+    {
+      "slot": "mobility_overdrive",
+      "file": "해골몽_mobility_overdrive_glossy_promo_f.webp",
+      "sha256": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb",
+      "thumbnail_sha256": "d9dff582fc873f80ee653027b1175b850fc21ce210b0197665959d9a564ed326",
+      "shard": 2
+    },
+    {
+      "slot": "casual1",
+      "file": "해골몽_glossy_promo_f_casual1.webp",
+      "sha256": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67",
+      "thumbnail_sha256": "de4d22019eef90d97532fe2587aa1cbaca13770aae7ff16018bffb25e90d15b1",
+      "shard": 2
+    },
+    {
+      "slot": "casual2",
+      "file": "해골몽_glossy_promo_f_casual2.webp",
+      "sha256": "6f3ea28a9f1f6c1278d0b56a9bf438bb79e0b29a82d47e99767fb1bea446c62b",
+      "thumbnail_sha256": "4f1ca01e39a0675b926128d76aebbd92dc2e9a2f23c5398704244e28151459da",
+      "shard": 2
+    },
+    {
+      "slot": "casual3",
+      "file": "해골몽_glossy_promo_f_casual3.webp",
+      "sha256": "bf6999ae9dc02c7b283f3790b53ac2fcbea4269b4bf1bf5371867b58f9f93c8f",
+      "thumbnail_sha256": "1a4805a3c01fa5175ee3992f438cf59013c431005bd8f2e57e31bce3bf858645",
+      "shard": 2
+    }
+  ],
+  "at": "2026-10-23T13:46:19+00:00",
+  "scope": "State-only external completion; no generation, image uploads, quota changes or claim takeover. Original failed generation is not the external supplied image.",
+  "pages_http_bytes_verified": false
+}
