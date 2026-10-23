@@ -2734,10 +2734,98 @@
               "pkm-atelier-img-3": "aad27018c8a73865a6caddeeeafb6acad1580895"
             },
             "at": "2026-10-23T16:22:14+00:00",
-            "status": "preflight_checked"
+            "status": "published_registered_7_of_9",
+            "image_commit": "e94fc07cc46d24bb5f9f7bd18ba7f5673582af77",
+            "thumbnail_commit": "4deb6909b92a3fb6e14e935f52b25befe98eb41c",
+            "registration_commit": "1d3fc6e5047864da49be2a6d77841b19ac645497",
+            "verified_at": "2026-10-23T16:26:09+00:00",
+            "outputs": [
+              {
+                "slot": "light",
+                "file": "마자_light_glossy_promo_f.webp",
+                "sha256": "fe5ac482d119c025f9d83976a5660aa211c62d908197fdb4d5b51795613bcfc3",
+                "source_sha256": "e8c1f9b437e8614a8f66f5413edf92632473ac5511bb3d7716ecbb582ca4c521",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {}
+              },
+              {
+                "slot": "heavy",
+                "file": "마자_heavy_glossy_promo_f.webp",
+                "sha256": "86dcbd601f67d4e191467e3a18b3c2161240da49b0440a63f54b921ce00a8c59",
+                "source_sha256": "41a3ddce12b05e9d05d1b11b672f770a82d0ceebbd643b4a2d73c4a61f6730a9",
+                "acceptance_basis": "visual_qa",
+                "qa_passed": true,
+                "references": {
+                  "light": "e8c1f9b437e8614a8f66f5413edf92632473ac5511bb3d7716ecbb582ca4c521"
+                }
+              },
+              {
+                "slot": "mobility",
+                "file": "마자_mobility_glossy_promo_f.webp",
+                "sha256": "a3290bb4774f4d06591d4a9295ce1d25db05f32e385dc5443643f72523405b88",
+                "source_sha256": "79f6fef9399cb1b3b6f0b13c2e7ff06f3abf1c618d4ca085147342ebb71e96ef",
+                "acceptance_basis": "visual_qa",
+                "qa_passed": true,
+                "references": {
+                  "light": "e8c1f9b437e8614a8f66f5413edf92632473ac5511bb3d7716ecbb582ca4c521"
+                }
+              },
+              {
+                "slot": "light_overdrive",
+                "file": "마자_light_overdrive_glossy_promo_f.webp",
+                "sha256": "7670796c1d33661309a5060c3311dc78cfcba7956fb40f44a09129b3429de180",
+                "source_sha256": "7d3861c11b2dbe45b1002694441a2e64c347e0bd5240f2cd407b35cc541dcfb5",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "e8c1f9b437e8614a8f66f5413edf92632473ac5511bb3d7716ecbb582ca4c521"
+                }
+              },
+              {
+                "slot": "heavy_overdrive",
+                "file": "마자_heavy_overdrive_glossy_promo_f.webp",
+                "sha256": "556a543b50a186ac4cc1a6fe2317b0216ff31ed88e02d4d07aa62ed2a4764434",
+                "source_sha256": "ccd28344e59cc19fb4751c3fe204aa69d8733110571c5cc25d591253f53bdf58",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "heavy": "41a3ddce12b05e9d05d1b11b672f770a82d0ceebbd643b4a2d73c4a61f6730a9"
+                }
+              },
+              {
+                "slot": "mobility_overdrive",
+                "file": "마자_mobility_overdrive_glossy_promo_f.webp",
+                "sha256": "792bd999c6e5e039d9b036f4e5edf24654aba7e8e45426a08517c243e66e3229",
+                "source_sha256": "467092a7a7e74da8e7c4dc6705c4a4c77d20f62609c24591a5f39034ad93d65c",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "mobility": "79f6fef9399cb1b3b6f0b13c2e7ff06f3abf1c618d4ca085147342ebb71e96ef"
+                }
+              },
+              {
+                "slot": "casual2",
+                "file": "마자_glossy_promo_f_casual2.webp",
+                "sha256": "fdf34fd9a7b781709106cc8ec5572381dcb9236061c268224506e81f8b7c732a",
+                "source_sha256": "d2c341d697f283e4f79c7b058c1c51cbb11da929eca06846dfb2a7198dc411f3",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "e8c1f9b437e8614a8f66f5413edf92632473ac5511bb3d7716ecbb582ca4c521"
+                }
+              }
+            ],
+            "remote_git_image_and_thumbnail_bytes_verified": true,
+            "pages_http_bytes_verified": false,
+            "http_verification_failures": [
+              {
+                "reason": "Public Pages byte fetch blocked by environment proxy: Tunnel connection failed: 403 Forbidden. No repeated fetch."
+              }
+            ]
           },
           "publication": {
-            "status": "partial_preflight_checked",
+            "status": "partial_published_registered",
             "at": "2026-10-23T16:22:14+00:00",
             "repository": "pkm-atelier-img-3",
             "files": {
@@ -2749,6 +2837,18 @@
               "img/마자_mobility_overdrive_glossy_promo_f.webp": "792bd999c6e5e039d9b036f4e5edf24654aba7e8e45426a08517c243e66e3229",
               "img/마자_glossy_promo_f_casual2.webp": "fdf34fd9a7b781709106cc8ec5572381dcb9236061c268224506e81f8b7c732a"
             }
+          },
+          "own_publication": {
+            "files": [
+              "마자_glossy_promo_f_casual2.webp",
+              "마자_heavy_glossy_promo_f.webp",
+              "마자_heavy_overdrive_glossy_promo_f.webp",
+              "마자_light_glossy_promo_f.webp",
+              "마자_light_overdrive_glossy_promo_f.webp",
+              "마자_mobility_glossy_promo_f.webp",
+              "마자_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
           }
         }
       ],
