@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-glameow-purugly-20261023-131c",
- "at": "2026-10-22T18:07:33-07:00",
+ "at": "2026-10-22T19:56:12-07:00",
  "characters": [
   {
    "species": "glameow-20261023",
    "card": "나옹마",
-   "at": "2026-10-22T18:07:33-07:00",
+   "at": "2026-10-22T19:56:12-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,7 +32,8 @@
       "open back",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -58,30 +59,31 @@
       "off-shoulder neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "lingerie",
-     "ex": "garter_set",
-     "expr": "pensive",
+     "cat": "adult_roleplay",
+     "ex": "vinyl_stage",
+     "expr": "playful",
      "pose": "one_knee_up",
-     "orient": "leaning_back",
-     "frame": "full_body",
+     "orient": "crouching",
+     "frame": "three_quarter",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set"
+      "jacket"
      ],
      "expose": [
-      "plunging neckline",
-      "bare midriff"
+      "bare midriff",
+      "cropped hem"
      ],
      "lead": "light"
     }
