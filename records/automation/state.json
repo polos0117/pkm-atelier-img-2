@@ -2502,6 +2502,21 @@
                 "path": "records/automation/runs/2026-10-23-5/360/light_overdrive/user-exception.json",
                 "sha256": "e6102d2c27e4982746b1ffb765046d33c296753b909d1b8992740894320314f3"
               }
+            },
+            "heavy_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-23T16:07:13+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-5/360/heavy_overdrive/prompt.txt",
+                "sha256": "0b2ae1b466df7601811efea6ca2cea69a091c57f6f8e8a2b2f77d3c4c93a6fc3"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-5/360/heavy_overdrive/ui.json",
+                "sha256": "0df93925e2b3a31160f303c9d36d072d6cf4947c4dd3eeaf95807c8796467d71"
+              },
+              "references": {
+                "heavy": "41a3ddce12b05e9d05d1b11b672f770a82d0ceebbd643b4a2d73c4a61f6730a9"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Same camera/pose/scale and hands as light, magenta opened-frame gaps visible. Extra small fin-like pieces at shoulders/calves and pupil tint shift beyond a small glint; preserve strict before/after mismatch as failed QA accepted for post-upload review.",
@@ -2523,7 +2538,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T16:07:01+00:00"
+      "updated_at": "2026-10-23T16:07:13+00:00"
     }
   ],
   "claims": {
@@ -2929,9 +2944,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
