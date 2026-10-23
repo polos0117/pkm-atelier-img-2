@@ -2566,6 +2566,21 @@
                 "path": "records/automation/runs/2026-10-23-5/360/mobility_overdrive/user-exception.json",
                 "sha256": "b11137c2b79132069656732b785180f4b280cdc0b39e018077183bcecbbd350c"
               }
+            },
+            "casual1": {
+              "status": "in_flight",
+              "at": "2026-10-23T16:13:49+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-5/360/casual1/prompt.txt",
+                "sha256": "b56787d38aed03fa75a812532646f0fe82f28ad80230611f5096984aabdac033"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-5/360/casual1/ui.json",
+                "sha256": "cea3fe2778a6ef7eade7316f5d0e807cc7e7be397361cf67d90f28233c954464"
+              },
+              "references": {
+                "light": "e8c1f9b437e8614a8f66f5413edf92632473ac5511bb3d7716ecbb582ca4c521"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Same mobility camera/pose/face/hair/scale and hands; swept panels opened with magenta thruster interiors and rings. Expression remains cheerful rather than tightened with strain; some panel tips extended. Preserve paired-state QA mismatch for user post-upload review.",
@@ -2601,7 +2616,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T16:11:50+00:00"
+      "updated_at": "2026-10-23T16:13:49+00:00"
     }
   ],
   "claims": {
@@ -3035,16 +3050,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
