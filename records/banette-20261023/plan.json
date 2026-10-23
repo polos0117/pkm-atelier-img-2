@@ -1,0 +1,590 @@
+{
+  "batch": {
+    "session": "shuppet-banette-dea43",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "어둠대신",
+        "species": "shuppet-20261023",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "window_light",
+            "expr": "amused",
+            "pose": "dance_step",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "open back",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "partner_care",
+            "ex": "care_feeding",
+            "expr": "surprised",
+            "pose": "offering_food",
+            "orient": "front",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "triangle_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "leaning_wall",
+            "expr": "cold_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "bare midriff"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "다크펫",
+        "species": "banette-20261023",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "cabana_daybed",
+            "expr": "candid",
+            "pose": "holding_cup",
+            "orient": "three_quarter_back",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "side cutouts",
+              "plunging neckline"
+            ],
+            "lead": "place",
+            "scene": "A striped cabana canopy casts bands of late-afternoon shade over the daybed; a closed paperback and a chilled citrus drink sit within reach.",
+            "outfit": "A black one-piece swimsuit with a plunging V front and side cutouts has gold zigzag binding and a small zipper clasp; an open ivory cover-up hangs loosely behind her arms, leaving shoulders and waist sides visible.",
+            "example_text": "seated at a resort cabana daybed in swimwear with an open cover-up, a book and a cold drink beside her",
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "axes.action_level",
+              "axes.source_influence",
+              "axes.separates_preference"
+            ],
+            "randomization": {
+              "planner": "tools/casual-plan.cjs",
+              "selection_changes_by_hand": false
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "value": "A striped cabana canopy casts bands of late-afternoon shade over the daybed; a closed paperback and a chilled citrus drink sit within reach.",
+                "reason": "카바나 예시에 없는 줄무늬 그늘과 늦은 오후·닫힌 책을 특정"
+              },
+              {
+                "field": "outfit",
+                "value": "A black one-piece swimsuit with a plunging V front and side cutouts has gold zigzag binding and a small zipper clasp; an open ivory cover-up hangs loosely behind her arms, leaving shoulders and waist sides visible.",
+                "reason": "계획의 옆 컷아웃·깊은 목선을 검정 원피스 수영복과 금색 지그재그 테두리로 구현"
+              },
+              {
+                "field": "camera",
+                "value": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+              }
+            ],
+            "axes_reason": {
+              "action_level": "차가운 음료를 손에 드는 가벼운 움직임",
+              "source_influence": "검정·금색 팔레트와 지그재그·지퍼 장식을 수영복으로 번역",
+              "separates_preference": "원피스 수영복의 한 벌 실루엣"
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "soft_tank_shorts",
+            "expr": "sleepy",
+            "pose": "squatting",
+            "orient": "looking_away",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "tank"
+            ],
+            "expose": [
+              "open back",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail",
+            "scene": "A low wicker laundry basket holds fresh towels beside the bedroom window; she has paused while folding a hand towel before turning in for the night.",
+            "outfit": "A soft powder-blue ribbed tank drapes off one shoulder and opens low across the back, paired with loose white cotton shorts; her shoulders, upper back and legs are visible, with a small dark stitch at the hem.",
+            "example_text": "basic homewear — a soft ribbed tank top and short cotton shorts — relaxing at home",
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "axes.action_level",
+              "axes.source_influence",
+              "axes.separates_preference"
+            ],
+            "randomization": {
+              "planner": "tools/casual-plan.cjs",
+              "selection_changes_by_hand": false
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "value": "A low wicker laundry basket holds fresh towels beside the bedroom window; she has paused while folding a hand towel before turning in for the night.",
+                "reason": "휴식 예시에 밤의 수건 바구니와 수건 접기를 보충"
+              },
+              {
+                "field": "outfit",
+                "value": "A soft powder-blue ribbed tank drapes off one shoulder and opens low across the back, paired with loose white cotton shorts; her shoulders, upper back and legs are visible, with a small dark stitch at the hem.",
+                "reason": "탱크톱의 내려온 한쪽 어깨와 낮게 열린 등·흰 코튼 쇼츠를 명시"
+              },
+              {
+                "field": "camera",
+                "value": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+              }
+            ],
+            "axes_reason": {
+              "action_level": "쪼그린 상태에서 수건을 접다 멈춘 휴식",
+              "source_influence": "옷단의 작은 짙은 바느질 한 곳만 남김",
+              "separates_preference": "탱크톱과 쇼츠가 분리된 상하의"
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "heritage_couture",
+            "garments": [
+              "dress"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "standing_relaxed",
+            "expr": "pensive",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "place",
+            "scene": "A pale limestone corridor opens onto a textile gallery courtyard; a length of black silk lies on a low display rail beside her in the clear morning light.",
+            "outfit": "A black silk couture wrap dress keeps the crossed neckline and goreum ties of a hanbok, with a narrow gold tie as its color echo; a plunging V neckline, sleeveless shoulders and a high side slit reveal collarbones, arms and one thigh.",
+            "example_text": "couture that keeps the structure and fastenings of a traditional dress, recoloured in her source Pokémon's palette",
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "axes.overall_intensity",
+              "axes.skin_exposure",
+              "axes.action_level",
+              "axes.source_influence",
+              "axes.separates_preference"
+            ],
+            "randomization": {
+              "planner": "tools/casual-plan.cjs",
+              "selection_changes_by_hand": false
+            },
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "value": "A pale limestone corridor opens onto a textile gallery courtyard; a length of black silk lies on a low display rail beside her in the clear morning light.",
+                "reason": "전통복 쿠튀르 예시에 직물 갤러리의 석회암 회랑과 진열대를 부여"
+              },
+              {
+                "field": "outfit",
+                "value": "A black silk couture wrap dress keeps the crossed neckline and goreum ties of a hanbok, with a narrow gold tie as its color echo; a plunging V neckline, sleeveless shoulders and a high side slit reveal collarbones, arms and one thigh.",
+                "reason": "한복의 겹친 목선과 고름을 검정 실크 랩 원피스·높은 슬릿으로 해석"
+              },
+              {
+                "field": "camera",
+                "value": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+              }
+            ],
+            "axes_reason": {
+              "action_level": "갤러리 진열대 곁에 편히 서서 잠깐 돌아서는 순간",
+              "source_influence": "검정 실크와 좁은 금색 고름으로 원작 색을 반영",
+              "separates_preference": "랩 원피스 한 벌 구조"
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "dress"
+          ],
+          "orient": [
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "cabana_daybed",
+      "expr": "candid",
+      "pose": "holding_cup",
+      "orient": "three_quarter_back",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "expose": [
+        "side cutouts",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "scene": "A striped cabana canopy casts bands of late-afternoon shade over the daybed; a closed paperback and a chilled citrus drink sit within reach.",
+      "outfit": "A black one-piece swimsuit with a plunging V front and side cutouts has gold zigzag binding and a small zipper clasp; an open ivory cover-up hangs loosely behind her arms, leaving shoulders and waist sides visible.",
+      "example_text": "seated at a resort cabana daybed in swimwear with an open cover-up, a book and a cold drink beside her",
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "axes.action_level",
+        "axes.source_influence",
+        "axes.separates_preference"
+      ],
+      "randomization": {
+        "planner": "tools/casual-plan.cjs",
+        "selection_changes_by_hand": false
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "A striped cabana canopy casts bands of late-afternoon shade over the daybed; a closed paperback and a chilled citrus drink sit within reach.",
+          "reason": "카바나 예시에 없는 줄무늬 그늘과 늦은 오후·닫힌 책을 특정"
+        },
+        {
+          "field": "outfit",
+          "value": "A black one-piece swimsuit with a plunging V front and side cutouts has gold zigzag binding and a small zipper clasp; an open ivory cover-up hangs loosely behind her arms, leaving shoulders and waist sides visible.",
+          "reason": "계획의 옆 컷아웃·깊은 목선을 검정 원피스 수영복과 금색 지그재그 테두리로 구현"
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "차가운 음료를 손에 드는 가벼운 움직임",
+        "source_influence": "검정·금색 팔레트와 지그재그·지퍼 장식을 수영복으로 번역",
+        "separates_preference": "원피스 수영복의 한 벌 실루엣"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "homewear",
+      "ex": "soft_tank_shorts",
+      "expr": "sleepy",
+      "pose": "squatting",
+      "orient": "looking_away",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "shorts",
+        "tank"
+      ],
+      "expose": [
+        "open back",
+        "off-shoulder neckline"
+      ],
+      "lead": "detail",
+      "scene": "A low wicker laundry basket holds fresh towels beside the bedroom window; she has paused while folding a hand towel before turning in for the night.",
+      "outfit": "A soft powder-blue ribbed tank drapes off one shoulder and opens low across the back, paired with loose white cotton shorts; her shoulders, upper back and legs are visible, with a small dark stitch at the hem.",
+      "example_text": "basic homewear — a soft ribbed tank top and short cotton shorts — relaxing at home",
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "axes.action_level",
+        "axes.source_influence",
+        "axes.separates_preference"
+      ],
+      "randomization": {
+        "planner": "tools/casual-plan.cjs",
+        "selection_changes_by_hand": false
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "A low wicker laundry basket holds fresh towels beside the bedroom window; she has paused while folding a hand towel before turning in for the night.",
+          "reason": "휴식 예시에 밤의 수건 바구니와 수건 접기를 보충"
+        },
+        {
+          "field": "outfit",
+          "value": "A soft powder-blue ribbed tank drapes off one shoulder and opens low across the back, paired with loose white cotton shorts; her shoulders, upper back and legs are visible, with a small dark stitch at the hem.",
+          "reason": "탱크톱의 내려온 한쪽 어깨와 낮게 열린 등·흰 코튼 쇼츠를 명시"
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "쪼그린 상태에서 수건을 접다 멈춘 휴식",
+        "source_influence": "옷단의 작은 짙은 바느질 한 곳만 남김",
+        "separates_preference": "탱크톱과 쇼츠가 분리된 상하의"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "source_editorial",
+      "ex": "heritage_couture",
+      "garments": [
+        "dress"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "pose": "standing_relaxed",
+      "expr": "pensive",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "scene": "A pale limestone corridor opens onto a textile gallery courtyard; a length of black silk lies on a low display rail beside her in the clear morning light.",
+      "outfit": "A black silk couture wrap dress keeps the crossed neckline and goreum ties of a hanbok, with a narrow gold tie as its color echo; a plunging V neckline, sleeveless shoulders and a high side slit reveal collarbones, arms and one thigh.",
+      "example_text": "couture that keeps the structure and fastenings of a traditional dress, recoloured in her source Pokémon's palette",
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "axes.overall_intensity",
+        "axes.skin_exposure",
+        "axes.action_level",
+        "axes.source_influence",
+        "axes.separates_preference"
+      ],
+      "randomization": {
+        "planner": "tools/casual-plan.cjs",
+        "selection_changes_by_hand": false
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "value": "A pale limestone corridor opens onto a textile gallery courtyard; a length of black silk lies on a low display rail beside her in the clear morning light.",
+          "reason": "전통복 쿠튀르 예시에 직물 갤러리의 석회암 회랑과 진열대를 부여"
+        },
+        {
+          "field": "outfit",
+          "value": "A black silk couture wrap dress keeps the crossed neckline and goreum ties of a hanbok, with a narrow gold tie as its color echo; a plunging V neckline, sleeveless shoulders and a high side slit reveal collarbones, arms and one thigh.",
+          "reason": "한복의 겹친 목선과 고름을 검정 실크 랩 원피스·높은 슬릿으로 해석"
+        },
+        {
+          "field": "camera",
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인수가 없어 규칙이 허용한 2:3 문구 추가"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "갤러리 진열대 곁에 편히 서서 잠깐 돌아서는 순간",
+        "source_influence": "검정 실크와 좁은 금색 고름으로 원작 색을 반영",
+        "separates_preference": "랩 원피스 한 벌 구조"
+      }
+    }
+  ],
+  "check": "planner check passed before reservations",
+  "reservation_commit": "c6c000a142dc84f10b8ccaeb72fbba34b382cea1",
+  "replans": [
+    {
+      "slot": "casual3",
+      "reason": "station_wait 예시의 코트가 카바나의 커버업과 겹쳐 덮는 겉옷 한 장 조건을 만족시키기 어려움",
+      "result": "계획기가 source_editorial/heritage_couture를 고름; 실제 완성한 1,2번은 keep으로 유지"
+    }
+  ]
+}

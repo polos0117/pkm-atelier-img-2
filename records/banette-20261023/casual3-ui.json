@@ -1,0 +1,95 @@
+{
+  "card": "다크펫",
+  "storage": {
+    "last": "다크펫",
+    "cards": {
+      "다크펫": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {},
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "pensive",
+            "pose": "standing_relaxed",
+            "orient": "turning_midmotion",
+            "scene": "A pale limestone corridor opens onto a textile gallery courtyard; a length of black silk lies on a low display rail beside her in the clear morning light.",
+            "outfit": "A black silk couture wrap dress keeps the crossed neckline and goreum ties of a hanbok, with a narrow gold tie as its color echo; a plunging V neckline, sleeveless shoulders and a high side slit reveal collarbones, arms and one thigh.",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "source_editorial",
+            "catCustom": "",
+            "ex": "heritage_couture",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 3,
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Banette (다크펫) personified, ghost type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: gaze angled down and away, slightly furrowed brow, lips lightly pressed or touched\nPose: Stand at ease with relaxed shoulders and naturally balanced feet.\nOrientation: mid-turn body motion with equipment following its body mounts\nScene: A pale limestone corridor opens onto a textile gallery courtyard; a length of black silk lies on a low display rail beside her in the clear morning light.\nOutfit and props: A black silk couture wrap dress keeps the crossed neckline and goreum ties of a hanbok, with a narrow gold tie as its color echo; a plunging V neckline, sleeveless shoulders and a high side slit reveal collarbones, arms and one thigh.\nCategory: This scene should reinterpret the source creature as human editorial fashion. Translate source-specific colors, geometry, silhouette logic, crest language, and equipment symbolism into couture or themed fashion. No literal armor, no pilot suit, no mechanical body, no weapons.\nExample scene: couture that keeps the structure and fastenings of a traditional dress, recoloured in her source Pokémon's palette\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "fnv": 2032381743,
+  "provenance": "Actual generator UI controls selected through browser; prompt reproduced with the same generator source and verified against the actual displayed prompt FNV-1a hash and length before submission."
+}
