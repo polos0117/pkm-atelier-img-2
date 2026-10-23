@@ -1,10 +1,13 @@
 {
   "version": 1,
   "policy": {
-    "daily_max": 2,
-    "timezone": "UTC",
+    "daily_max": 12,
+    "timezone": "Asia/Seoul",
     "external_publication": "skip_after_preserving_in_flight_result",
-    "image_operations_require_card": true
+    "image_operations_require_card": true,
+    "utc_daily_max": 12,
+    "execution_max": 1,
+    "cadence_hours": 2
   },
   "daily": {
     "2026-10-22": [
@@ -911,5 +914,12 @@
       "at": "2026-10-22T03:30:33-07:00",
       "status": "external_reservation_do_not_take_over"
     }
-  }
+  },
+  "daily_kst": {
+    "2026-10-22": [
+      345,
+      346
+    ]
+  },
+  "executions": {}
 }
