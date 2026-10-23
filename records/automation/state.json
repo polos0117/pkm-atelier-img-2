@@ -897,6 +897,21 @@
                 "path": "records/automation/runs/2026-10-23-2/355/heavy_overdrive/qa.json",
                 "sha256": "362eb4e8f6e23852d39aa947aee421f9f8802ef6dfbb5854841b049338d59f6a"
               }
+            },
+            "mobility_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-23T10:28:06+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/prompt.txt",
+                "sha256": "c4855b002afc6f5c800d2df108ff8ca57ac7afcbd4c7192889450dfc9970b9fc"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/ui.json",
+                "sha256": "d62d56608219f84590ed16b83b697940deaa5bff849e4b6fa6abaae4c3bb9ef2"
+              },
+              "references": {
+                "mobility": "8ca4344102e2b65c8daec61eeed9a007138a5cbbda350f9fce6172b50b3a3e5f"
+              }
             }
           },
           "reason": "light_overdrive QA failed: new narrow silver armor plate across exposed upper thigh at approximately x38%,y40%, absent in approved light reference. Pose/identity preserved but no-new-armor rule fails. Mobility exception does not apply; no regeneration authorized.",
@@ -918,7 +933,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:27:45+00:00"
+      "updated_at": "2026-10-23T10:28:06+00:00"
     }
   ],
   "claims": {
@@ -1156,9 +1171,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
