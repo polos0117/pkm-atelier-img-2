@@ -807,11 +807,26 @@
                 "path": "records/automation/runs/2026-10-23-2/355/heavy/qa.json",
                 "sha256": "e0005c3545175b81fd35660c4d1cdcb5dcc787acfbf85674911f0424f0ef8b0d"
               }
+            },
+            "mobility": {
+              "status": "in_flight",
+              "at": "2026-10-23T10:03:01+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility/prompt.txt",
+                "sha256": "363cbe157c2f1de01a261ece9703230422f9ea9423319b4b4b67cedaf0ce6905"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility/ui.json",
+                "sha256": "5614d6a6a3f4c9e7b395800effeac2e543fb25876fa0565a87312fce21b8989e"
+              },
+              "references": {
+                "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+              }
             }
           }
         }
       ],
-      "updated_at": "2026-10-23T10:02:53+00:00"
+      "updated_at": "2026-10-23T10:03:01+00:00"
     }
   ],
   "claims": {
@@ -1049,9 +1064,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
