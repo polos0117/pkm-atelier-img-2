@@ -1487,7 +1487,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T12:11:54+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-3/356/mobility_overdrive/prompt.txt",
@@ -1499,7 +1499,14 @@
               },
               "references": {
                 "mobility": "ba61f59bd6963ce44214222f25106b2ec1fc5b2971f6d411f6bcd5f782ebce10"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-3/356/mobility_overdrive/original.png",
+                "sha256": "d27b33a2cb2fe80fee0b6d58ebef3d90169b9c8b6386b97b01902552574d599a",
+                "session_only": true,
+                "webp_sha256": "608204938e0f9aa99c2f83e854d17b4f2155937b292273d70a452df34e4d30d3"
+              },
+              "received_at": "2026-10-23T12:13:05+00:00"
             }
           },
           "reason": "light visual QA: Single adult woman; head and feet contained, five fingers on open left glove, opposite curled fingers partly occluded, gray double buns and covered one eye retained. Narrow pointed chin and slim brows do not fully match planned broad heavy chin and thick brows. Accepted only for user post-upload review.",
@@ -1514,7 +1521,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T12:11:54+00:00"
+      "updated_at": "2026-10-23T12:13:05+00:00"
     }
   ],
   "claims": {
@@ -1758,9 +1765,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
