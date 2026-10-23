@@ -860,7 +860,11 @@
                 "session_only": true,
                 "webp_sha256": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6"
               },
-              "received_at": "2026-10-23T10:16:07+00:00"
+              "received_at": "2026-10-23T10:16:07+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/qa-rejected.json",
+                "sha256": "8ad8b2cd73e13a135a1137f9c002c01a195eee647a852e6403c37e24cefc9edd"
+              }
             }
           },
           "reason": "light_overdrive QA failed: new narrow silver armor plate across exposed upper thigh at approximately x38%,y40%, absent in approved light reference. Pose/identity preserved but no-new-armor rule fails. Mobility exception does not apply; no regeneration authorized.",
