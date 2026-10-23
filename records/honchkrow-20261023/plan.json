@@ -235,15 +235,15 @@
       "cut": 1,
       "cat": "adult_roleplay",
       "ex": "event_staff",
-      "expr": "laughing",
-      "pose": "stretching",
-      "orient": "rear_3q",
-      "frame": "chest_up",
-      "lens": "documentary35",
+      "expr": "soft_smile",
+      "pose": "sitting",
+      "orient": "front_3q",
+      "frame": "three_quarter",
+      "lens": "natural50",
       "axes": {
         "overall_intensity": "strong",
         "skin_exposure": "bold",
-        "action_level": "mostly active",
+        "action_level": "balanced",
         "source_influence": "strong",
         "separates_preference": "prefer separates"
       },
@@ -256,7 +256,7 @@
       ],
       "lead": "detail",
       "example_text": "an event staff costume with a fitted vest, name-tag ribbon, and lanyard, at a themed venue",
-      "selection_method": "planner; no manual selection changes",
+      "selection_method": "Actual UI values chosen for the user-requested replacement of an already registered image",
       "locked": {
         "cat": true,
         "ex": true,
@@ -275,25 +275,25 @@
       "direct_inputs": [
         {
           "field": "scene",
-          "content": "A rolled satin ribbon in one hand and a decorative lanyard catch the light beside a crimson curtain at a gala-themed costume rehearsal; she loosens her shoulders during a short break.",
-          "reason": "예시에 없는 리허설 무대의 커튼·손에 든 말린 리본·쉬는 활동을 더함"
+          "content": "She straightens a loose length of red satin ribbon across a wooden dressing table beside the gala rehearsal’s crimson curtains; her hands are spaced apart along the fabric rather than gripping a tight roll.",
+          "reason": "기존 코스튬 리허설의 리본 소품을 탁자에서 펼쳐 정리하는 활동으로 변경"
         },
         {
-          "field": "outfit",
-          "content": "The fitted black satin event-staff vest has a one-shoulder cut and cropped hem above white tailored shorts, exposing one shoulder and her midriff; a ruby name-tag ribbon accents the lanyard.",
-          "reason": "이벤트 조끼의 재단을 한쪽 어깨·크롭 길이로 정하고 흰 쇼츠와 연결"
-        },
-        {
-          "field": "camera",
-          "content": "Vertical 2:3 portrait (1024×1536).",
-          "reason": "도구에 크기 설정 인자가 없어 세로 2:3 원본 크기를 명시"
+          "field": "custom",
+          "content": "Rest both forearms naturally on the tabletop with elbows below the shoulders and wrists almost straight; each thumb and index finger lightly pinch an end of the flat ribbon, while the remaining three fingers stay relaxed and clearly distinct.",
+          "reason": "사용자가 지적한 팔 각도와 리본을 쥔 손을 고치기 위해 전완 지지·낮은 팔꿈치·가벼운 집기 동작을 명시"
         }
       ],
       "axes_reasons": [
         "리허설 중 팔과 어깨를 푸는 동작이라 mostly active",
         "검정 조끼·흰 쇼츠·붉은 리본으로 strong",
         "조끼와 쇼츠가 별개라 prefer separates"
-      ]
+      ],
+      "aspect": "2:3",
+      "scene": "She straightens a loose length of red satin ribbon across a wooden dressing table beside the gala rehearsal’s crimson curtains; her hands are spaced apart along the fabric rather than gripping a tight roll.",
+      "outfit": "The fitted black satin event-staff vest has a one-shoulder cut and cropped hem above white tailored shorts, exposing one shoulder and her midriff; a ruby name-tag ribbon accents the lanyard.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "Rest both forearms naturally on the tabletop with elbows below the shoulders and wrists almost straight; each thumb and index finger lightly pinch an end of the flat ribbon, while the remaining three fingers stay relaxed and clearly distinct."
     },
     {
       "kept": true,
@@ -930,6 +930,45 @@
         "light-original.png",
         "casual3-before-label-cleanup-original.png"
       ]
+    }
+  ],
+  "user_requested_replacements": [
+    {
+      "slot": "casual1",
+      "status": "accepted",
+      "user_request": "돈크로우 일상1번 컷 팔각도나 리본을 쥔 손가락이 다 이상한데, 자세랑 구도 바꿔서 재생성 한다음에 이상없으면 업로드까지 해줘.",
+      "previous_image_sha256": "b553e9dc2c4060ee55059aaeb2423242f2590dc9dcc633ed544fb6e1b0896a6f",
+      "previous_git_sha": "032a5ad1f4619be8bd34106a4a8d478921f531b5",
+      "new_image_sha256": "311adefeb636e985247308b9311e03ff2f5debb59764db6523c009c7f7dc9e79",
+      "new_git_sha": "9ee6224e95134c81614226de6e2bcb65fc55a1b4",
+      "original_sha256": "2f1a959ddce3e751f582b6f06af6b1983806c1915db34071b2094182fb04197d",
+      "reference_sha256": "316ae9d73f9e66f2bfada4029049ae864860bad8a8d931c3e2f9318479b945d3",
+      "image_tool": "built-in image_gen",
+      "changes": {
+        "pose": [
+          "stretching",
+          "sitting"
+        ],
+        "orient": [
+          "rear_3q",
+          "front_3q"
+        ],
+        "frame": [
+          "chest_up",
+          "three_quarter"
+        ],
+        "lens": [
+          "documentary35",
+          "natural50"
+        ],
+        "expression": [
+          "laughing",
+          "soft_smile"
+        ]
+      },
+      "reason": "팔 각도와 리본을 쥔 손 오류에 대한 사용자 지정 자세·구도 교체",
+      "ui": "records/honchkrow-20261023/casual1-ui.json",
+      "prompt": "records/honchkrow-20261023/casual1-prompt.txt"
     }
   ]
 }
