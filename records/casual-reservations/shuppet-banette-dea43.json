@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "shuppet-banette-dea43",
- "at": "2026-10-22T18:19:30-07:00",
+ "at": "2026-10-22T18:41:27-07:00",
  "characters": [
   {
    "species": "shuppet-20261023",
@@ -90,7 +90,7 @@
   {
    "species": "banette-20261023",
    "card": "다크펫",
-   "at": "2026-10-22T18:12:57-07:00",
+   "at": "2026-10-22T18:41:27-07:00",
    "cuts": [
     {
      "cut": 1,
@@ -115,7 +115,8 @@
       "side cutouts",
       "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -141,17 +142,18 @@
       "open back",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "everyday_basic",
-     "ex": "station_wait",
-     "expr": "half_smile",
-     "pose": "hand_on_hip",
+     "cat": "source_editorial",
+     "ex": "heritage_couture",
+     "expr": "pensive",
+     "pose": "standing_relaxed",
      "orient": "turning_midmotion",
      "frame": "waist_up",
-     "lens": "wide24",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -164,9 +166,9 @@
      ],
      "expose": [
       "high thigh slit",
-      "one-shoulder cut"
+      "plunging neckline"
      ],
-     "lead": "light"
+     "lead": "place"
     }
    ]
   }
