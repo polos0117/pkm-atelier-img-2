@@ -1461,7 +1461,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T12:10:24+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-3/356/heavy_overdrive/prompt.txt",
@@ -1473,7 +1473,14 @@
               },
               "references": {
                 "heavy": "41e985fbb4a0c7ad041b81e7faacaadebcaea297b55a15d3435caeef48683282"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-3/356/heavy_overdrive/original.png",
+                "sha256": "e814fffc7b252eb780f5ddba3b68713e82485f27b99f969dce4b1d410c3accc3",
+                "session_only": true,
+                "webp_sha256": "da6f289ac8b15b1353e9bc9f1b0c819c2f3b054b42369a303d71ac0db34ccabd"
+              },
+              "received_at": "2026-10-23T12:11:33+00:00"
             }
           },
           "reason": "light visual QA: Single adult woman; head and feet contained, five fingers on open left glove, opposite curled fingers partly occluded, gray double buns and covered one eye retained. Narrow pointed chin and slim brows do not fully match planned broad heavy chin and thick brows. Accepted only for user post-upload review.",
@@ -1488,7 +1495,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T12:10:24+00:00"
+      "updated_at": "2026-10-23T12:11:34+00:00"
     }
   ],
   "claims": {
@@ -1760,16 +1767,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
