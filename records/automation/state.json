@@ -24,7 +24,8 @@
       355,
       356,
       359,
-      360
+      360,
+      363
     ]
   },
   "runs": [
@@ -2873,6 +2874,23 @@
       "updated_at": "2026-10-23T16:27:48+00:00",
       "deferred_at": "2026-10-23T16:27:48+00:00",
       "defer_reason": "Seven slots published, thumbnailed and registered with Pages success; casual1/casual3 terminal safety refusals retained without retry. Preserve claim and quotas; next scheduled execution may choose next eligible character."
+    },
+    {
+      "id": "2026-10-23-6",
+      "execution_id": "pkm-daily-2026-10-24T00-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-23T23:58:30+00:00",
+      "queue": [
+        {
+          "no": 363,
+          "name": "대굴레오",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-23T23:58:30+00:00"
     }
   ],
   "claims": {
@@ -3061,6 +3079,12 @@
       "run": "2026-10-23-5",
       "status": "held",
       "at": "2026-10-23T15:58:17+00:00"
+    },
+    "363": {
+      "owner": "pkm-daily",
+      "run": "2026-10-23-6",
+      "status": "held",
+      "at": "2026-10-23T23:58:30+00:00"
     }
   },
   "blocked_candidates": {
@@ -3278,9 +3302,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -3306,16 +3330,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -3411,9 +3435,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -3448,7 +3472,28 @@
       "card": "스컹뿡",
       "session": "chingling-stunky-20261024-2897",
       "file": "records/casual-reservations/chingling-stunky-20261024-2897.json",
-      "at": "2026-10-24T00:08:46+08:00",
+      "at": "2026-10-24T00:43:44+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "360": {
+      "card": "마자",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "361": {
+      "card": "눈꼬마",
+      "session": "snorunt-glalie-20261024-fc069",
+      "file": "records/casual-reservations/snorunt-glalie-20261024-fc069.json",
+      "at": "2026-10-24T00:56:11+08:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "362": {
+      "card": "얼음귀신",
+      "session": "snorunt-glalie-20261024-fc069",
+      "file": "records/casual-reservations/snorunt-glalie-20261024-fc069.json",
+      "at": "2026-10-24T00:56:11+08:00",
       "status": "external_reservation_do_not_take_over"
     }
   },
@@ -3463,7 +3508,8 @@
       359
     ],
     "2026-10-24": [
-      360
+      360,
+      363
     ]
   },
   "executions": {
@@ -3493,6 +3539,13 @@
       "at": "2026-10-23T15:58:17+00:00",
       "characters": [
         360
+      ]
+    },
+    "pkm-daily-2026-10-24T00-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-23T23:58:30+00:00",
+      "characters": [
+        363
       ]
     }
   }
