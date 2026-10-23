@@ -1,0 +1,241 @@
+{
+  "reviewer": "gpt",
+  "image_tool": "built-in image_gen",
+  "accepted_count": 9,
+  "compared_characters": [
+    "요테리",
+    "밀로틱",
+    "쌔비냥"
+  ],
+  "evolution_comparison": "니로우 실제 경장과 대조. 돈크로우는 더 긴 턱과 콧대·가까운 눈 간격으로 구분되며 원작 깃의 선은 의상과 긴 페더컷에 이어짐.",
+  "face_reason": "원작의 긴 부리와 날카로운 시선을 사람 얼굴의 길고 선명한 윤곽·직선 콧대·가까운 아몬드 눈으로 해석. 부리 자체는 만들지 않음.",
+  "face_sources": [
+    "data/face-design.json:430",
+    "data/source-appearance.json:430"
+  ],
+  "face_comparison_observation": "요테리의 짧은 얼굴·넓은 눈과 달리 돈크로우는 긴 코와 턱. 밀로틱의 부드러운 타원 윤곽·낮은 눈썹보다 직선 눈썹과 좁은 눈 간격. 쌔비냥의 짧고 둥근 코끝·좁은 턱끝과 달리 긴 콧대와 길게 내려오는 턱. 머리색과 장식을 제외해도 구분됨.",
+  "diversity_comparison": "돈크로우 3장과 무우마직 생성된 1·3번 및 요테리·밀로틱·쌔비냥의 일상 9장을 실제 비교. 뒤로 돌아 스트레칭하는 리허설의 크롭 조끼, 밤 수영장 계단을 걷는 비키니, 낮 카페에서 높은 보드에 사진을 붙이는 셔츠·긴 바지가 활동·의상·실루엣·구도로 구분됨.",
+  "look_check": "../generated_images/exec-a465ab76-a4fd-4c89-a5a8-8427602e7c86.png — 가까운 컷 0장(점수 245 미만)\n     285  차오꿀_glossy_promo_f_casual3.webp\n     288  대짱이_glossy_promo_f_casual3.webp\n     294  비퀸_glossy_promo_f_casual2.webp\n../generated_images/exec-45621134-88bb-440c-8d76-fe24b05d3a04.png — 가까운 컷 1장(점수 245 미만)\n     240  콘팡_glossy_promo_f_casual1.webp\n     259  로파파_glossy_promo_f_casual3.webp\n     260  미뇽_glossy_promo_f_casual1.webp\n../generated_images/exec-6987e8b4-0fa8-4ebe-898d-421295f579d3.png — 가까운 컷 0장(점수 245 미만)\n     304  대짱이_glossy_promo_f_casual1.webp\n     314  겟핸보숭_glossy_promo_f_casual3.webp\n     314  파이리_mecha_cinematic_keyart_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n",
+  "recorded_variations": [
+    "casual1은 chest_up보다 골반까지 넓게 담김. 원래 선택값은 바꾸지 않고 기록만 함.",
+    "casual2의 시선이 looking_down보다 앞쪽에 가까움. 표정은 놀람보다 차분한 미소.",
+    "casual3의 사진은 생태 서식지보다 성채 풍경으로 표현됨. 사진 정리 활동과 카페 장소는 유지됨."
+  ],
+  "corrections": [
+    {
+      "slot": "casual3",
+      "reason": "카메라·사진 테두리·핀보드 카드의 가짜 글자",
+      "edit_target_sha256": "62c02c677c79e09d507d8bad8c38c342e8d87286b6db32f2eb3652357c0b72f0",
+      "change": "실제 UI custom 칸으로 글자 지우기만 요청; 정본 경장과 고칠 컷을 함께 참조"
+    }
+  ],
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "316ae9d73f9e66f2bfada4029049ae864860bad8a8d931c3e2f9318479b945d3",
+      "observations": "긴 윤곽·직선 코·가까운 적색 아몬드 눈, 검은 긴 페더컷. 검정·빨강·흰 깃의 경장, 머리와 발끝 여백, 양손 관절 자연스러움.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "긴 윤곽·직선 코·가까운 적색 아몬드 눈, 검은 긴 페더컷. 검정·빨강·흰 깃의 경장, 머리와 발끝 여백, 양손 관절 자연스러움."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "어깨부터 팔꿈치·손목으로 이어지는 두 팔과 자연스러운 다리 연결을 확인; 물건·머리로 자연스럽게 가려진 손가락은 추가 손으로 판정하지 않음."
+        },
+        "text": {
+          "match": true,
+          "basis": "원본 확대 검사, casual3은 카메라·핀보드 부분 글자 제거 후 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "985b037cff3374932a85ee317f0d74a6a36f172936fa315387d38a716b0778f8",
+      "observations": "흉부·어깨·팔·허벅지·정강이에 더 넓고 두꺼운 판을 겹쳤고 인물의 얼굴과 몸 크기는 유지됨.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "흉부·어깨·팔·허벅지·정강이에 더 넓고 두꺼운 판을 겹쳤고 인물의 얼굴과 몸 크기는 유지됨."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "어깨부터 팔꿈치·손목으로 이어지는 두 팔과 자연스러운 다리 연결을 확인; 물건·머리로 자연스럽게 가려진 손가락은 추가 손으로 판정하지 않음."
+        },
+        "text": {
+          "match": true,
+          "basis": "원본 확대 검사, casual3은 카메라·핀보드 부분 글자 제거 후 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "38e700beacf3f40f8173e7128c7df713d3b4e906001f00b9ea49742fa27e44cd",
+      "observations": "어깨·골반·종아리 판이 갈라져 뒤로 펼쳐지고 붉은 소형 스러스터가 보임. 원래 얼굴·긴 머리·적색 눈 유지.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "어깨·골반·종아리 판이 갈라져 뒤로 펼쳐지고 붉은 소형 스러스터가 보임. 원래 얼굴·긴 머리·적색 눈 유지."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "어깨부터 팔꿈치·손목으로 이어지는 두 팔과 자연스러운 다리 연결을 확인; 물건·머리로 자연스럽게 가려진 손가락은 추가 손으로 판정하지 않음."
+        },
+        "text": {
+          "match": true,
+          "basis": "원본 확대 검사, casual3은 카메라·핀보드 부분 글자 제거 후 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "74509129b3f05354eb2c2bb22a15e047567633e30d01067558c2d8dd6942e002",
+      "observations": "경장과 같은 카메라·자세·스케일. 얇은 판 사이에서 보랏빛 내부 프레임과 어두운 깃 효과가 드러남.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "경장과 같은 카메라·자세·스케일. 얇은 판 사이에서 보랏빛 내부 프레임과 어두운 깃 효과가 드러남."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "어깨부터 팔꿈치·손목으로 이어지는 두 팔과 자연스러운 다리 연결을 확인; 물건·머리로 자연스럽게 가려진 손가락은 추가 손으로 판정하지 않음."
+        },
+        "text": {
+          "match": true,
+          "basis": "원본 확대 검사, casual3은 카메라·핀보드 부분 글자 제거 후 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "97b687d413041ab52b95049cd164491d3b5247a4f1ef96104982d01732de5221",
+      "observations": "중장과 같은 자세에서 다층 판 사이가 열려 보랏빛 프레임이 보임. 새 손무기 없음.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "중장과 같은 자세에서 다층 판 사이가 열려 보랏빛 프레임이 보임. 새 손무기 없음."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "어깨부터 팔꿈치·손목으로 이어지는 두 팔과 자연스러운 다리 연결을 확인; 물건·머리로 자연스럽게 가려진 손가락은 추가 손으로 판정하지 않음."
+        },
+        "text": {
+          "match": true,
+          "basis": "원본 확대 검사, casual3은 카메라·핀보드 부분 글자 제거 후 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "79729b26bea5160349f6a217cad86bdcfe11b1ed552e3ea8817fe838a0321d5c",
+      "observations": "고기동 패널과 스러스터의 덮개 사이가 열리고 보랏빛이 드러남. 얼굴·손·프레이밍 유지.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "고기동 패널과 스러스터의 덮개 사이가 열리고 보랏빛이 드러남. 얼굴·손·프레이밍 유지."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "어깨부터 팔꿈치·손목으로 이어지는 두 팔과 자연스러운 다리 연결을 확인; 물건·머리로 자연스럽게 가려진 손가락은 추가 손으로 판정하지 않음."
+        },
+        "text": {
+          "match": true,
+          "basis": "원본 확대 검사, casual3은 카메라·핀보드 부분 글자 제거 후 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "6e44dda880743289b3d0de8e08c1a0a5f805b42d166971adcf8d8e7669865c39",
+      "observations": "리허설 커튼 앞에서 한 팔을 머리 뒤로 올려 스트레칭하며 다른 손에 말린 붉은 리본을 듦. 웃으며 입을 벌리고 몸통은 뒤 3/4. 크롭 검정 조끼·흰 쇼츠로 의상 교체.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "리허설 커튼 앞에서 한 팔을 머리 뒤로 올려 스트레칭하며 다른 손에 말린 붉은 리본을 듦. 웃으며 입을 벌리고 몸통은 뒤 3/4. 크롭 검정 조끼·흰 쇼츠로 의상 교체."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "어깨부터 팔꿈치·손목으로 이어지는 두 팔과 자연스러운 다리 연결을 확인; 물건·머리로 자연스럽게 가려진 손가락은 추가 손으로 판정하지 않음."
+        },
+        "text": {
+          "match": true,
+          "basis": "원본 확대 검사, casual3은 카메라·핀보드 부분 글자 제거 후 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "e22b4b6a968395f90e8712994f1f3ea8c86d1f0fb5e24360a911b9744e55aa3e",
+      "observations": "밤 수영장 얕은 계단을 한 발 들어 걷는 동작. 검정 비키니·붉은 테두리, 자연스러운 무릎·발목·발가락 연결. 한 손은 머리 곁, 다른 손은 허리 아래. 한 사람.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "밤 수영장 얕은 계단을 한 발 들어 걷는 동작. 검정 비키니·붉은 테두리, 자연스러운 무릎·발목·발가락 연결. 한 손은 머리 곁, 다른 손은 허리 아래. 한 사람."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "어깨부터 팔꿈치·손목으로 이어지는 두 팔과 자연스러운 다리 연결을 확인; 물건·머리로 자연스럽게 가려진 손가락은 추가 손으로 판정하지 않음."
+        },
+        "text": {
+          "match": true,
+          "basis": "원본 확대 검사, casual3은 카메라·핀보드 부분 글자 제거 후 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "f50a3bbc2e6a79bdb42e68e8e70f061d58b825f3d32b10a26c6338a2018fa68c",
+      "observations": "카페 테이블의 카메라·스크랩북 곁에서 한 손으로 사진을 들고 다른 손을 높이 올려 핀보드에 사진을 붙임. 흰 홀터 셔츠·검정 바지, 목과 허리 노출. 수정 결과 카메라 로고와 사진 테두리·메모의 가짜 글자가 사라짐.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "basis": "카페 테이블의 카메라·스크랩북 곁에서 한 손으로 사진을 들고 다른 손을 높이 올려 핀보드에 사진을 붙임. 흰 홀터 셔츠·검정 바지, 목과 허리 노출. 수정 결과 카메라 로고와 사진 테두리·메모의 가짜 글자가 사라짐."
+        },
+        "anatomy": {
+          "match": true,
+          "basis": "어깨부터 팔꿈치·손목으로 이어지는 두 팔과 자연스러운 다리 연결을 확인; 물건·머리로 자연스럽게 가려진 손가락은 추가 손으로 판정하지 않음."
+        },
+        "text": {
+          "match": true,
+          "basis": "원본 확대 검사, casual3은 카메라·핀보드 부분 글자 제거 후 재확인"
+        },
+        "dimensions": {
+          "match": true,
+          "basis": "Pillow 재열기 1024×1536"
+        }
+      }
+    }
+  }
+}

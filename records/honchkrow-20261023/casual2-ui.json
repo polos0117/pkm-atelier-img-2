@@ -1,0 +1,101 @@
+{
+  "storage": {
+    "last": "돈크로우",
+    "cards": {
+      "돈크로우": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "flustered",
+            "pose": "mid_stride",
+            "orient": "looking_down",
+            "scene": "Moonlight and deep-blue underwater lamps ripple across the outdoor pool terrace; a splash cools her toes as she crosses from the shallow steps toward a striped towel.",
+            "outfit": "A black high-cut bikini with an open back has narrow red edging and small ivory clasps; its opaque fitted fabric covers the bust and hips.",
+            "frame": "environmental",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "moonlit_pool",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Honchkrow (돈크로우) personified, dark / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: raised inner brows, darting or averted eyes, mouth slightly open, faint blush across the cheeks and nose\nPose: Capture a clear mid-stride step with believable weight transfer.\nOrientation: gaze directed downward; camera height unchanged\nScene: Moonlight and deep-blue underwater lamps ripple across the outdoor pool terrace; a splash cools her toes as she crosses from the shallow steps toward a striped towel.\nOutfit and props: A black high-cut bikini with an open back has narrow red edging and small ivory clasps; its opaque fitted fabric covers the bust and hips.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: in swimwear at an outdoor pool at night, lit by underwater lamps and moonlight\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "generator_url": "https://prompt.test/prompt.html?mech=%EB%8F%88%ED%81%AC%EB%A1%9C%EC%9A%B0&casual=%7B%22cat%22%3A%22swimwear%22%2C%22ex%22%3A%22moonlit_pool%22%2C%22expr%22%3A%22flustered%22%2C%22pose%22%3A%22mid_stride%22%2C%22orient%22%3A%22looking_down%22%2C%22frame%22%3A%22environmental%22%2C%22lens%22%3A%22natural50%22%2C%22aspect%22%3A%222%3A3%22%2C%22axes%22%3A%7B%22overall_intensity%22%3A%22strong%22%2C%22skin_exposure%22%3A%22bold%22%2C%22action_level%22%3A%22mostly%20active%22%2C%22source_influence%22%3A%22strong%22%2C%22separates_preference%22%3A%22balanced%22%7D%7D",
+  "actual_controls": true
+}
