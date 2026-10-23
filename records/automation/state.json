@@ -756,11 +756,25 @@
           "no": 355,
           "name": "해골몽",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-23T09:58:58+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-2/355/light/prompt.txt",
+                "sha256": "848ca6ef4acd5f275ef4831d1327b123bb204f3245f1df67ff5294949483e5ad"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-2/355/light/ui.json",
+                "sha256": "6f77fa0182c6bbb3f1f15c0b9b4cee247f2d146092a8cdc6a2eec94208eccc53"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-23T09:58:05+00:00"
+      "updated_at": "2026-10-23T09:58:58+00:00"
     }
   ],
   "claims": {
@@ -1026,16 +1040,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
