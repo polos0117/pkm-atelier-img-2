@@ -988,7 +988,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T11:42:15+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/casual3/prompt.txt",
@@ -1005,7 +1005,14 @@
               "references": {
                 "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual3/original.png",
+                "sha256": "e69153e56755225369740d0c0368d0292f0100796ea7b9588b7a23c4b715147d",
+                "session_only": true,
+                "webp_sha256": "bf6999ae9dc02c7b283f3790b53ac2fcbea4269b4bf1bf5371867b58f9f93c8f"
+              },
+              "received_at": "2026-10-23T11:44:15+00:00"
             }
           },
           "reason": "casual2 image_gen moderation_blocked at output stage, sexual category, request ab7fea27-4333-4228-a29b-62e54b089d6c. No output file returned. Safety blocker; post-upload visual QA approval does not authorize retry.",
@@ -1187,7 +1194,7 @@
           }
         }
       ],
-      "updated_at": "2026-10-23T10:34:57+00:00"
+      "updated_at": "2026-10-23T11:44:15+00:00"
     }
   ],
   "claims": {
@@ -1425,9 +1432,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -1453,16 +1460,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -1539,14 +1546,14 @@
       "card": "앗차키",
       "session": "simipour-munna-20261023-ab2944",
       "file": "records/casual-reservations/simipour-munna-20261023-ab2944.json",
-      "at": "2026-10-23T18:27:33+08:00",
+      "at": "2026-10-23T18:43:44+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "517": {
       "card": "몽나",
       "session": "simipour-munna-20261023-ab2944",
       "file": "records/casual-reservations/simipour-munna-20261023-ab2944.json",
-      "at": "2026-10-23T18:27:33+08:00",
+      "at": "2026-10-23T19:10:47+08:00",
       "status": "external_reservation_do_not_take_over"
     }
   },
