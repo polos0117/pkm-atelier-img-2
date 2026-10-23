@@ -1517,6 +1517,21 @@
                 "path": "records/automation/runs/2026-10-23-3/356/mobility_overdrive/user-exception.json",
                 "sha256": "1563e6a0bf7960782298383f5c5c5da91185d157484c59da58d35bc01e2f0ddb"
               }
+            },
+            "casual1": {
+              "status": "in_flight",
+              "at": "2026-10-23T12:14:40+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-3/356/casual1/prompt.txt",
+                "sha256": "f51ef39ab29ea736d9c372e119679358c21e65fb6c8f2f8573da687c8b3b07af"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-3/356/casual1/ui.json",
+                "sha256": "c02510df62ea475dfbbbc51b64818e8b8484c1859536f354df60315ee588069b"
+              },
+              "references": {
+                "light": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Same camera pose face and hands; head feet contained. Purple light and opened thrusters readable. Hip and calf fans appear more numerous/longer than closed mobility, so exact armor-piece preservation is uncertain and treated as visual QA failure. No extra limbs, open hand five fingers and wrist continuous. User post-upload review acceptance, not QA pass.",
@@ -1538,7 +1553,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T12:13:13+00:00"
+      "updated_at": "2026-10-23T12:14:40+00:00"
     }
   ],
   "claims": {
@@ -1782,9 +1797,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
