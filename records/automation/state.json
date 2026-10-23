@@ -931,7 +931,7 @@
               }
             },
             "casual1": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T10:31:44+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/casual1/prompt.txt",
@@ -943,7 +943,14 @@
               },
               "references": {
                 "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual1/original.png",
+                "sha256": "520ee05661e19009961206c282b5f53c335f5ba479f8f2b7158e9118a36f7f7b",
+                "session_only": true,
+                "webp_sha256": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67"
+              },
+              "received_at": "2026-10-23T10:33:08+00:00"
             }
           },
           "reason": "mobility_overdrive visual QA: Compared actual mobility reference: face, pose, gloves and body preserved; thruster covers open with stronger violet light. Large panel arrays retain clipped left tips and extend further at frame edge. Cropping/oversized silhouette remains a visual defect; accepted only for user post-upload review.",
@@ -972,7 +979,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:31:44+00:00"
+      "updated_at": "2026-10-23T10:33:08+00:00"
     }
   ],
   "claims": {
