@@ -749,14 +749,14 @@
       "id": "2026-10-23-2",
       "execution_id": "pkm-daily-2026-10-23T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T09:57:45+00:00",
       "queue": [
         {
           "no": 355,
           "name": "해골몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -809,7 +809,7 @@
               }
             },
             "mobility": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T10:03:01+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/mobility/prompt.txt",
@@ -832,13 +832,28 @@
               "qa": {
                 "path": "records/automation/runs/2026-10-23-2/355/mobility/qa-rejected.json",
                 "sha256": "25a0fd377b06d28f75b047d3852bd2acc51ebdaea09b9c8d2f4a576b8890c1dc"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility/user-exception.json",
+                "sha256": "43190325b2789f04bba17fcaf3af3a082a8c9a01e93bc61930c22294848c7aa5"
               }
             }
           },
-          "reason": "mobility QA failed: shoulder and hip panels form giant wing-like arrays; left array tips cut by frame, contrary to submitted no giant wings requirement. Preserve result; no retry authorized."
+          "reason": "mobility QA failed: shoulder and hip panels form giant wing-like arrays; left array tips cut by frame, contrary to submitted no giant wings requirement. Preserve result; no retry authorized.",
+          "block_history": [
+            {
+              "reason": "mobility QA failed: shoulder and hip panels form giant wing-like arrays; left array tips cut by frame, contrary to submitted no giant wings requirement. Preserve result; no retry authorized.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility/user-exception.json",
+                "sha256": "43190325b2789f04bba17fcaf3af3a082a8c9a01e93bc61930c22294848c7aa5"
+              }
+            }
+          ]
         }
       ],
-      "updated_at": "2026-10-23T10:04:56+00:00"
+      "updated_at": "2026-10-23T10:13:33+00:00"
     }
   ],
   "claims": {
@@ -1076,9 +1091,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -1104,16 +1119,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
