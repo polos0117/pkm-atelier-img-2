@@ -1343,17 +1343,17 @@
       "id": "2026-10-23-3",
       "execution_id": "pkm-daily-2026-10-23T12-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T11:58:59+00:00",
       "queue": [
         {
           "no": 356,
           "name": "미라몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T11:59:46+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-3/356/light/prompt.txt",
@@ -1370,10 +1370,29 @@
                 "session_only": true,
                 "webp_sha256": "c9adbcfec7790a8a70789d0356ec0ceb6fbc28c616fd203ec178a64434dd789b"
               },
-              "received_at": "2026-10-23T12:04:22+00:00"
+              "received_at": "2026-10-23T12:04:22+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-3/356/light/qa-rejected.json",
+                "sha256": "094244aee332b750d1b5d755245c8d03a71680c922c0742def4be0f33cdd7720"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-3/356/light/user-exception.json",
+                "sha256": "516aaf2deb20394a4a23d0a9631992ff78dda17a129215b6603d7fec8185db3c"
+              }
             }
           },
-          "reason": "light visual QA: Single adult woman; head and feet contained, five fingers on open left glove, opposite curled fingers partly occluded, gray double buns and covered one eye retained. Narrow pointed chin and slim brows do not fully match planned broad heavy chin and thick brows. Accepted only for user post-upload review."
+          "reason": "light visual QA: Single adult woman; head and feet contained, five fingers on open left glove, opposite curled fingers partly occluded, gray double buns and covered one eye retained. Narrow pointed chin and slim brows do not fully match planned broad heavy chin and thick brows. Accepted only for user post-upload review.",
+          "block_history": [
+            {
+              "reason": "light visual QA: Single adult woman; head and feet contained, five fingers on open left glove, opposite curled fingers partly occluded, gray double buns and covered one eye retained. Narrow pointed chin and slim brows do not fully match planned broad heavy chin and thick brows. Accepted only for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-3/356/light/user-exception.json",
+                "sha256": "516aaf2deb20394a4a23d0a9631992ff78dda17a129215b6603d7fec8185db3c"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-23T12:05:13+00:00"
