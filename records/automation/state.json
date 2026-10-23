@@ -2155,6 +2155,21 @@
                 "path": "records/automation/runs/2026-10-23-4/359/mobility_overdrive/user-exception.json",
                 "sha256": "5e856e3f33153dd6682c044392126f9b63df49f05530125ab3f0ec8923d13e7a"
               }
+            },
+            "casual1": {
+              "status": "in_flight",
+              "at": "2026-10-23T14:22:00+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual1/prompt.txt",
+                "sha256": "23a9e9d3609c731f2e9d884d767a57239dc3a162fd0a3cd5684826b24b8eb1bf"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-4/359/casual1/ui.json",
+                "sha256": "ce407e93ce988d6d245509caea8680709514b7646421e04fe702efbc729d5070"
+              },
+              "references": {
+                "light": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Pose camera head feet and adult face retained; violet gaps in swept plates. Navy cloth sash on right gains armored glowing segments absent in closed form, a design-preservation failure. Five bent gloved digits and wrists remain consistent; no new limbs. Accepted only for user post-upload visual review, not QA pass.",
@@ -2176,7 +2191,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T14:20:10+00:00"
+      "updated_at": "2026-10-23T14:22:00+00:00"
     }
   ],
   "claims": {
@@ -2576,9 +2591,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
