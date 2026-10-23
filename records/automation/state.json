@@ -871,6 +871,21 @@
                 "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/user-exception.json",
                 "sha256": "4202c10c4765bc2be64e2ba0315e395e5d3a3c9c3cdaa8992ea8dd0bf1c0ff73"
               }
+            },
+            "heavy_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-23T10:26:25+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-2/355/heavy_overdrive/prompt.txt",
+                "sha256": "8218cbe5d8c54fbdeff038947db1074c9ee6860ed8a95eb06e524a5f47532b8f"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-2/355/heavy_overdrive/ui.json",
+                "sha256": "fa27e7a1370ebe2b00b022837a61b9ed3d87fcdaccf5c4ae4cd13b49294954f1"
+              },
+              "references": {
+                "heavy": "31f3e942e89d59d97446dbcc22ef7fb910792dfe944498684f40c9e2195ad682"
+              }
             }
           },
           "reason": "light_overdrive QA failed: new narrow silver armor plate across exposed upper thigh at approximately x38%,y40%, absent in approved light reference. Pose/identity preserved but no-new-armor rule fails. Mobility exception does not apply; no regeneration authorized.",
@@ -892,7 +907,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:26:07+00:00"
+      "updated_at": "2026-10-23T10:26:25+00:00"
     }
   ],
   "claims": {
@@ -1130,9 +1145,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -1158,16 +1173,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
