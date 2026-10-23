@@ -899,7 +899,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-23T10:28:06+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/prompt.txt",
@@ -911,7 +911,14 @@
               },
               "references": {
                 "mobility": "8ca4344102e2b65c8daec61eeed9a007138a5cbbda350f9fce6172b50b3a3e5f"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/original.png",
+                "sha256": "5d9179338f79456ee2267a22172600f435cf57a991534e17addf1d8c90c93426",
+                "session_only": true,
+                "webp_sha256": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb"
+              },
+              "received_at": "2026-10-23T10:29:35+00:00"
             }
           },
           "reason": "light_overdrive QA failed: new narrow silver armor plate across exposed upper thigh at approximately x38%,y40%, absent in approved light reference. Pose/identity preserved but no-new-armor rule fails. Mobility exception does not apply; no regeneration authorized.",
@@ -933,7 +940,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:28:06+00:00"
+      "updated_at": "2026-10-23T10:29:35+00:00"
     }
   ],
   "claims": {
