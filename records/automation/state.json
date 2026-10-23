@@ -1066,126 +1066,26 @@
           "partial_publication": {
             "card": 355,
             "execution_id": "pkm-daily-2026-10-23T10-00-00Z",
-            "user_approval": "지금까지 만든건 올려줘",
-            "scope": "Only seven existing accepted Duskull images; character remains blocked/incomplete. No generation or replacement.",
+            "user_approval": "3번은 너가 해줘. 난 이것까지 차단됐다는줄",
+            "scope": "Publish only the newly generated casual3; prior seven unchanged, casual2 remains safety-blocked.",
             "slots": [
-              "light",
-              "heavy",
-              "mobility",
-              "light_overdrive",
-              "heavy_overdrive",
-              "mobility_overdrive",
-              "casual1"
+              "casual3"
             ],
             "files": {
-              "img/해골몽_light_glossy_promo_f.webp": "992effe57a54392d044f4a5a3389a025238e2cfe8b2d7916c718ac5179eb6945",
-              "img/해골몽_heavy_glossy_promo_f.webp": "b93a08b511d738d879aba2c1f841945b1ec3b69fcf85559ba12315ca6502d4b8",
-              "img/해골몽_mobility_glossy_promo_f.webp": "84edf263d9d3b35d913c221c2d9a7ab6f3d1e362e6435409fa76eb962f1cec99",
-              "img/해골몽_light_overdrive_glossy_promo_f.webp": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6",
-              "img/해골몽_heavy_overdrive_glossy_promo_f.webp": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb",
-              "img/해골몽_mobility_overdrive_glossy_promo_f.webp": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb",
-              "img/해골몽_glossy_promo_f_casual1.webp": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67"
+              "img/해골몽_glossy_promo_f_casual3.webp": "bf6999ae9dc02c7b283f3790b53ac2fcbea4269b4bf1bf5371867b58f9f93c8f"
             },
             "snapshot": {
-              "code": "0f47df1636b7f47c0996f9e66f85e48b2fd32985",
+              "code": "b695f81c9e778dce77d1ebbba0128a981f562ac5",
               "pkm-atelier-img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
-              "pkm-atelier-img-2": "2713756fa28eb214fd900f774bc5721bf5fefc6a",
-              "pkm-atelier-img-3": "abae8b234799703eaf0cd649b2a4fd05b001b28e"
+              "pkm-atelier-img-2": "774d10d62180de0bc1894e8af94618b9d374b7e3",
+              "pkm-atelier-img-3": "b95f588ee3a8bf69f28e4f9aac66f67cc45c5e0b"
             },
-            "at": "2026-10-23T11:34:17+00:00",
-            "status": "published_registered_7_of_9",
-            "image_commit": "003ff3eacd0313692d5a769877cdba1298b4354b",
-            "thumbnail_commit": "b95f588ee3a8bf69f28e4f9aac66f67cc45c5e0b",
-            "registration_commit": "b695f81c9e778dce77d1ebbba0128a981f562ac5",
-            "verified_at": "2026-10-23T11:37:57+00:00",
-            "outputs": [
-              {
-                "slot": "light",
-                "file": "해골몽_light_glossy_promo_f.webp",
-                "sha256": "992effe57a54392d044f4a5a3389a025238e2cfe8b2d7916c718ac5179eb6945",
-                "source_sha256": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c",
-                "acceptance_basis": "visual_qa",
-                "qa_passed": true,
-                "references": {}
-              },
-              {
-                "slot": "heavy",
-                "file": "해골몽_heavy_glossy_promo_f.webp",
-                "sha256": "b93a08b511d738d879aba2c1f841945b1ec3b69fcf85559ba12315ca6502d4b8",
-                "source_sha256": "31f3e942e89d59d97446dbcc22ef7fb910792dfe944498684f40c9e2195ad682",
-                "acceptance_basis": "visual_qa",
-                "qa_passed": true,
-                "references": {
-                  "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
-                }
-              },
-              {
-                "slot": "mobility",
-                "file": "해골몽_mobility_glossy_promo_f.webp",
-                "sha256": "84edf263d9d3b35d913c221c2d9a7ab6f3d1e362e6435409fa76eb962f1cec99",
-                "source_sha256": "8ca4344102e2b65c8daec61eeed9a007138a5cbbda350f9fce6172b50b3a3e5f",
-                "acceptance_basis": "user_exception",
-                "qa_passed": false,
-                "references": {
-                  "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
-                }
-              },
-              {
-                "slot": "light_overdrive",
-                "file": "해골몽_light_overdrive_glossy_promo_f.webp",
-                "sha256": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6",
-                "source_sha256": "0f2bbe4666c32a47986cb6c4918ff1f21a5baad3ac3de085e8ff913c603bdf15",
-                "acceptance_basis": "user_exception",
-                "qa_passed": false,
-                "references": {
-                  "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
-                }
-              },
-              {
-                "slot": "heavy_overdrive",
-                "file": "해골몽_heavy_overdrive_glossy_promo_f.webp",
-                "sha256": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb",
-                "source_sha256": "a8c04905de1e034e871e8b2cb76f082c3dd1d6f649ec9d660c8024a8ca4499d1",
-                "acceptance_basis": "visual_qa",
-                "qa_passed": true,
-                "references": {
-                  "heavy": "31f3e942e89d59d97446dbcc22ef7fb910792dfe944498684f40c9e2195ad682"
-                }
-              },
-              {
-                "slot": "mobility_overdrive",
-                "file": "해골몽_mobility_overdrive_glossy_promo_f.webp",
-                "sha256": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb",
-                "source_sha256": "5d9179338f79456ee2267a22172600f435cf57a991534e17addf1d8c90c93426",
-                "acceptance_basis": "user_exception",
-                "qa_passed": false,
-                "references": {
-                  "mobility": "8ca4344102e2b65c8daec61eeed9a007138a5cbbda350f9fce6172b50b3a3e5f"
-                }
-              },
-              {
-                "slot": "casual1",
-                "file": "해골몽_glossy_promo_f_casual1.webp",
-                "sha256": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67",
-                "source_sha256": "520ee05661e19009961206c282b5f53c335f5ba479f8f2b7158e9118a36f7f7b",
-                "acceptance_basis": "user_exception",
-                "qa_passed": false,
-                "references": {
-                  "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
-                }
-              }
-            ],
-            "remote_git_image_and_thumbnail_bytes_verified": true,
-            "pages_http_bytes_verified": false,
-            "http_verification_failures": [
-              {
-                "reason": "Public Pages byte fetch blocked by environment proxy: Tunnel connection failed: 403 Forbidden. No repeated fetch."
-              }
-            ]
+            "at": "2026-10-23T11:45:01+00:00",
+            "status": "preflight_checked"
           },
           "publication": {
-            "status": "partial_published_registered",
-            "at": "2026-10-23T11:34:17+00:00",
+            "status": "partial_preflight_checked",
+            "at": "2026-10-23T11:45:01+00:00",
             "repository": "pkm-atelier-img-3",
             "files": {
               "img/해골몽_light_glossy_promo_f.webp": "992effe57a54392d044f4a5a3389a025238e2cfe8b2d7916c718ac5179eb6945",
@@ -1194,7 +1094,8 @@
               "img/해골몽_light_overdrive_glossy_promo_f.webp": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6",
               "img/해골몽_heavy_overdrive_glossy_promo_f.webp": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb",
               "img/해골몽_mobility_overdrive_glossy_promo_f.webp": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb",
-              "img/해골몽_glossy_promo_f_casual1.webp": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67"
+              "img/해골몽_glossy_promo_f_casual1.webp": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67",
+              "img/해골몽_glossy_promo_f_casual3.webp": "bf6999ae9dc02c7b283f3790b53ac2fcbea4269b4bf1bf5371867b58f9f93c8f"
             }
           },
           "own_publication": {
@@ -1208,7 +1109,129 @@
               "해골몽_mobility_overdrive_glossy_promo_f.webp"
             ],
             "status": "verify_registration"
-          }
+          },
+          "partial_publication_history": [
+            {
+              "card": 355,
+              "execution_id": "pkm-daily-2026-10-23T10-00-00Z",
+              "user_approval": "지금까지 만든건 올려줘",
+              "scope": "Only seven existing accepted Duskull images; character remains blocked/incomplete. No generation or replacement.",
+              "slots": [
+                "light",
+                "heavy",
+                "mobility",
+                "light_overdrive",
+                "heavy_overdrive",
+                "mobility_overdrive",
+                "casual1"
+              ],
+              "files": {
+                "img/해골몽_light_glossy_promo_f.webp": "992effe57a54392d044f4a5a3389a025238e2cfe8b2d7916c718ac5179eb6945",
+                "img/해골몽_heavy_glossy_promo_f.webp": "b93a08b511d738d879aba2c1f841945b1ec3b69fcf85559ba12315ca6502d4b8",
+                "img/해골몽_mobility_glossy_promo_f.webp": "84edf263d9d3b35d913c221c2d9a7ab6f3d1e362e6435409fa76eb962f1cec99",
+                "img/해골몽_light_overdrive_glossy_promo_f.webp": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6",
+                "img/해골몽_heavy_overdrive_glossy_promo_f.webp": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb",
+                "img/해골몽_mobility_overdrive_glossy_promo_f.webp": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb",
+                "img/해골몽_glossy_promo_f_casual1.webp": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67"
+              },
+              "snapshot": {
+                "code": "0f47df1636b7f47c0996f9e66f85e48b2fd32985",
+                "pkm-atelier-img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+                "pkm-atelier-img-2": "2713756fa28eb214fd900f774bc5721bf5fefc6a",
+                "pkm-atelier-img-3": "abae8b234799703eaf0cd649b2a4fd05b001b28e"
+              },
+              "at": "2026-10-23T11:34:17+00:00",
+              "status": "published_registered_7_of_9",
+              "image_commit": "003ff3eacd0313692d5a769877cdba1298b4354b",
+              "thumbnail_commit": "b95f588ee3a8bf69f28e4f9aac66f67cc45c5e0b",
+              "registration_commit": "b695f81c9e778dce77d1ebbba0128a981f562ac5",
+              "verified_at": "2026-10-23T11:37:57+00:00",
+              "outputs": [
+                {
+                  "slot": "light",
+                  "file": "해골몽_light_glossy_promo_f.webp",
+                  "sha256": "992effe57a54392d044f4a5a3389a025238e2cfe8b2d7916c718ac5179eb6945",
+                  "source_sha256": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c",
+                  "acceptance_basis": "visual_qa",
+                  "qa_passed": true,
+                  "references": {}
+                },
+                {
+                  "slot": "heavy",
+                  "file": "해골몽_heavy_glossy_promo_f.webp",
+                  "sha256": "b93a08b511d738d879aba2c1f841945b1ec3b69fcf85559ba12315ca6502d4b8",
+                  "source_sha256": "31f3e942e89d59d97446dbcc22ef7fb910792dfe944498684f40c9e2195ad682",
+                  "acceptance_basis": "visual_qa",
+                  "qa_passed": true,
+                  "references": {
+                    "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+                  }
+                },
+                {
+                  "slot": "mobility",
+                  "file": "해골몽_mobility_glossy_promo_f.webp",
+                  "sha256": "84edf263d9d3b35d913c221c2d9a7ab6f3d1e362e6435409fa76eb962f1cec99",
+                  "source_sha256": "8ca4344102e2b65c8daec61eeed9a007138a5cbbda350f9fce6172b50b3a3e5f",
+                  "acceptance_basis": "user_exception",
+                  "qa_passed": false,
+                  "references": {
+                    "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+                  }
+                },
+                {
+                  "slot": "light_overdrive",
+                  "file": "해골몽_light_overdrive_glossy_promo_f.webp",
+                  "sha256": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6",
+                  "source_sha256": "0f2bbe4666c32a47986cb6c4918ff1f21a5baad3ac3de085e8ff913c603bdf15",
+                  "acceptance_basis": "user_exception",
+                  "qa_passed": false,
+                  "references": {
+                    "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+                  }
+                },
+                {
+                  "slot": "heavy_overdrive",
+                  "file": "해골몽_heavy_overdrive_glossy_promo_f.webp",
+                  "sha256": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb",
+                  "source_sha256": "a8c04905de1e034e871e8b2cb76f082c3dd1d6f649ec9d660c8024a8ca4499d1",
+                  "acceptance_basis": "visual_qa",
+                  "qa_passed": true,
+                  "references": {
+                    "heavy": "31f3e942e89d59d97446dbcc22ef7fb910792dfe944498684f40c9e2195ad682"
+                  }
+                },
+                {
+                  "slot": "mobility_overdrive",
+                  "file": "해골몽_mobility_overdrive_glossy_promo_f.webp",
+                  "sha256": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb",
+                  "source_sha256": "5d9179338f79456ee2267a22172600f435cf57a991534e17addf1d8c90c93426",
+                  "acceptance_basis": "user_exception",
+                  "qa_passed": false,
+                  "references": {
+                    "mobility": "8ca4344102e2b65c8daec61eeed9a007138a5cbbda350f9fce6172b50b3a3e5f"
+                  }
+                },
+                {
+                  "slot": "casual1",
+                  "file": "해골몽_glossy_promo_f_casual1.webp",
+                  "sha256": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67",
+                  "source_sha256": "520ee05661e19009961206c282b5f53c335f5ba479f8f2b7158e9118a36f7f7b",
+                  "acceptance_basis": "user_exception",
+                  "qa_passed": false,
+                  "references": {
+                    "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+                  }
+                }
+              ],
+              "remote_git_image_and_thumbnail_bytes_verified": true,
+              "pages_http_bytes_verified": false,
+              "http_verification_failures": [
+                {
+                  "reason": "Public Pages byte fetch blocked by environment proxy: Tunnel connection failed: 403 Forbidden. No repeated fetch."
+                }
+              ]
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-23T11:44:15+00:00"
