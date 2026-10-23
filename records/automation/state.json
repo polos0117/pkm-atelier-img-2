@@ -1665,10 +1665,109 @@
               "pkm-atelier-img-3": "8fcf7ae796984898497db67370c3dbbbb22b00bd"
             },
             "at": "2026-10-23T12:22:32+00:00",
-            "status": "preflight_checked"
+            "status": "published_registered_8_of_9",
+            "image_commit": "2b41b7ac3a292817e791a58827a7e3b855ad4868",
+            "thumbnail_commit": "c9ac0a9ec245c669afac6c81793dc9637c38c594",
+            "registration_commit": "54ae97e65b6e9ae92b93f48a395f76bf5716caac",
+            "verified_at": "2026-10-23T12:25:56+00:00",
+            "outputs": [
+              {
+                "slot": "light",
+                "file": "미라몽_light_glossy_promo_f.webp",
+                "sha256": "c9adbcfec7790a8a70789d0356ec0ceb6fbc28c616fd203ec178a64434dd789b",
+                "source_sha256": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {}
+              },
+              {
+                "slot": "heavy",
+                "file": "미라몽_heavy_glossy_promo_f.webp",
+                "sha256": "f9ea49abcb0d1e1caff79ac1d2a5f6756dd6fb958fe08e5ed8e19b9d5dead95c",
+                "source_sha256": "41e985fbb4a0c7ad041b81e7faacaadebcaea297b55a15d3435caeef48683282",
+                "acceptance_basis": "visual_qa",
+                "qa_passed": true,
+                "references": {
+                  "light": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a"
+                }
+              },
+              {
+                "slot": "mobility",
+                "file": "미라몽_mobility_glossy_promo_f.webp",
+                "sha256": "0b2b7b3b7d976732de74f40162ed1f48da7763771a0c4e897c7564ef57611ac0",
+                "source_sha256": "ba61f59bd6963ce44214222f25106b2ec1fc5b2971f6d411f6bcd5f782ebce10",
+                "acceptance_basis": "visual_qa",
+                "qa_passed": true,
+                "references": {
+                  "light": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a"
+                }
+              },
+              {
+                "slot": "light_overdrive",
+                "file": "미라몽_light_overdrive_glossy_promo_f.webp",
+                "sha256": "b9741561bedbf1f75f2c24220781aae42461fc5564ec0b74bb0ed0b6109d2119",
+                "source_sha256": "a70d725689b712b892d322bec41fbbc3a2f488f41b801f5cfe3a8c891eb563a9",
+                "acceptance_basis": "visual_qa",
+                "qa_passed": true,
+                "references": {
+                  "light": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a"
+                }
+              },
+              {
+                "slot": "heavy_overdrive",
+                "file": "미라몽_heavy_overdrive_glossy_promo_f.webp",
+                "sha256": "da6f289ac8b15b1353e9bc9f1b0c819c2f3b054b42369a303d71ac0db34ccabd",
+                "source_sha256": "e814fffc7b252eb780f5ddba3b68713e82485f27b99f969dce4b1d410c3accc3",
+                "acceptance_basis": "visual_qa",
+                "qa_passed": true,
+                "references": {
+                  "heavy": "41e985fbb4a0c7ad041b81e7faacaadebcaea297b55a15d3435caeef48683282"
+                }
+              },
+              {
+                "slot": "mobility_overdrive",
+                "file": "미라몽_mobility_overdrive_glossy_promo_f.webp",
+                "sha256": "608204938e0f9aa99c2f83e854d17b4f2155937b292273d70a452df34e4d30d3",
+                "source_sha256": "d27b33a2cb2fe80fee0b6d58ebef3d90169b9c8b6386b97b01902552574d599a",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "mobility": "ba61f59bd6963ce44214222f25106b2ec1fc5b2971f6d411f6bcd5f782ebce10"
+                }
+              },
+              {
+                "slot": "casual1",
+                "file": "미라몽_glossy_promo_f_casual1.webp",
+                "sha256": "59b06c632ffca5e7ef5b555e955325a43fa12c5322d9e00d3b78d9c7e4e13cd2",
+                "source_sha256": "c01a5239b2417388dff53f990ec2aab8b07efbff7dc35987a8b4e2644e06585b",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a"
+                }
+              },
+              {
+                "slot": "casual2",
+                "file": "미라몽_glossy_promo_f_casual2.webp",
+                "sha256": "c8e4d13b9bf6ecb3633c427433d678f0a1da3ee439a7f9e272f08ab9f774335e",
+                "source_sha256": "33ff535ef46d255f124e45e9098429c3050c500cb04cace64cb141946099d507",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "8ce34f8ac7d353dff964897818313a951e3163883ad129ec986b6c1bdbd5e33a"
+                }
+              }
+            ],
+            "remote_git_image_and_thumbnail_bytes_verified": true,
+            "pages_http_bytes_verified": false,
+            "http_verification_failures": [
+              {
+                "reason": "Public Pages byte fetch blocked by environment proxy: Tunnel connection failed: 403 Forbidden. No repeated fetch."
+              }
+            ]
           },
           "publication": {
-            "status": "partial_preflight_checked",
+            "status": "partial_published_registered",
             "at": "2026-10-23T12:22:32+00:00",
             "repository": "pkm-atelier-img-3",
             "files": {
@@ -1681,6 +1780,19 @@
               "img/미라몽_glossy_promo_f_casual1.webp": "59b06c632ffca5e7ef5b555e955325a43fa12c5322d9e00d3b78d9c7e4e13cd2",
               "img/미라몽_glossy_promo_f_casual2.webp": "c8e4d13b9bf6ecb3633c427433d678f0a1da3ee439a7f9e272f08ab9f774335e"
             }
+          },
+          "own_publication": {
+            "files": [
+              "미라몽_glossy_promo_f_casual1.webp",
+              "미라몽_glossy_promo_f_casual2.webp",
+              "미라몽_heavy_glossy_promo_f.webp",
+              "미라몽_heavy_overdrive_glossy_promo_f.webp",
+              "미라몽_light_glossy_promo_f.webp",
+              "미라몽_light_overdrive_glossy_promo_f.webp",
+              "미라몽_mobility_glossy_promo_f.webp",
+              "미라몽_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
           }
         }
       ],
