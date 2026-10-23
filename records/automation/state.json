@@ -988,7 +988,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T11:42:15+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-2/355/casual3/prompt.txt",
@@ -1012,7 +1012,17 @@
                 "session_only": true,
                 "webp_sha256": "bf6999ae9dc02c7b283f3790b53ac2fcbea4269b4bf1bf5371867b58f9f93c8f"
               },
-              "received_at": "2026-10-23T11:44:15+00:00"
+              "received_at": "2026-10-23T11:44:15+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual3/qa-rejected.json",
+                "sha256": "9a114c9326025aa2ede30475f1d8589b0cc94f7601552aa0bf6a693074bc96a5"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual3/user-exception.json",
+                "sha256": "c8fc2901f05e0f3681c5b81a843ccc46249ba24fd7d270d65a275dcd293094b2"
+              }
             }
           },
           "reason": "casual2 image_gen moderation_blocked at output stage, sexual category, request ab7fea27-4333-4228-a29b-62e54b089d6c. No output file returned. Safety blocker; post-upload visual QA approval does not authorize retry.",
@@ -1043,6 +1053,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-2/355/casual1/user-exception.json",
                 "sha256": "7a5cee08527adacab350a64462c16e31f2ffc2fcc6d5a8ef010f5cbb75c65541"
+              }
+            },
+            {
+              "reason": "casual3 visual QA: direction, expression and excess motif accessories differ from UI; see hash-bound QA",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-2/355/casual3/user-exception.json",
+                "sha256": "c8fc2901f05e0f3681c5b81a843ccc46249ba24fd7d270d65a275dcd293094b2"
               }
             }
           ],
