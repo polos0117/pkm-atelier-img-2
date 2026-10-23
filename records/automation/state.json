@@ -749,14 +749,14 @@
       "id": "2026-10-23-2",
       "execution_id": "pkm-daily-2026-10-23T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-23T09:57:45+00:00",
       "queue": [
         {
           "no": 355,
           "name": "해골몽",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -978,7 +978,7 @@
               }
             }
           },
-          "reason": "casual1 visual QA: Face/chignon/side bangs retained; one adult, full body, camera held by both hands; opaque open-back cropped vest and trousers replace armor. Laboratory desk, sorted photos and cases visible. Camera points outward rather than down at sorted photographs, and expression softer than serious; violet bone scarf is extra source ornament. These visual deviations are accepted for post-upload review, not QA pass. Other two casual results not yet available for final side-by-side diversity review.",
+          "reason": "casual2 image_gen moderation_blocked at output stage, sexual category, request ab7fea27-4333-4228-a29b-62e54b089d6c. No output file returned. Safety blocker; post-upload visual QA approval does not authorize retry.",
           "block_history": [
             {
               "reason": "mobility QA failed: shoulder and hip panels form giant wing-like arrays; left array tips cut by frame, contrary to submitted no giant wings requirement. Preserve result; no retry authorized.",
@@ -1011,7 +1011,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23T10:33:47+00:00"
+      "updated_at": "2026-10-23T10:34:57+00:00"
     }
   ],
   "claims": {
@@ -1249,9 +1249,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
