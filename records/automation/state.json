@@ -5584,13 +5584,28 @@
                 "path": "records/automation/runs/2026-10-24-11/372/mobility/qa.json",
                 "sha256": "65132827fb7d431185c62522ee1674df398cfc00707d2b59df619516693392a9"
               }
+            },
+            "light_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T12:56:15+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-11/372/light_overdrive/prompt.txt",
+                "sha256": "e0836ea7ee5075e4ab6abebe56c12be2665d596e06939cfa5338f1b0d5f4a328"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-11/372/light_overdrive/ui.json",
+                "sha256": "852e5f55ddc9f4ebd1eae4fbc2b66f0c5bf16989cffb472fb223bfac7c0606f6"
+              },
+              "references": {
+                "light": "e0258313366c77b75990633bb9e19254ea24d702c8fe7f18cabb2bbd106134fa"
+              }
             }
           },
           "reason": "casual planner pre-generation validation failed: outerwear assigned to cuts 2 and 3 (maximum one). Initial bounded solve and one targeted avoid adult_secretary both exhausted 40 internal candidates. No reservation, intent, generation, or image publication; do not weaken checks or retry without resolving planner.",
           "resolution": "User requested Shelgon completion. Fresh current-ledger plan passes without code or validation changes; source_editorial cut avoided to distinguish clothing silhouettes. Legacy checkpoint lists normalized read-only in session adapter."
         }
       ],
-      "updated_at": "2026-10-24T12:56:09+00:00"
+      "updated_at": "2026-10-24T12:56:15+00:00"
     }
   ],
   "claims": {
