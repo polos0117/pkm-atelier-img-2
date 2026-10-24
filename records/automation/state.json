@@ -3126,6 +3126,21 @@
                 "path": "records/automation/runs/2026-10-23-6/363/casual2/user-exception.json",
                 "sha256": "e98f810fe1bb3435983bb1c9aad661f3e8211494db8b9e63bfe0b084a2922068"
               }
+            },
+            "casual3": {
+              "status": "in_flight",
+              "at": "2026-10-24T00:19:12+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual3/prompt.txt",
+                "sha256": "59bdb4d799e564e32c41d319e9c91fed05657dc89941466003daafa8c6b693ee"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual3/ui.json",
+                "sha256": "48eb0da97396d97696930c221fc3a714386885d7f65703939c3593de81225d69"
+              },
+              "references": {
+                "light": "661b8f5909665d62a525b630b64d0a8d4f6b786efdc82e315a481bb33595feed"
+              }
             }
           },
           "reason": "casual2 visual QA: Adult identity maintained, one separate Spheal companion under towel and no other person. Rear-three-quarter porch rain scene in tank and shorts differs from scarf courtyard and recent actual comparisons. Near arm wrist and elbow connected, far arm hidden; four overlapping towel-hand fingers with obscured thumb. Two bent legs and sandals, toe counts partly hidden. Actual full kneeling framing differs from requested waist-up and emphasizes rear silhouette; retain visual framing failure for user review, no regeneration.",
@@ -3168,7 +3183,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T00:18:54+00:00"
+      "updated_at": "2026-10-24T00:19:12+00:00"
     }
   ],
   "claims": {
