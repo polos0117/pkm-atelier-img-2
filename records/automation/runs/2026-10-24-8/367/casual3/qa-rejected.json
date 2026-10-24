@@ -1,0 +1,36 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "ec53cfe51bef6242a1f002ef3f62063090f73dfbf49da85685f48cbafe73ebfa",
+  "observations": "Same adult face and bun, two raised arms continuous with wrists; fingers partly cropped at top and obscured by hair so cannot certify full counts. Two legs bent coherently with five toes visible on each bare foot, no detached limb. Tool ok detects one hand only. Top of hands/hair clipped despite full-body framing; open book has pseudo-text. Preserve failed crop/text QA. Actual cream knit vest/shorts sunroom seated hair-adjustment differs from kitchen tea apron/shorts standing, recent stage trousers/gallery dress/terrace swimsuit, train/studio and bead-work. Casual-look passed both generated casual images; casual1 absent so no three-image completion claimed.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Same adult face and bun, two raised arms continuous with wrists; fingers partly cropped at top and obscured by hair so cannot certify full counts. Two legs bent coherently with five toes visible on each bare foot, no detached limb. Tool ok detects one hand only. Top of hands/hair clipped despite full-body framing; open book has pseudo-text. Preserve failed crop/text QA. Actual cream knit vest/shorts sunroom seated hair-adjustment differs from kitchen tea apron/shorts standing, recent stage trousers/gallery dress/terrace swimsuit, train/studio and bead-work. Casual-look passed both generated casual images; casual1 absent so no three-image completion claimed.",
+    "overlay_checked": false,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Same adult face and bun, two raised arms continuous with wrists; fingers partly cropped at top and obscured by hair so cannot certify full counts. Two legs bent coherently with five toes visible on each bare foot, no detached limb. Tool ok detects one hand only. Top of hands/hair clipped despite full-body framing; open book has pseudo-text. Preserve failed crop/text QA. Actual cream knit vest/shorts sunroom seated hair-adjustment differs from kitchen tea apron/shorts standing, recent stage trousers/gallery dress/terrace swimsuit, train/studio and bead-work. Casual-look passed both generated casual images; casual1 absent so no three-image completion claimed."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.95,
+        "arm": "R",
+        "gap": 0.14
+      }
+    ],
+    "measure": {
+      "shoulder_px": 265.3,
+      "arm_R_ratio": 1.16,
+      "arm_R_angle": 93,
+      "leg_R_ratio": 1.75,
+      "leg_R_angle": 72
+    },
+    "file": "/workspace/generated_images/exec-8c44f530-50ef-4048-b112-7ec8ebfe7932.png"
+  },
+  "diversity_comparison": "Actual recent images viewed: Clamperl stage jacket/trousers folded-arm standing, seaside full-length swim resting, gallery velvet gown walking; Walrein train crop shirt/skirt walking, studio crop/leggings stretching, bedroom lingerie leaning; Sealeo evening jumpsuit in reflective hall, hot-spring bikini kneel, bead-work blouse/skirt seated. Huntail plans vase arrangement with garter styling rear waist-up, kitchen tea apron/shorts three-quarter, sunroom knit vest/shorts curled full body. Actual results must be compared; planned differences alone are not a QA pass."
+}

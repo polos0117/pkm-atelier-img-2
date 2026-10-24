@@ -3833,14 +3833,14 @@
       "id": "2026-10-24-8",
       "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T04:06:06+00:00",
       "queue": [
         {
           "no": 367,
           "name": "헌테일",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4089,7 +4089,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T04:23:38+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/casual3/prompt.txt",
@@ -4113,7 +4113,17 @@
                 "session_only": true,
                 "webp_sha256": "d70b168439d6da85cacd112574b5c5741f3d62e57f2d8e5b08033a35598c927e"
               },
-              "received_at": "2026-10-24T04:25:35+00:00"
+              "received_at": "2026-10-24T04:25:35+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual3/qa-rejected.json",
+                "sha256": "9ee98b306674a35fccb11283b330c83c9da0c181ad66ebd176a9c16da7815f3b"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual3/user-exception.json",
+                "sha256": "5eae9404bab76c976f353d124c8a0d434cda018dbc5ba3d8d56cf9f903621e37"
+              }
             }
           },
           "reason": "casual3 visual QA: Same adult face and bun, two raised arms continuous with wrists; fingers partly cropped at top and obscured by hair so cannot certify full counts. Two legs bent coherently with five toes visible on each bare foot, no detached limb. Tool ok detects one hand only. Top of hands/hair clipped despite full-body framing; open book has pseudo-text. Preserve failed crop/text QA. Actual cream knit vest/shorts sunroom seated hair-adjustment differs from kitchen tea apron/shorts standing, recent stage trousers/gallery dress/terrace swimsuit, train/studio and bead-work. Casual-look passed both generated casual images; casual1 absent so no three-image completion claimed.",
@@ -4165,6 +4175,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-8/367/casual2/user-exception.json",
                 "sha256": "d2b572037f9146baae39f8ce0ae608569ca8e4fb246a3b78c2c41f27bcca40af"
+              }
+            },
+            {
+              "reason": "casual3 visual QA: Same adult face and bun, two raised arms continuous with wrists; fingers partly cropped at top and obscured by hair so cannot certify full counts. Two legs bent coherently with five toes visible on each bare foot, no detached limb. Tool ok detects one hand only. Top of hands/hair clipped despite full-body framing; open book has pseudo-text. Preserve failed crop/text QA. Actual cream knit vest/shorts sunroom seated hair-adjustment differs from kitchen tea apron/shorts standing, recent stage trousers/gallery dress/terrace swimsuit, train/studio and bead-work. Casual-look passed both generated casual images; casual1 absent so no three-image completion claimed.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual3/user-exception.json",
+                "sha256": "5eae9404bab76c976f353d124c8a0d434cda018dbc5ba3d8d56cf9f903621e37"
               }
             }
           ],
