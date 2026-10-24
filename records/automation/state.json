@@ -6532,7 +6532,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T20:20:37+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/casual2/prompt.txt",
@@ -6544,7 +6544,14 @@
               },
               "references": {
                 "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual2/original.png",
+                "sha256": "ca8608d8f88ee1d1ecffec93a476b97d7910c0d36ae5fa6fab331704d5e42077",
+                "session_only": true,
+                "webp_sha256": "e1c670207deb844cb3a3aed22afd9c4e9f97a7cd9f9589313439928d698fcf2d"
+              },
+              "received_at": "2026-10-24T20:22:17+00:00"
             }
           },
           "reason": "casual1 visual QA: One adult woman in opaque wrapped white-blue short garment on tatami with book and tea; distinct from comparison characters rooftop/pool/vanity settings. Face and hair retained, ornaments removed. Selected cross-legged pose became one raised knee plus one folded leg; long draped sleeve and tassels make silhouette more robe-like than a simple slip. Two arms and legs trace continuously; front foot five toes, rear toes partially overlap. Both hands connected; thumb of lower hand partly occluded and exact digit count not fully certain. Tool ok with two hands, overlay and original crops actually inspected. Adopt actual visual discrepancies for post-upload review.",
@@ -6601,7 +6608,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T20:20:37+00:00"
+      "updated_at": "2026-10-24T20:22:18+00:00"
     }
   ],
   "claims": {
