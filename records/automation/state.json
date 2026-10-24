@@ -4498,7 +4498,7 @@
               }
             },
             "light_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T06:15:47+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/light_overdrive/prompt.txt",
@@ -4510,7 +4510,14 @@
               },
               "references": {
                 "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-9/368/light_overdrive/original.png",
+                "sha256": "32c4d6cad32bd199dbf0e136ae274d176d2539b12cde7d85d46b17d3844f5d94",
+                "session_only": true,
+                "webp_sha256": "8c8bb287ccdc787c8f1c712ad7b3f5fedcf310c3fd4ee3f96886ee7e2a14e5e8"
+              },
+              "received_at": "2026-10-24T06:17:16+00:00"
             }
           },
           "reason": "mobility visual QA: Two continuous arms, two hands with five visible digit projections, crossed legs and two booted feet. Tool ok but no hand landmarks; covered toes remain unverified. Swept shoulder and hip fins retain canonical face and palette. Top hair clips the boundary and compact thrusters are not clearly identifiable. Preserve failed visual QA and adopt for post-upload user review.",
@@ -4539,7 +4546,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T06:15:47+00:00"
+      "updated_at": "2026-10-24T06:17:17+00:00"
     }
   ],
   "claims": {
@@ -4969,9 +4976,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -5102,9 +5109,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
