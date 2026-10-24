@@ -6789,6 +6789,21 @@
                 "path": "records/automation/runs/2026-10-24-14/382/light/user-exception.json",
                 "sha256": "11b825462923b877928b05be249731f8a2993ea74d55ed7a99b2aabd2f21bc4e"
               }
+            },
+            "heavy": {
+              "status": "in_flight",
+              "at": "2026-10-24T22:00:54+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy/prompt.txt",
+                "sha256": "a767d958a5b3de2ec1856ed1892c5d7e4c165913dbbb6cbd27828cc54b5604bc"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy/ui.json",
+                "sha256": "2b20af0b54bf6ad1bc8d9c98815d7b0db8136926ab612948f75e9a1c30b2945d"
+              },
+              "references": {
+                "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+              }
             }
           },
           "reason": "light visual QA: Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions.",
@@ -6803,7 +6818,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:00:39+00:00"
+      "updated_at": "2026-10-24T22:00:54+00:00"
     }
   ],
   "claims": {
@@ -7268,9 +7283,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -7401,9 +7416,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
