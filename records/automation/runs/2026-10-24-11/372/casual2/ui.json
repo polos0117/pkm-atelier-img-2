@@ -1,0 +1,122 @@
+{
+  "card": "쉘곤",
+  "slot": "casual2",
+  "ui_source": "live deployed generator UI with planner query, confirmed exact output before submission",
+  "storage": {
+    "version": 2,
+    "last": "쉘곤",
+    "cards": {
+      "쉘곤": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "amused",
+            "pose": "hand_on_hip",
+            "orient": "high_angle",
+            "scene": "A low cedar drawer opens onto a sunlit linen room, with a folded ruby scarf waiting beside a pile of cream towels.",
+            "outfit": "A strapless graphite-grey jersey jumpsuit with flowing wide legs split high at the outer thighs and a softly fitted waist.",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_sensual",
+            "catCustom": "",
+            "ex": "floor_organizing",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Shelgon (쉘곤) personified, dragon type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: crinkled lower eyelids, closed-lip smile pushing the cheeks up, brows relaxed\nPose: Place one hand on the hip and let the other arm rest naturally or support the scene's prop.\nOrientation: camera above subject looking downward; obey selected framing\nScene: A low cedar drawer opens onto a sunlit linen room, with a folded ruby scarf waiting beside a pile of cream towels.\nOutfit and props: A strapless graphite-grey jersey jumpsuit with flowing wide legs split high at the outer thighs and a softly fitted waist.\nCategory: Create a sensual but non-explicit everyday lifestyle moment with the same clearly adult character. The situation must read as believable ordinary life, so specify the room, the clothing, and a concrete action already in progress rather than a posed shoot. Use natural household or street lighting and eye-level framing; fabric drape, movement, and light carry the mood. Avoid turning the scene into a lingerie catalogue or a deliberate glamour shoot.\nExample scene: kneeling on the floor to sort folded clothes into a low drawer\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "example_text": "kneeling on the floor to sort folded clothes into a low drawer",
+  "planner_selection": {
+    "cut": 2,
+    "cat": "everyday_sensual",
+    "ex": "floor_organizing",
+    "garments": [
+      "jumpsuit"
+    ],
+    "orient": "high_angle",
+    "frame": "three_quarter",
+    "pose": "hand_on_hip",
+    "expr": "amused",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "strapless top",
+      "high thigh slit"
+    ],
+    "lead": "place"
+  },
+  "axes_reasons": [
+    "정리하다 잠시 멈춘 동작과 허리에 둔 손이라 mostly posed",
+    "회색 점프슈트와 붉은 스카프로 balanced",
+    "상하가 이어진 점프슈트 한 벌이므로 balanced"
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "A low cedar drawer opens onto a sunlit linen room, with a folded ruby scarf waiting beside a pile of cream towels.",
+      "reason": "낮은 서랍에 접은 옷을 정리하는 예시에 서랍 재질·햇빛·정리할 스카프와 수건의 종류를 보충했다."
+    },
+    {
+      "field": "outfit",
+      "content": "A strapless graphite-grey jersey jumpsuit with flowing wide legs split high at the outer thighs and a softly fitted waist.",
+      "reason": "예시에 옷이 없어 계획의 점프슈트를 지정하고 스트랩리스와 바깥 허벅지 슬릿으로 어깨·다리를 드러낸다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "도구의 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+    }
+  ],
+  "random_changes": {
+    "original_planner": true,
+    "adjustment": "Planner excludes cut 3 source_editorial to separate garment silhouettes and cut 2 dance_step because the example is floor organizing."
+  }
+}
