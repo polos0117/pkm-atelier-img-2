@@ -4949,14 +4949,14 @@
       "id": "2026-10-24-10",
       "execution_id": "pkm-daily-2026-10-24T08-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T07:59:10+00:00",
       "queue": [
         {
           "no": 369,
           "name": "시라칸",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -5073,7 +5073,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T08:12:32+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/heavy_overdrive/prompt.txt",
@@ -5092,7 +5092,17 @@
                 "session_only": true,
                 "webp_sha256": "67bd65800540d684a26988982e094069fbb3213c22385fc7e8eac9cf3e4dffa2"
               },
-              "received_at": "2026-10-24T08:14:43+00:00"
+              "received_at": "2026-10-24T08:14:43+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-10/369/heavy_overdrive/qa-rejected.json",
+                "sha256": "11f9b943b6f0588eda943700eb527b8c07014b1a5545466d47e005c76d9fb223"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-10/369/heavy_overdrive/user-exception.json",
+                "sha256": "79c09ade037ebfdb360992be45f9bc30fdd40aba69a56ae06c1241fb70ec6d5e"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Camera, standing pose, face, hair and glove positions retained from heavy. Two arms and two legs continuous; curled overlapping fingers not individually certified, boots cover toes. Cyan gaps expose inner frame and stacked plates lift outward. Some outer panel shapes and spacing differ instead of exactly preserving each plate; expression remains close to closed state. Tool ok with zero detected hands. Keep this visual mismatch as failed QA and adopt for user post-upload review.",
@@ -5109,6 +5119,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-10/369/light_overdrive/user-exception.json",
                 "sha256": "47ac2a08775203f286f72f1e7942cb5be10368baeb51d537ca5a539e6e88a970"
+              }
+            },
+            {
+              "reason": "heavy_overdrive visual QA: Camera, standing pose, face, hair and glove positions retained from heavy. Two arms and two legs continuous; curled overlapping fingers not individually certified, boots cover toes. Cyan gaps expose inner frame and stacked plates lift outward. Some outer panel shapes and spacing differ instead of exactly preserving each plate; expression remains close to closed state. Tool ok with zero detected hands. Keep this visual mismatch as failed QA and adopt for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-10/369/heavy_overdrive/user-exception.json",
+                "sha256": "79c09ade037ebfdb360992be45f9bc30fdd40aba69a56ae06c1241fb70ec6d5e"
               }
             }
           ]
