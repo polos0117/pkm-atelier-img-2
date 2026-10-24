@@ -6300,14 +6300,14 @@
       "id": "2026-10-24-13",
       "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T20:05:04+00:00",
       "queue": [
         {
           "no": 381,
           "name": "라티오스",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6436,7 +6436,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T20:14:26+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/heavy_overdrive/prompt.txt",
@@ -6455,7 +6455,17 @@
                 "session_only": true,
                 "webp_sha256": "ff7c26aa6eaf2d00dba988933355484fa996c2a0014906d5fb4065a72ddcab5d"
               },
-              "received_at": "2026-10-24T20:16:24+00:00"
+              "received_at": "2026-10-24T20:16:24+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-13/381/heavy_overdrive/qa-rejected.json",
+                "sha256": "bae6cc5b6b9a6b07f7fe63a516581ec533e74b7112980b13b2097bb69e15c270"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-13/381/heavy_overdrive/user-exception.json",
+                "sha256": "e1588941b0338b21ceea3d7d13305327e68a030f385cce3caae20d513856571e"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy source and canonical light both actually referenced. Camera, hands, stance, face and layered outline preserved; violet inner glow visible. Some chest and thigh plate borders remodel instead of merely opening, and strained expression is weak. Two arms and legs connect; boots retained with tight margin and inherited exaggerated length. Finger overlap remains uncertain in lowered hand; open hand five silhouettes. Tool ok with zero detected hands and misplaced head landmarks, overlay not reliable for limb certification.",
@@ -6486,6 +6496,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-13/381/light_overdrive/user-exception.json",
                 "sha256": "54b3bd3f4fc11e275c9551840195afa8bfe2b46f97903b49e14de8acfe2240a2"
+              }
+            },
+            {
+              "reason": "heavy_overdrive visual QA: Heavy source and canonical light both actually referenced. Camera, hands, stance, face and layered outline preserved; violet inner glow visible. Some chest and thigh plate borders remodel instead of merely opening, and strained expression is weak. Two arms and legs connect; boots retained with tight margin and inherited exaggerated length. Finger overlap remains uncertain in lowered hand; open hand five silhouettes. Tool ok with zero detected hands and misplaced head landmarks, overlay not reliable for limb certification.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-13/381/heavy_overdrive/user-exception.json",
+                "sha256": "e1588941b0338b21ceea3d7d13305327e68a030f385cce3caae20d513856571e"
               }
             }
           ]
