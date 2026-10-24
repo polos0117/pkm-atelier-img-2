@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "mime-happiny-20261024-bdf536",
- "at": "2026-10-24T21:29:53+11:00",
+ "at": "2026-10-24T21:50:47+11:00",
  "characters": [
   {
    "species": "mime-jr-20261024",
@@ -90,32 +90,32 @@
   {
    "species": "happiny-20261024",
    "card": "핑복",
-   "at": "2026-10-24T21:29:53+11:00",
+   "at": "2026-10-24T21:50:47+11:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "swimwear",
-     "ex": "triangle_bikini",
-     "expr": "flustered",
-     "pose": "small_jog",
-     "orient": "profile_close",
+     "ex": "poolside_bar",
+     "expr": "cold_smile",
+     "pose": "holding_cup",
+     "orient": "side",
      "frame": "chest_up",
-     "lens": "documentary35",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "strong",
+      "action_level": "balanced",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
       "bikini"
      ],
      "expose": [
-      "halter neck",
+      "open back",
       "high-cut leg"
      ],
-     "lead": "action"
+     "lead": "detail"
     },
     {
      "cut": 2,
@@ -127,21 +127,18 @@
      "frame": "three_quarter",
      "lens": "wide24",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "coat",
       "dress"
      ],
      "expose": [
       "high thigh slit",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "kept": true
     },
     {
      "cut": 3,
@@ -153,22 +150,22 @@
      "frame": "full_body",
      "lens": "natural50",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly active",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "dress"
+      "dress",
+      "skirt"
      ],
      "expose": [
       "open back",
       "side cutouts"
      ],
-     "lead": "detail"
+     "kept": true
     }
-   ]
+   ],
+   "refill": true
   }
  ]
 }
