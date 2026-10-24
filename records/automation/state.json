@@ -4394,14 +4394,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4552,7 +4552,7 @@
               "received_at": "2026-10-24T06:19:10+00:00"
             }
           },
-          "reason": "light_overdrive visual QA: Same pose, face and two continuous arms with two five-projection gloved hands, two crossed legs and boots. Tool duplicate-body detection overlays the same figure, no second person exists. Cyan gaps and lifted plates visible, but new broad thigh panels differ from closed light armor and expression scarcely tightens. Head margin remains too narrow. Original failure observations retained with post-upload-review exception.",
+          "reason": "heavy_overdrive visual QA: Actual near hand has thumb and four fingers and continuous wrist to armored forearm; far hand also five projections with close middle fingers. Tool loose-hand alert arises from incorrect near-face pose localization, not an actual detached hand. Two legs and boots retained. Pose and face retained, cyan internal gaps and heavy plates opened, but top hair has no clear margin and some hip plate shapes differ. Adopt with failure QA retained for user post-upload review.",
           "block_history": [
             {
               "reason": "light visual QA: Adult single woman, pink messy bun, purple-white shell mantle; oval face and lower lip distinct from Bronzong/Bonsly, family Huntail and Clamperl similarity remains. Brows rendered thinner than thick-low assignment and top hair nearly clipped/no clear margin. Two arms and booted legs continuous; near glove five visible projections, far glove digits overlap with thumb partly hidden; no extra limb seen. Tool check loose hand is chest-armor false positive in actual overlay. Hands/feet crops checked; toes enclosed. Preserve visual framing/face mismatch as failed QA for post-upload review.",
@@ -4585,7 +4585,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T06:19:10+00:00"
+      "updated_at": "2026-10-24T06:19:19+00:00"
     }
   ],
   "claims": {
@@ -5015,9 +5015,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
