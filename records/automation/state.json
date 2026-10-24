@@ -3032,7 +3032,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T00:12:21+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-6/363/mobility_overdrive/prompt.txt",
@@ -3044,7 +3044,14 @@
               },
               "references": {
                 "mobility": "e5f38b1149c7acd1506e71295466e5ef827c34db61896484ac2641f2a90482f8"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-6/363/mobility_overdrive/original.png",
+                "sha256": "43b1e01e26f57b4f381e3c822e7f9a087b8ba967ee2e4241a55c5be00bd8ddcf",
+                "session_only": true,
+                "webp_sha256": "b9272b163f0ab89270c7e8f98da6e4133ad9347c6270db8b87f198f6d55069fc"
+              },
+              "received_at": "2026-10-24T00:13:39+00:00"
             }
           },
           "reason": "light_overdrive visual QA: Camera pose face and hands match light, two connected arms and legs and two boots. Right palm one thumb and four fingers; left glove overlaps obscure exact count but no evident extra. Wrists ankles continuous in crops. Blue opened seams visible; thigh surface now has a rigid bordered panel and added knee segmentation beyond original smooth suit, so exact same-armor requirement fails. Retain failure for user post-upload review.",
@@ -3066,7 +3073,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T00:12:21+00:00"
+      "updated_at": "2026-10-24T00:13:39+00:00"
     }
   ],
   "claims": {
