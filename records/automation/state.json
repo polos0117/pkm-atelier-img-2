@@ -4394,14 +4394,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4498,7 +4498,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T06:15:47+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/light_overdrive/prompt.txt",
@@ -4517,7 +4517,17 @@
                 "session_only": true,
                 "webp_sha256": "8c8bb287ccdc787c8f1c712ad7b3f5fedcf310c3fd4ee3f96886ee7e2a14e5e8"
               },
-              "received_at": "2026-10-24T06:17:16+00:00"
+              "received_at": "2026-10-24T06:17:16+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-9/368/light_overdrive/qa-rejected.json",
+                "sha256": "224deb43c4770f17b1785b98814ab319a5d0cc69c8dd8c6ffac5cabcb15dc510"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-9/368/light_overdrive/user-exception.json",
+                "sha256": "ef2ff4d763163aba7ba0baaf629cd7c7559ec61324d36c1f544666cfac79c831"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Same pose, face and two continuous arms with two five-projection gloved hands, two crossed legs and boots. Tool duplicate-body detection overlays the same figure, no second person exists. Cyan gaps and lifted plates visible, but new broad thigh panels differ from closed light armor and expression scarcely tightens. Head margin remains too narrow. Original failure observations retained with post-upload-review exception.",
@@ -4541,6 +4551,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-9/368/mobility/user-exception.json",
                 "sha256": "5c90577d59c238cd4429952fc036342fab543572dd8b2d212e7f29e28e5f26da"
+              }
+            },
+            {
+              "reason": "light_overdrive visual QA: Same pose, face and two continuous arms with two five-projection gloved hands, two crossed legs and boots. Tool duplicate-body detection overlays the same figure, no second person exists. Cyan gaps and lifted plates visible, but new broad thigh panels differ from closed light armor and expression scarcely tightens. Head margin remains too narrow. Original failure observations retained with post-upload-review exception.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-9/368/light_overdrive/user-exception.json",
+                "sha256": "ef2ff4d763163aba7ba0baaf629cd7c7559ec61324d36c1f544666cfac79c831"
               }
             }
           ]
