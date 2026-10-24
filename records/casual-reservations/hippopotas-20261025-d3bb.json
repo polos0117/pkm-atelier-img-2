@@ -1,44 +1,45 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "hippopotas-20261025-d3bb",
- "at": "2026-10-25T07:04:11+11:00",
+ "at": "2026-10-25T07:06:10+11:00",
  "characters": [
   {
    "species": "hippopotas-20261025",
    "card": "히포포타스",
-   "at": "2026-10-25T07:04:11+11:00",
+   "at": "2026-10-25T07:06:10+11:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "traditional",
-     "ex": "kente_modern",
+     "ex": "kilt_inspired",
      "expr": "determined",
-     "pose": "gentle_pat",
+     "pose": "side_sitting",
      "orient": "looking_away",
      "frame": "three_quarter",
      "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "dress"
+      "knit_top",
+      "skirt"
      ],
      "expose": [
       "halter neck",
-      "high thigh slit"
+      "strapless top"
      ],
      "lead": "detail"
     },
     {
      "cut": 2,
      "cat": "everyday_sensual",
-     "ex": "shoe_bench",
+     "ex": "late_snack",
      "expr": "calm",
-     "pose": "mid_stride",
+     "pose": "mid_action",
      "orient": "turning_midmotion",
      "frame": "waist_up",
      "lens": "wide24",
@@ -53,17 +54,17 @@
       "jumpsuit"
      ],
      "expose": [
-      "strapless top",
-      "off-shoulder neckline"
+      "high thigh slit",
+      "mini length"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
      "cut": 3,
-     "cat": "lingerie",
-     "ex": "garter_set",
-     "expr": "cold_smile",
-     "pose": "side_sitting",
+     "cat": "swimwear",
+     "ex": "rooftop_infinity_pool",
+     "expr": "sensual",
+     "pose": "sitting",
      "orient": "reclining",
      "frame": "environmental",
      "lens": "portrait85",
@@ -75,13 +76,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "bikini"
      ],
      "expose": [
       "plunging neckline",
       "open back"
      ],
-     "lead": "light"
+     "lead": "place"
     }
    ]
   }
