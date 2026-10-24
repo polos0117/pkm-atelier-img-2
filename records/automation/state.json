@@ -4052,7 +4052,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T04:21:16+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/casual2/prompt.txt",
@@ -4069,7 +4069,14 @@
               "references": {
                 "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual2/original.png",
+                "sha256": "a91ae9589b4f00e5b297daa7d7caff01c3ae0a10b30232fa9eef45bc3b7a51f2",
+                "session_only": true,
+                "webp_sha256": "9e0285282eca00f7cb4ffc5824bc10b93419d6b645b8e71a8b1bddbc61dca125"
+              },
+              "received_at": "2026-10-24T04:23:16+00:00"
             }
           },
           "reason": "casual1 output moderation_blocked sexual; request 7974c7d7-846d-4908-94c0-cfe382aef772; no returned file; no retry; independent casual2 and casual3 remain eligible.",
@@ -4129,7 +4136,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:20:54+00:00"
+      "updated_at": "2026-10-24T04:23:16+00:00"
     }
   ],
   "claims": {
