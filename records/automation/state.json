@@ -5939,6 +5939,21 @@
                 "path": "records/automation/runs/2026-10-24-12/375/heavy/qa.json",
                 "sha256": "e5b9c64301089f48b75e3c9de59fd864c32daada36595071707868900e4b4972"
               }
+            },
+            "mobility": {
+              "status": "in_flight",
+              "at": "2026-10-24T17:42:51+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-12/375/mobility/prompt.txt",
+                "sha256": "c93d15905407e943470b829b60227c9953c6b6f7d691e9dfcad483c10e2ca221"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-12/375/mobility/ui.json",
+                "sha256": "9844243ba68790a3817cf8e90613b9f683f62a8ee5d7b67776112f56a7c3fa3c"
+              },
+              "references": {
+                "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+              }
             }
           },
           "reason": "light visual QA: Adult single woman, head and both boots inside 2:3 frame. Two arms lead to gloved hands, two legs continuous with boots, no extra limb seen. Fingers overlap in curled hands and tool detects zero hands; full digit count uncertain. Teal-gray pointed plates carry steel motif. Long hair reads partly ribbon-like rather than locs and leg proportions exaggerated. Actual canonical comparison recorded; preserve hair/proportion mismatch for post-upload review.",
@@ -5953,7 +5968,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:42:26+00:00"
+      "updated_at": "2026-10-24T17:42:51+00:00"
     }
   ],
   "claims": {
@@ -6539,9 +6554,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
