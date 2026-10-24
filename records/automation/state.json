@@ -3378,7 +3378,7 @@
               "at": "2026-10-24T02:07:02+00:00"
             },
             "light_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T02:07:33+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/prompt.txt",
@@ -3395,7 +3395,14 @@
               "references": {
                 "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/original.png",
+                "sha256": "01190c324190c7dcbee339755b38d1ec130212a2f66d8ba1edd4688b6bc21ce5",
+                "session_only": true,
+                "webp_sha256": "97a450116e49698429cd3099c5d52988e8fd27d3291baa35bc99ed326bfbb920"
+              },
+              "received_at": "2026-10-24T02:09:20+00:00"
             }
           },
           "reason": "mobility moderation_blocked sexual output; request 3b81e2dc-53f1-4254-8085-df6f18f7e07c; no file returned; do not retry",
@@ -3427,7 +3434,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T02:06:57+00:00"
+      "updated_at": "2026-10-24T02:09:20+00:00"
     }
   ],
   "claims": {
@@ -3845,9 +3852,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -3978,9 +3985,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
