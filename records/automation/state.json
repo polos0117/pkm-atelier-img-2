@@ -6951,7 +6951,7 @@
               }
             },
             "casual1": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T22:11:04+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/casual1/prompt.txt",
@@ -6963,7 +6963,14 @@
               },
               "references": {
                 "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual1/original.png",
+                "sha256": "57b488f35cd198ac727c0e7d91a6d790d87d53ffa3b6d61b2586fbec7a617b35",
+                "session_only": true,
+                "webp_sha256": "d755bcb3a74de8d76d8439ef5676f7694f6a04ebe248c2d734301a14d927ad38"
+              },
+              "received_at": "2026-10-24T22:12:32+00:00"
             }
           },
           "reason": "mobility_overdrive visual QA: Same mobility pose/camera/face/hair retained, thruster covers spread with water light. Panels expand toward frame edges and additional segmented surfaces appear; weak expression strain and unchanged long-leg proportions. Two arms and legs visually continuous; no second person confirmed despite model bodies=2 note, overlay places duplicate coarse skeleton on same figure. Gloved overlapping fingers and partly obscured thumbs remain uncertain. Original/crops/overlay actually viewed; hair and some fin margins clipped.",
@@ -7013,7 +7020,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:11:04+00:00"
+      "updated_at": "2026-10-24T22:12:32+00:00"
     }
   ],
   "claims": {
