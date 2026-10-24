@@ -1,0 +1,65 @@
+{
+  "card": 368,
+  "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
+  "at": "2026-10-24T06:32:08+00:00",
+  "actions": {
+    "thumbnail": {
+      "repo": "pkm-atelier-img-3",
+      "id": 40070366969,
+      "conclusion": "success",
+      "sha": "b94cb49d5e6fe1edcd33ac66f5144158979ac754"
+    },
+    "image_pages": {
+      "repo": "pkm-atelier-img-3",
+      "id": 40070410385,
+      "conclusion": "success",
+      "sha": "cc36c65074c17ea63c8d93805da4c9206f550e26"
+    },
+    "registration": {
+      "repo": "pkm-atelier",
+      "id": 40070410598,
+      "conclusion": "success"
+    },
+    "catalog_pages": {
+      "repo": "pkm-atelier",
+      "id": 40070526489,
+      "conclusion": "success",
+      "sha": "69f5e9edb3acd9e5cb847732ae813986bf64bcbf"
+    }
+  },
+  "logs_checked": {
+    "thumbnail_job": 120802300682,
+    "registration_job": 120802431612,
+    "warnings": "Existing other-image dimension warnings and Actions Node20/punycode/url.parse deprecations; no warning on these eight verified images. All eight current images independently verified 1024x1536 and thumbs512."
+  },
+  "validation": "casual-look passed both generated casual images. Eight remote Git image hashes, dimensions, thumbs, registered slots, where=2 verified; registry Actions forms/img-shards/register-images tests passed. Partial preflight preserved claims/daily/executions/external holds; only new WebP and text files added. Reconciliation recognized eight own outputs, no external skip. All eight failed visual QA observations remain user-post-review exceptions, not QA passes.",
+  "public_http_bytes": "Not re-fetched: earlier environment proxy403. Remote Git bytes and Actions deployments verified.",
+  "missing": {
+    "casual2": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "63f416be-d9e6-4f4a-a3c1-5e055b063c09",
+      "output_files": [],
+      "retry": false
+    }
+  },
+  "quota": {
+    "execution_characters": [
+      368
+    ],
+    "daily_utc": [
+      363,
+      366,
+      367,
+      368
+    ],
+    "daily_kst": [
+      360,
+      363,
+      366,
+      367,
+      368
+    ]
+  }
+}

@@ -4883,7 +4883,32 @@
               {
                 "reason": "Public Pages HTTP bytes not re-fetched: prior environment proxy 403; Git remote bytes verified and deployment Actions checked separately."
               }
-            ]
+            ],
+            "actions": {
+              "thumbnail": {
+                "repo": "pkm-atelier-img-3",
+                "id": 40070366969,
+                "conclusion": "success",
+                "sha": "b94cb49d5e6fe1edcd33ac66f5144158979ac754"
+              },
+              "image_pages": {
+                "repo": "pkm-atelier-img-3",
+                "id": 40070410385,
+                "conclusion": "success",
+                "sha": "cc36c65074c17ea63c8d93805da4c9206f550e26"
+              },
+              "registration": {
+                "repo": "pkm-atelier",
+                "id": 40070410598,
+                "conclusion": "success"
+              },
+              "catalog_pages": {
+                "repo": "pkm-atelier",
+                "id": 40070526489,
+                "conclusion": "success",
+                "sha": "69f5e9edb3acd9e5cb847732ae813986bf64bcbf"
+              }
+            }
           },
           "publication": {
             "status": "partial_published_registered",
