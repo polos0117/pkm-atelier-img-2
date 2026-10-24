@@ -1,0 +1,16 @@
+{
+  "accepted": false,
+  "reviewer": "AI visual QA",
+  "image_sha256": "aabbd235f06faff0ea58e4b0cba67080aed86a39c2eb40e5961f9786417684e6",
+  "observations": "Same adult face hair and body; scarf embroidery inspection in tiled courtyard, dress and flowing robe clearly distinct from recent pool, knit laundry and classroom looks. Hands grip scarf with four visible curled fingers each and thumbs partially hidden, continuous wrists. Two knees with coherent folded legs, feet concealed by dress. Actual framing includes knees instead of selected chest-up and mouth partly open rather than closed smile; QA failure preserved for post-upload review.",
+  "disposition": "user-approved post-upload review, not QA pass",
+  "anatomy": {
+    "tool": "unavailable: verified local model assets present, runtime lacks libGLESv2.so.2; no successful inference or overlay",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Each hand grips scarf; four curled fingers visible, thumbs partly hidden behind fabric. No extra digit apparent; exact hidden thumb positions not fully verifiable.",
+    "overlay_checked": false,
+    "note": "Original and crops inspected. Two knees visible with coherent bent thighs; lower legs and feet concealed by dress so ankle and foot count cannot be certified. Wrists continuous. No model inference or overlay."
+  },
+  "diversity_comparison": "Actual recent 9 thumbnail images viewed: Glalie rooftop pool swimsuit, lounge vanity robe and festival overalls; Snorunt pool coverup stretch, classroom blazer reading and sofa trousers reading; Stunky aviary shorts squat, laundry knit shorts and mirror police costume. Spheal planned courtyard abaya scarf chest-up, rain-porch companion towel waist-up and dressing-room back-strap outfit reaching differ in setting activity clothing and framing. Actual generated comparisons are documented in each observation and final supplement, not inferred solely from settings."
+}

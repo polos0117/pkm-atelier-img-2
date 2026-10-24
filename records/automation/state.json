@@ -2882,14 +2882,14 @@
       "id": "2026-10-23-6",
       "execution_id": "pkm-daily-2026-10-24T00-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T23:58:30+00:00",
       "queue": [
         {
           "no": 363,
           "name": "대굴레오",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3064,7 +3064,7 @@
               }
             },
             "casual1": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T00:15:20+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-6/363/casual1/prompt.txt",
@@ -3083,7 +3083,17 @@
                 "session_only": true,
                 "webp_sha256": "1d55a2a346db7986625e976bc2a138516703ee0fdda98aabf492582389329123"
               },
-              "received_at": "2026-10-24T00:16:54+00:00"
+              "received_at": "2026-10-24T00:16:54+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual1/qa-rejected.json",
+                "sha256": "7886ec14ee36ec520fdaaabe801e739fd5433a2721fcc5288124c80059615e2a"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual1/user-exception.json",
+                "sha256": "13c4265a939dcbaebf0a7f87192719aae53d0b7bb966b5ade57eddcdb223aae8"
+              }
             }
           },
           "reason": "casual1 visual QA: Same adult face hair and body; scarf embroidery inspection in tiled courtyard, dress and flowing robe clearly distinct from recent pool, knit laundry and classroom looks. Hands grip scarf with four visible curled fingers each and thumbs partially hidden, continuous wrists. Two knees with coherent folded legs, feet concealed by dress. Actual framing includes knees instead of selected chest-up and mouth partly open rather than closed smile; QA failure preserved for post-upload review.",
@@ -3107,6 +3117,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-6/363/mobility_overdrive/user-exception.json",
                 "sha256": "7ac4867df5f9a337e6f641e2736ba603dba837f2c84657f2f59e11cbea9bff5a"
+              }
+            },
+            {
+              "reason": "casual1 visual QA: Same adult face hair and body; scarf embroidery inspection in tiled courtyard, dress and flowing robe clearly distinct from recent pool, knit laundry and classroom looks. Hands grip scarf with four visible curled fingers each and thumbs partially hidden, continuous wrists. Two knees with coherent folded legs, feet concealed by dress. Actual framing includes knees instead of selected chest-up and mouth partly open rather than closed smile; QA failure preserved for post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual1/user-exception.json",
+                "sha256": "13c4265a939dcbaebf0a7f87192719aae53d0b7bb966b5ade57eddcdb223aae8"
               }
             }
           ]
