@@ -35,7 +35,8 @@
       369,
       372,
       375,
-      381
+      381,
+      382
     ]
   },
   "runs": [
@@ -6745,6 +6746,23 @@
         }
       ],
       "updated_at": "2026-10-24T20:30:37+00:00"
+    },
+    {
+      "id": "2026-10-24-14",
+      "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-24T21:58:09+00:00",
+      "queue": [
+        {
+          "no": 382,
+          "name": "가이오가",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-24T21:58:09+00:00"
     }
   ],
   "claims": {
@@ -6981,6 +6999,12 @@
       "run": "2026-10-24-13",
       "status": "complete",
       "at": "2026-10-24T20:05:04+00:00"
+    },
+    "382": {
+      "owner": "pkm-daily",
+      "run": "2026-10-24-14",
+      "status": "held",
+      "at": "2026-10-24T21:58:09+00:00"
     }
   },
   "blocked_candidates": {
@@ -7203,9 +7227,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -7629,7 +7653,8 @@
     ],
     "2026-10-25": [
       375,
-      381
+      381,
+      382
     ]
   },
   "executions": {
@@ -7722,6 +7747,13 @@
       "at": "2026-10-24T20:05:04+00:00",
       "characters": [
         381
+      ]
+    },
+    "pkm-daily-2026-10-24T22-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-24T21:58:09+00:00",
+      "characters": [
+        382
       ]
     }
   }
