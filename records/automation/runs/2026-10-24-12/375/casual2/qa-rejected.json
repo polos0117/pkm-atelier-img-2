@@ -1,0 +1,36 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "603c5d6a431f769626094de671ee754cb47113d3470e259ed3e872293fe93f7f",
+  "observations": "Autumn park fountain, gray halter open-waist overalls and berry pouch differ from lantern jumpsuit and recent comparisons. One separate metal Pokemon companion; no body merging. Torso leans forward but face gaze remains near viewer rather than distant nostalgic direction. Two arms lead to berry/pouch hands; occluded digits uncertain, two upper legs visible, feet below crop. Tool ok one hand. Earrings inherited and framing extends below knees; preserve these visual mismatches.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": "two upper legs visible; feet below crop",
+    "hands": "Berry grip thumb/index visible, other three curl and overlap. Pouch grip hides palm/thumb and some digits; no extra or detached hand seen.",
+    "overlay_checked": false,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Autumn park fountain, gray halter open-waist overalls and berry pouch differ from lantern jumpsuit and recent comparisons. One separate metal Pokemon companion; no body merging. Torso leans forward but face gaze remains near viewer rather than distant nostalgic direction. Two arms lead to berry/pouch hands; occluded digits uncertain, two upper legs visible, feet below crop. Tool ok one hand. Earrings inherited and framing extends below knees; preserve these visual mismatches."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.96,
+        "arm": "R",
+        "gap": 0.05
+      }
+    ],
+    "measure": {
+      "shoulder_px": 295.2,
+      "arm_R_ratio": 0.73,
+      "arm_R_angle": 153,
+      "leg_R_ratio": 1.01,
+      "leg_R_angle": 147
+    },
+    "file": "/workspace/generated_images/exec-e47417f0-60d7-4153-a081-47ce8863d985.png"
+  },
+  "diversity_comparison": "Actual 3x3 comparison viewed: Beldum stage uniform skirt, train-station travel trousers, loom traditional skirt; Salamence kneeling lingerie, pool robe swimsuit, crouching urban sports leggings; Shelgon mirror lingerie close-up, kneeling atelier dress, mountain map outfit. Metang planned lantern-festival short jumpsuit, park-walk overalls and rear-three-quarter dressing-console strap lingerie change activity/silhouette/composition; third shares lingerie category but rear upper-back view differs from existing frontal/kneeling compositions. Actual generated results reviewed separately.\n"
+}
