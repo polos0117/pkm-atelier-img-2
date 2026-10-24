@@ -2882,14 +2882,14 @@
       "id": "2026-10-23-6",
       "execution_id": "pkm-daily-2026-10-24T00-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T23:58:30+00:00",
       "queue": [
         {
           "no": 363,
           "name": "대굴레오",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3032,7 +3032,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T00:12:21+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-6/363/mobility_overdrive/prompt.txt",
@@ -3051,7 +3051,17 @@
                 "session_only": true,
                 "webp_sha256": "b9272b163f0ab89270c7e8f98da6e4133ad9347c6270db8b87f198f6d55069fc"
               },
-              "received_at": "2026-10-24T00:13:39+00:00"
+              "received_at": "2026-10-24T00:13:39+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-6/363/mobility_overdrive/qa-rejected.json",
+                "sha256": "7773f85a02770e2476a87f1a9e7f863a377864d5197f48924ff8cbe776910f53"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-6/363/mobility_overdrive/user-exception.json",
+                "sha256": "7ac4867df5f9a337e6f641e2736ba603dba837f2c84657f2f59e11cbea9bff5a"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Same adult face pose camera and hands as mobility, blue opened thruster covers. Two continuous arms and crossed legs, two boots. Right palm thumb and four fingers; left glove overlapping digits partly occluded, exact count uncertain. Crops show connected wrists and ankles, no extra limb. Right-side trailing costume panel length and spread differ substantially and reach frame edge; strict unchanged pieces and clear margin fail. Preserve visual failure for user review.",
@@ -3068,6 +3078,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-6/363/light_overdrive/user-exception.json",
                 "sha256": "7bdb7eba461a280967d49b57972fdce5ac0a0691673b6c2667630f170ac77f4f"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Same adult face pose camera and hands as mobility, blue opened thruster covers. Two continuous arms and crossed legs, two boots. Right palm thumb and four fingers; left glove overlapping digits partly occluded, exact count uncertain. Crops show connected wrists and ankles, no extra limb. Right-side trailing costume panel length and spread differ substantially and reach frame edge; strict unchanged pieces and clear margin fail. Preserve visual failure for user review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-6/363/mobility_overdrive/user-exception.json",
+                "sha256": "7ac4867df5f9a337e6f641e2736ba603dba837f2c84657f2f59e11cbea9bff5a"
               }
             }
           ]
