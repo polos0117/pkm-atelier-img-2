@@ -1,0 +1,31 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "9d68fc2e5e9051c5b4d1a2edffec77fe616c78a091c0265fedc7a354b312b711",
+  "observations": "Same mobility pose/camera/face/hair retained, thruster covers spread with water light. Panels expand toward frame edges and additional segmented surfaces appear; weak expression strain and unchanged long-leg proportions. Two arms and legs visually continuous; no second person confirmed despite model bodies=2 note, overlay places duplicate coarse skeleton on same figure. Gloved overlapping fingers and partly obscured thumbs remain uncertain. Original/crops/overlay actually viewed; hair and some fin margins clipped.",
+  "anatomy": {
+    "tool": "note",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Same mobility pose/camera/face/hair retained, thruster covers spread with water light. Panels expand toward frame edges and additional segmented surfaces appear; weak expression strain and unchanged long-leg proportions. Two arms and legs visually continuous; no second person confirmed despite model bodies=2 note, overlay places duplicate coarse skeleton on same figure. Gloved overlapping fingers and partly obscured thumbs remain uncertain. Original/crops/overlay actually viewed; hair and some fin margins clipped.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Same mobility pose/camera/face/hair retained, thruster covers spread with water light. Panels expand toward frame edges and additional segmented surfaces appear; weak expression strain and unchanged long-leg proportions. Two arms and legs visually continuous; no second person confirmed despite model bodies=2 note, overlay places duplicate coarse skeleton on same figure. Gloved overlapping fingers and partly obscured thumbs remain uncertain. Original/crops/overlay actually viewed; hair and some fin margins clipped."
+  },
+  "anatomy_tool_result": {
+    "level": "note",
+    "flags": [
+      {
+        "level": "note",
+        "what": "bodies",
+        "msg": "몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+      }
+    ],
+    "hands": [],
+    "measure": {
+      "shoulder_px": 145.9,
+      "arm_R_ratio": 0.94,
+      "arm_R_angle": 125
+    },
+    "file": "/workspace/generated_images/exec-9c5ac5a6-fe8a-42bb-a7d3-59cd0d29b9a2.png"
+  }
+}

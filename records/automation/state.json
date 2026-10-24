@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6919,7 +6919,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T22:08:45+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/mobility_overdrive/prompt.txt",
@@ -6938,7 +6938,17 @@
                 "session_only": true,
                 "webp_sha256": "a0e82ac8d1d8a5f39268359286435d1e0c8c0ad37ab36b584a91a7ee8b5e7965"
               },
-              "received_at": "2026-10-24T22:10:37+00:00"
+              "received_at": "2026-10-24T22:10:37+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-14/382/mobility_overdrive/qa-rejected.json",
+                "sha256": "b0517dbb86c98fa000e6fc5bac4db078a3667a7d07b45bebfa37c80c8402077d"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-14/382/mobility_overdrive/user-exception.json",
+                "sha256": "c774a27529a16713721c7cea72d245ece46d359db829f9bc781ef2d04ec4559b"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Same mobility pose/camera/face/hair retained, thruster covers spread with water light. Panels expand toward frame edges and additional segmented surfaces appear; weak expression strain and unchanged long-leg proportions. Two arms and legs visually continuous; no second person confirmed despite model bodies=2 note, overlay places duplicate coarse skeleton on same figure. Gloved overlapping fingers and partly obscured thumbs remain uncertain. Original/crops/overlay actually viewed; hair and some fin margins clipped.",
@@ -6976,6 +6986,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-14/382/heavy_overdrive/user-exception.json",
                 "sha256": "6f222f80ad62835feda8d0211f8852e12e5949cbc49dc936f922bdc5b07b3094"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Same mobility pose/camera/face/hair retained, thruster covers spread with water light. Panels expand toward frame edges and additional segmented surfaces appear; weak expression strain and unchanged long-leg proportions. Two arms and legs visually continuous; no second person confirmed despite model bodies=2 note, overlay places duplicate coarse skeleton on same figure. Gloved overlapping fingers and partly obscured thumbs remain uncertain. Original/crops/overlay actually viewed; hair and some fin margins clipped.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-14/382/mobility_overdrive/user-exception.json",
+                "sha256": "c774a27529a16713721c7cea72d245ece46d359db829f9bc781ef2d04ec4559b"
               }
             }
           ]
