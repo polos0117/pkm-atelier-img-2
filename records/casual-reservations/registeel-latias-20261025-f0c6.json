@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "registeel-latias-20261025-f0c6",
- "at": "2026-10-25T06:44:34+11:00",
+ "at": "2026-10-25T07:10:54+11:00",
  "characters": [
   {
    "species": "registeel-20261025",
    "card": "레지스틸",
-   "at": "2026-10-25T06:44:34+11:00",
+   "at": "2026-10-25T06:49:47+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,7 +31,8 @@
       "halter neck",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -56,17 +57,18 @@
       "strapless top",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "swimwear",
-     "ex": "highleg_onepiece",
+     "ex": "halter_bikini",
      "expr": "cold_smile",
      "pose": "side_sitting",
      "orient": "reclining",
      "frame": "environmental",
-     "lens": "portrait85",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -75,20 +77,20 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "bikini"
      ],
      "expose": [
-      "plunging neckline",
-      "open back"
+      "halter neck",
+      "strapless top"
      ],
-     "lead": "detail"
+     "lead": "place"
     }
    ]
   },
   {
    "species": "latias-20261025",
    "card": "라티아스",
-   "at": "2026-10-25T06:44:34+11:00",
+   "at": "2026-10-25T07:10:54+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -114,7 +116,8 @@
       "cropped hem",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -140,21 +143,22 @@
       "bare midriff",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "hobbies_leisure",
      "ex": "hobby_photo",
-     "expr": "curious",
-     "pose": "taking_photo",
-     "orient": "low_angle",
+     "expr": "mischievous",
+     "pose": "side_sitting",
+     "orient": "looking_down",
      "frame": "three_quarter",
-     "lens": "telephoto135",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
@@ -162,10 +166,10 @@
       "overalls"
      ],
      "expose": [
-      "mini length",
-      "off-shoulder neckline"
+      "cropped hem",
+      "side cutouts"
      ],
-     "lead": "light"
+     "lead": "place"
     }
    ]
   }
