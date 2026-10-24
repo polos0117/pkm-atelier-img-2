@@ -4394,14 +4394,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4562,7 +4562,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T06:19:47+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/mobility_overdrive/prompt.txt",
@@ -4581,7 +4581,17 @@
                 "session_only": true,
                 "webp_sha256": "eeec3ab31beb7c109f94e2e6a0caac557fe81b57222e8bfb7eae58a0cc3ca7d5"
               },
-              "received_at": "2026-10-24T06:21:19+00:00"
+              "received_at": "2026-10-24T06:21:19+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-9/368/mobility_overdrive/qa-rejected.json",
+                "sha256": "0abf0d78d0a9ab9f5a704020e8d56b3a83033a4e4a447499b32a3b626d5a1417"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-9/368/mobility_overdrive/user-exception.json",
+                "sha256": "148c08381983b38c18d4bc692ed2a4b940440892825423947a0c7b7689f4208a"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: One woman despite duplicate pose alert. Two continuous arms and gloved hands with five projections each, two crossed legs with boots; toes covered. Same face, pose, camera and outward fins retained with cyan exposed thrusters. Upper bun remains clipped and expression barely changes; some panel shapes differ. Keep QA failure with standing post-upload-review acceptance.",
@@ -4619,6 +4629,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-9/368/heavy_overdrive/user-exception.json",
                 "sha256": "d8c891334e943845be6c9e633ab1cef03a5c704ef219dcc952b76a0cf53d8a84"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: One woman despite duplicate pose alert. Two continuous arms and gloved hands with five projections each, two crossed legs with boots; toes covered. Same face, pose, camera and outward fins retained with cyan exposed thrusters. Upper bun remains clipped and expression barely changes; some panel shapes differ. Keep QA failure with standing post-upload-review acceptance.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-9/368/mobility_overdrive/user-exception.json",
+                "sha256": "148c08381983b38c18d4bc692ed2a4b940440892825423947a0c7b7689f4208a"
               }
             }
           ]

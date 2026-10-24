@@ -1,0 +1,31 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "6eec31cd8874fe5f78e267b5f98d97c3d5264539f4ed06fc3e0bb024d31d9173",
+  "observations": "One woman despite duplicate pose alert. Two continuous arms and gloved hands with five projections each, two crossed legs with boots; toes covered. Same face, pose, camera and outward fins retained with cyan exposed thrusters. Upper bun remains clipped and expression barely changes; some panel shapes differ. Keep QA failure with standing post-upload-review acceptance.",
+  "anatomy": {
+    "tool": "note",
+    "arms": 2,
+    "legs": 2,
+    "hands": "One woman despite duplicate pose alert. Two continuous arms and gloved hands with five projections each, two crossed legs with boots; toes covered. Same face, pose, camera and outward fins retained with cyan exposed thrusters. Upper bun remains clipped and expression barely changes; some panel shapes differ. Keep QA failure with standing post-upload-review acceptance.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. One woman despite duplicate pose alert. Two continuous arms and gloved hands with five projections each, two crossed legs with boots; toes covered. Same face, pose, camera and outward fins retained with cyan exposed thrusters. Upper bun remains clipped and expression barely changes; some panel shapes differ. Keep QA failure with standing post-upload-review acceptance."
+  },
+  "anatomy_tool_result": {
+    "level": "note",
+    "flags": [
+      {
+        "level": "note",
+        "what": "bodies",
+        "msg": "몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+      }
+    ],
+    "hands": [],
+    "measure": {
+      "shoulder_px": 154.1,
+      "arm_R_ratio": 0.8,
+      "arm_R_angle": 148
+    },
+    "file": "/workspace/generated_images/exec-670769bd-ea55-4664-a04a-7cd3f3a76de5.png"
+  }
+}
