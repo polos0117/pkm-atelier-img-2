@@ -33,7 +33,8 @@
       367,
       368,
       369,
-      372
+      372,
+      375
     ]
   },
   "runs": [
@@ -5869,6 +5870,23 @@
         }
       ],
       "updated_at": "2026-10-24T15:10:43+00:00"
+    },
+    {
+      "id": "2026-10-24-12",
+      "execution_id": "pkm-daily-2026-10-24T16-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-24T17:36:13+00:00",
+      "queue": [
+        {
+          "no": 375,
+          "name": "메탕구",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-24T17:36:13+00:00"
     }
   ],
   "claims": {
@@ -6093,6 +6111,12 @@
       "run": "2026-10-24-11",
       "status": "complete",
       "at": "2026-10-24T09:57:51+00:00"
+    },
+    "375": {
+      "owner": "pkm-daily",
+      "run": "2026-10-24-12",
+      "status": "held",
+      "at": "2026-10-24T17:36:13+00:00"
     }
   },
   "blocked_candidates": {
@@ -6448,9 +6472,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -6620,6 +6644,41 @@
       "file": "records/casual-reservations/gpt-gible-family-20261024.json",
       "at": "2026-10-24T23:08:17+11:00",
       "status": "external_reservation_do_not_take_over"
+    },
+    "367": {
+      "card": "헌테일",
+      "session": "huntail-casual1-refill-20261024",
+      "file": "records/casual-reservations/huntail-casual1-refill-20261024.json",
+      "at": "2026-10-24T09:03:12+00:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "373": {
+      "card": "보만다",
+      "session": "gpt-salamence-beldum-20261025",
+      "file": "records/casual-reservations/gpt-salamence-beldum-20261025.json",
+      "at": "2026-10-25T03:48:51+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "374": {
+      "card": "메탕",
+      "session": "gpt-salamence-beldum-20261025",
+      "file": "records/casual-reservations/gpt-salamence-beldum-20261025.json",
+      "at": "2026-10-25T04:01:39+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "446": {
+      "card": "먹고자",
+      "session": "gpt-munchlax-riolu-20261025",
+      "file": "records/casual-reservations/gpt-munchlax-riolu-20261025.json",
+      "at": "2026-10-25T03:03:43+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "447": {
+      "card": "리오르",
+      "session": "gpt-munchlax-riolu-20261025",
+      "file": "records/casual-reservations/gpt-munchlax-riolu-20261025.json",
+      "at": "2026-10-25T03:03:43+11:00",
+      "status": "external_reservation_do_not_take_over"
     }
   },
   "daily_kst": {
@@ -6640,6 +6699,9 @@
       368,
       369,
       372
+    ],
+    "2026-10-25": [
+      375
     ]
   },
   "executions": {
@@ -6718,6 +6780,13 @@
       "at": "2026-10-24T12:47:31+00:00",
       "characters": [
         372
+      ]
+    },
+    "pkm-daily-2026-10-24T16-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-24T17:36:13+00:00",
+      "characters": [
+        375
       ]
     }
   }
