@@ -6372,7 +6372,7 @@
               }
             },
             "mobility": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T20:10:46+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/mobility/prompt.txt",
@@ -6384,7 +6384,14 @@
               },
               "references": {
                 "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-13/381/mobility/original.png",
+                "sha256": "e009db48d2766423518c7decada08a8756918be59bb5de055f913e72e7694337",
+                "session_only": true,
+                "webp_sha256": "7148a1c35f561afd2eed209605fd9715c0b6222e0a59f039bbd2d24035dcd466"
+              },
+              "received_at": "2026-10-24T20:12:13+00:00"
             }
           },
           "reason": "heavy visual QA: Identity and gloves preserved; broad layered armor added over shoulders, torso, pelvis and legs, no cannon. Two arms and legs continuous, boots fully visible but lower margin extremely tight and inherited leg proportions exaggerated. Open hand thumb and four fingers visible; lowered fingers overlap. Tool ok with zero hands and unreliable upper pose landmarks near head, so digit structure not independently certified. Preserve these visual limitations for user post-upload review.",
@@ -6406,7 +6413,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T20:10:46+00:00"
+      "updated_at": "2026-10-24T20:12:14+00:00"
     }
   ],
   "claims": {
@@ -6893,16 +6900,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -7243,16 +7250,16 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-latias-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:44:34+11:00",
+      "session": "registeel-casual3-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
+      "at": "2026-10-25T06:52:03+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
       "card": "라티아스",
       "session": "registeel-latias-20261025-f0c6",
       "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:44:34+11:00",
+      "at": "2026-10-25T07:10:54+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "448": {
