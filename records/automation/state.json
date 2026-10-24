@@ -4394,14 +4394,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4466,7 +4466,7 @@
               }
             },
             "mobility": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T06:13:16+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/mobility/prompt.txt",
@@ -4485,7 +4485,17 @@
                 "session_only": true,
                 "webp_sha256": "be8d8d2d694d38b9e0ca5eab8127fc0ea9e4224e54675d29df4915212a4e9407"
               },
-              "received_at": "2026-10-24T06:15:06+00:00"
+              "received_at": "2026-10-24T06:15:06+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-9/368/mobility/qa-rejected.json",
+                "sha256": "e3ae348c914cedbc5b0db0bd8b6e3d97c7190f110bc8e1d1676d8f1fb48aab2b"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-9/368/mobility/user-exception.json",
+                "sha256": "5c90577d59c238cd4429952fc036342fab543572dd8b2d212e7f29e28e5f26da"
+              }
             }
           },
           "reason": "mobility visual QA: Two continuous arms, two hands with five visible digit projections, crossed legs and two booted feet. Tool ok but no hand landmarks; covered toes remain unverified. Swept shoulder and hip fins retain canonical face and palette. Top hair clips the boundary and compact thrusters are not clearly identifiable. Preserve failed visual QA and adopt for post-upload user review.",
@@ -4502,6 +4512,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-9/368/heavy/user-exception.json",
                 "sha256": "d7be0fd751088e66d4bf23540bcf02a2b90378444df5209d0b1c3ea7c111f322"
+              }
+            },
+            {
+              "reason": "mobility visual QA: Two continuous arms, two hands with five visible digit projections, crossed legs and two booted feet. Tool ok but no hand landmarks; covered toes remain unverified. Swept shoulder and hip fins retain canonical face and palette. Top hair clips the boundary and compact thrusters are not clearly identifiable. Preserve failed visual QA and adopt for post-upload user review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-9/368/mobility/user-exception.json",
+                "sha256": "5c90577d59c238cd4429952fc036342fab543572dd8b2d212e7f29e28e5f26da"
               }
             }
           ]
