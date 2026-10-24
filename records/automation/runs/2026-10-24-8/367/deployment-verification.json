@@ -1,0 +1,56 @@
+{
+  "card": 367,
+  "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
+  "at": "2026-10-24T04:30:12+00:00",
+  "actions": {
+    "thumbnails": {
+      "id": 40062354640,
+      "conclusion": "success"
+    },
+    "image_pages": {
+      "id": 40062397946,
+      "conclusion": "success"
+    },
+    "registration": {
+      "id": 40062398925,
+      "conclusion": "success"
+    },
+    "code_pages": {
+      "id": 40062513688,
+      "conclusion": "success"
+    }
+  },
+  "logs_checked": {
+    "thumbnail_job": 120778386783,
+    "registration_job": 120778517707,
+    "warnings": "Existing other-image dimension warnings and actions Node20 deprecation. All eight current images independently verified 1024x1536 and thumbs512."
+  },
+  "validation": "casual-look passed both generated casual images. Eight remote Git image hashes, dimensions, thumbs, registered slots, where=2 verified; registry Actions forms/img-shards/register-images tests passed. Partial preflight preserved claims/daily/executions/external holds; only new WebP and text files added. Reconciliation recognized eight own outputs, no external skip. All eight failed visual QA observations remain user-post-review exceptions, not QA passes.",
+  "public_http_bytes": "Not re-fetched: earlier environment proxy403. Remote Git bytes and Actions deployments verified.",
+  "missing": {
+    "casual1": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "7974c7d7-846d-4908-94c0-cfe382aef772",
+      "output_files": [],
+      "retry": false
+    }
+  },
+  "quota": {
+    "execution_characters": [
+      367
+    ],
+    "daily_utc": [
+      363,
+      366,
+      367
+    ],
+    "daily_kst": [
+      360,
+      363,
+      366,
+      367
+    ]
+  }
+}
