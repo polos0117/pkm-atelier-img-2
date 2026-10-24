@@ -3281,14 +3281,14 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3553,7 +3553,7 @@
               "received_at": "2026-10-24T02:21:07+00:00"
             }
           },
-          "reason": "casual2 visual QA: Same adult face and buns, two connected arms and crossed legs. Tool check flags upper arm asymmetry 0.58; actual overlay viewed, foreshortening likely contributes but exact length uncertain. Fingers partly overlap; no extra detached limbs seen, feet hidden/cropped. Full-cover plan rendered exposed chest and side cutouts without opaque underlayer, framing includes crossed legs instead of chest-up, hood loose, canonical shell breast motif repeated. Preserve wardrobe/framing QA failure; non-explicit adult swimwear image. Actual shaded terrace resting full-length swimsuit differs from stage trousers, recent hot-spring kneel and studio stretching.",
+          "reason": "casual3 visual QA: Adult face/hair and velvet dress retained, two arms connect to leaflet-holding hands and two legs to sandaled feet. Four fingers visible on each hand, thumbs mostly behind leaflet, exact hidden digits uncertain; foot/toe shapes consistent in enlarged lower crop. Anatomy suspect three hand detections maps R,L,R with overlapping same-arm estimates; actual overlay and original show only two hands, probable duplicate right-hand detection, not a third anatomical hand. Leaflet contains pseudo-text despite no-lettering rule; gaze is toward viewer rather than downward, and framing is closer than environmental long shot. Preserve failed visual QA. Actual gallery walking gown scene differs from stage jacket/trousers and terrace cross-legged swimsuit as well as recent train, studio, bedroom, hot-spring, bead-work and scarf scenes. Casual-look check passed all three.",
           "block_history": [
             {
               "reason": "light visual QA: Adult full body with blue space buns and shell mantle; feet inside frame, two continuous arms and crossed legs. Near right hand at image left appears to have six digits including thumb; far left hand appears five with overlapping base. Face more pointed and eyes larger than specified rounded narrow-eyed design. Tool ok but detected zero hands, so it does not resolve manual digit failure. Retain failure and user post-upload acceptance.",
@@ -3642,7 +3642,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T02:21:08+00:00"
+      "updated_at": "2026-10-24T02:21:16+00:00"
     }
   ],
   "claims": {
@@ -4060,9 +4060,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -4088,16 +4088,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -4193,9 +4193,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
