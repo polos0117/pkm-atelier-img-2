@@ -4592,6 +4592,21 @@
                 "path": "records/automation/runs/2026-10-24-9/368/mobility_overdrive/user-exception.json",
                 "sha256": "148c08381983b38c18d4bc692ed2a4b940440892825423947a0c7b7689f4208a"
               }
+            },
+            "casual1": {
+              "status": "in_flight",
+              "at": "2026-10-24T06:21:47+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-9/368/casual1/prompt.txt",
+                "sha256": "6b4bef5b231bc5413a413d768c92668dbc4b7fe0975db1d6cedc7884124d49c1"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-9/368/casual1/ui.json",
+                "sha256": "105140a7f6667cc085bdaf44e6998b8c1997fd0c5eea249e87bc9c6c0932a067"
+              },
+              "references": {
+                "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: One woman despite duplicate pose alert. Two continuous arms and gloved hands with five projections each, two crossed legs with boots; toes covered. Same face, pose, camera and outward fins retained with cyan exposed thrusters. Upper bun remains clipped and expression barely changes; some panel shapes differ. Keep QA failure with standing post-upload-review acceptance.",
@@ -4641,7 +4656,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T06:21:28+00:00"
+      "updated_at": "2026-10-24T06:21:47+00:00"
     }
   ],
   "claims": {
@@ -5099,16 +5114,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -5204,9 +5219,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {

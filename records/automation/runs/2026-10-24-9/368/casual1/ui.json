@@ -1,0 +1,187 @@
+{
+  "storage": {
+    "last": "분홍장이",
+    "cards": {
+      "분홍장이": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "provocative",
+            "pose": "side_sitting",
+            "orient": "leaning_back",
+            "scene": "Cool arena lights fall on signal flags and a match card on the referee bench beside a battle court, where she pauses to check the match equipment.",
+            "outfit": "An opaque white and purple original referee uniform with a cropped short-sleeve top exposing the midriff and practical separate uniform shorts, with only a small shell-shaped pin.",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "motorsport_engineer",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Gorebyss (분홍장이) personified, water type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: direct challenging gaze under lowered lids, one brow raised, mouth corner tugged in a slight smirk\nPose: Sit on a mat with both legs folded to one side and a relaxed upright torso.\nOrientation: torso leaning backward with clear support\nScene: Cool arena lights fall on signal flags and a match card on the referee bench beside a battle court, where she pauses to check the match equipment.\nOutfit and props: An opaque white and purple original referee uniform with a cropped short-sleeve top exposing the midriff and practical separate uniform shorts, with only a small shell-shaped pin.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character. Use glamorous tailoring and confident professional presence while keeping the outfit credible for the task.\nExample scene: Pokémon battle referee checking signal flags and a match card beside a battle court in a practical original uniform.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "locks": [
+    {
+      "id": "lock-expression",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-category",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-example",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-pose",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-orientation",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-frame",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-lens",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-aspect",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-overall_intensity",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-skin_exposure",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-action_level",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-source_influence",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-separates_preference",
+      "pressed": "true"
+    }
+  ],
+  "plan": {
+    "cut": 1,
+    "cat": "occupation_sensual",
+    "ex": "motorsport_engineer",
+    "garments": [
+      "uniform"
+    ],
+    "orient": "leaning_back",
+    "frame": "chest_up",
+    "pose": "side_sitting",
+    "expr": "provocative",
+    "lens": "portrait85",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "bare midriff",
+      "cropped hem"
+    ],
+    "lead": "light"
+  },
+  "custom_inputs": {
+    "scene": "Cool arena lights fall on signal flags and a match card on the referee bench beside a battle court, where she pauses to check the match equipment.",
+    "outfit": "An opaque white and purple original referee uniform with a cropped short-sleeve top exposing the midriff and practical separate uniform shorts, with only a small shell-shaped pin.",
+    "reason": "The selected example already specifies battle referee, flags and match card. Lighting leads the scene; cropped top and shorts instantiate the reserved uniform and exposure choices.",
+    "axes_reason": "Equipment-checking pause is mostly posed; one shell pin is subtle source influence; separate uniform top and shorts."
+  },
+  "camera_reason": "Tool has no size argument.",
+  "captured_at": "2026-10-24T06:21:03.473Z"
+}
