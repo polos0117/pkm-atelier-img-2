@@ -1,0 +1,54 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "8a6e8ead46d6117cabac30346308d175940b3201ed639c2b31478f05dbe6b1d5",
+  "observations": "Adult face/hair and velvet dress retained, two arms connect to leaflet-holding hands and two legs to sandaled feet. Four fingers visible on each hand, thumbs mostly behind leaflet, exact hidden digits uncertain; foot/toe shapes consistent in enlarged lower crop. Anatomy suspect three hand detections maps R,L,R with overlapping same-arm estimates; actual overlay and original show only two hands, probable duplicate right-hand detection, not a third anatomical hand. Leaflet contains pseudo-text despite no-lettering rule; gaze is toward viewer rather than downward, and framing is closer than environmental long shot. Preserve failed visual QA. Actual gallery walking gown scene differs from stage jacket/trousers and terrace cross-legged swimsuit as well as recent train, studio, bedroom, hot-spring, bead-work and scarf scenes. Casual-look check passed all three.",
+  "anatomy": {
+    "tool": "suspect",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Adult face/hair and velvet dress retained, two arms connect to leaflet-holding hands and two legs to sandaled feet. Four fingers visible on each hand, thumbs mostly behind leaflet, exact hidden digits uncertain; foot/toe shapes consistent in enlarged lower crop. Anatomy suspect three hand detections maps R,L,R with overlapping same-arm estimates; actual overlay and original show only two hands, probable duplicate right-hand detection, not a third anatomical hand. Leaflet contains pseudo-text despite no-lettering rule; gaze is toward viewer rather than downward, and framing is closer than environmental long shot. Preserve failed visual QA. Actual gallery walking gown scene differs from stage jacket/trousers and terrace cross-legged swimsuit as well as recent train, studio, bedroom, hot-spring, bead-work and scarf scenes. Casual-look check passed all three.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Adult face/hair and velvet dress retained, two arms connect to leaflet-holding hands and two legs to sandaled feet. Four fingers visible on each hand, thumbs mostly behind leaflet, exact hidden digits uncertain; foot/toe shapes consistent in enlarged lower crop. Anatomy suspect three hand detections maps R,L,R with overlapping same-arm estimates; actual overlay and original show only two hands, probable duplicate right-hand detection, not a third anatomical hand. Leaflet contains pseudo-text despite no-lettering rule; gaze is toward viewer rather than downward, and framing is closer than environmental long shot. Preserve failed visual QA. Actual gallery walking gown scene differs from stage jacket/trousers and terrace cross-legged swimsuit as well as recent train, studio, bedroom, hot-spring, bead-work and scarf scenes. Casual-look check passed all three."
+  },
+  "anatomy_tool_result": {
+    "level": "suspect",
+    "flags": [
+      {
+        "level": "suspect",
+        "what": "many_hands",
+        "msg": "손이 3 개 잡혔다 — 사람 손은 둘"
+      }
+    ],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.99,
+        "arm": "R",
+        "gap": 0.12
+      },
+      {
+        "i": 1,
+        "label_side": "L",
+        "score": 0.7,
+        "arm": "L",
+        "gap": 0.29
+      },
+      {
+        "i": 2,
+        "label_side": "R",
+        "score": 0.75,
+        "arm": "R",
+        "gap": 0.16
+      }
+    ],
+    "measure": {
+      "shoulder_px": 183.6,
+      "arm_R_ratio": 0.55,
+      "arm_R_angle": 97
+    },
+    "file": "/workspace/generated_images/exec-a0796eb0-3705-4a41-9670-84727dd0c153.png"
+  },
+  "diversity_comparison": "Actual recent thumbnails viewed: Walrein train-platform cropped shirt/skirt walking, studio stretch crop top/leggings, bedroom lingerie leaning; Sealeo reflective hall evening jumpsuit, hot-spring bikini kneel, bead-work seated blouse/skirt; Spheal courtyard scarf robe crouch, rain-porch tank/shorts kneel, dressing-room lingerie standing scarf. Clamperl plans stage jacket/trousers arms-crossed side full body, terrace full-cover swim resting reclining chest-up, gallery velvet dress walking environmental. Final actual result comparison appended per slot; planned differences alone are not QA pass."
+}

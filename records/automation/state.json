@@ -3281,14 +3281,14 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3526,7 +3526,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T02:19:26+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/casual3/prompt.txt",
@@ -3550,7 +3550,17 @@
                 "session_only": true,
                 "webp_sha256": "0a011f28457b4ed4adf49f2e07ad47874a2704099ca90932daff9b69ccfd697f"
               },
-              "received_at": "2026-10-24T02:21:07+00:00"
+              "received_at": "2026-10-24T02:21:07+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual3/qa-rejected.json",
+                "sha256": "f3df4e5890a29f61556b393c63eb89554e3e1ac5ca015415c4fdc4a2061dd8df"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual3/user-exception.json",
+                "sha256": "e767495a71f7b047d8d88387b41d821884ae2349d8ec52819781ebc0baf7dae3"
+              }
             }
           },
           "reason": "casual3 visual QA: Adult face/hair and velvet dress retained, two arms connect to leaflet-holding hands and two legs to sandaled feet. Four fingers visible on each hand, thumbs mostly behind leaflet, exact hidden digits uncertain; foot/toe shapes consistent in enlarged lower crop. Anatomy suspect three hand detections maps R,L,R with overlapping same-arm estimates; actual overlay and original show only two hands, probable duplicate right-hand detection, not a third anatomical hand. Leaflet contains pseudo-text despite no-lettering rule; gaze is toward viewer rather than downward, and framing is closer than environmental long shot. Preserve failed visual QA. Actual gallery walking gown scene differs from stage jacket/trousers and terrace cross-legged swimsuit as well as recent train, studio, bedroom, hot-spring, bead-work and scarf scenes. Casual-look check passed all three.",
@@ -3595,6 +3605,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-7/366/casual2/user-exception.json",
                 "sha256": "11a9c2283862fea2046f3f4db38aac3f72326fe5e489944f37db93215a44c6fc"
+              }
+            },
+            {
+              "reason": "casual3 visual QA: Adult face/hair and velvet dress retained, two arms connect to leaflet-holding hands and two legs to sandaled feet. Four fingers visible on each hand, thumbs mostly behind leaflet, exact hidden digits uncertain; foot/toe shapes consistent in enlarged lower crop. Anatomy suspect three hand detections maps R,L,R with overlapping same-arm estimates; actual overlay and original show only two hands, probable duplicate right-hand detection, not a third anatomical hand. Leaflet contains pseudo-text despite no-lettering rule; gaze is toward viewer rather than downward, and framing is closer than environmental long shot. Preserve failed visual QA. Actual gallery walking gown scene differs from stage jacket/trousers and terrace cross-legged swimsuit as well as recent train, studio, bedroom, hot-spring, bead-work and scarf scenes. Casual-look check passed all three.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual3/user-exception.json",
+                "sha256": "e767495a71f7b047d8d88387b41d821884ae2349d8ec52819781ebc0baf7dae3"
               }
             }
           ],
