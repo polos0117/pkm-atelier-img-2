@@ -1,17 +1,17 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "lucario-hippopotas-20261025-d3bb",
- "at": "2026-10-25T06:40:58+11:00",
+ "at": "2026-10-25T06:52:10+11:00",
  "characters": [
   {
    "species": "lucario-20261025",
    "card": "루카리오",
-   "at": "2026-10-25T06:40:58+11:00",
+   "at": "2026-10-25T06:52:10+11:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "lingerie",
-     "ex": "garter_set",
+     "cat": "swimwear",
+     "ex": "highleg_onepiece",
      "expr": "confident",
      "pose": "hand_on_hip",
      "orient": "rear_3q",
@@ -25,13 +25,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "swimsuit"
      ],
      "expose": [
       "high-cut leg",
       "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 2,
@@ -57,7 +57,8 @@
       "side cutouts",
       "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -83,7 +84,8 @@
       "bare midriff",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ]
   }
