@@ -7015,7 +7015,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T22:15:15+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/casual3/prompt.txt",
@@ -7027,7 +7027,14 @@
               },
               "references": {
                 "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual3/original.png",
+                "sha256": "d2584dda5fe8d1640cbeefe9cace3b2aed0389f80d1ac715f9e0ae7569f9c3cf",
+                "session_only": true,
+                "webp_sha256": "df0b47e0d036365a502de2265f3657437000b7b990754d54b807322ce828b6ec"
+              },
+              "received_at": "2026-10-24T22:17:11+00:00"
             }
           },
           "reason": "casual2 visual QA: Face/hair identity retained, fitting-room racks/mirror and fabric samples readable, garment distinct from satin homewear and earlier maid/pool scenes. Rear three-quarter camera and large figure resemble casual1 turn despite different location/outfit/activity; walking motion subdued, hip proportions emphasized, head close to top edge. One bare hanging arm connects through elbow/wrist with curled separated digits, thumb partly overlapped; other hand hidden by folded fabric, cannot certify its fingers. Two upper legs visible, feet outside crop. Actual overlay loose_hand flag arises from wrong far-wrist placement on fabric; no detached third hand visually confirmed. Preserve this uncertainty and composition mismatch.",
@@ -7091,7 +7098,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:15:15+00:00"
+      "updated_at": "2026-10-24T22:17:12+00:00"
     }
   ],
   "claims": {
@@ -7556,9 +7563,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
