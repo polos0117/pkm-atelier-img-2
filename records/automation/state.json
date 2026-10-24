@@ -6300,17 +6300,17 @@
       "id": "2026-10-24-13",
       "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T20:05:04+00:00",
       "queue": [
         {
           "no": 381,
           "name": "라티오스",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T20:06:39+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/light/prompt.txt",
@@ -6327,10 +6327,29 @@
                 "session_only": true,
                 "webp_sha256": "84debbcfdcf3cfbc785c9cebda28303b2f8d426560b929e42ee181bde20b229f"
               },
-              "received_at": "2026-10-24T20:08:28+00:00"
+              "received_at": "2026-10-24T20:08:28+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-13/381/light/qa-rejected.json",
+                "sha256": "b9e5d56ae5c50ce1ef6beeed51e49ceec39654604388a317a6ce7c77f4c6b057"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-13/381/light/user-exception.json",
+                "sha256": "5ebd0a16cfb82905114b31cbe3e92f946df80fb98222bf5c1d65d9313b31d69c"
+              }
             }
           },
-          "reason": "light visual QA: One adult woman, full head and both pointed boots present; legs visibly exaggerated in length and narrow proportions versus natural-proportion instruction. Two arms and two legs connect continuously. Open hand shows thumb plus four finger silhouettes, lowered hand digits overlap and exact five-digit count remains uncertain. Tool ok but detected zero hands, so not independent finger confirmation. Chignon has long loose strands; slim plates include broad trailing fins. User post-upload quality adoption without regeneration."
+          "reason": "light visual QA: One adult woman, full head and both pointed boots present; legs visibly exaggerated in length and narrow proportions versus natural-proportion instruction. Two arms and two legs connect continuously. Open hand shows thumb plus four finger silhouettes, lowered hand digits overlap and exact five-digit count remains uncertain. Tool ok but detected zero hands, so not independent finger confirmation. Chignon has long loose strands; slim plates include broad trailing fins. User post-upload quality adoption without regeneration.",
+          "block_history": [
+            {
+              "reason": "light visual QA: One adult woman, full head and both pointed boots present; legs visibly exaggerated in length and narrow proportions versus natural-proportion instruction. Two arms and two legs connect continuously. Open hand shows thumb plus four finger silhouettes, lowered hand digits overlap and exact five-digit count remains uncertain. Tool ok but detected zero hands, so not independent finger confirmation. Chignon has long loose strands; slim plates include broad trailing fins. User post-upload quality adoption without regeneration.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-13/381/light/user-exception.json",
+                "sha256": "5ebd0a16cfb82905114b31cbe3e92f946df80fb98222bf5c1d65d9313b31d69c"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-24T20:08:37+00:00"
