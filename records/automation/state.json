@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6855,7 +6855,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T22:04:50+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/light_overdrive/prompt.txt",
@@ -6874,7 +6874,17 @@
                 "session_only": true,
                 "webp_sha256": "40394b94abf426c7ee2e94f4b222f385a2dfe2acfdfc557e2dcf008c87ba0f76"
               },
-              "received_at": "2026-10-24T22:06:22+00:00"
+              "received_at": "2026-10-24T22:06:22+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-14/382/light_overdrive/qa-rejected.json",
+                "sha256": "70d61b94d27a564eedbd4542263dbdbe5860d00f96203b2f4bc571644d07b5e3"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-14/382/light_overdrive/user-exception.json",
+                "sha256": "4d102aff316d40f2a7af166da3892fa687a3d2f49b89788c7d37b91ee4b75c81"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Camera/pose/face/hair and two hands broadly retained, with blue water light visible in opened seams. Thigh/shin panels acquire extra subdivisions and sash glows like armor rather than only original plates opening; expression strain weak. Two continuous arms and booted legs, no visible extra limb; gloved fingers partly overlap so full digit count uncertain. Original/crops/actual overlay viewed; tool ok but zero hands and coarse misplaced joints do not certify fingers. Existing elongated proportions and clipped hair persist.",
@@ -6898,6 +6908,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-14/382/mobility/user-exception.json",
                 "sha256": "184f81f8157fb83d48fa1481e325bb65cb031cab58577c697cb15d5ab251e6da"
+              }
+            },
+            {
+              "reason": "light_overdrive visual QA: Camera/pose/face/hair and two hands broadly retained, with blue water light visible in opened seams. Thigh/shin panels acquire extra subdivisions and sash glows like armor rather than only original plates opening; expression strain weak. Two continuous arms and booted legs, no visible extra limb; gloved fingers partly overlap so full digit count uncertain. Original/crops/actual overlay viewed; tool ok but zero hands and coarse misplaced joints do not certify fingers. Existing elongated proportions and clipped hair persist.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-14/382/light_overdrive/user-exception.json",
+                "sha256": "4d102aff316d40f2a7af166da3892fa687a3d2f49b89788c7d37b91ee4b75c81"
               }
             }
           ]
