@@ -5729,8 +5729,8 @@
                 "sha256": "3c224331bb37c3e546b001fc16d1fb8d9306a809c5ac8352ca12fab025019423"
               },
               "ui": {
-                "path": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2/ui.json",
-                "sha256": "f46b8482eaed73f8e02978a88c7acfdf4a86cb5c73cfae410cd74528166ada09"
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2/actual-ui.json",
+                "sha256": "ca0b6907d0ad8b3d8810ab45d2097ec4e30e7fd644483baaf7304816e5b18827"
               },
               "references": {
                 "light": "e0258313366c77b75990633bb9e19254ea24d702c8fe7f18cabb2bbd106134fa"
@@ -5740,7 +5740,12 @@
                 "sha256": "1d2567f93e9fcb84fdd891e64fa336261add26653807d9451b7b2cf574e5323e",
                 "session_only": true,
                 "webp_sha256": "78ae32d5dedfc224ff6f83a1617136d2fafe482e0daff8cb27d46b187ee01792"
-              }
+              },
+              "superseded_ui": {
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2/ui.json",
+                "sha256": "f46b8482eaed73f8e02978a88c7acfdf4a86cb5c73cfae410cd74528166ada09"
+              },
+              "metadata_correction": "Before image call: copied UI wrapper accidentally retained original prompt/custom fields; exact current live UI and submitted prompt recorded here, previous metadata preserved."
             }
           },
           "reason": "casual3: tiny pseudo-letter labels on route map; preserve first result and correct only map marks under current user task authorization.",
@@ -5777,7 +5782,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T13:16:58+00:00"
+      "updated_at": "2026-10-24T13:17:44+00:00"
     }
   ],
   "claims": {
