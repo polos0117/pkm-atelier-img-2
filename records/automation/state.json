@@ -4434,7 +4434,7 @@
               }
             },
             "heavy": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T06:08:56+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/heavy/prompt.txt",
@@ -4446,7 +4446,14 @@
               },
               "references": {
                 "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-9/368/heavy/original.png",
+                "sha256": "0e70cb4178b4eb86730d8efbcdbac58c34b150aacf4791043b991a86c59fac7d",
+                "session_only": true,
+                "webp_sha256": "9af6a951dcbb26d502b96d585ff730096252c24878babcfb680bae73b1eca798"
+              },
+              "received_at": "2026-10-24T06:12:53+00:00"
             }
           },
           "reason": "light visual QA: Adult single woman, pink messy bun, purple-white shell mantle; oval face and lower lip distinct from Bronzong/Bonsly, family Huntail and Clamperl similarity remains. Brows rendered thinner than thick-low assignment and top hair nearly clipped/no clear margin. Two arms and booted legs continuous; near glove five visible projections, far glove digits overlap with thumb partly hidden; no extra limb seen. Tool check loose hand is chest-armor false positive in actual overlay. Hands/feet crops checked; toes enclosed. Preserve visual framing/face mismatch as failed QA for post-upload review.",
@@ -4461,7 +4468,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T06:08:56+00:00"
+      "updated_at": "2026-10-24T06:12:54+00:00"
     }
   ],
   "claims": {
@@ -4891,9 +4898,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
