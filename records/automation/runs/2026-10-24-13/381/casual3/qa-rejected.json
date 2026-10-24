@@ -1,0 +1,45 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "d355f13bcfe2ed2d5ebf798b5b29c8241d801026e13fc614e74edc43eddb5bea",
+  "observations": "Top hair slightly clipped; requested waist-up framing became near full-body with foreground stool and shoe. Open-back design cannot be verified from front view and rolled long sleeves were added. Face/hair identity maintained. Two arms continuous and both blanket grips coherent, but thumbs/fingertips partly obscured so all five digits cannot be certified. One leg/shoe clear, second partly hidden. Actual pose/hand overlay viewed; no tool flag.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": "Two continuous arms visible to the blanket grips.",
+    "legs": "One bent leg and shoe clear; second leg partly occluded by blanket.",
+    "hands": "Both grips coherent; thumbs and fingertips partly occluded by blanket, all five digits cannot be certified.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Top hair slightly clipped; requested waist-up framing became near full-body with foreground stool and shoe. Open-back design cannot be verified from front view and rolled long sleeves were added. Face/hair identity maintained. Two arms continuous and both blanket grips coherent, but thumbs/fingertips partly obscured so all five digits cannot be certified. One leg/shoe clear, second partly hidden. Actual pose/hand overlay viewed; no tool flag."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.99,
+        "arm": "R",
+        "gap": 0.05
+      },
+      {
+        "i": 1,
+        "label_side": "L",
+        "score": 0.97,
+        "arm": "L",
+        "gap": 0.05
+      }
+    ],
+    "measure": {
+      "shoulder_px": 347.3,
+      "arm_L_ratio": 1.27,
+      "arm_L_angle": 171,
+      "arm_R_ratio": 0.9,
+      "arm_R_angle": 125,
+      "leg_R_ratio": 1.67,
+      "leg_R_angle": 50
+    },
+    "file": "/workspace/generated_images/exec-b315c3d9-aff6-4d74-bf26-ab2134bec2ab.png"
+  },
+  "diversity_comparison": "Actual comparison contact sheet viewed: Metang lantern snack jumpsuit, park berry offering overalls, rear-view vanity lingerie; Registeel textile work dress, kitchen snack jumpsuit, pool recline bikini; Regice rooftop blanket outfit, stage costume, blue slip at table. Latios plans are tatami seated wrap-slip reading rest, backstage maid-event program check, campsite blanket folding in shirt/trousers. They differ in setting/activity/silhouette and planned framing; compare actual returned image per slot and preserve any pose/wardrobe drift. The slip category also occurs in Regice, so category difference alone is not evidence of visual diversity.\n"
+}

@@ -6300,14 +6300,14 @@
       "id": "2026-10-24-13",
       "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T20:05:04+00:00",
       "queue": [
         {
           "no": 381,
           "name": "라티오스",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6564,7 +6564,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T20:22:37+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/casual3/prompt.txt",
@@ -6583,7 +6583,17 @@
                 "session_only": true,
                 "webp_sha256": "010161f120238f416d1eb00ec00579cd5e90cff817a4c0df5e3a5775873e1304"
               },
-              "received_at": "2026-10-24T20:26:20+00:00"
+              "received_at": "2026-10-24T20:26:20+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual3/qa-rejected.json",
+                "sha256": "60c72b3e97f0b5bc534622948eb312f1991fa6fd621ca03b7cf037dfdc20c40d"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual3/user-exception.json",
+                "sha256": "c8a676e8f1663c29ee97861f3a79ec8081e62e472168cf2abaadf9c8f8bf01ea"
+              }
             }
           },
           "reason": "casual3 visual QA: Top hair slightly clipped; requested waist-up framing became near full-body with foreground stool and shoe. Open-back design cannot be verified from front view and rolled long sleeves were added. Face/hair identity maintained. Two arms continuous and both blanket grips coherent, but thumbs/fingertips partly obscured so all five digits cannot be certified. One leg/shoe clear, second partly hidden. Actual pose/hand overlay viewed; no tool flag.",
@@ -6642,6 +6652,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-13/381/casual2/user-exception.json",
                 "sha256": "39819d64cdf6de1a554157913814581b4a7739c1ea434fb1c2427e231c8f2aba"
+              }
+            },
+            {
+              "reason": "casual3 visual QA: Top hair slightly clipped; requested waist-up framing became near full-body with foreground stool and shoe. Open-back design cannot be verified from front view and rolled long sleeves were added. Face/hair identity maintained. Two arms continuous and both blanket grips coherent, but thumbs/fingertips partly obscured so all five digits cannot be certified. One leg/shoe clear, second partly hidden. Actual pose/hand overlay viewed; no tool flag.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual3/user-exception.json",
+                "sha256": "c8a676e8f1663c29ee97861f3a79ec8081e62e472168cf2abaadf9c8f8bf01ea"
               }
             }
           ]
