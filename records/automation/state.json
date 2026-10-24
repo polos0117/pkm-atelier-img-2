@@ -4959,7 +4959,7 @@
           "status": "working",
           "slots": {
             "light": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T08:00:23+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/light/prompt.txt",
@@ -4969,12 +4969,19 @@
                 "path": "records/automation/runs/2026-10-24-10/369/light/ui.json",
                 "sha256": "46c01260d63e89570db049913c582ee562f22ce78de5b2a09e71947e8ce166d8"
               },
-              "references": {}
+              "references": {},
+              "image": {
+                "path": "records/automation/runs/2026-10-24-10/369/light/original.png",
+                "sha256": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110",
+                "session_only": true,
+                "webp_sha256": "c6209ca44000f450995a11d1fedaf8a23b4bbdc722b5df85d80a9aba3f37da40"
+              },
+              "received_at": "2026-10-24T08:02:53+00:00"
             }
           }
         }
       ],
-      "updated_at": "2026-10-24T08:00:23+00:00"
+      "updated_at": "2026-10-24T08:02:54+00:00"
     }
   ],
   "claims": {
@@ -5438,16 +5445,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
