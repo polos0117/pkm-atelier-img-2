@@ -3415,7 +3415,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T02:09:43+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/prompt.txt",
@@ -3432,7 +3432,14 @@
               "references": {
                 "heavy": "9ea2fdf8865bf7ddba765b807cec848c36d2926e244016a2d5d21819b16dfdeb"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/original.png",
+                "sha256": "f364e1c3ced27bd8d4954b099ab0bf6657d33358d05e7e7f0db0a93e76c27bdc",
+                "session_only": true,
+                "webp_sha256": "448609051531b70bcddc1aeabaa61f77cc974179553a4cd12b3db28c06dc7f2b"
+              },
+              "received_at": "2026-10-24T02:12:08+00:00"
             }
           },
           "reason": "light_overdrive visual QA: Light pose framing face and shell mantle maintained with cyan opened seams. Two continuous arms and crossed legs, two boots. Near right glove still appears six digits; far glove partly overlapping. New small segmented thigh and knee plates differ from source smooth sections. Tool ok with zero hand detections cannot resolve digit error. Actual QA failure preserved, no regeneration.",
@@ -3479,7 +3486,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T02:09:28+00:00"
+      "updated_at": "2026-10-24T02:12:09+00:00"
     }
   ],
   "claims": {
