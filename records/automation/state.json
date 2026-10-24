@@ -5071,6 +5071,21 @@
                 "path": "records/automation/runs/2026-10-24-10/369/light_overdrive/user-exception.json",
                 "sha256": "47ac2a08775203f286f72f1e7942cb5be10368baeb51d537ca5a539e6e88a970"
               }
+            },
+            "heavy_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T08:12:32+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-10/369/heavy_overdrive/prompt.txt",
+                "sha256": "5c4dfb762028476b066f0df42b1177ae35fe20a79211e760ea363180802bbf25"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-10/369/heavy_overdrive/ui.json",
+                "sha256": "f553ea59d8b8a7efb7a75c329fb16dd6416574b501e716a0d403628235442381"
+              },
+              "references": {
+                "heavy": "037c62d23c9874d363086fdf20d133273a1c16d3dba19e440a0ac6353c04bd1d"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Same standing pose, camera, face, hair and body scale as light, cyan inner-frame gaps visible. Two continuous arms, curled gloved hands and two booted legs; fingers overlap and cannot all be counted. Tool ok with no hand landmarks. Thigh and shin plate geometry changes beyond simply hinging the original panels, while expression barely tightens. Preserve that visual failure and adopt under user post-upload review.",
@@ -5092,7 +5107,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T08:11:55+00:00"
+      "updated_at": "2026-10-24T08:12:32+00:00"
     }
   ],
   "claims": {
@@ -5556,16 +5571,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
