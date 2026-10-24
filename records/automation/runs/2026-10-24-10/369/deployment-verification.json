@@ -1,0 +1,76 @@
+{
+  "card": 369,
+  "execution_id": "pkm-daily-2026-10-24T08-00-00Z",
+  "at": "2026-10-24T08:35:01+00:00",
+  "actions": [
+    {
+      "id": 40078405789,
+      "name": "pages build and deployment",
+      "sha": "59e04564d64583fbfcdac1e51fd438ef60130376",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/polos0117/pkm-atelier-img-3/actions/runs/40078405789"
+    },
+    {
+      "id": 40078350536,
+      "name": "썸네일",
+      "sha": "626e54a74105cc19d350ea9d85b7c52276280550",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/polos0117/pkm-atelier-img-3/actions/runs/40078350536"
+    },
+    {
+      "id": 40078538706,
+      "name": "pages build and deployment",
+      "sha": "ac2310d9cc7b0b7a0b3669ab5e602867b71b0049",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/polos0117/pkm-atelier/actions/runs/40078538706"
+    },
+    {
+      "id": 40078406957,
+      "name": "그림 등록",
+      "sha": "eae25343abeba06fb71df21083af9b1321a96644",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/polos0117/pkm-atelier/actions/runs/40078406957"
+    }
+  ],
+  "logs_checked": {
+    "thumbnail_job": 120826469944,
+    "registration_job": 120826638015,
+    "warnings": "Existing other-image dimension warnings and actions Node20 deprecation. All eight current images independently verified 1024x1536 and thumbs512."
+  },
+  "validation": "casual-look passed both generated casual images. Eight remote Git image hashes, dimensions, thumbs, registered slots, where=2 verified; registry Actions forms/img-shards/register-images tests passed. Partial preflight preserved claims/daily/executions/external holds; only new WebP and text files added. Reconciliation recognized eight own outputs, no external skip. Six failed visual QA observations remain user-post-review exceptions, not QA passes; heavy and mobility passed visual review with limitations recorded.",
+  "public_http_bytes": "Not re-fetched: earlier environment proxy403. Remote Git bytes and Actions deployments verified.",
+  "missing": {
+    "casual1": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "7cbd4b72-0a0e-47c2-9fbb-079151dd133c",
+      "output_files": [],
+      "retry": false
+    }
+  },
+  "quota": {
+    "execution_characters": [
+      369
+    ],
+    "daily_utc": [
+      363,
+      366,
+      367,
+      368,
+      369
+    ],
+    "daily_kst": [
+      360,
+      363,
+      366,
+      367,
+      368,
+      369
+    ]
+  }
+}
