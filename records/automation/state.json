@@ -5073,7 +5073,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T08:12:32+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/heavy_overdrive/prompt.txt",
@@ -5085,7 +5085,14 @@
               },
               "references": {
                 "heavy": "037c62d23c9874d363086fdf20d133273a1c16d3dba19e440a0ac6353c04bd1d"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-10/369/heavy_overdrive/original.png",
+                "sha256": "4630aa6c26b5bd6f70b62129231902868e7ea4714c34c14d142c65025111586f",
+                "session_only": true,
+                "webp_sha256": "67bd65800540d684a26988982e094069fbb3213c22385fc7e8eac9cf3e4dffa2"
+              },
+              "received_at": "2026-10-24T08:14:43+00:00"
             }
           },
           "reason": "light_overdrive visual QA: Same standing pose, camera, face, hair and body scale as light, cyan inner-frame gaps visible. Two continuous arms, curled gloved hands and two booted legs; fingers overlap and cannot all be counted. Tool ok with no hand landmarks. Thigh and shin plate geometry changes beyond simply hinging the original panels, while expression barely tightens. Preserve that visual failure and adopt under user post-upload review.",
@@ -5107,7 +5114,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T08:12:32+00:00"
+      "updated_at": "2026-10-24T08:14:44+00:00"
     }
   ],
   "claims": {
@@ -5543,9 +5550,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -5676,9 +5683,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
