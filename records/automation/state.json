@@ -5510,7 +5510,7 @@
           "status": "working",
           "slots": {
             "light": {
-              "status": "in_flight",
+              "status": "accepted",
               "at": "2026-10-24T12:49:11+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-11/372/light/prompt.txt",
@@ -5520,14 +5520,25 @@
                 "path": "records/automation/runs/2026-10-24-11/372/light/ui.json",
                 "sha256": "8e35fb75487076690863f6e3f6abdc5b9669bb7775480bf4b7a6be0e6af49978"
               },
-              "references": {}
+              "references": {},
+              "image": {
+                "path": "records/automation/runs/2026-10-24-11/372/light/original.png",
+                "sha256": "e0258313366c77b75990633bb9e19254ea24d702c8fe7f18cabb2bbd106134fa",
+                "session_only": true,
+                "webp_sha256": "06f1559116227a6427bcd1d898fe5960f0f1f2c39e59f6270d3d85bec60c6a03"
+              },
+              "received_at": "2026-10-24T12:51:07+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-11/372/light/qa.json",
+                "sha256": "b8c17c6b4c65daefa51df0db629d1c0a8f1f28e985f5edf04630a2571feabedc"
+              }
             }
           },
           "reason": "casual planner pre-generation validation failed: outerwear assigned to cuts 2 and 3 (maximum one). Initial bounded solve and one targeted avoid adult_secretary both exhausted 40 internal candidates. No reservation, intent, generation, or image publication; do not weaken checks or retry without resolving planner.",
           "resolution": "User requested Shelgon completion. Fresh current-ledger plan passes without code or validation changes; source_editorial cut avoided to distinguish clothing silhouettes. Legacy checkpoint lists normalized read-only in session adapter."
         }
       ],
-      "updated_at": "2026-10-24T12:49:11+00:00"
+      "updated_at": "2026-10-24T12:51:07+00:00"
     }
   ],
   "claims": {
