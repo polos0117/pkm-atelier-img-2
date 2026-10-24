@@ -5500,14 +5500,14 @@
       "id": "2026-10-24-11",
       "execution_id": "pkm-daily-2026-10-24T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T09:57:51+00:00",
       "queue": [
         {
           "no": 372,
           "name": "쉘곤",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -5716,7 +5716,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T13:12:36+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-11/372/casual3/prompt.txt",
@@ -5728,14 +5728,21 @@
               },
               "references": {
                 "light": "e0258313366c77b75990633bb9e19254ea24d702c8fe7f18cabb2bbd106134fa"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/original.png",
+                "sha256": "1d2567f93e9fcb84fdd891e64fa336261add26653807d9451b7b2cf574e5323e",
+                "session_only": true,
+                "webp_sha256": "78ae32d5dedfc224ff6f83a1617136d2fafe482e0daff8cb27d46b187ee01792"
+              },
+              "received_at": "2026-10-24T13:16:52+00:00"
             }
           },
-          "reason": "casual planner pre-generation validation failed: outerwear assigned to cuts 2 and 3 (maximum one). Initial bounded solve and one targeted avoid adult_secretary both exhausted 40 internal candidates. No reservation, intent, generation, or image publication; do not weaken checks or retry without resolving planner.",
+          "reason": "casual3: tiny pseudo-letter labels on route map; preserve first result and correct only map marks under current user task authorization.",
           "resolution": "User requested Shelgon completion. Fresh current-ledger plan passes without code or validation changes; source_editorial cut avoided to distinguish clothing silhouettes. Legacy checkpoint lists normalized read-only in session adapter."
         }
       ],
-      "updated_at": "2026-10-24T13:12:36+00:00"
+      "updated_at": "2026-10-24T13:16:52+00:00"
     }
   ],
   "claims": {
