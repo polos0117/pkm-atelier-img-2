@@ -5875,14 +5875,14 @@
       "id": "2026-10-24-12",
       "execution_id": "pkm-daily-2026-10-24T16-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T17:36:13+00:00",
       "queue": [
         {
           "no": 375,
           "name": "메탕구",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -5999,7 +5999,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T17:47:32+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/heavy_overdrive/prompt.txt",
@@ -6018,7 +6018,17 @@
                 "session_only": true,
                 "webp_sha256": "ee13e0cdfa3e4ab2f557ab065ed603098d7b73e1e691c16f759f753a1de4bc88"
               },
-              "received_at": "2026-10-24T17:49:28+00:00"
+              "received_at": "2026-10-24T17:49:28+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-12/375/heavy_overdrive/qa-rejected.json",
+                "sha256": "a5e6e72043774a3ceca7609c8eb70687ecdd58a102a64d9378faaf78621f030e"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-12/375/heavy_overdrive/user-exception.json",
+                "sha256": "06ba85594b021aeb11fe04423e34dd9c093cf6dd3beef970067d43690e85f8bc"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy reference camera stance face and hand placements retained; stacked plates open with bright inner seams. Some shin panel outlines and spacing remodel rather than identical hinges, facial strain subtle. Two arms and legs continuous, boots in frame, curled fingers partly overlap and full count uncertain. Tool note low-confidence skeleton, overlay actually inspected; no extra limb observed. Actual references heavy plus light.",
@@ -6035,6 +6045,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-12/375/light_overdrive/user-exception.json",
                 "sha256": "13f9757be0d55a663bf8a197537bc0da50091746af84aee1bd739f47d4009f02"
+              }
+            },
+            {
+              "reason": "heavy_overdrive visual QA: Heavy reference camera stance face and hand placements retained; stacked plates open with bright inner seams. Some shin panel outlines and spacing remodel rather than identical hinges, facial strain subtle. Two arms and legs continuous, boots in frame, curled fingers partly overlap and full count uncertain. Tool note low-confidence skeleton, overlay actually inspected; no extra limb observed. Actual references heavy plus light.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-12/375/heavy_overdrive/user-exception.json",
+                "sha256": "06ba85594b021aeb11fe04423e34dd9c093cf6dd3beef970067d43690e85f8bc"
               }
             }
           ]
