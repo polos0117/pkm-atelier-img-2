@@ -6127,7 +6127,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T17:58:39+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/casual3/prompt.txt",
@@ -6139,7 +6139,14 @@
               },
               "references": {
                 "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-12/375/casual3/original.png",
+                "sha256": "79e02e29f77cea3440df2ad51774d2df71863e6ddb56b03e75b0ac390767cc2d",
+                "session_only": true,
+                "webp_sha256": "276bec823a84e15e2e6d3f664bda7217141a5b382b56f2bd41c0390068f1f55a"
+              },
+              "received_at": "2026-10-24T18:03:20+00:00"
             }
           },
           "reason": "casual2 visual QA: Autumn park fountain, gray halter open-waist overalls and berry pouch differ from lantern jumpsuit and recent comparisons. One separate metal Pokemon companion; no body merging. Torso leans forward but face gaze remains near viewer rather than distant nostalgic direction. Two arms lead to berry/pouch hands; occluded digits uncertain, two upper legs visible, feet below crop. Tool ok one hand. Earrings inherited and framing extends below knees; preserve these visual mismatches.",
@@ -6189,7 +6196,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:58:39+00:00"
+      "updated_at": "2026-10-24T18:03:21+00:00"
     }
   ],
   "claims": {
@@ -6775,9 +6782,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
