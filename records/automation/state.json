@@ -4394,14 +4394,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4530,7 +4530,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T06:17:45+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/heavy_overdrive/prompt.txt",
@@ -4549,7 +4549,17 @@
                 "session_only": true,
                 "webp_sha256": "21d6b2a69f3700a42ee01dd3b97c5d3760b69939e1c9ff91dda2eca5e442be9f"
               },
-              "received_at": "2026-10-24T06:19:10+00:00"
+              "received_at": "2026-10-24T06:19:10+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-9/368/heavy_overdrive/qa-rejected.json",
+                "sha256": "b4c1ce066f1f51cce86954c1b21e2fd1f0d0332339284df4b8af89055297d7a9"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-9/368/heavy_overdrive/user-exception.json",
+                "sha256": "d8c891334e943845be6c9e633ab1cef03a5c704ef219dcc952b76a0cf53d8a84"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Actual near hand has thumb and four fingers and continuous wrist to armored forearm; far hand also five projections with close middle fingers. Tool loose-hand alert arises from incorrect near-face pose localization, not an actual detached hand. Two legs and boots retained. Pose and face retained, cyan internal gaps and heavy plates opened, but top hair has no clear margin and some hip plate shapes differ. Adopt with failure QA retained for user post-upload review.",
@@ -4580,6 +4590,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-9/368/light_overdrive/user-exception.json",
                 "sha256": "ef2ff4d763163aba7ba0baaf629cd7c7559ec61324d36c1f544666cfac79c831"
+              }
+            },
+            {
+              "reason": "heavy_overdrive visual QA: Actual near hand has thumb and four fingers and continuous wrist to armored forearm; far hand also five projections with close middle fingers. Tool loose-hand alert arises from incorrect near-face pose localization, not an actual detached hand. Two legs and boots retained. Pose and face retained, cyan internal gaps and heavy plates opened, but top hair has no clear margin and some hip plate shapes differ. Adopt with failure QA retained for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-9/368/heavy_overdrive/user-exception.json",
+                "sha256": "d8c891334e943845be6c9e633ab1cef03a5c704ef219dcc952b76a0cf53d8a84"
               }
             }
           ]

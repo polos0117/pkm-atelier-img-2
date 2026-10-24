@@ -1,0 +1,37 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "cdcfd2a852e90c394f28047644cbd4732aa4503ca44d90d75f9ef269750f7fd8",
+  "observations": "Actual near hand has thumb and four fingers and continuous wrist to armored forearm; far hand also five projections with close middle fingers. Tool loose-hand alert arises from incorrect near-face pose localization, not an actual detached hand. Two legs and boots retained. Pose and face retained, cyan internal gaps and heavy plates opened, but top hair has no clear margin and some hip plate shapes differ. Adopt with failure QA retained for user post-upload review.",
+  "anatomy": {
+    "tool": "check",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Actual near hand has thumb and four fingers and continuous wrist to armored forearm; far hand also five projections with close middle fingers. Tool loose-hand alert arises from incorrect near-face pose localization, not an actual detached hand. Two legs and boots retained. Pose and face retained, cyan internal gaps and heavy plates opened, but top hair has no clear margin and some hip plate shapes differ. Adopt with failure QA retained for user post-upload review.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Actual near hand has thumb and four fingers and continuous wrist to armored forearm; far hand also five projections with close middle fingers. Tool loose-hand alert arises from incorrect near-face pose localization, not an actual detached hand. Two legs and boots retained. Pose and face retained, cyan internal gaps and heavy plates opened, but top hair has no clear margin and some hip plate shapes differ. Adopt with failure QA retained for user post-upload review."
+  },
+  "anatomy_tool_result": {
+    "level": "check",
+    "flags": [
+      {
+        "level": "check",
+        "what": "loose_hand",
+        "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 5.5 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+      }
+    ],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "L",
+        "score": 0.83,
+        "arm": null,
+        "gap": 5.48
+      }
+    ],
+    "measure": {
+      "shoulder_px": 30.4
+    },
+    "file": "/workspace/generated_images/exec-231da567-d190-481c-8f46-e1160748ca7b.png"
+  }
+}
