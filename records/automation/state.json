@@ -3281,14 +3281,14 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3321,7 +3321,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T02:03:17+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/heavy/prompt.txt",
@@ -3340,7 +3340,17 @@
                 "session_only": true,
                 "webp_sha256": "34c33afbd7205d645b21ba5ace04f779a0b1257281e83648d9a0ae75f1ec7132"
               },
-              "received_at": "2026-10-24T02:04:56+00:00"
+              "received_at": "2026-10-24T02:04:56+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy/qa-rejected.json",
+                "sha256": "af81f5d7f8c547982a74b7c06070935e0ca5eec3221548c5fd809936d73595c1"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy/user-exception.json",
+                "sha256": "c045542817e2ea07e60f87d6f744dfbde5e49f9fc7728514b64974a74bdbf1ae"
+              }
             }
           },
           "reason": "heavy visual QA: Adult identity and broad layered shell armor retained, full body and two boots within frame. Two continuous arms and crossed legs. Near right hand again appears six digits including thumb; far hand count partly overlapping. Helmet-like crown tip has minimal upper margin. Tool note faint body and zero hands cannot establish finger validity. Preserve manual digit failure for user review.",
@@ -3350,6 +3360,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-7/366/light/user-exception.json",
                 "sha256": "168ddfc9d7edfc041b6b935a9be637b834f2183f1948d58ae1c1589975807939"
+              }
+            },
+            {
+              "reason": "heavy visual QA: Adult identity and broad layered shell armor retained, full body and two boots within frame. Two continuous arms and crossed legs. Near right hand again appears six digits including thumb; far hand count partly overlapping. Helmet-like crown tip has minimal upper margin. Tool note faint body and zero hands cannot establish finger validity. Preserve manual digit failure for user review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy/user-exception.json",
+                "sha256": "c045542817e2ea07e60f87d6f744dfbde5e49f9fc7728514b64974a74bdbf1ae"
               }
             }
           ]
