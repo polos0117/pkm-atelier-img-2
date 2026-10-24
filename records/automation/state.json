@@ -4033,7 +4033,7 @@
               }
             },
             "casual1": {
-              "status": "in_flight",
+              "status": "rejected",
               "at": "2026-10-24T04:19:23+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/casual1/prompt.txt",
@@ -4045,6 +4045,10 @@
               },
               "references": {
                 "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+              },
+              "tool_failure": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual1/tool-failure.json",
+                "sha256": "adc53d3605c1b1ada7625d1ab93376002219b50955e2cca7b56a93e6bf96432a"
               }
             }
           },
