@@ -5326,10 +5326,109 @@
               "pkm-atelier-img-3": "1d4025ff71b825ffb30a7eb1dbda81a886cd18ca"
             },
             "at": "2026-10-24T08:30:56+00:00",
-            "status": "preflight_checked"
+            "status": "published_registered_8_of_9",
+            "image_commit": "626e54a74105cc19d350ea9d85b7c52276280550",
+            "thumbnail_commit": "59e04564d64583fbfcdac1e51fd438ef60130376",
+            "registration_commit": "ac2310d9cc7b0b7a0b3669ab5e602867b71b0049",
+            "verified_at": "2026-10-24T08:34:47+00:00",
+            "outputs": [
+              {
+                "slot": "light",
+                "file": "시라칸_light_glossy_promo_f.webp",
+                "sha256": "c6209ca44000f450995a11d1fedaf8a23b4bbdc722b5df85d80a9aba3f37da40",
+                "source_sha256": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {}
+              },
+              {
+                "slot": "heavy",
+                "file": "시라칸_heavy_glossy_promo_f.webp",
+                "sha256": "0774785e2de271c6493018b43c5b8714860e9e8fd9121448032aed3e211f2897",
+                "source_sha256": "037c62d23c9874d363086fdf20d133273a1c16d3dba19e440a0ac6353c04bd1d",
+                "acceptance_basis": "visual_qa",
+                "qa_passed": true,
+                "references": {
+                  "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
+                }
+              },
+              {
+                "slot": "mobility",
+                "file": "시라칸_mobility_glossy_promo_f.webp",
+                "sha256": "c208e4227a98289dfe5eb5a2cbb96e8cf5355c6b9ef7fe9b0db6b00956013a18",
+                "source_sha256": "7ca351b594b63ea6cad001bb3763b9f308fd07e2120ec9f39bb51e6075a019fd",
+                "acceptance_basis": "visual_qa",
+                "qa_passed": true,
+                "references": {
+                  "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
+                }
+              },
+              {
+                "slot": "light_overdrive",
+                "file": "시라칸_light_overdrive_glossy_promo_f.webp",
+                "sha256": "cfc574b098244a142d13c8d8572eca2bcc49db7b798473a838872aa77c9aad65",
+                "source_sha256": "f308fcb64ee8e530cf67ada4524514ce78dc9ba882af82337d56598180c91eb7",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
+                }
+              },
+              {
+                "slot": "heavy_overdrive",
+                "file": "시라칸_heavy_overdrive_glossy_promo_f.webp",
+                "sha256": "67bd65800540d684a26988982e094069fbb3213c22385fc7e8eac9cf3e4dffa2",
+                "source_sha256": "4630aa6c26b5bd6f70b62129231902868e7ea4714c34c14d142c65025111586f",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "heavy": "037c62d23c9874d363086fdf20d133273a1c16d3dba19e440a0ac6353c04bd1d"
+                }
+              },
+              {
+                "slot": "mobility_overdrive",
+                "file": "시라칸_mobility_overdrive_glossy_promo_f.webp",
+                "sha256": "65c7945970bc483f6669247a725f71dba3e89d1ae91fa5bc3a97c59719c2b84d",
+                "source_sha256": "cc9482f6f639aacf117e9673a4c39a02f67950c1747fab9b6cb97be47b87654d",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "mobility": "7ca351b594b63ea6cad001bb3763b9f308fd07e2120ec9f39bb51e6075a019fd"
+                }
+              },
+              {
+                "slot": "casual2",
+                "file": "시라칸_glossy_promo_f_casual2.webp",
+                "sha256": "c9d049c3191f3ed1f80e5a254feeddb48b92e26109a797e2bbd03a8fc822d80c",
+                "source_sha256": "ba6cdb1453d499ddce400870d95e410236c4cc00cb5dfc9328c845dbef62454d",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
+                }
+              },
+              {
+                "slot": "casual3",
+                "file": "시라칸_glossy_promo_f_casual3.webp",
+                "sha256": "fc30784dd0e912b52179f160f3fc6df1c11cd68231fb0dbefef23d9f863ca00f",
+                "source_sha256": "d11dbdf347553aeaa7b6ef3fe144fa500c446f4eac07d58b2dfd8e1185cb53e1",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
+                }
+              }
+            ],
+            "remote_git_image_and_thumbnail_bytes_verified": true,
+            "pages_http_bytes_verified": false,
+            "http_verification_failures": [
+              {
+                "reason": "Public Pages HTTP bytes not re-fetched: prior environment proxy 403; Git remote bytes verified and deployment Actions checked separately."
+              }
+            ]
           },
           "publication": {
-            "status": "partial_preflight_checked",
+            "status": "partial_published_registered",
             "at": "2026-10-24T08:30:56+00:00",
             "repository": "pkm-atelier-img-3",
             "files": {
@@ -5342,6 +5441,19 @@
               "img/시라칸_glossy_promo_f_casual2.webp": "c9d049c3191f3ed1f80e5a254feeddb48b92e26109a797e2bbd03a8fc822d80c",
               "img/시라칸_glossy_promo_f_casual3.webp": "fc30784dd0e912b52179f160f3fc6df1c11cd68231fb0dbefef23d9f863ca00f"
             }
+          },
+          "own_publication": {
+            "files": [
+              "시라칸_glossy_promo_f_casual2.webp",
+              "시라칸_glossy_promo_f_casual3.webp",
+              "시라칸_heavy_glossy_promo_f.webp",
+              "시라칸_heavy_overdrive_glossy_promo_f.webp",
+              "시라칸_light_glossy_promo_f.webp",
+              "시라칸_light_overdrive_glossy_promo_f.webp",
+              "시라칸_mobility_glossy_promo_f.webp",
+              "시라칸_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
           }
         }
       ],
