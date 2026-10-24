@@ -4394,14 +4394,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4645,7 +4645,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T06:26:04+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/casual3/prompt.txt",
@@ -4669,7 +4669,17 @@
                 "session_only": true,
                 "webp_sha256": "af8deefa2843d8e51d482590bf4b40a5821bcfb965730687988363d0bc58d6a2"
               },
-              "received_at": "2026-10-24T06:27:32+00:00"
+              "received_at": "2026-10-24T06:27:32+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-9/368/casual3/qa-rejected.json",
+                "sha256": "ea6a0d483d237e00cb1403a5cf54fb0064d75a778a6d5f456865cc810734974e"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-9/368/casual3/user-exception.json",
+                "sha256": "bc1f3fb877060fdc39a21cfce80b96288b9f4685d9c95b535ed323b2332cff23"
+              }
             }
           },
           "reason": "casual3 visual QA: Adult canonical pink bun and face retained. Two arms connect to hands holding map; several curled fingertips visible but thumbs and some fingers are occluded by map, no complete five-digit certification. Two crossed legs with two supported shoes continuous; toes hidden. Anatomy tool ok with one hand. Forest map-reading, skirt/top and full-body composition differ from arena uniform casual1. Gaze remains toward viewer rather than focused on map and top bun margin is too narrow. Preserve failed visual QA and adopt for user post-upload review.",
@@ -4721,6 +4731,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-9/368/casual1/user-exception.json",
                 "sha256": "73cb1d449fc23b4d7c242f0fbe60bb461450a491a9e817315eb92b4be2cd32b7"
+              }
+            },
+            {
+              "reason": "casual3 visual QA: Adult canonical pink bun and face retained. Two arms connect to hands holding map; several curled fingertips visible but thumbs and some fingers are occluded by map, no complete five-digit certification. Two crossed legs with two supported shoes continuous; toes hidden. Anatomy tool ok with one hand. Forest map-reading, skirt/top and full-body composition differ from arena uniform casual1. Gaze remains toward viewer rather than focused on map and top bun margin is too narrow. Preserve failed visual QA and adopt for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-9/368/casual3/user-exception.json",
+                "sha256": "bc1f3fb877060fdc39a21cfce80b96288b9f4685d9c95b535ed323b2332cff23"
               }
             }
           ],

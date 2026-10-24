@@ -1,0 +1,38 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "1d70d2204223941367d6d7f18f215f19095f1b15d1ac6bb8fb4f57c03c96cbe3",
+  "observations": "Adult canonical pink bun and face retained. Two arms connect to hands holding map; several curled fingertips visible but thumbs and some fingers are occluded by map, no complete five-digit certification. Two crossed legs with two supported shoes continuous; toes hidden. Anatomy tool ok with one hand. Forest map-reading, skirt/top and full-body composition differ from arena uniform casual1. Gaze remains toward viewer rather than focused on map and top bun margin is too narrow. Preserve failed visual QA and adopt for user post-upload review.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Adult canonical pink bun and face retained. Two arms connect to hands holding map; several curled fingertips visible but thumbs and some fingers are occluded by map, no complete five-digit certification. Two crossed legs with two supported shoes continuous; toes hidden. Anatomy tool ok with one hand. Forest map-reading, skirt/top and full-body composition differ from arena uniform casual1. Gaze remains toward viewer rather than focused on map and top bun margin is too narrow. Preserve failed visual QA and adopt for user post-upload review.",
+    "overlay_checked": false,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Adult canonical pink bun and face retained. Two arms connect to hands holding map; several curled fingertips visible but thumbs and some fingers are occluded by map, no complete five-digit certification. Two crossed legs with two supported shoes continuous; toes hidden. Anatomy tool ok with one hand. Forest map-reading, skirt/top and full-body composition differ from arena uniform casual1. Gaze remains toward viewer rather than focused on map and top bun margin is too narrow. Preserve failed visual QA and adopt for user post-upload review."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.99,
+        "arm": "R",
+        "gap": 0.06
+      }
+    ],
+    "measure": {
+      "shoulder_px": 203.3,
+      "arm_R_ratio": 0.53,
+      "arm_R_angle": 94,
+      "leg_L_ratio": 1.38,
+      "leg_L_angle": 140,
+      "leg_R_ratio": 1.14,
+      "leg_R_angle": 94
+    },
+    "file": "/workspace/generated_images/exec-90b2495c-5af9-4deb-8246-05782f01f99f.png"
+  },
+  "diversity_comparison": "Actual recent thumbnails viewed: Bronzong mirror lingerie rear three-quarter, towel-folding light cardigan and shorts, workshop fan/tablet standing rear turn; Bonsly festival street long traditional dress, indoor ribbon craft romper, mirror costume with feather duster; Huntail kitchen tea apron/shorts and sunroom sofa knit vest/shorts hands-in-hair. Gorebyss reserved referee bench chest-up lighting-led, pool-terrace environmental swimsuit place-led, forest map full-body skirt/top action-led distinguish category, place, activity, silhouette and framing. Plan check --fresh passed against current three image repositories and reservations. Generated images must also be compared with each other after return.\n"
+}
