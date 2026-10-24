@@ -5105,7 +5105,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T08:15:27+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/mobility_overdrive/prompt.txt",
@@ -5117,7 +5117,14 @@
               },
               "references": {
                 "mobility": "7ca351b594b63ea6cad001bb3763b9f308fd07e2120ec9f39bb51e6075a019fd"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-10/369/mobility_overdrive/original.png",
+                "sha256": "cc9482f6f639aacf117e9673a4c39a02f67950c1747fab9b6cb97be47b87654d",
+                "session_only": true,
+                "webp_sha256": "65c7945970bc483f6669247a725f71dba3e89d1ae91fa5bc3a97c59719c2b84d"
+              },
+              "received_at": "2026-10-24T08:17:55+00:00"
             }
           },
           "reason": "heavy_overdrive visual QA: Camera, standing pose, face, hair and glove positions retained from heavy. Two arms and two legs continuous; curled overlapping fingers not individually certified, boots cover toes. Cyan gaps expose inner frame and stacked plates lift outward. Some outer panel shapes and spacing differ instead of exactly preserving each plate; expression remains close to closed state. Tool ok with zero detected hands. Keep this visual mismatch as failed QA and adopt for user post-upload review.",
@@ -5146,7 +5153,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T08:15:27+00:00"
+      "updated_at": "2026-10-24T08:17:56+00:00"
     }
   ],
   "claims": {
