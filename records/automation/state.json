@@ -3833,14 +3833,14 @@
       "id": "2026-10-24-8",
       "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T04:06:06+00:00",
       "queue": [
         {
           "no": 367,
           "name": "헌테일",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4001,7 +4001,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T04:16:53+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/prompt.txt",
@@ -4020,7 +4020,17 @@
                 "session_only": true,
                 "webp_sha256": "d01745e1f817a6e705628fcf7190876cd79ef23cb5806b6bb5d1c25c0706104f"
               },
-              "received_at": "2026-10-24T04:18:45+00:00"
+              "received_at": "2026-10-24T04:18:45+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/qa-rejected.json",
+                "sha256": "9ea8a1f45ca3afc304ebea02c232622524eddbb209f317d6bb651d728845e8ef"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/user-exception.json",
+                "sha256": "4885efaf26a39066b7b5826c0474bdeef566a8f160993dc4b299e5e8c3f99889"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Same mobility pose/camera/face and opened thruster covers, no giant wings, two arms and two booted legs continuous in crops. Near glove retains six digit-like projections and far hand five with overlap. Tool ok zero hands not digit validation. Preserve inherited hand failure, no regeneration.",
@@ -4058,6 +4068,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/user-exception.json",
                 "sha256": "0044d9b1758cf097a9ea41ecc2e697b8fd873944f5a3c1c01605645687256824"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Same mobility pose/camera/face and opened thruster covers, no giant wings, two arms and two booted legs continuous in crops. Near glove retains six digit-like projections and far hand five with overlap. Tool ok zero hands not digit validation. Preserve inherited hand failure, no regeneration.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/user-exception.json",
+                "sha256": "4885efaf26a39066b7b5826c0474bdeef566a8f160993dc4b299e5e8c3f99889"
               }
             }
           ]
