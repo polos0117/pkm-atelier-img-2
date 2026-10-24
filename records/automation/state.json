@@ -4750,7 +4750,57 @@
               "scope": "Independent slot using its required approved reference only; retain casual2 refusal without retry; one attempt for this slot",
               "at": "2026-10-24T06:26:04+00:00"
             }
-          ]
+          ],
+          "partial_publication": {
+            "card": 368,
+            "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
+            "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+            "full_prepublish_result": "STOP: publication requires all nine accepted slots; this explicit eight-slot partial publication reruns fresh external collision and original/hash checks without changing blocked state or global completion gates.",
+            "scope": "Only eight existing accepted Gorebyss images; character remains blocked/incomplete. No generation or replacement.",
+            "slots": [
+              "light",
+              "heavy",
+              "mobility",
+              "light_overdrive",
+              "heavy_overdrive",
+              "mobility_overdrive",
+              "casual1",
+              "casual3"
+            ],
+            "files": {
+              "img/분홍장이_light_glossy_promo_f.webp": "5141a79697923475ca1c4548aae3d839e56dcf371d49874be2d547afa2092236",
+              "img/분홍장이_heavy_glossy_promo_f.webp": "9af6a951dcbb26d502b96d585ff730096252c24878babcfb680bae73b1eca798",
+              "img/분홍장이_mobility_glossy_promo_f.webp": "be8d8d2d694d38b9e0ca5eab8127fc0ea9e4224e54675d29df4915212a4e9407",
+              "img/분홍장이_light_overdrive_glossy_promo_f.webp": "8c8bb287ccdc787c8f1c712ad7b3f5fedcf310c3fd4ee3f96886ee7e2a14e5e8",
+              "img/분홍장이_heavy_overdrive_glossy_promo_f.webp": "21d6b2a69f3700a42ee01dd3b97c5d3760b69939e1c9ff91dda2eca5e442be9f",
+              "img/분홍장이_mobility_overdrive_glossy_promo_f.webp": "eeec3ab31beb7c109f94e2e6a0caac557fe81b57222e8bfb7eae58a0cc3ca7d5",
+              "img/분홍장이_glossy_promo_f_casual1.webp": "b4dec47c7cc409607dfb36f769f03e16c5f6cf885d04d4220d763fcf6586c660",
+              "img/분홍장이_glossy_promo_f_casual3.webp": "af8deefa2843d8e51d482590bf4b40a5821bcfb965730687988363d0bc58d6a2"
+            },
+            "snapshot": {
+              "code": "194c4c09a78f12d41f37055d10b4ad3da9cb9a27",
+              "pkm-atelier-img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+              "pkm-atelier-img-2": "8e42d5d878a76304caadcdf5088de157c16f7f7e",
+              "pkm-atelier-img-3": "1b601358771b658e0e3bae775fb7a30d5a8be116"
+            },
+            "at": "2026-10-24T06:28:42+00:00",
+            "status": "preflight_checked"
+          },
+          "publication": {
+            "status": "partial_preflight_checked",
+            "at": "2026-10-24T06:28:42+00:00",
+            "repository": "pkm-atelier-img-3",
+            "files": {
+              "img/분홍장이_light_glossy_promo_f.webp": "5141a79697923475ca1c4548aae3d839e56dcf371d49874be2d547afa2092236",
+              "img/분홍장이_heavy_glossy_promo_f.webp": "9af6a951dcbb26d502b96d585ff730096252c24878babcfb680bae73b1eca798",
+              "img/분홍장이_mobility_glossy_promo_f.webp": "be8d8d2d694d38b9e0ca5eab8127fc0ea9e4224e54675d29df4915212a4e9407",
+              "img/분홍장이_light_overdrive_glossy_promo_f.webp": "8c8bb287ccdc787c8f1c712ad7b3f5fedcf310c3fd4ee3f96886ee7e2a14e5e8",
+              "img/분홍장이_heavy_overdrive_glossy_promo_f.webp": "21d6b2a69f3700a42ee01dd3b97c5d3760b69939e1c9ff91dda2eca5e442be9f",
+              "img/분홍장이_mobility_overdrive_glossy_promo_f.webp": "eeec3ab31beb7c109f94e2e6a0caac557fe81b57222e8bfb7eae58a0cc3ca7d5",
+              "img/분홍장이_glossy_promo_f_casual1.webp": "b4dec47c7cc409607dfb36f769f03e16c5f6cf885d04d4220d763fcf6586c660",
+              "img/분홍장이_glossy_promo_f_casual3.webp": "af8deefa2843d8e51d482590bf4b40a5821bcfb965730687988363d0bc58d6a2"
+            }
+          }
         }
       ],
       "updated_at": "2026-10-24T06:28:21+00:00"
