@@ -4949,17 +4949,17 @@
       "id": "2026-10-24-10",
       "execution_id": "pkm-daily-2026-10-24T08-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T07:59:10+00:00",
       "queue": [
         {
           "no": 369,
           "name": "시라칸",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T08:00:23+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/light/prompt.txt",
@@ -4976,10 +4976,29 @@
                 "session_only": true,
                 "webp_sha256": "c6209ca44000f450995a11d1fedaf8a23b4bbdc722b5df85d80a9aba3f37da40"
               },
-              "received_at": "2026-10-24T08:02:53+00:00"
+              "received_at": "2026-10-24T08:02:53+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-10/369/light/qa-rejected.json",
+                "sha256": "d2e6faa1ee2868fe38094b2e11a4d8effeb0bee90784a8b6fd139a50a80ab918"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-10/369/light/user-exception.json",
+                "sha256": "a36de8fc03c4af32353bd2bbe93f383489c36413bcd8fdfda479dfb42f0da7ee"
+              }
             }
           },
-          "reason": "light visual QA: Adult long wavy brown hair with straight bangs, brown/tan rock plates and red fin edges distinguish recent pink updos and silver short hair. No evolution relatives. Actual jaw is tapered rather than assigned angular medium-width jaw. Two arms and legs continuous, two full-finger gloved hands with curled overlapping digits; full finger count is uncertain, no obvious extra limb. Booted toes hidden. Head and feet inside frame, no text. Background small fish silhouettes are scenery. Tool ok with zero detected hands does not certify fingers. Preserve face-design mismatch and hand uncertainty for user post-upload review."
+          "reason": "light visual QA: Adult long wavy brown hair with straight bangs, brown/tan rock plates and red fin edges distinguish recent pink updos and silver short hair. No evolution relatives. Actual jaw is tapered rather than assigned angular medium-width jaw. Two arms and legs continuous, two full-finger gloved hands with curled overlapping digits; full finger count is uncertain, no obvious extra limb. Booted toes hidden. Head and feet inside frame, no text. Background small fish silhouettes are scenery. Tool ok with zero detected hands does not certify fingers. Preserve face-design mismatch and hand uncertainty for user post-upload review.",
+          "block_history": [
+            {
+              "reason": "light visual QA: Adult long wavy brown hair with straight bangs, brown/tan rock plates and red fin edges distinguish recent pink updos and silver short hair. No evolution relatives. Actual jaw is tapered rather than assigned angular medium-width jaw. Two arms and legs continuous, two full-finger gloved hands with curled overlapping digits; full finger count is uncertain, no obvious extra limb. Booted toes hidden. Head and feet inside frame, no text. Background small fish silhouettes are scenery. Tool ok with zero detected hands does not certify fingers. Preserve face-design mismatch and hand uncertainty for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-10/369/light/user-exception.json",
+                "sha256": "a36de8fc03c4af32353bd2bbe93f383489c36413bcd8fdfda479dfb42f0da7ee"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-24T08:03:02+00:00"
