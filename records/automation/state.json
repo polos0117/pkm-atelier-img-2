@@ -3128,7 +3128,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T00:19:12+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-6/363/casual3/prompt.txt",
@@ -3140,7 +3140,14 @@
               },
               "references": {
                 "light": "661b8f5909665d62a525b630b64d0a8d4f6b786efdc82e315a481bb33595feed"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual3/original.png",
+                "sha256": "835d4e100f4658ea56ba895a1ad3bffa9970656b5c3c9e461acb1d70760c747d",
+                "session_only": true,
+                "webp_sha256": "a8994a73e387623c0469cc88030d31be0a7513c1ef1799f1cc69bde38f321811"
+              },
+              "received_at": "2026-10-24T00:20:48+00:00"
             }
           },
           "reason": "casual2 visual QA: Adult identity maintained, one separate Spheal companion under towel and no other person. Rear-three-quarter porch rain scene in tank and shorts differs from scarf courtyard and recent actual comparisons. Near arm wrist and elbow connected, far arm hidden; four overlapping towel-hand fingers with obscured thumb. Two bent legs and sandals, toe counts partly hidden. Actual full kneeling framing differs from requested waist-up and emphasizes rear silhouette; retain visual framing failure for user review, no regeneration.",
@@ -3183,7 +3190,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T00:19:12+00:00"
+      "updated_at": "2026-10-24T00:20:48+00:00"
     }
   ],
   "claims": {
@@ -3595,9 +3602,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -3728,9 +3735,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
