@@ -1,0 +1,45 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49",
+  "observations": "Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions.",
+  "anatomy": {
+    "tool": "check",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions."
+  },
+  "anatomy_tool_result": {
+    "level": "check",
+    "flags": [
+      {
+        "level": "check",
+        "what": "loose_hand",
+        "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 1.5 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+      }
+    ],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.65,
+        "arm": null,
+        "gap": 1.46
+      }
+    ],
+    "measure": {
+      "shoulder_px": 169.8,
+      "leg_R_ratio": 1.04,
+      "leg_R_angle": 135
+    },
+    "file": "/workspace/generated_images/exec-dd2eddce-cfb3-4925-9be3-7bb12fbc4ab2.png"
+  },
+  "compared_characters": [
+    "메탕구",
+    "레지스틸",
+    "레지아이스"
+  ],
+  "face_reason": "Kyogre has no evolution stage. Actual comparison sheet viewed: Metang straight bangs and teal long hair, Registeel straight silver hair and soft wider face, Regice blue chignon and narrow face. Kyogre has loose very long deep-blue wavy hair and uneven bangs, fuller cheeks and wide mouth. Requested square broad jaw remains softer and narrower than specified; similarity to generic anime face remains a QA deviation rather than claimed uniqueness."
+}

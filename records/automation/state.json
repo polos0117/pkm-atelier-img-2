@@ -6751,17 +6751,17 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T21:58:39+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/light/prompt.txt",
@@ -6778,10 +6778,29 @@
                 "session_only": true,
                 "webp_sha256": "cc491f447eeb0be7b6d8af7705c7391657a0db368732be26e532ffd0d208cc1f"
               },
-              "received_at": "2026-10-24T22:00:30+00:00"
+              "received_at": "2026-10-24T22:00:30+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-14/382/light/qa-rejected.json",
+                "sha256": "5c1e93a6e6528634cbf001759e685b022d5d9414de5876b3aba094cd9bae33ed"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-14/382/light/user-exception.json",
+                "sha256": "11b825462923b877928b05be249731f8a2993ea74d55ed7a99b2aabd2f21bc4e"
+              }
             }
           },
-          "reason": "light visual QA: Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions."
+          "reason": "light visual QA: Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions.",
+          "block_history": [
+            {
+              "reason": "light visual QA: Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-14/382/light/user-exception.json",
+                "sha256": "11b825462923b877928b05be249731f8a2993ea74d55ed7a99b2aabd2f21bc4e"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-24T22:00:39+00:00"
