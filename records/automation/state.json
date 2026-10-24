@@ -3281,14 +3281,14 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3442,7 +3442,7 @@
               "received_at": "2026-10-24T02:12:08+00:00"
             }
           },
-          "reason": "light_overdrive visual QA: Light pose framing face and shell mantle maintained with cyan opened seams. Two continuous arms and crossed legs, two boots. Near right glove still appears six digits; far glove partly overlapping. New small segmented thigh and knee plates differ from source smooth sections. Tool ok with zero hand detections cannot resolve digit error. Actual QA failure preserved, no regeneration.",
+          "reason": "heavy_overdrive visual QA: Same heavy camera pose shell armor face and two connected arms and crossed legs. Two boots; near right hand again six digit-like projections, far hand overlapped fingers. Tool note two bodies but overlay is multiple estimates on the single armored woman, not a second person; zero hands detected. Opened cyan plate seams maintain main armor silhouette. Manual digit failure retained for user post-upload review.",
           "block_history": [
             {
               "reason": "light visual QA: Adult full body with blue space buns and shell mantle; feet inside frame, two continuous arms and crossed legs. Near right hand at image left appears to have six digits including thumb; far left hand appears five with overlapping base. Face more pointed and eyes larger than specified rounded narrow-eyed design. Tool ok but detected zero hands, so it does not resolve manual digit failure. Retain failure and user post-upload acceptance.",
@@ -3486,7 +3486,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T02:12:09+00:00"
+      "updated_at": "2026-10-24T02:12:17+00:00"
     }
   ],
   "claims": {
@@ -3904,9 +3904,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
