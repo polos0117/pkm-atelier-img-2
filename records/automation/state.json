@@ -6468,7 +6468,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T20:16:43+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/mobility_overdrive/prompt.txt",
@@ -6480,7 +6480,14 @@
               },
               "references": {
                 "mobility": "e009db48d2766423518c7decada08a8756918be59bb5de055f913e72e7694337"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-13/381/mobility_overdrive/original.png",
+                "sha256": "2671230a28568b75b0385f94350bf40d944e99923e92e426f58cec2893781e44",
+                "session_only": true,
+                "webp_sha256": "66d5c678f9bcd008cf7b7b129900a9cb2383f79833003c2ea67fa87367095173"
+              },
+              "received_at": "2026-10-24T20:18:14+00:00"
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy source and canonical light both actually referenced. Camera, hands, stance, face and layered outline preserved; violet inner glow visible. Some chest and thigh plate borders remodel instead of merely opening, and strained expression is weak. Two arms and legs connect; boots retained with tight margin and inherited exaggerated length. Finger overlap remains uncertain in lowered hand; open hand five silhouettes. Tool ok with zero detected hands and misplaced head landmarks, overlay not reliable for limb certification.",
@@ -6523,7 +6530,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T20:16:43+00:00"
+      "updated_at": "2026-10-24T20:18:15+00:00"
     }
   ],
   "claims": {
@@ -6982,9 +6989,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -7010,16 +7017,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -7115,9 +7122,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
