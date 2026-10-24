@@ -4089,7 +4089,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T04:23:38+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/casual3/prompt.txt",
@@ -4106,7 +4106,14 @@
               "references": {
                 "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual3/original.png",
+                "sha256": "ec53cfe51bef6242a1f002ef3f62063090f73dfbf49da85685f48cbafe73ebfa",
+                "session_only": true,
+                "webp_sha256": "d70b168439d6da85cacd112574b5c5741f3d62e57f2d8e5b08033a35598c927e"
+              },
+              "received_at": "2026-10-24T04:25:35+00:00"
             }
           },
           "reason": "casual2 visual QA: Same adult face and hair; two arms continuous and two thighs visible, lower legs/feet outside three-quarter crop. Teapot hand four curled fingers plus thumb; cup hand four visible fingers and occluded thumb. Tool ok detects two hands. Tea stream and cup readable. Hair/top strands clipped and original fin hair ornament retained despite wardrobe instruction; apron white rather than orange overall. Preserve visual QA failure. Actual kitchen pouring activity and apron/shorts differ from recent stage, gallery, terrace swim, studio, train and bead-work scenes.",
@@ -4181,7 +4188,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:23:25+00:00"
+      "updated_at": "2026-10-24T04:25:36+00:00"
     }
   ],
   "claims": {
@@ -4605,9 +4612,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -4633,16 +4640,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
