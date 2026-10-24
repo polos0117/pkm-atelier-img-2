@@ -3833,14 +3833,14 @@
       "id": "2026-10-24-8",
       "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T04:06:06+00:00",
       "queue": [
         {
           "no": 367,
           "name": "헌테일",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4052,7 +4052,7 @@
               }
             },
             "casual2": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T04:21:16+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/casual2/prompt.txt",
@@ -4076,7 +4076,17 @@
                 "session_only": true,
                 "webp_sha256": "9e0285282eca00f7cb4ffc5824bc10b93419d6b645b8e71a8b1bddbc61dca125"
               },
-              "received_at": "2026-10-24T04:23:16+00:00"
+              "received_at": "2026-10-24T04:23:16+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual2/qa-rejected.json",
+                "sha256": "4defeb6db5da0707b52fcd1f8b41efea528b65a9e9af71865e46efbc2a4cfbb8"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual2/user-exception.json",
+                "sha256": "d2b572037f9146baae39f8ce0ae608569ca8e4fb246a3b78c2c41f27bcca40af"
+              }
             }
           },
           "reason": "casual2 visual QA: Same adult face and hair; two arms continuous and two thighs visible, lower legs/feet outside three-quarter crop. Teapot hand four curled fingers plus thumb; cup hand four visible fingers and occluded thumb. Tool ok detects two hands. Tea stream and cup readable. Hair/top strands clipped and original fin hair ornament retained despite wardrobe instruction; apron white rather than orange overall. Preserve visual QA failure. Actual kitchen pouring activity and apron/shorts differ from recent stage, gallery, terrace swim, studio, train and bead-work scenes.",
@@ -4121,6 +4131,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/user-exception.json",
                 "sha256": "4885efaf26a39066b7b5826c0474bdeef566a8f160993dc4b299e5e8c3f99889"
+              }
+            },
+            {
+              "reason": "casual2 visual QA: Same adult face and hair; two arms continuous and two thighs visible, lower legs/feet outside three-quarter crop. Teapot hand four curled fingers plus thumb; cup hand four visible fingers and occluded thumb. Tool ok detects two hands. Tea stream and cup readable. Hair/top strands clipped and original fin hair ornament retained despite wardrobe instruction; apron white rather than orange overall. Preserve visual QA failure. Actual kitchen pouring activity and apron/shorts differ from recent stage, gallery, terrace swim, studio, train and bead-work scenes.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual2/user-exception.json",
+                "sha256": "d2b572037f9146baae39f8ce0ae608569ca8e4fb246a3b78c2c41f27bcca40af"
               }
             }
           ],

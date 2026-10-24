@@ -1,0 +1,41 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "a91ae9589b4f00e5b297daa7d7caff01c3ae0a10b30232fa9eef45bc3b7a51f2",
+  "observations": "Same adult face and hair; two arms continuous and two thighs visible, lower legs/feet outside three-quarter crop. Teapot hand four curled fingers plus thumb; cup hand four visible fingers and occluded thumb. Tool ok detects two hands. Tea stream and cup readable. Hair/top strands clipped and original fin hair ornament retained despite wardrobe instruction; apron white rather than orange overall. Preserve visual QA failure. Actual kitchen pouring activity and apron/shorts differ from recent stage, gallery, terrace swim, studio, train and bead-work scenes.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": "two thighs visible; knees and feet outside planned crop",
+    "hands": "Teapot hand four curled fingers plus thumb on handle; cup hand four visible fingers with thumb mostly hidden by cup. Wrists connect to corresponding forearms; hidden portions not certified.",
+    "overlay_checked": false,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Same adult face and hair; two arms continuous and two thighs visible, lower legs/feet outside three-quarter crop. Teapot hand four curled fingers plus thumb; cup hand four visible fingers and occluded thumb. Tool ok detects two hands. Tea stream and cup readable. Hair/top strands clipped and original fin hair ornament retained despite wardrobe instruction; apron white rather than orange overall. Preserve visual QA failure. Actual kitchen pouring activity and apron/shorts differ from recent stage, gallery, terrace swim, studio, train and bead-work scenes."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "L",
+        "score": 1.0,
+        "arm": "L",
+        "gap": 0.07
+      },
+      {
+        "i": 1,
+        "label_side": "R",
+        "score": 0.76,
+        "arm": "R",
+        "gap": 0.07
+      }
+    ],
+    "measure": {
+      "shoulder_px": 347.5,
+      "arm_L_ratio": 1.1,
+      "arm_L_angle": 112
+    },
+    "file": "/workspace/generated_images/exec-98a5abd7-001a-424e-8ab4-99d8f0acce5b.png"
+  },
+  "diversity_comparison": "Actual recent images viewed: Clamperl stage jacket/trousers folded-arm standing, seaside full-length swim resting, gallery velvet gown walking; Walrein train crop shirt/skirt walking, studio crop/leggings stretching, bedroom lingerie leaning; Sealeo evening jumpsuit in reflective hall, hot-spring bikini kneel, bead-work blouse/skirt seated. Huntail plans vase arrangement with garter styling rear waist-up, kitchen tea apron/shorts three-quarter, sunroom knit vest/shorts curled full body. Actual results must be compared; planned differences alone are not a QA pass."
+}
