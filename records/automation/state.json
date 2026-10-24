@@ -3413,6 +3413,26 @@
                 "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/user-exception.json",
                 "sha256": "b1962b38147a13ba1cf108c333e7ab0a891ad8edafa9d5258a3b52895e35cb09"
               }
+            },
+            "heavy_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T02:09:43+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/prompt.txt",
+                "sha256": "c331213ee962900fa259f5da09c4ae8509255284a2327c5c74b452d0ef5fad64"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/ui.json",
+                "sha256": "42adc3a2e2c89d174f154d8f38bbbd412146d51eb9d82a933484de68d2f912ce"
+              },
+              "approval": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/independent-slot-approval.json",
+                "sha256": "b799939e49ef8bc40aa88e90cb5ff35d55a0efd0e5012e34adca612aa933e33b"
+              },
+              "references": {
+                "heavy": "9ea2fdf8865bf7ddba765b807cec848c36d2926e244016a2d5d21819b16dfdeb"
+              },
+              "independent_slot_after_terminal_failure": true
             }
           },
           "reason": "light_overdrive visual QA: Light pose framing face and shell mantle maintained with cyan opened seams. Two continuous arms and crossed legs, two boots. Near right glove still appears six digits; far glove partly overlapping. New small segmented thigh and knee plates differ from source smooth sections. Tool ok with zero hand detections cannot resolve digit error. Actual QA failure preserved, no regeneration.",
@@ -3447,6 +3467,14 @@
               "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
               "scope": "Independent slot using its required approved reference only; retain mobility refusal without retry; one attempt for this slot",
               "at": "2026-10-24T02:07:33+00:00"
+            },
+            {
+              "card": 366,
+              "slot": "heavy_overdrive",
+              "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+              "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+              "scope": "Independent slot using its required approved reference only; retain mobility refusal without retry; one attempt for this slot",
+              "at": "2026-10-24T02:09:43+00:00"
             }
           ]
         }
