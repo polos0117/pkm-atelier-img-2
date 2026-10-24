@@ -5500,18 +5500,19 @@
       "id": "2026-10-24-11",
       "execution_id": "pkm-daily-2026-10-24T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T09:57:51+00:00",
       "queue": [
         {
           "no": 372,
           "name": "쉘곤",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "blocked",
+          "slots": {},
+          "reason": "casual planner pre-generation validation failed: outerwear assigned to cuts 2 and 3 (maximum one). Initial bounded solve and one targeted avoid adult_secretary both exhausted 40 internal candidates. No reservation, intent, generation, or image publication; do not weaken checks or retry without resolving planner."
         }
       ],
-      "updated_at": "2026-10-24T09:58:17+00:00"
+      "updated_at": "2026-10-24T10:00:03+00:00"
     }
   ],
   "claims": {
@@ -5773,6 +5774,11 @@
       "card": "피카츄",
       "status": "blocked_legacy_metadata",
       "reason": "Preserve registered slots; recover ownership and genuine UI metadata before refill."
+    },
+    "439": {
+      "card": "흉내내",
+      "status": "external_work",
+      "reason": "Remote images/records already exist."
     }
   },
   "external_holds": {
@@ -5981,16 +5987,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
