@@ -3833,17 +3833,17 @@
       "id": "2026-10-24-8",
       "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T04:06:06+00:00",
       "queue": [
         {
           "no": 367,
           "name": "헌테일",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T04:06:45+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/light/prompt.txt",
@@ -3860,10 +3860,29 @@
                 "session_only": true,
                 "webp_sha256": "55b79292f46ebdf34bf4f3401d6b6a6b7a5bfa389a85b712e4a00cb01fd54382"
               },
-              "received_at": "2026-10-24T04:08:17+00:00"
+              "received_at": "2026-10-24T04:08:17+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-8/367/light/qa-rejected.json",
+                "sha256": "0f689b6a961490e97b73971b2589debf87e55d4fd1ee0d81523ff01964a67ed9"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-8/367/light/user-exception.json",
+                "sha256": "96206436f61ba1875ffa2d11f60e3b53cfd112b4bd8f9783ca502f0bba170a4e"
+              }
             }
           },
-          "reason": "light visual QA: Adult Huntail identity, orange fin/ring motifs, blue armor, full body and two connected arms/legs. Near glove visibly has six digit-like projections; far glove five overlapping digits, thumb orientation partly uncertain. Feet enclosed in boots, knee/ankle continuity preserved. Tool ok detected zero hands and cannot certify fingers. Bun is high rather than assigned low; face similarity to Clamperl retained as concern. Preserve failed QA for post-upload user review."
+          "reason": "light visual QA: Adult Huntail identity, orange fin/ring motifs, blue armor, full body and two connected arms/legs. Near glove visibly has six digit-like projections; far glove five overlapping digits, thumb orientation partly uncertain. Feet enclosed in boots, knee/ankle continuity preserved. Tool ok detected zero hands and cannot certify fingers. Bun is high rather than assigned low; face similarity to Clamperl retained as concern. Preserve failed QA for post-upload user review.",
+          "block_history": [
+            {
+              "reason": "light visual QA: Adult Huntail identity, orange fin/ring motifs, blue armor, full body and two connected arms/legs. Near glove visibly has six digit-like projections; far glove five overlapping digits, thumb orientation partly uncertain. Feet enclosed in boots, knee/ankle continuity preserved. Tool ok detected zero hands and cannot certify fingers. Bun is high rather than assigned low; face similarity to Clamperl retained as concern. Preserve failed QA for post-upload user review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-8/367/light/user-exception.json",
+                "sha256": "96206436f61ba1875ffa2d11f60e3b53cfd112b4bd8f9783ca502f0bba170a4e"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-24T04:08:26+00:00"
