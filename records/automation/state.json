@@ -3281,14 +3281,14 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3415,7 +3415,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T02:09:43+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/prompt.txt",
@@ -3439,7 +3439,17 @@
                 "session_only": true,
                 "webp_sha256": "448609051531b70bcddc1aeabaa61f77cc974179553a4cd12b3db28c06dc7f2b"
               },
-              "received_at": "2026-10-24T02:12:08+00:00"
+              "received_at": "2026-10-24T02:12:08+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/qa-rejected.json",
+                "sha256": "a72d2e6f3b81aa18171c8de67e6dd1687d207a6043c2fd7f544af95002010542"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/user-exception.json",
+                "sha256": "ba2fbd5911f146181e7058ea9b44b9a1e25b3a14a67a290e7780c29ad3571af2"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Same heavy camera pose shell armor face and two connected arms and crossed legs. Two boots; near right hand again six digit-like projections, far hand overlapped fingers. Tool note two bodies but overlay is multiple estimates on the single armored woman, not a second person; zero hands detected. Opened cyan plate seams maintain main armor silhouette. Manual digit failure retained for user post-upload review.",
@@ -3463,6 +3473,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/user-exception.json",
                 "sha256": "b1962b38147a13ba1cf108c333e7ab0a891ad8edafa9d5258a3b52895e35cb09"
+              }
+            },
+            {
+              "reason": "heavy_overdrive visual QA: Same heavy camera pose shell armor face and two connected arms and crossed legs. Two boots; near right hand again six digit-like projections, far hand overlapped fingers. Tool note two bodies but overlay is multiple estimates on the single armored woman, not a second person; zero hands detected. Opened cyan plate seams maintain main armor silhouette. Manual digit failure retained for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/user-exception.json",
+                "sha256": "ba2fbd5911f146181e7058ea9b44b9a1e25b3a14a67a290e7780c29ad3571af2"
               }
             }
           ],
