@@ -4236,10 +4236,109 @@
               "pkm-atelier-img-3": "fd96f19c83dc765d246df9e48ba672faf1588aa4"
             },
             "at": "2026-10-24T04:26:29+00:00",
-            "status": "preflight_checked"
+            "status": "published_registered_8_of_9",
+            "image_commit": "7924e1b6e5f19093391ede33e772dade9e4c93ba",
+            "thumbnail_commit": "6cfe006b25db04bf3ee687609b5990b2cbaf864a",
+            "registration_commit": "40737b85ab29836a638ecbf6544917d44ceeb76d",
+            "verified_at": "2026-10-24T04:29:26+00:00",
+            "outputs": [
+              {
+                "slot": "light",
+                "file": "헌테일_light_glossy_promo_f.webp",
+                "sha256": "55b79292f46ebdf34bf4f3401d6b6a6b7a5bfa389a85b712e4a00cb01fd54382",
+                "source_sha256": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {}
+              },
+              {
+                "slot": "heavy",
+                "file": "헌테일_heavy_glossy_promo_f.webp",
+                "sha256": "8947e31a373decfe01ff60067be1b2abf42cab32eee22d7dec746a24d72cba35",
+                "source_sha256": "4f8902e6a43489500dc23f8506b7eac11a450fbc0ec8e161a17c9bed4d943bea",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+                }
+              },
+              {
+                "slot": "mobility",
+                "file": "헌테일_mobility_glossy_promo_f.webp",
+                "sha256": "5e32c30a27b1fbe9dd1494752b8df5a423f8d92d47fccff58786140048e1e3cf",
+                "source_sha256": "b9c0435a77a826cdf57f1015fc05a3ab45d17d275387488b812c21c4c08863c4",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+                }
+              },
+              {
+                "slot": "light_overdrive",
+                "file": "헌테일_light_overdrive_glossy_promo_f.webp",
+                "sha256": "e50ed44e89bb207bf1540142df4ab48d784de4e00dbfe8f5667bbd3ddc05c773",
+                "source_sha256": "44ceb6997a8a8f69c7e1be215a6ddac97edc6e940ebf199140fa07f54eb0d40d",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+                }
+              },
+              {
+                "slot": "heavy_overdrive",
+                "file": "헌테일_heavy_overdrive_glossy_promo_f.webp",
+                "sha256": "23b9ce505e8ca8611ad1ce044ed42fd940e00e721864e8ef7d94648185321bdc",
+                "source_sha256": "1faaaa8a0c3e26e1d3f8cd08541ec40d7ed424edd74b2dc763d857de7d467a5e",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "heavy": "4f8902e6a43489500dc23f8506b7eac11a450fbc0ec8e161a17c9bed4d943bea"
+                }
+              },
+              {
+                "slot": "mobility_overdrive",
+                "file": "헌테일_mobility_overdrive_glossy_promo_f.webp",
+                "sha256": "d01745e1f817a6e705628fcf7190876cd79ef23cb5806b6bb5d1c25c0706104f",
+                "source_sha256": "64a4bd4e2dcbfdc0a30cf4517da21b6c6468687f2529945ff20cce7018d995d3",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "mobility": "b9c0435a77a826cdf57f1015fc05a3ab45d17d275387488b812c21c4c08863c4"
+                }
+              },
+              {
+                "slot": "casual2",
+                "file": "헌테일_glossy_promo_f_casual2.webp",
+                "sha256": "9e0285282eca00f7cb4ffc5824bc10b93419d6b645b8e71a8b1bddbc61dca125",
+                "source_sha256": "a91ae9589b4f00e5b297daa7d7caff01c3ae0a10b30232fa9eef45bc3b7a51f2",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+                }
+              },
+              {
+                "slot": "casual3",
+                "file": "헌테일_glossy_promo_f_casual3.webp",
+                "sha256": "d70b168439d6da85cacd112574b5c5741f3d62e57f2d8e5b08033a35598c927e",
+                "source_sha256": "ec53cfe51bef6242a1f002ef3f62063090f73dfbf49da85685f48cbafe73ebfa",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+                }
+              }
+            ],
+            "remote_git_image_and_thumbnail_bytes_verified": true,
+            "pages_http_bytes_verified": false,
+            "http_verification_failures": [
+              {
+                "reason": "Public Pages HTTP bytes not re-fetched: prior environment proxy 403; Git remote bytes verified and deployment Actions checked separately."
+              }
+            ]
           },
           "publication": {
-            "status": "partial_preflight_checked",
+            "status": "partial_published_registered",
             "at": "2026-10-24T04:26:29+00:00",
             "repository": "pkm-atelier-img-3",
             "files": {
@@ -4252,6 +4351,19 @@
               "img/헌테일_glossy_promo_f_casual2.webp": "9e0285282eca00f7cb4ffc5824bc10b93419d6b645b8e71a8b1bddbc61dca125",
               "img/헌테일_glossy_promo_f_casual3.webp": "d70b168439d6da85cacd112574b5c5741f3d62e57f2d8e5b08033a35598c927e"
             }
+          },
+          "own_publication": {
+            "files": [
+              "헌테일_glossy_promo_f_casual2.webp",
+              "헌테일_glossy_promo_f_casual3.webp",
+              "헌테일_heavy_glossy_promo_f.webp",
+              "헌테일_heavy_overdrive_glossy_promo_f.webp",
+              "헌테일_light_glossy_promo_f.webp",
+              "헌테일_light_overdrive_glossy_promo_f.webp",
+              "헌테일_mobility_glossy_promo_f.webp",
+              "헌테일_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
           }
         }
       ],
