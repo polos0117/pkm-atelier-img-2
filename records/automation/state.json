@@ -6917,6 +6917,21 @@
                 "path": "records/automation/runs/2026-10-24-14/382/heavy_overdrive/user-exception.json",
                 "sha256": "6f222f80ad62835feda8d0211f8852e12e5949cbc49dc936f922bdc5b07b3094"
               }
+            },
+            "mobility_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T22:08:45+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-14/382/mobility_overdrive/prompt.txt",
+                "sha256": "54b9c8d090609fa0be31073af9e0ddd4dcb104ef96cea4308d784a7443c90e14"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-14/382/mobility_overdrive/ui.json",
+                "sha256": "e8e113209c8c896cfbbafb0e2715514524d40dd7c8f88de2ca57611f2ed3da91"
+              },
+              "references": {
+                "mobility": "49f0ccd0e94c20b059d2cda898b1030fee024887fcac516f4af159b5c2bff738"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy camera/pose/face/hair and main plates retained with hinges and blue water-lit gaps. Some thigh/shin plate shapes split and sash converted to mechanical glowing strips; expression strain remains weak rather than exact requested opening-only change. Both arms/wrists and two booted legs continuous, no extra limb visible; overlapping gloves prevent full finger certainty. Actual original/crops/overlay viewed; tool ok but zero hands detected, torso pose coarse. Existing long-leg proportions and hair clipping persist.",
@@ -6959,7 +6974,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:08:29+00:00"
+      "updated_at": "2026-10-24T22:08:45+00:00"
     }
   ],
   "claims": {
@@ -7557,9 +7572,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
