@@ -1,0 +1,123 @@
+{
+  "card": "쉘곤",
+  "slot": "casual3",
+  "ui_source": "live deployed generator UI with planner query, confirmed exact output before submission",
+  "storage": {
+    "version": 2,
+    "last": "쉘곤",
+    "cards": {
+      "쉘곤": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "gentle",
+            "pose": "checking_map",
+            "orient": "looking_away",
+            "scene": "Morning light spreads over a stone landing shelter above a green valley; a leather luggage harness lies beside a route chart weighted with brass clips.",
+            "outfit": "A strapless cropped sand-coloured work apron bodice with functional front pockets, a navy wrap mini skirt and flat leather field shoes, with a small ruby seam on one pocket.",
+            "frame": "environmental",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "aviation_control",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Shelgon (쉘곤) personified, dragon type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: softly lowered brows, warm relaxed eyes, faint closed-lip smile, no tension anywhere\nPose: Hold a folded-out route map in both hands while checking the surroundings.\nOrientation: gaze off-camera; body orientation independent\nScene: Morning light spreads over a stone landing shelter above a green valley; a leather luggage harness lies beside a route chart weighted with brass clips.\nOutfit and props: A strapless cropped sand-coloured work apron bodice with functional front pockets, a navy wrap mini skirt and flat leather field shoes, with a small ruby seam on one pocket.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Flying-Pokémon travel attendant checking a luggage harness and route map at an open landing shelter.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "example_text": "Flying-Pokémon travel attendant checking a luggage harness and route map at an open landing shelter.",
+  "planner_selection": {
+    "cut": 3,
+    "cat": "occupation_basic",
+    "ex": "aviation_control",
+    "garments": [
+      "apron",
+      "skirt"
+    ],
+    "orient": "looking_away",
+    "frame": "environmental",
+    "pose": "checking_map",
+    "expr": "gentle",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "cropped hem",
+      "strapless top"
+    ],
+    "lead": "light"
+  },
+  "axes_reasons": [
+    "하네스와 지도를 살피는 가벼운 손동작이라 balanced",
+    "별도 종족 장식 없이 실용적인 직업복 중심이라 subtle",
+    "앞치마 상의와 스커트가 분리되어 prefer separates"
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "Morning light spreads over a stone landing shelter above a green valley; a leather luggage harness lies beside a route chart weighted with brass clips.",
+      "reason": "비행 이동 안내원이 끈과 지도를 확인하는 예시에 아침빛·돌 착륙 쉼터·계곡과 가죽 하네스 재질을 보충했다."
+    },
+    {
+      "field": "outfit",
+      "content": "A strapless cropped sand-coloured work apron bodice with functional front pockets, a navy wrap mini skirt and flat leather field shoes, with a small ruby seam on one pocket.",
+      "reason": "의상이 없는 예시에 계획의 앞치마와 스커트를 입히고 스트랩리스·짧은 허리선으로 드러내는 두 방식을 구현한다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "도구의 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+    }
+  ],
+  "random_changes": {
+    "original_planner": true,
+    "adjustment": "Planner excludes cut 3 source_editorial to separate garment silhouettes and cut 2 dance_step because the example is floor organizing."
+  }
+}
