@@ -1,0 +1,58 @@
+{
+  "card": 366,
+  "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
+  "at": "2026-10-24T02:25:55+00:00",
+  "actions": {
+    "thumbnails": {
+      "id": 40053877323,
+      "conclusion": "success"
+    },
+    "image_pages": {
+      "id": 40053916202,
+      "conclusion": "success"
+    },
+    "registration": {
+      "id": 40053916064,
+      "conclusion": "success"
+    },
+    "code_pages": {
+      "id": 40054055448,
+      "conclusion": "success"
+    }
+  },
+  "logs_checked": {
+    "thumbnail_job": 120752393167,
+    "registration_job": 120752515086,
+    "warnings": "Existing other-image dimension warnings and actions Node20 deprecation. All seven current images independently verified 1024x1536 and thumbs512."
+  },
+  "validation": "casual-look passed all three. Seven remote Git image hashes, dimensions, thumbs, registered slots, where=2 verified; registry Actions forms/img-shards/register-images tests passed. Partial preflight preserved claims/daily/executions/external holds; only new WebP and text files added. Reconciliation recognized seven own outputs, no external skip. All seven failed visual QA observations remain user-post-review exceptions, not QA passes.",
+  "public_http_bytes": "Not re-fetched: earlier environment proxy403. Remote Git bytes and Actions deployments verified.",
+  "missing": {
+    "mobility": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "3b81e2dc-53f1-4254-8085-df6f18f7e07c",
+      "output_files": [],
+      "retry": false
+    },
+    "mobility_overdrive": {
+      "status": "blocked_dependency",
+      "reason": "No mobility reference image; no generation call"
+    }
+  },
+  "quota": {
+    "execution_characters": [
+      366
+    ],
+    "daily_utc": [
+      363,
+      366
+    ],
+    "daily_kst": [
+      360,
+      363,
+      366
+    ]
+  }
+}
