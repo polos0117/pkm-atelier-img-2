@@ -4401,11 +4401,25 @@
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-24T06:06:03+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-9/368/light/prompt.txt",
+                "sha256": "c3594f4e74bae6aba5214a810b801f25030bed1ce78188343479a0f8535c58e0"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-9/368/light/ui.json",
+                "sha256": "d4b3cbb26f747f3361134762d6e00134081926f64eed74841947ba1ab4c69f2a"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-24T06:05:25+00:00"
+      "updated_at": "2026-10-24T06:06:03+00:00"
     }
   ],
   "claims": {
@@ -4863,16 +4877,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -4968,9 +4982,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
