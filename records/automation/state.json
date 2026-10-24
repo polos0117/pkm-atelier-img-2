@@ -3903,6 +3903,21 @@
                 "path": "records/automation/runs/2026-10-24-8/367/heavy/user-exception.json",
                 "sha256": "b45782ec8b47d9fba92d964d6154f0f1b1fbf91aca9883b0328f34ba2d8472d3"
               }
+            },
+            "mobility": {
+              "status": "in_flight",
+              "at": "2026-10-24T04:10:35+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-8/367/mobility/prompt.txt",
+                "sha256": "766545566dd1a59732ce23608f737f382573a8665d7d05adc2150975f86b67f2"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-8/367/mobility/ui.json",
+                "sha256": "36a58cd4503b1d904c8f75a9ee2c2d053f75778c86463cd089eb4f9af442eb42"
+              },
+              "references": {
+                "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+              }
             }
           },
           "reason": "heavy visual QA: Same adult identity and broader layered heavy plates, full body, two arms and two booted legs continuous. Near glove still has six digit-like projections; far glove five with overlap. Tool ok zero hands does not certify digit count. Preserve inherited hand defect as failed QA and post-upload-review exception.",
@@ -3924,7 +3939,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:10:20+00:00"
+      "updated_at": "2026-10-24T04:10:35+00:00"
     }
   ],
   "claims": {
@@ -4348,9 +4363,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -4481,9 +4496,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
