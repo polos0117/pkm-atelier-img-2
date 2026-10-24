@@ -1,0 +1,31 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45",
+  "observations": "Adult full body with blue space buns and shell mantle; feet inside frame, two continuous arms and crossed legs. Near right hand at image left appears to have six digits including thumb; far left hand appears five with overlapping base. Face more pointed and eyes larger than specified rounded narrow-eyed design. Tool ok but detected zero hands, so it does not resolve manual digit failure. Retain failure and user post-upload acceptance.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Adult full body with blue space buns and shell mantle; feet inside frame, two continuous arms and crossed legs. Near right hand at image left appears to have six digits including thumb; far left hand appears five with overlapping base. Face more pointed and eyes larger than specified rounded narrow-eyed design. Tool ok but detected zero hands, so it does not resolve manual digit failure. Retain failure and user post-upload acceptance.",
+    "overlay_checked": false,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Adult full body with blue space buns and shell mantle; feet inside frame, two continuous arms and crossed legs. Near right hand at image left appears to have six digits including thumb; far left hand appears five with overlapping base. Face more pointed and eyes larger than specified rounded narrow-eyed design. Tool ok but detected zero hands, so it does not resolve manual digit failure. Retain failure and user post-upload acceptance."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [],
+    "measure": {
+      "shoulder_px": 162.9,
+      "arm_R_ratio": 0.43,
+      "arm_R_angle": 77
+    },
+    "file": "/workspace/generated_images/exec-4852f9fe-6262-4b35-8d8d-2cc8f68d4fe8.png"
+  },
+  "compared_characters": [
+    "씨카이저",
+    "씨레오",
+    "대굴레오"
+  ],
+  "face_reason": "Clamperl shell and pearl motivate softly rounded medium face, narrow wide-set eyes, balanced nose and medium lips, medium space buns/curtain bangs. Actual recent canonicals viewed: Walrein long curled hair, Sealeo long wavy hair, Spheal medium waves. No Huntail or Gorebyss canonical found in latest shard inventory. Actual face is more pointed and eyes larger than planned; buns and silver-pink palette distinct, facial similarity remains a QA concern."
+}

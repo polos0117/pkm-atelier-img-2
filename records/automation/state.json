@@ -3281,17 +3281,17 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T02:00:46+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/light/prompt.txt",
@@ -3308,10 +3308,29 @@
                 "session_only": true,
                 "webp_sha256": "7a53d71387423e1f4f224043fa107d626eeb3a7ced9b6317d0b6b6a1c64f9b3b"
               },
-              "received_at": "2026-10-24T02:02:49+00:00"
+              "received_at": "2026-10-24T02:02:49+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-7/366/light/qa-rejected.json",
+                "sha256": "21a01970536d2728a169558b918341c70c84b1fa64b8bdcd7d82b4474895d979"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-7/366/light/user-exception.json",
+                "sha256": "168ddfc9d7edfc041b6b935a9be637b834f2183f1948d58ae1c1589975807939"
+              }
             }
           },
-          "reason": "light visual QA: Adult full body with blue space buns and shell mantle; feet inside frame, two continuous arms and crossed legs. Near right hand at image left appears to have six digits including thumb; far left hand appears five with overlapping base. Face more pointed and eyes larger than specified rounded narrow-eyed design. Tool ok but detected zero hands, so it does not resolve manual digit failure. Retain failure and user post-upload acceptance."
+          "reason": "light visual QA: Adult full body with blue space buns and shell mantle; feet inside frame, two continuous arms and crossed legs. Near right hand at image left appears to have six digits including thumb; far left hand appears five with overlapping base. Face more pointed and eyes larger than specified rounded narrow-eyed design. Tool ok but detected zero hands, so it does not resolve manual digit failure. Retain failure and user post-upload acceptance.",
+          "block_history": [
+            {
+              "reason": "light visual QA: Adult full body with blue space buns and shell mantle; feet inside frame, two continuous arms and crossed legs. Near right hand at image left appears to have six digits including thumb; far left hand appears five with overlapping base. Face more pointed and eyes larger than specified rounded narrow-eyed design. Tool ok but detected zero hands, so it does not resolve manual digit failure. Retain failure and user post-upload acceptance.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-7/366/light/user-exception.json",
+                "sha256": "168ddfc9d7edfc041b6b935a9be637b834f2183f1948d58ae1c1589975807939"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-24T02:02:58+00:00"
