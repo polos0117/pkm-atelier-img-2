@@ -2972,6 +2972,21 @@
                 "path": "records/automation/runs/2026-10-23-6/363/mobility/qa.json",
                 "sha256": "5ce0e4dc7625022fb635dc30255ddcca095ce1c5007c2c8e1be26ceb4de60490"
               }
+            },
+            "light_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T00:08:45+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-6/363/light_overdrive/prompt.txt",
+                "sha256": "4b6bf4d30b47871719ccd817761a9ba6f8e6cd8d9938ece3a0afd92e388a2fd9"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-6/363/light_overdrive/ui.json",
+                "sha256": "d26d29ea0ef96e0428905b58b52e644f16c915856fdff565da4f8b0f52160cac"
+              },
+              "references": {
+                "light": "661b8f5909665d62a525b630b64d0a8d4f6b786efdc82e315a481bb33595feed"
+              }
             }
           },
           "reason": "light visual QA: Adult woman, two arms and two crossed but connected legs. Anatomical right hand at image left shows palm, one thumb/four fingers; anatomical left hand at image right has overlapping gloved digits, plausible five but cannot fully certify overlap. Wrists/ankles continuous, two boots no detached limbs. Face narrower/sharper chin than assigned short wide round design; preserve failure for user review.",
@@ -2986,7 +3001,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T00:08:38+00:00"
+      "updated_at": "2026-10-24T00:08:45+00:00"
     }
   ],
   "claims": {
@@ -3426,16 +3441,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
