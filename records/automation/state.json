@@ -3096,7 +3096,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T00:17:19+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-6/363/casual2/prompt.txt",
@@ -3108,7 +3108,14 @@
               },
               "references": {
                 "light": "661b8f5909665d62a525b630b64d0a8d4f6b786efdc82e315a481bb33595feed"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual2/original.png",
+                "sha256": "be23f474687e519d82ff56370912d287163cba71fcff445c859a91b20cd45e62",
+                "session_only": true,
+                "webp_sha256": "5e1ba6a7ffe3fe8e947d542e749f715b1ce26759be52366b57e4aeb079dd3ec2"
+              },
+              "received_at": "2026-10-24T00:18:46+00:00"
             }
           },
           "reason": "casual1 visual QA: Same adult face hair and body; scarf embroidery inspection in tiled courtyard, dress and flowing robe clearly distinct from recent pool, knit laundry and classroom looks. Hands grip scarf with four visible curled fingers each and thumbs partially hidden, continuous wrists. Two knees with coherent folded legs, feet concealed by dress. Actual framing includes knees instead of selected chest-up and mouth partly open rather than closed smile; QA failure preserved for post-upload review.",
@@ -3144,7 +3151,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T00:17:19+00:00"
+      "updated_at": "2026-10-24T00:18:47+00:00"
     }
   ],
   "claims": {
@@ -3584,16 +3591,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -3689,9 +3696,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
