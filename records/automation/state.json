@@ -3281,14 +3281,14 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3489,7 +3489,7 @@
               }
             },
             "casual2": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T02:17:54+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/casual2/prompt.txt",
@@ -3513,7 +3513,17 @@
                 "session_only": true,
                 "webp_sha256": "d019d027bb7314313ea192ea7bde058c58a8de2991dd4bc3a740ee6ed2d62729"
               },
-              "received_at": "2026-10-24T02:19:05+00:00"
+              "received_at": "2026-10-24T02:19:05+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual2/qa-rejected.json",
+                "sha256": "2c80bda592c7079b2428ed3aef27e6145275089d23f8745caed351a41bfe0023"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual2/user-exception.json",
+                "sha256": "11a9c2283862fea2046f3f4db38aac3f72326fe5e489944f37db93215a44c6fc"
+              }
             }
           },
           "reason": "casual2 visual QA: Same adult face and buns, two connected arms and crossed legs. Tool check flags upper arm asymmetry 0.58; actual overlay viewed, foreshortening likely contributes but exact length uncertain. Fingers partly overlap; no extra detached limbs seen, feet hidden/cropped. Full-cover plan rendered exposed chest and side cutouts without opaque underlayer, framing includes crossed legs instead of chest-up, hood loose, canonical shell breast motif repeated. Preserve wardrobe/framing QA failure; non-explicit adult swimwear image. Actual shaded terrace resting full-length swimsuit differs from stage trousers, recent hot-spring kneel and studio stretching.",
@@ -3551,6 +3561,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-7/366/casual1/user-exception.json",
                 "sha256": "37ee839d30fe76e3baeb46696c09a76a51f727b21a59f6408e12b5d5d1437744"
+              }
+            },
+            {
+              "reason": "casual2 visual QA: Same adult face and buns, two connected arms and crossed legs. Tool check flags upper arm asymmetry 0.58; actual overlay viewed, foreshortening likely contributes but exact length uncertain. Fingers partly overlap; no extra detached limbs seen, feet hidden/cropped. Full-cover plan rendered exposed chest and side cutouts without opaque underlayer, framing includes crossed legs instead of chest-up, hood loose, canonical shell breast motif repeated. Preserve wardrobe/framing QA failure; non-explicit adult swimwear image. Actual shaded terrace resting full-length swimsuit differs from stage trousers, recent hot-spring kneel and studio stretching.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual2/user-exception.json",
+                "sha256": "11a9c2283862fea2046f3f4db38aac3f72326fe5e489944f37db93215a44c6fc"
               }
             }
           ],
