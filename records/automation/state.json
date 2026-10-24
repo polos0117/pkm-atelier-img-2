@@ -3937,7 +3937,7 @@
               }
             },
             "light_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T04:12:28+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/prompt.txt",
@@ -3949,7 +3949,14 @@
               },
               "references": {
                 "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/original.png",
+                "sha256": "44ceb6997a8a8f69c7e1be215a6ddac97edc6e940ebf199140fa07f54eb0d40d",
+                "session_only": true,
+                "webp_sha256": "e50ed44e89bb207bf1540142df4ab48d784de4e00dbfe8f5667bbd3ddc05c773"
+              },
+              "received_at": "2026-10-24T04:13:57+00:00"
             }
           },
           "reason": "mobility visual QA: Same adult identity, swept separated fins and compact thrusters, two arms and two booted legs remain connected. Near glove retains six projections; far glove five partly overlapping. Actual upper/lower crops checked, knees and ankles follow limb continuity, no giant wings or extra limb. Tool ok zero hands not digit validation. Inherited hand count failure retained for user post-upload review.",
@@ -3978,7 +3985,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:12:28+00:00"
+      "updated_at": "2026-10-24T04:13:58+00:00"
     }
   ],
   "claims": {
@@ -4535,9 +4542,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
