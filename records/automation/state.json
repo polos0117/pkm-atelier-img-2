@@ -4645,7 +4645,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T06:26:04+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/casual3/prompt.txt",
@@ -4662,7 +4662,14 @@
               "references": {
                 "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-24-9/368/casual3/original.png",
+                "sha256": "1d70d2204223941367d6d7f18f215f19095f1b15d1ac6bb8fb4f57c03c96cbe3",
+                "session_only": true,
+                "webp_sha256": "af8deefa2843d8e51d482590bf4b40a5821bcfb965730687988363d0bc58d6a2"
+              },
+              "received_at": "2026-10-24T06:27:32+00:00"
             }
           },
           "reason": "casual2 terminal output moderation_blocked sexual; request 63f416be-d9e6-4f4a-a3c1-5e055b063c09; no returned file; do not retry",
@@ -4729,7 +4736,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T06:25:34+00:00"
+      "updated_at": "2026-10-24T06:27:33+00:00"
     }
   ],
   "claims": {
@@ -5187,16 +5194,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
