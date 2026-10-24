@@ -5875,14 +5875,14 @@
       "id": "2026-10-24-12",
       "execution_id": "pkm-daily-2026-10-24T16-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T17:36:13+00:00",
       "queue": [
         {
           "no": 375,
           "name": "메탕구",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6063,7 +6063,7 @@
               }
             },
             "casual1": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T17:53:22+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/casual1/prompt.txt",
@@ -6082,7 +6082,17 @@
                 "session_only": true,
                 "webp_sha256": "a450a3f86a456fbd711e5ea291672a5717af0c61f2d0e988e5db85bbdcd21af4"
               },
-              "received_at": "2026-10-24T17:55:37+00:00"
+              "received_at": "2026-10-24T17:55:37+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-12/375/casual1/qa-rejected.json",
+                "sha256": "5830d0a941e8b028531147676800d7bc9d6e7c96ec2f583bb30ddbfb45ad3914"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-12/375/casual1/user-exception.json",
+                "sha256": "306f5897c584ebd0b2498131266194ad9328a9ad3770d57a841f7db06a57d17f"
+              }
             }
           },
           "reason": "casual1 visual QA: Lantern festival riverside lane, full-body high viewpoint, teal short jumpsuit and offered grilled rice snack distinguish scene from recent comparisons. Identity retained, camera angle changes but face tilt remains close to canonical. Hair ornaments and multiple source accessories carried over despite wardrobe reset/subtle axis. Two arms and two legs attached; grip fingers partly hidden by skewer, hanging hand shows thumb and four fingers; toes visible with natural ankle continuity. Tool ok two hands. Preserve ornament and source-influence mismatch.",
@@ -6113,6 +6123,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-12/375/mobility_overdrive/user-exception.json",
                 "sha256": "39602da59457e2cc49327e1c3012a199c02fcf03f568b20b8be5612a7723f90b"
+              }
+            },
+            {
+              "reason": "casual1 visual QA: Lantern festival riverside lane, full-body high viewpoint, teal short jumpsuit and offered grilled rice snack distinguish scene from recent comparisons. Identity retained, camera angle changes but face tilt remains close to canonical. Hair ornaments and multiple source accessories carried over despite wardrobe reset/subtle axis. Two arms and two legs attached; grip fingers partly hidden by skewer, hanging hand shows thumb and four fingers; toes visible with natural ankle continuity. Tool ok two hands. Preserve ornament and source-influence mismatch.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-12/375/casual1/user-exception.json",
+                "sha256": "306f5897c584ebd0b2498131266194ad9328a9ad3770d57a841f7db06a57d17f"
               }
             }
           ]

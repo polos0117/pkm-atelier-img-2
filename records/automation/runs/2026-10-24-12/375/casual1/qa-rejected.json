@@ -1,0 +1,45 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "c1ac329534a7e356288a4727ee84113ea50826b1f67a01e3531077c89723e387",
+  "observations": "Lantern festival riverside lane, full-body high viewpoint, teal short jumpsuit and offered grilled rice snack distinguish scene from recent comparisons. Identity retained, camera angle changes but face tilt remains close to canonical. Hair ornaments and multiple source accessories carried over despite wardrobe reset/subtle axis. Two arms and two legs attached; grip fingers partly hidden by skewer, hanging hand shows thumb and four fingers; toes visible with natural ankle continuity. Tool ok two hands. Preserve ornament and source-influence mismatch.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Lantern festival riverside lane, full-body high viewpoint, teal short jumpsuit and offered grilled rice snack distinguish scene from recent comparisons. Identity retained, camera angle changes but face tilt remains close to canonical. Hair ornaments and multiple source accessories carried over despite wardrobe reset/subtle axis. Two arms and two legs attached; grip fingers partly hidden by skewer, hanging hand shows thumb and four fingers; toes visible with natural ankle continuity. Tool ok two hands. Preserve ornament and source-influence mismatch.",
+    "overlay_checked": false,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Lantern festival riverside lane, full-body high viewpoint, teal short jumpsuit and offered grilled rice snack distinguish scene from recent comparisons. Identity retained, camera angle changes but face tilt remains close to canonical. Hair ornaments and multiple source accessories carried over despite wardrobe reset/subtle axis. Two arms and two legs attached; grip fingers partly hidden by skewer, hanging hand shows thumb and four fingers; toes visible with natural ankle continuity. Tool ok two hands. Preserve ornament and source-influence mismatch."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.62,
+        "arm": "L",
+        "gap": 0.03
+      },
+      {
+        "i": 1,
+        "label_side": "R",
+        "score": 0.95,
+        "arm": "R",
+        "gap": 0.11
+      }
+    ],
+    "measure": {
+      "shoulder_px": 204.8,
+      "arm_L_ratio": 0.96,
+      "arm_L_angle": 177,
+      "arm_R_ratio": 0.62,
+      "arm_R_angle": 148,
+      "leg_L_ratio": 0.84,
+      "leg_L_angle": 148
+    },
+    "file": "/workspace/generated_images/exec-fcd68f9b-d8b9-41a3-bd4f-3d8c0d0b167b.png"
+  },
+  "diversity_comparison": "Actual 3x3 comparison viewed: Beldum stage uniform skirt, train-station travel trousers, loom traditional skirt; Salamence kneeling lingerie, pool robe swimsuit, crouching urban sports leggings; Shelgon mirror lingerie close-up, kneeling atelier dress, mountain map outfit. Metang planned lantern-festival short jumpsuit, park-walk overalls and rear-three-quarter dressing-console strap lingerie change activity/silhouette/composition; third shares lingerie category but rear upper-back view differs from existing frontal/kneeling compositions. Actual generated results reviewed separately.\n"
+}
