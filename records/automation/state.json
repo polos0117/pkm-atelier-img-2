@@ -6466,6 +6466,21 @@
                 "path": "records/automation/runs/2026-10-24-13/381/heavy_overdrive/user-exception.json",
                 "sha256": "e1588941b0338b21ceea3d7d13305327e68a030f385cce3caae20d513856571e"
               }
+            },
+            "mobility_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T20:16:43+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-13/381/mobility_overdrive/prompt.txt",
+                "sha256": "402bd75c0c91865b40492d0e27902cf5fc4eaa8b5d0c84f929dbeb274422dcfa"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-13/381/mobility_overdrive/ui.json",
+                "sha256": "ab85edd6168fae34b5865c1cd625f2e6c11412dc374019afa6d5cbfcafd52ce0"
+              },
+              "references": {
+                "mobility": "e009db48d2766423518c7decada08a8756918be59bb5de055f913e72e7694337"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy source and canonical light both actually referenced. Camera, hands, stance, face and layered outline preserved; violet inner glow visible. Some chest and thigh plate borders remodel instead of merely opening, and strained expression is weak. Two arms and legs connect; boots retained with tight margin and inherited exaggerated length. Finger overlap remains uncertain in lowered hand; open hand five silhouettes. Tool ok with zero detected hands and misplaced head landmarks, overlay not reliable for limb certification.",
@@ -6508,7 +6523,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T20:16:32+00:00"
+      "updated_at": "2026-10-24T20:16:43+00:00"
     }
   ],
   "claims": {
@@ -7100,9 +7115,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -7345,9 +7360,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-casual3-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
-      "at": "2026-10-25T06:52:03+11:00",
+      "session": "registeel-latias-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
+      "at": "2026-10-25T06:49:47+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
