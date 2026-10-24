@@ -5500,14 +5500,14 @@
       "id": "2026-10-24-11",
       "execution_id": "pkm-daily-2026-10-24T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T09:57:51+00:00",
       "queue": [
         {
           "no": 372,
           "name": "쉘곤",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -5716,7 +5716,38 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "in_flight",
+              "attempt": 2,
+              "at": "2026-10-24T13:16:58+00:00",
+              "prefix": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2",
+              "approval": {
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2/approval.json",
+                "sha256": "9af726d6073e7181127b7de6656819034b6211ee2a8fd58901923dc64ce2e5c3"
+              },
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2/prompt.txt",
+                "sha256": "3c224331bb37c3e546b001fc16d1fb8d9306a809c5ac8352ca12fab025019423"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2/ui.json",
+                "sha256": "f46b8482eaed73f8e02978a88c7acfdf4a86cb5c73cfae410cd74528166ada09"
+              },
+              "references": {
+                "light": "e0258313366c77b75990633bb9e19254ea24d702c8fe7f18cabb2bbd106134fa"
+              },
+              "correction_reference": {
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/original.png",
+                "sha256": "1d2567f93e9fcb84fdd891e64fa336261add26653807d9451b7b2cf574e5323e",
+                "session_only": true,
+                "webp_sha256": "78ae32d5dedfc224ff6f83a1617136d2fafe482e0daff8cb27d46b187ee01792"
+              }
+            }
+          },
+          "reason": "casual3: tiny pseudo-letter labels on route map; preserve first result and correct only map marks under current user task authorization.",
+          "resolution": "User requested Shelgon completion. Fresh current-ledger plan passes without code or validation changes; source_editorial cut avoided to distinguish clothing silhouettes. Legacy checkpoint lists normalized read-only in session adapter.",
+          "attempt_history": [
+            {
+              "status": "rejected",
               "at": "2026-10-24T13:12:36+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-11/372/casual3/prompt.txt",
@@ -5735,14 +5766,18 @@
                 "session_only": true,
                 "webp_sha256": "78ae32d5dedfc224ff6f83a1617136d2fafe482e0daff8cb27d46b187ee01792"
               },
-              "received_at": "2026-10-24T13:16:52+00:00"
+              "received_at": "2026-10-24T13:16:52+00:00",
+              "slot": "casual3",
+              "rejection_reason": "casual3: tiny pseudo-letter labels on route map; preserve first result and correct only map marks under current user task authorization.",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/rejected-qa.json",
+                "sha256": "a189b3cc5f8ffdbeb78e17a21bbf95a773942a1c658f23c425d79a0130534f7a"
+              }
             }
-          },
-          "reason": "casual3: tiny pseudo-letter labels on route map; preserve first result and correct only map marks under current user task authorization.",
-          "resolution": "User requested Shelgon completion. Fresh current-ledger plan passes without code or validation changes; source_editorial cut avoided to distinguish clothing silhouettes. Legacy checkpoint lists normalized read-only in session adapter."
+          ]
         }
       ],
-      "updated_at": "2026-10-24T13:16:52+00:00"
+      "updated_at": "2026-10-24T13:16:58+00:00"
     }
   ],
   "claims": {
