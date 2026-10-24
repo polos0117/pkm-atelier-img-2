@@ -4394,14 +4394,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4594,7 +4594,7 @@
               }
             },
             "casual1": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T06:21:47+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/casual1/prompt.txt",
@@ -4613,7 +4613,17 @@
                 "session_only": true,
                 "webp_sha256": "b4dec47c7cc409607dfb36f769f03e16c5f6cf885d04d4220d763fcf6586c660"
               },
-              "received_at": "2026-10-24T06:23:14+00:00"
+              "received_at": "2026-10-24T06:23:14+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-9/368/casual1/qa-rejected.json",
+                "sha256": "6a9fd8c244ad8c2c8cab447e0566de92a5f7f24e600fb15866aeb149f4c5d855"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-9/368/casual1/user-exception.json",
+                "sha256": "73cb1d449fc23b4d7c242f0fbe60bb461450a491a9e817315eb92b4be2cd32b7"
+              }
             }
           },
           "reason": "casual1 visual QA: Adult canonical pink bun and face retained in referee uniform with flags and court. Flag hand shows five digit structures around pole with natural wrist; supporting hand partly cropped, feet outside frame. Two arms and folded legs continuous; tool ok with one detected hand does not verify hidden digits. Framing is thigh-inclusive rather than reserved chest-up; background crowd silhouettes violate one-figure-only and extra thigh straps were added. Record actual visual failure and accept for post-upload user review.",
@@ -4658,6 +4668,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-9/368/mobility_overdrive/user-exception.json",
                 "sha256": "148c08381983b38c18d4bc692ed2a4b940440892825423947a0c7b7689f4208a"
+              }
+            },
+            {
+              "reason": "casual1 visual QA: Adult canonical pink bun and face retained in referee uniform with flags and court. Flag hand shows five digit structures around pole with natural wrist; supporting hand partly cropped, feet outside frame. Two arms and folded legs continuous; tool ok with one detected hand does not verify hidden digits. Framing is thigh-inclusive rather than reserved chest-up; background crowd silhouettes violate one-figure-only and extra thigh straps were added. Record actual visual failure and accept for post-upload user review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-9/368/casual1/user-exception.json",
+                "sha256": "73cb1d449fc23b4d7c242f0fbe60bb461450a491a9e817315eb92b4be2cd32b7"
               }
             }
           ]

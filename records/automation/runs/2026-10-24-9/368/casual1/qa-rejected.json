@@ -1,0 +1,38 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "08c42485e640a5e800c7356844ca6fd624beeca24320577d124e291642dadfe7",
+  "observations": "Adult canonical pink bun and face retained in referee uniform with flags and court. Flag hand shows five digit structures around pole with natural wrist; supporting hand partly cropped, feet outside frame. Two arms and folded legs continuous; tool ok with one detected hand does not verify hidden digits. Framing is thigh-inclusive rather than reserved chest-up; background crowd silhouettes violate one-figure-only and extra thigh straps were added. Record actual visual failure and accept for post-upload user review.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": "two folded legs visible, feet outside crop",
+    "hands": "Flag hand has thumb and four curled fingers, partly occluded by pole. Supporting wrist connects to hand whose fingertips extend out of frame; full count cannot be established.",
+    "overlay_checked": false,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Adult canonical pink bun and face retained in referee uniform with flags and court. Flag hand shows five digit structures around pole with natural wrist; supporting hand partly cropped, feet outside frame. Two arms and folded legs continuous; tool ok with one detected hand does not verify hidden digits. Framing is thigh-inclusive rather than reserved chest-up; background crowd silhouettes violate one-figure-only and extra thigh straps were added. Record actual visual failure and accept for post-upload user review."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.99,
+        "arm": "R",
+        "gap": 0.0
+      }
+    ],
+    "measure": {
+      "shoulder_px": 350.1,
+      "arm_L_ratio": 1.08,
+      "arm_L_angle": 167,
+      "arm_R_ratio": 0.84,
+      "arm_R_angle": 58,
+      "leg_R_ratio": 1.52,
+      "leg_R_angle": 43
+    },
+    "file": "/workspace/generated_images/exec-5e43ee0f-0795-44b0-aabb-266a10d37da1.png"
+  },
+  "diversity_comparison": "Actual recent thumbnails viewed: Bronzong mirror lingerie rear three-quarter, towel-folding light cardigan and shorts, workshop fan/tablet standing rear turn; Bonsly festival street long traditional dress, indoor ribbon craft romper, mirror costume with feather duster; Huntail kitchen tea apron/shorts and sunroom sofa knit vest/shorts hands-in-hair. Gorebyss reserved referee bench chest-up lighting-led, pool-terrace environmental swimsuit place-led, forest map full-body skirt/top action-led distinguish category, place, activity, silhouette and framing. Plan check --fresh passed against current three image repositories and reservations. Generated images must also be compared with each other after return.\n"
+}
