@@ -6500,7 +6500,7 @@
               }
             },
             "casual1": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T20:18:34+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/casual1/prompt.txt",
@@ -6512,7 +6512,14 @@
               },
               "references": {
                 "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual1/original.png",
+                "sha256": "38eb10ca59eda6c35873e6cbb9e3569495b8e3c10da90057c23e0f3c52ae6c80",
+                "session_only": true,
+                "webp_sha256": "a692d40e858546b045207b2e566d1f938d64a1f79fcc6c4dfb0f0c1867b76658"
+              },
+              "received_at": "2026-10-24T20:20:17+00:00"
             }
           },
           "reason": "mobility_overdrive visual QA: Actual mobility and canonical light references used. Same camera, face, gloves and stance retained. Thruster interiors exposed with violet energy, but panel count and span grow and read as larger wing-like fans, not exact opening of the existing pieces; strain expression weak. Two arms/two legs connect visually; full boots visible, inherited exaggerated leg length. Open glove has five silhouettes; lowered fingers overlap. Tool note faint body, zero hands, unreliable overlay; hidden finger details not certified.",
@@ -6562,7 +6569,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T20:18:34+00:00"
+      "updated_at": "2026-10-24T20:20:18+00:00"
     }
   ],
   "claims": {
@@ -7021,9 +7028,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -7154,9 +7161,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -7399,9 +7406,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-latias-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:49:47+11:00",
+      "session": "registeel-casual3-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
+      "at": "2026-10-25T06:52:03+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
