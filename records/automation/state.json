@@ -4466,7 +4466,7 @@
               }
             },
             "mobility": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T06:13:16+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/mobility/prompt.txt",
@@ -4478,7 +4478,14 @@
               },
               "references": {
                 "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-9/368/mobility/original.png",
+                "sha256": "e44aeabf7b6541f8f479cdc7fe5b81e131a97305826ab09cdb2f402c10df71b2",
+                "session_only": true,
+                "webp_sha256": "be8d8d2d694d38b9e0ca5eab8127fc0ea9e4224e54675d29df4915212a4e9407"
+              },
+              "received_at": "2026-10-24T06:15:06+00:00"
             }
           },
           "reason": "heavy visual QA: Two arms connect continuously to two gloved hands, each with five visible digit projections; two booted feet connect to crossed legs. Tool reports ok with zero detected hands, so fingers judged visually. Face, pink bun and purple-white palette retained. Bun nearly touches upper edge, lacking required clear head margin; original thick-brow design remains thinner. Adopt for user post-upload review without regeneration.",
@@ -4500,7 +4507,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T06:13:16+00:00"
+      "updated_at": "2026-10-24T06:15:07+00:00"
     }
   ],
   "claims": {
@@ -4930,9 +4937,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
