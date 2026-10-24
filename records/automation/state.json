@@ -6300,14 +6300,14 @@
       "id": "2026-10-24-13",
       "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T20:05:04+00:00",
       "queue": [
         {
           "no": 381,
           "name": "라티오스",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6340,7 +6340,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T20:08:52+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/heavy/prompt.txt",
@@ -6359,7 +6359,17 @@
                 "session_only": true,
                 "webp_sha256": "940f72644742334fcfb47b65353fc19215f09ccfe07493c1b3811870c85951c1"
               },
-              "received_at": "2026-10-24T20:10:19+00:00"
+              "received_at": "2026-10-24T20:10:19+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-13/381/heavy/qa-rejected.json",
+                "sha256": "eeedb2b6809d4ac55c9663429b0fec5f71d1e8f6e469a94c27e7953e915253cc"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-13/381/heavy/user-exception.json",
+                "sha256": "b12674e5de14c296afc082818f002201679d97249b9bc85b0d64e23182c03dae"
+              }
             }
           },
           "reason": "heavy visual QA: Identity and gloves preserved; broad layered armor added over shoulders, torso, pelvis and legs, no cannon. Two arms and legs continuous, boots fully visible but lower margin extremely tight and inherited leg proportions exaggerated. Open hand thumb and four fingers visible; lowered fingers overlap. Tool ok with zero hands and unreliable upper pose landmarks near head, so digit structure not independently certified. Preserve these visual limitations for user post-upload review.",
@@ -6369,6 +6379,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-13/381/light/user-exception.json",
                 "sha256": "5ebd0a16cfb82905114b31cbe3e92f946df80fb98222bf5c1d65d9313b31d69c"
+              }
+            },
+            {
+              "reason": "heavy visual QA: Identity and gloves preserved; broad layered armor added over shoulders, torso, pelvis and legs, no cannon. Two arms and legs continuous, boots fully visible but lower margin extremely tight and inherited leg proportions exaggerated. Open hand thumb and four fingers visible; lowered fingers overlap. Tool ok with zero hands and unreliable upper pose landmarks near head, so digit structure not independently certified. Preserve these visual limitations for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-13/381/heavy/user-exception.json",
+                "sha256": "b12674e5de14c296afc082818f002201679d97249b9bc85b0d64e23182c03dae"
               }
             }
           ]
