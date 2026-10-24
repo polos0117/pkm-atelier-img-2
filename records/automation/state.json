@@ -4496,6 +4496,21 @@
                 "path": "records/automation/runs/2026-10-24-9/368/mobility/user-exception.json",
                 "sha256": "5c90577d59c238cd4429952fc036342fab543572dd8b2d212e7f29e28e5f26da"
               }
+            },
+            "light_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T06:15:47+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-9/368/light_overdrive/prompt.txt",
+                "sha256": "97f5910334d6ece2413d7f10548495bc3196762fb7d2a08bc9d6942c5c9d90f7"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-9/368/light_overdrive/ui.json",
+                "sha256": "385dd2d60523d791ff1570582080480e34c1a79b9c793a61199e951468e321d8"
+              },
+              "references": {
+                "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
+              }
             }
           },
           "reason": "mobility visual QA: Two continuous arms, two hands with five visible digit projections, crossed legs and two booted feet. Tool ok but no hand landmarks; covered toes remain unverified. Swept shoulder and hip fins retain canonical face and palette. Top hair clips the boundary and compact thrusters are not clearly identifiable. Preserve failed visual QA and adopt for post-upload user review.",
@@ -4524,7 +4539,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T06:15:15+00:00"
+      "updated_at": "2026-10-24T06:15:47+00:00"
     }
   ],
   "claims": {
@@ -4982,16 +4997,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
