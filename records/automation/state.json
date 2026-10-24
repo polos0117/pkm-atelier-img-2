@@ -6063,7 +6063,7 @@
               }
             },
             "casual1": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T17:53:22+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/casual1/prompt.txt",
@@ -6075,7 +6075,14 @@
               },
               "references": {
                 "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-12/375/casual1/original.png",
+                "sha256": "c1ac329534a7e356288a4727ee84113ea50826b1f67a01e3531077c89723e387",
+                "session_only": true,
+                "webp_sha256": "a450a3f86a456fbd711e5ea291672a5717af0c61f2d0e988e5db85bbdcd21af4"
+              },
+              "received_at": "2026-10-24T17:55:37+00:00"
             }
           },
           "reason": "mobility_overdrive visual QA: Mobility pose camera face body and gloved hand positions retained. Fanned thruster covers open with silver-white glow; some calf panels enlarge and shift, expression not distinctly strained. Two arms/legs continuous, feet within frame, no extra limb. Overlapping curled digits not all independently countable, tool ok zero hands. Preserve panel and expression mismatch; actual refs mobility plus canonical light.",
@@ -6111,7 +6118,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:53:22+00:00"
+      "updated_at": "2026-10-24T17:55:37+00:00"
     }
   ],
   "claims": {
