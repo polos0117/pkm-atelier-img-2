@@ -3833,14 +3833,14 @@
       "id": "2026-10-24-8",
       "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T04:06:06+00:00",
       "queue": [
         {
           "no": 367,
           "name": "헌테일",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3969,7 +3969,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T04:14:20+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/prompt.txt",
@@ -3988,7 +3988,17 @@
                 "session_only": true,
                 "webp_sha256": "23b9ce505e8ca8611ad1ce044ed42fd940e00e721864e8ef7d94648185321bdc"
               },
-              "received_at": "2026-10-24T04:16:29+00:00"
+              "received_at": "2026-10-24T04:16:29+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/qa-rejected.json",
+                "sha256": "b468cfcdce74844c26a43168a761c826fa5589be04cfead2d34824ba00af7f23"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/user-exception.json",
+                "sha256": "0044d9b1758cf097a9ea41ecc2e697b8fd873944f5a3c1c01605645687256824"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy identity/camera/pose retained, opened stacked plates and cyan glow. Near glove six digit-like projections remain, far glove five overlapping; two arms and booted legs connected. Tool check loose hand maps to thigh skin and plate in actual overlay, false positive; actual two hands present. Knee/ankle joints coherent beneath armor. Preserve inherited hand QA failure, no regeneration.",
@@ -4019,6 +4029,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/user-exception.json",
                 "sha256": "4adc86cad42be36a2c823a842e8670461c260e8178aeda140ba1813f153a7199"
+              }
+            },
+            {
+              "reason": "heavy_overdrive visual QA: Heavy identity/camera/pose retained, opened stacked plates and cyan glow. Near glove six digit-like projections remain, far glove five overlapping; two arms and booted legs connected. Tool check loose hand maps to thigh skin and plate in actual overlay, false positive; actual two hands present. Knee/ankle joints coherent beneath armor. Preserve inherited hand QA failure, no regeneration.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/user-exception.json",
+                "sha256": "0044d9b1758cf097a9ea41ecc2e697b8fd873944f5a3c1c01605645687256824"
               }
             }
           ]

@@ -1,0 +1,37 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "1faaaa8a0c3e26e1d3f8cd08541ec40d7ed424edd74b2dc763d857de7d467a5e",
+  "observations": "Heavy identity/camera/pose retained, opened stacked plates and cyan glow. Near glove six digit-like projections remain, far glove five overlapping; two arms and booted legs connected. Tool check loose hand maps to thigh skin and plate in actual overlay, false positive; actual two hands present. Knee/ankle joints coherent beneath armor. Preserve inherited hand QA failure, no regeneration.",
+  "anatomy": {
+    "tool": "check",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Heavy identity/camera/pose retained, opened stacked plates and cyan glow. Near glove six digit-like projections remain, far glove five overlapping; two arms and booted legs connected. Tool check loose hand maps to thigh skin and plate in actual overlay, false positive; actual two hands present. Knee/ankle joints coherent beneath armor. Preserve inherited hand QA failure, no regeneration.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Heavy identity/camera/pose retained, opened stacked plates and cyan glow. Near glove six digit-like projections remain, far glove five overlapping; two arms and booted legs connected. Tool check loose hand maps to thigh skin and plate in actual overlay, false positive; actual two hands present. Knee/ankle joints coherent beneath armor. Preserve inherited hand QA failure, no regeneration."
+  },
+  "anatomy_tool_result": {
+    "level": "check",
+    "flags": [
+      {
+        "level": "check",
+        "what": "loose_hand",
+        "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 1.1 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+      }
+    ],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "L",
+        "score": 0.65,
+        "arm": null,
+        "gap": 1.14
+      }
+    ],
+    "measure": {
+      "shoulder_px": 190.5
+    },
+    "file": "/workspace/generated_images/exec-6a70613b-8be6-4020-b783-b19c71b9a78e.png"
+  }
+}
