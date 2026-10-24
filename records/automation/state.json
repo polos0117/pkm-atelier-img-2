@@ -3833,14 +3833,14 @@
       "id": "2026-10-24-8",
       "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T04:06:06+00:00",
       "queue": [
         {
           "no": 367,
           "name": "헌테일",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3959,7 +3959,7 @@
               "received_at": "2026-10-24T04:13:57+00:00"
             }
           },
-          "reason": "mobility visual QA: Same adult identity, swept separated fins and compact thrusters, two arms and two booted legs remain connected. Near glove retains six projections; far glove five partly overlapping. Actual upper/lower crops checked, knees and ankles follow limb continuity, no giant wings or extra limb. Tool ok zero hands not digit validation. Inherited hand count failure retained for user post-upload review.",
+          "reason": "light_overdrive visual QA: Same light camera/pose/face and connected two arms/two booted legs, cyan opened seams. Near glove retains six digit-like projections; far five with overlap. Additional knee/thigh segmentation differs from closed light. Actual hands/feet crops checked, no detached limbs; tool ok zero hands. Failed hand and armor consistency QA retained for post-upload review.",
           "block_history": [
             {
               "reason": "light visual QA: Adult Huntail identity, orange fin/ring motifs, blue armor, full body and two connected arms/legs. Near glove visibly has six digit-like projections; far glove five overlapping digits, thumb orientation partly uncertain. Feet enclosed in boots, knee/ankle continuity preserved. Tool ok detected zero hands and cannot certify fingers. Bun is high rather than assigned low; face similarity to Clamperl retained as concern. Preserve failed QA for post-upload user review.",
@@ -3985,7 +3985,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:13:58+00:00"
+      "updated_at": "2026-10-24T04:14:06+00:00"
     }
   ],
   "claims": {
