@@ -4001,7 +4001,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T04:16:53+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/prompt.txt",
@@ -4013,7 +4013,14 @@
               },
               "references": {
                 "mobility": "b9c0435a77a826cdf57f1015fc05a3ab45d17d275387488b812c21c4c08863c4"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/original.png",
+                "sha256": "64a4bd4e2dcbfdc0a30cf4517da21b6c6468687f2529945ff20cce7018d995d3",
+                "session_only": true,
+                "webp_sha256": "d01745e1f817a6e705628fcf7190876cd79ef23cb5806b6bb5d1c25c0706104f"
+              },
+              "received_at": "2026-10-24T04:18:45+00:00"
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy identity/camera/pose retained, opened stacked plates and cyan glow. Near glove six digit-like projections remain, far glove five overlapping; two arms and booted legs connected. Tool check loose hand maps to thigh skin and plate in actual overlay, false positive; actual two hands present. Knee/ankle joints coherent beneath armor. Preserve inherited hand QA failure, no regeneration.",
@@ -4056,7 +4063,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:16:53+00:00"
+      "updated_at": "2026-10-24T04:18:46+00:00"
     }
   ],
   "claims": {
@@ -4508,16 +4515,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
