@@ -32,7 +32,8 @@
       366,
       367,
       368,
-      369
+      369,
+      372
     ]
   },
   "runs": [
@@ -5494,6 +5495,23 @@
       "updated_at": "2026-10-24T08:35:22+00:00",
       "deferred_at": "2026-10-24T08:35:22+00:00",
       "defer_reason": "Relicanth 8/9 published and registered; casual1 terminal moderation_blocked sexual with no output, no retry. Preserve claim and all QA/history."
+    },
+    {
+      "id": "2026-10-24-11",
+      "execution_id": "pkm-daily-2026-10-24T10-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-24T09:57:51+00:00",
+      "queue": [
+        {
+          "no": 372,
+          "name": "쉘곤",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-24T09:57:51+00:00"
     }
   ],
   "claims": {
@@ -5712,6 +5730,12 @@
       "run": "2026-10-24-10",
       "status": "held",
       "at": "2026-10-24T07:59:10+00:00"
+    },
+    "372": {
+      "owner": "pkm-daily",
+      "run": "2026-10-24-11",
+      "status": "held",
+      "at": "2026-10-24T09:57:51+00:00"
     }
   },
   "blocked_candidates": {
@@ -6062,9 +6086,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -6196,7 +6220,8 @@
       366,
       367,
       368,
-      369
+      369,
+      372
     ]
   },
   "executions": {
@@ -6261,6 +6286,13 @@
       "at": "2026-10-24T07:59:10+00:00",
       "characters": [
         369
+      ]
+    },
+    "pkm-daily-2026-10-24T10-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-24T09:57:51+00:00",
+      "characters": [
+        372
       ]
     }
   }
