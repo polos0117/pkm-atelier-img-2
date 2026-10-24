@@ -4784,10 +4784,109 @@
               "pkm-atelier-img-3": "1b601358771b658e0e3bae775fb7a30d5a8be116"
             },
             "at": "2026-10-24T06:28:42+00:00",
-            "status": "preflight_checked"
+            "status": "published_registered_8_of_9",
+            "image_commit": "b94cb49d5e6fe1edcd33ac66f5144158979ac754",
+            "thumbnail_commit": "cc36c65074c17ea63c8d93805da4c9206f550e26",
+            "registration_commit": "69f5e9edb3acd9e5cb847732ae813986bf64bcbf",
+            "verified_at": "2026-10-24T06:31:50+00:00",
+            "outputs": [
+              {
+                "slot": "light",
+                "file": "분홍장이_light_glossy_promo_f.webp",
+                "sha256": "5141a79697923475ca1c4548aae3d839e56dcf371d49874be2d547afa2092236",
+                "source_sha256": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {}
+              },
+              {
+                "slot": "heavy",
+                "file": "분홍장이_heavy_glossy_promo_f.webp",
+                "sha256": "9af6a951dcbb26d502b96d585ff730096252c24878babcfb680bae73b1eca798",
+                "source_sha256": "0e70cb4178b4eb86730d8efbcdbac58c34b150aacf4791043b991a86c59fac7d",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
+                }
+              },
+              {
+                "slot": "mobility",
+                "file": "분홍장이_mobility_glossy_promo_f.webp",
+                "sha256": "be8d8d2d694d38b9e0ca5eab8127fc0ea9e4224e54675d29df4915212a4e9407",
+                "source_sha256": "e44aeabf7b6541f8f479cdc7fe5b81e131a97305826ab09cdb2f402c10df71b2",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
+                }
+              },
+              {
+                "slot": "light_overdrive",
+                "file": "분홍장이_light_overdrive_glossy_promo_f.webp",
+                "sha256": "8c8bb287ccdc787c8f1c712ad7b3f5fedcf310c3fd4ee3f96886ee7e2a14e5e8",
+                "source_sha256": "32c4d6cad32bd199dbf0e136ae274d176d2539b12cde7d85d46b17d3844f5d94",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
+                }
+              },
+              {
+                "slot": "heavy_overdrive",
+                "file": "분홍장이_heavy_overdrive_glossy_promo_f.webp",
+                "sha256": "21d6b2a69f3700a42ee01dd3b97c5d3760b69939e1c9ff91dda2eca5e442be9f",
+                "source_sha256": "cdcfd2a852e90c394f28047644cbd4732aa4503ca44d90d75f9ef269750f7fd8",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "heavy": "0e70cb4178b4eb86730d8efbcdbac58c34b150aacf4791043b991a86c59fac7d"
+                }
+              },
+              {
+                "slot": "mobility_overdrive",
+                "file": "분홍장이_mobility_overdrive_glossy_promo_f.webp",
+                "sha256": "eeec3ab31beb7c109f94e2e6a0caac557fe81b57222e8bfb7eae58a0cc3ca7d5",
+                "source_sha256": "6eec31cd8874fe5f78e267b5f98d97c3d5264539f4ed06fc3e0bb024d31d9173",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "mobility": "e44aeabf7b6541f8f479cdc7fe5b81e131a97305826ab09cdb2f402c10df71b2"
+                }
+              },
+              {
+                "slot": "casual1",
+                "file": "분홍장이_glossy_promo_f_casual1.webp",
+                "sha256": "b4dec47c7cc409607dfb36f769f03e16c5f6cf885d04d4220d763fcf6586c660",
+                "source_sha256": "08c42485e640a5e800c7356844ca6fd624beeca24320577d124e291642dadfe7",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
+                }
+              },
+              {
+                "slot": "casual3",
+                "file": "분홍장이_glossy_promo_f_casual3.webp",
+                "sha256": "af8deefa2843d8e51d482590bf4b40a5821bcfb965730687988363d0bc58d6a2",
+                "source_sha256": "1d70d2204223941367d6d7f18f215f19095f1b15d1ac6bb8fb4f57c03c96cbe3",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
+                }
+              }
+            ],
+            "remote_git_image_and_thumbnail_bytes_verified": true,
+            "pages_http_bytes_verified": false,
+            "http_verification_failures": [
+              {
+                "reason": "Public Pages HTTP bytes not re-fetched: prior environment proxy 403; Git remote bytes verified and deployment Actions checked separately."
+              }
+            ]
           },
           "publication": {
-            "status": "partial_preflight_checked",
+            "status": "partial_published_registered",
             "at": "2026-10-24T06:28:42+00:00",
             "repository": "pkm-atelier-img-3",
             "files": {
@@ -4800,6 +4899,19 @@
               "img/분홍장이_glossy_promo_f_casual1.webp": "b4dec47c7cc409607dfb36f769f03e16c5f6cf885d04d4220d763fcf6586c660",
               "img/분홍장이_glossy_promo_f_casual3.webp": "af8deefa2843d8e51d482590bf4b40a5821bcfb965730687988363d0bc58d6a2"
             }
+          },
+          "own_publication": {
+            "files": [
+              "분홍장이_glossy_promo_f_casual1.webp",
+              "분홍장이_glossy_promo_f_casual3.webp",
+              "분홍장이_heavy_glossy_promo_f.webp",
+              "분홍장이_heavy_overdrive_glossy_promo_f.webp",
+              "분홍장이_light_glossy_promo_f.webp",
+              "분홍장이_light_overdrive_glossy_promo_f.webp",
+              "분홍장이_mobility_glossy_promo_f.webp",
+              "분홍장이_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
           }
         }
       ],
