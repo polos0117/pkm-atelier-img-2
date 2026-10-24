@@ -4949,14 +4949,14 @@
       "id": "2026-10-24-10",
       "execution_id": "pkm-daily-2026-10-24T08-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T07:59:10+00:00",
       "queue": [
         {
           "no": 369,
           "name": "시라칸",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -5105,7 +5105,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T08:15:27+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/mobility_overdrive/prompt.txt",
@@ -5124,7 +5124,17 @@
                 "session_only": true,
                 "webp_sha256": "65c7945970bc483f6669247a725f71dba3e89d1ae91fa5bc3a97c59719c2b84d"
               },
-              "received_at": "2026-10-24T08:17:55+00:00"
+              "received_at": "2026-10-24T08:17:55+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-10/369/mobility_overdrive/qa-rejected.json",
+                "sha256": "c880bfa5b317e128931e973d0f0874edbc50de9111002ecbacef4df922e26bbe"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-10/369/mobility_overdrive/user-exception.json",
+                "sha256": "29a9aae2036d6cd3a59054627239c535b57474dfb17861143887ddccb78ccafc"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Same face, hair and overall stance as mobility. Expanded fins and uncovered blue thrusters visible; camera and full-body framing retained. Two arms and wrists continuous; gloved curled digits overlap, cannot certify hidden fingers. Two booted feet connect to legs. Tool low-confidence pose note preserved and overlay viewed. Some shoulder and shin panels were reshaped and torso turn changes slightly, violating exact before-after match; adopt with actual failed QA preserved.",
@@ -5148,6 +5158,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-10/369/heavy_overdrive/user-exception.json",
                 "sha256": "79c09ade037ebfdb360992be45f9bc30fdd40aba69a56ae06c1241fb70ec6d5e"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Same face, hair and overall stance as mobility. Expanded fins and uncovered blue thrusters visible; camera and full-body framing retained. Two arms and wrists continuous; gloved curled digits overlap, cannot certify hidden fingers. Two booted feet connect to legs. Tool low-confidence pose note preserved and overlay viewed. Some shoulder and shin panels were reshaped and torso turn changes slightly, violating exact before-after match; adopt with actual failed QA preserved.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-10/369/mobility_overdrive/user-exception.json",
+                "sha256": "29a9aae2036d6cd3a59054627239c535b57474dfb17861143887ddccb78ccafc"
               }
             }
           ]
