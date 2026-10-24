@@ -5915,7 +5915,7 @@
               }
             },
             "heavy": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T17:39:53+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/heavy/prompt.txt",
@@ -5927,7 +5927,14 @@
               },
               "references": {
                 "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-12/375/heavy/original.png",
+                "sha256": "a2b915dffac95b324c8f6f027c7761d728b9c20769b422789c258cc7a2ae91e9",
+                "session_only": true,
+                "webp_sha256": "11169ce7fab8469c195465973f9131768167ba1e92261d7f94cae6750905bdfe"
+              },
+              "received_at": "2026-10-24T17:42:18+00:00"
             }
           },
           "reason": "light visual QA: Adult single woman, head and both boots inside 2:3 frame. Two arms lead to gloved hands, two legs continuous with boots, no extra limb seen. Fingers overlap in curled hands and tool detects zero hands; full digit count uncertain. Teal-gray pointed plates carry steel motif. Long hair reads partly ribbon-like rather than locs and leg proportions exaggerated. Actual canonical comparison recorded; preserve hair/proportion mismatch for post-upload review.",
@@ -5942,7 +5949,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:39:53+00:00"
+      "updated_at": "2026-10-24T17:42:18+00:00"
     }
   ],
   "claims": {
@@ -6395,9 +6402,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -6423,16 +6430,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -6734,6 +6741,27 @@
       "session": "gpt-munchlax-riolu-20261025",
       "file": "records/casual-reservations/gpt-munchlax-riolu-20261025.json",
       "at": "2026-10-25T03:03:43+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "376": {
+      "card": "메타그로스",
+      "session": "metagross-manual-20261025-a5e4",
+      "file": "records/casual-reservations/metagross-manual-20261025-a5e4.json",
+      "at": "2026-10-25T04:39:59+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "520": {
+      "card": "유토브",
+      "session": "gpt-tranquill-unfezant-20261025-0fd9",
+      "file": "records/casual-reservations/gpt-tranquill-unfezant-20261025-0fd9.json",
+      "at": "2026-10-25T04:40:29+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "521": {
+      "card": "켄호로우",
+      "session": "gpt-tranquill-unfezant-20261025-0fd9",
+      "file": "records/casual-reservations/gpt-tranquill-unfezant-20261025-0fd9.json",
+      "at": "2026-10-25T04:40:29+11:00",
       "status": "external_reservation_do_not_take_over"
     }
   },
