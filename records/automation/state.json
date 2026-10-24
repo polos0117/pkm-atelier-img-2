@@ -4949,14 +4949,14 @@
       "id": "2026-10-24-10",
       "execution_id": "pkm-daily-2026-10-24T08-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T07:59:10+00:00",
       "queue": [
         {
           "no": 369,
           "name": "시라칸",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -5041,7 +5041,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T08:09:38+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/light_overdrive/prompt.txt",
@@ -5060,7 +5060,17 @@
                 "session_only": true,
                 "webp_sha256": "cfc574b098244a142d13c8d8572eca2bcc49db7b798473a838872aa77c9aad65"
               },
-              "received_at": "2026-10-24T08:11:47+00:00"
+              "received_at": "2026-10-24T08:11:47+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-10/369/light_overdrive/qa-rejected.json",
+                "sha256": "e8d2160d3f80cb9655313511b16f171ccfa2eb767ca31135dd32d7163fecc61f"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-10/369/light_overdrive/user-exception.json",
+                "sha256": "47ac2a08775203f286f72f1e7942cb5be10368baeb51d537ca5a539e6e88a970"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Same standing pose, camera, face, hair and body scale as light, cyan inner-frame gaps visible. Two continuous arms, curled gloved hands and two booted legs; fingers overlap and cannot all be counted. Tool ok with no hand landmarks. Thigh and shin plate geometry changes beyond simply hinging the original panels, while expression barely tightens. Preserve that visual failure and adopt under user post-upload review.",
@@ -5070,6 +5080,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-10/369/light/user-exception.json",
                 "sha256": "a36de8fc03c4af32353bd2bbe93f383489c36413bcd8fdfda479dfb42f0da7ee"
+              }
+            },
+            {
+              "reason": "light_overdrive visual QA: Same standing pose, camera, face, hair and body scale as light, cyan inner-frame gaps visible. Two continuous arms, curled gloved hands and two booted legs; fingers overlap and cannot all be counted. Tool ok with no hand landmarks. Thigh and shin plate geometry changes beyond simply hinging the original panels, while expression barely tightens. Preserve that visual failure and adopt under user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-10/369/light_overdrive/user-exception.json",
+                "sha256": "47ac2a08775203f286f72f1e7942cb5be10368baeb51d537ca5a539e6e88a970"
               }
             }
           ]
