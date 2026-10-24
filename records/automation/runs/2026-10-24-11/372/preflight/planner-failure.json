@@ -1,0 +1,18 @@
+{
+  "execution_id": "pkm-daily-2026-10-24T10-00-00Z",
+  "at": "2026-10-24T10:00:29+00:00",
+  "status": "blocked_planner_validation",
+  "card": 372,
+  "commands": [
+    "node tools/casual-plan.cjs 쉘곤 --session image-runner-2026-10-24-11-372 --reserve --push --out /workspace/pkm-automation-preflight/shelgon-plan.json",
+    "node tools/casual-plan.cjs 쉘곤 --session image-runner-2026-10-24-11-372 --avoid 쉘곤:3:ex=adult_secretary --reserve --push --out /workspace/pkm-automation-preflight/shelgon-plan.json"
+  ],
+  "both_exit_code": 1,
+  "error": "40번 정해도 장부 조건을 못 맞췄다: 몸을 덮는 겉옷(cardigan·coat·jacket·sweater)을 [2, 3]번 컷에 — 세 장 중 한 장까지",
+  "attempts": "Two bounded planner solves only; second excluded conflicting example. No generation retry.",
+  "generation_calls": 0,
+  "image_uploads": 0,
+  "reservation_published": false,
+  "rules_changed": false,
+  "required_resolution": "Resolve planner selection conflict without weakening ledger validation, then resume this same character/execution explicitly. No prior blocked-slot recovery."
+}

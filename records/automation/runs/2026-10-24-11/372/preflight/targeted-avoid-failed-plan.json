@@ -1,0 +1,133 @@
+{
+ "session": "image-runner-2026-10-24-11-372",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "쉘곤",
+   "species": "shelgon-20261024",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "lingerie",
+     "ex": "babydoll",
+     "garments": [
+      "lingerie_set",
+      "slip"
+     ],
+     "orient": "crouching",
+     "frame": "waist_up",
+     "pose": "kneeling",
+     "expr": "calm",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "side cutouts"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "cat": "wildcard",
+     "ex": "rain_editorial",
+     "garments": [
+      "coat",
+      "dress"
+     ],
+     "orient": "side",
+     "frame": "chest_up",
+     "pose": "arms_crossed",
+     "expr": "confident",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "halter neck"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "adult_roleplay",
+     "ex": "cabin_crew_retro",
+     "garments": [
+      "jacket"
+     ],
+     "orient": "looking_away",
+     "frame": "three_quarter",
+     "pose": "small_jog",
+     "expr": "proud",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "open back",
+      "cropped hem"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1,
+      3
+     ],
+     "two": true,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "partner_care",
+     "travel_exploration",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "private_evening",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "lingerie_set",
+     "slip",
+     "coat",
+     "dress",
+     "jacket"
+    ],
+    "orient": [
+     "crouching",
+     "side",
+     "looking_away"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
