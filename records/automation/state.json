@@ -6300,14 +6300,14 @@
       "id": "2026-10-24-13",
       "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T20:05:04+00:00",
       "queue": [
         {
           "no": 381,
           "name": "라티오스",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6500,7 +6500,7 @@
               }
             },
             "casual1": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T20:18:34+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/casual1/prompt.txt",
@@ -6519,7 +6519,17 @@
                 "session_only": true,
                 "webp_sha256": "a692d40e858546b045207b2e566d1f938d64a1f79fcc6c4dfb0f0c1867b76658"
               },
-              "received_at": "2026-10-24T20:20:17+00:00"
+              "received_at": "2026-10-24T20:20:17+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual1/qa-rejected.json",
+                "sha256": "9059cf485aa262f01190f935cf7412259c612d2917236e46f54e124bb552cda7"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual1/user-exception.json",
+                "sha256": "91e709ec7afcd3ed7fb228df2549fbf5cd19e03278073119065ca7b909183bb4"
+              }
             }
           },
           "reason": "casual1 visual QA: One adult woman in opaque wrapped white-blue short garment on tatami with book and tea; distinct from comparison characters rooftop/pool/vanity settings. Face and hair retained, ornaments removed. Selected cross-legged pose became one raised knee plus one folded leg; long draped sleeve and tassels make silhouette more robe-like than a simple slip. Two arms and legs trace continuously; front foot five toes, rear toes partially overlap. Both hands connected; thumb of lower hand partly occluded and exact digit count not fully certain. Tool ok with two hands, overlay and original crops actually inspected. Adopt actual visual discrepancies for post-upload review.",
@@ -6564,6 +6574,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-13/381/mobility_overdrive/user-exception.json",
                 "sha256": "0edde38a4f507e04a985191cf63fff904aa155546b07016a16a309fc110fb0e3"
+              }
+            },
+            {
+              "reason": "casual1 visual QA: One adult woman in opaque wrapped white-blue short garment on tatami with book and tea; distinct from comparison characters rooftop/pool/vanity settings. Face and hair retained, ornaments removed. Selected cross-legged pose became one raised knee plus one folded leg; long draped sleeve and tassels make silhouette more robe-like than a simple slip. Two arms and legs trace continuously; front foot five toes, rear toes partially overlap. Both hands connected; thumb of lower hand partly occluded and exact digit count not fully certain. Tool ok with two hands, overlay and original crops actually inspected. Adopt actual visual discrepancies for post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual1/user-exception.json",
+                "sha256": "91e709ec7afcd3ed7fb228df2549fbf5cd19e03278073119065ca7b909183bb4"
               }
             }
           ]
