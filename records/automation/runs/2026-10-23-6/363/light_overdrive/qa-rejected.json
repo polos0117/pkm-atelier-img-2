@@ -1,0 +1,15 @@
+{
+  "accepted": false,
+  "reviewer": "AI visual QA",
+  "image_sha256": "9be299674efeb5108e2af765842619152482937b651dc7ca6705e72f7f62ce56",
+  "observations": "Camera pose face and hands match light, two connected arms and legs and two boots. Right palm one thumb and four fingers; left glove overlaps obscure exact count but no evident extra. Wrists ankles continuous in crops. Blue opened seams visible; thigh surface now has a rigid bordered panel and added knee segmentation beyond original smooth suit, so exact same-armor requirement fails. Retain failure for user post-upload review.",
+  "disposition": "user-approved post-upload review, not QA pass",
+  "anatomy": {
+    "tool": "unavailable: verified local model assets present, runtime lacks libGLESv2.so.2; no successful inference or overlay",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Camera pose face and hands match light, two connected arms and legs and two boots. Right palm one thumb and four fingers; left glove overlaps obscure exact count but no evident extra. Wrists ankles continuous in crops. Blue opened seams visible; thigh surface now has a rigid bordered panel and added knee segmentation beyond original smooth suit, so exact same-armor requirement fails. Retain failure for user post-upload review.",
+    "overlay_checked": false,
+    "note": "Original and local hand/foot inspection crops viewed; no model overlay generated. Occlusion and uncertainty noted in observations."
+  }
+}

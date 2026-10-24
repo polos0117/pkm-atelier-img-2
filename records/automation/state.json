@@ -2882,14 +2882,14 @@
       "id": "2026-10-23-6",
       "execution_id": "pkm-daily-2026-10-24T00-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T23:58:30+00:00",
       "queue": [
         {
           "no": 363,
           "name": "대굴레오",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -2974,7 +2974,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T00:08:45+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-6/363/light_overdrive/prompt.txt",
@@ -2993,7 +2993,17 @@
                 "session_only": true,
                 "webp_sha256": "3003cc302aebe05a6ed2552a65d86b7beaf1b54977e3af8a2bf2351614c0054f"
               },
-              "received_at": "2026-10-24T00:10:15+00:00"
+              "received_at": "2026-10-24T00:10:15+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-6/363/light_overdrive/qa-rejected.json",
+                "sha256": "065bf407a5ecaec61bcf7b555af880eaf0b5137194c2b91d7023270b658b8459"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-6/363/light_overdrive/user-exception.json",
+                "sha256": "7bdb7eba461a280967d49b57972fdce5ac0a0691673b6c2667630f170ac77f4f"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Camera pose face and hands match light, two connected arms and legs and two boots. Right palm one thumb and four fingers; left glove overlaps obscure exact count but no evident extra. Wrists ankles continuous in crops. Blue opened seams visible; thigh surface now has a rigid bordered panel and added knee segmentation beyond original smooth suit, so exact same-armor requirement fails. Retain failure for user post-upload review.",
@@ -3003,6 +3013,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-23-6/363/light/user-exception.json",
                 "sha256": "fb507cb9b01b9fe340aa48b53188d4341e90c0de84a8f0e230d16351f26893fd"
+              }
+            },
+            {
+              "reason": "light_overdrive visual QA: Camera pose face and hands match light, two connected arms and legs and two boots. Right palm one thumb and four fingers; left glove overlaps obscure exact count but no evident extra. Wrists ankles continuous in crops. Blue opened seams visible; thigh surface now has a rigid bordered panel and added knee segmentation beyond original smooth suit, so exact same-armor requirement fails. Retain failure for user post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-6/363/light_overdrive/user-exception.json",
+                "sha256": "7bdb7eba461a280967d49b57972fdce5ac0a0691673b6c2667630f170ac77f4f"
               }
             }
           ]
