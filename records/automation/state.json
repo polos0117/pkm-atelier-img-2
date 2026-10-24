@@ -4956,11 +4956,25 @@
           "no": 369,
           "name": "시라칸",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-24T08:00:23+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-10/369/light/prompt.txt",
+                "sha256": "944e61c046b8d824139d89b18fcaaf15ffa5b52cb90a965856b134df42eccc7b"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-10/369/light/ui.json",
+                "sha256": "46c01260d63e89570db049913c582ee562f22ce78de5b2a09e71947e8ce166d8"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-24T07:59:42+00:00"
+      "updated_at": "2026-10-24T08:00:23+00:00"
     }
   ],
   "claims": {
@@ -5396,9 +5410,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -5529,9 +5543,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
