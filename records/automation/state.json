@@ -3833,14 +3833,14 @@
       "id": "2026-10-24-8",
       "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T04:06:06+00:00",
       "queue": [
         {
           "no": 367,
           "name": "헌테일",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3937,7 +3937,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T04:12:28+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/prompt.txt",
@@ -3956,7 +3956,17 @@
                 "session_only": true,
                 "webp_sha256": "e50ed44e89bb207bf1540142df4ab48d784de4e00dbfe8f5667bbd3ddc05c773"
               },
-              "received_at": "2026-10-24T04:13:57+00:00"
+              "received_at": "2026-10-24T04:13:57+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/qa-rejected.json",
+                "sha256": "3da85cdbcd85481bbfb8105d6d915195d1e9096cdda31ad9a32b58f66d803b80"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/user-exception.json",
+                "sha256": "4adc86cad42be36a2c823a842e8670461c260e8178aeda140ba1813f153a7199"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Same light camera/pose/face and connected two arms/two booted legs, cyan opened seams. Near glove retains six digit-like projections; far five with overlap. Additional knee/thigh segmentation differs from closed light. Actual hands/feet crops checked, no detached limbs; tool ok zero hands. Failed hand and armor consistency QA retained for post-upload review.",
@@ -3980,6 +3990,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-8/367/mobility/user-exception.json",
                 "sha256": "1b637084fcb5ddb76ce4db0a7a9f75f5dfe22973c9d54a11475121b251879525"
+              }
+            },
+            {
+              "reason": "light_overdrive visual QA: Same light camera/pose/face and connected two arms/two booted legs, cyan opened seams. Near glove retains six digit-like projections; far five with overlap. Additional knee/thigh segmentation differs from closed light. Actual hands/feet crops checked, no detached limbs; tool ok zero hands. Failed hand and armor consistency QA retained for post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/user-exception.json",
+                "sha256": "4adc86cad42be36a2c823a842e8670461c260e8178aeda140ba1813f153a7199"
               }
             }
           ]

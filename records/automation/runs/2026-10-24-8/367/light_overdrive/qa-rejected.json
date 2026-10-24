@@ -1,0 +1,23 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "44ceb6997a8a8f69c7e1be215a6ddac97edc6e940ebf199140fa07f54eb0d40d",
+  "observations": "Same light camera/pose/face and connected two arms/two booted legs, cyan opened seams. Near glove retains six digit-like projections; far five with overlap. Additional knee/thigh segmentation differs from closed light. Actual hands/feet crops checked, no detached limbs; tool ok zero hands. Failed hand and armor consistency QA retained for post-upload review.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Same light camera/pose/face and connected two arms/two booted legs, cyan opened seams. Near glove retains six digit-like projections; far five with overlap. Additional knee/thigh segmentation differs from closed light. Actual hands/feet crops checked, no detached limbs; tool ok zero hands. Failed hand and armor consistency QA retained for post-upload review.",
+    "overlay_checked": false,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Same light camera/pose/face and connected two arms/two booted legs, cyan opened seams. Near glove retains six digit-like projections; far five with overlap. Additional knee/thigh segmentation differs from closed light. Actual hands/feet crops checked, no detached limbs; tool ok zero hands. Failed hand and armor consistency QA retained for post-upload review."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [],
+    "measure": {
+      "shoulder_px": 190.3
+    },
+    "file": "/workspace/generated_images/exec-02522e54-2e64-44db-8552-7375dd4a574a.png"
+  }
+}
