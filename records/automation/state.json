@@ -6983,7 +6983,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T22:12:59+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/casual2/prompt.txt",
@@ -6995,7 +6995,14 @@
               },
               "references": {
                 "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual2/original.png",
+                "sha256": "6e474b24516221c34f5aa1c82d7cb0e50905053e74ae927f98e74d30e16808fd",
+                "session_only": true,
+                "webp_sha256": "ec449bf68d8e70a43e9f568aa0517e607c8abf5e0e0ebd676c3468be0553bec7"
+              },
+              "received_at": "2026-10-24T22:14:48+00:00"
             }
           },
           "reason": "casual1 visual QA: Home satin shirt/shorts, teapot, rain windows and rear turn differ from earlier tatami/camp/pool/kitchen scenes. Identity retained and armor removed. Requested environmental long shot is dominated by figure, legs overlong and feet in exaggerated tiptoe stance; expression is warmer than cold smile. Near arm/wrist connects to pot grip; far elbow partly hidden and thumbs/fingers occluded by teapot, cannot certify all digits. Two legs connect to two bare feet with heel/sole continuity; toes overlap and ground contact unclear. Actual original/crops/overlay viewed; tool ok zero hands is not digit verification.",
@@ -7052,7 +7059,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:12:59+00:00"
+      "updated_at": "2026-10-24T22:14:49+00:00"
     }
   ],
   "claims": {
@@ -7545,16 +7552,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -7650,9 +7657,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
