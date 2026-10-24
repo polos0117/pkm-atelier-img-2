@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6951,7 +6951,7 @@
               }
             },
             "casual1": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T22:11:04+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/casual1/prompt.txt",
@@ -6970,7 +6970,17 @@
                 "session_only": true,
                 "webp_sha256": "d755bcb3a74de8d76d8439ef5676f7694f6a04ebe248c2d734301a14d927ad38"
               },
-              "received_at": "2026-10-24T22:12:32+00:00"
+              "received_at": "2026-10-24T22:12:32+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual1/qa-rejected.json",
+                "sha256": "04f4f43ba4986c0dfc16e709877fa7ae5eb18a5708b1f0ae0e983c726bc05ed4"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual1/user-exception.json",
+                "sha256": "52c49e6978283efbd341acc9c8361a1809c43dd6a296da4957bd57e7f37a51eb"
+              }
             }
           },
           "reason": "casual1 visual QA: Home satin shirt/shorts, teapot, rain windows and rear turn differ from earlier tatami/camp/pool/kitchen scenes. Identity retained and armor removed. Requested environmental long shot is dominated by figure, legs overlong and feet in exaggerated tiptoe stance; expression is warmer than cold smile. Near arm/wrist connects to pot grip; far elbow partly hidden and thumbs/fingers occluded by teapot, cannot certify all digits. Two legs connect to two bare feet with heel/sole continuity; toes overlap and ground contact unclear. Actual original/crops/overlay viewed; tool ok zero hands is not digit verification.",
@@ -7015,6 +7025,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-14/382/mobility_overdrive/user-exception.json",
                 "sha256": "c774a27529a16713721c7cea72d245ece46d359db829f9bc781ef2d04ec4559b"
+              }
+            },
+            {
+              "reason": "casual1 visual QA: Home satin shirt/shorts, teapot, rain windows and rear turn differ from earlier tatami/camp/pool/kitchen scenes. Identity retained and armor removed. Requested environmental long shot is dominated by figure, legs overlong and feet in exaggerated tiptoe stance; expression is warmer than cold smile. Near arm/wrist connects to pot grip; far elbow partly hidden and thumbs/fingers occluded by teapot, cannot certify all digits. Two legs connect to two bare feet with heel/sole continuity; toes overlap and ground contact unclear. Actual original/crops/overlay viewed; tool ok zero hands is not digit verification.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual1/user-exception.json",
+                "sha256": "52c49e6978283efbd341acc9c8361a1809c43dd6a296da4957bd57e7f37a51eb"
               }
             }
           ]
