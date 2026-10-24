@@ -5508,12 +5508,26 @@
           "name": "쉘곤",
           "style": "glossy_promo",
           "status": "working",
-          "slots": {},
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-24T12:49:11+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-11/372/light/prompt.txt",
+                "sha256": "420cce786ea520a26fe358cc26fda9a850c7d9b84f6c2cb71f4ae1e59e9feadf"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-11/372/light/ui.json",
+                "sha256": "8e35fb75487076690863f6e3f6abdc5b9669bb7775480bf4b7a6be0e6af49978"
+              },
+              "references": {}
+            }
+          },
           "reason": "casual planner pre-generation validation failed: outerwear assigned to cuts 2 and 3 (maximum one). Initial bounded solve and one targeted avoid adult_secretary both exhausted 40 internal candidates. No reservation, intent, generation, or image publication; do not weaken checks or retry without resolving planner.",
           "resolution": "User requested Shelgon completion. Fresh current-ledger plan passes without code or validation changes; source_editorial cut avoided to distinguish clothing silhouettes. Legacy checkpoint lists normalized read-only in session adapter."
         }
       ],
-      "updated_at": "2026-10-24T12:47:31+00:00"
+      "updated_at": "2026-10-24T12:49:11+00:00"
     }
   ],
   "claims": {
