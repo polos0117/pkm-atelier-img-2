@@ -3833,14 +3833,14 @@
       "id": "2026-10-24-8",
       "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T04:06:06+00:00",
       "queue": [
         {
           "no": 367,
           "name": "헌테일",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4116,7 +4116,7 @@
               "received_at": "2026-10-24T04:25:35+00:00"
             }
           },
-          "reason": "casual2 visual QA: Same adult face and hair; two arms continuous and two thighs visible, lower legs/feet outside three-quarter crop. Teapot hand four curled fingers plus thumb; cup hand four visible fingers and occluded thumb. Tool ok detects two hands. Tea stream and cup readable. Hair/top strands clipped and original fin hair ornament retained despite wardrobe instruction; apron white rather than orange overall. Preserve visual QA failure. Actual kitchen pouring activity and apron/shorts differ from recent stage, gallery, terrace swim, studio, train and bead-work scenes.",
+          "reason": "casual3 visual QA: Same adult face and bun, two raised arms continuous with wrists; fingers partly cropped at top and obscured by hair so cannot certify full counts. Two legs bent coherently with five toes visible on each bare foot, no detached limb. Tool ok detects one hand only. Top of hands/hair clipped despite full-body framing; open book has pseudo-text. Preserve failed crop/text QA. Actual cream knit vest/shorts sunroom seated hair-adjustment differs from kitchen tea apron/shorts standing, recent stage trousers/gallery dress/terrace swimsuit, train/studio and bead-work. Casual-look passed both generated casual images; casual1 absent so no three-image completion claimed.",
           "block_history": [
             {
               "reason": "light visual QA: Adult Huntail identity, orange fin/ring motifs, blue armor, full body and two connected arms/legs. Near glove visibly has six digit-like projections; far glove five overlapping digits, thumb orientation partly uncertain. Feet enclosed in boots, knee/ankle continuity preserved. Tool ok detected zero hands and cannot certify fingers. Bun is high rather than assigned low; face similarity to Clamperl retained as concern. Preserve failed QA for post-upload user review.",
@@ -4188,7 +4188,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:25:36+00:00"
+      "updated_at": "2026-10-24T04:25:45+00:00"
     }
   ],
   "claims": {
@@ -4745,9 +4745,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
