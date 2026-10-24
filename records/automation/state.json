@@ -3452,7 +3452,7 @@
               }
             },
             "casual1": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T02:15:51+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/casual1/prompt.txt",
@@ -3469,7 +3469,14 @@
               "references": {
                 "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual1/original.png",
+                "sha256": "b2e66699210784271d33ea9e8edc305f435cf26af26c36601fa26224489ebdf7",
+                "session_only": true,
+                "webp_sha256": "6f43bfd5d203e9b0ecc59d149d4b721b4d30bcbd858d6b8a1331c173e2cc8418"
+              },
+              "received_at": "2026-10-24T02:17:28+00:00"
             }
           },
           "reason": "heavy_overdrive visual QA: Same heavy camera pose shell armor face and two connected arms and crossed legs. Two boots; near right hand again six digit-like projections, far hand overlapped fingers. Tool note two bodies but overlay is multiple estimates on the single armored woman, not a second person; zero hands detected. Opened cyan plate seams maintain main armor silhouette. Manual digit failure retained for user post-upload review.",
@@ -3531,7 +3538,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T02:12:17+00:00"
+      "updated_at": "2026-10-24T02:17:29+00:00"
     }
   ],
   "claims": {
@@ -3949,9 +3956,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -3977,16 +3984,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -4082,9 +4089,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
