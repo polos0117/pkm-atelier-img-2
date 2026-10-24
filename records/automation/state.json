@@ -4562,7 +4562,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T06:19:47+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/mobility_overdrive/prompt.txt",
@@ -4574,7 +4574,14 @@
               },
               "references": {
                 "mobility": "e44aeabf7b6541f8f479cdc7fe5b81e131a97305826ab09cdb2f402c10df71b2"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-9/368/mobility_overdrive/original.png",
+                "sha256": "6eec31cd8874fe5f78e267b5f98d97c3d5264539f4ed06fc3e0bb024d31d9173",
+                "session_only": true,
+                "webp_sha256": "eeec3ab31beb7c109f94e2e6a0caac557fe81b57222e8bfb7eae58a0cc3ca7d5"
+              },
+              "received_at": "2026-10-24T06:21:19+00:00"
             }
           },
           "reason": "heavy_overdrive visual QA: Actual near hand has thumb and four fingers and continuous wrist to armored forearm; far hand also five projections with close middle fingers. Tool loose-hand alert arises from incorrect near-face pose localization, not an actual detached hand. Two legs and boots retained. Pose and face retained, cyan internal gaps and heavy plates opened, but top hair has no clear margin and some hip plate shapes differ. Adopt with failure QA retained for user post-upload review.",
@@ -4617,7 +4624,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T06:19:47+00:00"
+      "updated_at": "2026-10-24T06:21:19+00:00"
     }
   ],
   "claims": {
@@ -5180,9 +5187,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
