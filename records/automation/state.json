@@ -2879,17 +2879,17 @@
       "id": "2026-10-23-6",
       "execution_id": "pkm-daily-2026-10-24T00-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-23T23:58:30+00:00",
       "queue": [
         {
           "no": 363,
           "name": "대굴레오",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-23T23:59:29+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-6/363/light/prompt.txt",
@@ -2906,10 +2906,29 @@
                 "session_only": true,
                 "webp_sha256": "c9e326e8a4d72c7e9eefda2e9923b0592c4801b04f8e5acf2aa51b616670ab46"
               },
-              "received_at": "2026-10-24T00:01:11+00:00"
+              "received_at": "2026-10-24T00:01:11+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-6/363/light/qa-rejected.json",
+                "sha256": "8ac88b5b67ef172793ab8a1f75bf3d645da3a6c24435f98554e9219701039329"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-23-6/363/light/user-exception.json",
+                "sha256": "fb507cb9b01b9fe340aa48b53188d4341e90c0de84a8f0e230d16351f26893fd"
+              }
             }
           },
-          "reason": "light visual QA: Adult woman, two arms and two crossed but connected legs. Anatomical right hand at image left shows palm, one thumb/four fingers; anatomical left hand at image right has overlapping gloved digits, plausible five but cannot fully certify overlap. Wrists/ankles continuous, two boots no detached limbs. Face narrower/sharper chin than assigned short wide round design; preserve failure for user review."
+          "reason": "light visual QA: Adult woman, two arms and two crossed but connected legs. Anatomical right hand at image left shows palm, one thumb/four fingers; anatomical left hand at image right has overlapping gloved digits, plausible five but cannot fully certify overlap. Wrists/ankles continuous, two boots no detached limbs. Face narrower/sharper chin than assigned short wide round design; preserve failure for user review.",
+          "block_history": [
+            {
+              "reason": "light visual QA: Adult woman, two arms and two crossed but connected legs. Anatomical right hand at image left shows palm, one thumb/four fingers; anatomical left hand at image right has overlapping gloved digits, plausible five but cannot fully certify overlap. Wrists/ankles continuous, two boots no detached limbs. Face narrower/sharper chin than assigned short wide round design; preserve failure for user review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-23-6/363/light/user-exception.json",
+                "sha256": "fb507cb9b01b9fe340aa48b53188d4341e90c0de84a8f0e230d16351f26893fd"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-24T00:01:20+00:00"
