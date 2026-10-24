@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-gible-family-20261024",
- "at": "2026-10-24T23:00:04+11:00",
+ "at": "2026-10-24T23:08:17+11:00",
  "characters": [
   {
    "species": "gible-20261024",
    "card": "딥상어동",
-   "at": "2026-10-24T23:00:04+11:00",
+   "at": "2026-10-24T23:08:17+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -18,8 +18,6 @@
      "frame": "environmental",
      "lens": "wide24",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "balanced"
@@ -31,42 +29,75 @@
       "open back",
       "halter neck"
      ],
-     "lead": "place",
      "kept": true
     },
     {
      "cut": 2,
-     "cat": "swimwear",
-     "ex": "onsen_after",
+     "cat": "homewear",
+     "ex": "oversized_shirt",
      "expr": "candid",
-     "pose": "waving",
+     "pose": "one_knee_up",
      "orient": "rear_3q",
      "frame": "waist_up",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "dress",
+      "shirt"
      ],
      "expose": [
-      "high-cut leg",
+      "high thigh slit",
       "halter neck"
      ],
      "lead": "place"
     },
     {
      "cut": 3,
-     "cat": "homewear",
-     "ex": "offshoulder_knit",
-     "expr": "playful",
+     "cat": "swimwear",
+     "ex": "triangle_bikini",
+     "expr": "pensive",
      "pose": "contrapposto",
      "orient": "front",
      "frame": "three_quarter",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini"
+     ],
+     "expose": [
+      "high-cut leg",
+      "bare midriff"
+     ],
+     "lead": "light"
+    }
+   ],
+   "refill": true
+  },
+  {
+   "species": "gabite-20261024",
+   "card": "한바이트",
+   "at": "2026-10-24T23:08:17+11:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "active",
+     "ex": "basketball_jersey",
+     "expr": "exhausted",
+     "pose": "squatting",
+     "orient": "crouching",
+     "frame": "environmental",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
@@ -76,64 +107,28 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "knit_top",
       "shorts"
      ],
      "expose": [
       "cropped hem",
       "one-shoulder cut"
      ],
-     "lead": "action",
-     "kept": true
-    }
-   ]
-  },
-  {
-   "species": "gabite-20261024",
-   "card": "한바이트",
-   "at": "2026-10-24T23:00:04+11:00",
-   "cuts": [
-    {
-     "cut": 1,
-     "cat": "active",
-     "ex": "warmup",
-     "expr": "exhausted",
-     "pose": "squatting",
-     "orient": "crouching",
-     "frame": "environmental",
-     "lens": "telephoto135",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "crop_top",
-      "leggings"
-     ],
-     "expose": [
-      "mini length",
-      "off-shoulder neckline"
-     ],
-     "lead": "action",
-     "kept": true
+     "lead": "detail"
     },
     {
      "cut": 2,
      "cat": "lingerie",
      "ex": "sari_blouse_set",
-     "expr": "pensive",
+     "expr": "playful",
      "pose": "waving",
      "orient": "low_angle",
      "frame": "waist_up",
-     "lens": "natural50",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "strong",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -142,21 +137,20 @@
       "traditional"
      ],
      "expose": [
-      "high thigh slit",
-      "side cutouts"
+      "side cutouts",
+      "high thigh slit"
      ],
-     "lead": "detail",
-     "kept": true
+     "lead": "light"
     },
     {
      "cut": 3,
      "cat": "adult_roleplay",
      "ex": "adult_teacher",
-     "expr": "amused",
+     "expr": "sleepy",
      "pose": "reading_book",
      "orient": "front_3q",
      "frame": "full_body",
-     "lens": "wide24",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -169,18 +163,17 @@
       "skirt"
      ],
      "expose": [
-      "open back",
-      "strapless top"
+      "mini length",
+      "off-shoulder neckline"
      ],
-     "lead": "place",
-     "kept": true
+     "lead": "place"
     }
    ]
   },
   {
    "species": "garchomp-20261024",
    "card": "한카리아스",
-   "at": "2026-10-24T23:00:04+11:00",
+   "at": "2026-10-24T23:08:17+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -199,19 +192,18 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "jumpsuit"
+      "overalls"
      ],
      "expose": [
-      "plunging neckline",
-      "halter neck"
+      "open back",
+      "strapless top"
      ],
-     "lead": "place",
-     "kept": true
+     "lead": "place"
     },
     {
      "cut": 2,
      "cat": "swimwear",
-     "ex": "triangle_bikini",
+     "ex": "swim_coverup",
      "expr": "soft_smile",
      "pose": "perched_seat",
      "orient": "seated_twist",
@@ -221,24 +213,23 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini"
+      "swimsuit"
      ],
      "expose": [
       "high-cut leg",
       "side cutouts"
      ],
-     "lead": "detail",
-     "kept": true
+     "lead": "light"
     },
     {
      "cut": 3,
      "cat": "occupation_sensual",
      "ex": "motion_stage_director",
-     "expr": "sleepy",
+     "expr": "wistful",
      "pose": "stretching",
      "orient": "reaching_up",
      "frame": "waist_up",
@@ -247,19 +238,18 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "subtle",
+      "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "shirt",
-      "trousers"
+      "trousers",
+      "vest"
      ],
      "expose": [
-      "cropped hem",
-      "open back"
+      "bare midriff",
+      "mini length"
      ],
-     "lead": "light",
-     "kept": true
+     "lead": "action"
     }
    ]
   }
