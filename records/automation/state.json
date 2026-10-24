@@ -5965,6 +5965,21 @@
                 "path": "records/automation/runs/2026-10-24-12/375/mobility/qa.json",
                 "sha256": "c0426f4def869c6c4534d92e90194f4e7836c680210e62552aa8816de3a884e1"
               }
+            },
+            "light_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T17:45:19+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-12/375/light_overdrive/prompt.txt",
+                "sha256": "e39ccfd770bb1548a05c0a0edd0a6bbfc9bca607cf289949615dafac1fd4940f"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-12/375/light_overdrive/ui.json",
+                "sha256": "a6273b34fa13c9f0ef3a1ba627f69d299d1b1589c5f37c2767135a7ad396d92a"
+              },
+              "references": {
+                "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+              }
             }
           },
           "reason": "light visual QA: Adult single woman, head and both boots inside 2:3 frame. Two arms lead to gloved hands, two legs continuous with boots, no extra limb seen. Fingers overlap in curled hands and tool detects zero hands; full digit count uncertain. Teal-gray pointed plates carry steel motif. Long hair reads partly ribbon-like rather than locs and leg proportions exaggerated. Actual canonical comparison recorded; preserve hair/proportion mismatch for post-upload review.",
@@ -5979,7 +5994,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:45:01+00:00"
+      "updated_at": "2026-10-24T17:45:19+00:00"
     }
   ],
   "claims": {
@@ -6432,9 +6447,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -6460,16 +6475,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -6565,9 +6580,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
