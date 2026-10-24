@@ -3128,7 +3128,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T00:19:12+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-6/363/casual3/prompt.txt",
@@ -3147,7 +3147,11 @@
                 "session_only": true,
                 "webp_sha256": "a8994a73e387623c0469cc88030d31be0a7513c1ef1799f1cc69bde38f321811"
               },
-              "received_at": "2026-10-24T00:20:48+00:00"
+              "received_at": "2026-10-24T00:20:48+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual3/qa.json",
+                "sha256": "f040763dd4606bdd9d0f66dc9d676a081d2958e5ce9de591fbffd40e9e86137b"
+              }
             }
           },
           "reason": "casual2 visual QA: Adult identity maintained, one separate Spheal companion under towel and no other person. Rear-three-quarter porch rain scene in tank and shorts differs from scarf courtyard and recent actual comparisons. Near arm wrist and elbow connected, far arm hidden; four overlapping towel-hand fingers with obscured thumb. Two bent legs and sandals, toe counts partly hidden. Actual full kneeling framing differs from requested waist-up and emphasizes rear silhouette; retain visual framing failure for user review, no regeneration.",
@@ -3190,7 +3194,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T00:20:48+00:00"
+      "updated_at": "2026-10-24T00:20:56+00:00"
     }
   ],
   "claims": {
@@ -3630,16 +3634,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
