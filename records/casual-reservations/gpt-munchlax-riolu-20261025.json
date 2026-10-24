@@ -1,19 +1,19 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-munchlax-riolu-20261025",
- "at": "2026-10-25T02:48:13+11:00",
+ "at": "2026-10-25T02:53:51+11:00",
  "characters": [
   {
    "species": "munchlax-20261025",
    "card": "먹고자",
-   "at": "2026-10-25T02:48:13+11:00",
+   "at": "2026-10-25T02:53:51+11:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "source_editorial",
      "ex": "cyber_street",
      "expr": "bored",
-     "pose": "carrying_something",
+     "pose": "gentle_pat",
      "orient": "side",
      "frame": "full_body",
      "lens": "wide24",
@@ -21,7 +21,7 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "subtle",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -36,7 +36,7 @@
     {
      "cut": 2,
      "cat": "swimwear",
-     "ex": "burkini_modest",
+     "ex": "onsen_after",
      "expr": "flustered",
      "pose": "side_sitting",
      "orient": "reclining",
@@ -46,23 +46,23 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "strong",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "bikini"
      ],
      "expose": [
       "open back",
       "bare midriff"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 3,
      "cat": "wildcard",
      "ex": "retro_motel",
-     "expr": "focused",
+     "expr": "mildly_annoyed",
      "pose": "mid_action",
      "orient": "looking_down",
      "frame": "environmental",
@@ -81,28 +81,28 @@
       "one-shoulder cut",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "detail"
     }
    ]
   },
   {
    "species": "riolu-20261025",
    "card": "리오르",
-   "at": "2026-10-25T02:48:13+11:00",
+   "at": "2026-10-25T02:53:51+11:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "private_evening",
      "ex": "night_drive",
      "expr": "calm",
-     "pose": "dance_step",
+     "pose": "sitting",
      "orient": "leaning_back",
      "frame": "chest_up",
      "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
@@ -119,7 +119,7 @@
      "cut": 2,
      "cat": "food_berries",
      "ex": "food_market",
-     "expr": "curious",
+     "expr": "focused",
      "pose": "adjusting_bag",
      "orient": "over_shoulder",
      "frame": "three_quarter",
@@ -139,21 +139,21 @@
       "cropped hem",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 3,
      "cat": "adult_roleplay",
      "ex": "vinyl_stage",
-     "expr": "proud",
-     "pose": "standing_formal",
+     "expr": "confident",
+     "pose": "dance_step",
      "orient": "front",
      "frame": "full_body",
      "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
@@ -164,7 +164,7 @@
       "mini length",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "detail"
     }
    ]
   }
