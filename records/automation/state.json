@@ -3353,7 +3353,7 @@
               }
             },
             "mobility": {
-              "status": "in_flight",
+              "status": "rejected",
               "at": "2026-10-24T02:05:23+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/mobility/prompt.txt",
@@ -3365,7 +3365,17 @@
               },
               "references": {
                 "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
+              },
+              "tool_failure": {
+                "path": "records/automation/runs/2026-10-24-7/366/mobility/tool-failure.json",
+                "sha256": "57b0e592db6fe3a2ba41ece129943fae6444aad4985bc953df56d41732b71224"
               }
+            },
+            "mobility_overdrive": {
+              "status": "blocked_dependency",
+              "reason": "mobility reference was rejected with no file; no generation attempted",
+              "depends_on": "mobility",
+              "at": "2026-10-24T02:07:02+00:00"
             }
           },
           "reason": "mobility moderation_blocked sexual output; request 3b81e2dc-53f1-4254-8085-df6f18f7e07c; no file returned; do not retry",
