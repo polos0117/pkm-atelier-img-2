@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6877,7 +6877,7 @@
               "received_at": "2026-10-24T22:06:22+00:00"
             }
           },
-          "reason": "mobility visual QA: Face/hair/palette match light. Swept separated panels and compact blue thrusters present, but calf/hip panels grow very long and some appear visually detached; legs remain elongated and hair clips frame. Two arms and two booted legs have continuous main anatomy; thumbs/fingers overlap in gloves and cannot all be certified. Tool overlay viewed: ok, no hands detected, coarse joints approximate rather than anatomical proof.",
+          "reason": "light_overdrive visual QA: Camera/pose/face/hair and two hands broadly retained, with blue water light visible in opened seams. Thigh/shin panels acquire extra subdivisions and sash glows like armor rather than only original plates opening; expression strain weak. Two continuous arms and booted legs, no visible extra limb; gloved fingers partly overlap so full digit count uncertain. Original/crops/actual overlay viewed; tool ok but zero hands and coarse misplaced joints do not certify fingers. Existing elongated proportions and clipped hair persist.",
           "block_history": [
             {
               "reason": "light visual QA: Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions.",
@@ -6903,7 +6903,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:06:23+00:00"
+      "updated_at": "2026-10-24T22:06:31+00:00"
     }
   ],
   "claims": {
@@ -7368,9 +7368,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -7501,9 +7501,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
