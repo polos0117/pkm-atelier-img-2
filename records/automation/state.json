@@ -5500,19 +5500,20 @@
       "id": "2026-10-24-11",
       "execution_id": "pkm-daily-2026-10-24T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T09:57:51+00:00",
       "queue": [
         {
           "no": 372,
           "name": "쉘곤",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {},
-          "reason": "casual planner pre-generation validation failed: outerwear assigned to cuts 2 and 3 (maximum one). Initial bounded solve and one targeted avoid adult_secretary both exhausted 40 internal candidates. No reservation, intent, generation, or image publication; do not weaken checks or retry without resolving planner."
+          "reason": "casual planner pre-generation validation failed: outerwear assigned to cuts 2 and 3 (maximum one). Initial bounded solve and one targeted avoid adult_secretary both exhausted 40 internal candidates. No reservation, intent, generation, or image publication; do not weaken checks or retry without resolving planner.",
+          "resolution": "User requested Shelgon completion. Fresh current-ledger plan passes without code or validation changes; source_editorial cut avoided to distinguish clothing silhouettes. Legacy checkpoint lists normalized read-only in session adapter."
         }
       ],
-      "updated_at": "2026-10-24T10:00:03+00:00"
+      "updated_at": "2026-10-24T12:47:31+00:00"
     }
   ],
   "claims": {
@@ -5959,9 +5960,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -5987,16 +5988,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -6092,9 +6093,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -6215,6 +6216,55 @@
       "file": "records/casual-reservations/gorebyss-casual2-refill-20261024.json",
       "at": "2026-10-24T09:03:28+00:00",
       "status": "external_reservation_do_not_take_over"
+    },
+    "439": {
+      "card": "흉내내",
+      "session": "mime-happiny-20261024-bdf536",
+      "file": "records/casual-reservations/mime-happiny-20261024-bdf536.json",
+      "at": "2026-10-24T21:29:53+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "440": {
+      "card": "핑복",
+      "session": "mime-happiny-20261024-bdf536",
+      "file": "records/casual-reservations/mime-happiny-20261024-bdf536.json",
+      "at": "2026-10-24T21:50:47+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "441": {
+      "card": "페라페",
+      "session": "chatot-spiritomb-bda553-20261024",
+      "file": "records/casual-reservations/chatot-spiritomb-bda553-20261024.json",
+      "at": "2026-10-24T22:05:56+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "442": {
+      "card": "화강돌",
+      "session": "chatot-spiritomb-bda553-20261024",
+      "file": "records/casual-reservations/chatot-spiritomb-bda553-20261024.json",
+      "at": "2026-10-24T22:05:56+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "443": {
+      "card": "딥상어동",
+      "session": "gpt-gible-family-20261024",
+      "file": "records/casual-reservations/gpt-gible-family-20261024.json",
+      "at": "2026-10-24T23:08:17+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "444": {
+      "card": "한바이트",
+      "session": "gpt-gible-family-20261024",
+      "file": "records/casual-reservations/gpt-gible-family-20261024.json",
+      "at": "2026-10-24T23:08:17+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "445": {
+      "card": "한카리아스",
+      "session": "gpt-gible-family-20261024",
+      "file": "records/casual-reservations/gpt-gible-family-20261024.json",
+      "at": "2026-10-24T23:08:17+11:00",
+      "status": "external_reservation_do_not_take_over"
     }
   },
   "daily_kst": {
@@ -6304,6 +6354,13 @@
     "pkm-daily-2026-10-24T10-00-00Z": {
       "owner": "pkm-daily",
       "at": "2026-10-24T09:57:51+00:00",
+      "characters": [
+        372
+      ]
+    },
+    "shelgon-manual-b184fb-20261024": {
+      "owner": "pkm-daily",
+      "at": "2026-10-24T12:47:31+00:00",
       "characters": [
         372
       ]
