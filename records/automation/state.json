@@ -5716,7 +5716,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "accepted",
               "attempt": 2,
               "at": "2026-10-24T13:16:58+00:00",
               "prefix": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2",
@@ -5745,7 +5745,18 @@
                 "path": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2/ui.json",
                 "sha256": "f46b8482eaed73f8e02978a88c7acfdf4a86cb5c73cfae410cd74528166ada09"
               },
-              "metadata_correction": "Before image call: copied UI wrapper accidentally retained original prompt/custom fields; exact current live UI and submitted prompt recorded here, previous metadata preserved."
+              "metadata_correction": "Before image call: copied UI wrapper accidentally retained original prompt/custom fields; exact current live UI and submitted prompt recorded here, previous metadata preserved.",
+              "image": {
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2/original.png",
+                "sha256": "cffa5a196e035da140aa1903eafdd25c6a7bec8c1e1010e76d5bb5f95a3bc697",
+                "session_only": true,
+                "webp_sha256": "0fedecebdf9e11db22de48853ba934dfde70a528ef6966a8e1fb92d7983db698"
+              },
+              "received_at": "2026-10-24T13:20:09+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-11/372/casual3/attempts/2/qa.json",
+                "sha256": "d0f62f5a62b69496dd89beb5157fb7b681e813817049bf5957ad2dfe974660d5"
+              }
             }
           },
           "reason": "casual3: tiny pseudo-letter labels on route map; preserve first result and correct only map marks under current user task authorization.",
@@ -5782,7 +5793,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T13:17:44+00:00"
+      "updated_at": "2026-10-24T13:20:09+00:00"
     }
   ],
   "claims": {
