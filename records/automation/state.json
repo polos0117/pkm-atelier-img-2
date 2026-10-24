@@ -3833,14 +3833,14 @@
       "id": "2026-10-24-8",
       "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T04:06:06+00:00",
       "queue": [
         {
           "no": 367,
           "name": "헌테일",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3873,7 +3873,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T04:08:42+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/heavy/prompt.txt",
@@ -3892,7 +3892,17 @@
                 "session_only": true,
                 "webp_sha256": "8947e31a373decfe01ff60067be1b2abf42cab32eee22d7dec746a24d72cba35"
               },
-              "received_at": "2026-10-24T04:10:11+00:00"
+              "received_at": "2026-10-24T04:10:11+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-8/367/heavy/qa-rejected.json",
+                "sha256": "230cbaec297e5e13338d7f41b9d8153abdd8a11db72dbe151b2fb84aab0d8083"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-8/367/heavy/user-exception.json",
+                "sha256": "b45782ec8b47d9fba92d964d6154f0f1b1fbf91aca9883b0328f34ba2d8472d3"
+              }
             }
           },
           "reason": "heavy visual QA: Same adult identity and broader layered heavy plates, full body, two arms and two booted legs continuous. Near glove still has six digit-like projections; far glove five with overlap. Tool ok zero hands does not certify digit count. Preserve inherited hand defect as failed QA and post-upload-review exception.",
@@ -3902,6 +3912,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-8/367/light/user-exception.json",
                 "sha256": "96206436f61ba1875ffa2d11f60e3b53cfd112b4bd8f9783ca502f0bba170a4e"
+              }
+            },
+            {
+              "reason": "heavy visual QA: Same adult identity and broader layered heavy plates, full body, two arms and two booted legs continuous. Near glove still has six digit-like projections; far glove five with overlap. Tool ok zero hands does not certify digit count. Preserve inherited hand defect as failed QA and post-upload-review exception.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-8/367/heavy/user-exception.json",
+                "sha256": "b45782ec8b47d9fba92d964d6154f0f1b1fbf91aca9883b0328f34ba2d8472d3"
               }
             }
           ]
