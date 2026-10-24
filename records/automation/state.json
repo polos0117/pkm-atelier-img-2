@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "complete",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "complete",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7128,10 +7128,74 @@
               "img/가이오가_glossy_promo_f_casual2.webp": "ec449bf68d8e70a43e9f568aa0517e607c8abf5e0e0ebd676c3468be0553bec7",
               "img/가이오가_glossy_promo_f_casual3.webp": "df0b47e0d036365a502de2265f3657437000b7b990754d54b807322ce828b6ec"
             }
-          }
+          },
+          "own_publication": {
+            "files": [
+              "가이오가_glossy_promo_f_casual1.webp",
+              "가이오가_glossy_promo_f_casual2.webp",
+              "가이오가_glossy_promo_f_casual3.webp",
+              "가이오가_heavy_glossy_promo_f.webp",
+              "가이오가_heavy_overdrive_glossy_promo_f.webp",
+              "가이오가_light_glossy_promo_f.webp",
+              "가이오가_light_overdrive_glossy_promo_f.webp",
+              "가이오가_mobility_glossy_promo_f.webp",
+              "가이오가_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
+          },
+          "outputs": {
+            "light": {
+              "file": "가이오가_light_glossy_promo_f.webp",
+              "sha256": "cc491f447eeb0be7b6d8af7705c7391657a0db368732be26e532ffd0d208cc1f",
+              "shard": 2
+            },
+            "heavy": {
+              "file": "가이오가_heavy_glossy_promo_f.webp",
+              "sha256": "6b3d1a67b7b4782d07ad062caa29b74e984d20f6f8f5d093cbe67df2948d46ff",
+              "shard": 2
+            },
+            "mobility": {
+              "file": "가이오가_mobility_glossy_promo_f.webp",
+              "sha256": "e9ebfd8c0fbd7bc396806937753f144356106f13bf6ea09359c9e1378078c4c2",
+              "shard": 2
+            },
+            "light_overdrive": {
+              "file": "가이오가_light_overdrive_glossy_promo_f.webp",
+              "sha256": "40394b94abf426c7ee2e94f4b222f385a2dfe2acfdfc557e2dcf008c87ba0f76",
+              "shard": 2
+            },
+            "heavy_overdrive": {
+              "file": "가이오가_heavy_overdrive_glossy_promo_f.webp",
+              "sha256": "8b86f37d021051147ae6bde322e6ea26517a671097ae6f287f58db487b108f22",
+              "shard": 2
+            },
+            "mobility_overdrive": {
+              "file": "가이오가_mobility_overdrive_glossy_promo_f.webp",
+              "sha256": "a0e82ac8d1d8a5f39268359286435d1e0c8c0ad37ab36b584a91a7ee8b5e7965",
+              "shard": 2
+            },
+            "casual1": {
+              "file": "가이오가_glossy_promo_f_casual1.webp",
+              "sha256": "d755bcb3a74de8d76d8439ef5676f7694f6a04ebe248c2d734301a14d927ad38",
+              "shard": 2
+            },
+            "casual2": {
+              "file": "가이오가_glossy_promo_f_casual2.webp",
+              "sha256": "ec449bf68d8e70a43e9f568aa0517e607c8abf5e0e0ebd676c3468be0553bec7",
+              "shard": 2
+            },
+            "casual3": {
+              "file": "가이오가_glossy_promo_f_casual3.webp",
+              "sha256": "df0b47e0d036365a502de2265f3657437000b7b990754d54b807322ce828b6ec",
+              "shard": 2
+            }
+          },
+          "image_commit": "62539dcd5d77b97d7a04aad7323ad2a97d2d1334",
+          "registration_commit": "3959f4f0561adb7287fa8c5ef81efd2d82ec919f",
+          "completed_at": "2026-10-24T22:23:29+00:00"
         }
       ],
-      "updated_at": "2026-10-24T22:17:42+00:00"
+      "updated_at": "2026-10-24T22:23:29+00:00"
     }
   ],
   "claims": {
@@ -7372,7 +7436,7 @@
     "382": {
       "owner": "pkm-daily",
       "run": "2026-10-24-14",
-      "status": "held",
+      "status": "complete",
       "at": "2026-10-24T21:58:09+00:00"
     }
   },
@@ -7729,9 +7793,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
