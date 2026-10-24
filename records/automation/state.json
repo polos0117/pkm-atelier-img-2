@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6813,7 +6813,7 @@
               "received_at": "2026-10-24T22:02:27+00:00"
             }
           },
-          "reason": "light visual QA: Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions.",
+          "reason": "heavy visual QA: Face, long wavy hair and palette retained; visibly broader layered chest/shoulder/forearm/thigh/shin plates, no weapon. Head and boots inside but hair/sash clipped and boot margin narrow; elongated leg proportions persist. Two arms and legs connected naturally, gloved fingers overlap and far-hand thumb is partly hidden, so all digits uncertain. Actual overlay viewed, tool ok with zero detected hands does not certify finger anatomy.",
           "block_history": [
             {
               "reason": "light visual QA: Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions.",
@@ -6825,7 +6825,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:02:27+00:00"
+      "updated_at": "2026-10-24T22:02:36+00:00"
     }
   ],
   "claims": {
@@ -7668,9 +7668,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-casual3-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
-      "at": "2026-10-25T06:52:03+11:00",
+      "session": "registeel-latias-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
+      "at": "2026-10-25T06:49:47+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
