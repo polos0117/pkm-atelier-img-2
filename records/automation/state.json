@@ -3656,7 +3656,54 @@
               "scope": "Independent slot using its required approved reference only; retain mobility refusal without retry; one attempt for this slot",
               "at": "2026-10-24T02:19:26+00:00"
             }
-          ]
+          ],
+          "partial_publication": {
+            "card": 366,
+            "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
+            "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+            "full_prepublish_result": "STOP: run blocked; no generation until explicitly resolved; this explicit seven-slot partial publication reruns fresh external collision and original/hash checks without changing blocked state or global completion gates.",
+            "scope": "Only seven existing accepted Clamperl images; character remains blocked/incomplete. No generation or replacement.",
+            "slots": [
+              "light",
+              "heavy",
+              "light_overdrive",
+              "heavy_overdrive",
+              "casual1",
+              "casual2",
+              "casual3"
+            ],
+            "files": {
+              "img/진주몽_light_glossy_promo_f.webp": "7a53d71387423e1f4f224043fa107d626eeb3a7ced9b6317d0b6b6a1c64f9b3b",
+              "img/진주몽_heavy_glossy_promo_f.webp": "34c33afbd7205d645b21ba5ace04f779a0b1257281e83648d9a0ae75f1ec7132",
+              "img/진주몽_light_overdrive_glossy_promo_f.webp": "97a450116e49698429cd3099c5d52988e8fd27d3291baa35bc99ed326bfbb920",
+              "img/진주몽_heavy_overdrive_glossy_promo_f.webp": "448609051531b70bcddc1aeabaa61f77cc974179553a4cd12b3db28c06dc7f2b",
+              "img/진주몽_glossy_promo_f_casual1.webp": "6f43bfd5d203e9b0ecc59d149d4b721b4d30bcbd858d6b8a1331c173e2cc8418",
+              "img/진주몽_glossy_promo_f_casual2.webp": "d019d027bb7314313ea192ea7bde058c58a8de2991dd4bc3a740ee6ed2d62729",
+              "img/진주몽_glossy_promo_f_casual3.webp": "0a011f28457b4ed4adf49f2e07ad47874a2704099ca90932daff9b69ccfd697f"
+            },
+            "snapshot": {
+              "code": "9208b5358b38e2b277c5c68ac96dc067af5c3d52",
+              "pkm-atelier-img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+              "pkm-atelier-img-2": "a976be52015cc15998336349681ea5428fa6df34",
+              "pkm-atelier-img-3": "405af8c5ce043af5ec4aff3f98d52389c1858bd5"
+            },
+            "at": "2026-10-24T02:22:01+00:00",
+            "status": "preflight_checked"
+          },
+          "publication": {
+            "status": "partial_preflight_checked",
+            "at": "2026-10-24T02:22:01+00:00",
+            "repository": "pkm-atelier-img-3",
+            "files": {
+              "img/진주몽_light_glossy_promo_f.webp": "7a53d71387423e1f4f224043fa107d626eeb3a7ced9b6317d0b6b6a1c64f9b3b",
+              "img/진주몽_heavy_glossy_promo_f.webp": "34c33afbd7205d645b21ba5ace04f779a0b1257281e83648d9a0ae75f1ec7132",
+              "img/진주몽_light_overdrive_glossy_promo_f.webp": "97a450116e49698429cd3099c5d52988e8fd27d3291baa35bc99ed326bfbb920",
+              "img/진주몽_heavy_overdrive_glossy_promo_f.webp": "448609051531b70bcddc1aeabaa61f77cc974179553a4cd12b3db28c06dc7f2b",
+              "img/진주몽_glossy_promo_f_casual1.webp": "6f43bfd5d203e9b0ecc59d149d4b721b4d30bcbd858d6b8a1331c173e2cc8418",
+              "img/진주몽_glossy_promo_f_casual2.webp": "d019d027bb7314313ea192ea7bde058c58a8de2991dd4bc3a740ee6ed2d62729",
+              "img/진주몽_glossy_promo_f_casual3.webp": "0a011f28457b4ed4adf49f2e07ad47874a2704099ca90932daff9b69ccfd697f"
+            }
+          }
         }
       ],
       "updated_at": "2026-10-24T02:21:33+00:00"
