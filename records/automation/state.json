@@ -4394,14 +4394,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4488,7 +4488,7 @@
               "received_at": "2026-10-24T06:15:06+00:00"
             }
           },
-          "reason": "heavy visual QA: Two arms connect continuously to two gloved hands, each with five visible digit projections; two booted feet connect to crossed legs. Tool reports ok with zero detected hands, so fingers judged visually. Face, pink bun and purple-white palette retained. Bun nearly touches upper edge, lacking required clear head margin; original thick-brow design remains thinner. Adopt for user post-upload review without regeneration.",
+          "reason": "mobility visual QA: Two continuous arms, two hands with five visible digit projections, crossed legs and two booted feet. Tool ok but no hand landmarks; covered toes remain unverified. Swept shoulder and hip fins retain canonical face and palette. Top hair clips the boundary and compact thrusters are not clearly identifiable. Preserve failed visual QA and adopt for post-upload user review.",
           "block_history": [
             {
               "reason": "light visual QA: Adult single woman, pink messy bun, purple-white shell mantle; oval face and lower lip distinct from Bronzong/Bonsly, family Huntail and Clamperl similarity remains. Brows rendered thinner than thick-low assignment and top hair nearly clipped/no clear margin. Two arms and booted legs continuous; near glove five visible projections, far glove digits overlap with thumb partly hidden; no extra limb seen. Tool check loose hand is chest-armor false positive in actual overlay. Hands/feet crops checked; toes enclosed. Preserve visual framing/face mismatch as failed QA for post-upload review.",
@@ -4507,7 +4507,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T06:15:07+00:00"
+      "updated_at": "2026-10-24T06:15:15+00:00"
     }
   ],
   "claims": {
@@ -4965,16 +4965,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
