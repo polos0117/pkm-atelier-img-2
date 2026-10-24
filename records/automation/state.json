@@ -6758,11 +6758,25 @@
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-24T21:58:39+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-14/382/light/prompt.txt",
+                "sha256": "2625343b701b369569745162810b164c1279cfa8db5e5783f6c6a14d007decc5"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-14/382/light/ui.json",
+                "sha256": "42a63adee42c9a75eea92b540d836e3d55c71f2724aa1368052815917b2c6796"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-24T21:58:24+00:00"
+      "updated_at": "2026-10-24T21:58:39+00:00"
     }
   ],
   "claims": {
@@ -7227,9 +7241,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -7605,9 +7619,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-casual3-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
-      "at": "2026-10-25T06:52:03+11:00",
+      "session": "registeel-latias-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
+      "at": "2026-10-25T06:49:47+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
