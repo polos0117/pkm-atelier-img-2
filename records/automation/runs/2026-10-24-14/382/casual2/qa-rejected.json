@@ -1,0 +1,40 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "6e474b24516221c34f5aa1c82d7cb0e50905053e74ae927f98e74d30e16808fd",
+  "observations": "Face/hair identity retained, fitting-room racks/mirror and fabric samples readable, garment distinct from satin homewear and earlier maid/pool scenes. Rear three-quarter camera and large figure resemble casual1 turn despite different location/outfit/activity; walking motion subdued, hip proportions emphasized, head close to top edge. One bare hanging arm connects through elbow/wrist with curled separated digits, thumb partly overlapped; other hand hidden by folded fabric, cannot certify its fingers. Two upper legs visible, feet outside crop. Actual overlay loose_hand flag arises from wrong far-wrist placement on fabric; no detached third hand visually confirmed. Preserve this uncertainty and composition mismatch.",
+  "anatomy": {
+    "tool": "check",
+    "arms": 2,
+    "legs": "Two upper legs to knee area visible; feet outside selected three-quarter crop and not verified.",
+    "hands": "Face/hair identity retained, fitting-room racks/mirror and fabric samples readable, garment distinct from satin homewear and earlier maid/pool scenes. Rear three-quarter camera and large figure resemble casual1 turn despite different location/outfit/activity; walking motion subdued, hip proportions emphasized, head close to top edge. One bare hanging arm connects through elbow/wrist with curled separated digits, thumb partly overlapped; other hand hidden by folded fabric, cannot certify its fingers. Two upper legs visible, feet outside crop. Actual overlay loose_hand flag arises from wrong far-wrist placement on fabric; no detached third hand visually confirmed. Preserve this uncertainty and composition mismatch.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Face/hair identity retained, fitting-room racks/mirror and fabric samples readable, garment distinct from satin homewear and earlier maid/pool scenes. Rear three-quarter camera and large figure resemble casual1 turn despite different location/outfit/activity; walking motion subdued, hip proportions emphasized, head close to top edge. One bare hanging arm connects through elbow/wrist with curled separated digits, thumb partly overlapped; other hand hidden by folded fabric, cannot certify its fingers. Two upper legs visible, feet outside crop. Actual overlay loose_hand flag arises from wrong far-wrist placement on fabric; no detached third hand visually confirmed. Preserve this uncertainty and composition mismatch."
+  },
+  "anatomy_tool_result": {
+    "level": "check",
+    "flags": [
+      {
+        "level": "check",
+        "what": "loose_hand",
+        "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 5.5 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+      }
+    ],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "L",
+        "score": 1.0,
+        "arm": null,
+        "gap": 5.46
+      }
+    ],
+    "measure": {
+      "shoulder_px": 128.4,
+      "arm_R_ratio": 0.49,
+      "arm_R_angle": 97
+    },
+    "file": "/workspace/generated_images/exec-bc87ae4b-66ac-402e-b62e-93409b5cdd98.png"
+  },
+  "diversity_comparison": "Actually viewed comparison sheet: Metang lantern snack jumpsuit, park berry overalls, rear vanity lingerie; Registeel textile work dress, kitchen snack jumpsuit, pool reclining bikini; Regice rooftop blanket outfit, stage costume, blue slip table. Kyogre plan: home satin shirt/shorts and teapot with environmental low-angle turn; dressing-room fitting route in halter garter fashion with walking over-shoulder three-quarter view; evening travel-center map desk in structured strapless long dress with full-body lean. Activities, locations and silhouettes differ; actual results must still be compared after generation, and any similarity or pose mismatch will remain in QA.\nLatest published comparison sheet also directly viewed: Latios tatami seated wrap, backstage rear maid/program and campsite blanket folding; Hippopotas ruin picnic tartan wrap, kitchen apron fruit, seated pool bikini; Lucario poolside rear swimwear, orchard laughing white blouse/blue skirt, basket-shelf outfit. Kyogre planned satin home shirt/shorts, fitting passage garter fashion and evening map-desk long dress avoid their primary activities and locations. Similar blue palettes and turn-back views remain risks to check in actual outputs. Source image hashes recorded in recent-comparison-evidence.json.\n"
+}

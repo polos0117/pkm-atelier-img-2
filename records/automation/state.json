@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6983,7 +6983,7 @@
               }
             },
             "casual2": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T22:12:59+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/casual2/prompt.txt",
@@ -7002,7 +7002,17 @@
                 "session_only": true,
                 "webp_sha256": "ec449bf68d8e70a43e9f568aa0517e607c8abf5e0e0ebd676c3468be0553bec7"
               },
-              "received_at": "2026-10-24T22:14:48+00:00"
+              "received_at": "2026-10-24T22:14:48+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual2/qa-rejected.json",
+                "sha256": "d7b9c5ad740dfe87e39be3b3e82b99be2452ad01c65574dfb4e4ce1f83a74e21"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual2/user-exception.json",
+                "sha256": "ef2bb1b3702d10f0390a621d8c5060de968daa9bb1b9934255f9c3e4974ca8af"
+              }
             }
           },
           "reason": "casual2 visual QA: Face/hair identity retained, fitting-room racks/mirror and fabric samples readable, garment distinct from satin homewear and earlier maid/pool scenes. Rear three-quarter camera and large figure resemble casual1 turn despite different location/outfit/activity; walking motion subdued, hip proportions emphasized, head close to top edge. One bare hanging arm connects through elbow/wrist with curled separated digits, thumb partly overlapped; other hand hidden by folded fabric, cannot certify its fingers. Two upper legs visible, feet outside crop. Actual overlay loose_hand flag arises from wrong far-wrist placement on fabric; no detached third hand visually confirmed. Preserve this uncertainty and composition mismatch.",
@@ -7054,6 +7064,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-14/382/casual1/user-exception.json",
                 "sha256": "52c49e6978283efbd341acc9c8361a1809c43dd6a296da4957bd57e7f37a51eb"
+              }
+            },
+            {
+              "reason": "casual2 visual QA: Face/hair identity retained, fitting-room racks/mirror and fabric samples readable, garment distinct from satin homewear and earlier maid/pool scenes. Rear three-quarter camera and large figure resemble casual1 turn despite different location/outfit/activity; walking motion subdued, hip proportions emphasized, head close to top edge. One bare hanging arm connects through elbow/wrist with curled separated digits, thumb partly overlapped; other hand hidden by folded fabric, cannot certify its fingers. Two upper legs visible, feet outside crop. Actual overlay loose_hand flag arises from wrong far-wrist placement on fabric; no detached third hand visually confirmed. Preserve this uncertainty and composition mismatch.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual2/user-exception.json",
+                "sha256": "ef2bb1b3702d10f0390a621d8c5060de968daa9bb1b9934255f9c3e4974ca8af"
               }
             }
           ]
