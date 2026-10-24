@@ -6307,11 +6307,25 @@
           "no": 381,
           "name": "라티오스",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-24T20:06:39+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-13/381/light/prompt.txt",
+                "sha256": "4c8c56fe12ec4579a308f11d6ced39f3e2407dd99378cf3d905c3996f4816903"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-13/381/light/ui.json",
+                "sha256": "369d651ffefcae032198baefab47402797772b2b7f93fca94ae87541870d0025"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-24T20:05:16+00:00"
+      "updated_at": "2026-10-24T20:06:39+00:00"
     }
   ],
   "claims": {
@@ -6903,9 +6917,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -7148,9 +7162,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-casual3-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
-      "at": "2026-10-25T06:52:03+11:00",
+      "session": "registeel-latias-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
+      "at": "2026-10-25T06:44:34+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
@@ -7171,7 +7185,7 @@
       "card": "히포포타스",
       "session": "hippopotas-20261025-d3bb",
       "file": "records/casual-reservations/hippopotas-20261025-d3bb.json",
-      "at": "2026-10-25T07:04:11+11:00",
+      "at": "2026-10-25T07:06:10+11:00",
       "status": "external_reservation_do_not_take_over"
     }
   },
