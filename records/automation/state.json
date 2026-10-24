@@ -3281,14 +3281,14 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3376,6 +3376,26 @@
               "reason": "mobility reference was rejected with no file; no generation attempted",
               "depends_on": "mobility",
               "at": "2026-10-24T02:07:02+00:00"
+            },
+            "light_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T02:07:33+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/prompt.txt",
+                "sha256": "05ba2306f1b02bb103556f8920c3c47bad07db5dd42b595ffc6e676307fae6e0"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/ui.json",
+                "sha256": "54ef388b70600aade678429bd9b44c0c71be2c2f14b6422648e048b1503d13ca"
+              },
+              "approval": {
+                "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/independent-slot-approval.json",
+                "sha256": "746e487ce3945846a99c1d60928913299408e5cc130e8d6dd842e433fd169664"
+              },
+              "references": {
+                "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
+              },
+              "independent_slot_after_terminal_failure": true
             }
           },
           "reason": "mobility moderation_blocked sexual output; request 3b81e2dc-53f1-4254-8085-df6f18f7e07c; no file returned; do not retry",
@@ -3393,6 +3413,16 @@
                 "path": "records/automation/runs/2026-10-24-7/366/heavy/user-exception.json",
                 "sha256": "c045542817e2ea07e60f87d6f744dfbde5e49f9fc7728514b64974a74bdbf1ae"
               }
+            }
+          ],
+          "independent_continuations": [
+            {
+              "card": 366,
+              "slot": "light_overdrive",
+              "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+              "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+              "scope": "Independent slot using its required approved reference only; retain mobility refusal without retry; one attempt for this slot",
+              "at": "2026-10-24T02:07:33+00:00"
             }
           ]
         }
