@@ -29,7 +29,8 @@
     ],
     "2026-10-24": [
       363,
-      366
+      366,
+      367
     ]
   },
   "runs": [
@@ -3827,6 +3828,23 @@
       "updated_at": "2026-10-24T02:26:17+00:00",
       "deferred_at": "2026-10-24T02:26:17+00:00",
       "defer_reason": "Clamperl 7/9 published and registered; mobility moderation_blocked no output, mobility_overdrive missing required reference. Preserve claim and refusal; no retry. All independent slots processed."
+    },
+    {
+      "id": "2026-10-24-8",
+      "execution_id": "pkm-daily-2026-10-24T04-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-24T04:06:06+00:00",
+      "queue": [
+        {
+          "no": 367,
+          "name": "헌테일",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-24T04:06:06+00:00"
     }
   ],
   "claims": {
@@ -4027,6 +4045,12 @@
       "run": "2026-10-24-7",
       "status": "held",
       "at": "2026-10-24T01:59:45+00:00"
+    },
+    "367": {
+      "owner": "pkm-daily",
+      "run": "2026-10-24-8",
+      "status": "held",
+      "at": "2026-10-24T04:06:06+00:00"
     }
   },
   "blocked_candidates": {
@@ -4272,16 +4296,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -4466,7 +4490,8 @@
     "2026-10-24": [
       360,
       363,
-      366
+      366,
+      367
     ]
   },
   "executions": {
@@ -4510,6 +4535,13 @@
       "at": "2026-10-24T01:59:45+00:00",
       "characters": [
         366
+      ]
+    },
+    "pkm-daily-2026-10-24T04-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-24T04:06:06+00:00",
+      "characters": [
+        367
       ]
     }
   }
