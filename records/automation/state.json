@@ -3969,7 +3969,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T04:14:20+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/prompt.txt",
@@ -3981,7 +3981,14 @@
               },
               "references": {
                 "heavy": "4f8902e6a43489500dc23f8506b7eac11a450fbc0ec8e161a17c9bed4d943bea"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/original.png",
+                "sha256": "1faaaa8a0c3e26e1d3f8cd08541ec40d7ed424edd74b2dc763d857de7d467a5e",
+                "session_only": true,
+                "webp_sha256": "23b9ce505e8ca8611ad1ce044ed42fd940e00e721864e8ef7d94648185321bdc"
+              },
+              "received_at": "2026-10-24T04:16:29+00:00"
             }
           },
           "reason": "light_overdrive visual QA: Same light camera/pose/face and connected two arms/two booted legs, cyan opened seams. Near glove retains six digit-like projections; far five with overlap. Additional knee/thigh segmentation differs from closed light. Actual hands/feet crops checked, no detached limbs; tool ok zero hands. Failed hand and armor consistency QA retained for post-upload review.",
@@ -4017,7 +4024,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:14:20+00:00"
+      "updated_at": "2026-10-24T04:16:30+00:00"
     }
   ],
   "claims": {
@@ -4469,16 +4476,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -4574,9 +4581,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
