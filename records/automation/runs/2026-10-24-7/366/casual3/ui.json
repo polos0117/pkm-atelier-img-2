@@ -1,0 +1,187 @@
+{
+  "storage": {
+    "last": "진주몽",
+    "cards": {
+      "진주몽": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "confident",
+            "pose": "walking",
+            "orient": "looking_down",
+            "scene": "Inside a quiet art gallery at night, she walks between framed seascapes while looking down at the exhibition leaflet in her hands.",
+            "outfit": "An opaque strapless midnight-blue velvet evening dress with a high thigh slit and a small pink pearl clasp at the waist, worn with simple low silver heels.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "private_evening",
+            "catCustom": "",
+            "ex": "velvet_evening",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Clamperl (진주몽) personified, water type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nSCENE (chosen):\nExpression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed\nPose: Walk at a comfortable pace with a natural step and arm swing.\nOrientation: gaze directed downward; camera height unchanged\nScene: Inside a quiet art gallery at night, she walks between framed seascapes while looking down at the exhibition leaflet in her hands.\nOutfit and props: An opaque strapless midnight-blue velvet evening dress with a high thigh slit and a small pink pearl clasp at the waist, worn with simple low silver heels.\nCategory: Create mature private evening fashion scenes with intimate but non-explicit atmosphere. Use elegant, attractive, clearly adult styling, confident body language, and believable private-life context.\nExample scene: a heavy velvet evening dress with its deep sheen\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "locks": [
+    {
+      "id": "lock-expression",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-category",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-example",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-pose",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-orientation",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-frame",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-lens",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-aspect",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-overall_intensity",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-skin_exposure",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-action_level",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-source_influence",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-separates_preference",
+      "pressed": "true"
+    }
+  ],
+  "plan": {
+    "cut": 3,
+    "cat": "private_evening",
+    "ex": "velvet_evening",
+    "garments": [
+      "dress"
+    ],
+    "orient": "looking_down",
+    "frame": "environmental",
+    "pose": "walking",
+    "expr": "confident",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high thigh slit",
+      "strapless top"
+    ],
+    "lead": "place"
+  },
+  "custom_inputs": {
+    "scene": "Inside a quiet art gallery at night, she walks between framed seascapes while looking down at the exhibition leaflet in her hands.",
+    "outfit": "An opaque strapless midnight-blue velvet evening dress with a high thigh slit and a small pink pearl clasp at the waist, worn with simple low silver heels.",
+    "reason": "The velvet evening dress example has no location or activity; gallery browsing and velvet dress details complete the reserved dress and expose values.",
+    "axes_reason": "Walking through the gallery is active, the pearl clasp provides balanced source influence, and the dress ensemble is balanced."
+  },
+  "camera_reason": "Tool has no size argument.",
+  "captured_at": "2026-10-24T02:18:39.120Z"
+}

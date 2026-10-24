@@ -3524,6 +3524,26 @@
                 "path": "records/automation/runs/2026-10-24-7/366/casual2/user-exception.json",
                 "sha256": "11a9c2283862fea2046f3f4db38aac3f72326fe5e489944f37db93215a44c6fc"
               }
+            },
+            "casual3": {
+              "status": "in_flight",
+              "at": "2026-10-24T02:19:26+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual3/prompt.txt",
+                "sha256": "2cca7d2757d684846bfc43371eb1513b0b7ffaf2b0ab07697eaa2c1dbb431a74"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual3/ui.json",
+                "sha256": "262b5004de814b479f9c5a99336fad1fddc553c0dd9962bd9b2bdfd5eb9455f4"
+              },
+              "approval": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual3/independent-slot-approval.json",
+                "sha256": "293169e55488170ff0c69d72d2cd738af52fa53f33ceaf4acbcbb7737b49ffd4"
+              },
+              "references": {
+                "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
+              },
+              "independent_slot_after_terminal_failure": true
             }
           },
           "reason": "casual2 visual QA: Same adult face and buns, two connected arms and crossed legs. Tool check flags upper arm asymmetry 0.58; actual overlay viewed, foreshortening likely contributes but exact length uncertain. Fingers partly overlap; no extra detached limbs seen, feet hidden/cropped. Full-cover plan rendered exposed chest and side cutouts without opaque underlayer, framing includes crossed legs instead of chest-up, hood loose, canonical shell breast motif repeated. Preserve wardrobe/framing QA failure; non-explicit adult swimwear image. Actual shaded terrace resting full-length swimsuit differs from stage trousers, recent hot-spring kneel and studio stretching.",
@@ -3603,6 +3623,14 @@
               "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
               "scope": "Independent slot using its required approved reference only; retain mobility refusal without retry; one attempt for this slot",
               "at": "2026-10-24T02:17:54+00:00"
+            },
+            {
+              "card": 366,
+              "slot": "casual3",
+              "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+              "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+              "scope": "Independent slot using its required approved reference only; retain mobility refusal without retry; one attempt for this slot",
+              "at": "2026-10-24T02:19:26+00:00"
             }
           ]
         }
