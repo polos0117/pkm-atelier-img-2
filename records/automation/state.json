@@ -6853,6 +6853,21 @@
                 "path": "records/automation/runs/2026-10-24-14/382/mobility/user-exception.json",
                 "sha256": "184f81f8157fb83d48fa1481e325bb65cb031cab58577c697cb15d5ab251e6da"
               }
+            },
+            "light_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T22:04:50+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-14/382/light_overdrive/prompt.txt",
+                "sha256": "61440e514344d2b6c4b4b4fc80ca35f117a7327dc04d9eb5639d060995155a6d"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-14/382/light_overdrive/ui.json",
+                "sha256": "a4a6fc2eb98fedae6afcd8e03cf3eaf462cad4d800c34b1b333d443308cc4899"
+              },
+              "references": {
+                "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+              }
             }
           },
           "reason": "mobility visual QA: Face/hair/palette match light. Swept separated panels and compact blue thrusters present, but calf/hip panels grow very long and some appear visually detached; legs remain elongated and hair clips frame. Two arms and two booted legs have continuous main anatomy; thumbs/fingers overlap in gloves and cannot all be certified. Tool overlay viewed: ok, no hands detected, coarse joints approximate rather than anatomical proof.",
@@ -6881,7 +6896,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:04:30+00:00"
+      "updated_at": "2026-10-24T22:04:50+00:00"
     }
   ],
   "claims": {
@@ -7346,9 +7361,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -7374,16 +7389,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -7724,9 +7739,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-latias-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:49:47+11:00",
+      "session": "registeel-casual3-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
+      "at": "2026-10-25T06:52:03+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
