@@ -6029,6 +6029,21 @@
                 "path": "records/automation/runs/2026-10-24-12/375/heavy_overdrive/user-exception.json",
                 "sha256": "06ba85594b021aeb11fe04423e34dd9c093cf6dd3beef970067d43690e85f8bc"
               }
+            },
+            "mobility_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T17:50:06+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-12/375/mobility_overdrive/prompt.txt",
+                "sha256": "796a8a3b6306359319011e29d8368d45d5c44239aa99b6e3ec5c87ec914041f9"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-12/375/mobility_overdrive/ui.json",
+                "sha256": "fc3c390de7e2bf782439ba454a68e68fd9919f50b93aa9a724359dfb71afa440"
+              },
+              "references": {
+                "mobility": "720527698883227bcdf0d38b10f12b1353b09f9f9f967676e11ac71a0e22f360"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy reference camera stance face and hand placements retained; stacked plates open with bright inner seams. Some shin panel outlines and spacing remodel rather than identical hinges, facial strain subtle. Two arms and legs continuous, boots in frame, curled fingers partly overlap and full count uncertain. Tool note low-confidence skeleton, overlay actually inspected; no extra limb observed. Actual references heavy plus light.",
@@ -6057,7 +6072,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:49:37+00:00"
+      "updated_at": "2026-10-24T17:50:06+00:00"
     }
   ],
   "claims": {
@@ -6510,9 +6525,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -6643,9 +6658,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
