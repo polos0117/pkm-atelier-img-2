@@ -4949,14 +4949,14 @@
       "id": "2026-10-24-10",
       "execution_id": "pkm-daily-2026-10-24T08-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T07:59:10+00:00",
       "queue": [
         {
           "no": 369,
           "name": "시라칸",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -5193,7 +5193,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T08:27:43+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/casual3/prompt.txt",
@@ -5217,7 +5217,17 @@
                 "session_only": true,
                 "webp_sha256": "fc30784dd0e912b52179f160f3fc6df1c11cd68231fb0dbefef23d9f863ca00f"
               },
-              "received_at": "2026-10-24T08:29:40+00:00"
+              "received_at": "2026-10-24T08:29:40+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-10/369/casual3/qa-rejected.json",
+                "sha256": "29b728508f33ad3353f6c8fb30e85fed11b07e4595eb91c8636408a03a5ca924"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-10/369/casual3/user-exception.json",
+                "sha256": "120095a5632ee026b89ee720d900b963ae8a25e8005b6743e9ca96f7dde95221"
+              }
             }
           },
           "reason": "casual3 visual QA: Rear three-quarter seated towel-drying scene, brown tank and tan patterned shorts retained. Face turns toward viewer rather than upward/away wistful expression. One arm and towel hand visible; opposite arm concealed and digit count uncertain. Two legs and ankles continuous; heels raised and toes overlap. Mirror reflects same woman, not separate character. Tool ok with one hand; occluded arm not certified. Framing shows full body but tighter than environmental wide shot. Preserve pose/expression discrepancies for post-upload user review.",
@@ -5255,6 +5265,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-10/369/casual2/user-exception.json",
                 "sha256": "f6269e2b31eb2fcfe32ab7318195202d61970a6bf7c784939353b2185adaf25f"
+              }
+            },
+            {
+              "reason": "casual3 visual QA: Rear three-quarter seated towel-drying scene, brown tank and tan patterned shorts retained. Face turns toward viewer rather than upward/away wistful expression. One arm and towel hand visible; opposite arm concealed and digit count uncertain. Two legs and ankles continuous; heels raised and toes overlap. Mirror reflects same woman, not separate character. Tool ok with one hand; occluded arm not certified. Framing shows full body but tighter than environmental wide shot. Preserve pose/expression discrepancies for post-upload user review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-10/369/casual3/user-exception.json",
+                "sha256": "120095a5632ee026b89ee720d900b963ae8a25e8005b6743e9ca96f7dde95221"
               }
             }
           ],
