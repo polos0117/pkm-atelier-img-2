@@ -5500,14 +5500,14 @@
       "id": "2026-10-24-11",
       "execution_id": "pkm-daily-2026-10-24T10-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "complete",
       "created_at": "2026-10-24T09:57:51+00:00",
       "queue": [
         {
           "no": 372,
           "name": "쉘곤",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "complete",
           "slots": {
             "light": {
               "status": "accepted",
@@ -5806,10 +5806,69 @@
               "img/쉘곤_glossy_promo_f_casual2.webp": "f0f2525f95fb10d3906922da741fa8de72718f29422ba10069922a592035864f",
               "img/쉘곤_glossy_promo_f_casual3.webp": "0fedecebdf9e11db22de48853ba934dfde70a528ef6966a8e1fb92d7983db698"
             }
+          },
+          "outputs": {
+            "light": {
+              "file": "쉘곤_light_glossy_promo_f.webp",
+              "sha256": "06f1559116227a6427bcd1d898fe5960f0f1f2c39e59f6270d3d85bec60c6a03",
+              "shard": 2
+            },
+            "heavy": {
+              "file": "쉘곤_heavy_glossy_promo_f.webp",
+              "sha256": "de7534f4fe69eba0f6abcc7ea3ad9faabe36a331d162148b75bed5188f719e13",
+              "shard": 2
+            },
+            "mobility": {
+              "file": "쉘곤_mobility_glossy_promo_f.webp",
+              "sha256": "7fb7ef309f092b720191b0e941530049b3d42124409faf4179b5df36158a8ecb",
+              "shard": 2
+            },
+            "light_overdrive": {
+              "file": "쉘곤_light_overdrive_glossy_promo_f.webp",
+              "sha256": "49a15f147685865871e454fda4529d79237f748ced6f9a02260c387248c2bf56",
+              "shard": 2
+            },
+            "heavy_overdrive": {
+              "file": "쉘곤_heavy_overdrive_glossy_promo_f.webp",
+              "sha256": "fd6d5fd02a15b63e055da4d1df3082a0d736dc2c6bbe271a55fc59a87c4964d1",
+              "shard": 2
+            },
+            "mobility_overdrive": {
+              "file": "쉘곤_mobility_overdrive_glossy_promo_f.webp",
+              "sha256": "82942442b6653580fb728df0fe5931ddaad2e0be0cad305d1bf121606f7b8e43",
+              "shard": 2
+            },
+            "casual1": {
+              "file": "쉘곤_glossy_promo_f_casual1.webp",
+              "sha256": "6fa894f65fffc9d1f542545c7b1b19d2a3d4998bb5311b3d67483b301d8e72a3",
+              "shard": 2
+            },
+            "casual2": {
+              "file": "쉘곤_glossy_promo_f_casual2.webp",
+              "sha256": "f0f2525f95fb10d3906922da741fa8de72718f29422ba10069922a592035864f",
+              "shard": 2
+            },
+            "casual3": {
+              "file": "쉘곤_glossy_promo_f_casual3.webp",
+              "sha256": "0fedecebdf9e11db22de48853ba934dfde70a528ef6966a8e1fb92d7983db698",
+              "shard": 2
+            }
+          },
+          "image_commit": "ed658620f0b9372bc47b4208b5fbe02525f916d4",
+          "registration_commit": "04c6d661ed276a20cc6cd34a5402e22b20e347e2",
+          "completed_at": "2026-10-24T15:10:43+00:00",
+          "image_publication_commit": "373794e47b095f0fbb6d443ec90f47b092bace4b",
+          "verification": {
+            "images": 9,
+            "thumbnails": 9,
+            "registered_slots": 9,
+            "method": "unchanged image-runner.complete exact byte hashes, 512px thumbnail size and exact registry filenames/shard",
+            "image_workflow": 40105424990,
+            "registration_workflow": 40105492516
           }
         }
       ],
-      "updated_at": "2026-10-24T13:20:42+00:00"
+      "updated_at": "2026-10-24T15:10:43+00:00"
     }
   ],
   "claims": {
@@ -6032,7 +6091,7 @@
     "372": {
       "owner": "pkm-daily",
       "run": "2026-10-24-11",
-      "status": "held",
+      "status": "complete",
       "at": "2026-10-24T09:57:51+00:00"
     }
   },
