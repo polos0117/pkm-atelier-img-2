@@ -6530,6 +6530,21 @@
                 "path": "records/automation/runs/2026-10-24-13/381/casual1/user-exception.json",
                 "sha256": "91e709ec7afcd3ed7fb228df2549fbf5cd19e03278073119065ca7b909183bb4"
               }
+            },
+            "casual2": {
+              "status": "in_flight",
+              "at": "2026-10-24T20:20:37+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual2/prompt.txt",
+                "sha256": "94e76263559d5f8bc2e6b02815eeda8452ff88b552e93d6b9df834f375badd06"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual2/ui.json",
+                "sha256": "7eaeea366b29a3202771cd4de4050f1abb58777746e18e89fdaf9b5768da15c9"
+              },
+              "references": {
+                "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+              }
             }
           },
           "reason": "casual1 visual QA: One adult woman in opaque wrapped white-blue short garment on tatami with book and tea; distinct from comparison characters rooftop/pool/vanity settings. Face and hair retained, ornaments removed. Selected cross-legged pose became one raised knee plus one folded leg; long draped sleeve and tassels make silhouette more robe-like than a simple slip. Two arms and legs trace continuously; front foot five toes, rear toes partially overlap. Both hands connected; thumb of lower hand partly occluded and exact digit count not fully certain. Tool ok with two hands, overlay and original crops actually inspected. Adopt actual visual discrepancies for post-upload review.",
@@ -6586,7 +6601,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T20:20:27+00:00"
+      "updated_at": "2026-10-24T20:20:37+00:00"
     }
   ],
   "claims": {
@@ -7045,9 +7060,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
