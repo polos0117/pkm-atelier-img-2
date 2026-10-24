@@ -1,18 +1,18 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "regirock-regice-20261025-d8a6",
- "at": "2026-10-25T05:07:30+11:00",
+ "at": "2026-10-25T05:16:47+11:00",
  "characters": [
   {
    "species": "regirock-20261025",
    "card": "레지락",
-   "at": "2026-10-25T05:07:30+11:00",
+   "at": "2026-10-25T05:16:47+11:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "source_editorial",
      "ex": "metallic_asymmetry",
-     "expr": "pensive",
+     "expr": "unimpressed",
      "pose": "squatting",
      "orient": "over_shoulder",
      "frame": "waist_up",
@@ -32,13 +32,13 @@
       "off-shoulder neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 2,
      "cat": "lingerie",
      "ex": "bustier_inspired",
-     "expr": "wistful",
+     "expr": "pensive",
      "pose": "kneeling",
      "orient": "crouching",
      "frame": "full_body",
@@ -57,14 +57,14 @@
       "high-cut leg",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 3,
      "cat": "swimwear",
-     "ex": "burkini_modest",
-     "expr": "provocative",
-     "pose": "waving",
+     "ex": "yukata_poolside",
+     "expr": "wistful",
+     "pose": "on_tiptoe",
      "orient": "looking_down",
      "frame": "environmental",
      "lens": "portrait85",
@@ -76,11 +76,11 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "traditional"
      ],
      "expose": [
-      "side cutouts",
-      "halter neck"
+      "high thigh slit",
+      "side cutouts"
      ],
      "lead": "action"
     }
@@ -89,43 +89,17 @@
   {
    "species": "regice-20261025",
    "card": "레지아이스",
-   "at": "2026-10-25T05:07:30+11:00",
+   "at": "2026-10-25T05:16:47+11:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "wildcard",
      "ex": "rooftop_cinema",
      "expr": "exhausted",
-     "pose": "on_tiptoe",
+     "pose": "contrapposto",
      "orient": "leaning_back",
      "frame": "three_quarter",
      "lens": "documentary35",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "blouse",
-      "trousers"
-     ],
-     "expose": [
-      "off-shoulder neckline",
-      "cropped hem"
-     ],
-     "lead": "action"
-    },
-    {
-     "cut": 2,
-     "cat": "adult_roleplay",
-     "ex": "ceremonial_instructor",
-     "expr": "flustered",
-     "pose": "hands_in_hair",
-     "orient": "front",
-     "frame": "chest_up",
-     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -134,20 +108,46 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
+      "blouse",
+      "trousers"
+     ],
+     "expose": [
+      "halter neck",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "cat": "adult_roleplay",
+     "ex": "ceremonial_instructor",
+     "expr": "provocative",
+     "pose": "waving",
+     "orient": "front",
+     "frame": "chest_up",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
       "jacket"
      ],
      "expose": [
-      "one-shoulder cut",
-      "side cutouts"
+      "cropped hem",
+      "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 3,
      "cat": "private_evening",
      "ex": "wine_bar",
-     "expr": "calm",
-     "pose": "contrapposto",
+     "expr": "flustered",
+     "pose": "hands_in_hair",
      "orient": "front_3q",
      "frame": "waist_up",
      "lens": "telephoto135",
@@ -165,7 +165,7 @@
       "high thigh slit",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "place"
     }
    ]
   }
