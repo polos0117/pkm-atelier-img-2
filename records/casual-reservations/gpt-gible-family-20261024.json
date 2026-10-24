@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-gible-family-20261024",
- "at": "2026-10-24T22:49:53+11:00",
+ "at": "2026-10-24T23:00:04+11:00",
  "characters": [
   {
    "species": "gible-20261024",
    "card": "딥상어동",
-   "at": "2026-10-24T22:49:53+11:00",
+   "at": "2026-10-24T23:00:04+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,21 +31,22 @@
       "open back",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
      "cat": "swimwear",
-     "ex": "burkini_modest",
+     "ex": "onsen_after",
      "expr": "candid",
-     "pose": "one_knee_up",
+     "pose": "waving",
      "orient": "rear_3q",
      "frame": "waist_up",
-     "lens": "documentary35",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
@@ -54,9 +55,9 @@
      ],
      "expose": [
       "high-cut leg",
-      "bare midriff"
+      "halter neck"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 3,
@@ -82,14 +83,15 @@
       "cropped hem",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ]
   },
   {
    "species": "gabite-20261024",
    "card": "한바이트",
-   "at": "2026-10-24T22:49:53+11:00",
+   "at": "2026-10-24T23:00:04+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -115,7 +117,8 @@
       "mini length",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -142,7 +145,8 @@
       "high thigh slit",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -168,14 +172,15 @@
       "open back",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ]
   },
   {
    "species": "garchomp-20261024",
    "card": "한카리아스",
-   "at": "2026-10-24T22:49:53+11:00",
+   "at": "2026-10-24T23:00:04+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -200,7 +205,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -225,7 +231,8 @@
       "high-cut leg",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -251,7 +258,8 @@
       "cropped hem",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ]
   }
