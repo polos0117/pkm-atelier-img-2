@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6887,7 +6887,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T22:06:49+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/heavy_overdrive/prompt.txt",
@@ -6906,7 +6906,17 @@
                 "session_only": true,
                 "webp_sha256": "8b86f37d021051147ae6bde322e6ea26517a671097ae6f287f58db487b108f22"
               },
-              "received_at": "2026-10-24T22:08:20+00:00"
+              "received_at": "2026-10-24T22:08:20+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy_overdrive/qa-rejected.json",
+                "sha256": "287dc72915307849b20e7ce1d1d65af6116696b1b8218262393b039c956b5df5"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy_overdrive/user-exception.json",
+                "sha256": "6f222f80ad62835feda8d0211f8852e12e5949cbc49dc936f922bdc5b07b3094"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy camera/pose/face/hair and main plates retained with hinges and blue water-lit gaps. Some thigh/shin plate shapes split and sash converted to mechanical glowing strips; expression strain remains weak rather than exact requested opening-only change. Both arms/wrists and two booted legs continuous, no extra limb visible; overlapping gloves prevent full finger certainty. Actual original/crops/overlay viewed; tool ok but zero hands detected, torso pose coarse. Existing long-leg proportions and hair clipping persist.",
@@ -6937,6 +6947,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-14/382/light_overdrive/user-exception.json",
                 "sha256": "4d102aff316d40f2a7af166da3892fa687a3d2f49b89788c7d37b91ee4b75c81"
+              }
+            },
+            {
+              "reason": "heavy_overdrive visual QA: Heavy camera/pose/face/hair and main plates retained with hinges and blue water-lit gaps. Some thigh/shin plate shapes split and sash converted to mechanical glowing strips; expression strain remains weak rather than exact requested opening-only change. Both arms/wrists and two booted legs continuous, no extra limb visible; overlapping gloves prevent full finger certainty. Actual original/crops/overlay viewed; tool ok but zero hands detected, torso pose coarse. Existing long-leg proportions and hair clipping persist.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy_overdrive/user-exception.json",
+                "sha256": "6f222f80ad62835feda8d0211f8852e12e5949cbc49dc936f922bdc5b07b3094"
               }
             }
           ]
