@@ -5193,7 +5193,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T08:27:43+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/casual3/prompt.txt",
@@ -5210,7 +5210,14 @@
               "references": {
                 "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-24-10/369/casual3/original.png",
+                "sha256": "d11dbdf347553aeaa7b6ef3fe144fa500c446f4eac07d58b2dfd8e1185cb53e1",
+                "session_only": true,
+                "webp_sha256": "fc30784dd0e912b52179f160f3fc6df1c11cd68231fb0dbefef23d9f863ca00f"
+              },
+              "received_at": "2026-10-24T08:29:40+00:00"
             }
           },
           "reason": "casual2 visual QA: Window berry seedlings and pouring brass watering can visible, scissors and clipped leaves on sill; actual rear-three-quarter body and turned face differ from canonical frontal angle. Brown waves and face retained. One-shoulder rust knit and tan trousers match clothing, but crop extends to hips rather than chest-up and ornamental pin was added. Two arms lead to hands; far upper arm partly occluded, can grip and leaf grip hide some digits. No extra limb observed; legs and feet outside crop. Tool ok with one hand, not full finger certification. Preserve framing mismatch for user post-upload review.",
@@ -5271,7 +5278,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T08:25:07+00:00"
+      "updated_at": "2026-10-24T08:29:41+00:00"
     }
   ],
   "claims": {
@@ -5707,9 +5714,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -5735,16 +5742,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
