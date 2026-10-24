@@ -6564,7 +6564,7 @@
               }
             },
             "casual3": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T20:22:37+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/casual3/prompt.txt",
@@ -6576,7 +6576,14 @@
               },
               "references": {
                 "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-13/381/casual3/original.png",
+                "sha256": "d355f13bcfe2ed2d5ebf798b5b29c8241d801026e13fc614e74edc43eddb5bea",
+                "session_only": true,
+                "webp_sha256": "010161f120238f416d1eb00ec00579cd5e90cff817a4c0df5e3a5775873e1304"
+              },
+              "received_at": "2026-10-24T20:26:20+00:00"
             }
           },
           "reason": "casual2 visual QA: One adult woman in black-white costume-event maid outfit holding a folded program by velvet curtain; distinct activity and silhouette from tatami slip and prior examples. Rear three-quarter view achieved, but requested chest-up crop instead includes hips/thighs, eyes face viewer rather than reading and full apron is hard to verify from rear. Near shoulder-elbow-wrist connection visible; far arm occluded, program grip hides exact digits and thumb. Tool note two bodies, zero hands; no second human visually confirmed, costume/reflection in background. Preserve actual uncertainty and crop failure for user post-upload review.",
@@ -6640,7 +6647,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T20:22:37+00:00"
+      "updated_at": "2026-10-24T20:26:21+00:00"
     }
   ],
   "claims": {
@@ -7099,9 +7106,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
