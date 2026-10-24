@@ -5638,7 +5638,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "in_flight",
+              "status": "accepted",
               "at": "2026-10-24T13:01:23+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-11/372/mobility_overdrive/prompt.txt",
@@ -5650,6 +5650,17 @@
               },
               "references": {
                 "mobility": "097ae4004abab4c3e9623e1f6a50e0329d571ec95f1ea1624b72ca6b9b172345"
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-11/372/mobility_overdrive/original.png",
+                "sha256": "990852d1a02edf1e33f65caf7c4de2409a905835db2f7de19aaf7517cac43c7b",
+                "session_only": true,
+                "webp_sha256": "82942442b6653580fb728df0fe5931ddaad2e0be0cad305d1bf121606f7b8e43"
+              },
+              "received_at": "2026-10-24T13:04:59+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-11/372/mobility_overdrive/qa.json",
+                "sha256": "267ec6aaec22361e4f5f4f6195dd9d293326da0275adde898b5d8a5f9960516e"
               }
             }
           },
@@ -5657,7 +5668,7 @@
           "resolution": "User requested Shelgon completion. Fresh current-ledger plan passes without code or validation changes; source_editorial cut avoided to distinguish clothing silhouettes. Legacy checkpoint lists normalized read-only in session adapter."
         }
       ],
-      "updated_at": "2026-10-24T13:01:23+00:00"
+      "updated_at": "2026-10-24T13:04:59+00:00"
     }
   ],
   "claims": {
