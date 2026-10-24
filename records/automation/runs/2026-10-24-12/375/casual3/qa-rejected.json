@@ -1,0 +1,51 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "79e02e29f77cea3440df2ad51774d2df71863e6ddb56b03e75b0ac390767cc2d",
+  "observations": "Selected chest-up framing was not followed: image includes hips and upper thighs. Multiple canonical hair ornaments and earrings persist despite wardrobe reset. Raised arm shoulder-elbow-wrist connection is visible, curled fingers partly overlap near chin; opposite forearm is visible on counter but hand hidden. Tool check reports two bodies and loose hand; overlay wrongly outlines face as a hand, and no second person is visually confirmed. Hidden digits and cropped legs/feet remain uncertain. No regeneration; user post-upload visual review adoption.",
+  "anatomy": {
+    "tool": "check",
+    "arms": "Two arm regions visible; opposite shoulder/hand occluded",
+    "legs": "Upper thighs visible; knees and feet outside crop",
+    "hands": "Selected chest-up framing was not followed: image includes hips and upper thighs. Multiple canonical hair ornaments and earrings persist despite wardrobe reset. Raised arm shoulder-elbow-wrist connection is visible, curled fingers partly overlap near chin; opposite forearm is visible on counter but hand hidden. Tool check reports two bodies and loose hand; overlay wrongly outlines face as a hand, and no second person is visually confirmed. Hidden digits and cropped legs/feet remain uncertain. No regeneration; user post-upload visual review adoption.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Selected chest-up framing was not followed: image includes hips and upper thighs. Multiple canonical hair ornaments and earrings persist despite wardrobe reset. Raised arm shoulder-elbow-wrist connection is visible, curled fingers partly overlap near chin; opposite forearm is visible on counter but hand hidden. Tool check reports two bodies and loose hand; overlay wrongly outlines face as a hand, and no second person is visually confirmed. Hidden digits and cropped legs/feet remain uncertain. No regeneration; user post-upload visual review adoption.",
+    "uncertainty": "Tool marks second body and loose hand; face incorrectly outlined as a hand. No second person visually confirmed. Opposite hand hidden; exact digits cannot be certified."
+  },
+  "anatomy_tool_result": {
+    "level": "check",
+    "flags": [
+      {
+        "level": "note",
+        "what": "bodies",
+        "msg": "몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+      },
+      {
+        "level": "check",
+        "what": "loose_hand",
+        "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 1.3 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+      }
+    ],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "L",
+        "score": 0.9,
+        "arm": null,
+        "gap": 1.26
+      },
+      {
+        "i": 1,
+        "label_side": "R",
+        "score": 0.92,
+        "arm": "R",
+        "gap": 0.16
+      }
+    ],
+    "measure": {
+      "shoulder_px": 244.9
+    },
+    "file": "/workspace/generated_images/exec-ecbb484b-6172-4594-97e4-47a62c674ac2.png"
+  },
+  "diversity_comparison": "Actual 3x3 comparison viewed: Beldum stage uniform skirt, train-station travel trousers, loom traditional skirt; Salamence kneeling lingerie, pool robe swimsuit, crouching urban sports leggings; Shelgon mirror lingerie close-up, kneeling atelier dress, mountain map outfit. Metang planned lantern-festival short jumpsuit, park-walk overalls and rear-three-quarter dressing-console strap lingerie change activity/silhouette/composition; third shares lingerie category but rear upper-back view differs from existing frontal/kneeling compositions. Actual generated results reviewed separately.\n"
+}

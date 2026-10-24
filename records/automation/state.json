@@ -5875,14 +5875,14 @@
       "id": "2026-10-24-12",
       "execution_id": "pkm-daily-2026-10-24T16-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T17:36:13+00:00",
       "queue": [
         {
           "no": 375,
           "name": "메탕구",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6127,7 +6127,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T17:58:39+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/casual3/prompt.txt",
@@ -6146,7 +6146,17 @@
                 "session_only": true,
                 "webp_sha256": "276bec823a84e15e2e6d3f664bda7217141a5b382b56f2bd41c0390068f1f55a"
               },
-              "received_at": "2026-10-24T18:03:20+00:00"
+              "received_at": "2026-10-24T18:03:20+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-12/375/casual3/qa-rejected.json",
+                "sha256": "2862c549dd219db299d160124a90c958075495b97652dbe1c5e69f4609663a59"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-12/375/casual3/user-exception.json",
+                "sha256": "469a98c7a67a1cac76a68b33a12a3d028a899b95aeb4c809bc4524b1bb8fd4a0"
+              }
             }
           },
           "reason": "casual3 visual QA: Selected chest-up framing was not followed: image includes hips and upper thighs. Multiple canonical hair ornaments and earrings persist despite wardrobe reset. Raised arm shoulder-elbow-wrist connection is visible, curled fingers partly overlap near chin; opposite forearm is visible on counter but hand hidden. Tool check reports two bodies and loose hand; overlay wrongly outlines face as a hand, and no second person is visually confirmed. Hidden digits and cropped legs/feet remain uncertain. No regeneration; user post-upload visual review adoption.",
@@ -6191,6 +6201,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-12/375/casual2/user-exception.json",
                 "sha256": "bd3bb3b5bac8db08f4b018cd58c206a4bdfc6be024cace504d6327536d8c5ed6"
+              }
+            },
+            {
+              "reason": "casual3 visual QA: Selected chest-up framing was not followed: image includes hips and upper thighs. Multiple canonical hair ornaments and earrings persist despite wardrobe reset. Raised arm shoulder-elbow-wrist connection is visible, curled fingers partly overlap near chin; opposite forearm is visible on counter but hand hidden. Tool check reports two bodies and loose hand; overlay wrongly outlines face as a hand, and no second person is visually confirmed. Hidden digits and cropped legs/feet remain uncertain. No regeneration; user post-upload visual review adoption.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-12/375/casual3/user-exception.json",
+                "sha256": "469a98c7a67a1cac76a68b33a12a3d028a899b95aeb4c809bc4524b1bb8fd4a0"
               }
             }
           ]
