@@ -1,0 +1,16 @@
+{
+  "accepted": false,
+  "reviewer": "AI visual QA",
+  "image_sha256": "be23f474687e519d82ff56370912d287163cba71fcff445c859a91b20cd45e62",
+  "observations": "Adult identity maintained, one separate Spheal companion under towel and no other person. Rear-three-quarter porch rain scene in tank and shorts differs from scarf courtyard and recent actual comparisons. Near arm wrist and elbow connected, far arm hidden; four overlapping towel-hand fingers with obscured thumb. Two bent legs and sandals, toe counts partly hidden. Actual full kneeling framing differs from requested waist-up and emphasizes rear silhouette; retain visual framing failure for user review, no regeneration.",
+  "disposition": "user-approved post-upload review, not QA pass",
+  "anatomy": {
+    "tool": "unavailable: verified local model assets present, runtime lacks libGLESv2.so.2; no successful inference or overlay",
+    "arms": "one fully visible; far arm hidden behind torso, total not visually certifiable",
+    "legs": 2,
+    "hands": "One hand rests on towel. Four folded digits overlap, thumb obscured by towel; hidden count and thumb orientation uncertain. Far hand not visible.",
+    "overlay_checked": false,
+    "note": "Original, hand and lower-body crops inspected. Visible shoulder elbow wrist continuous; two bent legs connect to separate sandals; toes partly occluded. No detached or third limb seen, hidden far arm not confirmed. No model inference or overlay."
+  },
+  "diversity_comparison": "Actual recent 9 thumbnail images viewed: Glalie rooftop pool swimsuit, lounge vanity robe and festival overalls; Snorunt pool coverup stretch, classroom blazer reading and sofa trousers reading; Stunky aviary shorts squat, laundry knit shorts and mirror police costume. Spheal planned courtyard abaya scarf chest-up, rain-porch companion towel waist-up and dressing-room back-strap outfit reaching differ in setting activity clothing and framing. Actual generated comparisons are documented in each observation and final supplement, not inferred solely from settings."
+}
