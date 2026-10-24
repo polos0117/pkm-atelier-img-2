@@ -4087,6 +4087,26 @@
                 "path": "records/automation/runs/2026-10-24-8/367/casual2/user-exception.json",
                 "sha256": "d2b572037f9146baae39f8ce0ae608569ca8e4fb246a3b78c2c41f27bcca40af"
               }
+            },
+            "casual3": {
+              "status": "in_flight",
+              "at": "2026-10-24T04:23:38+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual3/prompt.txt",
+                "sha256": "b1b24e704ec792df7e9116d1a7c38d7ca67327392500a7896c6c0f5268de9db6"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual3/ui.json",
+                "sha256": "47d296d9c249e0929c8ff740c44d8c8c208e0a0a29aa9afbd8c87724a132b51a"
+              },
+              "approval": {
+                "path": "records/automation/runs/2026-10-24-8/367/casual3/independent-slot-approval.json",
+                "sha256": "a211f64f01b4fb3e2ad8795f749191c4927bf8f1f283babff4d236e770c2aba6"
+              },
+              "references": {
+                "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+              },
+              "independent_slot_after_terminal_failure": true
             }
           },
           "reason": "casual2 visual QA: Same adult face and hair; two arms continuous and two thighs visible, lower legs/feet outside three-quarter crop. Teapot hand four curled fingers plus thumb; cup hand four visible fingers and occluded thumb. Tool ok detects two hands. Tea stream and cup readable. Hair/top strands clipped and original fin hair ornament retained despite wardrobe instruction; apron white rather than orange overall. Preserve visual QA failure. Actual kitchen pouring activity and apron/shorts differ from recent stage, gallery, terrace swim, studio, train and bead-work scenes.",
@@ -4149,6 +4169,14 @@
               "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
               "scope": "Independent slot using its required approved reference only; retain casual1 refusal without retry; one attempt for this slot",
               "at": "2026-10-24T04:21:16+00:00"
+            },
+            {
+              "card": 367,
+              "slot": "casual3",
+              "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+              "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+              "scope": "Independent slot using its required approved reference only; retain casual1 refusal without retry; one attempt for this slot",
+              "at": "2026-10-24T04:23:38+00:00"
             }
           ]
         }
