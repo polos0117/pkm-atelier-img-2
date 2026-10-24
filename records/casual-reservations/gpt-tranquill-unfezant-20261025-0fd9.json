@@ -1,17 +1,17 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-tranquill-unfezant-20261025-0fd9",
- "at": "2026-10-25T04:40:29+11:00",
+ "at": "2026-10-25T04:50:38+11:00",
  "characters": [
   {
    "species": "tranquill-20261025",
    "card": "유토브",
-   "at": "2026-10-25T04:40:29+11:00",
+   "at": "2026-10-25T04:50:38+11:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "lingerie",
-     "ex": "garter_set",
+     "cat": "adult_roleplay",
+     "ex": "lab_roleplay",
      "expr": "sleepy",
      "pose": "standing_relaxed",
      "orient": "reaching_up",
@@ -25,13 +25,14 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "coat",
+      "dress"
      ],
      "expose": [
-      "high-cut leg",
+      "high thigh slit",
       "plunging neckline"
      ],
-     "lead": "action"
+     "lead": "light"
     },
     {
      "cut": 2,
@@ -57,7 +58,8 @@
       "bare midriff",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -83,14 +85,15 @@
       "open back",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ]
   },
   {
    "species": "unfezant-20261025",
    "card": "켄호로우",
-   "at": "2026-10-25T04:40:29+11:00",
+   "at": "2026-10-25T04:50:38+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -116,7 +119,8 @@
       "strapless top",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -142,7 +146,8 @@
       "side cutouts",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -167,7 +172,8 @@
       "cropped hem",
       "bare midriff"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ]
   }
