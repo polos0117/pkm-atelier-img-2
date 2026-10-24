@@ -5015,7 +5015,7 @@
               }
             },
             "mobility": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T08:06:32+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/mobility/prompt.txt",
@@ -5027,7 +5027,14 @@
               },
               "references": {
                 "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-10/369/mobility/original.png",
+                "sha256": "7ca351b594b63ea6cad001bb3763b9f308fd07e2120ec9f39bb51e6075a019fd",
+                "session_only": true,
+                "webp_sha256": "c208e4227a98289dfe5eb5a2cbb96e8cf5355c6b9ef7fe9b0db6b00956013a18"
+              },
+              "received_at": "2026-10-24T08:08:38+00:00"
             }
           },
           "reason": "light visual QA: Adult long wavy brown hair with straight bangs, brown/tan rock plates and red fin edges distinguish recent pink updos and silver short hair. No evolution relatives. Actual jaw is tapered rather than assigned angular medium-width jaw. Two arms and legs continuous, two full-finger gloved hands with curled overlapping digits; full finger count is uncertain, no obvious extra limb. Booted toes hidden. Head and feet inside frame, no text. Background small fish silhouettes are scenery. Tool ok with zero detected hands does not certify fingers. Preserve face-design mismatch and hand uncertainty for user post-upload review.",
@@ -5042,7 +5049,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T08:06:32+00:00"
+      "updated_at": "2026-10-24T08:08:38+00:00"
     }
   ],
   "claims": {
@@ -5478,9 +5485,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
