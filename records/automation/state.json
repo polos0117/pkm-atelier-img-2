@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7005,7 +7005,7 @@
               "received_at": "2026-10-24T22:14:48+00:00"
             }
           },
-          "reason": "casual1 visual QA: Home satin shirt/shorts, teapot, rain windows and rear turn differ from earlier tatami/camp/pool/kitchen scenes. Identity retained and armor removed. Requested environmental long shot is dominated by figure, legs overlong and feet in exaggerated tiptoe stance; expression is warmer than cold smile. Near arm/wrist connects to pot grip; far elbow partly hidden and thumbs/fingers occluded by teapot, cannot certify all digits. Two legs connect to two bare feet with heel/sole continuity; toes overlap and ground contact unclear. Actual original/crops/overlay viewed; tool ok zero hands is not digit verification.",
+          "reason": "casual2 visual QA: Face/hair identity retained, fitting-room racks/mirror and fabric samples readable, garment distinct from satin homewear and earlier maid/pool scenes. Rear three-quarter camera and large figure resemble casual1 turn despite different location/outfit/activity; walking motion subdued, hip proportions emphasized, head close to top edge. One bare hanging arm connects through elbow/wrist with curled separated digits, thumb partly overlapped; other hand hidden by folded fabric, cannot certify its fingers. Two upper legs visible, feet outside crop. Actual overlay loose_hand flag arises from wrong far-wrist placement on fabric; no detached third hand visually confirmed. Preserve this uncertainty and composition mismatch.",
           "block_history": [
             {
               "reason": "light visual QA: Full figure with both boots inside frame, but hair/sash extend beyond side/top edges and legs are elongated. Face is softer/narrower than requested broad square jaw. Two arms visibly connect through elbows and gauntlets to hands; model loose_hand flag follows inaccurate wrist/pose localization, not a visually confirmed detached third hand. Gloved fingers overlap, making complete five-digit verification uncertain. Two legs/booted feet continuous; natural joint placement plausible despite elongated proportions.",
@@ -7059,7 +7059,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:14:49+00:00"
+      "updated_at": "2026-10-24T22:14:57+00:00"
     }
   ],
   "claims": {
