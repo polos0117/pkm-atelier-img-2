@@ -3999,6 +3999,21 @@
                 "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/user-exception.json",
                 "sha256": "0044d9b1758cf097a9ea41ecc2e697b8fd873944f5a3c1c01605645687256824"
               }
+            },
+            "mobility_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T04:16:53+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/prompt.txt",
+                "sha256": "21474baa426b74473e7a22e49faee0d84ec87d5c70574b8f78c5844bba43e1b9"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/ui.json",
+                "sha256": "2ece80fd83ce2478bafbf02f7a5394f927c2df480fba288bc9ff4c9f7912f07b"
+              },
+              "references": {
+                "mobility": "b9c0435a77a826cdf57f1015fc05a3ab45d17d275387488b812c21c4c08863c4"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy identity/camera/pose retained, opened stacked plates and cyan glow. Near glove six digit-like projections remain, far glove five overlapping; two arms and booted legs connected. Tool check loose hand maps to thigh skin and plate in actual overlay, false positive; actual two hands present. Knee/ankle joints coherent beneath armor. Preserve inherited hand QA failure, no regeneration.",
@@ -4041,7 +4056,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:16:37+00:00"
+      "updated_at": "2026-10-24T04:16:53+00:00"
     }
   ],
   "claims": {
@@ -4465,9 +4480,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -4493,16 +4508,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
