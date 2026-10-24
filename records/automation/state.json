@@ -4989,7 +4989,7 @@
               }
             },
             "heavy": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T08:03:28+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/heavy/prompt.txt",
@@ -5001,7 +5001,14 @@
               },
               "references": {
                 "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-10/369/heavy/original.png",
+                "sha256": "037c62d23c9874d363086fdf20d133273a1c16d3dba19e440a0ac6353c04bd1d",
+                "session_only": true,
+                "webp_sha256": "0774785e2de271c6493018b43c5b8714860e9e8fd9121448032aed3e211f2897"
+              },
+              "received_at": "2026-10-24T08:05:49+00:00"
             }
           },
           "reason": "light visual QA: Adult long wavy brown hair with straight bangs, brown/tan rock plates and red fin edges distinguish recent pink updos and silver short hair. No evolution relatives. Actual jaw is tapered rather than assigned angular medium-width jaw. Two arms and legs continuous, two full-finger gloved hands with curled overlapping digits; full finger count is uncertain, no obvious extra limb. Booted toes hidden. Head and feet inside frame, no text. Background small fish silhouettes are scenery. Tool ok with zero detected hands does not certify fingers. Preserve face-design mismatch and hand uncertainty for user post-upload review.",
@@ -5016,7 +5023,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T08:03:28+00:00"
+      "updated_at": "2026-10-24T08:05:49+00:00"
     }
   ],
   "claims": {
@@ -5585,9 +5592,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
