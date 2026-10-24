@@ -3487,6 +3487,26 @@
                 "path": "records/automation/runs/2026-10-24-7/366/casual1/user-exception.json",
                 "sha256": "37ee839d30fe76e3baeb46696c09a76a51f727b21a59f6408e12b5d5d1437744"
               }
+            },
+            "casual2": {
+              "status": "in_flight",
+              "at": "2026-10-24T02:17:54+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual2/prompt.txt",
+                "sha256": "057dbeb5b3bac65b9104e94b0a82ffd346dd9953fbaadb16da79f3df02c6f76f"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual2/ui.json",
+                "sha256": "471dea2652a022be8b48fa2f615301310efaa496b696015b34eef7e1ab505856"
+              },
+              "approval": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual2/independent-slot-approval.json",
+                "sha256": "4c7717dc13c2eba7f1a0154525a54d402e053dcd2344f224a49c54a21df6cc0b"
+              },
+              "references": {
+                "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
+              },
+              "independent_slot_after_terminal_failure": true
             }
           },
           "reason": "casual1 visual QA: Adult identity and two arms/two legs retained; folded wrists connect naturally. Near hand shows four curved fingers with thumb occluded by forearm; far hand shows four curled knuckles with thumb hidden, exact count not fully verifiable. Both booted feet and knees continuous. Tool ok detected zero hands, not digit certification. Jacket shell trim and metallic finish converge toward canonical armor styling beyond one small source accent: visual wardrobe QA failure retained. Actual stage side standing trousers scene differs from recent Walrein train walk, Sealeo formal hall jumpsuit and Spheal courtyard crouch in activity, garment and composition.",
@@ -3551,6 +3571,14 @@
               "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
               "scope": "Independent slot using its required approved reference only; retain mobility refusal without retry; one attempt for this slot",
               "at": "2026-10-24T02:15:51+00:00"
+            },
+            {
+              "card": 366,
+              "slot": "casual2",
+              "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+              "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+              "scope": "Independent slot using its required approved reference only; retain mobility refusal without retry; one attempt for this slot",
+              "at": "2026-10-24T02:17:54+00:00"
             }
           ]
         }
