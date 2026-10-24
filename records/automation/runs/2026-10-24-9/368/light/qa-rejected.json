@@ -1,0 +1,48 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74",
+  "observations": "Adult single woman, pink messy bun, purple-white shell mantle; oval face and lower lip distinct from Bronzong/Bonsly, family Huntail and Clamperl similarity remains. Brows rendered thinner than thick-low assignment and top hair nearly clipped/no clear margin. Two arms and booted legs continuous; near glove five visible projections, far glove digits overlap with thumb partly hidden; no extra limb seen. Tool check loose hand is chest-armor false positive in actual overlay. Hands/feet crops checked; toes enclosed. Preserve visual framing/face mismatch as failed QA for post-upload review.",
+  "anatomy": {
+    "tool": "check",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Adult single woman, pink messy bun, purple-white shell mantle; oval face and lower lip distinct from Bronzong/Bonsly, family Huntail and Clamperl similarity remains. Brows rendered thinner than thick-low assignment and top hair nearly clipped/no clear margin. Two arms and booted legs continuous; near glove five visible projections, far glove digits overlap with thumb partly hidden; no extra limb seen. Tool check loose hand is chest-armor false positive in actual overlay. Hands/feet crops checked; toes enclosed. Preserve visual framing/face mismatch as failed QA for post-upload review.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Adult single woman, pink messy bun, purple-white shell mantle; oval face and lower lip distinct from Bronzong/Bonsly, family Huntail and Clamperl similarity remains. Brows rendered thinner than thick-low assignment and top hair nearly clipped/no clear margin. Two arms and booted legs continuous; near glove five visible projections, far glove digits overlap with thumb partly hidden; no extra limb seen. Tool check loose hand is chest-armor false positive in actual overlay. Hands/feet crops checked; toes enclosed. Preserve visual framing/face mismatch as failed QA for post-upload review."
+  },
+  "anatomy_tool_result": {
+    "level": "check",
+    "flags": [
+      {
+        "level": "check",
+        "what": "loose_hand",
+        "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 0.8 배) — 셋째 손·떨어진 손"
+      }
+    ],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "L",
+        "score": 0.84,
+        "arm": null,
+        "gap": 0.82
+      }
+    ],
+    "measure": {
+      "shoulder_px": 221.8,
+      "arm_L_ratio": 1.22,
+      "arm_L_angle": 170,
+      "arm_R_ratio": 0.83,
+      "arm_R_angle": 81
+    },
+    "file": "/workspace/generated_images/exec-db5d1728-6c02-44e7-81c2-d0fbb2cb7eaf.png"
+  },
+  "compared_characters": [
+    "동탁군",
+    "꼬지지",
+    "헌테일",
+    "진주몽"
+  ],
+  "face_reason": "Gorebyss assigned long oval face, soft rounded jaw, medium narrow level eyes, thick low brows, balanced nose and fuller lower lip; long messy bun/curtain bangs. Actual recent canonicals viewed: Bronzong long straight dark green hair and straight bangs, Bonsly brown side bunches, family Huntail sharp long face and blue bun, family Clamperl shorter face and twin buns. Compare actual result with these rather than treating plan as proof."
+}

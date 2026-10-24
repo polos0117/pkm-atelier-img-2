@@ -4394,17 +4394,17 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T06:06:03+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/light/prompt.txt",
@@ -4421,10 +4421,29 @@
                 "session_only": true,
                 "webp_sha256": "5141a79697923475ca1c4548aae3d839e56dcf371d49874be2d547afa2092236"
               },
-              "received_at": "2026-10-24T06:08:27+00:00"
+              "received_at": "2026-10-24T06:08:27+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-9/368/light/qa-rejected.json",
+                "sha256": "f271b197c6154870a424ddb5d33dd77634a39508e8b9fe4a657f01e7a86471cd"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-9/368/light/user-exception.json",
+                "sha256": "a1d2133a0af12537dcc1baef76eace4c3ba4348542b35eebfd12e12fad7a21ca"
+              }
             }
           },
-          "reason": "light visual QA: Adult single woman, pink messy bun, purple-white shell mantle; oval face and lower lip distinct from Bronzong/Bonsly, family Huntail and Clamperl similarity remains. Brows rendered thinner than thick-low assignment and top hair nearly clipped/no clear margin. Two arms and booted legs continuous; near glove five visible projections, far glove digits overlap with thumb partly hidden; no extra limb seen. Tool check loose hand is chest-armor false positive in actual overlay. Hands/feet crops checked; toes enclosed. Preserve visual framing/face mismatch as failed QA for post-upload review."
+          "reason": "light visual QA: Adult single woman, pink messy bun, purple-white shell mantle; oval face and lower lip distinct from Bronzong/Bonsly, family Huntail and Clamperl similarity remains. Brows rendered thinner than thick-low assignment and top hair nearly clipped/no clear margin. Two arms and booted legs continuous; near glove five visible projections, far glove digits overlap with thumb partly hidden; no extra limb seen. Tool check loose hand is chest-armor false positive in actual overlay. Hands/feet crops checked; toes enclosed. Preserve visual framing/face mismatch as failed QA for post-upload review.",
+          "block_history": [
+            {
+              "reason": "light visual QA: Adult single woman, pink messy bun, purple-white shell mantle; oval face and lower lip distinct from Bronzong/Bonsly, family Huntail and Clamperl similarity remains. Brows rendered thinner than thick-low assignment and top hair nearly clipped/no clear margin. Two arms and booted legs continuous; near glove five visible projections, far glove digits overlap with thumb partly hidden; no extra limb seen. Tool check loose hand is chest-armor false positive in actual overlay. Hands/feet crops checked; toes enclosed. Preserve visual framing/face mismatch as failed QA for post-upload review.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-9/368/light/user-exception.json",
+                "sha256": "a1d2133a0af12537dcc1baef76eace4c3ba4348542b35eebfd12e12fad7a21ca"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-24T06:08:35+00:00"
