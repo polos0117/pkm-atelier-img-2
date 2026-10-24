@@ -6031,7 +6031,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T17:50:06+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/mobility_overdrive/prompt.txt",
@@ -6043,7 +6043,14 @@
               },
               "references": {
                 "mobility": "720527698883227bcdf0d38b10f12b1353b09f9f9f967676e11ac71a0e22f360"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-12/375/mobility_overdrive/original.png",
+                "sha256": "a53ce0967f09bb0bf5c1aab3d178570696583dcf4d9137833df805ee930c472e",
+                "session_only": true,
+                "webp_sha256": "a1aeb5f1cffd5c7b00e790b4e1ae2d9ea9af6f041b27514e0b7033180e8f661a"
+              },
+              "received_at": "2026-10-24T17:52:50+00:00"
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy reference camera stance face and hand placements retained; stacked plates open with bright inner seams. Some shin panel outlines and spacing remodel rather than identical hinges, facial strain subtle. Two arms and legs continuous, boots in frame, curled fingers partly overlap and full count uncertain. Tool note low-confidence skeleton, overlay actually inspected; no extra limb observed. Actual references heavy plus light.",
@@ -6072,7 +6079,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:50:06+00:00"
+      "updated_at": "2026-10-24T17:52:50+00:00"
     }
   ],
   "claims": {
@@ -6877,14 +6884,14 @@
       "card": "유토브",
       "session": "gpt-tranquill-unfezant-20261025-0fd9",
       "file": "records/casual-reservations/gpt-tranquill-unfezant-20261025-0fd9.json",
-      "at": "2026-10-25T04:40:29+11:00",
+      "at": "2026-10-25T04:50:38+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "521": {
       "card": "켄호로우",
       "session": "gpt-tranquill-unfezant-20261025-0fd9",
       "file": "records/casual-reservations/gpt-tranquill-unfezant-20261025-0fd9.json",
-      "at": "2026-10-25T04:40:29+11:00",
+      "at": "2026-10-25T04:50:38+11:00",
       "status": "external_reservation_do_not_take_over"
     }
   },
