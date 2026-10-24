@@ -2922,7 +2922,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T00:02:45+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-23-6/363/heavy/prompt.txt",
@@ -2941,7 +2941,11 @@
                 "session_only": true,
                 "webp_sha256": "8b19177b291efbb231d2c4296742a1f5219d29e66dcfebaab0a00eecb9f15210"
               },
-              "received_at": "2026-10-24T00:06:56+00:00"
+              "received_at": "2026-10-24T00:06:56+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-23-6/363/heavy/qa.json",
+                "sha256": "63d1c72df188df1e7efd7501208e4139f843e41639741827829837003131fa7a"
+              }
             }
           },
           "reason": "light visual QA: Adult woman, two arms and two crossed but connected legs. Anatomical right hand at image left shows palm, one thumb/four fingers; anatomical left hand at image right has overlapping gloved digits, plausible five but cannot fully certify overlap. Wrists/ankles continuous, two boots no detached limbs. Face narrower/sharper chin than assigned short wide round design; preserve failure for user review.",
@@ -2956,7 +2960,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T00:06:56+00:00"
+      "updated_at": "2026-10-24T00:07:04+00:00"
     }
   ],
   "claims": {
