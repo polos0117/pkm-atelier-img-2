@@ -4989,7 +4989,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T08:03:28+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/heavy/prompt.txt",
@@ -5008,7 +5008,11 @@
                 "session_only": true,
                 "webp_sha256": "0774785e2de271c6493018b43c5b8714860e9e8fd9121448032aed3e211f2897"
               },
-              "received_at": "2026-10-24T08:05:49+00:00"
+              "received_at": "2026-10-24T08:05:49+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-10/369/heavy/qa.json",
+                "sha256": "98d27fc6028d0afc91faeff958bf0675090957280fd117a8912969a8db7af3d6"
+              }
             }
           },
           "reason": "light visual QA: Adult long wavy brown hair with straight bangs, brown/tan rock plates and red fin edges distinguish recent pink updos and silver short hair. No evolution relatives. Actual jaw is tapered rather than assigned angular medium-width jaw. Two arms and legs continuous, two full-finger gloved hands with curled overlapping digits; full finger count is uncertain, no obvious extra limb. Booted toes hidden. Head and feet inside frame, no text. Background small fish silhouettes are scenery. Tool ok with zero detected hands does not certify fingers. Preserve face-design mismatch and hand uncertainty for user post-upload review.",
@@ -5023,7 +5027,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T08:05:49+00:00"
+      "updated_at": "2026-10-24T08:05:57+00:00"
     }
   ],
   "claims": {
@@ -5459,9 +5463,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -5487,16 +5491,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
