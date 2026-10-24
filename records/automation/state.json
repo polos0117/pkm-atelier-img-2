@@ -6300,14 +6300,14 @@
       "id": "2026-10-24-13",
       "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "complete",
       "created_at": "2026-10-24T20:05:04+00:00",
       "queue": [
         {
           "no": 381,
           "name": "라티오스",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "complete",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6677,10 +6677,74 @@
               "img/라티오스_glossy_promo_f_casual2.webp": "e1c670207deb844cb3a3aed22afd9c4e9f97a7cd9f9589313439928d698fcf2d",
               "img/라티오스_glossy_promo_f_casual3.webp": "010161f120238f416d1eb00ec00579cd5e90cff817a4c0df5e3a5775873e1304"
             }
-          }
+          },
+          "own_publication": {
+            "files": [
+              "라티오스_glossy_promo_f_casual1.webp",
+              "라티오스_glossy_promo_f_casual2.webp",
+              "라티오스_glossy_promo_f_casual3.webp",
+              "라티오스_heavy_glossy_promo_f.webp",
+              "라티오스_heavy_overdrive_glossy_promo_f.webp",
+              "라티오스_light_glossy_promo_f.webp",
+              "라티오스_light_overdrive_glossy_promo_f.webp",
+              "라티오스_mobility_glossy_promo_f.webp",
+              "라티오스_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
+          },
+          "outputs": {
+            "light": {
+              "file": "라티오스_light_glossy_promo_f.webp",
+              "sha256": "84debbcfdcf3cfbc785c9cebda28303b2f8d426560b929e42ee181bde20b229f",
+              "shard": 2
+            },
+            "heavy": {
+              "file": "라티오스_heavy_glossy_promo_f.webp",
+              "sha256": "940f72644742334fcfb47b65353fc19215f09ccfe07493c1b3811870c85951c1",
+              "shard": 2
+            },
+            "mobility": {
+              "file": "라티오스_mobility_glossy_promo_f.webp",
+              "sha256": "7148a1c35f561afd2eed209605fd9715c0b6222e0a59f039bbd2d24035dcd466",
+              "shard": 2
+            },
+            "light_overdrive": {
+              "file": "라티오스_light_overdrive_glossy_promo_f.webp",
+              "sha256": "8117447bad54505688e7106a66221708081c06082829867ed5f384c6d50a6d08",
+              "shard": 2
+            },
+            "heavy_overdrive": {
+              "file": "라티오스_heavy_overdrive_glossy_promo_f.webp",
+              "sha256": "ff7c26aa6eaf2d00dba988933355484fa996c2a0014906d5fb4065a72ddcab5d",
+              "shard": 2
+            },
+            "mobility_overdrive": {
+              "file": "라티오스_mobility_overdrive_glossy_promo_f.webp",
+              "sha256": "66d5c678f9bcd008cf7b7b129900a9cb2383f79833003c2ea67fa87367095173",
+              "shard": 2
+            },
+            "casual1": {
+              "file": "라티오스_glossy_promo_f_casual1.webp",
+              "sha256": "a692d40e858546b045207b2e566d1f938d64a1f79fcc6c4dfb0f0c1867b76658",
+              "shard": 2
+            },
+            "casual2": {
+              "file": "라티오스_glossy_promo_f_casual2.webp",
+              "sha256": "e1c670207deb844cb3a3aed22afd9c4e9f97a7cd9f9589313439928d698fcf2d",
+              "shard": 2
+            },
+            "casual3": {
+              "file": "라티오스_glossy_promo_f_casual3.webp",
+              "sha256": "010161f120238f416d1eb00ec00579cd5e90cff817a4c0df5e3a5775873e1304",
+              "shard": 2
+            }
+          },
+          "image_commit": "8305c2763bb8886ff1991f1f8d7009671c82ed0e",
+          "registration_commit": "516607d926ff77ac56ee3a0fead7ea29fded75ab",
+          "completed_at": "2026-10-24T20:30:37+00:00"
         }
       ],
-      "updated_at": "2026-10-24T20:26:42+00:00"
+      "updated_at": "2026-10-24T20:30:37+00:00"
     }
   ],
   "claims": {
@@ -6915,7 +6979,7 @@
     "381": {
       "owner": "pkm-daily",
       "run": "2026-10-24-13",
-      "status": "held",
+      "status": "complete",
       "at": "2026-10-24T20:05:04+00:00"
     }
   },
@@ -7167,16 +7231,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -7272,9 +7336,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
