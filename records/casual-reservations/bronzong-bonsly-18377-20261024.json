@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "bronzong-bonsly-18377-20261024",
- "at": "2026-10-24T16:26:12+11:00",
+ "at": "2026-10-24T16:40:07+11:00",
  "characters": [
   {
    "species": "bronzong-20261024",
@@ -90,7 +90,7 @@
   {
    "species": "bonsly-20261024",
    "card": "꼬지지",
-   "at": "2026-10-24T16:26:12+11:00",
+   "at": "2026-10-24T16:40:07+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -115,7 +115,8 @@
       "high thigh slit",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -140,32 +141,34 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "adult_roleplay",
-     "ex": "bunny",
-     "expr": "provocative",
-     "pose": "sitting_floor",
-     "orient": "leaning_back",
+     "ex": "adult_nurse",
+     "expr": "half_smile",
+     "pose": "waving",
+     "orient": "over_shoulder",
      "frame": "full_body",
-     "lens": "portrait85",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "apron",
+      "dress"
      ],
      "expose": [
-      "high-cut leg",
-      "bare midriff"
+      "high thigh slit",
+      "side cutouts"
      ],
-     "lead": "light"
+     "lead": "action"
     }
    ]
   }
