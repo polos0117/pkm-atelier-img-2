@@ -3288,11 +3288,25 @@
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "claimed",
-          "slots": {}
+          "status": "working",
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-24T02:00:46+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-7/366/light/prompt.txt",
+                "sha256": "cd36788ff6df9ed1afe233719e9a65f609314e0a542666df3e2b6b55c01d3374"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-7/366/light/ui.json",
+                "sha256": "f77e00015760b00a5b99b873dcb7bd519485157eca59326b98acdf4f055a54e0"
+              },
+              "references": {}
+            }
+          }
         }
       ],
-      "updated_at": "2026-10-24T02:00:12+00:00"
+      "updated_at": "2026-10-24T02:00:46+00:00"
     }
   ],
   "claims": {
@@ -3710,9 +3724,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
