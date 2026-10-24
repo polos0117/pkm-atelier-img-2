@@ -34,7 +34,8 @@
       368,
       369,
       372,
-      375
+      375,
+      381
     ]
   },
   "runs": [
@@ -6294,6 +6295,23 @@
         }
       ],
       "updated_at": "2026-10-24T18:08:19+00:00"
+    },
+    {
+      "id": "2026-10-24-13",
+      "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-24T20:05:04+00:00",
+      "queue": [
+        {
+          "no": 381,
+          "name": "라티오스",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-24T20:05:04+00:00"
     }
   ],
   "claims": {
@@ -6524,6 +6542,12 @@
       "run": "2026-10-24-12",
       "status": "complete",
       "at": "2026-10-24T17:36:13+00:00"
+    },
+    "381": {
+      "owner": "pkm-daily",
+      "run": "2026-10-24-13",
+      "status": "held",
+      "at": "2026-10-24T20:05:04+00:00"
     }
   },
   "blocked_candidates": {
@@ -6746,9 +6770,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -6774,16 +6798,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -6879,9 +6903,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -7107,6 +7131,48 @@
       "file": "records/casual-reservations/gpt-tranquill-unfezant-20261025-0fd9.json",
       "at": "2026-10-25T04:50:38+11:00",
       "status": "external_reservation_do_not_take_over"
+    },
+    "377": {
+      "card": "레지락",
+      "session": "regirock-regice-20261025-d8a6",
+      "file": "records/casual-reservations/regirock-regice-20261025-d8a6.json",
+      "at": "2026-10-25T05:16:47+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "378": {
+      "card": "레지아이스",
+      "session": "regirock-regice-20261025-d8a6",
+      "file": "records/casual-reservations/regirock-regice-20261025-d8a6.json",
+      "at": "2026-10-25T05:16:47+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "379": {
+      "card": "레지스틸",
+      "session": "registeel-latias-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
+      "at": "2026-10-25T06:44:34+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "380": {
+      "card": "라티아스",
+      "session": "registeel-latias-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
+      "at": "2026-10-25T06:44:34+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "448": {
+      "card": "루카리오",
+      "session": "lucario-hippopotas-20261025-d3bb",
+      "file": "records/casual-reservations/lucario-hippopotas-20261025-d3bb.json",
+      "at": "2026-10-25T06:54:12+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "449": {
+      "card": "히포포타스",
+      "session": "hippopotas-20261025-d3bb",
+      "file": "records/casual-reservations/hippopotas-20261025-d3bb.json",
+      "at": "2026-10-25T07:04:11+11:00",
+      "status": "external_reservation_do_not_take_over"
     }
   },
   "daily_kst": {
@@ -7129,7 +7195,8 @@
       372
     ],
     "2026-10-25": [
-      375
+      375,
+      381
     ]
   },
   "executions": {
@@ -7215,6 +7282,13 @@
       "at": "2026-10-24T17:36:13+00:00",
       "characters": [
         375
+      ]
+    },
+    "pkm-daily-2026-10-24T20-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-24T20:05:04+00:00",
+      "characters": [
+        381
       ]
     }
   }
