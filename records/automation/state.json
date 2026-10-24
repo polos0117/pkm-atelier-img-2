@@ -6300,14 +6300,14 @@
       "id": "2026-10-24-13",
       "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T20:05:04+00:00",
       "queue": [
         {
           "no": 381,
           "name": "라티오스",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6372,7 +6372,7 @@
               }
             },
             "mobility": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T20:10:46+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/mobility/prompt.txt",
@@ -6391,7 +6391,17 @@
                 "session_only": true,
                 "webp_sha256": "7148a1c35f561afd2eed209605fd9715c0b6222e0a59f039bbd2d24035dcd466"
               },
-              "received_at": "2026-10-24T20:12:13+00:00"
+              "received_at": "2026-10-24T20:12:13+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-13/381/mobility/qa-rejected.json",
+                "sha256": "df5d178324977eaacbf150161eb583619dec06ce6a13c073157b1cd8e8a08e62"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-13/381/mobility/user-exception.json",
+                "sha256": "0a2cedb62a4cfa254f0fc747a02bbd97f72c201250b3763b6b1acc898145fece"
+              }
             }
           },
           "reason": "mobility visual QA: Face, hair and gloves match canonical light. Swept shoulder/hip/calf panels and luminous compact thrusters form a lighter open silhouette. Two arms and legs connect; head and boots remain inside. Inherited excessively long legs and near-bottom boot margin remain visual defects. Open glove has thumb plus four fingers; opposite fingers overlap with foreshortening, exact count uncertain. Tool ok but zero hands detected; overlay checked, not a finger certification.",
@@ -6408,6 +6418,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-13/381/heavy/user-exception.json",
                 "sha256": "b12674e5de14c296afc082818f002201679d97249b9bc85b0d64e23182c03dae"
+              }
+            },
+            {
+              "reason": "mobility visual QA: Face, hair and gloves match canonical light. Swept shoulder/hip/calf panels and luminous compact thrusters form a lighter open silhouette. Two arms and legs connect; head and boots remain inside. Inherited excessively long legs and near-bottom boot margin remain visual defects. Open glove has thumb plus four fingers; opposite fingers overlap with foreshortening, exact count uncertain. Tool ok but zero hands detected; overlay checked, not a finger certification.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-13/381/mobility/user-exception.json",
+                "sha256": "0a2cedb62a4cfa254f0fc747a02bbd97f72c201250b3763b6b1acc898145fece"
               }
             }
           ]
