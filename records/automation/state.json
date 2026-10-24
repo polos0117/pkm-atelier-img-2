@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6823,7 +6823,7 @@
               }
             },
             "mobility": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T22:02:52+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/mobility/prompt.txt",
@@ -6842,7 +6842,17 @@
                 "session_only": true,
                 "webp_sha256": "e9ebfd8c0fbd7bc396806937753f144356106f13bf6ea09359c9e1378078c4c2"
               },
-              "received_at": "2026-10-24T22:04:20+00:00"
+              "received_at": "2026-10-24T22:04:20+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-14/382/mobility/qa-rejected.json",
+                "sha256": "4fb4ca9714dfb16f9d016401e168cc51e5e4686998e47570dfc8ca8467f187a0"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-14/382/mobility/user-exception.json",
+                "sha256": "184f81f8157fb83d48fa1481e325bb65cb031cab58577c697cb15d5ab251e6da"
+              }
             }
           },
           "reason": "mobility visual QA: Face/hair/palette match light. Swept separated panels and compact blue thrusters present, but calf/hip panels grow very long and some appear visually detached; legs remain elongated and hair clips frame. Two arms and two booted legs have continuous main anatomy; thumbs/fingers overlap in gloves and cannot all be certified. Tool overlay viewed: ok, no hands detected, coarse joints approximate rather than anatomical proof.",
@@ -6859,6 +6869,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-14/382/heavy/user-exception.json",
                 "sha256": "d455ed8b8ad2fe43abbeec73290c6a68b03f6d08b8c84db6ee3cd8194c0016b4"
+              }
+            },
+            {
+              "reason": "mobility visual QA: Face/hair/palette match light. Swept separated panels and compact blue thrusters present, but calf/hip panels grow very long and some appear visually detached; legs remain elongated and hair clips frame. Two arms and two booted legs have continuous main anatomy; thumbs/fingers overlap in gloves and cannot all be certified. Tool overlay viewed: ok, no hands detected, coarse joints approximate rather than anatomical proof.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-14/382/mobility/user-exception.json",
+                "sha256": "184f81f8157fb83d48fa1481e325bb65cb031cab58577c697cb15d5ab251e6da"
               }
             }
           ]
