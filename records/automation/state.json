@@ -3281,14 +3281,14 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3378,7 +3378,7 @@
               "at": "2026-10-24T02:07:02+00:00"
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T02:07:33+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/prompt.txt",
@@ -3402,7 +3402,17 @@
                 "session_only": true,
                 "webp_sha256": "97a450116e49698429cd3099c5d52988e8fd27d3291baa35bc99ed326bfbb920"
               },
-              "received_at": "2026-10-24T02:09:20+00:00"
+              "received_at": "2026-10-24T02:09:20+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/qa-rejected.json",
+                "sha256": "87fdb708ce481f15631514bd140871d7b3bc063c68f6a2c11ae6ac4f733427ea"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/user-exception.json",
+                "sha256": "b1962b38147a13ba1cf108c333e7ab0a891ad8edafa9d5258a3b52895e35cb09"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Light pose framing face and shell mantle maintained with cyan opened seams. Two continuous arms and crossed legs, two boots. Near right glove still appears six digits; far glove partly overlapping. New small segmented thigh and knee plates differ from source smooth sections. Tool ok with zero hand detections cannot resolve digit error. Actual QA failure preserved, no regeneration.",
@@ -3419,6 +3429,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-7/366/heavy/user-exception.json",
                 "sha256": "c045542817e2ea07e60f87d6f744dfbde5e49f9fc7728514b64974a74bdbf1ae"
+              }
+            },
+            {
+              "reason": "light_overdrive visual QA: Light pose framing face and shell mantle maintained with cyan opened seams. Two continuous arms and crossed legs, two boots. Near right glove still appears six digits; far glove partly overlapping. New small segmented thigh and knee plates differ from source smooth sections. Tool ok with zero hand detections cannot resolve digit error. Actual QA failure preserved, no regeneration.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-7/366/light_overdrive/user-exception.json",
+                "sha256": "b1962b38147a13ba1cf108c333e7ab0a891ad8edafa9d5258a3b52895e35cb09"
               }
             }
           ],
