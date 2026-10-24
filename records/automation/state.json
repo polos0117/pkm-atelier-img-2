@@ -6885,6 +6885,21 @@
                 "path": "records/automation/runs/2026-10-24-14/382/light_overdrive/user-exception.json",
                 "sha256": "4d102aff316d40f2a7af166da3892fa687a3d2f49b89788c7d37b91ee4b75c81"
               }
+            },
+            "heavy_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-24T22:06:49+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy_overdrive/prompt.txt",
+                "sha256": "11887695a8a57a894114cda7e81188badb5d5061a3207975fddae4ac42b59fc8"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy_overdrive/ui.json",
+                "sha256": "df94c3679b8970474042a1ce2e5bcfcbf1e3b127d45df799ba3d11e1ddc5aec0"
+              },
+              "references": {
+                "heavy": "e573b9d631d96568a75abce9916b9507840811d8eb3141aaf75a4a97c2d8eb9b"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Camera/pose/face/hair and two hands broadly retained, with blue water light visible in opened seams. Thigh/shin panels acquire extra subdivisions and sash glows like armor rather than only original plates opening; expression strain weak. Two continuous arms and booted legs, no visible extra limb; gloved fingers partly overlap so full digit count uncertain. Original/crops/actual overlay viewed; tool ok but zero hands and coarse misplaced joints do not certify fingers. Existing elongated proportions and clipped hair persist.",
@@ -6920,7 +6935,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T22:06:31+00:00"
+      "updated_at": "2026-10-24T22:06:49+00:00"
     }
   ],
   "claims": {
@@ -7385,9 +7400,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
