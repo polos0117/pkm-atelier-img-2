@@ -5156,7 +5156,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T08:21:59+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-10/369/casual2/prompt.txt",
@@ -5173,7 +5173,14 @@
               "references": {
                 "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-24-10/369/casual2/original.png",
+                "sha256": "ba6cdb1453d499ddce400870d95e410236c4cc00cb5dfc9328c845dbef62454d",
+                "session_only": true,
+                "webp_sha256": "c9d049c3191f3ed1f80e5a254feeddb48b92e26109a797e2bbd03a8fc822d80c"
+              },
+              "received_at": "2026-10-24T08:24:59+00:00"
             }
           },
           "reason": "casual1 terminal output moderation_blocked sexual request 7cbd4b72-0a0e-47c2-9fbb-079151dd133c; no output file, no retry; independent casual2/3 may continue",
@@ -5219,7 +5226,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T08:20:42+00:00"
+      "updated_at": "2026-10-24T08:24:59+00:00"
     }
   ],
   "claims": {
@@ -5655,9 +5662,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -5683,16 +5690,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
