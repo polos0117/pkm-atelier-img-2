@@ -6300,14 +6300,14 @@
       "id": "2026-10-24-13",
       "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T20:05:04+00:00",
       "queue": [
         {
           "no": 381,
           "name": "라티오스",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6404,7 +6404,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T20:12:32+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-13/381/light_overdrive/prompt.txt",
@@ -6423,7 +6423,17 @@
                 "session_only": true,
                 "webp_sha256": "8117447bad54505688e7106a66221708081c06082829867ed5f384c6d50a6d08"
               },
-              "received_at": "2026-10-24T20:14:06+00:00"
+              "received_at": "2026-10-24T20:14:06+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-13/381/light_overdrive/qa-rejected.json",
+                "sha256": "08a7b9bf52879c5f32c76676cd356af51b0e6b6884eb6ba44de66fa4a47c8ae3"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-13/381/light_overdrive/user-exception.json",
+                "sha256": "54b3bd3f4fc11e275c9551840195afa8bfe2b46f97903b49e14de8acfe2240a2"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Original pose, camera, face and gloves largely preserved. Violet seam glow and lifted plates visible, but thigh panels are subdivided and extended beyond the original light design, and strain expression remains weak. Two arms and legs continuous; boots within frame. Open hand five silhouettes visible, lowered hand overlap uncertain. Tool ok detected zero hands; actual overlay and crops viewed. Inherited exaggerated leg proportions retained. User post-upload visual adoption, not QA pass.",
@@ -6447,6 +6457,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-13/381/mobility/user-exception.json",
                 "sha256": "0a2cedb62a4cfa254f0fc747a02bbd97f72c201250b3763b6b1acc898145fece"
+              }
+            },
+            {
+              "reason": "light_overdrive visual QA: Original pose, camera, face and gloves largely preserved. Violet seam glow and lifted plates visible, but thigh panels are subdivided and extended beyond the original light design, and strain expression remains weak. Two arms and legs continuous; boots within frame. Open hand five silhouettes visible, lowered hand overlap uncertain. Tool ok detected zero hands; actual overlay and crops viewed. Inherited exaggerated leg proportions retained. User post-upload visual adoption, not QA pass.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-13/381/light_overdrive/user-exception.json",
+                "sha256": "54b3bd3f4fc11e275c9551840195afa8bfe2b46f97903b49e14de8acfe2240a2"
               }
             }
           ]
