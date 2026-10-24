@@ -4394,14 +4394,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4434,7 +4434,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T06:08:56+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-9/368/heavy/prompt.txt",
@@ -4453,7 +4453,17 @@
                 "session_only": true,
                 "webp_sha256": "9af6a951dcbb26d502b96d585ff730096252c24878babcfb680bae73b1eca798"
               },
-              "received_at": "2026-10-24T06:12:53+00:00"
+              "received_at": "2026-10-24T06:12:53+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-9/368/heavy/qa-rejected.json",
+                "sha256": "f73daa96c7c6de433d4d6e065390438f6537ed4bc2a672cd63725c13299929c5"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-9/368/heavy/user-exception.json",
+                "sha256": "d7be0fd751088e66d4bf23540bcf02a2b90378444df5209d0b1c3ea7c111f322"
+              }
             }
           },
           "reason": "heavy visual QA: Two arms connect continuously to two gloved hands, each with five visible digit projections; two booted feet connect to crossed legs. Tool reports ok with zero detected hands, so fingers judged visually. Face, pink bun and purple-white palette retained. Bun nearly touches upper edge, lacking required clear head margin; original thick-brow design remains thinner. Adopt for user post-upload review without regeneration.",
@@ -4463,6 +4473,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-9/368/light/user-exception.json",
                 "sha256": "a1d2133a0af12537dcc1baef76eace4c3ba4348542b35eebfd12e12fad7a21ca"
+              }
+            },
+            {
+              "reason": "heavy visual QA: Two arms connect continuously to two gloved hands, each with five visible digit projections; two booted feet connect to crossed legs. Tool reports ok with zero detected hands, so fingers judged visually. Face, pink bun and purple-white palette retained. Bun nearly touches upper edge, lacking required clear head margin; original thick-brow design remains thinner. Adopt for user post-upload review without regeneration.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-9/368/heavy/user-exception.json",
+                "sha256": "d7be0fd751088e66d4bf23540bcf02a2b90378444df5209d0b1c3ea7c111f322"
               }
             }
           ]
