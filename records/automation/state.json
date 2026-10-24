@@ -3489,7 +3489,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T02:17:54+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/casual2/prompt.txt",
@@ -3506,7 +3506,14 @@
               "references": {
                 "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
               },
-              "independent_slot_after_terminal_failure": true
+              "independent_slot_after_terminal_failure": true,
+              "image": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual2/original.png",
+                "sha256": "9e619666c5714ed4ae86f5e3d81cac2c204738dceb2ee1dbaa06f8acfe91dba5",
+                "session_only": true,
+                "webp_sha256": "d019d027bb7314313ea192ea7bde058c58a8de2991dd4bc3a740ee6ed2d62729"
+              },
+              "received_at": "2026-10-24T02:19:05+00:00"
             }
           },
           "reason": "casual1 visual QA: Adult identity and two arms/two legs retained; folded wrists connect naturally. Near hand shows four curved fingers with thumb occluded by forearm; far hand shows four curled knuckles with thumb hidden, exact count not fully verifiable. Both booted feet and knees continuous. Tool ok detected zero hands, not digit certification. Jacket shell trim and metallic finish converge toward canonical armor styling beyond one small source accent: visual wardrobe QA failure retained. Actual stage side standing trousers scene differs from recent Walrein train walk, Sealeo formal hall jumpsuit and Spheal courtyard crouch in activity, garment and composition.",
@@ -3583,7 +3590,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T02:17:37+00:00"
+      "updated_at": "2026-10-24T02:19:05+00:00"
     }
   ],
   "claims": {
@@ -4001,9 +4008,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
