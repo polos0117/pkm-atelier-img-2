@@ -1,0 +1,98 @@
+{
+  "card": 368,
+  "run": "2026-10-24-9",
+  "prior_status": "deferred",
+  "external_import": {
+    "path": "records/gorebyss-20261024-automation-partial/casual2-import.json",
+    "sha256": "f83c81e9dbc657633522f0675ce314aadd980fdccd3a8ab6841545b1e7f537d7",
+    "commit": "53cac49a5db552931a013b6941b70757b44b8e59",
+    "record": {
+      "uploaded_name": "image.png",
+      "actual_input_format": "PNG",
+      "source_sha256": "3d8dbd7e3eb6123ceebacef8121c43ffa9d5324bc8bd62db0c209b7edb86e0c3",
+      "retained_original": null,
+      "output": {
+        "slot": "casual2",
+        "file": "분홍장이_glossy_promo_f_casual2.webp",
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "2f81616a34de4a811175cbb89d6045484b2f7f0bf2f54ab9e8bf6698ec4ced35",
+        "reference": "분홍장이_light_glossy_promo_f.webp",
+        "provenance": "사용자가 casual2-refill-prompt.txt(생성기 출력)로 직접 생성해 준 그림. 이 세션에서는 WebP 변환만 했다.",
+        "recovery": "원본 PNG 는 올리지 않고 sha256 만 남긴다(IMAGE_RULES 5절)."
+      },
+      "plan": "casual2-refill-plan.json — swimwear · outdoor_shower · smug · bending_over · low_angle · environmental · documentary35",
+      "plan_match": "casual2-refill-plan.json 의 cut 2(swimwear · outdoor_shower · bending_over · low_angle · environmental)와 장면이 맞는다 — 풀사이드 야외 샤워, 늦은 오후 햇빛, 산호빛 끈 없는 비키니·하이컷, 숙여 벤치 위 줄무늬 수건을 짚음",
+      "look_check": "node tools/casual-look.cjs check --card 분홍장이 (casual1, 이 그림, casual3) — 통과, 가장 가까운 다른 캐릭터 컷 236점(미꾸리 casual1)",
+      "anatomy": {
+        "tool": "tools/anatomy-check.py — check: 아래팔 길이 1.98 배·떨어진 손, note: 몸 2 개 — 뼈대가 비키니 위에 잘못 잡힌 오검출",
+        "eye": "오른팔은 접어 손을 귀 옆에, 왼팔은 수건을 짚음. 팔 둘·손 둘·다리 둘 이상 없음"
+      },
+      "user_approval": "응 분홍장이 올려줘",
+      "at": "2026-10-24"
+    }
+  },
+  "verified_outputs": [
+    {
+      "slot": "light",
+      "file": "분홍장이_light_glossy_promo_f.webp",
+      "sha256": "5141a79697923475ca1c4548aae3d839e56dcf371d49874be2d547afa2092236",
+      "thumbnail_sha256": "6a29ade123c199a0717f3a80f18a181c61af4901ddcde4d10e81ad38ed0f39ca"
+    },
+    {
+      "slot": "heavy",
+      "file": "분홍장이_heavy_glossy_promo_f.webp",
+      "sha256": "9af6a951dcbb26d502b96d585ff730096252c24878babcfb680bae73b1eca798",
+      "thumbnail_sha256": "83a209db9ff765f9f61d55933ef9af5677de11deb7f538b8d4010bc6a0e192a9"
+    },
+    {
+      "slot": "mobility",
+      "file": "분홍장이_mobility_glossy_promo_f.webp",
+      "sha256": "be8d8d2d694d38b9e0ca5eab8127fc0ea9e4224e54675d29df4915212a4e9407",
+      "thumbnail_sha256": "e9d7045ed9d5cb3d952a888e491f9c69cbc141cb02d5614f3c59819d6de3614d"
+    },
+    {
+      "slot": "light_overdrive",
+      "file": "분홍장이_light_overdrive_glossy_promo_f.webp",
+      "sha256": "8c8bb287ccdc787c8f1c712ad7b3f5fedcf310c3fd4ee3f96886ee7e2a14e5e8",
+      "thumbnail_sha256": "9a9c125a2243929977b085e9c328d11f85efa94fb4f52b1a9f4e4364f1b2eb09"
+    },
+    {
+      "slot": "heavy_overdrive",
+      "file": "분홍장이_heavy_overdrive_glossy_promo_f.webp",
+      "sha256": "21d6b2a69f3700a42ee01dd3b97c5d3760b69939e1c9ff91dda2eca5e442be9f",
+      "thumbnail_sha256": "88b14180918551df671d4c04a4550181642d61950c4bcb0139132b1f92ad4de9"
+    },
+    {
+      "slot": "mobility_overdrive",
+      "file": "분홍장이_mobility_overdrive_glossy_promo_f.webp",
+      "sha256": "eeec3ab31beb7c109f94e2e6a0caac557fe81b57222e8bfb7eae58a0cc3ca7d5",
+      "thumbnail_sha256": "be279677ebf80224cb7b876492c193ecc02ae7c1aca28f0b29cbc6b5e040b392"
+    },
+    {
+      "slot": "casual1",
+      "file": "분홍장이_glossy_promo_f_casual1.webp",
+      "sha256": "b4dec47c7cc409607dfb36f769f03e16c5f6cf885d04d4220d763fcf6586c660",
+      "thumbnail_sha256": "0141fc406f1d06295922303ed273a73ebfc2de23ee3a61d6055a8b9010210d92"
+    },
+    {
+      "slot": "casual2",
+      "file": "분홍장이_glossy_promo_f_casual2.webp",
+      "sha256": "2f81616a34de4a811175cbb89d6045484b2f7f0bf2f54ab9e8bf6698ec4ced35",
+      "thumbnail_sha256": "d32eeea555a05e4a632fe38df82c53dfbba0bb400ce913afbf7f303a34562e09"
+    },
+    {
+      "slot": "casual3",
+      "file": "분홍장이_glossy_promo_f_casual3.webp",
+      "sha256": "af8deefa2843d8e51d482590bf4b40a5821bcfb965730687988363d0bc58d6a2",
+      "thumbnail_sha256": "eb8c4a4657f6368532a4726b17d2da90e266bf6474c140b5ae449c431780212e"
+    }
+  ],
+  "at": "2026-10-24T23:57:53+00:00",
+  "scope": "State-only external completion. No generation, quota change, reservation release or image mutation. Original rejected slot preserved."
+}

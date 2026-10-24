@@ -4399,14 +4399,14 @@
       "id": "2026-10-24-9",
       "execution_id": "pkm-daily-2026-10-24T06-00-00Z",
       "owner": "pkm-daily",
-      "status": "deferred",
+      "status": "complete",
       "created_at": "2026-10-24T06:04:56+00:00",
       "queue": [
         {
           "no": 368,
           "name": "분홍장이",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "completed_externally",
           "slots": {
             "light": {
               "status": "accepted",
@@ -4942,6 +4942,84 @@
               "분홍장이_mobility_overdrive_glossy_promo_f.webp"
             ],
             "status": "verify_registration"
+          },
+          "external_evidence": {
+            "commits": {
+              "code": "62abc068871fc3a93d913c248010ab7427cc7543",
+              "img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+              "img2": "0d68f7ff58c7dbba0b29162b43c7c7bc6146b66b",
+              "img3": "a9591f7d177ee228a785553281ba8651217e5525"
+            },
+            "published": [
+              {
+                "file": "분홍장이_glossy_promo_f_casual1.webp",
+                "shard": 2,
+                "sha256": "b4dec47c7cc409607dfb36f769f03e16c5f6cf885d04d4220d763fcf6586c660"
+              },
+              {
+                "file": "분홍장이_glossy_promo_f_casual2.webp",
+                "shard": 2,
+                "sha256": "2f81616a34de4a811175cbb89d6045484b2f7f0bf2f54ab9e8bf6698ec4ced35"
+              },
+              {
+                "file": "분홍장이_glossy_promo_f_casual3.webp",
+                "shard": 2,
+                "sha256": "af8deefa2843d8e51d482590bf4b40a5821bcfb965730687988363d0bc58d6a2"
+              },
+              {
+                "file": "분홍장이_heavy_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "9af6a951dcbb26d502b96d585ff730096252c24878babcfb680bae73b1eca798"
+              },
+              {
+                "file": "분홍장이_heavy_overdrive_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "21d6b2a69f3700a42ee01dd3b97c5d3760b69939e1c9ff91dda2eca5e442be9f"
+              },
+              {
+                "file": "분홍장이_light_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "5141a79697923475ca1c4548aae3d839e56dcf371d49874be2d547afa2092236"
+              },
+              {
+                "file": "분홍장이_light_overdrive_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "8c8bb287ccdc787c8f1c712ad7b3f5fedcf310c3fd4ee3f96886ee7e2a14e5e8"
+              },
+              {
+                "file": "분홍장이_mobility_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "be8d8d2d694d38b9e0ca5eab8127fc0ea9e4224e54675d29df4915212a4e9407"
+              },
+              {
+                "file": "분홍장이_mobility_overdrive_glossy_promo_f.webp",
+                "shard": 2,
+                "sha256": "eeec3ab31beb7c109f94e2e6a0caac557fe81b57222e8bfb7eae58a0cc3ca7d5"
+              }
+            ],
+            "foreign_files": [
+              {
+                "file": "분홍장이_glossy_promo_f_casual2.webp",
+                "shard": 2,
+                "sha256": "2f81616a34de4a811175cbb89d6045484b2f7f0bf2f54ab9e8bf6698ec4ced35"
+              }
+            ],
+            "registered_files": [
+              "분홍장이_glossy_promo_f_casual1.webp",
+              "분홍장이_glossy_promo_f_casual2.webp",
+              "분홍장이_glossy_promo_f_casual3.webp",
+              "분홍장이_heavy_glossy_promo_f.webp",
+              "분홍장이_heavy_overdrive_glossy_promo_f.webp",
+              "분홍장이_light_glossy_promo_f.webp",
+              "분홍장이_light_overdrive_glossy_promo_f.webp",
+              "분홍장이_mobility_glossy_promo_f.webp",
+              "분홍장이_mobility_overdrive_glossy_promo_f.webp"
+            ]
+          },
+          "ended_at": "2026-10-24T23:57:53+00:00",
+          "external_completion_audit": {
+            "path": "records/automation/runs/2026-10-24-9/368/external-user-completion.json",
+            "sha256": "a8568626cfd209bb812dac3cfc4aa0792fd00149d11d18756a51877eba650983"
           }
         }
       ],
@@ -7406,8 +7484,83 @@
     "368": {
       "owner": "pkm-daily",
       "run": "2026-10-24-9",
-      "status": "held",
-      "at": "2026-10-24T06:04:56+00:00"
+      "status": "completed_externally",
+      "at": "2026-10-24T06:04:56+00:00",
+      "ended_at": "2026-10-24T23:57:53+00:00",
+      "reason": "external publication",
+      "evidence": {
+        "commits": {
+          "code": "62abc068871fc3a93d913c248010ab7427cc7543",
+          "img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+          "img2": "0d68f7ff58c7dbba0b29162b43c7c7bc6146b66b",
+          "img3": "a9591f7d177ee228a785553281ba8651217e5525"
+        },
+        "published": [
+          {
+            "file": "분홍장이_glossy_promo_f_casual1.webp",
+            "shard": 2,
+            "sha256": "b4dec47c7cc409607dfb36f769f03e16c5f6cf885d04d4220d763fcf6586c660"
+          },
+          {
+            "file": "분홍장이_glossy_promo_f_casual2.webp",
+            "shard": 2,
+            "sha256": "2f81616a34de4a811175cbb89d6045484b2f7f0bf2f54ab9e8bf6698ec4ced35"
+          },
+          {
+            "file": "분홍장이_glossy_promo_f_casual3.webp",
+            "shard": 2,
+            "sha256": "af8deefa2843d8e51d482590bf4b40a5821bcfb965730687988363d0bc58d6a2"
+          },
+          {
+            "file": "분홍장이_heavy_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "9af6a951dcbb26d502b96d585ff730096252c24878babcfb680bae73b1eca798"
+          },
+          {
+            "file": "분홍장이_heavy_overdrive_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "21d6b2a69f3700a42ee01dd3b97c5d3760b69939e1c9ff91dda2eca5e442be9f"
+          },
+          {
+            "file": "분홍장이_light_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "5141a79697923475ca1c4548aae3d839e56dcf371d49874be2d547afa2092236"
+          },
+          {
+            "file": "분홍장이_light_overdrive_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "8c8bb287ccdc787c8f1c712ad7b3f5fedcf310c3fd4ee3f96886ee7e2a14e5e8"
+          },
+          {
+            "file": "분홍장이_mobility_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "be8d8d2d694d38b9e0ca5eab8127fc0ea9e4224e54675d29df4915212a4e9407"
+          },
+          {
+            "file": "분홍장이_mobility_overdrive_glossy_promo_f.webp",
+            "shard": 2,
+            "sha256": "eeec3ab31beb7c109f94e2e6a0caac557fe81b57222e8bfb7eae58a0cc3ca7d5"
+          }
+        ],
+        "foreign_files": [
+          {
+            "file": "분홍장이_glossy_promo_f_casual2.webp",
+            "shard": 2,
+            "sha256": "2f81616a34de4a811175cbb89d6045484b2f7f0bf2f54ab9e8bf6698ec4ced35"
+          }
+        ],
+        "registered_files": [
+          "분홍장이_glossy_promo_f_casual1.webp",
+          "분홍장이_glossy_promo_f_casual2.webp",
+          "분홍장이_glossy_promo_f_casual3.webp",
+          "분홍장이_heavy_glossy_promo_f.webp",
+          "분홍장이_heavy_overdrive_glossy_promo_f.webp",
+          "분홍장이_light_glossy_promo_f.webp",
+          "분홍장이_light_overdrive_glossy_promo_f.webp",
+          "분홍장이_mobility_glossy_promo_f.webp",
+          "분홍장이_mobility_overdrive_glossy_promo_f.webp"
+        ]
+      }
     },
     "369": {
       "owner": "pkm-daily",
