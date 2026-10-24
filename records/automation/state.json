@@ -5941,7 +5941,7 @@
               }
             },
             "mobility": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T17:42:51+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/mobility/prompt.txt",
@@ -5960,7 +5960,11 @@
                 "session_only": true,
                 "webp_sha256": "057dd9b11ff1c17f9172f0a670fe1f0da691cfb809d8733a89c53b7310daa83b"
               },
-              "received_at": "2026-10-24T17:44:52+00:00"
+              "received_at": "2026-10-24T17:44:52+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-12/375/mobility/qa.json",
+                "sha256": "c0426f4def869c6c4534d92e90194f4e7836c680210e62552aa8816de3a884e1"
+              }
             }
           },
           "reason": "light visual QA: Adult single woman, head and both boots inside 2:3 frame. Two arms lead to gloved hands, two legs continuous with boots, no extra limb seen. Fingers overlap in curled hands and tool detects zero hands; full digit count uncertain. Teal-gray pointed plates carry steel motif. Long hair reads partly ribbon-like rather than locs and leg proportions exaggerated. Actual canonical comparison recorded; preserve hair/proportion mismatch for post-upload review.",
@@ -5975,7 +5979,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:44:52+00:00"
+      "updated_at": "2026-10-24T17:45:01+00:00"
     }
   ],
   "claims": {
@@ -6561,9 +6565,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
