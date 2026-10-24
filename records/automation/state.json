@@ -6095,7 +6095,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T17:56:04+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/casual2/prompt.txt",
@@ -6107,7 +6107,14 @@
               },
               "references": {
                 "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-12/375/casual2/original.png",
+                "sha256": "603c5d6a431f769626094de671ee754cb47113d3470e259ed3e872293fe93f7f",
+                "session_only": true,
+                "webp_sha256": "7339b74a368e090b25a61f7703f58e41ba3f705cc0c2ae1cd7c5a973d300dfc4"
+              },
+              "received_at": "2026-10-24T17:58:04+00:00"
             }
           },
           "reason": "casual1 visual QA: Lantern festival riverside lane, full-body high viewpoint, teal short jumpsuit and offered grilled rice snack distinguish scene from recent comparisons. Identity retained, camera angle changes but face tilt remains close to canonical. Hair ornaments and multiple source accessories carried over despite wardrobe reset/subtle axis. Two arms and two legs attached; grip fingers partly hidden by skewer, hanging hand shows thumb and four fingers; toes visible with natural ankle continuity. Tool ok two hands. Preserve ornament and source-influence mismatch.",
@@ -6150,7 +6157,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:56:04+00:00"
+      "updated_at": "2026-10-24T17:58:05+00:00"
     }
   ],
   "claims": {
@@ -6736,9 +6743,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
