@@ -3871,6 +3871,21 @@
                 "path": "records/automation/runs/2026-10-24-8/367/light/user-exception.json",
                 "sha256": "96206436f61ba1875ffa2d11f60e3b53cfd112b4bd8f9783ca502f0bba170a4e"
               }
+            },
+            "heavy": {
+              "status": "in_flight",
+              "at": "2026-10-24T04:08:42+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-8/367/heavy/prompt.txt",
+                "sha256": "5d3334439352638c45b5c65a487a46871ccb897ef1d3a05a464b5b3b8cbab35a"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-8/367/heavy/ui.json",
+                "sha256": "900a0d077585f025d8bd414bf77d54c57664812a5c6ae159d5e8ae1ecb045d20"
+              },
+              "references": {
+                "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+              }
             }
           },
           "reason": "light visual QA: Adult Huntail identity, orange fin/ring motifs, blue armor, full body and two connected arms/legs. Near glove visibly has six digit-like projections; far glove five overlapping digits, thumb orientation partly uncertain. Feet enclosed in boots, knee/ankle continuity preserved. Tool ok detected zero hands and cannot certify fingers. Bun is high rather than assigned low; face similarity to Clamperl retained as concern. Preserve failed QA for post-upload user review.",
@@ -3885,7 +3900,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T04:08:26+00:00"
+      "updated_at": "2026-10-24T04:08:42+00:00"
     }
   ],
   "claims": {
@@ -4442,9 +4457,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
