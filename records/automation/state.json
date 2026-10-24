@@ -3688,10 +3688,98 @@
               "pkm-atelier-img-3": "405af8c5ce043af5ec4aff3f98d52389c1858bd5"
             },
             "at": "2026-10-24T02:22:01+00:00",
-            "status": "preflight_checked"
+            "status": "published_registered_7_of_9",
+            "image_commit": "c46c3d798bc8b323e1aaece05438599dde32e725",
+            "thumbnail_commit": "fd96f19c83dc765d246df9e48ba672faf1588aa4",
+            "registration_commit": "7990edda260b4d38468401040ca4221d5a17f816",
+            "verified_at": "2026-10-24T02:25:26+00:00",
+            "outputs": [
+              {
+                "slot": "light",
+                "file": "진주몽_light_glossy_promo_f.webp",
+                "sha256": "7a53d71387423e1f4f224043fa107d626eeb3a7ced9b6317d0b6b6a1c64f9b3b",
+                "source_sha256": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {}
+              },
+              {
+                "slot": "heavy",
+                "file": "진주몽_heavy_glossy_promo_f.webp",
+                "sha256": "34c33afbd7205d645b21ba5ace04f779a0b1257281e83648d9a0ae75f1ec7132",
+                "source_sha256": "9ea2fdf8865bf7ddba765b807cec848c36d2926e244016a2d5d21819b16dfdeb",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
+                }
+              },
+              {
+                "slot": "light_overdrive",
+                "file": "진주몽_light_overdrive_glossy_promo_f.webp",
+                "sha256": "97a450116e49698429cd3099c5d52988e8fd27d3291baa35bc99ed326bfbb920",
+                "source_sha256": "01190c324190c7dcbee339755b38d1ec130212a2f66d8ba1edd4688b6bc21ce5",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
+                }
+              },
+              {
+                "slot": "heavy_overdrive",
+                "file": "진주몽_heavy_overdrive_glossy_promo_f.webp",
+                "sha256": "448609051531b70bcddc1aeabaa61f77cc974179553a4cd12b3db28c06dc7f2b",
+                "source_sha256": "f364e1c3ced27bd8d4954b099ab0bf6657d33358d05e7e7f0db0a93e76c27bdc",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "heavy": "9ea2fdf8865bf7ddba765b807cec848c36d2926e244016a2d5d21819b16dfdeb"
+                }
+              },
+              {
+                "slot": "casual1",
+                "file": "진주몽_glossy_promo_f_casual1.webp",
+                "sha256": "6f43bfd5d203e9b0ecc59d149d4b721b4d30bcbd858d6b8a1331c173e2cc8418",
+                "source_sha256": "b2e66699210784271d33ea9e8edc305f435cf26af26c36601fa26224489ebdf7",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
+                }
+              },
+              {
+                "slot": "casual2",
+                "file": "진주몽_glossy_promo_f_casual2.webp",
+                "sha256": "d019d027bb7314313ea192ea7bde058c58a8de2991dd4bc3a740ee6ed2d62729",
+                "source_sha256": "9e619666c5714ed4ae86f5e3d81cac2c204738dceb2ee1dbaa06f8acfe91dba5",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
+                }
+              },
+              {
+                "slot": "casual3",
+                "file": "진주몽_glossy_promo_f_casual3.webp",
+                "sha256": "0a011f28457b4ed4adf49f2e07ad47874a2704099ca90932daff9b69ccfd697f",
+                "source_sha256": "8a6e8ead46d6117cabac30346308d175940b3201ed639c2b31478f05dbe6b1d5",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "4c3858851ef0e72ac8683bda670194c929d994f002d07079e298e25b2e5d5a45"
+                }
+              }
+            ],
+            "remote_git_image_and_thumbnail_bytes_verified": true,
+            "pages_http_bytes_verified": false,
+            "http_verification_failures": [
+              {
+                "reason": "Public Pages HTTP bytes not re-fetched: prior environment proxy 403; Git remote bytes verified and deployment Actions checked separately."
+              }
+            ]
           },
           "publication": {
-            "status": "partial_preflight_checked",
+            "status": "partial_published_registered",
             "at": "2026-10-24T02:22:01+00:00",
             "repository": "pkm-atelier-img-3",
             "files": {
@@ -3703,6 +3791,18 @@
               "img/진주몽_glossy_promo_f_casual2.webp": "d019d027bb7314313ea192ea7bde058c58a8de2991dd4bc3a740ee6ed2d62729",
               "img/진주몽_glossy_promo_f_casual3.webp": "0a011f28457b4ed4adf49f2e07ad47874a2704099ca90932daff9b69ccfd697f"
             }
+          },
+          "own_publication": {
+            "files": [
+              "진주몽_glossy_promo_f_casual1.webp",
+              "진주몽_glossy_promo_f_casual2.webp",
+              "진주몽_glossy_promo_f_casual3.webp",
+              "진주몽_heavy_glossy_promo_f.webp",
+              "진주몽_heavy_overdrive_glossy_promo_f.webp",
+              "진주몽_light_glossy_promo_f.webp",
+              "진주몽_light_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
           }
         }
       ],
