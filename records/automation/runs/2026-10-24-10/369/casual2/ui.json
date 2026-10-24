@@ -1,0 +1,188 @@
+{
+  "storage": {
+    "last": "시라칸",
+    "cards": {
+      "시라칸": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "relieved",
+            "pose": "watering",
+            "orient": "three_quarter_back",
+            "scene": "Late-afternoon light crosses the terracotta seedling pots and a small brass watering can on the windowsill; gardening scissors rest beside a dry clipped leaf.",
+            "outfit": "A rust-colored one-shoulder cropped knit top showing the midriff, with separate tan trousers and a narrow brown belt.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "hobbies_leisure",
+            "catCustom": "",
+            "ex": "hobby_gardening",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Relicanth (시라칸) personified, water / rock type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened\nPose: Tilt a small watering can toward plants with a clear grip and believable balance.\nOrientation: rear three-quarter view with natural equipment depth and occlusion\nScene: Late-afternoon light crosses the terracotta seedling pots and a small brass watering can on the windowsill; gardening scissors rest beside a dry clipped leaf.\nOutfit and props: A rust-colored one-shoulder cropped knit top showing the midriff, with separate tan trousers and a narrow brown belt.\nCategory: Show a personal hobby or restful leisure moment with a specific action and relevant objects. Pokémon motifs may appear naturally in the activity, without requiring armor, a uniform or a companion.\nExample scene: Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "locks": [
+    {
+      "id": "lock-expression",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-category",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-example",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-pose",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-orientation",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-frame",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-lens",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-aspect",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-overall_intensity",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-skin_exposure",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-action_level",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-source_influence",
+      "pressed": "true"
+    },
+    {
+      "id": "lock-axis-separates_preference",
+      "pressed": "true"
+    }
+  ],
+  "plan": {
+    "cut": 2,
+    "cat": "hobbies_leisure",
+    "ex": "hobby_gardening",
+    "garments": [
+      "knit_top",
+      "trousers"
+    ],
+    "orient": "three_quarter_back",
+    "frame": "chest_up",
+    "pose": "watering",
+    "expr": "relieved",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "one-shoulder cut",
+      "bare midriff"
+    ],
+    "lead": "light"
+  },
+  "custom_inputs": {
+    "scene": "Late-afternoon light crosses the terracotta seedling pots and a small brass watering can on the windowsill; gardening scissors rest beside a dry clipped leaf.",
+    "outfit": "A rust-colored one-shoulder cropped knit top showing the midriff, with separate tan trousers and a narrow brown belt.",
+    "reason": "Gardening example already specifies watering seedlings and trimming leaves; light and pot materials add detail, while knit top and trousers realize the reserved clothing without repeating the pose.",
+    "axes_reason": "Watering is gentle balanced activity; earth colors provide balanced source influence; top and trousers are separates."
+  },
+  "camera_reason": "Tool has no size argument.",
+  "captured_at": "2026-10-24T08:20:40.941Z"
+}

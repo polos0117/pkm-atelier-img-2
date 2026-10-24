@@ -4949,14 +4949,14 @@
       "id": "2026-10-24-10",
       "execution_id": "pkm-daily-2026-10-24T08-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T07:59:10+00:00",
       "queue": [
         {
           "no": 369,
           "name": "시라칸",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -5154,6 +5154,26 @@
                 "path": "records/automation/runs/2026-10-24-10/369/casual1/tool-failure.json",
                 "sha256": "5bc604ca59b869118fd87b17e69dab60a7f9d81138c89aa765473905873170f2"
               }
+            },
+            "casual2": {
+              "status": "in_flight",
+              "at": "2026-10-24T08:21:59+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-10/369/casual2/prompt.txt",
+                "sha256": "34f6ed5719d64bd728fc23a2a99742156de264a9260899e82fe8bd56c553906c"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-10/369/casual2/ui.json",
+                "sha256": "b0d897a9fa90429346683afb0d034de285f193ecdf43f5177d1058b1b9301f05"
+              },
+              "approval": {
+                "path": "records/automation/runs/2026-10-24-10/369/casual2/independent-slot-approval.json",
+                "sha256": "6fab8ec36a879ce3e7a6bf938cb7982aa0c3b1f797dbee72409a622541a6e193"
+              },
+              "references": {
+                "light": "5373bd3eb7f04837d567a077a33ec551911357e76ebaca66277437972016c110"
+              },
+              "independent_slot_after_terminal_failure": true
             }
           },
           "reason": "casual1 terminal output moderation_blocked sexual request 7cbd4b72-0a0e-47c2-9fbb-079151dd133c; no output file, no retry; independent casual2/3 may continue",
@@ -5185,6 +5205,16 @@
                 "path": "records/automation/runs/2026-10-24-10/369/mobility_overdrive/user-exception.json",
                 "sha256": "29a9aae2036d6cd3a59054627239c535b57474dfb17861143887ddccb78ccafc"
               }
+            }
+          ],
+          "independent_continuations": [
+            {
+              "card": 369,
+              "slot": "casual2",
+              "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+              "source_thread": "01a162af-e16b-742c-a1b3-0baca467d02d",
+              "scope": "Independent slot using its required approved reference only; retain casual1 refusal without retry; one attempt for this slot",
+              "at": "2026-10-24T08:21:59+00:00"
             }
           ]
         }
