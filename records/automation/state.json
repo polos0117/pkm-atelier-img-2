@@ -36,7 +36,8 @@
       372,
       375,
       381,
-      382
+      382,
+      383
     ]
   },
   "runs": [
@@ -7274,6 +7275,23 @@
         }
       ],
       "updated_at": "2026-10-24T22:23:29+00:00"
+    },
+    {
+      "id": "2026-10-24-15",
+      "execution_id": "pkm-daily-2026-10-25T00-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-24T23:58:37+00:00",
+      "queue": [
+        {
+          "no": 383,
+          "name": "그란돈",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-24T23:58:37+00:00"
     }
   ],
   "claims": {
@@ -7591,6 +7609,12 @@
       "run": "2026-10-24-14",
       "status": "complete",
       "at": "2026-10-24T21:58:09+00:00"
+    },
+    "383": {
+      "owner": "pkm-daily",
+      "run": "2026-10-24-15",
+      "status": "held",
+      "at": "2026-10-24T23:58:37+00:00"
     }
   },
   "blocked_candidates": {
@@ -7841,16 +7865,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -7946,9 +7970,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -8191,9 +8215,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-latias-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:49:47+11:00",
+      "session": "registeel-casual3-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
+      "at": "2026-10-25T06:52:03+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
@@ -8215,6 +8239,20 @@
       "session": "hippopotas-20261025-d3bb",
       "file": "records/casual-reservations/hippopotas-20261025-d3bb.json",
       "at": "2026-10-25T07:06:10+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "450": {
+      "card": "하마돈",
+      "session": "hippowdon-skorupi-20261025-da8969",
+      "file": "records/casual-reservations/hippowdon-skorupi-20261025-da8969.json",
+      "at": "2026-10-25T10:18:35+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "451": {
+      "card": "스콜피",
+      "session": "hippowdon-skorupi-20261025-da8969",
+      "file": "records/casual-reservations/hippowdon-skorupi-20261025-da8969.json",
+      "at": "2026-10-25T10:18:35+11:00",
       "status": "external_reservation_do_not_take_over"
     }
   },
@@ -8240,7 +8278,8 @@
     "2026-10-25": [
       375,
       381,
-      382
+      382,
+      383
     ]
   },
   "executions": {
@@ -8340,6 +8379,13 @@
       "at": "2026-10-24T21:58:09+00:00",
       "characters": [
         382
+      ]
+    },
+    "pkm-daily-2026-10-25T00-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-24T23:58:37+00:00",
+      "characters": [
+        383
       ]
     }
   }
