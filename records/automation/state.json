@@ -6338,6 +6338,21 @@
                 "path": "records/automation/runs/2026-10-24-13/381/light/user-exception.json",
                 "sha256": "5ebd0a16cfb82905114b31cbe3e92f946df80fb98222bf5c1d65d9313b31d69c"
               }
+            },
+            "heavy": {
+              "status": "in_flight",
+              "at": "2026-10-24T20:08:52+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-13/381/heavy/prompt.txt",
+                "sha256": "5ea0f6f6f1d8c502243a41ddd0c90e0d766aaf4e97d4e57732f9252448920206"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-13/381/heavy/ui.json",
+                "sha256": "b2b20050c6d13d52aae55b0966fd6f6e2a58eebd5612a40771539c7dc07baaa2"
+              },
+              "references": {
+                "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+              }
             }
           },
           "reason": "light visual QA: One adult woman, full head and both pointed boots present; legs visibly exaggerated in length and narrow proportions versus natural-proportion instruction. Two arms and two legs connect continuously. Open hand shows thumb plus four finger silhouettes, lowered hand digits overlap and exact five-digit count remains uncertain. Tool ok but detected zero hands, so not independent finger confirmation. Chignon has long loose strands; slim plates include broad trailing fins. User post-upload quality adoption without regeneration.",
@@ -6352,7 +6367,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T20:08:37+00:00"
+      "updated_at": "2026-10-24T20:08:52+00:00"
     }
   ],
   "claims": {
@@ -6811,9 +6826,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
