@@ -3281,14 +3281,14 @@
       "id": "2026-10-24-7",
       "execution_id": "pkm-daily-2026-10-24T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T01:59:45+00:00",
       "queue": [
         {
           "no": 366,
           "name": "진주몽",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -3452,7 +3452,7 @@
               }
             },
             "casual1": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T02:15:51+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-7/366/casual1/prompt.txt",
@@ -3476,7 +3476,17 @@
                 "session_only": true,
                 "webp_sha256": "6f43bfd5d203e9b0ecc59d149d4b721b4d30bcbd858d6b8a1331c173e2cc8418"
               },
-              "received_at": "2026-10-24T02:17:28+00:00"
+              "received_at": "2026-10-24T02:17:28+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual1/qa-rejected.json",
+                "sha256": "4be6a3874ca883fefb47738a3aea7a066fdcea40b87e24c6f8cc1e28d9257506"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual1/user-exception.json",
+                "sha256": "37ee839d30fe76e3baeb46696c09a76a51f727b21a59f6408e12b5d5d1437744"
+              }
             }
           },
           "reason": "casual1 visual QA: Adult identity and two arms/two legs retained; folded wrists connect naturally. Near hand shows four curved fingers with thumb occluded by forearm; far hand shows four curled knuckles with thumb hidden, exact count not fully verifiable. Both booted feet and knees continuous. Tool ok detected zero hands, not digit certification. Jacket shell trim and metallic finish converge toward canonical armor styling beyond one small source accent: visual wardrobe QA failure retained. Actual stage side standing trousers scene differs from recent Walrein train walk, Sealeo formal hall jumpsuit and Spheal courtyard crouch in activity, garment and composition.",
@@ -3507,6 +3517,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-7/366/heavy_overdrive/user-exception.json",
                 "sha256": "ba2fbd5911f146181e7058ea9b44b9a1e25b3a14a67a290e7780c29ad3571af2"
+              }
+            },
+            {
+              "reason": "casual1 visual QA: Adult identity and two arms/two legs retained; folded wrists connect naturally. Near hand shows four curved fingers with thumb occluded by forearm; far hand shows four curled knuckles with thumb hidden, exact count not fully verifiable. Both booted feet and knees continuous. Tool ok detected zero hands, not digit certification. Jacket shell trim and metallic finish converge toward canonical armor styling beyond one small source accent: visual wardrobe QA failure retained. Actual stage side standing trousers scene differs from recent Walrein train walk, Sealeo formal hall jumpsuit and Spheal courtyard crouch in activity, garment and composition.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-7/366/casual1/user-exception.json",
+                "sha256": "37ee839d30fe76e3baeb46696c09a76a51f727b21a59f6408e12b5d5d1437744"
               }
             }
           ],
