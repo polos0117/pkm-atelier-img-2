@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-salamence-beldum-20261025",
- "at": "2026-10-25T03:48:51+11:00",
+ "at": "2026-10-25T04:01:39+11:00",
  "characters": [
   {
    "species": "salamence-20261025",
@@ -90,7 +90,7 @@
   {
    "species": "beldum-20261025",
    "card": "메탕",
-   "at": "2026-10-25T03:48:51+11:00",
+   "at": "2026-10-25T04:01:39+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -116,12 +116,13 @@
       "off-shoulder neckline",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "festivals_contests",
-     "ex": "fest_lantern",
+     "cat": "travel_exploration",
+     "ex": "travel_station",
      "expr": "curious",
      "pose": "cross_legged",
      "orient": "seated_twist",
@@ -139,10 +140,10 @@
       "trousers"
      ],
      "expose": [
-      "mini length",
-      "halter neck"
+      "off-shoulder neckline",
+      "side cutouts"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
      "cut": 3,
@@ -167,7 +168,8 @@
       "one-shoulder cut",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ]
   }
