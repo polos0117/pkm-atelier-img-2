@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -6791,7 +6791,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T22:00:54+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/heavy/prompt.txt",
@@ -6810,7 +6810,17 @@
                 "session_only": true,
                 "webp_sha256": "6b3d1a67b7b4782d07ad062caa29b74e984d20f6f8f5d093cbe67df2948d46ff"
               },
-              "received_at": "2026-10-24T22:02:27+00:00"
+              "received_at": "2026-10-24T22:02:27+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy/qa-rejected.json",
+                "sha256": "f9de796596502bb4605200dfbd2d61ae9329717aa227b77ace4d18cadd206892"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy/user-exception.json",
+                "sha256": "d455ed8b8ad2fe43abbeec73290c6a68b03f6d08b8c84db6ee3cd8194c0016b4"
+              }
             }
           },
           "reason": "heavy visual QA: Face, long wavy hair and palette retained; visibly broader layered chest/shoulder/forearm/thigh/shin plates, no weapon. Head and boots inside but hair/sash clipped and boot margin narrow; elongated leg proportions persist. Two arms and legs connected naturally, gloved fingers overlap and far-hand thumb is partly hidden, so all digits uncertain. Actual overlay viewed, tool ok with zero detected hands does not certify finger anatomy.",
@@ -6820,6 +6830,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-14/382/light/user-exception.json",
                 "sha256": "11b825462923b877928b05be249731f8a2993ea74d55ed7a99b2aabd2f21bc4e"
+              }
+            },
+            {
+              "reason": "heavy visual QA: Face, long wavy hair and palette retained; visibly broader layered chest/shoulder/forearm/thigh/shin plates, no weapon. Head and boots inside but hair/sash clipped and boot margin narrow; elongated leg proportions persist. Two arms and legs connected naturally, gloved fingers overlap and far-hand thumb is partly hidden, so all digits uncertain. Actual overlay viewed, tool ok with zero detected hands does not certify finger anatomy.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-14/382/heavy/user-exception.json",
+                "sha256": "d455ed8b8ad2fe43abbeec73290c6a68b03f6d08b8c84db6ee3cd8194c0016b4"
               }
             }
           ]
