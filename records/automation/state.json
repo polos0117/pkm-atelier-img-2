@@ -31,7 +31,8 @@
       363,
       366,
       367,
-      368
+      368,
+      369
     ]
   },
   "runs": [
@@ -4943,6 +4944,23 @@
       "updated_at": "2026-10-24T06:32:33+00:00",
       "deferred_at": "2026-10-24T06:32:33+00:00",
       "defer_reason": "Gorebyss 8/9 images, thumbnails and catalog deployed and remote bytes verified. casual2 output moderation_blocked sexual request 63f416be-d9e6-4f4a-a3c1-5e055b063c09, no file, no retry. Preserve refusal and held claim; no additional character in this execution."
+    },
+    {
+      "id": "2026-10-24-10",
+      "execution_id": "pkm-daily-2026-10-24T08-00-00Z",
+      "owner": "pkm-daily",
+      "status": "active",
+      "created_at": "2026-10-24T07:59:10+00:00",
+      "queue": [
+        {
+          "no": 369,
+          "name": "시라칸",
+          "style": "glossy_promo",
+          "status": "claimed",
+          "slots": {}
+        }
+      ],
+      "updated_at": "2026-10-24T07:59:10+00:00"
     }
   ],
   "claims": {
@@ -5155,6 +5173,12 @@
       "run": "2026-10-24-9",
       "status": "held",
       "at": "2026-10-24T06:04:56+00:00"
+    },
+    "369": {
+      "owner": "pkm-daily",
+      "run": "2026-10-24-10",
+      "status": "held",
+      "at": "2026-10-24T07:59:10+00:00"
     }
   },
   "blocked_candidates": {
@@ -5372,9 +5396,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -5400,16 +5424,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -5593,6 +5617,34 @@
       "file": "records/casual-reservations/bronzong-bonsly-18377-20261024.json",
       "at": "2026-10-24T16:40:07+11:00",
       "status": "external_reservation_do_not_take_over"
+    },
+    "370": {
+      "card": "사랑동이",
+      "session": "luvdisc-bagon-4a3af028",
+      "file": "records/casual-reservations/luvdisc-bagon-4a3af028.json",
+      "at": "2026-10-24T18:18:56+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "371": {
+      "card": "아공이",
+      "session": "luvdisc-bagon-4a3af028",
+      "file": "records/casual-reservations/luvdisc-bagon-4a3af028.json",
+      "at": "2026-10-24T18:45:41+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "518": {
+      "card": "몽얌나",
+      "session": "musharna-pidove-20261024-e600",
+      "file": "records/casual-reservations/musharna-pidove-20261024-e600.json",
+      "at": "2026-10-24T17:33:13+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "519": {
+      "card": "콩둘기",
+      "session": "musharna-pidove-20261024-e600",
+      "file": "records/casual-reservations/musharna-pidove-20261024-e600.json",
+      "at": "2026-10-24T17:33:13+11:00",
+      "status": "external_reservation_do_not_take_over"
     }
   },
   "daily_kst": {
@@ -5610,7 +5662,8 @@
       363,
       366,
       367,
-      368
+      368,
+      369
     ]
   },
   "executions": {
@@ -5668,6 +5721,13 @@
       "at": "2026-10-24T06:04:56+00:00",
       "characters": [
         368
+      ]
+    },
+    "pkm-daily-2026-10-24T08-00-00Z": {
+      "owner": "pkm-daily",
+      "at": "2026-10-24T07:59:10+00:00",
+      "characters": [
+        369
       ]
     }
   }
