@@ -3062,6 +3062,21 @@
                 "path": "records/automation/runs/2026-10-23-6/363/mobility_overdrive/user-exception.json",
                 "sha256": "7ac4867df5f9a337e6f641e2736ba603dba837f2c84657f2f59e11cbea9bff5a"
               }
+            },
+            "casual1": {
+              "status": "in_flight",
+              "at": "2026-10-24T00:15:20+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual1/prompt.txt",
+                "sha256": "7c28b889c24c1090eba90eb623626ce2d731589e3bfa23a06ff9c92aaa398cbd"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-23-6/363/casual1/ui.json",
+                "sha256": "b40bc41b0e40065cfa4b4e2b3f01b4659948dfdbf41d6cba0d7082cfed656bb6"
+              },
+              "references": {
+                "light": "661b8f5909665d62a525b630b64d0a8d4f6b786efdc82e315a481bb33595feed"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Same adult face pose camera and hands as mobility, blue opened thruster covers. Two continuous arms and crossed legs, two boots. Right palm thumb and four fingers; left glove overlapping digits partly occluded, exact count uncertain. Crops show connected wrists and ankles, no extra limb. Right-side trailing costume panel length and spread differ substantially and reach frame edge; strict unchanged pieces and clear margin fail. Preserve visual failure for user review.",
@@ -3090,7 +3105,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T00:13:46+00:00"
+      "updated_at": "2026-10-24T00:15:20+00:00"
     }
   ],
   "claims": {
@@ -3502,9 +3517,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
