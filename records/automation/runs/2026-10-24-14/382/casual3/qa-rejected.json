@@ -1,0 +1,41 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "d2584dda5fe8d1640cbeefe9cace3b2aed0389f80d1ac715f9e0ae7569f9c3cf",
+  "observations": "Map desk, brochures and long dress distinguish this front full-body scene from previous two rear views. Face/hair retained, but gaze stays toward camera rather than checking map, lean-back support unclear, long straight skirt becomes high-slit wrap and map/brochures include tiny lettering despite no-text instruction. Both arms continuous to map grips; visible fingers curl naturally, thumbs partly behind paper and cannot certify hidden digits. Front leg/ankle continuous with five visible toes in sandal; rear leg mostly hidden by dress and rear toes partly occluded. Original/crops/actual overlay viewed, tool ok two hands. Body legs remain elongated; head has tight margin.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": "Front leg continuous with sandal and five visible toes; rear leg mostly concealed by skirt, second foot visible but its full toe count is occluded.",
+    "hands": "Map desk, brochures and long dress distinguish this front full-body scene from previous two rear views. Face/hair retained, but gaze stays toward camera rather than checking map, lean-back support unclear, long straight skirt becomes high-slit wrap and map/brochures include tiny lettering despite no-text instruction. Both arms continuous to map grips; visible fingers curl naturally, thumbs partly behind paper and cannot certify hidden digits. Front leg/ankle continuous with five visible toes in sandal; rear leg mostly hidden by dress and rear toes partly occluded. Original/crops/actual overlay viewed, tool ok two hands. Body legs remain elongated; head has tight margin.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Map desk, brochures and long dress distinguish this front full-body scene from previous two rear views. Face/hair retained, but gaze stays toward camera rather than checking map, lean-back support unclear, long straight skirt becomes high-slit wrap and map/brochures include tiny lettering despite no-text instruction. Both arms continuous to map grips; visible fingers curl naturally, thumbs partly behind paper and cannot certify hidden digits. Front leg/ankle continuous with five visible toes in sandal; rear leg mostly hidden by dress and rear toes partly occluded. Original/crops/actual overlay viewed, tool ok two hands. Body legs remain elongated; head has tight margin."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.99,
+        "arm": "R",
+        "gap": 0.09
+      },
+      {
+        "i": 1,
+        "label_side": "R",
+        "score": 0.83,
+        "arm": "dup",
+        "gap": 0.09
+      }
+    ],
+    "measure": {
+      "shoulder_px": 137.6,
+      "arm_R_ratio": 0.41,
+      "arm_R_angle": 77
+    },
+    "file": "/workspace/generated_images/exec-90c71288-d356-4cb1-9dc1-f7af1411f1a4.png"
+  },
+  "diversity_comparison": "Actually viewed comparison sheet: Metang lantern snack jumpsuit, park berry overalls, rear vanity lingerie; Registeel textile work dress, kitchen snack jumpsuit, pool reclining bikini; Regice rooftop blanket outfit, stage costume, blue slip table. Kyogre plan: home satin shirt/shorts and teapot with environmental low-angle turn; dressing-room fitting route in halter garter fashion with walking over-shoulder three-quarter view; evening travel-center map desk in structured strapless long dress with full-body lean. Activities, locations and silhouettes differ; actual results must still be compared after generation, and any similarity or pose mismatch will remain in QA.\nLatest published comparison sheet also directly viewed: Latios tatami seated wrap, backstage rear maid/program and campsite blanket folding; Hippopotas ruin picnic tartan wrap, kitchen apron fruit, seated pool bikini; Lucario poolside rear swimwear, orchard laughing white blouse/blue skirt, basket-shelf outfit. Kyogre planned satin home shirt/shorts, fitting passage garter fashion and evening map-desk long dress avoid their primary activities and locations. Similar blue palettes and turn-back views remain risks to check in actual outputs. Source image hashes recorded in recent-comparison-evidence.json.\n"
+}

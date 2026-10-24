@@ -6751,14 +6751,14 @@
       "id": "2026-10-24-14",
       "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T21:58:09+00:00",
       "queue": [
         {
           "no": 382,
           "name": "가이오가",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7015,7 +7015,7 @@
               }
             },
             "casual3": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T22:15:15+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-14/382/casual3/prompt.txt",
@@ -7034,7 +7034,17 @@
                 "session_only": true,
                 "webp_sha256": "df0b47e0d036365a502de2265f3657437000b7b990754d54b807322ce828b6ec"
               },
-              "received_at": "2026-10-24T22:17:11+00:00"
+              "received_at": "2026-10-24T22:17:11+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual3/qa-rejected.json",
+                "sha256": "5c2b46a36c7b7030565e35af8d86a3fbec8f36f095e01bf707dcbf154d0dc18c"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual3/user-exception.json",
+                "sha256": "659c8e38ea9659c45988c08675e6f652cbc9b442ca58429e7e99078517db84ce"
+              }
             }
           },
           "reason": "casual3 visual QA: Map desk, brochures and long dress distinguish this front full-body scene from previous two rear views. Face/hair retained, but gaze stays toward camera rather than checking map, lean-back support unclear, long straight skirt becomes high-slit wrap and map/brochures include tiny lettering despite no-text instruction. Both arms continuous to map grips; visible fingers curl naturally, thumbs partly behind paper and cannot certify hidden digits. Front leg/ankle continuous with five visible toes in sandal; rear leg mostly hidden by dress and rear toes partly occluded. Original/crops/actual overlay viewed, tool ok two hands. Body legs remain elongated; head has tight margin.",
@@ -7093,6 +7103,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-14/382/casual2/user-exception.json",
                 "sha256": "ef2bb1b3702d10f0390a621d8c5060de968daa9bb1b9934255f9c3e4974ca8af"
+              }
+            },
+            {
+              "reason": "casual3 visual QA: Map desk, brochures and long dress distinguish this front full-body scene from previous two rear views. Face/hair retained, but gaze stays toward camera rather than checking map, lean-back support unclear, long straight skirt becomes high-slit wrap and map/brochures include tiny lettering despite no-text instruction. Both arms continuous to map grips; visible fingers curl naturally, thumbs partly behind paper and cannot certify hidden digits. Front leg/ankle continuous with five visible toes in sandal; rear leg mostly hidden by dress and rear toes partly occluded. Original/crops/actual overlay viewed, tool ok two hands. Body legs remain elongated; head has tight margin.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-14/382/casual3/user-exception.json",
+                "sha256": "659c8e38ea9659c45988c08675e6f652cbc9b442ca58429e7e99078517db84ce"
               }
             }
           ]
