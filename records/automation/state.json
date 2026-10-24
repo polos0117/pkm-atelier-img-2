@@ -5941,7 +5941,7 @@
               }
             },
             "mobility": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T17:42:51+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-12/375/mobility/prompt.txt",
@@ -5953,7 +5953,14 @@
               },
               "references": {
                 "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-12/375/mobility/original.png",
+                "sha256": "720527698883227bcdf0d38b10f12b1353b09f9f9f967676e11ac71a0e22f360",
+                "session_only": true,
+                "webp_sha256": "057dd9b11ff1c17f9172f0a670fe1f0da691cfb809d8733a89c53b7310daa83b"
+              },
+              "received_at": "2026-10-24T17:44:52+00:00"
             }
           },
           "reason": "light visual QA: Adult single woman, head and both boots inside 2:3 frame. Two arms lead to gloved hands, two legs continuous with boots, no extra limb seen. Fingers overlap in curled hands and tool detects zero hands; full digit count uncertain. Teal-gray pointed plates carry steel motif. Long hair reads partly ribbon-like rather than locs and leg proportions exaggerated. Actual canonical comparison recorded; preserve hair/proportion mismatch for post-upload review.",
@@ -5968,7 +5975,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-24T17:42:51+00:00"
+      "updated_at": "2026-10-24T17:44:52+00:00"
     }
   ],
   "claims": {
@@ -6449,16 +6456,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
