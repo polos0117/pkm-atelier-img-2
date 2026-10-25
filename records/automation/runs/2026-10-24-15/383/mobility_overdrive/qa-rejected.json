@@ -1,0 +1,27 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "4c6da0fd8020aab126778937017743bd998b7ba3cfceb49d5492293e979918b4",
+  "observations": "Mobility pose face camera and gloves retained broadly; shoulder hip and calf covers open with amber glow. Hip panels spread and small details differ from closed counterpart. Hair clipped right, boots near bottom. Two continuous arms and legs, curled gloved digit overlap prevents full five-digit verification. Tool no body/hands, actual overlay inspected; not tool pass.",
+  "anatomy": {
+    "tool": "note",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Mobility pose face camera and gloves retained broadly; shoulder hip and calf covers open with amber glow. Hip panels spread and small details differ from closed counterpart. Hair clipped right, boots near bottom. Two continuous arms and legs, curled gloved digit overlap prevents full five-digit verification. Tool no body/hands, actual overlay inspected; not tool pass.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Mobility pose face camera and gloves retained broadly; shoulder hip and calf covers open with amber glow. Hip panels spread and small details differ from closed counterpart. Hair clipped right, boots near bottom. Two continuous arms and legs, curled gloved digit overlap prevents full five-digit verification. Tool no body/hands, actual overlay inspected; not tool pass."
+  },
+  "anatomy_tool_result": {
+    "level": "note",
+    "flags": [
+      {
+        "level": "note",
+        "what": "no_body",
+        "msg": "몸을 못 찾았다 — 눈으로 본다"
+      }
+    ],
+    "hands": [],
+    "measure": {},
+    "file": "/workspace/generated_images/exec-911a5d92-6572-414b-b541-38d83bd7b34e.png"
+  }
+}

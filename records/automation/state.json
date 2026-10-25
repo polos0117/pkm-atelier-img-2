@@ -7283,14 +7283,14 @@
       "id": "2026-10-24-15",
       "execution_id": "pkm-daily-2026-10-25T00-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T23:58:37+00:00",
       "queue": [
         {
           "no": 383,
           "name": "그란돈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7451,7 +7451,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T00:11:11+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-15/383/mobility_overdrive/prompt.txt",
@@ -7470,7 +7470,17 @@
                 "session_only": true,
                 "webp_sha256": "0faf65f3d4b8281e5c21549aac428f06c23fa9f7e9ae0d4b8e15e4ff1f974711"
               },
-              "received_at": "2026-10-25T00:13:11+00:00"
+              "received_at": "2026-10-25T00:13:11+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-15/383/mobility_overdrive/qa-rejected.json",
+                "sha256": "ae84c11e3196a3539234dad30bb29a39149c28c9a64e17bc15cf8dafa2ab5cdc"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-15/383/mobility_overdrive/user-exception.json",
+                "sha256": "688aca5f335da119f13c9a68e7e12654fab4d18f5e86b3c3f9f6f2f9c97bcf24"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Mobility pose face camera and gloves retained broadly; shoulder hip and calf covers open with amber glow. Hip panels spread and small details differ from closed counterpart. Hair clipped right, boots near bottom. Two continuous arms and legs, curled gloved digit overlap prevents full five-digit verification. Tool no body/hands, actual overlay inspected; not tool pass.",
@@ -7508,6 +7518,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-15/383/heavy_overdrive/user-exception.json",
                 "sha256": "d854b72ccf827b872c476cae3227f3c6e2423a48645a17eb60e886e4dee429d2"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Mobility pose face camera and gloves retained broadly; shoulder hip and calf covers open with amber glow. Hip panels spread and small details differ from closed counterpart. Hair clipped right, boots near bottom. Two continuous arms and legs, curled gloved digit overlap prevents full five-digit verification. Tool no body/hands, actual overlay inspected; not tool pass.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-15/383/mobility_overdrive/user-exception.json",
+                "sha256": "688aca5f335da119f13c9a68e7e12654fab4d18f5e86b3c3f9f6f2f9c97bcf24"
               }
             }
           ]
