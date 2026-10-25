@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-rhyperior-tangrowth-20261026-24d8",
- "at": "2026-10-25T16:38:17-06:00",
+ "at": "2026-10-25T16:41:09-06:00",
  "characters": [
   {
    "species": "rhyperior-20261026",
    "card": "거대코뿌리",
-   "at": "2026-10-25T16:38:17-06:00",
+   "at": "2026-10-25T16:41:09-06:00",
    "cuts": [
     {
      "cut": 1,
@@ -18,45 +18,45 @@
      "frame": "three_quarter",
      "lens": "documentary35",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly active",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "jacket"
+      "jacket",
+      "shorts"
      ],
      "expose": [
       "strapless top",
       "side cutouts"
      ],
-     "lead": "action"
+     "kept": true
     },
     {
      "cut": 2,
      "cat": "lingerie",
-     "ex": "garter_set",
+     "ex": "qipao_silk_set",
      "expr": "mischievous",
      "pose": "dance_step",
      "orient": "leaning_forward",
      "frame": "chest_up",
-     "lens": "natural50",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "subtle",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
+      "dress",
       "lingerie_set"
      ],
      "expose": [
       "high-cut leg",
-      "bare midriff"
+      "side cutouts"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 3,
@@ -68,8 +68,6 @@
      "frame": "full_body",
      "lens": "portrait85",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
@@ -81,15 +79,16 @@
       "halter neck",
       "cropped hem"
      ],
-     "lead": "place"
+     "kept": true
     }
    ],
-   "stamp": "f12a493ee5008bfea53df08065519526343d933634c2b45a561008139b0564ef"
+   "refill": true,
+   "stamp": "32262bfc99b06142d46fbf1f95fb5c924b1a16f29e5110ac465b4ad2bb75d339"
   },
   {
    "species": "tangrowth-20261026",
    "card": "덩쿠림보",
-   "at": "2026-10-25T16:38:17-06:00",
+   "at": "2026-10-25T16:41:09-06:00",
    "cuts": [
     {
      "cut": 1,
@@ -99,12 +98,12 @@
      "pose": "standing_relaxed",
      "orient": "high_angle",
      "frame": "environmental",
-     "lens": "wide24",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "strong",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -112,9 +111,9 @@
      ],
      "expose": [
       "plunging neckline",
-      "open back"
+      "bare midriff"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -124,12 +123,12 @@
      "pose": "mid_stride",
      "orient": "front_3q",
      "frame": "waist_up",
-     "lens": "telephoto135",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "balanced",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -139,7 +138,7 @@
       "high thigh slit",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "action"
     },
     {
      "cut": 3,
@@ -149,12 +148,12 @@
      "pose": "sitting_floor",
      "orient": "looking_down",
      "frame": "three_quarter",
-     "lens": "documentary35",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "strong",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -162,12 +161,12 @@
      ],
      "expose": [
       "mini length",
-      "strapless top"
+      "open back"
      ],
-     "lead": "action"
+     "lead": "detail"
     }
    ],
-   "stamp": "eda0fb24de82bf2dfc81d0bf8c32688c161dc802122e095a2a05d5ce216c34a9"
+   "stamp": "554bdeb136ed26be57c9b8471984c5149a388569856bd7e96bddd2f0a96d0942"
   }
  ]
 }
