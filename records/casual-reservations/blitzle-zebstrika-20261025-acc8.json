@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "blitzle-zebstrika-20261025-acc8",
- "at": "2026-10-25T11:01:33+11:00",
+ "at": "2026-10-25T11:23:42+11:00",
  "characters": [
   {
    "species": "blitzle-20261025",
@@ -88,74 +88,48 @@
   {
    "species": "zebstrika-20261025",
    "card": "제브라이카",
-   "at": "2026-10-25T11:01:33+11:00",
+   "at": "2026-10-25T11:23:42+11:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "swimwear",
-     "ex": "burkini_modest",
-     "expr": "candid",
-     "pose": "stretching",
-     "orient": "turning_midmotion",
-     "frame": "chest_up",
-     "lens": "natural50",
+     "cat": "private_evening",
+     "ex": "silk_robe_evening",
+     "expr": "flustered",
+     "pose": "on_tiptoe",
+     "orient": "profile_close",
+     "frame": "waist_up",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "subtle",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "robe",
+      "slip"
      ],
      "expose": [
-      "high-cut leg",
-      "plunging neckline"
+      "high thigh slit",
+      "open back"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 2,
-     "cat": "traditional",
-     "ex": "aodai_daily",
-     "expr": "curious",
-     "pose": "gentle_pat",
-     "orient": "looking_away",
-     "frame": "environmental",
+     "cat": "adult_roleplay",
+     "ex": "event_staff",
+     "expr": "wistful",
+     "pose": "perched_seat",
+     "orient": "reclining",
+     "frame": "three_quarter",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "lingerie_set",
-      "skirt",
-      "trousers"
-     ],
-     "expose": [
-      "bare midriff",
-      "halter neck"
-     ],
-     "lead": "place"
-    },
-    {
-     "cut": 3,
-     "cat": "adult_roleplay",
-     "ex": "event_staff",
-     "expr": "laughing",
-     "pose": "squatting",
-     "orient": "crouching",
-     "frame": "waist_up",
-     "lens": "telephoto135",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
@@ -165,7 +139,33 @@
       "cropped hem",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "bandeau_bikini",
+     "expr": "pensive",
+     "pose": "contrapposto",
+     "orient": "turning_midmotion",
+     "frame": "chest_up",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini",
+      "crop_top"
+     ],
+     "expose": [
+      "plunging neckline",
+      "bare midriff"
+     ],
+     "lead": "place"
     }
    ]
   }
