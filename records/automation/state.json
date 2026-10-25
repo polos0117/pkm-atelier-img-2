@@ -7353,6 +7353,21 @@
                 "path": "records/automation/runs/2026-10-24-15/383/heavy/user-exception.json",
                 "sha256": "03a65cf7765ef21f64a80ce7377a72b95cec7df57a10e8468597a2f8870e7fb4"
               }
+            },
+            "mobility": {
+              "status": "in_flight",
+              "at": "2026-10-25T00:06:09+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-15/383/mobility/prompt.txt",
+                "sha256": "67c7df4d246d9e846fa835c1dce871844fe057d7dfdbe3900d9126e7174a6b55"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-15/383/mobility/ui.json",
+                "sha256": "1b55e54c9b0f60ba86ff59e670637fc3882c6e189c48a4ab60d28895f5f31336"
+              },
+              "references": {
+                "light": "e2cc615c24ff9f4e0cddc5a02162fa9f58d5c9d1d1d0958ffe0ec822786c3255"
+              }
             }
           },
           "reason": "heavy visual QA: Face and hair identity retained; layered broad armor added correctly. Two arms and legs visually continuous. Hands gloved with overlapping curled fingers, hidden thumbs uncertain. Tool detected no body or hands; actual overlay viewed, not a tool pass. Feet extremely close to bottom, hair and armored sash clipped at right edge.",
@@ -7374,7 +7389,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T00:05:53+00:00"
+      "updated_at": "2026-10-25T00:06:09+00:00"
     }
   ],
   "claims": {
@@ -7920,9 +7935,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -8053,9 +8068,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -8298,9 +8313,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-latias-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:49:47+11:00",
+      "session": "registeel-casual3-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
+      "at": "2026-10-25T06:52:03+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
