@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-froakie-frogadier-20261025-8e9f",
- "at": "2026-10-25T17:50:47+08:00",
+ "at": "2026-10-25T17:58:40+08:00",
  "characters": [
   {
    "species": "froakie-20261025",
    "card": "개구마르",
-   "at": "2026-10-25T17:50:47+08:00",
+   "at": "2026-10-25T17:58:40+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,7 +31,8 @@
       "one-shoulder cut",
       "cropped hem"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -57,7 +58,8 @@
       "bare midriff",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -82,15 +84,16 @@
       "high thigh slit",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "a1be8c8f131de4a6909ca59e3e3a9b73c9a13c64163784e54bfa4e8a8800cfdb"
+   "stamp": "5e1c120054506a6d0ecd997ff2f9d2a24c62843d38dea76ecd01c86ca87833a2"
   },
   {
    "species": "frogadier-20261025",
    "card": "개굴반장",
-   "at": "2026-10-25T17:50:47+08:00",
+   "at": "2026-10-25T17:58:40+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -122,16 +125,16 @@
      "cut": 2,
      "cat": "festivals_contests",
      "ex": "fest_cheering",
-     "expr": "curious",
-     "pose": "adjusting_bag",
+     "expr": "gentle",
+     "pose": "hands_in_hair",
      "orient": "looking_away",
      "frame": "environmental",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "strong",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
@@ -147,30 +150,31 @@
     {
      "cut": 3,
      "cat": "swimwear",
-     "ex": "burkini_modest",
+     "ex": "hanbok_coverup",
      "expr": "provocative",
-     "pose": "hands_in_hair",
+     "pose": "leaning_wall",
      "orient": "front",
      "frame": "chest_up",
      "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "swimsuit"
+      "skirt",
+      "traditional"
      ],
      "expose": [
-      "plunging neckline",
-      "bare midriff"
+      "high thigh slit",
+      "open back"
      ],
      "lead": "action"
     }
    ],
-   "stamp": "1e18033e67c7ce1e7f87e854329828d8d307b17325c2e877af50953b6b3452ff"
+   "stamp": "85b257c6e3221d97e59db1fbef37ec6911a4da8c0d910dbca2135d8d0cf1af0a"
   }
  ]
 }
