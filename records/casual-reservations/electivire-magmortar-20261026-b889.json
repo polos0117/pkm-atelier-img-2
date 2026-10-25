@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "electivire-magmortar-20261026-b889",
- "at": "2026-10-25T17:16:41-06:00",
+ "at": "2026-10-25T17:26:21-06:00",
  "characters": [
   {
    "species": "electivire-20261026",
@@ -90,7 +90,7 @@
   {
    "species": "magmortar-20261026",
    "card": "마그마번",
-   "at": "2026-10-25T17:09:38-06:00",
+   "at": "2026-10-25T17:26:21-06:00",
    "cuts": [
     {
      "cut": 1,
@@ -102,21 +102,19 @@
      "frame": "environmental",
      "lens": "telephoto135",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
       "cardigan",
-      "skirt"
+      "crop_top"
      ],
      "expose": [
       "cropped hem",
       "strapless top"
      ],
-     "lead": "detail"
+     "kept": true
     },
     {
      "cut": 2,
@@ -128,50 +126,48 @@
      "frame": "three_quarter",
      "lens": "documentary35",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "blouse",
-      "skirt"
+      "blouse"
      ],
      "expose": [
       "off-shoulder neckline",
       "open back"
      ],
-     "lead": "light"
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "festivals_contests",
-     "ex": "fest_cheering",
+     "cat": "food_berries",
+     "ex": "food_market",
      "expr": "nostalgic",
-     "pose": "adjusting_bag",
-     "orient": "over_shoulder",
+     "pose": "kneeling",
+     "orient": "crouching",
      "frame": "full_body",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "blouse",
+      "apron",
       "skirt"
      ],
      "expose": [
-      "one-shoulder cut",
-      "bare midriff"
+      "strapless top",
+      "cropped hem"
      ],
-     "lead": "place"
+     "lead": "detail"
     }
    ],
-   "stamp": "23aab9ca6d714b8acd89c364444075a976485cf5a69af8fdfdd024f4889b28f1"
+   "refill": true,
+   "stamp": "283182fa04d64de05761e02a52592db82d9452d240136bca914ca94e85030c9a"
   }
  ]
 }
