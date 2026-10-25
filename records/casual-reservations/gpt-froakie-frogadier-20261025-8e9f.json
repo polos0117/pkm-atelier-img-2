@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-froakie-frogadier-20261025-8e9f",
- "at": "2026-10-25T18:11:35+08:00",
+ "at": "2026-10-25T18:24:47+08:00",
  "characters": [
   {
    "species": "froakie-20261025",
@@ -93,7 +93,7 @@
   {
    "species": "frogadier-20261025",
    "card": "개굴반장",
-   "at": "2026-10-25T18:11:35+08:00",
+   "at": "2026-10-25T18:24:47+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -105,8 +105,6 @@
      "frame": "full_body",
      "lens": "wide24",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
@@ -119,22 +117,21 @@
       "one-shoulder cut",
       "off-shoulder neckline"
      ],
-     "lead": "place",
      "kept": true
     },
     {
      "cut": 2,
      "cat": "festivals_contests",
-     "ex": "fest_cheering",
-     "expr": "curious",
-     "pose": "on_tiptoe",
+     "ex": "fest_lantern",
+     "expr": "gentle",
+     "pose": "offering_food",
      "orient": "looking_away",
      "frame": "environmental",
      "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
@@ -145,7 +142,7 @@
       "off-shoulder neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "action"
     },
     {
      "cut": 3,
@@ -157,8 +154,6 @@
      "frame": "chest_up",
      "lens": "natural50",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
@@ -171,11 +166,11 @@
       "high thigh slit",
       "open back"
      ],
-     "lead": "action",
      "kept": true
     }
    ],
-   "stamp": "0440584ec3a68cf7c042b3396612fba3948678074be6cbb973be9e16f4cfc25f"
+   "refill": true,
+   "stamp": "b19e0b1d71a90a3401151a87dc0c30c62b7a99285d2ee455c99e920e0d7b1a4b"
   }
  ]
 }
