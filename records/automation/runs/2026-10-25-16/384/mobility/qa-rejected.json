@@ -1,0 +1,29 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "8af47e47574f3d19fcf772c55d361ae1f2aa42716eda173d0db16319e5d3fdc9",
+  "observations": "Original, upper/lower crops and overlay viewed. Shoulder and hip fins are long and temple fin clips top frame; legs disproportionately long and boots close to edge. Near open glove shows five digits; curled far hand digits uncertain. Arms and legs remain connected. Tool faint_body overlay clusters near neck and is not reliable for limb geometry; zero detected hands does not certify anatomy. Green thruster accents differ from canonical palette.",
+  "anatomy": {
+    "tool": "note",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Original, upper/lower crops and overlay viewed. Shoulder and hip fins are long and temple fin clips top frame; legs disproportionately long and boots close to edge. Near open glove shows five digits; curled far hand digits uncertain. Arms and legs remain connected. Tool faint_body overlay clusters near neck and is not reliable for limb geometry; zero detected hands does not certify anatomy. Green thruster accents differ from canonical palette.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Original, upper/lower crops and overlay viewed. Shoulder and hip fins are long and temple fin clips top frame; legs disproportionately long and boots close to edge. Near open glove shows five digits; curled far hand digits uncertain. Arms and legs remain connected. Tool faint_body overlay clusters near neck and is not reliable for limb geometry; zero detected hands does not certify anatomy. Green thruster accents differ from canonical palette."
+  },
+  "anatomy_tool_result": {
+    "level": "note",
+    "flags": [
+      {
+        "level": "note",
+        "what": "faint_body",
+        "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+      }
+    ],
+    "hands": [],
+    "measure": {
+      "shoulder_px": 7.3
+    },
+    "file": "/workspace/generated_images/exec-441be2a2-1e68-4141-9798-4e5fd45f5f73.png"
+  }
+}

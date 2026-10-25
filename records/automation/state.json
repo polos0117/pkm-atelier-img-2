@@ -7734,14 +7734,14 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7806,7 +7806,7 @@
               }
             },
             "mobility": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T02:55:24+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/mobility/prompt.txt",
@@ -7825,7 +7825,17 @@
                 "session_only": true,
                 "webp_sha256": "34f8d287ec96f690c4e92db09dc5027cd54f5b2326629cdee3ff0ba601a836bd"
               },
-              "received_at": "2026-10-25T02:58:50+00:00"
+              "received_at": "2026-10-25T02:58:50+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-25-16/384/mobility/qa-rejected.json",
+                "sha256": "4e77896a2588dac8b8f322cd0efad0110c34a1841df69c6d9d040e912489f57a"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-25-16/384/mobility/user-exception.json",
+                "sha256": "d9aae0893a27ae026383c35ac23f7ef305efb358c175587ddb799e2c2518fefb"
+              }
             }
           },
           "reason": "mobility visual QA: Original, upper/lower crops and overlay viewed. Shoulder and hip fins are long and temple fin clips top frame; legs disproportionately long and boots close to edge. Near open glove shows five digits; curled far hand digits uncertain. Arms and legs remain connected. Tool faint_body overlay clusters near neck and is not reliable for limb geometry; zero detected hands does not certify anatomy. Green thruster accents differ from canonical palette.",
@@ -7843,6 +7853,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-25-16/384/heavy/user-exception.json",
                 "sha256": "4d4e125b652bc3261cf3a8472eb09791330d121ae07fb3a990cede0917f90cba"
+              }
+            },
+            {
+              "reason": "mobility visual QA: Original, upper/lower crops and overlay viewed. Shoulder and hip fins are long and temple fin clips top frame; legs disproportionately long and boots close to edge. Near open glove shows five digits; curled far hand digits uncertain. Arms and legs remain connected. Tool faint_body overlay clusters near neck and is not reliable for limb geometry; zero detected hands does not certify anatomy. Green thruster accents differ from canonical palette.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-25-16/384/mobility/user-exception.json",
+                "sha256": "d9aae0893a27ae026383c35ac23f7ef305efb358c175587ddb799e2c2518fefb"
               }
             }
           ]
