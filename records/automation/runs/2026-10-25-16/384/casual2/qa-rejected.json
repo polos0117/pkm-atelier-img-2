@@ -1,0 +1,43 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "8661e575eb5ca48ff99920ad24bfad866c0288af7b1d4f9d8c544bf441fb6e99",
+  "observations": "Original, enlarged upper/lower areas and check overlay inspected. Tool loose_hand warning arises with faint body mapped across knees rather than actual arms: visually both wrists connect, no detached third hand seen. Pinching fingers overlap and exact counts uncertain. Face braid and focused sideward gaze recognizable. Head top clipped, framing extends to knees rather than chest-up, added half-jacket sleeve and long tail instead of strictly strapless separate top. Compared recent stage seats: distinctive dressing-mirror lapel fastening with tailored long trousers, unlike Zebstrika shorts seat or Blitzle ribbon scene; also distinct from own telescope coat.",
+  "anatomy": {
+    "tool": "check",
+    "arms": "two, near bare arm and far sleeved arm trace to two wrists",
+    "legs": "two clothed thighs and knees visible; lower legs and feet outside crop",
+    "hands": "two pinching hands overlap at lapel; curled near fingers and far thumb partly occluded, exact count uncertain",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Original, enlarged upper/lower areas and check overlay inspected. Tool loose_hand warning arises with faint body mapped across knees rather than actual arms: visually both wrists connect, no detached third hand seen. Pinching fingers overlap and exact counts uncertain. Face braid and focused sideward gaze recognizable. Head top clipped, framing extends to knees rather than chest-up, added half-jacket sleeve and long tail instead of strictly strapless separate top. Compared recent stage seats: distinctive dressing-mirror lapel fastening with tailored long trousers, unlike Zebstrika shorts seat or Blitzle ribbon scene; also distinct from own telescope coat."
+  },
+  "anatomy_tool_result": {
+    "level": "check",
+    "flags": [
+      {
+        "level": "note",
+        "what": "faint_body",
+        "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+      },
+      {
+        "level": "check",
+        "what": "loose_hand",
+        "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 2.9 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+      }
+    ],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.99,
+        "arm": null,
+        "gap": 2.93
+      }
+    ],
+    "measure": {
+      "shoulder_px": 218.3
+    },
+    "file": "/workspace/generated_images/exec-39ba86cc-5769-42a1-a395-019f6de85017.png"
+  },
+  "diversity_comparison": "Actual recent images viewed: Groudon shop-floor parcel packing, exhibition strap adjustment, beach jogging; Blitzle ornate-room dress, stage ribbon outfit, outdoor creature play; Zebstrika indoor curtain/lingerie, stage seat, marina swimwear. Rayquaza planned night telescope terrace/dance step in tailored coat/trousers, side-view seated costume-uniform preparation, and high-angle home towel-folding with shirt over opaque lingerie. Third overlaps lingerie broadly with Zebstrika but location, full-body crop, one-knee-on-stool activity and shirt silhouette differ. Costume bench versus stage seat needs actual-result comparison; choices alone are not a QA pass.\n"
+}

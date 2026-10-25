@@ -7734,14 +7734,14 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7966,7 +7966,7 @@
               }
             },
             "casual2": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T03:07:15+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/casual2/prompt.txt",
@@ -7985,7 +7985,17 @@
                 "session_only": true,
                 "webp_sha256": "34bf2a67bcc610a8c7af534f621e57d46ee4f7432f45c9522b7ead0adfb01a15"
               },
-              "received_at": "2026-10-25T03:09:25+00:00"
+              "received_at": "2026-10-25T03:09:25+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-25-16/384/casual2/qa-rejected.json",
+                "sha256": "faaf8d6ff1865394b10b9b1964065f73d8cf7afaa3fa052897312f034ffd8e0d"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-25-16/384/casual2/user-exception.json",
+                "sha256": "458b06be545b3d2c160863c76b9a1d94c08abad629f477192826bfd1f2207132"
+              }
             }
           },
           "reason": "casual2 visual QA: Original, enlarged upper/lower areas and check overlay inspected. Tool loose_hand warning arises with faint body mapped across knees rather than actual arms: visually both wrists connect, no detached third hand seen. Pinching fingers overlap and exact counts uncertain. Face braid and focused sideward gaze recognizable. Head top clipped, framing extends to knees rather than chest-up, added half-jacket sleeve and long tail instead of strictly strapless separate top. Compared recent stage seats: distinctive dressing-mirror lapel fastening with tailored long trousers, unlike Zebstrika shorts seat or Blitzle ribbon scene; also distinct from own telescope coat.",
@@ -8038,6 +8048,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-25-16/384/casual1/user-exception.json",
                 "sha256": "5baa2588783ea780f5b5d9c1a10c030a8e587ff4c82ad3d201b45f030ba48ed9"
+              }
+            },
+            {
+              "reason": "casual2 visual QA: Original, enlarged upper/lower areas and check overlay inspected. Tool loose_hand warning arises with faint body mapped across knees rather than actual arms: visually both wrists connect, no detached third hand seen. Pinching fingers overlap and exact counts uncertain. Face braid and focused sideward gaze recognizable. Head top clipped, framing extends to knees rather than chest-up, added half-jacket sleeve and long tail instead of strictly strapless separate top. Compared recent stage seats: distinctive dressing-mirror lapel fastening with tailored long trousers, unlike Zebstrika shorts seat or Blitzle ribbon scene; also distinct from own telescope coat.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-25-16/384/casual2/user-exception.json",
+                "sha256": "458b06be545b3d2c160863c76b9a1d94c08abad629f477192826bfd1f2207132"
               }
             }
           ]
