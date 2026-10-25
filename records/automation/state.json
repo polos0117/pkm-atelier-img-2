@@ -7513,6 +7513,21 @@
                 "path": "records/automation/runs/2026-10-24-15/383/casual1/user-exception.json",
                 "sha256": "f9163dcb0c9b743e2575e5083ec75db9fe34f0f5b098f7b6076486a4efcb2aae"
               }
+            },
+            "casual2": {
+              "status": "in_flight",
+              "at": "2026-10-25T00:15:57+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual2/prompt.txt",
+                "sha256": "454751444e57743b83440a404990f0c50e3900104674327a48b9dd5e925b61e6"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual2/ui.json",
+                "sha256": "7b4c90dbd360af07ba7815518a5aaa3a0938001a8eaa77321c427d10f9660f04"
+              },
+              "references": {
+                "light": "e2cc615c24ff9f4e0cddc5a02162fa9f58d5c9d1d1d0958ffe0ec822786c3255"
+              }
             }
           },
           "reason": "casual1 visual QA: Actual high-angle shop-floor map and parcel scene with utility vest and trousers differs from recent lounge/market/grooming/workout/mirror/harbor renders. Requested chest-up crop ignored, full seated body shown; source palette and accessories stronger than subtle setting. Face expression changed, eyes more reddish. Two arms connect to hands; map grip partly occludes fingers, lower glove fingers curl with ambiguous overlap. Two folded legs visible but far foot hidden and near shoe partly cropped. Tool faint body and zero hands; actual overlay inspected.",
@@ -7569,7 +7584,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T00:15:46+00:00"
+      "updated_at": "2026-10-25T00:15:57+00:00"
     }
   ],
   "claims": {
@@ -8143,16 +8158,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -8493,9 +8508,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-casual3-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
-      "at": "2026-10-25T06:52:03+11:00",
+      "session": "registeel-latias-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
+      "at": "2026-10-25T06:49:47+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
