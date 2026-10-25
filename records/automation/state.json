@@ -7290,7 +7290,7 @@
           "status": "working",
           "slots": {
             "light": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-24T23:59:43+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-15/383/light/prompt.txt",
@@ -7300,12 +7300,19 @@
                 "path": "records/automation/runs/2026-10-24-15/383/light/ui.json",
                 "sha256": "2a681bbb5db397e658170125b764c281f89a0825d13ddd0521c6ecc8d85ff936"
               },
-              "references": {}
+              "references": {},
+              "image": {
+                "path": "records/automation/runs/2026-10-24-15/383/light/original.png",
+                "sha256": "e2cc615c24ff9f4e0cddc5a02162fa9f58d5c9d1d1d0958ffe0ec822786c3255",
+                "session_only": true,
+                "webp_sha256": "52b3bb694a11ee08584e60eb91040c1cbd5d8f335ad1de25cee5fa0afce4ec94"
+              },
+              "received_at": "2026-10-25T00:03:41+00:00"
             }
           }
         }
       ],
-      "updated_at": "2026-10-24T23:59:43+00:00"
+      "updated_at": "2026-10-25T00:03:41+00:00"
     }
   ],
   "claims": {
@@ -8229,9 +8236,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-latias-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:49:47+11:00",
+      "session": "registeel-casual3-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
+      "at": "2026-10-25T06:52:03+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
