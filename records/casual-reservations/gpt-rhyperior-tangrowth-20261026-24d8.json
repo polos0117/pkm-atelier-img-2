@@ -1,17 +1,17 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-rhyperior-tangrowth-20261026-24d8",
- "at": "2026-10-25T16:30:13-06:00",
+ "at": "2026-10-25T16:38:17-06:00",
  "characters": [
   {
    "species": "rhyperior-20261026",
    "card": "거대코뿌리",
-   "at": "2026-10-25T16:30:13-06:00",
+   "at": "2026-10-25T16:38:17-06:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "active",
-     "ex": "pilates",
+     "ex": "fencing_motion",
      "expr": "determined",
      "pose": "mid_action",
      "orient": "leaning_back",
@@ -22,14 +22,14 @@
       "skin_exposure": "bold",
       "action_level": "mostly active",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "jumpsuit"
+      "jacket"
      ],
      "expose": [
       "strapless top",
-      "high thigh slit"
+      "side cutouts"
      ],
      "lead": "action"
     },
@@ -38,14 +38,14 @@
      "cat": "lingerie",
      "ex": "garter_set",
      "expr": "mischievous",
-     "pose": "bending_over",
+     "pose": "dance_step",
      "orient": "leaning_forward",
      "frame": "chest_up",
      "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly active",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
@@ -54,42 +54,42 @@
      ],
      "expose": [
       "high-cut leg",
-      "side cutouts"
+      "bare midriff"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 3,
      "cat": "traditional",
-     "ex": "kaftan_daily",
+     "ex": "salwar_daily",
      "expr": "proud",
-     "pose": "dance_step",
+     "pose": "bending_over",
      "orient": "rear_3q",
      "frame": "full_body",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "strong",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "dress"
+      "trousers"
      ],
      "expose": [
       "halter neck",
-      "mini length"
+      "cropped hem"
      ],
-     "lead": "light"
+     "lead": "place"
     }
    ],
-   "stamp": "08a3e1483cc56e89d385c55a08a0988c38b207082e0a57014c3b361c3f6aa8a7"
+   "stamp": "f12a493ee5008bfea53df08065519526343d933634c2b45a561008139b0564ef"
   },
   {
    "species": "tangrowth-20261026",
    "card": "덩쿠림보",
-   "at": "2026-10-25T16:30:13-06:00",
+   "at": "2026-10-25T16:38:17-06:00",
    "cuts": [
     {
      "cut": 1,
@@ -112,7 +112,7 @@
      ],
      "expose": [
       "plunging neckline",
-      "bare midriff"
+      "open back"
      ],
      "lead": "light"
     },
@@ -136,10 +136,10 @@
       "traditional"
      ],
      "expose": [
-      "cropped hem",
-      "high thigh slit"
+      "high thigh slit",
+      "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "detail"
     },
     {
      "cut": 3,
@@ -161,13 +161,13 @@
       "overalls"
      ],
      "expose": [
-      "one-shoulder cut",
-      "side cutouts"
+      "mini length",
+      "strapless top"
      ],
      "lead": "action"
     }
    ],
-   "stamp": "8138c1ee23f006e7eae86f62e276daafc26aed8d3314aa8a3f55d1971f0459f2"
+   "stamp": "eda0fb24de82bf2dfc81d0bf8c32688c161dc802122e095a2a05d5ce216c34a9"
   }
  ]
 }
