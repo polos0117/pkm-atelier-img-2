@@ -7515,7 +7515,7 @@
               }
             },
             "casual2": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-25T00:15:57+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-15/383/casual2/prompt.txt",
@@ -7527,7 +7527,14 @@
               },
               "references": {
                 "light": "e2cc615c24ff9f4e0cddc5a02162fa9f58d5c9d1d1d0958ffe0ec822786c3255"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual2/original.png",
+                "sha256": "c110009d430f22b208338f06272e4356528a9464012923873a3c89d30ecc180f",
+                "session_only": true,
+                "webp_sha256": "7916ca7ea8dd2ccc65490297ca6776649be36917cff866a6098a50153e5517c8"
+              },
+              "received_at": "2026-10-25T00:17:19+00:00"
             }
           },
           "reason": "casual1 visual QA: Actual high-angle shop-floor map and parcel scene with utility vest and trousers differs from recent lounge/market/grooming/workout/mirror/harbor renders. Requested chest-up crop ignored, full seated body shown; source palette and accessories stronger than subtle setting. Face expression changed, eyes more reddish. Two arms connect to hands; map grip partly occludes fingers, lower glove fingers curl with ambiguous overlap. Two folded legs visible but far foot hidden and near shoe partly cropped. Tool faint body and zero hands; actual overlay inspected.",
@@ -7584,7 +7591,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T00:15:57+00:00"
+      "updated_at": "2026-10-25T00:17:19+00:00"
     }
   ],
   "claims": {
@@ -8130,9 +8137,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
