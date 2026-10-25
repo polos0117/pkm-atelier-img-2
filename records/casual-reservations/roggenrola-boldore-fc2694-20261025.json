@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "roggenrola-boldore-fc2694-20261025",
- "at": "2026-10-25T16:13:13+08:00",
+ "at": "2026-10-25T16:33:50+08:00",
  "characters": [
   {
    "species": "roggenrola-20261025",
@@ -91,7 +91,7 @@
   {
    "species": "boldore-20261025",
    "card": "암트르",
-   "at": "2026-10-25T16:13:13+08:00",
+   "at": "2026-10-25T16:33:50+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -103,8 +103,6 @@
      "frame": "chest_up",
      "lens": "documentary35",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "balanced"
@@ -116,7 +114,7 @@
       "strapless top",
       "plunging neckline"
      ],
-     "lead": "action"
+     "kept": true
     },
     {
      "cut": 2,
@@ -128,49 +126,49 @@
      "frame": "full_body",
      "lens": "natural50",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "jacket"
-     ],
-     "expose": [
-      "cropped hem",
-      "bare midriff"
-     ],
-     "lead": "light"
-    },
-    {
-     "cut": 3,
-     "cat": "active",
-     "ex": "aerial_silk",
-     "expr": "laughing_open",
-     "pose": "dance_step",
-     "orient": "rear_3q",
-     "frame": "environmental",
-     "lens": "wide24",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly active",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
       "crop_top",
-      "leggings"
+      "jacket"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "mini length"
+      "cropped hem",
+      "bare midriff"
      ],
-     "lead": "detail"
+     "kept": true
+    },
+    {
+     "cut": 3,
+     "cat": "homewear",
+     "ex": "window_vanity",
+     "expr": "sleepy",
+     "pose": "one_knee_up",
+     "orient": "crouching",
+     "frame": "waist_up",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "robe",
+      "slip"
+     ],
+     "expose": [
+      "strapless top",
+      "plunging neckline"
+     ],
+     "lead": "light"
     }
    ],
-   "stamp": "35aa56c03743b0e7823388e5d87b9e9a43ba6e183b283bb0c6169a486079b5e3"
+   "refill": true,
+   "stamp": "e5602059afa17c1c6170d776f15e42253fbd55e7becdb0cfbbcf03591b30b937"
   }
  ]
 }
