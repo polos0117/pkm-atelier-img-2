@@ -7481,6 +7481,21 @@
                 "path": "records/automation/runs/2026-10-24-15/383/mobility_overdrive/user-exception.json",
                 "sha256": "688aca5f335da119f13c9a68e7e12654fab4d18f5e86b3c3f9f6f2f9c97bcf24"
               }
+            },
+            "casual1": {
+              "status": "in_flight",
+              "at": "2026-10-25T00:13:30+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual1/prompt.txt",
+                "sha256": "32916010e03f9a0dee519daff86341c500ad96e32c7201481b22be21aa0bafa8"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual1/ui.json",
+                "sha256": "d65ef54532512e40afd5850cc5f35f79fefd8c0a7ca83d52bb8c95eaebff9def"
+              },
+              "references": {
+                "light": "e2cc615c24ff9f4e0cddc5a02162fa9f58d5c9d1d1d0958ffe0ec822786c3255"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Mobility pose face camera and gloves retained broadly; shoulder hip and calf covers open with amber glow. Hip panels spread and small details differ from closed counterpart. Hair clipped right, boots near bottom. Two continuous arms and legs, curled gloved digit overlap prevents full five-digit verification. Tool no body/hands, actual overlay inspected; not tool pass.",
@@ -7530,7 +7545,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T00:13:19+00:00"
+      "updated_at": "2026-10-25T00:13:30+00:00"
     }
   ],
   "claims": {
@@ -8076,9 +8091,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -8104,16 +8119,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
