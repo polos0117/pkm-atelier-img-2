@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "drapion-croagunk-20261025-fb0b",
- "at": "2026-10-25T12:56:01+11:00",
+ "at": "2026-10-25T12:59:31+11:00",
  "characters": [
   {
    "species": "drapion-20261025",
@@ -90,33 +90,33 @@
   {
    "species": "croagunk-20261025",
    "card": "삐딱구리",
-   "at": "2026-10-25T12:56:01+11:00",
+   "at": "2026-10-25T12:59:31+11:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "swimwear",
-     "ex": "boyshort_swim",
+     "ex": "bandeau_bikini",
      "expr": "confident",
-     "pose": "mid_stride",
-     "orient": "over_shoulder",
-     "frame": "full_body",
+     "pose": "kneeling",
+     "orient": "looking_down",
+     "frame": "environmental",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "bikini",
+      "crop_top"
      ],
      "expose": [
       "plunging neckline",
-      "halter neck"
+      "high-cut leg"
      ],
-     "lead": "detail",
-     "kept": true
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -168,7 +168,8 @@
       "one-shoulder cut",
       "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ]
   }
