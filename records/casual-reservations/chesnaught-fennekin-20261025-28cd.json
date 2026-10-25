@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "chesnaught-fennekin-20261025-28cd",
- "at": "2026-10-25T16:30:59+11:00",
+ "at": "2026-10-25T16:37:48+11:00",
  "characters": [
   {
    "species": "chesnaught-20261025",
@@ -92,88 +92,87 @@
   {
    "species": "fennekin-20261025",
    "card": "푸호꼬",
-   "at": "2026-10-25T16:30:59+11:00",
+   "at": "2026-10-25T16:37:48+11:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "festivals_contests",
-     "ex": "fest_cheering",
+     "cat": "traditional",
+     "ex": "hanfu_formal",
      "expr": "gentle",
-     "pose": "adjusting_bag",
+     "pose": "walking",
      "orient": "over_shoulder",
-     "frame": "environmental",
-     "lens": "wide24",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "strong",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "trousers",
-      "vest"
-     ],
-     "expose": [
-      "mini length",
-      "strapless top"
-     ],
-     "lead": "detail"
-    },
-    {
-     "cut": 2,
-     "cat": "lingerie",
-     "ex": "babydoll",
-     "expr": "sensual",
-     "pose": "waving",
-     "orient": "front_3q",
      "frame": "three_quarter",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "lingerie_set",
-      "slip"
-     ],
-     "expose": [
-      "high-cut leg",
-      "halter neck"
-     ],
-     "lead": "action"
-    },
-    {
-     "cut": 3,
-     "cat": "food_berries",
-     "ex": "food_harvest",
-     "expr": "half_smile",
-     "pose": "watering",
-     "orient": "leaning_forward",
-     "frame": "waist_up",
-     "lens": "natural50",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "balanced",
+      "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "apron",
-      "shorts"
+      "skirt",
+      "traditional"
      ],
      "expose": [
       "side cutouts",
       "one-shoulder cut"
      ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "cat": "swimwear",
+     "ex": "outdoor_shower",
+     "expr": "sensual",
+     "pose": "contrapposto",
+     "orient": "front_3q",
+     "frame": "environmental",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini"
+     ],
+     "expose": [
+      "high-cut leg",
+      "halter neck"
+     ],
      "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "festivals_contests",
+     "ex": "fest_ribbon",
+     "expr": "curious",
+     "pose": "hand_on_hip",
+     "orient": "three_quarter_back",
+     "frame": "chest_up",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "knit_top",
+      "trousers"
+     ],
+     "expose": [
+      "mini length",
+      "strapless top"
+     ],
+     "lead": "place"
     }
    ],
-   "stamp": "913cb4b9ee5975c637041a12ba28bcb9f4220ae78f0447c314297c745ba54118"
+   "stamp": "e973b720b2dafe44373a778d4420aa402636f6c95585429dfc63920e6c039c17"
   }
  ]
 }
