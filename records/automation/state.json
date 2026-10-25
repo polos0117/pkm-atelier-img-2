@@ -7734,14 +7734,14 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7892,7 +7892,7 @@
               "received_at": "2026-10-25T03:02:36+00:00"
             }
           },
-          "reason": "light_overdrive visual QA: Original, hand/boot crops and overlay viewed against canonical light. Face braid pose and camera retained, purple gaps opened; additional layered thigh and shin panels differ from original inventory. Near hand five spread gloved digits, far curled hand partly obscured; two arms and legs connected. Extreme long-leg proportions remain. Faint-body overlay mislocates wrists at torso, no detected hands; no tool certification of anatomy.",
+          "reason": "heavy_overdrive visual QA: Compared original heavy and canonical face with returned original, hand/boot crops and actual overlay. Same pose camera braid and crown broadly retained; opened purple plate gaps but added segmented knee/thigh surfaces and very long leg proportions remain. Near glove five spread digits, far curled glove occludes digit bases; two connected arms and legs, no clearly detached limb. Tool no_body and zero hands, no reliable automatic anatomy certification.",
           "resolution": "Upstream 1b3771e fixes implicit outerwear counting; regression tests pass; same-session plan-after-fix passed official check and reserve; verify stamp passed",
           "block_history": [
             {
@@ -7926,7 +7926,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T03:02:37+00:00"
+      "updated_at": "2026-10-25T03:02:47+00:00"
     }
   ],
   "claims": {
@@ -8478,9 +8478,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -8506,16 +8506,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -8611,9 +8611,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -8856,9 +8856,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-latias-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:49:47+11:00",
+      "session": "registeel-casual3-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
+      "at": "2026-10-25T06:52:03+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
