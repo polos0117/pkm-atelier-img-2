@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "jirachi-deoxys-20261025-manual",
- "at": "2026-10-25T14:28:54+11:00",
+ "at": "2026-10-25T14:55:32+11:00",
  "characters": [
   {
    "species": "jirachi-20261025",
@@ -94,7 +94,7 @@
   {
    "species": "deoxys-20261025",
    "card": "테오키스",
-   "at": "2026-10-25T14:22:51+11:00",
+   "at": "2026-10-25T14:55:32+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -119,7 +119,8 @@
       "side cutouts",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -144,35 +145,38 @@
       "bare midriff",
       "plunging neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "everyday_sensual",
-     "ex": "fridge_light",
-     "expr": "provocative",
-     "pose": "walking",
-     "orient": "leaning_back",
-     "frame": "full_body",
-     "lens": "telephoto135",
+     "cat": "everyday_basic",
+     "ex": "commute_train",
+     "expr": "determined",
+     "pose": "hands_in_hair",
+     "orient": "reaching_up",
+     "frame": "three_quarter",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "overalls"
+      "blouse",
+      "jacket",
+      "skirt"
      ],
      "expose": [
-      "cropped hem",
-      "halter neck"
+      "open back",
+      "strapless top"
      ],
      "lead": "place"
     }
    ],
-   "stamp": "2dd3f75329e20c337e56ab7f85e04f063e1cd5acd351b35223f9d5fee0bf9cf8"
+   "stamp": "02196a06535d8e3cf57d0e5e03b79b5a5a0d1da3e04c643c4fcc4a2b1f64856a"
   }
  ]
 }
