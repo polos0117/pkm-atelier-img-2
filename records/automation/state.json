@@ -7838,7 +7838,7 @@
               }
             },
             "light_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-25T02:59:12+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/light_overdrive/prompt.txt",
@@ -7850,7 +7850,14 @@
               },
               "references": {
                 "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-25-16/384/light_overdrive/original.png",
+                "sha256": "255ceef448b41dbbf246d2bdf1c2720bb7a6172986e683b985db432a54f19794",
+                "session_only": true,
+                "webp_sha256": "5593b9a9bd21fe63322081dad7a2a24da8a21fd676b9d038928570e1e1157eed"
+              },
+              "received_at": "2026-10-25T03:00:40+00:00"
             }
           },
           "reason": "mobility visual QA: Original, upper/lower crops and overlay viewed. Shoulder and hip fins are long and temple fin clips top frame; legs disproportionately long and boots close to edge. Near open glove shows five digits; curled far hand digits uncertain. Arms and legs remain connected. Tool faint_body overlay clusters near neck and is not reliable for limb geometry; zero detected hands does not certify anatomy. Green thruster accents differ from canonical palette.",
@@ -7880,7 +7887,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T02:59:12+00:00"
+      "updated_at": "2026-10-25T03:00:41+00:00"
     }
   ],
   "claims": {
@@ -8432,9 +8439,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -8460,16 +8467,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -8565,9 +8572,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
@@ -8810,9 +8817,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-latias-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:49:47+11:00",
+      "session": "registeel-casual3-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
+      "at": "2026-10-25T06:52:03+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
