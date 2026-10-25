@@ -1,0 +1,90 @@
+{
+  "at": "2026-10-25T03:21:35+00:00",
+  "card": 384,
+  "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
+  "actions": [
+    {
+      "repo": "pkm-atelier-img-3",
+      "id": 40157629432,
+      "name": "썸네일",
+      "head_sha": "af760afdc2e20e95af8ea7600de7c6a00e3d9356",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/polos0117/pkm-atelier-img-3/actions/runs/40157629432"
+    },
+    {
+      "repo": "pkm-atelier-img-3",
+      "id": 40157629286,
+      "name": "pages build and deployment",
+      "head_sha": "af760afdc2e20e95af8ea7600de7c6a00e3d9356",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/polos0117/pkm-atelier-img-3/actions/runs/40157629286"
+    },
+    {
+      "repo": "pkm-atelier-img-3",
+      "id": 40157707266,
+      "name": "pages build and deployment",
+      "head_sha": "edd403f3eb49c9464b5a734d2c4077d99950e57b",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/polos0117/pkm-atelier-img-3/actions/runs/40157707266"
+    },
+    {
+      "repo": "pkm-atelier",
+      "id": 40157708064,
+      "name": "그림 등록",
+      "head_sha": "36a61d170d06f1dec4e5be1715e728199da6f1f8",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/polos0117/pkm-atelier/actions/runs/40157708064"
+    },
+    {
+      "repo": "pkm-atelier",
+      "id": 40157858773,
+      "name": "pages build and deployment",
+      "head_sha": "f31b61279d46ed5a5ec3b3b4d3f0c3f58f41b346",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/polos0117/pkm-atelier/actions/runs/40157858773"
+    }
+  ],
+  "logs_checked": {
+    "thumbnail_job": 121062295045,
+    "registration_job": 121062530666,
+    "warnings": "Thumbnail and registration logs inspected. Existing other-file dimension warnings (including style preview files) and Node20/punycode/url.parse deprecations remain. All eight Rayquaza images were independently verified WEBP 1024x1536 and eight thumbnails WEBP long side512. Registration forms, shard and image registration tests passed. No current Rayquaza file warning or failed action.\n"
+  },
+  "validation": "Eight image hashes and dimensions, eight thumbnail byte formats/dimensions, exactly eight registered slots and where=2 verified against fresh remote. Eight original and cache hashes verified. Both generated casuals passed look-distance test and actual comparison; third does not exist. All eight visual QA failures retained as user_exception, not rewritten as pass. Session read adapter retains 18 entries and original checkpoint hashes; no common code changed.",
+  "missing": {
+    "casual3": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "cb3bab39-8e88-43e9-94d3-f41846dbe91f",
+      "output_files": [],
+      "retried": false
+    }
+  },
+  "schedule_stop": {
+    "parent_confirmed_disabled": true,
+    "approval_message": "Sentinel_757c83f20d3c8191952016498c03292e",
+    "next_character_started": false
+  },
+  "quota": {
+    "execution": [
+      384
+    ],
+    "utc": [
+      383,
+      384
+    ],
+    "kst": [
+      375,
+      381,
+      382,
+      383,
+      384
+    ]
+  },
+  "public_http_bytes": "Not re-fetched after earlier environment proxy403. Remote Git bytes and Pages Actions success verified."
+}
