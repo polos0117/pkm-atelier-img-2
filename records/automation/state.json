@@ -7734,14 +7734,14 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7828,7 +7828,7 @@
               "received_at": "2026-10-25T02:58:50+00:00"
             }
           },
-          "reason": "heavy visual QA: Face braid and body retained; broad layered armor and open face crown added. Two arms and legs continuous; screen-left glove five digits visible, far hand curled and partially occluded. Legs extremely long, lower toe margins tight and light crosses front. Tool no body/hands, actual overlay inspected; not tool pass.",
+          "reason": "mobility visual QA: Original, upper/lower crops and overlay viewed. Shoulder and hip fins are long and temple fin clips top frame; legs disproportionately long and boots close to edge. Near open glove shows five digits; curled far hand digits uncertain. Arms and legs remain connected. Tool faint_body overlay clusters near neck and is not reliable for limb geometry; zero detected hands does not certify anatomy. Green thruster accents differ from canonical palette.",
           "resolution": "Upstream 1b3771e fixes implicit outerwear counting; regression tests pass; same-session plan-after-fix passed official check and reserve; verify stamp passed",
           "block_history": [
             {
@@ -7848,7 +7848,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T02:58:50+00:00"
+      "updated_at": "2026-10-25T02:58:59+00:00"
     }
   ],
   "claims": {
