@@ -7449,6 +7449,21 @@
                 "path": "records/automation/runs/2026-10-24-15/383/heavy_overdrive/user-exception.json",
                 "sha256": "d854b72ccf827b872c476cae3227f3c6e2423a48645a17eb60e886e4dee429d2"
               }
+            },
+            "mobility_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-25T00:11:11+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-15/383/mobility_overdrive/prompt.txt",
+                "sha256": "7d4578306448f27b066800fff75085247790771ea5641fefb2b2dcf5c3e59008"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-15/383/mobility_overdrive/ui.json",
+                "sha256": "ff25fcb3b281a002d6c53e868752021dfe3e228c9acf876428c66bd2b791bbda"
+              },
+              "references": {
+                "mobility": "5d8a8b9fc39a0ed563b12a13920abb236100cbd4c0b22966b91bf8bc0d4c5c46"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Heavy pose framing face hair and gloves broadly retained, stacked plates open with amber internal gaps. Some thigh plate shapes subdivide or shift; exact piece correspondence uncertain. Hair and sash clipped right and boot margin tight. Both arms and legs continuous; curled overlapping glove fingers prevent full count certification. Tool no body or hands, overlay reviewed.",
@@ -7491,7 +7506,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T00:11:01+00:00"
+      "updated_at": "2026-10-25T00:11:11+00:00"
     }
   ],
   "claims": {
@@ -8037,9 +8052,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -8415,9 +8430,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-latias-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
-      "at": "2026-10-25T06:49:47+11:00",
+      "session": "registeel-casual3-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
+      "at": "2026-10-25T06:52:03+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
