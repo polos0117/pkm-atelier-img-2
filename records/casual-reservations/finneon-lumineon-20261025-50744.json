@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "finneon-lumineon-20261025-50744",
- "at": "2026-10-25T15:49:50+11:00",
+ "at": "2026-10-25T15:58:18+11:00",
  "characters": [
   {
    "species": "finneon-20261025",
    "card": "형광어",
-   "at": "2026-10-25T15:49:50+11:00",
+   "at": "2026-10-25T15:58:18+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,7 +31,8 @@
       "one-shoulder cut",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -57,7 +58,8 @@
       "high thigh slit",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -82,42 +84,42 @@
       "cropped hem",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "1d10021a31e9e16d3b5b49efbcda9f98c2946115a7fa352458a11c239aaf285f"
+   "stamp": "f0694f69960067dff851b7cff50b9e134b009a35803f84ec98c1b5bfa0ab6fcf"
   },
   {
    "species": "lumineon-20261025",
    "card": "네오라이트",
-   "at": "2026-10-25T15:49:50+11:00",
+   "at": "2026-10-25T15:58:18+11:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "traditional",
-     "ex": "aodai_daily",
+     "ex": "hanfu_formal",
      "expr": "nostalgic",
-     "pose": "walking",
+     "pose": "leaning_wall",
      "orient": "leaning_back",
      "frame": "waist_up",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set",
       "skirt",
-      "trousers"
+      "traditional"
      ],
      "expose": [
-      "high-cut leg",
-      "side cutouts"
+      "side cutouts",
+      "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "detail"
     },
     {
      "cut": 2,
@@ -142,35 +144,36 @@
       "bare midriff",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "swimwear",
-     "ex": "burkini_modest",
+     "ex": "rashguard_set",
      "expr": "wistful",
-     "pose": "leaning_wall",
+     "pose": "arms_crossed",
      "orient": "looking_down",
      "frame": "three_quarter",
-     "lens": "natural50",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "subtle",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
       "swimsuit"
      ],
      "expose": [
-      "plunging neckline",
-      "strapless top"
+      "high-cut leg",
+      "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "action"
     }
    ],
-   "stamp": "5722c754dd9b97a9769bb0aa2da4fa907415d0aa98b791a6eafcc103fd221d9a"
+   "stamp": "c67952a57f749881e7718c0903164312cb5fc3fcebec5c899b0cb104fe5d62b0"
   }
  ]
 }
