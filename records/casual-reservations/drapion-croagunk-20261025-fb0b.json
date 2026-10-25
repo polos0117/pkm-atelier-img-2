@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "drapion-croagunk-20261025-fb0b",
- "at": "2026-10-25T12:37:45+11:00",
+ "at": "2026-10-25T12:56:01+11:00",
  "characters": [
   {
    "species": "drapion-20261025",
@@ -90,7 +90,7 @@
   {
    "species": "croagunk-20261025",
    "card": "삐딱구리",
-   "at": "2026-10-25T12:37:45+11:00",
+   "at": "2026-10-25T12:56:01+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -115,7 +115,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -141,33 +142,33 @@
       "one-shoulder cut",
       "cropped hem"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "homewear",
-     "ex": "window_vanity",
+     "ex": "robe_morning",
      "expr": "sensual",
-     "pose": "gentle_pat",
+     "pose": "holding_cup",
      "orient": "front",
      "frame": "chest_up",
-     "lens": "telephoto135",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "strong",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "robe",
-      "slip"
+      "robe"
      ],
      "expose": [
-      "high thigh slit",
-      "strapless top"
+      "one-shoulder cut",
+      "plunging neckline"
      ],
-     "lead": "action"
+     "lead": "place"
     }
    ]
   }
