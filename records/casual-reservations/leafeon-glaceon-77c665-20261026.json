@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "leafeon-glaceon-77c665-20261026",
- "at": "2026-10-25T17:54:52-06:00",
+ "at": "2026-10-25T17:56:04-06:00",
  "characters": [
   {
    "species": "leafeon-20261026",
    "card": "리피아",
-   "at": "2026-10-25T17:54:52-06:00",
+   "at": "2026-10-25T17:56:04-06:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,7 +32,8 @@
       "halter neck",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -57,7 +58,8 @@
       "high-cut leg",
       "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -83,20 +85,21 @@
       "open back",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "b2d630abf47f35c5156fcf8de7014e85e6a794737e6eebcc76769b7b51e1cc26"
+   "stamp": "b7e48c826ba7d70e1e2981e770feda2c8897c276a3d2fcf3bb4ffc7ac1ddf380"
   },
   {
    "species": "glaceon-20261026",
    "card": "글레이시아",
-   "at": "2026-10-25T17:54:52-06:00",
+   "at": "2026-10-25T17:56:04-06:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "swimwear",
-     "ex": "burkini_modest",
+     "ex": "highleg_onepiece",
      "expr": "flustered",
      "pose": "squatting",
      "orient": "crouching",
@@ -116,7 +119,7 @@
       "high-cut leg",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 2,
@@ -142,7 +145,8 @@
       "mini length",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -168,10 +172,11 @@
       "strapless top",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "6051a581c473b5e21986860199d3bba62f769f85a510941940207d809dc8cc68"
+   "stamp": "41440d2d6c787d1fb782ce160ab59d6b6fcd45c07c670627c10f9e7319233000"
   }
  ]
 }
