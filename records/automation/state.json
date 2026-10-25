@@ -7734,14 +7734,14 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "active",
+      "status": "blocked",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "working",
+          "status": "blocked",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7924,7 +7924,7 @@
               "received_at": "2026-10-25T03:04:54+00:00"
             }
           },
-          "reason": "heavy_overdrive visual QA: Compared original heavy and canonical face with returned original, hand/boot crops and actual overlay. Same pose camera braid and crown broadly retained; opened purple plate gaps but added segmented knee/thigh surfaces and very long leg proportions remain. Near glove five spread digits, far curled glove occludes digit bases; two connected arms and legs, no clearly detached limb. Tool no_body and zero hands, no reliable automatic anatomy certification.",
+          "reason": "mobility_overdrive visual QA: Original and upper/lower crops compared with mobility reference and canonical light face; actual overlay viewed. Face braid stance retained, fanned thruster panels glow purple. Temple fin remains clipped and outer right fan reaches edge; extreme long legs and enlarged fin span remain. Near glove has five separated digits, far glove fingers curled and bases occluded. Two arms and legs connected; boot toes inside tight margins. Faint-body overlay incorrectly clusters around face and detects no hands; automated geometry unusable.",
           "resolution": "Upstream 1b3771e fixes implicit outerwear counting; regression tests pass; same-session plan-after-fix passed official check and reserve; verify stamp passed",
           "block_history": [
             {
@@ -7965,7 +7965,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T03:04:54+00:00"
+      "updated_at": "2026-10-25T03:05:03+00:00"
     }
   ],
   "claims": {
@@ -8517,9 +8517,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
