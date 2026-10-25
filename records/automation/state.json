@@ -7545,6 +7545,21 @@
                 "path": "records/automation/runs/2026-10-24-15/383/casual2/user-exception.json",
                 "sha256": "19da4b90f745347ca81913db6387fa028f8628038492d75132a33d769ca3e7a2"
               }
+            },
+            "casual3": {
+              "status": "in_flight",
+              "at": "2026-10-25T00:17:39+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual3/prompt.txt",
+                "sha256": "dc63fb7e5e1870a5940bde4d4cd2df399765c03c294eb9a650eb4fba60cd41dd"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual3/ui.json",
+                "sha256": "47217528a074ab11bc19241893c76e959430efaf4af91ea6f07dafc35bc13300"
+              },
+              "references": {
+                "light": "e2cc615c24ff9f4e0cddc5a02162fa9f58d5c9d1d1d0958ffe0ec822786c3255"
+              }
             }
           },
           "reason": "casual2 visual QA: Actual exhibition strap adjustment and asymmetric top with wide trousers differ from shop-floor casual1 and recent comparison images. Requested waist crop expanded to thighs and raised fingertips clipped at top. Shoulder elbow wrist chains continuous; lower hand has curled overlapping fingers, upper grip hides digits, no full count certification. Two upper legs visible, knees and feet outside crop. Three tool body detections are duplicated on one visible woman, two hands detected; actual overlay viewed. Strong source trim resembles armor edges although textile folds visible.",
@@ -7608,7 +7623,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T00:17:28+00:00"
+      "updated_at": "2026-10-25T00:17:39+00:00"
     }
   ],
   "claims": {
@@ -8182,16 +8197,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -8532,9 +8547,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-casual3-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
-      "at": "2026-10-25T06:52:03+11:00",
+      "session": "registeel-latias-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
+      "at": "2026-10-25T06:49:47+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
