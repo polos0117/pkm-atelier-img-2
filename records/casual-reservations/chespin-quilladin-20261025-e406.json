@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "chespin-quilladin-20261025-e406",
- "at": "2026-10-25T14:54:47+11:00",
+ "at": "2026-10-25T15:07:09+11:00",
  "characters": [
   {
    "species": "chespin-20261025",
    "card": "도치마론",
-   "at": "2026-10-25T14:54:47+11:00",
+   "at": "2026-10-25T15:07:09+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -33,17 +33,18 @@
       "open back",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
      "cat": "active",
-     "ex": "aerial_silk",
-     "expr": "determined",
+     "ex": "tennis_active",
+     "expr": "exhausted",
      "pose": "sitting_floor",
      "orient": "reclining",
      "frame": "waist_up",
-     "lens": "natural50",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -52,12 +53,11 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "shorts",
-      "tank"
+      "skirt"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "one-shoulder cut"
+      "open back",
+      "mini length"
      ],
      "lead": "detail"
     },
@@ -85,15 +85,16 @@
       "side cutouts",
       "cropped hem"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "6f71f8e58fc5e454e750ce126d241cf5b5110c3788d98ded6c8758c3afcdfce8"
+   "stamp": "6c31ff41684699c1fed5bd62c4aaf45833fdbcd611abaa70232b4cefe6aa5b1f"
   },
   {
    "species": "quilladin-20261025",
    "card": "도치보구",
-   "at": "2026-10-25T14:54:47+11:00",
+   "at": "2026-10-25T15:07:09+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -118,7 +119,8 @@
       "high-cut leg",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -143,7 +145,8 @@
       "high thigh slit",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -168,10 +171,11 @@
       "open back",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "c5a470a88cb6b0e72a1ac4ecc9be41d131321221e0854f3deb68d9dc7857a807"
+   "stamp": "6a81da789dd36e326443c9daec5827ffc6b5598cc13da30fbdbc707aaabd582b"
   }
  ]
 }
