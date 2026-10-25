@@ -1,0 +1,35 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "e2cc615c24ff9f4e0cddc5a02162fa9f58d5c9d1d1d0958ffe0ec822786c3255",
+  "observations": "Single adult, two arms and legs continuous, boots visible with tight lower margin. Hair and segmented sash clipped at right edge; bulky shoulders exceed light impression. Gloved curled fingers overlap and thumbs partly occluded, exact five digits cannot be certified. Tool note: three body detections on one visible figure, zero hands. Nose softer than specified.",
+  "anatomy": {
+    "tool": "note",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Single adult, two arms and legs continuous, boots visible with tight lower margin. Hair and segmented sash clipped at right edge; bulky shoulders exceed light impression. Gloved curled fingers overlap and thumbs partly occluded, exact five digits cannot be certified. Tool note: three body detections on one visible figure, zero hands. Nose softer than specified.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Single adult, two arms and legs continuous, boots visible with tight lower margin. Hair and segmented sash clipped at right edge; bulky shoulders exceed light impression. Gloved curled fingers overlap and thumbs partly occluded, exact five digits cannot be certified. Tool note: three body detections on one visible figure, zero hands. Nose softer than specified."
+  },
+  "anatomy_tool_result": {
+    "level": "note",
+    "flags": [
+      {
+        "level": "note",
+        "what": "bodies",
+        "msg": "몸이 3 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+      }
+    ],
+    "hands": [],
+    "measure": {
+      "shoulder_px": 156.9
+    },
+    "file": "/workspace/generated_images/exec-d4e660b6-1bd9-4b26-bb46-3b4039dbf588.png"
+  },
+  "compared_characters": [
+    "메탕구",
+    "레지스틸",
+    "레지아이스"
+  ],
+  "face_reason": "No evolution stage. Compared actual sheet: Metang teal straight bangs, Registeel silver straight bangs and softer face, Regice blue chignon. Groudon asymmetric loose silver hair, angular jaw and upturned eyes; silver palette overlaps Registeel. Prominent nose is softer than requested."
+}

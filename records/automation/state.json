@@ -7280,17 +7280,17 @@
       "id": "2026-10-24-15",
       "execution_id": "pkm-daily-2026-10-25T00-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T23:58:37+00:00",
       "queue": [
         {
           "no": 383,
           "name": "그란돈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-24T23:59:43+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-15/383/light/prompt.txt",
@@ -7307,10 +7307,29 @@
                 "session_only": true,
                 "webp_sha256": "52b3bb694a11ee08584e60eb91040c1cbd5d8f335ad1de25cee5fa0afce4ec94"
               },
-              "received_at": "2026-10-25T00:03:41+00:00"
+              "received_at": "2026-10-25T00:03:41+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-15/383/light/qa-rejected.json",
+                "sha256": "f376f9ddbed7c9a73b101b426575e1b94a5be1ec3f4a99c7b0a8fe1b18792fb7"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-15/383/light/user-exception.json",
+                "sha256": "d89fff9a48af6b5dd0c70a1cda4c5786d876ec5e95cc17bfad52020cbba57ba6"
+              }
             }
           },
-          "reason": "light visual QA: Single adult, two arms and legs continuous, boots visible with tight lower margin. Hair and segmented sash clipped at right edge; bulky shoulders exceed light impression. Gloved curled fingers overlap and thumbs partly occluded, exact five digits cannot be certified. Tool note: three body detections on one visible figure, zero hands. Nose softer than specified."
+          "reason": "light visual QA: Single adult, two arms and legs continuous, boots visible with tight lower margin. Hair and segmented sash clipped at right edge; bulky shoulders exceed light impression. Gloved curled fingers overlap and thumbs partly occluded, exact five digits cannot be certified. Tool note: three body detections on one visible figure, zero hands. Nose softer than specified.",
+          "block_history": [
+            {
+              "reason": "light visual QA: Single adult, two arms and legs continuous, boots visible with tight lower margin. Hair and segmented sash clipped at right edge; bulky shoulders exceed light impression. Gloved curled fingers overlap and thumbs partly occluded, exact five digits cannot be certified. Tool note: three body detections on one visible figure, zero hands. Nose softer than specified.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-15/383/light/user-exception.json",
+                "sha256": "d89fff9a48af6b5dd0c70a1cda4c5786d876ec5e95cc17bfad52020cbba57ba6"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-25T00:03:50+00:00"
