@@ -7734,14 +7734,14 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7902,7 +7902,7 @@
               }
             },
             "mobility_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T03:03:04+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/mobility_overdrive/prompt.txt",
@@ -7921,7 +7921,17 @@
                 "session_only": true,
                 "webp_sha256": "8e7c8fa5c19f9155e95dd73a6afeee3450e82ff9b721dc9841414e63a68a3be2"
               },
-              "received_at": "2026-10-25T03:04:54+00:00"
+              "received_at": "2026-10-25T03:04:54+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-25-16/384/mobility_overdrive/qa-rejected.json",
+                "sha256": "cc7a6a66799ab9fbf70f9605dcf4c0cd9054324197af3f52cf8fc4124f27b0f3"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-25-16/384/mobility_overdrive/user-exception.json",
+                "sha256": "c611a2cfc4b4a7508871f053809daa646b20de40be228390d33c9975a98b14d0"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Original and upper/lower crops compared with mobility reference and canonical light face; actual overlay viewed. Face braid stance retained, fanned thruster panels glow purple. Temple fin remains clipped and outer right fan reaches edge; extreme long legs and enlarged fin span remain. Near glove has five separated digits, far glove fingers curled and bases occluded. Two arms and legs connected; boot toes inside tight margins. Faint-body overlay incorrectly clusters around face and detects no hands; automated geometry unusable.",
@@ -7960,6 +7970,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-25-16/384/heavy_overdrive/user-exception.json",
                 "sha256": "26bd80426ecccbdbe3c5d92b8f0331c0e40dedc82138fd2fc74588566504c128"
+              }
+            },
+            {
+              "reason": "mobility_overdrive visual QA: Original and upper/lower crops compared with mobility reference and canonical light face; actual overlay viewed. Face braid stance retained, fanned thruster panels glow purple. Temple fin remains clipped and outer right fan reaches edge; extreme long legs and enlarged fin span remain. Near glove has five separated digits, far glove fingers curled and bases occluded. Two arms and legs connected; boot toes inside tight margins. Faint-body overlay incorrectly clusters around face and detects no hands; automated geometry unusable.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-25-16/384/mobility_overdrive/user-exception.json",
+                "sha256": "c611a2cfc4b4a7508871f053809daa646b20de40be228390d33c9975a98b14d0"
               }
             }
           ]
