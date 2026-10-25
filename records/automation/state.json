@@ -7932,6 +7932,21 @@
                 "path": "records/automation/runs/2026-10-25-16/384/mobility_overdrive/user-exception.json",
                 "sha256": "c611a2cfc4b4a7508871f053809daa646b20de40be228390d33c9975a98b14d0"
               }
+            },
+            "casual1": {
+              "status": "in_flight",
+              "at": "2026-10-25T03:05:22+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-25-16/384/casual1/prompt.txt",
+                "sha256": "a642f9d2f2a15cf42b907dc0dfdc7883e6678fa8e8fe155139125405d7469d77"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-25-16/384/casual1/ui.json",
+                "sha256": "b157f07a0d02e46f5b8a1f875325837110767a12a33542638010e610dc70cc99"
+              },
+              "references": {
+                "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
+              }
             }
           },
           "reason": "mobility_overdrive visual QA: Original and upper/lower crops compared with mobility reference and canonical light face; actual overlay viewed. Face braid stance retained, fanned thruster panels glow purple. Temple fin remains clipped and outer right fan reaches edge; extreme long legs and enlarged fin span remain. Near glove has five separated digits, far glove fingers curled and bases occluded. Two arms and legs connected; boot toes inside tight margins. Faint-body overlay incorrectly clusters around face and detects no hands; automated geometry unusable.",
@@ -7982,7 +7997,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T03:05:03+00:00"
+      "updated_at": "2026-10-25T03:05:22+00:00"
     }
   ],
   "claims": {
@@ -8562,16 +8577,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T05:43:50-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-20261022-9c71",
-      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
-      "at": "2026-10-22T12:32:46+00:00",
+      "session": "patrat-watchog-18829a",
+      "file": "records/casual-reservations/patrat-watchog-18829a.json",
+      "at": "2026-10-22T06:02:49-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -8667,9 +8682,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
