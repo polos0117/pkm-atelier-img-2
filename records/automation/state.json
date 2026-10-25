@@ -7283,14 +7283,14 @@
       "id": "2026-10-24-15",
       "execution_id": "pkm-daily-2026-10-25T00-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T23:58:37+00:00",
       "queue": [
         {
           "no": 383,
           "name": "그란돈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7515,7 +7515,7 @@
               }
             },
             "casual2": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T00:15:57+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-15/383/casual2/prompt.txt",
@@ -7534,7 +7534,17 @@
                 "session_only": true,
                 "webp_sha256": "7916ca7ea8dd2ccc65490297ca6776649be36917cff866a6098a50153e5517c8"
               },
-              "received_at": "2026-10-25T00:17:19+00:00"
+              "received_at": "2026-10-25T00:17:19+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual2/qa-rejected.json",
+                "sha256": "10728acfad56370f6d7bbb70addaeae786d3b117411b2fef4c2a10bf67ea2ade"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual2/user-exception.json",
+                "sha256": "19da4b90f745347ca81913db6387fa028f8628038492d75132a33d769ca3e7a2"
+              }
             }
           },
           "reason": "casual2 visual QA: Actual exhibition strap adjustment and asymmetric top with wide trousers differ from shop-floor casual1 and recent comparison images. Requested waist crop expanded to thighs and raised fingertips clipped at top. Shoulder elbow wrist chains continuous; lower hand has curled overlapping fingers, upper grip hides digits, no full count certification. Two upper legs visible, knees and feet outside crop. Three tool body detections are duplicated on one visible woman, two hands detected; actual overlay viewed. Strong source trim resembles armor edges although textile folds visible.",
@@ -7586,6 +7596,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-15/383/casual1/user-exception.json",
                 "sha256": "f9163dcb0c9b743e2575e5083ec75db9fe34f0f5b098f7b6076486a4efcb2aae"
+              }
+            },
+            {
+              "reason": "casual2 visual QA: Actual exhibition strap adjustment and asymmetric top with wide trousers differ from shop-floor casual1 and recent comparison images. Requested waist crop expanded to thighs and raised fingertips clipped at top. Shoulder elbow wrist chains continuous; lower hand has curled overlapping fingers, upper grip hides digits, no full count certification. Two upper legs visible, knees and feet outside crop. Three tool body detections are duplicated on one visible woman, two hands detected; actual overlay viewed. Strong source trim resembles armor edges although textile folds visible.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-15/383/casual2/user-exception.json",
+                "sha256": "19da4b90f745347ca81913db6387fa028f8628038492d75132a33d769ca3e7a2"
               }
             }
           ]

@@ -1,0 +1,45 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "c110009d430f22b208338f06272e4356528a9464012923873a3c89d30ecc180f",
+  "observations": "Actual exhibition strap adjustment and asymmetric top with wide trousers differ from shop-floor casual1 and recent comparison images. Requested waist crop expanded to thighs and raised fingertips clipped at top. Shoulder elbow wrist chains continuous; lower hand has curled overlapping fingers, upper grip hides digits, no full count certification. Two upper legs visible, knees and feet outside crop. Three tool body detections are duplicated on one visible woman, two hands detected; actual overlay viewed. Strong source trim resembles armor edges although textile folds visible.",
+  "anatomy": {
+    "tool": "note",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Actual exhibition strap adjustment and asymmetric top with wide trousers differ from shop-floor casual1 and recent comparison images. Requested waist crop expanded to thighs and raised fingertips clipped at top. Shoulder elbow wrist chains continuous; lower hand has curled overlapping fingers, upper grip hides digits, no full count certification. Two upper legs visible, knees and feet outside crop. Three tool body detections are duplicated on one visible woman, two hands detected; actual overlay viewed. Strong source trim resembles armor edges although textile folds visible.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Actual exhibition strap adjustment and asymmetric top with wide trousers differ from shop-floor casual1 and recent comparison images. Requested waist crop expanded to thighs and raised fingertips clipped at top. Shoulder elbow wrist chains continuous; lower hand has curled overlapping fingers, upper grip hides digits, no full count certification. Two upper legs visible, knees and feet outside crop. Three tool body detections are duplicated on one visible woman, two hands detected; actual overlay viewed. Strong source trim resembles armor edges although textile folds visible."
+  },
+  "anatomy_tool_result": {
+    "level": "note",
+    "flags": [
+      {
+        "level": "note",
+        "what": "bodies",
+        "msg": "몸이 3 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+      }
+    ],
+    "hands": [
+      {
+        "i": 0,
+        "label_side": "R",
+        "score": 0.99,
+        "arm": "R",
+        "gap": 0.42
+      },
+      {
+        "i": 1,
+        "label_side": "L",
+        "score": 0.94,
+        "arm": "foot",
+        "gap": 5.59
+      }
+    ],
+    "measure": {
+      "shoulder_px": 164.2
+    },
+    "file": "/workspace/generated_images/exec-e522b410-e045-4ac8-9232-f69b079e9fbf.png"
+  },
+  "diversity_comparison": "Actual recent nine-image comparison viewed: Hippowdon seated indoor lounge, festival jewelry stall, creature-grooming stable; Skorupi studio workout, mirror robe scene, lake rest; Kyogre rainy indoor robe, wardrobe dressing, map-viewing harbor. Planned Groudon uses a travel-supply shop floor parcel task with cropped utility vest/trousers and high-angle chest crop, a cockpit fashion exhibition strap-adjustment with one-shoulder crop/trousers and waist crop, and active beach jog in athletic one-piece with environmental front-three-quarter frame. Distinct activities, contexts and silhouettes; shop goods overlap broadly with festival/harbor commerce but parcel-packing viewpoint differs. Actual final render differences must also be inspected; this is pre-generation comparison, not a claim all planned choices rendered.\n"
+}
