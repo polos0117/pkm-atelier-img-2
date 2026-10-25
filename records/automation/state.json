@@ -7836,6 +7836,21 @@
                 "path": "records/automation/runs/2026-10-25-16/384/mobility/user-exception.json",
                 "sha256": "d9aae0893a27ae026383c35ac23f7ef305efb358c175587ddb799e2c2518fefb"
               }
+            },
+            "light_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-25T02:59:12+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-25-16/384/light_overdrive/prompt.txt",
+                "sha256": "dc8d3f1fbe88d85b2e9648f0b0e14d5fb2d7373e8436cf22c3f463a1b12188cc"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-25-16/384/light_overdrive/ui.json",
+                "sha256": "22b6d9cb077cb1274b09a9a42a61d29edcb11a3c661552b26e291c49ffc4d399"
+              },
+              "references": {
+                "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
+              }
             }
           },
           "reason": "mobility visual QA: Original, upper/lower crops and overlay viewed. Shoulder and hip fins are long and temple fin clips top frame; legs disproportionately long and boots close to edge. Near open glove shows five digits; curled far hand digits uncertain. Arms and legs remain connected. Tool faint_body overlay clusters near neck and is not reliable for limb geometry; zero detected hands does not certify anatomy. Green thruster accents differ from canonical palette.",
@@ -7865,7 +7880,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T02:58:59+00:00"
+      "updated_at": "2026-10-25T02:59:12+00:00"
     }
   ],
   "claims": {
