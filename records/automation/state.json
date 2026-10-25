@@ -7283,14 +7283,14 @@
       "id": "2026-10-24-15",
       "execution_id": "pkm-daily-2026-10-25T00-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T23:58:37+00:00",
       "queue": [
         {
           "no": 383,
           "name": "그란돈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7387,7 +7387,7 @@
               }
             },
             "light_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T00:07:44+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-15/383/light_overdrive/prompt.txt",
@@ -7406,7 +7406,17 @@
                 "session_only": true,
                 "webp_sha256": "fae5ffab0ea08a5a9cebf0066c3f7de2af83f3439773878b30aa822154429d43"
               },
-              "received_at": "2026-10-25T00:09:03+00:00"
+              "received_at": "2026-10-25T00:09:03+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-15/383/light_overdrive/qa-rejected.json",
+                "sha256": "1bf8eddefa18962f0585d65e6ffe7fb834e3281fcd814f430aefcfcf4e4d9374"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-15/383/light_overdrive/user-exception.json",
+                "sha256": "02ce8cacd1fa0adbf7b3328a6fd6d4b9f98a05a5f46d28a993ebcedb953c9531"
+              }
             }
           },
           "reason": "light_overdrive visual QA: Pose camera face and glove configuration broadly retained; amber seams and raised plates visible. Thigh and shin plates are more subdivided than closed original, exact armor-piece preservation not certified. Hair and sash clipped right, tight feet margin. Two continuous arms and legs; overlapping curled glove digits obscure exact count. Tool faint body and zero hands, actual overlay viewed.",
@@ -7430,6 +7440,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-15/383/mobility/user-exception.json",
                 "sha256": "e9f5f24bbcea8c1649e5374c5d285db08816c3587f94a58bccc4dd9eeca1111f"
+              }
+            },
+            {
+              "reason": "light_overdrive visual QA: Pose camera face and glove configuration broadly retained; amber seams and raised plates visible. Thigh and shin plates are more subdivided than closed original, exact armor-piece preservation not certified. Hair and sash clipped right, tight feet margin. Two continuous arms and legs; overlapping curled glove digits obscure exact count. Tool faint body and zero hands, actual overlay viewed.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-15/383/light_overdrive/user-exception.json",
+                "sha256": "02ce8cacd1fa0adbf7b3328a6fd6d4b9f98a05a5f46d28a993ebcedb953c9531"
               }
             }
           ]
