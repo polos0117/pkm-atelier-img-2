@@ -7323,7 +7323,7 @@
               }
             },
             "heavy": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-25T00:04:16+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-15/383/heavy/prompt.txt",
@@ -7335,7 +7335,14 @@
               },
               "references": {
                 "light": "e2cc615c24ff9f4e0cddc5a02162fa9f58d5c9d1d1d0958ffe0ec822786c3255"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-24-15/383/heavy/original.png",
+                "sha256": "bd23639e90be45876c8dcbf1a710a4ef68c98b39889bc07e2052d1d0c9930d5a",
+                "session_only": true,
+                "webp_sha256": "8158919e583026a12e1360e25c73ebdcdb6aaf9801088b50fdae89863366ca25"
+              },
+              "received_at": "2026-10-25T00:05:44+00:00"
             }
           },
           "reason": "light visual QA: Single adult, two arms and legs continuous, boots visible with tight lower margin. Hair and segmented sash clipped at right edge; bulky shoulders exceed light impression. Gloved curled fingers overlap and thumbs partly occluded, exact five digits cannot be certified. Tool note: three body detections on one visible figure, zero hands. Nose softer than specified.",
@@ -7350,7 +7357,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T00:04:16+00:00"
+      "updated_at": "2026-10-25T00:05:45+00:00"
     }
   ],
   "claims": {
@@ -7924,16 +7931,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -8312,6 +8319,20 @@
       "session": "hippowdon-skorupi-20261025-da8969",
       "file": "records/casual-reservations/hippowdon-skorupi-20261025-da8969.json",
       "at": "2026-10-25T10:18:35+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "522": {
+      "card": "줄뮤마",
+      "session": "blitzle-zebstrika-20261025-acc8",
+      "file": "records/casual-reservations/blitzle-zebstrika-20261025-acc8.json",
+      "at": "2026-10-25T11:01:33+11:00",
+      "status": "external_reservation_do_not_take_over"
+    },
+    "523": {
+      "card": "제브라이카",
+      "session": "blitzle-zebstrika-20261025-acc8",
+      "file": "records/casual-reservations/blitzle-zebstrika-20261025-acc8.json",
+      "at": "2026-10-25T11:01:33+11:00",
       "status": "external_reservation_do_not_take_over"
     }
   },
