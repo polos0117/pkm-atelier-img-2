@@ -7774,7 +7774,7 @@
               }
             },
             "heavy": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-25T02:53:03+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/heavy/prompt.txt",
@@ -7786,7 +7786,14 @@
               },
               "references": {
                 "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-25-16/384/heavy/original.png",
+                "sha256": "b6ac149a7448706cd5f58d29f5f27d334aaf0b6ffaf9dc8fe5812d07d2a5942b",
+                "session_only": true,
+                "webp_sha256": "341be3467035aa108bf1f8d4fb04816c7025a2b107b3c4b2fd78fd49da07cdcf"
+              },
+              "received_at": "2026-10-25T02:55:03+00:00"
             }
           },
           "reason": "light visual QA: Single adult, slim armor and long braid, two continuous arms and legs. Screen-left open glove shows five digits; opposite hand overlaps curled digits so exact count uncertain. Extremely elongated legs and small head deviate natural proportions; slim head fins larger than sensor. Feet visible but foreground light crosses near toe. Tool body ok with zero hands; overlay inspected, no hand certification.",
@@ -7802,7 +7809,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T02:53:03+00:00"
+      "updated_at": "2026-10-25T02:55:03+00:00"
     }
   ],
   "claims": {
@@ -8487,9 +8494,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
