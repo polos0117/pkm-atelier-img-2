@@ -7934,7 +7934,7 @@
               }
             },
             "casual1": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-25T03:05:22+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/casual1/prompt.txt",
@@ -7946,7 +7946,14 @@
               },
               "references": {
                 "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-25-16/384/casual1/original.png",
+                "sha256": "6b77bb9e45929249c9c633212622e1abc353c6230d999096310058e7e9f1b8db",
+                "session_only": true,
+                "webp_sha256": "f31bfda92645d46fbf04f7c47b71997a137d2c70135fed57752f8d4dac1153ce"
+              },
+              "received_at": "2026-10-25T03:06:51+00:00"
             }
           },
           "reason": "mobility_overdrive visual QA: Original and upper/lower crops compared with mobility reference and canonical light face; actual overlay viewed. Face braid stance retained, fanned thruster panels glow purple. Temple fin remains clipped and outer right fan reaches edge; extreme long legs and enlarged fin span remain. Near glove has five separated digits, far glove fingers curled and bases occluded. Two arms and legs connected; boot toes inside tight margins. Faint-body overlay incorrectly clusters around face and detects no hands; automated geometry unusable.",
@@ -7997,7 +8004,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T03:05:22+00:00"
+      "updated_at": "2026-10-25T03:06:51+00:00"
     }
   ],
   "claims": {
@@ -8549,9 +8556,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
-      "at": "2026-10-22T14:31:22-07:00",
+      "session": "gpt-mismagius-refill-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
+      "at": "2026-10-22T17:06:41-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -8577,16 +8584,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
