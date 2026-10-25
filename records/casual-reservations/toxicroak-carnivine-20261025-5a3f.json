@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "toxicroak-carnivine-20261025-5a3f",
- "at": "2026-10-25T13:14:17+11:00",
+ "at": "2026-10-25T13:21:43+11:00",
  "characters": [
   {
    "species": "toxicroak-20261025",
    "card": "독개굴",
-   "at": "2026-10-25T13:14:17+11:00",
+   "at": "2026-10-25T13:21:43+11:00",
    "cuts": [
     {
      "cut": 1,
@@ -21,7 +21,7 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -32,23 +32,22 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "light",
-     "kept": true
+     "lead": "place"
     },
     {
      "cut": 2,
      "cat": "festivals_contests",
-     "ex": "fest_cheering",
-     "expr": "candid",
-     "pose": "hand_on_hip",
+     "ex": "fest_fireworks",
+     "expr": "curious",
+     "pose": "turning_back",
      "orient": "leaning_forward",
      "frame": "full_body",
      "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -58,31 +57,30 @@
       "mini length",
       "side cutouts"
      ],
-     "lead": "action",
-     "kept": true
+     "lead": "detail"
     },
     {
      "cut": 3,
-     "cat": "partner_care",
-     "ex": "care_rain_shelter",
-     "expr": "curious",
-     "pose": "turning_back",
+     "cat": "traditional",
+     "ex": "kente_modern",
+     "expr": "candid",
+     "pose": "hand_on_hip",
      "orient": "looking_away",
      "frame": "chest_up",
-     "lens": "telephoto135",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "overalls"
+      "dress"
      ],
      "expose": [
-      "mini length",
-      "halter neck"
+      "one-shoulder cut",
+      "strapless top"
      ],
      "lead": "action"
     }
@@ -91,12 +89,12 @@
   {
    "species": "carnivine-20261025",
    "card": "무스틈니",
-   "at": "2026-10-25T13:14:17+11:00",
+   "at": "2026-10-25T13:21:43+11:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "everyday_sensual",
-     "ex": "fridge_light",
+     "ex": "hair_tie",
      "expr": "serious",
      "pose": "squatting",
      "orient": "crouching",
@@ -106,6 +104,56 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "robe"
+     ],
+     "expose": [
+      "off-shoulder neckline",
+      "mini length"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "cat": "swimwear",
+     "ex": "sarong_wrap",
+     "expr": "laughing",
+     "pose": "leaning_furniture",
+     "orient": "front_3q",
+     "frame": "full_body",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ],
+     "expose": [
+      "high-cut leg",
+      "plunging neckline"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "partner_care",
+     "ex": "care_rain_shelter",
+     "expr": "laughing_open",
+     "pose": "stretching",
+     "orient": "leaning_back",
+     "frame": "three_quarter",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
@@ -114,63 +162,10 @@
       "skirt"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "bare midriff"
+      "bare midriff",
+      "halter neck"
      ],
-     "lead": "light",
-     "kept": true
-    },
-    {
-     "cut": 2,
-     "cat": "swimwear",
-     "ex": "boyshort_swim",
-     "expr": "laughing",
-     "pose": "stretching",
-     "orient": "front_3q",
-     "frame": "full_body",
-     "lens": "natural50",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "swimsuit"
-     ],
-     "expose": [
-      "strapless top",
-      "plunging neckline"
-     ],
-     "lead": "place"
-    },
-    {
-     "cut": 3,
-     "cat": "traditional",
-     "ex": "hanfu_formal",
-     "expr": "relieved",
-     "pose": "leaning_furniture",
-     "orient": "leaning_back",
-     "frame": "three_quarter",
-     "lens": "documentary35",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "strong",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "skirt",
-      "traditional"
-     ],
-     "expose": [
-      "cropped hem",
-      "high thigh slit"
-     ],
-     "lead": "action",
-     "kept": true
+     "lead": "detail"
     }
    ]
   }
