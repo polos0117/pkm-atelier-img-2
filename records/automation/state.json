@@ -7742,12 +7742,26 @@
           "name": "레쿠쟈",
           "style": "glossy_promo",
           "status": "working",
-          "slots": {},
+          "slots": {
+            "light": {
+              "status": "in_flight",
+              "at": "2026-10-25T02:50:41+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-25-16/384/light/prompt.txt",
+                "sha256": "5d81ee1e1dcb6dc51e8872c054ca95ab115a92782f528a89bd68fe4e0caed531"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-25-16/384/light/ui.json",
+                "sha256": "f57bfa3ff6fbdff5d10adfe533a25de11d98a506c19395ae0adb4a6bc5731003"
+              },
+              "references": {}
+            }
+          },
           "reason": "casual planner validation failed: outerwear in cuts 1 and 3 exceeds one-of-three rule; initial bounded planner and one official avoid replan both failed; no image intent/call, no reservation published",
           "resolution": "Upstream 1b3771e fixes implicit outerwear counting; regression tests pass; same-session plan-after-fix passed official check and reserve; verify stamp passed"
         }
       ],
-      "updated_at": "2026-10-25T02:50:32+00:00"
+      "updated_at": "2026-10-25T02:50:41+00:00"
     }
   ],
   "claims": {
@@ -8432,9 +8446,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "chimecho-wynaut-refill-20261023",
-      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
-      "at": "2026-10-23T16:34:43+00:00",
+      "session": "tropius-chimecho-75f582-20261023",
+      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
+      "at": "2026-10-23T21:09:10+08:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
