@@ -7734,14 +7734,14 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7870,7 +7870,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T03:01:06+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/heavy_overdrive/prompt.txt",
@@ -7889,7 +7889,17 @@
                 "session_only": true,
                 "webp_sha256": "1c5b1de01a9055fd6810e29d67acd1ace7c0602b9679410586d5d613e95676bf"
               },
-              "received_at": "2026-10-25T03:02:36+00:00"
+              "received_at": "2026-10-25T03:02:36+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-25-16/384/heavy_overdrive/qa-rejected.json",
+                "sha256": "bc1b7202b76cb37929c552d4f4fca9711873195f9b0c44f545c8280564e7aa75"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-25-16/384/heavy_overdrive/user-exception.json",
+                "sha256": "26bd80426ecccbdbe3c5d92b8f0331c0e40dedc82138fd2fc74588566504c128"
+              }
             }
           },
           "reason": "heavy_overdrive visual QA: Compared original heavy and canonical face with returned original, hand/boot crops and actual overlay. Same pose camera braid and crown broadly retained; opened purple plate gaps but added segmented knee/thigh surfaces and very long leg proportions remain. Near glove five spread digits, far curled glove occludes digit bases; two connected arms and legs, no clearly detached limb. Tool no_body and zero hands, no reliable automatic anatomy certification.",
@@ -7921,6 +7931,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-25-16/384/light_overdrive/user-exception.json",
                 "sha256": "9a1624f02b34b56b15f6d11fb2f2590f5c1d16ba33744e766dc8a73f73c20db7"
+              }
+            },
+            {
+              "reason": "heavy_overdrive visual QA: Compared original heavy and canonical face with returned original, hand/boot crops and actual overlay. Same pose camera braid and crown broadly retained; opened purple plate gaps but added segmented knee/thigh surfaces and very long leg proportions remain. Near glove five spread digits, far curled glove occludes digit bases; two connected arms and legs, no clearly detached limb. Tool no_body and zero hands, no reliable automatic anatomy certification.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-25-16/384/heavy_overdrive/user-exception.json",
+                "sha256": "26bd80426ecccbdbe3c5d92b8f0331c0e40dedc82138fd2fc74588566504c128"
               }
             }
           ]

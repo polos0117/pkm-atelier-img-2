@@ -1,0 +1,27 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "55409b311b1f6dec787fc45e3d9db81de669cc4d19c1cf043bee117a37cc325f",
+  "observations": "Compared original heavy and canonical face with returned original, hand/boot crops and actual overlay. Same pose camera braid and crown broadly retained; opened purple plate gaps but added segmented knee/thigh surfaces and very long leg proportions remain. Near glove five spread digits, far curled glove occludes digit bases; two connected arms and legs, no clearly detached limb. Tool no_body and zero hands, no reliable automatic anatomy certification.",
+  "anatomy": {
+    "tool": "note",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Compared original heavy and canonical face with returned original, hand/boot crops and actual overlay. Same pose camera braid and crown broadly retained; opened purple plate gaps but added segmented knee/thigh surfaces and very long leg proportions remain. Near glove five spread digits, far curled glove occludes digit bases; two connected arms and legs, no clearly detached limb. Tool no_body and zero hands, no reliable automatic anatomy certification.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Compared original heavy and canonical face with returned original, hand/boot crops and actual overlay. Same pose camera braid and crown broadly retained; opened purple plate gaps but added segmented knee/thigh surfaces and very long leg proportions remain. Near glove five spread digits, far curled glove occludes digit bases; two connected arms and legs, no clearly detached limb. Tool no_body and zero hands, no reliable automatic anatomy certification."
+  },
+  "anatomy_tool_result": {
+    "level": "note",
+    "flags": [
+      {
+        "level": "note",
+        "what": "no_body",
+        "msg": "몸을 못 찾았다 — 눈으로 본다"
+      }
+    ],
+    "hands": [],
+    "measure": {},
+    "file": "/workspace/generated_images/exec-c95c4b66-d30a-42f5-b242-5cb9da8fdbb4.png"
+  }
+}
