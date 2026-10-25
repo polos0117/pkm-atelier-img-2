@@ -8110,10 +8110,109 @@
               "pkm-atelier-img-3": "813f1041af2ec863e4d5863e35e5e5666bdd3ca0"
             },
             "at": "2026-10-25T03:16:47+00:00",
-            "status": "preflight_checked"
+            "status": "published_registered_8_of_9",
+            "image_commit": "af760afdc2e20e95af8ea7600de7c6a00e3d9356",
+            "thumbnail_commit": "edd403f3eb49c9464b5a734d2c4077d99950e57b",
+            "registration_commit": "f31b61279d46ed5a5ec3b3b4d3f0c3f58f41b346",
+            "verified_at": "2026-10-25T03:21:12+00:00",
+            "outputs": [
+              {
+                "slot": "light",
+                "file": "레쿠쟈_light_glossy_promo_f.webp",
+                "sha256": "777f9420ab6ccdeed1c9c76ae81f76da3a7c0d80678c72027c6129e9b3420b26",
+                "source_sha256": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {}
+              },
+              {
+                "slot": "heavy",
+                "file": "레쿠쟈_heavy_glossy_promo_f.webp",
+                "sha256": "341be3467035aa108bf1f8d4fb04816c7025a2b107b3c4b2fd78fd49da07cdcf",
+                "source_sha256": "b6ac149a7448706cd5f58d29f5f27d334aaf0b6ffaf9dc8fe5812d07d2a5942b",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
+                }
+              },
+              {
+                "slot": "mobility",
+                "file": "레쿠쟈_mobility_glossy_promo_f.webp",
+                "sha256": "34f8d287ec96f690c4e92db09dc5027cd54f5b2326629cdee3ff0ba601a836bd",
+                "source_sha256": "8af47e47574f3d19fcf772c55d361ae1f2aa42716eda173d0db16319e5d3fdc9",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
+                }
+              },
+              {
+                "slot": "light_overdrive",
+                "file": "레쿠쟈_light_overdrive_glossy_promo_f.webp",
+                "sha256": "5593b9a9bd21fe63322081dad7a2a24da8a21fd676b9d038928570e1e1157eed",
+                "source_sha256": "255ceef448b41dbbf246d2bdf1c2720bb7a6172986e683b985db432a54f19794",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
+                }
+              },
+              {
+                "slot": "heavy_overdrive",
+                "file": "레쿠쟈_heavy_overdrive_glossy_promo_f.webp",
+                "sha256": "1c5b1de01a9055fd6810e29d67acd1ace7c0602b9679410586d5d613e95676bf",
+                "source_sha256": "55409b311b1f6dec787fc45e3d9db81de669cc4d19c1cf043bee117a37cc325f",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "heavy": "b6ac149a7448706cd5f58d29f5f27d334aaf0b6ffaf9dc8fe5812d07d2a5942b"
+                }
+              },
+              {
+                "slot": "mobility_overdrive",
+                "file": "레쿠쟈_mobility_overdrive_glossy_promo_f.webp",
+                "sha256": "8e7c8fa5c19f9155e95dd73a6afeee3450e82ff9b721dc9841414e63a68a3be2",
+                "source_sha256": "94f644543f7ee5f98a4eee737c44f5ad13e1e9ce7fa9b41d49bf6690766cf175",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "mobility": "8af47e47574f3d19fcf772c55d361ae1f2aa42716eda173d0db16319e5d3fdc9"
+                }
+              },
+              {
+                "slot": "casual1",
+                "file": "레쿠쟈_glossy_promo_f_casual1.webp",
+                "sha256": "f31bfda92645d46fbf04f7c47b71997a137d2c70135fed57752f8d4dac1153ce",
+                "source_sha256": "6b77bb9e45929249c9c633212622e1abc353c6230d999096310058e7e9f1b8db",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
+                }
+              },
+              {
+                "slot": "casual2",
+                "file": "레쿠쟈_glossy_promo_f_casual2.webp",
+                "sha256": "34bf2a67bcc610a8c7af534f621e57d46ee4f7432f45c9522b7ead0adfb01a15",
+                "source_sha256": "8661e575eb5ca48ff99920ad24bfad866c0288af7b1d4f9d8c544bf441fb6e99",
+                "acceptance_basis": "user_exception",
+                "qa_passed": false,
+                "references": {
+                  "light": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8"
+                }
+              }
+            ],
+            "remote_git_image_and_thumbnail_bytes_verified": true,
+            "pages_http_bytes_verified": false,
+            "http_verification_failures": [
+              {
+                "reason": "Public Pages HTTP bytes not re-fetched: prior environment proxy 403; Git remote bytes verified and deployment Actions checked separately."
+              }
+            ]
           },
           "publication": {
-            "status": "partial_preflight_checked",
+            "status": "partial_published_registered",
             "at": "2026-10-25T03:16:47+00:00",
             "repository": "pkm-atelier-img-3",
             "files": {
@@ -8126,6 +8225,19 @@
               "img/레쿠쟈_glossy_promo_f_casual1.webp": "f31bfda92645d46fbf04f7c47b71997a137d2c70135fed57752f8d4dac1153ce",
               "img/레쿠쟈_glossy_promo_f_casual2.webp": "34bf2a67bcc610a8c7af534f621e57d46ee4f7432f45c9522b7ead0adfb01a15"
             }
+          },
+          "own_publication": {
+            "files": [
+              "레쿠쟈_glossy_promo_f_casual1.webp",
+              "레쿠쟈_glossy_promo_f_casual2.webp",
+              "레쿠쟈_heavy_glossy_promo_f.webp",
+              "레쿠쟈_heavy_overdrive_glossy_promo_f.webp",
+              "레쿠쟈_light_glossy_promo_f.webp",
+              "레쿠쟈_light_overdrive_glossy_promo_f.webp",
+              "레쿠쟈_mobility_glossy_promo_f.webp",
+              "레쿠쟈_mobility_overdrive_glossy_promo_f.webp"
+            ],
+            "status": "verify_registration"
           }
         }
       ],
