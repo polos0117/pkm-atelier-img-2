@@ -7734,17 +7734,17 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T02:50:41+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/light/prompt.txt",
@@ -7761,11 +7761,30 @@
                 "session_only": true,
                 "webp_sha256": "777f9420ab6ccdeed1c9c76ae81f76da3a7c0d80678c72027c6129e9b3420b26"
               },
-              "received_at": "2026-10-25T02:52:43+00:00"
+              "received_at": "2026-10-25T02:52:43+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-25-16/384/light/qa-rejected.json",
+                "sha256": "354767c17e55fce89f97adfc71ec2db547355b357047e1cb4ccf6696372f53fb"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-25-16/384/light/user-exception.json",
+                "sha256": "867a24655f29bd1a89c8ae4c09e665c9dbb3f4280772fd8bddf3482f1d95c0e8"
+              }
             }
           },
           "reason": "light visual QA: Single adult, slim armor and long braid, two continuous arms and legs. Screen-left open glove shows five digits; opposite hand overlaps curled digits so exact count uncertain. Extremely elongated legs and small head deviate natural proportions; slim head fins larger than sensor. Feet visible but foreground light crosses near toe. Tool body ok with zero hands; overlay inspected, no hand certification.",
-          "resolution": "Upstream 1b3771e fixes implicit outerwear counting; regression tests pass; same-session plan-after-fix passed official check and reserve; verify stamp passed"
+          "resolution": "Upstream 1b3771e fixes implicit outerwear counting; regression tests pass; same-session plan-after-fix passed official check and reserve; verify stamp passed",
+          "block_history": [
+            {
+              "reason": "light visual QA: Single adult, slim armor and long braid, two continuous arms and legs. Screen-left open glove shows five digits; opposite hand overlaps curled digits so exact count uncertain. Extremely elongated legs and small head deviate natural proportions; slim head fins larger than sensor. Feet visible but foreground light crosses near toe. Tool body ok with zero hands; overlay inspected, no hand certification.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-25-16/384/light/user-exception.json",
+                "sha256": "867a24655f29bd1a89c8ae4c09e665c9dbb3f4280772fd8bddf3482f1d95c0e8"
+              }
+            }
+          ]
         }
       ],
       "updated_at": "2026-10-25T02:52:53+00:00"
