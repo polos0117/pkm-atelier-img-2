@@ -1,0 +1,34 @@
+{
+  "card": 384,
+  "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
+  "user_approval": "중간에 차단 되도 멈추지말고 계획대로 다 생성해서 이미지 업로드까지 하고.",
+  "full_prepublish_result": "Traceback (most recent call last):\n  File \"/workspace/pkm-daily-20261025-0200/runner.py\", line 24, in <module>\n    if __name__=='__main__':R.main()\n                            ^^^^^^^^\n  File \"/workspace/pkm-atelier/tools/image-runner.py\", line 808, in main\n    raise ValueError('run blocked; no generation until explicitly resolved')\nValueError: run blocked; no generation until explicitly resolved\n",
+  "scope": "Only eight existing accepted Rayquaza images; character remains blocked/incomplete. User requested final existing-image publication and schedule stop (Sentinel_757c83f20d3c8191952016498c03292e). Fresh partial preflight preserves global completion gates, quotas, claims and external holds. No generation or replacement.",
+  "slots": [
+    "light",
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual1",
+    "casual2"
+  ],
+  "files": {
+    "img/레쿠쟈_light_glossy_promo_f.webp": "777f9420ab6ccdeed1c9c76ae81f76da3a7c0d80678c72027c6129e9b3420b26",
+    "img/레쿠쟈_heavy_glossy_promo_f.webp": "341be3467035aa108bf1f8d4fb04816c7025a2b107b3c4b2fd78fd49da07cdcf",
+    "img/레쿠쟈_mobility_glossy_promo_f.webp": "34f8d287ec96f690c4e92db09dc5027cd54f5b2326629cdee3ff0ba601a836bd",
+    "img/레쿠쟈_light_overdrive_glossy_promo_f.webp": "5593b9a9bd21fe63322081dad7a2a24da8a21fd676b9d038928570e1e1157eed",
+    "img/레쿠쟈_heavy_overdrive_glossy_promo_f.webp": "1c5b1de01a9055fd6810e29d67acd1ace7c0602b9679410586d5d613e95676bf",
+    "img/레쿠쟈_mobility_overdrive_glossy_promo_f.webp": "8e7c8fa5c19f9155e95dd73a6afeee3450e82ff9b721dc9841414e63a68a3be2",
+    "img/레쿠쟈_glossy_promo_f_casual1.webp": "f31bfda92645d46fbf04f7c47b71997a137d2c70135fed57752f8d4dac1153ce",
+    "img/레쿠쟈_glossy_promo_f_casual2.webp": "34bf2a67bcc610a8c7af534f621e57d46ee4f7432f45c9522b7ead0adfb01a15"
+  },
+  "snapshot": {
+    "code": "36a61d170d06f1dec4e5be1715e728199da6f1f8",
+    "pkm-atelier-img": "a8b8ff04fe868e4552ee587f6b340767d9a3080f",
+    "pkm-atelier-img-2": "d70040c4758d823fc60d5e01ae915e8ea7d0a594",
+    "pkm-atelier-img-3": "813f1041af2ec863e4d5863e35e5e5666bdd3ca0"
+  },
+  "at": "2026-10-25T03:16:47+00:00"
+}
