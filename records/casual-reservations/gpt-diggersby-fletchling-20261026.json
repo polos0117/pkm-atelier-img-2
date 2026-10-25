@@ -1,17 +1,17 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-diggersby-fletchling-20261026",
- "at": "2026-10-25T15:27:51-06:00",
+ "at": "2026-10-25T15:30:20-06:00",
  "characters": [
   {
    "species": "diggersby-20261026",
    "card": "파르토",
-   "at": "2026-10-25T15:27:51-06:00",
+   "at": "2026-10-25T15:30:20-06:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "swimwear",
-     "ex": "burkini_modest",
+     "ex": "heritage_pattern_swim",
      "expr": "sleepy",
      "pose": "stretching",
      "orient": "reaching_up",
@@ -31,7 +31,7 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "detail"
     },
     {
      "cut": 2,
@@ -56,7 +56,8 @@
       "high thigh slit",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -81,15 +82,16 @@
       "one-shoulder cut",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "e67cf4c46e7a4af99a533eec7c23477f5b3d65f982b1e59c9b58110239ee1bb6"
+   "stamp": "6ac67d1e876e20a3f0627a1633f978e00a66b8052f3833944659d83609c330ae"
   },
   {
    "species": "fletchling-20261026",
    "card": "화살꼬빈",
-   "at": "2026-10-25T15:27:51-06:00",
+   "at": "2026-10-25T15:30:20-06:00",
    "cuts": [
     {
      "cut": 1,
@@ -115,7 +117,8 @@
       "bare midriff",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -140,37 +143,36 @@
       "high-cut leg",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "traditional",
-     "ex": "aodai_daily",
+     "ex": "kebaya_daily",
      "expr": "determined",
-     "pose": "dance_step",
+     "pose": "bending_over",
      "orient": "rear_3q",
      "frame": "full_body",
-     "lens": "natural50",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set",
-      "skirt",
-      "trousers"
+      "blouse"
      ],
      "expose": [
-      "strapless top",
-      "plunging neckline"
+      "bare midriff",
+      "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "light"
     }
    ],
-   "stamp": "b4a64f815adfb44b3a15bb9898a858ebb589c69aae38d1fedef5e41f347cf513"
+   "stamp": "09b7fbd74acd985d8c27fe392244fe4df6a7f76ea8bffb5f095f3e418240cfb4"
   }
  ]
 }
