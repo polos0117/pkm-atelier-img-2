@@ -1,0 +1,135 @@
+{
+ "session": "image-runner-2026-10-25-16-384",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "레쿠쟈",
+   "species": "rayquaza-20261025",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "wildcard",
+     "ex": "winter_lodge",
+     "garments": [
+      "coat",
+      "leggings",
+      "sweater"
+     ],
+     "orient": "looking_away",
+     "frame": "environmental",
+     "pose": "bending_over",
+     "expr": "mildly_annoyed",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "mini length",
+      "strapless top"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "lingerie",
+     "ex": "open_shirt_lingerie",
+     "garments": [
+      "lingerie_set",
+      "shirt"
+     ],
+     "orient": "high_angle",
+     "frame": "waist_up",
+     "pose": "hands_in_hair",
+     "expr": "calm",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "plunging neckline"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "everyday_basic",
+     "ex": "commute_train",
+     "garments": [
+      "blouse",
+      "jacket",
+      "skirt"
+     ],
+     "orient": "reaching_up",
+     "frame": "full_body",
+     "pose": "stretching",
+     "expr": "laughing_open",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "open back",
+      "side cutouts"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "food_berries",
+     "source_editorial",
+     "private_evening",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "coat",
+     "leggings",
+     "sweater",
+     "lingerie_set",
+     "shirt",
+     "blouse",
+     "jacket",
+     "skirt"
+    ],
+    "orient": [
+     "looking_away",
+     "high_angle",
+     "reaching_up"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

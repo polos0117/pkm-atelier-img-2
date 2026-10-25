@@ -1,0 +1,15 @@
+{
+  "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
+  "card": 384,
+  "run": "2026-10-25-16",
+  "failure": "outerwear coat/cardigan/jacket/sweater in cuts 1 and 3; permitted in at most one cut",
+  "initial_command": "node tools/casual-plan.cjs 레쿠쟈 --session image-runner-2026-10-25-16-384 --reserve --push --out PLAN.json",
+  "one_replan": "same command plus --avoid 레쿠쟈:1:ex=observatory_night",
+  "both_exit_code": 1,
+  "reservation_exists": false,
+  "image_intents": 0,
+  "image_calls": 0,
+  "images_uploaded": 0,
+  "adapter": "session-only array/object read normalization; all entries preserved; regression tests passed",
+  "code_head": "7f5cfb8993b1a2bcbb3d0f718b76e69b28073b51"
+}
