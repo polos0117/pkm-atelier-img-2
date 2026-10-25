@@ -1,0 +1,28 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "36d981293972e3c5ccdd98d6fd1459de51530f7ed1c8cfc845d93889a00a35f2",
+  "observations": "Actual shoreline jog and opaque athletic one-piece distinct from both indoor casuals and recent comparison images. Full body shown but hair clipped at right, head margin tight, environmental view less distant than requested. Two arms and legs connect, bent rear knee partially occluded by front leg, front foot partly obscured by foam. Hands are loosely curled, thumb and four-finger certainty limited by overlaps; toes partly obscured. Actual tool body result ok but zero hand detections, not a hand certification. Face and hair identity broadly retained. Actual three-image comparison and look check found no near-identical cut.",
+  "anatomy": {
+    "tool": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Actual shoreline jog and opaque athletic one-piece distinct from both indoor casuals and recent comparison images. Full body shown but hair clipped at right, head margin tight, environmental view less distant than requested. Two arms and legs connect, bent rear knee partially occluded by front leg, front foot partly obscured by foam. Hands are loosely curled, thumb and four-finger certainty limited by overlaps; toes partly obscured. Actual tool body result ok but zero hand detections, not a hand certification. Face and hair identity broadly retained. Actual three-image comparison and look check found no near-identical cut.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Actual shoreline jog and opaque athletic one-piece distinct from both indoor casuals and recent comparison images. Full body shown but hair clipped at right, head margin tight, environmental view less distant than requested. Two arms and legs connect, bent rear knee partially occluded by front leg, front foot partly obscured by foam. Hands are loosely curled, thumb and four-finger certainty limited by overlaps; toes partly obscured. Actual tool body result ok but zero hand detections, not a hand certification. Face and hair identity broadly retained. Actual three-image comparison and look check found no near-identical cut."
+  },
+  "anatomy_tool_result": {
+    "level": "ok",
+    "flags": [],
+    "hands": [],
+    "measure": {
+      "shoulder_px": 213.3,
+      "arm_L_ratio": 0.91,
+      "arm_L_angle": 161,
+      "leg_L_ratio": 0.99,
+      "leg_L_angle": 156
+    },
+    "file": "/workspace/generated_images/exec-efa33a56-00e2-4499-9b23-aeabf0d976bb.png"
+  },
+  "diversity_comparison": "Actual recent nine-image comparison viewed: Hippowdon seated indoor lounge, festival jewelry stall, creature-grooming stable; Skorupi studio workout, mirror robe scene, lake rest; Kyogre rainy indoor robe, wardrobe dressing, map-viewing harbor. Planned Groudon uses a travel-supply shop floor parcel task with cropped utility vest/trousers and high-angle chest crop, a cockpit fashion exhibition strap-adjustment with one-shoulder crop/trousers and waist crop, and active beach jog in athletic one-piece with environmental front-three-quarter frame. Distinct activities, contexts and silhouettes; shop goods overlap broadly with festival/harbor commerce but parcel-packing viewpoint differs. Actual final render differences must also be inspected; this is pre-generation comparison, not a claim all planned choices rendered.\n"
+}
