@@ -7385,6 +7385,21 @@
                 "path": "records/automation/runs/2026-10-24-15/383/mobility/user-exception.json",
                 "sha256": "e9f5f24bbcea8c1649e5374c5d285db08816c3587f94a58bccc4dd9eeca1111f"
               }
+            },
+            "light_overdrive": {
+              "status": "in_flight",
+              "at": "2026-10-25T00:07:44+00:00",
+              "prompt": {
+                "path": "records/automation/runs/2026-10-24-15/383/light_overdrive/prompt.txt",
+                "sha256": "a3ed9b0618c2ec941c4101bca7694b0eb4a87b5ea245555449ab40f341d271db"
+              },
+              "ui": {
+                "path": "records/automation/runs/2026-10-24-15/383/light_overdrive/ui.json",
+                "sha256": "c90acdf58f371a613b444e005123058467913d0ce6976cd92dbb150b7a1a0b00"
+              },
+              "references": {
+                "light": "e2cc615c24ff9f4e0cddc5a02162fa9f58d5c9d1d1d0958ffe0ec822786c3255"
+              }
             }
           },
           "reason": "mobility visual QA: Identity retained, swept shoulder hip and calf fins with compact glowing machinery; no giant wings. Two arms and legs continuous, gloved fingers overlap and thumb visibility incomplete. Body/hand detection absent, overlay actually viewed. Hair clipped right and boots have tight lower margin; light pose nearly copied despite new form.",
@@ -7413,7 +7428,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T00:07:33+00:00"
+      "updated_at": "2026-10-25T00:07:44+00:00"
     }
   ],
   "claims": {
@@ -7987,16 +8002,16 @@
     },
     "504": {
       "card": "보르쥐",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T05:43:50-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "505": {
       "card": "보르그",
-      "session": "patrat-watchog-18829a",
-      "file": "records/casual-reservations/patrat-watchog-18829a.json",
-      "at": "2026-10-22T06:02:49-07:00",
+      "session": "patrat-watchog-20261022-9c71",
+      "file": "records/casual-reservations/patrat-watchog-20261022-9c71.json",
+      "at": "2026-10-22T12:32:46+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "506": {
@@ -8337,9 +8352,9 @@
     },
     "379": {
       "card": "레지스틸",
-      "session": "registeel-casual3-20261025-f0c6",
-      "file": "records/casual-reservations/registeel-casual3-20261025-f0c6.json",
-      "at": "2026-10-25T06:52:03+11:00",
+      "session": "registeel-latias-20261025-f0c6",
+      "file": "records/casual-reservations/registeel-latias-20261025-f0c6.json",
+      "at": "2026-10-25T06:49:47+11:00",
       "status": "external_reservation_do_not_take_over"
     },
     "380": {
