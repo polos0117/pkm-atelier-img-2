@@ -7734,14 +7734,14 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7934,7 +7934,7 @@
               }
             },
             "casual1": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T03:05:22+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/casual1/prompt.txt",
@@ -7953,7 +7953,17 @@
                 "session_only": true,
                 "webp_sha256": "f31bfda92645d46fbf04f7c47b71997a137d2c70135fed57752f8d4dac1153ce"
               },
-              "received_at": "2026-10-25T03:06:51+00:00"
+              "received_at": "2026-10-25T03:06:51+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-25-16/384/casual1/qa-rejected.json",
+                "sha256": "6cddfc726dbbb0234c5adaa9a3bd5fa339d555bd17104e883ed012ef35916922"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-25-16/384/casual1/user-exception.json",
+                "sha256": "5baa2588783ea780f5b5d9c1a10c030a8e587ff4c82ad3d201b45f030ba48ed9"
+              }
             }
           },
           "reason": "casual1 visual QA: Original and upper/lower crops and actual one-hand ok overlay viewed. Face braid retained with genuine over-shoulder turn; telescope and night terrace with white coat and black trousers distinguish this from recent Groudon/Blitzle/Zebstrika scenes. Long coat open back clear, but framing reaches knees instead of waist-up and dance step is not demonstrated. Far arm/hand and feet obscured/cropped, not certified. Visible five-digit knob grip and wrist alignment plausible. No extra visible limb.",
@@ -7999,6 +8009,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-25-16/384/mobility_overdrive/user-exception.json",
                 "sha256": "c611a2cfc4b4a7508871f053809daa646b20de40be228390d33c9975a98b14d0"
+              }
+            },
+            {
+              "reason": "casual1 visual QA: Original and upper/lower crops and actual one-hand ok overlay viewed. Face braid retained with genuine over-shoulder turn; telescope and night terrace with white coat and black trousers distinguish this from recent Groudon/Blitzle/Zebstrika scenes. Long coat open back clear, but framing reaches knees instead of waist-up and dance step is not demonstrated. Far arm/hand and feet obscured/cropped, not certified. Visible five-digit knob grip and wrist alignment plausible. No extra visible limb.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-25-16/384/casual1/user-exception.json",
+                "sha256": "5baa2588783ea780f5b5d9c1a10c030a8e587ff4c82ad3d201b45f030ba48ed9"
               }
             }
           ]
