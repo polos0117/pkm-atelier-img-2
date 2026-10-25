@@ -1,0 +1,30 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "6038b056498fd524895b79f83cca24c8c5c801d5c4ad5dba96c2d70d2955f15d",
+  "observations": "Actual high-angle shop-floor map and parcel scene with utility vest and trousers differs from recent lounge/market/grooming/workout/mirror/harbor renders. Requested chest-up crop ignored, full seated body shown; source palette and accessories stronger than subtle setting. Face expression changed, eyes more reddish. Two arms connect to hands; map grip partly occludes fingers, lower glove fingers curl with ambiguous overlap. Two folded legs visible but far foot hidden and near shoe partly cropped. Tool faint body and zero hands; actual overlay inspected.",
+  "anatomy": {
+    "tool": "note",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Actual high-angle shop-floor map and parcel scene with utility vest and trousers differs from recent lounge/market/grooming/workout/mirror/harbor renders. Requested chest-up crop ignored, full seated body shown; source palette and accessories stronger than subtle setting. Face expression changed, eyes more reddish. Two arms connect to hands; map grip partly occludes fingers, lower glove fingers curl with ambiguous overlap. Two folded legs visible but far foot hidden and near shoe partly cropped. Tool faint body and zero hands; actual overlay inspected.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Actual high-angle shop-floor map and parcel scene with utility vest and trousers differs from recent lounge/market/grooming/workout/mirror/harbor renders. Requested chest-up crop ignored, full seated body shown; source palette and accessories stronger than subtle setting. Face expression changed, eyes more reddish. Two arms connect to hands; map grip partly occludes fingers, lower glove fingers curl with ambiguous overlap. Two folded legs visible but far foot hidden and near shoe partly cropped. Tool faint body and zero hands; actual overlay inspected."
+  },
+  "anatomy_tool_result": {
+    "level": "note",
+    "flags": [
+      {
+        "level": "note",
+        "what": "faint_body",
+        "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+      }
+    ],
+    "hands": [],
+    "measure": {
+      "shoulder_px": 243.7
+    },
+    "file": "/workspace/generated_images/exec-3f5e0e55-7bcc-444c-ba51-855e07d522f2.png"
+  },
+  "diversity_comparison": "Actual recent nine-image comparison viewed: Hippowdon seated indoor lounge, festival jewelry stall, creature-grooming stable; Skorupi studio workout, mirror robe scene, lake rest; Kyogre rainy indoor robe, wardrobe dressing, map-viewing harbor. Planned Groudon uses a travel-supply shop floor parcel task with cropped utility vest/trousers and high-angle chest crop, a cockpit fashion exhibition strap-adjustment with one-shoulder crop/trousers and waist crop, and active beach jog in athletic one-piece with environmental front-three-quarter frame. Distinct activities, contexts and silhouettes; shop goods overlap broadly with festival/harbor commerce but parcel-packing viewpoint differs. Actual final render differences must also be inspected; this is pre-generation comparison, not a claim all planned choices rendered.\n"
+}
