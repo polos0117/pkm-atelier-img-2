@@ -1,0 +1,27 @@
+{
+  "reviewer": "AI visual QA",
+  "accepted": false,
+  "image_sha256": "bd23639e90be45876c8dcbf1a710a4ef68c98b39889bc07e2052d1d0c9930d5a",
+  "observations": "Face and hair identity retained; layered broad armor added correctly. Two arms and legs visually continuous. Hands gloved with overlapping curled fingers, hidden thumbs uncertain. Tool detected no body or hands; actual overlay viewed, not a tool pass. Feet extremely close to bottom, hair and armored sash clipped at right edge.",
+  "anatomy": {
+    "tool": "note",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Face and hair identity retained; layered broad armor added correctly. Two arms and legs visually continuous. Hands gloved with overlapping curled fingers, hidden thumbs uncertain. Tool detected no body or hands; actual overlay viewed, not a tool pass. Feet extremely close to bottom, hair and armored sash clipped at right edge.",
+    "overlay_checked": true,
+    "note": "Original and hand/foot crops directly viewed. Tool result does not certify hidden digits. Face and hair identity retained; layered broad armor added correctly. Two arms and legs visually continuous. Hands gloved with overlapping curled fingers, hidden thumbs uncertain. Tool detected no body or hands; actual overlay viewed, not a tool pass. Feet extremely close to bottom, hair and armored sash clipped at right edge."
+  },
+  "anatomy_tool_result": {
+    "level": "note",
+    "flags": [
+      {
+        "level": "note",
+        "what": "no_body",
+        "msg": "몸을 못 찾았다 — 눈으로 본다"
+      }
+    ],
+    "hands": [],
+    "measure": {},
+    "file": "/workspace/generated_images/exec-be1824a1-e295-4666-8102-116c92702621.png"
+  }
+}

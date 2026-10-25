@@ -7283,14 +7283,14 @@
       "id": "2026-10-24-15",
       "execution_id": "pkm-daily-2026-10-25T00-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-24T23:58:37+00:00",
       "queue": [
         {
           "no": 383,
           "name": "그란돈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7323,7 +7323,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T00:04:16+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-24-15/383/heavy/prompt.txt",
@@ -7342,7 +7342,17 @@
                 "session_only": true,
                 "webp_sha256": "8158919e583026a12e1360e25c73ebdcdb6aaf9801088b50fdae89863366ca25"
               },
-              "received_at": "2026-10-25T00:05:44+00:00"
+              "received_at": "2026-10-25T00:05:44+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-24-15/383/heavy/qa-rejected.json",
+                "sha256": "123685473ce82544d542867db413a9e29ed659f38bbc244ea911bf831f995b8c"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-24-15/383/heavy/user-exception.json",
+                "sha256": "03a65cf7765ef21f64a80ce7377a72b95cec7df57a10e8468597a2f8870e7fb4"
+              }
             }
           },
           "reason": "heavy visual QA: Face and hair identity retained; layered broad armor added correctly. Two arms and legs visually continuous. Hands gloved with overlapping curled fingers, hidden thumbs uncertain. Tool detected no body or hands; actual overlay viewed, not a tool pass. Feet extremely close to bottom, hair and armored sash clipped at right edge.",
@@ -7352,6 +7362,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-24-15/383/light/user-exception.json",
                 "sha256": "d89fff9a48af6b5dd0c70a1cda4c5786d876ec5e95cc17bfad52020cbba57ba6"
+              }
+            },
+            {
+              "reason": "heavy visual QA: Face and hair identity retained; layered broad armor added correctly. Two arms and legs visually continuous. Hands gloved with overlapping curled fingers, hidden thumbs uncertain. Tool detected no body or hands; actual overlay viewed, not a tool pass. Feet extremely close to bottom, hair and armored sash clipped at right edge.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-24-15/383/heavy/user-exception.json",
+                "sha256": "03a65cf7765ef21f64a80ce7377a72b95cec7df57a10e8468597a2f8870e7fb4"
               }
             }
           ]
