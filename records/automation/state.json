@@ -7870,7 +7870,7 @@
               }
             },
             "heavy_overdrive": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-25T03:01:06+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/heavy_overdrive/prompt.txt",
@@ -7882,7 +7882,14 @@
               },
               "references": {
                 "heavy": "b6ac149a7448706cd5f58d29f5f27d334aaf0b6ffaf9dc8fe5812d07d2a5942b"
-              }
+              },
+              "image": {
+                "path": "records/automation/runs/2026-10-25-16/384/heavy_overdrive/original.png",
+                "sha256": "55409b311b1f6dec787fc45e3d9db81de669cc4d19c1cf043bee117a37cc325f",
+                "session_only": true,
+                "webp_sha256": "1c5b1de01a9055fd6810e29d67acd1ace7c0602b9679410586d5d613e95676bf"
+              },
+              "received_at": "2026-10-25T03:02:36+00:00"
             }
           },
           "reason": "light_overdrive visual QA: Original, hand/boot crops and overlay viewed against canonical light. Face braid pose and camera retained, purple gaps opened; additional layered thigh and shin panels differ from original inventory. Near hand five spread gloved digits, far curled hand partly obscured; two arms and legs connected. Extreme long-leg proportions remain. Faint-body overlay mislocates wrists at torso, no detected hands; no tool certification of anatomy.",
@@ -7919,7 +7926,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-25T03:01:06+00:00"
+      "updated_at": "2026-10-25T03:02:37+00:00"
     }
   ],
   "claims": {
