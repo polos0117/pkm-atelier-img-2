@@ -7734,14 +7734,14 @@
       "id": "2026-10-25-16",
       "execution_id": "pkm-daily-2026-10-25T02-00-00Z",
       "owner": "pkm-daily",
-      "status": "blocked",
+      "status": "active",
       "created_at": "2026-10-25T01:57:36+00:00",
       "queue": [
         {
           "no": 384,
           "name": "레쿠쟈",
           "style": "glossy_promo",
-          "status": "blocked",
+          "status": "working",
           "slots": {
             "light": {
               "status": "accepted",
@@ -7774,7 +7774,7 @@
               }
             },
             "heavy": {
-              "status": "review",
+              "status": "accepted",
               "at": "2026-10-25T02:53:03+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/heavy/prompt.txt",
@@ -7793,7 +7793,17 @@
                 "session_only": true,
                 "webp_sha256": "341be3467035aa108bf1f8d4fb04816c7025a2b107b3c4b2fd78fd49da07cdcf"
               },
-              "received_at": "2026-10-25T02:55:03+00:00"
+              "received_at": "2026-10-25T02:55:03+00:00",
+              "qa": {
+                "path": "records/automation/runs/2026-10-25-16/384/heavy/qa-rejected.json",
+                "sha256": "34deb1616c04b267e8701b635de7d2e22b4ac6c93c9695620701e5b1ac061a79"
+              },
+              "acceptance_basis": "user_exception",
+              "qa_passed": false,
+              "exception": {
+                "path": "records/automation/runs/2026-10-25-16/384/heavy/user-exception.json",
+                "sha256": "4d4e125b652bc3261cf3a8472eb09791330d121ae07fb3a990cede0917f90cba"
+              }
             }
           },
           "reason": "heavy visual QA: Face braid and body retained; broad layered armor and open face crown added. Two arms and legs continuous; screen-left glove five digits visible, far hand curled and partially occluded. Legs extremely long, lower toe margins tight and light crosses front. Tool no body/hands, actual overlay inspected; not tool pass.",
@@ -7804,6 +7814,13 @@
               "resolved_by": {
                 "path": "records/automation/runs/2026-10-25-16/384/light/user-exception.json",
                 "sha256": "867a24655f29bd1a89c8ae4c09e665c9dbb3f4280772fd8bddf3482f1d95c0e8"
+              }
+            },
+            {
+              "reason": "heavy visual QA: Face braid and body retained; broad layered armor and open face crown added. Two arms and legs continuous; screen-left glove five digits visible, far hand curled and partially occluded. Legs extremely long, lower toe margins tight and light crosses front. Tool no body/hands, actual overlay inspected; not tool pass.",
+              "resolved_by": {
+                "path": "records/automation/runs/2026-10-25-16/384/heavy/user-exception.json",
+                "sha256": "4d4e125b652bc3261cf3a8472eb09791330d121ae07fb3a990cede0917f90cba"
               }
             }
           ]
