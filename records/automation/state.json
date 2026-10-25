@@ -7744,7 +7744,7 @@
           "status": "working",
           "slots": {
             "light": {
-              "status": "in_flight",
+              "status": "review",
               "at": "2026-10-25T02:50:41+00:00",
               "prompt": {
                 "path": "records/automation/runs/2026-10-25-16/384/light/prompt.txt",
@@ -7754,14 +7754,21 @@
                 "path": "records/automation/runs/2026-10-25-16/384/light/ui.json",
                 "sha256": "f57bfa3ff6fbdff5d10adfe533a25de11d98a506c19395ae0adb4a6bc5731003"
               },
-              "references": {}
+              "references": {},
+              "image": {
+                "path": "records/automation/runs/2026-10-25-16/384/light/original.png",
+                "sha256": "88e70b244d973e71cec07871f41ca9e24faa7cf39252c297d09eedd4e866f3a8",
+                "session_only": true,
+                "webp_sha256": "777f9420ab6ccdeed1c9c76ae81f76da3a7c0d80678c72027c6129e9b3420b26"
+              },
+              "received_at": "2026-10-25T02:52:43+00:00"
             }
           },
           "reason": "casual planner validation failed: outerwear in cuts 1 and 3 exceeds one-of-three rule; initial bounded planner and one official avoid replan both failed; no image intent/call, no reservation published",
           "resolution": "Upstream 1b3771e fixes implicit outerwear counting; regression tests pass; same-session plan-after-fix passed official check and reserve; verify stamp passed"
         }
       ],
-      "updated_at": "2026-10-25T02:50:41+00:00"
+      "updated_at": "2026-10-25T02:52:44+00:00"
     }
   ],
   "claims": {
@@ -8313,9 +8320,9 @@
     },
     "429": {
       "card": "무우마직",
-      "session": "gpt-mismagius-refill-20261023-c6a3",
-      "file": "records/casual-reservations/gpt-mismagius-refill-20261023-c6a3.json",
-      "at": "2026-10-22T17:06:41-07:00",
+      "session": "gpt-mismagius-honchkrow-20261023-c6a3",
+      "file": "records/casual-reservations/gpt-mismagius-honchkrow-20261023-c6a3.json",
+      "at": "2026-10-22T14:31:22-07:00",
       "status": "external_reservation_do_not_take_over"
     },
     "430": {
@@ -8446,9 +8453,9 @@
     },
     "358": {
       "card": "치렁",
-      "session": "tropius-chimecho-75f582-20261023",
-      "file": "records/casual-reservations/tropius-chimecho-75f582-20261023.json",
-      "at": "2026-10-23T21:09:10+08:00",
+      "session": "chimecho-wynaut-refill-20261023",
+      "file": "records/casual-reservations/chimecho-wynaut-refill-20261023.json",
+      "at": "2026-10-23T16:34:43+00:00",
       "status": "external_reservation_do_not_take_over"
     },
     "435": {
