@@ -1,37 +1,37 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "palpitoad-seismitoad-20261027",
- "at": "2026-10-26T17:33:01-04:00",
+ "at": "2026-10-26T17:44:21-04:00",
  "characters": [
   {
    "species": "palpitoad-20261027",
    "card": "두까비",
-   "at": "2026-10-26T17:33:01-04:00",
+   "at": "2026-10-26T17:44:21-04:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "swimwear",
-     "ex": "cutout_onepiece",
-     "expr": "provocative",
+     "cat": "retro_glamour",
+     "ex": "boho_crochet",
+     "expr": "amused",
      "pose": "perched_seat",
      "orient": "leaning_back",
      "frame": "chest_up",
-     "lens": "telephoto135",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "swimsuit"
+      "trousers"
      ],
      "expose": [
-      "plunging neckline",
-      "side cutouts"
+      "cropped hem",
+      "strapless top"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -57,7 +57,8 @@
       "cropped hem",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -83,10 +84,11 @@
       "off-shoulder neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "cbbc3fcf6c23cce8f71c8b0cfbc616c3f8126ddf46e2bf4be610c6bfde2b175d"
+   "stamp": "0a7dd859025c07c02c23b4519a5a654f58839fb15554ba2364ccf7f24ccda666"
   },
   {
    "species": "seismitoad-20261027",
