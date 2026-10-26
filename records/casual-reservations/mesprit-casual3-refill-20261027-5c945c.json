@@ -1,0 +1,89 @@
+{
+ "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
+ "session": "mesprit-casual3-refill-20261027-5c945c",
+ "at": "2026-10-26T17:05:40-04:00",
+ "characters": [
+  {
+   "species": "mesprit-20261026",
+   "card": "엠라이트",
+   "at": "2026-10-26T17:05:40-04:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "yacht_deck",
+     "expr": "smug",
+     "pose": "sitting_floor",
+     "orient": "seated_twist",
+     "frame": "waist_up",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini"
+     ],
+     "expose": [
+      "high-cut leg",
+      "bare midriff"
+     ],
+     "kept": true
+    },
+    {
+     "cut": 2,
+     "cat": "occupation_basic",
+     "ex": "satellite_operator",
+     "expr": "curious",
+     "pose": "kneeling",
+     "orient": "crouching",
+     "frame": "three_quarter",
+     "lens": "portrait85",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shorts",
+      "tank",
+      "vest"
+     ],
+     "expose": [
+      "cropped hem",
+      "mini length"
+     ],
+     "kept": true
+    },
+    {
+     "cut": 3,
+     "cat": "subculture_fashion",
+     "ex": "goth_cafe",
+     "expr": "unimpressed",
+     "pose": "standing_formal",
+     "orient": "side",
+     "frame": "full_body",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "side cutouts",
+      "halter neck"
+     ],
+     "lead": "place"
+    }
+   ],
+   "refill": true,
+   "stamp": "8e5b0073b9dd4396528ef489b375666ad7126569f245cb38ab1bd68ad905757b"
+  }
+ ]
+}
