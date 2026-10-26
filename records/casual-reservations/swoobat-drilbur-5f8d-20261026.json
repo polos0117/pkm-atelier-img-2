@@ -1,38 +1,38 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "swoobat-drilbur-5f8d-20261026",
- "at": "2026-10-25T18:38:28-06:00",
+ "at": "2026-10-25T18:47:44-06:00",
  "characters": [
   {
    "species": "swoobat-20261026",
    "card": "맘박쥐",
-   "at": "2026-10-25T18:38:28-06:00",
+   "at": "2026-10-25T18:47:44-06:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "travel_exploration",
-     "ex": "travel_lookout",
+     "cat": "adult_roleplay",
+     "ex": "adult_secretary",
      "expr": "proud",
-     "pose": "walking",
-     "orient": "looking_down",
-     "frame": "environmental",
-     "lens": "wide24",
+     "pose": "one_knee_up",
+     "orient": "three_quarter_back",
+     "frame": "three_quarter",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "knit_top",
-      "shorts"
+      "jacket",
+      "skirt"
      ],
      "expose": [
-      "mini length",
-      "bare midriff"
+      "bare midriff",
+      "open back"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 2,
@@ -44,8 +44,6 @@
      "frame": "waist_up",
      "lens": "documentary35",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
@@ -58,35 +56,36 @@
       "one-shoulder cut",
       "halter neck"
      ],
-     "lead": "action"
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "lingerie",
-     "ex": "bodysuit",
+     "cat": "private_evening",
+     "ex": "high_slit_gown",
      "expr": "confident",
-     "pose": "sitting_floor",
-     "orient": "three_quarter_back",
-     "frame": "three_quarter",
-     "lens": "telephoto135",
+     "pose": "leaning_furniture",
+     "orient": "looking_down",
+     "frame": "environmental",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "subtle",
+      "action_level": "balanced",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "dress"
      ],
      "expose": [
-      "plunging neckline",
-      "open back"
+      "high thigh slit",
+      "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "action"
     }
    ],
-   "stamp": "b030977479609400ec20b5ca76767cab10b0c3224fe74d22e55c3da9c8975fdc"
+   "refill": true,
+   "stamp": "c99d48ea859edcc0f8209c9de9ff92b3c2289da7317e290c0a4c48e8c4b6b09b"
   },
   {
    "species": "drilbur-20261026",
