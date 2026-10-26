@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-excadrill-audino-20261026-96b2",
- "at": "2026-10-25T20:13:51-06:00",
+ "at": "2026-10-25T20:33:54-06:00",
  "characters": [
   {
    "species": "excadrill-20261026",
@@ -91,32 +91,32 @@
   {
    "species": "audino-20261026",
    "card": "다부니",
-   "at": "2026-10-25T20:13:51-06:00",
+   "at": "2026-10-25T20:33:54-06:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "active",
-     "ex": "surf_prep",
-     "expr": "curious",
-     "pose": "mid_action",
+     "ex": "basketball_jersey",
+     "expr": "serious",
+     "pose": "carrying_something",
      "orient": "front_3q",
      "frame": "chest_up",
-     "lens": "natural50",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bikini"
+      "shorts"
      ],
      "expose": [
-      "plunging neckline",
-      "open back"
+      "one-shoulder cut",
+      "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "detail"
     },
     {
      "cut": 2,
@@ -141,7 +141,8 @@
       "high-cut leg",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -166,10 +167,11 @@
       "high thigh slit",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "fb78067290b385140e44237c1cef45863502c94c47695a22ebbffc3e517fbb36"
+   "stamp": "a1012238499f8a7a31baa100e1805336e9bb5ab278321de0faa87016313d96b3"
   }
  ]
 }
