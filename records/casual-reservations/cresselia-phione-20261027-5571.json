@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "cresselia-phione-20261027-5571",
- "at": "2026-10-26T21:26:32-04:00",
+ "at": "2026-10-26T21:38:23-04:00",
  "characters": [
   {
    "species": "cresselia-20261027",
    "card": "크레세리아",
-   "at": "2026-10-26T21:26:32-04:00",
+   "at": "2026-10-26T21:38:23-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,31 +31,32 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "bridal",
-     "ex": "veil_wind",
+     "cat": "food_berries",
+     "ex": "food_tart",
      "expr": "relieved",
-     "pose": "contrapposto",
-     "orient": "low_angle",
+     "pose": "preparing_food",
+     "orient": "front",
      "frame": "three_quarter",
-     "lens": "portrait85",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "dress",
-      "slip"
+      "apron",
+      "shorts"
      ],
      "expose": [
-      "high thigh slit",
-      "one-shoulder cut"
+      "one-shoulder cut",
+      "strapless top"
      ],
      "lead": "place"
     },
@@ -82,48 +83,48 @@
       "strapless top",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "47d740808a16c5c151eb26c7ca4e5a04039dc236667706c1945153d01b4e39f3"
+   "stamp": "23111181fca495904a29efb465a318efe225f52ace228d4c440ddccd33854361"
   },
   {
    "species": "phione-20261027",
    "card": "피오네",
-   "at": "2026-10-26T21:26:32-04:00",
+   "at": "2026-10-26T21:38:23-04:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "food_berries",
-     "ex": "food_tart",
-     "expr": "determined",
-     "pose": "preparing_food",
-     "orient": "front",
+     "cat": "bridal",
+     "ex": "gown_fitting",
+     "expr": "confident",
+     "pose": "hands_in_hair",
+     "orient": "low_angle",
      "frame": "environmental",
-     "lens": "natural50",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "apron",
-      "shorts"
+      "dress"
      ],
      "expose": [
-      "side cutouts",
-      "mini length"
+      "high thigh slit",
+      "halter neck"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 2,
      "cat": "swimwear",
-     "ex": "pool_float",
-     "expr": "confident",
-     "pose": "standing_relaxed",
+     "ex": "oring_bikini",
+     "expr": "pensive",
+     "pose": "contrapposto",
      "orient": "turning_midmotion",
      "frame": "chest_up",
      "lens": "documentary35",
@@ -135,23 +136,23 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "bikini"
      ],
      "expose": [
-      "halter neck",
+      "side cutouts",
       "bare midriff"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 3,
      "cat": "spa_wellness",
      "ex": "jjimjilbang",
-     "expr": "pensive",
+     "expr": "flustered",
      "pose": "holding_cup",
      "orient": "profile_close",
      "frame": "waist_up",
-     "lens": "portrait85",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -163,13 +164,13 @@
       "robe"
      ],
      "expose": [
-      "high thigh slit",
-      "strapless top"
+      "mini length",
+      "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "light"
     }
    ],
-   "stamp": "29e0c7791cb30c1daee5cccae7143c58cd8c746418d9589dbc96b5435a309b7e"
+   "stamp": "40a0d5397d783163bd6591d909f58670de96e45f515098ad51d4b21b4e517260"
   }
  ]
 }
