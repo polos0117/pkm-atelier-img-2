@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gumshoos-grubbin-c1f251",
- "at": "2026-10-27T15:31:53-04:00",
+ "at": "2026-10-27T15:34:50-04:00",
  "characters": [
   {
    "species": "gumshoos-20261028",
@@ -93,68 +93,68 @@
   {
    "species": "grubbin-20261028",
    "card": "턱지충이",
-   "at": "2026-10-27T15:21:21-04:00",
+   "at": "2026-10-27T15:34:50-04:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "food_berries",
-     "ex": "food_market",
+     "cat": "lingerie",
+     "ex": "cage_back",
      "expr": "wistful",
-     "pose": "adjusting_bag",
-     "orient": "front",
-     "frame": "waist_up",
+     "pose": "sitting",
+     "orient": "reclining",
+     "frame": "environmental",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "crop_top",
+      "lingerie_set"
+     ],
+     "expose": [
+      "plunging neckline",
+      "open back"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "cat": "hobbies_leisure",
+     "ex": "hobby_fishing",
+     "expr": "mischievous",
+     "pose": "carrying_something",
+     "orient": "three_quarter_back",
+     "frame": "chest_up",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "subtle",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "blouse",
-      "skirt"
-     ],
-     "expose": [
-      "off-shoulder neckline",
-      "mini length"
-     ],
-     "lead": "place"
-    },
-    {
-     "cut": 2,
-     "cat": "occupation_basic",
-     "ex": "wind_turbine_tech",
-     "expr": "flustered",
-     "pose": "perched_seat",
-     "orient": "reclining",
-     "frame": "environmental",
-     "lens": "natural50",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
       "overalls"
      ],
      "expose": [
-      "cropped hem",
-      "halter neck"
+      "halter neck",
+      "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 3,
-     "cat": "adult_roleplay",
-     "ex": "cabin_crew_retro",
-     "expr": "provocative",
-     "pose": "mid_action",
-     "orient": "turning_midmotion",
-     "frame": "three_quarter",
-     "lens": "wide24",
+     "cat": "dance_stage",
+     "ex": "jazz_kick",
+     "expr": "sleepy",
+     "pose": "on_tiptoe",
+     "orient": "reaching_up",
+     "frame": "waist_up",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -163,16 +163,16 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "jacket"
+      "skirt"
      ],
      "expose": [
-      "one-shoulder cut",
+      "cropped hem",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "detail"
     }
    ],
-   "stamp": "d2daeb28a9d1a4cc580d77d27f1d25af77f6792e7389bebe916a8b3f7a69996f"
+   "stamp": "e191316691986df15505f97999274d761bd448d94c93379a8306502730f2159c"
   }
  ]
 }
