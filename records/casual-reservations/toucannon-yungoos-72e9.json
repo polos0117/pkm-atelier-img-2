@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "toucannon-yungoos-72e9",
- "at": "2026-10-27T12:01:53-04:00",
+ "at": "2026-10-27T12:16:33-04:00",
  "characters": [
   {
    "species": "toucannon-20261028",
@@ -95,7 +95,7 @@
   {
    "species": "yungoos-20261028",
    "card": "영구스",
-   "at": "2026-10-27T11:53:47-04:00",
+   "at": "2026-10-27T12:16:33-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -121,7 +121,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -146,21 +147,22 @@
       "open back",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "dance_stage",
-     "ex": "flamenco",
-     "expr": "confident",
-     "pose": "hand_on_hip",
-     "orient": "low_angle",
+     "cat": "gala_red_carpet",
+     "ex": "gala_dinner",
+     "expr": "serious",
+     "pose": "leaning_furniture",
+     "orient": "rear_3q",
      "frame": "chest_up",
      "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
@@ -168,13 +170,13 @@
       "dress"
      ],
      "expose": [
-      "high thigh slit",
-      "one-shoulder cut"
+      "mini length",
+      "side cutouts"
      ],
-     "lead": "place"
+     "lead": "action"
     }
    ],
-   "stamp": "d955e155c3e684a9944426f36054fdf94d67d9cfdb6d3b13f0befd3daee08412"
+   "stamp": "43944f41ff4770e7c281f180c17090363aa09eafc83050899cd6472736d02580"
   }
  ]
 }
