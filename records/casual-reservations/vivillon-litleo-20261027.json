@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "vivillon-litleo-20261027",
- "at": "2026-10-26T20:19:09-04:00",
+ "at": "2026-10-26T20:25:26-04:00",
  "characters": [
   {
    "species": "vivillon-20261027",
    "card": "비비용",
-   "at": "2026-10-26T20:19:09-04:00",
+   "at": "2026-10-26T20:25:26-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,42 +31,18 @@
       "high thigh slit",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
      "cat": "retro_glamour",
-     "ex": "retro_pinup",
+     "ex": "diner_counter",
      "expr": "cold_smile",
-     "pose": "standing_formal",
+     "pose": "arms_crossed",
      "orient": "high_angle",
      "frame": "three_quarter",
-     "lens": "portrait85",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "lingerie_set"
-     ],
-     "expose": [
-      "bare midriff",
-      "high-cut leg"
-     ],
-     "lead": "place"
-    },
-    {
-     "cut": 3,
-     "cat": "occupation_basic",
-     "ex": "industrial_inspector",
-     "expr": "calm",
-     "pose": "perched_seat",
-     "orient": "seated_twist",
-     "frame": "full_body",
-     "lens": "telephoto135",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -75,36 +51,62 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
+      "blouse",
+      "skirt"
+     ],
+     "expose": [
+      "bare midriff",
+      "one-shoulder cut"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "occupation_basic",
+     "ex": "railway_engineer",
+     "expr": "calm",
+     "pose": "perched_seat",
+     "orient": "seated_twist",
+     "frame": "full_body",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
       "skirt",
       "vest"
      ],
      "expose": [
       "cropped hem",
-      "off-shoulder neckline"
+      "side cutouts"
      ],
      "lead": "action"
     }
    ],
-   "stamp": "b7447c89e5af0598f2be1436f9b530bc5c6da7032afff5e87b4b9c0bfd677bbb"
+   "stamp": "5dcecc6fa4ec63619c6422946b4fd6e5cb0f6fb2386286a464f3f7bd061eafb4"
   },
   {
    "species": "litleo-20261027",
    "card": "레오꼬",
-   "at": "2026-10-26T20:19:09-04:00",
+   "at": "2026-10-26T20:25:26-04:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "lingerie",
      "ex": "velvet_set",
      "expr": "serious",
-     "pose": "leaning_wall",
+     "pose": "standing_formal",
      "orient": "front_3q",
      "frame": "waist_up",
-     "lens": "documentary35",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
@@ -113,10 +115,10 @@
       "lingerie_set"
      ],
      "expose": [
-      "open back",
-      "strapless top"
+      "high-cut leg",
+      "bare midriff"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -126,7 +128,7 @@
      "pose": "gentle_pat",
      "orient": "three_quarter_back",
      "frame": "chest_up",
-     "lens": "natural50",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -138,17 +140,17 @@
       "overalls"
      ],
      "expose": [
-      "one-shoulder cut",
-      "bare midriff"
+      "off-shoulder neckline",
+      "strapless top"
      ],
      "lead": "action"
     },
     {
      "cut": 3,
      "cat": "fantasy_costume",
-     "ex": "sorceress_robe",
+     "ex": "fae_ball",
      "expr": "amused",
-     "pose": "taking_photo",
+     "pose": "leaning_wall",
      "orient": "rear_3q",
      "frame": "environmental",
      "lens": "wide24",
@@ -160,17 +162,17 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "dress",
-      "robe"
+      "coat",
+      "dress"
      ],
      "expose": [
       "mini length",
       "plunging neckline"
      ],
-     "lead": "detail"
+     "lead": "light"
     }
    ],
-   "stamp": "c8ecaf66f3e641b711a7924b32ca10e14f6a83ceae1070c090ee11e95f44d4ad"
+   "stamp": "a9f00fe45dc65a582159b940d21adec8c3b7dc3ab61af32b1b47cfad36f34ae2"
   }
  ]
 }
