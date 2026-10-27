@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "decidueye-litten-20261027-91ea",
- "at": "2026-10-27T04:39:02-04:00",
+ "at": "2026-10-27T04:40:51-04:00",
  "characters": [
   {
    "species": "decidueye-20261027",
    "card": "모크나이퍼",
-   "at": "2026-10-27T04:39:02-04:00",
+   "at": "2026-10-27T04:40:51-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -31,7 +31,8 @@
       "high thigh slit",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -56,7 +57,8 @@
       "cropped hem",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -81,15 +83,16 @@
       "high-cut leg",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "037ad44a122fdc6da08618f1b8517a9215aa3f7041952835e8e44349e64233f5"
+   "stamp": "f1b25536d063cd9b0ace4deb6f7f5cd730a7d85effbf38f001f87f07d812ca64"
   },
   {
    "species": "litten-20261027",
    "card": "냐오불",
-   "at": "2026-10-27T04:39:02-04:00",
+   "at": "2026-10-27T04:40:51-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -114,32 +117,33 @@
       "one-shoulder cut",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "homewear",
-     "ex": "breakfast_bed",
-     "expr": "half_smile",
-     "pose": "carrying_something",
+     "cat": "travel_exploration",
+     "ex": "travel_cablecar",
+     "expr": "curious",
+     "pose": "perched_seat",
      "orient": "looking_away",
      "frame": "face_close",
-     "lens": "portrait85",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "slip"
+      "overalls"
      ],
      "expose": [
-      "halter neck",
-      "mini length"
+      "one-shoulder cut",
+      "side cutouts"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 3,
@@ -164,10 +168,11 @@
       "cropped hem",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "739f273d6ce73b87011ea93179281b22d2ee51e2716cfa0794d9a84f253a423e"
+   "stamp": "47c9e85ba4491a9958334463ef89526e2da023da5c1f4d90518afb13e492a360"
   }
  ]
 }
