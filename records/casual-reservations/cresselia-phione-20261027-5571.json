@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "cresselia-phione-20261027-5571",
- "at": "2026-10-26T21:38:23-04:00",
+ "at": "2026-10-26T21:56:38-04:00",
  "characters": [
   {
    "species": "cresselia-20261027",
@@ -92,7 +92,7 @@
   {
    "species": "phione-20261027",
    "card": "피오네",
-   "at": "2026-10-26T21:38:23-04:00",
+   "at": "2026-10-26T21:56:38-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -117,30 +117,31 @@
       "high thigh slit",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "swimwear",
-     "ex": "oring_bikini",
-     "expr": "pensive",
+     "cat": "retro_glamour",
+     "ex": "roller_disco",
+     "expr": "proud",
      "pose": "contrapposto",
      "orient": "turning_midmotion",
      "frame": "chest_up",
-     "lens": "documentary35",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bikini"
+      "trousers"
      ],
      "expose": [
       "side cutouts",
-      "bare midriff"
+      "mini length"
      ],
      "lead": "action"
     },
@@ -167,10 +168,11 @@
       "mini length",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "40a0d5397d783163bd6591d909f58670de96e45f515098ad51d4b21b4e517260"
+   "stamp": "dc28335e213dcaf2ec7119a1b2d687ba4c04a4f7c7b10adee1016b17302c1488"
   }
  ]
 }
