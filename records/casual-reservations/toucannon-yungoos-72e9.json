@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "toucannon-yungoos-72e9",
- "at": "2026-10-27T11:53:47-04:00",
+ "at": "2026-10-27T12:00:03-04:00",
  "characters": [
   {
    "species": "toucannon-20261028",
    "card": "왕큰부리",
-   "at": "2026-10-27T11:53:47-04:00",
+   "at": "2026-10-27T12:00:03-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,30 +32,32 @@
       "open back",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "gala_red_carpet",
-     "ex": "afterparty_stairs",
-     "expr": "serious",
-     "pose": "leaning_furniture",
+     "cat": "travel_exploration",
+     "ex": "travel_footbath",
+     "expr": "curious",
+     "pose": "hands_in_hair",
      "orient": "profile_close",
      "frame": "face_close",
-     "lens": "documentary35",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "dress"
+      "shorts",
+      "vest"
      ],
      "expose": [
-      "mini length",
-      "side cutouts"
+      "cropped hem",
+      "off-shoulder neckline"
      ],
      "lead": "action"
     },
@@ -82,10 +84,11 @@
       "cropped hem",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "84b93563c2fc55f30bae7e66bc1a8fa4aec5e65f215a63c8ac49cc4bcdb10942"
+   "stamp": "fc3a26ff02f3dd05074468901a326cde54a04bf1873aa16506ecb085b3bdbdb1"
   },
   {
    "species": "yungoos-20261028",
