@@ -1,35 +1,36 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "whirlipede-scolipede-0569",
- "at": "2026-10-27T01:53:00-04:00",
+ "at": "2026-10-27T02:03:18-04:00",
  "characters": [
   {
    "species": "whirlipede-20261027",
    "card": "휠구",
-   "at": "2026-10-27T01:53:00-04:00",
+   "at": "2026-10-27T02:03:18-04:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "homewear",
-     "ex": "breakfast_bed",
-     "expr": "provocative",
-     "pose": "carrying_something",
+     "cat": "food_berries",
+     "ex": "food_juice",
+     "expr": "relieved",
+     "pose": "pouring_drink",
      "orient": "three_quarter_back",
      "frame": "three_quarter",
-     "lens": "wide24",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "strong",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "slip"
+      "apron",
+      "shorts"
      ],
      "expose": [
-      "plunging neckline",
-      "strapless top"
+      "cropped hem",
+      "halter neck"
      ],
      "lead": "place"
     },
@@ -56,7 +57,8 @@
       "high thigh slit",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -81,10 +83,11 @@
       "cropped hem",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "676b248ce199d10e88eff29ca1356a02ff8365aafb32237a5b9e27f8907af145"
+   "stamp": "360414abd1a1d0c50a7f9c3da6f41374501bd148949fd917b7b8dc2f4ba63c51"
   },
   {
    "species": "scolipede-20261027",
