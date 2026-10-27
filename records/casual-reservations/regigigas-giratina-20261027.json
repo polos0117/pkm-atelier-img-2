@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "regigigas-giratina-20261027",
- "at": "2026-10-26T20:38:20-04:00",
+ "at": "2026-10-26T20:46:25-04:00",
  "characters": [
   {
    "species": "regigigas-20261027",
    "card": "레지기가스",
-   "at": "2026-10-26T20:38:20-04:00",
+   "at": "2026-10-26T20:46:25-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,7 +32,8 @@
       "open back",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -57,7 +58,8 @@
       "high-cut leg",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -82,15 +84,16 @@
       "bare midriff",
       "plunging neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "3b61545fa251d14035079296107bfbc1aadaa012d3278a0df96ca7a9063f15ad"
+   "stamp": "81d24df2e971ed61edf7298ba464f14d5504a3a88cb8c9ab34d94a2e496854d8"
   },
   {
    "species": "giratina-20261027",
    "card": "기라티나",
-   "at": "2026-10-26T20:38:20-04:00",
+   "at": "2026-10-26T20:46:25-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -116,43 +119,44 @@
       "cropped hem",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "travel_exploration",
-     "ex": "travel_lodge",
-     "expr": "relieved",
-     "pose": "contrapposto",
+     "cat": "bridal",
+     "ex": "veil_wind",
+     "expr": "wistful",
+     "pose": "sitting",
      "orient": "leaning_forward",
      "frame": "environmental",
-     "lens": "natural50",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "source_influence": "strong",
+      "separates_preference": "balanced"
      },
      "garments": [
-      "knit_top",
-      "trousers"
+      "dress",
+      "slip"
      ],
      "expose": [
-      "mini length",
-      "side cutouts"
+      "off-shoulder neckline",
+      "mini length"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 3,
      "cat": "lingerie",
-     "ex": "longline_bra",
-     "expr": "wistful",
-     "pose": "sitting",
+     "ex": "sport_cotton",
+     "expr": "sensual",
+     "pose": "contrapposto",
      "orient": "leaning_back",
      "frame": "three_quarter",
-     "lens": "documentary35",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -161,16 +165,16 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "slip"
+      "lingerie_set"
      ],
      "expose": [
-      "high thigh slit",
-      "one-shoulder cut"
+      "open back",
+      "high-cut leg"
      ],
      "lead": "action"
     }
    ],
-   "stamp": "a1a62c435c4a2218ac633af7abecf1aff570e64e09506057ecb14f7682308ad3"
+   "stamp": "aa2affc3ad004055b0943106769f54ead7f3515e3a82aa95094d5db7f05d7592"
   }
  ]
 }
