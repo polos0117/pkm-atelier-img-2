@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "manaphy-darkrai-20261027-cf2320",
- "at": "2026-10-26T22:19:52-04:00",
+ "at": "2026-10-26T22:35:31-04:00",
  "characters": [
   {
    "species": "manaphy-20261027",
    "card": "마나피",
-   "at": "2026-10-26T22:19:52-04:00",
+   "at": "2026-10-26T22:35:31-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,7 +32,8 @@
       "off-shoulder neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -57,21 +58,22 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "festivals_contests",
-     "ex": "fest_dance",
-     "expr": "gentle",
-     "pose": "on_tiptoe",
+     "cat": "travel_exploration",
+     "ex": "travel_ruins",
+     "expr": "curious",
+     "pose": "leaning_wall",
      "orient": "rear_3q",
      "frame": "waist_up",
-     "lens": "wide24",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
@@ -79,18 +81,18 @@
       "jumpsuit"
      ],
      "expose": [
-      "strapless top",
-      "open back"
+      "plunging neckline",
+      "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "place"
     }
    ],
-   "stamp": "c359a5f4e591e33c43de73c4c0152de40bbae9dfb6af395cd4fbdd75f0f987eb"
+   "stamp": "cf4ce24872a3beb173fb9c1eb1e731c2bef7b648f1243b9fe4accac0fd3fe801"
   },
   {
    "species": "darkrai-20261027",
    "card": "다크라이",
-   "at": "2026-10-26T22:19:52-04:00",
+   "at": "2026-10-26T22:35:31-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -115,7 +117,8 @@
       "mini length",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -140,7 +143,8 @@
       "halter neck",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -165,10 +169,11 @@
       "plunging neckline",
       "high thigh slit"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "630566f91feaa743edbd14c2507bcd5562751eff4f88c0ada43da3a01c5813a8"
+   "stamp": "e517644e7f8358795239147bb71bfd91ed15bf470a71c1803a5e2958ad9eb2f4"
   }
  ]
 }
