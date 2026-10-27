@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "pyroar-flabebe-20261027-2c6e",
- "at": "2026-10-27T00:49:02-04:00",
+ "at": "2026-10-27T01:12:13-04:00",
  "characters": [
   {
    "species": "pyroar-20261027",
    "card": "화염레오",
-   "at": "2026-10-27T00:49:02-04:00",
+   "at": "2026-10-27T01:12:13-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,7 +32,8 @@
       "side cutouts",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -57,74 +58,76 @@
       "open back",
       "high thigh slit"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "private_evening",
-     "ex": "hotel_evening",
-     "expr": "wistful",
-     "pose": "dressing_up",
-     "orient": "front_3q",
+     "cat": "occupation_basic",
+     "ex": "industrial_inspector",
+     "expr": "gentle",
+     "pose": "cross_legged",
+     "orient": "seated_twist",
      "frame": "waist_up",
-     "lens": "natural50",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "dress"
-     ],
-     "expose": [
-      "one-shoulder cut",
-      "mini length"
-     ],
-     "lead": "place"
-    }
-   ],
-   "stamp": "825262386284a161534f12fedfc8d6a76375a46e2525e2f04822b15c504fc215"
-  },
-  {
-   "species": "flab-b-20261027",
-   "card": "플라베베",
-   "at": "2026-10-27T00:49:02-04:00",
-   "cuts": [
-    {
-     "cut": 1,
-     "cat": "lingerie",
-     "ex": "open_shirt_lingerie",
-     "expr": "playful",
-     "pose": "turning_back",
-     "orient": "three_quarter_back",
-     "frame": "three_quarter",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt",
+      "shorts"
+     ],
+     "expose": [
+      "side cutouts",
+      "bare midriff"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "stamp": "426ba63eaeffb0e63bde826fe3a8665e72e72c0d4be038d2cf7d63f8dd626349"
+  },
+  {
+   "species": "flab-b-20261027",
+   "card": "플라베베",
+   "at": "2026-10-27T01:12:13-04:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "lingerie",
+     "ex": "cage_back",
+     "expr": "playful",
+     "pose": "squatting",
+     "orient": "crouching",
+     "frame": "full_body",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set",
-      "shirt"
+      "crop_top",
+      "lingerie_set"
      ],
      "expose": [
       "high-cut leg",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "detail"
     },
     {
      "cut": 2,
-     "cat": "retro_glamour",
-     "ex": "disco_halter",
-     "expr": "half_smile",
-     "pose": "squatting",
-     "orient": "crouching",
+     "cat": "hobbies_leisure",
+     "ex": "hobby_origami",
+     "expr": "wistful",
+     "pose": "standing_relaxed",
+     "orient": "profile_close",
      "frame": "chest_up",
      "lens": "documentary35",
      "axes": {
@@ -132,16 +135,17 @@
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "jumpsuit"
+      "tank",
+      "trousers"
      ],
      "expose": [
-      "plunging neckline",
-      "strapless top"
+      "one-shoulder cut",
+      "mini length"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 3,
@@ -167,10 +171,11 @@
       "open back",
       "bare midriff"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "a1a9ea4b0a42553bea0743be4d1fb166263bea7f825a6474f9a53fd4e5d8d26a"
+   "stamp": "a42691efc762e6d3c5d2a1d226c7033bc6c2dde818195a9f147e36a4055ee546"
   }
  ]
 }
