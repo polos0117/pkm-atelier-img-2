@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "primarina-5aa5977f-20261027",
- "at": "2026-10-27T07:13:07-04:00",
+ "at": "2026-10-27T07:20:44-04:00",
  "characters": [
   {
    "species": "primarina-20261027",
    "card": "누리레느",
-   "at": "2026-10-27T07:13:07-04:00",
+   "at": "2026-10-27T07:20:44-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,16 +32,42 @@
       "one-shoulder cut",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "nightlife",
-     "ex": "night_taxi",
-     "expr": "candid",
+     "cat": "wildcard",
+     "ex": "rooftop_cinema",
+     "expr": "nostalgic",
      "pose": "arms_crossed",
      "orient": "looking_away",
      "frame": "chest_up",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "overalls"
+     ],
+     "expose": [
+      "one-shoulder cut",
+      "halter neck"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "cat": "adult_roleplay",
+     "ex": "santa_party",
+     "expr": "focused",
+     "pose": "perched_seat",
+     "orient": "reclining",
+     "frame": "three_quarter",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
@@ -57,35 +83,10 @@
       "strapless top",
       "plunging neckline"
      ],
-     "lead": "light"
-    },
-    {
-     "cut": 3,
-     "cat": "adult_roleplay",
-     "ex": "rodeo_cowgirl",
-     "expr": "focused",
-     "pose": "perched_seat",
-     "orient": "reclining",
-     "frame": "three_quarter",
-     "lens": "natural50",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "vest"
-     ],
-     "expose": [
-      "open back",
-      "cropped hem"
-     ],
-     "lead": "detail"
+     "lead": "action"
     }
    ],
-   "stamp": "68011306f50069b978dd0dd116c65a56674dcf74ae03e90d82ee5f1c0c92f20f"
+   "stamp": "b9c9155e7f34575018a8cab93406addaaf84e259e7d1f258451ad660fb42cac6"
   }
  ]
 }
