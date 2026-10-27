@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "skiddo-gogoat-20261028",
- "at": "2026-10-27T17:27:16-05:00",
+ "at": "2026-10-27T18:13:16-05:00",
  "characters": [
   {
    "species": "skiddo-20261028",
    "card": "메이클",
-   "at": "2026-10-27T17:27:16-05:00",
+   "at": "2026-10-27T18:13:16-05:00",
    "cuts": [
     {
      "cut": 1,
@@ -18,8 +18,6 @@
      "frame": "full_body",
      "lens": "wide24",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "balanced"
@@ -31,7 +29,7 @@
       "halter neck",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "kept": true
     },
     {
      "cut": 2,
@@ -43,8 +41,6 @@
      "frame": "face_close",
      "lens": "portrait85",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
@@ -57,15 +53,15 @@
       "one-shoulder cut",
       "strapless top"
      ],
-     "lead": "action"
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "private_evening",
-     "ex": "heritage_evening",
+     "cat": "gala_red_carpet",
+     "ex": "front_row",
      "expr": "pensive",
-     "pose": "sitting_floor",
-     "orient": "looking_down",
+     "pose": "sitting",
+     "orient": "seated_twist",
      "frame": "environmental",
      "lens": "documentary35",
      "axes": {
@@ -80,17 +76,18 @@
      ],
      "expose": [
       "high thigh slit",
-      "mini length"
+      "halter neck"
      ],
      "lead": "place"
     }
    ],
-   "stamp": "11f2ee24ef69c9861a9e6a8799c84902c438f796f76d62b7e5e0be556ffc93e1"
+   "refill": true,
+   "stamp": "71d9e2bf95ae074cf1ddaed2ae44e4b59851aea6300478d7aabf22a5c5b7cf3f"
   },
   {
    "species": "gogoat-20261028",
    "card": "고고트",
-   "at": "2026-10-27T17:27:16-05:00",
+   "at": "2026-10-27T18:13:16-05:00",
    "cuts": [
     {
      "cut": 1,
@@ -115,7 +112,8 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -141,7 +139,8 @@
       "cropped hem",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -166,10 +165,11 @@
       "one-shoulder cut",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "5935f3e5b19e02b09304a98761973b54ba22be06b04336eb361797584903acb4"
+   "stamp": "e6bb428b6380e7b050670bd61cb433e4e07a3eb8ddd005949991fc46b4640dbe"
   }
  ]
 }
