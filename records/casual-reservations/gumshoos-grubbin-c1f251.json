@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gumshoos-grubbin-c1f251",
- "at": "2026-10-27T15:21:21-04:00",
+ "at": "2026-10-27T15:31:53-04:00",
  "characters": [
   {
    "species": "gumshoos-20261028",
    "card": "형사구스",
-   "at": "2026-10-27T15:21:21-04:00",
+   "at": "2026-10-27T15:31:53-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,7 +32,8 @@
       "mini length",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -57,35 +58,37 @@
       "high thigh slit",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "swimwear",
-     "ex": "thermal_spa",
-     "expr": "sleepy",
-     "pose": "sitting",
-     "orient": "leaning_back",
-     "frame": "chest_up",
-     "lens": "telephoto135",
+     "cat": "occupation_sensual",
+     "ex": "night_dispatch",
+     "expr": "smug",
+     "pose": "checking_map",
+     "orient": "looking_down",
+     "frame": "full_body",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bikini"
+      "shirt",
+      "trousers"
      ],
      "expose": [
-      "open back",
-      "plunging neckline"
+      "bare midriff",
+      "side cutouts"
      ],
-     "lead": "action"
+     "lead": "detail"
     }
    ],
-   "stamp": "636b1e949a25e6d5236bc56d9a44375c53715eacff27234d4f420696fa479a33"
+   "stamp": "f6cbe13ca3ab0904ef2c404de8a1b9ef1bfd5ca2f2156e5ea45795542891b6a9"
   },
   {
    "species": "grubbin-20261028",
