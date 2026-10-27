@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "shaymin-arceus-20261027",
- "at": "2026-10-26T23:33:00-04:00",
+ "at": "2026-10-26T23:44:51-04:00",
  "characters": [
   {
    "species": "shaymin-20261027",
    "card": "쉐이미",
-   "at": "2026-10-26T23:33:00-04:00",
+   "at": "2026-10-26T23:44:51-04:00",
    "cuts": [
     {
      "cut": 1,
@@ -14,14 +14,14 @@
      "ex": "photo_wall",
      "expr": "soft_smile",
      "pose": "taking_photo",
-     "orient": "side",
+     "orient": "leaning_forward",
      "frame": "face_close",
      "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "strong",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -29,9 +29,9 @@
      ],
      "expose": [
       "side cutouts",
-      "one-shoulder cut"
+      "open back"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 2,
@@ -57,7 +57,8 @@
       "high-cut leg",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -83,95 +84,95 @@
       "strapless top",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "024ce309e72931451ffb794ba4660c4f963b739f3c28b687c4b1ddf4fed63e3c"
+   "stamp": "1c9670c5fe832dca34b2ea037c584f652a25bfd344b631802735a4dc31c8839c"
   },
   {
    "species": "arceus-20261027",
    "card": "아르세우스",
-   "at": "2026-10-26T23:33:00-04:00",
+   "at": "2026-10-26T23:44:51-04:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "hobbies_leisure",
-     "ex": "hobby_origami",
-     "expr": "determined",
-     "pose": "leaning_furniture",
-     "orient": "leaning_forward",
+     "cat": "subculture_fashion",
+     "ex": "rock_backstage",
+     "expr": "bored",
+     "pose": "playing_instrument",
+     "orient": "side",
      "frame": "face_close",
      "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "subtle",
+      "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "shorts",
-      "tank"
+      "skirt",
+      "vest"
      ],
      "expose": [
-      "side cutouts",
-      "strapless top"
+      "one-shoulder cut",
+      "side cutouts"
      ],
      "lead": "light"
     },
     {
      "cut": 2,
      "cat": "swimwear",
-     "ex": "shoreline_walk",
-     "expr": "calm",
-     "pose": "hand_on_hip",
+     "ex": "oring_bikini",
+     "expr": "amused",
+     "pose": "leaning_furniture",
      "orient": "leaning_back",
      "frame": "three_quarter",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "bikini"
      ],
      "expose": [
-      "high-cut leg",
-      "plunging neckline"
+      "bare midriff",
+      "strapless top"
      ],
      "lead": "place"
     },
     {
      "cut": 3,
-     "cat": "source_editorial",
-     "ex": "cyber_street",
-     "expr": "bored",
+     "cat": "nightlife",
+     "ex": "vip_booth",
+     "expr": "laughing_open",
      "pose": "perched_seat",
      "orient": "seated_twist",
-     "frame": "chest_up",
+     "frame": "environmental",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "crop_top",
-      "trousers"
+      "dress"
      ],
      "expose": [
-      "one-shoulder cut",
-      "open back"
+      "high thigh slit",
+      "mini length"
      ],
-     "lead": "detail"
+     "lead": "action"
     }
    ],
-   "stamp": "bab382f1672b13f29838bdd07946e2ec1ee3ea09a5dcff795e1819da2bef4961"
+   "stamp": "57196e767cc835c30ca4c11cbe93d9c92482e830c8676d95dc80f31fa85aa5b1"
   }
  ]
 }
