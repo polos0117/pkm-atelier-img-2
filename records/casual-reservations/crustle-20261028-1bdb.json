@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "crustle-20261028-1bdb",
- "at": "2026-10-27T20:42:33-05:00",
+ "at": "2026-10-27T20:53:46-05:00",
  "characters": [
   {
    "species": "crustle-20261028",
    "card": "암팰리스",
-   "at": "2026-10-27T20:42:33-05:00",
+   "at": "2026-10-27T20:53:46-05:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,7 +32,8 @@
       "high thigh slit",
       "cropped hem"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -58,17 +59,18 @@
       "strapless top",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "gala_red_carpet",
-     "ex": "afterparty_stairs",
-     "expr": "serious",
-     "pose": "leaning_furniture",
+     "cat": "partner_care",
+     "ex": "care_brushing",
+     "expr": "relieved",
+     "pose": "gentle_pat",
      "orient": "looking_away",
      "frame": "environmental",
-     "lens": "natural50",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -77,16 +79,16 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "dress"
+      "overalls"
      ],
      "expose": [
-      "mini length",
-      "side cutouts"
+      "cropped hem",
+      "open back"
      ],
-     "lead": "light"
+     "lead": "detail"
     }
    ],
-   "stamp": "18a4a68df3f44d9f1488d40861d241d3cc90c259ddbb283f47ed950b413100cb"
+   "stamp": "d4bc6fdbd02ebb4bb6b0195ecdde7e7dfd8ddc8b74c67c491222951b0d19093c"
   }
  ]
 }
