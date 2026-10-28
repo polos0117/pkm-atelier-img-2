@@ -1,37 +1,38 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "thwackey-single-20261028-4fc8",
- "at": "2026-10-27T22:47:43-05:00",
+ "at": "2026-10-27T23:17:11-05:00",
  "characters": [
   {
    "species": "thwackey-20261028",
    "card": "채키몽",
-   "at": "2026-10-27T22:47:43-05:00",
+   "at": "2026-10-27T23:17:11-05:00",
    "cuts": [
     {
      "cut": 1,
      "cat": "adult_roleplay",
-     "ex": "lifeguard_event",
+     "ex": "cat_cafe",
      "expr": "flustered",
-     "pose": "stretching",
-     "orient": "three_quarter_back",
+     "pose": "holding_cup",
+     "orient": "low_angle",
      "frame": "environmental",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "swimsuit"
+      "apron",
+      "dress"
      ],
      "expose": [
-      "side cutouts",
-      "bare midriff"
+      "mini length",
+      "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 2,
@@ -56,7 +57,8 @@
       "mini length",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -81,10 +83,11 @@
       "cropped hem",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "f8a04bbbf0ea3a91a6cca92ae0d7705e5e99cb6391fda441c8f6675e00542789"
+   "stamp": "51849c2ceb1dd43be6501b2cdf0f8ccf60d18ba40e4f6c116f4fc891dacfc3c4"
   }
  ]
 }
