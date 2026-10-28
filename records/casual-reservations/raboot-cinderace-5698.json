@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "raboot-cinderace-5698",
- "at": "2026-10-28T00:36:12-05:00",
+ "at": "2026-10-28T00:40:58-05:00",
  "characters": [
   {
    "species": "raboot-20261028",
@@ -90,7 +90,7 @@
   {
    "species": "cinderace-20261028",
    "card": "에이스번",
-   "at": "2026-10-28T00:36:12-05:00",
+   "at": "2026-10-28T00:40:58-05:00",
    "cuts": [
     {
      "cut": 1,
@@ -117,42 +117,44 @@
       "strapless top",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "dance_stage",
-     "ex": "tango_solo",
-     "expr": "smug",
-     "pose": "on_tiptoe",
+     "cat": "hobbies_leisure",
+     "ex": "hobby_boardgame",
+     "expr": "half_smile",
+     "pose": "side_sitting",
      "orient": "looking_away",
      "frame": "three_quarter",
-     "lens": "telephoto135",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "strong",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "dress"
+      "knit_top",
+      "shorts"
      ],
      "expose": [
-      "plunging neckline",
-      "high thigh slit"
+      "strapless top",
+      "bare midriff"
      ],
-     "lead": "light"
+     "lead": "detail"
     },
     {
      "cut": 3,
      "cat": "swimwear",
      "ex": "yacht_deck",
-     "expr": "half_smile",
+     "expr": "smug",
      "pose": "stretching",
      "orient": "leaning_back",
      "frame": "chest_up",
-     "lens": "documentary35",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -167,10 +169,10 @@
       "high-cut leg",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "action"
     }
    ],
-   "stamp": "f8e6f5b46134c25eb0154d304b118f910d192189af176237f06d703b0457825c"
+   "stamp": "2bce53ac9c80954cd3c222a220a8b2d2216e981c2a8706ea535a3b1884abb746"
   }
  ]
 }
