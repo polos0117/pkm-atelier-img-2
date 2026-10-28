@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "crabrawler-crabominable-20261029-6505",
- "at": "2026-10-29T07:27:49+09:00",
+ "at": "2026-10-29T07:35:54+09:00",
  "characters": [
   {
    "species": "crabrawler-20261029",
    "card": "오기지게",
-   "at": "2026-10-29T07:27:49+09:00",
+   "at": "2026-10-29T07:35:54+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,33 +32,33 @@
       "halter neck",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "lingerie",
-     "ex": "open_shirt_lingerie",
-     "expr": "half_smile",
-     "pose": "contrapposto",
+     "cat": "retro_glamour",
+     "ex": "roller_disco",
+     "expr": "proud",
+     "pose": "stretching",
      "orient": "profile_close",
      "frame": "waist_up",
-     "lens": "telephoto135",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set",
-      "shirt"
+      "trousers"
      ],
      "expose": [
-      "high-cut leg",
-      "open back"
+      "halter neck",
+      "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 3,
@@ -83,15 +83,16 @@
       "high thigh slit",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "b1094c24e787be75ca8c3486239dd07ed0754ba51ecb1565b61f92376c52817f"
+   "stamp": "e22e7168f9d2e29b3d743aa7a0dcd0360aa10251133580af2711aaf0bb4db081"
   },
   {
    "species": "crabominable-20261029",
    "card": "모단단게",
-   "at": "2026-10-29T07:27:49+09:00",
+   "at": "2026-10-29T07:35:54+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -101,7 +102,7 @@
      "pose": "carrying_something",
      "orient": "three_quarter_back",
      "frame": "chest_up",
-     "lens": "documentary35",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -113,8 +114,8 @@
       "jumpsuit"
      ],
      "expose": [
-      "side cutouts",
-      "mini length"
+      "open back",
+      "side cutouts"
      ],
      "lead": "light"
     },
@@ -123,10 +124,10 @@
      "cat": "food_berries",
      "ex": "food_tart",
      "expr": "candid",
-     "pose": "cross_legged",
+     "pose": "perched_seat",
      "orient": "seated_twist",
      "frame": "full_body",
-     "lens": "wide24",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -136,7 +137,7 @@
      },
      "garments": [
       "apron",
-      "skirt"
+      "shorts"
      ],
      "expose": [
       "cropped hem",
@@ -146,13 +147,13 @@
     },
     {
      "cut": 3,
-     "cat": "swimwear",
-     "ex": "beach_volley",
-     "expr": "sleepy",
-     "pose": "perched_seat",
+     "cat": "adult_roleplay",
+     "ex": "noir_detective",
+     "expr": "half_smile",
+     "pose": "contrapposto",
      "orient": "rear_3q",
      "frame": "environmental",
-     "lens": "natural50",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -161,16 +162,17 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini"
+      "coat",
+      "dress"
      ],
      "expose": [
-      "high-cut leg",
-      "plunging neckline"
+      "plunging neckline",
+      "strapless top"
      ],
-     "lead": "detail"
+     "lead": "place"
     }
    ],
-   "stamp": "feb648eeccb1e03a87edfff0fb2be5187af2f7a4307f7334a41fd11dea9bdfe6"
+   "stamp": "fcd1436c881b7570b613d052e08167d3af49d21764ae1c1237396c03253fa8b2"
   }
  ]
 }
