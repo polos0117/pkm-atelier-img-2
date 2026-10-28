@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "rillaboom-scorbunny-26bd",
- "at": "2026-10-27T23:17:17-05:00",
+ "at": "2026-10-27T23:23:30-05:00",
  "characters": [
   {
    "species": "rillaboom-20261028",
@@ -92,7 +92,7 @@
   {
    "species": "scorbunny-20261028",
    "card": "염버니",
-   "at": "2026-10-27T23:12:36-05:00",
+   "at": "2026-10-27T23:23:30-05:00",
    "cuts": [
     {
      "cut": 1,
@@ -117,7 +117,8 @@
       "open back",
       "plunging neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -143,35 +144,37 @@
       "one-shoulder cut",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
-     "cat": "bridal",
-     "ex": "bridal_lace",
-     "expr": "nostalgic",
+     "cat": "subculture_fashion",
+     "ex": "gothic_lolita",
+     "expr": "bored",
      "pose": "kneeling",
      "orient": "front",
      "frame": "face_close",
-     "lens": "wide24",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set"
+      "skirt",
+      "sweater"
      ],
      "expose": [
-      "high-cut leg",
-      "halter neck"
+      "open back",
+      "one-shoulder cut"
      ],
      "lead": "place"
     }
    ],
-   "stamp": "aa28eebfffe074476716af68a1353cd7156645070d23220a965152e2646c3644"
+   "stamp": "4ef4a73ed86036bfcad405f46f6f74ed130e04d14dfb2dad79f129ba6f152975"
   }
  ]
 }
