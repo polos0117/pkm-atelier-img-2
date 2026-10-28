@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "skiddo-gogoat-20261028",
- "at": "2026-10-27T18:31:16-05:00",
+ "at": "2026-10-27T19:09:26-05:00",
  "characters": [
   {
    "species": "skiddo-20261028",
@@ -87,12 +87,12 @@
   {
    "species": "gogoat-20261028",
    "card": "고고트",
-   "at": "2026-10-27T18:31:16-05:00",
+   "at": "2026-10-27T19:09:26-05:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "fantasy_costume",
-     "ex": "angel_devil",
+     "cat": "wildcard",
+     "ex": "retro_motel",
      "expr": "smug",
      "pose": "sitting_floor",
      "orient": "looking_down",
@@ -106,14 +106,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "dress"
+      "jumpsuit"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "one-shoulder cut"
+      "one-shoulder cut",
+      "mini length"
      ],
-     "lead": "place",
-     "kept": true
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -149,8 +148,6 @@
      "frame": "chest_up",
      "lens": "natural50",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
@@ -163,11 +160,11 @@
       "off-shoulder neckline",
       "cropped hem"
      ],
-     "lead": "place"
+     "kept": true
     }
    ],
    "refill": true,
-   "stamp": "e7f31b86b7663780fdbb65433973fe18fa15da49d40a27ea25d84fd9200ad3f3"
+   "stamp": "e70e8761f244189fcf2044b8412053c913b14f091a0655e83cf2e894275c5292"
   }
  ]
 }
