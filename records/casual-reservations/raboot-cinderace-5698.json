@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "raboot-cinderace-5698",
- "at": "2026-10-28T00:09:49-05:00",
+ "at": "2026-10-28T00:34:54-05:00",
  "characters": [
   {
    "species": "raboot-20261028",
@@ -90,30 +90,32 @@
   {
    "species": "cinderace-20261028",
    "card": "에이스번",
-   "at": "2026-10-28T00:09:49-05:00",
+   "at": "2026-10-28T00:34:54-05:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "bridal",
-     "ex": "bridal_lace",
-     "expr": "half_smile",
+     "cat": "wildcard",
+     "ex": "winter_lodge",
+     "expr": "nostalgic",
      "pose": "one_knee_up",
      "orient": "three_quarter_back",
-     "frame": "chest_up",
-     "lens": "documentary35",
+     "frame": "waist_up",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set"
+      "coat",
+      "leggings",
+      "sweater"
      ],
      "expose": [
-      "bare midriff",
-      "high-cut leg"
+      "strapless top",
+      "bare midriff"
      ],
      "lead": "action"
     },
@@ -122,10 +124,10 @@
      "cat": "dance_stage",
      "ex": "tango_solo",
      "expr": "smug",
-     "pose": "stretching",
+     "pose": "on_tiptoe",
      "orient": "looking_away",
      "frame": "three_quarter",
-     "lens": "wide24",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -137,38 +139,38 @@
       "dress"
      ],
      "expose": [
-      "high thigh slit",
-      "strapless top"
+      "plunging neckline",
+      "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 3,
-     "cat": "lingerie",
-     "ex": "chemise_silk",
-     "expr": "calm",
+     "cat": "swimwear",
+     "ex": "yacht_deck",
+     "expr": "half_smile",
      "pose": "squatting",
      "orient": "crouching",
-     "frame": "waist_up",
-     "lens": "telephoto135",
+     "frame": "chest_up",
+     "lens": "documentary35",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "slip"
+      "bikini"
      ],
      "expose": [
-      "halter neck",
-      "plunging neckline"
+      "high-cut leg",
+      "halter neck"
      ],
-     "lead": "light"
+     "lead": "place"
     }
    ],
-   "stamp": "0812d1164b125834fd01216cb4f0792d03c4f7d36f632816a5ad9284f5ded017"
+   "stamp": "a4746389d926c45a0a06b7933eb119231b1dfc8e9e898eff3d858d8972a17941"
   }
  ]
 }
