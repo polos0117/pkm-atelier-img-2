@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "meowscarada-fuecoco-20261029-9f53",
- "at": "2026-10-29T06:05:13+09:00",
+ "at": "2026-10-29T06:14:20+09:00",
  "characters": [
   {
    "species": "meowscarada-20261029",
    "card": "마스카나",
-   "at": "2026-10-29T06:05:13+09:00",
+   "at": "2026-10-29T06:14:20+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,43 +32,18 @@
       "strapless top",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "subculture_fashion",
-     "ex": "skater_bowl",
+     "cat": "gala_red_carpet",
+     "ex": "festival_steps",
      "expr": "cold_smile",
-     "pose": "on_tiptoe",
+     "pose": "standing_relaxed",
      "orient": "three_quarter_back",
      "frame": "three_quarter",
-     "lens": "wide24",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "strong",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "shorts",
-      "sweater"
-     ],
-     "expose": [
-      "halter neck",
-      "open back"
-     ],
-     "lead": "place"
-    },
-    {
-     "cut": 3,
-     "cat": "lingerie",
-     "ex": "open_shirt_lingerie",
-     "expr": "sensual",
-     "pose": "standing_relaxed",
-     "orient": "rear_3q",
-     "frame": "waist_up",
-     "lens": "telephoto135",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -77,22 +52,46 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set",
-      "shirt"
+      "dress"
      ],
      "expose": [
-      "high-cut leg",
-      "plunging neckline"
+      "strapless top",
+      "mini length"
      ],
-     "lead": "light"
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "retro_glamour",
+     "ex": "swing_dress",
+     "expr": "sensual",
+     "pose": "leaning_furniture",
+     "orient": "rear_3q",
+     "frame": "waist_up",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "halter neck",
+      "open back"
+     ],
+     "lead": "action"
     }
    ],
-   "stamp": "2c9edf14a7bef3e7aa28e5dc4f31217d542dc501ad4c8fdfa671dcca65f8dbfa"
+   "stamp": "46a483ff514da1b9a93b080b4bdafc407c9efdbf2f43f9b5ffcf0ce3b348a942"
   },
   {
    "species": "fuecoco-20261029",
    "card": "뜨아거",
-   "at": "2026-10-29T06:05:13+09:00",
+   "at": "2026-10-29T06:14:20+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -117,7 +116,8 @@
       "bare midriff",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -143,7 +143,8 @@
       "cropped hem",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -169,10 +170,11 @@
       "one-shoulder cut",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "ecf0272f127b082a9c5d04a580bbff9229567e444113cf8ac52ae73299798171"
+   "stamp": "4ce309e6cc4fcad1fd639b7a05828b8014760688f409be00e59a64e69e07662f"
   }
  ]
 }
