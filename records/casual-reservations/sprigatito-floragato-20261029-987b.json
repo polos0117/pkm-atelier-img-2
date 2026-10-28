@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "sprigatito-floragato-20261029-987b",
- "at": "2026-10-29T01:24:19+09:00",
+ "at": "2026-10-29T01:35:38+09:00",
  "characters": [
   {
    "species": "sprigatito-20261029",
    "card": "나오하",
-   "at": "2026-10-29T01:24:19+09:00",
+   "at": "2026-10-29T01:35:38+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,42 +32,18 @@
       "open back",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "dance_stage",
-     "ex": "jazz_kick",
+     "cat": "fantasy_costume",
+     "ex": "moon_priestess",
      "expr": "wistful",
-     "pose": "dance_step",
-     "orient": "leaning_back",
-     "frame": "three_quarter",
-     "lens": "portrait85",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "skirt"
-     ],
-     "expose": [
-      "halter neck",
-      "strapless top"
-     ],
-     "lead": "action"
-    },
-    {
-     "cut": 3,
-     "cat": "lingerie",
-     "ex": "longline_bra",
-     "expr": "provocative",
-     "pose": "one_knee_up",
-     "orient": "crouching",
+     "pose": "perched_seat",
+     "orient": "low_angle",
      "frame": "waist_up",
-     "lens": "wide24",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -76,16 +52,41 @@
       "separates_preference": "balanced"
      },
      "garments": [
+      "dress"
+     ],
+     "expose": [
+      "halter neck",
+      "off-shoulder neckline"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "lingerie",
+     "ex": "sport_cotton",
+     "expr": "provocative",
+     "pose": "sitting",
+     "orient": "leaning_back",
+     "frame": "three_quarter",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
       "lingerie_set"
      ],
      "expose": [
-      "bare midriff",
-      "high-cut leg"
+      "high-cut leg",
+      "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "action"
     }
    ],
-   "stamp": "f27d87af9d5b35b9ac6f9ad3677f5352027859f87bf7921efad7a3d212547048"
+   "stamp": "b0a2e1d8adedbc2293c9c6415c3fdb761cc8391239b5032dec51892ae324fd2c"
   },
   {
    "species": "floragato-20261029",
