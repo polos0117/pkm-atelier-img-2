@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "inteleon-skwovet-20261028-f7b473",
- "at": "2026-10-28T02:35:05-05:00",
+ "at": "2026-10-28T02:45:24-05:00",
  "characters": [
   {
    "species": "inteleon-20261028",
    "card": "인텔리레온",
-   "at": "2026-10-28T02:35:05-05:00",
+   "at": "2026-10-28T02:45:24-05:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,7 +32,8 @@
       "high thigh slit",
       "plunging neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -57,40 +58,41 @@
       "bare midriff",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
      "cat": "lingerie",
-     "ex": "longline_bra",
+     "ex": "garter_set",
      "expr": "sleepy",
-     "pose": "on_tiptoe",
-     "orient": "reaching_up",
+     "pose": "contrapposto",
+     "orient": "front",
      "frame": "chest_up",
-     "lens": "wide24",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "slip"
+      "lingerie_set"
      ],
      "expose": [
-      "one-shoulder cut",
-      "side cutouts"
+      "bare midriff",
+      "plunging neckline"
      ],
-     "lead": "detail"
+     "lead": "place"
     }
    ],
-   "stamp": "cfd12ca93d132acf873b89669f9c0d65ff458c94f448176baa549da7e6ccd8a5"
+   "stamp": "44b24b727565dd474284950f57e04749f2ab6e5d72716cbfafd8f582e62f0fcd"
   },
   {
    "species": "skwovet-20261028",
    "card": "탐리스",
-   "at": "2026-10-28T02:35:05-05:00",
+   "at": "2026-10-28T02:45:24-05:00",
    "cuts": [
     {
      "cut": 1,
@@ -116,32 +118,33 @@
       "cropped hem",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
      "cat": "retro_glamour",
-     "ex": "aerobics_80s",
+     "ex": "retro_pinup",
      "expr": "proud",
-     "pose": "perched_seat",
-     "orient": "reclining",
+     "pose": "stretching",
+     "orient": "reaching_up",
      "frame": "waist_up",
-     "lens": "telephoto135",
+     "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "subtle",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "leggings"
+      "lingerie_set"
      ],
      "expose": [
-      "bare midriff",
-      "halter neck"
+      "side cutouts",
+      "high-cut leg"
      ],
-     "lead": "place"
+     "lead": "detail"
     },
     {
      "cut": 3,
@@ -166,10 +169,11 @@
       "off-shoulder neckline",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "f7d30b5cea99933b361fc8b45a51a8ef8a5f00efa84493dfa470545ccc135e99"
+   "stamp": "e34e8ce6597ebe5ce1931066f8eb765e9d17a232d7b487198cedd7b3eb8849e4"
   }
  ]
 }
