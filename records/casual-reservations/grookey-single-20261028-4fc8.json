@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "grookey-single-20261028-4fc8",
- "at": "2026-10-27T22:46:24-05:00",
+ "at": "2026-10-27T22:54:07-05:00",
  "characters": [
   {
    "species": "grookey-20261028",
    "card": "흥나숭",
-   "at": "2026-10-27T22:46:24-05:00",
+   "at": "2026-10-27T22:54:07-05:00",
    "cuts": [
     {
      "cut": 1,
@@ -32,16 +32,43 @@
       "off-shoulder neckline",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
-     "cat": "dance_stage",
-     "ex": "jazz_kick",
+     "cat": "occupation_basic",
+     "ex": "test_engineer",
      "expr": "proud",
-     "pose": "arms_crossed",
+     "pose": "sitting_floor",
      "orient": "leaning_back",
      "frame": "three_quarter",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "apron",
+      "trousers"
+     ],
+     "expose": [
+      "off-shoulder neckline",
+      "bare midriff"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "retro_glamour",
+     "ex": "diner_counter",
+     "expr": "soft_smile",
+     "pose": "arms_crossed",
+     "orient": "high_angle",
+     "frame": "chest_up",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
@@ -51,41 +78,17 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
+      "blouse",
       "skirt"
      ],
      "expose": [
-      "strapless top",
-      "one-shoulder cut"
-     ],
-     "lead": "action"
-    },
-    {
-     "cut": 3,
-     "cat": "lingerie",
-     "ex": "satin_teddy",
-     "expr": "provocative",
-     "pose": "cross_legged",
-     "orient": "high_angle",
-     "frame": "chest_up",
-     "lens": "wide24",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "lingerie_set"
-     ],
-     "expose": [
-      "high-cut leg",
-      "plunging neckline"
+      "one-shoulder cut",
+      "cropped hem"
      ],
      "lead": "light"
     }
    ],
-   "stamp": "d71c6eb9292b4499d28e639944b59c1cbbb5ddd47a5d5754b80584c915d6c703"
+   "stamp": "98b37956a5604a4bebaaf5a793c8615de46409eeda25ac7b0168b794555e549e"
   }
  ]
 }
