@@ -1,23 +1,23 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "yamask-cofagrigus-ccfac583",
- "at": "2026-10-30T08:15:03+09:00",
+ "at": "2026-10-30T08:16:13+09:00",
  "characters": [
   {
    "species": "yamask-20261030",
    "card": "데스마스",
-   "at": "2026-10-30T08:15:03+09:00",
+   "at": "2026-10-30T08:16:13+09:00",
    "cuts": [
     {
      "cut": 1,
-     "era": "in_pokemon",
-     "place": "pw_room",
-     "act": "fireside",
+     "era": "now",
+     "place": "home_bath",
+     "act": "mask_rest",
      "ofam": "lingerie",
      "item": "kebaya_lace",
-     "expr": "wistful",
-     "pose": "sitting",
-     "orient": "rear_3q",
+     "expr": "",
+     "pose": "lying_side",
+     "orient": "high_angle",
      "frame": "environmental",
      "lens": "documentary35",
      "axes": {
@@ -34,7 +34,7 @@
       "mini length",
       "cropped hem"
      ],
-     "lead": "place"
+     "lead": "detail"
     },
     {
      "cut": 2,
@@ -43,7 +43,7 @@
      "act": "soak",
      "ofam": "bath",
      "item": "bath_yukata",
-     "expr": "smug",
+     "expr": "wistful",
      "pose": "",
      "orient": "side",
      "frame": "face_close",
@@ -62,24 +62,24 @@
       "high thigh slit",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "action"
     },
     {
      "cut": 3,
-     "era": "now",
+     "era": "release",
      "place": "arcade_hall",
-     "act": "rest_seat",
+     "act": "rhythm_game",
      "ofam": "subculture",
      "item": "emo",
      "expr": "unimpressed",
-     "pose": "perched_seat",
-     "orient": "high_angle",
+     "pose": "turning_back",
+     "orient": "rear_3q",
      "frame": "full_body",
      "lens": "wide24",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
@@ -90,23 +90,23 @@
       "off-shoulder neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "place"
     }
    ],
-   "stamp": "e6172b2cc5ea4d143483718bab5fb49c160312d88b8f54764eb446985deb0f58"
+   "stamp": "c9f0f5d0188fa13ab29fa4e5a26640ebe50a4b889c940b89678a43666cb5ffa3"
   },
   {
    "species": "cofagrigus-20261030",
    "card": "데스니칸",
-   "at": "2026-10-30T08:15:03+09:00",
+   "at": "2026-10-30T08:16:13+09:00",
    "cuts": [
     {
      "cut": 1,
      "era": "in_pokemon",
-     "place": "work_museum",
-     "act": "tidy_tools",
-     "ofam": "work",
-     "item": "workshop_apron",
+     "place": "pw_lodge",
+     "act": "inn_counter",
+     "ofam": "evening",
+     "item": "silk_robe_slip",
      "expr": "laughing",
      "pose": "leaning_wall",
      "orient": "looking_away",
@@ -117,6 +117,35 @@
       "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "robe",
+      "slip"
+     ],
+     "expose": [
+      "plunging neckline",
+      "strapless top"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "era": "in_pokemon",
+     "place": "work_league",
+     "act": "shift_break",
+     "ofam": "work",
+     "item": "workshop_apron",
+     "expr": "focused",
+     "pose": "",
+     "orient": "low_angle",
+     "frame": "chest_up",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
@@ -124,23 +153,23 @@
       "shirt"
      ],
      "expose": [
-      "strapless top",
-      "halter neck"
+      "one-shoulder cut",
+      "side cutouts"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
-     "cut": 2,
+     "cut": 3,
      "era": "now",
-     "place": "spa_lounge",
-     "act": "hair_dry",
-     "ofam": "bath",
-     "item": "robe_over_swim",
+     "place": "travel_lake",
+     "act": "picnic",
+     "ofam": "swimwear",
+     "item": "plunge_onepiece",
      "expr": "soft_smile",
      "pose": "",
      "orient": "seated_twist",
      "frame": "waist_up",
-     "lens": "natural50",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -149,45 +178,16 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "robe",
       "swimsuit"
      ],
      "expose": [
       "high-cut leg",
-      "plunging neckline"
+      "halter neck"
      ],
-     "lead": "detail"
-    },
-    {
-     "cut": 3,
-     "era": "release",
-     "place": "water_resort",
-     "act": "bar_drink",
-     "ofam": "swimwear",
-     "item": "burkini_modest",
-     "expr": "playful",
-     "pose": "sitting",
-     "orient": "low_angle",
-     "frame": "environmental",
-     "lens": "documentary35",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "strong",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "swimsuit"
-     ],
-     "expose": [
-      "side cutouts",
-      "open back"
-     ],
-     "lead": "action"
+     "lead": "place"
     }
    ],
-   "stamp": "db3389e70a301e4cd7cd2aded46085cbd87e3925664864b2864a7b4032f1ed60"
+   "stamp": "da56259dd6a48a4a564405e04f43f050789db9a42b8f94abcb781db3c15593d2"
   }
  ]
 }
