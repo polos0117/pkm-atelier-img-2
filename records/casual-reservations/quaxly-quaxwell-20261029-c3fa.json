@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "quaxly-quaxwell-20261029-c3fa",
- "at": "2026-10-29T08:27:37+09:00",
+ "at": "2026-10-29T09:01:16+09:00",
  "characters": [
   {
    "species": "quaxly-20261029",
@@ -90,33 +90,32 @@
   {
    "species": "quaxwell-20261029",
    "card": "아꾸왁",
-   "at": "2026-10-29T08:27:37+09:00",
+   "at": "2026-10-29T09:01:16+09:00",
    "cuts": [
     {
      "cut": 1,
-     "cat": "fantasy_costume",
-     "ex": "elf_costume",
-     "expr": "cold_smile",
-     "pose": "one_knee_up",
-     "orient": "crouching",
+     "cat": "dance_stage",
+     "ex": "flamenco",
+     "expr": "focused",
+     "pose": "leaning_wall",
+     "orient": "leaning_forward",
      "frame": "environmental",
-     "lens": "natural50",
+     "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "coat",
       "dress"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "halter neck"
+      "halter neck",
+      "mini length"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 2,
@@ -128,8 +127,6 @@
      "frame": "three_quarter",
      "lens": "documentary35",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "balanced"
@@ -141,7 +138,7 @@
       "one-shoulder cut",
       "high thigh slit"
      ],
-     "lead": "place"
+     "kept": true
     },
     {
      "cut": 3,
@@ -153,23 +150,23 @@
      "frame": "face_close",
      "lens": "portrait85",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "shorts"
+      "shorts",
+      "tank"
      ],
      "expose": [
       "bare midriff",
       "mini length"
      ],
-     "lead": "light"
+     "kept": true
     }
    ],
-   "stamp": "1e2fdc8bf58dff6e71389d3fe0be2d4e65339ab6010a453749c3d742fdeeae9f"
+   "refill": true,
+   "stamp": "3aec997e59dce30a70b029b68334202ef0ae7f17b9fde98fb8ae43dec86c0914"
   }
  ]
 }
