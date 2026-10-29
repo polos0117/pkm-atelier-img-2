@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "b223-exleg-pawmi-20261030",
- "at": "2026-10-30T06:37:40+09:00",
+ "at": "2026-10-30T06:52:55+09:00",
  "characters": [
   {
    "species": "lokix-20261030",
@@ -99,18 +99,18 @@
   {
    "species": "pawmi-20261030",
    "card": "빠모",
-   "at": "2026-10-30T06:37:40+09:00",
+   "at": "2026-10-30T06:52:55+09:00",
    "cuts": [
     {
      "cut": 1,
      "era": "now",
-     "place": "spa_lounge",
-     "act": "sauna_break",
-     "ofam": "swimwear",
-     "item": "triangle_bikini",
+     "place": "street_cafe",
+     "act": "bead_craft",
+     "ofam": "retro",
+     "item": "deco_gown",
      "expr": "serious",
-     "pose": "perched_seat",
-     "orient": "three_quarter_back",
+     "pose": "cross_legged",
+     "orient": "over_shoulder",
      "frame": "three_quarter",
      "lens": "natural50",
      "axes": {
@@ -121,13 +121,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini"
+      "dress"
      ],
      "expose": [
-      "high-cut leg",
-      "bare midriff"
+      "plunging neckline",
+      "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -137,13 +137,10 @@
      "ofam": "evening",
      "item": "silk_robe_slip",
      "expr": "mischievous",
-     "pose": "",
      "orient": "looking_down",
      "frame": "chest_up",
      "lens": "telephoto135",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "balanced"
@@ -156,7 +153,7 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "kept": true
     },
     {
      "cut": 3,
@@ -171,8 +168,6 @@
      "frame": "waist_up",
      "lens": "portrait85",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "balanced"
@@ -185,10 +180,11 @@
       "high thigh slit",
       "side cutouts"
      ],
-     "lead": "action"
+     "kept": true
     }
    ],
-   "stamp": "444a2319e2f1dcdcb18ae47547f70789b4e0c7ff40921ffd087de69c131ff38d"
+   "refill": true,
+   "stamp": "e9b16214d215bb4b2d665bfa01a3df407949da5d1be5c3c2fb6f5f7e08a0a1c2"
   }
  ]
 }
