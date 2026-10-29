@@ -1,59 +1,30 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "rook-corv-3ea4a973",
- "at": "2026-10-29T21:34:46+09:00",
+ "at": "2026-10-29T21:37:08+09:00",
  "characters": [
   {
    "species": "corvisquire-20261029",
    "card": "파크로우",
-   "at": "2026-10-29T21:34:46+09:00",
+   "at": "2026-10-29T21:37:08+09:00",
    "cuts": [
     {
      "cut": 1,
-     "era": "now",
-     "place": "studio_art",
-     "act": "pottery",
-     "ofam": "homewear",
-     "item": "offshoulder_knit",
+     "era": "in_pokemon",
+     "place": "pw_roof",
+     "act": "stargaze",
+     "ofam": "swimwear",
+     "item": "heritage_pattern_swim",
      "expr": "mischievous",
-     "pose": "sitting",
-     "orient": "looking_away",
+     "pose": "standing_relaxed",
+     "orient": "high_angle",
      "frame": "full_body",
      "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "knit_top",
-      "shorts"
-     ],
-     "expose": [
-      "open back",
-      "one-shoulder cut"
-     ],
-     "lead": "place"
-    },
-    {
-     "cut": 2,
-     "era": "fantasy",
-     "place": "fx_studio",
-     "act": "photozone_pose",
-     "ofam": "swimwear",
-     "item": "plunge_onepiece",
-     "expr": "candid",
-     "pose": "finger_to_lips",
-     "orient": "high_angle",
-     "frame": "waist_up",
-     "lens": "natural50",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "subtle",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -61,58 +32,22 @@
      ],
      "expose": [
       "plunging neckline",
-      "halter neck"
+      "open back"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
-     "cut": 3,
-     "era": "now",
-     "place": "stage_festival",
-     "act": "browse_shelf",
-     "ofam": "roleplay",
-     "item": "uniform_inspired",
-     "expr": "proud",
-     "pose": "",
-     "orient": "reaching_up",
-     "frame": "chest_up",
-     "lens": "portrait85",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "uniform"
-     ],
-     "expose": [
-      "off-shoulder neckline",
-      "mini length"
-     ],
-     "lead": "detail"
-    }
-   ],
-   "stamp": "df3a32c8060a0e47c2d0232a14a1c014fc5b7122faa57e80e83c21faed40876d"
-  },
-  {
-   "species": "corviknight-20261029",
-   "card": "아머까오",
-   "at": "2026-10-29T21:34:46+09:00",
-   "cuts": [
-    {
-     "cut": 1,
+     "cut": 2,
      "era": "in_pokemon",
      "place": "work_shop",
-     "act": "job_supply_pack",
+     "act": "tidy_tools",
      "ofam": "work",
      "item": "keeper_overalls",
      "expr": "determined",
      "pose": "on_tiptoe",
-     "orient": "turning_midmotion",
-     "frame": "environmental",
-     "lens": "documentary35",
+     "orient": "looking_away",
+     "frame": "three_quarter",
+     "lens": "natural50",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -125,52 +60,59 @@
       "tank"
      ],
      "expose": [
-      "bare midriff",
-      "cropped hem"
-     ],
-     "lead": "action"
-    },
-    {
-     "cut": 2,
-     "era": "release",
-     "place": "travel_lake",
-     "act": "sketch",
-     "ofam": "active",
-     "item": "",
-     "expr": "exhausted",
-     "pose": "",
-     "orient": "front",
-     "frame": "face_close",
-     "lens": "telephoto135",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "leggings",
-      "tank"
-     ],
-     "expose": [
-      "strapless top",
-      "side cutouts"
+      "off-shoulder neckline",
+      "mini length"
      ],
      "lead": "detail"
     },
     {
      "cut": 3,
      "era": "now",
-     "place": "sports_studio",
-     "act": "water_break",
-     "ofam": "retro",
-     "item": "aerobics_80s",
-     "expr": "half_smile",
-     "pose": "standing_relaxed",
+     "place": "stage_contest",
+     "act": "cheer_seat",
+     "ofam": "roleplay",
+     "item": "uniform_inspired",
+     "expr": "",
+     "pose": "",
+     "orient": "leaning_back",
+     "frame": "chest_up",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "uniform"
+     ],
+     "expose": [
+      "one-shoulder cut",
+      "bare midriff"
+     ],
+     "lead": "light"
+    }
+   ],
+   "stamp": "c9b16f07d1320fd670cdfee0f13df57871d2fd56156f58385b4549c0174ebf60"
+  },
+  {
+   "species": "corviknight-20261029",
+   "card": "아머까오",
+   "at": "2026-10-29T21:37:08+09:00",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "release",
+     "place": "studio_art",
+     "act": "bead_craft",
+     "ofam": "homewear",
+     "item": "offshoulder_knit",
+     "expr": "gentle",
+     "pose": "",
      "orient": "over_shoulder",
-     "frame": "three_quarter",
-     "lens": "natural50",
+     "frame": "waist_up",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -179,16 +121,74 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "leggings"
+      "knit_top",
+      "shorts"
      ],
      "expose": [
-      "open back",
-      "mini length"
+      "cropped hem",
+      "halter neck"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "era": "now",
+     "place": "night_rooftop",
+     "act": "club_dance",
+     "ofam": "evening",
+     "item": "silk_robe_slip",
+     "expr": "proud",
+     "pose": "",
+     "orient": "leaning_forward",
+     "frame": "face_close",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "robe",
+      "slip"
+     ],
+     "expose": [
+      "high thigh slit",
+      "side cutouts"
      ],
      "lead": "place"
+    },
+    {
+     "cut": 3,
+     "era": "now",
+     "place": "home_living",
+     "act": "rest_seat",
+     "ofam": "lingerie",
+     "item": "babydoll",
+     "expr": "half_smile",
+     "pose": "finger_to_lips",
+     "orient": "looking_down",
+     "frame": "environmental",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "slip"
+     ],
+     "expose": [
+      "strapless top",
+      "plunging neckline"
+     ],
+     "lead": "light"
     }
    ],
-   "stamp": "a06ec872f7561e12f8e132f1cfed0590cb09b656797cc2120faeb84265628e80"
+   "stamp": "790ece9f5cdaacd0b601412c18ee89b20c18590333245da6fcc4361374e0b17d"
   }
  ]
 }
