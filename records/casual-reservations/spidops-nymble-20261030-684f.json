@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "spidops-nymble-20261030-684f",
- "at": "2026-10-30T00:47:18+09:00",
+ "at": "2026-10-30T00:53:02+09:00",
  "characters": [
   {
    "species": "spidops-20261030",
    "card": "트래피더",
-   "at": "2026-10-30T00:47:18+09:00",
+   "at": "2026-10-30T00:53:02+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -34,7 +34,8 @@
       "one-shoulder cut",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -62,44 +63,44 @@
       "cropped hem",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
      "era": "release",
-     "place": "studio_art",
-     "act": "rest_seat",
-     "ofam": "everyday",
-     "item": "sweater_leggings",
-     "expr": "laughing_open",
-     "pose": "",
+     "place": "spa_footbath",
+     "act": "stroll",
+     "ofam": "bath",
+     "item": "bath_yukata",
+     "expr": "sensual",
+     "pose": "walking",
      "orient": "rear_3q",
-     "frame": "waist_up",
-     "lens": "portrait85",
+     "frame": "three_quarter",
+     "lens": "telephoto135",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "subtle",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "leggings",
-      "sweater"
+      "traditional"
      ],
      "expose": [
-      "bare midriff",
-      "strapless top"
+      "high thigh slit",
+      "open back"
      ],
-     "lead": "action"
+     "lead": "light"
     }
    ],
-   "stamp": "200baf0286a08ceee53fed198a202729b1add086b3df87ffb29d1ed54168c35c"
+   "stamp": "2ef55e4dd912f0cb5d693aded651d68f5cd5d1cb3e79b2e6cc981446de602e2f"
   },
   {
    "species": "nymble-20261030",
    "card": "콩알뚜기",
-   "at": "2026-10-30T00:47:18+09:00",
+   "at": "2026-10-30T00:53:02+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -128,7 +129,8 @@
       "one-shoulder cut",
       "cropped hem"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -157,7 +159,8 @@
       "mini length",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -185,10 +188,11 @@
       "halter neck",
       "bare midriff"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "ae0990bbcb009e87b67c417d136024c59dfeac9a5b8fc41c280ab91f0e1b13cb"
+   "stamp": "ef7c8ab69f59b2d8456f2f34e7a622ad5b11c4e89f82ae3d176952320afdc4a0"
   }
  ]
 }
