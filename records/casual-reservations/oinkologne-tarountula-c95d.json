@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "oinkologne-tarountula-c95d",
- "at": "2026-10-29T23:21:45+09:00",
+ "at": "2026-10-29T23:22:39+09:00",
  "characters": [
   {
    "species": "oinkologne-20261029",
    "card": "퍼퓨돈",
-   "at": "2026-10-29T23:21:45+09:00",
+   "at": "2026-10-29T23:22:39+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -74,9 +74,9 @@
      "ofam": "active",
      "item": "sports_bra_leggings",
      "expr": "exhausted",
-     "pose": "on_tiptoe",
-     "orient": "reaching_up",
-     "frame": "three_quarter",
+     "pose": "mid_action",
+     "orient": "turning_midmotion",
+     "frame": "waist_up",
      "lens": "portrait85",
      "axes": {
       "overall_intensity": "strong",
@@ -93,15 +93,15 @@
       "one-shoulder cut",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "place"
     }
    ],
-   "stamp": "0771bc5f5738d8e9328a335234cac00ec7d35edd3c454df9a643c08c53967e8a"
+   "stamp": "2520e1f8feb5a476b49359a525878ff4b32089298a7698b6ef2e2bd12f0c048e"
   },
   {
    "species": "tarountula-20261029",
    "card": "타랜툴라",
-   "at": "2026-10-29T23:21:45+09:00",
+   "at": "2026-10-29T23:22:39+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -129,7 +129,8 @@
       "mini length",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -157,7 +158,8 @@
       "bare midriff",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -185,10 +187,11 @@
       "high thigh slit",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "5b718afa7156a6150693189a6c8b150e99b33e91ba91045aef5f62106932744a"
+   "stamp": "c9c29ecefeb8e2ac3fd60291f6a372fcc564ff82ffd7097e2781006c9192c03f"
   }
  ]
 }
