@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-fox-cotton-20261031-9dcf",
- "at": "2026-10-31T08:18:14+09:00",
+ "at": "2026-10-31T08:27:57+09:00",
  "characters": [
   {
    "species": "thievul-20261031",
    "card": "폭슬라이",
-   "at": "2026-10-31T08:18:14+09:00",
+   "at": "2026-10-31T08:27:57+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -44,7 +44,8 @@
       "bare midriff",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -81,47 +82,49 @@
       "one-shoulder cut",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "release",
-     "place": "stage_dance",
+     "place": "stage_festival",
      "weather": "",
      "ofam": "bridal",
-     "item": "bridal_lace",
-     "posture": "walk",
+     "item": "slip_wedding",
+     "posture": "stand",
      "support": "none",
      "frame": "face_close",
-     "body": "front_3q",
-     "head": "over_shoulder",
-     "camera": "high",
-     "right": "",
-     "left": "",
+     "body": "front",
+     "head": "tilt",
+     "camera": "low",
+     "right": "v_sign",
+     "left": "out",
      "use": "",
      "legs": "",
-     "gaze": "up",
-     "expr": "cold_smile",
-     "preset": "",
+     "gaze": "camera",
+     "expr": "nostalgic",
+     "preset": "vsign_close",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "dress",
+      "slip"
      ],
      "expose": [
-      "high-cut leg",
-      "plunging neckline"
+      "one-shoulder cut",
+      "halter neck"
      ],
      "lead": "place"
     }
    ],
-   "stamp": "533c664937e7155e5b15ee117fd535c159ed557c537dc60edb341095a9380dd3"
+   "stamp": "31cc82d3ff3e32fedb31f216275e595d95ec7d255f05c3b14064a6ac84a97603"
   }
  ]
 }
