@@ -1,19 +1,18 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "ribombee-rockruff-59c754",
- "at": "2026-10-31T01:36:45+09:00",
+ "at": "2026-10-31T01:49:35+09:00",
  "characters": [
   {
    "species": "ribombee-20261031",
    "card": "에리본",
-   "at": "2026-10-31T01:36:45+09:00",
+   "at": "2026-10-31T01:49:35+09:00",
    "cuts": [
     {
      "cut": 1,
      "treeV": 2,
      "era": "in_pokemon",
      "place": "partner_room",
-     "weather": "",
      "ofam": "costume",
      "item": "sorceress_robe",
      "posture": "recline",
@@ -30,8 +29,6 @@
      "expr": "curious",
      "preset": "lounger_drink",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "balanced"
@@ -44,7 +41,6 @@
       "open back",
       "mini length"
      ],
-     "lead": "action",
      "kept": true
     },
     {
@@ -52,7 +48,6 @@
      "treeV": 2,
      "era": "fantasy",
      "place": "fx_chapel",
-     "weather": "",
      "ofam": "roleplay",
      "item": "uniform_inspired",
      "posture": "stand",
@@ -64,71 +59,69 @@
      "right": "prop",
      "left": "out",
      "use": "bouquet_smell",
-     "legs": "",
-     "gaze": "",
      "expr": "wink",
      "preset": "raise_chest",
      "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
+      "jacket",
+      "shorts",
       "uniform"
      ],
      "expose": [
       "open back",
       "cropped hem"
      ],
-     "lead": "light"
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "now",
-     "place": "lodge_terrace",
+     "place": "train_sleeper",
      "weather": "",
-     "ofam": "bridal",
-     "item": "bridal_lace",
-     "posture": "squat",
-     "support": "none",
+     "ofam": "traditional",
+     "item": "caftan_evening",
+     "posture": "lie_front",
+     "support": "front_floor",
      "frame": "full_body",
      "body": "front",
-     "head": "tilt",
-     "camera": "high",
-     "right": "prop",
-     "left": "lap",
-     "use": "phone_look",
-     "legs": "squat_heels",
-     "gaze": "at_prop",
-     "expr": "wistful",
-     "preset": "squat_prop",
+     "head": "with_body",
+     "camera": "low",
+     "right": "chin_both",
+     "left": "chin_both",
+     "use": "",
+     "legs": "feet_up",
+     "gaze": "camera",
+     "expr": "surprised",
+     "preset": "lie_front_full",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "robe"
      ],
      "expose": [
-      "high-cut leg",
-      "side cutouts"
+      "open back",
+      "mini length"
      ],
-     "lead": "light",
-     "kept": true
+     "lead": "place"
     }
    ],
-   "stamp": "7c7c34ae30f8ac083447db6d22e67959270c940e6bfa2f9c6f9e45ff8ee31050"
+   "refill": true,
+   "stamp": "3df89c714bd71041e9e7fdddccb5f3a9951373dbd28ecdafe622fbbf01b33e00"
   },
   {
    "species": "rockruff-20261031",
    "card": "암멍이",
-   "at": "2026-10-31T01:36:45+09:00",
+   "at": "2026-10-31T01:49:35+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -247,7 +240,7 @@
      "kept": true
     }
    ],
-   "stamp": "158aceb2c2d71c390c67fc4884a7318734e3b60a6df88acaf8d2f1dcd8fd0390"
+   "stamp": "40a0ba5455af9f4f3e41f9efb7e2ba98b716e46f0ad08dbeba6e52d9c1458817"
   }
  ]
 }
