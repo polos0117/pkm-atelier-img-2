@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "zorua-zoroark-6c35",
- "at": "2026-10-30T19:53:17+09:00",
+ "at": "2026-10-30T20:17:37+09:00",
  "characters": [
   {
    "species": "zorua-20261030",
@@ -127,7 +127,7 @@
   {
    "species": "zoroark-20261030",
    "card": "조로아크",
-   "at": "2026-10-30T19:53:17+09:00",
+   "at": "2026-10-30T20:17:37+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -165,7 +165,8 @@
       "bare midriff",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -202,16 +203,17 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
-     "era": "release",
-     "place": "street_rooftop",
+     "era": "now",
+     "place": "travel_dunes",
      "weather": "",
      "ofam": "bridal",
-     "item": "bridal_lace",
+     "item": "slip_wedding",
      "posture": "stand",
      "support": "none",
      "frame": "waist_up",
@@ -220,29 +222,30 @@
      "camera": "eye",
      "right": "prop",
      "left": "natural",
-     "use": "cup_set",
+     "use": "phone_look",
      "legs": "",
      "gaze": "at_prop",
-     "expr": "mischievous",
+     "expr": "wistful",
      "preset": "stand_inspect",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "source_influence": "subtle",
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "dress",
+      "slip"
      ],
      "expose": [
-      "high-cut leg",
-      "halter neck"
+      "mini length",
+      "high thigh slit"
      ],
      "lead": "light"
     }
    ],
-   "stamp": "e9522d98d5e673747ab61fc4edccbbd8938eaa14b3b7dedd0a70d5ee93755abd"
+   "stamp": "b3d2b8f0222fcdc807f21caef1a26e863b1617af71a0268f0ca62a28bb77dc66"
   }
  ]
 }
