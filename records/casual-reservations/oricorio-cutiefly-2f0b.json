@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "oricorio-cutiefly-2f0b",
- "at": "2026-10-30T21:27:48+09:00",
+ "at": "2026-10-30T21:54:09+09:00",
  "characters": [
   {
    "species": "oricorio-20261030",
@@ -126,7 +126,7 @@
   {
    "species": "cutiefly-20261030",
    "card": "에블리",
-   "at": "2026-10-30T21:27:48+09:00",
+   "at": "2026-10-30T21:54:09+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -163,7 +163,8 @@
       "cropped hem",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -201,47 +202,48 @@
       "side cutouts",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "now",
-     "place": "travel_rural_station",
+     "place": "night_club",
      "weather": "",
-     "ofam": "retro",
-     "item": "",
-     "posture": "walk",
-     "support": "none",
-     "frame": "chest_up",
-     "body": "front_3q",
-     "head": "over_shoulder",
-     "camera": "low",
-     "right": "",
-     "left": "",
+     "ofam": "roleplay",
+     "item": "event_staff",
+     "posture": "sit_edge",
+     "support": "hip_edge",
+     "frame": "three_quarter",
+     "body": "front",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "edge_brace_both",
+     "left": "edge_brace_both",
      "use": "",
-     "legs": "",
-     "gaze": "",
+     "legs": "knees_together",
+     "gaze": "camera",
      "expr": "confident",
-     "preset": "",
+     "preset": "edge_brace",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bikini"
+      "vest"
      ],
      "expose": [
-      "high-cut leg",
-      "strapless top"
+      "cropped hem",
+      "halter neck"
      ],
      "lead": "light"
     }
    ],
-   "stamp": "9151a653b505b7dbefffade20d54b0ff421299b09c008546e2faedfea199fbda"
+   "stamp": "15d20fe75a84dab61cf3d45ae2b02c25cbdc8a93a160bd1cc8557eee1f655ad5"
   }
  ]
 }
