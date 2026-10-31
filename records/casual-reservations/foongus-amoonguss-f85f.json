@@ -1,21 +1,21 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "foongus-amoonguss-f85f",
- "at": "2026-11-01T02:27:24+09:00",
+ "at": "2026-11-01T02:34:30+09:00",
  "characters": [
   {
    "species": "foongus-20261101",
    "card": "깜놀버슬",
-   "at": "2026-11-01T02:27:24+09:00",
+   "at": "2026-11-01T02:34:30+09:00",
    "cuts": [
     {
      "cut": 1,
      "treeV": 2,
-     "era": "fantasy",
-     "place": "fx_starstage",
+     "era": "now",
+     "place": "street_park",
      "weather": "",
-     "ofam": "swimwear",
-     "item": "oring_bikini",
+     "ofam": "retro",
+     "item": "aerobics_80s",
      "posture": "stand",
      "support": "none",
      "frame": "waist_up",
@@ -34,14 +34,14 @@
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bikini"
+      "leggings"
      ],
      "expose": [
-      "high-cut leg",
-      "plunging neckline"
+      "side cutouts",
+      "halter neck"
      ],
      "lead": "place"
     },
@@ -80,7 +80,8 @@
       "side cutouts",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -117,15 +118,16 @@
       "high thigh slit",
       "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "3f4d38f7d971f539278dbfe8111d21d30af026009573212cd8bc2b7521513cc2"
+   "stamp": "7d158f80e3cc3234028daca3db2cc6241b1e567527fd42779c860212df1388b7"
   },
   {
    "species": "amoonguss-20261101",
    "card": "뽀록나",
-   "at": "2026-11-01T02:27:24+09:00",
+   "at": "2026-11-01T02:34:30+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -163,7 +165,8 @@
       "strapless top",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -200,7 +203,8 @@
       "open back",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -239,10 +243,11 @@
       "off-shoulder neckline",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "b6b152226e00b7ec7dfb58a281ba6c9adfc6dd6f93768a96c0152c3b3464de87"
+   "stamp": "d661d67e5bbc51cbfe7fce498799bf66ee6790f42f5db0f7dbea090930a8f3ea"
   }
  ]
 }
