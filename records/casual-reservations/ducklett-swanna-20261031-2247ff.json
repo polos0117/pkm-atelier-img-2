@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "ducklett-swanna-20261031-2247ff",
- "at": "2026-10-31T12:14:28+09:00",
+ "at": "2026-10-31T12:32:46+09:00",
  "characters": [
   {
    "species": "ducklett-20261031",
    "card": "꼬지보리",
-   "at": "2026-10-31T12:14:28+09:00",
+   "at": "2026-10-31T12:32:46+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -43,7 +43,8 @@
       "side cutouts",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -81,52 +82,53 @@
       "high-cut leg",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "now",
-     "place": "night_bar",
+     "place": "evening_opera",
      "weather": "",
-     "ofam": "lingerie",
-     "item": "garter_set",
-     "posture": "lean_rail",
+     "ofam": "roleplay",
+     "item": "adult_maid",
+     "posture": "sit_chair",
      "support": "none",
      "frame": "environmental",
-     "body": "rear_3q",
-     "head": "over_shoulder",
+     "body": "front",
+     "head": "turn_side",
      "camera": "eye",
-     "right": "rail",
-     "left": "hair_tuck",
-     "use": "",
-     "legs": "contrapposto",
-     "gaze": "camera",
-     "expr": "sleepy",
-     "preset": "rail_lookback",
+     "right": "prop",
+     "left": "lap",
+     "use": "fan_hold",
+     "legs": "knees_together",
+     "gaze": "screen_left",
+     "expr": "proud",
+     "preset": "bench_sit",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set"
+      "apron"
      ],
      "expose": [
-      "plunging neckline",
-      "bare midriff"
+      "side cutouts",
+      "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "action"
     }
    ],
-   "stamp": "dfbd303af7403bd770d5bfaa7ee12c61f20bab4d62751f8258e2dce036a714d1"
+   "stamp": "822ee7a14df2a27d253ee61233b07252eb8689d9ffaf91ea9315375ed3884412"
   },
   {
    "species": "swanna-20261031",
    "card": "스완나",
-   "at": "2026-10-31T12:14:28+09:00",
+   "at": "2026-10-31T12:32:46+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -147,13 +149,13 @@
      "use": "phones_neck",
      "legs": "",
      "gaze": "",
-     "expr": "proud",
+     "expr": "sleepy",
      "preset": "squat_offer",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "balanced",
+      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
@@ -162,9 +164,9 @@
      ],
      "expose": [
       "off-shoulder neckline",
-      "strapless top"
+      "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
      "cut": 2,
@@ -172,34 +174,34 @@
      "era": "now",
      "place": "night_bar",
      "weather": "",
-     "ofam": "swimwear",
-     "item": "crochet_bikini",
-     "posture": "sit_chair",
+     "ofam": "lingerie",
+     "item": "kebaya_lace",
+     "posture": "stand",
      "support": "none",
-     "frame": "environmental",
+     "frame": "waist_up",
      "body": "front",
-     "head": "turn_side",
-     "camera": "eye",
-     "right": "prop",
-     "left": "lap",
-     "use": "glass_hold",
-     "legs": "knees_together",
-     "gaze": "screen_left",
-     "expr": "amused",
-     "preset": "bench_sit",
+     "head": "tilt",
+     "camera": "low",
+     "right": "clasp_both",
+     "left": "clasp_both",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "mischievous",
+     "preset": "clasp_low",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bikini"
+      "tank"
      ],
      "expose": [
-      "high-cut leg",
-      "side cutouts"
+      "bare midriff",
+      "one-shoulder cut"
      ],
      "lead": "detail"
     },
@@ -210,19 +212,19 @@
      "place": "street_station",
      "weather": "",
      "ofam": "bridal",
-     "item": "",
+     "item": "bridal_lace",
      "posture": "lean_wall",
      "support": "back_wall",
-     "frame": "waist_up",
-     "body": "front",
+     "frame": "environmental",
+     "body": "front_3q",
      "head": "over_shoulder",
-     "camera": "high",
+     "camera": "low",
      "right": "",
      "left": "",
      "use": "",
      "legs": "",
-     "gaze": "window",
-     "expr": "mischievous",
+     "gaze": "down",
+     "expr": "pensive",
      "preset": "",
      "axes": {
       "overall_intensity": "strong",
@@ -232,16 +234,16 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "slip"
+      "lingerie_set"
      ],
      "expose": [
-      "one-shoulder cut",
-      "mini length"
+      "high-cut leg",
+      "open back"
      ],
-     "lead": "action"
+     "lead": "light"
     }
    ],
-   "stamp": "faaa9b72ac928eb850e7de8ebd8dd87d6591503a529f8c3bbf4e95bdd4763142"
+   "stamp": "999a546a1e4cf237a10c309914e3ba6c38048dd74304f4aab1bacecc81cc244d"
   }
  ]
 }
