@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "ducklett-swanna-20261031-2247ff",
- "at": "2026-10-31T12:32:46+09:00",
+ "at": "2026-10-31T12:43:51+09:00",
  "characters": [
   {
    "species": "ducklett-20261031",
@@ -128,7 +128,7 @@
   {
    "species": "swanna-20261031",
    "card": "스완나",
-   "at": "2026-10-31T12:32:46+09:00",
+   "at": "2026-10-31T12:43:51+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -166,7 +166,8 @@
       "off-shoulder neckline",
       "plunging neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -203,19 +204,20 @@
       "bare midriff",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "release",
-     "place": "street_station",
+     "place": "street_shop",
      "weather": "",
-     "ofam": "bridal",
-     "item": "bridal_lace",
-     "posture": "lean_wall",
-     "support": "back_wall",
-     "frame": "environmental",
+     "ofam": "work",
+     "item": "",
+     "posture": "walk",
+     "support": "none",
+     "frame": "face_close",
      "body": "front_3q",
      "head": "over_shoulder",
      "camera": "low",
@@ -223,27 +225,28 @@
      "left": "",
      "use": "",
      "legs": "",
-     "gaze": "down",
-     "expr": "pensive",
+     "gaze": "",
+     "expr": "amused",
      "preset": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly active",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "overalls",
+      "tank"
      ],
      "expose": [
-      "high-cut leg",
-      "open back"
+      "off-shoulder neckline",
+      "bare midriff"
      ],
-     "lead": "light"
+     "lead": "place"
     }
    ],
-   "stamp": "999a546a1e4cf237a10c309914e3ba6c38048dd74304f4aab1bacecc81cc244d"
+   "stamp": "fd4136b9c1de8d5e6e8de820620d386b73537fdd8c19e5e7fa993a11d80c38c6"
   }
  ]
 }
