@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "a2e7e32-galvantula-ferroseed",
- "at": "2026-11-01T14:11:27+09:00",
+ "at": "2026-11-01T14:18:07+09:00",
  "characters": [
   {
    "species": "galvantula-20261101",
    "card": "전툴라",
-   "at": "2026-11-01T14:11:27+09:00",
+   "at": "2026-11-01T14:18:07+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -44,29 +44,30 @@
       "high thigh slit",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
      "era": "now",
-     "place": "boardgame_lounge",
+     "place": "night_livehouse",
      "weather": "",
      "ofam": "swimwear",
-     "item": "triangle_bikini",
+     "item": "crochet_bikini",
      "posture": "stand",
      "support": "none",
      "frame": "waist_up",
      "body": "front",
      "head": "with_body",
      "camera": "eye",
-     "right": "reach",
-     "left": "chest_hand",
+     "right": "thumbs_up",
+     "left": "hip",
      "use": "",
      "legs": "",
      "gaze": "camera",
      "expr": "cold_smile",
-     "preset": "reach_waist",
+     "preset": "thumbs_waist",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -79,9 +80,9 @@
      ],
      "expose": [
       "high-cut leg",
-      "bare midriff"
+      "halter neck"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 3,
@@ -119,15 +120,16 @@
       "mini length",
       "cropped hem"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "be53613c5feb8bd9da3c8fee3ec43b38f5363ce2953fa22e0e3904de968f4ac1"
+   "stamp": "515e4c9a57c016be9c6949f36be58cc2f030a75dd39c3762a7d65603e6068eb2"
   },
   {
    "species": "ferroseed-20261101",
    "card": "철시드",
-   "at": "2026-11-01T14:11:27+09:00",
+   "at": "2026-11-01T14:18:07+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -165,7 +167,8 @@
       "off-shoulder neckline",
       "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -203,7 +206,8 @@
       "mini length",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -240,10 +244,11 @@
       "high thigh slit",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "46560d8bded54b5d1555be0053544933940c3c807c02902a06d3e4ceb2aa22b8"
+   "stamp": "b41f47cffc53aa7d9dead7ec1b7176e6f987db579352681c52ca0dca5a34b2e0"
   }
  ]
 }
