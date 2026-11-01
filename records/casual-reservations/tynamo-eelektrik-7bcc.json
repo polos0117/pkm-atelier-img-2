@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "tynamo-eelektrik-7bcc",
- "at": "2026-11-01T19:39:05+08:00",
+ "at": "2026-11-01T19:48:42+08:00",
  "characters": [
   {
    "species": "tynamo-20261101",
    "card": "저리어",
-   "at": "2026-11-01T19:39:05+08:00",
+   "at": "2026-11-01T19:48:42+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -43,7 +43,8 @@
       "halter neck",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -80,33 +81,34 @@
       "strapless top",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "now",
-     "place": "travel_trail",
+     "place": "evening_penthouse",
      "weather": "",
      "ofam": "pokemon_costume",
      "item": "pc_bodysuit",
-     "posture": "kneel",
-     "support": "none",
+     "posture": "sit_chair",
+     "support": "back_seat",
      "frame": "three_quarter",
      "body": "side",
      "head": "with_body",
      "camera": "eye",
      "right": "prop",
-     "left": "prop",
-     "use": "handheld_play",
-     "legs": "",
-     "gaze": "",
+     "left": "lap",
+     "use": "shades_hold",
+     "legs": "cross_legs",
+     "gaze": "at_prop",
      "expr": "focused",
-     "preset": "kneel_work",
+     "preset": "chair_cross_prop",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
@@ -115,18 +117,18 @@
       "leggings"
      ],
      "expose": [
-      "open back",
-      "one-shoulder cut"
+      "halter neck",
+      "side cutouts"
      ],
      "lead": "detail"
     }
    ],
-   "stamp": "f5307613998be19063a36cd7f2ac02ea97783b54cbf0cb5b79dcc1981abc792a"
+   "stamp": "1097763c4bed0a1349a8421d783e14dc4e3671478307c3a656046e28466eb557"
   },
   {
    "species": "eelektrik-20261101",
    "card": "저리릴",
-   "at": "2026-11-01T19:39:05+08:00",
+   "at": "2026-11-01T19:48:42+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -163,7 +165,8 @@
       "plunging neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -200,7 +203,8 @@
       "halter neck",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -237,10 +241,11 @@
       "high-cut leg",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "3b2a71b452f6b1504a98f5c9c69652b630cc64eb46f588723b96affaa7992830"
+   "stamp": "6aee6228819d0962e452b757ba773bf92bfcd9f403954a9b702d773d09060a2a"
   }
  ]
 }
