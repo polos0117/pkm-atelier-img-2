@@ -1,71 +1,69 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "axew-fraxure-26fa64",
- "at": "2026-11-01T22:34:49+08:00",
+ "at": "2026-11-01T22:50:16+08:00",
  "characters": [
   {
    "species": "axew-20261101",
    "card": "터검니",
-   "at": "2026-11-01T22:34:49+08:00",
+   "at": "2026-11-01T22:50:16+08:00",
    "cuts": [
     {
      "cut": 1,
      "treeV": 2,
-     "era": "now",
-     "place": "street_laundromat",
+     "era": "fantasy",
+     "place": "fx_runway",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "sit_edge",
-     "support": "hip_edge",
+     "item": "pc_mini_dress",
+     "posture": "kneel",
+     "support": "none",
      "frame": "three_quarter",
      "body": "front",
      "head": "with_body",
-     "camera": "eye",
-     "right": "edge_brace_both",
-     "left": "edge_brace_both",
+     "camera": "high",
+     "right": "clasp_both",
+     "left": "clasp_both",
      "use": "",
      "legs": "knees_together",
      "gaze": "camera",
      "expr": "nostalgic",
-     "preset": "edge_brace",
+     "preset": "kneel_clasp",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "prefer separates"
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
-      "mini length",
-      "cropped hem"
+      "plunging neckline",
+      "halter neck"
      ],
-     "lead": "detail",
-     "kept": true
+     "lead": "light"
     },
     {
      "cut": 2,
      "treeV": 2,
-     "era": "fantasy",
-     "place": "fx_runway",
+     "era": "now",
+     "place": "street_laundromat",
      "weather": "",
-     "ofam": "swimwear",
-     "item": "yukata_over",
-     "posture": "lie_side",
-     "support": "side_floor",
-     "frame": "full_body",
+     "ofam": "retro",
+     "item": "disco_halter",
+     "posture": "sit_edge",
+     "support": "hip_edge",
+     "frame": "environmental",
      "body": "front_3q",
      "head": "over_shoulder",
      "camera": "high",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "knee_up",
-     "gaze": "camera",
+     "legs": "dangle",
+     "gaze": "screen_left",
      "expr": "calm",
      "preset": "",
      "axes": {
@@ -76,60 +74,60 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "traditional"
+      "jumpsuit"
      ],
      "expose": [
-      "high thigh slit",
-      "cropped hem"
+      "mini length",
+      "high thigh slit"
      ],
      "lead": "detail"
     },
     {
      "cut": 3,
      "treeV": 2,
-     "era": "now",
+     "era": "release",
      "place": "tailor_room",
      "weather": "",
-     "ofam": "halloween",
-     "item": "hw_witch",
-     "posture": "sit_lean",
+     "ofam": "work",
+     "item": "lab_coat",
+     "posture": "stand",
      "support": "none",
-     "frame": "environmental",
-     "body": "rear_3q",
+     "frame": "face_close",
+     "body": "front_3q",
      "head": "tilt",
      "camera": "eye",
-     "right": "",
-     "left": "",
+     "right": "cheek",
+     "left": "out",
      "use": "",
-     "legs": "knees_together",
-     "gaze": "screen_left",
+     "legs": "",
+     "gaze": "camera",
      "expr": "surprised",
-     "preset": "",
+     "preset": "cheek_close",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "strong",
-      "separates_preference": "balanced"
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "coat"
+      "coat",
+      "knit_top",
+      "trousers"
      ],
      "expose": [
-      "halter neck",
-      "one-shoulder cut"
+      "cropped hem",
+      "open back"
      ],
-     "lead": "action",
-     "kept": true
+     "lead": "place"
     }
    ],
-   "stamp": "6f53770776fb6592f48dd1194b1e2915ef67de364b80c5e63878a0f6e69e9a05"
+   "stamp": "756e8198109ea50cd11255ce44cc730d6465c3e6d0d0dd451110697815ef88be"
   },
   {
    "species": "fraxure-20261101",
    "card": "액슨도",
-   "at": "2026-11-01T22:34:49+08:00",
+   "at": "2026-11-01T22:50:16+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -137,36 +135,38 @@
      "era": "release",
      "place": "home_living",
      "weather": "",
-     "ofam": "bridal",
-     "item": "bridal_lace",
-     "posture": "kneel",
+     "ofam": "work",
+     "item": "lab_coat",
+     "posture": "walk",
      "support": "none",
      "frame": "three_quarter",
-     "body": "side",
-     "head": "with_body",
+     "body": "rear_3q",
+     "head": "over_shoulder",
      "camera": "eye",
      "right": "prop",
-     "left": "prop",
-     "use": "notebook_write",
-     "legs": "",
-     "gaze": "",
+     "left": "down",
+     "use": "guitar_carry",
+     "legs": "walk_pause",
+     "gaze": "camera",
      "expr": "gentle",
-     "preset": "kneel_work",
+     "preset": "walk_lookback",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly active",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set"
+      "coat",
+      "knit_top",
+      "trousers"
      ],
      "expose": [
-      "high-cut leg",
-      "halter neck"
+      "open back",
+      "bare midriff"
      ],
-     "lead": "place",
+     "lead": "detail",
      "kept": true
     },
     {
@@ -247,7 +247,7 @@
      "kept": true
     }
    ],
-   "stamp": "ac7b74e5382dd8bf16b543d365e03a7d5708f92710c2c74b1ba0d6f333d090be"
+   "stamp": "e1ad9152c36ccc703da4f490e2fe4a90147d16ccd0b01f46af3b9d7cb282e6ea"
   }
  ]
 }
