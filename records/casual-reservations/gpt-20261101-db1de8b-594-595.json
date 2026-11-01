@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-20261101-db1de8b-594-595",
- "at": "2026-11-01T13:33:40+09:00",
+ "at": "2026-11-01T13:53:47+09:00",
  "characters": [
   {
    "species": "alomomola-20261101",
@@ -126,7 +126,7 @@
   {
    "species": "joltik-20261101",
    "card": "파쪼옥",
-   "at": "2026-11-01T13:33:40+09:00",
+   "at": "2026-11-01T13:53:47+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -163,44 +163,46 @@
       "bare midriff",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
      "era": "now",
-     "place": "spa_onsen",
+     "place": "stage_show",
      "weather": "",
-     "ofam": "traditional",
-     "item": "",
+     "ofam": "evening",
+     "item": "silk_robe_slip",
      "posture": "stand",
      "support": "none",
      "frame": "chest_up",
-     "body": "front",
-     "head": "tilt",
+     "body": "side",
+     "head": "over_shoulder",
      "camera": "eye",
      "right": "prop",
-     "left": "prop",
-     "use": "towel_dry",
+     "left": "out",
+     "use": "mic_sing",
      "legs": "",
      "gaze": "camera",
-     "expr": "curious",
-     "preset": "wrap_close",
+     "expr": "flustered",
+     "preset": "lookback_raise",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "trousers"
+      "robe",
+      "slip"
      ],
      "expose": [
-      "mini length",
-      "side cutouts"
+      "plunging neckline",
+      "open back"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 3,
@@ -237,10 +239,11 @@
       "one-shoulder cut",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "db832bc165fd0024a3cf0aad5ae26ba0d434a6b63bfac372c2d2ce68c8d60a18"
+   "stamp": "a716a9cb5329f9a92536fc95e90181b3e1773f7591fd91ceda62081228dc665e"
   }
  ]
 }
