@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "beartic-cryogonal-20261102-972f",
- "at": "2026-11-02T02:25:08+08:00",
+ "at": "2026-11-02T02:40:00+08:00",
  "characters": [
   {
    "species": "beartic-20261102",
@@ -126,7 +126,7 @@
   {
    "species": "cryogonal-20261102",
    "card": "프리지오",
-   "at": "2026-11-02T02:25:08+08:00",
+   "at": "2026-11-02T02:40:00+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -164,33 +164,72 @@
       "bare midriff",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
-     "era": "now",
-     "place": "street_rooftop",
+     "era": "fantasy",
+     "place": "fx_studio",
      "weather": "",
-     "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "kneel",
+     "ofam": "swimwear",
+     "item": "bandeau_bikini",
+     "posture": "sit_floor",
      "support": "none",
      "frame": "three_quarter",
-     "body": "side",
-     "head": "with_body",
-     "camera": "eye",
-     "right": "prop",
-     "left": "prop",
-     "use": "camera_check",
-     "legs": "",
-     "gaze": "",
-     "expr": "serious",
-     "preset": "kneel_work",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "high",
+     "right": "chin_knee",
+     "left": "floor_brace",
+     "use": "",
+     "legs": "knee_up",
+     "gaze": "camera",
+     "expr": "amused",
+     "preset": "floor_knee",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini",
+      "crop_top"
+     ],
+     "expose": [
+      "high-cut leg",
+      "bare midriff"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_station",
+     "weather": "",
+     "ofam": "pokemon_costume",
+     "item": "pc_bodysuit",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "hair_tuck",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "down",
+     "expr": "half_smile",
+     "preset": "hair_close",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
@@ -200,50 +239,12 @@
      ],
      "expose": [
       "side cutouts",
-      "open back"
-     ],
-     "lead": "detail"
-    },
-    {
-     "cut": 3,
-     "treeV": 2,
-     "era": "now",
-     "place": "night_bar",
-     "weather": "",
-     "ofam": "swimwear",
-     "item": "bandeau_bikini",
-     "posture": "stand",
-     "support": "none",
-     "frame": "waist_up",
-     "body": "front_3q",
-     "head": "with_body",
-     "camera": "eye",
-     "right": "prop",
-     "left": "natural",
-     "use": "phone_look",
-     "legs": "",
-     "gaze": "at_prop",
-     "expr": "half_smile",
-     "preset": "stand_inspect",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "bikini",
-      "crop_top"
-     ],
-     "expose": [
-      "high-cut leg",
-      "halter neck"
+      "one-shoulder cut"
      ],
      "lead": "action"
     }
    ],
-   "stamp": "a3b2156e5a2b201835cc0887c6204a834c4813338199398765cdc45c9b5d6c8f"
+   "stamp": "06761bc072ac24c9815a918ea817cfd9df22b6d47761d3699abc515dfcaabd4f"
   }
  ]
 }
