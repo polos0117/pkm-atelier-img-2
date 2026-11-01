@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "eelektross-elgyem-6c6f",
- "at": "2026-11-01T20:37:33+08:00",
+ "at": "2026-11-01T20:58:50+08:00",
  "characters": [
   {
    "species": "eelektross-20261101",
@@ -126,7 +126,7 @@
   {
    "species": "elgyem-20261101",
    "card": "리그레",
-   "at": "2026-11-01T20:37:33+08:00",
+   "at": "2026-11-01T20:58:50+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -135,7 +135,7 @@
      "place": "evening_hotel",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
+     "item": "pc_corset",
      "posture": "walk",
      "support": "none",
      "frame": "full_body",
@@ -153,18 +153,18 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly active",
-      "source_influence": "subtle",
+      "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "lingerie_set",
+      "skirt"
      ],
      "expose": [
       "bare midriff",
-      "cropped hem"
+      "strapless top"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -202,7 +202,8 @@
       "high thigh slit",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -239,10 +240,11 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "7bc5c6d2ceaad2bfbdd2b41ea424acf148c115e341767a3ce245ea1540df4894"
+   "stamp": "9d6e2f578fbafed041a2071a5ae7e3d1870525791f697e05ac10bfe0027b500c"
   }
  ]
 }
