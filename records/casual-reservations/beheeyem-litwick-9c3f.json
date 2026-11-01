@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "beheeyem-litwick-9c3f",
- "at": "2026-11-01T21:19:28+08:00",
+ "at": "2026-11-01T21:25:28+08:00",
  "characters": [
   {
    "species": "beheeyem-20261101",
    "card": "벰크",
-   "at": "2026-11-01T21:19:28+08:00",
+   "at": "2026-11-01T21:21:25+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -121,15 +121,16 @@
       "cropped hem",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "5b29ebe5917d0bf964444c40203fd058fb8e3d0e705e18b85857a0befcd67b78"
+   "stamp": "7084ebbcab00c0606ad145bb64b64755bcde94b6364d0ae82257e9bade2b8bb5"
   },
   {
    "species": "litwick-20261101",
    "card": "불켜미",
-   "at": "2026-11-01T21:19:28+08:00",
+   "at": "2026-11-01T21:25:28+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -174,40 +175,38 @@
      "cut": 2,
      "treeV": 2,
      "era": "now",
-     "place": "street_market",
+     "place": "street_mall",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_crop_set",
-     "posture": "stand",
+     "item": "pc_mini_dress",
+     "posture": "sit_chair",
      "support": "none",
-     "frame": "chest_up",
-     "body": "side",
-     "head": "over_shoulder",
+     "frame": "environmental",
+     "body": "front",
+     "head": "turn_side",
      "camera": "eye",
      "right": "prop",
-     "left": "out",
-     "use": "bouquet_smell",
-     "legs": "",
-     "gaze": "camera",
+     "left": "lap",
+     "use": "umbrella_hold",
+     "legs": "knees_together",
+     "gaze": "screen_left",
      "expr": "confident",
-     "preset": "lookback_raise",
+     "preset": "bench_sit",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "strong",
-      "separates_preference": "prefer separates"
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
      },
      "garments": [
-      "crop_top",
-      "skirt"
+      "dress"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "strapless top"
+      "halter neck",
+      "open back"
      ],
-     "lead": "action",
-     "kept": true
+     "lead": "detail"
     },
     {
      "cut": 3,
@@ -249,7 +248,7 @@
      "kept": true
     }
    ],
-   "stamp": "ec202db98b52dd141fa89a84d34fa8d6c0e98e22a37c6d1a0eac6a877c953ae7"
+   "stamp": "9a45e3609ff07018c23fd34f9010771fbfe2b8297407f34aa391461d3fa738b4"
   }
  ]
 }
