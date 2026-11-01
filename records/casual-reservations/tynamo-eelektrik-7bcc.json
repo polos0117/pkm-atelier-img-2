@@ -1,21 +1,59 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "tynamo-eelektrik-7bcc",
- "at": "2026-11-01T19:48:42+08:00",
+ "at": "2026-11-01T20:11:15+08:00",
  "characters": [
   {
    "species": "tynamo-20261101",
    "card": "저리어",
-   "at": "2026-11-01T19:48:42+08:00",
+   "at": "2026-11-01T20:11:15+08:00",
    "cuts": [
     {
      "cut": 1,
      "treeV": 2,
+     "era": "in_pokemon",
+     "place": "work_museum",
+     "weather": "",
+     "ofam": "active",
+     "item": "ski_set",
+     "posture": "sit_chair",
+     "support": "back_seat",
+     "frame": "face_close",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "ball_raise",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "laughing_open",
+     "preset": "sip_close",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "jacket",
+      "trousers"
+     ],
+     "expose": [
+      "side cutouts",
+      "halter neck"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
      "era": "release",
-     "place": "street_rooftop",
+     "place": "night_club",
      "weather": "",
      "ofam": "roleplay",
-     "item": "flight_attendant",
+     "item": "retro_astronaut",
      "posture": "stand",
      "support": "none",
      "frame": "chest_up",
@@ -24,7 +62,7 @@
      "camera": "eye",
      "right": "prop",
      "left": "out",
-     "use": "shades_lower",
+     "use": "mask_raise",
      "legs": "",
      "gaze": "camera",
      "expr": "provocative",
@@ -34,55 +72,16 @@
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "jacket"
-     ],
-     "expose": [
-      "halter neck",
-      "side cutouts"
-     ],
-     "lead": "light",
-     "kept": true
-    },
-    {
-     "cut": 2,
-     "treeV": 2,
-     "era": "now",
-     "place": "stage_dance",
-     "weather": "",
-     "ofam": "halloween",
-     "item": "hw_skeleton",
-     "posture": "walk",
-     "support": "none",
-     "frame": "full_body",
-     "body": "front_3q",
-     "head": "with_body",
-     "camera": "eye",
-     "right": "prop",
-     "left": "natural",
-     "use": "camera_carry",
-     "legs": "",
-     "gaze": "",
-     "expr": "laughing_open",
-     "preset": "walk_beside",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit"
+      "jumpsuit"
      ],
      "expose": [
-      "strapless top",
-      "mini length"
+      "high thigh slit",
+      "plunging neckline"
      ],
-     "lead": "place",
-     "kept": true
+     "lead": "detail"
     },
     {
      "cut": 3,
@@ -120,10 +119,11 @@
       "halter neck",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "1097763c4bed0a1349a8421d783e14dc4e3671478307c3a656046e28466eb557"
+   "stamp": "b7e4583917b09558d8c8719817192ad7c8028ed9972c4764009994665f04e013"
   },
   {
    "species": "eelektrik-20261101",
