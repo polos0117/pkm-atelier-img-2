@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "eelektross-elgyem-6c6f",
- "at": "2026-11-01T20:58:50+08:00",
+ "at": "2026-11-01T21:02:50+08:00",
  "characters": [
   {
    "species": "eelektross-20261101",
@@ -126,7 +126,7 @@
   {
    "species": "elgyem-20261101",
    "card": "리그레",
-   "at": "2026-11-01T20:58:50+08:00",
+   "at": "2026-11-01T21:02:50+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -164,7 +164,8 @@
       "bare midriff",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -209,23 +210,23 @@
      "cut": 3,
      "treeV": 2,
      "era": "in_pokemon",
-     "place": "work_wetland",
+     "place": "work_league",
      "weather": "",
      "ofam": "lingerie",
-     "item": "slip_lingerie",
-     "posture": "sit_edge",
-     "support": "hip_edge",
-     "frame": "waist_up",
-     "body": "front_3q",
+     "item": "babydoll",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "environmental",
+     "body": "front",
      "head": "turn_side",
      "camera": "eye",
-     "right": "",
-     "left": "",
-     "use": "",
-     "legs": "",
-     "gaze": "camera",
+     "right": "prop",
+     "left": "lap",
+     "use": "ball_hold",
+     "legs": "knees_together",
+     "gaze": "screen_left",
      "expr": "flustered",
-     "preset": "",
+     "preset": "bench_sit",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -237,14 +238,13 @@
       "slip"
      ],
      "expose": [
-      "plunging neckline",
-      "mini length"
+      "high thigh slit",
+      "one-shoulder cut"
      ],
-     "lead": "place",
-     "kept": true
+     "lead": "detail"
     }
    ],
-   "stamp": "9d6e2f578fbafed041a2071a5ae7e3d1870525791f697e05ac10bfe0027b500c"
+   "stamp": "77f618fdc75a0691168f93749fb596168a635ff632c0784ed4cc0fc4cebc051d"
   }
  ]
 }
