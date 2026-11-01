@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "shelmet-accelgor-f18fbd",
- "at": "2026-11-02T05:28:53+08:00",
+ "at": "2026-11-02T05:33:22+08:00",
  "characters": [
   {
    "species": "shelmet-20261102",
@@ -129,124 +129,122 @@
   {
    "species": "accelgor-20261102",
    "card": "어지리더",
-   "at": "2026-11-02T05:27:18+08:00",
+   "at": "2026-11-02T05:33:22+08:00",
    "cuts": [
     {
      "cut": 1,
      "treeV": 2,
-     "era": "now",
+     "era": "release",
      "place": "arcade_hall",
      "weather": "",
-     "ofam": "lingerie",
-     "item": "night_robe",
-     "posture": "stand",
-     "support": "none",
-     "frame": "three_quarter",
+     "ofam": "roleplay",
+     "item": "adult_maid",
+     "posture": "sit_chair",
+     "support": "back_seat",
+     "frame": "full_body",
      "body": "front_3q",
      "head": "with_body",
      "camera": "eye",
-     "right": "prop",
-     "left": "prop",
-     "use": "panel_play",
-     "legs": "stand_relaxed",
-     "gaze": "",
-     "expr": "wink",
-     "preset": "camera_shot",
+     "right": "lap",
+     "left": "natural",
+     "use": "",
+     "legs": "ankles_crossed",
+     "gaze": "camera",
+     "expr": "amused",
+     "preset": "ankles_sit",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set",
-      "robe"
+      "apron"
      ],
      "expose": [
-      "plunging neckline",
-      "side cutouts"
+      "cropped hem",
+      "off-shoulder neckline"
      ],
      "lead": "action"
     },
     {
      "cut": 2,
      "treeV": 2,
-     "era": "release",
-     "place": "backstage_dressing",
+     "era": "in_pokemon",
+     "place": "work_hotel",
      "weather": "",
-     "ofam": "evening",
-     "item": "silk_robe_slip",
-     "posture": "lean_rail",
+     "ofam": "homewear",
+     "item": "robe_morning",
+     "posture": "stand",
      "support": "none",
      "frame": "waist_up",
-     "body": "side",
+     "body": "front",
      "head": "with_body",
      "camera": "eye",
-     "right": "prop",
-     "left": "rail",
-     "use": "towel_hold",
+     "right": "reach",
+     "left": "chest_hand",
+     "use": "",
      "legs": "",
-     "gaze": "at_prop",
-     "expr": "amused",
-     "preset": "counter_cup",
+     "gaze": "camera",
+     "expr": "wink",
+     "preset": "reach_waist",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "strong",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "robe",
-      "slip"
+      "robe"
      ],
      "expose": [
-      "mini length",
-      "off-shoulder neckline"
+      "plunging neckline",
+      "mini length"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "now",
-     "place": "evening_gala",
+     "place": "backstage_dressing",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "lean_counter",
+     "item": "pc_crop_set",
+     "posture": "sit_lean",
      "support": "none",
-     "frame": "full_body",
-     "body": "front",
-     "head": "over_shoulder",
-     "camera": "low",
-     "right": "",
-     "left": "",
-     "use": "",
-     "legs": "",
+     "frame": "three_quarter",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "bouquet_both",
+     "legs": "knees_together",
      "gaze": "",
      "expr": "candid",
-     "preset": "",
+     "preset": "table_lean_use",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "strong",
+      "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "crop_top",
+      "skirt"
      ],
      "expose": [
       "halter neck",
-      "cropped hem"
+      "side cutouts"
      ],
-     "lead": "light"
+     "lead": "detail"
     }
    ],
-   "stamp": "f82d8b855ecd9f20ce92c0aaf3a12516aead288f1a7e2cb347ed3f8e3c35f798"
+   "stamp": "3649d4328cd32f73fb2841d412bf056b0ffcbd6fc563862ec61650871b267494"
   }
  ]
 }
