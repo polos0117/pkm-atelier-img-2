@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "shelmet-accelgor-f18fbd",
- "at": "2026-11-02T05:17:13+08:00",
+ "at": "2026-11-02T05:24:56+08:00",
  "characters": [
   {
    "species": "shelmet-20261102",
    "card": "쪼마리",
-   "at": "2026-11-02T05:17:13+08:00",
+   "at": "2026-11-02T05:24:56+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -44,7 +44,8 @@
       "high thigh slit",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -53,36 +54,36 @@
      "place": "fx_circus",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "sit_floor",
+     "item": "pc_corset",
+     "posture": "stand",
      "support": "none",
-     "frame": "three_quarter",
+     "frame": "face_close",
      "body": "front_3q",
      "head": "tilt",
-     "camera": "high",
-     "right": "chin_knee",
-     "left": "floor_brace",
+     "camera": "eye",
+     "right": "cheek",
+     "left": "out",
      "use": "",
-     "legs": "knee_up",
+     "legs": "",
      "gaze": "camera",
-     "expr": "soft_smile",
-     "preset": "floor_knee",
+     "expr": "flustered",
+     "preset": "cheek_close",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "lingerie_set",
+      "skirt"
      ],
      "expose": [
-      "mini length",
-      "off-shoulder neckline"
+      "high-cut leg",
+      "open back"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 3,
@@ -103,7 +104,7 @@
      "use": "",
      "legs": "tiptoe",
      "gaze": "camera",
-     "expr": "flustered",
+     "expr": "soft_smile",
      "preset": "tiptoe_wave",
      "axes": {
       "overall_intensity": "strong",
@@ -116,18 +117,18 @@
       "slip"
      ],
      "expose": [
-      "plunging neckline",
-      "side cutouts"
+      "high thigh slit",
+      "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "action"
     }
    ],
-   "stamp": "8bed93931f0d7f0e49727782fec22722926a1f5781b35ff8fd3f7cbf1bf8efa2"
+   "stamp": "ae77bec761e8da90a4363edbaf2e82e9f33f6abe6761ee5a3f7e8d914c830228"
   },
   {
    "species": "accelgor-20261102",
    "card": "어지리더",
-   "at": "2026-11-02T05:17:13+08:00",
+   "at": "2026-11-02T05:24:56+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -137,19 +138,19 @@
      "weather": "",
      "ofam": "swimwear",
      "item": "yukata_over",
-     "posture": "lean_counter",
+     "posture": "stand",
      "support": "none",
-     "frame": "waist_up",
+     "frame": "three_quarter",
      "body": "front_3q",
      "head": "with_body",
      "camera": "eye",
      "right": "prop",
      "left": "prop",
      "use": "handheld_play",
-     "legs": "",
+     "legs": "stand_relaxed",
      "gaze": "",
      "expr": "amused",
-     "preset": "counter_work",
+     "preset": "camera_shot",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -161,10 +162,10 @@
       "traditional"
      ],
      "expose": [
-      "cropped hem",
-      "high thigh slit"
+      "off-shoulder neckline",
+      "cropped hem"
      ],
-     "lead": "action"
+     "lead": "detail"
     },
     {
      "cut": 2,
@@ -174,19 +175,19 @@
      "weather": "",
      "ofam": "evening",
      "item": "tuxedo_cami_trousers",
-     "posture": "stand",
+     "posture": "lean_rail",
      "support": "none",
-     "frame": "environmental",
+     "frame": "waist_up",
      "body": "side",
      "head": "with_body",
      "camera": "eye",
      "right": "prop",
-     "left": "prop",
-     "use": "bouquet_wrap",
-     "legs": "stand_relaxed",
-     "gaze": "",
+     "left": "rail",
+     "use": "towel_neck",
+     "legs": "",
+     "gaze": "at_prop",
      "expr": "wink",
-     "preset": "stand_use",
+     "preset": "counter_cup",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -200,10 +201,10 @@
       "trousers"
      ],
      "expose": [
-      "halter neck",
-      "strapless top"
+      "mini length",
+      "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 3,
@@ -213,23 +214,23 @@
      "weather": "",
      "ofam": "pokemon_costume",
      "item": "pc_bodysuit",
-     "posture": "walk",
+     "posture": "sit_lean",
      "support": "none",
-     "frame": "face_close",
+     "frame": "full_body",
      "body": "front_3q",
      "head": "over_shoulder",
-     "camera": "low",
+     "camera": "eye",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "",
-     "gaze": "screen_right",
+     "legs": "ankles_crossed",
+     "gaze": "window",
      "expr": "candid",
      "preset": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
@@ -238,13 +239,13 @@
       "leggings"
      ],
      "expose": [
-      "open back",
-      "mini length"
+      "halter neck",
+      "strapless top"
      ],
-     "lead": "light"
+     "lead": "place"
     }
    ],
-   "stamp": "53f30e37fa406852dea003cd2cc3268b589c9afd5ad8f2130f249d366eb8e7f5"
+   "stamp": "21619f8456c85477beeba541510da67b31d8c926661d1ce2b9a929ac1b7d574f"
   }
  ]
 }
