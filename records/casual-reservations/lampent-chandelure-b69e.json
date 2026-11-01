@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "lampent-chandelure-b69e",
- "at": "2026-11-01T21:42:26+08:00",
+ "at": "2026-11-01T21:53:37+08:00",
  "characters": [
   {
    "species": "lampent-20261101",
    "card": "램프라",
-   "at": "2026-11-01T21:42:26+08:00",
+   "at": "2026-11-01T21:53:37+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -43,7 +43,8 @@
       "off-shoulder neckline",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -80,16 +81,17 @@
       "mini length",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "now",
-     "place": "street_cafe",
+     "place": "street_shop",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
+     "item": "pc_mini_dress",
      "posture": "stand",
      "support": "none",
      "frame": "environmental",
@@ -98,7 +100,7 @@
      "camera": "eye",
      "right": "prop",
      "left": "prop",
-     "use": "camera_shoot",
+     "use": "flower_trim",
      "legs": "stand_relaxed",
      "gaze": "",
      "expr": "proud",
@@ -108,25 +110,24 @@
       "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
-      "open back",
-      "one-shoulder cut"
+      "off-shoulder neckline",
+      "strapless top"
      ],
      "lead": "detail"
     }
    ],
-   "stamp": "d0677ea9ac15698edfe797b563c1c0348cc71a7f81d3f72a29fa2fccbef5246c"
+   "stamp": "69c0ffbf6053bd3b8f8f0d5c0ac312fb0ee3f0d3dfb0c002127b771b38bed6d3"
   },
   {
    "species": "chandelure-20261101",
    "card": "샹델라",
-   "at": "2026-11-01T21:42:26+08:00",
+   "at": "2026-11-01T21:53:37+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -163,7 +164,8 @@
       "bare midriff",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -200,7 +202,8 @@
       "high thigh slit",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -237,10 +240,11 @@
       "high-cut leg",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "ea52d50b7bf85132086fc7e42c526c32ecb51b19c126ccbdb6ef11d776b3e4e1"
+   "stamp": "1509948441ff7fe6404760bf0a3eb3399065a8fe1f1f4865be8b5250f4d26771"
   }
  ]
 }
