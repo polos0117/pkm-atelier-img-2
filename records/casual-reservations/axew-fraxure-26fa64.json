@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "axew-fraxure-26fa64",
- "at": "2026-11-01T22:32:18+08:00",
+ "at": "2026-11-01T22:34:49+08:00",
  "characters": [
   {
    "species": "axew-20261101",
    "card": "터검니",
-   "at": "2026-11-01T22:32:18+08:00",
+   "at": "2026-11-01T22:34:49+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -44,27 +44,28 @@
       "mini length",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
-     "era": "release",
-     "place": "night_taxi",
+     "era": "fantasy",
+     "place": "fx_runway",
      "weather": "",
      "ofam": "swimwear",
      "item": "yukata_over",
-     "posture": "stand",
-     "support": "none",
-     "frame": "waist_up",
-     "body": "rear_3q",
+     "posture": "lie_side",
+     "support": "side_floor",
+     "frame": "full_body",
+     "body": "front_3q",
      "head": "over_shoulder",
-     "camera": "eye",
+     "camera": "high",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "",
-     "gaze": "",
+     "legs": "knee_up",
+     "gaze": "camera",
      "expr": "calm",
      "preset": "",
      "axes": {
@@ -79,9 +80,9 @@
      ],
      "expose": [
       "high thigh slit",
-      "side cutouts"
+      "cropped hem"
      ],
-     "lead": "place"
+     "lead": "detail"
     },
     {
      "cut": 3,
@@ -119,15 +120,16 @@
       "halter neck",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "332099b570b6afc592fc546642fdeef7e6404d84237c50b7c5f773ade3c25344"
+   "stamp": "6f53770776fb6592f48dd1194b1e2915ef67de364b80c5e63878a0f6e69e9a05"
   },
   {
    "species": "fraxure-20261101",
    "card": "액슨도",
-   "at": "2026-11-01T22:32:18+08:00",
+   "at": "2026-11-01T22:34:49+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -164,7 +166,8 @@
       "high-cut leg",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -202,7 +205,8 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -239,10 +243,11 @@
       "bare midriff",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "aa5ba53a2dc5c8a3a35762e413d472c983a25a2b92dcab57d0cb70e5de4e2d13"
+   "stamp": "ac7b74e5382dd8bf16b543d365e03a7d5708f92710c2c74b1ba0d6f333d090be"
   }
  ]
 }
