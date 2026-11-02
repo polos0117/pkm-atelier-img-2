@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "larvesta-volcarona-e495",
- "at": "2026-11-02T22:25:19+08:00",
+ "at": "2026-11-02T22:35:37+08:00",
  "characters": [
   {
    "species": "larvesta-20261102",
    "card": "활화르바",
-   "at": "2026-11-02T22:25:19+08:00",
+   "at": "2026-11-02T22:35:37+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -43,7 +43,8 @@
       "halter neck",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -52,36 +53,35 @@
      "place": "street_laundromat",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "walk",
+     "item": "pc_hoodie",
+     "posture": "sit_chair",
      "support": "none",
      "frame": "environmental",
-     "body": "side",
-     "head": "tilt",
-     "camera": "low",
-     "right": "",
-     "left": "",
-     "use": "",
-     "legs": "walk_pause",
-     "gaze": "",
-     "expr": "proud",
-     "preset": "",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "cup_hold",
+     "legs": "knees_together",
+     "gaze": "screen_left",
+     "expr": "laughing_open",
+     "preset": "bench_sit",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
-      "one-shoulder cut",
-      "side cutouts"
+      "high thigh slit",
+      "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
      "cut": 3,
@@ -119,15 +119,16 @@
       "high thigh slit",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "abbb393e964eeab4cb40cb9bee84d2df78a80f2acc83d7615e7c296d141e41fb"
+   "stamp": "d7d42794ed901b6736972afeed5ffb01eaf9514811f59b52fd31a2c728303813"
   },
   {
    "species": "volcarona-20261102",
    "card": "불카모스",
-   "at": "2026-11-02T22:25:19+08:00",
+   "at": "2026-11-02T22:35:37+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -164,7 +165,8 @@
       "high thigh slit",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -203,7 +205,8 @@
       "one-shoulder cut",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -241,10 +244,11 @@
       "mini length",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "c93694434471f5611c0eff28db36448b8e55409b7e2199ff7f5dcea453ea6668"
+   "stamp": "38582b1447497a37ff8b5c4f15dda2a1aaba7e5c42d04d4cd50ee78ce48267e3"
   }
  ]
 }
