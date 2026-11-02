@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "durant-deino-5073",
- "at": "2026-11-02T21:08:09+08:00",
+ "at": "2026-11-02T21:33:44+08:00",
  "characters": [
   {
    "species": "durant-20261102",
@@ -126,7 +126,7 @@
   {
    "species": "deino-20261102",
    "card": "모노두",
-   "at": "2026-11-02T21:08:09+08:00",
+   "at": "2026-11-02T21:33:44+08:00",
    "cuts": [
     {
      "cut": 1,
@@ -163,86 +163,87 @@
       "high thigh slit",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
-     "era": "release",
-     "place": "tailor_room",
+     "era": "now",
+     "place": "street_market",
      "weather": "",
-     "ofam": "work",
-     "item": "workshop_apron",
+     "ofam": "pokemon_costume",
+     "item": "pc_hoodie",
      "posture": "stand",
      "support": "none",
      "frame": "waist_up",
-     "body": "front_3q",
+     "body": "front",
      "head": "tilt",
-     "camera": "eye",
-     "right": "prop",
-     "left": "pocket",
-     "use": "phones_neck",
+     "camera": "low",
+     "right": "clasp_both",
+     "left": "clasp_both",
+     "use": "",
      "legs": "",
-     "gaze": "at_prop",
-     "expr": "determined",
-     "preset": "pocket_look",
+     "gaze": "camera",
+     "expr": "surprised",
+     "preset": "clasp_low",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "apron",
-      "shirt"
+      "dress"
      ],
      "expose": [
-      "bare midriff",
-      "halter neck"
+      "high thigh slit",
+      "one-shoulder cut"
      ],
      "lead": "place"
     },
     {
      "cut": 3,
      "treeV": 2,
-     "era": "now",
-     "place": "night_rooftop",
+     "era": "release",
+     "place": "bakery_kitchen",
      "weather": "",
-     "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "lean_counter",
+     "ofam": "evening",
+     "item": "tuxedo_cami_trousers",
+     "posture": "stand",
      "support": "none",
-     "frame": "environmental",
+     "frame": "face_close",
      "body": "front",
-     "head": "over_shoulder",
-     "camera": "low",
-     "right": "",
-     "left": "",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "shush",
+     "left": "out",
      "use": "",
-     "legs": "step_forward",
-     "gaze": "down",
-     "expr": "surprised",
-     "preset": "",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "serious",
+     "preset": "shush_close",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "jacket",
+      "tank",
+      "trousers"
      ],
      "expose": [
-      "mini length",
-      "one-shoulder cut"
+      "bare midriff",
+      "halter neck"
      ],
-     "lead": "light"
+     "lead": "detail"
     }
    ],
-   "stamp": "928bf2a2fe5c39b50b132c1ae88b18e64473a1413f7cf81ae97d2b59a6ecea02"
+   "stamp": "d0c61c69b70cc2818471fe4f1003f52cede28e2c8c59300248ee406f6fd0fb54"
   }
  ]
 }
