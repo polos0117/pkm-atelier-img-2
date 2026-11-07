@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "nidoranf-ninetales-624c",
- "at": "2026-11-08T03:42:12+09:00",
+ "at": "2026-11-08T03:53:01+09:00",
  "characters": [
   {
    "species": "nidoran-20261108",
    "card": "니드런♀",
-   "at": "2026-11-08T03:42:12+09:00",
+   "at": "2026-11-08T03:53:01+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -45,7 +45,8 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -83,7 +84,8 @@
       "deep V neckline",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -121,7 +123,8 @@
       "plunging neckline",
       "backless"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -159,7 +162,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -197,18 +201,19 @@
       "deep V neckline",
       "cutout waist"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
      "treeV": 2,
-     "era": "fantasy",
-     "place": "fx_starstage",
+     "era": "now",
+     "place": "night_powder",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "sit_edge",
-     "support": "hip_edge",
+     "item": "pc_crop_set",
+     "posture": "sit_chair",
+     "support": "none",
      "frame": "waist_up",
      "body": "rear_3q",
      "head": "turn_side",
@@ -217,7 +222,7 @@
      "left": "",
      "use": "",
      "legs": "",
-     "gaze": "screen_right",
+     "gaze": "screen_left",
      "expr": "focused",
      "preset": "",
      "ocolor": "",
@@ -225,16 +230,16 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
+      "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "crop_top",
+      "skirt"
      ],
      "expose": [
-      "plunging neckline",
-      "bare midriff"
+      "sweetheart neckline",
+      "halter neck"
      ],
      "lead": "light"
     },
@@ -275,10 +280,11 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "18fa2ca3209905bb4524b8fa9ee6bdad8e7bf3ce7d6618c908e46c4cc549ffe6"
+   "stamp": "4ac6b8457e6974a9d9c09153b45e0d57127672e5c09e7ea311e921679161f295"
   },
   {
    "species": "ninetales-20261108",
