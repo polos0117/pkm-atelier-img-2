@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "wartortle-anime-20261107-c76c",
- "at": "2026-11-07T12:57:15+09:00",
+ "at": "2026-11-07T13:03:06+09:00",
  "characters": [
   {
    "species": "wartortle-20261107",
    "card": "어니부기",
-   "at": "2026-11-07T12:57:15+09:00",
+   "at": "2026-11-07T13:03:06+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -43,7 +43,8 @@
       "halter neck",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -81,7 +82,8 @@
       "mini length",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -90,36 +92,35 @@
      "place": "fx_castle",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "sit_edge",
-     "support": "hip_edge",
+     "item": "pc_hoodie",
+     "posture": "lean_counter",
+     "support": "none",
      "frame": "environmental",
-     "body": "rear_3q",
+     "body": "side",
      "head": "tilt",
-     "camera": "low",
+     "camera": "eye",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "",
+     "legs": "tiptoe",
      "gaze": "screen_left",
-     "expr": "relieved",
+     "expr": "determined",
      "preset": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "strong",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
-      "off-shoulder neckline",
-      "open back"
+      "halter neck",
+      "mini length"
      ],
-     "lead": "action"
+     "lead": "light"
     },
     {
      "cut": 4,
@@ -156,7 +157,8 @@
       "side cutouts",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -193,7 +195,8 @@
       "high-cut leg",
       "plunging neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -230,7 +233,8 @@
       "halter neck",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 7,
@@ -267,10 +271,11 @@
       "cropped hem",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "04001733d844f9e5be9d95fbe617711bf9b7d2e39dec45181e1c978379c085bf"
+   "stamp": "93d8e012a95f426c2720a536a49abd4c63f56be1f3ca21e94f141f3fd7f28551"
   }
  ]
 }
