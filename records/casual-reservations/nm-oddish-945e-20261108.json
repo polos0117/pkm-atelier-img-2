@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "nm-oddish-945e-20261108",
- "at": "2026-11-08T04:39:13+09:00",
+ "at": "2026-11-08T04:42:17+09:00",
  "characters": [
   {
    "species": "nidoran-20261108",
    "card": "니드런♂",
-   "at": "2026-11-08T04:39:13+09:00",
+   "at": "2026-11-08T04:42:17+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -213,18 +213,18 @@
      "place": "home_bedroom",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "sit_edge",
-     "support": "hip_edge",
+     "item": "pc_hoodie",
+     "posture": "stand",
+     "support": "none",
      "frame": "environmental",
-     "body": "rear_3q",
-     "head": "over_shoulder",
+     "body": "side",
+     "head": "tilt",
      "camera": "high",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "knees_together",
-     "gaze": "up",
+     "legs": "ankles_crossed",
+     "gaze": "camera",
      "expr": "focused",
      "preset": "",
      "ocolor": "",
@@ -233,15 +233,14 @@
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
       "plunging neckline",
-      "bare midriff"
+      "strapless top"
      ],
      "lead": "detail"
     },
@@ -285,12 +284,12 @@
      "kept": true
     }
    ],
-   "stamp": "280ab3f17668b23b83c857acb01b4d467c7616f250e1771eb487aaeec1a4a3e7"
+   "stamp": "b0bf57501b800f9ada32b9943608c18c19732371e7d4cf1c00f9e372ebc638d4"
   },
   {
    "species": "oddish-20261108",
    "card": "뚜벅쵸",
-   "at": "2026-11-08T04:39:13+09:00",
+   "at": "2026-11-08T04:42:17+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -485,7 +484,8 @@
       "sweetheart neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 6,
@@ -567,7 +567,7 @@
      "kept": true
     }
    ],
-   "stamp": "095e4613b256dc3d059a8c7a95f999ebcdf025f35fe594dad054ac021b20c43a"
+   "stamp": "f17e653cf4ebb3d5471fa4f1d1ea784ffcad2688d2c00192cc89c0fa0618dc8d"
   }
  ]
 }
