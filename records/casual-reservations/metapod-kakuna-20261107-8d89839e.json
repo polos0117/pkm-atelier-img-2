@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "metapod-kakuna-20261107-8d89839e",
- "at": "2026-11-07T14:41:46+09:00",
+ "at": "2026-11-07T14:43:35+09:00",
  "characters": [
   {
    "species": "metapod-20261107",
    "card": "단데기",
-   "at": "2026-11-07T14:41:46+09:00",
+   "at": "2026-11-07T14:43:35+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -43,7 +43,8 @@
       "halter neck",
       "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -80,7 +81,8 @@
       "bare midriff",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -118,7 +120,8 @@
       "cropped hem",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -156,7 +159,8 @@
       "strapless top",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 5,
@@ -193,7 +197,8 @@
       "high-cut leg",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -230,29 +235,30 @@
       "one-shoulder cut",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 7,
      "treeV": 2,
      "era": "in_pokemon",
-     "place": "work_aquarium",
+     "place": "berry_orchard",
      "weather": "",
      "ofam": "swimwear",
-     "item": "burkini_modest",
-     "posture": "lean_counter",
+     "item": "wrap_swim",
+     "posture": "stand",
      "support": "none",
-     "frame": "waist_up",
-     "body": "front_3q",
+     "frame": "environmental",
+     "body": "side",
      "head": "with_body",
      "camera": "eye",
      "right": "prop",
      "left": "prop",
      "use": "ball_polish",
-     "legs": "",
+     "legs": "stand_relaxed",
      "gaze": "",
-     "expr": "smug",
-     "preset": "counter_work",
+     "expr": "soft_smile",
+     "preset": "stand_use",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -265,17 +271,17 @@
      ],
      "expose": [
       "halter neck",
-      "side cutouts"
+      "plunging neckline"
      ],
-     "lead": "place"
+     "lead": "light"
     }
    ],
-   "stamp": "2503230766f2065dc49b887dbff348aaa9844c8d94d2767c2a68222a0c8bbdab"
+   "stamp": "82e766640c2438d8dffbdbc32b416ae8c50ed163c268e63ea6907cad9a5addd3"
   },
   {
    "species": "kakuna-20261107",
    "card": "딱충이",
-   "at": "2026-11-07T14:41:46+09:00",
+   "at": "2026-11-07T14:43:35+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -312,7 +318,8 @@
       "high thigh slit",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -349,7 +356,8 @@
       "halter neck",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -387,7 +395,8 @@
       "cropped hem",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -425,7 +434,8 @@
       "strapless top",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 5,
@@ -462,7 +472,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 6,
@@ -499,7 +510,8 @@
       "high-cut leg",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
@@ -536,10 +548,11 @@
       "one-shoulder cut",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "15c9abaeb6dc4e925cfd0f039cafbf5f14358ceb095a4fa683a4b67374bf8950"
+   "stamp": "b124ab80c1c84129d04690b6567e892559ef01fef98a554ba2afc009255c42cb"
   }
  ]
 }
