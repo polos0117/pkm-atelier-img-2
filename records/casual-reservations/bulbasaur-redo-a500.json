@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "bulbasaur-redo-a500",
- "at": "2026-11-07T23:46:49+09:00",
+ "at": "2026-11-07T23:51:00+09:00",
  "characters": [
   {
    "species": "bulbasaur-20261107",
    "card": "이상해씨",
-   "at": "2026-11-07T23:46:49+09:00",
+   "at": "2026-11-07T23:51:00+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -44,16 +44,17 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
      "era": "now",
-     "place": "train_sleeper",
+     "place": "travel_coast",
      "weather": "",
      "ofam": "swimwear",
-     "item": "bandeau_bikini",
+     "item": "crochet_bikini",
      "posture": "walk",
      "support": "none",
      "frame": "three_quarter",
@@ -62,7 +63,7 @@
      "camera": "eye",
      "right": "prop",
      "left": "down",
-     "use": "book_hold",
+     "use": "rod_rest",
      "legs": "walk_pause",
      "gaze": "camera",
      "expr": "laughing",
@@ -76,11 +77,10 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini",
-      "crop_top"
+      "bikini"
      ],
      "expose": [
-      "deep V neckline",
+      "sweetheart neckline",
       "bare midriff"
      ],
      "lead": "detail"
@@ -121,7 +121,8 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -159,7 +160,8 @@
       "sweetheart neckline",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -197,7 +199,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 6,
@@ -236,7 +239,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
@@ -275,10 +279,11 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "508ed7ceaccf79e1c7f2a3c644df0a988d34f9c840a4f05843626b2c70e2c678"
+   "stamp": "7d07699cbbddd177d605aadefb1f0096cf31851582a27e112743c2a99cc91919"
   }
  ]
 }
