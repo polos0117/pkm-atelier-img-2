@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "anime25d-bulbasaur-squirtle-402a",
- "at": "2026-11-08T12:33:18+09:00",
+ "at": "2026-11-08T12:46:33+09:00",
  "characters": [
   {
    "species": "bulbasaur-20261108",
    "card": "이상해씨",
-   "at": "2026-11-08T12:33:18+09:00",
+   "at": "2026-11-08T12:46:33+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -44,7 +44,8 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -82,16 +83,17 @@
       "deep V neckline",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
-     "era": "in_pokemon",
-     "place": "partner_porch",
+     "era": "now",
+     "place": "home_balcony",
      "weather": "",
      "ofam": "swimwear",
-     "item": "bandeau_bikini",
+     "item": "crochet_bikini",
      "posture": "sit_chair",
      "support": "none",
      "frame": "environmental",
@@ -100,7 +102,7 @@
      "camera": "eye",
      "right": "prop",
      "left": "lap",
-     "use": "ball_hold",
+     "use": "cup_hold",
      "legs": "knees_together",
      "gaze": "screen_left",
      "expr": "sleepy",
@@ -114,14 +116,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini",
-      "crop_top"
+      "bikini"
      ],
      "expose": [
-      "plunging neckline",
-      "cutout waist"
+      "sweetheart neckline",
+      "halter neck"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 4,
@@ -159,7 +160,8 @@
       "sweetheart neckline",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -198,7 +200,8 @@
       "deep V neckline",
       "backless"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 6,
@@ -237,29 +240,30 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
      "treeV": 2,
-     "era": "now",
-     "place": "home_balcony",
+     "era": "fantasy",
+     "place": "fx_castle",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "stand",
-     "support": "none",
-     "frame": "waist_up",
+     "item": "pc_crop_set",
+     "posture": "sit_edge",
+     "support": "hip_edge",
+     "frame": "environmental",
      "body": "front_3q",
-     "head": "with_body",
-     "camera": "eye",
-     "right": "prop",
-     "left": "natural",
-     "use": "phones_neck",
-     "legs": "",
-     "gaze": "at_prop",
-     "expr": "focused",
-     "preset": "stand_inspect",
+     "head": "turn_side",
+     "camera": "low",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "knees_together",
+     "gaze": "",
+     "expr": "soft_smile",
+     "preset": "",
      "ocolor": "",
      "axes": {
       "overall_intensity": "strong",
@@ -269,22 +273,22 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "crop_top",
+      "skirt"
      ],
      "expose": [
-      "sweetheart neckline",
-      "bare midriff"
+      "deep V neckline",
+      "side cutouts"
      ],
      "lead": "light"
     }
    ],
-   "stamp": "d0cfb3041e03468a231d4d1778654627142697e98ecde3a14adf30cba9d4d36f"
+   "stamp": "bfa0e38e8d43dc7d7e67b51c62fc0177cbb9b7304f3d2b38e67880ef3bf38ab4"
   },
   {
    "species": "squirtle-20261108",
    "card": "꼬부기",
-   "at": "2026-11-08T12:33:18+09:00",
+   "at": "2026-11-08T12:46:33+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -322,7 +326,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -360,40 +365,40 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
-     "era": "in_pokemon",
-     "place": "partner_porch",
+     "era": "fantasy",
+     "place": "fx_castle",
      "weather": "",
      "ofam": "lingerie",
-     "item": "open_shirt_lingerie",
-     "posture": "sit_chair",
-     "support": "back_seat",
-     "frame": "three_quarter",
-     "body": "side",
-     "head": "with_body",
+     "item": "kebaya_lace",
+     "posture": "stand",
+     "support": "none",
+     "frame": "full_body",
+     "body": "rear_3q",
+     "head": "turn_side",
      "camera": "eye",
-     "right": "prop",
-     "left": "lap",
-     "use": "towel_hold",
-     "legs": "cross_legs",
-     "gaze": "at_prop",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "window",
      "expr": "provocative",
-     "preset": "chair_cross_prop",
+     "preset": "",
      "ocolor": "purple",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set",
-      "shirt"
+      "tank"
      ],
      "expose": [
       "plunging neckline",
@@ -437,7 +442,8 @@
       "sweetheart neckline",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -475,7 +481,8 @@
       "plunging neckline",
       "backless"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 6,
@@ -513,7 +520,8 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 7,
@@ -551,10 +559,11 @@
       "deep V neckline",
       "cutout waist"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "3f25c61a6328f1280d2a6ee8957567e6c77336f6fa4938d156ec0142fec24947"
+   "stamp": "3653ab83e2b74036dada0838df400f2b4fc786bd13c0bd0712c4095a36dd7ca6"
   }
  ]
 }
