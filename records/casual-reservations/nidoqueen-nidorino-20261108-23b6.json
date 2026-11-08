@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "nidoqueen-nidorino-20261108-23b6",
- "at": "2026-11-08T12:09:33+09:00",
+ "at": "2026-11-08T12:15:09+09:00",
  "characters": [
   {
    "species": "nidoqueen-20261108",
    "card": "니드퀸",
-   "at": "2026-11-08T12:09:33+09:00",
+   "at": "2026-11-08T12:15:09+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -46,7 +46,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -84,7 +85,8 @@
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -122,16 +124,17 @@
       "plunging neckline",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
      "treeV": 2,
      "era": "now",
-     "place": "night_bar",
+     "place": "night_taxi",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
+     "item": "pc_hoodie",
      "posture": "stand",
      "support": "none",
      "frame": "full_body",
@@ -150,18 +153,17 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
       "deep V neckline",
-      "mini length"
+      "halter neck"
      ],
-     "lead": "action"
+     "lead": "light"
     },
     {
      "cut": 5,
@@ -199,7 +201,8 @@
       "sweetheart neckline",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -238,7 +241,8 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
@@ -276,15 +280,16 @@
       "deep V neckline",
       "backless"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "185ef71410b1e68f4f76c2a11357dc8926a37f9ae4b7afbdef99775814dc5c11"
+   "stamp": "fb8a79d097cddc01bc37b2847d2b4433c3f9ee36e9c6be0b0eece421d93aefde"
   },
   {
    "species": "nidorino-20261108",
    "card": "니드리노",
-   "at": "2026-11-08T12:09:33+09:00",
+   "at": "2026-11-08T12:15:09+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -324,7 +329,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -362,7 +368,8 @@
       "sweetheart neckline",
       "high-cut leg"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -400,7 +407,8 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -439,7 +447,8 @@
       "deep V neckline",
       "cutout waist"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -478,7 +487,8 @@
       "deep V neckline",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -516,7 +526,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 7,
@@ -555,10 +566,11 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "6d2dae3921e26d8340fca78f175b83f2f8fe938869951297822f512fa9478dd3"
+   "stamp": "8762c043adddee68df5be234c5c305de0f473d94c2179dc9a82191a5944eceae"
   }
  ]
 }
