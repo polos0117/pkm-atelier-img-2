@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "anime25d-bulbasaur-squirtle-402a",
- "at": "2026-11-08T12:46:33+09:00",
+ "at": "2026-11-08T12:50:42+09:00",
  "characters": [
   {
    "species": "bulbasaur-20261108",
    "card": "이상해씨",
-   "at": "2026-11-08T12:46:33+09:00",
+   "at": "2026-11-08T12:50:42+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -122,7 +122,8 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -246,49 +247,48 @@
     {
      "cut": 7,
      "treeV": 2,
-     "era": "fantasy",
-     "place": "fx_castle",
+     "era": "now",
+     "place": "night_taxi",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_crop_set",
-     "posture": "sit_edge",
-     "support": "hip_edge",
-     "frame": "environmental",
-     "body": "front_3q",
-     "head": "turn_side",
-     "camera": "low",
-     "right": "",
-     "left": "",
-     "use": "",
-     "legs": "knees_together",
-     "gaze": "",
+     "item": "pc_hoodie",
+     "posture": "sit_chair",
+     "support": "back_seat",
+     "frame": "three_quarter",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "phones_neck",
+     "legs": "cross_legs",
+     "gaze": "at_prop",
      "expr": "soft_smile",
-     "preset": "",
+     "preset": "chair_cross_prop",
      "ocolor": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "strong",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "crop_top",
-      "skirt"
+      "dress"
      ],
      "expose": [
-      "deep V neckline",
-      "side cutouts"
+      "sweetheart neckline",
+      "backless"
      ],
-     "lead": "light"
+     "lead": "action"
     }
    ],
-   "stamp": "bfa0e38e8d43dc7d7e67b51c62fc0177cbb9b7304f3d2b38e67880ef3bf38ab4"
+   "stamp": "45396accde534463fe69df8ee914ff6451420a43e4541f49fdd095e840a3c6f7"
   },
   {
    "species": "squirtle-20261108",
    "card": "꼬부기",
-   "at": "2026-11-08T12:46:33+09:00",
+   "at": "2026-11-08T12:50:42+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -404,7 +404,8 @@
       "plunging neckline",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 4,
@@ -563,7 +564,7 @@
      "kept": true
     }
    ],
-   "stamp": "3653ab83e2b74036dada0838df400f2b4fc786bd13c0bd0712c4095a36dd7ca6"
+   "stamp": "e559a2eda50594bd8344b86675f17d9099945b56462169820392ee938ea1b006"
   }
  ]
 }
