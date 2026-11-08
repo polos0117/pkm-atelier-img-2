@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "blastoise-weedle-gloss-20261109-fb4a",
- "at": "2026-11-09T02:19:43+09:00",
+ "at": "2026-11-09T02:37:41+09:00",
  "characters": [
   {
    "species": "blastoise-20261109",
    "card": "거북왕",
-   "at": "2026-11-09T02:19:43+09:00",
+   "at": "2026-11-09T02:37:41+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -45,7 +45,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -85,7 +86,8 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -123,7 +125,8 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 4,
@@ -161,34 +164,35 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
      "treeV": 2,
-     "era": "now",
-     "place": "spa_sauna",
+     "era": "in_pokemon",
+     "place": "pw_bath",
      "weather": "",
      "ofam": "swimwear",
-     "item": "plunge_onepiece",
-     "posture": "lie_front",
-     "support": "front_floor",
+     "item": "cutout_onepiece",
+     "posture": "sit_floor",
+     "support": "back_wall",
      "frame": "full_body",
      "body": "front",
-     "head": "with_body",
+     "head": "turn_side",
      "camera": "low",
-     "right": "chin_both",
-     "left": "chin_both",
+     "right": "",
+     "left": "",
      "use": "",
-     "legs": "feet_up",
-     "gaze": "camera",
+     "legs": "legs_extended",
+     "gaze": "up",
      "expr": "surprised",
-     "preset": "lie_front_full",
+     "preset": "",
      "ocolor": "brown",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
@@ -196,10 +200,10 @@
       "swimsuit"
      ],
      "expose": [
-      "sweetheart neckline",
-      "bare midriff"
+      "plunging neckline",
+      "strapless top"
      ],
-     "lead": "action"
+     "lead": "place"
     },
     {
      "cut": 6,
@@ -237,27 +241,28 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
      "treeV": 2,
      "era": "now",
-     "place": "stage_dance",
+     "place": "stage_event",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "sit_floor",
-     "support": "back_wall",
-     "frame": "full_body",
-     "body": "front_3q",
-     "head": "turn_side",
-     "camera": "high",
+     "item": "pc_corset",
+     "posture": "sit_lean",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "rear_3q",
+     "head": "tilt",
+     "camera": "low",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "legs_bent_side",
-     "gaze": "",
+     "legs": "cross_legs",
+     "gaze": "window",
      "expr": "laughing_open",
      "preset": "",
      "ocolor": "",
@@ -269,22 +274,22 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "lingerie_set",
+      "skirt"
      ],
      "expose": [
-      "plunging neckline",
-      "cropped hem"
+      "sweetheart neckline",
+      "open back"
      ],
-     "lead": "detail"
+     "lead": "light"
     }
    ],
-   "stamp": "23e69f920f6d1dada1bcaa460712b3f60adc3421755eba750c6048974266ef29"
+   "stamp": "eaba72c48f9427100488e072f6bd9a32283129415524fe1e6d7f1524706c53ec"
   },
   {
    "species": "weedle-20261109",
    "card": "뿔충이",
-   "at": "2026-11-09T02:19:43+09:00",
+   "at": "2026-11-09T02:37:41+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -323,7 +328,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -362,46 +368,47 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "now",
-     "place": "street_laundromat",
+     "place": "street_station",
      "weather": "",
      "ofam": "lingerie",
-     "item": "night_robe",
-     "posture": "lean_counter",
-     "support": "none",
+     "item": "sari_blouse_set",
+     "posture": "lean_wall",
+     "support": "back_wall",
      "frame": "full_body",
-     "body": "front",
-     "head": "turn_side",
-     "camera": "low",
+     "body": "rear_3q",
+     "head": "with_body",
+     "camera": "high",
      "right": "",
      "left": "",
      "use": "",
      "legs": "",
-     "gaze": "up",
-     "expr": "sensual",
+     "gaze": "down",
+     "expr": "half_smile",
      "preset": "",
      "ocolor": "purple",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
-      "source_influence": "strong",
+      "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set",
-      "robe"
+      "blouse",
+      "traditional"
      ],
      "expose": [
-      "plunging neckline",
-      "high-cut leg"
+      "deep V neckline",
+      "cropped hem"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 4,
@@ -439,7 +446,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 5,
@@ -477,7 +485,8 @@
       "deep V neckline",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -515,49 +524,50 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 7,
      "treeV": 2,
      "era": "now",
-     "place": "stage_dance",
+     "place": "stage_event",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "stand",
+     "item": "pc_crop_set",
+     "posture": "walk",
      "support": "none",
-     "frame": "environmental",
+     "frame": "chest_up",
      "body": "front",
-     "head": "tilt",
-     "camera": "high",
+     "head": "over_shoulder",
+     "camera": "low",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "step_forward",
-     "gaze": "screen_left",
+     "legs": "",
+     "gaze": "up",
      "expr": "curious",
      "preset": "",
      "ocolor": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "crop_top",
+      "skirt"
      ],
      "expose": [
       "sweetheart neckline",
-      "one-shoulder cut"
+      "bare midriff"
      ],
-     "lead": "light"
+     "lead": "detail"
     }
    ],
-   "stamp": "3b769391d6eb016cda2adc41fa3d783cd874ec9758a76cf959460c0b8e433750"
+   "stamp": "eacda68ac630fa977d79aa8c5f2cec5d99a51bfa5ebe9a3003a1294c2eb168ee"
   }
  ]
 }
