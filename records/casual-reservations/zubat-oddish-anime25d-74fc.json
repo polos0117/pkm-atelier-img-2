@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "zubat-oddish-anime25d-74fc",
- "at": "2026-11-08T19:29:19+09:00",
+ "at": "2026-11-08T19:44:23+09:00",
  "characters": [
   {
    "species": "zubat-20261108",
    "card": "주뱃",
-   "at": "2026-11-08T19:29:19+09:00",
+   "at": "2026-11-08T19:44:23+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -44,7 +44,8 @@
       "sweetheart neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -82,7 +83,8 @@
       "plunging neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -120,7 +122,8 @@
       "deep V neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -159,7 +162,8 @@
       "sweetheart neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -197,27 +201,28 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
      "treeV": 2,
-     "era": "in_pokemon",
-     "place": "berry_kitchen",
+     "era": "release",
+     "place": "travel_rural_station",
      "weather": "",
      "ofam": "swimwear",
-     "item": "triangle_bikini",
-     "posture": "lean_counter",
-     "support": "none",
+     "item": "burkini_modest",
+     "posture": "lean_wall",
+     "support": "back_wall",
      "frame": "three_quarter",
-     "body": "rear_3q",
-     "head": "tilt",
-     "camera": "eye",
+     "body": "front_3q",
+     "head": "turn_side",
+     "camera": "high",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "stand_relaxed",
-     "gaze": "screen_left",
+     "legs": "contrapposto",
+     "gaze": "screen_right",
      "expr": "cold_smile",
      "preset": "",
      "ocolor": "green",
@@ -229,13 +234,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini"
+      "swimsuit"
      ],
      "expose": [
-      "deep V neckline",
+      "sweetheart neckline",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "detail"
     },
     {
      "cut": 7,
@@ -273,15 +278,16 @@
       "sweetheart neckline",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "02d1ab0b6a0e76bed6dde104b4c876488ecdeb2e2ecca27d4680ccd73bf59582"
+   "stamp": "0ed46f534a30dfd92c2531ef0bb7b39db49b1d548ff84dda2731672d3b0048b4"
   },
   {
    "species": "oddish-20261108",
    "card": "뚜벅쵸",
-   "at": "2026-11-08T19:29:19+09:00",
+   "at": "2026-11-08T19:44:23+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -319,7 +325,8 @@
       "sweetheart neckline",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -357,7 +364,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -395,7 +403,8 @@
       "deep V neckline",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -434,7 +443,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -474,7 +484,8 @@
       "plunging neckline",
       "backless"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -512,48 +523,50 @@
       "deep V neckline",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 7,
      "treeV": 2,
      "era": "now",
-     "place": "spa_lounge",
+     "place": "travel_coast",
      "weather": "",
      "ofam": "roleplay",
-     "item": "uniform_inspired",
-     "posture": "sit_lean",
-     "support": "none",
-     "frame": "full_body",
-     "body": "front",
-     "head": "over_shoulder",
+     "item": "florist_apron",
+     "posture": "lie_side",
+     "support": "side_floor",
+     "frame": "environmental",
+     "body": "side",
+     "head": "tilt",
      "camera": "high",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "ankles_crossed",
-     "gaze": "",
+     "legs": "legs_extended",
+     "gaze": "down",
      "expr": "wink",
      "preset": "",
      "ocolor": "pink",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "uniform"
+      "apron",
+      "shirt"
      ],
      "expose": [
-      "sweetheart neckline",
-      "one-shoulder cut"
+      "deep V neckline",
+      "halter neck"
      ],
-     "lead": "place"
+     "lead": "action"
     }
    ],
-   "stamp": "0367e96eedcbf0181b38be00f543e75b932268d5a83c074d06c942c910fa11b5"
+   "stamp": "e9e90fc83141f4c007999d3f02c05e93413b64fb57a078e4a3786697d17a8667"
   }
  ]
 }
