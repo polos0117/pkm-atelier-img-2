@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "nidorans-anime25d-20261108-1dc4",
- "at": "2026-11-08T18:52:20+09:00",
+ "at": "2026-11-08T19:10:04+09:00",
  "characters": [
   {
    "species": "nidoran-20261108",
    "card": "니드런♀",
-   "at": "2026-11-08T18:52:20+09:00",
+   "at": "2026-11-08T19:10:04+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -44,7 +44,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -84,7 +85,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -122,7 +124,8 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -160,7 +163,8 @@
       "deep V neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -199,46 +203,46 @@
       "sweetheart neckline",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
      "treeV": 2,
      "era": "now",
-     "place": "night_club",
+     "place": "night_karaoke",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "sit_edge",
-     "support": "hip_edge",
+     "item": "pc_mini_dress",
+     "posture": "lean_counter",
+     "support": "none",
      "frame": "environmental",
-     "body": "side",
-     "head": "over_shoulder",
-     "camera": "eye",
+     "body": "rear_3q",
+     "head": "turn_side",
+     "camera": "low",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "knees_together",
-     "gaze": "",
-     "expr": "calm",
+     "legs": "ankles_crossed",
+     "gaze": "screen_right",
+     "expr": "proud",
      "preset": "",
      "ocolor": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
-      "plunging neckline",
-      "cropped hem"
+      "deep V neckline",
+      "halter neck"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
      "cut": 7,
@@ -276,15 +280,16 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "31b7b9a1c0a49f97f9b7768be8efff0ab757e3dee0f0dfdfc0cd006a39562b2a"
+   "stamp": "504188cf65429bef843991000a4f927b7582a475edfad1f8f12f612cc6aaf9e2"
   },
   {
    "species": "nidoran-20261108",
    "card": "니드런♂",
-   "at": "2026-11-08T18:52:20+09:00",
+   "at": "2026-11-08T19:10:04+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -323,7 +328,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -362,7 +368,8 @@
       "deep V neckline",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -400,7 +407,8 @@
       "plunging neckline",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -439,7 +447,8 @@
       "sweetheart neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 5,
@@ -477,7 +486,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 6,
@@ -515,7 +525,8 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 7,
@@ -553,10 +564,11 @@
       "sweetheart neckline",
       "cropped hem"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "6518850bcc89c9d026cc31724a7434e658d871a317008ce578840557c1896faf"
+   "stamp": "7d704a64eec618953efa9bc0ee6017200aabab22bd44c31002f7af307ba678f9"
   }
  ]
 }
