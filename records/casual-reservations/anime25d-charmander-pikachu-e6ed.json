@@ -1,56 +1,18 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "anime25d-charmander-pikachu-e6ed",
- "at": "2026-11-08T13:37:29+09:00",
+ "at": "2026-11-08T13:44:34+09:00",
  "characters": [
   {
    "species": "charmander-20261108",
    "card": "파이리",
-   "at": "2026-11-08T13:37:29+09:00",
+   "at": "2026-11-08T13:44:34+09:00",
    "cuts": [
     {
      "cut": 1,
      "treeV": 2,
-     "era": "now",
-     "place": "studio_art",
-     "weather": "",
-     "ofam": "bath",
-     "item": "bath_yukata",
-     "posture": "stand",
-     "support": "none",
-     "frame": "face_close",
-     "body": "side",
-     "head": "with_body",
-     "camera": "eye",
-     "right": "hair_tuck",
-     "left": "out",
-     "use": "",
-     "legs": "",
-     "gaze": "down",
-     "expr": "confident",
-     "preset": "hair_close",
-     "ocolor": "green",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "strong",
-      "separates_preference": "balanced"
-     },
-     "garments": [
-      "traditional"
-     ],
-     "expose": [
-      "deep V neckline",
-      "cropped hem"
-     ],
-     "lead": "place"
-    },
-    {
-     "cut": 2,
-     "treeV": 2,
      "era": "fantasy",
-     "place": "fx_chapel",
+     "place": "fx_ballroom",
      "weather": "",
      "ofam": "pokemon_costume",
      "item": "pc_bodysuit",
@@ -62,10 +24,10 @@
      "camera": "eye",
      "right": "prop",
      "left": "down",
-     "use": "bouquet_hold",
+     "use": "fan_hold",
      "legs": "walk_pause",
      "gaze": "camera",
-     "expr": "amused",
+     "expr": "confident",
      "preset": "walk_lookback",
      "ocolor": "",
      "axes": {
@@ -81,9 +43,47 @@
      ],
      "expose": [
       "plunging neckline",
-      "bare midriff"
+      "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "tailor_room",
+     "weather": "",
+     "ofam": "halloween",
+     "item": "hw_sheer_ghost",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "full_body",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "hoop_stitch",
+     "legs": "knees_together",
+     "gaze": "at_prop",
+     "expr": "amused",
+     "preset": "side_chair_read",
+     "ocolor": "ivory",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "slip"
+     ],
+     "expose": [
+      "deep V neckline",
+      "mini length"
+     ],
+     "lead": "action"
     },
     {
      "cut": 3,
@@ -121,7 +121,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 4,
@@ -160,7 +161,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 5,
@@ -200,7 +202,8 @@
       "deep V neckline",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -238,7 +241,8 @@
       "sweetheart neckline",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -276,15 +280,16 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "b07a0c4f53f780176c440c7ca830d3c86d7adcc8908bf46231ca345c46280151"
+   "stamp": "0b6b26dc8f1a50fc1005b18d4b2b5185c5d2f82641f4c9c1c3ee1f8a1d3d7c50"
   },
   {
    "species": "pikachu-20261108",
    "card": "피카츄",
-   "at": "2026-11-08T13:37:29+09:00",
+   "at": "2026-11-08T13:44:34+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -556,7 +561,7 @@
      "lead": "place"
     }
    ],
-   "stamp": "a4a8fe76041cdd55d0e5c0cdd7d98817bc9510d9e63308b71be67be1face2318"
+   "stamp": "52d240f0796918bf8e8650839a312429bfb1b2ad539742b0e9a9e84fdca42b82"
   }
  ]
 }
