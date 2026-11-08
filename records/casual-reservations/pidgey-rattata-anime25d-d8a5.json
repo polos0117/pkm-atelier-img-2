@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "pidgey-rattata-anime25d-d8a5",
- "at": "2026-11-08T14:25:52+09:00",
+ "at": "2026-11-08T14:41:54+09:00",
  "characters": [
   {
    "species": "pidgey-20261108",
    "card": "구구",
-   "at": "2026-11-08T14:25:52+09:00",
+   "at": "2026-11-08T14:41:54+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -45,7 +45,8 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -84,7 +85,8 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -122,7 +124,8 @@
       "deep V neckline",
       "bare midriff"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -160,7 +163,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -198,45 +202,46 @@
       "sweetheart neckline",
       "high thigh slit"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
      "treeV": 2,
      "era": "now",
-     "place": "spa_cedar",
+     "place": "water_beach",
      "weather": "",
      "ofam": "roleplay",
-     "item": "adult_maid",
-     "posture": "sit_edge",
-     "support": "hip_edge",
-     "frame": "three_quarter",
-     "body": "front",
-     "head": "with_body",
+     "item": "adult_police",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "tilt",
      "camera": "eye",
-     "right": "edge_brace_both",
-     "left": "edge_brace_both",
-     "use": "",
-     "legs": "knees_together",
-     "gaze": "camera",
-     "expr": "focused",
-     "preset": "edge_brace",
-     "ocolor": "ivory",
+     "right": "prop",
+     "left": "out",
+     "use": "sparkler_raise",
+     "legs": "",
+     "gaze": "",
+     "expr": "sensual",
+     "preset": "raise_chest",
+     "ocolor": "blue",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "strong",
+      "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "apron"
+      "shirt"
      ],
      "expose": [
       "deep V neckline",
-      "mini length"
+      "open back"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 7,
@@ -275,15 +280,17 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "a46b23cb73c6436e5caf6f729e5440ede935a22805c9b1f1f62e9d25bddc31b3"
+   "refill": true,
+   "stamp": "ece1ee260d87def902fc38cfd757d784135c3bd31ad4e1634c272f67bbabc511"
   },
   {
    "species": "rattata-20261108",
    "card": "꼬렛",
-   "at": "2026-11-08T14:25:52+09:00",
+   "at": "2026-11-08T14:41:54+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -321,7 +328,8 @@
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -359,7 +367,8 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -397,7 +406,8 @@
       "deep V neckline",
       "backless"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -436,7 +446,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -475,7 +486,8 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 6,
@@ -513,7 +525,8 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -552,10 +565,12 @@
       "sweetheart neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "b30b62b4013d71a304aba79c8f9df68cb286a7566bdbd8168e10ad49245ef8cc"
+   "refill": true,
+   "stamp": "9032310e4c17ff667558ef0a003444de70c4dd9be0ebbfc3163e69432df956b7"
   }
  ]
 }
