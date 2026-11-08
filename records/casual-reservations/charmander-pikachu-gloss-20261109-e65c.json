@@ -1,39 +1,39 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "charmander-pikachu-gloss-20261109-e65c",
- "at": "2026-11-09T01:34:18+09:00",
+ "at": "2026-11-09T01:48:07+09:00",
  "characters": [
   {
    "species": "charmander-20261109",
    "card": "파이리",
-   "at": "2026-11-09T01:34:18+09:00",
+   "at": "2026-11-09T01:48:07+09:00",
    "cuts": [
     {
      "cut": 1,
      "treeV": 2,
      "era": "now",
-     "place": "evening_penthouse",
+     "place": "evening_museum",
      "weather": "",
      "ofam": "costume",
-     "item": "vampire_gala",
-     "posture": "sit_chair",
-     "support": "back_seat",
-     "frame": "full_body",
+     "item": "elf_costume",
+     "posture": "lean_rail",
+     "support": "none",
+     "frame": "waist_up",
      "body": "side",
      "head": "with_body",
      "camera": "eye",
      "right": "prop",
-     "left": "lap",
-     "use": "shades_hold",
-     "legs": "cross_legs",
-     "gaze": "camera",
+     "left": "rail",
+     "use": "phone_look",
+     "legs": "",
+     "gaze": "at_prop",
      "expr": "curious",
-     "preset": "side_chair_cross",
+     "preset": "counter_cup",
      "ocolor": "brown",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
@@ -42,38 +42,39 @@
       "dress"
      ],
      "expose": [
-      "deep V neckline",
-      "one-shoulder cut"
+      "sweetheart neckline",
+      "cutout waist"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
      "era": "in_pokemon",
-     "place": "partner_garden",
+     "place": "partner_lawn",
      "weather": "",
      "ofam": "everyday",
      "item": "turtleneck_quilted_vest",
-     "posture": "stand",
+     "posture": "squat",
      "support": "none",
-     "frame": "waist_up",
-     "body": "front_3q",
-     "head": "tilt",
+     "frame": "full_body",
+     "body": "side",
+     "head": "with_body",
      "camera": "eye",
      "right": "prop",
-     "left": "pocket",
-     "use": "can_water",
+     "left": "natural",
+     "use": "treat_offer",
      "legs": "",
-     "gaze": "at_prop",
+     "gaze": "",
      "expr": "laughing",
-     "preset": "pocket_look",
+     "preset": "squat_offer",
      "ocolor": "yellow",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "strong",
+      "action_level": "balanced",
+      "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
@@ -81,10 +82,11 @@
       "vest"
      ],
      "expose": [
-      "sweetheart neckline",
-      "cutout waist"
+      "deep V neckline",
+      "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -122,7 +124,8 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -160,7 +163,8 @@
       "deep V neckline",
       "backless"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 5,
@@ -198,7 +202,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -236,7 +241,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -275,21 +281,22 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "92ab431d21180406ccb262d77bcad075e59f7852fea1983f62fafa5caecb543a"
+   "stamp": "6713c0bb8124f7f7b60a1114e36b0dbb0d79fc468f35a42d5f2512004424e725"
   },
   {
    "species": "pikachu-20261109",
    "card": "피카츄",
-   "at": "2026-11-09T01:34:18+09:00",
+   "at": "2026-11-09T01:48:07+09:00",
    "cuts": [
     {
      "cut": 1,
      "treeV": 2,
      "era": "in_pokemon",
-     "place": "berry_stall",
+     "place": "berry_orchard",
      "weather": "",
      "ofam": "traditional",
      "item": "",
@@ -306,7 +313,7 @@
      "gaze": "camera",
      "expr": "mischievous",
      "preset": "shush_close",
-     "ocolor": "black",
+     "ocolor": "orange",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -319,37 +326,37 @@
      ],
      "expose": [
       "sweetheart neckline",
-      "one-shoulder cut"
+      "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 2,
      "treeV": 2,
      "era": "now",
-     "place": "street_laundromat",
+     "place": "home_entry",
      "weather": "",
      "ofam": "pokemon_costume",
      "item": "pc_bodysuit",
-     "posture": "walk",
-     "support": "none",
+     "posture": "sit_edge",
+     "support": "hip_edge",
      "frame": "full_body",
-     "body": "rear_3q",
-     "head": "with_body",
+     "body": "side",
+     "head": "tilt",
      "camera": "eye",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "step_forward",
-     "gaze": "screen_left",
+     "legs": "",
+     "gaze": "screen_right",
      "expr": "flustered",
      "preset": "",
      "ocolor": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
-      "source_influence": "strong",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
@@ -357,10 +364,10 @@
       "leggings"
      ],
      "expose": [
-      "deep V neckline",
-      "cropped hem"
+      "plunging neckline",
+      "strapless top"
      ],
-     "lead": "action"
+     "lead": "detail"
     },
     {
      "cut": 3,
@@ -398,7 +405,8 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -437,7 +445,8 @@
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -475,7 +484,8 @@
       "deep V neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -513,7 +523,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 7,
@@ -551,10 +562,11 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "0ccce803c44770726b2fe8572f8d2bdab55edc53c193e75f2637c5757b1538f0"
+   "stamp": "8be7d0e6de6451dabd99fc6d859ce64a4307b717f57504f6faef11f79c7d412f"
   }
  ]
 }
