@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "nidoqueen-venonat-gloss-0f5c",
- "at": "2026-11-09T14:40:20+09:00",
+ "at": "2026-11-09T14:44:28+09:00",
  "characters": [
   {
    "species": "nidoqueen-20261109",
@@ -373,7 +373,7 @@
   {
    "species": "venonat-20261109",
    "card": "콘팡",
-   "at": "2026-11-09T14:40:20+09:00",
+   "at": "2026-11-09T14:44:28+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -621,64 +621,63 @@
      "cut": 7,
      "treeV": 2,
      "era": "now",
-     "place": "street_alley",
+     "place": "night_powder",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "kneel",
-     "support": "none",
+     "item": "pc_hoodie",
+     "posture": "sit_chair",
+     "support": "back_seat",
      "frame": "three_quarter",
      "body": "side",
      "head": "with_body",
      "camera": "eye",
      "right": "prop",
-     "left": "prop",
-     "use": "camera_shoot",
-     "legs": "",
-     "gaze": "",
+     "left": "lap",
+     "use": "phone_look",
+     "legs": "cross_legs",
+     "gaze": "at_prop",
      "expr": "serious",
-     "preset": "kneel_work",
+     "preset": "chair_cross_prop",
      "ocolor": "",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
       "deep V neckline",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "action"
     },
     {
      "cut": 8,
      "treeV": 2,
-     "era": "release",
-     "place": "stage_festival",
+     "era": "now",
+     "place": "backstage_dressing",
      "weather": "",
      "ofam": "swimwear",
-     "item": "halter_bikini",
-     "posture": "lean_counter",
+     "item": "plunge_onepiece",
+     "posture": "stand",
      "support": "none",
      "frame": "three_quarter",
-     "body": "rear_3q",
-     "head": "tilt",
+     "body": "front_3q",
+     "head": "with_body",
      "camera": "eye",
-     "right": "",
-     "left": "",
-     "use": "",
-     "legs": "",
+     "right": "prop",
+     "left": "prop",
+     "use": "camera_check",
+     "legs": "stand_relaxed",
      "gaze": "",
-     "expr": "mischievous",
-     "preset": "",
-     "ocolor": "green",
+     "expr": "soft_smile",
+     "preset": "camera_shot",
+     "ocolor": "teal",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
@@ -688,14 +687,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini"
+      "swimsuit"
      ],
      "expose": [
       "sweetheart neckline",
-      "high-cut leg"
+      "halter neck"
      ],
-     "lead": "place",
-     "kept": true
+     "lead": "detail"
     },
     {
      "cut": 9,
@@ -736,10 +734,11 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "9fb8e61d78d171ed69d9ffe9b87cbe15978ee83856fc2fcf22160a4e2d59e734"
+   "stamp": "58dbd63e72142a6ad071efa1654233c9047cdd6b6b2623d2d8135437d0557f10"
   }
  ]
 }
