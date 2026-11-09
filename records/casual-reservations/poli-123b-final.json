@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "poli-123b-final",
- "at": "2026-11-10T08:33:27+09:00",
+ "at": "2026-11-10T08:48:44+09:00",
  "characters": [
   {
    "species": "poliwhirl-20261110",
    "card": "슈륙챙이",
-   "at": "2026-11-10T08:33:27+09:00",
+   "at": "2026-11-10T08:48:44+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -45,7 +45,8 @@
       "sweetheart neckline",
       "high-cut leg"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -85,7 +86,8 @@
       "deep V neckline",
       "cutout waist"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -126,7 +128,8 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -165,7 +168,8 @@
       "deep V neckline",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -204,7 +208,8 @@
       "sweetheart neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 6,
@@ -244,7 +249,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 7,
@@ -284,7 +290,8 @@
       "deep V neckline",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 8,
@@ -293,19 +300,19 @@
      "place": "street_station",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
+     "item": "pc_corset",
      "posture": "walk",
      "support": "none",
-     "frame": "environmental",
-     "body": "rear_3q",
-     "head": "over_shoulder",
+     "frame": "full_body",
+     "body": "side",
+     "head": "tilt",
      "camera": "high",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "walk_stride",
-     "gaze": "",
-     "expr": "wink",
+     "legs": "walk_pause",
+     "gaze": "screen_left",
+     "expr": "relieved",
      "preset": "",
      "ocolor": "",
      "situ": "",
@@ -317,12 +324,12 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "lingerie_set",
+      "skirt"
      ],
      "expose": [
       "plunging neckline",
-      "halter neck"
+      "strapless top"
      ],
      "lead": "place"
     },
@@ -363,15 +370,16 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "6fd4b12347abb95a45529f5115bccf64833f032d678079843f65a7eac1b85232"
+   "stamp": "7291fc30495423c23f747ba29e5cb628954fe111af7d0cf97ab10f80905193eb"
   },
   {
    "species": "poliwrath-20261110",
    "card": "강챙이",
-   "at": "2026-11-10T08:33:27+09:00",
+   "at": "2026-11-10T08:48:44+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -410,7 +418,8 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -418,20 +427,20 @@
      "era": "release",
      "place": "water_resort",
      "weather": "",
-     "ofam": "bridal",
-     "item": "bridal_lace",
-     "posture": "recline",
-     "support": "back_lounger",
-     "frame": "three_quarter",
-     "body": "front",
-     "head": "tilt",
-     "camera": "low",
+     "ofam": "active",
+     "item": "ballet_practice",
+     "posture": "sit_edge",
+     "support": "hip_edge",
+     "frame": "waist_up",
+     "body": "rear_3q",
+     "head": "with_body",
+     "camera": "eye",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "knee_up",
-     "gaze": "window",
-     "expr": "relieved",
+     "legs": "",
+     "gaze": "horizon",
+     "expr": "exhausted",
      "preset": "",
      "ocolor": "ivory",
      "situ": "",
@@ -440,16 +449,19 @@
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "strong",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set"
+      "bodysuit",
+      "leggings",
+      "skirt"
      ],
      "expose": [
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "light"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -489,7 +501,8 @@
       "deep V neckline",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -529,7 +542,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 5,
@@ -568,7 +582,8 @@
       "plunging neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -608,7 +623,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -648,7 +664,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 8,
@@ -687,7 +704,8 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -726,10 +744,11 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "060e363fd090695923b5563e5aae3d7d7b6be71c857217b39998ada3960bc95d"
+   "stamp": "8a29e2965a34894a08807f9ab29f224e364be00245adb41e74efd31366467e39"
   }
  ]
 }
