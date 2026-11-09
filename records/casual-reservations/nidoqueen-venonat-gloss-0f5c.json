@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "nidoqueen-venonat-gloss-0f5c",
- "at": "2026-11-09T14:02:30+09:00",
+ "at": "2026-11-09T14:40:20+09:00",
  "characters": [
   {
    "species": "nidoqueen-20261109",
@@ -373,7 +373,7 @@
   {
    "species": "venonat-20261109",
    "card": "콘팡",
-   "at": "2026-11-09T14:02:30+09:00",
+   "at": "2026-11-09T14:40:20+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -413,7 +413,8 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -452,7 +453,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -491,7 +493,8 @@
       "plunging neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -531,7 +534,8 @@
       "deep V neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 5,
@@ -570,7 +574,8 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -609,46 +614,48 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
      "treeV": 2,
      "era": "now",
-     "place": "night_club",
+     "place": "street_alley",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "",
-     "posture": "stand",
+     "item": "pc_bodysuit",
+     "posture": "kneel",
      "support": "none",
-     "frame": "full_body",
-     "body": "rear_3q",
-     "head": "over_shoulder",
+     "frame": "three_quarter",
+     "body": "side",
+     "head": "with_body",
      "camera": "eye",
-     "right": "",
-     "left": "",
-     "use": "",
+     "right": "prop",
+     "left": "prop",
+     "use": "camera_shoot",
      "legs": "",
-     "gaze": "down",
-     "expr": "nostalgic",
-     "preset": "",
+     "gaze": "",
+     "expr": "serious",
+     "preset": "kneel_work",
      "ocolor": "",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "overalls"
+      "bodysuit",
+      "leggings"
      ],
      "expose": [
       "deep V neckline",
-      "bare midriff"
+      "mini length"
      ],
-     "lead": "light"
+     "lead": "detail"
     },
     {
      "cut": 8,
@@ -687,49 +694,52 @@
       "sweetheart neckline",
       "high-cut leg"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
      "treeV": 2,
      "era": "in_pokemon",
-     "place": "work_travel",
+     "place": "work_landing",
      "weather": "",
      "ofam": "lingerie",
-     "item": "lace_set",
-     "posture": "stand",
-     "support": "none",
-     "frame": "three_quarter",
-     "body": "rear_3q",
+     "item": "silk_pajama",
+     "posture": "lie_front",
+     "support": "front_floor",
+     "frame": "full_body",
+     "body": "front",
      "head": "with_body",
-     "camera": "high",
-     "right": "",
-     "left": "",
+     "camera": "low",
+     "right": "chin_both",
+     "left": "chin_both",
      "use": "",
-     "legs": "stand_relaxed",
-     "gaze": "screen_right",
-     "expr": "wink",
-     "preset": "",
-     "ocolor": "black",
+     "legs": "feet_up",
+     "gaze": "camera",
+     "expr": "sensual",
+     "preset": "lie_front_full",
+     "ocolor": "yellow",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "lingerie_set"
+      "shirt",
+      "shorts",
+      "tank"
      ],
      "expose": [
-      "plunging neckline",
-      "cutout waist"
+      "sweetheart neckline",
+      "halter neck"
      ],
-     "lead": "detail"
+     "lead": "action"
     }
    ],
-   "stamp": "766f62da19d253bdcc02cf89ab6cee8aee51689e47b51d87a3d194b263c5a5a8"
+   "stamp": "9fb8e61d78d171ed69d9ffe9b87cbe15978ee83856fc2fcf22160a4e2d59e734"
   }
  ]
 }
