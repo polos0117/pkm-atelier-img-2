@@ -1,7 +1,7 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "wigglytuff-golbat-gloss-64d236",
- "at": "2026-11-09T21:09:34+09:00",
+ "at": "2026-11-09T21:34:38+09:00",
  "characters": [
   {
    "species": "wigglytuff-20261109",
@@ -373,7 +373,7 @@
   {
    "species": "golbat-20261109",
    "card": "골뱃",
-   "at": "2026-11-09T21:09:34+09:00",
+   "at": "2026-11-09T21:34:38+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -413,27 +413,28 @@
       "sweetheart neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
      "era": "now",
-     "place": "night_karaoke",
+     "place": "night_powder",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "",
-     "posture": "sit_chair",
-     "support": "back_seat",
-     "frame": "three_quarter",
-     "body": "side",
-     "head": "over_shoulder",
+     "item": "pc_bodysuit",
+     "posture": "lean_rail",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "turn_side",
      "camera": "high",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "cross_legs",
-     "gaze": "horizon",
+     "legs": "",
+     "gaze": "camera",
      "expr": "mischievous",
      "preset": "",
      "ocolor": "",
@@ -441,18 +442,19 @@
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "balanced"
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "jumpsuit"
+      "bodysuit",
+      "leggings"
      ],
      "expose": [
-      "deep V neckline",
-      "backless"
+      "sweetheart neckline",
+      "halter neck"
      ],
-     "lead": "action"
+     "lead": "light"
     },
     {
      "cut": 3,
@@ -491,7 +493,8 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -530,7 +533,8 @@
       "sweetheart neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -570,7 +574,8 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -609,7 +614,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
@@ -649,7 +655,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 8,
@@ -688,7 +695,8 @@
       "deep V neckline",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -728,10 +736,11 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "98ce3fb4694f1581a1af7763835eeb0bbaca3d907259a5c180e84f832dcbec62"
+   "stamp": "d8946eb2f42156ef4571c3630afc6b641e0adc506bec650464cb277132188dcb"
   }
  ]
 }
