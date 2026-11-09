@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "parasect-gloss-3b35",
- "at": "2026-11-09T22:29:45+09:00",
+ "at": "2026-11-09T22:43:11+09:00",
  "characters": [
   {
    "species": "parasect-20261109",
    "card": "파라섹트",
-   "at": "2026-11-09T22:29:45+09:00",
+   "at": "2026-11-09T22:43:11+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -46,7 +46,8 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -85,7 +86,8 @@
       "deep V neckline",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -126,7 +128,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -165,7 +168,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -174,7 +178,7 @@
      "place": "night_jazz",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
+     "item": "pc_hoodie",
      "posture": "stand",
      "support": "none",
      "frame": "waist_up",
@@ -195,17 +199,16 @@
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
-      "deep V neckline",
-      "side cutouts"
+      "plunging neckline",
+      "backless"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
      "cut": 6,
@@ -244,7 +247,8 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -285,7 +289,8 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 8,
@@ -324,7 +329,8 @@
       "deep V neckline",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 9,
@@ -364,10 +370,11 @@
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "9a5357cf7380273d31aab9aa9a1e0d5238fd368ab46ae30916a315730f4a9d2c"
+   "stamp": "64636ab11d9853b119e4131e1f2e4297a1b25676b9f725a3862dfe8ac97894b8"
   }
  ]
 }
