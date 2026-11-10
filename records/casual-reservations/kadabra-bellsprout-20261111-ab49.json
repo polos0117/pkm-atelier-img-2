@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "kadabra-bellsprout-20261111-ab49",
- "at": "2026-11-11T01:58:56+09:00",
+ "at": "2026-11-11T02:26:48+09:00",
  "characters": [
   {
    "species": "kadabra-20261111",
    "card": "윤겔라",
-   "at": "2026-11-11T01:58:56+09:00",
+   "at": "2026-11-11T02:26:48+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -46,43 +46,45 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
      "era": "now",
-     "place": "spa_hammam",
+     "place": "stage_show",
      "weather": "",
      "ofam": "lingerie",
-     "item": "kebaya_lace",
-     "posture": "sit_edge",
-     "support": "hip_edge",
+     "item": "sari_blouse_set",
+     "posture": "sit_chair",
+     "support": "back_seat",
      "frame": "three_quarter",
-     "body": "front",
+     "body": "side",
      "head": "with_body",
      "camera": "eye",
-     "right": "edge_brace_both",
-     "left": "edge_brace_both",
-     "use": "",
-     "legs": "knees_together",
-     "gaze": "camera",
+     "right": "prop",
+     "left": "lap",
+     "use": "phone_look",
+     "legs": "cross_legs",
+     "gaze": "at_prop",
      "expr": "confident",
-     "preset": "edge_brace",
-     "ocolor": "red",
+     "preset": "chair_cross_prop",
+     "ocolor": "pink",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "prefer separates"
+      "source_influence": "strong",
+      "separates_preference": "balanced"
      },
      "garments": [
-      "tank"
+      "blouse",
+      "traditional"
      ],
      "expose": [
-      "sweetheart neckline",
+      "deep V neckline",
       "one-shoulder cut"
      ],
      "lead": "action"
@@ -125,7 +127,8 @@
       "deep V neckline",
       "bare midriff"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -164,7 +167,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -203,7 +207,8 @@
       "sweetheart neckline",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -243,7 +248,8 @@
       "deep V neckline",
       "high-cut leg"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
@@ -282,7 +288,8 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 8,
@@ -322,7 +329,8 @@
       "sweetheart neckline",
       "cropped hem"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -361,15 +369,16 @@
       "deep V neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "56a12c9fab5136ef9f6696d51db8cbff4653a0650cbda1e95eefbfc4af310501"
+   "stamp": "e1e4bc5fec177154b6c605667fb395b11d6e6e0a7cdc023fafa2d0ec0399408c"
   },
   {
    "species": "bellsprout-20261111",
    "card": "모다피",
-   "at": "2026-11-11T01:58:56+09:00",
+   "at": "2026-11-11T02:26:48+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -410,36 +419,37 @@
       "plunging neckline",
       "backless"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
      "era": "now",
-     "place": "spa_hammam",
+     "place": "travel_ranch",
      "weather": "",
      "ofam": "roleplay",
      "item": "casino_dealer",
-     "posture": "recline",
-     "support": "back_lounger",
-     "frame": "environmental",
-     "body": "front_3q",
-     "head": "with_body",
-     "camera": "high",
-     "right": "behind_head",
-     "left": "prop",
-     "use": "towel_hold",
-     "legs": "legs_extended",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front",
+     "head": "tilt",
+     "camera": "low",
+     "right": "clasp_both",
+     "left": "clasp_both",
+     "use": "",
+     "legs": "",
      "gaze": "camera",
-     "expr": "provocative",
-     "preset": "lounger_drink",
-     "ocolor": "grey",
+     "expr": "wink",
+     "preset": "clasp_low",
+     "ocolor": "yellow",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
+      "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
      "garments": [
@@ -447,9 +457,9 @@
      ],
      "expose": [
       "sweetheart neckline",
-      "cutout waist"
+      "halter neck"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 3,
@@ -489,7 +499,8 @@
       "deep V neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -528,47 +539,48 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
      "treeV": 2,
-     "era": "now",
-     "place": "arcade_hall",
+     "era": "in_pokemon",
+     "place": "partner_yard",
      "weather": "",
-     "ofam": "halloween",
-     "item": "hw_sheer_ghost",
-     "posture": "lean_wall",
-     "support": "back_wall",
+     "ofam": "everyday",
+     "item": "halter_shorts",
+     "posture": "stand",
+     "support": "none",
      "frame": "waist_up",
-     "body": "rear_3q",
-     "head": "tilt",
+     "body": "front",
+     "head": "with_body",
      "camera": "eye",
-     "right": "",
-     "left": "",
+     "right": "thumbs_up",
+     "left": "hip",
      "use": "",
      "legs": "",
-     "gaze": "screen_left",
-     "expr": "surprised",
-     "preset": "",
+     "gaze": "camera",
+     "expr": "curious",
+     "preset": "thumbs_waist",
      "ocolor": "",
      "situ": "",
      "ofree": true,
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
-      "source_influence": "subtle",
-      "separates_preference": "balanced"
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
      },
      "garments": [
-      "slip"
+      "shorts"
      ],
      "expose": [
-      "sweetheart neckline",
-      "high thigh slit"
+      "plunging neckline",
+      "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "light"
     },
     {
      "cut": 6,
@@ -607,7 +619,8 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
@@ -647,7 +660,8 @@
       "deep V neckline",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 8,
@@ -687,7 +701,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -726,10 +741,11 @@
       "deep V neckline",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "e9b138ed475fff5580b8a379d4d73f2ce0cdae8e7e60850f2c57bb43588ff9f0"
+   "stamp": "1f10da27415e89294d73e24cadf356c4ae8d9c121e48d4e5335db7d8843f5342"
   }
  ]
 }
