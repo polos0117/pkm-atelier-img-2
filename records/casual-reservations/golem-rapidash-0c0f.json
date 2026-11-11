@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "golem-rapidash-0c0f",
- "at": "2026-11-11T12:21:15+09:00",
+ "at": "2026-11-11T12:36:15+09:00",
  "characters": [
   {
    "species": "golem-20261111",
    "card": "딱구리",
-   "at": "2026-11-11T12:21:15+09:00",
+   "at": "2026-11-11T12:36:15+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -47,7 +47,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -86,7 +87,8 @@
       "deep V neckline",
       "backless"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -127,7 +129,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -167,7 +170,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -176,7 +180,7 @@
      "place": "fx_observatory",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
+     "item": "pc_mini_dress",
      "posture": "stand",
      "support": "none",
      "frame": "full_body",
@@ -197,17 +201,16 @@
       "skin_exposure": "bold",
       "action_level": "mostly posed",
       "source_influence": "subtle",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "dress"
      ],
      "expose": [
-      "deep V neckline",
-      "open back"
+      "plunging neckline",
+      "backless"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
      "cut": 6,
@@ -249,7 +252,8 @@
       "sweetheart neckline",
       "high-cut leg"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -288,7 +292,8 @@
       "deep V neckline",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 8,
@@ -327,7 +332,8 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 9,
@@ -366,15 +372,16 @@
       "sweetheart neckline",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "c05aa65e07e8df91a842c067b352fd691bde5f84d543d2bb3b4a33330b079f5c"
+   "stamp": "9c6c24c44eec1b92d10d4b2eeac4e63a888b12e79bfd7044de9ac154d5f3b2ec"
   },
   {
    "species": "rapidash-20261111",
    "card": "날쌩마",
-   "at": "2026-11-11T12:21:15+09:00",
+   "at": "2026-11-11T12:36:15+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -414,7 +421,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -453,7 +461,8 @@
       "deep V neckline",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -492,7 +501,8 @@
       "sweetheart neckline",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 4,
@@ -532,7 +542,8 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -572,7 +583,8 @@
       "deep V neckline",
       "backless"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -612,7 +624,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 7,
@@ -652,7 +665,8 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 8,
@@ -691,7 +705,8 @@
       "deep V neckline",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 9,
@@ -730,10 +745,11 @@
       "sweetheart neckline",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "881465dbb3cdd26d6b1e120a904a6225e6a5a7d72c02485f9da992a008fe74a6"
+   "stamp": "da8bb4adaf802f7214d161945e832ffd6c76a787096547820a8a0596e3a37afd"
   }
  ]
 }
