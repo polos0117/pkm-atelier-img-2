@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "doduo-a5cd-20261112",
- "at": "2026-11-12T00:18:09+09:00",
+ "at": "2026-11-12T00:20:02+09:00",
  "characters": [
   {
    "species": "doduo-20261112",
    "card": "두두",
-   "at": "2026-11-12T00:18:09+09:00",
+   "at": "2026-11-12T00:20:02+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -45,7 +45,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -84,7 +85,8 @@
       "deep V neckline",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -125,7 +127,8 @@
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -164,27 +167,28 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 5,
      "treeV": 2,
      "era": "now",
-     "place": "night_taxi",
+     "place": "street_alley",
      "weather": "",
      "ofam": "lingerie",
      "item": "kebaya_lace",
-     "posture": "stand",
+     "posture": "squat",
      "support": "none",
      "frame": "environmental",
-     "body": "side",
-     "head": "over_shoulder",
-     "camera": "high",
+     "body": "front_3q",
+     "head": "turn_side",
+     "camera": "eye",
      "right": "",
      "left": "",
      "use": "",
      "legs": "",
-     "gaze": "camera",
+     "gaze": "",
      "expr": "confident",
      "preset": "",
      "ocolor": "grey",
@@ -192,7 +196,7 @@
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
@@ -200,10 +204,10 @@
       "tank"
      ],
      "expose": [
-      "deep V neckline",
-      "cropped hem"
+      "plunging neckline",
+      "halter neck"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 6,
@@ -244,7 +248,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
@@ -283,7 +288,8 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 8,
@@ -322,7 +328,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -364,7 +371,8 @@
       "sweetheart neckline",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 10,
@@ -404,10 +412,11 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "78b6998ca02eecf6770531a0dfee1983cc1aaef6f8f14b35ea75cf7158fb2ecf"
+   "stamp": "3d27c928de55fd59a63df32d032ca2bee940d45baded567e5717e83d782962cc"
   }
  ]
 }
