@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "dodrio-20261112-4410",
- "at": "2026-11-12T06:16:19+09:00",
+ "at": "2026-11-12T06:29:19+09:00",
  "characters": [
   {
    "species": "dodrio-20261112",
    "card": "두트리오",
-   "at": "2026-11-12T06:16:19+09:00",
+   "at": "2026-11-12T06:29:19+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -15,7 +15,7 @@
      "place": "fx_lanternriver",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
+     "item": "pc_corset",
      "posture": "walk",
      "support": "none",
      "frame": "three_quarter",
@@ -39,14 +39,14 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "lingerie_set",
+      "skirt"
      ],
      "expose": [
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "light"
+     "lead": "place"
     },
     {
      "cut": 2,
@@ -88,7 +88,8 @@
       "sweetheart neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -127,7 +128,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -168,7 +170,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 5,
@@ -207,7 +210,8 @@
       "sweetheart neckline",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -246,7 +250,8 @@
       "deep V neckline",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
@@ -287,7 +292,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 8,
@@ -326,7 +332,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 9,
@@ -367,7 +374,8 @@
       "deep V neckline",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 10,
@@ -408,10 +416,11 @@
       "plunging neckline",
       "high thigh slit"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "7c1dedf4406d1a6a2502af6abc0fdbdc0a07554e312e62efb5521485c6cb49ce"
+   "stamp": "af8dbebd5343f6e840929be0782eb7964bfa7b6a000366210a0c9a113dd9cb99"
   }
  ]
 }
