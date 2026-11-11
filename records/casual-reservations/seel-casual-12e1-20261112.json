@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "seel-casual-12e1-20261112",
- "at": "2026-11-12T06:09:10+09:00",
+ "at": "2026-11-12T06:09:44+09:00",
  "characters": [
   {
    "species": "seel-20261112",
    "card": "쥬쥬",
-   "at": "2026-11-12T06:09:10+09:00",
+   "at": "2026-11-12T06:09:44+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -45,7 +45,8 @@
       "deep V neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -85,7 +86,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -124,7 +126,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -165,7 +168,8 @@
       "plunging neckline",
       "bare midriff"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -206,13 +210,14 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
      "treeV": 2,
-     "era": "now",
-     "place": "night_taxi",
+     "era": "fantasy",
+     "place": "fx_library",
      "weather": "",
      "ofam": "pokemon_costume",
      "item": "pc_bodysuit",
@@ -224,7 +229,7 @@
      "camera": "eye",
      "right": "prop",
      "left": "out",
-     "use": "glass_sip",
+     "use": "lantern_raise",
      "legs": "",
      "gaze": "",
      "expr": "wistful",
@@ -243,8 +248,8 @@
       "leggings"
      ],
      "expose": [
-      "plunging neckline",
-      "cutout waist"
+      "deep V neckline",
+      "cropped hem"
      ],
      "lead": "light"
     },
@@ -287,7 +292,8 @@
       "deep V neckline",
       "high-cut leg"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 8,
@@ -327,7 +333,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -366,7 +373,8 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 10,
@@ -405,10 +413,11 @@
       "deep V neckline",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "08669dacbd8367aa4e42152a402351c6194ed5447a2d976c7a7f6cf00c57ed52"
+   "stamp": "95db92dfd8b54e066912abde42f229e78d54aa02cbdc90740155bd8aea446087"
   }
  ]
 }
