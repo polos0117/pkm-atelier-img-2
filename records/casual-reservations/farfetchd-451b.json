@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "farfetchd-451b",
- "at": "2026-11-11T23:39:48+09:00",
+ "at": "2026-11-12T00:04:18+09:00",
  "characters": [
   {
-   "species": "farfetch-d-20261111",
+   "species": "farfetch-d-20261112",
    "card": "파오리",
-   "at": "2026-11-11T23:39:48+09:00",
+   "at": "2026-11-12T00:04:18+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -47,7 +47,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -88,7 +89,8 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -127,7 +129,8 @@
       "deep V neckline",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -166,7 +169,8 @@
       "sweetheart neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -207,7 +211,8 @@
       "plunging neckline",
       "backless"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 6,
@@ -247,35 +252,36 @@
       "deep V neckline",
       "cropped hem"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 7,
      "treeV": 2,
      "era": "in_pokemon",
-     "place": "partner_porch",
+     "place": "partner_park",
      "weather": "",
      "ofam": "evening",
      "item": "slip_dress",
-     "posture": "squat",
-     "support": "none",
+     "posture": "lie_side",
+     "support": "side_floor",
      "frame": "full_body",
      "body": "front",
      "head": "tilt",
      "camera": "high",
-     "right": "prop",
-     "left": "lap",
-     "use": "treat_offer",
-     "legs": "squat_heels",
-     "gaze": "at_prop",
+     "right": "behind_head",
+     "left": "floor_brace",
+     "use": "",
+     "legs": "legs_bent_side",
+     "gaze": "camera",
      "expr": "playful",
-     "preset": "squat_prop",
-     "ocolor": "teal",
+     "preset": "lie_side_full",
+     "ocolor": "grey",
      "situ": "strap",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
@@ -285,9 +291,9 @@
      ],
      "expose": [
       "sweetheart neckline",
-      "halter neck"
+      "side cutouts"
      ],
-     "lead": "light"
+     "lead": "detail"
     },
     {
      "cut": 8,
@@ -327,7 +333,8 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 9,
@@ -366,7 +373,8 @@
       "deep V neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 10,
@@ -405,10 +413,11 @@
       "sweetheart neckline",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "3f2bf5bcfb282daa1e4e5c194a4bea3f832066e4efa9e2fc744d878f2ed06555"
+   "stamp": "a7e4813749ee29ac94951e2b37e0993865ec1886e5810aff8fb7931d83e4f9ce"
   }
  ]
 }
