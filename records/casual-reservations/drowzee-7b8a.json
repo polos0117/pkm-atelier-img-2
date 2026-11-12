@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "drowzee-7b8a",
- "at": "2026-11-12T21:10:48+09:00",
+ "at": "2026-11-12T21:23:54+09:00",
  "characters": [
   {
    "species": "drowzee-20261112",
    "card": "슬리프",
-   "at": "2026-11-12T21:10:48+09:00",
+   "at": "2026-11-12T21:23:54+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -47,7 +47,8 @@
       "deep V neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -89,7 +90,8 @@
       "sweetheart neckline",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -130,7 +132,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -169,7 +172,8 @@
       "deep V neckline",
       "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -208,7 +212,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 6,
@@ -248,7 +253,8 @@
       "plunging neckline",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 7,
@@ -287,30 +293,31 @@
       "deep V neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 8,
      "treeV": 2,
      "era": "in_pokemon",
-     "place": "work_shore",
+     "place": "work_station",
      "weather": "",
      "ofam": "swimwear",
-     "item": "triangle_bikini",
-     "posture": "lie_front",
-     "support": "front_floor",
-     "frame": "full_body",
-     "body": "front",
-     "head": "with_body",
+     "item": "",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "side",
+     "head": "tilt",
      "camera": "low",
-     "right": "chin_both",
-     "left": "chin_both",
+     "right": "",
+     "left": "",
      "use": "",
-     "legs": "feet_up",
+     "legs": "",
      "gaze": "camera",
      "expr": "smug",
-     "preset": "lie_front_full",
-     "ocolor": "grey",
+     "preset": "",
+     "ocolor": "purple",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
@@ -323,10 +330,10 @@
       "bikini"
      ],
      "expose": [
-      "sweetheart neckline",
+      "deep V neckline",
       "high-cut leg"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 9,
@@ -366,7 +373,8 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 10,
@@ -406,10 +414,11 @@
       "deep V neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "2cde048fed63d01518ba8c3332ee88355a0fdaf9af34ea816bac91b8e3c95a7e"
+   "stamp": "98bfd5618a773c76cad4f0a63f8ebbd69efff4fd036aed25111b586eea751af1"
   }
  ]
 }
