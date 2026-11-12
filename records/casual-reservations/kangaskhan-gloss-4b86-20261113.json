@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "kangaskhan-gloss-4b86-20261113",
- "at": "2026-11-13T06:35:51+09:00",
+ "at": "2026-11-13T06:44:43+09:00",
  "characters": [
   {
    "species": "kangaskhan-20261113",
    "card": "캥카",
-   "at": "2026-11-13T06:35:51+09:00",
+   "at": "2026-11-13T06:44:43+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -48,7 +48,8 @@
       "deep V neckline",
       "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -87,46 +88,47 @@
       "plunging neckline",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "fantasy",
-     "place": "fx_library",
+     "place": "fx_lanternriver",
      "weather": "",
      "ofam": "roleplay",
-     "item": "casino_dealer",
-     "posture": "sit_edge",
-     "support": "hip_edge",
+     "item": "uniform_inspired",
+     "posture": "walk",
+     "support": "none",
      "frame": "three_quarter",
-     "body": "front",
-     "head": "with_body",
+     "body": "rear_3q",
+     "head": "over_shoulder",
      "camera": "eye",
-     "right": "edge_brace_both",
-     "left": "edge_brace_both",
-     "use": "",
-     "legs": "knees_together",
+     "right": "prop",
+     "left": "down",
+     "use": "lantern_low",
+     "legs": "walk_pause",
      "gaze": "camera",
-     "expr": "half_smile",
-     "preset": "edge_brace",
-     "ocolor": "blue",
+     "expr": "sensual",
+     "preset": "walk_lookback",
+     "ocolor": "teal",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "mostly active",
       "source_influence": "subtle",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "vest"
+      "uniform"
      ],
      "expose": [
       "sweetheart neckline",
-      "off-shoulder neckline"
+      "open back"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
      "cut": 4,
@@ -166,7 +168,8 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 5,
@@ -205,7 +208,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -245,7 +249,8 @@
       "deep V neckline",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 7,
@@ -285,7 +290,8 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 8,
@@ -325,7 +331,8 @@
       "sweetheart neckline",
       "high thigh slit"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 9,
@@ -364,7 +371,8 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 10,
@@ -403,10 +411,11 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     }
    ],
-   "stamp": "065c594a9c77b054434c4236d0b2935f162105956276a126490600d1637f0f0d"
+   "stamp": "0d4341aa0245c188e4b940d18f2146000b0c615596a5737ac9f5cdbd059e67d2"
   }
  ]
 }
