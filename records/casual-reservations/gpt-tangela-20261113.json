@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-tangela-20261113",
- "at": "2026-11-13T06:36:02+09:00",
+ "at": "2026-11-13T06:38:29+09:00",
  "characters": [
   {
    "species": "tangela-20261113",
    "card": "덩쿠리",
-   "at": "2026-11-13T06:36:02+09:00",
+   "at": "2026-11-13T06:38:29+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -211,7 +211,8 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 6,
@@ -300,18 +301,18 @@
      "place": "stage_festival",
      "weather": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
+     "item": "pc_crop_set",
      "posture": "lean_rail",
      "support": "none",
-     "frame": "full_body",
-     "body": "rear_3q",
-     "head": "turn_side",
-     "camera": "eye",
+     "frame": "three_quarter",
+     "body": "front",
+     "head": "over_shoulder",
+     "camera": "high",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "tiptoe",
-     "gaze": "up",
+     "legs": "stand_relaxed",
+     "gaze": "screen_left",
      "expr": "flustered",
      "preset": "",
      "ocolor": "",
@@ -324,12 +325,12 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "crop_top",
+      "skirt"
      ],
      "expose": [
-      "sweetheart neckline",
-      "off-shoulder neckline"
+      "plunging neckline",
+      "one-shoulder cut"
      ],
      "lead": "detail"
     },
@@ -414,7 +415,7 @@
      "kept": true
     }
    ],
-   "stamp": "1c789cb58cf149dbd4721a5ae8b5339ecb4b7dca0e51a16d035fef3d35fcd3dc"
+   "stamp": "2aff5f2dd0918775ad92cb7f091b9d01281832d251a8d96983439c88ae2352b9"
   }
  ]
 }
