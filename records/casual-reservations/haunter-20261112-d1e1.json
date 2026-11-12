@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "haunter-20261112-d1e1",
- "at": "2026-11-12T15:21:20+09:00",
+ "at": "2026-11-12T15:38:34+09:00",
  "characters": [
   {
    "species": "haunter-20261112",
    "card": "고우스트",
-   "at": "2026-11-12T15:21:20+09:00",
+   "at": "2026-11-12T15:38:34+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -45,7 +45,8 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -86,7 +87,8 @@
       "deep V neckline",
       "backless"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -126,7 +128,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -166,7 +169,8 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -205,7 +209,8 @@
       "deep V neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -245,7 +250,8 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
@@ -285,27 +291,28 @@
       "plunging neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 8,
      "treeV": 2,
      "era": "in_pokemon",
-     "place": "partner_park",
+     "place": "partner_porch",
      "weather": "",
      "ofam": "dongtan",
      "item": "dongtan_crop_skirt",
-     "posture": "squat",
-     "support": "none",
+     "posture": "sit_edge",
+     "support": "hip_edge",
      "frame": "three_quarter",
-     "body": "rear_3q",
-     "head": "turn_side",
-     "camera": "high",
+     "body": "front",
+     "head": "tilt",
+     "camera": "low",
      "right": "",
      "left": "",
      "use": "",
      "legs": "",
-     "gaze": "screen_left",
+     "gaze": "",
      "expr": "determined",
      "preset": "",
      "ocolor": "",
@@ -314,7 +321,7 @@
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
@@ -323,10 +330,10 @@
       "skirt"
      ],
      "expose": [
-      "deep V neckline",
-      "open back"
+      "plunging neckline",
+      "cropped hem"
      ],
-     "lead": "place"
+     "lead": "action"
     },
     {
      "cut": 9,
@@ -366,7 +373,8 @@
       "sweetheart neckline",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 10,
@@ -405,10 +413,11 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "2596a6b05da7cb97a198ce6aeb6cc3766338e9712baa406216e94b01c7b1ae21"
+   "stamp": "dc50f9dc3dd55b571e24bf6cf7d66cac7e88c7a47bc8a7d70b64366a2f577e0c"
   }
  ]
 }
