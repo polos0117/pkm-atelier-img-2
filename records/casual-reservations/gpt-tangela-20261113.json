@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-tangela-20261113",
- "at": "2026-11-13T06:38:29+09:00",
+ "at": "2026-11-13T06:41:14+09:00",
  "characters": [
   {
    "species": "tangela-20261113",
    "card": "덩쿠리",
-   "at": "2026-11-13T06:38:29+09:00",
+   "at": "2026-11-13T06:41:14+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -53,30 +53,30 @@
      "cut": 2,
      "treeV": 2,
      "era": "now",
-     "place": "sports_court",
+     "place": "sports_range",
      "weather": "",
      "ofam": "traditional",
-     "item": "kaftan_daily",
-     "posture": "walk",
-     "support": "none",
+     "item": "kente_modern",
+     "posture": "lean_wall",
+     "support": "back_wall",
      "frame": "full_body",
      "body": "front_3q",
-     "head": "with_body",
+     "head": "tilt",
      "camera": "eye",
-     "right": "prop",
-     "left": "down",
-     "use": "racket_shoulder",
-     "legs": "walk_stride",
-     "gaze": "camera",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "tiptoe",
+     "gaze": "screen_right",
      "expr": "soft_smile",
-     "preset": "stride_prop",
+     "preset": "",
      "ocolor": "",
      "situ": "",
      "ofree": true,
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
@@ -84,11 +84,10 @@
       "dress"
      ],
      "expose": [
-      "sweetheart neckline",
-      "off-shoulder neckline"
+      "plunging neckline",
+      "one-shoulder cut"
      ],
-     "lead": "place",
-     "kept": true
+     "lead": "light"
     },
     {
      "cut": 3,
@@ -332,7 +331,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 9,
@@ -415,7 +415,7 @@
      "kept": true
     }
    ],
-   "stamp": "2aff5f2dd0918775ad92cb7f091b9d01281832d251a8d96983439c88ae2352b9"
+   "stamp": "ca762c5c533d336c731266fd209f5430e853c115d19582224fa88ef45235004b"
   }
  ]
 }
