@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "haunter-20261112-d1e1",
- "at": "2026-11-12T15:38:34+09:00",
+ "at": "2026-11-12T15:44:13+09:00",
  "characters": [
   {
    "species": "haunter-20261112",
    "card": "고우스트",
-   "at": "2026-11-12T15:38:34+09:00",
+   "at": "2026-11-12T15:44:13+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -94,42 +94,40 @@
      "cut": 3,
      "treeV": 2,
      "era": "in_pokemon",
-     "place": "work_lagoon",
+     "place": "work_league",
      "weather": "",
      "ofam": "swimwear",
-     "item": "bandeau_bikini",
-     "posture": "recline",
-     "support": "back_lounger",
-     "frame": "environmental",
-     "body": "front_3q",
+     "item": "plunge_onepiece",
+     "posture": "lean_rail",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "side",
      "head": "with_body",
-     "camera": "high",
-     "right": "behind_head",
-     "left": "prop",
-     "use": "towel_neck",
-     "legs": "legs_extended",
-     "gaze": "camera",
-     "expr": "surprised",
-     "preset": "lounger_drink",
-     "ocolor": "teal",
+     "camera": "eye",
+     "right": "prop",
+     "left": "rail",
+     "use": "ball_hold",
+     "legs": "",
+     "gaze": "at_prop",
+     "expr": "soft_smile",
+     "preset": "counter_cup",
+     "ocolor": "yellow",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini",
-      "crop_top"
+      "swimsuit"
      ],
      "expose": [
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "detail",
-     "kept": true
+     "lead": "action"
     },
     {
      "cut": 4,
@@ -333,7 +331,8 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 9,
@@ -417,7 +416,7 @@
      "kept": true
     }
    ],
-   "stamp": "dc50f9dc3dd55b571e24bf6cf7d66cac7e88c7a47bc8a7d70b64366a2f577e0c"
+   "stamp": "e5d5237c0c3b4e71abe32c05846298300f9897f379d611fdc4f9d55371031693"
   }
  ]
 }
