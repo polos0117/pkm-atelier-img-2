@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-tangela-20261113",
- "at": "2026-11-13T06:26:55+09:00",
+ "at": "2026-11-13T06:36:02+09:00",
  "characters": [
   {
    "species": "tangela-20261113",
    "card": "덩쿠리",
-   "at": "2026-11-13T06:26:55+09:00",
+   "at": "2026-11-13T06:36:02+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -179,23 +179,23 @@
      "era": "now",
      "place": "water_infinity",
      "weather": "",
-     "ofam": "bridal",
-     "item": "bridal_lace",
-     "posture": "lie_side",
-     "support": "side_floor",
-     "frame": "full_body",
-     "body": "front",
-     "head": "tilt",
-     "camera": "high",
-     "right": "behind_head",
-     "left": "floor_brace",
+     "ofam": "adventure",
+     "item": "pirate_corset",
+     "posture": "stand",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "hip",
+     "left": "hair_tuck",
      "use": "",
-     "legs": "legs_bent_side",
+     "legs": "contrapposto",
      "gaze": "camera",
-     "expr": "flustered",
-     "preset": "lie_side_full",
-     "ocolor": "ivory",
-     "situ": "wet",
+     "expr": "determined",
+     "preset": "hip_contra",
+     "ocolor": "grey",
+     "situ": "undone",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -204,14 +204,14 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "lingerie_set",
+      "shirt"
      ],
      "expose": [
-      "sweetheart neckline",
-      "bare midriff"
+      "plunging neckline",
+      "high-cut leg"
      ],
-     "lead": "action",
-     "kept": true
+     "lead": "place"
     },
     {
      "cut": 6,
@@ -297,29 +297,29 @@
      "cut": 8,
      "treeV": 2,
      "era": "now",
-     "place": "home_bath",
+     "place": "stage_festival",
      "weather": "",
      "ofam": "pokemon_costume",
      "item": "pc_bodysuit",
-     "posture": "stand",
+     "posture": "lean_rail",
      "support": "none",
-     "frame": "three_quarter",
-     "body": "front_3q",
-     "head": "with_body",
+     "frame": "full_body",
+     "body": "rear_3q",
+     "head": "turn_side",
      "camera": "eye",
-     "right": "hip",
-     "left": "hair_tuck",
+     "right": "",
+     "left": "",
      "use": "",
-     "legs": "contrapposto",
-     "gaze": "camera",
-     "expr": "determined",
-     "preset": "hip_contra",
+     "legs": "tiptoe",
+     "gaze": "up",
+     "expr": "flustered",
+     "preset": "",
      "ocolor": "",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
@@ -328,10 +328,10 @@
       "leggings"
      ],
      "expose": [
-      "plunging neckline",
-      "one-shoulder cut"
+      "sweetheart neckline",
+      "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "detail"
     },
     {
      "cut": 9,
@@ -414,7 +414,7 @@
      "kept": true
     }
    ],
-   "stamp": "88e9161fa71958b568de358e4bfdfbaacc5527e0613f50cdc1d07a15ff2a0f91"
+   "stamp": "1c789cb58cf149dbd4721a5ae8b5339ecb4b7dca0e51a16d035fef3d35fcd3dc"
   }
  ]
 }
