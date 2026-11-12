@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "weezing-3a77-20261113",
- "at": "2026-11-13T01:28:55+09:00",
+ "at": "2026-11-13T01:43:05+09:00",
  "characters": [
   {
    "species": "weezing-20261113",
    "card": "또도가스",
-   "at": "2026-11-13T01:28:55+09:00",
+   "at": "2026-11-13T01:43:05+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -47,7 +47,8 @@
       "sweetheart neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -86,7 +87,8 @@
       "deep V neckline",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -127,7 +129,8 @@
       "plunging neckline",
       "backless"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -168,7 +171,8 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -210,46 +214,47 @@
       "deep V neckline",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
      "treeV": 2,
      "era": "fantasy",
-     "place": "fx_oasis",
+     "place": "fx_chapel",
      "weather": "",
      "ofam": "swimwear",
-     "item": "halter_bikini",
-     "posture": "kneel",
-     "support": "none",
+     "item": "boyshort_swim",
+     "posture": "sit_edge",
+     "support": "hip_edge",
      "frame": "full_body",
-     "body": "front",
+     "body": "side",
      "head": "over_shoulder",
-     "camera": "high",
+     "camera": "eye",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "kneel_sit",
-     "gaze": "",
+     "legs": "dangle",
+     "gaze": "horizon",
      "expr": "laughing",
      "preset": "",
-     "ocolor": "grey",
+     "ocolor": "red",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "balanced",
       "separates_preference": "balanced"
      },
      "garments": [
-      "bikini"
+      "swimsuit"
      ],
      "expose": [
-      "plunging neckline",
-      "bare midriff"
+      "sweetheart neckline",
+      "strapless top"
      ],
-     "lead": "action"
+     "lead": "detail"
     },
     {
      "cut": 7,
@@ -289,7 +294,8 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 8,
@@ -328,7 +334,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -368,7 +375,8 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 10,
@@ -407,10 +415,11 @@
       "sweetheart neckline",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "c3c4cd9a9d2c9f5403bb8d91c8a1d5ab82dea2aa2593106f069a8ad7e6f266cb"
+   "stamp": "1bebb6528a12758075ca3b45f729f775a71f2472a413095f358fa0a65902e4fa"
   }
  ]
 }
