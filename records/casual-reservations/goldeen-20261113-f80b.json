@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "goldeen-20261113-f80b",
- "at": "2026-11-13T09:30:00+09:00",
+ "at": "2026-11-13T09:44:40+09:00",
  "characters": [
   {
    "species": "goldeen-20261113",
    "card": "콘치",
-   "at": "2026-11-13T09:30:00+09:00",
+   "at": "2026-11-13T09:44:40+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -47,7 +47,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -86,7 +87,8 @@
       "deep V neckline",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -125,7 +127,8 @@
       "plunging neckline",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -164,7 +167,8 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 5,
@@ -204,7 +208,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 6,
@@ -213,21 +218,21 @@
      "place": "greenhouse",
      "weather": "",
      "ofam": "bridal",
-     "item": "bridal_lace",
-     "posture": "lean_counter",
-     "support": "none",
+     "item": "beaded_mini",
+     "posture": "lean_wall",
+     "support": "back_wall",
      "frame": "environmental",
-     "body": "front_3q",
-     "head": "turn_side",
-     "camera": "eye",
+     "body": "rear_3q",
+     "head": "over_shoulder",
+     "camera": "high",
      "right": "",
      "left": "",
      "use": "",
-     "legs": "stand_relaxed",
+     "legs": "step_forward",
      "gaze": "",
      "expr": "calm",
      "preset": "",
-     "ocolor": "ivory",
+     "ocolor": "blue",
      "situ": "wind",
      "axes": {
       "overall_intensity": "strong",
@@ -237,13 +242,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "dress"
      ],
      "expose": [
-      "plunging neckline",
-      "high-cut leg"
+      "sweetheart neckline",
+      "backless"
      ],
-     "lead": "action"
+     "lead": "light"
     },
     {
      "cut": 7,
@@ -282,7 +287,8 @@
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 8,
@@ -322,7 +328,8 @@
       "deep V neckline",
       "cropped hem"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -362,7 +369,8 @@
       "plunging neckline",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 10,
@@ -402,10 +410,11 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "c7242a0efff1245785f4eb2557905357d6049a969216d4c25deb99f7d782bc9c"
+   "stamp": "398b599685e88a8ed7973a4bfd05f450d7e8e3f3098e3dd2ac92cb2cc4735027"
   }
  ]
 }
