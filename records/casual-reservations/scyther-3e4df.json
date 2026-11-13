@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "scyther-3e4df",
- "at": "2026-11-13T22:30:28+09:00",
+ "at": "2026-11-13T22:32:37+09:00",
  "characters": [
   {
    "species": "scyther-20261113",
    "card": "스라크",
-   "at": "2026-11-13T22:30:28+09:00",
+   "at": "2026-11-13T22:32:37+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -51,7 +51,8 @@
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -96,7 +97,8 @@
       "deep V neckline",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -142,7 +144,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -187,7 +190,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 5,
@@ -231,7 +235,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -275,32 +280,33 @@
       "plunging neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
      "treeV": 2,
      "era": "release",
-     "place": "night_taxi",
+     "place": "night_jazz",
      "weather": "",
-     "time": "lamplight",
-     "light": "low_warm",
+     "time": "",
+     "light": "top",
      "spot": "right_third",
-     "depth": "deep",
+     "depth": "",
      "view": "",
      "ofam": "roleplay",
      "item": "adult_maid",
-     "posture": "walk",
+     "posture": "sit_lean",
      "support": "none",
      "frame": "full_body",
-     "body": "front",
-     "head": "with_body",
+     "body": "side",
+     "head": "over_shoulder",
      "camera": "low",
      "right": "natural",
      "left": "natural",
      "use": "",
-     "legs": "walk_pause",
-     "gaze": "screen_left",
+     "legs": "cross_legs",
+     "gaze": "camera",
      "expr": "laughing",
      "preset": "",
      "ocolor": "ivory",
@@ -308,7 +314,7 @@
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
@@ -317,9 +323,9 @@
      ],
      "expose": [
       "deep V neckline",
-      "open back"
+      "cutout waist"
      ],
-     "lead": "place"
+     "lead": "light"
     },
     {
      "cut": 8,
@@ -363,7 +369,8 @@
       "sweetheart neckline",
       "high-cut leg"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 9,
@@ -408,7 +415,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 10,
@@ -454,10 +462,11 @@
       "deep V neckline",
       "mini length"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     }
    ],
-   "stamp": "c4451285993a148e640eecc5453c92f61a70fa030c82bf2cea55e0cf3bd08daa"
+   "stamp": "9f975b5e4541d6cfdb8d759471b9cd31f73d5adbe45b81a516db84905e03367e"
   }
  ]
 }
