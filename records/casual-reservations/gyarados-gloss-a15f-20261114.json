@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gyarados-gloss-a15f-20261114",
- "at": "2026-11-14T08:29:56+09:00",
+ "at": "2026-11-14T08:43:07+09:00",
  "characters": [
   {
    "species": "gyarados-20261114",
    "card": "갸라도스",
-   "at": "2026-11-14T08:29:56+09:00",
+   "at": "2026-11-14T08:43:07+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -51,7 +51,8 @@
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 2,
@@ -97,7 +98,8 @@
       "deep V neckline",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -144,7 +146,8 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -188,7 +191,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 5,
@@ -232,7 +236,8 @@
       "sweetheart neckline",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -276,7 +281,8 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -320,21 +326,22 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 8,
      "treeV": 2,
      "era": "now",
-     "place": "car_wash",
+     "place": "subway_platform",
      "weather": "",
-     "time": "golden",
-     "light": "back",
-     "spot": "right_third",
+     "time": "",
+     "light": "",
+     "spot": "",
      "depth": "flat",
-     "view": "foreground",
+     "view": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
+     "item": "pc_corset",
      "posture": "walk",
      "support": "none",
      "frame": "three_quarter",
@@ -343,7 +350,7 @@
      "camera": "low",
      "right": "prop",
      "left": "down",
-     "use": "sponge_hold",
+     "use": "camera_carry",
      "legs": "walk_pause",
      "gaze": "camera",
      "expr": "curious",
@@ -358,14 +365,14 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "lingerie_set",
+      "skirt"
      ],
      "expose": [
       "sweetheart neckline",
-      "halter neck"
+      "cutout waist"
      ],
-     "lead": "action"
+     "lead": "detail"
     },
     {
      "cut": 9,
@@ -409,7 +416,8 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 10,
@@ -455,10 +463,11 @@
       "deep V neckline",
       "off-shoulder neckline"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "e15be81c04eba6f7b25e46963818f9c119e42885fc16928255afd070b0dd2aff"
+   "stamp": "098600e672c02e73e3f278b88ed8462d9e9cc9b42d537c6d61d2d2382e585dca"
   }
  ]
 }
