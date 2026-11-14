@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "cyndaquil-b73caa",
- "at": "2026-11-14T21:13:44+09:00",
+ "at": "2026-11-14T21:17:10+09:00",
  "characters": [
   {
    "species": "cyndaquil-20261114",
    "card": "브케인",
-   "at": "2026-11-14T21:13:44+09:00",
+   "at": "2026-11-14T21:17:10+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -98,7 +98,8 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -240,46 +241,45 @@
      "cut": 6,
      "treeV": 2,
      "era": "now",
-     "place": "arcade_photo",
+     "place": "arcade_hall",
      "weather": "",
-     "time": "",
+     "time": "lamplight",
      "light": "",
      "spot": "",
-     "depth": "flat",
+     "depth": "",
      "view": "",
      "ofam": "halloween",
-     "item": "hw_black_cat",
-     "posture": "lean_wall",
-     "support": "back_wall",
-     "frame": "waist_up",
-     "body": "rear_3q",
-     "head": "tilt",
+     "item": "hw_skeleton",
+     "posture": "stand",
+     "support": "none",
+     "frame": "full_body",
+     "body": "side",
+     "head": "over_shoulder",
      "camera": "low",
      "right": "natural",
      "left": "natural",
      "use": "",
-     "legs": "",
-     "gaze": "screen_left",
+     "legs": "contrapposto",
+     "gaze": "down",
      "expr": "candid",
      "preset": "",
-     "ocolor": "black",
-     "situ": "strap",
+     "ocolor": "ivory",
+     "situ": "undone",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "bodysuit"
      ],
      "expose": [
-      "plunging neckline",
-      "cutout waist"
+      "sweetheart neckline",
+      "strapless top"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 7,
@@ -467,7 +467,7 @@
      "kept": true
     }
    ],
-   "stamp": "9a7bf61eb4c24ce5e986b69af64289d9d9c26b0452e42811a3dc33d2b659c5eb"
+   "stamp": "d450b0cc7a951ed55cb6c78ebfcd78720ecba782afdf9e4f17edde0c91eb9776"
   }
  ]
 }
