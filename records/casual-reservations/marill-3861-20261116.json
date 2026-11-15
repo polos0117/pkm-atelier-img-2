@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "marill-3861-20261116",
- "at": "2026-11-16T07:32:10+09:00",
+ "at": "2026-11-16T07:45:21+09:00",
  "characters": [
   {
    "species": "marill-20261116",
    "card": "마릴",
-   "at": "2026-11-16T07:32:10+09:00",
+   "at": "2026-11-16T07:45:21+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -53,7 +53,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -98,7 +99,8 @@
       "deep V neckline",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -143,7 +145,8 @@
       "sweetheart neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -188,7 +191,8 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -234,6 +238,7 @@
       "cutout waist"
      ],
      "lead": "action",
+     "kept": true,
      "cosplay": {
       "game": "nier_automata",
       "character": "2B",
@@ -283,7 +288,8 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -327,35 +333,36 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 8,
      "treeV": 2,
      "era": "release",
      "place": "travel_dunes",
-     "weather": "rain",
+     "weather": "",
      "time": "",
      "light": "dappled",
      "spot": "",
      "depth": "deep",
      "view": "",
      "ofam": "swimwear",
-     "item": "oring_bikini",
-     "posture": "lie_front",
-     "support": "front_floor",
-     "frame": "full_body",
-     "body": "front",
+     "item": "triangle_bikini",
+     "posture": "lie_side",
+     "support": "side_floor",
+     "frame": "environmental",
+     "body": "rear_3q",
      "head": "with_body",
      "camera": "low",
-     "right": "chin_both",
-     "left": "chin_both",
+     "right": "natural",
+     "left": "natural",
      "use": "",
-     "legs": "feet_up",
-     "gaze": "camera",
+     "legs": "legs_extended",
+     "gaze": "screen_right",
      "expr": "half_smile",
-     "preset": "lie_front_full",
-     "ocolor": "black",
+     "preset": "",
+     "ocolor": "red",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
@@ -368,10 +375,10 @@
       "bikini"
      ],
      "expose": [
-      "deep V neckline",
-      "high-cut leg"
+      "plunging neckline",
+      "side cutouts"
      ],
-     "lead": "place"
+     "lead": "detail"
     },
     {
      "cut": 9,
@@ -416,7 +423,8 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 10,
@@ -461,10 +469,11 @@
       "plunging neckline",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "f300454d5e7bff607ce470a0e5708b67c0d4276bbecdf221bb9ca24ca0fe4007"
+   "stamp": "d53d9750b0c35c0886a650ff63ca48a3c8ac36bacb03ab9deac570f81be88288"
   }
  ]
 }
