@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "sudowoodo-20261116",
- "at": "2026-11-16T07:50:21+09:00",
+ "at": "2026-11-16T08:00:29+09:00",
  "characters": [
   {
    "species": "sudowoodo-20261116",
    "card": "꼬지모",
-   "at": "2026-11-16T07:50:21+09:00",
+   "at": "2026-11-16T08:00:29+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -53,7 +53,8 @@
       "deep V neckline",
       "bare midriff"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -62,26 +63,26 @@
      "place": "home_closet",
      "weather": "",
      "time": "lamplight",
-     "light": "side",
+     "light": "low_warm",
      "spot": "right_third",
      "depth": "flat",
      "view": "",
      "ofam": "lingerie",
-     "item": "open_shirt_lingerie",
+     "item": "asymmetric_lingerie",
      "posture": "lean_wall",
      "support": "back_wall",
      "frame": "three_quarter",
-     "body": "front",
-     "head": "tilt",
-     "camera": "eye",
+     "body": "rear_3q",
+     "head": "with_body",
+     "camera": "high",
      "right": "natural",
      "left": "natural",
      "use": "",
-     "legs": "stand_relaxed",
-     "gaze": "camera",
+     "legs": "contrapposto",
+     "gaze": "screen_left",
      "expr": "wink",
      "preset": "",
-     "ocolor": "yellow",
+     "ocolor": "teal",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
@@ -91,14 +92,13 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set",
-      "shirt"
+      "lingerie_set"
      ],
      "expose": [
-      "plunging neckline",
+      "deep V neckline",
       "high-cut leg"
      ],
-     "lead": "light"
+     "lead": "detail"
     },
     {
      "cut": 3,
@@ -142,7 +142,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 4,
@@ -187,7 +188,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -232,7 +234,8 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -241,23 +244,23 @@
      "place": "night_club",
      "weather": "",
      "time": "lamplight",
-     "light": "low_warm",
+     "light": "",
      "spot": "left_third",
      "depth": "",
-     "view": "foreground",
+     "view": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "lean_counter",
+     "item": "pc_crop_set",
+     "posture": "walk",
      "support": "none",
      "frame": "three_quarter",
-     "body": "rear_3q",
+     "body": "side",
      "head": "tilt",
      "camera": "low",
      "right": "natural",
      "left": "natural",
      "use": "",
-     "legs": "stand_relaxed",
-     "gaze": "",
+     "legs": "walk_pause",
+     "gaze": "screen_left",
      "expr": "candid",
      "preset": "",
      "ocolor": "",
@@ -265,19 +268,19 @@
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly active",
       "source_influence": "strong",
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "crop_top",
+      "skirt"
      ],
      "expose": [
-      "sweetheart neckline",
-      "cropped hem"
+      "plunging neckline",
+      "bare midriff"
      ],
-     "lead": "light"
+     "lead": "action"
     },
     {
      "cut": 7,
@@ -321,7 +324,8 @@
       "deep V neckline",
       "one-shoulder cut"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 8,
@@ -366,6 +370,7 @@
       "side cutouts"
      ],
      "lead": "place",
+     "kept": true,
      "cosplay": {
       "game": "war_of_genesis_3",
       "character": "",
@@ -417,7 +422,8 @@
       "sweetheart neckline",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 10,
@@ -461,10 +467,11 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     }
    ],
-   "stamp": "eb90689fad4036753c8f90e8a3073cd1b5cafcb2327fc8da1081a2ab66a57549"
+   "stamp": "f5f63481c4c282761805ba7c9f71856a3e0328d0398b6639e15041d1894b8d4b"
   }
  ]
 }
