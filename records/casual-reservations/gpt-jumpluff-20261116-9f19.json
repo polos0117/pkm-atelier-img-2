@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "gpt-jumpluff-20261116-9f19",
- "at": "2026-11-16T12:49:24+09:00",
+ "at": "2026-11-16T13:03:32+09:00",
  "characters": [
   {
    "species": "jumpluff-20261116",
    "card": "솜솜코",
-   "at": "2026-11-16T12:49:24+09:00",
+   "at": "2026-11-16T13:03:32+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -50,7 +50,8 @@
       "deep V neckline",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -95,7 +96,8 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -140,6 +142,7 @@
       "bare midriff"
      ],
      "lead": "light",
+     "kept": true,
      "cosplay": {
       "game": "starcraft",
       "character": "Selendis",
@@ -189,7 +192,8 @@
       "deep V neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -233,7 +237,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 6,
@@ -279,32 +284,33 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 7,
      "treeV": 2,
      "era": "now",
      "place": "home_veranda",
-     "weather": "night_snow",
-     "time": "night",
-     "light": "top",
+     "weather": "",
+     "time": "",
+     "light": "dappled",
      "spot": "",
-     "depth": "layered",
+     "depth": "",
      "view": "",
      "ofam": "pokemon_costume",
-     "item": "pc_bodysuit",
-     "posture": "kneel",
+     "item": "pc_corset",
+     "posture": "half_kneel",
      "support": "none",
      "frame": "environmental",
-     "body": "side",
+     "body": "rear_3q",
      "head": "tilt",
-     "camera": "floor",
+     "camera": "eye",
      "right": "natural",
      "left": "natural",
      "use": "",
-     "legs": "knees_together",
-     "gaze": "screen_right",
+     "legs": "",
+     "gaze": "down",
      "expr": "relieved",
      "preset": "",
      "ocolor": "",
@@ -317,14 +323,14 @@
       "separates_preference": "prefer separates"
      },
      "garments": [
-      "bodysuit",
-      "leggings"
+      "lingerie_set",
+      "skirt"
      ],
      "expose": [
       "deep V neckline",
-      "halter neck"
+      "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "place"
     },
     {
      "cut": 8,
@@ -369,7 +375,8 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 9,
@@ -414,7 +421,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 10,
@@ -459,10 +467,11 @@
       "deep V neckline",
       "open back"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "bb6a187f93d2df475d6b217994a84534afa423662cb4c669c72a6f65c1f09664"
+   "stamp": "8d92d757cf7d038ea58b0c44b210ec65671ac37a15e977c25a6185de965fe663"
   }
  ]
 }
