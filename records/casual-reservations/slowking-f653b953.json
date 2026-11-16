@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "slowking-f653b953",
- "at": "2026-11-16T16:52:20+09:00",
+ "at": "2026-11-16T17:23:00+09:00",
  "characters": [
   {
    "species": "slowking-20261116",
    "card": "야도킹",
-   "at": "2026-11-16T16:52:20+09:00",
+   "at": "2026-11-16T17:23:00+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -49,7 +49,8 @@
       "plunging neckline",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 2,
@@ -93,7 +94,8 @@
       "sweetheart neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 3,
@@ -138,7 +140,8 @@
       "deep V neckline",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 4,
@@ -182,7 +185,8 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 5,
@@ -225,7 +229,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -271,6 +276,7 @@
       "side cutouts"
      ],
      "lead": "action",
+     "kept": true,
      "cosplay": {
       "game": "resident_evil_2",
       "character": "Claire Redfield",
@@ -320,7 +326,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 8,
@@ -363,7 +370,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -409,36 +417,37 @@
       "sweetheart neckline",
       "strapless top"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 10,
      "treeV": 2,
      "era": "now",
      "place": "stage_festival",
-     "weather": "rain",
-     "time": "dusk",
-     "light": "dappled",
+     "weather": "",
+     "time": "noon",
+     "light": "",
      "spot": "",
      "depth": "flat",
-     "view": "foreground",
+     "view": "",
      "ofam": "bridal",
-     "item": "bridal_lace",
-     "posture": "step_up",
+     "item": "slip_wedding",
+     "posture": "stand",
      "support": "none",
      "frame": "three_quarter",
      "body": "rear_3q",
-     "head": "turn_side",
-     "camera": "low",
+     "head": "with_body",
+     "camera": "high",
      "right": "natural",
      "left": "natural",
      "use": "",
-     "legs": "",
-     "gaze": "screen_right",
+     "legs": "stand_relaxed",
+     "gaze": "up",
      "expr": "laughing",
      "preset": "",
-     "ocolor": "ivory",
-     "situ": "wet",
+     "ocolor": "orange",
+     "situ": "strap",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
@@ -447,16 +456,17 @@
       "separates_preference": "balanced"
      },
      "garments": [
-      "lingerie_set"
+      "dress",
+      "slip"
      ],
      "expose": [
       "plunging neckline",
-      "bare midriff"
+      "halter neck"
      ],
-     "lead": "light"
+     "lead": "detail"
     }
    ],
-   "stamp": "29a9e8274ab423b089670c098dda4ae0c62157edb94185715efc66012882f3f4"
+   "stamp": "f8dfdb38504eec29c498b4e688f35cebb4527cec25fcb9063346361cc6db5510"
   }
  ]
 }
