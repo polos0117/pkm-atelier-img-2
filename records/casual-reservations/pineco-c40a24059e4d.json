@@ -1,59 +1,60 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "pineco-c40a24059e4d",
- "at": "2026-11-16T20:27:51+09:00",
+ "at": "2026-11-16T20:53:53+09:00",
  "characters": [
   {
    "species": "pineco-20261116",
    "card": "피콘",
-   "at": "2026-11-16T20:27:51+09:00",
+   "at": "2026-11-16T20:53:53+09:00",
    "cuts": [
     {
      "cut": 1,
      "treeV": 2,
      "era": "now",
-     "place": "stage_contest",
+     "place": "stage_event",
      "weather": "",
      "time": "lamplight",
-     "light": "top",
-     "spot": "",
-     "depth": "deep",
+     "light": "",
+     "spot": "right_third",
+     "depth": "",
      "view": "",
      "ofam": "game_cosplay",
-     "item": "gc_lingerie",
-     "posture": "walk",
-     "support": "none",
+     "item": "gc_one_piece",
+     "posture": "lean_wall",
+     "support": "back_wall",
      "frame": "three_quarter",
-     "body": "rear_3q",
-     "head": "over_shoulder",
-     "camera": "eye",
-     "right": "prop",
-     "left": "down",
-     "use": "camera_carry",
-     "legs": "walk_pause",
-     "gaze": "camera",
-     "expr": "confident",
-     "preset": "walk_lookback",
+     "body": "front_3q",
+     "head": "turn_side",
+     "camera": "high",
+     "right": "natural",
+     "left": "natural",
+     "use": "",
+     "legs": "",
+     "gaze": "screen_right",
+     "expr": "wistful",
+     "preset": "",
      "ocolor": "",
+     "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly active",
+      "action_level": "balanced",
       "source_influence": "balanced",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
      "garments": [
-      "crop_top"
+      "swimsuit"
      ],
      "expose": [
       "sweetheart neckline",
-      "mini length"
+      "high-cut leg"
      ],
      "lead": "detail",
      "cosplay": {
-      "game": "overwatch",
-      "character": "Echo",
-      "cut": "lingerie",
+      "game": "world_of_warcraft",
+      "character": "a draenei shaman",
+      "cut": "one_piece",
       "round": 1
      }
     },
@@ -100,7 +101,8 @@
       "deep V neckline",
       "high-cut leg"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 3,
@@ -144,7 +146,8 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 4,
@@ -187,7 +190,8 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 5,
@@ -231,7 +235,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -276,7 +281,8 @@
       "plunging neckline",
       "one-shoulder cut"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 7,
@@ -320,7 +326,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 8,
@@ -365,7 +372,8 @@
       "deep V neckline",
       "side cutouts"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 9,
@@ -410,7 +418,8 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 10,
@@ -453,10 +462,11 @@
       "sweetheart neckline",
       "bare midriff"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "8796d2986bb583b5c2976801b9da8e4adfd1658de06e70bb28e13257fff1667e"
+   "stamp": "ed6c7a8f939984f25ad97e43dab52d2382d6d5704d90b16c477c45038b725e4f"
   }
  ]
 }
