@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "hoppip-20261116-c46841",
- "at": "2026-11-16T12:33:51+09:00",
+ "at": "2026-11-16T12:37:06+09:00",
  "characters": [
   {
    "species": "hoppip-20261116",
    "card": "통통코",
-   "at": "2026-11-16T12:33:51+09:00",
+   "at": "2026-11-16T12:37:06+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -337,7 +337,8 @@
       "sweetheart neckline",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 8,
@@ -390,30 +391,30 @@
     {
      "cut": 9,
      "treeV": 2,
-     "era": "now",
+     "era": "release",
      "place": "water_pool",
-     "weather": "summer",
+     "weather": "",
      "time": "",
      "light": "back",
      "spot": "left_third",
-     "depth": "deep",
-     "view": "",
+     "depth": "",
+     "view": "foreground",
      "ofam": "swimwear",
-     "item": "halter_bikini",
-     "posture": "lie_front",
-     "support": "front_floor",
-     "frame": "environmental",
-     "body": "front_3q",
-     "head": "over_shoulder",
-     "camera": "high",
-     "right": "",
-     "left": "",
+     "item": "crochet_bikini",
+     "posture": "sit_sideways",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "rear_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "natural",
+     "left": "natural",
      "use": "",
-     "legs": "",
-     "gaze": "camera",
+     "legs": "knees_together",
+     "gaze": "up",
      "expr": "soft_smile",
      "preset": "",
-     "ocolor": "brown",
+     "ocolor": "grey",
      "situ": "",
      "axes": {
       "overall_intensity": "strong",
@@ -426,11 +427,10 @@
       "bikini"
      ],
      "expose": [
-      "deep V neckline",
-      "high-cut leg"
+      "sweetheart neckline",
+      "open back"
      ],
-     "lead": "place",
-     "kept": true
+     "lead": "place"
     },
     {
      "cut": 10,
@@ -480,7 +480,7 @@
      "kept": true
     }
    ],
-   "stamp": "e6e0c74a4697d40b00c9b31560da5c2b5c63da6e2e0d0a7949c47672f5910482"
+   "stamp": "b6453e89522b438dd322a301dea30903561dc6db0d3c4cf41472a76fed02c165"
   }
  ]
 }
