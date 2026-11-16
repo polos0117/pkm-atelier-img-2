@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "aipom-20261116-2ac7",
- "at": "2026-11-16T13:05:31+09:00",
+ "at": "2026-11-16T13:22:44+09:00",
  "characters": [
   {
    "species": "aipom-20261116",
    "card": "에이팜",
-   "at": "2026-11-16T13:05:31+09:00",
+   "at": "2026-11-16T13:22:44+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -50,7 +50,8 @@
       "plunging neckline",
       "mini length"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 2,
@@ -94,7 +95,8 @@
       "sweetheart neckline",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
@@ -140,7 +142,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 4,
@@ -184,7 +187,8 @@
       "plunging neckline",
       "high-cut leg"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -228,7 +232,8 @@
       "sweetheart neckline",
       "backless"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 6,
@@ -273,7 +278,8 @@
       "deep V neckline",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -318,21 +324,22 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 8,
      "treeV": 2,
      "era": "now",
-     "place": "home_bedroom",
-     "weather": "",
-     "time": "",
-     "light": "",
+     "place": "home_living",
+     "weather": "spring",
+     "time": "noon",
+     "light": "two_tone",
      "spot": "",
      "depth": "",
-     "view": "",
+     "view": "foreground",
      "ofam": "game_cosplay",
-     "item": "gc_lingerie",
+     "item": "gc_mini_dress",
      "posture": "recline",
      "support": "back_lounger",
      "frame": "environmental",
@@ -352,21 +359,21 @@
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "mostly posed",
-      "source_influence": "subtle",
-      "separates_preference": "prefer separates"
+      "source_influence": "strong",
+      "separates_preference": "balanced"
      },
      "garments": [
-      "crop_top"
+      "dress"
      ],
      "expose": [
-      "sweetheart neckline",
-      "bare midriff"
+      "plunging neckline",
+      "mini length"
      ],
-     "lead": "detail",
+     "lead": "action",
      "cosplay": {
-      "game": "overwatch",
-      "character": "Widowmaker",
-      "cut": "lingerie",
+      "game": "war_of_genesis_3",
+      "character": "Vermont",
+      "cut": "mini_dress",
       "round": 1
      }
     },
@@ -414,7 +421,8 @@
       "deep V neckline",
       "side cutouts"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 10,
@@ -461,10 +469,11 @@
       "plunging neckline",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "16ca663b0eb90164a8dbd34d7f76f6173210466b499d00b2ed801846a2beb263"
+   "stamp": "d383d511c127ac2aa9e714dad8b6bef7951e7482d639ccd17d8f048cf44302ea"
   }
  ]
 }
