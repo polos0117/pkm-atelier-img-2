@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "torchic-a649da8546bf",
- "at": "2026-11-20T08:38:22+09:00",
+ "at": "2026-11-20T08:47:51+09:00",
  "characters": [
   {
    "species": "torchic-20261120",
    "card": "아차모",
-   "at": "2026-11-20T08:38:22+09:00",
+   "at": "2026-11-20T08:47:51+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -53,6 +53,7 @@
       "cutout waist"
      ],
      "lead": "light",
+     "kept": true,
      "cosplay": {
       "game": "dragon_quest",
       "character": "the Slime",
@@ -104,41 +105,43 @@
       "plunging neckline",
       "bare midriff"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 3,
      "treeV": 2,
      "era": "release",
-     "place": "sports_range",
+     "place": "sports_wall",
      "weather": "",
-     "time": "noon",
+     "time": "fluorescent",
      "moment": "",
-     "light": "dappled",
+     "light": "",
      "spot": "",
-     "depth": "flat",
+     "depth": "",
      "view": "",
      "ofam": "work",
      "item": "lab_coat",
-     "posture": "stand",
-     "support": "none",
-     "frame": "face_close",
-     "body": "side",
-     "head": "with_body",
-     "camera": "eye",
-     "right": "hair_tuck",
-     "left": "out",
+     "posture": "lean_wall",
+     "support": "back_wall",
+     "frame": "chest_up",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "floor",
+     "right": "natural",
+     "left": "natural",
      "use": "",
      "legs": "",
-     "gaze": "down",
+     "gaze": "",
      "expr": "laughing",
-     "preset": "hair_close",
+     "preset": "",
      "ocolor": "ivory",
      "shade": "",
+     "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "mostly posed",
+      "action_level": "balanced",
       "source_influence": "balanced",
       "separates_preference": "prefer separates"
      },
@@ -148,10 +151,10 @@
       "trousers"
      ],
      "expose": [
-      "sweetheart neckline",
-      "open back"
+      "deep V neckline",
+      "cutout waist"
      ],
-     "lead": "action"
+     "lead": "light"
     },
     {
      "cut": 4,
@@ -196,7 +199,8 @@
       "deep V neckline",
       "off-shoulder neckline"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 5,
@@ -241,7 +245,8 @@
       "plunging neckline",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -286,7 +291,8 @@
       "sweetheart neckline",
       "side cutouts"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 7,
@@ -332,7 +338,8 @@
       "deep V neckline",
       "high thigh slit"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 8,
@@ -379,7 +386,8 @@
       "plunging neckline",
       "strapless top"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 9,
@@ -426,7 +434,8 @@
       "deep V neckline",
       "one-shoulder cut"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 10,
@@ -473,10 +482,11 @@
       "sweetheart neckline",
       "halter neck"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     }
    ],
-   "stamp": "feab461cf8b81b9e41946a1a7dc4f7b8cd74629c9366ad7cfb47ffd65801ae3f"
+   "stamp": "d0d77ef8e5fad9e2de761e9a31da3c253bb98ae6d0949510a0892693f6aac50d"
   }
  ]
 }
