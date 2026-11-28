@@ -1,12 +1,12 @@
 {
  "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 손으로 쓰거나 고치지 않는다(캐릭터마다 도장 stamp — 고치면 verify·관리기가 막는다). 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
  "session": "cacturne-20261129-3e39",
- "at": "2026-11-29T01:12:50+09:00",
+ "at": "2026-11-29T01:14:16+09:00",
  "characters": [
   {
    "species": "cacturne-20261129",
    "card": "밤선인",
-   "at": "2026-11-29T01:12:50+09:00",
+   "at": "2026-11-29T01:14:16+09:00",
    "cuts": [
     {
      "cut": 1,
@@ -57,7 +57,8 @@
       "sweetheart neckline",
       "cropped hem"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 2,
@@ -107,7 +108,8 @@
       "deep V neckline",
       "high-cut leg"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 3,
@@ -116,88 +118,40 @@
      "place": "surf_beach",
      "weather": "",
      "time": "neon",
-     "moment": "sunscreen_streak",
-     "light": "",
-     "spot": "",
-     "depth": "",
-     "view": "",
-     "ofam": "roleplay",
-     "item": "flight_attendant",
-     "posture": "swim",
-     "support": "water",
-     "frame": "chest_up",
-     "body": "front",
-     "head": "with_body",
-     "camera": "high",
-     "right": "out",
-     "left": "out",
-     "use": "",
-     "legs": "",
-     "gaze": "camera",
-     "expr": "provocative",
-     "preset": "swim_close",
-     "turn": "front",
-     "ostyle": {
-      "acc": "hair_ribbon"
-     },
-     "aspect": "2:3",
-     "ocolor": "grey",
-     "shade": "slate",
-     "axes": {
-      "overall_intensity": "strong",
-      "skin_exposure": "bold",
-      "action_level": "mostly posed",
-      "source_influence": "balanced",
-      "separates_preference": "prefer separates"
-     },
-     "garments": [
-      "jacket"
-     ],
-     "expose": [
-      "plunging neckline",
-      "mini length"
-     ],
-     "lead": "action"
-    },
-    {
-     "cut": 4,
-     "treeV": 2,
-     "era": "now",
-     "place": "night_rooftop",
-     "weather": "",
-     "time": "night",
      "moment": "",
      "light": "side",
      "spot": "",
      "depth": "",
      "view": "",
      "ofam": "lingerie",
-     "item": "babydoll",
-     "posture": "lean_counter",
-     "support": "none",
-     "frame": "waist_up",
-     "body": "front_3q",
+     "item": "",
+     "posture": "lie_front",
+     "support": "front_floor",
+     "frame": "chest_up",
+     "body": "front",
      "head": "with_body",
-     "camera": "eye",
-     "right": "prop",
-     "left": "prop",
-     "use": "violin_play",
+     "camera": "floor",
+     "right": "chin_both",
+     "left": "chin_both",
+     "use": "",
      "legs": "",
-     "gaze": "",
-     "expr": "flustered",
-     "preset": "counter_work",
-     "turn": "left",
+     "gaze": "camera",
+     "expr": "provocative",
+     "preset": "lie_front_face",
+     "turn": "front",
      "ostyle": {
       "material": "embroidery",
-      "layer": "boyfriend_shirt"
+      "wear": "off_shoulder",
+      "acc": "hair_ribbon"
      },
-     "aspect": "1:1",
-     "ocolor": "brown",
-     "shade": "caramel",
+     "aspect": "3:2",
+     "ocolor": "grey",
+     "shade": "slate",
+     "situ": "",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
-      "action_level": "balanced",
+      "action_level": "mostly posed",
       "source_influence": "strong",
       "separates_preference": "balanced"
      },
@@ -208,7 +162,58 @@
       "sweetheart neckline",
       "high thigh slit"
      ],
-     "lead": "place"
+     "lead": "action"
+    },
+    {
+     "cut": 4,
+     "treeV": 2,
+     "era": "now",
+     "place": "flower_market",
+     "weather": "",
+     "time": "dawn",
+     "moment": "",
+     "light": "back",
+     "spot": "",
+     "depth": "",
+     "view": "",
+     "ofam": "roleplay",
+     "item": "flight_attendant",
+     "posture": "lean_counter",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "fbucket_sort",
+     "legs": "",
+     "gaze": "",
+     "expr": "flustered",
+     "preset": "counter_work",
+     "turn": "left",
+     "ostyle": {
+      "acc": "bangles"
+     },
+     "aspect": "1:1",
+     "ocolor": "pink",
+     "shade": "powder_pink",
+     "situ": "",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "jacket"
+     ],
+     "expose": [
+      "deep V neckline",
+      "cropped hem"
+     ],
+     "lead": "detail"
     },
     {
      "cut": 5,
@@ -259,7 +264,8 @@
       "deep V neckline",
       "halter neck"
      ],
-     "lead": "detail"
+     "lead": "detail",
+     "kept": true
     },
     {
      "cut": 6,
@@ -307,7 +313,8 @@
       "plunging neckline",
       "side cutouts"
      ],
-     "lead": "light"
+     "lead": "light",
+     "kept": true
     },
     {
      "cut": 7,
@@ -359,7 +366,8 @@
       "sweetheart neckline",
       "open back"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 8,
@@ -407,7 +415,8 @@
       "deep V neckline",
       "backless"
      ],
-     "lead": "place"
+     "lead": "place",
+     "kept": true
     },
     {
      "cut": 9,
@@ -458,7 +467,8 @@
       "plunging neckline",
       "cutout waist"
      ],
-     "lead": "action"
+     "lead": "action",
+     "kept": true
     },
     {
      "cut": 10,
@@ -505,6 +515,7 @@
       "one-shoulder cut"
      ],
      "lead": "light",
+     "kept": true,
      "cosplay": {
       "game": "street_fighter_2",
       "character": "T. Hawk",
@@ -514,7 +525,7 @@
     }
    ],
    "refill": true,
-   "stamp": "b05395a12c9fc86985467f830e3a6678dfb885d3067c7043c7114137df03763f"
+   "stamp": "365486e6c552c65d68bdaeda37e421d75876be41aed0de78901f7552442f5128"
   }
  ]
 }
